@@ -1,14 +1,14 @@
 {
   "schema": "linkedin-public-gaps/1",
   "run_id": "20261022-linkedin-pipeline-v6",
-  "updated_at": "2026-10-22T13:14:35.236192+00:00",
+  "updated_at": "2026-10-22T14:44:37.230800+00:00",
   "gaps": [
     {
       "id": "G01",
-      "status": "time_gated",
+      "status": "collection_gap",
       "gap": "v3 second observations",
-      "count": 100,
-      "next_task": "The current one-off process waits until 14:40 UTC. Preserve the actual six-hour minimum and access stops. Retain any missing observations as gaps. A collected snapshot does not automatically provide usable velocity."
+      "count": 2,
+      "next_task": "The one-off pass retained 98 of 100 observations. Two HTTP-200 bodies exceeded the 4 MB size cap: activities 7518006369120055296 and 7518193216072966144. No retry or cap relaxation was made. Keep both as missing observations; a future bounded source method needs verification. A collected snapshot does not automatically provide usable velocity."
     },
     {
       "id": "G02",

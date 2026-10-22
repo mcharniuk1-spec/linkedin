@@ -1,12 +1,12 @@
 {
   "status": "PASS",
   "schema": "linkedin-public-derived/1",
-  "source_dataset_sha256": "bd2f20f0f04fff1e346fbbf47253e8437a14124a6225876af0e77b66d12bc48b",
+  "source_dataset_sha256": "a91235e87579ae4fd85656bca35e9e2297a10e9dd2ab70d235b28fc7f06f4d22",
   "source_run_id": "20261022-linkedin-pipeline-v6",
   "counts": {
     "posts": 279,
     "accounts": 61,
-    "snapshots": 379,
+    "snapshots": 477,
     "media": 207,
     "author_decisions": 38,
     "prospects": 20,
@@ -20,8 +20,8 @@
     },
     "performance": {
       "insufficient_comparable_sample": 245,
-      "strong_sample_reference": 7,
-      "ordinary_sample_reference": 27
+      "strong_sample_reference": 8,
+      "ordinary_sample_reference": 26
     }
   },
   "checked": [
@@ -35,13 +35,13 @@
     "safe embedded JSON payload equality"
   ],
   "files": {
-    "dataset.json": "815d37efd309d608311b3ff8e723cb6b8ce7fdd3196e4fdd7ae19837d9f73b1e",
-    "derived.sqlite": "bfe77cc5daa83754264e83e9378b6ba641ef65ef454f1eb3eb1a683579b8973c",
-    "index.html": "b099383e1f40a81675f90805b84f12d7f838cd618b92d1a86a4a4775c2dec82f",
+    "dataset.json": "f8fff0ab3ee47f6d96ab6c4968c4864b78073bc25f75e8177a4f021b80a460b1",
+    "derived.sqlite": "d28f8c5b723748e43f0e163c182cdae12d29114f766918293270eafc8b457572",
+    "index.html": "40f29d86d0add70c6143a419288953a9e38f48ce6d0ccae92e5c7502b0b7e65a",
     "media.csv": "3891af2d3c6af60b308e718dcc5557f52b566897802e3f27988a06d246ae2bcd",
     "prospects.csv": "e0cc60390f100d87c76b51dff825681cc91982acdcfb677b87e7fc33dd025a78",
-    "qualification-table.csv": "aa530a4fabb85ee92b554bbcd84ed0e21ab731d0f343aa82e6f87ff441eb31f4",
-    "snapshots.csv": "c0bfe4b3ae14a2ba9969b6a112b2fb27043f605a46c2393410a9e29fe2c2abd6"
+    "qualification-table.csv": "a5c03f8a26756f19394c346efb26bbc8e2ed00755082accfe802fb8f8ade8f1e",
+    "snapshots.csv": "265f0108510511cf7470bf727a3281403acd408fb20f81b0313782757abdc8ee"
   },
   "limits": "Derived data only. No original source/media/full transcript redistribution, no actual listening/continuous watching or global ranking claim."
 }
