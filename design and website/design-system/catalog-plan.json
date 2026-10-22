@@ -1,0 +1,2740 @@
+{
+  "components": [
+    {
+      "id": "OS-C001",
+      "name": "Container",
+      "family": "layout",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:137",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "Container"
+      },
+      "story_ids": [
+        "foundations-container--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C002",
+      "name": "StackGrid",
+      "family": "layout",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:139",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "StackGrid"
+      },
+      "story_ids": [
+        "foundations-stackgrid--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C003",
+      "name": "SurfacePlate",
+      "family": "layout",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:141",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "SurfacePlate"
+      },
+      "story_ids": [
+        "foundations-surfaceplate--default",
+        "foundations-surfaceplate--materials"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C004",
+      "name": "DividerRule",
+      "family": "layout",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:143",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "DividerRule"
+      },
+      "story_ids": [
+        "foundations-dividerrule--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C005",
+      "name": "TypeRole",
+      "family": "foundation",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:145",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "TypeRole"
+      },
+      "story_ids": [
+        "foundations-typerole--default",
+        "foundations-typerole--roles"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C006",
+      "name": "LogoLockup",
+      "family": "identity",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:147",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "LogoLockup"
+      },
+      "story_ids": [
+        "foundations-logolockup--default",
+        "foundations-logolockup--inverse",
+        "foundations-logolockup--lockup",
+        "foundations-logolockup--inverse-lockup"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C007",
+      "name": "IconGlyph",
+      "family": "icon",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:149",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "IconGlyph"
+      },
+      "story_ids": [
+        "foundations-iconglyph--default",
+        "foundations-iconglyph--glyphs"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C008",
+      "name": "ActionButton",
+      "family": "action",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:151",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "ActionButton"
+      },
+      "story_ids": [
+        "actions-actionbutton--default",
+        "actions-actionbutton--states",
+        "actions-actionbutton--long-label"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C009",
+      "name": "TextLink",
+      "family": "action",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:153",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "TextLink"
+      },
+      "story_ids": [
+        "actions-textlink--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C010",
+      "name": "IconButton",
+      "family": "action",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:155",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "IconButton"
+      },
+      "story_ids": [
+        "actions-iconbutton--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C011",
+      "name": "TextField",
+      "family": "form",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:157",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "TextField"
+      },
+      "story_ids": [
+        "forms-textfield--default",
+        "forms-textfield--error",
+        "forms-textfield--disabled"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C012",
+      "name": "TextArea",
+      "family": "form",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:159",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "TextArea"
+      },
+      "story_ids": [
+        "forms-textarea--default",
+        "forms-textarea--error"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C013",
+      "name": "SelectField",
+      "family": "form",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:161",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "SelectField"
+      },
+      "story_ids": [
+        "forms-selectfield--default",
+        "forms-selectfield--disabled"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C014",
+      "name": "CheckboxField",
+      "family": "form",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:163",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "CheckboxField"
+      },
+      "story_ids": [
+        "forms-checkboxfield--default",
+        "forms-checkboxfield--checked"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C015",
+      "name": "FieldMessage",
+      "family": "form",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:165",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "FieldMessage"
+      },
+      "story_ids": [
+        "forms-fieldmessage--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C016",
+      "name": "StatusFeedback",
+      "family": "feedback",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:167",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "StatusFeedback"
+      },
+      "story_ids": [
+        "forms-statusfeedback--default",
+        "forms-statusfeedback--error",
+        "forms-statusfeedback--success"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C017",
+      "name": "Disclosure",
+      "family": "interaction",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:169",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "Disclosure"
+      },
+      "story_ids": [
+        "forms-disclosure--default",
+        "forms-disclosure--expanded"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C018",
+      "name": "NavigationHeader",
+      "family": "navigation",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:171",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "NavigationHeader"
+      },
+      "story_ids": [
+        "navigation-navigationheader--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C019",
+      "name": "NavigationFooter",
+      "family": "navigation",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:173",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "NavigationFooter"
+      },
+      "story_ids": [
+        "navigation-navigationfooter--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C020",
+      "name": "SectionHeading",
+      "family": "content",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:175",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "SectionHeading"
+      },
+      "story_ids": [
+        "content-sectionheading--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C021",
+      "name": "ServiceCard",
+      "family": "content",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:177",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "ServiceCard"
+      },
+      "story_ids": [
+        "content-servicecard--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C022",
+      "name": "PersonCard",
+      "family": "content",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:179",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "PersonCard"
+      },
+      "story_ids": [
+        "content-personcard--default",
+        "content-personcard--missing-media"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C023",
+      "name": "ResourceCard",
+      "family": "content",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:181",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "ResourceCard"
+      },
+      "story_ids": [
+        "content-resourcecard--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C024",
+      "name": "ContactFormSpecimen",
+      "family": "conversion",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:183",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "ContactFormSpecimen"
+      },
+      "story_ids": [
+        "forms-contactformspecimen--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C025",
+      "name": "CentralHeroBanner",
+      "family": "banner",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:185",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "CentralHeroBanner"
+      },
+      "story_ids": [
+        "banners-centralherobanner--default",
+        "banners-centralherobanner--missing-media",
+        "banners-centralherobanner--long-copy"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C026",
+      "name": "FullWidthSectionBanner",
+      "family": "banner",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:187",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "FullWidthSectionBanner"
+      },
+      "story_ids": [
+        "banners-fullwidthsectionbanner--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C027",
+      "name": "InlineContextBanner",
+      "family": "banner",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:189",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "InlineContextBanner"
+      },
+      "story_ids": [
+        "banners-inlinecontextbanner--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C028",
+      "name": "SideBanner",
+      "family": "banner",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:191",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "SideBanner"
+      },
+      "story_ids": [
+        "banners-sidebanner--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C029",
+      "name": "CTABanner",
+      "family": "banner",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:193",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "CTABanner"
+      },
+      "story_ids": [
+        "banners-ctabanner--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C030",
+      "name": "AnnouncementBanner",
+      "family": "banner",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:195",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "AnnouncementBanner"
+      },
+      "story_ids": [
+        "banners-announcementbanner--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C031",
+      "name": "PublicationVideoBanner",
+      "family": "banner",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:197",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "PublicationVideoBanner"
+      },
+      "story_ids": [
+        "banners-publicationvideobanner--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C032",
+      "name": "ChatLauncher",
+      "family": "chat",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:199",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "ChatLauncher"
+      },
+      "story_ids": [
+        "chat-chatlauncher--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C033",
+      "name": "ChatPanel",
+      "family": "chat",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:201",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "ChatPanel"
+      },
+      "story_ids": [
+        "chat-chatpanel--default",
+        "chat-chatpanel--closed-launcher",
+        "chat-chatpanel--open-welcome",
+        "chat-chatpanel--empty-conversation",
+        "chat-chatpanel--active-conversation",
+        "chat-chatpanel--composing-sending",
+        "chat-chatpanel--waiting-streaming",
+        "chat-chatpanel--suggested-actions-resources",
+        "chat-chatpanel--human-handoff",
+        "chat-chatpanel--away-offline",
+        "chat-chatpanel--send-connection-error",
+        "chat-chatpanel--resolved-closed",
+        "chat-chatpanel--minimized-reopened",
+        "chat-chatpanel--long-media-message"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C034",
+      "name": "ChatMessage",
+      "family": "chat",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:203",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "ChatMessage"
+      },
+      "story_ids": [
+        "chat-chatmessage--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C035",
+      "name": "ChatComposer",
+      "family": "chat",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:205",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "ChatComposer"
+      },
+      "story_ids": [
+        "chat-chatcomposer--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C036",
+      "name": "ChatStatusActions",
+      "family": "chat",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:207",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "ChatStatusActions"
+      },
+      "story_ids": [
+        "chat-chatstatusactions--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C037",
+      "name": "SchemaNode",
+      "family": "diagram",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:209",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "SchemaNode"
+      },
+      "story_ids": [
+        "schemas-schemanode--default",
+        "schemas-schemanode--all-roles"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C038",
+      "name": "SchemaConnector",
+      "family": "diagram",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:211",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "SchemaConnector"
+      },
+      "story_ids": [
+        "schemas-schemaconnector--default",
+        "schemas-schemaconnector--all-relations"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C039",
+      "name": "SchemaGroup",
+      "family": "diagram",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:213",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "SchemaGroup"
+      },
+      "story_ids": [
+        "schemas-schemagroup--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C040",
+      "name": "SchemaLegend",
+      "family": "diagram",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:215",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "SchemaLegend"
+      },
+      "story_ids": [
+        "schemas-schemalegend--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C041",
+      "name": "SchemaFlow",
+      "family": "diagram",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:217",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "SchemaFlow"
+      },
+      "story_ids": [
+        "schemas-schemaflow--default",
+        "schemas-schemaflow--linear-flow",
+        "schemas-schemaflow--labeled-branch",
+        "schemas-schemaflow--revision-loop",
+        "schemas-schemaflow--layered-architecture",
+        "schemas-schemaflow--human-system-swimlane",
+        "schemas-schemaflow--comparison",
+        "schemas-schemaflow--long-labels",
+        "schemas-schemaflow--invalid-model"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C042",
+      "name": "ProofDataCard",
+      "family": "proof",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:219",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "ProofDataCard"
+      },
+      "story_ids": [
+        "editorial-proofdatacard--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C043",
+      "name": "EditorialLabel",
+      "family": "editorial",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:221",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "EditorialLabel"
+      },
+      "story_ids": [
+        "editorial-editoriallabel--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C044",
+      "name": "QuoteAttribution",
+      "family": "editorial",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:223",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "QuoteAttribution"
+      },
+      "story_ids": [
+        "editorial-quoteattribution--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C045",
+      "name": "ChecklistSteps",
+      "family": "editorial",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:225",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "ChecklistSteps"
+      },
+      "story_ids": [
+        "editorial-checkliststeps--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C046",
+      "name": "ComparisonGrid",
+      "family": "editorial",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:227",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "ComparisonGrid"
+      },
+      "story_ids": [
+        "editorial-comparisongrid--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C047",
+      "name": "SourceFootnote",
+      "family": "editorial",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:229",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "SourceFootnote"
+      },
+      "story_ids": [
+        "editorial-sourcefootnote--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C048",
+      "name": "NativePostFrame",
+      "family": "editorial",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:231",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "NativePostFrame"
+      },
+      "story_ids": [
+        "editorial-nativepostframe--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C049",
+      "name": "MediaShellMask",
+      "family": "editorial",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:233",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "MediaShellMask"
+      },
+      "story_ids": [
+        "editorial-mediashellmask--default",
+        "editorial-mediashellmask--broken-media"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C050",
+      "name": "MetricWithSource",
+      "family": "editorial",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:235",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "MetricWithSource"
+      },
+      "story_ids": [
+        "editorial-metricwithsource--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C051",
+      "name": "PaginationSeries",
+      "family": "editorial",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:237",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "PaginationSeries"
+      },
+      "story_ids": [
+        "editorial-paginationseries--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C052",
+      "name": "DemoFeedbackCard",
+      "family": "editorial",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "canonical React component and Storybook states",
+      "story_required": true,
+      "figma_node_id": "14:239",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "DemoFeedbackCard"
+      },
+      "story_ids": [
+        "editorial-demofeedbackcard--default",
+        "editorial-demofeedbackcard--comment",
+        "editorial-demofeedbackcard--long-text"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C053",
+      "name": "OpeningTitle",
+      "family": "motion_overlay",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "layered native master plus isolated preview/compositor adapter; no website page",
+      "story_required": false,
+      "figma_node_id": "14:241",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "OpeningTitle"
+      },
+      "story_ids": [
+        "video-openingtitle--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C054",
+      "name": "LowerThird",
+      "family": "motion_overlay",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "layered native master plus isolated preview/compositor adapter; no website page",
+      "story_required": false,
+      "figma_node_id": "14:243",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "LowerThird"
+      },
+      "story_ids": [
+        "video-lowerthird--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C055",
+      "name": "Captions",
+      "family": "motion_overlay",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "layered native master plus isolated preview/compositor adapter; no website page",
+      "story_required": false,
+      "figma_node_id": "14:245",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "Captions"
+      },
+      "story_ids": [
+        "video-captions--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C056",
+      "name": "EmphasisWordNumber",
+      "family": "motion_overlay",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "layered native master plus isolated preview/compositor adapter; no website page",
+      "story_required": false,
+      "figma_node_id": "14:247",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "EmphasisWordNumber"
+      },
+      "story_ids": [
+        "video-emphasiswordnumber--default",
+        "video-emphasiswordnumber--variants"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C057",
+      "name": "CitationOverlay",
+      "family": "motion_overlay",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "layered native master plus isolated preview/compositor adapter; no website page",
+      "story_required": false,
+      "figma_node_id": "14:249",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "CitationOverlay"
+      },
+      "story_ids": [
+        "video-citationoverlay--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C058",
+      "name": "ChapterDivider",
+      "family": "motion_overlay",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "layered native master plus isolated preview/compositor adapter; no website page",
+      "story_required": false,
+      "figma_node_id": "14:251",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "ChapterDivider"
+      },
+      "story_ids": [
+        "video-chapterdivider--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C059",
+      "name": "ClosingCTA",
+      "family": "motion_overlay",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "layered native master plus isolated preview/compositor adapter; no website page",
+      "story_required": false,
+      "figma_node_id": "14:253",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "ClosingCTA"
+      },
+      "story_ids": [
+        "video-closingcta--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C060",
+      "name": "WatermarkSignature",
+      "family": "motion_overlay",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "layered native master plus isolated preview/compositor adapter; no website page",
+      "story_required": false,
+      "figma_node_id": "14:255",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "WatermarkSignature"
+      },
+      "story_ids": [
+        "video-watermarksignature--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C061",
+      "name": "PresenterMediaScene",
+      "family": "scene",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "layered native master plus isolated preview/compositor adapter; no website page",
+      "story_required": false,
+      "figma_node_id": "14:257",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "PresenterMediaScene"
+      },
+      "story_ids": [
+        "scenes-presentermediascene--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C062",
+      "name": "ObjectProcessScene",
+      "family": "scene",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "layered native master plus isolated preview/compositor adapter; no website page",
+      "story_required": false,
+      "figma_node_id": "14:259",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "ObjectProcessScene"
+      },
+      "story_ids": [
+        "scenes-objectprocessscene--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C063",
+      "name": "EvidenceComparisonScene",
+      "family": "scene",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "layered native master plus isolated preview/compositor adapter; no website page",
+      "story_required": false,
+      "figma_node_id": "14:261",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "EvidenceComparisonScene"
+      },
+      "story_ids": [
+        "scenes-evidencecomparisonscene--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    },
+    {
+      "id": "OS-C064",
+      "name": "ClosingScene",
+      "family": "scene",
+      "state": "created_native_candidate",
+      "figma_native_required": true,
+      "implementation_scope": "layered native master plus isolated preview/compositor adapter; no website page",
+      "story_required": false,
+      "figma_node_id": "14:263",
+      "canonical_import": {
+        "path": "packages/ui/src/index.ts",
+        "export": "ClosingScene"
+      },
+      "story_ids": [
+        "scenes-closingscene--default"
+      ],
+      "qa_evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ]
+    }
+  ],
+  "semantic_object_families": [
+    {
+      "id": "OS-O201",
+      "name": "First-hand experience",
+      "meaning": "First-hand experience",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O201.json"
+    },
+    {
+      "id": "OS-O202",
+      "name": "Useful follow-up",
+      "meaning": "Useful follow-up",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O202.json"
+    },
+    {
+      "id": "OS-O203",
+      "name": "Founder voice",
+      "meaning": "Founder voice",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O203.json"
+    },
+    {
+      "id": "OS-O204",
+      "name": "Buyer problem",
+      "meaning": "Buyer problem",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O204.json"
+    },
+    {
+      "id": "OS-O205",
+      "name": "Buying group",
+      "meaning": "Buying group",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O205.json"
+    },
+    {
+      "id": "OS-O206",
+      "name": "Point of view",
+      "meaning": "Point of view",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O206.json"
+    },
+    {
+      "id": "OS-O207",
+      "name": "Capability to value",
+      "meaning": "Capability to value",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O207.json"
+    },
+    {
+      "id": "OS-O208",
+      "name": "Distinct position",
+      "meaning": "Distinct position",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O208.json"
+    },
+    {
+      "id": "OS-O209",
+      "name": "Content direction",
+      "meaning": "Content direction",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O209.json"
+    },
+    {
+      "id": "OS-O210",
+      "name": "Claim evidence",
+      "meaning": "Claim evidence",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O210.json"
+    },
+    {
+      "id": "OS-O211",
+      "name": "Technical trade-offs",
+      "meaning": "Technical trade-offs",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O211.json"
+    },
+    {
+      "id": "OS-O212",
+      "name": "Product decision",
+      "meaning": "Product decision",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O212.json"
+    },
+    {
+      "id": "OS-O213",
+      "name": "Source to draft",
+      "meaning": "Source to draft",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O213.json"
+    },
+    {
+      "id": "OS-O214",
+      "name": "Clear argument",
+      "meaning": "Clear argument",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O214.json"
+    },
+    {
+      "id": "OS-O215",
+      "name": "Focused idea",
+      "meaning": "Focused idea",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O215.json"
+    },
+    {
+      "id": "OS-O216",
+      "name": "Document sequence",
+      "meaning": "Document sequence",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O216.json"
+    },
+    {
+      "id": "OS-O217",
+      "name": "Founder video",
+      "meaning": "Founder video",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O217.json"
+    },
+    {
+      "id": "OS-O218",
+      "name": "Format adaptation",
+      "meaning": "Format adaptation",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O218.json"
+    },
+    {
+      "id": "OS-O219",
+      "name": "Exact revision",
+      "meaning": "Exact revision",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O219.json"
+    },
+    {
+      "id": "OS-O220",
+      "name": "Founder approval",
+      "meaning": "Founder approval",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O220.json"
+    },
+    {
+      "id": "OS-O221",
+      "name": "Ready-to-post handoff",
+      "meaning": "Ready-to-post handoff",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O221.json"
+    },
+    {
+      "id": "OS-O222",
+      "name": "Buyer relevance",
+      "meaning": "Buyer relevance",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O222.json"
+    },
+    {
+      "id": "OS-O223",
+      "name": "Learning review",
+      "meaning": "Learning review",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O223.json"
+    },
+    {
+      "id": "OS-O224",
+      "name": "Deliberate improvement",
+      "meaning": "Deliberate improvement",
+      "construction": "closedmeshGLB +transparentPNG +nativefunctionalSVG",
+      "state": "created_independently_reviewed_candidate_caption_required",
+      "path": "../brand-library/packages/assets/revisions/v2/objects/OS-O224.json"
+    }
+  ],
+  "logo_concepts": [
+    {
+      "id": "OS-LV2-001",
+      "direction": "Open Cadence",
+      "state": "created_independently_reviewed_candidate",
+      "figma_node_id": "7:2",
+      "path": "../brand-library/packages/assets/revisions/v2/identity/OS-LV2-001"
+    },
+    {
+      "id": "OS-LV2-002",
+      "direction": "Slipstream",
+      "state": "created_independently_reviewed_candidate",
+      "figma_node_id": "7:29",
+      "path": "../brand-library/packages/assets/revisions/v2/identity/OS-LV2-002"
+    },
+    {
+      "id": "OS-LV2-003",
+      "direction": "Turning Point",
+      "state": "created_independently_reviewed_candidate",
+      "figma_node_id": "7:56",
+      "path": "../brand-library/packages/assets/revisions/v2/identity/OS-LV2-003"
+    },
+    {
+      "id": "OS-LV2-004",
+      "direction": "Aperture",
+      "state": "created_independently_reviewed_candidate",
+      "figma_node_id": "7:83",
+      "path": "../brand-library/packages/assets/revisions/v2/identity/OS-LV2-004"
+    },
+    {
+      "id": "OS-LV2-005",
+      "direction": "Counterform",
+      "state": "created_independently_reviewed_candidate",
+      "figma_node_id": "7:110",
+      "path": "../brand-library/packages/assets/revisions/v2/identity/OS-LV2-005"
+    },
+    {
+      "id": "OS-LV2-006",
+      "direction": "Ascend",
+      "state": "created_independently_reviewed_candidate",
+      "figma_node_id": "7:137",
+      "path": "../brand-library/packages/assets/revisions/v2/identity/OS-LV2-006"
+    },
+    {
+      "id": "OS-LV2-007",
+      "direction": "Resonance",
+      "state": "created_independently_reviewed_candidate",
+      "figma_node_id": "7:164",
+      "path": "../brand-library/packages/assets/revisions/v2/identity/OS-LV2-007"
+    },
+    {
+      "id": "OS-LV2-008",
+      "direction": "Continuum",
+      "state": "created_independently_reviewed_candidate",
+      "figma_node_id": "7:191",
+      "path": "../brand-library/packages/assets/revisions/v2/identity/OS-LV2-008"
+    }
+  ],
+  "templates": {
+    "publications": [
+      {
+        "id": "OS-P001",
+        "name": "Personal profile banner",
+        "state": "planned"
+      },
+      {
+        "id": "OS-P002",
+        "name": "Company Page banner",
+        "state": "planned"
+      },
+      {
+        "id": "OS-P003",
+        "name": "Single-image insight",
+        "state": "planned"
+      },
+      {
+        "id": "OS-P004",
+        "name": "Quote/perspective",
+        "state": "planned"
+      },
+      {
+        "id": "OS-P005",
+        "name": "Checklist/framework",
+        "state": "planned"
+      },
+      {
+        "id": "OS-P006",
+        "name": "Document post",
+        "state": "planned"
+      },
+      {
+        "id": "OS-P007",
+        "name": "Case-study/before-after DEMO",
+        "state": "planned"
+      },
+      {
+        "id": "OS-P008",
+        "name": "Educational comparison",
+        "state": "planned"
+      },
+      {
+        "id": "OS-P009",
+        "name": "Domain/service story",
+        "state": "planned"
+      },
+      {
+        "id": "OS-P010",
+        "name": "Offer/resource launch",
+        "state": "planned"
+      },
+      {
+        "id": "OS-P011",
+        "name": "Video cover/overlay adapter",
+        "state": "planned"
+      },
+      {
+        "id": "OS-P012",
+        "name": "Article/newsletter",
+        "state": "planned"
+      },
+      {
+        "id": "OS-P013",
+        "name": "Campaign family composition kit",
+        "state": "planned"
+      }
+    ],
+    "video": [
+      {
+        "id": "OS-V001",
+        "name": "Presenter plus graphics",
+        "state": "planned"
+      },
+      {
+        "id": "OS-V002",
+        "name": "Screen/media demonstration",
+        "state": "planned"
+      },
+      {
+        "id": "OS-V003",
+        "name": "Object-led explanation",
+        "state": "planned"
+      },
+      {
+        "id": "OS-V004",
+        "name": "Step/process diagram",
+        "state": "planned"
+      },
+      {
+        "id": "OS-V005",
+        "name": "Quote/perspective DEMO",
+        "state": "planned"
+      },
+      {
+        "id": "OS-V006",
+        "name": "Before/after comparison DEMO",
+        "state": "planned"
+      },
+      {
+        "id": "OS-V007",
+        "name": "Data/evidence DEMO",
+        "state": "planned"
+      },
+      {
+        "id": "OS-V008",
+        "name": "Closing/action",
+        "state": "planned"
+      }
+    ],
+    "sales": [
+      {
+        "id": "OS-S001",
+        "name": "One-pager",
+        "state": "planned"
+      },
+      {
+        "id": "OS-S002",
+        "name": "Proposal",
+        "state": "planned"
+      },
+      {
+        "id": "OS-S003",
+        "name": "Deck",
+        "state": "planned"
+      },
+      {
+        "id": "OS-S004",
+        "name": "Email treatment",
+        "state": "planned"
+      }
+    ]
+  },
+  "figma_pages": [
+    {
+      "key": "identity",
+      "name": "01 Identity & Foundations",
+      "page_id": "0:1",
+      "stage1_state": "populated_native_candidate"
+    },
+    {
+      "key": "objects",
+      "name": "02 Objects & Media",
+      "page_id": "2:2",
+      "stage1_state": "populated_native_candidate"
+    },
+    {
+      "key": "components",
+      "name": "03 Components & Applications",
+      "page_id": "2:3",
+      "stage1_state": "populated_native_candidate"
+    }
+  ],
+  "pool_class_coverage": [
+    {
+      "class": "Identity marks",
+      "deliverable_ids": [
+        "OS-D03"
+      ],
+      "decision": "include",
+      "mapping": "OS-C006",
+      "state": "planned"
+    },
+    {
+      "class": "Graphic text",
+      "deliverable_ids": [
+        "OS-D03",
+        "OS-D04"
+      ],
+      "decision": "include",
+      "mapping": "OS-C005, OS-C053, OS-C056",
+      "state": "planned"
+    },
+    {
+      "class": "Functional icons",
+      "deliverable_ids": [
+        "OS-D05"
+      ],
+      "decision": "include",
+      "mapping": "OS-C007",
+      "state": "planned"
+    },
+    {
+      "class": "Illustrated subject objects",
+      "deliverable_ids": [
+        "OS-D05"
+      ],
+      "decision": "include",
+      "mapping": "OS-O001\u2013OS-O016",
+      "state": "planned"
+    },
+    {
+      "class": "Hero/scenic compositions",
+      "deliverable_ids": [
+        "OS-D05",
+        "OS-D08"
+      ],
+      "decision": "limited_pilot",
+      "mapping": "OS-C025; sectional/editorial scene only",
+      "state": "planned"
+    },
+    {
+      "class": "Directional annotations",
+      "deliverable_ids": [
+        "OS-D05"
+      ],
+      "decision": "include",
+      "mapping": "OS-O001, OS-O002; native arrow/bracket/highlight variants",
+      "state": "planned"
+    },
+    {
+      "class": "Topic and action labels",
+      "deliverable_ids": [
+        "OS-D09"
+      ],
+      "decision": "include",
+      "mapping": "OS-C043",
+      "state": "planned"
+    },
+    {
+      "class": "Badges and stickers",
+      "deliverable_ids": [
+        "OS-D05"
+      ],
+      "decision": "include",
+      "mapping": "OS-O007 labeled tag/stamp variants; no false proof",
+      "state": "planned"
+    },
+    {
+      "class": "Surfaces and plates",
+      "deliverable_ids": [
+        "OS-D04",
+        "OS-D05"
+      ],
+      "decision": "include",
+      "mapping": "OS-C003, OS-O016",
+      "state": "planned"
+    },
+    {
+      "class": "Media frames and masks",
+      "deliverable_ids": [
+        "OS-D05"
+      ],
+      "decision": "include",
+      "mapping": "OS-C049, OS-O013",
+      "state": "planned"
+    },
+    {
+      "class": "People and portraits",
+      "deliverable_ids": [
+        "OS-D05"
+      ],
+      "decision": "limited_fictional",
+      "mapping": "OS-C022, OS-O010; real image rights unresolved",
+      "state": "planned"
+    },
+    {
+      "class": "Diagrams and process pieces",
+      "deliverable_ids": [
+        "OS-D07"
+      ],
+      "decision": "include",
+      "mapping": "OS-C037\u2013OS-C041",
+      "state": "planned"
+    },
+    {
+      "class": "Data and proof objects",
+      "deliverable_ids": [
+        "OS-D07",
+        "OS-D09"
+      ],
+      "decision": "include_demo",
+      "mapping": "OS-C042, OS-C050; real source or clear demo",
+      "state": "planned"
+    },
+    {
+      "class": "Website controls",
+      "deliverable_ids": [
+        "OS-D06"
+      ],
+      "decision": "include_library",
+      "mapping": "OS-C008\u2013OS-C019, OS-C024; local specimens",
+      "state": "planned"
+    },
+    {
+      "class": "Section/pattern assemblies",
+      "deliverable_ids": [
+        "OS-D08"
+      ],
+      "decision": "limited_pilot",
+      "mapping": "OS-C020\u2013OS-C025; no complete site",
+      "state": "planned"
+    },
+    {
+      "class": "Publication assemblies",
+      "deliverable_ids": [
+        "OS-D09"
+      ],
+      "decision": "include",
+      "mapping": "OS-P001\u2013OS-P013",
+      "state": "planned"
+    },
+    {
+      "class": "Video typography/overlays",
+      "deliverable_ids": [
+        "OS-D10"
+      ],
+      "decision": "include",
+      "mapping": "OS-C053\u2013OS-C060",
+      "state": "planned"
+    },
+    {
+      "class": "Motion and transitions",
+      "deliverable_ids": [
+        "OS-D10",
+        "OS-D12"
+      ],
+      "decision": "include",
+      "mapping": "OS-M001\u2013OS-M007",
+      "state": "planned"
+    },
+    {
+      "class": "Video scene assemblies",
+      "deliverable_ids": [
+        "OS-D10"
+      ],
+      "decision": "include",
+      "mapping": "OS-V001\u2013OS-V008 via OS-C061\u2013OS-C064 variants",
+      "state": "planned"
+    },
+    {
+      "class": "Characters and pose sets",
+      "deliverable_ids": [
+        "OS-D05"
+      ],
+      "decision": "not_applicable_stage1",
+      "mapping": "No recurring mascot demanded; exclude cartoon personality; presenter uses neutral role card only",
+      "state": "planned"
+    }
+  ],
+  "qa_coverage": [
+    {
+      "qa_id": "file_integrity",
+      "deliverable_ids": [
+        "OS-D03",
+        "OS-D05"
+      ],
+      "required_evidence": "Decode actual file; correct dimensions, MIME, file size and source hash.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "useful_alpha",
+      "deliverable_ids": [
+        "OS-D03",
+        "OS-D05"
+      ],
+      "required_evidence": "Useful transparent surround and visible subject; no opaque rectangle or all-transparent output.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "edge_quality",
+      "deliverable_ids": [
+        "OS-D03",
+        "OS-D05"
+      ],
+      "required_evidence": "No halo, missing fine parts, baked checkerboard, clipped subject or edge contamination.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "rights_provenance",
+      "deliverable_ids": [
+        "OS-D03",
+        "OS-D05"
+      ],
+      "required_evidence": "Source/rights and generation/repair lineage within approved scope.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "semantic_accuracy",
+      "deliverable_ids": [
+        "OS-D03",
+        "OS-D05"
+      ],
+      "required_evidence": "Correct meaning, subject and status; no misleading proof.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "unwanted_content",
+      "deliverable_ids": [
+        "OS-D03",
+        "OS-D05"
+      ],
+      "required_evidence": "No unintended lettering, third-party marks or stray content.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "style_grammar",
+      "deliverable_ids": [
+        "OS-D03",
+        "OS-D05"
+      ],
+      "required_evidence": "Matches approved geometry, perspective, material, palette, lighting, detail and shadow.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "family_fit",
+      "deliverable_ids": [
+        "OS-D03",
+        "OS-D05"
+      ],
+      "required_evidence": "Works with accepted family at required scales/surfaces without style conflict.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "focal_hierarchy",
+      "deliverable_ids": [
+        "OS-D08",
+        "OS-D09",
+        "OS-D10"
+      ],
+      "required_evidence": "Primary message, focal point, reading order and action are clear.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "optical_balance",
+      "deliverable_ids": [
+        "OS-D08",
+        "OS-D09",
+        "OS-D10"
+      ],
+      "required_evidence": "Alignment, whitespace, visual weight and text/image balance work at actual size.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "legibility_accessibility",
+      "deliverable_ids": [
+        "OS-D08",
+        "OS-D09",
+        "OS-D10"
+      ],
+      "required_evidence": "Readable text/contrast/alternatives; scoped manual review; full website accessibility remains implementation work.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "flexibility",
+      "deliverable_ids": [
+        "OS-D08",
+        "OS-D09",
+        "OS-D10"
+      ],
+      "required_evidence": "Required resize/crop/recompose/replacement cases work.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "video_continuity",
+      "deliverable_ids": [
+        "OS-D10"
+      ],
+      "required_evidence": "Independent layers, pivots, light/geometry continuity, timing and caption/source clearance work.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "exact_target_mapping",
+      "deliverable_ids": [
+        "OS-D13"
+      ],
+      "required_evidence": "Correct file/page, ordered accepted assets, actual result IDs and reconciled counts.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "imported_appearance",
+      "deliverable_ids": [
+        "OS-D13"
+      ],
+      "required_evidence": "Preserved transparency, bounds, fit, parenting, no clipping/overlap.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "responsive_container",
+      "deliverable_ids": [
+        "OS-D06",
+        "OS-D08"
+      ],
+      "required_evidence": "Native container sizing, wrapping, stacking and instances work.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "coverage_manifest",
+      "deliverable_ids": [
+        "OS-D15"
+      ],
+      "required_evidence": "Frozen category/variant/template requirements accounted for; no missing/extra/duplicate records.",
+      "state": "not_checked",
+      "scope_note": "Library/component/pilot evidence only; full website page scope deferred"
+    },
+    {
+      "qa_id": "independent_acceptance",
+      "deliverable_ids": [
+        "OS-D15"
+      ],
+      "required_evidence": "Distinct reviewer and owner acceptance cover exact version/scope; no publication authority inferred.",
+      "state": "not_checked",
+      "scope_note": "Library/component/pilot evidence only; full website page scope deferred"
+    },
+    {
+      "qa_id": "banner_adaptation",
+      "deliverable_ids": [
+        "OS-D07"
+      ],
+      "required_evidence": "Clear message, spacious hierarchy, contextual/mobile placement, valid action and no obstruction.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "support_chat_operation",
+      "deliverable_ids": [
+        "OS-D07"
+      ],
+      "required_evidence": "Truthful view/state behavior, focus, draft preservation, recovery, handoff and mobile coexistence; implementation evidence or explicit gap.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "schema_semantics",
+      "deliverable_ids": [
+        "OS-D07"
+      ],
+      "required_evidence": "All typed nodes and edges match model; endpoint, branch label, ownership and grouping clarity.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "schema_readability",
+      "deliverable_ids": [
+        "OS-D07"
+      ],
+      "required_evidence": "Distinct brand grammar, generous useful spacing, readable labels, clear routes and correct cross-media adaptation.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "canonical_component_reuse",
+      "deliverable_ids": [
+        "OS-D06"
+      ],
+      "required_evidence": "App and Storybook import one canonical reviewed module; component paths and IDs resolve.",
+      "state": "not_checked",
+      "scope_note": "Library/component/pilot evidence only; full website page scope deferred"
+    },
+    {
+      "qa_id": "token_drift",
+      "deliverable_ids": [
+        "OS-D04"
+      ],
+      "required_evidence": "Canonical values/aliases/modes map to derived code and Figma; exceptions and affected checks resolve.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "registry_provenance",
+      "deliverable_ids": [
+        "OS-D12"
+      ],
+      "required_evidence": "Required 21st evaluation, accepted source rights/dependencies/hash and adaptation evidence.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "storybook_coverage",
+      "deliverable_ids": [
+        "OS-D06"
+      ],
+      "required_evidence": "Relevant props/states/composite stories render with app parity and configured interaction/a11y plus manual review.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "motion_accessibility",
+      "deliverable_ids": [
+        "OS-D10",
+        "OS-D12"
+      ],
+      "required_evidence": "Shared preset behavior, reduced/static alternatives, interruption and explicit frame-based mapping pass.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "figma_code_parity",
+      "deliverable_ids": [
+        "OS-D13"
+      ],
+      "required_evidence": "Exact Figma component/property/token/story mapping and matched-state comparison; explicit gaps.",
+      "state": "not_checked",
+      "scope_note": "Library/component/pilot evidence only; full website page scope deferred"
+    },
+    {
+      "qa_id": "mcp_readiness",
+      "deliverable_ids": [
+        "OS-D12"
+      ],
+      "required_evidence": "Required server tools, account/access prerequisites, small calls and output verified; unavailable routes cannot be reported ready.",
+      "state": "not_checked",
+      "scope_note": null
+    },
+    {
+      "qa_id": "new_figma_document",
+      "deliverable_ids": [
+        "OS-D13"
+      ],
+      "required_evidence": "New Design file correct owner/destination; exact ordered 20-page map and required populated content read back.",
+      "state": "not_checked",
+      "scope_note": "Library/component/pilot evidence only; full website page scope deferred"
+    }
+  ],
+  "version": "2.0.0-candidate",
+  "status": "created_candidate_final_review",
+  "source": "Reviewed master-plan coverage; exact production files and IDs must be bound by executor",
+  "additional_scene_families": [
+    {
+      "id": "OS-SC001",
+      "name": "Founder/team/phone-to-audience scene",
+      "construction": "Real geometry for any promised camera rotation; matching 2D key art/fallback",
+      "state": "planned"
+    },
+    {
+      "id": "OS-SC002",
+      "name": "Expertise constellation",
+      "construction": "Seeded volumetric brain-shaped luminous points, 3\u20137 anchor points, accessible callouts and separate DOM content",
+      "state": "planned"
+    }
+  ],
+  "path_override": "The source analyst paths are proposals. Follow agent-config canonical ownership: existing design-system/tokens.json remains the token source; production code/assets go to ../brand-library. No duplicate authoritative tokens.",
+  "logo_rules": {
+    "count": 8,
+    "minimum": 5,
+    "maximum_requested": 10,
+    "primary_split": {
+      "Out": "#162760",
+      "spoken": "#3157D5",
+      "background": "#FFFFFF",
+      "spacing": "one continuous word; no accidental separating word gap"
+    },
+    "required_comparisons": [
+      "symbol only",
+      "wordmark only",
+      "symbol + wordmark",
+      "large display",
+      "small header/footer/publication",
+      "flat primary split",
+      "dark/inverse",
+      "one-color",
+      "subtle shallow silver/cobalt depth specimen"
+    ],
+    "review": "Independent identity specialist inspects every concept at intended sizes, silhouette/geometry, spacing, counterforms, color balance and similarity risk. Recommend strongest and use it consistently in Stage 1 candidate examples; owner acceptance remains separate. No legal clearance claim.",
+    "current_revision": "V2 original3Dplateforms; Out#D4DD67/spoken#162760 or#101218; flat counterparts are source-derivedcontours; owneracceptancepending"
+  },
+  "historical_figma_pages": [
+    {
+      "key": "start",
+      "name": "00 Start here",
+      "stage1_state": "planned_populated",
+      "page_id": null
+    },
+    {
+      "key": "brand",
+      "name": "01 Brand book",
+      "stage1_state": "planned_populated",
+      "page_id": null
+    },
+    {
+      "key": "identity",
+      "name": "02 Identity and wordmarks",
+      "stage1_state": "planned_populated",
+      "page_id": null
+    },
+    {
+      "key": "color",
+      "name": "03 Color and semantic tokens",
+      "stage1_state": "planned_populated",
+      "page_id": null
+    },
+    {
+      "key": "type_layout",
+      "name": "04 Typography and layout",
+      "stage1_state": "planned_populated",
+      "page_id": null
+    },
+    {
+      "key": "objects",
+      "name": "05 Visual object library",
+      "stage1_state": "planned_populated",
+      "page_id": null
+    },
+    {
+      "key": "icons",
+      "name": "06 Icons and annotations",
+      "stage1_state": "planned_populated",
+      "page_id": null
+    },
+    {
+      "key": "schemas",
+      "name": "07 Block schemas and data",
+      "stage1_state": "planned_populated",
+      "page_id": null
+    },
+    {
+      "key": "ui",
+      "name": "08 Website UI components",
+      "stage1_state": "planned_populated",
+      "page_id": null
+    },
+    {
+      "key": "banner_chat",
+      "name": "09 Banners and support chat",
+      "stage1_state": "planned_populated",
+      "page_id": null
+    },
+    {
+      "key": "web_blocks",
+      "name": "10 Website blocks and flows",
+      "stage1_state": "planned_populated",
+      "page_id": null
+    },
+    {
+      "key": "web_pages",
+      "name": "11 Website pages and screens",
+      "stage1_state": "gated_stage2_scope_note",
+      "page_id": null
+    },
+    {
+      "key": "publications",
+      "name": "12 Publications and LinkedIn",
+      "stage1_state": "planned_populated",
+      "page_id": null
+    },
+    {
+      "key": "video",
+      "name": "13 Video objects and scenes",
+      "stage1_state": "planned_populated",
+      "page_id": null
+    },
+    {
+      "key": "motion",
+      "name": "14 Motion and transitions",
+      "stage1_state": "planned_populated",
+      "page_id": null
+    },
+    {
+      "key": "sales",
+      "name": "15 Sales and documents",
+      "stage1_state": "planned_populated",
+      "page_id": null
+    },
+    {
+      "key": "examples",
+      "name": "16 Applied examples",
+      "stage1_state": "planned_populated",
+      "page_id": null
+    },
+    {
+      "key": "handoff",
+      "name": "17 AI and developer handoff",
+      "stage1_state": "planned_populated",
+      "page_id": null
+    },
+    {
+      "key": "qa",
+      "name": "18 QA and release",
+      "stage1_state": "planned_populated",
+      "page_id": null
+    },
+    {
+      "key": "archive",
+      "name": "99 Archive and experiments",
+      "stage1_state": "planned_populated",
+      "page_id": null
+    }
+  ],
+  "current_owner_override": "2026-10-19 owner maximum3pages; preserve original v5 logical coverage as sections.8newsculpturalidentities,24objectfamilies,5photostudies.",
+  "logical_section_mapping": {
+    "start": "identity",
+    "brand": "identity",
+    "identity": "identity",
+    "color": "identity",
+    "type_layout": "identity",
+    "objects": "objects",
+    "icons": "objects",
+    "schemas": "components",
+    "ui": "components",
+    "banner_chat": "components",
+    "web_blocks": "components",
+    "web_pages": "components",
+    "publications": "components",
+    "video": "components",
+    "motion": "components",
+    "sales": "components",
+    "examples": "components",
+    "handoff": "components",
+    "qa": "components",
+    "archive": "components"
+  },
+  "current_assets": {
+    "identity": {
+      "count": 8,
+      "path": "brand-library/packages/assets/revisions/v2/identity/manifest.json",
+      "recommendation": "OS-LV2-001",
+      "small_alternate": "OS-LV2-004"
+    },
+    "objects": {
+      "count": 24,
+      "path": "brand-library/packages/assets/revisions/v2/objects"
+    },
+    "photos": {
+      "count": 5,
+      "path": "brand-library/packages/assets/revisions/v2/photos/frames/manifest.json"
+    }
+  },
+  "historical_logo_concepts": [
+    {
+      "id": "OS-L001",
+      "direction": "Split editorial wordmark",
+      "state": "planned",
+      "required_axes": [
+        "split color",
+        "small/large",
+        "flat/shallow depth",
+        "wordmark/symbol/lockup"
+      ],
+      "production_rule": "exact native vector/text construction; not image-generated final lettering"
+    },
+    {
+      "id": "OS-L002",
+      "direction": "Bracket aperture",
+      "state": "planned",
+      "required_axes": [
+        "split color",
+        "small/large",
+        "flat/shallow depth",
+        "wordmark/symbol/lockup"
+      ],
+      "production_rule": "exact native vector/text construction; not image-generated final lettering"
+    },
+    {
+      "id": "OS-L003",
+      "direction": "OS counterform",
+      "state": "planned",
+      "required_axes": [
+        "split color",
+        "small/large",
+        "flat/shallow depth",
+        "wordmark/symbol/lockup"
+      ],
+      "production_rule": "exact native vector/text construction; not image-generated final lettering"
+    },
+    {
+      "id": "OS-L004",
+      "direction": "Folded margin",
+      "state": "planned",
+      "required_axes": [
+        "split color",
+        "small/large",
+        "flat/shallow depth",
+        "wordmark/symbol/lockup"
+      ],
+      "production_rule": "exact native vector/text construction; not image-generated final lettering"
+    },
+    {
+      "id": "OS-L005",
+      "direction": "Connected focus line",
+      "state": "planned",
+      "required_axes": [
+        "split color",
+        "small/large",
+        "flat/shallow depth",
+        "wordmark/symbol/lockup"
+      ],
+      "production_rule": "exact native vector/text construction; not image-generated final lettering"
+    },
+    {
+      "id": "OS-L006",
+      "direction": "Offset speaking interval",
+      "state": "planned",
+      "required_axes": [
+        "split color",
+        "small/large",
+        "flat/shallow depth",
+        "wordmark/symbol/lockup"
+      ],
+      "production_rule": "exact native vector/text construction; not image-generated final lettering"
+    },
+    {
+      "id": "OS-L007",
+      "direction": "Authored ligature",
+      "state": "planned",
+      "required_axes": [
+        "split color",
+        "small/large",
+        "flat/shallow depth",
+        "wordmark/symbol/lockup"
+      ],
+      "production_rule": "exact native vector/text construction; not image-generated final lettering"
+    },
+    {
+      "id": "OS-L008",
+      "direction": "Condensed typographic frame",
+      "state": "planned",
+      "required_axes": [
+        "split color",
+        "small/large",
+        "flat/shallow depth",
+        "wordmark/symbol/lockup"
+      ],
+      "production_rule": "exact native vector/text construction; not image-generated final lettering"
+    }
+  ],
+  "historical_semantic_object_families": [
+    {
+      "id": "OS-O001",
+      "name": "Editorial brackets",
+      "meaning": "authored voice and selected quotation",
+      "construction": "native vectors",
+      "state": "planned",
+      "variants": "only scale/orientation/surface variants required by named templates",
+      "source_rights": "to_record_per_asset",
+      "asset_ids": []
+    },
+    {
+      "id": "OS-O002",
+      "name": "Focus line",
+      "meaning": "thought-to-authored-content relationship",
+      "construction": "native vector; no decorative corner arrows",
+      "state": "planned",
+      "variants": "only scale/orientation/surface variants required by named templates",
+      "source_rights": "to_record_per_asset",
+      "asset_ids": []
+    },
+    {
+      "id": "OS-O003",
+      "name": "Authored page",
+      "meaning": "article and publication craft",
+      "construction": "native editable page layers",
+      "state": "planned",
+      "variants": "only scale/orientation/surface variants required by named templates",
+      "source_rights": "to_record_per_asset",
+      "asset_ids": []
+    },
+    {
+      "id": "OS-O004",
+      "name": "Native post",
+      "meaning": "LinkedIn post as illustrative content",
+      "construction": "editable native framing; visibly fictional",
+      "state": "planned",
+      "variants": "only scale/orientation/surface variants required by named templates",
+      "source_rights": "to_record_per_asset",
+      "asset_ids": []
+    },
+    {
+      "id": "OS-O005",
+      "name": "Draft stack",
+      "meaning": "content production stages",
+      "construction": "separate native planes or reviewed cutout",
+      "state": "planned",
+      "variants": "only scale/orientation/surface variants required by named templates",
+      "source_rights": "to_record_per_asset",
+      "asset_ids": []
+    },
+    {
+      "id": "OS-O006",
+      "name": "Editorial calendar",
+      "meaning": "planning and cadence",
+      "construction": "native schedule; no promised cadence",
+      "state": "planned",
+      "variants": "only scale/orientation/surface variants required by named templates",
+      "source_rights": "to_record_per_asset",
+      "asset_ids": []
+    },
+    {
+      "id": "OS-O007",
+      "name": "Review gate",
+      "meaning": "human review and revision",
+      "construction": "native labeled states; no false approval",
+      "state": "planned",
+      "variants": "only scale/orientation/surface variants required by named templates",
+      "source_rights": "to_record_per_asset",
+      "asset_ids": []
+    },
+    {
+      "id": "OS-O008",
+      "name": "Interview/story cards",
+      "meaning": "founder source and story selection",
+      "construction": "native cards; no literal microphone",
+      "state": "planned",
+      "variants": "only scale/orientation/surface variants required by named templates",
+      "source_rights": "to_record_per_asset",
+      "asset_ids": []
+    },
+    {
+      "id": "OS-O009",
+      "name": "Conversation nodes",
+      "meaning": "relationships and exchange",
+      "construction": "native typed connections",
+      "state": "planned",
+      "variants": "only scale/orientation/surface variants required by named templates",
+      "source_rights": "to_record_per_asset",
+      "asset_ids": []
+    },
+    {
+      "id": "OS-O010",
+      "name": "Role/profile cards",
+      "meaning": "human responsibility and authorship",
+      "construction": "Original realistic fictional portraits plus the separate founder silhouette scene. Use real-person likeness only with task-specific rights/authority; fictional people must not imply real customers.",
+      "state": "planned",
+      "variants": "only scale/orientation/surface variants required by named templates",
+      "source_rights": "to_record_per_asset",
+      "asset_ids": []
+    },
+    {
+      "id": "OS-O011",
+      "name": "Source artifacts",
+      "meaning": "traceable evidence and quotations",
+      "construction": "native source cards",
+      "state": "planned",
+      "variants": "only scale/orientation/surface variants required by named templates",
+      "source_rights": "to_record_per_asset",
+      "asset_ids": []
+    },
+    {
+      "id": "OS-O012",
+      "name": "Measurement frame",
+      "meaning": "reporting and comparison",
+      "construction": "synthetic data visibly labeled; no outcomes",
+      "state": "planned",
+      "variants": "only scale/orientation/surface variants required by named templates",
+      "source_rights": "to_record_per_asset",
+      "asset_ids": []
+    },
+    {
+      "id": "OS-O013",
+      "name": "Media shell",
+      "meaning": "post, screen, portrait and video framing",
+      "construction": "thin cobalt rim with neutral silver; native masks",
+      "state": "planned",
+      "variants": "only scale/orientation/surface variants required by named templates",
+      "source_rights": "to_record_per_asset",
+      "asset_ids": []
+    },
+    {
+      "id": "OS-O014",
+      "name": "Shallow nickel form",
+      "meaning": "selected focal/support material study",
+      "construction": "original shallow cutout inside editorial specimens",
+      "state": "planned",
+      "variants": "only scale/orientation/surface variants required by named templates",
+      "source_rights": "to_record_per_asset",
+      "asset_ids": []
+    },
+    {
+      "id": "OS-O015",
+      "name": "Solid cobalt fold",
+      "meaning": "crafted depth and emphasis",
+      "construction": "native vector/approved isolated cutout",
+      "state": "planned",
+      "variants": "only scale/orientation/surface variants required by named templates",
+      "source_rights": "to_record_per_asset",
+      "asset_ids": []
+    },
+    {
+      "id": "OS-O016",
+      "name": "Caption/source plate",
+      "meaning": "legible text support across scenes",
+      "construction": "native editable surfaces",
+      "state": "planned",
+      "variants": "only scale/orientation/surface variants required by named templates",
+      "source_rights": "to_record_per_asset",
+      "asset_ids": []
+    }
+  ],
+  "current_application_exports": "../brand-library/packages/content/revisions/v2/manifest.json"
+}

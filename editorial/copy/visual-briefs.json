@@ -1,0 +1,215 @@
+{
+  "run": "20261022-outspoken-editorial-v8",
+  "status": "early copywriter briefs for root asset generation",
+  "palette_source": "design-system/tokens.json",
+  "visuals": [
+    {
+      "post_id": "P01",
+      "headline": "A post is the last step, not the first.",
+      "nodes": [
+        "Customer question",
+        "Founder decision",
+        "Product trade-off",
+        "Buyer implication",
+        "Publishable point",
+        "New question"
+      ],
+      "mechanism": "Five-node sequence with a feedback loop from publishable point to new question.",
+      "label": "Illustrative method",
+      "style": "Editable diagram; current OUTSPOKEN palette, high contrast, generous mobile spacing; no fake metrics or customer evidence."
+    },
+    {
+      "post_id": "P02",
+      "headline": "“We use AI” tells a buyer almost nothing.",
+      "nodes": [
+        "Generic claim: AI automates support",
+        "Mechanism: groups incoming requests by intent",
+        "Buyer consequence: review recurring failure themes before planning"
+      ],
+      "mechanism": "Three-column claim → mechanism → buyer consequence comparison.",
+      "label": "Hypothetical example",
+      "style": "Editable type, clear column hierarchy; no product UI or asserted company."
+    },
+    {
+      "post_id": "P03",
+      "headline": "The product story is often hidden in the decision.",
+      "nodes": [
+        "Constraint",
+        "Options considered",
+        "Evidence",
+        "Choice",
+        "Accepted cost",
+        "Buyer affected",
+        "Who might choose differently?"
+      ],
+      "mechanism": "Branching choices reconverge into one decision and trade-off.",
+      "label": "Illustrative structure",
+      "style": "Editable flowchart; restrained navy/cobalt/nickel; no fake product interface."
+    },
+    {
+      "post_id": "P04",
+      "headline": "Ask founders about decisions, not just quotable lines.",
+      "nodes": [
+        "What changed?",
+        "What did you expect?",
+        "What evidence changed your mind?",
+        "Which option did you reject?",
+        "What remains uncertain?"
+      ],
+      "mechanism": "Five prompt cards form a simple interview guide.",
+      "label": "Prompt sheet, not a delivery-cadence claim",
+      "style": "Large readable prompts, editable text, quiet vertical composition."
+    },
+    {
+      "post_id": "P05",
+      "headline": "One conversation can lead to several different questions.",
+      "nodes": [
+        "Verified source topic",
+        "Customer problem",
+        "Founder judgment",
+        "Product detail",
+        "Evidence check"
+      ],
+      "mechanism": "One source node branches into three distinct editorial routes; no volume funnel.",
+      "label": "Possible editorial routes",
+      "style": "Editable hub-and-spoke diagram with evidence question under each branch."
+    },
+    {
+      "post_id": "P06",
+      "headline": "A buyer needs to recognize the problem before the product.",
+      "nodes": [
+        "Buyer situation",
+        "Friction",
+        "Current workaround",
+        "Product mechanism",
+        "Next question",
+        "Source / owner / date / to verify"
+      ],
+      "mechanism": "Five-stage buyer-first sequence with a narrow evidence rail below.",
+      "label": "Editorial method",
+      "style": "Editable boxes and evidence fields, strong reading order."
+    },
+    {
+      "post_id": "P07",
+      "headline": "Technical depth matters when it changes the buyer’s decision.",
+      "nodes": [
+        "System mechanism",
+        "Buyer decision it supports",
+        "Evidence needed before time/cost/accuracy claims"
+      ],
+      "mechanism": "Two-layer explanation separated from an explicit claim-evidence boundary.",
+      "label": "Hypothetical example",
+      "style": "Use generic made-up example only; no real product claim."
+    },
+    {
+      "post_id": "P08",
+      "headline": "“Was LinkedIn worth it?” contains five different questions.",
+      "nodes": [
+        "Founder time",
+        "Relevant people know the business",
+        "Buyer trust",
+        "Suitable conversations",
+        "Sales-team use"
+      ],
+      "mechanism": "Five separate equal-weight tiles; no connecting arrows.",
+      "label": "Hypotheses, not results",
+      "style": "Editable cards with possible signal notes; no funnel or combined score."
+    },
+    {
+      "post_id": "P09",
+      "headline": "A reaction is not the same thing as a buyer signal.",
+      "nodes": [
+        "Reaction",
+        "Relevant profile activity",
+        "Substantive buyer reply",
+        "Conversation naming a problem",
+        "Attributed commercial outcome"
+      ],
+      "mechanism": "Evidence ladder with “different evidence; not automatic progression” label.",
+      "label": "Measurement guide",
+      "style": "Editable steps; distinguish denominator and time window; no impressions/conversion inference."
+    },
+    {
+      "post_id": "P10",
+      "headline": "If a sentence could fit any AI startup, it needs another detail.",
+      "nodes": [
+        "Task",
+        "Constraint",
+        "Buyer decision",
+        "Hypothetical before/after copy"
+      ],
+      "mechanism": "Three edit callouts point into an editable before/after example.",
+      "label": "Hypothetical example",
+      "style": "No logo/client/result. Large readable before/after copy."
+    },
+    {
+      "post_id": "P11",
+      "headline": "Distribution starts with a reason to continue.",
+      "nodes": [
+        "Useful post",
+        "Relevant reply",
+        "Genuine question",
+        "Optional next step",
+        "Manual and context-specific"
+      ],
+      "mechanism": "Four-step conversation map, with no performance funnel.",
+      "label": "No scraping or bulk sending; authority required for real contact",
+      "style": "Editable text-first flow, no reaction-bait imagery."
+    },
+    {
+      "post_id": "P12",
+      "headline": "A useful post can help sales without becoming a pitch.",
+      "nodes": [
+        "Teach a method",
+        "Explain a product trade-off",
+        "Clarify product fit",
+        "Reader’s next decision"
+      ],
+      "mechanism": "Three distinct post-role cards connect to different buyer tasks.",
+      "label": "Possible content roles; no deal influence implied",
+      "style": "Editable cards; no fake deal proof."
+    },
+    {
+      "post_id": "P13",
+      "headline": "Good founder content keeps the evidence attached.",
+      "nodes": [
+        "Draft point",
+        "Source",
+        "Verifier",
+        "Status: fact / interpretation / opinion / hypothesis / gap",
+        "Approved wording"
+      ],
+      "mechanism": "Small editorial source-ledger specimen with one generic illustrative row.",
+      "label": "Illustrative layout",
+      "style": "Editable fields, no private notes or copied public posts."
+    },
+    {
+      "post_id": "P14",
+      "headline": "Turn one product decision into a buyer-relevant post.",
+      "nodes": [
+        "Buyer question",
+        "Constraint",
+        "Options",
+        "Evidence",
+        "User consequence"
+      ],
+      "mechanism": "Presenter fills five editable worksheet boxes in sequence; generic hypothetical example.",
+      "label": "Hypothetical; fictional performer only",
+      "style": "Five-shot script planned separately; readable captions."
+    },
+    {
+      "post_id": "P15",
+      "headline": "Five different answers can hide inside “Was LinkedIn worth it?”",
+      "nodes": [
+        "Founder time",
+        "Awareness",
+        "Trust",
+        "Conversations",
+        "Sales use"
+      ],
+      "mechanism": "Presenter introduces five separate measure cards with no funnel.",
+      "label": "Hypotheses—not results; fictional performer only",
+      "style": "Five-shot script planned separately; readable captions."
+    }
+  ]
+}

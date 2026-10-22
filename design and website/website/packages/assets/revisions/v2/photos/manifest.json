@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0-candidate",
+  "expectedCount": 5,
+  "photos": [
+    {
+      "id": "OS-PH201",
+      "path": "OS-PH201.png",
+      "sha256": "074c566fb5fea52a03fa21bafb52c6ea91e6e790ac412fe6d634b1b14b566deb",
+      "prompt": "[dated-local-evidence-omitted]",
+      "rights": "Original generated fictional media; label required; no real customer evidence",
+      "fictional_label_required": true
+    },
+    {
+      "id": "OS-PH202",
+      "path": "OS-PH202.png",
+      "sha256": "7b5c5743f86e8ac1d34a56afbb15265a1a43d78ff5612cff611620addd143a9b",
+      "prompt": "[dated-local-evidence-omitted]",
+      "rights": "Original generated fictional media; label required; no real customer evidence",
+      "fictional_label_required": true
+    },
+    {
+      "id": "OS-PH203",
+      "path": "OS-PH203.png",
+      "sha256": "820120d5b05f9aba3269d4547861d0992514b2398bad50a1be6734409b8ceba1",
+      "prompt": "[dated-local-evidence-omitted]",
+      "rights": "Original generated fictional media; label required; no real customer evidence",
+      "fictional_label_required": true
+    },
+    {
+      "id": "OS-PH204",
+      "path": "OS-PH204.png",
+      "sha256": "99f4337e4d8c3119e670e3958f24475a2ef22df83aa9822c4f47e9131c123fc8",
+      "prompt": "[dated-local-evidence-omitted]",
+      "rights": "Original generated fictional media; label required; no real customer evidence",
+      "fictional_label_required": true
+    },
+    {
+      "id": "OS-PH205",
+      "path": "OS-PH205.png",
+      "sha256": "f1364bab63122895af095145d6f64393b2166096b23017bf585da17a4f20192b",
+      "prompt": "[dated-local-evidence-omitted]",
+      "rights": "Original generated fictional media; label required; no real customer evidence",
+      "fictional_label_required": true
+    }
+  ],
+  "generation_ledger": "[dated-local-evidence-omitted]",
+  "frames": "frames/manifest.json",
+  "owner_accepted": false
+}

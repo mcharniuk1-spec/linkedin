@@ -1,0 +1,142 @@
+{
+  "version": "3.1.0-pricing-proposal",
+  "status": "Owner-requested proposed commercial packages; root/owner review pending",
+  "observed_date": "2026-10-20",
+  "public_label": "Indicative packages — final scope confirmed together",
+  "currency": "EUR",
+  "packages": [
+    {
+      "id": "foundation",
+      "name": "Positioning Sprint",
+      "price": 1500,
+      "currency": "EUR",
+      "period": "one-off",
+      "display_price": "€1,500",
+      "descriptor": "A focused foundation before an ongoing program.",
+      "deliverables": [
+        "One founder/buyer-positioning workshop",
+        "LinkedIn headline, About and featured-section plan",
+        "Buyer-language and search-term map",
+        "Four editorial themes and a 30-day direction",
+        "Founder/company message alignment brief"
+      ],
+      "not_included": [
+        "Ongoing writing or publishing",
+        "Ad management or ad spend",
+        "Automated outreach or live account actions"
+      ],
+      "interviews": "One structured 60-minute source conversation plus a review session.",
+      "scope_note": "One founder profile. Project timing and revisions confirmed in the brief."
+    },
+    {
+      "id": "presence",
+      "name": "Founder Presence",
+      "price": 2500,
+      "currency": "EUR",
+      "period": "month",
+      "display_price": "€2,500 / month",
+      "descriptor": "A consistent editorial presence around one founder.",
+      "deliverables": [
+        "Eight original LinkedIn pieces/month, including up to two carousel or visual pieces",
+        "Two regular 45-minute founder interviews/month",
+        "Profile and publication language aligned to buyer search intent",
+        "Source notes, technical/voice review and agreed approval workflow",
+        "Monthly content and qualified-response review"
+      ],
+      "not_included": [
+        "Media spend",
+        "Autonomous publishing or relationship activity",
+        "Unlimited video production",
+        "A guaranteed ranking, lead or revenue outcome"
+      ],
+      "interviews": "Two 45-minute source interviews/month; asynchronous factual review.",
+      "scope_note": "One founder. Format mix, approval timing and tooling confirmed before work starts."
+    },
+    {
+      "id": "partner",
+      "name": "Founder + Company",
+      "price": 3900,
+      "currency": "EUR",
+      "period": "month",
+      "display_price": "€3,900 / month",
+      "descriptor": "Connect the founder’s voice to the company story.",
+      "deliverables": [
+        "Twelve founder LinkedIn pieces/month, including up to four visual/document pieces",
+        "Four company adaptations/month, each with a separate purpose",
+        "Weekly 30-minute founder/source interviews",
+        "Monthly outreach and customer-conversation copy review",
+        "Campaign creative direction and a monthly learning review",
+        "Up to two short video edits from permissioned supplied footage instead of two written pieces"
+      ],
+      "not_included": [
+        "Ad spend and paid media buying unless separately scoped",
+        "Inbox takeover, bulk messaging or connection automation",
+        "New filming, voice cloning or unlicensed footage",
+        "A promise of meetings, reach or revenue"
+      ],
+      "interviews": "Weekly 30-minute source conversations; technical expert input when required.",
+      "scope_note": "One founder plus one company voice. Final capacity, cadence, terms and permissions require agreement."
+    }
+  ],
+  "tax_and_cost_note": "Proposed service fees. Applicable taxes, platform subscriptions and media spend are additional where required. Commercial terms remain to be agreed.",
+  "basis": {
+    "source": "content/price-benchmark.json",
+    "method": "Original EUR offer architecture informed by the field’s modular service mix and displayed order-of-magnitude fees. These rates are a commercial proposal,not an exchange-rate conversion or computed competitor average.",
+    "limitations": [
+      "No delivery-cost or capacity audit",
+      "No margin target validated",
+      "No buyer willingness-to-pay study",
+      "No directly comparable15-company mean",
+      "No owner acceptance of final rates inferred"
+    ]
+  },
+  "scope_extensions": {
+    "search": {
+      "title": "LinkedIn search,profile and publication optimization",
+      "copy": "Use the language your intended buyers recognize. Align the profile, company description and publication themes with the problems and terms that matter to them, then review available Search Appearances and response data.",
+      "deliverables": [
+        "Buyer-language/search-term hypothesis map",
+        "Natural profile headline/About/experience/skills alignment where relevant",
+        "Publication theme, title and on-screen wording clarity",
+        "Authorized Search Appearances baseline and review"
+      ],
+      "boundary": "No search position, keyword volume, ranking or algorithm boost is guaranteed. LinkedIn search observation is not website SEO or paid-ad targeting."
+    },
+    "outreach": {
+      "title": "Outreach and customer conversations",
+      "copy": "Make the next conversation relevant. Develop considerate conversation starters, follow-up copy and response guidance around an approved buyer and a genuine reason to speak.",
+      "deliverables": [
+        "Buyer-fit and reason-to-contact brief",
+        "Manual outreach and follow-up copy",
+        "Customer-question and response library",
+        "Review of authorized conversation themes"
+      ],
+      "boundary": "No scraping, bulk sending, inbox takeover or account action is implied. Any real contact requires approved scope, account authority and platform-compliant methods."
+    },
+    "interviews": {
+      "title": "Regular interviews,not a one-time download",
+      "copy": "Keep the content connected to the work. Regular founder and expert conversations capture new decisions, questions, evidence and stories as the business changes.",
+      "boundary": "Cadence and participation are agreed for each engagement. Confidential information and third-party stories require permission."
+    }
+  },
+  "official_platform_sources": [
+    {
+      "title": "LinkedIn Search Appearances",
+      "url": "https://www.linkedin.com/help/lms/answer/a553050",
+      "observed": "2026-10-20",
+      "supports": "Authorized profile search observations,not ranking guarantees"
+    },
+    {
+      "title": "Search for member posts",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a526104",
+      "observed": "2026-10-20",
+      "supports": "Keywords and filters exist for post discovery; no guaranteed ranking effect"
+    },
+    {
+      "title": "Automated activity on LinkedIn",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a1341543",
+      "observed": "2026-10-20",
+      "supports": "Avoid prohibited third-party scraping or automated website activity"
+    }
+  ]
+}

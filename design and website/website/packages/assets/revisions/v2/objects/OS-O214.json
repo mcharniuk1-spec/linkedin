@@ -1,0 +1,135 @@
+{
+  "version": "2.0.0",
+  "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+  "units": "nominal metres",
+  "pivot": "ground centre; Y up; +Z front",
+  "materialRecipe": {
+    "version": "2.0.0",
+    "seed": 191026,
+    "palette": {
+      "navy": "#162760",
+      "cobalt": "#3157D5",
+      "nickel": "#A9AFBA"
+    },
+    "brush": {
+      "direction": "horizontal local UV",
+      "resolution": [
+        1024,
+        512
+      ],
+      "bumpScale": 0.007
+    },
+    "light": {
+      "key": [
+        -3,
+        5,
+        6
+      ],
+      "fill": [
+        4,
+        1,
+        4
+      ],
+      "rim": [
+        2,
+        4,
+        -4
+      ]
+    },
+    "toneMapping": "ACESFilmic",
+    "exposure": 1.05
+  },
+  "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+  "id": "OS-O214",
+  "semanticKey": "O14",
+  "meaning": "Clear argument",
+  "layers": "Named closed meshes; editable geometry/materials; no baked text",
+  "bounds": {
+    "min": [
+      -0.9324999976158141,
+      0,
+      -0.30749999940395356
+    ],
+    "max": [
+      0.9324999976158141,
+      2.424999977350235,
+      0.30749999940395356
+    ]
+  },
+  "size": [
+    1.8649999952316283,
+    2.424999977350235,
+    0.6149999988079071
+  ],
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      3.5124999886751174,
+      6.5
+    ],
+    "lookAt": [
+      0,
+      1.2124999886751175,
+      0
+    ],
+    "extent": 1.577129160133393
+  },
+  "lighting": {
+    "key": [
+      -3,
+      5,
+      6
+    ],
+    "fill": [
+      4,
+      1,
+      4
+    ],
+    "rim": [
+      2,
+      4,
+      -4
+    ]
+  },
+  "render": {
+    "width": 1200,
+    "height": 1200,
+    "background": "transparent",
+    "color": "sRGB",
+    "toneMapping": "ACES Filmic 1.05"
+  },
+  "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+  "meshes": [
+    {
+      "name": "Supporting argument step 1",
+      "material": "Warm matte white reading leaf",
+      "vertices": 11748,
+      "triangles": 3916
+    },
+    {
+      "name": "Supporting argument step 2",
+      "material": "Warm matte white reading leaf",
+      "vertices": 11748,
+      "triangles": 3916
+    },
+    {
+      "name": "Supporting argument step 3",
+      "material": "Brushed anodised brilliant cobalt alloy",
+      "vertices": 11748,
+      "triangles": 3916
+    },
+    {
+      "name": "Clear supported main idea",
+      "material": "Brushed anodised deep navy alloy",
+      "vertices": 11748,
+      "triangles": 3916
+    },
+    {
+      "name": "Argument spine",
+      "material": "Fine brushed neutral nickel",
+      "vertices": 11736,
+      "triangles": 3912
+    }
+  ]
+}

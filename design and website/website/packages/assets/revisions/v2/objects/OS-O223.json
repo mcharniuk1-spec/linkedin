@@ -1,0 +1,123 @@
+{
+  "version": "2.0.0",
+  "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+  "units": "nominal metres",
+  "pivot": "ground centre; Y up; +Z front",
+  "materialRecipe": {
+    "version": "2.0.0",
+    "seed": 191026,
+    "palette": {
+      "navy": "#162760",
+      "cobalt": "#3157D5",
+      "nickel": "#A9AFBA"
+    },
+    "brush": {
+      "direction": "horizontal local UV",
+      "resolution": [
+        1024,
+        512
+      ],
+      "bumpScale": 0.007
+    },
+    "light": {
+      "key": [
+        -3,
+        5,
+        6
+      ],
+      "fill": [
+        4,
+        1,
+        4
+      ],
+      "rim": [
+        2,
+        4,
+        -4
+      ]
+    },
+    "toneMapping": "ACESFilmic",
+    "exposure": 1.05
+  },
+  "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+  "id": "OS-O223",
+  "semanticKey": "O23",
+  "meaning": "Learning review",
+  "layers": "Named closed meshes; editable geometry/materials; no baked text",
+  "bounds": {
+    "min": [
+      -1.2701596505453623,
+      0,
+      -0.20181554897738901
+    ],
+    "max": [
+      1.2701596505453623,
+      2.239738237857819,
+      0.20181554897738901
+    ]
+  },
+  "size": [
+    2.5403193010907246,
+    2.239738237857819,
+    0.40363109795477803
+  ],
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      3.419869118928909,
+      6.5
+    ],
+    "lookAt": [
+      0,
+      1.1198691189289094,
+      0
+    ],
+    "extent": 1.4995602383727626
+  },
+  "lighting": {
+    "key": [
+      -3,
+      5,
+      6
+    ],
+    "fill": [
+      4,
+      1,
+      4
+    ],
+    "rim": [
+      2,
+      4,
+      -4
+    ]
+  },
+  "render": {
+    "width": 1200,
+    "height": 1200,
+    "background": "transparent",
+    "color": "sRGB",
+    "toneMapping": "ACES Filmic 1.05"
+  },
+  "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+  "meshes": [
+    {
+      "name": "Source knowledge plane",
+      "material": "Brushed anodised deep navy alloy",
+      "vertices": 11748,
+      "triangles": 3916
+    },
+    {
+      "name": "Returning observation arc",
+      "material": "Brushed anodised brilliant cobalt alloy",
+      "vertices": 7788,
+      "triangles": 2596
+    },
+    {
+      "name": "Single observed learning",
+      "material": "Fine brushed neutral nickel",
+      "vertices": 11748,
+      "triangles": 3916
+    }
+  ]
+}

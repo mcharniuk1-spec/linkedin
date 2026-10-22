@@ -1,0 +1,163 @@
+{
+  "version": "2.0.0-candidate",
+  "frameCount": 5,
+  "sourceFiles": {
+    "local-evidence-db0552f176b0fd26": "d3c66da3738ba90e9081461e43b6f0d359813f381c45304023595f106594fe29",
+    "local-evidence-448fff3f7d58cbd6": "18ee5a06926c030c65cff16af35471fc382ffb17959826398893f2e9a9da2e82",
+    "brand-library/packages/assets/revisions/v2/photos/frames/native-layer-contract.json": "3d6b0fc021369fe5f88b29c5c9ddf5fbe093da5349b97fb5a598511869d3a8bd"
+  },
+  "frames": [
+    {
+      "id": "OS-F201",
+      "photoId": "OS-PH201",
+      "files": {
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/photos/frames/OS-F201.svg",
+          "sha256": "a86cb477f479ba43fd26e56afd0bb5959924dc34406e8a69f7520f5576dd4c30"
+        },
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/photos/frames/OS-F201.png",
+          "sha256": "63502b5f4a47cc4336824cf329d28f876e3f6925a0d4c7493e842b15d6c9c672"
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/photos/frames/OS-F201.json",
+          "sha256": "26fcd9090d2723a4ee9c4242121d4f7bbdb8a37057520a41dc5425c96ec9ae61"
+        }
+      },
+      "inputPhoto": {
+        "path": "brand-library/packages/assets/revisions/v2/photos/OS-PH201.png",
+        "sha256": "074c566fb5fea52a03fa21bafb52c6ea91e6e790ac412fe6d634b1b14b566deb"
+      },
+      "prompt": {
+        "path": "[dated-local-evidence-omitted]",
+        "sha256": "e57723c374eb9fb2a0dcbc1c8d016cd97dd54924310251eb1e40144c1973da21"
+      },
+      "nativeNodeCount": 8,
+      "composition": "Original native layered SVG/JSON; photo and texture bytes unmodified; deterministic screenshot export.",
+      "rights": "Generated fictional media. Native disclosure retained. Not customer evidence.",
+      "reviewStatus": "maker_checked_independent_final_review_pending"
+    },
+    {
+      "id": "OS-F202",
+      "photoId": "OS-PH202",
+      "files": {
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/photos/frames/OS-F202.svg",
+          "sha256": "94276aae70d79fb1c8e4f950988862084fefd3be41547d097da53c087f583277"
+        },
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/photos/frames/OS-F202.png",
+          "sha256": "ec36df827de5e12cc42cd650c4dce6fb1a634ddbb643ef14f1d28bd43008538e"
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/photos/frames/OS-F202.json",
+          "sha256": "395b6f945374fa0a7e64569b1faaaaac4931d508cfae1629f0ebbbe2e3a95ea4"
+        }
+      },
+      "inputPhoto": {
+        "path": "brand-library/packages/assets/revisions/v2/photos/OS-PH202.png",
+        "sha256": "7b5c5743f86e8ac1d34a56afbb15265a1a43d78ff5612cff611620addd143a9b"
+      },
+      "prompt": {
+        "path": "[dated-local-evidence-omitted]",
+        "sha256": "5c266c7486dab0ee0593f2239525beb6ab3fc0d45304bb9bc63550f7b24253cb"
+      },
+      "nativeNodeCount": 9,
+      "composition": "Original native layered SVG/JSON; photo and texture bytes unmodified; deterministic screenshot export.",
+      "rights": "Generated fictional media. Native disclosure retained. Not customer evidence.",
+      "reviewStatus": "maker_checked_independent_final_review_pending"
+    },
+    {
+      "id": "OS-F203",
+      "photoId": "OS-PH203",
+      "files": {
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/photos/frames/OS-F203.svg",
+          "sha256": "2e9acc4fd779b101183633eee515c35102dc65e2724c29fbbdcd61983ca5ebad"
+        },
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/photos/frames/OS-F203.png",
+          "sha256": "18b68d381b9f0908916d43ed2cee3c678941ce5f79825edc38fab2eb9703c426"
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/photos/frames/OS-F203.json",
+          "sha256": "1fd72b0e3e6b607bddcfcf1d1db6b0195357432d9dfb3de733f0a49066821b5b"
+        }
+      },
+      "inputPhoto": {
+        "path": "brand-library/packages/assets/revisions/v2/photos/OS-PH203.png",
+        "sha256": "820120d5b05f9aba3269d4547861d0992514b2398bad50a1be6734409b8ceba1"
+      },
+      "prompt": {
+        "path": "[dated-local-evidence-omitted]",
+        "sha256": "978100e12656deb19592053def9dd9a0b3e904b6b1335b38b6ad137b8b19aa0a"
+      },
+      "nativeNodeCount": 9,
+      "composition": "Original native layered SVG/JSON; photo and texture bytes unmodified; deterministic screenshot export.",
+      "rights": "Generated fictional media. Native disclosure retained. Not customer evidence.",
+      "reviewStatus": "maker_checked_independent_final_review_pending"
+    },
+    {
+      "id": "OS-F204",
+      "photoId": "OS-PH204",
+      "files": {
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/photos/frames/OS-F204.svg",
+          "sha256": "e9e2990f16948bea27d113f11bac441409a99f772d89739348ae93f77c004435"
+        },
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/photos/frames/OS-F204.png",
+          "sha256": "90a785ee830d85c3e31d1ffde954a5608bf149920087d9519aefa763d2ddf7ff"
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/photos/frames/OS-F204.json",
+          "sha256": "cac907e39c98c3bc78c36594899f6907c089bfc76adc83969c86b68033edda74"
+        }
+      },
+      "inputPhoto": {
+        "path": "brand-library/packages/assets/revisions/v2/photos/OS-PH204.png",
+        "sha256": "99f4337e4d8c3119e670e3958f24475a2ef22df83aa9822c4f47e9131c123fc8"
+      },
+      "prompt": {
+        "path": "[dated-local-evidence-omitted]",
+        "sha256": "4fada160d519d010930ac3300c9339ed21d9e3d9f90c3059d002550cc7ee60a2"
+      },
+      "nativeNodeCount": 12,
+      "composition": "Original native layered SVG/JSON; photo and texture bytes unmodified; deterministic screenshot export.",
+      "rights": "Generated fictional media. Native disclosure retained. Not customer evidence.",
+      "reviewStatus": "maker_checked_independent_final_review_pending"
+    },
+    {
+      "id": "OS-F205",
+      "photoId": "OS-PH205",
+      "files": {
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/photos/frames/OS-F205.svg",
+          "sha256": "e28044842d59dcb576c4049cf36eb9515373f35049ff3f89ad82fb151b884257"
+        },
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/photos/frames/OS-F205.png",
+          "sha256": "38dbd9a2950a362ea4275527749a78a7d011db4ed524aff26035ddee1a954b24"
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/photos/frames/OS-F205.json",
+          "sha256": "2114f4a1a4ae8a15df5f416e0f2dad337879ba3b71d2a82a04f9c4f5b3a8a23d"
+        }
+      },
+      "inputPhoto": {
+        "path": "brand-library/packages/assets/revisions/v2/photos/OS-PH205.png",
+        "sha256": "f1364bab63122895af095145d6f64393b2166096b23017bf585da17a4f20192b"
+      },
+      "prompt": {
+        "path": "[dated-local-evidence-omitted]",
+        "sha256": "6614915ba0c4759c9aad5beed50c1afdf1cf040c374af563717d17e2d04299f2"
+      },
+      "nativeNodeCount": 9,
+      "composition": "Original native layered SVG/JSON; photo and texture bytes unmodified; deterministic screenshot export.",
+      "rights": "Generated fictional media. Native disclosure retained. Not customer evidence.",
+      "reviewStatus": "maker_checked_independent_final_review_pending"
+    }
+  ],
+  "reviewBoundary": "v2_designer authored these frames. Earlier raw-photo review was independent of photo maker; this frame review is maker-only. Root and PM own independent frame review.",
+  "ownerAccepted": false
+}

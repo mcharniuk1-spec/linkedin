@@ -1,0 +1,331 @@
+{
+  "date": "2026-10-20",
+  "actual_renderer": "Three.js0.186.1, installedChrome/SwiftShader",
+  "errors": [],
+  "consoleErrors": [],
+  "models": [
+    {
+      "kind": "microphone",
+      "stats": [
+        {
+          "name": "Continuous solid closed capsule; navy dome, cobalt core, navy rounded bottom",
+          "vertices": 13202,
+          "triangles": 25920,
+          "bounds": {
+            "isBox3": true,
+            "min": {
+              "x": -0.7799999713897705,
+              "y": -1.2999999523162842,
+              "z": -0.7799999713897705
+            },
+            "max": {
+              "x": 0.7799999713897705,
+              "y": 1.2999999523162842,
+              "z": 0.7799999713897705
+            }
+          },
+          "finite": true
+        },
+        {
+          "name": "Upper broad silver wrapped grille crossband",
+          "vertices": 25444,
+          "triangles": 9260,
+          "bounds": {
+            "isBox3": true,
+            "min": {
+              "x": -0.8769940137863159,
+              "y": 0.12799999117851257,
+              "z": -0.20305559039115906
+            },
+            "max": {
+              "x": 0.8769940137863159,
+              "y": 0.5120000243186951,
+              "z": 0.8770005106925964
+            }
+          },
+          "finite": true
+        },
+        {
+          "name": "Lower broad silver wrapped grille crossband",
+          "vertices": 25444,
+          "triangles": 9260,
+          "bounds": {
+            "isBox3": true,
+            "min": {
+              "x": -0.8769940137863159,
+              "y": -0.5120000243186951,
+              "z": -0.20305559039115906
+            },
+            "max": {
+              "x": 0.8769940137863159,
+              "y": -0.12800000607967377,
+              "z": 0.8770005106925964
+            }
+          },
+          "finite": true
+        },
+        {
+          "name": "Single central upright silver rib, connects both crossbands",
+          "vertices": 8604,
+          "triangles": 3164,
+          "bounds": {
+            "isBox3": true,
+            "min": {
+              "x": -0.08150000125169754,
+              "y": -0.5590000152587891,
+              "z": 0.8560000061988831
+            },
+            "max": {
+              "x": 0.08150000125169754,
+              "y": 0.5590000152587891,
+              "z": 0.9139999747276306
+            }
+          },
+          "finite": true
+        }
+      ],
+      "views": [
+        {
+          "view": "front",
+          "camera": [
+            0,
+            0.45,
+            7.1
+          ],
+          "width": 1100,
+          "height": 1400
+        },
+        {
+          "view": "left",
+          "camera": [
+            -3.2786321463445285,
+            0.45,
+            6.297663951732917
+          ],
+          "width": 1100,
+          "height": 1400
+        },
+        {
+          "view": "right",
+          "camera": [
+            3.2786321463445285,
+            0.45,
+            6.297663951732917
+          ],
+          "width": 1100,
+          "height": 1400
+        }
+      ]
+    },
+    {
+      "kind": "wordmark",
+      "stats": [
+        {
+          "name": "1_O_original_voice_notch_boolean_outline",
+          "vertices": 56848,
+          "triangles": 20756,
+          "bounds": {
+            "isBox3": true,
+            "min": {
+              "x": -0.006473221816122532,
+              "y": -0.022008724510669708,
+              "z": -0.04790112376213074
+            },
+            "max": {
+              "x": 0.9231687188148499,
+              "y": 0.9109370708465576,
+              "z": 0.04790112376213074
+            }
+          },
+          "finite": true
+        },
+        {
+          "name": "2_U_Archivo_exact_outline",
+          "vertices": 21306,
+          "triangles": 7820,
+          "bounds": {
+            "isBox3": true,
+            "min": {
+              "x": 1.075355052947998,
+              "y": -0.022008704021573067,
+              "z": -0.04790112376213074
+            },
+            "max": {
+              "x": 1.8820370435714722,
+              "y": 0.8954021334648132,
+              "z": 0.04790112376213074
+            }
+          },
+          "finite": true
+        },
+        {
+          "name": "3_T_Archivo_exact_outline",
+          "vertices": 382,
+          "triangles": 188,
+          "bounds": {
+            "isBox3": true,
+            "min": {
+              "x": 1.9980847835540771,
+              "y": -0.006473124958574772,
+              "z": -0.04790112376213074
+            },
+            "max": {
+              "x": 2.7897095680236816,
+              "y": 0.8954021334648132,
+              "z": 0.04790112376213074
+            }
+          },
+          "finite": true
+        },
+        {
+          "name": "4_S_Archivo_exact_outline",
+          "vertices": 103228,
+          "triangles": 37724,
+          "bounds": {
+            "isBox3": true,
+            "min": {
+              "x": 2.9004383087158203,
+              "y": -0.022008664906024933,
+              "z": -0.04790112376213074
+            },
+            "max": {
+              "x": 3.687319755554199,
+              "y": 0.9109376072883606,
+              "z": 0.04790112376213074
+            }
+          },
+          "finite": true
+        },
+        {
+          "name": "5_P_Archivo_exact_outline",
+          "vertices": 23602,
+          "triangles": 8640,
+          "bounds": {
+            "isBox3": true,
+            "min": {
+              "x": 3.8390414714813232,
+              "y": -0.006473124958574772,
+              "z": -0.04790112376213074
+            },
+            "max": {
+              "x": 4.6118927001953125,
+              "y": 0.8954021334648132,
+              "z": 0.04790112376213074
+            }
+          },
+          "finite": true
+        },
+        {
+          "name": "6_O_Archivo_exact_outline",
+          "vertices": 58996,
+          "triangles": 21552,
+          "bounds": {
+            "isBox3": true,
+            "min": {
+              "x": 4.6981940269470215,
+              "y": -0.022008724510669708,
+              "z": -0.04790112376213074
+            },
+            "max": {
+              "x": 5.627835273742676,
+              "y": 0.9109377264976501,
+              "z": 0.04790112376213074
+            }
+          },
+          "finite": true
+        },
+        {
+          "name": "7_K_Archivo_exact_outline",
+          "vertices": 734,
+          "triangles": 284,
+          "bounds": {
+            "isBox3": true,
+            "min": {
+              "x": 5.783568382263184,
+              "y": -0.006473124958574772,
+              "z": -0.04790112376213074
+            },
+            "max": {
+              "x": 6.632269382476807,
+              "y": 0.8954021334648132,
+              "z": 0.04790112376213074
+            }
+          },
+          "finite": true
+        },
+        {
+          "name": "8_E_Archivo_exact_outline",
+          "vertices": 586,
+          "triangles": 284,
+          "bounds": {
+            "isBox3": true,
+            "min": {
+              "x": 6.749288082122803,
+              "y": -0.006473124958574772,
+              "z": -0.04790112376213074
+            },
+            "max": {
+              "x": 7.487522125244141,
+              "y": 0.8954021334648132,
+              "z": 0.04790112376213074
+            }
+          },
+          "finite": true
+        },
+        {
+          "name": "9_N_Archivo_exact_outline",
+          "vertices": 17065,
+          "triangles": 7196,
+          "bounds": {
+            "isBox3": true,
+            "min": {
+              "x": 7.656890392303467,
+              "y": -0.006473124958574772,
+              "z": -0.04790112376213074
+            },
+            "max": {
+              "x": 8.46357250213623,
+              "y": 0.8954021334648132,
+              "z": 0.04790112376213074
+            }
+          },
+          "finite": true
+        }
+      ],
+      "views": [
+        {
+          "view": "front",
+          "camera": [
+            0,
+            0.22,
+            21
+          ],
+          "width": 1800,
+          "height": 580
+        },
+        {
+          "view": "left",
+          "camera": [
+            -9.697362686371141,
+            0.22,
+            18.62689337836497
+          ],
+          "width": 1800,
+          "height": 580
+        },
+        {
+          "view": "right",
+          "camera": [
+            9.697362686371141,
+            0.22,
+            18.62689337836497
+          ],
+          "width": 1800,
+          "height": 580
+        }
+      ]
+    }
+  ],
+  "views": 6,
+  "scope": "Actual native geometry rendering; selected/beauty is separate generated source extraction, not a GLB frame."
+}

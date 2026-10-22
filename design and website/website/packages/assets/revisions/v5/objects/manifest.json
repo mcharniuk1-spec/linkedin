@@ -1,0 +1,3532 @@
+{
+  "version": "5.0.0-candidate",
+  "status": "maker_rendered_exact_set_visual_self_review_complete",
+  "expected_ids": [
+    "OS-O301",
+    "OS-O302",
+    "OS-O303",
+    "OS-O304",
+    "OS-O305",
+    "OS-O306",
+    "OS-O307",
+    "OS-O308",
+    "OS-O309",
+    "OS-O310",
+    "OS-O311",
+    "OS-O312",
+    "OS-O313",
+    "OS-O314",
+    "OS-O315",
+    "OS-O316",
+    "OS-O317",
+    "OS-O318",
+    "OS-O319",
+    "OS-O320",
+    "OS-O321",
+    "OS-O322",
+    "OS-O323",
+    "OS-O324",
+    "OS-O325",
+    "OS-W301",
+    "OS-W302",
+    "OS-W303",
+    "OS-W304",
+    "OS-W305",
+    "OS-W306",
+    "OS-W307",
+    "OS-W308",
+    "OS-W309",
+    "OS-W310",
+    "OS-W311"
+  ],
+  "poses": [
+    "front",
+    "left",
+    "right"
+  ],
+  "source_manifest": "../../v3/objects/manifest.json",
+  "source_recipe": "../../v3/objects/material-recipe.json",
+  "render": {
+    "renderer": "Three.js0.186.1 / existing Chrome SwiftShader",
+    "width": 600,
+    "height": 600,
+    "transparent": true,
+    "toneMapping": "ACESFilmic",
+    "exposure": 0.9,
+    "lighting": "V3 RoomEnvironment+hemisphere.35/key2.2/rim.75 unchanged",
+    "normalization": "Authored root presentation rotation zeroed, geometry unmodified; centered actual bounds; one shared extent per asset across all three views."
+  },
+  "views": [
+    {
+      "id": "OS-O301",
+      "pose": "front",
+      "name": "Microphone",
+      "context": "Interview and founder voice",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O301.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.2722185683817777
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O301-front.png",
+      "png_sha256": "ca58862fae0cec1b5fc240feb8fc3c7822b4b27b0c5116a08158778c3a4793d7",
+      "source_sha256": "61a1992650b8949f1fe1d53e7c4ea6afafb42b4738108a341e7c042d5f5f5658"
+    },
+    {
+      "id": "OS-O301",
+      "pose": "left",
+      "name": "Microphone",
+      "context": "Interview and founder voice",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O301.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.2722185683817777
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O301-left.png",
+      "png_sha256": "fac21233b671706b87e9513723ba4424bbd00e73c38a5c9f6d8919249a56bd91",
+      "source_sha256": "61a1992650b8949f1fe1d53e7c4ea6afafb42b4738108a341e7c042d5f5f5658"
+    },
+    {
+      "id": "OS-O301",
+      "pose": "right",
+      "name": "Microphone",
+      "context": "Interview and founder voice",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O301.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.2722185683817777
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O301-right.png",
+      "png_sha256": "5e28dc1619bcd2744edc6ba39f42fa8065cc9fb59c6b3de576aa91f078947c92",
+      "source_sha256": "61a1992650b8949f1fe1d53e7c4ea6afafb42b4738108a341e7c042d5f5f5658"
+    },
+    {
+      "id": "OS-O302",
+      "pose": "front",
+      "name": "Wavefront",
+      "context": "A point of view travelling outward",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O302.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.5985863367178799
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O302-front.png",
+      "png_sha256": "2a4344efbbf9fd8915a4450107fd7e326612fb60a6b81108d305cd5e9ac331e0",
+      "source_sha256": "632a970d420be806c5a7a6cd8529ecb7abad47eed9d6d9a8fba4ec6f42fb0718"
+    },
+    {
+      "id": "OS-O302",
+      "pose": "left",
+      "name": "Wavefront",
+      "context": "A point of view travelling outward",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O302.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.5985863367178799
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O302-left.png",
+      "png_sha256": "f0b7972daa001b85a2d062d1b3b16fb120ec9158b5057a91f7c0d5b828bf40c6",
+      "source_sha256": "632a970d420be806c5a7a6cd8529ecb7abad47eed9d6d9a8fba4ec6f42fb0718"
+    },
+    {
+      "id": "OS-O302",
+      "pose": "right",
+      "name": "Wavefront",
+      "context": "A point of view travelling outward",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O302.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.5985863367178799
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O302-right.png",
+      "png_sha256": "0bb5c0ea1634b2d32004c9664856d6918e11971a2a63a6e1e8411d5b3df0b92d",
+      "source_sha256": "632a970d420be806c5a7a6cd8529ecb7abad47eed9d6d9a8fba4ec6f42fb0718"
+    },
+    {
+      "id": "OS-O303",
+      "pose": "front",
+      "name": "Megaphone",
+      "context": "Distribution and campaign amplification",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O303.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1685341190355705
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O303-front.png",
+      "png_sha256": "ae986fb7956179c7a13cdbb67dc07565f380e18e871ce83951b960d215406658",
+      "source_sha256": "897a2f0b5beeefbb44b34021a4d0914b809b53e5059f6bd568df0b6654e0ab84"
+    },
+    {
+      "id": "OS-O303",
+      "pose": "left",
+      "name": "Megaphone",
+      "context": "Distribution and campaign amplification",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O303.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1685341190355705
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O303-left.png",
+      "png_sha256": "f68d83b6d51f824eb9a05a524fd5d3689e5ecfac8bbf03316a2bf702721976bb",
+      "source_sha256": "897a2f0b5beeefbb44b34021a4d0914b809b53e5059f6bd568df0b6654e0ab84"
+    },
+    {
+      "id": "OS-O303",
+      "pose": "right",
+      "name": "Megaphone",
+      "context": "Distribution and campaign amplification",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O303.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1685341190355705
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O303-right.png",
+      "png_sha256": "de95db7f630643a9fc8b25f95bc462fc315ba891c3f4a7fd02d8071829c18cdb",
+      "source_sha256": "897a2f0b5beeefbb44b34021a4d0914b809b53e5059f6bd568df0b6654e0ab84"
+    },
+    {
+      "id": "OS-O304",
+      "pose": "front",
+      "name": "Ink pen",
+      "context": "Professional writing and editorial judgment",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O304.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1384798379048593
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O304-front.png",
+      "png_sha256": "3ab510f7bd134e4b0a0a455da5974da8ae93502f6a581f865c1614acd5cd986e",
+      "source_sha256": "4c419d326cd7046c4442696eda1100e49f0e59e5292300fd8afca0a710e8d70f"
+    },
+    {
+      "id": "OS-O304",
+      "pose": "left",
+      "name": "Ink pen",
+      "context": "Professional writing and editorial judgment",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O304.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1384798379048593
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O304-left.png",
+      "png_sha256": "2ad736eada8092fb19364339b0cacb6e2595d85f2138c05986cdb0f8f700f112",
+      "source_sha256": "4c419d326cd7046c4442696eda1100e49f0e59e5292300fd8afca0a710e8d70f"
+    },
+    {
+      "id": "OS-O304",
+      "pose": "right",
+      "name": "Ink pen",
+      "context": "Professional writing and editorial judgment",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O304.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1384798379048593
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O304-right.png",
+      "png_sha256": "e8c802a1dd366708aed818f658c6e48da69bc6595d021991fb31791b7c020647",
+      "source_sha256": "4c419d326cd7046c4442696eda1100e49f0e59e5292300fd8afca0a710e8d70f"
+    },
+    {
+      "id": "OS-O305",
+      "pose": "front",
+      "name": "Notebook",
+      "context": "First-hand experience and source notes",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O305.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1994832308991024
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O305-front.png",
+      "png_sha256": "5af5c169748b2aa1e91fae906eccdb8b617e2c94e163f3512b52c48ca8673b80",
+      "source_sha256": "7f33a9684c0f022da9bee4b58f276b410b20ddf916c2661c039155e8c42b5ce8"
+    },
+    {
+      "id": "OS-O305",
+      "pose": "left",
+      "name": "Notebook",
+      "context": "First-hand experience and source notes",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O305.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1994832308991024
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O305-left.png",
+      "png_sha256": "a640c6a0a1e10ea052544e48d4c775834aecba84f44a9946db034469bd195538",
+      "source_sha256": "7f33a9684c0f022da9bee4b58f276b410b20ddf916c2661c039155e8c42b5ce8"
+    },
+    {
+      "id": "OS-O305",
+      "pose": "right",
+      "name": "Notebook",
+      "context": "First-hand experience and source notes",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O305.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1994832308991024
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O305-right.png",
+      "png_sha256": "0a446d9cd2216049e231b889fd72ea452e7de2cf3abf6ccaa547377656c50262",
+      "source_sha256": "7f33a9684c0f022da9bee4b58f276b410b20ddf916c2661c039155e8c42b5ce8"
+    },
+    {
+      "id": "OS-O306",
+      "pose": "front",
+      "name": "Publication stack",
+      "context": "One idea across several formats",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O306.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.3968282580404958
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O306-front.png",
+      "png_sha256": "622e3e444902f85a74e0b2306ee888488caa56b887eefb881e5772beb0d0ff33",
+      "source_sha256": "59ebb8d2cf550458368d0edbaab0f9bfba8a9a01e238466b074fef8ad9734b96"
+    },
+    {
+      "id": "OS-O306",
+      "pose": "left",
+      "name": "Publication stack",
+      "context": "One idea across several formats",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O306.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.3968282580404958
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O306-left.png",
+      "png_sha256": "92ec9200f6afc15f2ee1375340220806240a8c0e287e55e79c524d7948ee877b",
+      "source_sha256": "59ebb8d2cf550458368d0edbaab0f9bfba8a9a01e238466b074fef8ad9734b96"
+    },
+    {
+      "id": "OS-O306",
+      "pose": "right",
+      "name": "Publication stack",
+      "context": "One idea across several formats",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O306.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.3968282580404958
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O306-right.png",
+      "png_sha256": "8189d32238b8620b000e300913a46771e2cbf4a5c33eda004142c2ec7ac77045",
+      "source_sha256": "59ebb8d2cf550458368d0edbaab0f9bfba8a9a01e238466b074fef8ad9734b96"
+    },
+    {
+      "id": "OS-O307",
+      "pose": "front",
+      "name": "Search lens",
+      "context": "Buyer language and discoverability",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O307.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1838370437371268
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O307-front.png",
+      "png_sha256": "644a0a1bfc1fc9e8755e690a0eb7045620a77ade2fd044b2e5d19d734da28cc1",
+      "source_sha256": "21529146c2b20c48484eedffe3c3a8356eda5c8c62986b2cd93f83976d89790f"
+    },
+    {
+      "id": "OS-O307",
+      "pose": "left",
+      "name": "Search lens",
+      "context": "Buyer language and discoverability",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O307.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1838370437371268
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O307-left.png",
+      "png_sha256": "185c93ef8df8d18bff79ef10536700db8ae83cdf29c0428ffd103956b7708ea4",
+      "source_sha256": "21529146c2b20c48484eedffe3c3a8356eda5c8c62986b2cd93f83976d89790f"
+    },
+    {
+      "id": "OS-O307",
+      "pose": "right",
+      "name": "Search lens",
+      "context": "Buyer language and discoverability",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O307.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1838370437371268
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O307-right.png",
+      "png_sha256": "299eb6d56ea30456a0488c4addc3c5510849af7935ed28c4ea08839513f73e32",
+      "source_sha256": "21529146c2b20c48484eedffe3c3a8356eda5c8c62986b2cd93f83976d89790f"
+    },
+    {
+      "id": "OS-O308",
+      "pose": "front",
+      "name": "Profile frame",
+      "context": "A recognizable founder presence",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O308.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.2087672037340735
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O308-front.png",
+      "png_sha256": "7e4499752aeaed6b9274c344e79823b50a4d599aa72ef849111059b176c239b5",
+      "source_sha256": "b4fcb5a9da4fc3f1ec53b1b0330aa94d0a13bfb414ae028d1dff7ca5cb22a1bd"
+    },
+    {
+      "id": "OS-O308",
+      "pose": "left",
+      "name": "Profile frame",
+      "context": "A recognizable founder presence",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O308.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.2087672037340735
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O308-left.png",
+      "png_sha256": "b44d81f76bd3ba362b8e49ff39b4e90af201785f6418cb12428df50b0ee54029",
+      "source_sha256": "b4fcb5a9da4fc3f1ec53b1b0330aa94d0a13bfb414ae028d1dff7ca5cb22a1bd"
+    },
+    {
+      "id": "OS-O308",
+      "pose": "right",
+      "name": "Profile frame",
+      "context": "A recognizable founder presence",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O308.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.2087672037340735
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O308-right.png",
+      "png_sha256": "8cb85546f54857c7ac3a93295810e0a5bf12d94c63e14ccafa834e486c0b7bed",
+      "source_sha256": "b4fcb5a9da4fc3f1ec53b1b0330aa94d0a13bfb414ae028d1dff7ca5cb22a1bd"
+    },
+    {
+      "id": "OS-O309",
+      "pose": "front",
+      "name": "Dialogue",
+      "context": "An exchange that clarifies the idea",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O309.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.180577138421898
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O309-front.png",
+      "png_sha256": "74c49c0abf864acdaeb6fe3a71200b5bd98c95165f77c34dcb6119b271d21116",
+      "source_sha256": "a5baee7c7a7491e18711178ad45bd7213fe34aa24e49b9df57c3d59e55b61ab7"
+    },
+    {
+      "id": "OS-O309",
+      "pose": "left",
+      "name": "Dialogue",
+      "context": "An exchange that clarifies the idea",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O309.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.180577138421898
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O309-left.png",
+      "png_sha256": "c21ea8787c3c4a063d8f6e38de498871cf14b434196faaf8f7c462ac10faee0b",
+      "source_sha256": "a5baee7c7a7491e18711178ad45bd7213fe34aa24e49b9df57c3d59e55b61ab7"
+    },
+    {
+      "id": "OS-O309",
+      "pose": "right",
+      "name": "Dialogue",
+      "context": "An exchange that clarifies the idea",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O309.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.180577138421898
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O309-right.png",
+      "png_sha256": "e5a97e7955c328cbeba7751073b01f94bff11beed51cfc5ac6b58d0eac65df32",
+      "source_sha256": "a5baee7c7a7491e18711178ad45bd7213fe34aa24e49b9df57c3d59e55b61ab7"
+    },
+    {
+      "id": "OS-O310",
+      "pose": "front",
+      "name": "Envelope",
+      "context": "A useful follow-up",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O310.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.0490199983119963
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O310-front.png",
+      "png_sha256": "e038bdcbd60cd578ab6c4b72263adff9509d6785ecc16d8d9023c7659382cf96",
+      "source_sha256": "4afcf6e6bd9907460ba7a36ac9f340d449c7996c68c41b8a99664426eca7f502"
+    },
+    {
+      "id": "OS-O310",
+      "pose": "left",
+      "name": "Envelope",
+      "context": "A useful follow-up",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O310.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.0490199983119963
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O310-left.png",
+      "png_sha256": "a481949545896bfba96ab96a4972e563594388a8439a0bb09c4066a97c710c8a",
+      "source_sha256": "4afcf6e6bd9907460ba7a36ac9f340d449c7996c68c41b8a99664426eca7f502"
+    },
+    {
+      "id": "OS-O310",
+      "pose": "right",
+      "name": "Envelope",
+      "context": "A useful follow-up",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O310.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.0490199983119963
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O310-right.png",
+      "png_sha256": "611c6cc44bdcae92dc446739011190c03455f3a8e9466be28d5da0cc9100a225",
+      "source_sha256": "4afcf6e6bd9907460ba7a36ac9f340d449c7996c68c41b8a99664426eca7f502"
+    },
+    {
+      "id": "OS-O311",
+      "pose": "front",
+      "name": "Calendar",
+      "context": "A considered publishing rhythm",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O311.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.125227717680039
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O311-front.png",
+      "png_sha256": "691f85d862014b89c156b924ab8f570c7d7bd98fbb2ba0fc4028398c6922b392",
+      "source_sha256": "c81ba80e68e6836670cb768ac363907742767cd1bf4de071125a5f8c63b136ad"
+    },
+    {
+      "id": "OS-O311",
+      "pose": "left",
+      "name": "Calendar",
+      "context": "A considered publishing rhythm",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O311.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.125227717680039
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O311-left.png",
+      "png_sha256": "a016a1a19e25e02f8a4cb70bcdd56ee88bb4ed6cfd34c42c96818d0080569437",
+      "source_sha256": "c81ba80e68e6836670cb768ac363907742767cd1bf4de071125a5f8c63b136ad"
+    },
+    {
+      "id": "OS-O311",
+      "pose": "right",
+      "name": "Calendar",
+      "context": "A considered publishing rhythm",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O311.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.125227717680039
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O311-right.png",
+      "png_sha256": "7b5e3a687d2472c46de04f7b25a01fec1971b24ff795f13aa1278c5ec6ea7ad8",
+      "source_sha256": "c81ba80e68e6836670cb768ac363907742767cd1bf4de071125a5f8c63b136ad"
+    },
+    {
+      "id": "OS-O312",
+      "pose": "front",
+      "name": "Evidence check",
+      "context": "A claim checked against its source",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O312.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.0719760868517232
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O312-front.png",
+      "png_sha256": "7c6ee4752d22525c6fc1f07e874fbddfbb08d68612d953f90042a31af567f264",
+      "source_sha256": "e7aea575d5da5c0c502f3fbaf28df490a0100d15045d4024841d003eb95693c4"
+    },
+    {
+      "id": "OS-O312",
+      "pose": "left",
+      "name": "Evidence check",
+      "context": "A claim checked against its source",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O312.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.0719760868517232
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O312-left.png",
+      "png_sha256": "33aa8f4283b0e13e65cb071f2c6da5c107de9cd04aca185f00a27a48e7eed77d",
+      "source_sha256": "e7aea575d5da5c0c502f3fbaf28df490a0100d15045d4024841d003eb95693c4"
+    },
+    {
+      "id": "OS-O312",
+      "pose": "right",
+      "name": "Evidence check",
+      "context": "A claim checked against its source",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O312.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.0719760868517232
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O312-right.png",
+      "png_sha256": "b54a78a57798115b3b897b910d0f83c36ac3e92f1050c21662cab2ff6a9a1827",
+      "source_sha256": "e7aea575d5da5c0c502f3fbaf28df490a0100d15045d4024841d003eb95693c4"
+    },
+    {
+      "id": "OS-O313",
+      "pose": "front",
+      "name": "Compass",
+      "context": "A deliberate position",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O313.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.0808561182613898
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O313-front.png",
+      "png_sha256": "fce6ba20fdf6576cd0c2920e76c6db5af8defaad2924f1c411dbc7a3468b0186",
+      "source_sha256": "16568b17911586972e5239e11a34479f5954a009b3764190480dfb7cb6e43ca9"
+    },
+    {
+      "id": "OS-O313",
+      "pose": "left",
+      "name": "Compass",
+      "context": "A deliberate position",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O313.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.0808561182613898
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O313-left.png",
+      "png_sha256": "07868479bfd3a6d413de37ad49b8abb756f0e1ff0fec7cf8e13999d6f4f1029b",
+      "source_sha256": "16568b17911586972e5239e11a34479f5954a009b3764190480dfb7cb6e43ca9"
+    },
+    {
+      "id": "OS-O313",
+      "pose": "right",
+      "name": "Compass",
+      "context": "A deliberate position",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O313.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.0808561182613898
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O313-right.png",
+      "png_sha256": "5ea17d2505d94da58e2c8bb927c66d7d42944c82ad9b0a0561e776c54dc2a5eb",
+      "source_sha256": "16568b17911586972e5239e11a34479f5954a009b3764190480dfb7cb6e43ca9"
+    },
+    {
+      "id": "OS-O314",
+      "pose": "front",
+      "name": "Network",
+      "context": "The relevant buying group",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O314.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1504122535359034
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O314-front.png",
+      "png_sha256": "0e74f3546b5885d5df43389304d13c3fa66771b445879658979c00278bab6c61",
+      "source_sha256": "6b0a2a33e5a221a0fa72262e364dea92921ed90e65547f02c13570aa07432b63"
+    },
+    {
+      "id": "OS-O314",
+      "pose": "left",
+      "name": "Network",
+      "context": "The relevant buying group",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O314.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1504122535359034
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O314-left.png",
+      "png_sha256": "007140be10918a36ac5dba70493a30a83519f34f0480c67d531aada4bd50ede8",
+      "source_sha256": "6b0a2a33e5a221a0fa72262e364dea92921ed90e65547f02c13570aa07432b63"
+    },
+    {
+      "id": "OS-O314",
+      "pose": "right",
+      "name": "Network",
+      "context": "The relevant buying group",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O314.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1504122535359034
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O314-right.png",
+      "png_sha256": "c1c482bdd900255716b83555d117d66e524e1f2cda7279251588fa5138e7c502",
+      "source_sha256": "6b0a2a33e5a221a0fa72262e364dea92921ed90e65547f02c13570aa07432b63"
+    },
+    {
+      "id": "OS-O315",
+      "pose": "front",
+      "name": "Spotlight",
+      "context": "Attention on the right point",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O315.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.3336949081821687
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O315-front.png",
+      "png_sha256": "1aa7c51f042cee1e6e322a1cab85b26e09b6984bd39cc836e4a61e9d43045184",
+      "source_sha256": "5d1364dc3568ea7dfa21e24d1571464088588a1ed50ec090aacd0a70eb488723"
+    },
+    {
+      "id": "OS-O315",
+      "pose": "left",
+      "name": "Spotlight",
+      "context": "Attention on the right point",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O315.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.3336949081821687
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O315-left.png",
+      "png_sha256": "6201b48890288a7cbe11f81d3d05cf0f5fa7f1d8bc39027bca25e66d14ce75dc",
+      "source_sha256": "5d1364dc3568ea7dfa21e24d1571464088588a1ed50ec090aacd0a70eb488723"
+    },
+    {
+      "id": "OS-O315",
+      "pose": "right",
+      "name": "Spotlight",
+      "context": "Attention on the right point",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O315.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.3336949081821687
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O315-right.png",
+      "png_sha256": "a9dc463069b114dec2fc9c0a95b876a1a54bfc179ca6d8ff3ba4eeea7c983797",
+      "source_sha256": "5d1364dc3568ea7dfa21e24d1571464088588a1ed50ec090aacd0a70eb488723"
+    },
+    {
+      "id": "OS-O316",
+      "pose": "front",
+      "name": "Play frame",
+      "context": "A story in motion",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O316.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1493199729919432
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O316-front.png",
+      "png_sha256": "7eb9c897461a8f83e6d2469db4bae2b96d5949d7a5a304a53e5facf141deaf66",
+      "source_sha256": "918661461745bc6dae66006c4f0b928aaf824dc1bf1d5d24664e79eb7fbeeac7"
+    },
+    {
+      "id": "OS-O316",
+      "pose": "left",
+      "name": "Play frame",
+      "context": "A story in motion",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O316.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1493199729919432
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O316-left.png",
+      "png_sha256": "b17445856c6e3a5f9a1f8dcc35b76fcb3ebd4f0838880bf9373060b2d8421643",
+      "source_sha256": "918661461745bc6dae66006c4f0b928aaf824dc1bf1d5d24664e79eb7fbeeac7"
+    },
+    {
+      "id": "OS-O316",
+      "pose": "right",
+      "name": "Play frame",
+      "context": "A story in motion",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O316.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1493199729919432
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O316-right.png",
+      "png_sha256": "7158768f65e8c9762ea07de168b02fa9f2dc849c826b0263f44fce3ebe512e0a",
+      "source_sha256": "918661461745bc6dae66006c4f0b928aaf824dc1bf1d5d24664e79eb7fbeeac7"
+    },
+    {
+      "id": "OS-O317",
+      "pose": "front",
+      "name": "Camera",
+      "context": "A believable human presence",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O317.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1899906812128624
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O317-front.png",
+      "png_sha256": "39673acc510a73531483b65e15e5422a485734435fbb64e96d21b4f992eb0f02",
+      "source_sha256": "e36d0619a529c75bc667dbd83e4e27a61f615b01cb1edb545aa5fea6ac455421"
+    },
+    {
+      "id": "OS-O317",
+      "pose": "left",
+      "name": "Camera",
+      "context": "A believable human presence",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O317.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1899906812128624
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O317-left.png",
+      "png_sha256": "89f6840c5c5b40260553db5209d2bb1ed15691c9cc1ab2091d6d4bcc27c58c1f",
+      "source_sha256": "e36d0619a529c75bc667dbd83e4e27a61f615b01cb1edb545aa5fea6ac455421"
+    },
+    {
+      "id": "OS-O317",
+      "pose": "right",
+      "name": "Camera",
+      "context": "A believable human presence",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O317.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1899906812128624
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O317-right.png",
+      "png_sha256": "e46309fcb353832a0ed9ce4db01a3eed0e9c2d4707466f466a6e55c633c8960d",
+      "source_sha256": "e36d0619a529c75bc667dbd83e4e27a61f615b01cb1edb545aa5fea6ac455421"
+    },
+    {
+      "id": "OS-O318",
+      "pose": "front",
+      "name": "Architecture bridge",
+      "context": "Connect expertise to buyer value",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O318.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.4021308907589316
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O318-front.png",
+      "png_sha256": "5b5a667d6296f8e4882c3597ad1eac2b82c5b212eae160f2cc52fea594e02fd2",
+      "source_sha256": "2163cbffbd1bb9e564f30a26527700e420e91fe5c24f7e1dc80d0c3bb149d832"
+    },
+    {
+      "id": "OS-O318",
+      "pose": "left",
+      "name": "Architecture bridge",
+      "context": "Connect expertise to buyer value",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O318.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.4021308907589316
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O318-left.png",
+      "png_sha256": "972429a53a25595183e280231a17266a5d345c28dd638ebe0c671c1eb9f90785",
+      "source_sha256": "2163cbffbd1bb9e564f30a26527700e420e91fe5c24f7e1dc80d0c3bb149d832"
+    },
+    {
+      "id": "OS-O318",
+      "pose": "right",
+      "name": "Architecture bridge",
+      "context": "Connect expertise to buyer value",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O318.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.4021308907589316
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O318-right.png",
+      "png_sha256": "217bd282f8904a43470fdd57705d8cdf10dcb19568746e9c7fe5abeace3efd94",
+      "source_sha256": "2163cbffbd1bb9e564f30a26527700e420e91fe5c24f7e1dc80d0c3bb149d832"
+    },
+    {
+      "id": "OS-O319",
+      "pose": "front",
+      "name": "Target",
+      "context": "A specific buyer problem",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O319.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1752635572544727
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O319-front.png",
+      "png_sha256": "4acc3c289896593f293f337bc2e752099878262f33d1a9b56d053e711f1011e4",
+      "source_sha256": "52bfd08470c76f6a8242b5f1bddcfcb8ac65d4e1ca5009d3d2bbd35efc090f14"
+    },
+    {
+      "id": "OS-O319",
+      "pose": "left",
+      "name": "Target",
+      "context": "A specific buyer problem",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O319.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1752635572544727
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O319-left.png",
+      "png_sha256": "1173132b5fecc14259f3fec8cca908dfc59e6cd562a41482cd3dc5d47445907f",
+      "source_sha256": "52bfd08470c76f6a8242b5f1bddcfcb8ac65d4e1ca5009d3d2bbd35efc090f14"
+    },
+    {
+      "id": "OS-O319",
+      "pose": "right",
+      "name": "Target",
+      "context": "A specific buyer problem",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O319.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.1752635572544727
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O319-right.png",
+      "png_sha256": "6a99831b9f9bc4dcb783aee53c22005c719603b903b51b33da05da02c4bc03da",
+      "source_sha256": "52bfd08470c76f6a8242b5f1bddcfcb8ac65d4e1ca5009d3d2bbd35efc090f14"
+    },
+    {
+      "id": "OS-O320",
+      "pose": "front",
+      "name": "Ripple",
+      "context": "A useful idea resonates",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O320.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.4470839236065065
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O320-front.png",
+      "png_sha256": "a2299838d670c4b40ece8a30afa1092e77770b15d8ffb049a2a151af102a8946",
+      "source_sha256": "a4fa8b10a4190985a75156b0450e48f7a56b4cde1add856a4cea16c593c627c7"
+    },
+    {
+      "id": "OS-O320",
+      "pose": "left",
+      "name": "Ripple",
+      "context": "A useful idea resonates",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O320.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.4470839236065065
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O320-left.png",
+      "png_sha256": "e3f11352ffbfb5771c07e6c7249c673185f2dbe950b045c6d771cec570f874bc",
+      "source_sha256": "a4fa8b10a4190985a75156b0450e48f7a56b4cde1add856a4cea16c593c627c7"
+    },
+    {
+      "id": "OS-O320",
+      "pose": "right",
+      "name": "Ripple",
+      "context": "A useful idea resonates",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O320.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.4470839236065065
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O320-right.png",
+      "png_sha256": "04b7d7460346527d10d0680bbc07489aa5264fd95aea204992b18f68c546a51f",
+      "source_sha256": "a4fa8b10a4190985a75156b0450e48f7a56b4cde1add856a4cea16c593c627c7"
+    },
+    {
+      "id": "OS-O321",
+      "pose": "front",
+      "name": "Signal bars",
+      "context": "A clearer signal",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O321.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 0.9959199976086616
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O321-front.png",
+      "png_sha256": "f10d4c13ca4061208c27bf9a4f7f9739bdecee5088ecc8f1b48023231766404a",
+      "source_sha256": "058d06000c3dbdc4e9a7ba6ec90510d70f0955c6ef0eb337ca62a889ca19d233"
+    },
+    {
+      "id": "OS-O321",
+      "pose": "left",
+      "name": "Signal bars",
+      "context": "A clearer signal",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O321.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 0.9959199976086616
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O321-left.png",
+      "png_sha256": "f7070cc20d2485e441e606332fb63e87976e354a84d29eb4f238ebf83a516ad8",
+      "source_sha256": "058d06000c3dbdc4e9a7ba6ec90510d70f0955c6ef0eb337ca62a889ca19d233"
+    },
+    {
+      "id": "OS-O321",
+      "pose": "right",
+      "name": "Signal bars",
+      "context": "A clearer signal",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O321.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 0.9959199976086616
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O321-right.png",
+      "png_sha256": "a5eaaa494ab92bd722df5ac401e1632fc4b5e66e975f37940ff16876bd6e3ef4",
+      "source_sha256": "058d06000c3dbdc4e9a7ba6ec90510d70f0955c6ef0eb337ca62a889ca19d233"
+    },
+    {
+      "id": "OS-O322",
+      "pose": "front",
+      "name": "Content folder",
+      "context": "An organized editorial handoff",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O322.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.0932475707140052
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O322-front.png",
+      "png_sha256": "2d31f74901c020d74a31a7d07cb8982c73be792f4e1df5f9a23be43bd7130bdd",
+      "source_sha256": "ac6efd70f4c33d96836086909a450e4bc852f62f2c1d8124e1ff77ff78501979"
+    },
+    {
+      "id": "OS-O322",
+      "pose": "left",
+      "name": "Content folder",
+      "context": "An organized editorial handoff",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O322.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.0932475707140052
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O322-left.png",
+      "png_sha256": "47ce61cd001baec6197187a6a7680b949240e02d9a93557a18e23f609dd163f5",
+      "source_sha256": "ac6efd70f4c33d96836086909a450e4bc852f62f2c1d8124e1ff77ff78501979"
+    },
+    {
+      "id": "OS-O322",
+      "pose": "right",
+      "name": "Content folder",
+      "context": "An organized editorial handoff",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O322.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.0932475707140052
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O322-right.png",
+      "png_sha256": "db4d3100bd1ddf3979dbb3cec78b7f271273d5373b5eab58aa0d4e19f6523c57",
+      "source_sha256": "ac6efd70f4c33d96836086909a450e4bc852f62f2c1d8124e1ff77ff78501979"
+    },
+    {
+      "id": "OS-O323",
+      "pose": "front",
+      "name": "Bookmark",
+      "context": "An idea worth keeping",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O323.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.176395485831329
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O323-front.png",
+      "png_sha256": "64b659c12f24a95cc3cfd5484e8c49f499a50d1dae25af7af10e0ff14893e6e7",
+      "source_sha256": "a6fb554b063c5b4544a6b69ab3144558bb7ec5c3abe836f6094938f5e8960547"
+    },
+    {
+      "id": "OS-O323",
+      "pose": "left",
+      "name": "Bookmark",
+      "context": "An idea worth keeping",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O323.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.176395485831329
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O323-left.png",
+      "png_sha256": "82aa9eb71d5f85bb8c5347a1fb2dbb5ea60846f4321a9ef78a4b257505868280",
+      "source_sha256": "a6fb554b063c5b4544a6b69ab3144558bb7ec5c3abe836f6094938f5e8960547"
+    },
+    {
+      "id": "OS-O323",
+      "pose": "right",
+      "name": "Bookmark",
+      "context": "An idea worth keeping",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O323.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.176395485831329
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O323-right.png",
+      "png_sha256": "76a9208a3581a7700caa85b237b811ced943066071f4690255b4a18fd8d05b46",
+      "source_sha256": "a6fb554b063c5b4544a6b69ab3144558bb7ec5c3abe836f6094938f5e8960547"
+    },
+    {
+      "id": "OS-O324",
+      "pose": "front",
+      "name": "Story reel",
+      "context": "Sequence and narrative",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O324.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.197791858829723
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O324-front.png",
+      "png_sha256": "226a4d496953d44590de3425d804e78ad75ea75799cbae8579d93a56fb65a486",
+      "source_sha256": "77cec9b41cb8b5f73db090407311740873457cc0658078d08b58769534a6f799"
+    },
+    {
+      "id": "OS-O324",
+      "pose": "left",
+      "name": "Story reel",
+      "context": "Sequence and narrative",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O324.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.197791858829723
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O324-left.png",
+      "png_sha256": "2b2006b3a94e4faa0f76b179255e5c3271b98f78e92adcbce513ba3f1ba4c711",
+      "source_sha256": "77cec9b41cb8b5f73db090407311740873457cc0658078d08b58769534a6f799"
+    },
+    {
+      "id": "OS-O324",
+      "pose": "right",
+      "name": "Story reel",
+      "context": "Sequence and narrative",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O324.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 1.197791858829723
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O324-right.png",
+      "png_sha256": "90490e0df092cc617dfe80d9d730bf1a080322c251772c3b5e6a663fc332726e",
+      "source_sha256": "77cec9b41cb8b5f73db090407311740873457cc0658078d08b58769534a6f799"
+    },
+    {
+      "id": "OS-O325",
+      "pose": "front",
+      "name": "Quote",
+      "context": "The founder\u2019s own words",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O325.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 0.9074200067520141
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O325-front.png",
+      "png_sha256": "3926851ae66574a761a7db927f595919096df1b387466393bd3584c56b9e2162",
+      "source_sha256": "16715713087320defe982bb657a95f3200b3c6aab03f892a01a6a12c04afb71a"
+    },
+    {
+      "id": "OS-O325",
+      "pose": "left",
+      "name": "Quote",
+      "context": "The founder\u2019s own words",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O325.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 0.9074200067520141
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O325-left.png",
+      "png_sha256": "4b8e9d16eace80cde9b0e427322862c0540435153b0c96d10c3d7ced8f41418c",
+      "source_sha256": "16715713087320defe982bb657a95f3200b3c6aab03f892a01a6a12c04afb71a"
+    },
+    {
+      "id": "OS-O325",
+      "pose": "right",
+      "name": "Quote",
+      "context": "The founder\u2019s own words",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-O325.glb",
+      "sourceAuthoredRotation": [
+        0,
+        -0.12000000000000001,
+        0,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 0.9074200067520141
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-O325-right.png",
+      "png_sha256": "4abb54174958cd072bd186de14c73552f0f6f032c2b773b2fce19d781e62104f",
+      "source_sha256": "16715713087320defe982bb657a95f3200b3c6aab03f892a01a6a12c04afb71a"
+    },
+    {
+      "id": "OS-W301",
+      "pose": "front",
+      "name": "Voice",
+      "context": "A genuine extruded typographic sign for voice, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W301.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 3.630838191732764
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W301-front.png",
+      "png_sha256": "c83142dd0a5efb273d2668bbd072c8dde1fc6a048b20e380f136e75b7095c715",
+      "source_sha256": "ec20e8d444a92246ed02e83f6acfed1bc8da32889293515aab960a975ec02568"
+    },
+    {
+      "id": "OS-W301",
+      "pose": "left",
+      "name": "Voice",
+      "context": "A genuine extruded typographic sign for voice, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W301.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 3.630838191732764
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W301-left.png",
+      "png_sha256": "b1ed06429130e949a4e55ce158cecceec359862a43995aa51c121f1a38d5e44b",
+      "source_sha256": "ec20e8d444a92246ed02e83f6acfed1bc8da32889293515aab960a975ec02568"
+    },
+    {
+      "id": "OS-W301",
+      "pose": "right",
+      "name": "Voice",
+      "context": "A genuine extruded typographic sign for voice, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W301.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 3.630838191732764
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W301-right.png",
+      "png_sha256": "6ea0040e952593e45daef1f8ff02f99188de2cddfd417f3b5a7bb3260951646e",
+      "source_sha256": "ec20e8d444a92246ed02e83f6acfed1bc8da32889293515aab960a975ec02568"
+    },
+    {
+      "id": "OS-W302",
+      "pose": "front",
+      "name": "Story",
+      "context": "A genuine extruded typographic sign for story, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W302.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 2.8188376148045062
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W302-front.png",
+      "png_sha256": "e4b7620eeb43c17dc7c7bacda075d4798dc398158fbbd2daf8b1094c82a637c2",
+      "source_sha256": "24b56d48f0cbad67c10fdcdd2138b732ad71803f7b5d56e119fb16664668ff2a"
+    },
+    {
+      "id": "OS-W302",
+      "pose": "left",
+      "name": "Story",
+      "context": "A genuine extruded typographic sign for story, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W302.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 2.8188376148045062
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W302-left.png",
+      "png_sha256": "cb94fb2c821eeb8f07d844cc8b87201a5813f029e770fd4a0eae94d8d1736326",
+      "source_sha256": "24b56d48f0cbad67c10fdcdd2138b732ad71803f7b5d56e119fb16664668ff2a"
+    },
+    {
+      "id": "OS-W302",
+      "pose": "right",
+      "name": "Story",
+      "context": "A genuine extruded typographic sign for story, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W302.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 2.8188376148045062
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W302-right.png",
+      "png_sha256": "e61c74cbcd85389cb8ef0ac4260bbbdd289e168ab78198206c8646157b283747",
+      "source_sha256": "24b56d48f0cbad67c10fdcdd2138b732ad71803f7b5d56e119fb16664668ff2a"
+    },
+    {
+      "id": "OS-W303",
+      "pose": "front",
+      "name": "Signal",
+      "context": "A genuine extruded typographic sign for signal, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W303.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 3.1463719137012958
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W303-front.png",
+      "png_sha256": "134e4851e8063b0c85a9914f0fa088901b6a098fadfb434f8115f46d6c300f94",
+      "source_sha256": "86d1c1280f68d181121a7481d954bb07755eaeff407089333f95171395212800"
+    },
+    {
+      "id": "OS-W303",
+      "pose": "left",
+      "name": "Signal",
+      "context": "A genuine extruded typographic sign for signal, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W303.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 3.1463719137012958
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W303-left.png",
+      "png_sha256": "fecdd8347df5d37117518795dee79dc7a1d12f7448baf315d0cdc04657783d58",
+      "source_sha256": "86d1c1280f68d181121a7481d954bb07755eaeff407089333f95171395212800"
+    },
+    {
+      "id": "OS-W303",
+      "pose": "right",
+      "name": "Signal",
+      "context": "A genuine extruded typographic sign for signal, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W303.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 3.1463719137012958
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W303-right.png",
+      "png_sha256": "5de45f17667731574fdec3073170b74acc487d06d784126bb1c81f35c75744e5",
+      "source_sha256": "86d1c1280f68d181121a7481d954bb07755eaeff407089333f95171395212800"
+    },
+    {
+      "id": "OS-W304",
+      "pose": "front",
+      "name": "Proof",
+      "context": "A genuine extruded typographic sign for proof, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W304.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 3.381704685464501
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W304-front.png",
+      "png_sha256": "417312543c8f45ccc8beb10f50e22c7b6e4ade0e3877145cf9a6fef160cfba55",
+      "source_sha256": "6fc638db648b694eff2fefe01f051b2ca189ab8e5e0390dc22a6e036b969cdf7"
+    },
+    {
+      "id": "OS-W304",
+      "pose": "left",
+      "name": "Proof",
+      "context": "A genuine extruded typographic sign for proof, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W304.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 3.381704685464501
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W304-left.png",
+      "png_sha256": "b479bd50a2f8ab1d581818ffc7757b0e91f646cbec4a3b00a6e1e2d7e65693d0",
+      "source_sha256": "6fc638db648b694eff2fefe01f051b2ca189ab8e5e0390dc22a6e036b969cdf7"
+    },
+    {
+      "id": "OS-W304",
+      "pose": "right",
+      "name": "Proof",
+      "context": "A genuine extruded typographic sign for proof, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W304.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 3.381704685464501
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W304-right.png",
+      "png_sha256": "8e685526533d8d44cd2f75457dffc340495d4c448f93d516ab439d11ae84ec78",
+      "source_sha256": "6fc638db648b694eff2fefe01f051b2ca189ab8e5e0390dc22a6e036b969cdf7"
+    },
+    {
+      "id": "OS-W305",
+      "pose": "front",
+      "name": "Trust",
+      "context": "A genuine extruded typographic sign for trust, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W305.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 3.52050809122622
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W305-front.png",
+      "png_sha256": "73bf272d64df82749b2006c4b8f2d595e00e0e494123cf7f0dd2eade0c7e44c9",
+      "source_sha256": "b17bfdc49f5f696803d9492c07507ddddf02b81e4448c5fce3a3c575565c7b5c"
+    },
+    {
+      "id": "OS-W305",
+      "pose": "left",
+      "name": "Trust",
+      "context": "A genuine extruded typographic sign for trust, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W305.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 3.52050809122622
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W305-left.png",
+      "png_sha256": "33faa49cfbbafe0c194cd5533509f488d6f1d3258fca070c9ef2e821909b79b2",
+      "source_sha256": "b17bfdc49f5f696803d9492c07507ddddf02b81e4448c5fce3a3c575565c7b5c"
+    },
+    {
+      "id": "OS-W305",
+      "pose": "right",
+      "name": "Trust",
+      "context": "A genuine extruded typographic sign for trust, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W305.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 3.52050809122622
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W305-right.png",
+      "png_sha256": "00b908e6b0625651a24540c2337bcab5799aa6df86fe45e224f25ae2b96214ad",
+      "source_sha256": "b17bfdc49f5f696803d9492c07507ddddf02b81e4448c5fce3a3c575565c7b5c"
+    },
+    {
+      "id": "OS-W306",
+      "pose": "front",
+      "name": "Clarity",
+      "context": "A genuine extruded typographic sign for clarity, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W306.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 3.3373255778104065
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W306-front.png",
+      "png_sha256": "4d48c52f76e06056c6e25dd83f298c9ad280e87f5072ca21c89f66a3648a76e0",
+      "source_sha256": "ff07226a1ae0d615973c4a694faaed1dc41326e7208adfb34b700347b5861d5d"
+    },
+    {
+      "id": "OS-W306",
+      "pose": "left",
+      "name": "Clarity",
+      "context": "A genuine extruded typographic sign for clarity, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W306.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 3.3373255778104065
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W306-left.png",
+      "png_sha256": "9501b652595b599cd6c459e6aceb307aff3b60c38bee91d46b51385a01f53877",
+      "source_sha256": "ff07226a1ae0d615973c4a694faaed1dc41326e7208adfb34b700347b5861d5d"
+    },
+    {
+      "id": "OS-W306",
+      "pose": "right",
+      "name": "Clarity",
+      "context": "A genuine extruded typographic sign for clarity, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W306.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 3.3373255778104065
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W306-right.png",
+      "png_sha256": "de3c9b69fa896e62f812397de3eb682dd2557961e79c8ca28f896212b549ef93",
+      "source_sha256": "ff07226a1ae0d615973c4a694faaed1dc41326e7208adfb34b700347b5861d5d"
+    },
+    {
+      "id": "OS-W307",
+      "pose": "front",
+      "name": "Context",
+      "context": "A genuine extruded typographic sign for context, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W307.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 5.200070962980389
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W307-front.png",
+      "png_sha256": "a6796a1b3eb3e1e6d49b64b0f1d2f746b8d22ed96ef7b1a2acc617cae0863354",
+      "source_sha256": "325f83bedb282c3733f081d63db316ec555790af71dbace4d3aad87356e58e40"
+    },
+    {
+      "id": "OS-W307",
+      "pose": "left",
+      "name": "Context",
+      "context": "A genuine extruded typographic sign for context, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W307.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 5.200070962980389
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W307-left.png",
+      "png_sha256": "47bcf703f7a625095ee10cdcbc09d70f74e47ef6daeef6055be2b769d9b406ce",
+      "source_sha256": "325f83bedb282c3733f081d63db316ec555790af71dbace4d3aad87356e58e40"
+    },
+    {
+      "id": "OS-W307",
+      "pose": "right",
+      "name": "Context",
+      "context": "A genuine extruded typographic sign for context, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W307.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 5.200070962980389
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W307-right.png",
+      "png_sha256": "2d459fcb5b9bc6ad74d33738a9f4fc01b3f9321a8d0d864ef0ffc798a289d63a",
+      "source_sha256": "325f83bedb282c3733f081d63db316ec555790af71dbace4d3aad87356e58e40"
+    },
+    {
+      "id": "OS-W308",
+      "pose": "front",
+      "name": "Product",
+      "context": "A genuine extruded typographic sign for product, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W308.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 4.989675194993615
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W308-front.png",
+      "png_sha256": "c2ff102417bda4b8904f88faa3bba4b16c4b4e948227c752b2263420184e954c",
+      "source_sha256": "7ce36942751db76ca6a92cf7c78923d37257d18322de673793ff6fe9abc99ec1"
+    },
+    {
+      "id": "OS-W308",
+      "pose": "left",
+      "name": "Product",
+      "context": "A genuine extruded typographic sign for product, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W308.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 4.989675194993615
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W308-left.png",
+      "png_sha256": "149ad8925d701f1ff48c21bc74d96113fd4b7d00e51703292af50aae26e7e74c",
+      "source_sha256": "7ce36942751db76ca6a92cf7c78923d37257d18322de673793ff6fe9abc99ec1"
+    },
+    {
+      "id": "OS-W308",
+      "pose": "right",
+      "name": "Product",
+      "context": "A genuine extruded typographic sign for product, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W308.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 4.989675194993615
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W308-right.png",
+      "png_sha256": "8de7dc770a4c94681dea4ac06005404b6ed809d7df13017060ef1c358f69084d",
+      "source_sha256": "7ce36942751db76ca6a92cf7c78923d37257d18322de673793ff6fe9abc99ec1"
+    },
+    {
+      "id": "OS-W309",
+      "pose": "front",
+      "name": "Perspective",
+      "context": "A genuine extruded typographic sign for perspective, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W309.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 6.139113890901208
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W309-front.png",
+      "png_sha256": "d98fea5eb53b366d0bede3cf559f56f461f6243fb5d84e308c6f895e266c372f",
+      "source_sha256": "3275894990f3c1cd2f5fba90910aa879b73f89821b62f48191d58e8b3274bb17"
+    },
+    {
+      "id": "OS-W309",
+      "pose": "left",
+      "name": "Perspective",
+      "context": "A genuine extruded typographic sign for perspective, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W309.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 6.139113890901208
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W309-left.png",
+      "png_sha256": "e9419b4fa6398e3a15070a6798f119d1185cb9038f826991915556a34cd3ea3d",
+      "source_sha256": "3275894990f3c1cd2f5fba90910aa879b73f89821b62f48191d58e8b3274bb17"
+    },
+    {
+      "id": "OS-W309",
+      "pose": "right",
+      "name": "Perspective",
+      "context": "A genuine extruded typographic sign for perspective, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W309.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 6.139113890901208
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W309-right.png",
+      "png_sha256": "d9f0fe0b98462d3a13742f7a5614ce0bb78d4c636ba30d6ba0c3c85ee9e49275",
+      "source_sha256": "3275894990f3c1cd2f5fba90910aa879b73f89821b62f48191d58e8b3274bb17"
+    },
+    {
+      "id": "OS-W310",
+      "pose": "front",
+      "name": "Conversation",
+      "context": "A genuine extruded typographic sign for conversation, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W310.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 8.496897735670208
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W310-front.png",
+      "png_sha256": "ebaab901016fe704078ae8aa09e0dfc6f6de3807db2afa9f2ad48d290583b92a",
+      "source_sha256": "a68bfffdb01ca72cd5e9c8f69f26fd617a72c01d8de80364422c13e4c903e25b"
+    },
+    {
+      "id": "OS-W310",
+      "pose": "left",
+      "name": "Conversation",
+      "context": "A genuine extruded typographic sign for conversation, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W310.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 8.496897735670208
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W310-left.png",
+      "png_sha256": "200226e11d7e1c7a0a92edeed18b71c51d915857b3d133cff19fe3ef9e2efd16",
+      "source_sha256": "a68bfffdb01ca72cd5e9c8f69f26fd617a72c01d8de80364422c13e4c903e25b"
+    },
+    {
+      "id": "OS-W310",
+      "pose": "right",
+      "name": "Conversation",
+      "context": "A genuine extruded typographic sign for conversation, used in editorial artwork and scene transitions.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W310.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 8.496897735670208
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W310-right.png",
+      "png_sha256": "d7d9a4e7ba69ff4c8067888a59daa2bba817aec972ae70e190bdb17c43681518",
+      "source_sha256": "a68bfffdb01ca72cd5e9c8f69f26fd617a72c01d8de80364422c13e4c903e25b"
+    },
+    {
+      "id": "OS-W311",
+      "pose": "front",
+      "name": "OUTSPOKEN",
+      "context": "Uppercase brand word, extruded as editorial artwork. Use the separate custom-O logo lockup for navigation.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W311.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          0,
+          0,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 8.888790523558855
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W311-front.png",
+      "png_sha256": "d7cdbde31e232dd2e8ddf615908bca87771335ede07d71520ad98bf6b1be944b",
+      "source_sha256": "c65da6484b96768a98232dcba7a0eba4fea5ae5e6e64759b7cda9833f33b391f"
+    },
+    {
+      "id": "OS-W311",
+      "pose": "left",
+      "name": "OUTSPOKEN",
+      "context": "Uppercase brand word, extruded as editorial artwork. Use the separate custom-O logo lockup for navigation.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W311.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          -4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 8.888790523558855
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W311-left.png",
+      "png_sha256": "474484c8db5c604fead2fa52f7451aae2e666c6b2e700c067c42cfa04f02e3c6",
+      "source_sha256": "c65da6484b96768a98232dcba7a0eba4fea5ae5e6e64759b7cda9833f33b391f"
+    },
+    {
+      "id": "OS-W311",
+      "pose": "right",
+      "name": "OUTSPOKEN",
+      "context": "Uppercase brand word, extruded as editorial artwork. Use the separate custom-O logo lockup for navigation.",
+      "source": "brand-library/packages/assets/revisions/v3/objects/OS-W311.glb",
+      "sourceAuthoredRotation": [
+        0.020000000000000004,
+        -0.28,
+        -0.02499999999999999,
+        "XYZ"
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          4,
+          1.6,
+          8
+        ],
+        "lookAt": [
+          0,
+          0,
+          0
+        ],
+        "halfExtent": 8.888790523558855
+      },
+      "width": 600,
+      "height": 600,
+      "png": "OS-W311-right.png",
+      "png_sha256": "cb0053eb1af32aaeb495b3b6a272dee17a8ff405b3ef3af10061adb31bcd9b23",
+      "source_sha256": "c65da6484b96768a98232dcba7a0eba4fea5ae5e6e64759b7cda9833f33b391f"
+    }
+  ],
+  "checks": {
+    "pass": true,
+    "expected": 108,
+    "actual": 108,
+    "missing": [],
+    "extra": [],
+    "errors": [],
+    "pixel_bounds": "checks.json; all108 useful alpha and unclipped margin pass",
+    "visual_review": "All108 renders inspected via six object/word contact sheets; light word faces need a dark presentation ground, supplied by gallery."
+  },
+  "limitations": [
+    "Procedural satin/anodized source material, not a photographic brushed capture.",
+    "PNG is a static view; use the linked original GLB for genuine camera rotation.",
+    "Contextual meaning needs its label; no invented performance outcome."
+  ]
+}

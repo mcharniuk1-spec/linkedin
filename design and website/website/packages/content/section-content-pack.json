@@ -1,0 +1,98 @@
+{
+  "id": "OS-SECTION-CONTENT-1",
+  "revision": "candidate-1",
+  "client": "agency",
+  "artifact_type": "website",
+  "page_role": "isolated-section-pilot",
+  "locale": "en",
+  "audience": "Europe-based B2B AI SaaS founders, 10–50 people, Seed–Series B",
+  "purpose": "Test protected content in a reusable Stage1section; no full website page",
+  "primary_action": "Book an intro call",
+  "sources": [
+    {
+      "id": "SRC-OWNER",
+      "locator": "writing-system/approved-positioning.json",
+      "version": "80d8063bf5af6eee2ab76275c6e45eaf81c1427d1df8b2931a460b40e67d34b9",
+      "observed_date": "2026-10-19",
+      "rights": "owner-directed copy",
+      "use_limits": "Internal Stage1review; preserve source meaning and owner review"
+    },
+    {
+      "id": "SRC-SERVICE-COPY",
+      "locator": "[dated-local-evidence-omitted]",
+      "version": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "observed_date": "2026-10-19",
+      "rights": "internal original proposed copy",
+      "use_limits": "Internal Stage1review; preserve source meaning and owner review"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CL-POSITIONING",
+      "text": "Owner-directed positioning; business outcomes are unmeasured.",
+      "state": "hypothesis",
+      "source_ids": [
+        "SRC-OWNER"
+      ],
+      "reviewed": false
+    }
+  ],
+  "protected_text": [
+    "Make the right buyers care about you and what you’re building.",
+    "We help Europe-based B2B AI SaaS founders turn their story and the business they’re building into LinkedIn content that attracts the right buyers, earns their trust and gives them a reason to buy.",
+    "Book an intro call"
+  ],
+  "search": {
+    "intent": "Internal Stage1brand-system pilot",
+    "demand_state": "unvalidated",
+    "query_evidence": [],
+    "url": null,
+    "title": null,
+    "description": null,
+    "canonical_intent": "self after domain selection",
+    "index_intent": "Not a publication target; Stage2website remains gated",
+    "internal_links": [],
+    "structured_data_decision": "No public website/schema implementation inStage1"
+  },
+  "slots": [
+    {
+      "id": "hero-title",
+      "role": "h1",
+      "text": "Make the right buyers care about you and what you’re building.",
+      "claim_ids": [
+        "CL-POSITIONING"
+      ],
+      "max_characters": null
+    },
+    {
+      "id": "hero-body",
+      "role": "body",
+      "text": "We help Europe-based B2B AI SaaS founders turn their story and the business they’re building into LinkedIn content that attracts the right buyers, earns their trust and gives them a reason to buy.",
+      "claim_ids": [
+        "CL-POSITIONING"
+      ],
+      "max_characters": null
+    },
+    {
+      "id": "hero-cta",
+      "role": "cta",
+      "text": "Book an intro call",
+      "claim_ids": [],
+      "href": null,
+      "max_characters": null
+    }
+  ],
+  "review": {
+    "status": "draft",
+    "evidence_reviewer": null,
+    "seo_reviewer": null,
+    "voice_reviewer": null,
+    "owner_approval": null,
+    "approved_copy_sha256": null,
+    "gaps": [
+      "Exact booking destination unconfigured",
+      "No actual buyer demand or measured outcome evidence",
+      "Owner acceptance and nativeFigma parity pending"
+    ]
+  }
+}

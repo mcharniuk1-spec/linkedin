@@ -1,0 +1,154 @@
+{
+  "id": "OS-LV2-004",
+  "name": "Aperture",
+  "idea": "Expertise opens a precise window onto the business.",
+  "form": "three curved segments around a triangular aperture",
+  "materialRecipe": {
+    "version": "2.0.0",
+    "seed": 191026,
+    "palette": {
+      "navy": "#162760",
+      "cobalt": "#3157D5",
+      "nickel": "#A9AFBA"
+    },
+    "brush": {
+      "direction": "horizontal local UV",
+      "resolution": [
+        1024,
+        512
+      ],
+      "bumpScale": 0.007
+    },
+    "light": {
+      "key": [
+        -3,
+        5,
+        6
+      ],
+      "fill": [
+        4,
+        1,
+        4
+      ],
+      "rim": [
+        2,
+        4,
+        -4
+      ]
+    },
+    "toneMapping": "ACESFilmic",
+    "exposure": 1.05
+  },
+  "meshes": [
+    {
+      "name": "01 aperture arc",
+      "vertices": 36866,
+      "triangles": 75776,
+      "material": "Brushed anodised deep navy alloy",
+      "position": [
+        0,
+        0.65,
+        0
+      ],
+      "rotation": [
+        0.12,
+        0,
+        0
+      ],
+      "construction": {
+        "construction": "Original closed sampled rounded plate; 8 bevel rings",
+        "sourceDimensions": [
+          2.15,
+          0.64,
+          0.085
+        ],
+        "bevel": 0.018,
+        "radius": 0.16
+      }
+    },
+    {
+      "name": "02 aperture arc",
+      "vertices": 36866,
+      "triangles": 75776,
+      "material": "Brushed anodised brilliant cobalt alloy",
+      "position": [
+        0.5629165124598852,
+        -0.32499999999999984,
+        0
+      ],
+      "rotation": [
+        0.12,
+        0,
+        -2.0943951023931953
+      ],
+      "construction": {
+        "construction": "Original closed sampled rounded plate; 8 bevel rings",
+        "sourceDimensions": [
+          2.15,
+          0.64,
+          0.085
+        ],
+        "bevel": 0.018,
+        "radius": 0.16
+      }
+    },
+    {
+      "name": "03 aperture arc",
+      "vertices": 36866,
+      "triangles": 75776,
+      "material": "Fine brushed neutral nickel",
+      "position": [
+        -0.5629165124598849,
+        -0.3250000000000003,
+        0
+      ],
+      "rotation": [
+        0.12,
+        0,
+        -4.1887902047863905
+      ],
+      "construction": {
+        "construction": "Original closed sampled rounded plate; 8 bevel rings",
+        "sourceDimensions": [
+          2.15,
+          0.64,
+          0.085
+        ],
+        "bevel": 0.018,
+        "radius": 0.16
+      }
+    }
+  ],
+  "bounds": {
+    "min": [
+      -1.3725130436537731,
+      -1.2148305871038723,
+      -0.5156790541480685
+    ],
+    "max": [
+      1.372513043653773,
+      1.2148305871038723,
+      0.5156790541480684
+    ]
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      4.2,
+      2.65,
+      7.4
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ],
+    "span": 1.9764187828614332
+  },
+  "render": {
+    "width": 1600,
+    "height": 1600,
+    "alpha": true
+  },
+  "recipe": "Original parametric plate geometry, true thickness and bevel; PMREM softbox studio; no image generation"
+}

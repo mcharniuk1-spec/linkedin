@@ -1,0 +1,2836 @@
+{
+  "version": "2.0.0-candidate",
+  "boardCount": 58,
+  "logicalSourceCount": 53,
+  "counts": {
+    "publication": 13,
+    "video": 24,
+    "document": 12,
+    "sales": 9
+  },
+  "boards": [
+    {
+      "id": "OS-P001",
+      "family": "publication",
+      "file": "brand-library/packages/content/revisions/v2/OS-P001.svg",
+      "sha256": "36ad43a59cfb356339a5c5aeef4028c7ad186badd97695723af440afc568a407",
+      "bytes": 1186932,
+      "width": 1584,
+      "height": 396,
+      "source": {
+        "path": "brand-library/packages/content/templates/OS-P001.svg",
+        "sha256": "b9423b129f486904374ca83e14814d5420bc690059ed30ce14a45638754f7ebc",
+        "metadata": "brand-library/packages/content/templates/OS-P001.json",
+        "metadataSha256": "a7d4921233155c71b98e70c025f2f984f13446611318cdb26d5bb020011ee9e8",
+        "logicalPiece": "OS-P001"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "74c59dbf2ebaa292e32f870b4320a5fc2f7976bc4281f79f3318ed1e0e2d85e7",
+      "nativeTextLines": 2,
+      "nativeTextContent": [
+        "Founder thinking. Buyer",
+        "relevance."
+      ],
+      "graphicsLayers": 1,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-P002",
+      "family": "publication",
+      "file": "brand-library/packages/content/revisions/v2/OS-P002.svg",
+      "sha256": "c5c3faae571c1eb2b19d2d4d3f2d03cc4382bf572a6536a5feaf48ff85e8501a",
+      "bytes": 1186919,
+      "width": 1128,
+      "height": 191,
+      "source": {
+        "path": "brand-library/packages/content/templates/OS-P002.svg",
+        "sha256": "dfb019020621fd1b6d6ec4bcb7f33960f15c563e58934149c9c7a43289aa30b3",
+        "metadata": "brand-library/packages/content/templates/OS-P002.json",
+        "metadataSha256": "0a8c7aca6df39248ec5f9a534fb4abf7d78fbc0a36313db660ab380c4cebf2dc",
+        "logicalPiece": "OS-P002"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "54129f284debb0c8074f5b53d95d49cff84a58602e8eb704115b1aa8eeec8c9a",
+      "nativeTextLines": 2,
+      "nativeTextContent": [
+        "Founder thinking.",
+        "Buyer relevance."
+      ],
+      "graphicsLayers": 1,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-P003",
+      "family": "publication",
+      "file": "brand-library/packages/content/revisions/v2/OS-P003.svg",
+      "sha256": "34cb4955a6f8ffce883b3b6ed2c470547d7f6d8fc53849f1fd79474d6bb8b7f6",
+      "bytes": 1399110,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/templates/OS-P003.svg",
+        "sha256": "8f6c80d2d3a3d92b7679c5fc14bf46fb735d480b085b420fd790c7d7f48ece75",
+        "metadata": "brand-library/packages/content/templates/OS-P003.json",
+        "metadataSha256": "9a6f34cafde9483c72e804176747577c0bc95806192ef6729f65da78def38901",
+        "logicalPiece": "OS-P003"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "ef12a8cf09c5febf0b1d8245da9434a15f3a1aa007a671cac16e3d1b95d4f167",
+      "nativeTextLines": 7,
+      "nativeTextContent": [
+        "Founder judgment",
+        "The customer problem",
+        "behind the product.",
+        "Explain the customer problem that made a",
+        "product decision necessary. Give buyers the",
+        "context they need to judge the trade-off.",
+        "Editorial specimen"
+      ],
+      "graphicsLayers": 3,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [
+        {
+          "sourceLayer": "OS-P003-image0",
+          "sourceSha256": "d0734bdf555c32a4774d0f1eda6cd2223c531da361785b989b2631463f5fbc06",
+          "currentAsset": "OS-O212",
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O212.png",
+          "sha256": "7ad400e9ce37bc34c9c3365efcf93abc2a6ffbb3f940f40db4d45ed1951f5c16",
+          "rect": {
+            "x": 160,
+            "y": 420,
+            "width": 760,
+            "height": 520
+          },
+          "fit": "FIT"
+        }
+      ],
+      "nativeFitRepairs": [
+        {
+          "sourceLayer": "OS-P003-image0",
+          "x": 160,
+          "y": 420,
+          "w": 760,
+          "h": 520
+        }
+      ],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-P004",
+      "family": "publication",
+      "file": "brand-library/packages/content/revisions/v2/OS-P004.svg",
+      "sha256": "d11db6270d9d33349ed893ebe7a3fb20821657900e61ca3726a3a67d3839fad7",
+      "bytes": 1188530,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/templates/OS-P004.svg",
+        "sha256": "08469439bec065584cf56428ce3a7b0d1cd9c68cf3fc8ea45b60670b4208124b",
+        "metadata": "brand-library/packages/content/templates/OS-P004.json",
+        "metadataSha256": "775e68ffeec0f2507081f1e9e690ac95336c5fca6c047307285543b16a70cc47",
+        "logicalPiece": "OS-P004"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "be569912d0a0151c71dc6fdce077c569394b73f23df499aec5c1ccaa2394e85f",
+      "nativeTextLines": 8,
+      "nativeTextContent": [
+        "An editorial principle",
+        "Start with something",
+        "true and useful.",
+        "Editorial specimen",
+        "A clear voice matters. So",
+        "does the material",
+        "underneath it.",
+        "Outspoken \u00b7 editorial opinion"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-P005",
+      "family": "publication",
+      "file": "brand-library/packages/content/revisions/v2/OS-P005.svg",
+      "sha256": "3e5217817698e41e0d80e12a6a412f4e7805b15ce456f46aaf160b8b28d4ff4f",
+      "bytes": 1190123,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/templates/OS-P005.svg",
+        "sha256": "9244937733188170fa3cc8c82ab712021026e277d5b93b9ecd915806052f9b1a",
+        "metadata": "brand-library/packages/content/templates/OS-P005.json",
+        "metadataSha256": "aabe40125749aa7026ed74668b4592b6928354dde770dacd62e087b985674dd2",
+        "logicalPiece": "OS-P005"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "4424266bee74be119a104aed74462efdd05db5e06f4538fe17f70b4eb9799f2d",
+      "nativeTextLines": 13,
+      "nativeTextContent": [
+        "A practical checklist",
+        "A clear draft needs",
+        "three checks.",
+        "Editorial specimen",
+        "01",
+        "Trace the source.",
+        "Can the claim be checked?",
+        "02",
+        "Protect the meaning.",
+        "Keep the useful qualification.",
+        "03",
+        "Confirm permission.",
+        "Can the material be shared?"
+      ],
+      "graphicsLayers": 5,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-P006",
+      "family": "publication",
+      "file": "brand-library/packages/content/revisions/v2/OS-P006.svg",
+      "sha256": "6a04ffad3d4ed490f29648077120eee12a57d250807be9032a18c32559f0bc58",
+      "bytes": 1189276,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/templates/OS-P006.svg",
+        "sha256": "3b5fa6a6ad64fb407f6e2a5dd1652c612d2fc206e0a3c220e4345f1c0fb8c38a",
+        "metadata": "brand-library/packages/content/templates/OS-P006.json",
+        "metadataSha256": "35b7cbba10ef2a582cd700bf76c8787e05ba6b87dba02f6633d04d266cd857a8",
+        "logicalPiece": "OS-P006"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "d0a9c0d0cb8205a31b712721b426bca0a57241146639986e3f2f3653c3ba8e9b",
+      "nativeTextLines": 7,
+      "nativeTextContent": [
+        "Document \u00b7 six pages",
+        "One decision. A useful",
+        "story.",
+        "Editorial specimen",
+        "Problem \u2192 trade-off \u2192 evidence \u2192",
+        "buyer implication",
+        "01 / 06"
+      ],
+      "graphicsLayers": 3,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-P007",
+      "family": "publication",
+      "file": "brand-library/packages/content/revisions/v2/OS-P007.svg",
+      "sha256": "7cf48ec1870d1b500d21eaf346aa09b51e06e7a32e5338fe987e9c93905e5d35",
+      "bytes": 1189592,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/templates/OS-P007.svg",
+        "sha256": "16a53079f7eefe20fc921eb61434a90d5721df8d0325299a3b114979897f9cad",
+        "metadata": "brand-library/packages/content/templates/OS-P007.json",
+        "metadataSha256": "9d755040504e24cd41d6fc7628787b3927a04065f1ce72a2bdb4e580dfa9cd5c",
+        "logicalPiece": "OS-P007"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "181ba1293df37f215adc21d32d46d2effd7873e51b605374e6c9f86e2056bacc",
+      "nativeTextLines": 11,
+      "nativeTextContent": [
+        "Before / after \u00b7 DEMO",
+        "Keep the evidence with",
+        "the claim.",
+        "Editorial specimen",
+        "Before \u00b7 unsupported claim",
+        "A promised outcome with no source.",
+        "After \u00b7 qualified observation",
+        "A source, a defined scope and an",
+        "explicit limitation.",
+        "Illustrative example \u2014 not a customer",
+        "testimonial"
+      ],
+      "graphicsLayers": 4,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-P008",
+      "family": "publication",
+      "file": "brand-library/packages/content/revisions/v2/OS-P008.svg",
+      "sha256": "29daa149d3916ef2635390fa60425b180ce6777d3468016b1d50fa9613677b14",
+      "bytes": 1190111,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/templates/OS-P008.svg",
+        "sha256": "a4e2012ab45d0d7023950fda257766cbdc7730593a4851ffd594613073f3b234",
+        "metadata": "brand-library/packages/content/templates/OS-P008.json",
+        "metadataSha256": "6d46f0b098659bb8b4aeb7c65f2322d15efdffbb2b294884de516d1f27bdf8f5",
+        "logicalPiece": "OS-P008"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "8208c83a8b06c8e79e30f1853dfe1fbbb37ea816ebb0d05d86b1d3396b5436c8",
+      "nativeTextLines": 13,
+      "nativeTextContent": [
+        "Educational comparison",
+        "Choose from the buyer",
+        "question.",
+        "Editorial specimen",
+        "A",
+        "Short post",
+        "Explain one useful idea.",
+        "B",
+        "Diagram or document",
+        "Show steps and relationships.",
+        "C",
+        "Focused demonstration",
+        "Show how a workflow behaves."
+      ],
+      "graphicsLayers": 5,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-P009",
+      "family": "publication",
+      "file": "brand-library/packages/content/revisions/v2/OS-P009.svg",
+      "sha256": "faa9f14e6103cb73471e12de9aaae63b0b86028f94523a8b7859cd6b36305010",
+      "bytes": 1190953,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/templates/OS-P009.svg",
+        "sha256": "50d05ff1d4de4c12f2ad02ec78221938c3bce135c4c5f9423c8ceedcca8cf105",
+        "metadata": "brand-library/packages/content/templates/OS-P009.json",
+        "metadataSha256": "a5ffccdd1f6de3efcf6f0f33edbe365b6539cd6f23f1d2363e391123a248868e",
+        "logicalPiece": "OS-P009"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "acec6d5d1448f48df91aec89ab26493f6ae6232e309112b073a4771ce674d949",
+      "nativeTextLines": 15,
+      "nativeTextContent": [
+        "Proposed service workflow",
+        "From the interview to a",
+        "useful draft.",
+        "Editorial specimen",
+        "01",
+        "Interview material",
+        "Capture reasoning and context.",
+        "02",
+        "Positioning and drafts",
+        "Connect the idea to a buyer",
+        "question.",
+        "03",
+        "Founder approval",
+        "Review the exact text and media.",
+        "Then: ready-to-post delivery and review."
+      ],
+      "graphicsLayers": 7,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-P010",
+      "family": "publication",
+      "file": "brand-library/packages/content/revisions/v2/OS-P010.svg",
+      "sha256": "0d1e43390d647ac7cdf8d9e497b646bd5e97ca9403ee23cd5af8953e07808344",
+      "bytes": 1189191,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/templates/OS-P010.svg",
+        "sha256": "2cf63bd4a2864d3783e2f51834656fda9ec85dd5dd1a8da2ec333508ac6acf8e",
+        "metadata": "brand-library/packages/content/templates/OS-P010.json",
+        "metadataSha256": "08677740c9c040ec53cde3d59462cd9a65c755ec8a7e1368ce2f856594b1cb25",
+        "logicalPiece": "OS-P010"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "4084f2391733399767a15e1acdbe1e74f1fcaf505330ade2986eb28def5aba7f",
+      "nativeTextLines": 11,
+      "nativeTextContent": [
+        "Interview prompt sheet",
+        "Bring one product",
+        "decision.",
+        "Editorial specimen",
+        "What changed?",
+        "Why did the team choose it?",
+        "What supports the claim?",
+        "What should the buyer",
+        "understand?",
+        "Use only material you can share. No",
+        "commercial terms are implied."
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-P011",
+      "family": "publication",
+      "file": "brand-library/packages/content/revisions/v2/OS-P011.svg",
+      "sha256": "474d63cd6da5483bce3e397c652c89d9d714caf388c0182c613e6030fad4e47d",
+      "bytes": 3945165,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/templates/OS-P011.svg",
+        "sha256": "0413a097404282c1686d40ae0698cf00599a24f10cafc3f3c25a6607fe4185aa",
+        "metadata": "brand-library/packages/content/templates/OS-P011.json",
+        "metadataSha256": "3d36ac5633c8121fa06f20bae41a18555010a97c361be556b6933c7fb0418a29",
+        "logicalPiece": "OS-P011"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "406521231ec5e7591231ac12da25f129afa29aea12039d0287ea01012ebbcdce",
+      "nativeTextLines": 6,
+      "nativeTextContent": [
+        "Founder video specimen",
+        "The reasoning behind the",
+        "decision.",
+        "Editorial specimen",
+        "Fictional founder \u00b7 silent media specimen",
+        "Replace media. Keep captions separate."
+      ],
+      "graphicsLayers": 5,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [
+        {
+          "sourceLayer": "OS-P011-image0",
+          "sourceSha256": "2ea2c56148b17f1e007242e51e843bd4b54b71732cac3a3f723f188af1cae514",
+          "currentAsset": "OS-PH201",
+          "path": "brand-library/packages/assets/revisions/v2/photos/OS-PH201.png",
+          "sha256": "074c566fb5fea52a03fa21bafb52c6ea91e6e790ac412fe6d634b1b14b566deb",
+          "rect": {
+            "x": 67,
+            "y": 557,
+            "width": 946,
+            "height": 460
+          },
+          "fit": "FILL"
+        }
+      ],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-P012",
+      "family": "publication",
+      "file": "brand-library/packages/content/revisions/v2/OS-P012.svg",
+      "sha256": "ac02681cc15c08bb849cad15826fc919f43e9a5c49eb200f5f1bf08245a021b2",
+      "bytes": 1189709,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/templates/OS-P012.svg",
+        "sha256": "521767987340c914e70c0e05d757aff5ad32a8eea7adadad7c2afe1c0bf012c7",
+        "metadata": "brand-library/packages/content/templates/OS-P012.json",
+        "metadataSha256": "3844ac3f304dd303080f29c8095f911716b0661693ffadf7cd9dcdb28774af31",
+        "logicalPiece": "OS-P012"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "4186b7aef5880e35e8317b858132a247e67c1923a6af16e9b7b14081a60d43ae",
+      "nativeTextLines": 13,
+      "nativeTextContent": [
+        "Article opening",
+        "Make the reasoning",
+        "readable.",
+        "Editorial specimen",
+        "An editorial note on explaining a",
+        "product decision in context.",
+        "Name the trade-off.",
+        "Show what the team chose and what it gave",
+        "up. Give the buyer enough context to judge",
+        "the choice.",
+        "Keep the source nearby.",
+        "Editorial proposal \u00b7 no client case",
+        "claimed."
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-P013",
+      "family": "publication",
+      "file": "brand-library/packages/content/revisions/v2/OS-P013.svg",
+      "sha256": "6267e5f8f91a3132502f016c8a21c0de57c1eee9ce00c8594756cfefc48efa6f",
+      "bytes": 1193281,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/templates/OS-P013.svg",
+        "sha256": "235c05bbbb55842cd2558f22a2ed80d1d93843ef7b48ce3d5980c64f1fd170e4",
+        "metadata": "brand-library/packages/content/templates/OS-P013.json",
+        "metadataSha256": "06b2550bf5be9753dda2a81505317efebf571dfc52835f4e2bbd0c2a4c502dd5",
+        "logicalPiece": "OS-P013"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "1b4051be6c2131d5c787f1318e8214d4cfa27976232999b95b0d9b35acadb946",
+      "nativeTextLines": 12,
+      "nativeTextContent": [
+        "Campaign composition kit",
+        "One idea. Deliberate",
+        "adaptations.",
+        "Editorial specimen",
+        "Post",
+        "One clear idea.",
+        "Source \u2192 draft \u2192 review",
+        "Document",
+        "A useful sequence.",
+        "Video",
+        "A visible explanation.",
+        "Shared source. Separate reading orders."
+      ],
+      "graphicsLayers": 8,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V001-landscape",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V001-landscape.svg",
+      "sha256": "2a94277ffb78c8be092168898d109a76f1b666d868eacfdfb6434658cb5b4a72",
+      "bytes": 3929337,
+      "width": 1920,
+      "height": 1080,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V001.svg",
+        "sha256": "98ef4cde11250742a40ae9ee55ef7b44c303a4929509eb19920a11a6af9baa3f",
+        "metadata": "brand-library/packages/video/scenes/OS-V001.json",
+        "metadataSha256": "c39eb6014fd88f2101d4191c1ae4a93668b3534129bbf8812cfeef76278be335",
+        "logicalPiece": "OS-V001-landscape"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "ec92c71be7e7dcd64437b935c5396a872738d050bd3259f54912a7b311572a38",
+      "nativeTextLines": 8,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 01",
+        "Explain the",
+        "decision.",
+        "Fictional founder",
+        "A buyer question. A",
+        "source. A clear",
+        "explanation.",
+        "Silent Stage 1 specimen"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [
+        {
+          "sourceLayer": "OS-V001-landscape-image0",
+          "sourceSha256": "2ea2c56148b17f1e007242e51e843bd4b54b71732cac3a3f723f188af1cae514",
+          "currentAsset": "OS-PH201",
+          "path": "brand-library/packages/assets/revisions/v2/photos/OS-PH201.png",
+          "sha256": "074c566fb5fea52a03fa21bafb52c6ea91e6e790ac412fe6d634b1b14b566deb",
+          "rect": {
+            "x": 1000,
+            "y": 160,
+            "width": 830,
+            "height": 620
+          },
+          "fit": "FILL"
+        }
+      ],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V001-square",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V001-square.svg",
+      "sha256": "048bac0b350683533f23af39a4d9972b7733a14ee372c93d2420dd16222f3ab9",
+      "bytes": 3928359,
+      "width": 1080,
+      "height": 1080,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V001-square.svg",
+        "sha256": "599df917b2520e2b871bfcb40470e1afd15fb8bb1c795e9851a9b81f7de049db",
+        "metadata": "brand-library/packages/video/scenes/OS-V001.json",
+        "metadataSha256": "c39eb6014fd88f2101d4191c1ae4a93668b3534129bbf8812cfeef76278be335",
+        "logicalPiece": "OS-V001-square"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "f1c07d29d9fe2854784e485ee3058db2da58f60c164593338e7d061d8694e5d7",
+      "nativeTextLines": 4,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 01",
+        "Explain the decision.",
+        "Fictional founder",
+        "Silent Stage 1 specimen"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [
+        {
+          "sourceLayer": "OS-V001-square-image0",
+          "sourceSha256": "2ea2c56148b17f1e007242e51e843bd4b54b71732cac3a3f723f188af1cae514",
+          "currentAsset": "OS-PH201",
+          "path": "brand-library/packages/assets/revisions/v2/photos/OS-PH201.png",
+          "sha256": "074c566fb5fea52a03fa21bafb52c6ea91e6e790ac412fe6d634b1b14b566deb",
+          "rect": {
+            "x": 64,
+            "y": 390,
+            "width": 952,
+            "height": 420
+          },
+          "fit": "FIT"
+        }
+      ],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V001-portrait",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V001-portrait.svg",
+      "sha256": "018623b3d06a49904c633574c6c01b3c76ed24d3d3943620cd38e019f24cf20a",
+      "bytes": 3929085,
+      "width": 1080,
+      "height": 1920,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V001-portrait.svg",
+        "sha256": "6620ca04381050a0d0304d7c2fb6a83a8a30b17e06224138a54a7bf06db78950",
+        "metadata": "brand-library/packages/video/scenes/OS-V001.json",
+        "metadataSha256": "c39eb6014fd88f2101d4191c1ae4a93668b3534129bbf8812cfeef76278be335",
+        "logicalPiece": "OS-V001-portrait"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "4774e0f8bfcd0c42f51f98c992dbb60d5a06f8fcd173d9a6d6317aa87457d86b",
+      "nativeTextLines": 7,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 01",
+        "Explain the decision.",
+        "Fictional founder",
+        "A buyer question. A",
+        "source. A clear",
+        "explanation.",
+        "Silent Stage 1 specimen"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [
+        {
+          "sourceLayer": "OS-V001-portrait-image0",
+          "sourceSha256": "2ea2c56148b17f1e007242e51e843bd4b54b71732cac3a3f723f188af1cae514",
+          "currentAsset": "OS-PH201",
+          "path": "brand-library/packages/assets/revisions/v2/photos/OS-PH201.png",
+          "sha256": "074c566fb5fea52a03fa21bafb52c6ea91e6e790ac412fe6d634b1b14b566deb",
+          "rect": {
+            "x": 64,
+            "y": 480,
+            "width": 952,
+            "height": 580
+          },
+          "fit": "FILL"
+        }
+      ],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V002-landscape",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V002-landscape.svg",
+      "sha256": "5a2f45fcfd271ec720d86641e69c797e98832e81aa64dee1a7c1e2d5a7b15c90",
+      "bytes": 1172692,
+      "width": 1920,
+      "height": 1080,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V002.svg",
+        "sha256": "b1ac1d286b3a7d20914ce5db3479efa0671cf442ffd4167f9505fa07a1524815",
+        "metadata": "brand-library/packages/video/scenes/OS-V002.json",
+        "metadataSha256": "6289b6487e1af62605638bad4de3233115a3785fc261059eda6bc1161a58f9cc",
+        "logicalPiece": "OS-V002-landscape"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "8e8aebc45b45e51892e65404d7579b7fe6f95674750f1037c2e1e79d2bc2780c",
+      "nativeTextLines": 6,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 02",
+        "Show the workflow.",
+        "Original demo screen",
+        "Draft \u2192 Review",
+        "Ready for review",
+        "Silent Stage 1 specimen"
+      ],
+      "graphicsLayers": 4,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V002-square",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V002-square.svg",
+      "sha256": "89ded9a30f489c69ec8af8d67bfedf5d21ecb131d1834c63a1a9ffe57bd4921f",
+      "bytes": 1172652,
+      "width": 1080,
+      "height": 1080,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V002-square.svg",
+        "sha256": "cf7001fafda6ab12ae5bd168a52fa6802f6e58f8cfe602109d4c58e329597330",
+        "metadata": "brand-library/packages/video/scenes/OS-V002.json",
+        "metadataSha256": "6289b6487e1af62605638bad4de3233115a3785fc261059eda6bc1161a58f9cc",
+        "logicalPiece": "OS-V002-square"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "c19e9ab367ae9d93aed7e3f1cf106a32bcbe5e1da0a88c9eb4999e938a6e5df8",
+      "nativeTextLines": 6,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 02",
+        "Show the workflow.",
+        "Original demo screen",
+        "Draft \u2192 Review",
+        "Ready for review",
+        "Silent Stage 1 specimen"
+      ],
+      "graphicsLayers": 4,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V002-portrait",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V002-portrait.svg",
+      "sha256": "08a5f0ba815ea9b7333148ebfacb851471d4ded7f074b8b455b6e3d7dabd4631",
+      "bytes": 1172683,
+      "width": 1080,
+      "height": 1920,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V002-portrait.svg",
+        "sha256": "d164f4c2de3bee341ba3fec4fde5b0497ea70940e7ce1d4162b1528a4287c86d",
+        "metadata": "brand-library/packages/video/scenes/OS-V002.json",
+        "metadataSha256": "6289b6487e1af62605638bad4de3233115a3785fc261059eda6bc1161a58f9cc",
+        "logicalPiece": "OS-V002-portrait"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "24dbafef3b6b011e9b653a94d89056ac148b1703e24b562485d197d0c67edaf0",
+      "nativeTextLines": 6,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 02",
+        "Show the workflow.",
+        "Original demo screen",
+        "Draft \u2192 Review",
+        "Ready for review",
+        "Silent Stage 1 specimen"
+      ],
+      "graphicsLayers": 4,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V003-landscape",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V003-landscape.svg",
+      "sha256": "5e9c73ae1be8885a65385e9c75e62f60b53e3dd4f300035f5fda08e0a34261ef",
+      "bytes": 1380876,
+      "width": 1920,
+      "height": 1080,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V003.svg",
+        "sha256": "f9042dabef81a1e37638ce0d0a8f11a66dd6aae8b176c5e3e62af00bf072dc9c",
+        "metadata": "brand-library/packages/video/scenes/OS-V003.json",
+        "metadataSha256": "5fa0e14dc18bed0db09722c5156417c5935ce8b0737fa6ce40901d0ec5632e10",
+        "logicalPiece": "OS-V003-landscape"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "c41fc3a8ac2217715229d0ee63a0db4e46800d7775e3506fb5b781d7d6a80958",
+      "nativeTextLines": 5,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 03",
+        "Give the idea a form.",
+        "One idea, made",
+        "concrete.",
+        "Silent Stage 1 specimen"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [
+        {
+          "sourceLayer": "OS-V003-landscape-image0",
+          "sourceSha256": "d0734bdf555c32a4774d0f1eda6cd2223c531da361785b989b2631463f5fbc06",
+          "currentAsset": "OS-O212",
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O212.png",
+          "sha256": "7ad400e9ce37bc34c9c3365efcf93abc2a6ffbb3f940f40db4d45ed1951f5c16",
+          "rect": {
+            "x": 1120,
+            "y": 180,
+            "width": 700,
+            "height": 700
+          },
+          "fit": "FIT"
+        }
+      ],
+      "nativeFitRepairs": [
+        {
+          "sourceLayer": "OS-V003-landscape-image0",
+          "x": 1120,
+          "y": 180,
+          "w": 700,
+          "h": 700
+        }
+      ],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V003-square",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V003-square.svg",
+      "sha256": "1aee659c31b58b0b67cc55720703870004027ec4861fa8922759d174b959b5f6",
+      "bytes": 1380358,
+      "width": 1080,
+      "height": 1080,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V003-square.svg",
+        "sha256": "4dfdf56245bf2ed0093c0e26b954949c07ac35a99d954e5ddd1e08cc2c8674f7",
+        "metadata": "brand-library/packages/video/scenes/OS-V003.json",
+        "metadataSha256": "5fa0e14dc18bed0db09722c5156417c5935ce8b0737fa6ce40901d0ec5632e10",
+        "logicalPiece": "OS-V003-square"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "b29dd7ad91a376bc950c48a6d8769576eea4d642d3753883ff77ce57e5fb8952",
+      "nativeTextLines": 3,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 03",
+        "Give the idea a form.",
+        "Silent Stage 1 specimen"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [
+        {
+          "sourceLayer": "OS-V003-square-image0",
+          "sourceSha256": "d0734bdf555c32a4774d0f1eda6cd2223c531da361785b989b2631463f5fbc06",
+          "currentAsset": "OS-O212",
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O212.png",
+          "sha256": "7ad400e9ce37bc34c9c3365efcf93abc2a6ffbb3f940f40db4d45ed1951f5c16",
+          "rect": {
+            "x": 180,
+            "y": 360,
+            "width": 720,
+            "height": 480
+          },
+          "fit": "FIT"
+        }
+      ],
+      "nativeFitRepairs": [
+        {
+          "sourceLayer": "OS-V003-square-image0",
+          "x": 180,
+          "y": 360,
+          "w": 720,
+          "h": 480
+        }
+      ],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V003-portrait",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V003-portrait.svg",
+      "sha256": "ed6628bde8c89c1ee606fd6665ef01099034a5ab0d3574ed8a8084bb7c8c96e6",
+      "bytes": 1380384,
+      "width": 1080,
+      "height": 1920,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V003-portrait.svg",
+        "sha256": "a3a40db4c89f231272938c9799b6db5a50d618bfcdbce020621e40702bf16cd6",
+        "metadata": "brand-library/packages/video/scenes/OS-V003.json",
+        "metadataSha256": "5fa0e14dc18bed0db09722c5156417c5935ce8b0737fa6ce40901d0ec5632e10",
+        "logicalPiece": "OS-V003-portrait"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "55e3793861dcd52195f286a98c7725ddd95527de4fa83681b6b3602612309b16",
+      "nativeTextLines": 3,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 03",
+        "Give the idea a form.",
+        "Silent Stage 1 specimen"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [
+        {
+          "sourceLayer": "OS-V003-portrait-image0",
+          "sourceSha256": "d0734bdf555c32a4774d0f1eda6cd2223c531da361785b989b2631463f5fbc06",
+          "currentAsset": "OS-O212",
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O212.png",
+          "sha256": "7ad400e9ce37bc34c9c3365efcf93abc2a6ffbb3f940f40db4d45ed1951f5c16",
+          "rect": {
+            "x": 160,
+            "y": 460,
+            "width": 760,
+            "height": 1000
+          },
+          "fit": "FIT"
+        }
+      ],
+      "nativeFitRepairs": [
+        {
+          "sourceLayer": "OS-V003-portrait-image0",
+          "x": 160,
+          "y": 460,
+          "w": 760,
+          "h": 1000
+        }
+      ],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V004-landscape",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V004-landscape.svg",
+      "sha256": "f7b584ac75ff60f408ee9667e2587ac88b7f10c5986a3373589fadf6e7871e2b",
+      "bytes": 1173088,
+      "width": 1920,
+      "height": 1080,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V004.svg",
+        "sha256": "4f5020ebec3f74769897901ea1b442c1b693a622984814d964e6d1680b1b2ef1",
+        "metadata": "brand-library/packages/video/scenes/OS-V004.json",
+        "metadataSha256": "13a6c48cc2765f3d4ae50c8729bb11b3b9ca4a5fe6b406c346128be789cf3eaa",
+        "logicalPiece": "OS-V004-landscape"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "b850f1e2c3778186c880e886ed1179f69a49d7638fc6a5d3c8d13d52ddb234bb",
+      "nativeTextLines": 6,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 04",
+        "From source to review.",
+        "Interview",
+        "Draft",
+        "Review",
+        "Silent Stage 1 specimen"
+      ],
+      "graphicsLayers": 6,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V004-square",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V004-square.svg",
+      "sha256": "30a4d2f26b04f044ffb11097c8813fc08be0e3871c43a2ab6a9a513de7e25a09",
+      "bytes": 1173041,
+      "width": 1080,
+      "height": 1080,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V004-square.svg",
+        "sha256": "9916f4588fda7ad540379c66ce979da75eec6fad7e2f04af257a31cd795470c9",
+        "metadata": "brand-library/packages/video/scenes/OS-V004.json",
+        "metadataSha256": "13a6c48cc2765f3d4ae50c8729bb11b3b9ca4a5fe6b406c346128be789cf3eaa",
+        "logicalPiece": "OS-V004-square"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "831d42a949c487935b50bc8b1fff432d5d63d6229a4750454e82992a8a3eddb6",
+      "nativeTextLines": 6,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 04",
+        "From source to review.",
+        "Interview",
+        "Draft",
+        "Review",
+        "Silent Stage 1 specimen"
+      ],
+      "graphicsLayers": 6,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V004-portrait",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V004-portrait.svg",
+      "sha256": "f7cc01e36424c332a4e1a0b68095f3533b8ae966e6311c4e3ca0b475dfeeccfe",
+      "bytes": 1173079,
+      "width": 1080,
+      "height": 1920,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V004-portrait.svg",
+        "sha256": "4ea7aebdd517520f5f65c49065c447749392c0994eeb56d3e54d241d9b86a444",
+        "metadata": "brand-library/packages/video/scenes/OS-V004.json",
+        "metadataSha256": "13a6c48cc2765f3d4ae50c8729bb11b3b9ca4a5fe6b406c346128be789cf3eaa",
+        "logicalPiece": "OS-V004-portrait"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "1accb0fb19d2262a04e8ad2a8a1e6e522a5552a09a6fd150a1f17d9f66762bc7",
+      "nativeTextLines": 6,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 04",
+        "From source to review.",
+        "Interview",
+        "Draft",
+        "Review",
+        "Silent Stage 1 specimen"
+      ],
+      "graphicsLayers": 6,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V005-landscape",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V005-landscape.svg",
+      "sha256": "fc7ede1aa72268d0aa27b6de6299e2f365a69d226d8ee7518e44470ced24f5d1",
+      "bytes": 1172618,
+      "width": 1920,
+      "height": 1080,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V005.svg",
+        "sha256": "fbe23bdfb9a6588c2d94a03afd1457d3da8c4cf627d132aafe349199ae8842c6",
+        "metadata": "brand-library/packages/video/scenes/OS-V005.json",
+        "metadataSha256": "9374c9e714a1d4bca69b04fa1b112a1b0efcac956e8076a5ce5ef50c4b626f86",
+        "logicalPiece": "OS-V005-landscape"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "6bdb2e748b072f07a658ccd86ac77f02774281279ada5692ad5a6f047e7ddc94",
+      "nativeTextLines": 7,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 05",
+        "A useful draft has a source.",
+        "Illustrative email",
+        "\u201cPlease keep the qualification beside",
+        "the claim.\u201d",
+        "Illustrative example \u2014 not a customer",
+        "testimonial"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V005-square",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V005-square.svg",
+      "sha256": "71f8cf7ad05456efd2f558b976259c57e244c28384d18fc4ccdbb309804c91a0",
+      "bytes": 1173042,
+      "width": 1080,
+      "height": 1080,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V005-square.svg",
+        "sha256": "f1956337040ad6a81ddb93ea25e994ce37e967fdf329bd86ca11319ad79bfa2e",
+        "metadata": "brand-library/packages/video/scenes/OS-V005.json",
+        "metadataSha256": "9374c9e714a1d4bca69b04fa1b112a1b0efcac956e8076a5ce5ef50c4b626f86",
+        "logicalPiece": "OS-V005-square"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "9d966dea22887fdabaed0502e3c41d4111abe6e4af22816117be2bb84bfc8676",
+      "nativeTextLines": 9,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 05",
+        "A useful draft has a",
+        "source.",
+        "Illustrative email",
+        "\u201cPlease keep the",
+        "qualification beside the",
+        "claim.\u201d",
+        "Illustrative example \u2014 not a customer",
+        "testimonial"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V005-portrait",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V005-portrait.svg",
+      "sha256": "5ceea25c1319c76a54c9235ed756ebe6a59d54c543df50192332d27a54c25cdb",
+      "bytes": 1173075,
+      "width": 1080,
+      "height": 1920,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V005-portrait.svg",
+        "sha256": "28e09d509bec44f85be2905f54e836a1b1d7fbe3b914675f5cb113373eea0e83",
+        "metadata": "brand-library/packages/video/scenes/OS-V005.json",
+        "metadataSha256": "9374c9e714a1d4bca69b04fa1b112a1b0efcac956e8076a5ce5ef50c4b626f86",
+        "logicalPiece": "OS-V005-portrait"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "fafe169145c63360658e19bad669a4faa7eee162b828362d00651a6ff2018798",
+      "nativeTextLines": 9,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 05",
+        "A useful draft has a",
+        "source.",
+        "Illustrative email",
+        "\u201cPlease keep the",
+        "qualification beside the",
+        "claim.\u201d",
+        "Illustrative example \u2014 not a customer",
+        "testimonial"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V006-landscape",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V006-landscape.svg",
+      "sha256": "89ab07de52a5fa96c1c3e4bf3d2cb530f520d02051bdca14aeb659d1382a5724",
+      "bytes": 1173481,
+      "width": 1920,
+      "height": 1080,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V006.svg",
+        "sha256": "a516a7234ff902b8386bed690a46869e8289b0d5926ca88c18371dabfbbc10b7",
+        "metadata": "brand-library/packages/video/scenes/OS-V006.json",
+        "metadataSha256": "5df77615f19f650e45b35ddd9c4b761cb36507e7c659644d1fd168b5fcae0fec",
+        "logicalPiece": "OS-V006-landscape"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "7db77598ec8bd9c5fca401bdf32c97d211edc70893ac89ab36e2d4353efadddd",
+      "nativeTextLines": 10,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 06",
+        "Keep the meaning.",
+        "Before",
+        "Unsupported outcome",
+        "claim.",
+        "After",
+        "Source + scope +",
+        "limitation.",
+        "Illustrative example \u2014 not a customer",
+        "testimonial"
+      ],
+      "graphicsLayers": 3,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V006-square",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V006-square.svg",
+      "sha256": "7ba261ba98ed3e81df3d8d5251f86fb214e506891bb8da3a2f4ede595137628d",
+      "bytes": 1172975,
+      "width": 1080,
+      "height": 1080,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V006-square.svg",
+        "sha256": "8e1853fa1dc9284008481d22358c49167c6521071b34c610e8d6e4896be62506",
+        "metadata": "brand-library/packages/video/scenes/OS-V006.json",
+        "metadataSha256": "5df77615f19f650e45b35ddd9c4b761cb36507e7c659644d1fd168b5fcae0fec",
+        "logicalPiece": "OS-V006-square"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "30437cc8fdac088467abaa039af289385ddd6a6d41b5a899bd128ec10c2208a2",
+      "nativeTextLines": 8,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 06",
+        "Keep the meaning.",
+        "Before",
+        "Unsupported outcome claim.",
+        "After",
+        "Source + scope + limitation.",
+        "Illustrative example \u2014 not a customer",
+        "testimonial"
+      ],
+      "graphicsLayers": 3,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V006-portrait",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V006-portrait.svg",
+      "sha256": "f06d2c96e2852a1d424874b26e0063886d2499dd23596a981877a35331b6d8a0",
+      "bytes": 1173009,
+      "width": 1080,
+      "height": 1920,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V006-portrait.svg",
+        "sha256": "b59b00239de7a7d289a88b0bddc42f62e631e07efe7cb62b27a1eac55645f905",
+        "metadata": "brand-library/packages/video/scenes/OS-V006.json",
+        "metadataSha256": "5df77615f19f650e45b35ddd9c4b761cb36507e7c659644d1fd168b5fcae0fec",
+        "logicalPiece": "OS-V006-portrait"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "6a144964dad82ff8560a4210c790c82500d5ed264f323b2341dd03d116eb989a",
+      "nativeTextLines": 8,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 06",
+        "Keep the meaning.",
+        "Before",
+        "Unsupported outcome claim.",
+        "After",
+        "Source + scope + limitation.",
+        "Illustrative example \u2014 not a customer",
+        "testimonial"
+      ],
+      "graphicsLayers": 3,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V007-landscape",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V007-landscape.svg",
+      "sha256": "28389949855bc4a85473d3c8b1c952b3c944102920e3c7e336a9ca8c95522445",
+      "bytes": 1172353,
+      "width": 1920,
+      "height": 1080,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V007.svg",
+        "sha256": "dd3da4ce6c2012abfd07ffa19d5cb307e4580bdf0a3d195d5e734f53a51ff7e3",
+        "metadata": "brand-library/packages/video/scenes/OS-V007.json",
+        "metadataSha256": "0af075957cb9314f4e44646fd0b20987b45da356b7f8e8b876fc903db8de5efb",
+        "logicalPiece": "OS-V007-landscape"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "ebc4edacdc652787a99b5af7d1f4fa68d56836d7e715540cc8f1c264df2ebd82",
+      "nativeTextLines": 6,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 07",
+        "Evidence needs context.",
+        "Evidence required",
+        "Source \u00b7 date \u00b7 scope \u00b7 limitation",
+        "Illustrative example \u2014 not a customer",
+        "testimonial"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V007-square",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V007-square.svg",
+      "sha256": "e4a7151d0a9acc981e4b476bdb05479bb9804903b00eb96dac9bbde124c75c1e",
+      "bytes": 1172777,
+      "width": 1080,
+      "height": 1080,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V007-square.svg",
+        "sha256": "67b0c2eaf17a315d4e00cd9d2a006ae4d115ca9239b9e27b6f934ffc8b052e01",
+        "metadata": "brand-library/packages/video/scenes/OS-V007.json",
+        "metadataSha256": "0af075957cb9314f4e44646fd0b20987b45da356b7f8e8b876fc903db8de5efb",
+        "logicalPiece": "OS-V007-square"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "2c3f2f4a7f54e1ffeabde326053a33435cc1c2b98c23c490cbc25896e9f142bb",
+      "nativeTextLines": 8,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 07",
+        "Evidence needs",
+        "context.",
+        "Evidence required",
+        "Source \u00b7 date \u00b7 scope \u00b7",
+        "limitation",
+        "Illustrative example \u2014 not a customer",
+        "testimonial"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V007-portrait",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V007-portrait.svg",
+      "sha256": "e850a2fd74addc044d56320d1300cc32fd9635e0d5e0b422271733dc18d724b7",
+      "bytes": 1172808,
+      "width": 1080,
+      "height": 1920,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V007-portrait.svg",
+        "sha256": "5944f24e592888f1dc29d4ac5e3f818a27d911f52216285191bc24fa0f4c646e",
+        "metadata": "brand-library/packages/video/scenes/OS-V007.json",
+        "metadataSha256": "0af075957cb9314f4e44646fd0b20987b45da356b7f8e8b876fc903db8de5efb",
+        "logicalPiece": "OS-V007-portrait"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "50b34f44ac2eb84f7f753a9a6be1260fc4c78f965fbfac62dd97826a56ea3903",
+      "nativeTextLines": 8,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 07",
+        "Evidence needs",
+        "context.",
+        "Evidence required",
+        "Source \u00b7 date \u00b7 scope \u00b7",
+        "limitation",
+        "Illustrative example \u2014 not a customer",
+        "testimonial"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V008-landscape",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V008-landscape.svg",
+      "sha256": "5b18078f298348a6cbcac127cd066d7f2ff69a7f2a2d54f09e9f9b382ef0d672",
+      "bytes": 1172105,
+      "width": 1920,
+      "height": 1080,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V008.svg",
+        "sha256": "4ebaff207adbf67b8c27f8c52abc07a2b6e404855626e86f757e0de85ad5c4fc",
+        "metadata": "brand-library/packages/video/scenes/OS-V008.json",
+        "metadataSha256": "7fbb0cb550059ce33f894e5c28f6b378877c6c1a461dc38744a276b8f572b474",
+        "logicalPiece": "OS-V008-landscape"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "3431f0f8c8ec68bb352a99b9ab363bb3177944b3d917ae25bd2698d3566d7016",
+      "nativeTextLines": 5,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 08",
+        "Make the next step clear.",
+        "Book an intro call",
+        "Destination to be configured.",
+        "Silent Stage 1 specimen"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V008-square",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V008-square.svg",
+      "sha256": "d5bcba8aeedc4e398d704e70e77bf53770a48b80c2914e6a4260d7e6332eef1a",
+      "bytes": 1172306,
+      "width": 1080,
+      "height": 1080,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V008-square.svg",
+        "sha256": "7395def45e1d2fdaf8383e9d61a73eaa131ea72d4573bdfc6837a9f45203eb44",
+        "metadata": "brand-library/packages/video/scenes/OS-V008.json",
+        "metadataSha256": "7fbb0cb550059ce33f894e5c28f6b378877c6c1a461dc38744a276b8f572b474",
+        "logicalPiece": "OS-V008-square"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "f2c1bf39694c35d30fcd26bfa57f016f0d2ebdfcee49bda4804c56e7c70fcc41",
+      "nativeTextLines": 6,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 08",
+        "Make the next step",
+        "clear.",
+        "Book an intro call",
+        "Destination to be configured.",
+        "Silent Stage 1 specimen"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-V008-portrait",
+      "family": "video",
+      "file": "brand-library/packages/content/revisions/v2/OS-V008-portrait.svg",
+      "sha256": "d2f04e0e582b04021b36de8225f7c383829bda0de389978e47bf6ca9d00b20c6",
+      "bytes": 1172333,
+      "width": 1080,
+      "height": 1920,
+      "source": {
+        "path": "brand-library/packages/video/scenes/OS-V008-portrait.svg",
+        "sha256": "f0905dd62b078bbf1e54a19778d3810b73280ef44a3a08009b97eaf7eea2902c",
+        "metadata": "brand-library/packages/video/scenes/OS-V008.json",
+        "metadataSha256": "7fbb0cb550059ce33f894e5c28f6b378877c6c1a461dc38744a276b8f572b474",
+        "logicalPiece": "OS-V008-portrait"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "7d10b3b9eee51eb4eba296474571cd57e94452b1595c0ef0fb709a6c106d7257",
+      "nativeTextLines": 6,
+      "nativeTextContent": [
+        "Outspoken \u00b7 scene 08",
+        "Make the next step",
+        "clear.",
+        "Book an intro call",
+        "Destination to be configured.",
+        "Silent Stage 1 specimen"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 0,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-DOC001-01",
+      "family": "document",
+      "file": "brand-library/packages/content/revisions/v2/OS-DOC001-01.svg",
+      "sha256": "9e9999184c8b9dfef9afb84b091143ce2526328cfacef800c71ccca51438ba5d",
+      "bytes": 1190612,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/examples/OS-DOC001/01.svg",
+        "sha256": "35c66e8da8cfb4e9f7532312b70f1c0aaa599bcc83005b52a7699dbb2a1ffa88",
+        "metadata": "brand-library/packages/content/examples/documents.json",
+        "metadataSha256": "292fdbefe4a83c4c88c5cf72e41f9fc948b194ecfe792c570d3513e63c90f996",
+        "logicalPiece": "OS-DOC001-01"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "ef42c54973b7ebc72b72121b31f12fb4831d1328dd1bb01cd650851231119f84",
+      "nativeTextLines": 7,
+      "nativeTextContent": [
+        "Editorial framework",
+        "One decision. A useful",
+        "story.",
+        "A practical editorial framework. Proposed",
+        "method, not a client case.",
+        "1/6",
+        "Editorial specimen"
+      ],
+      "graphicsLayers": 3,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-DOC001-02",
+      "family": "document",
+      "file": "brand-library/packages/content/revisions/v2/OS-DOC001-02.svg",
+      "sha256": "2e2863880523ff0f35f2b7306dea2a9b0b95fbafbae9cc7dfc6aa6e523e3e4ae",
+      "bytes": 1189821,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/examples/OS-DOC001/02.svg",
+        "sha256": "cefa28831031b6fdacf48adcd007a3f4a91941c1c8d385ea8ac4d20a0db7019b",
+        "metadata": "brand-library/packages/content/examples/documents.json",
+        "metadataSha256": "292fdbefe4a83c4c88c5cf72e41f9fc948b194ecfe792c570d3513e63c90f996",
+        "logicalPiece": "OS-DOC001-02"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "23f5209aca9f5d84c17988481dc666e2f2bf344b07bcd314d99e857e53c5d61c",
+      "nativeTextLines": 8,
+      "nativeTextContent": [
+        "Editorial framework",
+        "The decision is a",
+        "starting point.",
+        "A product update tells buyers what changed.",
+        "The reasoning helps them understand why it",
+        "matters.",
+        "2/6",
+        "Editorial specimen"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-DOC001-03",
+      "family": "document",
+      "file": "brand-library/packages/content/revisions/v2/OS-DOC001-03.svg",
+      "sha256": "786a04ec5b7b030f4f2ff637b7e7bda3b9892e89ce9afd68d433b48d71469513",
+      "bytes": 1189578,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/examples/OS-DOC001/03.svg",
+        "sha256": "f8902601f0f68a796ceb5e4926cd1098cb5c3d98523042ee271c2b68977c6a4a",
+        "metadata": "brand-library/packages/content/examples/documents.json",
+        "metadataSha256": "292fdbefe4a83c4c88c5cf72e41f9fc948b194ecfe792c570d3513e63c90f996",
+        "logicalPiece": "OS-DOC001-03"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "0d3842e80d32f3775244eaf5bd4ea17c5a207d4a09ea1ac6074a6c7f206488a7",
+      "nativeTextLines": 7,
+      "nativeTextContent": [
+        "Editorial framework",
+        "Name the buyer problem.",
+        "Explain the situation that made this",
+        "decision necessary. Keep confidential",
+        "details out.",
+        "3/6",
+        "Editorial specimen"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-DOC001-04",
+      "family": "document",
+      "file": "brand-library/packages/content/revisions/v2/OS-DOC001-04.svg",
+      "sha256": "a26110b834a9005c00a3bd8b8b77f9d9288539110adf4a0131ad8742d975b802",
+      "bytes": 1189586,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/examples/OS-DOC001/04.svg",
+        "sha256": "4d9dad3dfd544fb90cda42845051a9fb9306daa09b5d40cd3d7af3e31993af7d",
+        "metadata": "brand-library/packages/content/examples/documents.json",
+        "metadataSha256": "292fdbefe4a83c4c88c5cf72e41f9fc948b194ecfe792c570d3513e63c90f996",
+        "logicalPiece": "OS-DOC001-04"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "79a6e059351f27467ecf7c8f8a7801c4c21f5d8d8434910d0db51ef6a7bf8356",
+      "nativeTextLines": 7,
+      "nativeTextContent": [
+        "Editorial framework",
+        "Show the trade-off.",
+        "What did the team choose? What did it give",
+        "up? State where the approach fits and where",
+        "it does not.",
+        "4/6",
+        "Editorial specimen"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-DOC001-05",
+      "family": "document",
+      "file": "brand-library/packages/content/revisions/v2/OS-DOC001-05.svg",
+      "sha256": "7f4baaab23ebf24d57f3f7f073183d3ab9782598cdc5002c13118803701336a8",
+      "bytes": 1189840,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/examples/OS-DOC001/05.svg",
+        "sha256": "0a77b936722ca8ab1f347f0cb834ddc2c63b0e35ff722984e5d16ce635e046b1",
+        "metadata": "brand-library/packages/content/examples/documents.json",
+        "metadataSha256": "292fdbefe4a83c4c88c5cf72e41f9fc948b194ecfe792c570d3513e63c90f996",
+        "logicalPiece": "OS-DOC001-05"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "6ee8be5c3fd2f23a9da83acfbb9cdf598e874c106bf04cb9f592388d85e49dcf",
+      "nativeTextLines": 8,
+      "nativeTextContent": [
+        "Editorial framework",
+        "Bring the evidence.",
+        "Use a permissioned demonstration, a",
+        "source-linked observation or a clearly",
+        "marked example. Do not substitute a claim",
+        "for proof.",
+        "5/6",
+        "Editorial specimen"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-DOC001-06",
+      "family": "document",
+      "file": "brand-library/packages/content/revisions/v2/OS-DOC001-06.svg",
+      "sha256": "9039c5f7446853a567d152cd454e34404b5a588a2734e4c9d7d374dc48a064f0",
+      "bytes": 1189341,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/examples/OS-DOC001/06.svg",
+        "sha256": "2e970ca0cd7f10087f3a9ebc6935e325bc002d2cb00fe9f4e8c233de292f699e",
+        "metadata": "brand-library/packages/content/examples/documents.json",
+        "metadataSha256": "292fdbefe4a83c4c88c5cf72e41f9fc948b194ecfe792c570d3513e63c90f996",
+        "logicalPiece": "OS-DOC001-06"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "c1fa7f129a04653f53b70253f9674fd6018defb4fa0b0d7dc8361b42ac60ad95",
+      "nativeTextLines": 6,
+      "nativeTextContent": [
+        "Editorial framework",
+        "Explain the implication.",
+        "Give the buyer a useful question to ask when",
+        "evaluating a similar approach.",
+        "6/6",
+        "Editorial specimen"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-DOC002-01",
+      "family": "document",
+      "file": "brand-library/packages/content/revisions/v2/OS-DOC002-01.svg",
+      "sha256": "923ffac17f1d6ba8f9ed9a9379ab6d95b1a4ea2b9405da19fbaf89845245f0fc",
+      "bytes": 1190379,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/examples/OS-DOC002/01.svg",
+        "sha256": "86b8b805441c415a6cd189fc8a35753efbe5ea7b6ff85ab25339dffd477808e7",
+        "metadata": "brand-library/packages/content/examples/documents.json",
+        "metadataSha256": "292fdbefe4a83c4c88c5cf72e41f9fc948b194ecfe792c570d3513e63c90f996",
+        "logicalPiece": "OS-DOC002-01"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "aff3f8c2b02305c4cbe225006fc1a854328122f98acebc7ea1889257075a5147",
+      "nativeTextLines": 6,
+      "nativeTextContent": [
+        "Editorial framework",
+        "Before a draft is ready.",
+        "A practical editorial framework. Proposed",
+        "method, not a client case.",
+        "1/6",
+        "Editorial specimen"
+      ],
+      "graphicsLayers": 3,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-DOC002-02",
+      "family": "document",
+      "file": "brand-library/packages/content/revisions/v2/OS-DOC002-02.svg",
+      "sha256": "cc0083b575b974049cae03b027e206a89459bc62cf5d6834a866c2d19f6c9b5a",
+      "bytes": 1189586,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/examples/OS-DOC002/02.svg",
+        "sha256": "8bf5f4d6bf89a4663e735ba80b3be66f9cab2e6ef6fe70b53b562e111fd50562",
+        "metadata": "brand-library/packages/content/examples/documents.json",
+        "metadataSha256": "292fdbefe4a83c4c88c5cf72e41f9fc948b194ecfe792c570d3513e63c90f996",
+        "logicalPiece": "OS-DOC002-02"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "03e38755197646b98b298ba447f97c9b6f68a6d462e1a9a4aeddd31092ba02f8",
+      "nativeTextLines": 7,
+      "nativeTextContent": [
+        "Editorial framework",
+        "Check the material.",
+        "Did this experience happen? Is the product",
+        "claim true today? Keep each answer linked to",
+        "its source.",
+        "2/6",
+        "Editorial specimen"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-DOC002-03",
+      "family": "document",
+      "file": "brand-library/packages/content/revisions/v2/OS-DOC002-03.svg",
+      "sha256": "ffbfc11b016dba745c3ecae5e445d94e82e8fe5281eece950628e418678cb31b",
+      "bytes": 1189590,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/examples/OS-DOC002/03.svg",
+        "sha256": "8786cdc1416e98245a3c0f17ac8f5a50bc0d46bbbf68c20e3f6e7aba0c185135",
+        "metadata": "brand-library/packages/content/examples/documents.json",
+        "metadataSha256": "292fdbefe4a83c4c88c5cf72e41f9fc948b194ecfe792c570d3513e63c90f996",
+        "logicalPiece": "OS-DOC002-03"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "5e163a33f021d3877af76d997fd7389fcce772961e2d9521f4957cadb772799d",
+      "nativeTextLines": 7,
+      "nativeTextContent": [
+        "Editorial framework",
+        "Check the permission.",
+        "Can the example be shared? Who owns the",
+        "media? A public page is not automatic",
+        "permission to reuse it.",
+        "3/6",
+        "Editorial specimen"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-DOC002-04",
+      "family": "document",
+      "file": "brand-library/packages/content/revisions/v2/OS-DOC002-04.svg",
+      "sha256": "c3c0c1e426de0e3ef81588adc776657caec9a02a5f13e23ae01241f40373de6b",
+      "bytes": 1189583,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/examples/OS-DOC002/04.svg",
+        "sha256": "96312f6fb2b94bf74bb9902d1e08ddcc9a40368a78f72e39aaaac4ce75d6bfd7",
+        "metadata": "brand-library/packages/content/examples/documents.json",
+        "metadataSha256": "292fdbefe4a83c4c88c5cf72e41f9fc948b194ecfe792c570d3513e63c90f996",
+        "logicalPiece": "OS-DOC002-04"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "2afb203735353c0cb29c2a05c321d9e1d9a81009920c04402cc7eae714200cfc",
+      "nativeTextLines": 7,
+      "nativeTextContent": [
+        "Editorial framework",
+        "Check the meaning.",
+        "Keep the qualification that makes the claim",
+        "true. Edit for clarity without changing the",
+        "evidence.",
+        "4/6",
+        "Editorial specimen"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-DOC002-05",
+      "family": "document",
+      "file": "brand-library/packages/content/revisions/v2/OS-DOC002-05.svg",
+      "sha256": "7deebd1a0d513f2cff9c25d907ce751715028f3b613fc8f05ec599ee3d7ef51c",
+      "bytes": 1189817,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/examples/OS-DOC002/05.svg",
+        "sha256": "edabde71dcae4d6f3969319ffd4cc4ba7f0ea34844bb7e602ad3cb367b8d3c15",
+        "metadata": "brand-library/packages/content/examples/documents.json",
+        "metadataSha256": "292fdbefe4a83c4c88c5cf72e41f9fc948b194ecfe792c570d3513e63c90f996",
+        "logicalPiece": "OS-DOC002-05"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "098a96f4468728157b57dab6f67470ee658fe19de79eef4c251f3c8b4a0751e3",
+      "nativeTextLines": 8,
+      "nativeTextContent": [
+        "Editorial framework",
+        "Give the founder the",
+        "exact draft.",
+        "Approval applies to the wording and media",
+        "being reviewed. Changed claims return for",
+        "review.",
+        "5/6",
+        "Editorial specimen"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-DOC002-06",
+      "family": "document",
+      "file": "brand-library/packages/content/revisions/v2/OS-DOC002-06.svg",
+      "sha256": "3ac8f297bd602730cc677e1965e5360078e2ad2e8ac2980205cafd2ab0f980ca",
+      "bytes": 1189814,
+      "width": 1080,
+      "height": 1350,
+      "source": {
+        "path": "brand-library/packages/content/examples/OS-DOC002/06.svg",
+        "sha256": "e823b305c60797e5235f1dd94ca1e3bb2cd8a3d7d7ca1a743ee6b722249cf489",
+        "metadata": "brand-library/packages/content/examples/documents.json",
+        "metadataSha256": "292fdbefe4a83c4c88c5cf72e41f9fc948b194ecfe792c570d3513e63c90f996",
+        "logicalPiece": "OS-DOC002-06"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "1eb5b777a455a925f5ca46e1f163f2eceae386e732c73333da2bdf9a4174fe97",
+      "nativeTextLines": 8,
+      "nativeTextContent": [
+        "Editorial framework",
+        "Keep the next step",
+        "clear.",
+        "Deliver approved text and artwork with",
+        "sources, accessibility text and a clear",
+        "publishing owner.",
+        "6/6",
+        "Editorial specimen"
+      ],
+      "graphicsLayers": 2,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-S001",
+      "family": "sales",
+      "file": "brand-library/packages/content/revisions/v2/OS-S001.svg",
+      "sha256": "d6d7d12f877e5639669a556ca5f21070bf2a05fe87eecc973200d31c2ac9d83b",
+      "bytes": 2069865,
+      "width": 1400,
+      "height": 856.6875,
+      "source": {
+        "path": "brand-library/packages/content/sales/OS-S001.html",
+        "sha256": "f59eac1bc50f95597a5737b32fb76dd65f15fba9ae92202eb3c2f601b84297cf",
+        "logicalPiece": "OS-S001"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "f80a4b6dddcf114481e2aa36db81ef772ef5e1c6947e5c595de3cb1f9d21c624",
+      "nativeTextLines": 19,
+      "nativeTextContent": [
+        "OUTSPOKEN / STAGE 1 / OS-S001",
+        "One-pager",
+        "Make the right buyers care about you",
+        "and what you\u2019re building.",
+        "We help Europe-based B2B AI SaaS founders turn their story and the business they\u2019re",
+        "building into LinkedIn content that attracts the right buyers, earns their trust and gives them",
+        "a reason to buy.",
+        "Useful founder material",
+        "Start with interviews, approved sources and the",
+        "buyer question.",
+        "Clear drafts and review",
+        "Prepare text, visuals or video. The founder",
+        "approves the exact draft.",
+        "A clear handoff",
+        "Deliver ready-to-post material. Review what",
+        "was learned.",
+        " \u00b7 Destination to be configured.",
+        "Book an intro call",
+        "Candidate v1 \u00b7 19 October 2026 \u00b7 Owner review pending \u00b7 Full website work is Stage 2"
+      ],
+      "graphicsLayers": 0,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Archivo": {
+          "path": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+          "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+          "licensePath": "brand-library/packages/assets/identity/font-source/archivo/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        },
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-S002",
+      "family": "sales",
+      "file": "brand-library/packages/content/revisions/v2/OS-S002.svg",
+      "sha256": "92953ee8b15f9f3fd1e535e9a32afca79a3750aece09244722a87bfeb8084ae5",
+      "bytes": 2075426,
+      "width": 1400,
+      "height": 1387.25,
+      "source": {
+        "path": "brand-library/packages/content/sales/OS-S002.html",
+        "sha256": "aebe03d5bafba27e8730b34baec2f0d6723bcd0c4f636ec2f73db2347aeafdfd",
+        "logicalPiece": "OS-S002"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "6c618a500a888a3f06c94f2fea3c2ed96f133588001756b67fe88696c639e884",
+      "nativeTextLines": 29,
+      "nativeTextContent": [
+        "OUTSPOKEN / STAGE 1 / OS-S002",
+        "Proposal",
+        "Proposal",
+        "We help Europe-based B2B AI SaaS founders turn their story and the business they\u2019re",
+        "building into LinkedIn content that attracts the right buyers, earns their trust and gives them",
+        "a reason to buy.",
+        "Scope to agree",
+        "Founder / language / audience",
+        "To be agreed",
+        "Deliverables / format / exact count",
+        "To be agreed",
+        "Exclusions / separately scoped media",
+        "To be agreed",
+        "Interviews / review / revision limits",
+        "To be agreed",
+        "Source, rights and approval owner",
+        "To be agreed",
+        "Publishing owner / optional integrations",
+        "To be agreed",
+        "Confidentiality / storage / access",
+        "To be agreed",
+        "Start dependencies / delays / turnaround",
+        "To be agreed",
+        "Fee / spend / renewal / cancellation",
+        "To be agreed; no commercial terms are implied",
+        "Acceptance",
+        "Review the exact copy and media against source, scope, permissions and accessible",
+        "delivery requirements.",
+        "Candidate v1 \u00b7 19 October 2026 \u00b7 Owner review pending \u00b7 Full website work is Stage 2"
+      ],
+      "graphicsLayers": 0,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Archivo": {
+          "path": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+          "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+          "licensePath": "brand-library/packages/assets/identity/font-source/archivo/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        },
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-S003-01",
+      "family": "sales",
+      "file": "brand-library/packages/content/revisions/v2/OS-S003-01.svg",
+      "sha256": "96a1cf4a6003edcfea0d997caafd5e10bf14f5d6b72c01d7b7220e493ce9b709",
+      "bytes": 2066291,
+      "width": 1400,
+      "height": 720,
+      "source": {
+        "path": "brand-library/packages/content/sales/OS-S003.html",
+        "sha256": "93792779e860559f9ee58db9a3cf0720092603a4ffa09c7bf70915a121ccf778",
+        "logicalPiece": "OS-S003"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "cd4f750f41b7d912a56e17c20056a731ad1a9ff15948d7d0736ec43c891897e8",
+      "nativeTextLines": 5,
+      "nativeTextContent": [
+        "OUTSPOKEN / STAGE 1 / OS-S003 / 01",
+        "Sales deck",
+        "A founder\u2019s thinking, made useful.",
+        "Make the right buyers care about you and what you\u2019re building.",
+        "Candidate v1 \u00b7 19 October 2026 \u00b7 Owner review pending \u00b7 Full website work is Stage 2"
+      ],
+      "graphicsLayers": 0,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Archivo": {
+          "path": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+          "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+          "licensePath": "brand-library/packages/assets/identity/font-source/archivo/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        },
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-S003-02",
+      "family": "sales",
+      "file": "brand-library/packages/content/revisions/v2/OS-S003-02.svg",
+      "sha256": "c9ccee77d8006011037fae331d0ebc77f7237d1baca8bad75e58fc41135cfa3f",
+      "bytes": 2066525,
+      "width": 1400,
+      "height": 720,
+      "source": {
+        "path": "brand-library/packages/content/sales/OS-S003.html",
+        "sha256": "93792779e860559f9ee58db9a3cf0720092603a4ffa09c7bf70915a121ccf778",
+        "logicalPiece": "OS-S003"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "ebec0489fccc810462edf792f85aad6a4a67a0ce80d6a70b764d40715df7c5ea",
+      "nativeTextLines": 6,
+      "nativeTextContent": [
+        "OUTSPOKEN / STAGE 1 / OS-S003 / 02",
+        "Sales deck",
+        "The buyer question",
+        "What should the reader understand after this idea? Actual urgency and buying intent remain to",
+        "be established.",
+        "Candidate v1 \u00b7 19 October 2026 \u00b7 Owner review pending \u00b7 Full website work is Stage 2"
+      ],
+      "graphicsLayers": 0,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Archivo": {
+          "path": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+          "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+          "licensePath": "brand-library/packages/assets/identity/font-source/archivo/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        },
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-S003-03",
+      "family": "sales",
+      "file": "brand-library/packages/content/revisions/v2/OS-S003-03.svg",
+      "sha256": "97a3bbe40556e8bf7cb5d5d6f25d62195b468ee5ed8e7fc20a783e0856a8e0c7",
+      "bytes": 2066521,
+      "width": 1400,
+      "height": 720,
+      "source": {
+        "path": "brand-library/packages/content/sales/OS-S003.html",
+        "sha256": "93792779e860559f9ee58db9a3cf0720092603a4ffa09c7bf70915a121ccf778",
+        "logicalPiece": "OS-S003"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "b86d7d6b159c960d7b34f44055de0ad6309c3fe4047d36962b2365ddba604214",
+      "nativeTextLines": 6,
+      "nativeTextContent": [
+        "OUTSPOKEN / STAGE 1 / OS-S003 / 03",
+        "Sales deck",
+        "The founder material",
+        "Use a shareable product decision, experience or demonstration. Keep the evidence and the",
+        "qualification.",
+        "Candidate v1 \u00b7 19 October 2026 \u00b7 Owner review pending \u00b7 Full website work is Stage 2"
+      ],
+      "graphicsLayers": 0,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Archivo": {
+          "path": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+          "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+          "licensePath": "brand-library/packages/assets/identity/font-source/archivo/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        },
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-S003-04",
+      "family": "sales",
+      "file": "brand-library/packages/content/revisions/v2/OS-S003-04.svg",
+      "sha256": "0d03e5019b70c9f597364b2160f91c43bbaff892ac98f47c9f9bdb54c679d602",
+      "bytes": 2066526,
+      "width": 1400,
+      "height": 720,
+      "source": {
+        "path": "brand-library/packages/content/sales/OS-S003.html",
+        "sha256": "93792779e860559f9ee58db9a3cf0720092603a4ffa09c7bf70915a121ccf778",
+        "logicalPiece": "OS-S003"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "b8ff81d27c32ad78452510ca57dcf1f763d582ad25f9862c5bb88a9107614a4e",
+      "nativeTextLines": 6,
+      "nativeTextContent": [
+        "OUTSPOKEN / STAGE 1 / OS-S003 / 04",
+        "Sales deck",
+        "The editorial route",
+        "Interview \u2192 positioning and strategy \u2192 drafts \u2192 founder approval \u2192 ready-to-post delivery \u2192",
+        "review.",
+        "Candidate v1 \u00b7 19 October 2026 \u00b7 Owner review pending \u00b7 Full website work is Stage 2"
+      ],
+      "graphicsLayers": 0,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Archivo": {
+          "path": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+          "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+          "licensePath": "brand-library/packages/assets/identity/font-source/archivo/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        },
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-S003-05",
+      "family": "sales",
+      "file": "brand-library/packages/content/revisions/v2/OS-S003-05.svg",
+      "sha256": "c11888fac148fafc6f378803bf6dcb106955112962c1443549e6d3be5ab577e6",
+      "bytes": 2066544,
+      "width": 1400,
+      "height": 720,
+      "source": {
+        "path": "brand-library/packages/content/sales/OS-S003.html",
+        "sha256": "93792779e860559f9ee58db9a3cf0720092603a4ffa09c7bf70915a121ccf778",
+        "logicalPiece": "OS-S003"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "4784fcbf7685f2e9eda7f0648ae3595e4663a7586378e1b3db41c5cc2b7cee2f",
+      "nativeTextLines": 6,
+      "nativeTextContent": [
+        "OUTSPOKEN / STAGE 1 / OS-S003 / 05",
+        "Sales deck",
+        "Scope and responsibilities",
+        "Agree exact formats, allocation, sources, rights, review and publishing owners. Optional",
+        "backends are separately scoped.",
+        "Candidate v1 \u00b7 19 October 2026 \u00b7 Owner review pending \u00b7 Full website work is Stage 2"
+      ],
+      "graphicsLayers": 0,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Archivo": {
+          "path": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+          "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+          "licensePath": "brand-library/packages/assets/identity/font-source/archivo/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        },
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-S003-06",
+      "family": "sales",
+      "file": "brand-library/packages/content/revisions/v2/OS-S003-06.svg",
+      "sha256": "8c132ee274c53787ac837933a342b626fc0937708a8085953696de7defaddea5",
+      "bytes": 2066288,
+      "width": 1400,
+      "height": 720,
+      "source": {
+        "path": "brand-library/packages/content/sales/OS-S003.html",
+        "sha256": "93792779e860559f9ee58db9a3cf0720092603a4ffa09c7bf70915a121ccf778",
+        "logicalPiece": "OS-S003"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "dda2e49ba5fe5407e4d53aac39c3dfec0bf457ec4d75b437211718a822cf68fa",
+      "nativeTextLines": 5,
+      "nativeTextContent": [
+        "OUTSPOKEN / STAGE 1 / OS-S003 / 06",
+        "Sales deck",
+        "The next step",
+        "Book an intro call. Destination and commercial terms are to be configured or agreed.",
+        "Candidate v1 \u00b7 19 October 2026 \u00b7 Owner review pending \u00b7 Full website work is Stage 2"
+      ],
+      "graphicsLayers": 0,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Archivo": {
+          "path": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+          "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+          "licensePath": "brand-library/packages/assets/identity/font-source/archivo/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        },
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    },
+    {
+      "id": "OS-S004",
+      "family": "sales",
+      "file": "brand-library/packages/content/revisions/v2/OS-S004.svg",
+      "sha256": "146c47ddaf0effdbc2403105d40090c87f3ee4741322806ff702df703a4ee33e",
+      "bytes": 2067861,
+      "width": 680,
+      "height": 525.375,
+      "source": {
+        "path": "brand-library/packages/content/sales/OS-S004.html",
+        "sha256": "c868d66907dccf8d8d76b093046fcc9c3f57f4ce76baa5e1074630766936be42",
+        "logicalPiece": "OS-S004"
+      },
+      "transferSpec": "[dated-local-evidence-omitted]",
+      "transferSpecSha256": "36188c4c7c492c5f9b98138321bbffa5e1c40c23bbdb4d61b0f840a0b0caa6a4",
+      "nativeTextLines": 9,
+      "nativeTextContent": [
+        "Your draft is ready for review",
+        "Hello [Founder],",
+        "Please check the product claim, the example permission and the",
+        "qualification beside the source. Add corrections where the meaning",
+        "needs to change.",
+        "[Reviewed text and independent artwork link]",
+        "[Source and rights note]",
+        "[Approval owner and next step]",
+        "Illustrative example \u2014 not a customer testimonial"
+      ],
+      "graphicsLayers": 0,
+      "wordmarkSlots": 1,
+      "wordmarkMode": "current V2 outlinedSVG; no legacy mark copied",
+      "currentMedia": [],
+      "nativeFitRepairs": [],
+      "fontReferences": {
+        "Archivo": {
+          "path": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+          "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+          "licensePath": "brand-library/packages/assets/identity/font-source/archivo/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        },
+        "Inter": {
+          "path": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "relativeURL": "../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+          "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+          "licensePath": "brand-library/packages/assets/identity/font-source/inter/OFL.txt",
+          "embedding": "Local relative URL first; same licensedfont embedded as fallback for portable SVG img rendering. Text remains real text."
+        }
+      },
+      "status": "local_v2_svg_text_hash_bounds_checked",
+      "ownerAccepted": false
+    }
+  ],
+  "gallery": "brand-library/packages/content/revisions/v2/index.html",
+  "sourceSet": "[dated-local-evidence-omitted]",
+  "repairReceipt": {
+    "path": "[dated-local-evidence-omitted]",
+    "sha256": "54b84733443396c01797a46357a763b1353be2a24f62d4105970208beb771c98"
+  },
+  "boundsRepairCount": 4,
+  "sourceVersionBoundary": "Original V1 sources immutable; current V2 derivative exports only.",
+  "parity": "Native Figma has root-owned readback. These SVGs apply recorded4 object bounds; no pixel-exact Figma/SVG parity claim.",
+  "sourceFiles": {
+    "[dated-local-evidence-omitted]": "6c1d048ff2060b8bd980aae0829e96b57f620bceb7b2ad16732e2edd7d2155ba"
+  },
+  "ownerAccepted": false,
+  "verification": {
+    "structuralChecks": "[dated-local-evidence-omitted]",
+    "structuralChecksSha256": "ebc6048d4be409d4ef6f3033ae216ea9c756e002a1988e7ae57e0642529fcdce",
+    "browserChecks": "[dated-local-evidence-omitted]",
+    "browserChecksSha256": "91ed2b15f58371544588b8891b1ee55ffd1cbdf124e807d7229833ddff04ee02",
+    "boardsChecked": 58,
+    "editableTextLines": 453,
+    "textBoundsPass": 58,
+    "currentMediaHashPass": 8,
+    "fitRepairsMirrored": 4,
+    "status": "58_of_58_local_svg_checks_passed",
+    "limits": "SVG text metrics and recorded media rectangles checked; root owns native Figma readback. No pixel-exact cross-renderer parity or owner acceptance claimed."
+  },
+  "gallerySha256": "f1e4d1c5faa48aca1fe9e4bac712f62cb82993574e7f704da17c399f2a9fbab3"
+}

@@ -1,0 +1,185 @@
+{
+  "schema_version": "1.0.0",
+  "status": "previsualization_only",
+  "generator": "Codex built-in image_gen",
+  "master_format": {
+    "aspect_ratio": "16:9 landscape",
+    "dimensions_px": "1672x940 or 1672x941 returned by image_gen",
+    "script_format_metadata": "Scripts reconciled to 16:9 landscape masters. Central 56% width is guidance for a possible 9:16 reframe; portrait crops are not rendered or validated.",
+    "central_safe_reframe_width_fraction": 0.56
+  },
+  "assets": [
+    {
+      "asset_id": "P14-shot-01",
+      "post_id": "P14",
+      "shot": 1,
+      "tool": "built-in image_gen",
+      "generation_receipt": "exec-ce6a82bc-be30-49eb-bf0d-5b5ddadb8c8a",
+      "dimensions_px": {
+        "width": 1672,
+        "height": 941
+      },
+      "bytes": 1909408,
+      "sha256": "e02b378ada3b1468c862d295e57eabcb492ba23bca9949f349be0ee01089dac3",
+      "source_reference_hashes": [
+        "74183042a794732d355d8e46830e312bd2bbe5fc7c53e79889bf6e76aeffe3d3"
+      ],
+      "path": "assets/videos/frames/P14-shot-01.png"
+    },
+    {
+      "asset_id": "P14-shot-02",
+      "post_id": "P14",
+      "shot": 2,
+      "tool": "built-in image_gen",
+      "generation_receipt": "exec-4e0c4f3d-19e7-4c88-bc40-f34cab78458b",
+      "dimensions_px": {
+        "width": 1672,
+        "height": 941
+      },
+      "bytes": 1841907,
+      "sha256": "3da68b1464d7fa16668cf757dce5c7c84d2cb3f91625c6596f521699dcda98a4",
+      "source_reference_hashes": [
+        "74183042a794732d355d8e46830e312bd2bbe5fc7c53e79889bf6e76aeffe3d3"
+      ],
+      "path": "assets/videos/frames/P14-shot-02.png"
+    },
+    {
+      "asset_id": "P14-shot-03",
+      "post_id": "P14",
+      "shot": 3,
+      "tool": "built-in image_gen",
+      "generation_receipt": "exec-96f39b6b-b579-4564-910b-26e641ab49d6",
+      "dimensions_px": {
+        "width": 1672,
+        "height": 941
+      },
+      "bytes": 1711364,
+      "sha256": "13b06c6132ba7744ebda2acac86fdf2c98bb58901d5bf15b18aef2c99a0c27f4",
+      "source_reference_hashes": [
+        "e02b378ada3b1468c862d295e57eabcb492ba23bca9949f349be0ee01089dac3"
+      ],
+      "path": "assets/videos/frames/P14-shot-03.png"
+    },
+    {
+      "asset_id": "P14-shot-04",
+      "post_id": "P14",
+      "shot": 4,
+      "tool": "built-in image_gen",
+      "generation_receipt": "exec-7c0bf089-ae57-41cb-bdfe-18d24c14024f",
+      "dimensions_px": {
+        "width": 1672,
+        "height": 941
+      },
+      "bytes": 1701979,
+      "sha256": "5c76dcf8d231737b8667c52350bf3d521abdacdb1c4c088edf338c7ec665cebe",
+      "source_reference_hashes": [
+        "e02b378ada3b1468c862d295e57eabcb492ba23bca9949f349be0ee01089dac3"
+      ],
+      "path": "assets/videos/frames/P14-shot-04.png"
+    },
+    {
+      "asset_id": "P14-shot-05",
+      "post_id": "P14",
+      "shot": 5,
+      "tool": "built-in image_gen",
+      "generation_receipt": "exec-b57d5f07-578e-46f6-933d-aa183382a746",
+      "dimensions_px": {
+        "width": 1672,
+        "height": 941
+      },
+      "bytes": 1878027,
+      "sha256": "94a2199a17d5df83078e9eca4e36b8a1022a03d1049b0870a1a3d01076b7f18d",
+      "source_reference_hashes": [
+        "e02b378ada3b1468c862d295e57eabcb492ba23bca9949f349be0ee01089dac3"
+      ],
+      "path": "assets/videos/frames/P14-shot-05.png"
+    },
+    {
+      "asset_id": "P15-shot-01",
+      "post_id": "P15",
+      "shot": 1,
+      "tool": "built-in image_gen",
+      "generation_receipt": "exec-6293d93c-ea6f-4ecc-899e-ef002061cb90",
+      "dimensions_px": {
+        "width": 1672,
+        "height": 940
+      },
+      "bytes": 1857789,
+      "sha256": "b867ced90953f510d4bb2aca03e375ec096aba72a494073634cd62ac71458572",
+      "source_reference_hashes": [],
+      "path": "assets/videos/frames/P15-shot-01.png"
+    },
+    {
+      "asset_id": "P15-shot-02",
+      "post_id": "P15",
+      "shot": 2,
+      "tool": "built-in image_gen",
+      "generation_receipt": "exec-85a8fa4a-863e-458c-97c3-0fa2ccb4cbb7",
+      "dimensions_px": {
+        "width": 1672,
+        "height": 941
+      },
+      "bytes": 1783102,
+      "sha256": "cde2d6e21f48ae36985036a23df37319fce3db0cf52b7dd48843f9814bb4ff23",
+      "source_reference_hashes": [
+        "b867ced90953f510d4bb2aca03e375ec096aba72a494073634cd62ac71458572"
+      ],
+      "path": "assets/videos/frames/P15-shot-02.png"
+    },
+    {
+      "asset_id": "P15-shot-03",
+      "post_id": "P15",
+      "shot": 3,
+      "tool": "built-in image_gen",
+      "generation_receipt": "exec-54dbcd5e-b759-4f87-909f-df1fb0564c14",
+      "dimensions_px": {
+        "width": 1672,
+        "height": 941
+      },
+      "bytes": 1783061,
+      "sha256": "d49d3d7182844f117b61adc6c1711ef0e299eafaa01407149cdf82ac0d01bc60",
+      "source_reference_hashes": [
+        "b867ced90953f510d4bb2aca03e375ec096aba72a494073634cd62ac71458572"
+      ],
+      "path": "assets/videos/frames/P15-shot-03.png"
+    },
+    {
+      "asset_id": "P15-shot-04",
+      "post_id": "P15",
+      "shot": 4,
+      "tool": "built-in image_gen",
+      "generation_receipt": "exec-2e9293f1-5911-4218-9447-3908a57cb657",
+      "dimensions_px": {
+        "width": 1672,
+        "height": 941
+      },
+      "bytes": 1831348,
+      "sha256": "93307ff81d24178df1d945e818dbe10449569391c610bfae8129305c77fdd3ba",
+      "source_reference_hashes": [
+        "b867ced90953f510d4bb2aca03e375ec096aba72a494073634cd62ac71458572"
+      ],
+      "path": "assets/videos/frames/P15-shot-04.png"
+    },
+    {
+      "asset_id": "P15-shot-05",
+      "post_id": "P15",
+      "shot": 5,
+      "tool": "built-in image_gen",
+      "generation_receipt": "exec-75d3ffe7-bc61-4c8f-b30c-5497b5172d63",
+      "dimensions_px": {
+        "width": 1672,
+        "height": 940
+      },
+      "bytes": 1898299,
+      "sha256": "3683d87a81650a11804d9f70b2fa76d8a1db17e98e5725266870bb50dacfdb1a",
+      "source_reference_hashes": [],
+      "path": "assets/videos/frames/P15-shot-05.png"
+    }
+  ],
+  "rights": "Original generated fictional editorial stills. No real identity, client relationship or filmed footage.",
+  "limitations": [
+    "Visuals are fictional storyboard frames only.",
+    "No baked captions, logos, or in-image labels are included.",
+    "Central safe-reframe width is guidance only; it has not been rendered or validated as a vertical crop."
+  ]
+}

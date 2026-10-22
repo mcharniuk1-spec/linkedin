@@ -1,0 +1,154 @@
+{
+  "id": "OS-LV2-005",
+  "name": "Counterform",
+  "idea": "Two perspectives create a distinctive shared space.",
+  "form": "two offset open curved shells and a nickel bridge",
+  "materialRecipe": {
+    "version": "2.0.0",
+    "seed": 191026,
+    "palette": {
+      "navy": "#162760",
+      "cobalt": "#3157D5",
+      "nickel": "#A9AFBA"
+    },
+    "brush": {
+      "direction": "horizontal local UV",
+      "resolution": [
+        1024,
+        512
+      ],
+      "bumpScale": 0.007
+    },
+    "light": {
+      "key": [
+        -3,
+        5,
+        6
+      ],
+      "fill": [
+        4,
+        1,
+        4
+      ],
+      "rim": [
+        2,
+        4,
+        -4
+      ]
+    },
+    "toneMapping": "ACESFilmic",
+    "exposure": 1.05
+  },
+  "meshes": [
+    {
+      "name": "01 open C shell",
+      "vertices": 36866,
+      "triangles": 75776,
+      "material": "Brushed anodised deep navy alloy",
+      "position": [
+        -0.325,
+        -0.45,
+        0
+      ],
+      "rotation": [
+        0.12,
+        0,
+        0.3
+      ],
+      "construction": {
+        "construction": "Original closed sampled rounded plate; 8 bevel rings",
+        "sourceDimensions": [
+          2.7,
+          1.15,
+          0.085
+        ],
+        "bevel": 0.018,
+        "radius": 0.16
+      }
+    },
+    {
+      "name": "02 open C shell",
+      "vertices": 36866,
+      "triangles": 75776,
+      "material": "Brushed anodised brilliant cobalt alloy",
+      "position": [
+        0.325,
+        0.45,
+        0.1
+      ],
+      "rotation": [
+        0.12,
+        3.141592653589793,
+        0.3
+      ],
+      "construction": {
+        "construction": "Original closed sampled rounded plate; 8 bevel rings",
+        "sourceDimensions": [
+          2.7,
+          1.15,
+          0.085
+        ],
+        "bevel": 0.018,
+        "radius": 0.16
+      }
+    },
+    {
+      "name": "03 nickel articulation",
+      "vertices": 36866,
+      "triangles": 75776,
+      "material": "Fine brushed neutral nickel",
+      "position": [
+        0,
+        0,
+        0.25
+      ],
+      "rotation": [
+        0,
+        0.3,
+        -0.35
+      ],
+      "construction": {
+        "construction": "Original closed sampled rounded plate; 8 bevel rings",
+        "sourceDimensions": [
+          1.6,
+          0.3,
+          0.085
+        ],
+        "bevel": 0.018,
+        "radius": 0.16
+      }
+    }
+  ],
+  "bounds": {
+    "min": [
+      -1.5014678443984035,
+      -1.4093860481053835,
+      -1.2715904605792232
+    ],
+    "max": [
+      1.5014678443984035,
+      1.4093860481053835,
+      1.2715904605792232
+    ]
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      4.2,
+      2.65,
+      7.4
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ],
+    "span": 2.162113695933701
+  },
+  "render": {
+    "width": 1600,
+    "height": 1600,
+    "alpha": true
+  },
+  "recipe": "Original parametric plate geometry, true thickness and bevel; PMREM softbox studio; no image generation"
+}

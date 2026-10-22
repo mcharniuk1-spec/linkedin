@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-22",
+  "scope": "Current public source projection; current snapshot is Git-authorized, artistic acceptance remains pending",
+  "research_tests": {
+    "status": "PASS",
+    "tests": 155
+  },
+  "export_and_boundary_tests": {
+    "status": "PASS",
+    "tests": 20
+  },
+  "website_build": {
+    "status": "PASS",
+    "runtime": "Node22.23.1/Vite8.3.4",
+    "modules": 59,
+    "limits": "Large bundle warning retained: approximately1.245MB raw/350KB gzip. Existing installed dependencies reused; no install."
+  },
+  "strict_typecheck": {
+    "status": "BLOCKED_DEPENDENCY_INPUTS",
+    "typescript_version": "5.9.3",
+    "method": "Actual strict compiler API on unchanged package tsconfig; exact known-size Python-read cache for installed declarations/package metadata and unchanged source text; no stubs or flags weakened",
+    "target_count": 101,
+    "compiled_file_count": 1021,
+    "dependency_preload_count": 2485,
+    "changed_sources": [],
+    "unavailable_requested": [
+      "unavailable:storybook/dist/chunk-D4lKaBz7.d.ts",
+      "unavailable:storybook/dist/chunk-D2MohGtK.d.ts"
+    ],
+    "diagnostic_count": 0,
+    "diagnostics": []
+  },
+  "website_runtime": {
+    "status": "PASS",
+    "passed": 48,
+    "failed": 0,
+    "viewports": [
+      390,
+      1440
+    ],
+    "routes": [
+      "/",
+      "/services",
+      "/contact",
+      "/confirmation",
+      "/credits",
+      "/design-system"
+    ]
+  },
+  "editorial_runtime": {
+    "status": "PASS",
+    "passed": 50,
+    "failed": 0,
+    "viewports": [
+      390,
+      1440
+    ],
+    "reduced_motion": true,
+    "cards": 20,
+    "videos": 2
+  },
+  "reduced_motion_keyboard_tablet": {
+    "status": "PASS",
+    "passed": 30,
+    "failed": 0,
+    "viewports": [
+      390,
+      768,
+      1440
+    ],
+    "receipt": "qa/reduced-motion.json"
+  },
+  "asset_reconciliation": {
+    "status": "PASS",
+    "design_assets": 411,
+    "all_hashes_and_rights_checked": true,
+    "exclusions": 23
+  },
+  "storybook_build": {
+    "status": "ENVIRONMENT_GAP",
+    "reason": "Installed dependency files are dataless/unreadable (macOS errno60). Three bounded read strategies failed; current editable source is included. No fresh dependency installation or full current compiled Storybook claim."
+  },
+  "owner_accepted": false,
+  "limitations": [
+    "Physical iOS/Safari and assistive-technology device checks are not run.",
+    "Finite rendering checks are not WCAG conformance or exhaustive all-story/native pixel parity.",
+    "Supplied reference/beauty pixels and historical PDF/book outputs containing them remain local.",
+    "Two video storyboards are silent previews, not recorded founder films.",
+    "No social posting, deployment, Figma mutation or recurring collection occurred in this integration."
+  ]
+}

@@ -1,0 +1,765 @@
+{
+  "version": "1.0.0-candidate",
+  "status": "local_candidate_independently_reviewed_scoped_material_acceptance_pending",
+  "assets": [
+    {
+      "asset_id": "OS-O001",
+      "version": "1.0.0-candidate",
+      "name": "Editorial brackets",
+      "semantic_role": "authored voice and selected quotation",
+      "construction_type": "authored layered SVG; editable geometry/text; fixed shallow projection",
+      "file": "packages/assets/masters/OS-O001.svg",
+      "sha256": "d76aad81f57b77c10e2401e4fd9cfca893fc5c76fddea0c2cfae31c22d43a0ae",
+      "source_and_rights": {
+        "kind": "original authored geometry",
+        "use": "Stage 1 candidate examples; no real-person/customer implication"
+      },
+      "style_version": "OS-material-1",
+      "layers": [
+        "geometry",
+        "native text where applicable"
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        640,
+        480
+      ],
+      "surfaces": [
+        "white",
+        "pearl",
+        "navy with reviewed contrast"
+      ],
+      "scale_limits": "Illustrated object >=180px; native reading text >=14px at presentation; do not shrink lettering",
+      "state": "self_checked",
+      "shadow": "none baked; compose separate native shadow",
+      "dependency_ids": [
+        "design-system/style-grammar.json",
+        "design-system/tokens.json"
+      ],
+      "reviews": [
+        {
+          "record": "[dated-local-evidence-omitted]",
+          "scope": "Native family semantic/editable-copy/render review; final material art partial; exact file hashes in review checks",
+          "owner_acceptance": false
+        }
+      ]
+    },
+    {
+      "asset_id": "OS-O002",
+      "version": "1.0.0-candidate",
+      "name": "Focus line",
+      "semantic_role": "thought-to-authored-content relationship",
+      "construction_type": "authored layered SVG; editable geometry/text; fixed shallow projection",
+      "file": "packages/assets/masters/OS-O002.svg",
+      "sha256": "4763cd9f31f8b2215b3a60e3f0b0f26148ec313238597157b481006257d8682a",
+      "source_and_rights": {
+        "kind": "original authored geometry",
+        "use": "Stage 1 candidate examples; no real-person/customer implication"
+      },
+      "style_version": "OS-material-1",
+      "layers": [
+        "geometry",
+        "native text where applicable"
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        640,
+        480
+      ],
+      "surfaces": [
+        "white",
+        "pearl",
+        "navy with reviewed contrast"
+      ],
+      "scale_limits": "Illustrated object >=180px; native reading text >=14px at presentation; do not shrink lettering",
+      "state": "self_checked",
+      "shadow": "none baked; compose separate native shadow",
+      "dependency_ids": [
+        "design-system/style-grammar.json",
+        "design-system/tokens.json"
+      ],
+      "reviews": [
+        {
+          "record": "[dated-local-evidence-omitted]",
+          "scope": "Native family semantic/editable-copy/render review; final material art partial; exact file hashes in review checks",
+          "owner_acceptance": false
+        }
+      ]
+    },
+    {
+      "asset_id": "OS-O003",
+      "version": "1.0.0-candidate",
+      "name": "Authored page",
+      "semantic_role": "article and publication craft",
+      "construction_type": "authored layered SVG; editable geometry/text; fixed shallow projection",
+      "file": "packages/assets/masters/OS-O003.svg",
+      "sha256": "f7f2f6ad1aa42fc9fbef052c1122be05dd654368e36bef224437159f653f2f04",
+      "source_and_rights": {
+        "kind": "original authored geometry",
+        "use": "Stage 1 candidate examples; no real-person/customer implication"
+      },
+      "style_version": "OS-material-1",
+      "layers": [
+        "geometry",
+        "native text where applicable"
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        640,
+        480
+      ],
+      "surfaces": [
+        "white",
+        "pearl",
+        "navy with reviewed contrast"
+      ],
+      "scale_limits": "Illustrated object >=180px; native reading text >=14px at presentation; do not shrink lettering",
+      "state": "self_checked",
+      "shadow": "none baked; compose separate native shadow",
+      "dependency_ids": [
+        "design-system/style-grammar.json",
+        "design-system/tokens.json"
+      ],
+      "reviews": [
+        {
+          "record": "[dated-local-evidence-omitted]",
+          "scope": "Native family semantic/editable-copy/render review; final material art partial; exact file hashes in review checks",
+          "owner_acceptance": false
+        }
+      ]
+    },
+    {
+      "asset_id": "OS-O004",
+      "version": "1.0.0-candidate",
+      "name": "Native post",
+      "semantic_role": "LinkedIn post as illustrative content",
+      "construction_type": "authored layered SVG; editable geometry/text; fixed shallow projection",
+      "file": "packages/assets/masters/OS-O004.svg",
+      "sha256": "e3c49a8fc6f9620cc9014532780f911d83d1e74929f72b0c71bc62b688c04f53",
+      "source_and_rights": {
+        "kind": "original authored geometry",
+        "use": "Stage 1 candidate examples; no real-person/customer implication"
+      },
+      "style_version": "OS-material-1",
+      "layers": [
+        "geometry",
+        "native text where applicable"
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        640,
+        480
+      ],
+      "surfaces": [
+        "white",
+        "pearl",
+        "navy with reviewed contrast"
+      ],
+      "scale_limits": "Illustrated object >=180px; native reading text >=14px at presentation; do not shrink lettering",
+      "state": "self_checked",
+      "shadow": "none baked; compose separate native shadow",
+      "dependency_ids": [
+        "design-system/style-grammar.json",
+        "design-system/tokens.json"
+      ],
+      "reviews": [
+        {
+          "record": "[dated-local-evidence-omitted]",
+          "scope": "Native family semantic/editable-copy/render review; final material art partial; exact file hashes in review checks",
+          "owner_acceptance": false
+        }
+      ]
+    },
+    {
+      "asset_id": "OS-O005",
+      "version": "1.0.0-candidate",
+      "name": "Draft stack",
+      "semantic_role": "content production stages",
+      "construction_type": "authored layered SVG; editable geometry/text; fixed shallow projection",
+      "file": "packages/assets/masters/OS-O005.svg",
+      "sha256": "c9f4abb678eeb0ac90279036d0f52e049dcb9021f65fb16717ede747c5caa952",
+      "source_and_rights": {
+        "kind": "original authored geometry",
+        "use": "Stage 1 candidate examples; no real-person/customer implication"
+      },
+      "style_version": "OS-material-1",
+      "layers": [
+        "geometry",
+        "native text where applicable"
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        640,
+        480
+      ],
+      "surfaces": [
+        "white",
+        "pearl",
+        "navy with reviewed contrast"
+      ],
+      "scale_limits": "Illustrated object >=180px; native reading text >=14px at presentation; do not shrink lettering",
+      "state": "self_checked",
+      "shadow": "none baked; compose separate native shadow",
+      "dependency_ids": [
+        "design-system/style-grammar.json",
+        "design-system/tokens.json"
+      ],
+      "reviews": [
+        {
+          "record": "[dated-local-evidence-omitted]",
+          "scope": "Native family semantic/editable-copy/render review; final material art partial; exact file hashes in review checks",
+          "owner_acceptance": false
+        }
+      ]
+    },
+    {
+      "asset_id": "OS-O006",
+      "version": "1.0.0-candidate",
+      "name": "Editorial calendar",
+      "semantic_role": "planning and cadence",
+      "construction_type": "authored layered SVG; editable geometry/text; fixed shallow projection",
+      "file": "packages/assets/masters/OS-O006.svg",
+      "sha256": "a4acc60bc5d7df952eceae664cd3cc1474d6d74c212e5248a1652c3f49a0e066",
+      "source_and_rights": {
+        "kind": "original authored geometry",
+        "use": "Stage 1 candidate examples; no real-person/customer implication"
+      },
+      "style_version": "OS-material-1",
+      "layers": [
+        "geometry",
+        "native text where applicable"
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        640,
+        480
+      ],
+      "surfaces": [
+        "white",
+        "pearl",
+        "navy with reviewed contrast"
+      ],
+      "scale_limits": "Illustrated object >=180px; native reading text >=14px at presentation; do not shrink lettering",
+      "state": "self_checked",
+      "shadow": "none baked; compose separate native shadow",
+      "dependency_ids": [
+        "design-system/style-grammar.json",
+        "design-system/tokens.json"
+      ],
+      "reviews": [
+        {
+          "record": "[dated-local-evidence-omitted]",
+          "scope": "Native family semantic/editable-copy/render review; final material art partial; exact file hashes in review checks",
+          "owner_acceptance": false
+        }
+      ]
+    },
+    {
+      "asset_id": "OS-O007",
+      "version": "1.0.0-candidate",
+      "name": "Review gate",
+      "semantic_role": "human review and revision",
+      "construction_type": "authored layered SVG; editable geometry/text; fixed shallow projection",
+      "file": "packages/assets/masters/OS-O007.svg",
+      "sha256": "b9dc7b6ac447c64fcc7a55ad18ba8bc45ee72f2a797928bb78f33de7a2b23895",
+      "source_and_rights": {
+        "kind": "original authored geometry",
+        "use": "Stage 1 candidate examples; no real-person/customer implication"
+      },
+      "style_version": "OS-material-1",
+      "layers": [
+        "geometry",
+        "native text where applicable"
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        640,
+        480
+      ],
+      "surfaces": [
+        "white",
+        "pearl",
+        "navy with reviewed contrast"
+      ],
+      "scale_limits": "Illustrated object >=180px; native reading text >=14px at presentation; do not shrink lettering",
+      "state": "self_checked",
+      "shadow": "none baked; compose separate native shadow",
+      "dependency_ids": [
+        "design-system/style-grammar.json",
+        "design-system/tokens.json"
+      ],
+      "reviews": [
+        {
+          "record": "[dated-local-evidence-omitted]",
+          "scope": "Native family semantic/editable-copy/render review; final material art partial; exact file hashes in review checks",
+          "owner_acceptance": false
+        }
+      ]
+    },
+    {
+      "asset_id": "OS-O008",
+      "version": "1.0.0-candidate",
+      "name": "Interview/story cards",
+      "semantic_role": "founder source and story selection",
+      "construction_type": "authored layered SVG; editable geometry/text; fixed shallow projection",
+      "file": "packages/assets/masters/OS-O008.svg",
+      "sha256": "cb36c32b639da6f9916bb67c1cbf9753a6b129bb91aed1983f8f0660d11c3f55",
+      "source_and_rights": {
+        "kind": "original authored geometry",
+        "use": "Stage 1 candidate examples; no real-person/customer implication"
+      },
+      "style_version": "OS-material-1",
+      "layers": [
+        "geometry",
+        "native text where applicable"
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        640,
+        480
+      ],
+      "surfaces": [
+        "white",
+        "pearl",
+        "navy with reviewed contrast"
+      ],
+      "scale_limits": "Illustrated object >=180px; native reading text >=14px at presentation; do not shrink lettering",
+      "state": "self_checked",
+      "shadow": "none baked; compose separate native shadow",
+      "dependency_ids": [
+        "design-system/style-grammar.json",
+        "design-system/tokens.json"
+      ],
+      "reviews": [
+        {
+          "record": "[dated-local-evidence-omitted]",
+          "scope": "Native family semantic/editable-copy/render review; final material art partial; exact file hashes in review checks",
+          "owner_acceptance": false
+        }
+      ]
+    },
+    {
+      "asset_id": "OS-O009",
+      "version": "1.0.0-candidate",
+      "name": "Conversation nodes",
+      "semantic_role": "relationships and exchange",
+      "construction_type": "authored layered SVG; editable geometry/text; fixed shallow projection",
+      "file": "packages/assets/masters/OS-O009.svg",
+      "sha256": "950aa4989f6a8601f7a89e5ddb0c6a24ec1d0ceaf32bff43995aaab7a4d0f858",
+      "source_and_rights": {
+        "kind": "original authored geometry",
+        "use": "Stage 1 candidate examples; no real-person/customer implication"
+      },
+      "style_version": "OS-material-1",
+      "layers": [
+        "geometry",
+        "native text where applicable"
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        640,
+        480
+      ],
+      "surfaces": [
+        "white",
+        "pearl",
+        "navy with reviewed contrast"
+      ],
+      "scale_limits": "Illustrated object >=180px; native reading text >=14px at presentation; do not shrink lettering",
+      "state": "self_checked",
+      "shadow": "none baked; compose separate native shadow",
+      "dependency_ids": [
+        "design-system/style-grammar.json",
+        "design-system/tokens.json"
+      ],
+      "reviews": [
+        {
+          "record": "[dated-local-evidence-omitted]",
+          "scope": "Native family semantic/editable-copy/render review; final material art partial; exact file hashes in review checks",
+          "owner_acceptance": false
+        }
+      ]
+    },
+    {
+      "asset_id": "OS-O010",
+      "version": "1.0.0-candidate",
+      "name": "Role/profile cards",
+      "semantic_role": "human responsibility and authorship",
+      "construction_type": "generated photographic raster; opaque background; fictional",
+      "file": "packages/assets/masters/OS-O010-fictional-founder.png",
+      "sha256": "2ea2c56148b17f1e007242e51e843bd4b54b71732cac3a3f723f188af1cae514",
+      "source_and_rights": {
+        "kind": "built-in generated fictional human",
+        "use": "Stage 1 candidate examples; no real-person/customer implication"
+      },
+      "style_version": "OS-material-1",
+      "layers": [
+        "opaque media"
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        1536,
+        1024
+      ],
+      "surfaces": [
+        "white",
+        "pearl",
+        "navy with reviewed contrast"
+      ],
+      "scale_limits": "Illustrated object >=180px; native reading text >=14px at presentation; do not shrink lettering",
+      "state": "independently_reviewed_for_fictional_specimens",
+      "shadow": "none baked; compose separate native shadow",
+      "dependency_ids": [
+        "design-system/style-grammar.json",
+        "design-system/tokens.json"
+      ],
+      "reviews": [
+        {
+          "record": "[dated-local-evidence-omitted]",
+          "scope": "Native family semantic/editable-copy/render review; final material art partial; exact file hashes in review checks",
+          "owner_acceptance": false
+        }
+      ],
+      "constraints": [
+        "Fictional human; no customer implication; persistent frame/context label"
+      ]
+    },
+    {
+      "asset_id": "OS-O011",
+      "version": "1.0.0-candidate",
+      "name": "Source artifacts",
+      "semantic_role": "traceable evidence and quotations",
+      "construction_type": "authored layered SVG; editable geometry/text; fixed shallow projection",
+      "file": "packages/assets/masters/OS-O011.svg",
+      "sha256": "2454f8c8169eb4da4e6e3de585dcdb9b4d3310198d8d7e989bebeab212f34aa7",
+      "source_and_rights": {
+        "kind": "original authored geometry",
+        "use": "Stage 1 candidate examples; no real-person/customer implication"
+      },
+      "style_version": "OS-material-1",
+      "layers": [
+        "geometry",
+        "native text where applicable"
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        640,
+        480
+      ],
+      "surfaces": [
+        "white",
+        "pearl",
+        "navy with reviewed contrast"
+      ],
+      "scale_limits": "Illustrated object >=180px; native reading text >=14px at presentation; do not shrink lettering",
+      "state": "self_checked",
+      "shadow": "none baked; compose separate native shadow",
+      "dependency_ids": [
+        "design-system/style-grammar.json",
+        "design-system/tokens.json"
+      ],
+      "reviews": [
+        {
+          "record": "[dated-local-evidence-omitted]",
+          "scope": "Native family semantic/editable-copy/render review; final material art partial; exact file hashes in review checks",
+          "owner_acceptance": false
+        }
+      ]
+    },
+    {
+      "asset_id": "OS-O012",
+      "version": "1.0.0-candidate",
+      "name": "Measurement frame",
+      "semantic_role": "reporting and comparison",
+      "construction_type": "authored layered SVG; editable geometry/text; fixed shallow projection",
+      "file": "packages/assets/masters/OS-O012.svg",
+      "sha256": "3ad25fb4dd168b145a404222903a36ba4d6bb23aa09b4defdb8a0232bd65ba51",
+      "source_and_rights": {
+        "kind": "original authored geometry",
+        "use": "Stage 1 candidate examples; no real-person/customer implication"
+      },
+      "style_version": "OS-material-1",
+      "layers": [
+        "geometry",
+        "native text where applicable"
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        640,
+        480
+      ],
+      "surfaces": [
+        "white",
+        "pearl",
+        "navy with reviewed contrast"
+      ],
+      "scale_limits": "Illustrated object >=180px; native reading text >=14px at presentation; do not shrink lettering",
+      "state": "self_checked",
+      "shadow": "none baked; compose separate native shadow",
+      "dependency_ids": [
+        "design-system/style-grammar.json",
+        "design-system/tokens.json"
+      ],
+      "reviews": [
+        {
+          "record": "[dated-local-evidence-omitted]",
+          "scope": "Native family semantic/editable-copy/render review; final material art partial; exact file hashes in review checks",
+          "owner_acceptance": false
+        }
+      ]
+    },
+    {
+      "asset_id": "OS-O013",
+      "version": "1.0.0-candidate",
+      "name": "Media shell",
+      "semantic_role": "post, screen, portrait and video framing",
+      "construction_type": "authored layered SVG; editable geometry/text; fixed shallow projection",
+      "file": "packages/assets/masters/OS-O013.svg",
+      "sha256": "a184d972ab178e2b43456b34b54a422a52b762ebfbe104579cb57290733e2b0e",
+      "source_and_rights": {
+        "kind": "original authored geometry",
+        "use": "Stage 1 candidate examples; no real-person/customer implication"
+      },
+      "style_version": "OS-material-1",
+      "layers": [
+        "geometry",
+        "native text where applicable"
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        640,
+        480
+      ],
+      "surfaces": [
+        "white",
+        "pearl",
+        "navy with reviewed contrast"
+      ],
+      "scale_limits": "Illustrated object >=180px; native reading text >=14px at presentation; do not shrink lettering",
+      "state": "self_checked",
+      "shadow": "none baked; compose separate native shadow",
+      "dependency_ids": [
+        "design-system/style-grammar.json",
+        "design-system/tokens.json"
+      ],
+      "reviews": [
+        {
+          "record": "[dated-local-evidence-omitted]",
+          "scope": "Native family semantic/editable-copy/render review; final material art partial; exact file hashes in review checks",
+          "owner_acceptance": false
+        }
+      ]
+    },
+    {
+      "asset_id": "OS-O014",
+      "version": "1.0.0-candidate",
+      "name": "Shallow nickel form",
+      "semantic_role": "selected focal/support material study",
+      "construction_type": "authored layered SVG; editable geometry/text; fixed shallow projection",
+      "file": "packages/assets/masters/OS-O014.svg",
+      "sha256": "07a6272092a760c8bb4cc293f21e4f4da5335029b5a006f9bd598c1c32458207",
+      "source_and_rights": {
+        "kind": "original authored geometry",
+        "use": "Stage 1 candidate examples; no real-person/customer implication"
+      },
+      "style_version": "OS-material-1",
+      "layers": [
+        "geometry",
+        "native text where applicable"
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        640,
+        480
+      ],
+      "surfaces": [
+        "white",
+        "pearl",
+        "navy with reviewed contrast"
+      ],
+      "scale_limits": "Illustrated object >=180px; native reading text >=14px at presentation; do not shrink lettering",
+      "state": "self_checked",
+      "shadow": "none baked; compose separate native shadow",
+      "dependency_ids": [
+        "design-system/style-grammar.json",
+        "design-system/tokens.json"
+      ],
+      "reviews": [
+        {
+          "record": "[dated-local-evidence-omitted]",
+          "scope": "Native family semantic/editable-copy/render review; final material art partial; exact file hashes in review checks",
+          "owner_acceptance": false
+        }
+      ],
+      "native_geometry_variant": {
+        "source": "packages/assets/geometry/objects.mjs",
+        "glb": "packages/assets/geometry/OS-O014.glb",
+        "beauty_png": "packages/assets/geometry/OS-O014.beauty.png",
+        "state": "native_geometry_candidate; root visual review; final independent composition review pending",
+        "note": "Conservative product-render finish. OS-O015 insight-index is an additional geometry variant; original folded silhouette remains separate."
+      }
+    },
+    {
+      "asset_id": "OS-O015",
+      "version": "1.0.0-candidate",
+      "name": "Solid cobalt fold",
+      "semantic_role": "crafted depth and emphasis",
+      "construction_type": "authored layered SVG; editable geometry/text; fixed shallow projection",
+      "file": "packages/assets/masters/OS-O015.svg",
+      "sha256": "112c8ac2ec01edc5ac859f6429929434666c7d85448114c3ee8c05f982ffd17a",
+      "source_and_rights": {
+        "kind": "original authored geometry",
+        "use": "Stage 1 candidate examples; no real-person/customer implication"
+      },
+      "style_version": "OS-material-1",
+      "layers": [
+        "geometry",
+        "native text where applicable"
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        640,
+        480
+      ],
+      "surfaces": [
+        "white",
+        "pearl",
+        "navy with reviewed contrast"
+      ],
+      "scale_limits": "Illustrated object >=180px; native reading text >=14px at presentation; do not shrink lettering",
+      "state": "self_checked",
+      "shadow": "none baked; compose separate native shadow",
+      "dependency_ids": [
+        "design-system/style-grammar.json",
+        "design-system/tokens.json"
+      ],
+      "reviews": [
+        {
+          "record": "[dated-local-evidence-omitted]",
+          "scope": "Native family semantic/editable-copy/render review; final material art partial; exact file hashes in review checks",
+          "owner_acceptance": false
+        }
+      ],
+      "native_geometry_variant": {
+        "source": "packages/assets/geometry/objects.mjs",
+        "glb": "packages/assets/geometry/OS-O015.glb",
+        "beauty_png": "packages/assets/geometry/OS-O015.beauty.png",
+        "state": "native_geometry_candidate; root visual review; final independent composition review pending",
+        "note": "Conservative product-render finish. OS-O015 insight-index is an additional geometry variant; original folded silhouette remains separate."
+      }
+    },
+    {
+      "asset_id": "OS-O016",
+      "version": "1.0.0-candidate",
+      "name": "Caption/source plate",
+      "semantic_role": "legible text support across scenes",
+      "construction_type": "authored layered SVG; editable geometry/text; fixed shallow projection",
+      "file": "packages/assets/masters/OS-O016.svg",
+      "sha256": "9e22e00418431c29fd97d44f77f4baf90521b160d97f0444f7570b5b39392c9a",
+      "source_and_rights": {
+        "kind": "original authored geometry",
+        "use": "Stage 1 candidate examples; no real-person/customer implication"
+      },
+      "style_version": "OS-material-1",
+      "layers": [
+        "geometry",
+        "native text where applicable"
+      ],
+      "pivot": [
+        0.5,
+        0.5
+      ],
+      "bounds": [
+        640,
+        480
+      ],
+      "surfaces": [
+        "white",
+        "pearl",
+        "navy with reviewed contrast"
+      ],
+      "scale_limits": "Illustrated object >=180px; native reading text >=14px at presentation; do not shrink lettering",
+      "state": "self_checked",
+      "shadow": "none baked; compose separate native shadow",
+      "dependency_ids": [
+        "design-system/style-grammar.json",
+        "design-system/tokens.json"
+      ],
+      "reviews": [
+        {
+          "record": "[dated-local-evidence-omitted]",
+          "scope": "Native family semantic/editable-copy/render review; final material art partial; exact file hashes in review checks",
+          "owner_acceptance": false
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "id": "OS-R001",
+      "path": "[dated-local-evidence-omitted]",
+      "reason": "Exact alpha margin/opacity contract failed: near-opaque body and strayalpha1pixels. True composites do not support the initial dramatic haze diagnosis. Twoattempts; nofurtherrepair.",
+      "replacement": "OS-O014 native nickel form; OS-O015 native cobalt fold"
+    }
+  ],
+  "active_revision": {
+    "version": "2.0.0-candidate",
+    "identities": "revisions/v2/identity/manifest.json",
+    "objects": "revisions/v2/objects/manifest.json",
+    "photos": "revisions/v2/photos/manifest.json",
+    "frames": "revisions/v2/photos/frames/manifest.json",
+    "counts": {
+      "identity": 8,
+      "objects": 24,
+      "photos": 5,
+      "frames": 5
+    },
+    "historical_assets": "Existing assets entries are V1historical; currentretrieval starts at active_revision",
+    "owner_accepted": false
+  }
+}

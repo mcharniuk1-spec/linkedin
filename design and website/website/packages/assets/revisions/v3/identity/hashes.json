@@ -1,0 +1,992 @@
+[
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OFL-Archivo.txt",
+    "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+    "bytes": 4388
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/beauty.png",
+    "sha256": "7ee4c0c29489aea4f424da28667477c1bb6337d2304caa9bb8b059ecf3895442",
+    "bytes": 255204
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/beauty.webp",
+    "sha256": "702a31d789f3816c747758b957ef3364dab0999130e2c6ee2c642ffc1dd32aa3",
+    "bytes": 20288
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/flat-inverse.svg",
+    "sha256": "6b484864c709d5f129797ef461a1aad0e9c36f22ab1b9f5361a9430934835547",
+    "bytes": 8624
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/flat-light.svg",
+    "sha256": "3344669d547f6646204a6ba10f3c193c6142a46dac9f35f1487e37344eda54cc",
+    "bytes": 8397
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/flat-mono.svg",
+    "sha256": "ff82dbbc21014a64eb137aa49dfa2b6bc137d817a55c1608a963d3ff1722339c",
+    "bytes": 8624
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/flat.svg",
+    "sha256": "3344669d547f6646204a6ba10f3c193c6142a46dac9f35f1487e37344eda54cc",
+    "bytes": 8397
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/lockup-dark.svg",
+    "sha256": "efd8948475340f42b252b6c7b339db5f5d04d6d90f6ac149be1c5f8c8e246c4e",
+    "bytes": 25406
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/lockup-inverse.svg",
+    "sha256": "efd8948475340f42b252b6c7b339db5f5d04d6d90f6ac149be1c5f8c8e246c4e",
+    "bytes": 25406
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/lockup-light.svg",
+    "sha256": "3bbb6b2789d8fd3dd06376eb690bc2a0e0d73ad587cae5cd29ffef4cb878abce",
+    "bytes": 25190
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/lockup-mono.svg",
+    "sha256": "5657b2e475bfcb96e471f9afe2cf869966e1e90a05839f0dce89d375ca8a8c9f",
+    "bytes": 25406
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/mark.svg",
+    "sha256": "6f0e1d37435883364e92aa9d93c16bab3524158431ff5e197aed5cbaf3ff7462",
+    "bytes": 9086
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/mesh-source.json",
+    "sha256": "ea71c9f605258132dd4d59ec07279d78fb4a3d8a3d696748b06dd53e8e436822",
+    "bytes": 2431407
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/micro-inverse.svg",
+    "sha256": "3045a26841cae9b0078c574e877e8c0fcf0a02e1bc243f67c0350be7922a6aa9",
+    "bytes": 8649
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/micro-light.svg",
+    "sha256": "d5e50d442efceccc1433536d55fa315e421b82bb4210652cb79a83ab75e60ba0",
+    "bytes": 8419
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/micro-mono.svg",
+    "sha256": "e512ddd31896807a42e90f1970179ef95945324f86b33046053684fb73be013a",
+    "bytes": 8649
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/model.glb",
+    "sha256": "a7f43cf33a6b62817e98e007ae1b7bbd3a6fddba1ae2296e35ea3581b6e9f155",
+    "bytes": 770668
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/scene.json",
+    "sha256": "b94906fea403f78d07b9daeee208fa50c4fba85129a8032d4d48b4591a2eb45e",
+    "bytes": 1666
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/small-mark-mono.svg",
+    "sha256": "e512ddd31896807a42e90f1970179ef95945324f86b33046053684fb73be013a",
+    "bytes": 8649
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/small-mark.svg",
+    "sha256": "d5e50d442efceccc1433536d55fa315e421b82bb4210652cb79a83ab75e60ba0",
+    "bytes": 8419
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/small-proof.png",
+    "sha256": "902f7c4e22d0c421c11ef4819683a23e9544e8e700d94c2d0089ff363c35002e",
+    "bytes": 4728
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/wordmark-dark.svg",
+    "sha256": "e125f7ab7230b2502376801f06983294acd188d04ada30b7cc19bbb3775a5df2",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/wordmark-inverse.svg",
+    "sha256": "e125f7ab7230b2502376801f06983294acd188d04ada30b7cc19bbb3775a5df2",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/wordmark-light.svg",
+    "sha256": "bc4d75fe4c0f69a9719dfec1566464f6476abc9b3bde19fd442a268df4caa1bc",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-001/wordmark-mono.svg",
+    "sha256": "cf1f1fbd7bd0c37c7978fa934939e1a6fb133a1a22a146e412ad182a2d26504a",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/beauty.png",
+    "sha256": "04d699a573817c17c3311f64900e2333a44c39dcfa0596f9e0c59838e460b365",
+    "bytes": 253961
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/flat-inverse.svg",
+    "sha256": "cdb23266760ada6aeb8bdda888a69b943ae01ab50fe6b82ebe9a4f12351cbfaa",
+    "bytes": 8518
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/flat-light.svg",
+    "sha256": "f91857535723f1da563d6e84a1634c87c0d72639afa3ca4bbbf03d4927979359",
+    "bytes": 8291
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/flat-mono.svg",
+    "sha256": "71b6a0273645080bf90d6e1f9a970edb80ce4c0d361eb282baf50bebce920424",
+    "bytes": 8518
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/flat.svg",
+    "sha256": "f91857535723f1da563d6e84a1634c87c0d72639afa3ca4bbbf03d4927979359",
+    "bytes": 8291
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/lockup-dark.svg",
+    "sha256": "97c30e4a7204f92cb0703ae3d6213105a9e768fb3cad7f5822a1fb54b4541fe9",
+    "bytes": 25299
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/lockup-inverse.svg",
+    "sha256": "97c30e4a7204f92cb0703ae3d6213105a9e768fb3cad7f5822a1fb54b4541fe9",
+    "bytes": 25299
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/lockup-light.svg",
+    "sha256": "9484c25c52f3d83642dcb383f5a29e90d9cd46b8d9184e238d67d8085bb9a6da",
+    "bytes": 25083
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/lockup-mono.svg",
+    "sha256": "90a7e18071299502fc9586ca8a6207f658e2581637778cb67ceb03f21dd37bba",
+    "bytes": 25299
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/mark.svg",
+    "sha256": "dce63397d01bdc42c8b13bb92e4459b69534d319ad9ef28ba594e5ee87354ce9",
+    "bytes": 8979
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/mesh-source.json",
+    "sha256": "482fea2bd1ec832384d338450a62dc9ed9d0d32f2bd2fb5d3cebd204a7664028",
+    "bytes": 2430783
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/micro-inverse.svg",
+    "sha256": "907634c84c4c8543ed2b829f228f42bc7a98e5931bf26b1c26d1493ff44e59ec",
+    "bytes": 8543
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/micro-light.svg",
+    "sha256": "fc2186d992e1ea5dbdf44db89a684a6c4c8348ecb779e382285d6641e5e9eb0d",
+    "bytes": 8313
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/micro-mono.svg",
+    "sha256": "0c97c2fddb9b2dd87f081a2db2cc7c06b3be7e6bf5f1dfa181b5e4144a5dfb2c",
+    "bytes": 8543
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/model.glb",
+    "sha256": "aa97bdce49dc00f2890ef5de0da0595a1b3636a3f82080417c49c4cc280bcf1c",
+    "bytes": 770672
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/scene.json",
+    "sha256": "246179c87a119810b69126f87392b3ff8aa519874e6403175f0af1306be6dff9",
+    "bytes": 1663
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/small-mark-mono.svg",
+    "sha256": "0c97c2fddb9b2dd87f081a2db2cc7c06b3be7e6bf5f1dfa181b5e4144a5dfb2c",
+    "bytes": 8543
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/small-mark.svg",
+    "sha256": "fc2186d992e1ea5dbdf44db89a684a6c4c8348ecb779e382285d6641e5e9eb0d",
+    "bytes": 8313
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/small-proof.png",
+    "sha256": "2883a60d386c50e20b6d81341288443eaafcd32c52c622e37d77606e4379ccdc",
+    "bytes": 4759
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/wordmark-dark.svg",
+    "sha256": "506b49e773c5119be14a123711b805c709a74668325bd9a3e36148d7874ade7d",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/wordmark-inverse.svg",
+    "sha256": "506b49e773c5119be14a123711b805c709a74668325bd9a3e36148d7874ade7d",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/wordmark-light.svg",
+    "sha256": "758937cd50beddd6fa6f87eb4c6d414879ec24e11ea8f57555301064c779395d",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-002/wordmark-mono.svg",
+    "sha256": "3f8ab9e56f49e8eed3f8e1f7d4f1bf7e9d4c47c43699ca1dc26ec32cdf54f575",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/beauty.png",
+    "sha256": "f3e079ad6c6157cba5c3a80b2e49534cb4f1eca303bc14b3c2b4dc4557414e4b",
+    "bytes": 254338
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/flat-inverse.svg",
+    "sha256": "98bb5dcf95c56c9d057e5b0a134485f13c86d943f5b213e1381a9bea43807fe2",
+    "bytes": 8528
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/flat-light.svg",
+    "sha256": "320687e3d4e030a3178319cc34bb13e5f24e56e04bde3d0c5bc81a04f9d8164c",
+    "bytes": 8301
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/flat-mono.svg",
+    "sha256": "822bc254be3704cdc760619da2ce374eac51c4eb8c393a6c33a08e95263046e6",
+    "bytes": 8528
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/flat.svg",
+    "sha256": "320687e3d4e030a3178319cc34bb13e5f24e56e04bde3d0c5bc81a04f9d8164c",
+    "bytes": 8301
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/lockup-dark.svg",
+    "sha256": "f572b317cf56d463225d5b583c5e4aea3c0052decaa80713d10ca185a2125b00",
+    "bytes": 25311
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/lockup-inverse.svg",
+    "sha256": "f572b317cf56d463225d5b583c5e4aea3c0052decaa80713d10ca185a2125b00",
+    "bytes": 25311
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/lockup-light.svg",
+    "sha256": "886b56b0398d9a39d089feb4b262bee259c13d1b8bf97e0eaea793b700b076ae",
+    "bytes": 25095
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/lockup-mono.svg",
+    "sha256": "2fd340ddf61a3c61b701a382e977f4720590ceac1c3251ce4fec40311cd9f3cf",
+    "bytes": 25311
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/mark.svg",
+    "sha256": "b28b959ff23a0ae00fe2f8eb8dc583866c16f41d542750737a93febe5daf661e",
+    "bytes": 8991
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/mesh-source.json",
+    "sha256": "243029d7c7e7523f63b512945954bb3a109119a883c1c96cf3f01c0004e8ab83",
+    "bytes": 2391049
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/micro-inverse.svg",
+    "sha256": "06df60557f06b40cb16a725f4fb58cc85b55231147977b119c7d46124daafe9a",
+    "bytes": 8553
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/micro-light.svg",
+    "sha256": "75677d95dd136e6e33b9bb7f9d6b6873cf7a17917f9585bb478ff401ae0c66c7",
+    "bytes": 8323
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/micro-mono.svg",
+    "sha256": "802607c3f10e7fa83911cc6110900fa940106e01daef23c99d16aff9a2283b4d",
+    "bytes": 8553
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/model.glb",
+    "sha256": "db412a0cceffd21f70b6b14f15360466ac45a174279fe9e05cfa6834478c55b3",
+    "bytes": 770660
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/scene.json",
+    "sha256": "3714b6607e1339ba23bb1894cccef3a35bb1d79df845045abbc9503e9dd113d5",
+    "bytes": 1619
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/small-mark-mono.svg",
+    "sha256": "802607c3f10e7fa83911cc6110900fa940106e01daef23c99d16aff9a2283b4d",
+    "bytes": 8553
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/small-mark.svg",
+    "sha256": "75677d95dd136e6e33b9bb7f9d6b6873cf7a17917f9585bb478ff401ae0c66c7",
+    "bytes": 8323
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/small-proof.png",
+    "sha256": "dbd1ea5de390184e77169d1911b2a58f9d7a529c604e955081895a541e75eeb7",
+    "bytes": 4774
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/wordmark-dark.svg",
+    "sha256": "7b94d9471ee6cbdaea21fe1ed079e8c7a1ad16c046f5832885d1b4e449fdd337",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/wordmark-inverse.svg",
+    "sha256": "7b94d9471ee6cbdaea21fe1ed079e8c7a1ad16c046f5832885d1b4e449fdd337",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/wordmark-light.svg",
+    "sha256": "5a67906a5853e880018452022b20ce2c60da99ba6d7817b52250f0cadb3634a0",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-003/wordmark-mono.svg",
+    "sha256": "f29d1f46a62211ba78f8e64bcb117020eeb982aeb20738904da736cfd68fb431",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/beauty.png",
+    "sha256": "aeb9d1a39f4bec3ad4cd662083b8bce8e493f2221f44d5c4654ce75ee55813a2",
+    "bytes": 246365
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/flat-inverse.svg",
+    "sha256": "db848dedeb4e4720761888cc89d15ebc1b37791966ef69a0a33ae37be04c6376",
+    "bytes": 8509
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/flat-light.svg",
+    "sha256": "3f55e610f34e75b836f43d27a1f95010748b4f3e7d2825c5a01f2f5b5a8e2644",
+    "bytes": 8282
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/flat-mono.svg",
+    "sha256": "07cd0cc5b861ff756207a992ead4fd35bc666c8b12237c8f40ebe1f34e17de43",
+    "bytes": 8509
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/flat.svg",
+    "sha256": "3f55e610f34e75b836f43d27a1f95010748b4f3e7d2825c5a01f2f5b5a8e2644",
+    "bytes": 8282
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/lockup-dark.svg",
+    "sha256": "79ef7bf7c7f66024b19172e0861981466770f386bd30c0b080ef9ffdad6fff4d",
+    "bytes": 25284
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/lockup-inverse.svg",
+    "sha256": "79ef7bf7c7f66024b19172e0861981466770f386bd30c0b080ef9ffdad6fff4d",
+    "bytes": 25284
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/lockup-light.svg",
+    "sha256": "dfa7f2746780a87fd1456ad7601bc7115f5b95ba03dd8b0f42aeaf58787ee969",
+    "bytes": 25068
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/lockup-mono.svg",
+    "sha256": "aba8d1db407e91aa05ced15915fdf00433db58dfa724c6b083d0b80bf98721e5",
+    "bytes": 25284
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/mark.svg",
+    "sha256": "2ce3c86840ecb8a15b477c623544a7e9479d1d29a9599fb3b3b24dcd0410e33b",
+    "bytes": 8964
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/mesh-source.json",
+    "sha256": "6d626b4c8829446a4eaadc4ff64143848da0d7064a64812d75b554b6fa7f5ef7",
+    "bytes": 2391769
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/micro-inverse.svg",
+    "sha256": "fc000d8c10ae333815f758e42f271782f8d39de73822781b564cee26f4670bcc",
+    "bytes": 8534
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/micro-light.svg",
+    "sha256": "ef572b15a5ef52de449ce5b943d6c8339dbaabf96d1657580b6d2f04a2d28136",
+    "bytes": 8304
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/micro-mono.svg",
+    "sha256": "e7d2e611c1e09619b33d416f409cf51f8994a496be9734d1fd7c3ce320678bcc",
+    "bytes": 8534
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/model.glb",
+    "sha256": "e04d648c6d8935cf77e62c615bf486c30753ac6d158fe8404d5d99f8b2c7dc5f",
+    "bytes": 770604
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/scene.json",
+    "sha256": "f0bbda35bbdc9b1fc42c1f2b8d9b1cd01e17828dd394901ee978832350cf588a",
+    "bytes": 1590
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/small-mark-mono.svg",
+    "sha256": "e7d2e611c1e09619b33d416f409cf51f8994a496be9734d1fd7c3ce320678bcc",
+    "bytes": 8534
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/small-mark.svg",
+    "sha256": "ef572b15a5ef52de449ce5b943d6c8339dbaabf96d1657580b6d2f04a2d28136",
+    "bytes": 8304
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/small-proof.png",
+    "sha256": "89042fb9f79440cf0176c97cfe85799f31b4a4fcc48747b996e1770201aa9ed8",
+    "bytes": 4725
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/wordmark-dark.svg",
+    "sha256": "d444661b624f437aab7bb36191e7f204b316fc185b1c55f6c3f521dd4734b7e4",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/wordmark-inverse.svg",
+    "sha256": "d444661b624f437aab7bb36191e7f204b316fc185b1c55f6c3f521dd4734b7e4",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/wordmark-light.svg",
+    "sha256": "5b8c225270f13562e131a5570ba0704bb8ac1dff93274699da140b55ec618c97",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-004/wordmark-mono.svg",
+    "sha256": "80bed46201c4df7cdb46fe01ed8d7d7445813b7cb8ae8b7a50ef1f5a13b8ea3f",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/beauty.png",
+    "sha256": "d57b3deba229dd4823b32eb52e98bab03f2353c3adfb277b42fe413f309303a6",
+    "bytes": 268878
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/flat-inverse.svg",
+    "sha256": "ef355a79e050c9d51a5570ece6c06aae769bb7b161cddc6a41a5d7019e8de497",
+    "bytes": 8525
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/flat-light.svg",
+    "sha256": "ded2cb8621526abce9e19c4ca71627c4c7f0878ec62d16cad4c33c0af59a17d4",
+    "bytes": 8298
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/flat-mono.svg",
+    "sha256": "2d652193a21f4845ed269712cbbbda252b10c1fbc45a20980cacb40fab83bd0a",
+    "bytes": 8525
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/flat.svg",
+    "sha256": "ded2cb8621526abce9e19c4ca71627c4c7f0878ec62d16cad4c33c0af59a17d4",
+    "bytes": 8298
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/lockup-dark.svg",
+    "sha256": "78ab907a037411dffd176335fd8bdf86e5d40ac3400b89e8e36695a17767d107",
+    "bytes": 25306
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/lockup-inverse.svg",
+    "sha256": "78ab907a037411dffd176335fd8bdf86e5d40ac3400b89e8e36695a17767d107",
+    "bytes": 25306
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/lockup-light.svg",
+    "sha256": "3ebb75cf618954eba4175df2f84ddeaa31899d12d57c9d194204f1c5a4826e82",
+    "bytes": 25090
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/lockup-mono.svg",
+    "sha256": "67cb57fc9b8f9f6117133350fdc586905443ba1b94b0e180f1cd0d3046c8b40a",
+    "bytes": 25306
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/mark.svg",
+    "sha256": "6d1cdb618a517ee0e45544eeb0d8ec2968a86abac2072008b39795d774fdf821",
+    "bytes": 8986
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/mesh-source.json",
+    "sha256": "a420622456ccb23a738e512e9749626b966ba0c085868c69b62f5ccf7e05ffff",
+    "bytes": 2427847
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/micro-inverse.svg",
+    "sha256": "33c4327425e961889bbb8d3b06f3e77bd775872a6cce4e591e3c2c98497f5739",
+    "bytes": 8550
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/micro-light.svg",
+    "sha256": "58892f70354fb44f5ab0ba4b55dfdd9098a666d275e521ce52c8aa1e0555ca51",
+    "bytes": 8320
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/micro-mono.svg",
+    "sha256": "96ebc39c59a70c846490f089357fbe52c28ac61e7735ffb36724b97f8efba3a2",
+    "bytes": 8550
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/model.glb",
+    "sha256": "106df4c6138c9b7e50243d3181fb75e888d6f87730ec11b964c611ce01c35913",
+    "bytes": 770672
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/scene.json",
+    "sha256": "0a8e9673a0345bbb02896a79915e3dbcc41d050732703f8bc31e29c048bf9a8a",
+    "bytes": 1629
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/small-mark-mono.svg",
+    "sha256": "96ebc39c59a70c846490f089357fbe52c28ac61e7735ffb36724b97f8efba3a2",
+    "bytes": 8550
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/small-mark.svg",
+    "sha256": "58892f70354fb44f5ab0ba4b55dfdd9098a666d275e521ce52c8aa1e0555ca51",
+    "bytes": 8320
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/small-proof.png",
+    "sha256": "4a24520830ca8042146111166dbd455b67e0ac26f4a73ee9569a916ad51cea96",
+    "bytes": 4535
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/wordmark-dark.svg",
+    "sha256": "74e6cc8f1c49ce758619aa56bfc0534db6732604a789fac8e1b201e924a575ca",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/wordmark-inverse.svg",
+    "sha256": "74e6cc8f1c49ce758619aa56bfc0534db6732604a789fac8e1b201e924a575ca",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/wordmark-light.svg",
+    "sha256": "61e7a33262d15d1aa972ae7a69b35c05f90f5f49882be12be1a7c288763ae5eb",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-005/wordmark-mono.svg",
+    "sha256": "f1fa7ec8ae659161449b7864fd2492965d96e8297ae9891ffc9b347a2a5851fb",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/beauty.png",
+    "sha256": "2a744350ea489b3721dbf18a57936596ad8d55997febd8e80ef3d5f5350ab06b",
+    "bytes": 228000
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/flat-inverse.svg",
+    "sha256": "0f1a3db1d04a7c13077d42e7c475851b0335dcc80a31b533ec30c5df6ec3a56a",
+    "bytes": 8556
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/flat-light.svg",
+    "sha256": "05b76ce300338464b6daaeb9b1d13ae29f7f80a61571addb54f37d23f5a2c124",
+    "bytes": 8329
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/flat-mono.svg",
+    "sha256": "a014e4c6915a784bb3daea813e2ccbc895d5e5380faaed3c3e24c988714cebc9",
+    "bytes": 8556
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/flat.svg",
+    "sha256": "05b76ce300338464b6daaeb9b1d13ae29f7f80a61571addb54f37d23f5a2c124",
+    "bytes": 8329
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/lockup-dark.svg",
+    "sha256": "be9dcc51f0e6e55fd921713fe5ab8491d6e283db700bab2f874834f889b9450c",
+    "bytes": 25340
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/lockup-inverse.svg",
+    "sha256": "be9dcc51f0e6e55fd921713fe5ab8491d6e283db700bab2f874834f889b9450c",
+    "bytes": 25340
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/lockup-light.svg",
+    "sha256": "9af0b587988fcce6f281168b14386adc593295bb4675533899cf13bc11a3a7ce",
+    "bytes": 25124
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/lockup-mono.svg",
+    "sha256": "2851d01b0f6936e351ab98d4d8a0bb3a6d251cd73c21881f2e157aec8514b715",
+    "bytes": 25340
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/mark.svg",
+    "sha256": "3ec80b7e6310d4f80a6a523b2af0ad3c6f4e227ce9d00f74466de258338bc968",
+    "bytes": 9020
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/mesh-source.json",
+    "sha256": "c59209d69df857f7b5b15c256ed96abc670e1cc29db4467990a4174b8511fa23",
+    "bytes": 2379122
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/micro-inverse.svg",
+    "sha256": "427521b68bcf5cb025507de2f061438e770782c25d46ec93b657746aa3c67f7b",
+    "bytes": 8581
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/micro-light.svg",
+    "sha256": "398229e7cedb004557d3f896ce14b465b0657960e8702414f68a7326d5e69bd6",
+    "bytes": 8351
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/micro-mono.svg",
+    "sha256": "403f9a349aa5cde8bc26fbc8d887489c15dc129dbc9e663dec43487d7fbd601b",
+    "bytes": 8581
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/model.glb",
+    "sha256": "9126691c1af97f62ff9c64468d4deffbf35c5492da4cc441e4dff9b53ca2bc9f",
+    "bytes": 770644
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/scene.json",
+    "sha256": "dca6555f9783276dda6c63ef4dec746f9bf2bbec2ff7946b6b1bf0700f919946",
+    "bytes": 1622
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/small-mark-mono.svg",
+    "sha256": "403f9a349aa5cde8bc26fbc8d887489c15dc129dbc9e663dec43487d7fbd601b",
+    "bytes": 8581
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/small-mark.svg",
+    "sha256": "398229e7cedb004557d3f896ce14b465b0657960e8702414f68a7326d5e69bd6",
+    "bytes": 8351
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/small-proof.png",
+    "sha256": "68b359beaac698e3edbf24c79f48377d5e1c6f35e7f61ceaefbca19807e4f831",
+    "bytes": 4446
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/wordmark-dark.svg",
+    "sha256": "b7f3c85336eeebd1e212e8881d1299d45248033a54b31b2e30878e72e42bbd2c",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/wordmark-inverse.svg",
+    "sha256": "b7f3c85336eeebd1e212e8881d1299d45248033a54b31b2e30878e72e42bbd2c",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/wordmark-light.svg",
+    "sha256": "1179bd590cb7fd1d100f6f4c0243d724d69905de1dcd57fed76b4ed30ffdc96d",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-006/wordmark-mono.svg",
+    "sha256": "4019e9d496b0073d09d225f67f148dcbe4f6f3d2bee68bd1a9cd5e3c943595c2",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/beauty.png",
+    "sha256": "b96bc0a5c9d3f63c67b068c663f1ab28b529d4a8f0e0974441508bd88b8fba58",
+    "bytes": 244938
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/flat-inverse.svg",
+    "sha256": "9101715ed5546fa09991360f7ee5064de8d0aaa4a68c6c2c1dece6b13f01f229",
+    "bytes": 8526
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/flat-light.svg",
+    "sha256": "62bc26c4794adacc993976eb4374911af4a57ce924f85c4b01808fb49c5731dc",
+    "bytes": 8299
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/flat-mono.svg",
+    "sha256": "21904bda122f7b7d6f253182ff88d5a41bd458790b2385780c574f58e40fc4f9",
+    "bytes": 8526
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/flat.svg",
+    "sha256": "62bc26c4794adacc993976eb4374911af4a57ce924f85c4b01808fb49c5731dc",
+    "bytes": 8299
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/lockup-dark.svg",
+    "sha256": "4fe96b549b7b9e6bb63be0289213692254dd33866357eefca08bbf28d356105a",
+    "bytes": 25308
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/lockup-inverse.svg",
+    "sha256": "4fe96b549b7b9e6bb63be0289213692254dd33866357eefca08bbf28d356105a",
+    "bytes": 25308
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/lockup-light.svg",
+    "sha256": "fd881579561a7414c262e5164d8e0c75cdebe712472d04028a88ea49ddd863bf",
+    "bytes": 25092
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/lockup-mono.svg",
+    "sha256": "ab0dd9f29733dc8dc2dcec373b9a003d75c1285ee3d32fe9bc9eb2f9a07d64a7",
+    "bytes": 25308
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/mark.svg",
+    "sha256": "f4685f7cb9a7421a4d3d196292b24b57fb49fb7144884e4138b145db79b2d98d",
+    "bytes": 8988
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/mesh-source.json",
+    "sha256": "3d2db2229c5159b5250be6f020e5441400c5b2a66e8c5a66c4e66399efcc4714",
+    "bytes": 2390135
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/micro-inverse.svg",
+    "sha256": "23531d28b1cec06261f28044609a5d8eb963b66a1e94ad1e9c93cff47b32e605",
+    "bytes": 8551
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/micro-light.svg",
+    "sha256": "6bc97ea6a4ec55ea6d70659b9fedc1bf04d37c393412af3c1087b2bc46250e8d",
+    "bytes": 8321
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/micro-mono.svg",
+    "sha256": "44df18184ecef19b10ce26a2224a6bd9e3ab9b0c986a821cf2ba2077b3741126",
+    "bytes": 8551
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/model.glb",
+    "sha256": "e2e9956d3ce940f563730ff17e3ae2e081ece00fee3ca3b74a0ec53177969453",
+    "bytes": 770660
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/scene.json",
+    "sha256": "1d088b6aeda14a3807cb6f33b598e9743464323fedfff7fc5baf10d59968f17f",
+    "bytes": 1577
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/small-mark-mono.svg",
+    "sha256": "44df18184ecef19b10ce26a2224a6bd9e3ab9b0c986a821cf2ba2077b3741126",
+    "bytes": 8551
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/small-mark.svg",
+    "sha256": "6bc97ea6a4ec55ea6d70659b9fedc1bf04d37c393412af3c1087b2bc46250e8d",
+    "bytes": 8321
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/small-proof.png",
+    "sha256": "8fbb4d4ebb9775327c269c9ceb19917c54d828a15139af028fbcf8049d365ee1",
+    "bytes": 4854
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/wordmark-dark.svg",
+    "sha256": "db64ad33d4efc706b9148b3b5444ee3c1e326086845d2905f4c614950f6c44d0",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/wordmark-inverse.svg",
+    "sha256": "db64ad33d4efc706b9148b3b5444ee3c1e326086845d2905f4c614950f6c44d0",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/wordmark-light.svg",
+    "sha256": "aec18ad8fc4d19499bd68ce5395d80d914f4596aa43243988b550cb006a1672e",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-007/wordmark-mono.svg",
+    "sha256": "4ef9f63f7e80589aa5f950aaacae99d219a1616328873200d122fab8b3861539",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/beauty.png",
+    "sha256": "657ca5a402712f7d9f2d81cfeb5f7f17ee07a11d17551d1b9783dc97bd13dd7a",
+    "bytes": 239509
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/flat-inverse.svg",
+    "sha256": "20ed299e7511d1b4c90b7661292e384068bde4e4a82e1d282b4c247ad234ab24",
+    "bytes": 8511
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/flat-light.svg",
+    "sha256": "055af3c80c12654739c29a009e7118f8314702ddafd4643a49b94f8b40e178bc",
+    "bytes": 8284
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/flat-mono.svg",
+    "sha256": "b1daba2c3d1c750b790021baad378e90770578d786a8b02a10f62ae4bb00bd14",
+    "bytes": 8511
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/flat.svg",
+    "sha256": "055af3c80c12654739c29a009e7118f8314702ddafd4643a49b94f8b40e178bc",
+    "bytes": 8284
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/lockup-dark.svg",
+    "sha256": "8e3b7122080baba289cc20a32458df3d9ca8db047d49b9cd045f9d9ca0cd6179",
+    "bytes": 25288
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/lockup-inverse.svg",
+    "sha256": "8e3b7122080baba289cc20a32458df3d9ca8db047d49b9cd045f9d9ca0cd6179",
+    "bytes": 25288
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/lockup-light.svg",
+    "sha256": "9668f813394e28e810de8e07cd8a83b542e49c2dcc13a02befab52c6f56e95e5",
+    "bytes": 25072
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/lockup-mono.svg",
+    "sha256": "d8b560c8a496e2ea1127e77711f01467c07ac153984b843e5871c5e53caddb6f",
+    "bytes": 25288
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/mark.svg",
+    "sha256": "971b4041f8cd972b9d6fc75dbfc72182c002e1e23fe62a5dea04111fd60e1ef9",
+    "bytes": 8968
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/mesh-source.json",
+    "sha256": "c3b72109e0f5a9edcd434c6f35f5302a58ee26d05750430aec3404e21c5ed463",
+    "bytes": 2430459
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/micro-inverse.svg",
+    "sha256": "146d61f32f32455eee888b9087a661c29c7bebc46524a7ad49d0786081df31ac",
+    "bytes": 8536
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/micro-light.svg",
+    "sha256": "57904240541f7278b85ec3b16921a68ebb1711a4b51bd799bda36508ef470860",
+    "bytes": 8306
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/micro-mono.svg",
+    "sha256": "e934cb2f74d8aef0b9dab1499760eefb27248f7b1faffcf6fae8c54a5a06c9d6",
+    "bytes": 8536
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/model.glb",
+    "sha256": "5eac41c66cfa8928d9bfa787e63f6c78f6c8d787bd2d918496490a3530fce245",
+    "bytes": 770672
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/scene.json",
+    "sha256": "6b0b3e7ff5ec3b0a9227290baaa38f2c394d01e497faf9a6b904b23b56d192e3",
+    "bytes": 1632
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/small-mark-mono.svg",
+    "sha256": "e934cb2f74d8aef0b9dab1499760eefb27248f7b1faffcf6fae8c54a5a06c9d6",
+    "bytes": 8536
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/small-mark.svg",
+    "sha256": "57904240541f7278b85ec3b16921a68ebb1711a4b51bd799bda36508ef470860",
+    "bytes": 8306
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/small-proof.png",
+    "sha256": "e531dca6f70e6efaaf50c079319cf39efdc05c89e04e4dc98430e10f24297339",
+    "bytes": 4619
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/wordmark-dark.svg",
+    "sha256": "9495f885a9b35a60581c2acd3ca908ee2e097f4b469a1af1ba4722dcabc01c8a",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/wordmark-inverse.svg",
+    "sha256": "9495f885a9b35a60581c2acd3ca908ee2e097f4b469a1af1ba4722dcabc01c8a",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/wordmark-light.svg",
+    "sha256": "0b77ec5c4e4d47f0aefd88fc21058228c58fb81bf22f25d1e44c15b06116a9e0",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/OS-LV3-008/wordmark-mono.svg",
+    "sha256": "9385c945095f129a1afe57dace081c46cdaab18f54868e31c5b99bcf6761d733",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/README.md",
+    "sha256": "e114e4e41cf1b3f03473a0ee1646c306383a08f809ee91d6491d16e63e385d4d",
+    "bytes": 3764
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/comparison-rendered.png",
+    "sha256": "485c1155f9fbe8c4dea3f7543e46476d39b64de7341b560bc230e35cb6d81c2a",
+    "bytes": 620630
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/geometry-checks.json",
+    "sha256": "e43b77f16c3b88aa9ca29b880f9112bfc66a83693ace3d5a0cc85994ea23d113",
+    "bytes": 2435
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/lockup-light.svg",
+    "sha256": "3bbb6b2789d8fd3dd06376eb690bc2a0e0d73ad587cae5cd29ffef4cb878abce",
+    "bytes": 25190
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/manifest.json",
+    "sha256": "d03729e6890d3180c4b4a6e906a83f9e595f59bd4fc8229d8a0335cf2cf0b38e",
+    "bytes": 12756
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/mark.svg",
+    "sha256": "6f0e1d37435883364e92aa9d93c16bab3524158431ff5e197aed5cbaf3ff7462",
+    "bytes": 9086
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/material-recipe.json",
+    "sha256": "5d029e1dbf9b696136b83abd635b0bd61e6edc57cc707a1833de80088f178cc9",
+    "bytes": 2940
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/render-checks.json",
+    "sha256": "6eb8ec453041824d3b28ffd6d6fa54cc562a42d1070bcc17b4dd0a4725613d9b",
+    "bytes": 1516
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/render.mjs",
+    "sha256": "bbf1513774c1e5467dac717cfa86f503493301f7c013e23bb9ef4cbd36b41680",
+    "bytes": 1654
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/studio.html",
+    "sha256": "7dc636a4f2039b10bf7d5bbfdf9658bb28514e05ca223b7f3df3e7309bdd7445",
+    "bytes": 4960
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/wordmark-inverse.svg",
+    "sha256": "e125f7ab7230b2502376801f06983294acd188d04ada30b7cc19bbb3775a5df2",
+    "bytes": 16252
+  },
+  {
+    "path": "brand-library/packages/assets/revisions/v3/identity/wordmark-light.svg",
+    "sha256": "bc4d75fe4c0f69a9719dfec1566464f6476abc9b3bde19fd442a268df4caa1bc",
+    "bytes": 16252
+  }
+]

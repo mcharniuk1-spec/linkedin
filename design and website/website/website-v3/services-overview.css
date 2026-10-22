@@ -1,0 +1,218 @@
+.services-overview {
+  padding-top: 128px;
+  padding-bottom: 76px;
+}
+
+.services-overview__heading {
+  max-width: 1440px;
+  margin: 0 auto 30px;
+}
+
+.services-overview__heading .eyebrow {
+  margin-bottom: 12px;
+}
+
+.services-overview__heading h1 {
+  max-width: 19ch;
+  font-size: clamp(40px, 5.2vw, 68px);
+  overflow-wrap: anywhere;
+}
+
+.services-overview__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  max-width: 1440px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+.services-overview__item {
+  min-width: 0;
+  border: 1px solid #A9AFBA;
+  border-radius: 12px;
+  background: #F1F3F6;
+  box-shadow: 0 4px 12px rgba(22, 39, 96, .07);
+}
+
+.services-overview__details {
+  height: 100%;
+}
+
+.services-overview__summary {
+  display: grid;
+  grid-template-columns: 34px minmax(0, 1fr) 16px;
+  align-items: start;
+  gap: 10px;
+  min-height: 112px;
+  padding: 17px 15px;
+  color: #162760;
+  cursor: pointer;
+  list-style: none;
+}
+
+.services-overview__summary::-webkit-details-marker {
+  display: none;
+}
+
+.services-overview__summary:focus-visible {
+  outline: 3px solid #3157D5;
+  outline-offset: -4px;
+}
+
+.services-overview__number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border: 1px solid #A9AFBA;
+  border-radius: 50%;
+  color: #162760;
+  font: 650 12px/1 Inter, Arial, sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+
+.services-overview__summary-copy {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+
+.services-overview__title {
+  font: 700 clamp(17px, 1.45vw, 21px)/1.15 Archivo, Inter, sans-serif;
+  letter-spacing: -.025em;
+  overflow-wrap: anywhere;
+}
+
+.services-overview__short {
+  color: #29375F;
+  font: 450 14px/1.4 Inter, Arial, sans-serif;
+}
+
+.services-overview__chevron {
+  width: 9px;
+  height: 9px;
+  margin: 7px 2px 0 0;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: rotate(45deg);
+  transition: transform 160ms ease;
+}
+
+.services-overview__details[open] .services-overview__chevron {
+  transform: rotate(225deg);
+}
+
+.services-overview__expanded {
+  padding: 0 17px 20px 59px;
+  color: #162760;
+  font: 400 14px/1.55 Inter, Arial, sans-serif;
+}
+
+.services-overview__details[open] .services-overview__expanded {
+  animation: services-detail-enter 220ms ease-out;
+}
+
+@keyframes services-detail-enter {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.services-overview__expanded h2 {
+  margin: 18px 0 8px;
+  font: 680 15px/1.25 Archivo, Inter, sans-serif;
+  letter-spacing: -.01em;
+}
+
+.services-overview__expanded ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.services-overview__expanded li + li {
+  margin-top: 6px;
+}
+
+.services-overview__boundary {
+  display: grid;
+  gap: 4px;
+  margin-top: 15px;
+  padding-top: 12px;
+  border-top: 1px solid #A9AFBA;
+}
+
+.services-overview__boundary strong {
+  font-weight: 650;
+}
+
+@media (max-width: 1050px) {
+  .services-overview__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .services-overview {
+    padding-top: 94px;
+    padding-bottom: 32px;
+  }
+
+  .services-overview__heading {
+    margin-bottom: 18px;
+  }
+
+  .services-overview__heading h1 {
+    max-width: 22ch;
+    font-size: clamp(30px, 8.5vw, 34px);
+    line-height: 1.04;
+  }
+
+  .services-overview__grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 6px;
+  }
+
+  .services-overview__summary {
+    grid-template-columns: 26px minmax(0, 1fr) 12px;
+    align-items: center;
+    min-height: 54px;
+    gap: 6px;
+    padding: 8px 10px;
+  }
+
+  .services-overview__number {
+    width: 26px;
+    height: 26px;
+  }
+
+  .services-overview__summary-copy {
+    gap: 6px;
+  }
+
+  .services-overview__title {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .services-overview__details:not([open]) .services-overview__short {
+    display: none;
+  }
+
+  .services-overview__short {
+    font-size: 14px;
+    line-height: 1.35;
+  }
+
+  .services-overview__expanded {
+    padding: 0 18px 22px;
+    font-size: 16px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .services-overview__chevron {
+    transition: none;
+  }
+  .services-overview__details[open] .services-overview__expanded { animation: none; }
+}

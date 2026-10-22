@@ -1,0 +1,44 @@
+/* OS-WEB-V9-001. The canvas holds; one readable node replaces the previous node. */
+.buyer-story{position:relative;background:#F1F3F6;color:#162760;isolation:isolate;overflow:clip;--story-gutter:clamp(24px,5vw,80px)}
+.buyer-story.is-pinned{height:610svh;overflow:visible}
+.buyer-story__pin{position:relative;padding:76px var(--story-gutter);max-width:1600px;margin:auto;display:grid;grid-template-columns:.87fr 1.13fr;gap:clamp(40px,5vw,88px);align-items:center;isolation:isolate}
+.is-pinned .buyer-story__pin{position:sticky;top:0;min-height:680px;height:100svh;max-height:1100px}
+.buyer-story__resonance{position:absolute;inset:0;overflow:hidden;z-index:-1;pointer-events:none;opacity:.42}
+.buyer-story__resonance i{display:block;position:absolute;width:900px;height:900px;left:-660px;top:calc(50% - 450px);border:1px solid #A9AFBA;border-radius:50%;transform:scaleX(.72) rotate(-24deg)}
+.buyer-story__resonance i:nth-child(2){left:-615px}.buyer-story__resonance i:nth-child(3){left:-570px}
+.buyer-story__intro{max-width:520px}.buyer-story__intro h2{font-size:clamp(38px,4.2vw,64px);line-height:1.04;letter-spacing:-.04em;max-width:15ch}
+.buyer-story__intro h2 span{display:block}.buyer-story__intro>p:not(.eyebrow){font-size:16px;line-height:1.65;margin-top:26px;max-width:41ch}
+.buyer-story__intro .buyer-story__scope{font-size:13px;line-height:1.5;padding-left:13px;border-left:3px solid #3157D5;margin-top:28px}
+.buyer-story__read,.buyer-story__service{display:block;width:fit-content;font:600 13px/1.5 Inter,sans-serif;color:#162760;min-height:44px;padding:12px 0;background:transparent;border:0;text-decoration:underline;text-underline-offset:5px;text-align:left;cursor:pointer}
+.buyer-story__read{margin-top:16px}.buyer-story__service{margin-top:8px}
+.buyer-story__content{min-width:0}.buyer-story__nav{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin-bottom:20px;position:relative;z-index:2}
+.buyer-story__nav button,.buyer-story__nav a{display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-start;gap:7px;min-width:0;min-height:58px;padding:8px 4px 0;border:0;border-top:2px solid #A9AFBA;background:none;color:#162760;font:600 12px/1.3 Inter,sans-serif;text-align:left;text-decoration:none;cursor:pointer}
+.buyer-story__nav button[aria-current]{border-color:#162760}.buyer-story__number{font-size:12px;line-height:22px;width:28px;text-align:center;border-radius:4px;background:#E2E6EE;color:#162760}.buyer-story__nav button[aria-current] .buyer-story__number{background:#D4DD67}
+.buyer-story__nodes{list-style:none;padding:0;margin:0;min-width:0}.buyer-story__node{position:relative;padding:28px 32px 30px;background:#fff;border:1px solid #A9AFBA;border-radius:14px;box-shadow:0 14px 44px -28px #16276040;min-width:0;scroll-margin-top:28px}
+.buyer-story__node[hidden]{display:none!important}
+.buyer-story__card-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-start;margin-bottom:20px;font-size:12px;line-height:1.4;font-weight:650;color:#394B78}.buyer-story__card-head>span:last-child{white-space:nowrap}
+.buyer-story__node h3{font-size:clamp(27px,2.5vw,36px);line-height:1.1;letter-spacing:-.035em;margin-bottom:20px;max-width:25ch}
+.buyer-story__node p{font-size:15px;line-height:1.6;margin:0;max-width:55ch}.buyer-story__pain{color:#394B78}
+.buyer-story__work{position:relative;margin-top:22px;padding:18px 0 0;border-top:1px solid #D9DEE7}
+.buyer-story__signal{margin-top:22px;background:#EDF0D5;border-left:3px solid #8B963A;padding:16px 18px;border-radius:0 8px 8px 0}
+.buyer-story__label{display:block;margin-bottom:7px;color:#162760;font-size:12px;line-height:1.4;font-weight:700}
+.buyer-story__value-note{font-size:12px;line-height:1.55;color:#394B78;max-width:67ch;margin-top:18px}
+.buyer-story__rationale{position:absolute;bottom:0;left:0;right:0;transform:translateY(100%);padding:64px var(--story-gutter);background:#162760;color:#fff;display:none}
+/* This footer stays in document flow and is never part of the pinned reading area. */
+.buyer-story__rationale h3{font-size:32px;line-height:1.12;max-width:26ch}.buyer-story__rationale>p:not(.eyebrow){font-size:16px;line-height:1.65;margin-top:22px;max-width:66ch}.buyer-story__rationale .buyer-story__responsibilities{color:#DCE1EB;font-size:14px}
+.buyer-story.is-flow .buyer-story__pin{align-items:start;padding-block:80px}.is-flow .buyer-story__intro{position:sticky;top:48px}.is-flow .buyer-story__node+.buyer-story__node{margin-top:28px}.is-flow .buyer-story__nav{display:none}
+.buyer-story.is-flow .buyer-story__rationale{display:block;position:relative;transform:none}
+@media(min-width:801px) and (max-height:790px){.is-pinned .buyer-story__pin{padding-block:30px}.buyer-story__node{padding:22px 26px}.buyer-story__node h3{font-size:28px;margin-bottom:14px}.buyer-story__card-head{margin-bottom:14px}.buyer-story__node p{font-size:14px;line-height:1.5}.buyer-story__work,.buyer-story__signal{margin-top:16px}.buyer-story__value-note{margin-top:12px}.buyer-story__nav{margin-bottom:14px}}
+@media(max-width:1000px) and (min-width:801px){.buyer-story__pin{gap:32px;grid-template-columns:.8fr 1.2fr}.buyer-story__intro h2{font-size:42px}.buyer-story__node{padding:24px}.buyer-story__nav button{font-size:11px}}
+@media(max-width:800px){
+  .buyer-story{--story-gutter:24px}.buyer-story.is-pinned{height:620svh}.buyer-story__pin{display:flex;flex-direction:column;align-items:stretch;justify-content:center;gap:20px;padding:32px var(--story-gutter)}
+  .is-pinned .buyer-story__pin{min-height:0;max-height:none}.buyer-story__intro h2{font-size:32px;line-height:1.03;max-width:20ch}.buyer-story__intro h2 span{display:inline}.buyer-story__intro .eyebrow{font-size:12px;margin-bottom:10px}.buyer-story__intro>p:not(.eyebrow){font-size:14px;line-height:1.45;margin-top:12px;max-width:46ch}.buyer-story__intro .buyer-story__scope{font-size:11px;margin-top:12px;padding-left:9px}.buyer-story__read{font-size:12px;min-height:36px;padding-block:8px;margin-top:8px}.buyer-story__service{display:none}
+  .buyer-story__nav{gap:7px;margin-bottom:14px}.buyer-story__nav button{min-height:34px;padding:5px 0 0;gap:0}.buyer-story__nav button>span:last-child{display:none}.buyer-story__number{font-size:11px;line-height:22px}.buyer-story__node{padding:21px 20px 22px}.buyer-story__card-head{font-size:11px;margin-bottom:13px}.buyer-story__node h3{font-size:27px;line-height:1.08;margin-bottom:14px;max-width:24ch}.buyer-story__node p{font-size:14px;line-height:1.5}.buyer-story__work{padding-top:14px;margin-top:16px}.buyer-story__signal{padding:12px 14px;margin-top:16px}.buyer-story__label{font-size:11px;margin-bottom:6px}.buyer-story__value-note{font-size:11px;line-height:1.45;margin-top:13px}
+  .buyer-story.is-flow .buyer-story__pin{padding-block:64px;gap:32px}.is-flow .buyer-story__intro{position:static}.is-flow .buyer-story__intro h2{font-size:36px}.is-flow .buyer-story__node+.buyer-story__node{margin-top:24px}.is-flow .buyer-story__intro .buyer-story__service{display:block}.buyer-story__rationale{padding:48px 24px}.buyer-story__rationale h3{font-size:30px}.buyer-story__resonance{opacity:.18}
+}
+@media(prefers-reduced-motion:reduce){.buyer-story__node{transform:none!important;animation:none!important;transition:none!important}.is-flow .buyer-story__intro{position:static}}
+@media print{.buyer-story{height:auto!important;overflow:visible}.buyer-story__pin{height:auto!important;position:static!important;display:block}.buyer-story__node[hidden]{display:block!important}.buyer-story__node{break-inside:avoid;margin-top:20px}.buyer-story__nav,.buyer-story__read{display:none}}
+
+.buyer-story__rationale{display:block;position:relative;transform:none;max-width:none;padding:64px clamp(24px,5vw,80px);background:#162760;color:#fff}.buyer-story__rationale .eyebrow{color:#D4DD67}.buyer-story__rationale>p,.buyer-story__rationale>h3{margin-inline:auto;max-width:720px}.buyer-story__rationale>p:not(.eyebrow){margin-top:22px}.buyer-story__rationale>h3{font-size:clamp(30px,3vw,44px)}
+
+@media(max-width:800px){.is-pinned .buyer-story__pin{padding-block:22px;gap:16px}.buyer-story__intro h2{font-size:31px}.buyer-story__intro .eyebrow{margin-bottom:8px}.buyer-story__node h3{font-size:26px}.buyer-story__node{padding:19px 20px}.buyer-story__value-note{margin-top:12px}.buyer-story__card-head{margin-bottom:12px}}

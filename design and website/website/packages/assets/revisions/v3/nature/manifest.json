@@ -1,0 +1,80 @@
+{
+  "assets": [
+    {
+      "id": "01-tidal-signal",
+      "path": "brand-library/packages/assets/revisions/v3/nature/01-tidal-signal.png",
+      "source": "[local-source-omitted]",
+      "sha256": "0fe72fd7ebcc044328295f4fa579edac3a5391d086a15907e1723a12287f4905",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "alpha_range": null,
+      "prompt": "[dated-local-evidence-omitted]",
+      "rights": "Built-in generated original artwork, internal/public Outspoken use; not a real client or medical evidence",
+      "webp": "brand-library/packages/assets/revisions/v3/nature/01-tidal-signal.webp",
+      "webp_sha256": "2c6b6d99f49c5279810ad73c31c7c284d529f48836f87ab37f61e5a712753d5c"
+    },
+    {
+      "id": "02-resonance-field",
+      "path": "brand-library/packages/assets/revisions/v3/nature/02-resonance-field.png",
+      "source": "[local-source-omitted]",
+      "sha256": "d8f8e8ecab7403a05c55dc732de7cde90dc6a216bdb72a76811eb81dfe497ce8",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "alpha_range": null,
+      "prompt": "[dated-local-evidence-omitted]",
+      "rights": "Built-in generated original artwork, internal/public Outspoken use; not a real client or medical evidence",
+      "webp": "brand-library/packages/assets/revisions/v3/nature/02-resonance-field.webp",
+      "webp_sha256": "d465a37ab385ad059a24405bd3e203c33612c333f00c9161b91445a735aa5366"
+    },
+    {
+      "id": "03-still-to-signal",
+      "path": "brand-library/packages/assets/revisions/v3/nature/03-still-to-signal.png",
+      "source": "[local-source-omitted]",
+      "sha256": "5d66205fb001854b4c85c61bd744bab3544ed6e746757a8940877c80a7af293d",
+      "width": 1672,
+      "height": 941,
+      "mode": "RGB",
+      "alpha_range": null,
+      "prompt": "[dated-local-evidence-omitted]",
+      "rights": "Built-in generated original artwork, internal/public Outspoken use; not a real client or medical evidence",
+      "webp": "brand-library/packages/assets/revisions/v3/nature/03-still-to-signal.webp",
+      "webp_sha256": "d2efe59c86db41903c21eadbcc9580f2a98e564a1e5594327e418b86e8e6ff91"
+    },
+    {
+      "id": "04-neural-constellation",
+      "path": "brand-library/packages/assets/revisions/v3/nature/04-neural-constellation.png",
+      "source": "[local-source-omitted]",
+      "sha256": "f15eef8b1c2271abf68188a5d7448519a9727ea571d00bd92b11b26a1039e6e5",
+      "width": 1536,
+      "height": 1024,
+      "mode": "RGBA",
+      "alpha_range": [
+        0,
+        254
+      ],
+      "prompt": "[dated-local-evidence-omitted]",
+      "rights": "Built-in generated original artwork, internal/public Outspoken use; not a real client or medical evidence",
+      "webp": "brand-library/packages/assets/revisions/v3/nature/04-neural-constellation.webp",
+      "webp_sha256": "8926acd4e4ddd8a8273fba30aa621fffe5e13ab8f8f72e94ea54b57ed15c8d18"
+    },
+    {
+      "id": "05-real-human-shadow",
+      "path": "brand-library/packages/assets/revisions/v3/nature/05-real-human-shadow.png",
+      "source": "Built-in imagegen result registered in the run assets/generated-files.json",
+      "sha256": "0a4054231cc84c21878609a6719ceded850667e98b1cb6ed9054f1d560a71388",
+      "width": 1374,
+      "height": 1145,
+      "mode": "RGBA",
+      "alpha_range": null,
+      "prompt": "[dated-local-evidence-omitted]",
+      "rights": "Original generated fictional human; no real person or client evidence.",
+      "webp": "brand-library/packages/assets/revisions/v3/nature/05-real-human-shadow.webp",
+      "webp_sha256": "1f1e5862a3e7356621de868b93b9633e8231ef515592b0c3527b869c2577b4e4"
+    }
+  ],
+  "generation_route": "built-in image_gen",
+  "actual_calls": 5,
+  "paid_external": 0
+}

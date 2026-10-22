@@ -1,0 +1,62 @@
+{
+  "id": "OS-LV4-001",
+  "name": "Capsule Voice",
+  "idea_family": "microphone",
+  "meaning": "A close microphone grille reduced to one capsule and three broad ribs. No stem or stand.",
+  "status": "original candidate; independent PM review pending; no lead selected",
+  "layers": [
+    {
+      "name": "navy curved layer1",
+      "material": "navy",
+      "path": "M60 14 C78 14 90 27 90 45 L90 75 C90 94 78 106 60 106 C42 106 30 94 30 75 L30 45 C30 27 42 14 60 14 Z M60 25 C48 25 41 33 41 45 L41 75 C41 88 48 95 60 95 C72 95 79 88 79 75 L79 45 C79 33 72 25 60 25 Z",
+      "depth": 0.13,
+      "bow": 0.2,
+      "z": 0.0,
+      "yaw": -0.08,
+      "roll": 0
+    },
+    {
+      "name": "silver curved layer2",
+      "material": "silver",
+      "path": "M41 39 Q60 31 79 39 L79 49 Q60 43 41 49 Z",
+      "depth": 0.13,
+      "bow": 0.32,
+      "z": 0.16,
+      "yaw": 0.08,
+      "roll": 0
+    },
+    {
+      "name": "blue curved layer3",
+      "material": "blue",
+      "path": "M41 56 Q60 50 79 56 L79 67 Q60 61 41 67 Z",
+      "depth": 0.13,
+      "bow": 0.2,
+      "z": 0.32,
+      "yaw": -0.04,
+      "roll": 0
+    },
+    {
+      "name": "silver curved layer4",
+      "material": "silver",
+      "path": "M41 74 Q60 68 79 74 L77 84 Q60 78 43 84 Z",
+      "depth": 0.13,
+      "bow": 0.32,
+      "z": 0.48,
+      "yaw": 0.1,
+      "roll": 0
+    }
+  ],
+  "geometry": "Closed beveled extrusion of the editable curved paths with continuous bowed depth; original geometry, not a stock mesh",
+  "wordmark": "Always uppercase OUTSPOKEN. Exact Archivo730 outlines with optical manual tracking; only firstO has a narrow outward voice notch.",
+  "small_size_verdict": "Mic grille remains distinct at24/32; use mono at small size. Podcast-service association remains a positioning risk.",
+  "files": {
+    "glb": "model.glb",
+    "png": "beauty.png",
+    "webp": "beauty.webp",
+    "editable_svg": "flat.svg",
+    "outlined_lockup": "lockup-split.svg"
+  },
+  "curation_status": "secondary",
+  "geometry_checks": "finite all attributes; valid all indices; nonzero real depth; permesh bounds recorded",
+  "render_quality_limit": "Procedural satin/material counterpart; smoother and less photorealistic than root generated brushed-metal art. No raster/GLB pixel parity claim."
+}

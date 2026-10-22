@@ -1,0 +1,10 @@
+import type { Meta, StoryObj } from '@storybook/react-vite';
+import { useState } from 'react';
+import * as C from '../src';
+function ComposerDemo(){const [value,setValue]=useState('');return <C.ChatComposer value={value} onChange={setValue} onSend={()=>setValue('')}/>};
+function PaginationDemo(){const [page,setPage]=useState(1);return <C.PaginationSeries page={page} total={5} onChange={setPage}/>};
+const meta={title:'Forms/Disclosure',component:C.Disclosure,tags:['autodocs'],parameters:{docs:{description:{component:'OS-C017 · canonical shared module. Stage 1 candidate; Figma and owner acceptance are separate.'}}}} satisfies Meta<typeof C.Disclosure>;
+export default meta;
+type Story = StoryObj;
+export const Default:Story={render:()=>(<C.Disclosure title="Who approves the content?"><p>The founder reviews the draft before ready-to-post delivery.</p></C.Disclosure>)};
+export const Expanded:Story={render:()=>(<C.Disclosure title="Who approves the content?" defaultOpen><p>The founder reviews meaning and evidence before delivery.</p></C.Disclosure>)};

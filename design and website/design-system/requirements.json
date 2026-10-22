@@ -1,0 +1,764 @@
+{
+  "version": "2.0.0-candidate",
+  "source": "Current owner direction overrides old20page and oldidentity/material selection; original50IDs preserved.",
+  "rows": [
+    {
+      "id": "OS-R001",
+      "topic": "Identity",
+      "requirement": "Outspoken is fixed; reflect expertise moving from founder/company to the right audience.",
+      "destination": "../DESIGN.md",
+      "stage": "1",
+      "state": "v2_reviewed_candidate",
+      "evidence": [
+        "brand-library/packages/assets/revisions/v2/identity/manifest.json"
+      ],
+      "review_note": "Eight new sculptural identities;001recommendation,004compact comparator; no owner acceptance.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R002",
+      "topic": "ICP",
+      "requirement": "EU B2B AI SaaS, 10–50 people, Seed–B; founder-led LinkedIn.",
+      "destination": "../DESIGN.md",
+      "stage": "1",
+      "state": "preserved_current_contract",
+      "evidence": [
+        "writing-system/approved-positioning.json"
+      ],
+      "review_note": "Selected ICP retained; demand unvalidated.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R003",
+      "topic": "Protected copy",
+      "requirement": "Preserve exact hero, current VP, CTA and source lineage.",
+      "destination": "../writing-system/START-HERE.md",
+      "stage": "1",
+      "state": "local_copy_verified",
+      "evidence": [
+        "brand-library/design/v2-book/index.html"
+      ],
+      "review_note": "Exact protected literals in HTML; PDF visual/extraction review separate.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R004",
+      "topic": "Full plan",
+      "requirement": "Read and cover all 17 v5 sections and its operation/QA/page/stack contracts.",
+      "destination": "catalog-plan.json",
+      "stage": "1+2",
+      "state": "stage1_stage2_local_delivery_integration_gap",
+      "evidence": [
+        "brand-library/design/v2-book/source-map.json",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Full local design/library and four-route website delivered; strict external MCP readiness remains false.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R005",
+      "topic": "Corpus",
+      "requirement": "Inventory all M2 LinkedIn documents; preserve originals, English editions, prior research and distinctions.",
+      "destination": "[dated-local-evidence-omitted]",
+      "stage": "1",
+      "state": "prior_v1_reuse",
+      "evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Reuse prior corpus inventory; no new corpus-wide scan authorized.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R006",
+      "topic": "Competitors",
+      "requirement": "Reconcile all 15 workbook companies; use sources for offer, wording, style and differentiation, no copying.",
+      "destination": "[dated-local-evidence-omitted]",
+      "stage": "1",
+      "state": "v2_reviewed",
+      "evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "15companies;45rawcaptures;5rendered desktop examples; no market completeness or demand proof.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R007",
+      "topic": "Selected image",
+      "requirement": "Use current owner three-plate sculptural reference for identity/material; retain correctedV10 safe annotation principles as historical constraint.",
+      "destination": "agent-config.json",
+      "stage": "1",
+      "state": "partially_superseded",
+      "evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Owner sculptural reference supersedes earlier identity/material recommendation; correctedV10 safe annotation remains applicable.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R008",
+      "topic": "Luxury",
+      "requirement": "Premium, quiet, modern, bright/minimal, spacious; no overloaded collage.",
+      "destination": "../DESIGN.md",
+      "stage": "1",
+      "state": "v2_scoped_independent_review",
+      "evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "White-dominant specimens and all8/24/5assets reviewed by a separate designer and PM/customer proxy. Owner artistic acceptance remains pending.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R009",
+      "topic": "Material",
+      "requirement": "Consistent unique blue/silver substantial objects; realistic shallow 3D, tactile metal.",
+      "destination": "style-grammar.json",
+      "stage": "1",
+      "state": "v2_partial_material",
+      "evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Original3Dassets created; procedural satin is not photographic brushing.003/005/008small optical and212/224cap caveats remain.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R010",
+      "topic": "Layering",
+      "requirement": "Clean overlaps, adequate spacing, stable z order, coherent light/shadow/camera.",
+      "destination": "style-grammar.json",
+      "stage": "1",
+      "state": "v2_native_created_scoped_review",
+      "evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "All5native layered photo components and58application boards read back; all58board geometry bounds pass. Source light/camera/perspective contracts retained.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R011",
+      "topic": "Glass nuance",
+      "requirement": "Restrained liquid-ish edge/floating cues, not watery broad surfaces or toy gloss.",
+      "destination": "style-grammar.json",
+      "stage": "1",
+      "state": "v2_scoped_review",
+      "evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Restrained opaque forms and fine rims; no broad watery surfaces in scoped reviewed assets.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R012",
+      "topic": "No old motif",
+      "requirement": "No citron L/corner-arrow ornament or generic service-icon row.",
+      "destination": "../DESIGN.md",
+      "stage": "1",
+      "state": "preserved_constraint",
+      "evidence": [
+        "DESIGN.md"
+      ],
+      "review_note": "No corner ornaments or standalone service-icon row; catalog rows do not authorize such a page section.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R013",
+      "topic": "Type improvement",
+      "requirement": "Fix tiny/airy/light labels, buttons and supporting text; strict open readable forms.",
+      "destination": "type-roles.json",
+      "stage": "1",
+      "state": "v2_native_optical_review",
+      "evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "727single-line dimensions checked;64default-family native renders reviewed; C005/C030/C048/C055 desktop/phone repairs checked separately. Current book1440/360 and5frames360 checked. Preserved broader V1behavior matrices are not newly rerun.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R014",
+      "topic": "Borders",
+      "requirement": "Slightly rounder consistent corners, much thinner cobalt video rim and fine nickel edge.",
+      "destination": "tokens.json",
+      "stage": "1",
+      "state": "v2_native_created_scoped_review",
+      "evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Five fine-rim native photo/frame components plus canonical border/radius tokens read back. Exact frozen photo/frame source hashes retained.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R015",
+      "topic": "Buttons",
+      "requirement": "Unique solid deep navy dimensional controls; readable label, states and stable click target.",
+      "destination": "motion-contract.json",
+      "stage": "1",
+      "state": "v2_native_created_scoped_review",
+      "evidence": [
+        "brand-library/design/requirement-coverage.json",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Actual ActionButton native gradient/label/state views repaired and scoped rendered; prior pointer/click/reduced behavior tests reused for unchanged code.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R016",
+      "topic": "Pointer",
+      "requirement": "Small desktop button tilt toward pointer; touch/keyboard/reduced alternatives.",
+      "destination": "motion-contract.json",
+      "stage": "1",
+      "state": "prior_behavior_reused_native_static",
+      "evidence": [
+        "brand-library/design/requirement-coverage.json",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Pointer tilt/reset/touch/keyboard/reduced behavior remains in canonical Motion code with prior executed checks. Figma documents static states and does not execute pointer behavior.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R017",
+      "topic": "Emphasis",
+      "requirement": "Highlight significant complete words; light underline/weight for lesser focus.",
+      "destination": "../DESIGN.md",
+      "stage": "1",
+      "state": "v2_native_optical_review",
+      "evidence": [
+        "brand-library/design/requirement-coverage.json",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Full-word emphasis and paragraph flow repaired in native default/mobile views. C055phone deliberately breaks before the highlighted phrase. Editable native highlight rectangles require adjustment when copy changes.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R018",
+      "topic": "Callouts",
+      "requirement": "Exact target, continuous visible line through dedicated whitespace, no crossing.",
+      "destination": "generation-recipes.md",
+      "stage": "1",
+      "state": "v2_photo_and_schema_scoped_review",
+      "evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "F204continuous safe-margin photo callout and actual native SVG schema routes reviewed. Constellation projected connector proof is recorded separately under qa/scene-final.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R019",
+      "topic": "Object range",
+      "requirement": "Tens of components, broad semantic pool for marketing/AI/personal brand/social/evidence.",
+      "destination": "catalog-plan.json",
+      "stage": "1",
+      "state": "v2_reviewed_candidate",
+      "evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "24meaningful contextual object families OS-O201–224, not16olderfamilyIDs; all require precise captions.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R020",
+      "topic": "Logo options",
+      "requirement": "Eight original concepts within requested 5–10; expert review and strongest recommendation.",
+      "destination": "catalog-plan.json",
+      "stage": "1",
+      "state": "v2_reviewed_candidate",
+      "evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "All8new OS-LV2-001–008reviewed independently; earlier OS-L002/006recommendation superseded.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R021",
+      "topic": "Logo variants",
+      "requirement": "Split Out/spoken primary colors, wordmark/symbol/lockup, flat/depth, large/small, colors/inverse/mono.",
+      "destination": "catalog-plan.json",
+      "stage": "1",
+      "state": "v2_reviewed_candidate",
+      "evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Out#D4DD67;spoken#162760primary/#101218alternate; current projected32/64color+mono reviewed.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R022",
+      "topic": "Native identity",
+      "requirement": "Editable vector construction, outlined SVG and tested transparent PNG; no generated final letters.",
+      "destination": "catalog-plan.json",
+      "stage": "1",
+      "state": "v2_native_created_readback",
+      "evidence": [
+        "brand-library/packages/assets/revisions/v2/identity/manifest.json",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "All8native identity masters contain editable projected vector symbols and outlined wordmarks;3Dsculpture display layers are raster; original GLBs remain locally editable. All8master IDs read back.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R023",
+      "topic": "Humans",
+      "requirement": "Realistic fictional or rights-approved persons; continuity, lens/light/crop/pose/hand/skin guidance.",
+      "destination": "generation-recipes.md",
+      "stage": "1",
+      "state": "v2_reviewed_candidate",
+      "evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "5fictional photos individually reviewed; no real expertise/client/endorsement inference.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R024",
+      "topic": "Frames",
+      "requirement": "Separate human media, thin perspective frame, mask/UI/text/shadow layers.",
+      "destination": "generation-recipes.md",
+      "stage": "1",
+      "state": "v2_native_created_readback",
+      "evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "All5native photo components contain separate photo, frame/rim, shadow and text layers; persistent fictional-human labels retained. Pixels remain raster.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R025",
+      "topic": "Paper",
+      "requirement": "Contextual real matte fiber/edge texture, not generic smooth white paper cards.",
+      "destination": "style-grammar.json",
+      "stage": "1",
+      "state": "v2_scoped_review",
+      "evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Original papertexture used only selected margins/inlays; strong texture is rough artist-paper-like, not actual stock.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R026",
+      "topic": "LinkedIn",
+      "requirement": "Separate native post shell from actual attached artwork; static/document/carousel templates and copy.",
+      "destination": "catalog-plan.json",
+      "stage": "1",
+      "state": "v2_current_exports_native_review",
+      "evidence": [
+        "brand-library/design/requirement-coverage.json",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "13current publication templates plus2six-page documents exist in the current58V2SVGexports and native boards. Native LinkedIn shells remain separate from uploaded artwork.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R027",
+      "topic": "Video",
+      "requirement": "Editable titles/captions/overlays and reusable scene/object systems; short isolated style proof.",
+      "destination": "catalog-plan.json",
+      "stage": "1",
+      "state": "v2_current_exports_native_review",
+      "evidence": [
+        "brand-library/design/requirement-coverage.json",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "8scene families recomposed in3aspects:24currentV2SVG/native boards. Current three silent48second V2style studies are versioned separately from the preserved V1MP4s; separate editable layers retained.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R028",
+      "topic": "Diagrams",
+      "requirement": "Typed semantic nodes/edges, spacing/labels, cross-media native/editable schemas.",
+      "destination": "catalog-plan.json",
+      "stage": "1",
+      "state": "v2_native_routes_scoped_review",
+      "evidence": [
+        "brand-library/design/requirement-coverage.json",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Six actual source routing layouts retained; native SVG viewport/path defects repaired. Native one-line metrics and default-family render review are scoped; no full174pixel parity claim.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R029",
+      "topic": "Banners/chat",
+      "requirement": "All seven banner families and thirteen guarded simulated chat views per master; no backend claim.",
+      "destination": "catalog-plan.json",
+      "stage": "1",
+      "state": "v2_native_created_scoped_review",
+      "evidence": [
+        "brand-library/design/requirement-coverage.json",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Seven banner families and13guarded simulated chat views retained in canonical code and174native static states. Native default banner/chat appearances reviewed; no backend or inbox operation claimed.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R030",
+      "topic": "Motion",
+      "requirement": "Named shared Motion presets, depth/light consistency, keyframes and static/reduced alternatives.",
+      "destination": "motion-contract.json",
+      "stage": "1",
+      "state": "prior_behavior_reused_native_static",
+      "evidence": [
+        "brand-library/design/requirement-coverage.json",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Eleven shared runtime presets and explicit reduced/static/frame adapter remain canonical. Seven native Motion/spatial companions are labelled static references.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R031",
+      "topic": "Founder story",
+      "requirement": "Silhouette + team + phone reaching audience, real rotation geometry and matching 2D.",
+      "destination": "motion-contract.json",
+      "stage": "1specimen+2site",
+      "state": "stage2_local_spatial_delivery",
+      "evidence": [
+        "brand-library/design/requirement-coverage.json",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Founder/team/phone geometry, bounded actual camera approach/rotation and support withdrawal; static equivalents preserved.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R032",
+      "topic": "Video size",
+      "requirement": "Future hero video roughly one fifth/one quarter viewport, no full-screen dominance.",
+      "destination": "motion-contract.json",
+      "stage": "2",
+      "state": "stage2_manual_play_video",
+      "evidence": [
+        "DESIGN.md",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Current silent V2 visual-study video has manual controls, fictional poster and thin frame; no autoplay or interview-film claim. Static native poster reference; viewport-width sizing is bounded and reflowed on phone.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R033",
+      "topic": "Zoom sequence",
+      "requirement": "Withdraw elements, approach/rotate above founder, enter cobalt head/constellation.",
+      "destination": "motion-contract.json",
+      "stage": "1specimen+2site",
+      "state": "stage2_bounded_camera_sequence",
+      "evidence": [
+        "brand-library/design/requirement-coverage.json",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Actual camera approaches and moves above founder while support withdraws. Three readable beats transition to constellation/publication; this is a bounded designed transition, not a continuous cinematic geometry morph.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R034",
+      "topic": "Brain metaphor",
+      "requirement": "Many points of light form volumetric brain, 3–7 targeted star callouts, not literal jelly/anatomy.",
+      "destination": "motion-contract.json",
+      "stage": "1specimen+2site",
+      "state": "stage2_projected_callouts",
+      "evidence": [
+        "brand-library/design/requirement-coverage.json",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Seeded volumetric two-lobe expertise metaphor, five actual projected anchor/leader/label pairs, progressive reveal and cloud recession; static/reduced preserve all labels. Not medical or anatomy evidence.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R035",
+      "topic": "Narrative",
+      "requirement": "Expertise hidden in head becomes buyer-relevant interview/strategy/content/approval/publication.",
+      "destination": "stage-plan.md",
+      "stage": "1copy+2site",
+      "state": "stage2_local_narrative_delivery",
+      "evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Home connects founder experience, buyer context, interviews, editorial process, founder approval and illustrative publication. All three beats remain readable in document order and static alternatives.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R036",
+      "topic": "Feedback wall",
+      "requirement": "Remy reference; varied human-like emails/comments in permissioned or visibly fictional mode.",
+      "destination": "../DESIGN.md",
+      "stage": "1",
+      "state": "stage2_fictional_feedback_delivery",
+      "evidence": [
+        "brand-library/design/requirement-coverage.json",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Three varied fictional email/review/edit process notes, with persistent labels. No customer testimonial, result, real identity or demand evidence.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R037",
+      "topic": "Feedback motion",
+      "requirement": "Side arrivals, paired crossing cards, hover/focus light, readable dwell/pause and static fallback.",
+      "destination": "motion-contract.json",
+      "stage": "1specimen+2site",
+      "state": "stage2_bounded_feedback_motion",
+      "evidence": [
+        "brand-library/design/requirement-coverage.json",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Separated rows arrive from both sides with limited crossing drift, stable reading dwell, explicit pause, hover/focus pause and phone/reduced/static lists. Artistic simplification avoids busy card crossings.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R038",
+      "topic": "Writing",
+      "requirement": "Buyer/source/voice first; humanized, factual, SEO/CRO-aware copy before layout; no invented trend/performance.",
+      "destination": "../writing-system/START-HERE.md",
+      "stage": "1specimens+2site",
+      "state": "stage2_reviewed_copy_candidate",
+      "evidence": [
+        "writing-system/approved-positioning.json",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Protected hero/VP/CTA exact; four source-linked copy packs pass validation. Separate PM and hypothetical-buyer reviews; owner acceptance and real buyer validation remain pending.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R039",
+      "topic": "21st",
+      "requirement": "Actively evaluate relevant candidates; source/license/dependency/adaptation evidence.",
+      "destination": "stage-plan.md",
+      "stage": "1",
+      "state": "evaluation_complete_mcp_access_gap",
+      "evidence": [
+        "brand-library/design/requirement-coverage.json",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Three actual candidates and pinned MIT upstream source/license/dependency/adaptation review retained. Required21st MCP route returned401missingkey; no authentication bypass or invented execution.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R040",
+      "topic": "Storybook",
+      "requirement": "Working local canonical shared components/stories/docs/test route, not a fake gallery.",
+      "destination": "stage-plan.md",
+      "stage": "1",
+      "state": "working_current_local_catalog",
+      "evidence": [
+        "brand-library/design/requirement-coverage.json",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Actual64canonical React components/117Storybook stories. Current V2LogoLockup variants rendered; typecheck/catalog/build executed; scene-specific final checks recorded separately.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R041",
+      "topic": "Figma",
+      "requirement": "Outspoken Designfile in authorizedWebWarriorsPro; maximum3pages with nativeeditablemasters and logicalsections.",
+      "destination": "agent-config.json",
+      "stage": "1",
+      "state": "native_created_readback_scoped_review",
+      "evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Exactly3populated pages in authorized WebWarriorsPro file;75variables,14text styles,64sets/174static views,8identity/24object/5photo/24glyph masters and58boards verified by exactIDreadback.64defaultfamily+58applicationrenders independently reviewed; all174pixelparity not claimed.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R042",
+      "topic": "Responsive",
+      "requirement": "Desktop/mobile plus intermediate component/pilot layouts; full page frames later.",
+      "destination": "stage-plan.md",
+      "stage": "1+2",
+      "state": "stage2_responsive_runtime_native_delivery",
+      "evidence": [
+        "brand-library/design/v2-book/source-map.json",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Four routes at 1440/768/390 inspected and checked; eight editable desktop/phone Figma frames. Native static text/vector/component anatomy is verified separately from runtime.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R043",
+      "topic": "Agent config",
+      "requirement": "Durable tokens, spacing, geometry, materials, recipes, catalogs, motion, reuse/change rules.",
+      "destination": "agent-config.json",
+      "stage": "1",
+      "state": "current_contract_reconciled",
+      "evidence": [
+        "design-system/catalog-plan.json",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Current canonicalcatalog/config use8LV2logos,24objects,currentpalette and3pages. Historical20page mapping and V1sources are retained as history; tokens remain one canonical source.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R044",
+      "topic": "Review",
+      "requirement": "Maker self-check plus independent expert logo/semantic/style/import/parity/behavior review.",
+      "destination": "stage-plan.md",
+      "stage": "1",
+      "state": "v2_independently_reviewed_scoped",
+      "evidence": [
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "All8identity/24object/5photo assets plus5frame compositions reviewed by a separate designer and PM/customer proxy.64defaultfamily+58applicationnative render scope and corrective views recorded. Proxy reasoning is not actual customer validation.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R045",
+      "topic": "Efficiency",
+      "requirement": "Sol 6.1 Ultra lead; Sol 6.1 high and 6 Luna bounded workers, deterministic exact checks.",
+      "destination": "agent-config.json",
+      "stage": "1",
+      "state": "runtime_identity_limited",
+      "evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Separate native makers/PM executed. Requestedmodel identity recorded; actual model not exposed, no diversity claim.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R046",
+      "topic": "New chat",
+      "requirement": "Create one new local Linkedin project chat with complete reviewed execution prompt.",
+      "destination": "[dated-local-evidence-omitted]",
+      "stage": "handoff",
+      "state": "prior_handoff",
+      "evidence": [
+        "brand-library/design/requirement-coverage.json"
+      ],
+      "review_note": "Historical new-chat request already handled; current task does not create another chat.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R047",
+      "topic": "Stage gate",
+      "requirement": "Finish Stage 1 and Stage 2 together in the current run; owner artistic acceptance and deployment authority remain separate.",
+      "destination": "stage-plan.md",
+      "stage": "gate",
+      "state": "explicit_owner_authorized_both_stages",
+      "evidence": [
+        "DESIGN.md",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Latest owner instruction explicitly authorizes finishing both stages in this run. This supersedes the execution gate, without granting artistic acceptance or deployment authority.",
+      "owner_accepted": false,
+      "historical_requirement": "Only Stage1 executes now; Stage2 full website design and local site waits owner acceptance."
+    },
+    {
+      "id": "OS-R048",
+      "topic": "Preserve history",
+      "requirement": "Save how direction evolved, accepted/rejected styles and exact final reference/hash.",
+      "destination": "../DESIGN.md",
+      "stage": "1",
+      "state": "history_retained",
+      "evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "V1and all earlier runs preserved; newV2IDs/hashes do not overwrite historical evidence.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R049",
+      "topic": "M2 Lab",
+      "requirement": "Use existing M2 Lab construction/library lessons only; no copied visual identity or unrelated workflow.",
+      "destination": "stage-plan.md",
+      "stage": "1",
+      "state": "boundary_retained",
+      "evidence": [
+        "AGENTS.md"
+      ],
+      "review_note": "No unrelatedM2workflow execution under this reconciliation.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R050",
+      "topic": "Truthful readiness",
+      "requirement": "Separate planned/created/reviewed/imported/runtime/MCP/owner-accepted states.",
+      "destination": "agent-config.json",
+      "stage": "1",
+      "state": "local_delivery_complete_truthful_integration_gaps",
+      "evidence": [
+        "brand-library/design/releases/current.json",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]",
+        "[dated-local-evidence-omitted]"
+      ],
+      "review_note": "Both local stages complete for owner review. Required Motion403/21st401 MCP access gaps remain; no full-stack readiness, live contact integration, deployment or owner acceptance claim.",
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R051",
+      "topic": "Current palette",
+      "requirement": "Outcitron#D4DD67; spokenprimarynavy#162760,blackalternate#101218.",
+      "stage": "1",
+      "state": "created_and_independently_reviewed_candidate",
+      "evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R052",
+      "topic": "Newsculpturalrange",
+      "requirement": "8new originalplate-basedidentities,24semanticobject/glyphfamilies,5framedhumanphotostudies.",
+      "stage": "1",
+      "state": "created_and_independently_reviewed_candidate",
+      "evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "owner_accepted": false
+    },
+    {
+      "id": "OS-R053",
+      "topic": "Reviewroles",
+      "requirement": "Independentdesigner,PMandcustomer-proxyreasoningfor eachscopedvisual; nevermisrepresentcustomer-proxy as realbuyerresearch.",
+      "stage": "1",
+      "state": "created_and_independently_reviewed_candidate",
+      "evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "owner_accepted": false
+    }
+  ],
+  "current_release": "brand-library/design/releases/v2-combined-candidate.json",
+  "full_stage1_complete": false,
+  "stage1_design_delivery": "ready_for_owner_review",
+  "stage2_allowed": true,
+  "current_stage2": "completed_local_delivery_owner_review",
+  "completed_local_stages": [
+    1,
+    2
+  ]
+}

@@ -1,0 +1,4603 @@
+{
+  "version": "4.0.0-brand-refresh",
+  "expected_categories": [
+    "banner",
+    "poster",
+    "block",
+    "heading",
+    "video-frame",
+    "caption-emphasis",
+    "schema",
+    "publication"
+  ],
+  "expected_per_category": 11,
+  "expected_total": 88,
+  "count_rule": "77 newly generated families across7 requested categories plus11 publication variants. The first10 publications reuse current native masters;the11th is new.",
+  "entries": [
+    {
+      "id": "OS-BA3-01",
+      "category": "banner",
+      "variant": "buyer-question",
+      "layout": "split-field",
+      "use_when": "Buyer context: Start with the task. Name the decision.",
+      "size": {
+        "width": 1584,
+        "height": 396
+      },
+      "source": "masters/banner/OS-BA3-01.svg",
+      "editable_props": [
+        "media",
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Make the buyer\u2019s question visible.",
+        "body": "Start with the task. Name the decision.",
+        "eyebrow": "Buyer context"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "split-field: Buyer context",
+      "label": "Illustrative design specimen",
+      "sha256": "87395e9658f99c98a8626d5ca71168f1e1e1d6296bfd720dcb50c0b98bbfc07a",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/banner/OS-BA3-01.png",
+      "png_sha256": "b9473e10b4faf3a79c929915df870188e5f90a9276c730354fa8edc951a0a4af"
+    },
+    {
+      "id": "OS-BA3-02",
+      "category": "banner",
+      "variant": "experience",
+      "layout": "center-sign",
+      "use_when": "Founder story: Find the useful lesson behind the work.",
+      "size": {
+        "width": 1584,
+        "height": 396
+      },
+      "source": "masters/banner/OS-BA3-02.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Your experience has a point.",
+        "body": "Find the useful lesson behind the work.",
+        "eyebrow": "Founder story"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "center-sign: Founder story",
+      "label": "Illustrative design specimen",
+      "sha256": "31c72582c62f7ae0c1c1f7eb4c4220b6083c94946e895a2705a6357f74e65a54",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/banner/OS-BA3-02.png",
+      "png_sha256": "011ddc04b6b229a7c62779df1e89b1472c71aa166492b2e705774dc840b49965"
+    },
+    {
+      "id": "OS-BA3-03",
+      "category": "banner",
+      "variant": "position",
+      "layout": "margin-rail",
+      "use_when": "Positioning: Say who it helps and what changes.",
+      "size": {
+        "width": 1584,
+        "height": 396
+      },
+      "source": "masters/banner/OS-BA3-03.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Give the product a clear position.",
+        "body": "Say who it helps and what changes.",
+        "eyebrow": "Positioning"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "margin-rail: Positioning",
+      "label": "Illustrative design specimen",
+      "sha256": "701b2b9e38a44751391ec082673159e8f07180ba136ea3184a63ef813962f8f5",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/banner/OS-BA3-03.png",
+      "png_sha256": "724d2ed20047225727884a634b6b5f551e745c0a88e9e89274155b9a91f57355"
+    },
+    {
+      "id": "OS-BA3-04",
+      "category": "banner",
+      "variant": "sequence",
+      "layout": "numbered-editorial",
+      "use_when": "Editorial sequence: Give each part a reason to exist.",
+      "size": {
+        "width": 1584,
+        "height": 396
+      },
+      "source": "masters/banner/OS-BA3-04.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "One idea. A useful sequence.",
+        "body": "Give each part a reason to exist.",
+        "eyebrow": "Editorial sequence"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "numbered-editorial: Editorial sequence",
+      "label": "Illustrative design specimen",
+      "sha256": "a528820d0a024201fb0a9c40804bc2c5fa72a3b2353d99cd4c59dd4e3ff0e996",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/banner/OS-BA3-04.png",
+      "png_sha256": "a4cfc489f5eb7cb61547cfd79979ce47b2c917a8b24f7d6fe130de1697752339"
+    },
+    {
+      "id": "OS-BA3-05",
+      "category": "banner",
+      "variant": "decision",
+      "layout": "horizon-band",
+      "use_when": "Product judgment: Explain the options and the consequence.",
+      "size": {
+        "width": 1584,
+        "height": 396
+      },
+      "source": "masters/banner/OS-BA3-05.svg",
+      "editable_props": [
+        "media",
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "The decision deserves context.",
+        "body": "Explain the options and the consequence.",
+        "eyebrow": "Product judgment"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "horizon-band: Product judgment",
+      "label": "Illustrative design specimen",
+      "sha256": "8a6549a13a63b4c8e4e18d57ebb026b8ad4ae34cf4f2bc3856c5bde121a8a31e",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/banner/OS-BA3-05.png",
+      "png_sha256": "48c95f8fb4661cf0b382b266370c22a42d24798ced1f73c409513325a1673d3f"
+    },
+    {
+      "id": "OS-BA3-06",
+      "category": "banner",
+      "variant": "voice",
+      "layout": "photo-column",
+      "use_when": "Professional writing: Keep the meaning. Make it easier to read.",
+      "size": {
+        "width": 1584,
+        "height": 396
+      },
+      "source": "masters/banner/OS-BA3-06.svg",
+      "editable_props": [
+        "media",
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Write in the founder\u2019s voice.",
+        "body": "Keep the meaning. Make it easier to read.",
+        "eyebrow": "Professional writing"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "photo-column: Professional writing",
+      "label": "Illustrative design specimen",
+      "sha256": "8aa39f09b493efb0ee318aa96357e94c92151b57ebb2fa5d96d70d3c76c5d9ff",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/banner/OS-BA3-06.png",
+      "png_sha256": "a51307dc465e88e109a1933205113348bdc5b876b46d1d2ade2c7455ea22483b"
+    },
+    {
+      "id": "OS-BA3-07",
+      "category": "banner",
+      "variant": "change",
+      "layout": "ribbon-sign",
+      "use_when": "Company story: Connect the announcement to a buyer task.",
+      "size": {
+        "width": 1584,
+        "height": 396
+      },
+      "source": "masters/banner/OS-BA3-07.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Explain what changed.",
+        "body": "Connect the announcement to a buyer task.",
+        "eyebrow": "Company story"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "ribbon-sign: Company story",
+      "label": "Illustrative design specimen",
+      "sha256": "1a05a191ecaeeeacc1d9383cb67509188596dd86c65cacd1f19318aa99c3b42e",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/banner/OS-BA3-07.png",
+      "png_sha256": "a80527bc089cdcd2db45439d77a4871f452293834a3b7e2b74d952f8a770b0b6"
+    },
+    {
+      "id": "OS-BA3-08",
+      "category": "banner",
+      "variant": "evidence",
+      "layout": "quote-field",
+      "use_when": "Evidence note: Separate what was observed from what it means.",
+      "size": {
+        "width": 1584,
+        "height": 396
+      },
+      "source": "masters/banner/OS-BA3-08.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Let the evidence set the limit.",
+        "body": "Separate what was observed from what it means.",
+        "eyebrow": "Evidence note"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "quote-field: Evidence note",
+      "label": "Illustrative design specimen",
+      "sha256": "4b0b6e78fc98e9ceab5f22d65581d96f22fb5dacc1fbaf9fce8a87eeb412320c",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/banner/OS-BA3-08.png",
+      "png_sha256": "4c8be68dec6d588f5756b21beedce08c1b4dfea953ac3c417b8f5e45ae6d34e4"
+    },
+    {
+      "id": "OS-BA3-09",
+      "category": "banner",
+      "variant": "next-step",
+      "layout": "open-ledger",
+      "use_when": "Conversation: Make the invitation relevant and considered.",
+      "size": {
+        "width": 1584,
+        "height": 396
+      },
+      "source": "masters/banner/OS-BA3-09.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Keep the next step clear.",
+        "body": "Make the invitation relevant and considered.",
+        "eyebrow": "Conversation"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "open-ledger: Conversation",
+      "label": "Illustrative design specimen",
+      "sha256": "1839b96129650d6ef588c44d6cfa5dbd5533bccd12f8e64a81192ad3bd8275b9",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/banner/OS-BA3-09.png",
+      "png_sha256": "dff18d4354e8775a46f634b5a556486fdb2ac693e19300adb5b1e66a1272d728"
+    },
+    {
+      "id": "OS-BA3-10",
+      "category": "banner",
+      "variant": "questions",
+      "layout": "stepped-argument",
+      "use_when": "Regular interviews: Use the next interview to find the substance.",
+      "size": {
+        "width": 1584,
+        "height": 396
+      },
+      "source": "masters/banner/OS-BA3-10.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Make room for real questions.",
+        "body": "Use the next interview to find the substance.",
+        "eyebrow": "Regular interviews"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "stepped-argument: Regular interviews",
+      "label": "Illustrative design specimen",
+      "sha256": "0c1e88a0c420d933188e1a35e205ef6320bccc44e869a03deb8975b3fa5f8095",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/banner/OS-BA3-10.png",
+      "png_sha256": "586ff3248cf1e6b35238eef4b62baf47de8cd85301e03ba3a84253bc2c74dab4"
+    },
+    {
+      "id": "OS-BA3-11",
+      "category": "banner",
+      "variant": "approval",
+      "layout": "diagonal-marker",
+      "use_when": "Approval workflow: Check the meaning, voice and factual detail.",
+      "size": {
+        "width": 1584,
+        "height": 396
+      },
+      "source": "masters/banner/OS-BA3-11.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Review before you publish.",
+        "body": "Check the meaning, voice and factual detail.",
+        "eyebrow": "Approval workflow"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "diagonal-marker: Approval workflow",
+      "label": "Illustrative design specimen",
+      "sha256": "46eae897ed01aaaed3fbe88d9b768caa0c15f9d4ae93d0d38f2a3d299b253b2e",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/banner/OS-BA3-11.png",
+      "png_sha256": "b9417eba9d56f149a930889b7bfc9e763e4874e249ad02c22ca788f33b1c61ac"
+    },
+    {
+      "id": "OS-PO3-01",
+      "category": "poster",
+      "variant": "buyer-question",
+      "layout": "split-field",
+      "use_when": "Buyer context: Start with the task. Name the decision.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/poster/OS-PO3-01.svg",
+      "editable_props": [
+        "media",
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "title-2",
+        "title-3",
+        "body-0",
+        "body-1"
+      ],
+      "defaults": {
+        "title": "Make the buyer\u2019s question visible.",
+        "body": "Start with the task. Name the decision.",
+        "eyebrow": "Buyer context"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "Recomposed editorialposter: large104\u2013112px title,planned whitespace,and distinct silhouette,photo crop,wave,ledger or checklist art.",
+      "label": "Illustrative design specimen",
+      "sha256": "c1ee1c18c3f4658a2f06d9b5121501c13a7e11827d95173a97d8dfd98f17222a",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/poster/OS-PO3-01.png",
+      "png_sha256": "5c743e5045359a97731bc234ccf2e6649977bf742bb059d5d5ac088cc0d1d19b"
+    },
+    {
+      "id": "OS-PO3-02",
+      "category": "poster",
+      "variant": "experience",
+      "layout": "center-sign",
+      "use_when": "Founder story: Find the useful lesson behind the work.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/poster/OS-PO3-02.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "title-2",
+        "body-0",
+        "media"
+      ],
+      "defaults": {
+        "title": "Your experience has a point.",
+        "body": "Find the useful lesson behind the work.",
+        "eyebrow": "Founder story"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "Recomposed editorialposter: large104\u2013112px title,planned whitespace,and distinct silhouette,photo crop,wave,ledger or checklist art.",
+      "label": "Illustrative design specimen",
+      "sha256": "6536d1a9c02bb7454678157fdf432dea463361e38ed06dfa9f32cffd1da4ce01",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/poster/OS-PO3-02.png",
+      "png_sha256": "0c896472a1598362faf517d8452a595f025ab5916cf424c5827a9a6705228f4e"
+    },
+    {
+      "id": "OS-PO3-03",
+      "category": "poster",
+      "variant": "position",
+      "layout": "margin-rail",
+      "use_when": "Positioning: Say who it helps and what changes.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/poster/OS-PO3-03.svg",
+      "editable_props": [
+        "media",
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "title-2",
+        "title-3",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Give the product a clear position.",
+        "body": "Say who it helps and what changes.",
+        "eyebrow": "Positioning"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "Recomposed editorialposter: large104\u2013112px title,planned whitespace,and distinct silhouette,photo crop,wave,ledger or checklist art.",
+      "label": "Illustrative design specimen",
+      "sha256": "c38c84a612fc2877c01e3f3a16989b412cd9bb024af724bc570c850ec187be04",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/poster/OS-PO3-03.png",
+      "png_sha256": "90710deea66e677d3261508b2a2484bf894e2dfe66b9166208c1b56ed3da284c"
+    },
+    {
+      "id": "OS-PO3-04",
+      "category": "poster",
+      "variant": "sequence",
+      "layout": "numbered-editorial",
+      "use_when": "Editorial sequence: Give each part a reason to exist.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/poster/OS-PO3-04.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "title-2",
+        "body-0",
+        "media"
+      ],
+      "defaults": {
+        "title": "One idea. A useful sequence.",
+        "body": "Give each part a reason to exist.",
+        "eyebrow": "Editorial sequence"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "Recomposed editorialposter: large104\u2013112px title,planned whitespace,and distinct silhouette,photo crop,wave,ledger or checklist art.",
+      "label": "Illustrative design specimen",
+      "sha256": "6dc251719c6ddb706efba6ebe95c69532bbcb5351ecaef7088e05792bebb6639",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/poster/OS-PO3-04.png",
+      "png_sha256": "1e7a5be9435ea83d8a36a2791ec6ac01093f65abf7b08ab1b1785a6456017421"
+    },
+    {
+      "id": "OS-PO3-05",
+      "category": "poster",
+      "variant": "decision",
+      "layout": "horizon-band",
+      "use_when": "Product judgment: Explain the options and the consequence.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/poster/OS-PO3-05.svg",
+      "editable_props": [
+        "media",
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "The decision deserves context.",
+        "body": "Explain the options and the consequence.",
+        "eyebrow": "Product judgment"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "Recomposed editorialposter: large104\u2013112px title,planned whitespace,and distinct silhouette,photo crop,wave,ledger or checklist art.",
+      "label": "Illustrative design specimen",
+      "sha256": "462aac5fe1e7f1a25469e0eb3598be7a2636da477d455b5ff5e24ac34617d366",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/poster/OS-PO3-05.png",
+      "png_sha256": "f16717f9b0f5307fa8f467af4018e6a7705cee9a4d76b36efad932360049d0d4"
+    },
+    {
+      "id": "OS-PO3-06",
+      "category": "poster",
+      "variant": "voice",
+      "layout": "photo-column",
+      "use_when": "Professional writing: Keep the meaning. Make it easier to read.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/poster/OS-PO3-06.svg",
+      "editable_props": [
+        "media",
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "title-2",
+        "title-3",
+        "body-0",
+        "body-1"
+      ],
+      "defaults": {
+        "title": "Write in the founder\u2019s voice.",
+        "body": "Keep the meaning. Make it easier to read.",
+        "eyebrow": "Professional writing"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "Recomposed editorialposter: large104\u2013112px title,planned whitespace,and distinct silhouette,photo crop,wave,ledger or checklist art.",
+      "label": "Illustrative design specimen",
+      "sha256": "169fe71345f2507db29582cccfa1e2effeda1479157546fb8842af93ee257982",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/poster/OS-PO3-06.png",
+      "png_sha256": "c3b65d564a3eda6c14d7dcdf0d6ef77b9c50e0dc5599c3318d3a3528b12f8c42"
+    },
+    {
+      "id": "OS-PO3-07",
+      "category": "poster",
+      "variant": "change",
+      "layout": "ribbon-sign",
+      "use_when": "Company story: Connect the announcement to a buyer task.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/poster/OS-PO3-07.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "body-0",
+        "media",
+        "media",
+        "media"
+      ],
+      "defaults": {
+        "title": "Explain what changed.",
+        "body": "Connect the announcement to a buyer task.",
+        "eyebrow": "Company story"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "Recomposed editorialposter: large104\u2013112px title,planned whitespace,and distinct silhouette,photo crop,wave,ledger or checklist art.",
+      "label": "Illustrative design specimen",
+      "sha256": "ef71fb35f35da644c082ad5054bcaf04237616c4a55c39d068158b6889719487",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/poster/OS-PO3-07.png",
+      "png_sha256": "feab6ae9717682dad642c2387b6eba48d577655e8b65dff1cc734b7cfdc143c4"
+    },
+    {
+      "id": "OS-PO3-08",
+      "category": "poster",
+      "variant": "evidence",
+      "layout": "quote-field",
+      "use_when": "Evidence note: Separate what was observed from what it means.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/poster/OS-PO3-08.svg",
+      "editable_props": [
+        "media",
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "title-2",
+        "body-0",
+        "body-1",
+        "caption"
+      ],
+      "defaults": {
+        "title": "Let the evidence set the limit.",
+        "body": "Separate what was observed from what it means.",
+        "eyebrow": "Evidence note"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "Recomposed editorialposter: large104\u2013112px title,planned whitespace,and distinct silhouette,photo crop,wave,ledger or checklist art.",
+      "label": "Illustrative design specimen",
+      "sha256": "10c95781a1ebbdb51915281aef8d37c8f85d23b4fad37ffada313ba94bdae2e8",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/poster/OS-PO3-08.png",
+      "png_sha256": "86675389dc0fed742460e485b1fd1f81da40f4001462c1bcc453bbecd771b3a6"
+    },
+    {
+      "id": "OS-PO3-09",
+      "category": "poster",
+      "variant": "next-step",
+      "layout": "open-ledger",
+      "use_when": "Conversation: Make the invitation relevant and considered.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/poster/OS-PO3-09.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "title-2",
+        "body-0",
+        "body-1",
+        "media"
+      ],
+      "defaults": {
+        "title": "Keep the next step clear.",
+        "body": "Make the invitation relevant and considered.",
+        "eyebrow": "Conversation"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "Recomposed editorialposter: large104\u2013112px title,planned whitespace,and distinct silhouette,photo crop,wave,ledger or checklist art.",
+      "label": "Illustrative design specimen",
+      "sha256": "0781ee77167120adce9758e6578732824da74fe379a0de92ce66915eeac1cad2",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/poster/OS-PO3-09.png",
+      "png_sha256": "a1057b0c894ac0bac6641c013120fe2b6e0ef0f4809793b362fe3f4798895295"
+    },
+    {
+      "id": "OS-PO3-10",
+      "category": "poster",
+      "variant": "questions",
+      "layout": "stepped-argument",
+      "use_when": "Regular interviews: Use the next interview to find the substance.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/poster/OS-PO3-10.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "body-0",
+        "body-1",
+        "media"
+      ],
+      "defaults": {
+        "title": "Make room for real questions.",
+        "body": "Use the next interview to find the substance.",
+        "eyebrow": "Regular interviews"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "Recomposed editorialposter: large104\u2013112px title,planned whitespace,and distinct silhouette,photo crop,wave,ledger or checklist art.",
+      "label": "Illustrative design specimen",
+      "sha256": "0106e1a785d682e1ebe25d5022feceabaa41440ef57cf69b190a944252f9df19",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/poster/OS-PO3-10.png",
+      "png_sha256": "309347fe0aa82fcf27e29eb14693a0c5d86a79eb09e801dcfeceb4abf25c5ba6"
+    },
+    {
+      "id": "OS-PO3-11",
+      "category": "poster",
+      "variant": "approval",
+      "layout": "diagonal-marker",
+      "use_when": "Approval workflow: Check the meaning, voice and factual detail.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/poster/OS-PO3-11.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "body-0",
+        "body-1",
+        "check-0",
+        "check-1",
+        "check-2"
+      ],
+      "defaults": {
+        "title": "Review before you publish.",
+        "body": "Check the meaning, voice and factual detail.",
+        "eyebrow": "Approval workflow"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "Recomposed editorialposter: large104\u2013112px title,planned whitespace,and distinct silhouette,photo crop,wave,ledger or checklist art.",
+      "label": "Illustrative design specimen",
+      "sha256": "cda0e2049c65380cbe994a93efdb7c59e831a2f5436234f967961a5b92283545",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/poster/OS-PO3-11.png",
+      "png_sha256": "ae08658a7f2f97a663c8f8e96c9c13177d96b5e137716a3f3b18822133c88c50"
+    },
+    {
+      "id": "OS-BL3-01",
+      "category": "block",
+      "variant": "buyer-question",
+      "layout": "split-field",
+      "use_when": "Buyer context: Start with the task. Name the decision.",
+      "size": {
+        "width": 1200,
+        "height": 660
+      },
+      "source": "masters/block/OS-BL3-01.svg",
+      "editable_props": [
+        "media",
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "body-0",
+        "body-1"
+      ],
+      "defaults": {
+        "title": "Make the buyer\u2019s question visible.",
+        "body": "Start with the task. Name the decision.",
+        "eyebrow": "Buyer context"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "split-field: Buyer context",
+      "label": "Illustrative design specimen",
+      "sha256": "447aae11f06dbeb4d59526fc360f2c06d65bc1235b372dec51de4f59e856a3c7",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/block/OS-BL3-01.png",
+      "png_sha256": "7fdba62cfa4541dccd7c561f2cbc2975912ee18e3c7d1412a813742953b57fc0"
+    },
+    {
+      "id": "OS-BL3-02",
+      "category": "block",
+      "variant": "experience",
+      "layout": "center-sign",
+      "use_when": "Founder story: Find the useful lesson behind the work.",
+      "size": {
+        "width": 1200,
+        "height": 660
+      },
+      "source": "masters/block/OS-BL3-02.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Your experience has a point.",
+        "body": "Find the useful lesson behind the work.",
+        "eyebrow": "Founder story"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "center-sign: Founder story",
+      "label": "Illustrative design specimen",
+      "sha256": "9948e80aee20281bd3bd1114cf3eea3fcac9397da4919ff8f2493ac9e00e0a1f",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/block/OS-BL3-02.png",
+      "png_sha256": "06ce6fe18b8e5eaee7cea91a0d3441df3f1932063d91f7d5e6339a16111aee9a"
+    },
+    {
+      "id": "OS-BL3-03",
+      "category": "block",
+      "variant": "position",
+      "layout": "margin-rail",
+      "use_when": "Positioning: Say who it helps and what changes.",
+      "size": {
+        "width": 1200,
+        "height": 660
+      },
+      "source": "masters/block/OS-BL3-03.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Give the product a clear position.",
+        "body": "Say who it helps and what changes.",
+        "eyebrow": "Positioning"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "margin-rail: Positioning",
+      "label": "Illustrative design specimen",
+      "sha256": "b031c6b42f467004e91df942087a2410926c0a6239fb6058aaf18c3dce048ed0",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/block/OS-BL3-03.png",
+      "png_sha256": "d09590d51c9c2b2a05a55149b942a4f4b97be3bbb470d27b9793a15ad5f66789"
+    },
+    {
+      "id": "OS-BL3-04",
+      "category": "block",
+      "variant": "sequence",
+      "layout": "numbered-editorial",
+      "use_when": "Editorial sequence: Give each part a reason to exist.",
+      "size": {
+        "width": 1200,
+        "height": 660
+      },
+      "source": "masters/block/OS-BL3-04.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "One idea. A useful sequence.",
+        "body": "Give each part a reason to exist.",
+        "eyebrow": "Editorial sequence"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "numbered-editorial: Editorial sequence",
+      "label": "Illustrative design specimen",
+      "sha256": "4f6fb264677b747500918a43441da32bf2c4adbddb28ee0691b44e755321cb74",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/block/OS-BL3-04.png",
+      "png_sha256": "8788e519117811102d4fe6cc6d0840176a54566a5e779d909bed74e66ffca0c8"
+    },
+    {
+      "id": "OS-BL3-05",
+      "category": "block",
+      "variant": "decision",
+      "layout": "horizon-band",
+      "use_when": "Product judgment: Explain the options and the consequence.",
+      "size": {
+        "width": 1200,
+        "height": 660
+      },
+      "source": "masters/block/OS-BL3-05.svg",
+      "editable_props": [
+        "media",
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "The decision deserves context.",
+        "body": "Explain the options and the consequence.",
+        "eyebrow": "Product judgment"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "horizon-band: Product judgment",
+      "label": "Illustrative design specimen",
+      "sha256": "d0b99032ea416b220a159c220f47b9b53bd6ff785cbb31c5c9d20fde0d69239e",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/block/OS-BL3-05.png",
+      "png_sha256": "b0c08c08f5193ecfdd01a9f30e0e4e62f551573d9f56e7f9c5428df1d491adf8"
+    },
+    {
+      "id": "OS-BL3-06",
+      "category": "block",
+      "variant": "voice",
+      "layout": "photo-column",
+      "use_when": "Professional writing: Keep the meaning. Make it easier to read.",
+      "size": {
+        "width": 1200,
+        "height": 660
+      },
+      "source": "masters/block/OS-BL3-06.svg",
+      "editable_props": [
+        "media",
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "body-0",
+        "body-1"
+      ],
+      "defaults": {
+        "title": "Write in the founder\u2019s voice.",
+        "body": "Keep the meaning. Make it easier to read.",
+        "eyebrow": "Professional writing"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "photo-column: Professional writing",
+      "label": "Illustrative design specimen",
+      "sha256": "ecf467066fcbf7c2d59efc1a7f075f0d35618a7e9a3d2b198ee0744d935ebac2",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/block/OS-BL3-06.png",
+      "png_sha256": "89fe4e091dc4d29f5e1b216edc5deb862f8f331458be596bda78a9e4ca471f3e"
+    },
+    {
+      "id": "OS-BL3-07",
+      "category": "block",
+      "variant": "change",
+      "layout": "ribbon-sign",
+      "use_when": "Company story: Connect the announcement to a buyer task.",
+      "size": {
+        "width": 1200,
+        "height": 660
+      },
+      "source": "masters/block/OS-BL3-07.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Explain what changed.",
+        "body": "Connect the announcement to a buyer task.",
+        "eyebrow": "Company story"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "ribbon-sign: Company story",
+      "label": "Illustrative design specimen",
+      "sha256": "7f3a9fda8f1481fb445152adbf46a1bfbcf2d636cd058e0edd03c4fa4af1411a",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/block/OS-BL3-07.png",
+      "png_sha256": "9df312b23da221ac169e283b83d56da2644ca2beb4a09b36d3c534b1aaa5adc4"
+    },
+    {
+      "id": "OS-BL3-08",
+      "category": "block",
+      "variant": "evidence",
+      "layout": "quote-field",
+      "use_when": "Evidence note: Separate what was observed from what it means.",
+      "size": {
+        "width": 1200,
+        "height": 660
+      },
+      "source": "masters/block/OS-BL3-08.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Let the evidence set the limit.",
+        "body": "Separate what was observed from what it means.",
+        "eyebrow": "Evidence note"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "quote-field: Evidence note",
+      "label": "Illustrative design specimen",
+      "sha256": "de7180f832e74b8c22e82ab085ed236fd3017bfa95a74b0716e266da085e6fda",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/block/OS-BL3-08.png",
+      "png_sha256": "4bd71f6633441fb9048e3b8d1affd81c20de6f0d2b82be0222a40173287c3d9c"
+    },
+    {
+      "id": "OS-BL3-09",
+      "category": "block",
+      "variant": "next-step",
+      "layout": "open-ledger",
+      "use_when": "Conversation: Make the invitation relevant and considered.",
+      "size": {
+        "width": 1200,
+        "height": 660
+      },
+      "source": "masters/block/OS-BL3-09.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "body-0",
+        "body-1"
+      ],
+      "defaults": {
+        "title": "Keep the next step clear.",
+        "body": "Make the invitation relevant and considered.",
+        "eyebrow": "Conversation"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "open-ledger: Conversation",
+      "label": "Illustrative design specimen",
+      "sha256": "c70f721b9894d6a6c9eae8c7e6064044165110ae8c1feebadb6e2cd14dc3a565",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/block/OS-BL3-09.png",
+      "png_sha256": "38169424b26fdcacb2b76300671b0cbf8b724d89d70cd488c43e1203807bf04a"
+    },
+    {
+      "id": "OS-BL3-10",
+      "category": "block",
+      "variant": "questions",
+      "layout": "stepped-argument",
+      "use_when": "Regular interviews: Use the next interview to find the substance.",
+      "size": {
+        "width": 1200,
+        "height": 660
+      },
+      "source": "masters/block/OS-BL3-10.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Make room for real questions.",
+        "body": "Use the next interview to find the substance.",
+        "eyebrow": "Regular interviews"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "stepped-argument: Regular interviews",
+      "label": "Illustrative design specimen",
+      "sha256": "b8224daa117fdd9f1e174e219c7a578ec347a0131fe5be5ee3214346e7282f2d",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/block/OS-BL3-10.png",
+      "png_sha256": "610030a18f8cd8c499596ae74b9093ed62658e47274863cbf63bf807d34e2d6f"
+    },
+    {
+      "id": "OS-BL3-11",
+      "category": "block",
+      "variant": "approval",
+      "layout": "diagonal-marker",
+      "use_when": "Approval workflow: Check the meaning, voice and factual detail.",
+      "size": {
+        "width": 1200,
+        "height": 660
+      },
+      "source": "masters/block/OS-BL3-11.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Review before you publish.",
+        "body": "Check the meaning, voice and factual detail.",
+        "eyebrow": "Approval workflow"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "diagonal-marker: Approval workflow",
+      "label": "Illustrative design specimen",
+      "sha256": "cef2b53732b332215d9c7f257953991933be5f572ad931b20ac980120c95dd09",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/block/OS-BL3-11.png",
+      "png_sha256": "5086181c5dc7c0fec06bef4a90705c458d82926ee1ab32a3b13484229d952815"
+    },
+    {
+      "id": "OS-HE3-01",
+      "category": "heading",
+      "variant": "buyer-question",
+      "layout": "split-field",
+      "use_when": "Buyer context: Start with the task. Name the decision.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/heading/OS-HE3-01.svg",
+      "editable_props": [
+        "media",
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Make the buyer\u2019s question visible.",
+        "body": "Start with the task. Name the decision.",
+        "eyebrow": "Buyer context"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "split-field: Buyer context",
+      "label": "Illustrative design specimen",
+      "sha256": "99d8347f33800ab09d7dbff85507c0699c48919149186016d69f3b94f830a829",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/heading/OS-HE3-01.png",
+      "png_sha256": "34e9a2cb06bd8172edf69b1ae5a139fda61a893a5a52b5de18300d5b3355ee3e"
+    },
+    {
+      "id": "OS-HE3-02",
+      "category": "heading",
+      "variant": "experience",
+      "layout": "center-sign",
+      "use_when": "Founder story: Find the useful lesson behind the work.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/heading/OS-HE3-02.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Your experience has a point.",
+        "body": "Find the useful lesson behind the work.",
+        "eyebrow": "Founder story"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "center-sign: Founder story",
+      "label": "Illustrative design specimen",
+      "sha256": "2aab220a5c007a0fef1334cdfbcdb77313d6e6d8d75d446c7c4f214e6f022e65",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/heading/OS-HE3-02.png",
+      "png_sha256": "f76bf07e7151d19e30e8366085ebe777a3072b391efdcf4209c3895eb750e4b3"
+    },
+    {
+      "id": "OS-HE3-03",
+      "category": "heading",
+      "variant": "position",
+      "layout": "margin-rail",
+      "use_when": "Positioning: Say who it helps and what changes.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/heading/OS-HE3-03.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Give the product a clear position.",
+        "body": "Say who it helps and what changes.",
+        "eyebrow": "Positioning"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "margin-rail: Positioning",
+      "label": "Illustrative design specimen",
+      "sha256": "b45fbe4cdec7a45e6aafc26bed3b6154ad14145d9f97d304d4d57754e3f61ede",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/heading/OS-HE3-03.png",
+      "png_sha256": "7371afa43561a541adffefb3c1b9e0b4b857e4ed3a5b5c0c2309b3db3ca3928c"
+    },
+    {
+      "id": "OS-HE3-04",
+      "category": "heading",
+      "variant": "sequence",
+      "layout": "numbered-editorial",
+      "use_when": "Editorial sequence: Give each part a reason to exist.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/heading/OS-HE3-04.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "One idea. A useful sequence.",
+        "body": "Give each part a reason to exist.",
+        "eyebrow": "Editorial sequence"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "numbered-editorial: Editorial sequence",
+      "label": "Illustrative design specimen",
+      "sha256": "72134e5c25511b9a59f83d2cff6a9e1628904a9cbd5ac9cf3db002489bcd6a4f",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/heading/OS-HE3-04.png",
+      "png_sha256": "2b209ec79da2c0bee9e41518e2584e9516ceefa27f15a453f458c8377ed7667b"
+    },
+    {
+      "id": "OS-HE3-05",
+      "category": "heading",
+      "variant": "decision",
+      "layout": "horizon-band",
+      "use_when": "Product judgment: Explain the options and the consequence.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/heading/OS-HE3-05.svg",
+      "editable_props": [
+        "media",
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "The decision deserves context.",
+        "body": "Explain the options and the consequence.",
+        "eyebrow": "Product judgment"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "horizon-band: Product judgment",
+      "label": "Illustrative design specimen",
+      "sha256": "27059230709a186c40b17812aba0e35dfb8ba2d1dd1b86d76be953d9637d8b78",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/heading/OS-HE3-05.png",
+      "png_sha256": "ee3633aaf3389b9e0e0d42c77daca05224144ddc0c8d0b4b5c44a5093df0d241"
+    },
+    {
+      "id": "OS-HE3-06",
+      "category": "heading",
+      "variant": "voice",
+      "layout": "photo-column",
+      "use_when": "Professional writing: Keep the meaning. Make it easier to read.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/heading/OS-HE3-06.svg",
+      "editable_props": [
+        "media",
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Write in the founder\u2019s voice.",
+        "body": "Keep the meaning. Make it easier to read.",
+        "eyebrow": "Professional writing"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "photo-column: Professional writing",
+      "label": "Illustrative design specimen",
+      "sha256": "8f3f2c77be9d96596140dde407dbdad65ee3cdb182ccc5572a7816bf7928a048",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/heading/OS-HE3-06.png",
+      "png_sha256": "3cd2583156b293287abba43233966ea49d351c332199f517ef2c7b4c6f23738a"
+    },
+    {
+      "id": "OS-HE3-07",
+      "category": "heading",
+      "variant": "change",
+      "layout": "ribbon-sign",
+      "use_when": "Company story: Connect the announcement to a buyer task.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/heading/OS-HE3-07.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Explain what changed.",
+        "body": "Connect the announcement to a buyer task.",
+        "eyebrow": "Company story"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "ribbon-sign: Company story",
+      "label": "Illustrative design specimen",
+      "sha256": "6205537d353bd023dc442565880ba2bfa6c167091cc980a59abbbedb13e99be3",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/heading/OS-HE3-07.png",
+      "png_sha256": "2e0c94c92cd94faa4bc49e3ed11dba4d9bd0154eb661004547c40da8efcbef4c"
+    },
+    {
+      "id": "OS-HE3-08",
+      "category": "heading",
+      "variant": "evidence",
+      "layout": "quote-field",
+      "use_when": "Evidence note: Separate what was observed from what it means.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/heading/OS-HE3-08.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Let the evidence set the limit.",
+        "body": "Separate what was observed from what it means.",
+        "eyebrow": "Evidence note"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "quote-field: Evidence note",
+      "label": "Illustrative design specimen",
+      "sha256": "3bb68487d36e7dd8a38be4a1381cf083af18d2fd5304425839e71b586872b430",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/heading/OS-HE3-08.png",
+      "png_sha256": "402d62c4dc85653906bc68cec8147608be6411dad23859d73241db9b4b716379"
+    },
+    {
+      "id": "OS-HE3-09",
+      "category": "heading",
+      "variant": "next-step",
+      "layout": "open-ledger",
+      "use_when": "Conversation: Make the invitation relevant and considered.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/heading/OS-HE3-09.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Keep the next step clear.",
+        "body": "Make the invitation relevant and considered.",
+        "eyebrow": "Conversation"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "open-ledger: Conversation",
+      "label": "Illustrative design specimen",
+      "sha256": "22ac9e6853d86857048786d0f98541251e893673ecd32d31b9e7c5e7e74f0b5c",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/heading/OS-HE3-09.png",
+      "png_sha256": "53884453f04811db1f70d1b3eb45fe6bc88239044b8857dec2585ee8ca30f4f3"
+    },
+    {
+      "id": "OS-HE3-10",
+      "category": "heading",
+      "variant": "questions",
+      "layout": "stepped-argument",
+      "use_when": "Regular interviews: Use the next interview to find the substance.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/heading/OS-HE3-10.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Make room for real questions.",
+        "body": "Use the next interview to find the substance.",
+        "eyebrow": "Regular interviews"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "stepped-argument: Regular interviews",
+      "label": "Illustrative design specimen",
+      "sha256": "176364da16bd97e06b07beae0625d589123c90db2b0282fba1e9beedd253439d",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/heading/OS-HE3-10.png",
+      "png_sha256": "c8703390e4b6310470a8226c4cca81c89ea610e460f6b1bde76465564cf8069b"
+    },
+    {
+      "id": "OS-HE3-11",
+      "category": "heading",
+      "variant": "approval",
+      "layout": "diagonal-marker",
+      "use_when": "Approval workflow: Check the meaning, voice and factual detail.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/heading/OS-HE3-11.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Review before you publish.",
+        "body": "Check the meaning, voice and factual detail.",
+        "eyebrow": "Approval workflow"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "diagonal-marker: Approval workflow",
+      "label": "Illustrative design specimen",
+      "sha256": "7a24b10d877aaee0ccb61d9a2ea8f800f49f4b113be3c2d5431c82de97661643",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/heading/OS-HE3-11.png",
+      "png_sha256": "b6d93e63ee893aef43dbea2fa610fa1f69b9a3a1e6783cf8bbb5523a34d8e685"
+    },
+    {
+      "id": "OS-VF3-01",
+      "category": "video-frame",
+      "variant": "buyer-question",
+      "layout": "video-frame-buyer-question",
+      "use_when": "Buyer context: Start with the task. Name the decision.",
+      "size": {
+        "width": 1600,
+        "height": 900
+      },
+      "source": "masters/video-frame/OS-VF3-01.svg",
+      "editable_props": [
+        "eyebrow",
+        "media",
+        "caption",
+        "title-0"
+      ],
+      "defaults": {
+        "title": "Make the buyer\u2019s question visible.",
+        "body": "Start with the task. Name the decision.",
+        "eyebrow": "Buyer context"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 12,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "split-field: Buyer context",
+      "label": "Illustrative design specimen",
+      "sha256": "ba7e5f3a854d9929a1d31a260193a9a1f944bc8a2bb3ba4f2d9300e48e0a7005",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/video-frame/OS-VF3-01.png",
+      "png_sha256": "8b38d780db0e42fa782ce680f4e6af77ca451a71fdb366ee735eca50f5b2b261"
+    },
+    {
+      "id": "OS-VF3-02",
+      "category": "video-frame",
+      "variant": "experience",
+      "layout": "video-frame-experience",
+      "use_when": "Founder story: Find the useful lesson behind the work.",
+      "size": {
+        "width": 1600,
+        "height": 900
+      },
+      "source": "masters/video-frame/OS-VF3-02.svg",
+      "editable_props": [
+        "eyebrow",
+        "media",
+        "caption",
+        "title-0"
+      ],
+      "defaults": {
+        "title": "Your experience has a point.",
+        "body": "Find the useful lesson behind the work.",
+        "eyebrow": "Founder story"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 12,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "Alternate original portrait/silhouette/paper background;media framing and safe caption fields retained.",
+      "label": "Illustrative design specimen",
+      "sha256": "9c68b51f0dd4865a4678a6d1c94aa7aef958176dead55191ab62f9cddfe4258c",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/video-frame/OS-VF3-02.png",
+      "png_sha256": "9d576d97e900b1ac05919e914c912e4f6f1817d3b41399ae0a88bb942aec3577"
+    },
+    {
+      "id": "OS-VF3-03",
+      "category": "video-frame",
+      "variant": "position",
+      "layout": "video-frame-position",
+      "use_when": "Positioning: Say who it helps and what changes.",
+      "size": {
+        "width": 1600,
+        "height": 900
+      },
+      "source": "masters/video-frame/OS-VF3-03.svg",
+      "editable_props": [
+        "eyebrow",
+        "media",
+        "caption",
+        "title-0"
+      ],
+      "defaults": {
+        "title": "Give the product a clear position.",
+        "body": "Say who it helps and what changes.",
+        "eyebrow": "Positioning"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 12,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "margin-rail: Positioning",
+      "label": "Illustrative design specimen",
+      "sha256": "3cc737c128e725638e14f39ddbf9db3e6385e949b41f650541b015b3ae0fba17",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/video-frame/OS-VF3-03.png",
+      "png_sha256": "5340e83ef309d1246a340dfd61053bef1bd651c3181a9d086151d800b52236b7"
+    },
+    {
+      "id": "OS-VF3-04",
+      "category": "video-frame",
+      "variant": "sequence",
+      "layout": "video-frame-sequence",
+      "use_when": "Editorial sequence: Give each part a reason to exist.",
+      "size": {
+        "width": 1600,
+        "height": 900
+      },
+      "source": "masters/video-frame/OS-VF3-04.svg",
+      "editable_props": [
+        "eyebrow",
+        "media",
+        "caption",
+        "title-0"
+      ],
+      "defaults": {
+        "title": "One idea. A useful sequence.",
+        "body": "Give each part a reason to exist.",
+        "eyebrow": "Editorial sequence"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 12,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "Alternate original portrait/silhouette/paper background;media framing and safe caption fields retained.",
+      "label": "Illustrative design specimen",
+      "sha256": "52041c85f96a1f6101baeab0f04c81d02dd8f8f93f1062845b3de95a5ab9b9a9",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/video-frame/OS-VF3-04.png",
+      "png_sha256": "46606e81e285e30bcba62b3ecc456caf3b65325d8dc6c62cf30a5cb2fe93fd32"
+    },
+    {
+      "id": "OS-VF3-05",
+      "category": "video-frame",
+      "variant": "decision",
+      "layout": "video-frame-decision",
+      "use_when": "Product judgment: Explain the options and the consequence.",
+      "size": {
+        "width": 1600,
+        "height": 900
+      },
+      "source": "masters/video-frame/OS-VF3-05.svg",
+      "editable_props": [
+        "eyebrow",
+        "media",
+        "caption",
+        "title-0"
+      ],
+      "defaults": {
+        "title": "The decision deserves context.",
+        "body": "Explain the options and the consequence.",
+        "eyebrow": "Product judgment"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 12,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "horizon-band: Product judgment",
+      "label": "Illustrative design specimen",
+      "sha256": "080438c4b59d4a96576e8fa099f4847ed2f5462087071b2cb7e4281c8b0d10cf",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/video-frame/OS-VF3-05.png",
+      "png_sha256": "79e8ebc3ac2f6d1fc12ca62e90d6093869cfd3458b0de24e1580e875e0ef0d0e"
+    },
+    {
+      "id": "OS-VF3-06",
+      "category": "video-frame",
+      "variant": "voice",
+      "layout": "video-frame-voice",
+      "use_when": "Professional writing: Keep the meaning. Make it easier to read.",
+      "size": {
+        "width": 1600,
+        "height": 900
+      },
+      "source": "masters/video-frame/OS-VF3-06.svg",
+      "editable_props": [
+        "eyebrow",
+        "media",
+        "caption",
+        "title-0"
+      ],
+      "defaults": {
+        "title": "Write in the founder\u2019s voice.",
+        "body": "Keep the meaning. Make it easier to read.",
+        "eyebrow": "Professional writing"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 12,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "Alternate original portrait/silhouette/paper background;media framing and safe caption fields retained.",
+      "label": "Illustrative design specimen",
+      "sha256": "ccc7eacd0557801bb4a4c8c75df47f1c4a12e1c734d3b257fe74c7c04036138a",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/video-frame/OS-VF3-06.png",
+      "png_sha256": "065598fca3adbee7f6fb66fa72f1514996b49f44cda8a68d0054a81731e5442d"
+    },
+    {
+      "id": "OS-VF3-07",
+      "category": "video-frame",
+      "variant": "change",
+      "layout": "video-frame-change",
+      "use_when": "Company story: Connect the announcement to a buyer task.",
+      "size": {
+        "width": 1600,
+        "height": 900
+      },
+      "source": "masters/video-frame/OS-VF3-07.svg",
+      "editable_props": [
+        "eyebrow",
+        "media",
+        "caption",
+        "title-0"
+      ],
+      "defaults": {
+        "title": "Explain what changed.",
+        "body": "Connect the announcement to a buyer task.",
+        "eyebrow": "Company story"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 12,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "ribbon-sign: Company story",
+      "label": "Illustrative design specimen",
+      "sha256": "66e910b4bc913e0bb35731eef85e3779d312b101de6635e3ee3de36ff3abb630",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/video-frame/OS-VF3-07.png",
+      "png_sha256": "ee4e995418f32329ede84a63ef38acf45e543ffcd2d0d528654b1d0e1e31e8e4"
+    },
+    {
+      "id": "OS-VF3-08",
+      "category": "video-frame",
+      "variant": "evidence",
+      "layout": "video-frame-evidence",
+      "use_when": "Evidence note: Separate what was observed from what it means.",
+      "size": {
+        "width": 1600,
+        "height": 900
+      },
+      "source": "masters/video-frame/OS-VF3-08.svg",
+      "editable_props": [
+        "eyebrow",
+        "media",
+        "caption",
+        "title-0"
+      ],
+      "defaults": {
+        "title": "Let the evidence set the limit.",
+        "body": "Separate what was observed from what it means.",
+        "eyebrow": "Evidence note"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 12,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "quote-field: Evidence note",
+      "label": "Illustrative design specimen",
+      "sha256": "46025c6d3ba3f54fa4c28215ddbb8d1bdc1449e63d71c16e5bda379b455e52f9",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/video-frame/OS-VF3-08.png",
+      "png_sha256": "40eb9c5147fee8fcb826016f17bc68323169bcffb43b2ec4c78eb0a347e8687c"
+    },
+    {
+      "id": "OS-VF3-09",
+      "category": "video-frame",
+      "variant": "next-step",
+      "layout": "video-frame-next-step",
+      "use_when": "Conversation: Make the invitation relevant and considered.",
+      "size": {
+        "width": 1600,
+        "height": 900
+      },
+      "source": "masters/video-frame/OS-VF3-09.svg",
+      "editable_props": [
+        "eyebrow",
+        "media",
+        "caption",
+        "title-0"
+      ],
+      "defaults": {
+        "title": "Keep the next step clear.",
+        "body": "Make the invitation relevant and considered.",
+        "eyebrow": "Conversation"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 12,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "Alternate original portrait/silhouette/paper background;media framing and safe caption fields retained.",
+      "label": "Illustrative design specimen",
+      "sha256": "9a8adda02553c9499f8e34db9b003190798c88eaaac3146c13e1d45016c063fc",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/video-frame/OS-VF3-09.png",
+      "png_sha256": "f7af6d6a6201a5b4cd4ae1289cb1414604829c96bfd032e46b40b80f82873347"
+    },
+    {
+      "id": "OS-VF3-10",
+      "category": "video-frame",
+      "variant": "questions",
+      "layout": "video-frame-questions",
+      "use_when": "Regular interviews: Use the next interview to find the substance.",
+      "size": {
+        "width": 1600,
+        "height": 900
+      },
+      "source": "masters/video-frame/OS-VF3-10.svg",
+      "editable_props": [
+        "eyebrow",
+        "media",
+        "caption",
+        "title-0"
+      ],
+      "defaults": {
+        "title": "Make room for real questions.",
+        "body": "Use the next interview to find the substance.",
+        "eyebrow": "Regular interviews"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 12,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "stepped-argument: Regular interviews",
+      "label": "Illustrative design specimen",
+      "sha256": "f748b0e179e27db4f45199148be1fcc48ec6284429fc4a586ed35f5545840666",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/video-frame/OS-VF3-10.png",
+      "png_sha256": "fcc62671c680dc7bee89c3d3ffc42e5300721d5881e684ebd6a2403733545f6b"
+    },
+    {
+      "id": "OS-VF3-11",
+      "category": "video-frame",
+      "variant": "approval",
+      "layout": "video-frame-approval",
+      "use_when": "Approval workflow: Check the meaning, voice and factual detail.",
+      "size": {
+        "width": 1600,
+        "height": 900
+      },
+      "source": "masters/video-frame/OS-VF3-11.svg",
+      "editable_props": [
+        "eyebrow",
+        "media",
+        "caption",
+        "title-0"
+      ],
+      "defaults": {
+        "title": "Review before you publish.",
+        "body": "Check the meaning, voice and factual detail.",
+        "eyebrow": "Approval workflow"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 12,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "Alternate original portrait/silhouette/paper background;media framing and safe caption fields retained.",
+      "label": "Illustrative design specimen",
+      "sha256": "7f2e31ae9db64bfb44af362504f83c821a81a3df1f665a297aa457abc10dfe2d",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/video-frame/OS-VF3-11.png",
+      "png_sha256": "11348e31bd389be41e3e5ed0cd6ad4ef3d6d9a3e9b870fb97c29ba1de12e2f4b"
+    },
+    {
+      "id": "OS-CE3-01",
+      "category": "caption-emphasis",
+      "variant": "buyer-question",
+      "layout": "caption-emphasis-buyer-question",
+      "use_when": "Buyer context: Start with the task. Name the decision.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/caption-emphasis/OS-CE3-01.svg",
+      "editable_props": [
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Make the buyer\u2019s question visible.",
+        "body": "Start with the task. Name the decision.",
+        "eyebrow": "Buyer context"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "split-field: Buyer context",
+      "label": "Illustrative design specimen",
+      "sha256": "6317b91c05359c1e9258bda1620896b0920f656b28a810bb96097f03ddf1ab79",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/caption-emphasis/OS-CE3-01.png",
+      "png_sha256": "a5b46a03a16177f2f25d6a5524684f341eb5322d3a23c06b0408816658d418c8"
+    },
+    {
+      "id": "OS-CE3-02",
+      "category": "caption-emphasis",
+      "variant": "experience",
+      "layout": "caption-emphasis-experience",
+      "use_when": "Founder story: Find the useful lesson behind the work.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/caption-emphasis/OS-CE3-02.svg",
+      "editable_props": [
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Your experience has a point.",
+        "body": "Find the useful lesson behind the work.",
+        "eyebrow": "Founder story"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "center-sign: Founder story",
+      "label": "Illustrative design specimen",
+      "sha256": "0c31426ee4a728aa8e623592bb06d3d27392eb4213d086604226b35f735dbe36",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/caption-emphasis/OS-CE3-02.png",
+      "png_sha256": "0162d90cae65a356a7a906f7e29c829e05e1c213d422ba90e0739a8858a6b3e1"
+    },
+    {
+      "id": "OS-CE3-03",
+      "category": "caption-emphasis",
+      "variant": "position",
+      "layout": "caption-emphasis-position",
+      "use_when": "Positioning: Say who it helps and what changes.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/caption-emphasis/OS-CE3-03.svg",
+      "editable_props": [
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Give the product a clear position.",
+        "body": "Say who it helps and what changes.",
+        "eyebrow": "Positioning"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "margin-rail: Positioning",
+      "label": "Illustrative design specimen",
+      "sha256": "41d622e84ce4aa78ec17b4a0299791ccf930be878fe3fc28925a422721c03aa2",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/caption-emphasis/OS-CE3-03.png",
+      "png_sha256": "d80a5a6315b63b78a1f45e58be9fccc1040d44023dccc067b7c2a4277e84ce25"
+    },
+    {
+      "id": "OS-CE3-04",
+      "category": "caption-emphasis",
+      "variant": "sequence",
+      "layout": "caption-emphasis-sequence",
+      "use_when": "Editorial sequence: Give each part a reason to exist.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/caption-emphasis/OS-CE3-04.svg",
+      "editable_props": [
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "One idea. A useful sequence.",
+        "body": "Give each part a reason to exist.",
+        "eyebrow": "Editorial sequence"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "numbered-editorial: Editorial sequence",
+      "label": "Illustrative design specimen",
+      "sha256": "48ee10858c57d7000bb6d9eec1c9a654b410d3815d3ae0ba8a77ec107291f6b4",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/caption-emphasis/OS-CE3-04.png",
+      "png_sha256": "bf5abbfa3509170149a6004afe20ea49c0bdfba00e37c347b06786ce420ebfcd"
+    },
+    {
+      "id": "OS-CE3-05",
+      "category": "caption-emphasis",
+      "variant": "decision",
+      "layout": "caption-emphasis-decision",
+      "use_when": "Product judgment: Explain the options and the consequence.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/caption-emphasis/OS-CE3-05.svg",
+      "editable_props": [
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "The decision deserves context.",
+        "body": "Explain the options and the consequence.",
+        "eyebrow": "Product judgment"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "horizon-band: Product judgment",
+      "label": "Illustrative design specimen",
+      "sha256": "50a31d494fd41dcf1ea7457b18475beccc1b77f9d4c101db2b42e703fe0f82f5",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/caption-emphasis/OS-CE3-05.png",
+      "png_sha256": "a72d9eb655d0b67f91b95d94245db131bf9d46233510241967ed2c540e3d3606"
+    },
+    {
+      "id": "OS-CE3-06",
+      "category": "caption-emphasis",
+      "variant": "voice",
+      "layout": "caption-emphasis-voice",
+      "use_when": "Professional writing: Keep the meaning. Make it easier to read.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/caption-emphasis/OS-CE3-06.svg",
+      "editable_props": [
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Write in the founder\u2019s voice.",
+        "body": "Keep the meaning. Make it easier to read.",
+        "eyebrow": "Professional writing"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "photo-column: Professional writing",
+      "label": "Illustrative design specimen",
+      "sha256": "317da8bedc6e72a6c3dc3e000581f421ac330610d30cc5d69d3235d639dd7605",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/caption-emphasis/OS-CE3-06.png",
+      "png_sha256": "6772ae067876791f7df7d347866eeaca327b11651d70b94fcaf95e617c51dd21"
+    },
+    {
+      "id": "OS-CE3-07",
+      "category": "caption-emphasis",
+      "variant": "change",
+      "layout": "caption-emphasis-change",
+      "use_when": "Company story: Connect the announcement to a buyer task.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/caption-emphasis/OS-CE3-07.svg",
+      "editable_props": [
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Explain what changed.",
+        "body": "Connect the announcement to a buyer task.",
+        "eyebrow": "Company story"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "ribbon-sign: Company story",
+      "label": "Illustrative design specimen",
+      "sha256": "7227a4b11212fbd3f2d10a17b1f5094c575015179d95c46840a0eca41f7a9151",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/caption-emphasis/OS-CE3-07.png",
+      "png_sha256": "228fbde85ab1d01f98a67c9ca300d6c6a79872a04b26b1b11cd22e2ede808fbd"
+    },
+    {
+      "id": "OS-CE3-08",
+      "category": "caption-emphasis",
+      "variant": "evidence",
+      "layout": "caption-emphasis-evidence",
+      "use_when": "Evidence note: Separate what was observed from what it means.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/caption-emphasis/OS-CE3-08.svg",
+      "editable_props": [
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Let the evidence set the limit.",
+        "body": "Separate what was observed from what it means.",
+        "eyebrow": "Evidence note"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "quote-field: Evidence note",
+      "label": "Illustrative design specimen",
+      "sha256": "582ebbcd29631980bbfa1bbda91854b540dd883e017533e7587b811ea46f6552",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/caption-emphasis/OS-CE3-08.png",
+      "png_sha256": "5e44b98c96ae34071ea16c61643fad504168459ee4a816b946d9fdb38995561b"
+    },
+    {
+      "id": "OS-CE3-09",
+      "category": "caption-emphasis",
+      "variant": "next-step",
+      "layout": "caption-emphasis-next-step",
+      "use_when": "Conversation: Make the invitation relevant and considered.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/caption-emphasis/OS-CE3-09.svg",
+      "editable_props": [
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Keep the next step clear.",
+        "body": "Make the invitation relevant and considered.",
+        "eyebrow": "Conversation"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "open-ledger: Conversation",
+      "label": "Illustrative design specimen",
+      "sha256": "b773d288a1281b2fd099217763ef9445731d20f57d2cd84ea19388f248779d6f",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/caption-emphasis/OS-CE3-09.png",
+      "png_sha256": "c897a98aff38e3f07c838b5fed3fff7def1721059f6079cab0079d568e3247cc"
+    },
+    {
+      "id": "OS-CE3-10",
+      "category": "caption-emphasis",
+      "variant": "questions",
+      "layout": "caption-emphasis-questions",
+      "use_when": "Regular interviews: Use the next interview to find the substance.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/caption-emphasis/OS-CE3-10.svg",
+      "editable_props": [
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Make room for real questions.",
+        "body": "Use the next interview to find the substance.",
+        "eyebrow": "Regular interviews"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "stepped-argument: Regular interviews",
+      "label": "Illustrative design specimen",
+      "sha256": "cc2c18a9366903c3afcc8769d068064d1495f13313e9d8c570eb288c480832d5",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/caption-emphasis/OS-CE3-10.png",
+      "png_sha256": "4ccf25336206c4b8612b1006b89479991a35541018c722a752428c018ce68d8a"
+    },
+    {
+      "id": "OS-CE3-11",
+      "category": "caption-emphasis",
+      "variant": "approval",
+      "layout": "caption-emphasis-approval",
+      "use_when": "Approval workflow: Check the meaning, voice and factual detail.",
+      "size": {
+        "width": 1200,
+        "height": 360
+      },
+      "source": "masters/caption-emphasis/OS-CE3-11.svg",
+      "editable_props": [
+        "title-0",
+        "body-0"
+      ],
+      "defaults": {
+        "title": "Review before you publish.",
+        "body": "Check the meaning, voice and factual detail.",
+        "eyebrow": "Approval workflow"
+      },
+      "spacing": {
+        "outer": 42,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "diagonal-marker: Approval workflow",
+      "label": "Illustrative design specimen",
+      "sha256": "dacf1ed8f1aa1231b612e4658207302e36cf969caa7173e592251101b8c514b2",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/caption-emphasis/OS-CE3-11.png",
+      "png_sha256": "11e0c89a3b291c1f443b4afc35d65f28122295bafc3255bb087d7eb1af73c99d"
+    },
+    {
+      "id": "OS-SC3-01",
+      "category": "schema",
+      "variant": "buyer-question",
+      "layout": "schema-buyer-question",
+      "use_when": "Buyer context: Start with the task. Name the decision.",
+      "size": {
+        "width": 1200,
+        "height": 900
+      },
+      "source": "masters/schema/OS-SC3-01.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0",
+        "node-0-0",
+        "node-1-0",
+        "node-2-0",
+        "node-2-1"
+      ],
+      "defaults": {
+        "title": "Make the buyer\u2019s question visible.",
+        "body": "Start with the task. Name the decision.",
+        "eyebrow": "Buyer context"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "split-field: Buyer context",
+      "label": "Illustrative design specimen",
+      "sha256": "086d89499cc900073ff904e8514771cef14f426e57e4ee965e568f9cffbbbd53",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/schema/OS-SC3-01.png",
+      "png_sha256": "c11d5c7fb37adfb8ea67b743344c0969bc8346654e979e92ef4a69079fd5508f"
+    },
+    {
+      "id": "OS-SC3-02",
+      "category": "schema",
+      "variant": "experience",
+      "layout": "schema-experience",
+      "use_when": "Founder story: Find the useful lesson behind the work.",
+      "size": {
+        "width": 1200,
+        "height": 900
+      },
+      "source": "masters/schema/OS-SC3-02.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0",
+        "node-0-0",
+        "node-1-0",
+        "node-2-0",
+        "node-2-1"
+      ],
+      "defaults": {
+        "title": "Your experience has a point.",
+        "body": "Find the useful lesson behind the work.",
+        "eyebrow": "Founder story"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "center-sign: Founder story",
+      "label": "Illustrative design specimen",
+      "sha256": "56d11b35dca346be2af8572c63f896b5dbd0c8074ba419520af8987b4dd1770a",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/schema/OS-SC3-02.png",
+      "png_sha256": "4314d402c9fbc510d67a9a4e82f8c49ce7dea120bc995cff9fb21e06d516fe52"
+    },
+    {
+      "id": "OS-SC3-03",
+      "category": "schema",
+      "variant": "position",
+      "layout": "schema-position",
+      "use_when": "Positioning: Say who it helps and what changes.",
+      "size": {
+        "width": 1200,
+        "height": 900
+      },
+      "source": "masters/schema/OS-SC3-03.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0",
+        "node-0-0",
+        "node-1-0",
+        "node-2-0",
+        "node-3-0"
+      ],
+      "defaults": {
+        "title": "Give the product a clear position.",
+        "body": "Say who it helps and what changes.",
+        "eyebrow": "Positioning"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "margin-rail: Positioning",
+      "label": "Illustrative design specimen",
+      "sha256": "d3432686b46398867d3955ddab5cab5bfd8457070cd328049934539ec8ce7fa1",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/schema/OS-SC3-03.png",
+      "png_sha256": "d250db918e488086cb2bfa2288155da6d561cd136272848e3cbb7063580389b3"
+    },
+    {
+      "id": "OS-SC3-04",
+      "category": "schema",
+      "variant": "sequence",
+      "layout": "schema-sequence",
+      "use_when": "Editorial sequence: Give each part a reason to exist.",
+      "size": {
+        "width": 1200,
+        "height": 900
+      },
+      "source": "masters/schema/OS-SC3-04.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0",
+        "node-0-0",
+        "node-1-0",
+        "node-2-0",
+        "node-3-0",
+        "node-4-0",
+        "node-4-1"
+      ],
+      "defaults": {
+        "title": "One idea. A useful sequence.",
+        "body": "Give each part a reason to exist.",
+        "eyebrow": "Editorial sequence"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "numbered-editorial: Editorial sequence",
+      "label": "Illustrative design specimen",
+      "sha256": "d3f82356b9dec3e35920d0f0a52267c7408178a8615d742a23b88978886796be",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/schema/OS-SC3-04.png",
+      "png_sha256": "8472562ea08cb7f7ee3ae973b1a67a1ceb114ca8b641f07f752b96cc906c342a"
+    },
+    {
+      "id": "OS-SC3-05",
+      "category": "schema",
+      "variant": "decision",
+      "layout": "schema-decision",
+      "use_when": "Product judgment: Explain the options and the consequence.",
+      "size": {
+        "width": 1200,
+        "height": 900
+      },
+      "source": "masters/schema/OS-SC3-05.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0",
+        "node-0-0",
+        "node-1-0",
+        "node-1-1",
+        "node-2-0",
+        "node-3-0"
+      ],
+      "defaults": {
+        "title": "The decision deserves context.",
+        "body": "Explain the options and the consequence.",
+        "eyebrow": "Product judgment"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "horizon-band: Product judgment",
+      "label": "Illustrative design specimen",
+      "sha256": "e3fbcb8c8e8bbc3b0dc0a2fe0354e0f7533c95eba0bdd86e0dc70af511e6ce49",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/schema/OS-SC3-05.png",
+      "png_sha256": "67594047a3d61af7166c669524de1e88a9d646a03aba6e312fbe5109cdc34da8"
+    },
+    {
+      "id": "OS-SC3-06",
+      "category": "schema",
+      "variant": "voice",
+      "layout": "schema-voice",
+      "use_when": "Professional writing: Keep the meaning. Make it easier to read.",
+      "size": {
+        "width": 1200,
+        "height": 900
+      },
+      "source": "masters/schema/OS-SC3-06.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0",
+        "node-0-0",
+        "node-1-0",
+        "node-1-1",
+        "node-2-0",
+        "node-3-0"
+      ],
+      "defaults": {
+        "title": "Write in the founder\u2019s voice.",
+        "body": "Keep the meaning. Make it easier to read.",
+        "eyebrow": "Professional writing"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "photo-column: Professional writing",
+      "label": "Illustrative design specimen",
+      "sha256": "805494c1ebe0819bbbb2ca9f848a6ec6d3acb640449195cec88ee2826de74d53",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/schema/OS-SC3-06.png",
+      "png_sha256": "8dd80d1c381d4f7179e1f5274f60100ac1644c71bcfe99305cc3f3eca16df7ac"
+    },
+    {
+      "id": "OS-SC3-07",
+      "category": "schema",
+      "variant": "change",
+      "layout": "schema-change",
+      "use_when": "Company story: Connect the announcement to a buyer task.",
+      "size": {
+        "width": 1200,
+        "height": 900
+      },
+      "source": "masters/schema/OS-SC3-07.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0",
+        "node-0-0",
+        "node-1-0",
+        "node-2-0",
+        "node-3-0"
+      ],
+      "defaults": {
+        "title": "Explain what changed.",
+        "body": "Connect the announcement to a buyer task.",
+        "eyebrow": "Company story"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "ribbon-sign: Company story",
+      "label": "Illustrative design specimen",
+      "sha256": "f69b50ace4b6afd74c7059d09162a1c5725e923dfa97323def246e9b6a77ccd3",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/schema/OS-SC3-07.png",
+      "png_sha256": "f1ee5216655404e5395450935e3a35a0b5d7657a6f3f73fc06e606883b77fd52"
+    },
+    {
+      "id": "OS-SC3-08",
+      "category": "schema",
+      "variant": "evidence",
+      "layout": "schema-evidence",
+      "use_when": "Evidence note: Separate what was observed from what it means.",
+      "size": {
+        "width": 1200,
+        "height": 900
+      },
+      "source": "masters/schema/OS-SC3-08.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0",
+        "node-0-0",
+        "node-1-0",
+        "node-2-0"
+      ],
+      "defaults": {
+        "title": "Let the evidence set the limit.",
+        "body": "Separate what was observed from what it means.",
+        "eyebrow": "Evidence note"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "quote-field: Evidence note",
+      "label": "Illustrative design specimen",
+      "sha256": "52386b300873d2c236659692984ac099e73c21e75b8e69faa56be934e0322b9b",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/schema/OS-SC3-08.png",
+      "png_sha256": "09263fcf1112918a0c35105f2dd223cc1cb72a12df18978ea86090b87d0b7b09"
+    },
+    {
+      "id": "OS-SC3-09",
+      "category": "schema",
+      "variant": "next-step",
+      "layout": "schema-next-step",
+      "use_when": "Conversation: Make the invitation relevant and considered.",
+      "size": {
+        "width": 1200,
+        "height": 900
+      },
+      "source": "masters/schema/OS-SC3-09.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0",
+        "node-0-0",
+        "node-1-0",
+        "node-1-1",
+        "node-2-0",
+        "node-2-1"
+      ],
+      "defaults": {
+        "title": "Keep the next step clear.",
+        "body": "Make the invitation relevant and considered.",
+        "eyebrow": "Conversation"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "open-ledger: Conversation",
+      "label": "Illustrative design specimen",
+      "sha256": "ffc5af00bccddea92a342b06f483375fa0ff3ab57265cd072c56510d6054cb4a",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/schema/OS-SC3-09.png",
+      "png_sha256": "4b7d9ade4446c8d9d8f63e1b5893cf9da4e5b252124e83d4d8fa2f2b4640fcd9"
+    },
+    {
+      "id": "OS-SC3-10",
+      "category": "schema",
+      "variant": "questions",
+      "layout": "schema-questions",
+      "use_when": "Regular interviews: Use the next interview to find the substance.",
+      "size": {
+        "width": 1200,
+        "height": 900
+      },
+      "source": "masters/schema/OS-SC3-10.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0",
+        "node-0-0",
+        "node-1-0",
+        "node-2-0",
+        "node-3-0",
+        "node-3-1"
+      ],
+      "defaults": {
+        "title": "Make room for real questions.",
+        "body": "Use the next interview to find the substance.",
+        "eyebrow": "Regular interviews"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "stepped-argument: Regular interviews",
+      "label": "Illustrative design specimen",
+      "sha256": "1bc958d190c025bacdc48dc17399c288aa55601ee913d23539e89d9ce81ee595",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/schema/OS-SC3-10.png",
+      "png_sha256": "1cfb6eb077cb7fb586c861d347d958a54d014c45ca295ef58aa4dfe8042f7830"
+    },
+    {
+      "id": "OS-SC3-11",
+      "category": "schema",
+      "variant": "approval",
+      "layout": "schema-approval",
+      "use_when": "Approval workflow: Check the meaning, voice and factual detail.",
+      "size": {
+        "width": 1200,
+        "height": 900
+      },
+      "source": "masters/schema/OS-SC3-11.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "body-0",
+        "node-0-0",
+        "node-1-0",
+        "node-2-0",
+        "node-3-0"
+      ],
+      "defaults": {
+        "title": "Review before you publish.",
+        "body": "Check the meaning, voice and factual detail.",
+        "eyebrow": "Approval workflow"
+      },
+      "spacing": {
+        "outer": 54,
+        "minimum_text_line_gap": 12,
+        "media_safe_zone": 30
+      },
+      "angle": {
+        "rest": 0,
+        "website_perspective_optional": {
+          "yaw_degrees": 0,
+          "focus_yaw_degrees": 0
+        }
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400",
+        "caption": "Inter500"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "meaningful_variation": "diagonal-marker: Approval workflow",
+      "label": "Illustrative design specimen",
+      "sha256": "2a6d5ef34622509fe2e40528810f75ab79641345a33c934c5c6706434cf66790",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/schema/OS-SC3-11.png",
+      "png_sha256": "7d9e173345cb13cdbb76ca02b79b47c2b9eb3de9be7b0f2b9f68a59c3307a483"
+    },
+    {
+      "id": "OS-PUB3-01",
+      "category": "publication",
+      "variant": "OS-T301",
+      "layout": "existing-native-master-OS-T301",
+      "use_when": "Use original OS-T301 publication master;LinkedIn UI chrome remains separate.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/publication/OS-PUB3-01.svg",
+      "editable_props": [
+        "text-0",
+        "text-1",
+        "text-2",
+        "text-3",
+        "text-4",
+        "text-5",
+        "text-6",
+        "text-7",
+        "text-8",
+        "text-9",
+        "text-10",
+        "text-11",
+        "text-12"
+      ],
+      "spacing": {
+        "outer": 72
+      },
+      "angle": {
+        "rest": 0
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "sha256": "31188d1e4881309c982ec252d992b96a9ad57446a778040f086be34a98372f75",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/publication/OS-PUB3-01.png",
+      "png_sha256": "87b10b2c162e71a3b679042692cf34cfececcec25e760bcd474843f1c1fb89e8"
+    },
+    {
+      "id": "OS-PUB3-02",
+      "category": "publication",
+      "variant": "OS-T302",
+      "layout": "existing-native-master-OS-T302",
+      "use_when": "Use original OS-T302 publication master;LinkedIn UI chrome remains separate.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/publication/OS-PUB3-02.svg",
+      "editable_props": [
+        "text-0",
+        "text-1",
+        "text-2",
+        "text-3",
+        "text-4",
+        "text-5",
+        "text-6",
+        "text-7",
+        "text-8",
+        "text-9",
+        "text-10",
+        "text-11",
+        "text-12",
+        "text-13",
+        "text-14"
+      ],
+      "spacing": {
+        "outer": 72
+      },
+      "angle": {
+        "rest": 0
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "sha256": "856a450ef8b354692018f17e62e35ae3fb1397c65738dce0d6a95d8c23ee966d",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/publication/OS-PUB3-02.png",
+      "png_sha256": "8ee34aff7e7d235635c355425514f18ca631b2c8b42d05a1597f8b33261134a6"
+    },
+    {
+      "id": "OS-PUB3-03",
+      "category": "publication",
+      "variant": "OS-T303",
+      "layout": "existing-native-master-OS-T303",
+      "use_when": "Use original OS-T303 publication master;LinkedIn UI chrome remains separate.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/publication/OS-PUB3-03.svg",
+      "editable_props": [
+        "text-0",
+        "text-1",
+        "text-2",
+        "text-3",
+        "text-4",
+        "text-5",
+        "text-6",
+        "text-7",
+        "text-8",
+        "text-9",
+        "text-10",
+        "text-11",
+        "text-12"
+      ],
+      "spacing": {
+        "outer": 72
+      },
+      "angle": {
+        "rest": 0
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "sha256": "c415914103fe5f0f8d73e1b424ef7624f32b5db61fc455b76dbdaa2e4ad13b4f",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/publication/OS-PUB3-03.png",
+      "png_sha256": "84f9ae13654508a1536b5da34dc00bc00e172ba74c054d0054ef9b4a4a5e72e6"
+    },
+    {
+      "id": "OS-PUB3-04",
+      "category": "publication",
+      "variant": "OS-T304-01",
+      "layout": "existing-native-master-OS-T304-01",
+      "use_when": "Use original OS-T304-01 publication master;LinkedIn UI chrome remains separate.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/publication/OS-PUB3-04.svg",
+      "editable_props": [
+        "text-0",
+        "text-1",
+        "text-2",
+        "text-3",
+        "text-4",
+        "text-5",
+        "text-6",
+        "text-7",
+        "text-8",
+        "text-9"
+      ],
+      "spacing": {
+        "outer": 72
+      },
+      "angle": {
+        "rest": 0
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "sha256": "d4975ecf4606120f7bd9c6d849c14a4f0b6cfb8ef8d64c688ca889e7ba5e6285",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/publication/OS-PUB3-04.png",
+      "png_sha256": "6ca43e3363f259e457d002e8227285f5b7320dbc6feea6a16578996f7890532d"
+    },
+    {
+      "id": "OS-PUB3-05",
+      "category": "publication",
+      "variant": "OS-T305",
+      "layout": "existing-native-master-OS-T305",
+      "use_when": "Use original OS-T305 publication master;LinkedIn UI chrome remains separate.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/publication/OS-PUB3-05.svg",
+      "editable_props": [
+        "text-0",
+        "text-1",
+        "text-2",
+        "text-3",
+        "text-4",
+        "text-5",
+        "text-6",
+        "text-7",
+        "text-8",
+        "text-9",
+        "text-10",
+        "text-11",
+        "text-12",
+        "text-13",
+        "text-14",
+        "text-15"
+      ],
+      "spacing": {
+        "outer": 72
+      },
+      "angle": {
+        "rest": 0
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "sha256": "f8a1147e75e252fdd82a74a4fdc9479f297bd4ce4075f084412c0673e4b61073",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/publication/OS-PUB3-05.png",
+      "png_sha256": "2cd092c17653fe09d1932d4158130e8eae82b92906adb6003b677fb2b8170726"
+    },
+    {
+      "id": "OS-PUB3-06",
+      "category": "publication",
+      "variant": "OS-T306",
+      "layout": "existing-native-master-OS-T306",
+      "use_when": "Use original OS-T306 publication master;LinkedIn UI chrome remains separate.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/publication/OS-PUB3-06.svg",
+      "editable_props": [
+        "text-0",
+        "text-1",
+        "text-2",
+        "text-3",
+        "text-4",
+        "text-5",
+        "text-6",
+        "text-7",
+        "text-8",
+        "text-9",
+        "text-10",
+        "text-11",
+        "text-12",
+        "text-13",
+        "text-14",
+        "text-15",
+        "text-16"
+      ],
+      "spacing": {
+        "outer": 72
+      },
+      "angle": {
+        "rest": 0
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "sha256": "0f5a7c5f2889d37b24511dafd6680111b05e8fa51c8dab3e58baf94ab8d864e0",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/publication/OS-PUB3-06.png",
+      "png_sha256": "c62b0bbbf5fa5bfaf92c9b69b89c9d9d1a17ea054dd24fc6a8e4b5c9a82d7ca9"
+    },
+    {
+      "id": "OS-PUB3-07",
+      "category": "publication",
+      "variant": "OS-T307",
+      "layout": "existing-native-master-OS-T307",
+      "use_when": "Use original OS-T307 publication master;LinkedIn UI chrome remains separate.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/publication/OS-PUB3-07.svg",
+      "editable_props": [
+        "text-0",
+        "text-1",
+        "text-2",
+        "text-3",
+        "text-4",
+        "text-5",
+        "text-6",
+        "text-7",
+        "text-8",
+        "text-9",
+        "text-10",
+        "text-11",
+        "text-12",
+        "text-13",
+        "text-14",
+        "text-15",
+        "text-16",
+        "text-17"
+      ],
+      "spacing": {
+        "outer": 72
+      },
+      "angle": {
+        "rest": 0
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "sha256": "bb9150b0d3d4133125ff0d59c0fc9e767973e1f7acee334a9b7f5dcff7c87e6f",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/publication/OS-PUB3-07.png",
+      "png_sha256": "73891842edd8c0552f1d99388f347c8d2885cd1d4488d57344b7950533140dd8"
+    },
+    {
+      "id": "OS-PUB3-08",
+      "category": "publication",
+      "variant": "OS-T308",
+      "layout": "existing-native-master-OS-T308",
+      "use_when": "Use original OS-T308 publication master;LinkedIn UI chrome remains separate.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/publication/OS-PUB3-08.svg",
+      "editable_props": [
+        "text-0",
+        "text-1",
+        "text-2",
+        "text-3",
+        "text-4",
+        "text-5",
+        "text-6",
+        "text-7",
+        "text-8",
+        "text-9",
+        "text-10",
+        "text-11",
+        "text-12"
+      ],
+      "spacing": {
+        "outer": 72
+      },
+      "angle": {
+        "rest": 0
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "sha256": "a6bcb5077d2c653c7ab7a80895d83a3a40201c5e8598d2e1b00a3f25cb1960d4",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/publication/OS-PUB3-08.png",
+      "png_sha256": "c94d63c429307c3236edac18dfebf75f90bd01b7c3bd480236462fc180e417b8"
+    },
+    {
+      "id": "OS-PUB3-09",
+      "category": "publication",
+      "variant": "OS-T309",
+      "layout": "existing-native-master-OS-T309",
+      "use_when": "Use original OS-T309 publication master;LinkedIn UI chrome remains separate.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/publication/OS-PUB3-09.svg",
+      "editable_props": [
+        "text-0",
+        "text-1",
+        "text-2",
+        "text-3",
+        "text-4",
+        "text-5",
+        "text-6",
+        "text-7",
+        "text-8",
+        "text-9",
+        "text-10",
+        "text-11",
+        "text-12",
+        "text-13",
+        "text-14",
+        "text-15",
+        "text-16"
+      ],
+      "spacing": {
+        "outer": 72
+      },
+      "angle": {
+        "rest": 0
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "sha256": "be19477b4b0d8136864304ba7e67e71cef8cc642d316e787d0592fb36e1bfab2",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/publication/OS-PUB3-09.png",
+      "png_sha256": "b6cfbf6a515c3ac65a42394c9fbc3ac201e24a0631a6cd7b1b36544a0afc706e"
+    },
+    {
+      "id": "OS-PUB3-10",
+      "category": "publication",
+      "variant": "OS-T310",
+      "layout": "existing-native-master-OS-T310",
+      "use_when": "Use original OS-T310 publication master;LinkedIn UI chrome remains separate.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/publication/OS-PUB3-10.svg",
+      "editable_props": [
+        "text-0",
+        "text-1",
+        "text-2",
+        "text-3",
+        "text-4",
+        "text-5",
+        "text-6",
+        "text-7",
+        "text-8",
+        "text-9"
+      ],
+      "spacing": {
+        "outer": 72
+      },
+      "angle": {
+        "rest": 0
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "sha256": "881e7ab1a694e7699e9468e59c26ba4ce356bc40668f8c806102168184ac7f38",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/publication/OS-PUB3-10.png",
+      "png_sha256": "a43ff7bf28727e69d438aed699ca3e19b6f1b1898c7a0cc2a5551b2e398876be"
+    },
+    {
+      "id": "OS-PUB3-11",
+      "category": "publication",
+      "variant": "approval-checklist",
+      "layout": "open-review-checklist",
+      "use_when": "Show how professional source/review discipline supports a useful publication.",
+      "size": {
+        "width": 1080,
+        "height": 1350
+      },
+      "source": "masters/publication/OS-PUB3-11.svg",
+      "editable_props": [
+        "eyebrow",
+        "title-0",
+        "title-1",
+        "body-0",
+        "check-0",
+        "check-1",
+        "check-2",
+        "check-3",
+        "check-4"
+      ],
+      "spacing": {
+        "outer": 72,
+        "row_gap": 112
+      },
+      "angle": {
+        "rest": 0
+      },
+      "type": {
+        "headline": "Archivo700",
+        "body": "Inter400"
+      },
+      "colours": {
+        "navy": "#162760",
+        "silver": "#A9AFBA",
+        "citron": "#D4DD67",
+        "paper": "#FBFBF7"
+      },
+      "sha256": "9af8d4f7a82a9aa4c543ae667de5487ec1a3c483d75d7c7bbff59d8024af7866",
+      "render_state": "rendered_bounds_images_text_collisions_pass",
+      "png": "renders/publication/OS-PUB3-11.png",
+      "png_sha256": "38d55bd90cb198fb350bf0babfe85c6634bbcbbbeb4c226f91b80bf5ffafe4ac"
+    }
+  ],
+  "source_rights": "Original authoredSVG/copy plus existing original generated nature images and licensed Archivo/Inter fonts. No competitor media,customer proof or copied M2Lab layout.",
+  "platform_boundary": "Website interaction/perspective is a presentation layer,not a native LinkedIn feature.",
+  "react_component": "CatalogSurface.tsx",
+  "storybook": "Catalog.stories.tsx",
+  "render_state": "all88 browser rendered; check render-checks.json for exact geometry/image results; visual review remains separate",
+  "contact_sheets": {
+    "banner": "contact-sheets/banner.png",
+    "poster": "contact-sheets/poster.png",
+    "block": "contact-sheets/block.png",
+    "heading": "contact-sheets/heading.png",
+    "video-frame": "contact-sheets/video-frame.png",
+    "caption-emphasis": "contact-sheets/caption-emphasis.png",
+    "schema": "contact-sheets/schema.png",
+    "publication": "contact-sheets/publication.png"
+  },
+  "branding": "Uppercase OUTSPOKEN artwork footers; current speech identity is defined by assets/revisions/v4/identity; base layout IDs retained."
+}

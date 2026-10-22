@@ -1,0 +1,217 @@
+{
+  "audience": "Europe-based B2B AI SaaS founders, 10–50 people, Seed–Series B; founder-led LinkedIn. Audience/context only, no guarantee of reach, demand or conversion.",
+  "evidence_basis": "279 V5 fulltext interpretation rows; official LinkedIn guidance and systems descriptions; peer-reviewed/first-party research where available; original angles are hypotheses, not copied post adaptations.",
+  "principles": [
+    "Make the post about a recognizable professional problem and one useful point. LinkedIn describes feed matching as personalized to professional interests and member history; semantic topical clarity is a sensible content design principle, not an algorithm exploit.",
+    "Balance educational/experience evidence and offer posts. V5 sample has 91 teach-method, 63 offer, 46 belief-challenge, 36 story and 23 proof; sample is curated public references, not an optimal ratio.",
+    "Use first-person only where the founder can verify the experience. Use synthetic examples explicitly labeled as such. No invented customers, results, case evidence or tool experience.",
+    "Pick format for the communication job: plain text for a crisp argument, image for an inspectable diagram, native video for a demonstrated workflow, document for a reference artifact. V5 cross-format comparison is observational and confounded.",
+    "For videos, use a clear first frame, one sequence, spoken/caption alignment and manual caption review. Captions aid accessibility; no performance lift promised.",
+    "Use a specific CTA tied to reader utility: save/checklist, ask a sincere question, review a method, or visit a relevant page. Avoid bait, automation and coordinated engagement.",
+    "Measure on owner analytics where available: impressions/reach, in/out-of-network discovery, profile activity, link clicks, watch time/completion if provided, relevant comments, and qualified site actions. Log timing/copy/format/offer and audience context. Do not infer reach or sales from public reactions."
+  ],
+  "20_original_angles": [
+    {
+      "id": "angle-01",
+      "title": "Positioning before workshop",
+      "editorial_job": "Teach method",
+      "concept": "Show real pre-work decision sequence: buyer, job, alternatives, scope. Test checklist text vs simple diagram.",
+      "evidence_guardrail": "Saves a team from workshop churn; grounded in actual client experience or clearly framed as method.",
+      "observable_metrics": "Qualified replies from founders/marketing leaders; saves; profile activity."
+    },
+    {
+      "id": "angle-02",
+      "title": "Founder phrase vs buyer phrase",
+      "editorial_job": "Show proof",
+      "concept": "Use an approved, anonymized real wording shift with source and context; no invented client quote.",
+      "evidence_guardrail": "Make one phrase concrete and disclose whether it is observed or a hypothetical example.",
+      "observable_metrics": "Substantive comments; qualified profile visits; buyer language echoed."
+    },
+    {
+      "id": "angle-03",
+      "title": "AI output is not strategy",
+      "editorial_job": "Challenge belief",
+      "concept": "Demonstrate same weak brief through generic AI output and a human-defined brief; use synthetic example.",
+      "evidence_guardrail": "Show the prompt/context and limits; avoid claiming a tool universally fails.",
+      "observable_metrics": "Relevant comments; saves; demo requests with source attribution."
+    },
+    {
+      "id": "angle-04",
+      "title": "A bounded AI workflow teardown",
+      "editorial_job": "Teach method",
+      "concept": "Walk through task, model/tool role, human check, failure mode and handoff using non-sensitive synthetic data.",
+      "evidence_guardrail": "Make reviewer role and output inspectable; avoid unsupported efficiency claims.",
+      "observable_metrics": "Saves; qualified comments; downstream clicks."
+    },
+    {
+      "id": "angle-05",
+      "title": "The measurement you can defend",
+      "editorial_job": "Teach method",
+      "concept": "Separate impressions, reach, clicks, reactions, leads; show a miniature measurement tree.",
+      "evidence_guardrail": "Name denominator, period and what counter cannot prove.",
+      "observable_metrics": "Click-through and qualified conversion; not reaction count alone."
+    },
+    {
+      "id": "angle-06",
+      "title": "The founder channel trade-off",
+      "editorial_job": "Tell story",
+      "concept": "Describe one real founder decision between hiring, founder time and distribution; actual outcome only.",
+      "evidence_guardrail": "Include date/context and rejected path; no fictional first-person experience.",
+      "observable_metrics": "Thoughtful founder replies; profile activity; referral source."
+    },
+    {
+      "id": "angle-07",
+      "title": "What we changed after a buyer objection",
+      "editorial_job": "Tell story",
+      "concept": "Use a verified objection and what evidence changed the offer/message; anonymize only with permission.",
+      "evidence_guardrail": "Keep objection verbatim only if authorized; distinguish one case from a pattern.",
+      "observable_metrics": "Qualified comments; discovery calls attributable to post."
+    },
+    {
+      "id": "angle-08",
+      "title": "A homepage has one job",
+      "editorial_job": "Challenge belief",
+      "concept": "Contrast homepage promise, sales deck and onboarding jobs using owned material.",
+      "evidence_guardrail": "No claims about client conversion without data.",
+      "observable_metrics": "Saves; target buyer comments; measured tagged visits."
+    },
+    {
+      "id": "angle-09",
+      "title": "Where AI automation should stop",
+      "editorial_job": "Challenge belief",
+      "concept": "Map an automation boundary: repetitive, reversible tasks vs judgment/context decisions.",
+      "evidence_guardrail": "Include a concrete failure case that is true or explicitly hypothetical.",
+      "observable_metrics": "Replies on workflow boundaries; qualified inquiries."
+    },
+    {
+      "id": "angle-10",
+      "title": "A 5-minute message audit",
+      "editorial_job": "Teach method",
+      "concept": "Offer a three-question audit for clarity: audience, pain, alternative. Use an original mock.",
+      "evidence_guardrail": "Mark mock as illustrative; do not claim benchmark validation.",
+      "observable_metrics": "Saves; profile views; opt-in audit requests."
+    },
+    {
+      "id": "angle-11",
+      "title": "Tool review with a real test",
+      "editorial_job": "Teach method",
+      "concept": "Review one AI/SaaS tool against a stated task, inputs, date, criteria, failure and cost.",
+      "evidence_guardrail": "Hands-on test must be real, dated and reproducible; disclose product version.",
+      "observable_metrics": "Qualified comments; click-outs; search/profile activity."
+    },
+    {
+      "id": "angle-12",
+      "title": "Tool choice: when not to buy",
+      "editorial_job": "Challenge belief",
+      "concept": "Decision tree for build/buy/manual based on frequency, risk, integration and upkeep.",
+      "evidence_guardrail": "State assumptions and when the decision changes.",
+      "observable_metrics": "Saves; comments from operators; qualified calls."
+    },
+    {
+      "id": "angle-13",
+      "title": "A product demo showing a failure",
+      "editorial_job": "Show proof",
+      "concept": "Short native video: task, expected behavior, failure, fix/limit. Pair with accurate captions.",
+      "evidence_guardrail": "Only actual product state; no fabricated customer data/results.",
+      "observable_metrics": "Video completion/watch time; qualified clicks; substantive comments."
+    },
+    {
+      "id": "angle-14",
+      "title": "Why the offer is narrow",
+      "editorial_job": "Tell story",
+      "concept": "Explain a real scope boundary, intended customer and excluded work.",
+      "evidence_guardrail": "Use approved service wording/prices; no unsupported superiority claim.",
+      "observable_metrics": "Qualified lead fit; calls from target segment."
+    },
+    {
+      "id": "angle-15",
+      "title": "How a founder turns notes into a post",
+      "editorial_job": "Teach method",
+      "concept": "Show process with synthetic/redacted notes and the human editing decisions.",
+      "evidence_guardrail": "No private buyer notes; disclose synthetic material.",
+      "observable_metrics": "Saves; comments on process; profile follows from relevant roles."
+    },
+    {
+      "id": "angle-16",
+      "title": "A buyer-risk checklist for AI SaaS",
+      "editorial_job": "Teach method",
+      "concept": "Checklist spanning data, reliability, workflow, ownership, ROI measurement.",
+      "evidence_guardrail": "Reference each factual/security claim; no legal/security assurance.",
+      "observable_metrics": "Saves; professional comments; tagged resource clicks."
+    },
+    {
+      "id": "angle-17",
+      "title": "One metric that changed the decision",
+      "editorial_job": "Show proof",
+      "concept": "Use owner-approved actual metric with source, baseline, timeframe, sample and caveat.",
+      "evidence_guardrail": "If proof not available, do not invent; convert to a question/method draft.",
+      "observable_metrics": "Qualified engagement and attributable site/action, not likes."
+    },
+    {
+      "id": "angle-18",
+      "title": "A recurring build note",
+      "editorial_job": "Build in public",
+      "concept": "Short update with what shipped, what failed, next decision; recurring only if sustainable.",
+      "evidence_guardrail": "Only verified company progress; avoid implied roadmap promises.",
+      "observable_metrics": "Relevant followers; substantive replies; return readers."
+    },
+    {
+      "id": "angle-19",
+      "title": "A useful disagreement in AI marketing",
+      "editorial_job": "Start discussion",
+      "concept": "State a scoped position and one evidence-backed counterpoint; ask a genuine decision question.",
+      "evidence_guardrail": "Avoid vote-bait, “comment to agree,” forced binary, tagging bait.",
+      "observable_metrics": "Substantive answer rate; new qualified commenters."
+    },
+    {
+      "id": "angle-20",
+      "title": "Buyer language glossary",
+      "editorial_job": "Teach method",
+      "concept": "Explain one confusing term and contrast it with the buyer’s actual job.",
+      "evidence_guardrail": "Source claims and avoid semantic/search ranking promises.",
+      "observable_metrics": "Saves; search appearances; buyer phrasing in inquiries."
+    }
+  ],
+  "test_design": {
+    "unit": "Post; one owner-account publication is the observational unit.",
+    "design": "Pre-register a small balanced sequence across teaching, story, challenge, proof and offer; rotate format within message class when feasible. Avoid changing format/topic/CTA/length simultaneously. Use repeated replications because one post is noisy.",
+    "baseline": "Collect owner analytics at fixed windows (e.g. 24h and 7d) with post ID, timestamp, format, topic, editorial job, CTA, impressions/reach, out-of-network share if surfaced, social interactions, profile activity, link clicks, qualified visits/leads with UTM where available. Record missing values as missing.",
+    "primary_outcomes": [
+      "qualified actions per 1,000 impressions where denominator exists",
+      "qualified profile activity / relevant profile views",
+      "substantive target-role comments",
+      "link click-through and qualified site action"
+    ],
+    "secondary_outcomes": [
+      "saves/sends if available",
+      "watch time/completion for video",
+      "reactions/comments/reposts"
+    ],
+    "controls": [
+      "post age and capture window",
+      "audience growth / distribution",
+      "topic and job",
+      "format",
+      "CTA",
+      "promotion / employee distribution",
+      "offer/date",
+      "source evidence strength"
+    ],
+    "analysis": "Report per-post values and medians/ranges by predeclared cell; include denominator and missingness. Do not treat public visible reactions as impressions, unique people, buyer quality or conversion. Do not call three posts a trend. Keep same-account comparisons and note platform changes.",
+    "decision_rule": "Adopt only a repeatable pattern that improves a predeclared buyer-relevant outcome across replications without degrading evidence quality or voice. Treat ambiguous results as inconclusive."
+  },
+  "source_ids": [
+    "LI-FEED-2026",
+    "LI-AUTHENTIC-2026",
+    "LI-DISTRIBUTION-HELP",
+    "LI-ANALYTICS-MEMBER",
+    "LI-POST-ANALYTICS",
+    "LI-NEWSLETTER-FAQ",
+    "LI-VIDEO-CAPTIONS",
+    "LI-B2B-CONTENT-STUDY",
+    "LI-INDIVIDUAL-V-CORP",
+    "LI-FEED-SR-PAPER",
+    "LI-ENGAGEMENT-PREDICTORS-2025",
+    "SOCIALINSIDER-2026"
+  ]
+}

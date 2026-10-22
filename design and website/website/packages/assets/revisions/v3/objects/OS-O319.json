@@ -1,0 +1,88 @@
+{
+  "id": "OS-O319",
+  "name": "Target",
+  "context": "A specific buyer problem",
+  "rights": "Original authored meshes and glyphs; no third-party model or competitor media",
+  "render": {
+    "width": 600,
+    "height": 600,
+    "alpha": true,
+    "actual": "Three.js0.186.1 GLB source scene",
+    "toneMapping": "ACESFilmic",
+    "exposure": 0.9
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      2.3,
+      7
+    ],
+    "lookAt": [
+      0,
+      0,
+      2.7755575615628914e-17
+    ],
+    "extent": 1.259616552633094
+  },
+  "meshes": [
+    {
+      "name": "rounded metal arc",
+      "vertices": 845,
+      "triangles": 1536,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "citron / Outspoken V3"
+    },
+    {
+      "name": "rounded metal arc",
+      "vertices": 845,
+      "triangles": 1536,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "rounded metal arc",
+      "vertices": 845,
+      "triangles": 1536,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "deliberate target arrow",
+      "vertices": 231,
+      "triangles": 400,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "arrowhead",
+      "vertices": 126,
+      "triangles": 44,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "citron / Outspoken V3"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.8440689477152317,
+      -0.8922311663627625,
+      -0.4120900761281134
+    ],
+    "max": [
+      0.8440689477152317,
+      0.8922311663627625,
+      0.41209007612811344
+    ]
+  },
+  "kind": "semantic_object",
+  "usage": "Use for audience relevance and campaign brief scope.",
+  "limitations": [
+    "Procedural satin material, not a photographic surface capture.",
+    "Use the flat SVG for small UI; do not shrink a decorative 3D render below64px."
+  ]
+}

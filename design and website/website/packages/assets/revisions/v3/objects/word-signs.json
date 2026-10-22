@@ -1,0 +1,189 @@
+[
+  {
+    "id": "OS-W301",
+    "word": "Voice",
+    "outline": "OS-W301.svg",
+    "glb": "OS-W301.glb",
+    "png": "OS-W301.png",
+    "webp": "OS-W301.webp",
+    "metadata": "OS-W301.json",
+    "context": "A genuine extruded typographic sign for voice, used in editorial artwork and scene transitions.",
+    "font": {
+      "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+      "weight": 720,
+      "width": 100,
+      "license": "SIL OFL1.1"
+    }
+  },
+  {
+    "id": "OS-W302",
+    "word": "Story",
+    "outline": "OS-W302.svg",
+    "glb": "OS-W302.glb",
+    "png": "OS-W302.png",
+    "webp": "OS-W302.webp",
+    "metadata": "OS-W302.json",
+    "context": "A genuine extruded typographic sign for story, used in editorial artwork and scene transitions.",
+    "font": {
+      "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+      "weight": 720,
+      "width": 100,
+      "license": "SIL OFL1.1"
+    }
+  },
+  {
+    "id": "OS-W303",
+    "word": "Signal",
+    "outline": "OS-W303.svg",
+    "glb": "OS-W303.glb",
+    "png": "OS-W303.png",
+    "webp": "OS-W303.webp",
+    "metadata": "OS-W303.json",
+    "context": "A genuine extruded typographic sign for signal, used in editorial artwork and scene transitions.",
+    "font": {
+      "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+      "weight": 720,
+      "width": 100,
+      "license": "SIL OFL1.1"
+    }
+  },
+  {
+    "id": "OS-W304",
+    "word": "Proof",
+    "outline": "OS-W304.svg",
+    "glb": "OS-W304.glb",
+    "png": "OS-W304.png",
+    "webp": "OS-W304.webp",
+    "metadata": "OS-W304.json",
+    "context": "A genuine extruded typographic sign for proof, used in editorial artwork and scene transitions.",
+    "font": {
+      "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+      "weight": 720,
+      "width": 100,
+      "license": "SIL OFL1.1"
+    }
+  },
+  {
+    "id": "OS-W305",
+    "word": "Trust",
+    "outline": "OS-W305.svg",
+    "glb": "OS-W305.glb",
+    "png": "OS-W305.png",
+    "webp": "OS-W305.webp",
+    "metadata": "OS-W305.json",
+    "context": "A genuine extruded typographic sign for trust, used in editorial artwork and scene transitions.",
+    "font": {
+      "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+      "weight": 720,
+      "width": 100,
+      "license": "SIL OFL1.1"
+    }
+  },
+  {
+    "id": "OS-W306",
+    "word": "Clarity",
+    "outline": "OS-W306.svg",
+    "glb": "OS-W306.glb",
+    "png": "OS-W306.png",
+    "webp": "OS-W306.webp",
+    "metadata": "OS-W306.json",
+    "context": "A genuine extruded typographic sign for clarity, used in editorial artwork and scene transitions.",
+    "font": {
+      "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+      "weight": 720,
+      "width": 100,
+      "license": "SIL OFL1.1"
+    }
+  },
+  {
+    "id": "OS-W307",
+    "word": "Context",
+    "outline": "OS-W307.svg",
+    "glb": "OS-W307.glb",
+    "png": "OS-W307.png",
+    "webp": "OS-W307.webp",
+    "metadata": "OS-W307.json",
+    "context": "A genuine extruded typographic sign for context, used in editorial artwork and scene transitions.",
+    "font": {
+      "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+      "weight": 720,
+      "width": 100,
+      "license": "SIL OFL1.1"
+    }
+  },
+  {
+    "id": "OS-W308",
+    "word": "Product",
+    "outline": "OS-W308.svg",
+    "glb": "OS-W308.glb",
+    "png": "OS-W308.png",
+    "webp": "OS-W308.webp",
+    "metadata": "OS-W308.json",
+    "context": "A genuine extruded typographic sign for product, used in editorial artwork and scene transitions.",
+    "font": {
+      "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+      "weight": 720,
+      "width": 100,
+      "license": "SIL OFL1.1"
+    }
+  },
+  {
+    "id": "OS-W309",
+    "word": "Perspective",
+    "outline": "OS-W309.svg",
+    "glb": "OS-W309.glb",
+    "png": "OS-W309.png",
+    "webp": "OS-W309.webp",
+    "metadata": "OS-W309.json",
+    "context": "A genuine extruded typographic sign for perspective, used in editorial artwork and scene transitions.",
+    "font": {
+      "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+      "weight": 720,
+      "width": 100,
+      "license": "SIL OFL1.1"
+    }
+  },
+  {
+    "id": "OS-W310",
+    "word": "Conversation",
+    "outline": "OS-W310.svg",
+    "glb": "OS-W310.glb",
+    "png": "OS-W310.png",
+    "webp": "OS-W310.webp",
+    "metadata": "OS-W310.json",
+    "context": "A genuine extruded typographic sign for conversation, used in editorial artwork and scene transitions.",
+    "font": {
+      "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+      "weight": 720,
+      "width": 100,
+      "license": "SIL OFL1.1"
+    }
+  },
+  {
+    "id": "OS-W311",
+    "word": "OUTSPOKEN",
+    "outline": "OS-W311.svg",
+    "glb": "OS-W311.glb",
+    "png": "OS-W311.png",
+    "webp": "OS-W311.webp",
+    "metadata": "OS-W311.json",
+    "context": "Uppercase brand word, extruded as editorial artwork. Use the separate custom-O logo lockup for navigation.",
+    "font": {
+      "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+      "weight": 720,
+      "width": 100,
+      "license": "SIL OFL1.1"
+    }
+  }
+]

@@ -1,0 +1,611 @@
+{
+  "version": "4.0.0-candidate",
+  "title": "OUTSPOKEN V4 original silent style proof",
+  "seconds": 18,
+  "fps": 30,
+  "scenes": 6,
+  "seconds_per_scene": 3,
+  "aspect_recomposition": true,
+  "scene_families": [
+    "title",
+    "interview-caption",
+    "source-review-boundary",
+    "evidence-source-context",
+    "publication",
+    "closing-CTA"
+  ],
+  "audio": "none",
+  "transition": "200ms fades plus1.4percent slow pose zoom; not website motion parity",
+  "claims": "Illustrative design study, not customer footage/results or connected booking",
+  "sources": [
+    {
+      "file": "brand-library/packages/video/revisions/v4/scenes.html",
+      "sha256": "ebbc7a4500c20041c6a273d381920555c42542a91b4edd54429a1a29c0788ff9"
+    },
+    {
+      "file": "brand-library/packages/assets/revisions/v4/identity/OS-LV4-004/lockup-gradient.svg",
+      "sha256": "10e0917170702795af8084feb0d871843ea084f2ed3f293199f835a8212300c6"
+    },
+    {
+      "file": "brand-library/packages/assets/revisions/v4/identity/OS-LV4-004/lockup-inverse.svg",
+      "sha256": "eb8e4bf16cf380eb3042e0d24d9c2d8c16f3e20515d597066d5fa3b1f94b8db7"
+    },
+    {
+      "file": "brand-library/packages/assets/revisions/v4/identity/speech-sculpture-generated.webp",
+      "sha256": "45675cb22c666f19012cd526406421bf61c3786644cad396c92f9cde7d4315cb"
+    },
+    {
+      "file": "brand-library/packages/assets/revisions/v3/nature/05-real-human-shadow.webp",
+      "sha256": "1f1e5862a3e7356621de868b93b9633e8231ef515592b0c3527b869c2577b4e4"
+    },
+    {
+      "file": "brand-library/packages/assets/revisions/v3/objects/OS-O312.webp",
+      "sha256": "3a4718a96e2fb6c0a7486a8a273da570104a25e9465ed7405557530a95f286b8"
+    },
+    {
+      "file": "brand-library/packages/content/revisions/v3/OS-T303.png",
+      "sha256": "55b631807548d9be6e62b977e6f01d2756fe2aa290243ad04cd2ff6110ee5361"
+    },
+    {
+      "file": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053"
+    },
+    {
+      "file": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
+    }
+  ],
+  "renders": [
+    {
+      "aspect": "landscape",
+      "scene": "title",
+      "captionOverlap": false,
+      "missing": 0,
+      "font": true,
+      "overflow": [],
+      "file": "[dated-local-evidence-omitted]",
+      "sha256": "c092bd2196e06d216901e1c5dcf5b5ca6d2a5a114fec1170e78a736290b4e081"
+    },
+    {
+      "aspect": "landscape",
+      "scene": "interview",
+      "captionOverlap": false,
+      "missing": 0,
+      "font": true,
+      "overflow": [],
+      "file": "[dated-local-evidence-omitted]",
+      "sha256": "49bf8051b14d8c7e1d7c088edd1e0c91e4cdbd84f7eb86f20c1398ed3168567e"
+    },
+    {
+      "aspect": "landscape",
+      "scene": "source-boundary",
+      "captionOverlap": false,
+      "missing": 0,
+      "font": true,
+      "overflow": [],
+      "file": "[dated-local-evidence-omitted]",
+      "sha256": "802394503441a58f10f9c3f326e84d0427cad5a2cd19bcef61e35b3f1483050c"
+    },
+    {
+      "aspect": "landscape",
+      "scene": "evidence",
+      "captionOverlap": false,
+      "missing": 0,
+      "font": true,
+      "overflow": [],
+      "file": "[dated-local-evidence-omitted]",
+      "sha256": "e5069246eab14b9d4c822bfbebfbb7a7d4065e7c19964f286ad84d5ff9dec670"
+    },
+    {
+      "aspect": "landscape",
+      "scene": "publication",
+      "captionOverlap": false,
+      "missing": 0,
+      "font": true,
+      "overflow": [],
+      "file": "[dated-local-evidence-omitted]",
+      "sha256": "0c49bd2a66ec4e6feae8ebc6064d65f3b856a2b07f599966321a14f7e7aad727"
+    },
+    {
+      "aspect": "landscape",
+      "scene": "closing",
+      "captionOverlap": false,
+      "missing": 0,
+      "font": true,
+      "overflow": [],
+      "file": "[dated-local-evidence-omitted]",
+      "sha256": "f5311ae1e81f013569416c37a5179bd533835ed3deae6011650ea9e9a3cda331"
+    },
+    {
+      "aspect": "square",
+      "scene": "title",
+      "captionOverlap": false,
+      "missing": 0,
+      "font": true,
+      "overflow": [],
+      "file": "[dated-local-evidence-omitted]",
+      "sha256": "82d632eea0cadf6a40a14c5b5774bebf3a8be9fdf3e2e742670c8ecdebed7b04"
+    },
+    {
+      "aspect": "square",
+      "scene": "interview",
+      "captionOverlap": false,
+      "missing": 0,
+      "font": true,
+      "overflow": [],
+      "file": "[dated-local-evidence-omitted]",
+      "sha256": "9a7ca1e4be9064761ab54f65b8297a00ad195967ba53fb144ab0cdf4bea8f1f0"
+    },
+    {
+      "aspect": "square",
+      "scene": "source-boundary",
+      "captionOverlap": false,
+      "missing": 0,
+      "font": true,
+      "overflow": [],
+      "file": "[dated-local-evidence-omitted]",
+      "sha256": "026842a96fbdc42284309ee0a3a2fcd5cabcd61016b67d480adfca1d8f8968e6"
+    },
+    {
+      "aspect": "square",
+      "scene": "evidence",
+      "captionOverlap": false,
+      "missing": 0,
+      "font": true,
+      "overflow": [],
+      "file": "[dated-local-evidence-omitted]",
+      "sha256": "38a49289b465e2a3dc48c1cc3b1b30f90b7bab4f1a4581de2911a797825471c6"
+    },
+    {
+      "aspect": "square",
+      "scene": "publication",
+      "captionOverlap": false,
+      "missing": 0,
+      "font": true,
+      "overflow": [],
+      "file": "[dated-local-evidence-omitted]",
+      "sha256": "b4852fc84b646bcc0a09b1377a558268b35c6ea33b510e8b7ce0332e432ae88b"
+    },
+    {
+      "aspect": "square",
+      "scene": "closing",
+      "captionOverlap": false,
+      "missing": 0,
+      "font": true,
+      "overflow": [],
+      "file": "[dated-local-evidence-omitted]",
+      "sha256": "5aaaff8ae574ed259d0ce4611333f57d60c74aeb6bcc8deb5fd629745eeea960"
+    },
+    {
+      "aspect": "portrait",
+      "scene": "title",
+      "captionOverlap": false,
+      "missing": 0,
+      "font": true,
+      "overflow": [],
+      "file": "[dated-local-evidence-omitted]",
+      "sha256": "9e259fe70c1d4eb96c22d33926f6f277a7ea82d51335480c8a119294304f002d"
+    },
+    {
+      "aspect": "portrait",
+      "scene": "interview",
+      "captionOverlap": false,
+      "missing": 0,
+      "font": true,
+      "overflow": [],
+      "file": "[dated-local-evidence-omitted]",
+      "sha256": "67292b77cd8ea74cb07f42613e7a14ccaf6bf749fee907c8f95a267130f37e08"
+    },
+    {
+      "aspect": "portrait",
+      "scene": "source-boundary",
+      "captionOverlap": false,
+      "missing": 0,
+      "font": true,
+      "overflow": [],
+      "file": "[dated-local-evidence-omitted]",
+      "sha256": "59357b8a963eebadc4f959acaa11c438eb79512fd8c09649512751f0a1361826"
+    },
+    {
+      "aspect": "portrait",
+      "scene": "evidence",
+      "captionOverlap": false,
+      "missing": 0,
+      "font": true,
+      "overflow": [],
+      "file": "[dated-local-evidence-omitted]",
+      "sha256": "286ce755e2c1a86e558e2a245f80bb3cf9f9ebe71b3f176cd6f48d055f770166"
+    },
+    {
+      "aspect": "portrait",
+      "scene": "publication",
+      "captionOverlap": false,
+      "missing": 0,
+      "font": true,
+      "overflow": [],
+      "file": "[dated-local-evidence-omitted]",
+      "sha256": "823ff0f7d36c15bba5d18a2db5fe9ac4a40fb6821d51e0f98c1aa39e846af60a"
+    },
+    {
+      "aspect": "portrait",
+      "scene": "closing",
+      "captionOverlap": false,
+      "missing": 0,
+      "font": true,
+      "overflow": [],
+      "file": "[dated-local-evidence-omitted]",
+      "sha256": "63957db22536d4bc0aad6f6806ab560826235c75785c43910abadc78afda979d"
+    }
+  ],
+  "proofs": [
+    {
+      "aspect": "landscape",
+      "file": "brand-library/packages/video/revisions/v4/Outspoken-v4-style-proof-landscape.mp4",
+      "bytes": 279625,
+      "sha256": "3da2a56f446feddd90254a796f8c84c0017f9cd44a2d25f5f5a74d25aa02c556",
+      "crf": 28,
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.64001f",
+            "width": 960,
+            "height": 540,
+            "coded_width": 960,
+            "coded_height": 540,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 31,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "time_base": "1/15360",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 276480,
+            "duration": "18.000000",
+            "bit_rate": "121143",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "540",
+            "extradata_size": 44,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "encoder": "Lavc62.28.100 libx264"
+            }
+          }
+        ],
+        "format": {
+          "filename": "brand-library/packages/video/revisions/v4/Outspoken-v4-style-proof-landscape.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "18.000000",
+          "size": "279625",
+          "bit_rate": "124277",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf62.12.100"
+          }
+        }
+      },
+      "full_decode": "PASS",
+      "six_scene_decoded_captures": "PASS",
+      "decoded_frames": [
+        {
+          "seconds": 1.5,
+          "file": "[dated-local-evidence-omitted]",
+          "sha256": "d16cd18a09e7fd80dea336746ca6d8aefe67b7df1cce0df7f96fc6cb60e9a6cd"
+        },
+        {
+          "seconds": 4.5,
+          "file": "[dated-local-evidence-omitted]",
+          "sha256": "a17a49f4812edc44fc79b40f5ef58526e69a92c347c529af7093124ea1ebb251"
+        },
+        {
+          "seconds": 7.5,
+          "file": "[dated-local-evidence-omitted]",
+          "sha256": "d5ac64a610a279c268be7d6a9641cbdacb59bcc761d840f6104f8fd1da28127c"
+        },
+        {
+          "seconds": 10.5,
+          "file": "[dated-local-evidence-omitted]",
+          "sha256": "836e1f1c25a1eab79c273124a87d3528cfc710a569612241f7c5493f2d45fc10"
+        },
+        {
+          "seconds": 13.5,
+          "file": "[dated-local-evidence-omitted]",
+          "sha256": "76e41bbf454419da1de3e02855216905cb04f33f56f43bb0f33fa3c228f4eb9b"
+        },
+        {
+          "seconds": 16.5,
+          "file": "[dated-local-evidence-omitted]",
+          "sha256": "4031a6627d253afa0d41f950dee2a394a35c65964b963ce0a77f86f8c1a73ab7"
+        }
+      ]
+    },
+    {
+      "aspect": "square",
+      "file": "brand-library/packages/video/revisions/v4/Outspoken-v4-style-proof-square.mp4",
+      "bytes": 250789,
+      "sha256": "3b4ef73f53005ebc566df168b153dfb06cd45a798ac2850e86a27de5f580aee0",
+      "crf": 28,
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.64001f",
+            "width": 720,
+            "height": 720,
+            "coded_width": 720,
+            "coded_height": 720,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 31,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "time_base": "1/15360",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 276480,
+            "duration": "18.000000",
+            "bit_rate": "108267",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "540",
+            "extradata_size": 43,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "encoder": "Lavc62.28.100 libx264"
+            }
+          }
+        ],
+        "format": {
+          "filename": "brand-library/packages/video/revisions/v4/Outspoken-v4-style-proof-square.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "18.000000",
+          "size": "250789",
+          "bit_rate": "111461",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf62.12.100"
+          }
+        }
+      },
+      "full_decode": "PASS",
+      "six_scene_decoded_captures": "PASS",
+      "decoded_frames": [
+        {
+          "seconds": 1.5,
+          "file": "[dated-local-evidence-omitted]",
+          "sha256": "b0dacaf2d42c4040330cf6b5306951aaffca64cca612ba12e9079b65697d7466"
+        },
+        {
+          "seconds": 4.5,
+          "file": "[dated-local-evidence-omitted]",
+          "sha256": "2c7d292396a991f68a619649f346298b79ff8919ebfa4272bc52a7b4914300c9"
+        },
+        {
+          "seconds": 7.5,
+          "file": "[dated-local-evidence-omitted]",
+          "sha256": "24e5ce9503e7027cc6b434fb4f54de613eef4282e52aefd5fcd5af227a9708e5"
+        },
+        {
+          "seconds": 10.5,
+          "file": "[dated-local-evidence-omitted]",
+          "sha256": "a8fd995594fb03c315d421295dfba7191a29cc3d1e898844a61e1d45046eaf31"
+        },
+        {
+          "seconds": 13.5,
+          "file": "[dated-local-evidence-omitted]",
+          "sha256": "f74560a963141fbaac8496df998abcd4caa7c192506a78f63d491b31e181850f"
+        },
+        {
+          "seconds": 16.5,
+          "file": "[dated-local-evidence-omitted]",
+          "sha256": "aa24ee770279dd186766e4708a1a6e71e0ce23d76dc3abf2e3db8eb98336b616"
+        }
+      ]
+    },
+    {
+      "aspect": "portrait",
+      "file": "brand-library/packages/video/revisions/v4/Outspoken-v4-style-proof-portrait.mp4",
+      "bytes": 287030,
+      "sha256": "2607bdb7f1cd90130b7ff2297f8179134c12362a582b19c0bb88a16b11251b1b",
+      "crf": 28,
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.64001f",
+            "width": 540,
+            "height": 960,
+            "coded_width": 540,
+            "coded_height": 960,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 31,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "time_base": "1/15360",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 276480,
+            "duration": "18.000000",
+            "bit_rate": "124459",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "540",
+            "extradata_size": 44,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "encoder": "Lavc62.28.100 libx264"
+            }
+          }
+        ],
+        "format": {
+          "filename": "brand-library/packages/video/revisions/v4/Outspoken-v4-style-proof-portrait.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "18.000000",
+          "size": "287030",
+          "bit_rate": "127568",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf62.12.100"
+          }
+        }
+      },
+      "full_decode": "PASS",
+      "six_scene_decoded_captures": "PASS",
+      "decoded_frames": [
+        {
+          "seconds": 1.5,
+          "file": "[dated-local-evidence-omitted]",
+          "sha256": "8e661138bd1331cacd574af7d5d369493c4790fc46ba8e4fbb9780ba7bd8a672"
+        },
+        {
+          "seconds": 4.5,
+          "file": "[dated-local-evidence-omitted]",
+          "sha256": "61b5184d120655ea4cd50e193aebaaacaf3b045839eb0c2c06fe3356ccbbf623"
+        },
+        {
+          "seconds": 7.5,
+          "file": "[dated-local-evidence-omitted]",
+          "sha256": "bd2906c264af512ff38e68ec2ab066261b36ee55bb2747f7dbfa1dfc58ac632d"
+        },
+        {
+          "seconds": 10.5,
+          "file": "[dated-local-evidence-omitted]",
+          "sha256": "029e4b6b36944773f2f2460afac4d2ff8690fc317d78f649754148e7e9be70e4"
+        },
+        {
+          "seconds": 13.5,
+          "file": "[dated-local-evidence-omitted]",
+          "sha256": "45ed6ceea774e0fd6fd8dc678903871aac84c6c5a152c8198e358b4957421b70"
+        },
+        {
+          "seconds": 16.5,
+          "file": "[dated-local-evidence-omitted]",
+          "sha256": "c60e27b36cac49c9d0f6e0d1c4fa95c9bd5440725043bd4338e3f715504de15c"
+        }
+      ]
+    }
+  ]
+}

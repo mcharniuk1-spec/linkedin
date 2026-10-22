@@ -1,0 +1,271 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "390/ reduced readable bounds",
+      "pass": true,
+      "detail": {
+        "reduced": true,
+        "overflow": false,
+        "text": 15027
+      }
+    },
+    {
+      "name": "390/services reduced readable bounds",
+      "pass": true,
+      "detail": {
+        "reduced": true,
+        "overflow": false,
+        "text": 2005
+      }
+    },
+    {
+      "name": "390/contact reduced readable bounds",
+      "pass": true,
+      "detail": {
+        "reduced": true,
+        "overflow": false,
+        "text": 697
+      }
+    },
+    {
+      "name": "390/confirmation reduced readable bounds",
+      "pass": true,
+      "detail": {
+        "reduced": true,
+        "overflow": false,
+        "text": 346
+      }
+    },
+    {
+      "name": "390/credits reduced readable bounds",
+      "pass": true,
+      "detail": {
+        "reduced": true,
+        "overflow": false,
+        "text": 791
+      }
+    },
+    {
+      "name": "390/design-system reduced readable bounds",
+      "pass": true,
+      "detail": {
+        "reduced": true,
+        "overflow": false,
+        "text": 18076
+      }
+    },
+    {
+      "name": "390keyboard first focus visible",
+      "pass": true,
+      "detail": {
+        "tag": "A",
+        "hasFocus": true,
+        "pseudoFocus": true,
+        "rect": {
+          "x": 24,
+          "y": 16,
+          "width": 161.40625,
+          "height": 53.59375,
+          "top": 16,
+          "right": 185.40625,
+          "bottom": 69.59375,
+          "left": 24
+        }
+      }
+    },
+    {
+      "name": "390reduced story readable flow",
+      "pass": true,
+      "detail": "flow"
+    },
+    {
+      "name": "390public form disabled",
+      "pass": true
+    },
+    {
+      "name": "768/ reduced readable bounds",
+      "pass": true,
+      "detail": {
+        "reduced": true,
+        "overflow": false,
+        "text": 15027
+      }
+    },
+    {
+      "name": "768/services reduced readable bounds",
+      "pass": true,
+      "detail": {
+        "reduced": true,
+        "overflow": false,
+        "text": 2374
+      }
+    },
+    {
+      "name": "768/contact reduced readable bounds",
+      "pass": true,
+      "detail": {
+        "reduced": true,
+        "overflow": false,
+        "text": 697
+      }
+    },
+    {
+      "name": "768/confirmation reduced readable bounds",
+      "pass": true,
+      "detail": {
+        "reduced": true,
+        "overflow": false,
+        "text": 346
+      }
+    },
+    {
+      "name": "768/credits reduced readable bounds",
+      "pass": true,
+      "detail": {
+        "reduced": true,
+        "overflow": false,
+        "text": 791
+      }
+    },
+    {
+      "name": "768/design-system reduced readable bounds",
+      "pass": true,
+      "detail": {
+        "reduced": true,
+        "overflow": false,
+        "text": 18076
+      }
+    },
+    {
+      "name": "768keyboard first focus visible",
+      "pass": true,
+      "detail": {
+        "tag": "A",
+        "hasFocus": true,
+        "pseudoFocus": true,
+        "rect": {
+          "x": 24,
+          "y": 16,
+          "width": 161.40625,
+          "height": 53.59375,
+          "top": 16,
+          "right": 185.40625,
+          "bottom": 69.59375,
+          "left": 24
+        }
+      }
+    },
+    {
+      "name": "768reduced story readable flow",
+      "pass": true,
+      "detail": "flow"
+    },
+    {
+      "name": "768public form disabled",
+      "pass": true
+    },
+    {
+      "name": "1440/ reduced readable bounds",
+      "pass": true,
+      "detail": {
+        "reduced": true,
+        "overflow": false,
+        "text": 15166
+      }
+    },
+    {
+      "name": "1440/services reduced readable bounds",
+      "pass": true,
+      "detail": {
+        "reduced": true,
+        "overflow": false,
+        "text": 2414
+      }
+    },
+    {
+      "name": "1440/contact reduced readable bounds",
+      "pass": true,
+      "detail": {
+        "reduced": true,
+        "overflow": false,
+        "text": 737
+      }
+    },
+    {
+      "name": "1440/confirmation reduced readable bounds",
+      "pass": true,
+      "detail": {
+        "reduced": true,
+        "overflow": false,
+        "text": 386
+      }
+    },
+    {
+      "name": "1440/credits reduced readable bounds",
+      "pass": true,
+      "detail": {
+        "reduced": true,
+        "overflow": false,
+        "text": 831
+      }
+    },
+    {
+      "name": "1440/design-system reduced readable bounds",
+      "pass": true,
+      "detail": {
+        "reduced": true,
+        "overflow": false,
+        "text": 18142
+      }
+    },
+    {
+      "name": "1440keyboard first focus visible",
+      "pass": true,
+      "detail": {
+        "tag": "A",
+        "hasFocus": true,
+        "pseudoFocus": true,
+        "rect": {
+          "x": 24,
+          "y": 16,
+          "width": 168.015625,
+          "height": 55.1875,
+          "top": 16,
+          "right": 192.015625,
+          "bottom": 71.1875,
+          "left": 24
+        }
+      }
+    },
+    {
+      "name": "1440reduced story readable flow",
+      "pass": true,
+      "detail": "flow"
+    },
+    {
+      "name": "1440public form disabled",
+      "pass": true
+    },
+    {
+      "name": "no errors",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no writes",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "no failed assets",
+      "pass": true,
+      "detail": []
+    }
+  ],
+  "counts": {
+    "passed": 30,
+    "failed": 0
+  },
+  "scope": "Reduced-motion390/768/1440, sixroutes, firstkeyboardfocus, flowfallback and disabledpublicform; no physicaldevice/fullWCAGclaim"
+}

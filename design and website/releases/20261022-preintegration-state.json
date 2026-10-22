@@ -1,0 +1,7 @@
+{
+  "status": "historical_incomplete_candidate",
+  "source_release": "20261022-outspoken-design-v9",
+  "source_manifest_sha256": "78b622cbcbf5743e87ec22644634d93de07590cd2fe9d4d5590bbcb25752d326",
+  "recorded_gaps": 63,
+  "reconciliation": "42read timeouts recovered; one generated artwork lineage resolved;20original rights exclusions plus one reference collage and two byte-identical beauty aliases remain local. Current snapshot tracked by ../release-manifest.json."
+}

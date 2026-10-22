@@ -1,0 +1,52 @@
+{
+  "id": "OS-LV4-004",
+  "name": "Say It",
+  "idea_family": "speech",
+  "meaning": "Three connected curved metal turns form a speaking bubble. One short structural tail belongs to the broad cobalt front, while a narrow silver band bridges the source and outward voice.",
+  "status": "original candidate; independent PM review pending; no lead selected",
+  "layers": [
+    {
+      "name": "navy curved layer1",
+      "material": "navy",
+      "path": "M33 18 C21 18 15 25 15 37 L15 72 C15 86 24 92 37 92 L87 92 C101 92 108 83 108 70 L108 36 C108 23 100 17 87 17 Z",
+      "depth": 0.13,
+      "bow": 0.2,
+      "z": 0.0,
+      "yaw": -0.08,
+      "roll": 0
+    },
+    {
+      "name": "silver curved layer2",
+      "material": "silver",
+      "path": "M16 43 C18 32 23 30 34 33 C60 35 89 45 107 61 L106 75 C84 58 56 48 16 55 Z",
+      "depth": 0.13,
+      "bow": 0.32,
+      "z": 0.16,
+      "yaw": 0.08,
+      "roll": 0
+    },
+    {
+      "name": "blue curved layer3",
+      "material": "blue",
+      "path": "M16 62 C41 55 77 66 105 81 C102 91 95 96 82 96 L61 96 L45 108 L43 95 L32 95 C20 95 16 85 16 76 Z",
+      "depth": 0.13,
+      "bow": 0.2,
+      "z": 0.32,
+      "yaw": -0.04,
+      "roll": 0
+    }
+  ],
+  "geometry": "Closed beveled extrusion of the editable curved paths with continuous bowed depth; original geometry, not a stock mesh",
+  "wordmark": "Always uppercase OUTSPOKEN. Exact Archivo730 outlines with optical manual tracking; only firstO has a narrow outward voice notch.",
+  "small_size_verdict": "Speech tail and one continuous outer silhouette remain clear at24/32. Preferred symbol candidate pending independent PM decision.",
+  "files": {
+    "glb": "model.glb",
+    "png": "beauty.png",
+    "webp": "beauty.webp",
+    "editable_svg": "flat.svg",
+    "outlined_lockup": "lockup-split.svg"
+  },
+  "curation_status": "primary_candidate",
+  "geometry_checks": "finite all attributes; valid all indices; nonzero real depth; permesh bounds recorded",
+  "render_quality_limit": "Procedural satin/material counterpart; smoother and less photorealistic than root generated brushed-metal art. No raster/GLB pixel parity claim."
+}

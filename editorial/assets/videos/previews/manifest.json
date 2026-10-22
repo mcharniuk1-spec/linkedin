@@ -1,0 +1,58 @@
+{
+  "expected": 2,
+  "actual": 2,
+  "previews": [
+    {
+      "id": "P14",
+      "path": "assets/videos/previews/P14-storyboard.mp4",
+      "bytes": 3896908,
+      "sha256": "62acb865371a49f54cb5d44e9300511c2ff8f4f8d91349753fa4952c141a1847",
+      "duration": 75.0,
+      "video": [
+        {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1"
+        }
+      ],
+      "audio_tracks": 0,
+      "full_decode_exit": 0,
+      "shot_durations": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "caption_path": "videos/scripts/P14.srt",
+      "status": "Silent storyboard of five generated stills; captions supplied separately in SRT. No recorded footage or spoken audio."
+    },
+    {
+      "id": "P15",
+      "path": "assets/videos/previews/P15-storyboard.mp4",
+      "bytes": 3611879,
+      "sha256": "8edb4fa81154e15400f0b63f533fdcaad889db60fdb17fe8dd128e9617a61530",
+      "duration": 75.0,
+      "video": [
+        {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 720,
+          "r_frame_rate": "25/1"
+        }
+      ],
+      "audio_tracks": 0,
+      "full_decode_exit": 0,
+      "shot_durations": [
+        13,
+        16,
+        14,
+        16,
+        16
+      ],
+      "caption_path": "videos/scripts/P15.srt",
+      "status": "Silent storyboard of five generated stills; captions supplied separately in SRT. No recorded footage or spoken audio."
+    }
+  ]
+}

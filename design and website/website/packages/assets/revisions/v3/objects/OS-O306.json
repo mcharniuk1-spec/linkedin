@@ -1,0 +1,104 @@
+{
+  "id": "OS-O306",
+  "name": "Publication stack",
+  "context": "One idea across several formats",
+  "rights": "Original authored meshes and glyphs; no third-party model or competitor media",
+  "render": {
+    "width": 600,
+    "height": 600,
+    "alpha": true,
+    "actual": "Three.js0.186.1 GLB source scene",
+    "toneMapping": "ACESFilmic",
+    "exposure": 0.9
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      2.3,
+      7
+    ],
+    "lookAt": [
+      1.1102230246251565e-16,
+      0,
+      0
+    ],
+    "extent": 1.4503612371196788
+  },
+  "meshes": [
+    {
+      "name": "publication sheet0",
+      "vertices": 4608,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "machined plate",
+      "vertices": 4548,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "citron / Outspoken V3"
+    },
+    {
+      "name": "machined plate",
+      "vertices": 4716,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "machined plate",
+      "vertices": 4792,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "machined plate",
+      "vertices": 4856,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "publication sheet1",
+      "vertices": 4608,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "paper / Outspoken V3"
+    },
+    {
+      "name": "publication sheet2",
+      "vertices": 4608,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "paper / Outspoken V3"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -1.0186760077944752,
+      -1.0766686704060677,
+      -0.2606007113501419
+    ],
+    "max": [
+      1.0186760077944754,
+      1.0766686704060677,
+      0.2606007113501419
+    ]
+  },
+  "kind": "semantic_object",
+  "usage": "Use beside posts, carousels and document sequencing.",
+  "limitations": [
+    "Procedural satin material, not a photographic surface capture.",
+    "Use the flat SVG for small UI; do not shrink a decorative 3D render below64px."
+  ]
+}

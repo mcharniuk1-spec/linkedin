@@ -1,0 +1,76 @@
+{
+  "id": "OS-V006",
+  "name": "Before/after comparison DEMO",
+  "version": "1.0.0-candidate",
+  "purpose": "Before/after comparison DEMO",
+  "layers": [
+    "background",
+    "support",
+    "subject/media",
+    "annotations",
+    "title/data",
+    "captions",
+    "identity/source/CTA"
+  ],
+  "asset_ids": [
+    "OS-O013"
+  ],
+  "component_ids": [
+    "OS-C053",
+    "OS-C054",
+    "OS-C055",
+    "OS-C057",
+    "OS-C060"
+  ],
+  "slots": {
+    "title": "Buyer-relevant statement",
+    "body": "Context or source",
+    "media": "Replaceable approved media",
+    "source": "Source locator and qualification",
+    "disclosure": "Fictional/demo where needed"
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "aspects": {
+    "landscape": [
+      1920,
+      1080
+    ],
+    "square": [
+      1080,
+      1080
+    ],
+    "portrait": [
+      1080,
+      1920
+    ]
+  },
+  "safe_area": "Internal5% edge and lower caption region; platform overlays require dated adapter",
+  "fps": 30,
+  "duration_seconds": 6,
+  "minimum_hold_seconds": 4,
+  "motion_preset": "OS-M002",
+  "reduced_static": "Final state, no travel; full text counterpart",
+  "captions": "Max2lines; source/disclaimer separate and persistent; no voice/audio included",
+  "transition": "Actual MP4:11frames at30fps linear opacity-only fade; web OS-M002 is .36s cubic plus translation. See frame-adapter.json; equivalence not claimed.",
+  "status": "native_layouts_rendered_reviewed_scoped_owner_pending",
+  "truth": "No client proof or recording implied",
+  "artwork_by_aspect": {
+    "landscape": "packages/video/scenes/OS-V006.svg",
+    "square": "packages/video/scenes/OS-V006-square.svg",
+    "portrait": "packages/video/scenes/OS-V006-portrait.svg"
+  },
+  "composition_source": "[dated-local-evidence-omitted]",
+  "source_hashes_by_aspect": {
+    "landscape": "a516a7234ff902b8386bed690a46869e8289b0d5926ca88c18371dabfbbc10b7",
+    "square": "8e1853fa1dc9284008481d22358c49167c6521071b34c610e8d6e4896be62506",
+    "portrait": "b59b00239de7a7d289a88b0bddc42f62e631e07efe7cb62b27a1eac55645f905"
+  },
+  "review_refs": [
+    "[dated-local-evidence-omitted]",
+    "[dated-local-evidence-omitted]",
+    "[dated-local-evidence-omitted]"
+  ]
+}

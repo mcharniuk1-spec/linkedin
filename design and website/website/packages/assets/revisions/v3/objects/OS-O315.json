@@ -1,0 +1,96 @@
+{
+  "id": "OS-O315",
+  "name": "Spotlight",
+  "context": "Attention on the right point",
+  "rights": "Original authored meshes and glyphs; no third-party model or competitor media",
+  "render": {
+    "width": 600,
+    "height": 600,
+    "alpha": true,
+    "actual": "Three.js0.186.1 GLB source scene",
+    "toneMapping": "ACESFilmic",
+    "exposure": 0.9
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      2.3,
+      7
+    ],
+    "lookAt": [
+      0,
+      0,
+      0
+    ],
+    "extent": 1.4190478016444688
+  },
+  "meshes": [
+    {
+      "name": "spotlight housing",
+      "vertices": 196,
+      "triangles": 192,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "rounded metal arc",
+      "vertices": 845,
+      "triangles": 1536,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "metal barrel",
+      "vertices": 196,
+      "triangles": 192,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "metal barrel",
+      "vertices": 196,
+      "triangles": 192,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "focused light",
+      "vertices": 423,
+      "triangles": 720,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "citron / Outspoken V3"
+    },
+    {
+      "name": "light cradle",
+      "vertices": 451,
+      "triangles": 800,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.758326198801906,
+      -1.012769926427528,
+      -0.5340099927724833
+    ],
+    "max": [
+      0.758326198801906,
+      1.012769926427528,
+      0.5340099927724833
+    ]
+  },
+  "kind": "semantic_object",
+  "usage": "Use for one selected buyer question or product insight.",
+  "limitations": [
+    "Procedural satin material, not a photographic surface capture.",
+    "Use the flat SVG for small UI; do not shrink a decorative 3D render below64px."
+  ]
+}

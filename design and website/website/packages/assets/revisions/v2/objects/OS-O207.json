@@ -1,0 +1,123 @@
+{
+  "version": "2.0.0",
+  "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+  "units": "nominal metres",
+  "pivot": "ground centre; Y up; +Z front",
+  "materialRecipe": {
+    "version": "2.0.0",
+    "seed": 191026,
+    "palette": {
+      "navy": "#162760",
+      "cobalt": "#3157D5",
+      "nickel": "#A9AFBA"
+    },
+    "brush": {
+      "direction": "horizontal local UV",
+      "resolution": [
+        1024,
+        512
+      ],
+      "bumpScale": 0.007
+    },
+    "light": {
+      "key": [
+        -3,
+        5,
+        6
+      ],
+      "fill": [
+        4,
+        1,
+        4
+      ],
+      "rim": [
+        2,
+        4,
+        -4
+      ]
+    },
+    "toneMapping": "ACESFilmic",
+    "exposure": 1.05
+  },
+  "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+  "id": "OS-O207",
+  "semanticKey": "O07",
+  "meaning": "Capability to value",
+  "layers": "Named closed meshes; editable geometry/materials; no baked text",
+  "bounds": {
+    "min": [
+      -1.3166547637614918,
+      0,
+      -0.37062016948321846
+    ],
+    "max": [
+      1.316654763761492,
+      2.0050000190734862,
+      0.3706201694832184
+    ]
+  },
+  "size": [
+    2.633309527522984,
+    2.0050000190734862,
+    0.7412403389664368
+  ],
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      3.302500009536743,
+      6.5
+    ],
+    "lookAt": [
+      1.1102230246251565e-16,
+      1.0025000095367431,
+      -2.7755575615628914e-17
+    ],
+    "extent": 1.5310681568474025
+  },
+  "lighting": {
+    "key": [
+      -3,
+      5,
+      6
+    ],
+    "fill": [
+      4,
+      1,
+      4
+    ],
+    "rim": [
+      2,
+      4,
+      -4
+    ]
+  },
+  "render": {
+    "width": 1200,
+    "height": 1200,
+    "background": "transparent",
+    "color": "sRGB",
+    "toneMapping": "ACES Filmic 1.05"
+  },
+  "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+  "meshes": [
+    {
+      "name": "Capability lower plane",
+      "material": "Brushed anodised deep navy alloy",
+      "vertices": 11748,
+      "triangles": 3916
+    },
+    {
+      "name": "Value upper plane",
+      "material": "Brushed anodised brilliant cobalt alloy",
+      "vertices": 11748,
+      "triangles": 3916
+    },
+    {
+      "name": "Exact capability-value bridge",
+      "material": "Fine brushed neutral nickel",
+      "vertices": 1140,
+      "triangles": 2276
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "OS-O316",
+  "name": "Play frame",
+  "context": "A story in motion",
+  "rights": "Original authored meshes and glyphs; no third-party model or competitor media",
+  "render": {
+    "width": 600,
+    "height": 600,
+    "alpha": true,
+    "actual": "Three.js0.186.1 GLB source scene",
+    "toneMapping": "ACESFilmic",
+    "exposure": 0.9
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      2.3,
+      7
+    ],
+    "lookAt": [
+      0,
+      0,
+      0
+    ],
+    "extent": 1.121762164023184
+  },
+  "meshes": [
+    {
+      "name": "thin video plane",
+      "vertices": 9460,
+      "triangles": 4224,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "play symbol",
+      "vertices": 114,
+      "triangles": 44,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "citron / Outspoken V3"
+    },
+    {
+      "name": "video timeline",
+      "vertices": 231,
+      "triangles": 400,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.9740586088709381,
+      -0.6740000247955322,
+      -0.18460222800325587
+    ],
+    "max": [
+      0.9740586088709381,
+      0.6740000247955322,
+      0.18460222800325587
+    ]
+  },
+  "kind": "semantic_object",
+  "usage": "Use beside founder video or product walkthrough media.",
+  "limitations": [
+    "Procedural satin material, not a photographic surface capture.",
+    "Use the flat SVG for small UI; do not shrink a decorative 3D render below64px."
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "OS-P011",
+  "version": "1.0.0-candidate",
+  "name": "Video cover/overlay adapter",
+  "purpose": "title / portrait or object / caption-safe region / source",
+  "reader": "Europe-based B2B AI SaaS founders",
+  "slots": [
+    "title",
+    "portrait or object",
+    "caption-safe region",
+    "source"
+  ],
+  "required_evidence": "Source for factual claims; visibly illustrative when evidence not supplied",
+  "type_scale": {
+    "kind": "actual_native_SVG_font_sizes",
+    "px": [
+      42,
+      72
+    ],
+    "font": "Inter embedded exact licensed font",
+    "phone_review": "360px preview, essential text reviewed; source is final nativeSVG"
+  },
+  "native_source": "SVG text and geometry; content remains separate JSON",
+  "formats": [
+    "internal portrait1080x1350",
+    "square1080",
+    "landscape with recomposition"
+  ],
+  "placement_adapter": "design/platform-adapters; internal presets until official organic constraints verified",
+  "review": "pending owner review; no account preview",
+  "export": "SVG source; PNG/PDF via browser renderer",
+  "accessibility": "alt/transcript from content JSON; HTML counterpart",
+  "canonical_components": [
+    "OS-C043",
+    "OS-C047",
+    "OS-C051"
+  ],
+  "example_files": [
+    "packages/content/templates/OS-P011.svg"
+  ],
+  "cta": {
+    "label": "Book an intro call",
+    "destination": null,
+    "state": "unavailable link"
+  },
+  "composition_source": "[dated-local-evidence-omitted]",
+  "content_lineage": {
+    "source_ids": [
+      "SRC-OWNER",
+      "SRC-SERVICE-COPY"
+    ],
+    "claim_state": "editorial opinion or proposed method; no client evidence",
+    "exact_artwork_sha256": "0413a097404282c1686d40ae0698cf00599a24f10cafc3f3c25a6607fe4185aa"
+  },
+  "generation_starting_scale": {
+    "headline": 72,
+    "body": 42,
+    "source": 42,
+    "label": 42,
+    "at360px_portrait": "42px / 3 = 14px; verify actual render/line bounds"
+  },
+  "format_status": {
+    "created_native_canvas": [
+      1080,
+      1350
+    ],
+    "other_listed_formats": "Adaptation options only; not all formats exported for every publication family"
+  },
+  "review_evidence": "[dated-local-evidence-omitted]"
+}

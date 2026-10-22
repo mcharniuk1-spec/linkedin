@@ -1,0 +1,184 @@
+{
+  "version": "4.0.0-candidate",
+  "state": "v4_local_implemented_scoped_verified_owner_pending",
+  "exemplar": "[dated-local-evidence-omitted]",
+  "materials": {
+    "nickel": {
+      "appearance": "CurrentnativeV4:matte/anodizedsilverwithsmoothedcapnormals. Photographicfinebrushingbelongs toseparategeneratedbeautyandisnotexactnativeparity.",
+      "metalness_start": 0.85,
+      "roughness_start": 0.42,
+      "anisotropy": "fine, low-contrast brushing; select renderer-supported value through pilot"
+    },
+    "cobalt": {
+      "appearance": "opaque coated blue plane, controlled reflection, no wet plastic",
+      "metalness_start": 0.2,
+      "roughness_start": 0.5
+    },
+    "paper": {
+      "appearance": "matte fiber texture, believable thickness and optional small fold",
+      "roughness_start": 0.85,
+      "scope": "editorial artifact only"
+    }
+  },
+  "light": {
+    "key": "large soft upper-left source",
+    "fill": "neutral and restrained",
+    "shadow": "neutral/navy contact shadow with single coherent direction",
+    "accent": "small edge glint or focal light; no full-surface shimmer"
+  },
+  "camera": {
+    "object": "shallow realistic volume, consistent perspective in same scene; test near-orthographic and 50\u201370mm-equivalent views",
+    "portrait": "eye-level 50\u201385mm-equivalent visual perspective, natural medium close composition",
+    "media_tilt_degrees_start": [
+      -18,
+      18
+    ],
+    "ui_reading_surface": "front-facing"
+  },
+  "composition": {
+    "dominant_focal_objects": 1,
+    "overlap_default_max_media_layers": 2,
+    "optional_backing_layer": "Only with clear separation and purpose",
+    "text_never_occluded": true,
+    "annotation_clearance_px_start": 24,
+    "reading_panel_separation_px_start": 24,
+    "z_order": [
+      "background",
+      "quiet environment/backing",
+      "main subject/media",
+      "support publication or diagram",
+      "annotations",
+      "editable labels/controls",
+      "accessible focus overlay"
+    ]
+  },
+  "prohibited": [
+    "watery translucent slabs",
+    "inflated glass/chrome blobs",
+    "generic stock/toy 3D pack",
+    "repeated citron L/corner arrows",
+    "standalone service-icon row",
+    "unlabelled music props unrelated to founder voice",
+    "unmotivated cubes/trophies/pedestals",
+    "random camera/light direction per object",
+    "small text baked into generated images"
+  ],
+  "optical_edge_cues": "Permitted subtle liquid-like edge catchlights/refraction on selected frames/buttons; preserve solid body and legibility.",
+  "historical_exemplar": "Corrected V10 customer-problem blue/silver planes",
+  "current_material_kit": "../brand-library/packages/assets/revisions/v4/identity/OS-LV4-004/recipe.json",
+  "historical_v2": {
+    "metal": "Satin navy/cobalt and restrained brushed nickel; real closed/bevelledgeometry. Brushing softer than owner photographic reference.",
+    "paper": "OriginalTX201at10\u201318% on selectedpaperplates, cleanwhitepage. Cotton/laidinspiration; noexactstock orprintproof claim.",
+    "camera": "Orthographicobject framing; Y up,+Zfront; camera[3.6,3.4,6.5] aimingatobjectcentre; inspectgaps/silhouette beforeuse.",
+    "light": {
+      "key": [
+        -3,
+        5,
+        6
+      ],
+      "fill": [
+        4,
+        1,
+        4
+      ],
+      "rim": [
+        2,
+        4,
+        -4
+      ]
+    },
+    "photo_contract": "brand-library/packages/assets/revisions/v2/photos/frames/native-layer-contract.json",
+    "backgrounds": "EachframeJSON recordsplacementGuide; foreground/media/backgroundplanes separate.",
+    "white_balance": "White/paperdominant byopticalreview; no measuredpercentageclaim."
+  },
+  "historical_v3": {
+    "identity": "OS-LV3-001 Open Interval; Out#162760 / spoken#A9AFBA. Keep flat vectors for small use, mark minimum24px.",
+    "material_recipe": "../brand-library/packages/assets/revisions/v3/identity/material-recipe.json",
+    "objects": "../brand-library/packages/assets/revisions/v3/objects/manifest.json",
+    "photo_directions": "Five explicit native treatments and book/photo instructions; fictional humans remain disclosed.",
+    "background": "Sound/resonance contours dominate. One subtle water image on home at4.5%opacity. Paper remains matte and quiet.",
+    "new_asset_procedure": "Use the per-asset camera/material/placement JSON, render alpha preview on white/navy, inspect all silhouette edges, provide flat glyph and semantic caption. Do not auto-promote a new variation without rendered review.",
+    "word_sculptures": "11 true extruded GLBs; display art, not body copy or small controls.",
+    "book": "../brand-library/design/v3-book/index.html",
+    "native_map": "../brand-library/design/v3-figma-map.json"
+  },
+  "v4": {
+    "identity": "OS-LV4-004 Say It;006editorialalternative;008compactalternative",
+    "case": "OUTSPOKEN only forlogo/signature;preserveexactprotectedcopyandliteralhistoricalpaths",
+    "font": "LicensedArchivo730withrecordedopticalkerningandoriginalfirstOvoice-notch",
+    "wordmark_treatments": [
+      "gradient",
+      "split",
+      "inverse",
+      "mono",
+      "citron"
+    ],
+    "primary_wordmark": "gradient",
+    "custom_O_rule": "Useexactoutline/vector-maskforcustomO;nativeeditabletextcompanionisforlayout/copy,notlicense tosubstituteanordinaryO",
+    "identity_manifest": "../brand-library/packages/assets/revisions/v4/identity/manifest.json",
+    "recipe": "../brand-library/packages/assets/revisions/v4/identity/OS-LV4-004/recipe.json",
+    "independent_review": "[dated-local-evidence-omitted]",
+    "material_limit": "ActualGLBlooks matte/anodized. Generatedbrushedbeauty isseparateartdirection;nosamegeometry/materialpixel-parityclaim.",
+    "objects": "../brand-library/packages/assets/revisions/v3/objects/manifest.json",
+    "word_sculpture": "OS-W311 nowOUTSPOKEN;not navigationwordmark",
+    "catalog": "../brand-library/packages/catalog-v3/manifest.json version4brandrefresh88",
+    "native_state": "Verified final scoped readback:3pages75vars14styles45buttonvariants;0measuredtextbounds/missingimages. No allpixelparity claim.",
+    "book_film_state": "44-pageV4book/105images/21checks and3silent18secondfilms; postrepairbookreviewPASS.",
+    "verification_receipts": {
+      "native": "[dated-local-evidence-omitted]",
+      "native_map": "brand-library/design/v4-figma-map.json",
+      "book_handoff": "[dated-local-evidence-omitted]",
+      "book_review": "[dated-local-evidence-omitted]",
+      "film_handoff": "[dated-local-evidence-omitted]",
+      "storybook": "[dated-local-evidence-omitted]",
+      "site": "[dated-local-evidence-omitted]",
+      "applied_site": "[dated-local-evidence-omitted]",
+      "sales": "[dated-local-evidence-omitted]",
+      "storybook_source_parity": "[dated-local-evidence-omitted]",
+      "storybook_final_handoff": "[dated-local-evidence-omitted]"
+    },
+    "observed_counts": {
+      "figma_pages": 3,
+      "variables": 75,
+      "text_styles": 14,
+      "native_button_variants": 45,
+      "active_components_by_page": [
+        13,
+        41,
+        339
+      ],
+      "active_components_total": 393,
+      "component_sets": 74,
+      "native_texts": 3358,
+      "native_vectors": 1165,
+      "text_bounds_violations": 0,
+      "missing_images": 0,
+      "book_pages": 44,
+      "book_images": 105,
+      "book_finite_checks": "21/21",
+      "films": 3,
+      "film_duration_seconds": 18,
+      "storybook_entries": 211,
+      "storybook_stories": 145,
+      "storybook_docs": 66,
+      "storybook_checks": "40/40",
+      "site_checks": "48/48",
+      "sales_documents": 4,
+      "sales_pdf_pages": 10,
+      "sales_checks": "8/8"
+    },
+    "native_map": "../brand-library/design/v4-figma-map.json",
+    "agent_guide": "revisions/20261020-v4-agent-guide.md",
+    "owner_accepted": false,
+    "delivery_scope": "local_only"
+  },
+  "current_v5": {
+    "identity": "Selectedstudy01 solid capsule microphone",
+    "case": "OUTSPOKEN",
+    "primary_2D_wordmark": "Solid navy OUT#162760 and full solid Nickel silver SPOKEN#A9AFBA; no horizontal glint or color transition",
+    "compatibility_paths": "Existing wordmark-gradient.svg and lockup-gradient.svg filenames are technical compatibility names; their primary2D fills are solid.",
+    "geometry": "Preserve Archivo730 outlines, customfirstO,tracking andmetrics.",
+    "material_boundary": "Natural metal reflections in actual3D wordmark, GLB views and preserved reference art remain valid and unchanged.",
+    "history": "The v4 block is dated historical guidance; currentV5 owner steering controls primary2D use."
+  }
+}

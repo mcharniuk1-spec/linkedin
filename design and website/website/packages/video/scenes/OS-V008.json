@@ -1,0 +1,76 @@
+{
+  "id": "OS-V008",
+  "name": "Closing/action",
+  "version": "1.0.0-candidate",
+  "purpose": "Closing/action",
+  "layers": [
+    "background",
+    "support",
+    "subject/media",
+    "annotations",
+    "title/data",
+    "captions",
+    "identity/source/CTA"
+  ],
+  "asset_ids": [
+    "OS-O013"
+  ],
+  "component_ids": [
+    "OS-C053",
+    "OS-C054",
+    "OS-C055",
+    "OS-C057",
+    "OS-C060"
+  ],
+  "slots": {
+    "title": "Buyer-relevant statement",
+    "body": "Context or source",
+    "media": "Replaceable approved media",
+    "source": "Source locator and qualification",
+    "disclosure": "Fictional/demo where needed"
+  },
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "aspects": {
+    "landscape": [
+      1920,
+      1080
+    ],
+    "square": [
+      1080,
+      1080
+    ],
+    "portrait": [
+      1080,
+      1920
+    ]
+  },
+  "safe_area": "Internal5% edge and lower caption region; platform overlays require dated adapter",
+  "fps": 30,
+  "duration_seconds": 6,
+  "minimum_hold_seconds": 4,
+  "motion_preset": "OS-M002",
+  "reduced_static": "Final state, no travel; full text counterpart",
+  "captions": "Max2lines; source/disclaimer separate and persistent; no voice/audio included",
+  "transition": "Actual MP4:11frames at30fps linear opacity-only fade; web OS-M002 is .36s cubic plus translation. See frame-adapter.json; equivalence not claimed.",
+  "status": "native_layouts_rendered_reviewed_scoped_owner_pending",
+  "truth": "No client proof or recording implied",
+  "artwork_by_aspect": {
+    "landscape": "packages/video/scenes/OS-V008.svg",
+    "square": "packages/video/scenes/OS-V008-square.svg",
+    "portrait": "packages/video/scenes/OS-V008-portrait.svg"
+  },
+  "composition_source": "[dated-local-evidence-omitted]",
+  "source_hashes_by_aspect": {
+    "landscape": "4ebaff207adbf67b8c27f8c52abc07a2b6e404855626e86f757e0de85ad5c4fc",
+    "square": "7395def45e1d2fdaf8383e9d61a73eaa131ea72d4573bdfc6837a9f45203eb44",
+    "portrait": "f0905dd62b078bbf1e54a19778d3810b73280ef44a3a08009b97eaf7eea2902c"
+  },
+  "review_refs": [
+    "[dated-local-evidence-omitted]",
+    "[dated-local-evidence-omitted]",
+    "[dated-local-evidence-omitted]"
+  ]
+}

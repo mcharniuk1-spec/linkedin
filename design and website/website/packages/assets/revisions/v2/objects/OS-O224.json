@@ -1,0 +1,141 @@
+{
+  "version": "2.0.0",
+  "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+  "units": "nominal metres",
+  "pivot": "ground centre; Y up; +Z front",
+  "materialRecipe": {
+    "version": "2.0.0",
+    "seed": 191026,
+    "palette": {
+      "navy": "#162760",
+      "cobalt": "#3157D5",
+      "nickel": "#A9AFBA"
+    },
+    "brush": {
+      "direction": "horizontal local UV",
+      "resolution": [
+        1024,
+        512
+      ],
+      "bumpScale": 0.007
+    },
+    "light": {
+      "key": [
+        -3,
+        5,
+        6
+      ],
+      "fill": [
+        4,
+        1,
+        4
+      ],
+      "rim": [
+        2,
+        4,
+        -4
+      ]
+    },
+    "toneMapping": "ACESFilmic",
+    "exposure": 1.05
+  },
+  "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+  "id": "OS-O224",
+  "semanticKey": "O24",
+  "meaning": "Deliberate improvement",
+  "layers": "Named closed meshes; editable geometry/materials; no baked text",
+  "bounds": {
+    "min": [
+      -1.365000021457672,
+      0,
+      -0.45862144777767444
+    ],
+    "max": [
+      1.3650000214576723,
+      1.7522419917537597,
+      0.4586214477776745
+    ]
+  },
+  "size": [
+    2.7300000429153446,
+    1.7522419917537597,
+    0.9172428955553489
+  ],
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      3.1761209958768797,
+      6.5
+    ],
+    "lookAt": [
+      1.1102230246251565e-16,
+      0.8761209958768799,
+      2.7755575615628914e-17
+    ],
+    "extent": 1.6287360672444142
+  },
+  "lighting": {
+    "key": [
+      -3,
+      5,
+      6
+    ],
+    "fill": [
+      4,
+      1,
+      4
+    ],
+    "rim": [
+      2,
+      4,
+      -4
+    ]
+  },
+  "render": {
+    "width": 1200,
+    "height": 1200,
+    "background": "transparent",
+    "color": "sRGB",
+    "toneMapping": "ACES Filmic 1.05"
+  },
+  "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+  "meshes": [
+    {
+      "name": "Previous structure",
+      "material": "Brushed anodised brilliant cobalt alloy",
+      "vertices": 11748,
+      "triangles": 3916
+    },
+    {
+      "name": "Previous return with visible offset",
+      "material": "Brushed anodised brilliant cobalt alloy",
+      "vertices": 11748,
+      "triangles": 3916
+    },
+    {
+      "name": "Short unresolved prior joint",
+      "material": "Fine brushed neutral nickel",
+      "vertices": 11736,
+      "triangles": 3912
+    },
+    {
+      "name": "Improved aligned structure",
+      "material": "Brushed anodised deep navy alloy",
+      "vertices": 11748,
+      "triangles": 3916
+    },
+    {
+      "name": "Corrected aligned return",
+      "material": "Brushed anodised brilliant cobalt alloy",
+      "vertices": 11748,
+      "triangles": 3916
+    },
+    {
+      "name": "Continuous corrected exact joint",
+      "material": "Fine brushed neutral nickel",
+      "vertices": 11736,
+      "triangles": 3912
+    }
+  ]
+}

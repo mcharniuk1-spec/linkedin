@@ -1,0 +1,474 @@
+{
+  "revision": "4.0.0-candidate",
+  "date": "2026-10-20",
+  "lead": "OS-LV4-004",
+  "lead_state": "Recommended after actual independent PM/designer review; owner acceptance pending",
+  "wordmark_case": "OUTSPOKEN",
+  "font": {
+    "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+    "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+    "license": "SIL OFL1.1",
+    "weight": 730,
+    "width": 100,
+    "case": "OUTSPOKEN",
+    "tracking": "18font units base plus optical per-pair corrections recorded in source; native glyph positions below",
+    "customization": "Only firstO: diagonal outward voice notch, original mask path450,540 to780,710 to804,663 to475,493. No otherglyph modified."
+  },
+  "concepts": [
+    {
+      "id": "OS-LV4-001",
+      "name": "Capsule Voice",
+      "idea_family": "microphone",
+      "meaning": "A close microphone grille reduced to one capsule and three broad ribs. No stem or stand.",
+      "status": "original candidate; independent PM review pending; no lead selected",
+      "layers": [
+        {
+          "name": "navy curved layer1",
+          "material": "navy",
+          "path": "M60 14 C78 14 90 27 90 45 L90 75 C90 94 78 106 60 106 C42 106 30 94 30 75 L30 45 C30 27 42 14 60 14 Z M60 25 C48 25 41 33 41 45 L41 75 C41 88 48 95 60 95 C72 95 79 88 79 75 L79 45 C79 33 72 25 60 25 Z",
+          "depth": 0.13,
+          "bow": 0.2,
+          "z": 0.0,
+          "yaw": -0.08,
+          "roll": 0
+        },
+        {
+          "name": "silver curved layer2",
+          "material": "silver",
+          "path": "M41 39 Q60 31 79 39 L79 49 Q60 43 41 49 Z",
+          "depth": 0.13,
+          "bow": 0.32,
+          "z": 0.16,
+          "yaw": 0.08,
+          "roll": 0
+        },
+        {
+          "name": "blue curved layer3",
+          "material": "blue",
+          "path": "M41 56 Q60 50 79 56 L79 67 Q60 61 41 67 Z",
+          "depth": 0.13,
+          "bow": 0.2,
+          "z": 0.32,
+          "yaw": -0.04,
+          "roll": 0
+        },
+        {
+          "name": "silver curved layer4",
+          "material": "silver",
+          "path": "M41 74 Q60 68 79 74 L77 84 Q60 78 43 84 Z",
+          "depth": 0.13,
+          "bow": 0.32,
+          "z": 0.48,
+          "yaw": 0.1,
+          "roll": 0
+        }
+      ],
+      "geometry": "Closed beveled extrusion of the editable curved paths with continuous bowed depth; original geometry, not a stock mesh",
+      "wordmark": "Always uppercase OUTSPOKEN. Exact Archivo730 outlines with optical manual tracking; only firstO has a narrow outward voice notch.",
+      "small_size_verdict": "Mic grille remains distinct at24/32; use mono at small size. Podcast-service association remains a positioning risk.",
+      "files": {
+        "glb": "model.glb",
+        "png": "beauty.png",
+        "webp": "beauty.webp",
+        "editable_svg": "flat.svg",
+        "outlined_lockup": "lockup-split.svg"
+      },
+      "curation_status": "secondary",
+      "geometry_checks": "finite all attributes; valid all indices; nonzero real depth; permesh bounds recorded",
+      "render_quality_limit": "Procedural satin/material counterpart; smoother and less photorealistic than root generated brushed-metal art. No raster/GLB pixel parity claim."
+    },
+    {
+      "id": "OS-LV4-002",
+      "name": "Split Grille",
+      "idea_family": "microphone",
+      "meaning": "Two rounded voice chambers held by a continuous lower listening cradle; a central air channel stays open.",
+      "status": "original candidate; independent PM review pending; no lead selected",
+      "layers": [
+        {
+          "name": "navy curved layer1",
+          "material": "navy",
+          "path": "M53 15 C39 17 33 28 33 43 L33 64 Q33 78 53 79 Z",
+          "depth": 0.13,
+          "bow": 0.2,
+          "z": 0.0,
+          "yaw": -0.08,
+          "roll": 0
+        },
+        {
+          "name": "blue curved layer2",
+          "material": "blue",
+          "path": "M64 15 C80 17 87 28 87 43 L87 64 Q87 78 64 79 Z",
+          "depth": 0.13,
+          "bow": 0.32,
+          "z": 0.16,
+          "yaw": 0.08,
+          "roll": 0
+        },
+        {
+          "name": "silver curved layer3",
+          "material": "silver",
+          "path": "M21 53 L30 53 L30 70 C30 88 43 97 59 97 C77 97 90 87 90 70 L90 53 L100 53 L100 70 C100 94 82 107 59 107 C36 107 21 92 21 70 Z",
+          "depth": 0.13,
+          "bow": 0.2,
+          "z": 0.32,
+          "yaw": -0.04,
+          "roll": 0
+        }
+      ],
+      "geometry": "Closed beveled extrusion of the editable curved paths with continuous bowed depth; original geometry, not a stock mesh",
+      "wordmark": "Always uppercase OUTSPOKEN. Exact Archivo730 outlines with optical manual tracking; only firstO has a narrow outward voice notch.",
+      "small_size_verdict": "Central slot and lower cradle remain clear at24/32; use mono. Compact microphone rather than a standing toy.",
+      "files": {
+        "glb": "model.glb",
+        "png": "beauty.png",
+        "webp": "beauty.webp",
+        "editable_svg": "flat.svg",
+        "outlined_lockup": "lockup-split.svg"
+      },
+      "curation_status": "secondary",
+      "geometry_checks": "finite all attributes; valid all indices; nonzero real depth; permesh bounds recorded",
+      "render_quality_limit": "Procedural satin/material counterpart; smoother and less photorealistic than root generated brushed-metal art. No raster/GLB pixel parity claim."
+    },
+    {
+      "id": "OS-LV4-003",
+      "name": "Open Mouthpiece",
+      "idea_family": "mouthpiece",
+      "meaning": "A side-facing voice bell opens around a continuous silver oval rim. Its upper and lower curved lips flare from a compact throat.",
+      "status": "original candidate; independent PM review pending; no lead selected",
+      "layers": [
+        {
+          "name": "navy curved layer1",
+          "material": "navy",
+          "path": "M15 47 C37 46 65 31 93 14 L96 28 C66 43 41 52 15 57 Z",
+          "depth": 0.13,
+          "bow": 0.2,
+          "z": 0.0,
+          "yaw": -0.08,
+          "roll": 0
+        },
+        {
+          "name": "silver curved layer2",
+          "material": "silver",
+          "path": "M93 12 C106 12 113 34 113 60 C113 87 106 109 93 109 C82 109 77 86 77 60 C77 34 82 12 93 12 Z M93 27 C88 27 87 41 87 60 C87 79 89 94 93 94 C99 94 103 78 103 60 C103 42 99 27 93 27 Z",
+          "depth": 0.13,
+          "bow": 0.32,
+          "z": 0.16,
+          "yaw": 0.08,
+          "roll": 0
+        },
+        {
+          "name": "blue curved layer3",
+          "material": "blue",
+          "path": "M15 66 C39 67 67 83 93 103 L97 87 C70 71 44 61 15 58 Z",
+          "depth": 0.13,
+          "bow": 0.2,
+          "z": 0.32,
+          "yaw": -0.04,
+          "roll": 0
+        }
+      ],
+      "geometry": "Closed beveled extrusion of the editable curved paths with continuous bowed depth; original geometry, not a stock mesh",
+      "wordmark": "Always uppercase OUTSPOKEN. Exact Archivo730 outlines with optical manual tracking; only firstO has a narrow outward voice notch.",
+      "small_size_verdict": "Rounded bell reads as outward amplification at32;24is borderline and may read as a directional glyph. Use caption outside a logo context.",
+      "files": {
+        "glb": "model.glb",
+        "png": "beauty.png",
+        "webp": "beauty.webp",
+        "editable_svg": "flat.svg",
+        "outlined_lockup": "lockup-split.svg"
+      },
+      "curation_status": "secondary_caption_dependent",
+      "geometry_checks": "finite all attributes; valid all indices; nonzero real depth; permesh bounds recorded",
+      "render_quality_limit": "Procedural satin/material counterpart; smoother and less photorealistic than root generated brushed-metal art. No raster/GLB pixel parity claim."
+    },
+    {
+      "id": "OS-LV4-004",
+      "name": "Say It",
+      "idea_family": "speech",
+      "meaning": "Three connected curved metal turns form a speaking bubble. One short structural tail belongs to the broad cobalt front, while a narrow silver band bridges the source and outward voice.",
+      "status": "original candidate; independent PM review pending; no lead selected",
+      "layers": [
+        {
+          "name": "navy curved layer1",
+          "material": "navy",
+          "path": "M33 18 C21 18 15 25 15 37 L15 72 C15 86 24 92 37 92 L87 92 C101 92 108 83 108 70 L108 36 C108 23 100 17 87 17 Z",
+          "depth": 0.13,
+          "bow": 0.2,
+          "z": 0.0,
+          "yaw": -0.08,
+          "roll": 0
+        },
+        {
+          "name": "silver curved layer2",
+          "material": "silver",
+          "path": "M16 43 C18 32 23 30 34 33 C60 35 89 45 107 61 L106 75 C84 58 56 48 16 55 Z",
+          "depth": 0.13,
+          "bow": 0.32,
+          "z": 0.16,
+          "yaw": 0.08,
+          "roll": 0
+        },
+        {
+          "name": "blue curved layer3",
+          "material": "blue",
+          "path": "M16 62 C41 55 77 66 105 81 C102 91 95 96 82 96 L61 96 L45 108 L43 95 L32 95 C20 95 16 85 16 76 Z",
+          "depth": 0.13,
+          "bow": 0.2,
+          "z": 0.32,
+          "yaw": -0.04,
+          "roll": 0
+        }
+      ],
+      "geometry": "Closed beveled extrusion of the editable curved paths with continuous bowed depth; original geometry, not a stock mesh",
+      "wordmark": "Always uppercase OUTSPOKEN. Exact Archivo730 outlines with optical manual tracking; only firstO has a narrow outward voice notch.",
+      "small_size_verdict": "Speech tail and one continuous outer silhouette remain clear at24/32. Preferred symbol candidate pending independent PM decision.",
+      "files": {
+        "glb": "model.glb",
+        "png": "beauty.png",
+        "webp": "beauty.webp",
+        "editable_svg": "flat.svg",
+        "outlined_lockup": "lockup-split.svg"
+      },
+      "curation_status": "primary_candidate",
+      "geometry_checks": "finite all attributes; valid all indices; nonzero real depth; permesh bounds recorded",
+      "render_quality_limit": "Procedural satin/material counterpart; smoother and less photorealistic than root generated brushed-metal art. No raster/GLB pixel parity claim."
+    },
+    {
+      "id": "OS-LV4-005",
+      "name": "Voice Aperture",
+      "idea_family": "mouth aperture",
+      "meaning": "Upper and lower lips open around a silver inner voice portal. The silhouette reads as an open mouth and a speaking O.",
+      "status": "original candidate; independent PM review pending; no lead selected",
+      "layers": [
+        {
+          "name": "silver curved layer1",
+          "material": "silver",
+          "path": "M11 60 C26 32 45 21 60 21 C80 21 98 37 110 60 C96 84 79 98 60 98 C41 98 23 84 11 60 Z M27 60 C39 45 48 39 60 39 C73 39 83 48 94 60 C82 73 72 80 60 80 C48 80 38 73 27 60 Z",
+          "depth": 0.13,
+          "bow": 0.2,
+          "z": 0.0,
+          "yaw": -0.08,
+          "roll": 0
+        },
+        {
+          "name": "navy curved layer2",
+          "material": "navy",
+          "path": "M9 57 C30 40 44 35 59 39 C75 33 93 42 112 57 C88 27 75 17 59 26 C42 18 26 33 9 57 Z",
+          "depth": 0.13,
+          "bow": 0.32,
+          "z": 0.16,
+          "yaw": 0.08,
+          "roll": 0
+        },
+        {
+          "name": "blue curved layer3",
+          "material": "blue",
+          "path": "M10 65 C29 81 44 85 60 82 C76 87 94 79 111 64 C91 95 77 108 60 96 C42 107 26 91 10 65 Z",
+          "depth": 0.13,
+          "bow": 0.2,
+          "z": 0.32,
+          "yaw": -0.04,
+          "roll": 0
+        }
+      ],
+      "geometry": "Closed beveled extrusion of the editable curved paths with continuous bowed depth; original geometry, not a stock mesh",
+      "wordmark": "Always uppercase OUTSPOKEN. Exact Archivo730 outlines with optical manual tracking; only firstO has a narrow outward voice notch.",
+      "small_size_verdict": "Negative almond aperture can read as an eye rather than mouth at24/32. Experimental, not a clear-lips claim.",
+      "files": {
+        "glb": "model.glb",
+        "png": "beauty.png",
+        "webp": "beauty.webp",
+        "editable_svg": "flat.svg",
+        "outlined_lockup": "lockup-split.svg"
+      },
+      "curation_status": "experimental_not_primary",
+      "geometry_checks": "finite all attributes; valid all indices; nonzero real depth; permesh bounds recorded",
+      "render_quality_limit": "Procedural satin/material counterpart; smoother and less photorealistic than root generated brushed-metal art. No raster/GLB pixel parity claim."
+    },
+    {
+      "id": "OS-LV4-006",
+      "name": "In Dialogue",
+      "idea_family": "dialogue quotation",
+      "meaning": "Two clear quotation commas stand on one baseline. Each has one broad curved body and one silver reply turn; they never interlock.",
+      "status": "original candidate; independent PM review pending; no lead selected",
+      "layers": [
+        {
+          "name": "navy curved layer1",
+          "material": "navy",
+          "path": "M17 22 C12 22 10 28 10 35 L10 66 C10 76 15 80 25 78 C23 88 18 92 12 95 L21 106 C40 94 48 81 48 66 L48 34 C48 25 43 22 36 22 Z M22 36 L36 36 L36 60 L22 60 Z",
+          "depth": 0.13,
+          "bow": 0.2,
+          "z": 0.0,
+          "yaw": -0.08,
+          "roll": 0
+        },
+        {
+          "name": "silver curved layer2",
+          "material": "silver",
+          "path": "M36 26 C44 27 48 30 48 40 L48 65 C47 78 41 86 33 92 L28 84 C37 74 40 67 37 59 Z",
+          "depth": 0.13,
+          "bow": 0.32,
+          "z": 0.16,
+          "yaw": 0.08,
+          "roll": 0
+        },
+        {
+          "name": "blue curved layer3",
+          "material": "blue",
+          "path": "M72 22 C67 22 65 28 65 35 L65 66 C65 76 70 80 80 78 C78 88 73 92 67 95 L76 106 C95 94 103 81 103 66 L103 34 C103 25 98 22 91 22 Z M77 36 L91 36 L91 60 L77 60 Z",
+          "depth": 0.13,
+          "bow": 0.2,
+          "z": 0.32,
+          "yaw": -0.04,
+          "roll": 0
+        },
+        {
+          "name": "silver curved layer4",
+          "material": "silver",
+          "path": "M91 26 C99 27 103 30 103 40 L103 65 C102 78 96 86 88 92 L83 84 C92 74 95 67 92 59 Z",
+          "depth": 0.13,
+          "bow": 0.32,
+          "z": 0.48,
+          "yaw": 0.1,
+          "roll": 0
+        }
+      ],
+      "geometry": "Closed beveled extrusion of the editable curved paths with continuous bowed depth; original geometry, not a stock mesh",
+      "wordmark": "Always uppercase OUTSPOKEN. Exact Archivo730 outlines with optical manual tracking; only firstO has a narrow outward voice notch.",
+      "small_size_verdict": "Two distinct quotation counters and short matching tails remain legible at24/32. Repaired from rejected interlockedS.",
+      "files": {
+        "glb": "model.glb",
+        "png": "beauty.png",
+        "webp": "beauty.webp",
+        "editable_svg": "flat.svg",
+        "outlined_lockup": "lockup-split.svg"
+      },
+      "curation_status": "secondary_candidate",
+      "geometry_checks": "finite all attributes; valid all indices; nonzero real depth; permesh bounds recorded",
+      "render_quality_limit": "Procedural satin/material counterpart; smoother and less photorealistic than root generated brushed-metal art. No raster/GLB pixel parity claim."
+    },
+    {
+      "id": "OS-LV4-007",
+      "name": "Outward Signal",
+      "idea_family": "broadcast voice",
+      "meaning": "A compact speech source opens into two broad wavefronts. The direction moves from a private thought to a public voice.",
+      "status": "original candidate; independent PM review pending; no lead selected",
+      "layers": [
+        {
+          "name": "navy curved layer1",
+          "material": "navy",
+          "path": "M17 38 Q35 27 51 38 L51 71 Q35 83 17 72 L17 60 L8 54 L17 49 Z",
+          "depth": 0.13,
+          "bow": 0.2,
+          "z": 0.0,
+          "yaw": -0.08,
+          "roll": 0
+        },
+        {
+          "name": "silver curved layer2",
+          "material": "silver",
+          "path": "M59 25 C80 32 88 43 88 57 C88 74 77 86 59 92 L55 80 C69 75 76 68 76 57 C76 47 69 40 55 37 Z",
+          "depth": 0.13,
+          "bow": 0.32,
+          "z": 0.16,
+          "yaw": 0.08,
+          "roll": 0
+        },
+        {
+          "name": "blue curved layer3",
+          "material": "blue",
+          "path": "M80 9 C110 20 120 38 120 57 C120 81 105 102 80 111 L75 99 C97 89 107 75 107 57 C107 41 98 27 75 21 Z",
+          "depth": 0.13,
+          "bow": 0.2,
+          "z": 0.32,
+          "yaw": -0.04,
+          "roll": 0
+        }
+      ],
+      "geometry": "Closed beveled extrusion of the editable curved paths with continuous bowed depth; original geometry, not a stock mesh",
+      "wordmark": "Always uppercase OUTSPOKEN. Exact Archivo730 outlines with optical manual tracking; only firstO has a narrow outward voice notch.",
+      "small_size_verdict": "Voice source plus two wavefronts remains legible at24/32. Broadcast/audio association is explicit.",
+      "files": {
+        "glb": "model.glb",
+        "png": "beauty.png",
+        "webp": "beauty.webp",
+        "editable_svg": "flat.svg",
+        "outlined_lockup": "lockup-split.svg"
+      },
+      "curation_status": "secondary",
+      "geometry_checks": "finite all attributes; valid all indices; nonzero real depth; permesh bounds recorded",
+      "render_quality_limit": "Procedural satin/material counterpart; smoother and less photorealistic than root generated brushed-metal art. No raster/GLB pixel parity claim."
+    },
+    {
+      "id": "OS-LV4-008",
+      "name": "Speaking O",
+      "idea_family": "voice portal",
+      "meaning": "A rounded outward aperture places a voice-shaped opening inside an O. Three curved metal turns preserve one quiet circular silhouette.",
+      "status": "original candidate; independent PM review pending; no lead selected",
+      "layers": [
+        {
+          "name": "navy curved layer1",
+          "material": "navy",
+          "path": "M60 9 C29 9 10 31 10 60 C10 89 30 111 60 111 C90 111 110 89 110 60 C110 31 91 9 60 9 Z M60 26 C49 26 43 42 43 60 C43 80 49 96 60 96 C71 96 77 80 77 60 C77 42 71 26 60 26 Z",
+          "depth": 0.13,
+          "bow": 0.2,
+          "z": 0.0,
+          "yaw": -0.08,
+          "roll": 0
+        },
+        {
+          "name": "silver curved layer2",
+          "material": "silver",
+          "path": "M55 16 C28 29 19 46 23 67 C26 86 38 99 56 105 C43 89 35 76 37 60 C39 44 45 30 55 16 Z",
+          "depth": 0.13,
+          "bow": 0.32,
+          "z": 0.16,
+          "yaw": 0.08,
+          "roll": 0
+        },
+        {
+          "name": "blue curved layer3",
+          "material": "blue",
+          "path": "M66 20 C85 30 99 48 96 68 C94 87 82 101 66 106 C77 86 83 71 81 57 C79 44 74 30 66 20 Z",
+          "depth": 0.13,
+          "bow": 0.2,
+          "z": 0.32,
+          "yaw": -0.04,
+          "roll": 0
+        }
+      ],
+      "geometry": "Closed beveled extrusion of the editable curved paths with continuous bowed depth; original geometry, not a stock mesh",
+      "wordmark": "Always uppercase OUTSPOKEN. Exact Archivo730 outlines with optical manual tracking; only firstO has a narrow outward voice notch.",
+      "small_size_verdict": "Single speakingO aperture remains readable at24/32. Simplified mono maintains a clear open counter.",
+      "files": {
+        "glb": "model.glb",
+        "png": "beauty.png",
+        "webp": "beauty.webp",
+        "editable_svg": "flat.svg",
+        "outlined_lockup": "lockup-split.svg"
+      },
+      "curation_status": "compact_candidate",
+      "geometry_checks": "finite all attributes; valid all indices; nonzero real depth; permesh bounds recorded",
+      "render_quality_limit": "Procedural satin/material counterpart; smoother and less photorealistic than root generated brushed-metal art. No raster/GLB pixel parity claim."
+    }
+  ],
+  "families": [
+    "broadcast voice",
+    "dialogue quotation",
+    "microphone",
+    "mouth aperture",
+    "mouthpiece",
+    "speech",
+    "voice portal"
+  ],
+  "rights": "Original authored logo paths and bowed mesh construction; no competitor symbols or third-party meshes. Fontlicense retained. Trademark/owner acceptance pending.",
+  "secondary": "OS-LV4-006",
+  "compact_fallback": "OS-LV4-008",
+  "review_message_evidence": "Native /root/v3_product final message: finald10435f2sheet and003/006/004/008directrenders viewed; semantic repairsPASS;004lead,006editorialalternative,008compactfallback;capfacetinggone;matte/anodizedmaterialqualification.",
+  "independent_review": {
+    "path": "[dated-local-evidence-omitted]",
+    "sha256": "b86d0d38f67d1c1c85d7e955d8a9c202c0ff1a33738166fb06df5de8fef33a4b",
+    "verdict": "PASS_SCOPED_REPAIRED_CANDIDATE_WITH_MATERIAL_AND_CATEGORY_LIMITS",
+    "owner_accepted": false
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "id": "OS-LV2-001",
+  "name": "Open Cadence",
+  "idea": "Three clear planes unfold around an open centre.",
+  "form": "three tapered radial sails",
+  "materialRecipe": {
+    "version": "2.0.0",
+    "seed": 191026,
+    "palette": {
+      "navy": "#162760",
+      "cobalt": "#3157D5",
+      "nickel": "#A9AFBA"
+    },
+    "brush": {
+      "direction": "horizontal local UV",
+      "resolution": [
+        1024,
+        512
+      ],
+      "bumpScale": 0.007
+    },
+    "light": {
+      "key": [
+        -3,
+        5,
+        6
+      ],
+      "fill": [
+        4,
+        1,
+        4
+      ],
+      "rim": [
+        2,
+        4,
+        -4
+      ]
+    },
+    "toneMapping": "ACESFilmic",
+    "exposure": 1.05
+  },
+  "meshes": [
+    {
+      "name": "01 radial bowed sail",
+      "vertices": 36866,
+      "triangles": 75776,
+      "material": "Brushed anodised deep navy alloy",
+      "position": [
+        0.58,
+        0,
+        0
+      ],
+      "rotation": [
+        0.12,
+        0.22,
+        0
+      ],
+      "construction": {
+        "construction": "Original closed sampled rounded plate; 8 bevel rings",
+        "sourceDimensions": [
+          1.65,
+          1.8,
+          0.085
+        ],
+        "bevel": 0.018,
+        "radius": 0.16
+      }
+    },
+    {
+      "name": "02 radial bowed sail",
+      "vertices": 36866,
+      "triangles": 75776,
+      "material": "Brushed anodised brilliant cobalt alloy",
+      "position": [
+        -0.28999999999999987,
+        0,
+        0.5022947341949744
+      ],
+      "rotation": [
+        -0.05999999999999997,
+        2.3143951023931955,
+        0
+      ],
+      "construction": {
+        "construction": "Original closed sampled rounded plate; 8 bevel rings",
+        "sourceDimensions": [
+          1.65,
+          1.8,
+          0.085
+        ],
+        "bevel": 0.018,
+        "radius": 0.16
+      }
+    },
+    {
+      "name": "03 radial bowed sail",
+      "vertices": 36866,
+      "triangles": 75776,
+      "material": "Fine brushed neutral nickel",
+      "position": [
+        -0.29000000000000026,
+        0,
+        -0.5022947341949742
+      ],
+      "rotation": [
+        -0.06000000000000005,
+        4.40879020478639,
+        0
+      ],
+      "construction": {
+        "construction": "Original closed sampled rounded plate; 8 bevel rings",
+        "sourceDimensions": [
+          1.65,
+          1.8,
+          0.085
+        ],
+        "bevel": 0.018,
+        "radius": 0.16
+      }
+    }
+  ],
+  "bounds": {
+    "min": [
+      -1.214453547405183,
+      -0.9639083281567399,
+      -1.3601896205477257
+    ],
+    "max": [
+      1.2144535474051827,
+      0.9639083281567399,
+      1.3601896205477255
+    ]
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      4.2,
+      2.65,
+      7.4
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ],
+    "span": 1.958673053588725
+  },
+  "render": {
+    "width": 1600,
+    "height": 1600,
+    "alpha": true
+  },
+  "recipe": "Original parametric plate geometry, true thickness and bevel; PMREM softbox studio; no image generation"
+}

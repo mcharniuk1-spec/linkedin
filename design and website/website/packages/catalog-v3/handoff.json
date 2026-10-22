@@ -1,0 +1,28 @@
+{
+  "canonical_manifest": "brand-library/packages/catalog-v3/manifest.json",
+  "category_count": 8,
+  "per_category": 11,
+  "new_seven_category_surfaces": 77,
+  "publication_variants": 11,
+  "native_svg_total": 88,
+  "png_total": 88,
+  "native_text_elements": 739,
+  "react": "CatalogSurface.tsx",
+  "storybook": "Catalog.stories.tsx:8 category galleries+1 editable story",
+  "gallery": "index.html",
+  "checks": "checks.json",
+  "render_detail": "render-checks.json",
+  "contact_sheets": 8,
+  "typecheck": "Scoped tsc PASS",
+  "root_integration_needed": [
+    "Root visual review of revised11posters/5media backgrounds",
+    "Actual Storybook discovery/build/readback",
+    "Site/book/Figma integration"
+  ],
+  "ownership": "Only new catalog-v3 subtree written for expanded library;no app/page/canonical/Figma mutations",
+  "source_hashes": {
+    "CatalogSurface.tsx": "d7119a8e4d33fc2f2dbea2f1b1634b081301b071394014d8957f4a53b72f70d4",
+    "Catalog.stories.tsx": "197c8b97ff26e485e5dd413ea7eacfaf95cc4b51c63b3bd5d9e6e3ee9da8f166",
+    "manifest.json": "f4ec4fcfaab52acbe4537347ea27c8b12931e5f6b5086f42ef4ef01e06819a1c"
+  }
+}

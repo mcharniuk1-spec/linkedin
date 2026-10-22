@@ -1,0 +1,86 @@
+{
+  "status": "pass",
+  "expected_concepts": 8,
+  "checked": [
+    {
+      "id": "OS-LV3-001",
+      "glb_bytes": 770668,
+      "parts": 3,
+      "each_part_closed_edges": true,
+      "finite_positions_normals": true,
+      "vertices": 15990,
+      "triangles": 31968,
+      "sha256": "a7f43cf33a6b62817e98e007ae1b7bbd3a6fddba1ae2296e35ea3581b6e9f155"
+    },
+    {
+      "id": "OS-LV3-002",
+      "glb_bytes": 770672,
+      "parts": 3,
+      "each_part_closed_edges": true,
+      "finite_positions_normals": true,
+      "vertices": 15990,
+      "triangles": 31968,
+      "sha256": "aa97bdce49dc00f2890ef5de0da0595a1b3636a3f82080417c49c4cc280bcf1c"
+    },
+    {
+      "id": "OS-LV3-003",
+      "glb_bytes": 770660,
+      "parts": 3,
+      "each_part_closed_edges": true,
+      "finite_positions_normals": true,
+      "vertices": 15990,
+      "triangles": 31968,
+      "sha256": "db412a0cceffd21f70b6b14f15360466ac45a174279fe9e05cfa6834478c55b3"
+    },
+    {
+      "id": "OS-LV3-004",
+      "glb_bytes": 770604,
+      "parts": 3,
+      "each_part_closed_edges": true,
+      "finite_positions_normals": true,
+      "vertices": 15990,
+      "triangles": 31968,
+      "sha256": "e04d648c6d8935cf77e62c615bf486c30753ac6d158fe8404d5d99f8b2c7dc5f"
+    },
+    {
+      "id": "OS-LV3-005",
+      "glb_bytes": 770672,
+      "parts": 3,
+      "each_part_closed_edges": true,
+      "finite_positions_normals": true,
+      "vertices": 15990,
+      "triangles": 31968,
+      "sha256": "106df4c6138c9b7e50243d3181fb75e888d6f87730ec11b964c611ce01c35913"
+    },
+    {
+      "id": "OS-LV3-006",
+      "glb_bytes": 770644,
+      "parts": 3,
+      "each_part_closed_edges": true,
+      "finite_positions_normals": true,
+      "vertices": 15990,
+      "triangles": 31968,
+      "sha256": "9126691c1af97f62ff9c64468d4deffbf35c5492da4cc441e4dff9b53ca2bc9f"
+    },
+    {
+      "id": "OS-LV3-007",
+      "glb_bytes": 770660,
+      "parts": 3,
+      "each_part_closed_edges": true,
+      "finite_positions_normals": true,
+      "vertices": 15990,
+      "triangles": 31968,
+      "sha256": "e2e9956d3ce940f563730ff17e3ae2e081ece00fee3ca3b74a0ec53177969453"
+    },
+    {
+      "id": "OS-LV3-008",
+      "glb_bytes": 770672,
+      "parts": 3,
+      "each_part_closed_edges": true,
+      "finite_positions_normals": true,
+      "vertices": 15990,
+      "triangles": 31968,
+      "sha256": "5eac41c66cfa8928d9bfa787e63f6c78f6c8d787bd2d918496490a3530fce245"
+    }
+  ]
+}

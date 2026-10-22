@@ -1,0 +1,983 @@
+{
+  "revision": "v5",
+  "date": "2026-10-21",
+  "selected": "Owner sheet study01: solid capsule microphone",
+  "source": {
+    "file": "[dated-local-evidence-omitted]",
+    "sha256": "7f26ec1c18b6033ae4a2506c03cc464d09c0e25dc7d9abef8233713597290a41",
+    "rights": "Owner supplied visual reference; provenance does not establish trademark clearance or third-party rights."
+  },
+  "representations": [
+    {
+      "kind": "exact-source-extractions",
+      "count": 16,
+      "manifest": "reference-studies/manifest.json",
+      "meaning": "Eight original study figures plus eight symbol-only figures. Exact source pixels, original backgrounds retained."
+    },
+    {
+      "kind": "derived-transparent-image",
+      "files": [
+        "selected/beauty.png",
+        "selected/beauty.webp"
+      ],
+      "method": "One built-in imagegen extraction from the selected source crop, with transparent_background=true.",
+      "difference": "Derived reference image, not pixel-identical extraction or a GLB render."
+    },
+    {
+      "kind": "authored-native-geometry",
+      "files": [
+        "selected/model.glb",
+        "wordmark-3d/model.glb"
+      ],
+      "difference": "Real volumetric construction with solid capsule, two crossbands and one upright rib; nine extruded uppercase glyphs. Glossy/anodized shading differs from supplied fine-brushed photography."
+    },
+    {
+      "kind": "native-editable-vectors",
+      "files": [
+        "selected/flat.svg",
+        "selected/lockup-gradient.svg",
+        "selected/lockup-inverse.svg"
+      ],
+      "difference": "Deterministic simplified vector counterpart and outlined type; no generated letters."
+    }
+  ],
+  "stable_website_assets": {
+    "lockup-gradient.svg": "selected/lockup-gradient.svg",
+    "lockup-inverse.svg": "selected/lockup-inverse.svg",
+    "flat.svg": "selected/flat.svg",
+    "beauty.png": "selected/beauty.png",
+    "beauty.webp": "selected/beauty.webp",
+    "model.glb": "selected/model.glb"
+  },
+  "studies": [
+    {
+      "id": "approved-study-01",
+      "file": "brand-library/packages/assets/revisions/v5/identity/reference-studies/approved-study-01.png",
+      "source_box_xyxy": [
+        50,
+        80,
+        244,
+        315
+      ],
+      "width": 194,
+      "height": 235,
+      "sha256": "7831cbd704c24510a7b9b74cd98166b4d41fb2b227942b6f44a04b0bf3e10ec1",
+      "operation": "Exact rectangular document-figure extraction; no repaint, redraw, scaling, alpha removal or image synthesis."
+    },
+    {
+      "id": "approved-study-02",
+      "file": "brand-library/packages/assets/revisions/v5/identity/reference-studies/approved-study-02.png",
+      "source_box_xyxy": [
+        282,
+        76,
+        483,
+        316
+      ],
+      "width": 201,
+      "height": 240,
+      "sha256": "0446b5bf1bf062f3a6e1dde7d020b8a70b868b6cd70993fbc325482499c270af",
+      "operation": "Exact rectangular document-figure extraction; no repaint, redraw, scaling, alpha removal or image synthesis."
+    },
+    {
+      "id": "approved-study-03",
+      "file": "brand-library/packages/assets/revisions/v5/identity/reference-studies/approved-study-03.png",
+      "source_box_xyxy": [
+        509,
+        76,
+        718,
+        315
+      ],
+      "width": 209,
+      "height": 239,
+      "sha256": "ebbe48facebb09dfca971523c5fb1743e2d9a3ac35696c233d2bc520344b32bc",
+      "operation": "Exact rectangular document-figure extraction; no repaint, redraw, scaling, alpha removal or image synthesis."
+    },
+    {
+      "id": "approved-study-04",
+      "file": "brand-library/packages/assets/revisions/v5/identity/reference-studies/approved-study-04.png",
+      "source_box_xyxy": [
+        744,
+        81,
+        940,
+        316
+      ],
+      "width": 196,
+      "height": 235,
+      "sha256": "b1c788fc16f60c00e932a1b02e8161a1ae358e06ee3c8a6c211ecc254d46c596",
+      "operation": "Exact rectangular document-figure extraction; no repaint, redraw, scaling, alpha removal or image synthesis."
+    },
+    {
+      "id": "approved-study-05",
+      "file": "brand-library/packages/assets/revisions/v5/identity/reference-studies/approved-study-05.png",
+      "source_box_xyxy": [
+        43,
+        389,
+        245,
+        600
+      ],
+      "width": 202,
+      "height": 211,
+      "sha256": "0c6b06d12a4c85f01a7612fdbab8f38ec5c9cf929d4e919be8fdfc8b9481ff3e",
+      "operation": "Exact rectangular document-figure extraction; no repaint, redraw, scaling, alpha removal or image synthesis."
+    },
+    {
+      "id": "approved-study-06",
+      "file": "brand-library/packages/assets/revisions/v5/identity/reference-studies/approved-study-06.png",
+      "source_box_xyxy": [
+        277,
+        389,
+        485,
+        599
+      ],
+      "width": 208,
+      "height": 210,
+      "sha256": "3e46f15b214d72b394c41883a2bb6cfec544cf963d3c9b160913456ba9fdc2b6",
+      "operation": "Exact rectangular document-figure extraction; no repaint, redraw, scaling, alpha removal or image synthesis."
+    },
+    {
+      "id": "approved-study-07",
+      "file": "brand-library/packages/assets/revisions/v5/identity/reference-studies/approved-study-07.png",
+      "source_box_xyxy": [
+        510,
+        374,
+        719,
+        599
+      ],
+      "width": 209,
+      "height": 225,
+      "sha256": "7299d9d79e9a5ae52e99b7776f21f09d0143e76dff3ad4fc1d784308800c8c81",
+      "operation": "Exact rectangular document-figure extraction; no repaint, redraw, scaling, alpha removal or image synthesis."
+    },
+    {
+      "id": "approved-study-08",
+      "file": "brand-library/packages/assets/revisions/v5/identity/reference-studies/approved-study-08.png",
+      "source_box_xyxy": [
+        743,
+        383,
+        942,
+        599
+      ],
+      "width": 199,
+      "height": 216,
+      "sha256": "d37272a9003de43a488e681391a31510c1dbd4e244848a4ef7d0a462d7f69a7b",
+      "operation": "Exact rectangular document-figure extraction; no repaint, redraw, scaling, alpha removal or image synthesis."
+    }
+  ],
+  "symbols": [
+    {
+      "id": "approved-symbol-01",
+      "file": "brand-library/packages/assets/revisions/v5/identity/reference-studies/approved-symbol-01.png",
+      "source_box_xyxy": [
+        80,
+        80,
+        214,
+        268
+      ],
+      "width": 134,
+      "height": 188,
+      "sha256": "82c16f455d731a1de0247ffa7377a6640b6b8b6cce01a8725041221689e1ff93",
+      "operation": "Exact rectangular symbol-only document-figure extraction. Original background retained; no redraw, resize, repaint, alpha removal or synthesis."
+    },
+    {
+      "id": "approved-symbol-02",
+      "file": "brand-library/packages/assets/revisions/v5/identity/reference-studies/approved-symbol-02.png",
+      "source_box_xyxy": [
+        306,
+        75,
+        443,
+        268
+      ],
+      "width": 137,
+      "height": 193,
+      "sha256": "a85a7ae141f7be9c1d1d8e7ed70f4f164e33f15eae754b2505f3aefbb9fa1236",
+      "operation": "Exact rectangular symbol-only document-figure extraction. Original background retained; no redraw, resize, repaint, alpha removal or synthesis."
+    },
+    {
+      "id": "approved-symbol-03",
+      "file": "brand-library/packages/assets/revisions/v5/identity/reference-studies/approved-symbol-03.png",
+      "source_box_xyxy": [
+        516,
+        78,
+        691,
+        272
+      ],
+      "width": 175,
+      "height": 194,
+      "sha256": "52856b1a1a3827c559031667cbc555d53d341722bce3f5619153f82aff8ae79e",
+      "operation": "Exact rectangular symbol-only document-figure extraction. Original background retained; no redraw, resize, repaint, alpha removal or synthesis."
+    },
+    {
+      "id": "approved-symbol-04",
+      "file": "brand-library/packages/assets/revisions/v5/identity/reference-studies/approved-symbol-04.png",
+      "source_box_xyxy": [
+        754,
+        86,
+        941,
+        271
+      ],
+      "width": 187,
+      "height": 185,
+      "sha256": "187a0594c873cafecda39abbe44babd55975adcb89536698fb7cc24febb76646",
+      "operation": "Exact rectangular symbol-only document-figure extraction. Original background retained; no redraw, resize, repaint, alpha removal or synthesis."
+    },
+    {
+      "id": "approved-symbol-05",
+      "file": "brand-library/packages/assets/revisions/v5/identity/reference-studies/approved-symbol-05.png",
+      "source_box_xyxy": [
+        43,
+        389,
+        243,
+        549
+      ],
+      "width": 200,
+      "height": 160,
+      "sha256": "a95a3bf848fbdaa918ef2d0497cc10420d62a0b34d951c94834846f0b3b25dfb",
+      "operation": "Exact rectangular symbol-only document-figure extraction. Original background retained; no redraw, resize, repaint, alpha removal or synthesis."
+    },
+    {
+      "id": "approved-symbol-06",
+      "file": "brand-library/packages/assets/revisions/v5/identity/reference-studies/approved-symbol-06.png",
+      "source_box_xyxy": [
+        283,
+        386,
+        467,
+        552
+      ],
+      "width": 184,
+      "height": 166,
+      "sha256": "fdb9b0fd3c121bd0465aa2ec14fdac318543fd03007facc0d523827c1d7765f7",
+      "operation": "Exact rectangular symbol-only document-figure extraction. Original background retained; no redraw, resize, repaint, alpha removal or synthesis."
+    },
+    {
+      "id": "approved-symbol-07",
+      "file": "brand-library/packages/assets/revisions/v5/identity/reference-studies/approved-symbol-07.png",
+      "source_box_xyxy": [
+        535,
+        370,
+        704,
+        557
+      ],
+      "width": 169,
+      "height": 187,
+      "sha256": "024b5b0cff3cb2535bb887eda4d78e11f86d68599e230780a48f01fe7656b179",
+      "operation": "Exact rectangular symbol-only document-figure extraction. Original background retained; no redraw, resize, repaint, alpha removal or synthesis."
+    },
+    {
+      "id": "approved-symbol-08",
+      "file": "brand-library/packages/assets/revisions/v5/identity/reference-studies/approved-symbol-08.png",
+      "source_box_xyxy": [
+        756,
+        372,
+        938,
+        555
+      ],
+      "width": 182,
+      "height": 183,
+      "sha256": "57155b043715b83e0b010f6d995aa593e7087d818d10b240a0d6e2258d2dcb8f",
+      "operation": "Exact rectangular symbol-only document-figure extraction. Original background retained; no redraw, resize, repaint, alpha removal or synthesis."
+    }
+  ],
+  "wordmark": {
+    "text": "OUTSPOKEN",
+    "font_source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+    "font_sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+    "license": "SIL OFL1.1",
+    "customization": "Only firstO. Boolean subtraction of original diagonal voice-notch polygon from font contours; native outline and3D share the resulting actual path. Ocurve flattened32samples perquadratic/cubic segment for deterministic boolean. Other8glyphs retain exactfontcurve paths.",
+    "treatments": [
+      {
+        "name": "gradient",
+        "wordmark": "wordmark-gradient.svg",
+        "lockup": "lockup-gradient.svg",
+        "display_label": "Solid navy/silver primary",
+        "letter_fills": "solid",
+        "palette": {
+          "OUT": "#162760",
+          "SPOKEN": "#A9AFBA"
+        },
+        "filename_note": "Compatibility name; current primary2D wordmark contains no gradient."
+      },
+      {
+        "name": "split",
+        "wordmark": "wordmark-split.svg",
+        "lockup": "lockup-split.svg",
+        "display_label": "Primary compatibility alias",
+        "letter_fills": "solid",
+        "palette": {
+          "OUT": "#162760",
+          "SPOKEN": "#A9AFBA"
+        },
+        "compatibility_alias_of": "gradient",
+        "distinct_visual_concept": false
+      },
+      {
+        "name": "inverse",
+        "wordmark": "wordmark-inverse.svg",
+        "lockup": "lockup-inverse.svg",
+        "display_label": "Solid inverse",
+        "letter_fills": "solid"
+      },
+      {
+        "name": "mono",
+        "wordmark": "wordmark-mono.svg",
+        "lockup": "lockup-mono.svg",
+        "display_label": "Solid navy monochrome",
+        "letter_fills": "solid"
+      },
+      {
+        "name": "citron",
+        "wordmark": "wordmark-citron.svg",
+        "lockup": "lockup-citron.svg",
+        "display_label": "Solid citron emphasis",
+        "letter_fills": "solid"
+      }
+    ],
+    "primary_2d": {
+      "display_label": "Solid navy/silver",
+      "OUT": "#162760",
+      "SPOKEN": "#A9AFBA",
+      "paint": "Uniform solidfill and matchingstroke; no horizontal highlight/glint band.",
+      "geometry_metrics_unchanged": true,
+      "compatibility_filename": "wordmark-gradient.svg / lockup-gradient.svg"
+    }
+  },
+  "native_microphone_views": [
+    {
+      "view": "front",
+      "png": "selected/model-front.png",
+      "webp": "selected/model-front.webp"
+    },
+    {
+      "view": "left",
+      "png": "selected/model-left.png",
+      "webp": "selected/model-left.webp"
+    },
+    {
+      "view": "right",
+      "png": "selected/model-right.png",
+      "webp": "selected/model-right.webp"
+    }
+  ],
+  "native_wordmark_views": [
+    {
+      "view": "front",
+      "png": "wordmark-3d/model-front.png",
+      "webp": "wordmark-3d/model-front.webp"
+    },
+    {
+      "view": "left",
+      "png": "wordmark-3d/model-left.png",
+      "webp": "wordmark-3d/model-left.webp"
+    },
+    {
+      "view": "right",
+      "png": "wordmark-3d/model-right.png",
+      "webp": "wordmark-3d/model-right.webp"
+    }
+  ],
+  "native_models": [
+    {
+      "file": "selected/model.glb",
+      "bytes": 3059800,
+      "sha256": "03bde29b46656fbf2b79e2604268410b8d3446f2e5d8bf8475e98eeffeeb1d03",
+      "mesh_count": 4,
+      "meshes": [
+        {
+          "name": null,
+          "vertices": 13202,
+          "triangles": 25920,
+          "bounds": [
+            [
+              -0.7799999713897705,
+              -1.2999999523162842,
+              -0.7799999713897705
+            ],
+            [
+              0.7799999713897705,
+              1.2999999523162842,
+              0.7799999713897705
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 25444,
+          "triangles": 9260,
+          "bounds": [
+            [
+              -0.8769940137863159,
+              0.12799999117851257,
+              -0.20305559039115906
+            ],
+            [
+              0.8769940137863159,
+              0.5120000243186951,
+              0.8770005106925964
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 25444,
+          "triangles": 9260,
+          "bounds": [
+            [
+              -0.8769940137863159,
+              -0.5120000243186951,
+              -0.20305559039115906
+            ],
+            [
+              0.8769940137863159,
+              -0.12800000607967377,
+              0.8770005106925964
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 8604,
+          "triangles": 3164,
+          "bounds": [
+            [
+              -0.08150000125169754,
+              -0.5590000152587891,
+              0.8560000061988831
+            ],
+            [
+              0.08150000125169754,
+              0.5590000152587891,
+              0.9139999747276306
+            ]
+          ]
+        }
+      ],
+      "embedded_images": 1
+    },
+    {
+      "file": "wordmark-3d/model.glb",
+      "bytes": 12650192,
+      "sha256": "3ba8695070601822401d2cd264df3937303b70f4741ed45124c0daa5a78b34d1",
+      "mesh_count": 9,
+      "meshes": [
+        {
+          "name": null,
+          "vertices": 56848,
+          "triangles": 20756,
+          "bounds": [
+            [
+              -0.006473221816122532,
+              -0.022008724510669708,
+              -0.04790112376213074
+            ],
+            [
+              0.9231687188148499,
+              0.9109370708465576,
+              0.04790112376213074
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 21306,
+          "triangles": 7820,
+          "bounds": [
+            [
+              1.075355052947998,
+              -0.022008704021573067,
+              -0.04790112376213074
+            ],
+            [
+              1.8820370435714722,
+              0.8954021334648132,
+              0.04790112376213074
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 382,
+          "triangles": 188,
+          "bounds": [
+            [
+              1.9980847835540771,
+              -0.006473124958574772,
+              -0.04790112376213074
+            ],
+            [
+              2.7897095680236816,
+              0.8954021334648132,
+              0.04790112376213074
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 103228,
+          "triangles": 37724,
+          "bounds": [
+            [
+              2.9004383087158203,
+              -0.022008664906024933,
+              -0.04790112376213074
+            ],
+            [
+              3.687319755554199,
+              0.9109376072883606,
+              0.04790112376213074
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 23602,
+          "triangles": 8640,
+          "bounds": [
+            [
+              3.8390414714813232,
+              -0.006473124958574772,
+              -0.04790112376213074
+            ],
+            [
+              4.6118927001953125,
+              0.8954021334648132,
+              0.04790112376213074
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 58996,
+          "triangles": 21552,
+          "bounds": [
+            [
+              4.6981940269470215,
+              -0.022008724510669708,
+              -0.04790112376213074
+            ],
+            [
+              5.627835273742676,
+              0.9109377264976501,
+              0.04790112376213074
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 734,
+          "triangles": 284,
+          "bounds": [
+            [
+              5.783568382263184,
+              -0.006473124958574772,
+              -0.04790112376213074
+            ],
+            [
+              6.632269382476807,
+              0.8954021334648132,
+              0.04790112376213074
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 586,
+          "triangles": 284,
+          "bounds": [
+            [
+              6.749288082122803,
+              -0.006473124958574772,
+              -0.04790112376213074
+            ],
+            [
+              7.487522125244141,
+              0.8954021334648132,
+              0.04790112376213074
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 17065,
+          "triangles": 7196,
+          "bounds": [
+            [
+              7.656890392303467,
+              -0.006473124958574772,
+              -0.04790112376213074
+            ],
+            [
+              8.46357250213623,
+              0.8954021334648132,
+              0.04790112376213074
+            ]
+          ]
+        }
+      ],
+      "embedded_images": 1
+    }
+  ],
+  "proofs": [
+    "reference-studies-contact-sheet.png",
+    "microphone-three-views.png",
+    "wordmark-three-views.png",
+    "wordmark-five-treatments.png",
+    "small-proof.png"
+  ],
+  "checks": {
+    "file": "checks.json",
+    "passed": 164,
+    "total": 164,
+    "failures": 0
+  },
+  "native_render_scope": "Native views render the authored Three geometry used in GLB export; this check parses and validates exported GLB data, not a second viewer roundtrip.",
+  "limits": [
+    "Glossy/anodized native shading differs from fine photographic brushing in supplied source and the generated cutout.",
+    "Trademark clearance and pixel-identical reconstruction are not claimed."
+  ],
+  "owner_accepted": false,
+  "website_figma_release_integration": "Root owned, separate from this maker handoff.",
+  "files": [
+    {
+      "file": "OFL-Archivo.txt",
+      "bytes": 4388,
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b"
+    },
+    {
+      "file": "README.md",
+      "bytes": 4257,
+      "sha256": "3a7daec8aec79800960c83cb59a2438240929397a2726dd7bce73575e276219c"
+    },
+    {
+      "file": "checks.json",
+      "bytes": 31287,
+      "sha256": "958b28377e6411abd66336ac4116c6299a9f1fbd18ce377af8751fe46ae4020e"
+    },
+    {
+      "file": "flat-gradient.svg",
+      "bytes": 898,
+      "sha256": "7248808267bfe0ac25e6f3e085cca51a22a74bfb0e4df2775c213c8736e43240"
+    },
+    {
+      "file": "flat-inverse.svg",
+      "bytes": 470,
+      "sha256": "5bfb02824e908e5e0b02f1673bd694549eee915a44b86b0a331aeb1832ac6131"
+    },
+    {
+      "file": "flat-mono.svg",
+      "bytes": 571,
+      "sha256": "d46feb936a9b53ff1a88d0a9ce1252becda64c6c48ea971da3edde1935f7b383"
+    },
+    {
+      "file": "flat.svg",
+      "bytes": 898,
+      "sha256": "7248808267bfe0ac25e6f3e085cca51a22a74bfb0e4df2775c213c8736e43240"
+    },
+    {
+      "file": "lockup-citron.svg",
+      "bytes": 25250,
+      "sha256": "e287698e5b2f4c37d414aafe35459c7bfd5cad5821f8bce0345e48edce527ae4"
+    },
+    {
+      "file": "lockup-gradient.svg",
+      "bytes": 25264,
+      "sha256": "2003995dfca6ec28eead6e04cb0252dab9bbc8528f12b80ba07d4c671a2a838f"
+    },
+    {
+      "file": "lockup-inverse.svg",
+      "bytes": 24823,
+      "sha256": "e4a310f9252c839acd903a0e1eda6f594a68cc11675ebf5f1792d808801a5297"
+    },
+    {
+      "file": "lockup-mono.svg",
+      "bytes": 24921,
+      "sha256": "8a3a00dd9421ee8be23600e7d310589e6c40a0580778d6b45d659827dcf0d483"
+    },
+    {
+      "file": "lockup-split.svg",
+      "bytes": 25284,
+      "sha256": "6f178b32afcedd3d7aa6e683e8c5ab94757db55d99c07a54739bc6cf6d53de8d"
+    },
+    {
+      "file": "material-recipe.json",
+      "bytes": 3342,
+      "sha256": "97bf34ab57793f194d04e45044ac8ef73946558d12661f23fdef7aaeecd4d27d"
+    },
+    {
+      "file": "microphone-three-views.png",
+      "bytes": 282155,
+      "sha256": "c018943cb043d5a731aeae7d994a4545299929d91d81b37d182d1bdcb04a0671"
+    },
+    {
+      "file": "reference-studies/approved-study-01.png",
+      "bytes": 66435,
+      "sha256": "7831cbd704c24510a7b9b74cd98166b4d41fb2b227942b6f44a04b0bf3e10ec1"
+    },
+    {
+      "file": "reference-studies/approved-study-02.png",
+      "bytes": 69410,
+      "sha256": "0446b5bf1bf062f3a6e1dde7d020b8a70b868b6cd70993fbc325482499c270af"
+    },
+    {
+      "file": "reference-studies/approved-study-03.png",
+      "bytes": 71926,
+      "sha256": "ebbe48facebb09dfca971523c5fb1743e2d9a3ac35696c233d2bc520344b32bc"
+    },
+    {
+      "file": "reference-studies/approved-study-04.png",
+      "bytes": 67307,
+      "sha256": "b1c788fc16f60c00e932a1b02e8161a1ae358e06ee3c8a6c211ecc254d46c596"
+    },
+    {
+      "file": "reference-studies/approved-study-05.png",
+      "bytes": 62755,
+      "sha256": "0c6b06d12a4c85f01a7612fdbab8f38ec5c9cf929d4e919be8fdfc8b9481ff3e"
+    },
+    {
+      "file": "reference-studies/approved-study-06.png",
+      "bytes": 64869,
+      "sha256": "3e46f15b214d72b394c41883a2bb6cfec544cf963d3c9b160913456ba9fdc2b6"
+    },
+    {
+      "file": "reference-studies/approved-study-07.png",
+      "bytes": 66597,
+      "sha256": "7299d9d79e9a5ae52e99b7776f21f09d0143e76dff3ad4fc1d784308800c8c81"
+    },
+    {
+      "file": "reference-studies/approved-study-08.png",
+      "bytes": 64783,
+      "sha256": "d37272a9003de43a488e681391a31510c1dbd4e244848a4ef7d0a462d7f69a7b"
+    },
+    {
+      "file": "reference-studies/approved-symbol-01.png",
+      "bytes": 43051,
+      "sha256": "82c16f455d731a1de0247ffa7377a6640b6b8b6cce01a8725041221689e1ff93"
+    },
+    {
+      "file": "reference-studies/approved-symbol-02.png",
+      "bytes": 44906,
+      "sha256": "a85a7ae141f7be9c1d1d8e7ed70f4f164e33f15eae754b2505f3aefbb9fa1236"
+    },
+    {
+      "file": "reference-studies/approved-symbol-03.png",
+      "bytes": 53079,
+      "sha256": "52856b1a1a3827c559031667cbc555d53d341722bce3f5619153f82aff8ae79e"
+    },
+    {
+      "file": "reference-studies/approved-symbol-04.png",
+      "bytes": 52842,
+      "sha256": "187a0594c873cafecda39abbe44babd55975adcb89536698fb7cc24febb76646"
+    },
+    {
+      "file": "reference-studies/approved-symbol-05.png",
+      "bytes": 49159,
+      "sha256": "a95a3bf848fbdaa918ef2d0497cc10420d62a0b34d951c94834846f0b3b25dfb"
+    },
+    {
+      "file": "reference-studies/approved-symbol-06.png",
+      "bytes": 48813,
+      "sha256": "fdb9b0fd3c121bd0465aa2ec14fdac318543fd03007facc0d523827c1d7765f7"
+    },
+    {
+      "file": "reference-studies/approved-symbol-07.png",
+      "bytes": 48464,
+      "sha256": "024b5b0cff3cb2535bb887eda4d78e11f86d68599e230780a48f01fe7656b179"
+    },
+    {
+      "file": "reference-studies/approved-symbol-08.png",
+      "bytes": 52179,
+      "sha256": "57155b043715b83e0b010f6d995aa593e7087d818d10b240a0d6e2258d2dcb8f"
+    },
+    {
+      "file": "reference-studies/selected-microphone-source.png",
+      "bytes": 43051,
+      "sha256": "82c16f455d731a1de0247ffa7377a6640b6b8b6cce01a8725041221689e1ff93"
+    },
+    {
+      "file": "reference-studies-contact-sheet.png",
+      "bytes": 349870,
+      "sha256": "b3bd26fb48627a01ba11933fca8d80c4e83f4ce3c3acfc45fff60c33bb282fa0"
+    },
+    {
+      "file": "render-checks.json",
+      "bytes": 8592,
+      "sha256": "e69e7eb25dbfe80059335e829a871487f45059d3c75b4a2a6bda3cec273cb0db"
+    },
+    {
+      "file": "render.mjs",
+      "bytes": 2252,
+      "sha256": "28c3e4699dd7e35c8f81e91ac4332d925a99f6b9484ba752702879f8401b9808"
+    },
+    {
+      "file": "selected/beauty.png",
+      "bytes": 1644802,
+      "sha256": "bd989caf4fc2c00ea28cbd959426c25af9a424160cc2e01ffcb83be197451753"
+    },
+    {
+      "file": "selected/beauty.webp",
+      "bytes": 269054,
+      "sha256": "586e98b3bc3e61edc4a9b19fabb46fe91042c3d5fe093a5171f61df4955fca78"
+    },
+    {
+      "file": "selected/flat.svg",
+      "bytes": 898,
+      "sha256": "7248808267bfe0ac25e6f3e085cca51a22a74bfb0e4df2775c213c8736e43240"
+    },
+    {
+      "file": "selected/lockup-gradient.svg",
+      "bytes": 25264,
+      "sha256": "2003995dfca6ec28eead6e04cb0252dab9bbc8528f12b80ba07d4c671a2a838f"
+    },
+    {
+      "file": "selected/lockup-inverse.svg",
+      "bytes": 24823,
+      "sha256": "e4a310f9252c839acd903a0e1eda6f594a68cc11675ebf5f1792d808801a5297"
+    },
+    {
+      "file": "selected/model-front.png",
+      "bytes": 450362,
+      "sha256": "c3265d2bdb0c14d843fc5a511b1dacf55ea7f889347820dcb6abf896e9ab116f"
+    },
+    {
+      "file": "selected/model-front.webp",
+      "bytes": 51410,
+      "sha256": "80d0f17b94a5627ad636bdf40af7bd100029dfb000a14ed344b1434809c48ed5"
+    },
+    {
+      "file": "selected/model-left.png",
+      "bytes": 456195,
+      "sha256": "f52cacd28aff9eb76da366750e2b541f7241793144f4800aa9d7126357e970aa"
+    },
+    {
+      "file": "selected/model-left.webp",
+      "bytes": 47674,
+      "sha256": "0e3c9d59806d5532f38f6aa944b3aeabc8933766ec953c7128012e805d5a4b34"
+    },
+    {
+      "file": "selected/model-right.png",
+      "bytes": 455371,
+      "sha256": "3aaa83cadd6e52d6f257cac5cfeb219fa819e025338dc8d686457dbe81ba793e"
+    },
+    {
+      "file": "selected/model-right.webp",
+      "bytes": 51050,
+      "sha256": "5d341026875c84b6f2bad8fe54796bac059796b38700bdb0a87d5db77700f189"
+    },
+    {
+      "file": "selected/model.glb",
+      "bytes": 3059800,
+      "sha256": "03bde29b46656fbf2b79e2604268410b8d3446f2e5d8bf8475e98eeffeeb1d03"
+    },
+    {
+      "file": "selected/wordmark-gradient.svg",
+      "bytes": 24549,
+      "sha256": "4a3a0e3392e86497cf9ff5c9beec5d5317944db916da848bcaf85913d2e2f902"
+    },
+    {
+      "file": "selected/wordmark-inverse.svg",
+      "bytes": 24536,
+      "sha256": "fd05d9c78f4a1a6d461fdd2c4c9361f8310e2adb3efd0e1487d82d03b4f276f6"
+    },
+    {
+      "file": "selected-microphone-transparent.png",
+      "bytes": 1644802,
+      "sha256": "bd989caf4fc2c00ea28cbd959426c25af9a424160cc2e01ffcb83be197451753"
+    },
+    {
+      "file": "selected-microphone-transparent.webp",
+      "bytes": 269054,
+      "sha256": "586e98b3bc3e61edc4a9b19fabb46fe91042c3d5fe093a5171f61df4955fca78"
+    },
+    {
+      "file": "small-proof.png",
+      "bytes": 15560,
+      "sha256": "bf5dd4222bf67a6d20bb0184e76322f551396d3cc89047d98f4c9d926f9b47e5"
+    },
+    {
+      "file": "studio.html",
+      "bytes": 9983,
+      "sha256": "6a31c71fe4e350b75b66a2b25c8c062b5b08e5576a5a2ee667f19464a21d0fb4"
+    },
+    {
+      "file": "wordmark-3d/model-front.png",
+      "bytes": 136488,
+      "sha256": "940527828802da29e9e0d1be96c8336582bbfe27e6bf2bb0615d198794abaf3a"
+    },
+    {
+      "file": "wordmark-3d/model-front.webp",
+      "bytes": 26852,
+      "sha256": "6a1b2c35ad58bcbf4e981ff4d0148e9a6f6ba8a6767d13492af25dcf6ad9481c"
+    },
+    {
+      "file": "wordmark-3d/model-left.png",
+      "bytes": 127583,
+      "sha256": "99586e30383bd0d7758754bd490d6d8c15017a34c05d9c54a9d0c8bd962ef5e3"
+    },
+    {
+      "file": "wordmark-3d/model-left.webp",
+      "bytes": 26774,
+      "sha256": "209d3179a1c1eb670dab7bbea665434005b52b17b7b063414f99c9f5a7c2e525"
+    },
+    {
+      "file": "wordmark-3d/model-right.png",
+      "bytes": 125619,
+      "sha256": "4760cb537e3f830b98f0c7cafc2db96094f3e82e1b83e200f77d2e46df4a7e14"
+    },
+    {
+      "file": "wordmark-3d/model-right.webp",
+      "bytes": 26540,
+      "sha256": "6d5118f109703478ad05cfe91febb428289039e4244d0f60a6ee59f7a713fb9f"
+    },
+    {
+      "file": "wordmark-3d/model.glb",
+      "bytes": 12650192,
+      "sha256": "3ba8695070601822401d2cd264df3937303b70f4741ed45124c0daa5a78b34d1"
+    },
+    {
+      "file": "wordmark-citron.svg",
+      "bytes": 24535,
+      "sha256": "97949bcf4c45ce2a8510cc55cbadd2ee2c6ad8cdc9069d46ceb966e4a4b81b13"
+    },
+    {
+      "file": "wordmark-five-treatments.png",
+      "bytes": 33645,
+      "sha256": "97095dd3bd81244ab41a16f8f3761e02420e750b9c6430ae64ea6fbc3b864169"
+    },
+    {
+      "file": "wordmark-gradient.svg",
+      "bytes": 24549,
+      "sha256": "4a3a0e3392e86497cf9ff5c9beec5d5317944db916da848bcaf85913d2e2f902"
+    },
+    {
+      "file": "wordmark-inverse.svg",
+      "bytes": 24536,
+      "sha256": "fd05d9c78f4a1a6d461fdd2c4c9361f8310e2adb3efd0e1487d82d03b4f276f6"
+    },
+    {
+      "file": "wordmark-mono.svg",
+      "bytes": 24533,
+      "sha256": "719990a5bfd448a497aa8ef90794de33f9578c82ad9c761dbbbb60b3a996e960"
+    },
+    {
+      "file": "wordmark-source.json",
+      "bytes": 25466,
+      "sha256": "d292582e3f93b0f9f394de3ddb77d13b0304bcb7342ca5828879cd06a6f8dfdf"
+    },
+    {
+      "file": "wordmark-split.svg",
+      "bytes": 24569,
+      "sha256": "4c93474ee9584fe684ee178da7257698eaf90d6d6096c2025294123f31629822"
+    },
+    {
+      "file": "wordmark-three-views.png",
+      "bytes": 55674,
+      "sha256": "e17342617919ebdc8a627a15b5f0eda9cf3384dc5b2f3d1063ff8443f45578b5"
+    }
+  ],
+  "solid_silver_update": {
+    "date": "2026-10-21",
+    "owner_instruction": "Keep SPOKEN silver, remove horizontal highlight/glint band from primary2D lettering.",
+    "record": "[dated-local-evidence-omitted]",
+    "physical3D_models_and_reference_crops_unchanged": true,
+    "specimen_records": 5,
+    "distinct_new_looks_claimed": false
+  }
+}

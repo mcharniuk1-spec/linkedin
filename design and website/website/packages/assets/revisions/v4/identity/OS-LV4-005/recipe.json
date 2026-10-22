@@ -1,0 +1,52 @@
+{
+  "id": "OS-LV4-005",
+  "name": "Voice Aperture",
+  "idea_family": "mouth aperture",
+  "meaning": "Upper and lower lips open around a silver inner voice portal. The silhouette reads as an open mouth and a speaking O.",
+  "status": "original candidate; independent PM review pending; no lead selected",
+  "layers": [
+    {
+      "name": "silver curved layer1",
+      "material": "silver",
+      "path": "M11 60 C26 32 45 21 60 21 C80 21 98 37 110 60 C96 84 79 98 60 98 C41 98 23 84 11 60 Z M27 60 C39 45 48 39 60 39 C73 39 83 48 94 60 C82 73 72 80 60 80 C48 80 38 73 27 60 Z",
+      "depth": 0.13,
+      "bow": 0.2,
+      "z": 0.0,
+      "yaw": -0.08,
+      "roll": 0
+    },
+    {
+      "name": "navy curved layer2",
+      "material": "navy",
+      "path": "M9 57 C30 40 44 35 59 39 C75 33 93 42 112 57 C88 27 75 17 59 26 C42 18 26 33 9 57 Z",
+      "depth": 0.13,
+      "bow": 0.32,
+      "z": 0.16,
+      "yaw": 0.08,
+      "roll": 0
+    },
+    {
+      "name": "blue curved layer3",
+      "material": "blue",
+      "path": "M10 65 C29 81 44 85 60 82 C76 87 94 79 111 64 C91 95 77 108 60 96 C42 107 26 91 10 65 Z",
+      "depth": 0.13,
+      "bow": 0.2,
+      "z": 0.32,
+      "yaw": -0.04,
+      "roll": 0
+    }
+  ],
+  "geometry": "Closed beveled extrusion of the editable curved paths with continuous bowed depth; original geometry, not a stock mesh",
+  "wordmark": "Always uppercase OUTSPOKEN. Exact Archivo730 outlines with optical manual tracking; only firstO has a narrow outward voice notch.",
+  "small_size_verdict": "Negative almond aperture can read as an eye rather than mouth at24/32. Experimental, not a clear-lips claim.",
+  "files": {
+    "glb": "model.glb",
+    "png": "beauty.png",
+    "webp": "beauty.webp",
+    "editable_svg": "flat.svg",
+    "outlined_lockup": "lockup-split.svg"
+  },
+  "curation_status": "experimental_not_primary",
+  "geometry_checks": "finite all attributes; valid all indices; nonzero real depth; permesh bounds recorded",
+  "render_quality_limit": "Procedural satin/material counterpart; smoother and less photorealistic than root generated brushed-metal art. No raster/GLB pixel parity claim."
+}

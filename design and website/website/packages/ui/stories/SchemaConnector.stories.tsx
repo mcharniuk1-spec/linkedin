@@ -1,0 +1,10 @@
+import type { Meta, StoryObj } from '@storybook/react-vite';
+import { useState } from 'react';
+import * as C from '../src';
+function ComposerDemo(){const [value,setValue]=useState('');return <C.ChatComposer value={value} onChange={setValue} onSend={()=>setValue('')}/>};
+function PaginationDemo(){const [page,setPage]=useState(1);return <C.PaginationSeries page={page} total={5} onChange={setPage}/>};
+const meta={title:'Schemas/SchemaConnector',component:C.SchemaConnector,tags:['autodocs'],parameters:{docs:{description:{component:'OS-C038 · canonical shared module. Stage 1 candidate; Figma and owner acceptance are separate.'}}}} satisfies Meta<typeof C.SchemaConnector>;
+export default meta;
+type Story = StoryObj;
+export const Default:Story={render:()=>(<C.SchemaConnector edge={C.processModel.edges[2]} sourceTitle="Founder approval" targetTitle="Delivery"/>)};
+export const AllRelations:Story={render:()=>(<div className="os-specimen-list">{C.relationTypes.map((r,i)=><C.SchemaConnector key={r} edge={{id:`e-${i}`,source:"a",target:"b",relation_type:r,path_label:r==="feedback_revision"?"Revise draft":undefined}} sourceTitle="Source" targetTitle="Target"/>)}</div>)};

@@ -1,0 +1,147 @@
+{
+  "id": "OS-W311",
+  "name": "OUTSPOKEN",
+  "context": "Uppercase brand word, extruded as editorial artwork. Use the separate custom-O logo lockup for navigation.",
+  "rights": "Original authored meshes and glyphs; no third-party model or competitor media",
+  "render": {
+    "width": 600,
+    "height": 600,
+    "alpha": true,
+    "actual": "Three.js0.186.1 GLB source scene",
+    "toneMapping": "ACESFilmic",
+    "exposure": 0.9
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      1.2,
+      1.1,
+      7
+    ],
+    "lookAt": [
+      0,
+      0,
+      -2.220446049250313e-16
+    ],
+    "extent": 8.9318081245067
+  },
+  "meshes": [
+    {
+      "name": "OUTSPOKEN / outlined glyph 1",
+      "vertices": 11504,
+      "triangles": 5408,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "navy / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    },
+    {
+      "name": "OUTSPOKEN / outlined glyph 2",
+      "vertices": 4634,
+      "triangles": 2012,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "navy / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    },
+    {
+      "name": "OUTSPOKEN / outlined glyph 3",
+      "vertices": 240,
+      "triangles": 124,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "navy / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    },
+    {
+      "name": "OUTSPOKEN / outlined glyph 4",
+      "vertices": 22704,
+      "triangles": 9468,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "silver / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    },
+    {
+      "name": "OUTSPOKEN / outlined glyph 5",
+      "vertices": 5438,
+      "triangles": 2240,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "silver / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    },
+    {
+      "name": "OUTSPOKEN / outlined glyph 6",
+      "vertices": 13252,
+      "triangles": 5408,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "silver / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    },
+    {
+      "name": "OUTSPOKEN / outlined glyph 7",
+      "vertices": 460,
+      "triangles": 188,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "silver / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    },
+    {
+      "name": "OUTSPOKEN / outlined glyph 8",
+      "vertices": 366,
+      "triangles": 188,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "silver / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    },
+    {
+      "name": "OUTSPOKEN / outlined glyph 9",
+      "vertices": 4289,
+      "triangles": 1916,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "silver / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    }
+  ],
+  "bounds": {
+    "min": [
+      -7.2965325856333765,
+      -1.073269229435457,
+      -2.2354136562035163
+    ],
+    "max": [
+      7.2965325856333765,
+      1.073269229435457,
+      2.235413656203516
+    ]
+  },
+  "kind": "real_extruded_typographic_geometry",
+  "usage": "Use as a media artwork object; keep ordinary interface/body text live and readable.",
+  "limitations": [
+    "Procedural satin material, not a photographic surface capture.",
+    "Use the flat SVG for small UI; do not shrink a decorative 3D render below64px."
+  ]
+}

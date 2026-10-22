@@ -1,0 +1,23 @@
+{
+  "id": "OS-VIDEO-ADAPTER-1",
+  "source_preset": "OS-M002 panel",
+  "web_duration_seconds": 0.36,
+  "fps": 30,
+  "frames": 11,
+  "rounding": "Math.round(seconds*fps)",
+  "video_adaptation": "Opacity-only linear fade, separately inspected. Webtranslation and cubic easing are not claimed equivalent.",
+  "scene_duration_seconds": 6,
+  "read_hold_seconds": 5.266666,
+  "scene_count": 8,
+  "total_seconds": 48,
+  "aspects": [
+    "1920x1080",
+    "1080x1080",
+    "1080x1920"
+  ],
+  "alpha": "MP4 opaque; independent SVG/PNG alpha assets remain separate",
+  "audio": "none",
+  "static_reduced": "Use corresponding finalSVG/PNG + source text counterpart",
+  "renders": "exports/Outspoken-style-proof-{aspect}.mp4",
+  "checks": "[dated-local-evidence-omitted]"
+}

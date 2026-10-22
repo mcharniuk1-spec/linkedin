@@ -1,0 +1,123 @@
+{
+  "version": "2.0.0",
+  "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+  "units": "nominal metres",
+  "pivot": "ground centre; Y up; +Z front",
+  "materialRecipe": {
+    "version": "2.0.0",
+    "seed": 191026,
+    "palette": {
+      "navy": "#162760",
+      "cobalt": "#3157D5",
+      "nickel": "#A9AFBA"
+    },
+    "brush": {
+      "direction": "horizontal local UV",
+      "resolution": [
+        1024,
+        512
+      ],
+      "bumpScale": 0.007
+    },
+    "light": {
+      "key": [
+        -3,
+        5,
+        6
+      ],
+      "fill": [
+        4,
+        1,
+        4
+      ],
+      "rim": [
+        2,
+        4,
+        -4
+      ]
+    },
+    "toneMapping": "ACESFilmic",
+    "exposure": 1.05
+  },
+  "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+  "id": "OS-O221",
+  "semanticKey": "O21",
+  "meaning": "Ready-to-post handoff",
+  "layers": "Named closed meshes; editable geometry/materials; no baked text",
+  "bounds": {
+    "min": [
+      -1.0400000214576721,
+      0,
+      -0.4842226514220238
+    ],
+    "max": [
+      1.0400000214576721,
+      2.0100000546500087,
+      0.4842226514220238
+    ]
+  },
+  "size": [
+    2.0800000429153442,
+    2.0100000546500087,
+    0.9684453028440476
+  ],
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      3.305000027325004,
+      6.5
+    ],
+    "lookAt": [
+      0,
+      1.0050000273250044,
+      0
+    ],
+    "extent": 1.4194573518432805
+  },
+  "lighting": {
+    "key": [
+      -3,
+      5,
+      6
+    ],
+    "fill": [
+      4,
+      1,
+      4
+    ],
+    "rim": [
+      2,
+      4,
+      -4
+    ]
+  },
+  "render": {
+    "width": 1200,
+    "height": 1200,
+    "background": "transparent",
+    "color": "sRGB",
+    "toneMapping": "ACES Filmic 1.05"
+  },
+  "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+  "meshes": [
+    {
+      "name": "Finished handoff panel",
+      "material": "Warm matte white reading leaf",
+      "vertices": 11748,
+      "triangles": 3916
+    },
+    {
+      "name": "Open shallow handoff carrier",
+      "material": "Brushed anodised deep navy alloy",
+      "vertices": 1140,
+      "triangles": 2276
+    },
+    {
+      "name": "Carrier precision lip",
+      "material": "Fine brushed neutral nickel",
+      "vertices": 11736,
+      "triangles": 3912
+    }
+  ]
+}

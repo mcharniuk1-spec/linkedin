@@ -1,0 +1,48 @@
+{
+  "name": "@outspoken/design-website",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config website-v3/vite.config.ts",
+    "build": "npm run tokens && vite build --config website-v3/vite.config.ts",
+    "typecheck": "tsc --noEmit",
+    "tokens": "node scripts/generate-tokens.mjs",
+    "storybook": "storybook dev -p 6006 --host 127.0.0.1 --no-open --ci",
+    "build:storybook": "storybook build --disable-telemetry -o storybook-static",
+    "verify:package": "node ../scripts/verify-package.mjs"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "motion": "14.4.0",
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "storybook": "10.6.2",
+    "@storybook/react-vite": "10.6.2",
+    "@storybook/addon-a11y": "10.6.2",
+    "@storybook/addon-docs": "10.6.2",
+    "@storybook/addon-mcp": "10.6.2",
+    "@storybook/addon-vitest": "10.6.2",
+    "vite": "8.3.4",
+    "typescript": "5.9.3",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.186.0",
+    "@types/node": "22.19.15",
+    "@playwright/test": "1.64.1",
+    "axe-core": "4.14.0",
+    "vitest": "5.0.5",
+    "@vitest/browser-playwright": "5.0.5"
+  },
+  "exports": {
+    ".": "./packages/ui/src/index.ts",
+    "./styles.css": "./packages/ui/src/styles.css",
+    "./motion": "./packages/motion/src/presets.ts",
+    "./tokens": "./packages/tokens/generated/tokens.ts"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

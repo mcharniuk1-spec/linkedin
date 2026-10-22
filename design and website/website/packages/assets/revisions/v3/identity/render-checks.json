@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-20",
+  "status": "pass",
+  "actualRenderer": "Three.js0.186.1 via existing Chromium/SwiftShader",
+  "browserVersion": "155.0.8059.85",
+  "viewport": [
+    1440,
+    960
+  ],
+  "renderCount": 8,
+  "renders": [
+    {
+      "id": "OS-LV3-001",
+      "source": "actual Three.js GLB render",
+      "width": 1200,
+      "height": 1200,
+      "alpha": true
+    },
+    {
+      "id": "OS-LV3-002",
+      "source": "actual Three.js GLB render",
+      "width": 1200,
+      "height": 1200,
+      "alpha": true
+    },
+    {
+      "id": "OS-LV3-003",
+      "source": "actual Three.js GLB render",
+      "width": 1200,
+      "height": 1200,
+      "alpha": true
+    },
+    {
+      "id": "OS-LV3-004",
+      "source": "actual Three.js GLB render",
+      "width": 1200,
+      "height": 1200,
+      "alpha": true
+    },
+    {
+      "id": "OS-LV3-005",
+      "source": "actual Three.js GLB render",
+      "width": 1200,
+      "height": 1200,
+      "alpha": true
+    },
+    {
+      "id": "OS-LV3-006",
+      "source": "actual Three.js GLB render",
+      "width": 1200,
+      "height": 1200,
+      "alpha": true
+    },
+    {
+      "id": "OS-LV3-007",
+      "source": "actual Three.js GLB render",
+      "width": 1200,
+      "height": 1200,
+      "alpha": true
+    },
+    {
+      "id": "OS-LV3-008",
+      "source": "actual Three.js GLB render",
+      "width": 1200,
+      "height": 1200,
+      "alpha": true
+    }
+  ],
+  "errors": [],
+  "scope": "deterministic local artifact rendering; no external page automation"
+}

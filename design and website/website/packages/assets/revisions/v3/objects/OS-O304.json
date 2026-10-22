@@ -1,0 +1,88 @@
+{
+  "id": "OS-O304",
+  "name": "Ink pen",
+  "context": "Professional writing and editorial judgment",
+  "rights": "Original authored meshes and glyphs; no third-party model or competitor media",
+  "render": {
+    "width": 600,
+    "height": 600,
+    "alpha": true,
+    "actual": "Three.js0.186.1 GLB source scene",
+    "toneMapping": "ACESFilmic",
+    "exposure": 0.9
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      2.3,
+      7
+    ],
+    "lookAt": [
+      0,
+      5.551115123125783e-17,
+      0
+    ],
+    "extent": 1.17483799375346
+  },
+  "meshes": [
+    {
+      "name": "ink pen barrel",
+      "vertices": 196,
+      "triangles": 192,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "tapered writing tip",
+      "vertices": 196,
+      "triangles": 192,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "metal barrel",
+      "vertices": 196,
+      "triangles": 192,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "pen clip",
+      "vertices": 341,
+      "triangles": 600,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "metal barrel",
+      "vertices": 196,
+      "triangles": 192,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "citron / Outspoken V3"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.638985762373645,
+      -0.9096010815641218,
+      -0.16265619091006142
+    ],
+    "max": [
+      0.638985762373645,
+      0.9096010815641219,
+      0.16265619091006142
+    ]
+  },
+  "kind": "semantic_object",
+  "usage": "Use beside original drafting, revision and voice decisions.",
+  "limitations": [
+    "Procedural satin material, not a photographic surface capture.",
+    "Use the flat SVG for small UI; do not shrink a decorative 3D render below64px."
+  ]
+}

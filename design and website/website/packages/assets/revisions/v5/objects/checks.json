@@ -1,0 +1,1413 @@
+{
+  "expected": 108,
+  "actual": 108,
+  "unique_ids": 108,
+  "pass": true,
+  "checks": [
+    {
+      "id": "OS-O301",
+      "pose": "front",
+      "alpha_bbox": [
+        185,
+        66,
+        415,
+        534
+      ],
+      "visible_pixels": 54538,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O301",
+      "pose": "left",
+      "alpha_bbox": [
+        196,
+        68,
+        404,
+        547
+      ],
+      "visible_pixels": 58132,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O301",
+      "pose": "right",
+      "alpha_bbox": [
+        196,
+        68,
+        404,
+        547
+      ],
+      "visible_pixels": 58147,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O302",
+      "pose": "front",
+      "alpha_bbox": [
+        202,
+        110,
+        467,
+        474
+      ],
+      "visible_pixels": 36941,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O302",
+      "pose": "left",
+      "alpha_bbox": [
+        208,
+        113,
+        449,
+        473
+      ],
+      "visible_pixels": 34680,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O302",
+      "pose": "right",
+      "alpha_bbox": [
+        212,
+        110,
+        452,
+        470
+      ],
+      "visible_pixels": 34656,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O303",
+      "pose": "front",
+      "alpha_bbox": [
+        144,
+        82,
+        456,
+        516
+      ],
+      "visible_pixels": 73576,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O303",
+      "pose": "left",
+      "alpha_bbox": [
+        137,
+        72,
+        516,
+        522
+      ],
+      "visible_pixels": 94381,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O303",
+      "pose": "right",
+      "alpha_bbox": [
+        137,
+        95,
+        516,
+        514
+      ],
+      "visible_pixels": 93520,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O304",
+      "pose": "front",
+      "alpha_bbox": [
+        133,
+        60,
+        450,
+        529
+      ],
+      "visible_pixels": 25486,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O304",
+      "pose": "left",
+      "alpha_bbox": [
+        143,
+        72,
+        431,
+        512
+      ],
+      "visible_pixels": 23119,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O304",
+      "pose": "right",
+      "alpha_bbox": [
+        150,
+        52,
+        439,
+        536
+      ],
+      "visible_pixels": 25798,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O305",
+      "pose": "front",
+      "alpha_bbox": [
+        125,
+        65,
+        475,
+        535
+      ],
+      "visible_pixels": 163980,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O305",
+      "pose": "left",
+      "alpha_bbox": [
+        122,
+        54,
+        480,
+        545
+      ],
+      "visible_pixels": 168939,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O305",
+      "pose": "right",
+      "alpha_bbox": [
+        130,
+        49,
+        460,
+        551
+      ],
+      "visible_pixels": 153688,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O306",
+      "pose": "front",
+      "alpha_bbox": [
+        84,
+        70,
+        516,
+        530
+      ],
+      "visible_pixels": 174745,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O306",
+      "pose": "left",
+      "alpha_bbox": [
+        107,
+        52,
+        473,
+        529
+      ],
+      "visible_pixels": 151014,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O306",
+      "pose": "right",
+      "alpha_bbox": [
+        104,
+        78,
+        518,
+        541
+      ],
+      "visible_pixels": 167629,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O307",
+      "pose": "front",
+      "alpha_bbox": [
+        72,
+        65,
+        528,
+        534
+      ],
+      "visible_pixels": 81993,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O307",
+      "pose": "left",
+      "alpha_bbox": [
+        96,
+        72,
+        506,
+        517
+      ],
+      "visible_pixels": 75204,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O307",
+      "pose": "right",
+      "alpha_bbox": [
+        90,
+        67,
+        509,
+        546
+      ],
+      "visible_pixels": 76197,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O308",
+      "pose": "front",
+      "alpha_bbox": [
+        110,
+        60,
+        490,
+        540
+      ],
+      "visible_pixels": 83315,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O308",
+      "pose": "left",
+      "alpha_bbox": [
+        120,
+        48,
+        471,
+        549
+      ],
+      "visible_pixels": 86567,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O308",
+      "pose": "right",
+      "alpha_bbox": [
+        129,
+        48,
+        480,
+        549
+      ],
+      "visible_pixels": 86599,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O309",
+      "pose": "front",
+      "alpha_bbox": [
+        51,
+        101,
+        549,
+        498
+      ],
+      "visible_pixels": 141787,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O309",
+      "pose": "left",
+      "alpha_bbox": [
+        96,
+        97,
+        516,
+        474
+      ],
+      "visible_pixels": 123892,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O309",
+      "pose": "right",
+      "alpha_bbox": [
+        50,
+        93,
+        539,
+        509
+      ],
+      "visible_pixels": 132828,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O310",
+      "pose": "front",
+      "alpha_bbox": [
+        45,
+        127,
+        555,
+        473
+      ],
+      "visible_pixels": 175668,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O310",
+      "pose": "left",
+      "alpha_bbox": [
+        60,
+        108,
+        531,
+        489
+      ],
+      "visible_pixels": 162370,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O310",
+      "pose": "right",
+      "alpha_bbox": [
+        69,
+        108,
+        540,
+        489
+      ],
+      "visible_pixels": 162386,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O311",
+      "pose": "front",
+      "alpha_bbox": [
+        93,
+        65,
+        507,
+        536
+      ],
+      "visible_pixels": 189769,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O311",
+      "pose": "left",
+      "alpha_bbox": [
+        103,
+        54,
+        490,
+        547
+      ],
+      "visible_pixels": 175961,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O311",
+      "pose": "right",
+      "alpha_bbox": [
+        110,
+        54,
+        497,
+        547
+      ],
+      "visible_pixels": 175979,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O312",
+      "pose": "front",
+      "alpha_bbox": [
+        86,
+        65,
+        514,
+        535
+      ],
+      "visible_pixels": 74077,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O312",
+      "pose": "left",
+      "alpha_bbox": [
+        92,
+        49,
+        487,
+        544
+      ],
+      "visible_pixels": 80105,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O312",
+      "pose": "right",
+      "alpha_bbox": [
+        113,
+        49,
+        508,
+        544
+      ],
+      "visible_pixels": 80027,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O313",
+      "pose": "front",
+      "alpha_bbox": [
+        65,
+        65,
+        535,
+        535
+      ],
+      "visible_pixels": 173048,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O313",
+      "pose": "left",
+      "alpha_bbox": [
+        87,
+        69,
+        514,
+        533
+      ],
+      "visible_pixels": 154684,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O313",
+      "pose": "right",
+      "alpha_bbox": [
+        86,
+        69,
+        513,
+        533
+      ],
+      "visible_pixels": 154691,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O314",
+      "pose": "front",
+      "alpha_bbox": [
+        57,
+        96,
+        543,
+        504
+      ],
+      "visible_pixels": 36189,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O314",
+      "pose": "left",
+      "alpha_bbox": [
+        64,
+        86,
+        502,
+        494
+      ],
+      "visible_pixels": 35627,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O314",
+      "pose": "right",
+      "alpha_bbox": [
+        94,
+        77,
+        540,
+        512
+      ],
+      "visible_pixels": 35509,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O315",
+      "pose": "front",
+      "alpha_bbox": [
+        135,
+        110,
+        427,
+        528
+      ],
+      "visible_pixels": 41252,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O315",
+      "pose": "left",
+      "alpha_bbox": [
+        141,
+        110,
+        414,
+        548
+      ],
+      "visible_pixels": 47026,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O315",
+      "pose": "right",
+      "alpha_bbox": [
+        141,
+        115,
+        414,
+        539
+      ],
+      "visible_pixels": 49924,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O316",
+      "pose": "front",
+      "alpha_bbox": [
+        45,
+        124,
+        555,
+        476
+      ],
+      "visible_pixels": 77980,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O316",
+      "pose": "left",
+      "alpha_bbox": [
+        63,
+        106,
+        530,
+        492
+      ],
+      "visible_pixels": 80348,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O316",
+      "pose": "right",
+      "alpha_bbox": [
+        70,
+        106,
+        537,
+        492
+      ],
+      "visible_pixels": 80242,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O317",
+      "pose": "front",
+      "alpha_bbox": [
+        82,
+        130,
+        518,
+        470
+      ],
+      "visible_pixels": 134739,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O317",
+      "pose": "left",
+      "alpha_bbox": [
+        47,
+        117,
+        500,
+        484
+      ],
+      "visible_pixels": 146421,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O317",
+      "pose": "right",
+      "alpha_bbox": [
+        100,
+        103,
+        553,
+        484
+      ],
+      "visible_pixels": 146477,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O318",
+      "pose": "front",
+      "alpha_bbox": [
+        46,
+        125,
+        554,
+        475
+      ],
+      "visible_pixels": 65078,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O318",
+      "pose": "left",
+      "alpha_bbox": [
+        46,
+        125,
+        554,
+        500
+      ],
+      "visible_pixels": 74020,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O318",
+      "pose": "right",
+      "alpha_bbox": [
+        46,
+        125,
+        554,
+        500
+      ],
+      "visible_pixels": 74024,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O319",
+      "pose": "front",
+      "alpha_bbox": [
+        76,
+        72,
+        524,
+        528
+      ],
+      "visible_pixels": 72450,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O319",
+      "pose": "left",
+      "alpha_bbox": [
+        69,
+        69,
+        534,
+        517
+      ],
+      "visible_pixels": 68734,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O319",
+      "pose": "right",
+      "alpha_bbox": [
+        127,
+        101,
+        485,
+        513
+      ],
+      "visible_pixels": 67144,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O320",
+      "pose": "front",
+      "alpha_bbox": [
+        100,
+        185,
+        500,
+        415
+      ],
+      "visible_pixels": 27559,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O320",
+      "pose": "left",
+      "alpha_bbox": [
+        106,
+        161,
+        494,
+        439
+      ],
+      "visible_pixels": 28572,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O320",
+      "pose": "right",
+      "alpha_bbox": [
+        106,
+        161,
+        494,
+        439
+      ],
+      "visible_pixels": 28507,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O321",
+      "pose": "front",
+      "alpha_bbox": [
+        45,
+        74,
+        555,
+        526
+      ],
+      "visible_pixels": 110870,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O321",
+      "pose": "left",
+      "alpha_bbox": [
+        54,
+        52,
+        546,
+        548
+      ],
+      "visible_pixels": 147814,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O321",
+      "pose": "right",
+      "alpha_bbox": [
+        54,
+        87,
+        546,
+        548
+      ],
+      "visible_pixels": 147339,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O322",
+      "pose": "front",
+      "alpha_bbox": [
+        51,
+        78,
+        549,
+        522
+      ],
+      "visible_pixels": 204041,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O322",
+      "pose": "left",
+      "alpha_bbox": [
+        50,
+        74,
+        551,
+        540
+      ],
+      "visible_pixels": 204782,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O322",
+      "pose": "right",
+      "alpha_bbox": [
+        65,
+        53,
+        550,
+        546
+      ],
+      "visible_pixels": 199857,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O323",
+      "pose": "front",
+      "alpha_bbox": [
+        169,
+        56,
+        431,
+        544
+      ],
+      "visible_pixels": 115731,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O323",
+      "pose": "left",
+      "alpha_bbox": [
+        172,
+        46,
+        422,
+        552
+      ],
+      "visible_pixels": 111009,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O323",
+      "pose": "right",
+      "alpha_bbox": [
+        178,
+        46,
+        428,
+        552
+      ],
+      "visible_pixels": 111011,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O324",
+      "pose": "front",
+      "alpha_bbox": [
+        67,
+        65,
+        533,
+        535
+      ],
+      "visible_pixels": 136669,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O324",
+      "pose": "left",
+      "alpha_bbox": [
+        82,
+        68,
+        511,
+        527
+      ],
+      "visible_pixels": 128345,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O324",
+      "pose": "right",
+      "alpha_bbox": [
+        85,
+        62,
+        514,
+        540
+      ],
+      "visible_pixels": 128587,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O325",
+      "pose": "front",
+      "alpha_bbox": [
+        45,
+        101,
+        555,
+        499
+      ],
+      "visible_pixels": 121541,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O325",
+      "pose": "left",
+      "alpha_bbox": [
+        51,
+        79,
+        534,
+        509
+      ],
+      "visible_pixels": 126104,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-O325",
+      "pose": "right",
+      "alpha_bbox": [
+        66,
+        79,
+        549,
+        504
+      ],
+      "visible_pixels": 125427,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W301",
+      "pose": "front",
+      "alpha_bbox": [
+        45,
+        229,
+        555,
+        371
+      ],
+      "visible_pixels": 33233,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W301",
+      "pose": "left",
+      "alpha_bbox": [
+        68,
+        226,
+        533,
+        386
+      ],
+      "visible_pixels": 37980,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W301",
+      "pose": "right",
+      "alpha_bbox": [
+        68,
+        216,
+        533,
+        388
+      ],
+      "visible_pixels": 37966,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W302",
+      "pose": "front",
+      "alpha_bbox": [
+        45,
+        209,
+        554,
+        391
+      ],
+      "visible_pixels": 38545,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W302",
+      "pose": "left",
+      "alpha_bbox": [
+        66,
+        218,
+        534,
+        379
+      ],
+      "visible_pixels": 44796,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W302",
+      "pose": "right",
+      "alpha_bbox": [
+        66,
+        192,
+        534,
+        406
+      ],
+      "visible_pixels": 45324,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W303",
+      "pose": "front",
+      "alpha_bbox": [
+        45,
+        218,
+        555,
+        382
+      ],
+      "visible_pixels": 39026,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W303",
+      "pose": "left",
+      "alpha_bbox": [
+        67,
+        197,
+        533,
+        388
+      ],
+      "visible_pixels": 45969,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W303",
+      "pose": "right",
+      "alpha_bbox": [
+        67,
+        206,
+        533,
+        381
+      ],
+      "visible_pixels": 46094,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W304",
+      "pose": "front",
+      "alpha_bbox": [
+        45,
+        224,
+        555,
+        376
+      ],
+      "visible_pixels": 37172,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W304",
+      "pose": "left",
+      "alpha_bbox": [
+        67,
+        205,
+        533,
+        394
+      ],
+      "visible_pixels": 41991,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W304",
+      "pose": "right",
+      "alpha_bbox": [
+        67,
+        212,
+        533,
+        393
+      ],
+      "visible_pixels": 41816,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W305",
+      "pose": "front",
+      "alpha_bbox": [
+        45,
+        227,
+        555,
+        373
+      ],
+      "visible_pixels": 34353,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W305",
+      "pose": "left",
+      "alpha_bbox": [
+        67,
+        210,
+        533,
+        388
+      ],
+      "visible_pixels": 38993,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W305",
+      "pose": "right",
+      "alpha_bbox": [
+        67,
+        206,
+        533,
+        392
+      ],
+      "visible_pixels": 39441,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W306",
+      "pose": "front",
+      "alpha_bbox": [
+        45,
+        223,
+        554,
+        377
+      ],
+      "visible_pixels": 32647,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W306",
+      "pose": "left",
+      "alpha_bbox": [
+        67,
+        215,
+        533,
+        365
+      ],
+      "visible_pixels": 39203,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W306",
+      "pose": "right",
+      "alpha_bbox": [
+        67,
+        210,
+        533,
+        393
+      ],
+      "visible_pixels": 38897,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W307",
+      "pose": "front",
+      "alpha_bbox": [
+        45,
+        250,
+        555,
+        350
+      ],
+      "visible_pixels": 24800,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W307",
+      "pose": "left",
+      "alpha_bbox": [
+        69,
+        234,
+        531,
+        367
+      ],
+      "visible_pixels": 27959,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W307",
+      "pose": "right",
+      "alpha_bbox": [
+        69,
+        233,
+        531,
+        369
+      ],
+      "visible_pixels": 28041,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W308",
+      "pose": "front",
+      "alpha_bbox": [
+        45,
+        248,
+        555,
+        352
+      ],
+      "visible_pixels": 25460,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W308",
+      "pose": "left",
+      "alpha_bbox": [
+        69,
+        235,
+        531,
+        371
+      ],
+      "visible_pixels": 28770,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W308",
+      "pose": "right",
+      "alpha_bbox": [
+        69,
+        233,
+        531,
+        371
+      ],
+      "visible_pixels": 28760,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W309",
+      "pose": "front",
+      "alpha_bbox": [
+        45,
+        258,
+        555,
+        342
+      ],
+      "visible_pixels": 17752,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W309",
+      "pose": "left",
+      "alpha_bbox": [
+        69,
+        246,
+        531,
+        347
+      ],
+      "visible_pixels": 20673,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W309",
+      "pose": "right",
+      "alpha_bbox": [
+        69,
+        241,
+        531,
+        346
+      ],
+      "visible_pixels": 20756,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W310",
+      "pose": "front",
+      "alpha_bbox": [
+        45,
+        269,
+        555,
+        331
+      ],
+      "visible_pixels": 14945,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W310",
+      "pose": "left",
+      "alpha_bbox": [
+        70,
+        257,
+        530,
+        349
+      ],
+      "visible_pixels": 16742,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W310",
+      "pose": "right",
+      "alpha_bbox": [
+        70,
+        253,
+        530,
+        350
+      ],
+      "visible_pixels": 16796,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W311",
+      "pose": "front",
+      "alpha_bbox": [
+        45,
+        271,
+        555,
+        329
+      ],
+      "visible_pixels": 16142,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W311",
+      "pose": "left",
+      "alpha_bbox": [
+        70,
+        251,
+        530,
+        347
+      ],
+      "visible_pixels": 17778,
+      "sha256_match": true,
+      "pass": true
+    },
+    {
+      "id": "OS-W311",
+      "pose": "right",
+      "alpha_bbox": [
+        70,
+        253,
+        530,
+        349
+      ],
+      "visible_pixels": 17916,
+      "sha256_match": true,
+      "pass": true
+    }
+  ],
+  "scope": "Every expected view: dimensions, useful alpha, uncropped margin, source-bound output hash; contact sheets require actual visual review."
+}

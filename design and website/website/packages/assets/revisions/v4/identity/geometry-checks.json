@@ -1,0 +1,570 @@
+{
+  "date": "2026-10-20",
+  "status": "pass",
+  "expected_concepts": 8,
+  "exact_ids_reconciled": true,
+  "expected_part_counts": "3or4",
+  "font_license": "OFL1.1 retained",
+  "all_uppercase_wordmarks": true,
+  "all_permesh_bounds_finite": true,
+  "all_png_webp_true_alpha": true,
+  "GLB_geometry_checks": [
+    {
+      "id": "OS-LV4-001",
+      "files_checked": 19,
+      "mesh_parts": 4,
+      "meshes": [
+        {
+          "name": "curved metal layer",
+          "vertices": 17641,
+          "triangles": 14350,
+          "min": [
+            -0.8757143020629883,
+            -1.332861304283142,
+            0.029869670048356056
+          ],
+          "max": [
+            0.8757144212722778,
+            1.3328619003295898,
+            0.3122088313102722
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        },
+        {
+          "name": "curved metal layer",
+          "vertices": 4358,
+          "triangles": 3364,
+          "min": [
+            -0.5614286661148071,
+            0.29317185282707214,
+            0.18289442360401154
+          ],
+          "max": [
+            0.5614286661148071,
+            0.7328587174415588,
+            0.4103339910507202
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        },
+        {
+          "name": "curved metal layer",
+          "vertices": 4496,
+          "triangles": 3400,
+          "min": [
+            -0.5614286661148071,
+            -0.22111381590366364,
+            0.09009474515914917
+          ],
+          "max": [
+            0.5614286661148071,
+            0.21857236325740814,
+            0.2844356596469879
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        },
+        {
+          "name": "curved metal layer",
+          "vertices": 4561,
+          "triangles": 3380,
+          "min": [
+            -0.5643646717071533,
+            -0.708480715751648,
+            0.1881483942270279
+          ],
+          "max": [
+            0.5643645524978638,
+            -0.29571333527565,
+            0.4090651571750641
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        }
+      ],
+      "alpha_png_webp": "actualRGBA,both960square,allcorners0,extrema0..255,contentboundsinsidecanvas",
+      "native_svg": "allpaths,noraster,nofonttext;allwordmarksuppercase",
+      "model_sha256": "bdccb66210e356fe33519c49eda8c941ff3f656b27afb2c7aa95b1cbd02423c4",
+      "beauty_sha256": "442d1dcc460ebd81d2bbdcc7c2942f12e8123989e907cd35e2bac86abc3e71c6"
+    },
+    {
+      "id": "OS-LV4-002",
+      "files_checked": 19,
+      "mesh_parts": 3,
+      "meshes": [
+        {
+          "name": "curved metal layer",
+          "vertices": 5687,
+          "triangles": 5354,
+          "min": [
+            -0.7900000810623169,
+            -0.5619865655899048,
+            0.0386291965842247
+          ],
+          "max": [
+            -0.18200384080410004,
+            1.3057469129562378,
+            0.29004231095314026
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        },
+        {
+          "name": "curved metal layer",
+          "vertices": 5879,
+          "triangles": 5506,
+          "min": [
+            0.09621371328830719,
+            -0.5619148015975952,
+            0.1670207381248474
+          ],
+          "max": [
+            0.7900000810623169,
+            1.3055737018585205,
+            0.4238416850566864
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        },
+        {
+          "name": "curved metal layer",
+          "vertices": 9197,
+          "triangles": 7416,
+          "min": [
+            -1.132857084274292,
+            -1.3614319562911987,
+            -0.010352455079555511
+          ],
+          "max": [
+            1.1614285707473755,
+            0.2185715287923813,
+            0.3158872425556183
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        }
+      ],
+      "alpha_png_webp": "actualRGBA,both960square,allcorners0,extrema0..255,contentboundsinsidecanvas",
+      "native_svg": "allpaths,noraster,nofonttext;allwordmarksuppercase",
+      "model_sha256": "5372686d610e6b1f6476a4c376d18877d6c10ff8800c421cc5c626574b297989",
+      "beauty_sha256": "e9c90f00f0335b87d32ea1c9667ef5dcbf6f129e2e05e0c893e03c09b832e7b1"
+    },
+    {
+      "id": "OS-LV4-003",
+      "files_checked": 19,
+      "mesh_parts": 3,
+      "meshes": [
+        {
+          "name": "curved metal layer",
+          "vertices": 5396,
+          "triangles": 5292,
+          "min": [
+            -1.3042857646942139,
+            0.06542430818080902,
+            -0.021990103647112846
+          ],
+          "max": [
+            1.04975426197052,
+            1.338395118713379,
+            0.3216349184513092
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        },
+        {
+          "name": "curved metal layer",
+          "vertices": 16399,
+          "triangles": 11956,
+          "min": [
+            0.4671424925327301,
+            -1.4186040163040161,
+            -0.052356526255607605
+          ],
+          "max": [
+            1.5328577756881714,
+            1.390031099319458,
+            0.41981011629104614
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        },
+        {
+          "name": "curved metal layer",
+          "vertices": 4959,
+          "triangles": 4302,
+          "min": [
+            -1.3042857646942139,
+            -1.2533565759658813,
+            -0.025324251502752304
+          ],
+          "max": [
+            1.0785325765609741,
+            0.07671473920345306,
+            0.288455992937088
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        }
+      ],
+      "alpha_png_webp": "actualRGBA,both960square,allcorners0,extrema0..255,contentboundsinsidecanvas",
+      "native_svg": "allpaths,noraster,nofonttext;allwordmarksuppercase",
+      "model_sha256": "5fb2c1f2981286caef9b314bc2ee91e717d2a4d239a7bdf85f8587d45024df0a",
+      "beauty_sha256": "33a39c605b085ec8c5a695fe1f13150dfac13cd5977a5e3a0e2699627d63bade"
+    },
+    {
+      "id": "OS-LV4-004",
+      "files_checked": 19,
+      "mesh_parts": 3,
+      "meshes": [
+        {
+          "name": "curved metal layer",
+          "vertices": 11407,
+          "triangles": 11408,
+          "min": [
+            -1.3042857646942139,
+            -0.9328571557998657,
+            -0.06473718583583832
+          ],
+          "max": [
+            1.3899999856948853,
+            1.247145414352417,
+            0.3179183602333069
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        },
+        {
+          "name": "curved metal layer",
+          "vertices": 6725,
+          "triangles": 5620,
+          "min": [
+            -1.2757142782211304,
+            -0.45248761773109436,
+            0.022876610979437828
+          ],
+          "max": [
+            1.3620456457138062,
+            0.8258811831474304,
+            0.40835240483283997
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        },
+        {
+          "name": "curved metal layer",
+          "vertices": 7498,
+          "triangles": 6324,
+          "min": [
+            -1.2757142782211304,
+            -1.3957468271255493,
+            -0.04549936577677727
+          ],
+          "max": [
+            1.308118224143982,
+            0.0230394434183836,
+            0.3163151741027832
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        }
+      ],
+      "alpha_png_webp": "actualRGBA,both960square,allcorners0,extrema0..255,contentboundsinsidecanvas",
+      "native_svg": "allpaths,noraster,nofonttext;allwordmarksuppercase",
+      "model_sha256": "1db612ce6c997ab27420d805941dc6b7d0f009f9c285c2dfcac992520eda6f09",
+      "beauty_sha256": "191fc8884c1926fb9a6e07e94f7514fafbbd38fc871cbdf9ce8a535ad264791e"
+    },
+    {
+      "id": "OS-LV4-005",
+      "files_checked": 19,
+      "mesh_parts": 3,
+      "meshes": [
+        {
+          "name": "curved metal layer",
+          "vertices": 18116,
+          "triangles": 15894,
+          "min": [
+            -1.421036958694458,
+            -1.1042906045913696,
+            -0.009642967022955418
+          ],
+          "max": [
+            1.4498928785324097,
+            1.1328624486923218,
+            0.305520236492157
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        },
+        {
+          "name": "curved metal layer",
+          "vertices": 7980,
+          "triangles": 6038,
+          "min": [
+            -1.4752099514007568,
+            0.06665180623531342,
+            0.017356013879179955
+          ],
+          "max": [
+            1.504426121711731,
+            1.0806267261505127,
+            0.41933101415634155
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        },
+        {
+          "name": "curved metal layer",
+          "vertices": 8565,
+          "triangles": 6556,
+          "min": [
+            -1.445854902267456,
+            -1.173500895500183,
+            -0.02712699957191944
+          ],
+          "max": [
+            1.4743932485580444,
+            -0.09448136389255524,
+            0.30963966250419617
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        }
+      ],
+      "alpha_png_webp": "actualRGBA,both960square,allcorners0,extrema0..255,contentboundsinsidecanvas",
+      "native_svg": "allpaths,noraster,nofonttext;allwordmarksuppercase",
+      "model_sha256": "1e5f4e9c15c489a1bb99cd10071cb36f2baad50d4921fd7475086feadf5ab00b",
+      "beauty_sha256": "dfd8e3c694c1792ccd5e3703d1f76955783d19fbe25d108ec0ebe32474530a31"
+    },
+    {
+      "id": "OS-LV4-006",
+      "files_checked": 19,
+      "mesh_parts": 4,
+      "meshes": [
+        {
+          "name": "curved metal layer",
+          "vertices": 12203,
+          "triangles": 10822,
+          "min": [
+            -1.4471428394317627,
+            -1.3388808965682983,
+            -0.10310022532939911
+          ],
+          "max": [
+            -0.32428571581840515,
+            1.104285717010498,
+            0.31676414608955383
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        },
+        {
+          "name": "curved metal layer",
+          "vertices": 7062,
+          "triangles": 5920,
+          "min": [
+            -0.9374053478240967,
+            -0.9401258230209351,
+            0.1396494358778
+          ],
+          "max": [
+            -0.32428571581840515,
+            0.9909403920173645,
+            0.40268078446388245
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        },
+        {
+          "name": "curved metal layer",
+          "vertices": 12652,
+          "triangles": 10822,
+          "min": [
+            0.12428571283817291,
+            -1.3388808965682983,
+            -0.015469454228878021
+          ],
+          "max": [
+            1.2471429109573364,
+            1.104285717010498,
+            0.31039395928382874
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        },
+        {
+          "name": "curved metal layer",
+          "vertices": 7251,
+          "triangles": 5920,
+          "min": [
+            0.6340230703353882,
+            -0.9401258230209351,
+            0.06278414279222488
+          ],
+          "max": [
+            1.2471429109573364,
+            0.9909403920173645,
+            0.3906215727329254
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        }
+      ],
+      "alpha_png_webp": "actualRGBA,both960square,allcorners0,extrema0..255,contentboundsinsidecanvas",
+      "native_svg": "allpaths,noraster,nofonttext;allwordmarksuppercase",
+      "model_sha256": "54dc13148405e086a268d42b51aba10ab7b6ba7a1d5843c44e7f2a2668d5cbb9",
+      "beauty_sha256": "a093a2adbe1ddae5fdf5639f8295143d0ec719a334dd3515a134d27668a43fe8"
+    },
+    {
+      "id": "OS-LV4-007",
+      "files_checked": 19,
+      "mesh_parts": 3,
+      "meshes": [
+        {
+          "name": "curved metal layer",
+          "vertices": 5105,
+          "triangles": 4242,
+          "min": [
+            -1.511956810951233,
+            -0.511682391166687,
+            -0.039538756012916565
+          ],
+          "max": [
+            -0.2385713905096054,
+            0.8042895197868347,
+            0.2858973443508148
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        },
+        {
+          "name": "curved metal layer",
+          "vertices": 8431,
+          "triangles": 6092,
+          "min": [
+            -0.1661728471517563,
+            -0.9378534555435181,
+            0.1679229885339737
+          ],
+          "max": [
+            0.8185747861862183,
+            1.023557186126709,
+            0.41411155462265015
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        },
+        {
+          "name": "curved metal layer",
+          "vertices": 8893,
+          "triangles": 6970,
+          "min": [
+            0.40458694100379944,
+            -1.4808894395828247,
+            -0.10413552075624466
+          ],
+          "max": [
+            1.7328602075576782,
+            1.480920672416687,
+            0.3270654082298279
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        }
+      ],
+      "alpha_png_webp": "actualRGBA,both960square,allcorners0,extrema0..255,contentboundsinsidecanvas",
+      "native_svg": "allpaths,noraster,nofonttext;allwordmarksuppercase",
+      "model_sha256": "3033ae573958754f5d0d46cd016f72751bf9ea29ea69420ef20fbd85faee50b2",
+      "beauty_sha256": "70043de177494b759f9d29c7ee6058729fcace0e3baaa4d76c9722f394989651"
+    },
+    {
+      "id": "OS-LV4-008",
+      "files_checked": 19,
+      "mesh_parts": 3,
+      "meshes": [
+        {
+          "name": "curved metal layer",
+          "vertices": 20439,
+          "triangles": 20072,
+          "min": [
+            -1.447147011756897,
+            -1.4757190942764282,
+            -0.051711440086364746
+          ],
+          "max": [
+            1.447147011756897,
+            1.4757188558578491,
+            0.3219255208969116
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        },
+        {
+          "name": "curved metal layer",
+          "vertices": 8529,
+          "triangles": 7088,
+          "min": [
+            -1.1015400886535645,
+            -1.300840973854065,
+            0.10033684223890305
+          ],
+          "max": [
+            -0.09281538426876068,
+            1.2742356061935425,
+            0.4226680397987366
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        },
+        {
+          "name": "curved metal layer",
+          "vertices": 8766,
+          "triangles": 6984,
+          "min": [
+            0.15127219259738922,
+            -1.3311234712600708,
+            0.019908905029296875
+          ],
+          "max": [
+            1.058731198310852,
+            1.1598365306854248,
+            0.30382198095321655
+          ],
+          "finite": true,
+          "valid_index_range": true,
+          "has_real_thickness": true
+        }
+      ],
+      "alpha_png_webp": "actualRGBA,both960square,allcorners0,extrema0..255,contentboundsinsidecanvas",
+      "native_svg": "allpaths,noraster,nofonttext;allwordmarksuppercase",
+      "model_sha256": "49979bbe3ed2f70ca9c43b9564d6b8569b54c93906686ed255f23e42722fa11a",
+      "beauty_sha256": "02c12f174e1f66edb2547ac794df2cda6bf087430a59706af21fd86a08b0f0e0"
+    }
+  ],
+  "scope_limit": "Not a watertight-manifold certification, scientific quality or owner/trademark acceptance. Root-generatedheroart is a separately authored raster, not thisGLBrender."
+}

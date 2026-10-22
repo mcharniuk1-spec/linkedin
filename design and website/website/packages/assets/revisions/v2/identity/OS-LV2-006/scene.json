@@ -1,0 +1,154 @@
+{
+  "id": "OS-LV2-006",
+  "name": "Ascend",
+  "idea": "A grounded idea gains clarity and presence.",
+  "form": "three staggered folded fins rising in one direction",
+  "materialRecipe": {
+    "version": "2.0.0",
+    "seed": 191026,
+    "palette": {
+      "navy": "#162760",
+      "cobalt": "#3157D5",
+      "nickel": "#A9AFBA"
+    },
+    "brush": {
+      "direction": "horizontal local UV",
+      "resolution": [
+        1024,
+        512
+      ],
+      "bumpScale": 0.007
+    },
+    "light": {
+      "key": [
+        -3,
+        5,
+        6
+      ],
+      "fill": [
+        4,
+        1,
+        4
+      ],
+      "rim": [
+        2,
+        4,
+        -4
+      ]
+    },
+    "toneMapping": "ACESFilmic",
+    "exposure": 1.05
+  },
+  "meshes": [
+    {
+      "name": "01 rising folded fin",
+      "vertices": 36866,
+      "triangles": 75776,
+      "material": "Brushed anodised deep navy alloy",
+      "position": [
+        -0.78,
+        0,
+        0
+      ],
+      "rotation": [
+        0.08,
+        0.18,
+        -0.22
+      ],
+      "construction": {
+        "construction": "Original closed sampled rounded plate; 8 bevel rings",
+        "sourceDimensions": [
+          0.8,
+          1.7,
+          0.085
+        ],
+        "bevel": 0.018,
+        "radius": 0.16
+      }
+    },
+    {
+      "name": "02 rising folded fin",
+      "vertices": 36866,
+      "triangles": 75776,
+      "material": "Fine brushed neutral nickel",
+      "position": [
+        0,
+        0.18,
+        0
+      ],
+      "rotation": [
+        0.08,
+        0,
+        -0.22
+      ],
+      "construction": {
+        "construction": "Original closed sampled rounded plate; 8 bevel rings",
+        "sourceDimensions": [
+          0.8,
+          2.05,
+          0.085
+        ],
+        "bevel": 0.018,
+        "radius": 0.16
+      }
+    },
+    {
+      "name": "03 rising folded fin",
+      "vertices": 36866,
+      "triangles": 75776,
+      "material": "Brushed anodised brilliant cobalt alloy",
+      "position": [
+        0.78,
+        0.36,
+        0
+      ],
+      "rotation": [
+        0.08,
+        -0.18,
+        -0.22
+      ],
+      "construction": {
+        "construction": "Original closed sampled rounded plate; 8 bevel rings",
+        "sourceDimensions": [
+          0.8,
+          2.4,
+          0.085
+        ],
+        "bevel": 0.018,
+        "radius": 0.16
+      }
+    }
+  ],
+  "bounds": {
+    "min": [
+      -1.3638327262271472,
+      -1.2998145429050905,
+      -0.8139077199251552
+    ],
+    "max": [
+      1.363832726227147,
+      1.2998145429050907,
+      0.8139077199251552
+    ]
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      4.2,
+      2.65,
+      7.4
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ],
+    "span": 1.963919125767092
+  },
+  "render": {
+    "width": 1600,
+    "height": 1600,
+    "alpha": true
+  },
+  "recipe": "Original parametric plate geometry, true thickness and bevel; PMREM softbox studio; no image generation"
+}

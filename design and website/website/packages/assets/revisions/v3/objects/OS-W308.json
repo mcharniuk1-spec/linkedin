@@ -1,0 +1,125 @@
+{
+  "id": "OS-W308",
+  "name": "Product",
+  "context": "A genuine extruded typographic sign for product, used in editorial artwork and scene transitions.",
+  "rights": "Original authored meshes and glyphs; no third-party model or competitor media",
+  "render": {
+    "width": 600,
+    "height": 600,
+    "alpha": true,
+    "actual": "Three.js0.186.1 GLB source scene",
+    "toneMapping": "ACESFilmic",
+    "exposure": 0.9
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      1.2,
+      1.1,
+      7
+    ],
+    "lookAt": [
+      0,
+      -1.1102230246251565e-16,
+      1.1102230246251565e-16
+    ],
+    "extent": 5.056184605188188
+  },
+  "meshes": [
+    {
+      "name": "Product / outlined glyph 1",
+      "vertices": 4868,
+      "triangles": 2240,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "navy / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    },
+    {
+      "name": "Product / outlined glyph 2",
+      "vertices": 4154,
+      "triangles": 1852,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "navy / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    },
+    {
+      "name": "Product / outlined glyph 3",
+      "vertices": 10726,
+      "triangles": 4640,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "navy / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    },
+    {
+      "name": "Product / outlined glyph 4",
+      "vertices": 11474,
+      "triangles": 4752,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "navy / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    },
+    {
+      "name": "Product / outlined glyph 5",
+      "vertices": 5844,
+      "triangles": 2444,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "navy / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    },
+    {
+      "name": "Product / outlined glyph 6",
+      "vertices": 12280,
+      "triangles": 5036,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "navy / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    },
+    {
+      "name": "Product / outlined glyph 7",
+      "vertices": 4210,
+      "triangles": 1740,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "navy / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    }
+  ],
+  "bounds": {
+    "min": [
+      -4.120616411046318,
+      -0.9443798648119877,
+      -1.3229517181766597
+    ],
+    "max": [
+      4.120616411046318,
+      0.9443798648119874,
+      1.32295171817666
+    ]
+  },
+  "kind": "real_extruded_typographic_geometry",
+  "usage": "Use as a media artwork object; keep ordinary interface/body text live and readable.",
+  "limitations": [
+    "Procedural satin material, not a photographic surface capture.",
+    "Use the flat SVG for small UI; do not shrink a decorative 3D render below64px."
+  ]
+}

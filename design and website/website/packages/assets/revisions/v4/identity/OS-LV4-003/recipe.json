@@ -1,0 +1,52 @@
+{
+  "id": "OS-LV4-003",
+  "name": "Open Mouthpiece",
+  "idea_family": "mouthpiece",
+  "meaning": "A side-facing voice bell opens around a continuous silver oval rim. Its upper and lower curved lips flare from a compact throat.",
+  "status": "original candidate; independent PM review pending; no lead selected",
+  "layers": [
+    {
+      "name": "navy curved layer1",
+      "material": "navy",
+      "path": "M15 47 C37 46 65 31 93 14 L96 28 C66 43 41 52 15 57 Z",
+      "depth": 0.13,
+      "bow": 0.2,
+      "z": 0.0,
+      "yaw": -0.08,
+      "roll": 0
+    },
+    {
+      "name": "silver curved layer2",
+      "material": "silver",
+      "path": "M93 12 C106 12 113 34 113 60 C113 87 106 109 93 109 C82 109 77 86 77 60 C77 34 82 12 93 12 Z M93 27 C88 27 87 41 87 60 C87 79 89 94 93 94 C99 94 103 78 103 60 C103 42 99 27 93 27 Z",
+      "depth": 0.13,
+      "bow": 0.32,
+      "z": 0.16,
+      "yaw": 0.08,
+      "roll": 0
+    },
+    {
+      "name": "blue curved layer3",
+      "material": "blue",
+      "path": "M15 66 C39 67 67 83 93 103 L97 87 C70 71 44 61 15 58 Z",
+      "depth": 0.13,
+      "bow": 0.2,
+      "z": 0.32,
+      "yaw": -0.04,
+      "roll": 0
+    }
+  ],
+  "geometry": "Closed beveled extrusion of the editable curved paths with continuous bowed depth; original geometry, not a stock mesh",
+  "wordmark": "Always uppercase OUTSPOKEN. Exact Archivo730 outlines with optical manual tracking; only firstO has a narrow outward voice notch.",
+  "small_size_verdict": "Rounded bell reads as outward amplification at32;24is borderline and may read as a directional glyph. Use caption outside a logo context.",
+  "files": {
+    "glb": "model.glb",
+    "png": "beauty.png",
+    "webp": "beauty.webp",
+    "editable_svg": "flat.svg",
+    "outlined_lockup": "lockup-split.svg"
+  },
+  "curation_status": "secondary_caption_dependent",
+  "geometry_checks": "finite all attributes; valid all indices; nonzero real depth; permesh bounds recorded",
+  "render_quality_limit": "Procedural satin/material counterpart; smoother and less photorealistic than root generated brushed-metal art. No raster/GLB pixel parity claim."
+}

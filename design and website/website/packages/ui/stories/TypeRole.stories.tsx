@@ -1,0 +1,10 @@
+import type { Meta, StoryObj } from '@storybook/react-vite';
+import { useState } from 'react';
+import * as C from '../src';
+function ComposerDemo(){const [value,setValue]=useState('');return <C.ChatComposer value={value} onChange={setValue} onSend={()=>setValue('')}/>};
+function PaginationDemo(){const [page,setPage]=useState(1);return <C.PaginationSeries page={page} total={5} onChange={setPage}/>};
+const meta={title:'Foundations/TypeRole',component:C.TypeRole,tags:['autodocs'],parameters:{docs:{description:{component:'OS-C005 · canonical shared module. Stage 1 candidate; Figma and owner acceptance are separate.'}}}} satisfies Meta<typeof C.TypeRole>;
+export default meta;
+type Story = StoryObj;
+export const Default:Story={render:()=>(<C.TypeRole role="display">Founder thinking.<br/>Buyer relevance.</C.TypeRole>)};
+export const Roles:Story={render:()=>(<div className="os-specimen-list">{(["display","h2","lead","body","support","label"] as const).map(r=><C.TypeRole key={r} role={r}>{r}: Founder thinking. Buyer relevance.</C.TypeRole>)}</div>)};

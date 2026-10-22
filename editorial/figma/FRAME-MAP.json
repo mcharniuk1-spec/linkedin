@@ -1,0 +1,488 @@
+{
+  "fileKey": "m7zSeYVpEI88i9qwTrnUQt",
+  "pageId": "2:3",
+  "pageCount": 3,
+  "libraryId": "176:725",
+  "productionId": "176:1210",
+  "copyVersion": "v8.4-public-copy-humanized",
+  "copySha256": "3f3bc8f2cff87dd33d1cfdabce33aa834ff62b93ed841ecd10a444cd11222a89",
+  "assetManifestSha256": "15e05f8a45a9df2cc15136cce4212d7b762c90c0d6039094df6e8a944e4bee7f",
+  "sourceMapLocalOnly": false,
+  "posts": [
+    {
+      "id": "P01",
+      "nodeId": "176:734",
+      "url": "https://www.figma.com/design/m7zSeYVpEI88i9qwTrnUQt?node-id=176-734",
+      "bodyNodeId": "176:741",
+      "bodySha256": "28b547ea239c44efd5f8a3250598db58118d3f2eb31590b3db9624a830fdb26d",
+      "bodyCharacters": 771,
+      "bodyUtf8Bytes": 783,
+      "author": "Max Charniuk",
+      "authorInstanceId": "176:735",
+      "format": "image",
+      "mediaSlotId": "176:742",
+      "posterRectangleId": null,
+      "hashtagNodeIds": [
+        "185:988"
+      ],
+      "localSourceClaims": [
+        "OUT-BRIEF-P1",
+        "V5-METHOD-EDITORIAL",
+        "LI-DISTRIBUTION-HELP"
+      ],
+      "approval": "Draft; founder must review voice and verify any example before publication."
+    },
+    {
+      "id": "P02",
+      "nodeId": "176:758",
+      "url": "https://www.figma.com/design/m7zSeYVpEI88i9qwTrnUQt?node-id=176-758",
+      "bodyNodeId": "176:765",
+      "bodySha256": "48168c657e6527b8d98d4310af6aa3a9dc6263d19338201157e2e86c73bfcd08",
+      "bodyCharacters": 798,
+      "bodyUtf8Bytes": 818,
+      "author": "Mykhailo Amplieiev",
+      "authorInstanceId": "176:759",
+      "format": "image",
+      "mediaSlotId": "176:766",
+      "posterRectangleId": null,
+      "hashtagNodeIds": [
+        "185:989"
+      ],
+      "localSourceClaims": [
+        "OUT-BRIEF-P1",
+        "OUT-WEB-OFFER",
+        "LI-DISTRIBUTION-HELP"
+      ],
+      "approval": "Draft; founder must review voice and verify any example before publication."
+    },
+    {
+      "id": "P03",
+      "nodeId": "176:782",
+      "url": "https://www.figma.com/design/m7zSeYVpEI88i9qwTrnUQt?node-id=176-782",
+      "bodyNodeId": "176:789",
+      "bodySha256": "329e271d5dca97b66f4ba6b181fb1afedfcad9bf3b847ca186042a4418b3dbc7",
+      "bodyCharacters": 779,
+      "bodyUtf8Bytes": 779,
+      "author": "Max Charniuk",
+      "authorInstanceId": "176:783",
+      "format": "image",
+      "mediaSlotId": "176:790",
+      "posterRectangleId": null,
+      "hashtagNodeIds": [
+        "185:990"
+      ],
+      "localSourceClaims": [
+        "OUT-BRIEF-P2",
+        "OUT-WEB-OFFER",
+        "V5-METHOD-EDITORIAL"
+      ],
+      "approval": "Draft; founder must review voice and verify any example before publication."
+    },
+    {
+      "id": "P04",
+      "nodeId": "176:806",
+      "url": "https://www.figma.com/design/m7zSeYVpEI88i9qwTrnUQt?node-id=176-806",
+      "bodyNodeId": "176:813",
+      "bodySha256": "d7fd7434266a32e858715fb07c87f4b60b62c5cb5ee2d4beddacd4fc6ea6422d",
+      "bodyCharacters": 780,
+      "bodyUtf8Bytes": 788,
+      "author": "Mykhailo Amplieiev",
+      "authorInstanceId": "176:807",
+      "format": "image",
+      "mediaSlotId": "176:814",
+      "posterRectangleId": null,
+      "hashtagNodeIds": [
+        "185:991"
+      ],
+      "localSourceClaims": [
+        "OUT-BRIEF-P2",
+        "OUT-WEB-SERVICE-WRITING",
+        "V5-METHOD-EDITORIAL"
+      ],
+      "approval": "Draft; founder must review voice and verify any example before publication."
+    },
+    {
+      "id": "P05",
+      "nodeId": "176:830",
+      "url": "https://www.figma.com/design/m7zSeYVpEI88i9qwTrnUQt?node-id=176-830",
+      "bodyNodeId": "176:837",
+      "bodySha256": "929a3fe191d2c96e36251b44cd793087c4317d8ad472343dc605b916e55d47bb",
+      "bodyCharacters": 804,
+      "bodyUtf8Bytes": 806,
+      "author": "Max Charniuk",
+      "authorInstanceId": "176:831",
+      "format": "image",
+      "mediaSlotId": "176:838",
+      "posterRectangleId": null,
+      "hashtagNodeIds": [
+        "185:992"
+      ],
+      "localSourceClaims": [
+        "OUT-BRIEF-P1",
+        "OUT-WEB-OFFER",
+        "V5-METHOD-EDITORIAL",
+        "LI-DISTRIBUTION-HELP"
+      ],
+      "approval": "Draft; founder must review voice and verify any example before publication."
+    },
+    {
+      "id": "P06",
+      "nodeId": "176:854",
+      "url": "https://www.figma.com/design/m7zSeYVpEI88i9qwTrnUQt?node-id=176-854",
+      "bodyNodeId": "176:861",
+      "bodySha256": "13a175c03905d947bc5bd07ffb03e5e8c15cc76f10e8f09c2850dfcc7addb544",
+      "bodyCharacters": 813,
+      "bodyUtf8Bytes": 817,
+      "author": "Mykhailo Amplieiev",
+      "authorInstanceId": "176:855",
+      "format": "image",
+      "mediaSlotId": "176:862",
+      "posterRectangleId": null,
+      "hashtagNodeIds": [
+        "185:993"
+      ],
+      "localSourceClaims": [
+        "OUT-WEB-OFFER",
+        "OUT-BRIEF-P1",
+        "LI-DISTRIBUTION-HELP"
+      ],
+      "approval": "Draft; founder must review voice and verify any example before publication."
+    },
+    {
+      "id": "P07",
+      "nodeId": "176:878",
+      "url": "https://www.figma.com/design/m7zSeYVpEI88i9qwTrnUQt?node-id=176-878",
+      "bodyNodeId": "176:885",
+      "bodySha256": "0edb0653bef23de3c083017cf98ce517c7f997574dcee142fcdb5425cd91cf4e",
+      "bodyCharacters": 817,
+      "bodyUtf8Bytes": 817,
+      "author": "Max Charniuk",
+      "authorInstanceId": "176:879",
+      "format": "image",
+      "mediaSlotId": "176:886",
+      "posterRectangleId": null,
+      "hashtagNodeIds": [
+        "185:994"
+      ],
+      "localSourceClaims": [
+        "OUT-BRIEF-P2",
+        "OUT-WEB-OFFER",
+        "V5-METHOD-EDITORIAL"
+      ],
+      "approval": "Draft; founder must review voice and verify any example before publication."
+    },
+    {
+      "id": "P08",
+      "nodeId": "176:902",
+      "url": "https://www.figma.com/design/m7zSeYVpEI88i9qwTrnUQt?node-id=176-902",
+      "bodyNodeId": "176:909",
+      "bodySha256": "459f4060faaf1263f4e8585664bf4262096524bdb51b4057e04e1550adddaf2f",
+      "bodyCharacters": 752,
+      "bodyUtf8Bytes": 756,
+      "author": "Mykhailo Amplieiev",
+      "authorInstanceId": "176:903",
+      "format": "image",
+      "mediaSlotId": "176:910",
+      "posterRectangleId": null,
+      "hashtagNodeIds": [
+        "185:995"
+      ],
+      "localSourceClaims": [
+        "OUT-BRIEF-P2-WORTH-1",
+        "OUT-BRIEF-P2-WORTH-2",
+        "OUT-BRIEF-P2-WORTH-3",
+        "OUT-BRIEF-P2-WORTH-4",
+        "OUT-BRIEF-P2-WORTH-5",
+        "LI-ANALYTICS-MEMBER",
+        "LI-POST-ANALYTICS"
+      ],
+      "approval": "Draft; founder must review voice and verify any example before publication."
+    },
+    {
+      "id": "P09",
+      "nodeId": "176:926",
+      "url": "https://www.figma.com/design/m7zSeYVpEI88i9qwTrnUQt?node-id=176-926",
+      "bodyNodeId": "176:933",
+      "bodySha256": "b5043e7805462fe726a735adefc6246c9e39c28fe3b64b5a83fddfad318fd79c",
+      "bodyCharacters": 835,
+      "bodyUtf8Bytes": 839,
+      "author": "Max Charniuk",
+      "authorInstanceId": "176:927",
+      "format": "image",
+      "mediaSlotId": "176:934",
+      "posterRectangleId": null,
+      "hashtagNodeIds": [
+        "185:996"
+      ],
+      "localSourceClaims": [
+        "LI-ANALYTICS-MEMBER",
+        "LI-POST-ANALYTICS",
+        "V5-METHOD-METRICS"
+      ],
+      "approval": "Draft; founder must review voice and verify any example before publication."
+    },
+    {
+      "id": "P10",
+      "nodeId": "176:950",
+      "url": "https://www.figma.com/design/m7zSeYVpEI88i9qwTrnUQt?node-id=176-950",
+      "bodyNodeId": "176:957",
+      "bodySha256": "201b2221f69fc4d9f7b462a10a53eac9ec37c001acc59e9f3be9f02fa0e14701",
+      "bodyCharacters": 801,
+      "bodyUtf8Bytes": 821,
+      "author": "Mykhailo Amplieiev",
+      "authorInstanceId": "176:951",
+      "format": "image",
+      "mediaSlotId": "176:958",
+      "posterRectangleId": null,
+      "hashtagNodeIds": [
+        "185:997"
+      ],
+      "localSourceClaims": [
+        "OUT-BRIEF-P1",
+        "OUT-WEB-OFFER",
+        "LI-DISTRIBUTION-HELP"
+      ],
+      "approval": "Draft; founder must review voice and verify any example before publication."
+    },
+    {
+      "id": "P11",
+      "nodeId": "176:974",
+      "url": "https://www.figma.com/design/m7zSeYVpEI88i9qwTrnUQt?node-id=176-974",
+      "bodyNodeId": "176:981",
+      "bodySha256": "750801b4f30faa69b3d24b3b0df5ad51b9e2044796fed052ab1a2a3680825b8c",
+      "bodyCharacters": 799,
+      "bodyUtf8Bytes": 799,
+      "author": "OUTSPOKEN company",
+      "authorInstanceId": "176:975",
+      "format": "image",
+      "mediaSlotId": "176:982",
+      "posterRectangleId": null,
+      "hashtagNodeIds": [
+        "185:998"
+      ],
+      "localSourceClaims": [
+        "OUT-WEB-SERVICE-MARKETING",
+        "OUT-WEB-SERVICE-BOUNDARY",
+        "LI-AUTHENTIC-2026",
+        "LI-DISTRIBUTION-HELP"
+      ],
+      "approval": "Draft; owner must verify proposed capability wording and any current project fact."
+    },
+    {
+      "id": "P12",
+      "nodeId": "176:998",
+      "url": "https://www.figma.com/design/m7zSeYVpEI88i9qwTrnUQt?node-id=176-998",
+      "bodyNodeId": "176:1005",
+      "bodySha256": "64eb5ec2c9e06ad83f306098eb09a008c7f05ef8a4f0eeed65b99a601baaa76e",
+      "bodyCharacters": 827,
+      "bodyUtf8Bytes": 835,
+      "author": "OUTSPOKEN company",
+      "authorInstanceId": "176:999",
+      "format": "image",
+      "mediaSlotId": "176:1006",
+      "posterRectangleId": null,
+      "hashtagNodeIds": [
+        "185:999"
+      ],
+      "localSourceClaims": [
+        "OUT-WEB-SERVICE-WRITING",
+        "OUT-WEB-SERVICE-MEASUREMENT",
+        "OUT-BRIEF-P2-WORTH-5",
+        "LI-POST-ANALYTICS"
+      ],
+      "approval": "Draft; owner must verify proposed capability wording and any current project fact."
+    },
+    {
+      "id": "P13",
+      "nodeId": "176:1022",
+      "url": "https://www.figma.com/design/m7zSeYVpEI88i9qwTrnUQt?node-id=176-1022",
+      "bodyNodeId": "176:1029",
+      "bodySha256": "226148fad58583f00e45eecd530255236f241e2a77b644c0e98b4f9fbcaab172",
+      "bodyCharacters": 877,
+      "bodyUtf8Bytes": 879,
+      "author": "OUTSPOKEN company",
+      "authorInstanceId": "176:1023",
+      "format": "image",
+      "mediaSlotId": "176:1030",
+      "posterRectangleId": null,
+      "hashtagNodeIds": [
+        "185:1000"
+      ],
+      "localSourceClaims": [
+        "V5-PIPELINE-IMMUTABLE",
+        "V5-PIPELINE-CLAIM-BOUNDARIES",
+        "LI-ANALYTICS-MEMBER",
+        "LI-POST-ANALYTICS"
+      ],
+      "approval": "Draft; owner must verify proposed capability wording and any current project fact."
+    },
+    {
+      "id": "P14",
+      "nodeId": "176:1046",
+      "url": "https://www.figma.com/design/m7zSeYVpEI88i9qwTrnUQt?node-id=176-1046",
+      "bodyNodeId": "176:1053",
+      "bodySha256": "413331912250e89fc55942b0104498161739a17dda4913f0805ad8fd3d46c066",
+      "bodyCharacters": 645,
+      "bodyUtf8Bytes": 647,
+      "author": "Max Charniuk",
+      "authorInstanceId": "176:1047",
+      "format": "video",
+      "mediaSlotId": "176:1054",
+      "posterRectangleId": "176:1055",
+      "hashtagNodeIds": [
+        "185:1001"
+      ],
+      "localSourceClaims": [
+        "OUT-BRIEF-P2",
+        "OUT-WEB-OFFER",
+        "V5-METHOD-EDITORIAL",
+        "LI-VIDEO-CAPTIONS"
+      ],
+      "approval": "Draft; founder must review voice and verify any example before publication."
+    },
+    {
+      "id": "P15",
+      "nodeId": "176:1074",
+      "url": "https://www.figma.com/design/m7zSeYVpEI88i9qwTrnUQt?node-id=176-1074",
+      "bodyNodeId": "176:1081",
+      "bodySha256": "d496ca8fd028493d64eb5f6aed189412e2719c80336939dc0db194d866eb2906",
+      "bodyCharacters": 736,
+      "bodyUtf8Bytes": 736,
+      "author": "Mykhailo Amplieiev",
+      "authorInstanceId": "176:1075",
+      "format": "video",
+      "mediaSlotId": "176:1082",
+      "posterRectangleId": "176:1083",
+      "hashtagNodeIds": [
+        "185:1002"
+      ],
+      "localSourceClaims": [
+        "OUT-BRIEF-P2-WORTH-1",
+        "OUT-BRIEF-P2-WORTH-2",
+        "OUT-BRIEF-P2-WORTH-3",
+        "OUT-BRIEF-P2-WORTH-4",
+        "OUT-BRIEF-P2-WORTH-5",
+        "LI-ANALYTICS-MEMBER",
+        "LI-POST-ANALYTICS",
+        "LI-VIDEO-CAPTIONS"
+      ],
+      "approval": "Draft; founder must review voice and verify any example before publication."
+    },
+    {
+      "id": "P16",
+      "nodeId": "176:1102",
+      "url": "https://www.figma.com/design/m7zSeYVpEI88i9qwTrnUQt?node-id=176-1102",
+      "bodyNodeId": "176:1109",
+      "bodySha256": "ec364f57f75ef4e45986ad0c3f3f67b2f5c0e1e07f04b1b085b1500118612a77",
+      "bodyCharacters": 869,
+      "bodyUtf8Bytes": 869,
+      "author": "OUTSPOKEN company",
+      "authorInstanceId": "176:1103",
+      "format": "text-only",
+      "mediaSlotId": null,
+      "posterRectangleId": null,
+      "hashtagNodeIds": [
+        "185:1003"
+      ],
+      "localSourceClaims": [
+        "V5-EXA-ROUTE",
+        "V5-EXA-QUERY-DATE-LIMIT",
+        "V5-QUALIFICATION-SEPARATION"
+      ],
+      "approval": "Draft; tool results are bounded to the V5 probes. No full-corpus or market-coverage claim."
+    },
+    {
+      "id": "P17",
+      "nodeId": "176:1124",
+      "url": "https://www.figma.com/design/m7zSeYVpEI88i9qwTrnUQt?node-id=176-1124",
+      "bodyNodeId": "176:1131",
+      "bodySha256": "bfa48a16b2df59b7cd0b0a9517cfb5bd7b8365b8a93feb027c808e23acb97e4b",
+      "bodyCharacters": 967,
+      "bodyUtf8Bytes": 967,
+      "author": "Max Charniuk",
+      "authorInstanceId": "176:1125",
+      "format": "text-only",
+      "mediaSlotId": null,
+      "posterRectangleId": null,
+      "hashtagNodeIds": [
+        "185:1004"
+      ],
+      "localSourceClaims": [
+        "V5-FFMPEG-FRAME-PREP",
+        "V5-CAPTION-WHISPER-ROUTE",
+        "V5-MEDIA-REVIEW-LIMITS"
+      ],
+      "approval": "Draft; describe only the V5 workflow and its stated limits. Do not imply a human listened to audio where no audio review is recorded."
+    },
+    {
+      "id": "P18",
+      "nodeId": "176:1146",
+      "url": "https://www.figma.com/design/m7zSeYVpEI88i9qwTrnUQt?node-id=176-1146",
+      "bodyNodeId": "176:1153",
+      "bodySha256": "85a7128e2fc7b413932388a14020728bb42952d93e9d47ba3a1c41456e86712f",
+      "bodyCharacters": 974,
+      "bodyUtf8Bytes": 976,
+      "author": "Mykhailo Amplieiev",
+      "authorInstanceId": "176:1147",
+      "format": "text-only",
+      "mediaSlotId": null,
+      "posterRectangleId": null,
+      "hashtagNodeIds": [
+        "185:1005"
+      ],
+      "localSourceClaims": [
+        "V5-PYTHON-SQLITE-WORKFLOW",
+        "V5-SOURCE-HASH-CAPTURE-TIME",
+        "V5-REPARSE-LINEAGE"
+      ],
+      "approval": "Draft; describes the V5 project pipeline. No founder personal implementation claim."
+    },
+    {
+      "id": "P19",
+      "nodeId": "176:1168",
+      "url": "https://www.figma.com/design/m7zSeYVpEI88i9qwTrnUQt?node-id=176-1168",
+      "bodyNodeId": "176:1175",
+      "bodySha256": "7ddbf1f283d568e1fdaeec85685c446a047eee11c356b03f66edef8a4b2e6718",
+      "bodyCharacters": 893,
+      "bodyUtf8Bytes": 901,
+      "author": "OUTSPOKEN company",
+      "authorInstanceId": "176:1169",
+      "format": "text-only",
+      "mediaSlotId": null,
+      "posterRectangleId": null,
+      "hashtagNodeIds": [
+        "185:1006"
+      ],
+      "localSourceClaims": [
+        "V5-OBSERVATION-COUNTS",
+        "V5-COHORT-LIMITS",
+        "V5-OUTCOME-GAP"
+      ],
+      "approval": "Draft; root must verify exact counts against the immutable V5 files before publication."
+    },
+    {
+      "id": "P20",
+      "nodeId": "176:1190",
+      "url": "https://www.figma.com/design/m7zSeYVpEI88i9qwTrnUQt?node-id=176-1190",
+      "bodyNodeId": "176:1197",
+      "bodySha256": "ed8b9415d7ae4de3a597ce87ab84d0993edda5768ddc099b8a4d2010de42f6da",
+      "bodyCharacters": 761,
+      "bodyUtf8Bytes": 767,
+      "author": "OUTSPOKEN company",
+      "authorInstanceId": "176:1191",
+      "format": "text-only",
+      "mediaSlotId": null,
+      "posterRectangleId": null,
+      "hashtagNodeIds": [
+        "185:1007"
+      ],
+      "localSourceClaims": [
+        "OUT-BRIEF-P2-TECHNICAL-UNDERSTANDING",
+        "OUT-WEB-OFFER",
+        "OUT-WEB-SERVICE-WRITING"
+      ],
+      "approval": "Draft; owner/founder must confirm the source-authored team capability line before publication."
+    }
+  ],
+  "sourceBoundary": "Public frame IDs/body hashes/claim IDs only. Raw source and private source locators remain local."
+}

@@ -1,0 +1,109 @@
+{
+  "id": "OS-OFFER-V9",
+  "revision": "v9-implementation-1",
+  "section_title": "What would make LinkedIn worth it?",
+  "section_intro": "Choose the support you need. Agree what useful would look like.",
+  "scope_label": "Proposed collaboration — scope confirmed together",
+  "value_label": "Five value hypotheses to agree and observe. They are separate kinds of value, not stages of one funnel or promised results.",
+  "beats": [
+    {
+      "id": "time",
+      "eyebrow": "Make room for the work",
+      "title": "Less time finding the time.",
+      "pain": "Your week is full of product decisions and customer conversations. Turning them into posts becomes another job.",
+      "approach": "Regular source interviews, writing and an agreed review workflow turn those decisions into content you can approve.",
+      "signal": "Compare your time before and during the work, including interviews, questions and approvals.",
+      "pain_ids": [
+        "P1",
+        "P2"
+      ],
+      "module_ids": [
+        "strategy",
+        "writing",
+        "automation"
+      ],
+      "value_id": "V1",
+      "nav": "Time"
+    },
+    {
+      "id": "recognition",
+      "eyebrow": "Reach the people who matter",
+      "title": "Be known by the people who matter.",
+      "pain": "Reactions from familiar names can hide a harder question: do the people who could buy know what you are building?",
+      "approach": "Align your profile, themes and distribution choices around the roles, companies and questions that matter to your business.",
+      "signal": "Look for relevant new connections and buyers who recall a specific publication.",
+      "pain_ids": [
+        "P3"
+      ],
+      "module_ids": [
+        "profile",
+        "strategy",
+        "advertising",
+        "measurement"
+      ],
+      "value_id": "V2",
+      "nav": "Recognition"
+    },
+    {
+      "id": "voice",
+      "eyebrow": "Keep the thinking behind the product",
+      "title": "Keep your thinking in the story.",
+      "pain": "Broad claims about AI and automation can sound interchangeable. Polished writing can lose the person behind it.",
+      "approach": "Use your decisions, trade-offs and evidence to write in a voice you recognize.",
+      "signal": "Ask whether a buyer can name the story, opinion or explanation that gave them a reason to talk.",
+      "pain_ids": [
+        "P4",
+        "P6"
+      ],
+      "module_ids": [
+        "profile",
+        "writing",
+        "design"
+      ],
+      "value_id": "V3",
+      "nav": "Voice"
+    },
+    {
+      "id": "usefulness",
+      "eyebrow": "Bring useful stories out of the company",
+      "title": "Bring the useful stories outside.",
+      "pain": "A customer finds an unexpected use. Your team makes a difficult choice. The story stays inside a call or a message thread.",
+      "approach": "Develop permissioned stories, walkthroughs and visual explanations that connect the work to a buyer’s question.",
+      "signal": "Record when sales uses a specific publication in a deal and how the buyer responds.",
+      "pain_ids": [
+        "P5"
+      ],
+      "module_ids": [
+        "strategy",
+        "writing",
+        "design",
+        "marketing"
+      ],
+      "value_id": "V5",
+      "nav": "Sales usefulness"
+    },
+    {
+      "id": "conversations",
+      "eyebrow": "Give the next conversation a reason",
+      "title": "Give the next conversation a reason.",
+      "pain": "Inconsistent prospecting and generic openings leave the other person with little reason to reply.",
+      "approach": "Connect founder content with relevant, reviewed conversation starters and follow-up material. Account actions require an agreed scope.",
+      "signal": "Count suitable dialogues about a real problem and held demos separately. Record the next step.",
+      "pain_ids": [
+        "P7"
+      ],
+      "module_ids": [
+        "marketing",
+        "measurement"
+      ],
+      "value_id": "V4",
+      "nav": "Conversations"
+    }
+  ],
+  "why_title": "We understand the product behind your story.",
+  "why_body": "Our technical background helps us follow the decisions and details behind what you are building. We connect that substance to a buyer’s question while keeping your thinking and voice intact.",
+  "responsibility_note": "Before work starts, agree interview cadence, preparation, approvals, deliverables and permissions. The current business source leaves the process and responsibility split open.",
+  "cta": "Explore the services",
+  "cta_href": "/services",
+  "status": "Local reviewed candidate; owner acceptance pending; source supports rationale, not independently verified team capacity."
+}

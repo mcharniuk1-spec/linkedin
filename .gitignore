@@ -26,3 +26,8 @@ dist/
 # Reviewed synthetic fixtures are required for reproducible offline tests.
 !research/tests/fixtures/**/
 !research/tests/fixtures/**
+
+# Local verification may temporarily link an existing dependency tree.
+node_modules
+storybook-static/
+*.tsbuildinfo

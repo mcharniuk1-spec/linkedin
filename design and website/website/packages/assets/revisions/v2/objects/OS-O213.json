@@ -1,0 +1,123 @@
+{
+  "version": "2.0.0",
+  "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+  "units": "nominal metres",
+  "pivot": "ground centre; Y up; +Z front",
+  "materialRecipe": {
+    "version": "2.0.0",
+    "seed": 191026,
+    "palette": {
+      "navy": "#162760",
+      "cobalt": "#3157D5",
+      "nickel": "#A9AFBA"
+    },
+    "brush": {
+      "direction": "horizontal local UV",
+      "resolution": [
+        1024,
+        512
+      ],
+      "bumpScale": 0.007
+    },
+    "light": {
+      "key": [
+        -3,
+        5,
+        6
+      ],
+      "fill": [
+        4,
+        1,
+        4
+      ],
+      "rim": [
+        2,
+        4,
+        -4
+      ]
+    },
+    "toneMapping": "ACESFilmic",
+    "exposure": 1.05
+  },
+  "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+  "id": "OS-O213",
+  "semanticKey": "O13",
+  "meaning": "Source to draft",
+  "layers": "Named closed meshes; editable geometry/materials; no baked text",
+  "bounds": {
+    "min": [
+      -1.2913343966067616,
+      0,
+      -0.473765398461359
+    ],
+    "max": [
+      1.2913343966067616,
+      1.8300001379102468,
+      0.473765398461359
+    ]
+  },
+  "size": [
+    2.5826687932135233,
+    1.8300001379102468,
+    0.947530796922718
+  ],
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      3.2150000689551232,
+      6.5
+    ],
+    "lookAt": [
+      0,
+      0.9150000689551234,
+      0
+    ],
+    "extent": 1.563065535331636
+  },
+  "lighting": {
+    "key": [
+      -3,
+      5,
+      6
+    ],
+    "fill": [
+      4,
+      1,
+      4
+    ],
+    "rim": [
+      2,
+      4,
+      -4
+    ]
+  },
+  "render": {
+    "width": 1200,
+    "height": 1200,
+    "background": "transparent",
+    "color": "sRGB",
+    "toneMapping": "ACES Filmic 1.05"
+  },
+  "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+  "meshes": [
+    {
+      "name": "Loose source sheet",
+      "material": "Warm matte white reading leaf",
+      "vertices": 1140,
+      "triangles": 2276
+    },
+    {
+      "name": "Ordered draft panel one",
+      "material": "Brushed anodised deep navy alloy",
+      "vertices": 11748,
+      "triangles": 3916
+    },
+    {
+      "name": "Ordered draft panel two",
+      "material": "Brushed anodised brilliant cobalt alloy",
+      "vertices": 11748,
+      "triangles": 3916
+    }
+  ]
+}

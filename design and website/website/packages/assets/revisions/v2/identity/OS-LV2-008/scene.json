@@ -1,0 +1,154 @@
+{
+  "id": "OS-LV2-008",
+  "name": "Continuum",
+  "idea": "An interview becomes an authored story without losing its source.",
+  "form": "a dimensional crossing of two continuous curved bands",
+  "materialRecipe": {
+    "version": "2.0.0",
+    "seed": 191026,
+    "palette": {
+      "navy": "#162760",
+      "cobalt": "#3157D5",
+      "nickel": "#A9AFBA"
+    },
+    "brush": {
+      "direction": "horizontal local UV",
+      "resolution": [
+        1024,
+        512
+      ],
+      "bumpScale": 0.007
+    },
+    "light": {
+      "key": [
+        -3,
+        5,
+        6
+      ],
+      "fill": [
+        4,
+        1,
+        4
+      ],
+      "rim": [
+        2,
+        4,
+        -4
+      ]
+    },
+    "toneMapping": "ACESFilmic",
+    "exposure": 1.05
+  },
+  "meshes": [
+    {
+      "name": "01 continuous cross ribbon",
+      "vertices": 36866,
+      "triangles": 75776,
+      "material": "Brushed anodised deep navy alloy",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0,
+        0.1,
+        -0.35
+      ],
+      "construction": {
+        "construction": "Original closed sampled rounded plate; 8 bevel rings",
+        "sourceDimensions": [
+          2.85,
+          0.86,
+          0.085
+        ],
+        "bevel": 0.018,
+        "radius": 0.16
+      }
+    },
+    {
+      "name": "02 continuous cross ribbon",
+      "vertices": 36866,
+      "triangles": 75776,
+      "material": "Brushed anodised brilliant cobalt alloy",
+      "position": [
+        0,
+        0,
+        0.22
+      ],
+      "rotation": [
+        0.37699111843077515,
+        -0.3,
+        1.25
+      ],
+      "construction": {
+        "construction": "Original closed sampled rounded plate; 8 bevel rings",
+        "sourceDimensions": [
+          2.85,
+          0.86,
+          0.085
+        ],
+        "bevel": 0.018,
+        "radius": 0.16
+      }
+    },
+    {
+      "name": "03 silver inner facet",
+      "vertices": 36866,
+      "triangles": 75776,
+      "material": "Fine brushed neutral nickel",
+      "position": [
+        0.25,
+        0.07,
+        0.43
+      ],
+      "rotation": [
+        0,
+        -0.3,
+        -0.35
+      ],
+      "construction": {
+        "construction": "Original closed sampled rounded plate; 8 bevel rings",
+        "sourceDimensions": [
+          0.55,
+          0.85,
+          0.085
+        ],
+        "bevel": 0.018,
+        "radius": 0.16
+      }
+    }
+  ],
+  "bounds": {
+    "min": [
+      -1.5474467881257274,
+      -1.5558241443541272,
+      -1.309509547813202
+    ],
+    "max": [
+      1.5474467881257274,
+      1.5558241443541272,
+      1.309509547813202
+    ]
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      4.2,
+      2.65,
+      7.4
+    ],
+    "target": [
+      0,
+      0,
+      0
+    ],
+    "span": 2.240386767869943
+  },
+  "render": {
+    "width": 1600,
+    "height": 1600,
+    "alpha": true
+  },
+  "recipe": "Original parametric plate geometry, true thickness and bevel; PMREM softbox studio; no image generation"
+}

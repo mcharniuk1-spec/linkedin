@@ -1,0 +1,297 @@
+{
+  "date": "2026-10-20",
+  "expected_objects": 25,
+  "expected_words": 11,
+  "actual": 36,
+  "errors": [],
+  "objects": [
+    {
+      "id": "OS-O301",
+      "meshes": 32,
+      "vertices": 12993,
+      "triangles": 21736,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O302",
+      "meshes": 4,
+      "vertices": 2958,
+      "triangles": 5328,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O303",
+      "meshes": 6,
+      "vertices": 10365,
+      "triangles": 6328,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O304",
+      "meshes": 5,
+      "vertices": 1125,
+      "triangles": 1368,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O305",
+      "meshes": 10,
+      "vertices": 24158,
+      "triangles": 17648,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O306",
+      "meshes": 7,
+      "vertices": 32736,
+      "triangles": 14756,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O307",
+      "meshes": 4,
+      "vertices": 2117,
+      "triangles": 3664,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O308",
+      "meshes": 4,
+      "vertices": 15926,
+      "triangles": 9404,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O309",
+      "meshes": 7,
+      "vertices": 10333,
+      "triangles": 6464,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O310",
+      "meshes": 5,
+      "vertices": 9731,
+      "triangles": 5616,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O311",
+      "meshes": 13,
+      "vertices": 48782,
+      "triangles": 26260,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O312",
+      "meshes": 3,
+      "vertices": 10272,
+      "triangles": 5544,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O313",
+      "meshes": 12,
+      "vertices": 4707,
+      "triangles": 7592,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O314",
+      "meshes": 9,
+      "vertices": 3039,
+      "triangles": 5200,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O315",
+      "meshes": 6,
+      "vertices": 2307,
+      "triangles": 3632,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O316",
+      "meshes": 3,
+      "vertices": 9805,
+      "triangles": 4668,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O317",
+      "meshes": 7,
+      "vertices": 15156,
+      "triangles": 8964,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O318",
+      "meshes": 5,
+      "vertices": 14484,
+      "triangles": 8124,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O319",
+      "meshes": 5,
+      "vertices": 2892,
+      "triangles": 5052,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O320",
+      "meshes": 5,
+      "vertices": 3803,
+      "triangles": 6864,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O321",
+      "meshes": 5,
+      "vertices": 22516,
+      "triangles": 10540,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O322",
+      "meshes": 5,
+      "vertices": 23072,
+      "triangles": 10540,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O323",
+      "meshes": 3,
+      "vertices": 9558,
+      "triangles": 4292,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O324",
+      "meshes": 8,
+      "vertices": 1823,
+      "triangles": 2144,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-O325",
+      "meshes": 6,
+      "vertices": 10128,
+      "triangles": 6856,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-W301",
+      "meshes": 6,
+      "vertices": 38732,
+      "triangles": 16320,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-W302",
+      "meshes": 5,
+      "vertices": 47376,
+      "triangles": 20912,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-W303",
+      "meshes": 7,
+      "vertices": 70388,
+      "triangles": 30752,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-W304",
+      "meshes": 5,
+      "vertices": 35050,
+      "triangles": 15112,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-W305",
+      "meshes": 5,
+      "vertices": 36970,
+      "triangles": 15612,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-W306",
+      "meshes": 8,
+      "vertices": 44974,
+      "triangles": 19636,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-W307",
+      "meshes": 7,
+      "vertices": 47960,
+      "triangles": 20684,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-W308",
+      "meshes": 7,
+      "vertices": 53556,
+      "triangles": 22704,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-W309",
+      "meshes": 12,
+      "vertices": 100642,
+      "triangles": 42212,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-W310",
+      "meshes": 13,
+      "vertices": 112650,
+      "triangles": 46892,
+      "finite": true,
+      "validIndexRange": true
+    },
+    {
+      "id": "OS-W311",
+      "meshes": 9,
+      "vertices": 86194,
+      "triangles": 36508,
+      "finite": true,
+      "validIndexRange": true
+    }
+  ]
+}

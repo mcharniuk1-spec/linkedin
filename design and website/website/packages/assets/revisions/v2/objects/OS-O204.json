@@ -1,0 +1,123 @@
+{
+  "version": "2.0.0",
+  "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+  "units": "nominal metres",
+  "pivot": "ground centre; Y up; +Z front",
+  "materialRecipe": {
+    "version": "2.0.0",
+    "seed": 191026,
+    "palette": {
+      "navy": "#162760",
+      "cobalt": "#3157D5",
+      "nickel": "#A9AFBA"
+    },
+    "brush": {
+      "direction": "horizontal local UV",
+      "resolution": [
+        1024,
+        512
+      ],
+      "bumpScale": 0.007
+    },
+    "light": {
+      "key": [
+        -3,
+        5,
+        6
+      ],
+      "fill": [
+        4,
+        1,
+        4
+      ],
+      "rim": [
+        2,
+        4,
+        -4
+      ]
+    },
+    "toneMapping": "ACESFilmic",
+    "exposure": 1.05
+  },
+  "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+  "id": "OS-O204",
+  "semanticKey": "O04",
+  "meaning": "Buyer problem",
+  "layers": "Named closed meshes; editable geometry/materials; no baked text",
+  "bounds": {
+    "min": [
+      -1.0900000122189522,
+      0,
+      -0.09249999940395356
+    ],
+    "max": [
+      1.0900000122189522,
+      2.130000114440918,
+      0.09249999940395355
+    ]
+  },
+  "size": [
+    2.1800000244379043,
+    2.130000114440918,
+    0.18499999880790713
+  ],
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      3.365000057220459,
+      6.5
+    ],
+    "lookAt": [
+      0,
+      1.065000057220459,
+      -6.938893903907228e-18
+    ],
+    "extent": 1.377081354084202
+  },
+  "lighting": {
+    "key": [
+      -3,
+      5,
+      6
+    ],
+    "fill": [
+      4,
+      1,
+      4
+    ],
+    "rim": [
+      2,
+      4,
+      -4
+    ]
+  },
+  "render": {
+    "width": 1200,
+    "height": 1200,
+    "background": "transparent",
+    "color": "sRGB",
+    "toneMapping": "ACES Filmic 1.05"
+  },
+  "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+  "meshes": [
+    {
+      "name": "Constrained broad situation plane",
+      "material": "Brushed anodised deep navy alloy",
+      "vertices": 11748,
+      "triangles": 3916
+    },
+    {
+      "name": "Narrow unresolved limiting plane",
+      "material": "Brushed anodised brilliant cobalt alloy",
+      "vertices": 11748,
+      "triangles": 3916
+    },
+    {
+      "name": "Specific resolved bottom of constrained slot",
+      "material": "Fine brushed neutral nickel",
+      "vertices": 11748,
+      "triangles": 3916
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "OS-LV4-002",
+  "name": "Split Grille",
+  "idea_family": "microphone",
+  "meaning": "Two rounded voice chambers held by a continuous lower listening cradle; a central air channel stays open.",
+  "status": "original candidate; independent PM review pending; no lead selected",
+  "layers": [
+    {
+      "name": "navy curved layer1",
+      "material": "navy",
+      "path": "M53 15 C39 17 33 28 33 43 L33 64 Q33 78 53 79 Z",
+      "depth": 0.13,
+      "bow": 0.2,
+      "z": 0.0,
+      "yaw": -0.08,
+      "roll": 0
+    },
+    {
+      "name": "blue curved layer2",
+      "material": "blue",
+      "path": "M64 15 C80 17 87 28 87 43 L87 64 Q87 78 64 79 Z",
+      "depth": 0.13,
+      "bow": 0.32,
+      "z": 0.16,
+      "yaw": 0.08,
+      "roll": 0
+    },
+    {
+      "name": "silver curved layer3",
+      "material": "silver",
+      "path": "M21 53 L30 53 L30 70 C30 88 43 97 59 97 C77 97 90 87 90 70 L90 53 L100 53 L100 70 C100 94 82 107 59 107 C36 107 21 92 21 70 Z",
+      "depth": 0.13,
+      "bow": 0.2,
+      "z": 0.32,
+      "yaw": -0.04,
+      "roll": 0
+    }
+  ],
+  "geometry": "Closed beveled extrusion of the editable curved paths with continuous bowed depth; original geometry, not a stock mesh",
+  "wordmark": "Always uppercase OUTSPOKEN. Exact Archivo730 outlines with optical manual tracking; only firstO has a narrow outward voice notch.",
+  "small_size_verdict": "Central slot and lower cradle remain clear at24/32; use mono. Compact microphone rather than a standing toy.",
+  "files": {
+    "glb": "model.glb",
+    "png": "beauty.png",
+    "webp": "beauty.webp",
+    "editable_svg": "flat.svg",
+    "outlined_lockup": "lockup-split.svg"
+  },
+  "curation_status": "secondary",
+  "geometry_checks": "finite all attributes; valid all indices; nonzero real depth; permesh bounds recorded",
+  "render_quality_limit": "Procedural satin/material counterpart; smoother and less photorealistic than root generated brushed-metal art. No raster/GLB pixel parity claim."
+}

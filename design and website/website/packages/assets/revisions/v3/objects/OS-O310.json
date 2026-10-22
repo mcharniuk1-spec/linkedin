@@ -1,0 +1,88 @@
+{
+  "id": "OS-O310",
+  "name": "Envelope",
+  "context": "A useful follow-up",
+  "rights": "Original authored meshes and glyphs; no third-party model or competitor media",
+  "render": {
+    "width": 600,
+    "height": 600,
+    "alpha": true,
+    "actual": "Three.js0.186.1 GLB source scene",
+    "toneMapping": "ACESFilmic",
+    "exposure": 0.9
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      2.3,
+      7
+    ],
+    "lookAt": [
+      0,
+      0,
+      0
+    ],
+    "extent": 1.04519379577952
+  },
+  "meshes": [
+    {
+      "name": "machined plate",
+      "vertices": 4692,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "folded envelope flap",
+      "vertices": 341,
+      "triangles": 600,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "continuous routed line",
+      "vertices": 231,
+      "triangles": 400,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "continuous routed line",
+      "vertices": 231,
+      "triangles": 400,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "machined plate",
+      "vertices": 4236,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "citron / Outspoken V3"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.8908670179498718,
+      -0.6039999723434448,
+      -0.20448384800925168
+    ],
+    "max": [
+      0.8908670179498718,
+      0.6039999723434448,
+      0.20448384800925168
+    ]
+  },
+  "kind": "semantic_object",
+  "usage": "Use with permission-based email examples and client communication.",
+  "limitations": [
+    "Procedural satin material, not a photographic surface capture.",
+    "Use the flat SVG for small UI; do not shrink a decorative 3D render below64px."
+  ]
+}

@@ -1,0 +1,11 @@
+import type { Meta, StoryObj } from '@storybook/react-vite';
+import { useState } from 'react';
+import * as C from '../src';
+function ComposerDemo(){const [value,setValue]=useState('');return <C.ChatComposer value={value} onChange={setValue} onSend={()=>setValue('')}/>};
+function PaginationDemo(){const [page,setPage]=useState(1);return <C.PaginationSeries page={page} total={5} onChange={setPage}/>};
+const meta={title:'Forms/StatusFeedback',component:C.StatusFeedback,tags:['autodocs'],parameters:{docs:{description:{component:'OS-C016 · canonical shared module. Stage 1 candidate; Figma and owner acceptance are separate.'}}}} satisfies Meta<typeof C.StatusFeedback>;
+export default meta;
+type Story = StoryObj;
+export const Default:Story={render:()=>(<C.StatusFeedback>Local specimen. No external service is connected.</C.StatusFeedback>)};
+export const Error:Story={render:()=>(<C.StatusFeedback status="error">The local preview failed. Your draft is preserved.</C.StatusFeedback>)};
+export const Success:Story={render:()=>(<C.StatusFeedback status="success">Local preview complete. No message was sent.</C.StatusFeedback>)};

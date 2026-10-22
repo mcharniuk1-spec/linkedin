@@ -22,12 +22,30 @@ def text_problems(text):
  if any(p.search(text) for p in SECRETS):out.append('credential_or_private_key_pattern')
  return out
 
+def approved_asset(root,rel,digest):
+ # A Git source snapshot has its own publication authority. It does not imply
+ # artistic acceptance. Both states still require exact per-file rights/hash.
+ if not rel.parts or rel.parts[0] not in {'design and website','editorial'}:return False
+ package=root/rel.parts[0]
+ if len(rel.parts)<3 or rel.parts[1]!='assets':return False
+ manifest=package/'release-manifest.json'
+ if not manifest.is_file():return False
+ try:m=json.loads(manifest.read_text(),object_pairs_hook=pairs)
+ except (ValueError,OSError):return False
+ if m.get('status') not in {'finalized','source_snapshot_verified'}:return False
+ if m.get('status')=='source_snapshot_verified' and m.get('publication_authority')!='owner_requested_current_source_git_sync':return False
+ candidates={rel.as_posix(),Path(*rel.parts[1:]).as_posix()}
+ files=[x for x in m.get('files',[]) if x.get('path') in candidates]
+ rights=[x for x in m.get('rights_ledger',[]) if x.get('path') in candidates]
+ return len(files)==len(rights)==1 and files[0].get('sha256')==digest and rights[0].get('sha256')==digest and rights[0].get('rights_state') in {'owned','licensed','permission_verified'}
+
 def scan(root=ROOT):
  problems=[];seen=[];jsons=0;dbs=0
  for p in sorted(root.rglob('*')):
   rel=p.relative_to(root)
-  if not p.is_file() or any(x in EXCLUDE_PARTS for x in rel.parts):continue
+  if any(x in EXCLUDE_PARTS for x in rel.parts):continue
   if p.is_symlink():problems.append({'file':rel.as_posix(),'problem':'symlink_not_allowed'});continue
+  if not p.is_file():continue
   if p.name in FORBIDDEN_NAMES or p.suffix.lower() in FORBIDDEN_SUFFIXES:problems.append({'file':rel.as_posix(),'problem':'forbidden_private_file_type'})
   b=p.read_bytes();seen.append({'file':rel.as_posix(),'sha256':hashlib.sha256(b).hexdigest(),'bytes':len(b)})
   if p.suffix=='.sqlite':
@@ -46,11 +64,7 @@ def scan(root=ROOT):
    continue
   try:text=b.decode('utf-8')
   except UnicodeDecodeError:
-   # Finalized owned assets require an explicit per-file release manifest and rights ledger.
-   manifest=root/'design and website/release-manifest.json'
-   approved=False
-   if rel.parts[:2]==('design and website','assets') and manifest.is_file():
-    m=json.loads(manifest.read_text(),object_pairs_hook=pairs);approved=m.get('status')=='finalized' and any(x.get('path')==rel.as_posix() and x.get('sha256')==seen[-1]['sha256'] for x in m.get('files',[])) and any(x.get('path')==rel.as_posix() and x.get('sha256')==seen[-1]['sha256'] and x.get('rights_state') in ('owned','licensed','permission_verified') for x in m.get('rights_ledger',[]))
+   approved=approved_asset(root,rel,seen[-1]['sha256'])
    if not approved:problems.append({'file':rel.as_posix(),'problem':'unreviewed_binary'})
    continue
   for issue in text_problems(text):problems.append({'file':rel.as_posix(),'problem':issue})

@@ -1,0 +1,3642 @@
+{
+  "version": "2.0.0-candidate",
+  "expectedCount": 24,
+  "objects": [
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O201",
+      "semanticKey": "O01",
+      "meaning": "First-hand experience",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -1.405263870376766,
+          0,
+          -0.43113874752858455
+        ],
+        "max": [
+          1.405263870376766,
+          2.2799999713897705,
+          0.43113874752858455
+        ]
+      },
+      "size": [
+        2.810527740753532,
+        2.2799999713897705,
+        0.8622774950571691
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.439999985694885,
+          6.5
+        ],
+        "lookAt": [
+          0,
+          1.1399999856948853,
+          0
+        ],
+        "extent": 1.6539292362163809
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "First voice \u2014 navy opening plane",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Second voice \u2014 cobalt meeting plane",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Small shared open conversation seam",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 1140,
+          "triangles": 2276
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O201.png",
+          "sha256": "b7539d5b8dc384d1cff4e7cc9be47db2a2db1852034f64c66761c36441bea123",
+          "bytes": 106510
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O201.glb",
+          "sha256": "999bb15009bfc57c57001f4618e3761b15236a85bd9563b6421be11a4fe01da5",
+          "bytes": 1286776
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O201.svg",
+          "sha256": "f04ca7f3a41bc2d1b92c94d5e00509d1d563bf21fef684fe104697e6d18b8ed4",
+          "bytes": 288
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O201.json",
+          "sha256": "a629d1040f1cadde6e40dfd018b96d99a1ed90b8fda2750064dcbcd698113ece",
+          "bytes": 2512
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O202",
+      "semanticKey": "O02",
+      "meaning": "Useful follow-up",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -1.1267397795724623,
+          0,
+          -0.5371344452357019
+        ],
+        "max": [
+          1.1267397795724623,
+          2.180000066757202,
+          0.5371344452357019
+        ]
+      },
+      "size": [
+        2.2534795591449246,
+        2.180000066757202,
+        1.0742688904714037
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.390000033378601,
+          6.5
+        ],
+        "lookAt": [
+          0,
+          1.090000033378601,
+          0
+        ],
+        "extent": 1.5428670024922533
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Source outer fold",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Lifted follow-up layer",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 1140,
+          "triangles": 2276
+        },
+        {
+          "name": "Precise revealed detail",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 11748,
+          "triangles": 3916
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O202.png",
+          "sha256": "3beb8aca7acb4a64e4f272bb82b1eb5b0075b1849151d5ce25414df48af5f640",
+          "bytes": 260415
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O202.glb",
+          "sha256": "2a34f7ddd41631737e0a43a6a663ab00e3f9d4bba2078efb51135e27893129be",
+          "bytes": 1286768
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O202.svg",
+          "sha256": "6faaa6858919983bb8e1124936feb03ae2b18cf7c96fc6f167222461616380be",
+          "bytes": 328
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O202.json",
+          "sha256": "1821559bdb4abd4f099320869fe9c206c2fb37d0b99e14f5341f55bc37f0ac42",
+          "bytes": 2461
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O203",
+      "semanticKey": "O03",
+      "meaning": "Founder voice",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -1.2660645300336346,
+          0,
+          -0.5104308574554316
+        ],
+        "max": [
+          1.2660645300336346,
+          1.8300000429153442,
+          0.5104308574554316
+        ]
+      },
+      "size": [
+        2.5321290600672692,
+        1.8300000429153442,
+        1.0208617149108632
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.215000021457672,
+          6.5
+        ],
+        "lookAt": [
+          0,
+          0.9150000214576721,
+          0
+        ],
+        "extent": 1.5580728652188873
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Voice entering context",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 23520,
+          "triangles": 7840
+        },
+        {
+          "name": "Voice leaving context",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 23520,
+          "triangles": 7840
+        },
+        {
+          "name": "Continuous distinct ribbon",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 1140,
+          "triangles": 2276
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O203.png",
+          "sha256": "11b5df23a90b2cd109dab6015bfaca63dbaf618be1a4e089214763120cf87296",
+          "bytes": 244842
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O203.glb",
+          "sha256": "a6222ab63ddb35b66f81b23689096ea527a6a097d10aa87bff60af1bacf571a8",
+          "bytes": 2040108
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O203.svg",
+          "sha256": "6512eae5a5eb30d4da0bb28b6a52e72d5f3c78da78c64829214638c177d1616c",
+          "bytes": 373
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O203.json",
+          "sha256": "20b1f9d7a35602520916d907df84b25d227cec64f7326e2dc5b4dd0bfea096c1",
+          "bytes": 2468
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O204",
+      "semanticKey": "O04",
+      "meaning": "Buyer problem",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -1.0900000122189522,
+          0,
+          -0.09249999940395356
+        ],
+        "max": [
+          1.0900000122189522,
+          2.130000114440918,
+          0.09249999940395355
+        ]
+      },
+      "size": [
+        2.1800000244379043,
+        2.130000114440918,
+        0.18499999880790713
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.365000057220459,
+          6.5
+        ],
+        "lookAt": [
+          0,
+          1.065000057220459,
+          -6.938893903907228e-18
+        ],
+        "extent": 1.377081354084202
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Constrained broad situation plane",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Narrow unresolved limiting plane",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Specific resolved bottom of constrained slot",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 11748,
+          "triangles": 3916
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O204.png",
+          "sha256": "44b47d51b57a02547a3ad42e9b326f40c90e07bf28629108cbae690a6898c540",
+          "bytes": 77471
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O204.glb",
+          "sha256": "0c53c47ef6f1ff041dbc65def34e67ebd4b7db111ab43521a8bc2614338e885f",
+          "bytes": 1612132
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O204.svg",
+          "sha256": "4f19f67f975d0d95ff6c277ac870890de8f05a4dd5c8f009c6faa1d9ed08f04c",
+          "bytes": 287
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O204.json",
+          "sha256": "924ddee288d239ef75c68d9c1173a44e9ed7d04b9ada514fe30e0d2051f8b2fe",
+          "bytes": 2529
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O205",
+      "semanticKey": "O05",
+      "meaning": "Buying group",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -1.4262311595155863,
+          0,
+          -0.5961037537455559
+        ],
+        "max": [
+          1.4262311595155863,
+          2.150000047571957,
+          0.5961037537455558
+        ]
+      },
+      "size": [
+        2.8524623190311726,
+        2.150000047571957,
+        1.1922075074911116
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.3750000237859785,
+          6.5
+        ],
+        "lookAt": [
+          0,
+          1.0750000237859785,
+          -5.551115123125783e-17
+        ],
+        "extent": 1.766936884716605
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Buyer perspective one",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Buyer perspective two",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Buyer perspective three",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Shared buying space",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 1140,
+          "triangles": 2276
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O205.png",
+          "sha256": "133e841f1efe7d89d9d720ec9f235d61894c23e090e89d1e7a90cba9879d6fef",
+          "bytes": 97828
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O205.glb",
+          "sha256": "eb867bbabbba06644ebbadba53ce8891f888a7517c33849d08c1cebccbb83791",
+          "bytes": 1663488
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O205.svg",
+          "sha256": "ef02660f18984c6b4f4ec8e866b98a69e73bd6e63b698244d74ac16fe4bc99da",
+          "bytes": 296
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O205.json",
+          "sha256": "2e54196a25edea9f1cf65101144b163b1d9d2fa3777a64d8f7793dc702b49627",
+          "bytes": 2635
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O206",
+      "semanticKey": "O06",
+      "meaning": "Point of view",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -1.0924497808278044,
+          0,
+          -0.37665223775716633
+        ],
+        "max": [
+          1.0924497808278044,
+          1.9299999475479126,
+          0.3766522377571664
+        ]
+      },
+      "size": [
+        2.184899561655609,
+        1.9299999475479126,
+        0.7533044755143328
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.264999973773956,
+          6.5
+        ],
+        "lookAt": [
+          0,
+          0.9649999737739563,
+          2.7755575615628914e-17
+        ],
+        "extent": 1.3521561262930417
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Experience plane",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Conviction plane",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Clear aligned sightline",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 11736,
+          "triangles": 3912
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O206.png",
+          "sha256": "00c8deb044412abd5add5439efd9b0e5d4d9df7aa4743fcfb7fbe80626be95e2",
+          "bytes": 64595
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O206.glb",
+          "sha256": "72611285d5349b167fbaaf6b45a045ca4a867940e88e89324e661a42fca242b5",
+          "bytes": 1611808
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O206.svg",
+          "sha256": "88fcc6351881b71099fb10341df7f2b73af5fd1f279c6f190c4cbc5565ece95c",
+          "bytes": 294
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O206.json",
+          "sha256": "10bd8bfdb3f029ce27c48dfc9ed20880187b10e467cb9f5c78c3e85326803c90",
+          "bytes": 2476
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O207",
+      "semanticKey": "O07",
+      "meaning": "Capability to value",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -1.3166547637614918,
+          0,
+          -0.37062016948321846
+        ],
+        "max": [
+          1.316654763761492,
+          2.0050000190734862,
+          0.3706201694832184
+        ]
+      },
+      "size": [
+        2.633309527522984,
+        2.0050000190734862,
+        0.7412403389664368
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.302500009536743,
+          6.5
+        ],
+        "lookAt": [
+          1.1102230246251565e-16,
+          1.0025000095367431,
+          -2.7755575615628914e-17
+        ],
+        "extent": 1.5310681568474025
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Capability lower plane",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Value upper plane",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Exact capability-value bridge",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 1140,
+          "triangles": 2276
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O207.png",
+          "sha256": "819def4e5a080a11be9e9ea779aa21d7e085c8de3104b0b7d06a51676ced6ac8",
+          "bytes": 196015
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O207.glb",
+          "sha256": "5085d5653939a850c2246f4fe236f719ea1f236de96714189acd2bc6ebb3e9ef",
+          "bytes": 1286704
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O207.svg",
+          "sha256": "f2e7459fa8570ec07e586ff496da54ca21df66b9e91a7eb61a9279ec21dd295d",
+          "bytes": 286
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O207.json",
+          "sha256": "9f256c04b97c65d56dc1778d9e2b3f48e49c45c30ca237e0678f2c2596860b68",
+          "bytes": 2515
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O208",
+      "semanticKey": "O08",
+      "meaning": "Distinct position",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -1.3118228395661504,
+          0,
+          -0.5230453523817478
+        ],
+        "max": [
+          1.3118228395661502,
+          2.3800000669434667,
+          0.5230453523817477
+        ]
+      },
+      "size": [
+        2.6236456791323004,
+        2.3800000669434667,
+        1.0460907047634955
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.490000033471733,
+          6.5
+        ],
+        "lookAt": [
+          -1.1102230246251565e-16,
+          1.1900000334717333,
+          -5.551115123125783e-17
+        ],
+        "extent": 1.6790267282021973
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Quiet category plane 1",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Quiet category plane 2",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Quiet category plane 3",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Distinct owned position",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 1140,
+          "triangles": 2276
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O208.png",
+          "sha256": "d0104a3f3d529ee3aa10d58e7f48239312a4e5d1510b82cca7002f2e67026b7b",
+          "bytes": 148465
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O208.glb",
+          "sha256": "2b59d9889cf136ff8b52b76cc83d03c1edc94fad4222cccdcb5b5eeee13b667c",
+          "bytes": 1663092
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O208.svg",
+          "sha256": "4c58b28fa53dbdd44c079bf737c9d87dca73c560e74f3b4d81c82cc28c951b07",
+          "bytes": 305
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O208.json",
+          "sha256": "bc01b63c965e47fe0c5be0bf874f19d97b846e886330ad4782c4ffd141a34b49",
+          "bytes": 2688
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O209",
+      "semanticKey": "O09",
+      "meaning": "Content direction",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -0.965717077255249,
+          0,
+          -0.08750000022351742
+        ],
+        "max": [
+          0.965717077255249,
+          2.369998624920845,
+          0.08750000022351742
+        ]
+      },
+      "size": [
+        1.931434154510498,
+        2.369998624920845,
+        0.17500000044703484
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.484999312460422,
+          6.5
+        ],
+        "lookAt": [
+          0,
+          1.1849993124604226,
+          0
+        ],
+        "extent": 1.486945569360875
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Quiet alternative left",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 348,
+          "triangles": 116
+        },
+        {
+          "name": "Quiet alternative right",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 228,
+          "triangles": 76
+        },
+        {
+          "name": "Selected useful direction",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 348,
+          "triangles": 116
+        },
+        {
+          "name": "Selected endpoint",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 11748,
+          "triangles": 3916
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O209.png",
+          "sha256": "fc0f5621aa0f94b55da032a18e0abdd2d59971f444922154e145daee194a7c8f",
+          "bytes": 73170
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O209.glb",
+          "sha256": "6b91988b440d66103aeb28df608201418b48182ef2effcf142b835f45a0e9777",
+          "bytes": 890764
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O209.svg",
+          "sha256": "5541c329be1d673768868243fb84b81bfd627fddd64cb2f9254e3f7810708e92",
+          "bytes": 285
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O209.json",
+          "sha256": "bc740a446f7c5bddb15a888b366eb9bcb3415aaef1563135de34d4e374fad179",
+          "bytes": 2619
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O210",
+      "semanticKey": "O10",
+      "meaning": "Claim evidence",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -1.0434033432589263,
+          0,
+          -0.375
+        ],
+        "max": [
+          1.0434033432589263,
+          2.1613540920228567,
+          0.375
+        ]
+      },
+      "size": [
+        2.0868066865178525,
+        2.1613540920228567,
+        0.75
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.380677046011428,
+          6.5
+        ],
+        "lookAt": [
+          0,
+          1.0806770460114283,
+          0
+        ],
+        "extent": 1.4706636618995261
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Evidence leaf 1",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Evidence leaf 2",
+          "material": "Warm matte white reading leaf",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Evidence leaf 3",
+          "material": "Warm matte white reading leaf",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Small shared evidence retaining pin",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 196,
+          "triangles": 128
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O210.png",
+          "sha256": "5e274e4b91d0c65bb04cdaf8d37ce8afc016aa8ea1715b9b3687ce3a03601787",
+          "bytes": 93642
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O210.glb",
+          "sha256": "e6de89e57c331e306146eaf567ec499ccd0aa7359909abb5aa398afd779a2917",
+          "bytes": 1703572
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O210.svg",
+          "sha256": "cf952567678b80279ebd544b043506dda2578f7dfd7ca6e6d958183e4160b647",
+          "bytes": 356
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O210.json",
+          "sha256": "54d42305c0a872e37fc0eb6b29c17797e1d836313e1aacb43253fdda0a5f5fa6",
+          "bytes": 2559
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O211",
+      "semanticKey": "O11",
+      "meaning": "Technical trade-offs",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -1.272568152919936,
+          0,
+          -0.10000000074505806
+        ],
+        "max": [
+          1.272568152919936,
+          2.308508566463041,
+          0.10000000074505806
+        ]
+      },
+      "size": [
+        2.545136305839872,
+        2.308508566463041,
+        0.20000000149011612
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.4542542832315206,
+          6.5
+        ],
+        "lookAt": [
+          0,
+          1.1542542832315206,
+          0
+        ],
+        "extent": 1.5074439566062445
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Unequal technical option A",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Unequal technical option B",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Shared precise joint",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 348,
+          "triangles": 116
+        },
+        {
+          "name": "Grounded trade-off support",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O211.png",
+          "sha256": "f36de45b2fb75dbe67c760af0f7bc99bacef9fbb6658e78db7addcffbab07131",
+          "bytes": 99850
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O211.glb",
+          "sha256": "3e8f511f0a9fb1f7edfb7e083aba8320f93e74adc9a7d5ba8ec42f57d5506667",
+          "bytes": 1624328
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O211.svg",
+          "sha256": "a8d4008e80a14ed5555e200d76a5fda9fd193ec6200ffe6cbecd4efc544b5157",
+          "bytes": 299
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O211.json",
+          "sha256": "49e54e207c8f6e147180527ffe35210d9b8f95394ecb76f78306de7aecb7a84c",
+          "bytes": 2635
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O212",
+      "semanticKey": "O12",
+      "meaning": "Product decision",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -0.9599999856948852,
+          0,
+          -0.505669194043957
+        ],
+        "max": [
+          0.9599999856948853,
+          1.9800000190734863,
+          0.505669194043957
+        ]
+      },
+      "size": [
+        1.9199999713897706,
+        1.9800000190734863,
+        1.011338388087914
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.290000009536743,
+          6.5
+        ],
+        "lookAt": [
+          5.551115123125783e-17,
+          0.9900000095367432,
+          0
+        ],
+        "extent": 1.396178075599282
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Structural decision wall",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Exposed structural return",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Clearly exposed exact structural joint",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 11736,
+          "triangles": 3912
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O212.png",
+          "sha256": "7ad400e9ce37bc34c9c3365efcf93abc2a6ffbb3f940f40db4d45ed1951f5c16",
+          "bytes": 156297
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O212.glb",
+          "sha256": "013169d664166b80ee4cae7ce7d5f93e710dbd1aa8a77c3e16313e59fe216bef",
+          "bytes": 1611776
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O212.svg",
+          "sha256": "8ae8a9cd9638bf0bf7f28334fbb3bfbb71d130be32733d5148d6a1b7e421283a",
+          "bytes": 286
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O212.json",
+          "sha256": "56c0b995eb5196bae2e1428b5744e4101e112fe096e89490881ae60f653ee461",
+          "bytes": 2506
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O213",
+      "semanticKey": "O13",
+      "meaning": "Source to draft",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -1.2913343966067616,
+          0,
+          -0.473765398461359
+        ],
+        "max": [
+          1.2913343966067616,
+          1.8300001379102468,
+          0.473765398461359
+        ]
+      },
+      "size": [
+        2.5826687932135233,
+        1.8300001379102468,
+        0.947530796922718
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.2150000689551232,
+          6.5
+        ],
+        "lookAt": [
+          0,
+          0.9150000689551234,
+          0
+        ],
+        "extent": 1.563065535331636
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Loose source sheet",
+          "material": "Warm matte white reading leaf",
+          "vertices": 1140,
+          "triangles": 2276
+        },
+        {
+          "name": "Ordered draft panel one",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Ordered draft panel two",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O213.png",
+          "sha256": "3222ff3d0db49c40fecc7de03d7bab74568fbd48e85230e90ebf9b5128ded6a3",
+          "bytes": 99890
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O213.glb",
+          "sha256": "733ba8e419a25ad63602ae147192331e704f41402715ba04fd3960ba9ba2f6f2",
+          "bytes": 1369924
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O213.svg",
+          "sha256": "0aacc0efd9664162b8f2b88f18765ffa15a0ce3ed03a4bd59592c323dc6c1bc2",
+          "bytes": 302
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O213.json",
+          "sha256": "a3aec80d8ab8aa857086a76e0add7acb59280bb675a220c2c39b645ac4fe0b36",
+          "bytes": 2464
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O214",
+      "semanticKey": "O14",
+      "meaning": "Clear argument",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -0.9324999976158141,
+          0,
+          -0.30749999940395356
+        ],
+        "max": [
+          0.9324999976158141,
+          2.424999977350235,
+          0.30749999940395356
+        ]
+      },
+      "size": [
+        1.8649999952316283,
+        2.424999977350235,
+        0.6149999988079071
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.5124999886751174,
+          6.5
+        ],
+        "lookAt": [
+          0,
+          1.2124999886751175,
+          0
+        ],
+        "extent": 1.577129160133393
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Supporting argument step 1",
+          "material": "Warm matte white reading leaf",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Supporting argument step 2",
+          "material": "Warm matte white reading leaf",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Supporting argument step 3",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Clear supported main idea",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Argument spine",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 11736,
+          "triangles": 3912
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O214.png",
+          "sha256": "88ace6691b00f6f01c0f18833821b368e0a48e9afbaf631556b7f202d7a8e4c6",
+          "bytes": 92691
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O214.glb",
+          "sha256": "d4e17007489c667a79cd4f6104d74490c3f03fe0d51e85a53eecb01ab34ad331",
+          "bytes": 2449020
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O214.svg",
+          "sha256": "abefd3930c2f93e85163063b2be2b1bd3768460630470e1e15e86916071b0634",
+          "bytes": 300
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O214.json",
+          "sha256": "95586130af73f4b4c8c8072d648c564f424a315610422e107f8fd00554c5982f",
+          "bytes": 2780
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O215",
+      "semanticKey": "O15",
+      "meaning": "Focused idea",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -0.9849999883770942,
+          0,
+          -0.3104914641007781
+        ],
+        "max": [
+          0.9849999883770943,
+          2.180000066757202,
+          0.3104914641007781
+        ]
+      },
+      "size": [
+        1.9699999767541887,
+        2.180000066757202,
+        0.6209829282015562
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.390000033378601,
+          6.5
+        ],
+        "lookAt": [
+          5.551115123125783e-17,
+          1.090000033378601,
+          0
+        ],
+        "extent": 1.4520935700647635
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Editorial focus aperture",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 23520,
+          "triangles": 7840
+        },
+        {
+          "name": "Focused cobalt idea",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 1140,
+          "triangles": 2276
+        },
+        {
+          "name": "Navy precision edge",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11736,
+          "triangles": 3912
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O215.png",
+          "sha256": "1a29dcdec1211afc2cc19ebddad4f650f74777df8d6c71257018f8332fdaece4",
+          "bytes": 219757
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O215.glb",
+          "sha256": "d9d8abdd89f47e5bb940ef9cc1f6e7321c4a28395eb762b9e7e89e8122ede1b0",
+          "bytes": 1662448
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O215.svg",
+          "sha256": "097054636123e1de4a3b0d221e909aba560873e7e75dd4daedd80c76dfbb8475",
+          "bytes": 363
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O215.json",
+          "sha256": "ed36efc99283bd590aa2064bf41aca77ddc0d77db419f8070ef852b0e18705a5",
+          "bytes": 2482
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O216",
+      "semanticKey": "O16",
+      "meaning": "Document sequence",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -1.2017403291251783,
+          0,
+          -0.3374999994039536
+        ],
+        "max": [
+          1.2017403291251783,
+          2.395039339825435,
+          0.3374999994039536
+        ]
+      },
+      "size": [
+        2.4034806582503565,
+        2.395039339825435,
+        0.6749999988079072
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.4975196699127173,
+          6.5
+        ],
+        "lookAt": [
+          0,
+          1.1975196699127175,
+          0
+        ],
+        "extent": 1.6139554720262062
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Document reading leaf 1",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Document reading leaf 2",
+          "material": "Warm matte white reading leaf",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Document reading leaf 3",
+          "material": "Warm matte white reading leaf",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Sequence fold",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 11748,
+          "triangles": 3916
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O216.png",
+          "sha256": "a7f627b019bd8edef115217af42175b08dab1b099f5369edfb54074a110d6764",
+          "bytes": 89038
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O216.glb",
+          "sha256": "b72154fcce3a0167b8c1a747fd333354b5d857278bc54bd96cb4ea3c2c6cac6d",
+          "bytes": 2072380
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O216.svg",
+          "sha256": "bc2c1f2d55e5d6ae7cf7f80615c5503c9059feccffa20c674144cae1432a0390",
+          "bytes": 321
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O216.json",
+          "sha256": "be0ef3b58e4d38e3a4352c380c54ef9c1b152447b588c3dfbd86c697efa14606",
+          "bytes": 2606
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O217",
+      "semanticKey": "O17",
+      "meaning": "Founder video",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -1.240766879407884,
+          0,
+          -0.15322052191085403
+        ],
+        "max": [
+          1.240766879407884,
+          1.6299999952316284,
+          0.15322052191085403
+        ]
+      },
+      "size": [
+        2.481533758815768,
+        1.6299999952316284,
+        0.30644104382170806
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.114999997615814,
+          6.5
+        ],
+        "lookAt": [
+          0,
+          0.8149999976158142,
+          0
+        ],
+        "extent": 1.3335945761627106
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Thin video aperture",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 23520,
+          "triangles": 7840
+        },
+        {
+          "name": "Fine nickel inner reveal",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 23520,
+          "triangles": 7840
+        },
+        {
+          "name": "Calm white media surface",
+          "material": "Warm matte white reading leaf",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Native play control counterpart",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 168,
+          "triangles": 56
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O217.png",
+          "sha256": "acbca4c41840148d5188fe65e9f9ffc4b704e9856cf255b18744f181183640fd",
+          "bytes": 110296
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O217.glb",
+          "sha256": "23bfadd8bd0014eb4d53cce53d2c685856567065bd57a4c51f260d9af64d3b3b",
+          "bytes": 2455616
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O217.svg",
+          "sha256": "15c5079b8b9a67ad05531cb3840b70f22dfc14a21647f1b63b36a2d3814ac299",
+          "bytes": 311
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O217.json",
+          "sha256": "fd232e5a6894e9804c4c17e747cee2e59e56c92b0c15141e64f2307ac3a950f9",
+          "bytes": 2625
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O218",
+      "semanticKey": "O18",
+      "meaning": "Format adaptation",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -1.3758692067573892,
+          0,
+          -0.4602053217098299
+        ],
+        "max": [
+          1.3758692067573892,
+          2.299999968409538,
+          0.46020532170983
+        ]
+      },
+      "size": [
+        2.7517384135147784,
+        2.299999968409538,
+        0.92041064341966
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.449999984204769,
+          6.5
+        ],
+        "lookAt": [
+          0,
+          1.149999984204769,
+          2.7755575615628914e-17
+        ],
+        "extent": 1.6405530716393124
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "One source idea",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Tall format",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Square format",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Wide format",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Shared source transition",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 1140,
+          "triangles": 2276
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O218.png",
+          "sha256": "f1fa1c1cb1539088fa717bcc8001905e7f4b2f5c519e6659dc42119a42db5f8f",
+          "bytes": 332067
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O218.glb",
+          "sha256": "78e09fd4c8542a6ae088ac451dfb588c823977301a75fac3baadd542717bd865",
+          "bytes": 2040496
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O218.svg",
+          "sha256": "f35f7a9c856a0676f7c4c76485c408a65cb5e2faf210fbf4459d5061c68d48e5",
+          "bytes": 389
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O218.json",
+          "sha256": "5bca9167c5a4e004dae7145642b22bc1b0a6f7f0e2bfa8bbae74adddd758cc71",
+          "bytes": 2766
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O219",
+      "semanticKey": "O19",
+      "meaning": "Exact revision",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -0.9770627637968485,
+          0,
+          -0.47096098040709855
+        ],
+        "max": [
+          0.9770627637968485,
+          2.180000066757202,
+          0.47096098040709855
+        ]
+      },
+      "size": [
+        1.954125527593697,
+        2.180000066757202,
+        0.9419219608141971
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.390000033378601,
+          6.5
+        ],
+        "lookAt": [
+          0,
+          1.090000033378601,
+          0
+        ],
+        "extent": 1.4985217526333616
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Draft main plane",
+          "material": "Warm matte white reading leaf",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Precisely lifted correction fold",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 1140,
+          "triangles": 2276
+        },
+        {
+          "name": "Local revised insert",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Exact seam",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 11736,
+          "triangles": 3912
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O219.png",
+          "sha256": "458e43941977008b8baa763d20fcbbc95edb98c912295e51e339291f58d7a685",
+          "bytes": 124601
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O219.glb",
+          "sha256": "54d4346dd819dadc447ebf3346b819bee1cd17fb8dd1501cd3a91e5f05581ad4",
+          "bytes": 1746720
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O219.svg",
+          "sha256": "b4ba6c75cfa98b25fdd5dd5be5c4252a92ad74dd1790affd644bde70d4849720",
+          "bytes": 292
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O219.json",
+          "sha256": "2b4590594b9dd8e55814abc408f460b2225e129d78c456dcc552cb7467227340",
+          "bytes": 2607
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O220",
+      "semanticKey": "O20",
+      "meaning": "Founder approval",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -1.213567785078376,
+          0,
+          -0.17716788179460685
+        ],
+        "max": [
+          1.213567785078376,
+          2.0799999237060547,
+          0.17716788179460685
+        ]
+      },
+      "size": [
+        2.427135570156752,
+        2.0799999237060547,
+        0.3543357635892137
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.339999961853027,
+          6.5
+        ],
+        "lookAt": [
+          0,
+          1.0399999618530273,
+          0
+        ],
+        "extent": 1.3951621615267904
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Founder reading plane",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Final approved plane",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Final precise closure seam",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 11736,
+          "triangles": 3912
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O220.png",
+          "sha256": "e4a8148455e4a0a4dbde5afa8f9f8eda9e279aabe31be6c654d75f171bd2d3cb",
+          "bytes": 117016
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O220.glb",
+          "sha256": "e2b68824c3437868649138ea408db4be2a4a262f9da3761f1de0a45a54086762",
+          "bytes": 1611824
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O220.svg",
+          "sha256": "5fdfdc508438dec574d2c68d2975acb7ef5c9611628a30c20aa5538bd8588528",
+          "bytes": 292
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O220.json",
+          "sha256": "b1efcefefbd085102c8f29fe27f5a38f5ae916505cb0954b59c726b5310a1efb",
+          "bytes": 2469
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O221",
+      "semanticKey": "O21",
+      "meaning": "Ready-to-post handoff",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -1.0400000214576721,
+          0,
+          -0.4842226514220238
+        ],
+        "max": [
+          1.0400000214576721,
+          2.0100000546500087,
+          0.4842226514220238
+        ]
+      },
+      "size": [
+        2.0800000429153442,
+        2.0100000546500087,
+        0.9684453028440476
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.305000027325004,
+          6.5
+        ],
+        "lookAt": [
+          0,
+          1.0050000273250044,
+          0
+        ],
+        "extent": 1.4194573518432805
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Finished handoff panel",
+          "material": "Warm matte white reading leaf",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Open shallow handoff carrier",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 1140,
+          "triangles": 2276
+        },
+        {
+          "name": "Carrier precision lip",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 11736,
+          "triangles": 3912
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O221.png",
+          "sha256": "cf435f46e404c068b5e29fbcdd9a2f5316378aa5cd10c621bcdfee998692b513",
+          "bytes": 124485
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O221.glb",
+          "sha256": "1f6ceb87ed1f01e3e0fb652a8965a93c1f584282ad6c109cd6affa5d67ffff7f",
+          "bytes": 1369392
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O221.svg",
+          "sha256": "dd36ebdbee2570a5a834ddad1e89359028858c561be03b1a8933d377df53c69f",
+          "bytes": 280
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O221.json",
+          "sha256": "40bcd7431289412d7611b710f0dc55ef878b6816b09a3ba93baf67aa3113ac30",
+          "bytes": 2468
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O222",
+      "semanticKey": "O22",
+      "meaning": "Buyer relevance",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -1.4708253566159346,
+          0,
+          -0.4800119852678979
+        ],
+        "max": [
+          1.4708253566159348,
+          2.0799999237060547,
+          0.4800119852678979
+        ]
+      },
+      "size": [
+        2.941650713231869,
+        2.0799999237060547,
+        0.9600239705357958
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.339999961853027,
+          6.5
+        ],
+        "lookAt": [
+          1.1102230246251565e-16,
+          1.0399999618530273,
+          0
+        ],
+        "extent": 1.7471156874581146
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Authored expertise",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Distinct receiving buyer plane",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Useful relevance connector",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 1140,
+          "triangles": 2276
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O222.png",
+          "sha256": "7d44b2bcdeb54e533764bf165c0472ed644dfd37b02f9c1c4642220788b846bd",
+          "bytes": 87044
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O222.glb",
+          "sha256": "b88c3578055ce9be684776f479b04a32536013dba4b374d677e0913bafb96b22",
+          "bytes": 1286688
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O222.svg",
+          "sha256": "3c14f9f5d760b106a85860608c13eb778f26ac0681c91aeba465b5b2db9c2660",
+          "bytes": 294
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O222.json",
+          "sha256": "cd9553d3560cfacaa68934deb807fc6f5cd44f9d422949252f8670c0f89a7e02",
+          "bytes": 2495
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O223",
+      "semanticKey": "O23",
+      "meaning": "Learning review",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -1.2701596505453623,
+          0,
+          -0.20181554897738901
+        ],
+        "max": [
+          1.2701596505453623,
+          2.239738237857819,
+          0.20181554897738901
+        ]
+      },
+      "size": [
+        2.5403193010907246,
+        2.239738237857819,
+        0.40363109795477803
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.419869118928909,
+          6.5
+        ],
+        "lookAt": [
+          0,
+          1.1198691189289094,
+          0
+        ],
+        "extent": 1.4995602383727626
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Source knowledge plane",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Returning observation arc",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 7788,
+          "triangles": 2596
+        },
+        {
+          "name": "Single observed learning",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 11748,
+          "triangles": 3916
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O223.png",
+          "sha256": "e32ba15267c344bc3a1e9979b5f4f7d685a73d94872ae268ef7204c92dfbae4b",
+          "bytes": 227299
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O223.glb",
+          "sha256": "61e1a1ada18e6eed763ad3fe0e1ecaf7b515d2d2277a52f1e89662777d9343f8",
+          "bytes": 1485536
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O223.svg",
+          "sha256": "83fbc55c325f35162f43a1f336c192765ddbc6fcab2387af6dc563ca44471c7b",
+          "bytes": 338
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O223.json",
+          "sha256": "aff1549d58414fb0a337efa91e81cb2b515c1b2d0121d0f99dcff04970d7ee93",
+          "bytes": 2473
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    },
+    {
+      "version": "2.0.0",
+      "source": "Original authored Three.js closed bevelled geometry; no downloaded mesh",
+      "units": "nominal metres",
+      "pivot": "ground centre; Y up; +Z front",
+      "materialRecipe": {
+        "version": "2.0.0",
+        "seed": 191026,
+        "palette": {
+          "navy": "#162760",
+          "cobalt": "#3157D5",
+          "nickel": "#A9AFBA"
+        },
+        "brush": {
+          "direction": "horizontal local UV",
+          "resolution": [
+            1024,
+            512
+          ],
+          "bumpScale": 0.007
+        },
+        "light": {
+          "key": [
+            -3,
+            5,
+            6
+          ],
+          "fill": [
+            4,
+            1,
+            4
+          ],
+          "rim": [
+            2,
+            4,
+            -4
+          ]
+        },
+        "toneMapping": "ACESFilmic",
+        "exposure": 1.05
+      },
+      "rights": "Original geometry and deterministic textures authored in this run. Owner reference used as visual direction only; not embedded.",
+      "id": "OS-O224",
+      "semanticKey": "O24",
+      "meaning": "Deliberate improvement",
+      "layers": "Named closed meshes; editable geometry/materials; no baked text",
+      "bounds": {
+        "min": [
+          -1.365000021457672,
+          0,
+          -0.45862144777767444
+        ],
+        "max": [
+          1.3650000214576723,
+          1.7522419917537597,
+          0.4586214477776745
+        ]
+      },
+      "size": [
+        2.7300000429153446,
+        1.7522419917537597,
+        0.9172428955553489
+      ],
+      "camera": {
+        "type": "orthographic",
+        "position": [
+          3.6,
+          3.1761209958768797,
+          6.5
+        ],
+        "lookAt": [
+          1.1102230246251565e-16,
+          0.8761209958768799,
+          2.7755575615628914e-17
+        ],
+        "extent": 1.6287360672444142
+      },
+      "lighting": {
+        "key": [
+          -3,
+          5,
+          6
+        ],
+        "fill": [
+          4,
+          1,
+          4
+        ],
+        "rim": [
+          2,
+          4,
+          -4
+        ]
+      },
+      "render": {
+        "width": 1200,
+        "height": 1200,
+        "background": "transparent",
+        "color": "sRGB",
+        "toneMapping": "ACES Filmic 1.05"
+      },
+      "placement": "One focal object on white, pearl, or navy; reserve at least 15% clear field. Use small SVG below 64px.",
+      "meshes": [
+        {
+          "name": "Previous structure",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Previous return with visible offset",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Short unresolved prior joint",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 11736,
+          "triangles": 3912
+        },
+        {
+          "name": "Improved aligned structure",
+          "material": "Brushed anodised deep navy alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Corrected aligned return",
+          "material": "Brushed anodised brilliant cobalt alloy",
+          "vertices": 11748,
+          "triangles": 3916
+        },
+        {
+          "name": "Continuous corrected exact joint",
+          "material": "Fine brushed neutral nickel",
+          "vertices": 11736,
+          "triangles": 3912
+        }
+      ],
+      "files": {
+        "png": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O224.png",
+          "sha256": "50e757fb14b7bc20cfd020aa10b423f22744556cc267ab52a11ee32c5f0d3ebc",
+          "bytes": 149812
+        },
+        "glb": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O224.glb",
+          "sha256": "182e0b522217f99597dd61a17371e11bdd259bd1b1c86cb784ce46fd374369cb",
+          "bytes": 2742048
+        },
+        "svg": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O224.svg",
+          "sha256": "4b6b00bc5223fd3a26e69fa4b838a5e98d286154325981afec6dd87c93c8fde5",
+          "bytes": 319
+        },
+        "json": {
+          "path": "brand-library/packages/assets/revisions/v2/objects/OS-O224.json",
+          "sha256": "6e1dd4ce32ad184901fa0c5eba799f092f48f44a5c745d28c436595de3722d42",
+          "bytes": 3026
+        }
+      },
+      "reviewStatus": "independently_reviewed_contextual_editorial_candidate",
+      "reviewLimits": "Meaningful native caption; one focal object per scene; owner acceptance absent."
+    }
+  ],
+  "sourceFiles": {
+    "brand-library/packages/assets/revisions/v2/objects/objects.mjs": "a0b39da6e312c22fc74f6534e35b0902812ca116a21f5e8d9b2151ac09a46443",
+    "brand-library/packages/assets/revisions/v2/objects/renderer.html": "f8ed1a8e152ac8c9d17676fea9ce93116911a7bdc0df2b7c89a6161fa3f821b7",
+    "brand-library/packages/assets/revisions/v2/identity/material-kit.mjs": "36890a18ab26372920aede2f059a9fc73b02a7cf8b9fa83bc10a13120e55c014"
+  },
+  "rights": "Original local geometry, procedural textures, functional SVGs; no third-party mesh/media. Owner reference used as style direction only.",
+  "ownerAccepted": false,
+  "independentReview": {
+    "path": "[dated-local-evidence-omitted]",
+    "sha256": "4ebd77ab4c14c71b733dad27b1660d4fa502597a2260043e4fb511f1e1b6f937",
+    "scope": "All24 PM and customer-proxy contextual editorial review; not actual buyer research.",
+    "status": "accepted_with_context"
+  },
+  "designCaveats": [
+    "O212 and O224 nickel joint caps remain angular at enlarged1200px. Retained as material limitation; independent reviewer requested no broad further repair.",
+    "Brushed finish is procedural and subtler than the supplied owner texture exemplar.",
+    "Dark grounds reduce navy face separation; white/pearl preferred."
+  ]
+}

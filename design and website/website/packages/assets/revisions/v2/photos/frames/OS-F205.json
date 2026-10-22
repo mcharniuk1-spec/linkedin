@@ -1,0 +1,230 @@
+{
+  "id": "OS-F205",
+  "photoId": "OS-PH205",
+  "version": "2.0.0-candidate",
+  "author": "v2_designer maker; root and PM independent reviewers",
+  "width": 1200,
+  "height": 1000,
+  "nodes": [
+    {
+      "id": "root",
+      "type": "group",
+      "parentId": null,
+      "x": 0,
+      "y": 0,
+      "width": 1200,
+      "height": 1000,
+      "rotation": 0,
+      "opacity": 1,
+      "fill": "#FFFFFF"
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "parentId": "root",
+      "x": 68,
+      "y": 38,
+      "width": 1064,
+      "height": 64,
+      "rotation": 0,
+      "opacity": 1,
+      "text": "Shared discussion \u00b7 a wide frame",
+      "fontFamily": "Inter",
+      "fontStyle": "Semi Bold",
+      "fontSize": 48,
+      "fontWeight": 600,
+      "lineHeight": 60,
+      "fill": "#162760",
+      "maxLines": 2
+    },
+    {
+      "id": "photo-plane",
+      "type": "group",
+      "parentId": "root",
+      "x": 95,
+      "y": 155,
+      "width": 1010,
+      "height": 673.3333333333334,
+      "rotation": 2,
+      "opacity": 1,
+      "relativeTransform": [
+        [
+          0.9993908270190958,
+          -0.03489949670250097,
+          107.05712957853197
+        ],
+        [
+          0.03489949670250097,
+          0.9993908270190958,
+          137.58084240214146
+        ]
+      ],
+      "transformConvention": "parent coordinates; y down; clockwise degrees; matrix already includes centre pivot"
+    },
+    {
+      "id": "quiet-wide-backplate",
+      "type": "rect",
+      "parentId": "photo-plane",
+      "x": -10,
+      "y": 14,
+      "width": 1030,
+      "height": 700.3333333333334,
+      "rotation": 0,
+      "opacity": 1,
+      "fill": "#F1F3F6",
+      "cornerRadius": 4,
+      "shadow": {
+        "type": "DROP_SHADOW",
+        "color": "#162760",
+        "opacity": 0.1,
+        "offset": {
+          "x": 8,
+          "y": 15
+        },
+        "blur": 24,
+        "spread": 0,
+        "visible": true,
+        "lightOrigin": "upper left; shadow falls lower right"
+      }
+    },
+    {
+      "id": "navy-lower-frame",
+      "type": "rect",
+      "parentId": "photo-plane",
+      "x": -3,
+      "y": 672.3333333333334,
+      "width": 1016,
+      "height": 29,
+      "rotation": 0,
+      "opacity": 1,
+      "fill": "#162760",
+      "cornerRadius": 4
+    },
+    {
+      "id": "blue-rim",
+      "type": "rect",
+      "parentId": "photo-plane",
+      "x": -3,
+      "y": -3,
+      "width": 1016,
+      "height": 679.3333333333334,
+      "rotation": 0,
+      "opacity": 1,
+      "fill": "#3157D5",
+      "cornerRadius": 4,
+      "shadow": null
+    },
+    {
+      "id": "fine-nickel-reveal",
+      "type": "rect",
+      "parentId": "photo-plane",
+      "x": -1,
+      "y": -1,
+      "width": 1012,
+      "height": 675.3333333333334,
+      "rotation": 0,
+      "opacity": 1,
+      "fill": "#A9AFBA",
+      "cornerRadius": 0
+    },
+    {
+      "id": "photo",
+      "type": "image",
+      "parentId": "photo-plane",
+      "x": 0,
+      "y": 0,
+      "width": 1010,
+      "height": 673.3333333333334,
+      "rotation": 0,
+      "opacity": 1,
+      "assetId": "OS-PH205",
+      "imageHash": "f1364bab63122895af095145d6f64393b2166096b23017bf585da17a4f20192b",
+      "imagePath": "brand-library/packages/assets/revisions/v2/photos/OS-PH205.png",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "fit": "contain",
+      "preserveAspectRatio": "xMidYMid meet",
+      "crop": null,
+      "cornerRadius": 0,
+      "fullImageVisible": true
+    },
+    {
+      "id": "fiction-disclosure",
+      "type": "text",
+      "parentId": "root",
+      "x": 68,
+      "y": 905,
+      "width": 1064,
+      "height": 62,
+      "rotation": 0,
+      "opacity": 1,
+      "text": "design specimen \u00b7 fictional media",
+      "fontFamily": "Inter",
+      "fontStyle": "Medium",
+      "fontSize": 48,
+      "fontWeight": 500,
+      "lineHeight": 60,
+      "fill": "#162760",
+      "maxLines": 1,
+      "persistent": true,
+      "minimum360pxPreviewFontSize": 14.4
+    }
+  ],
+  "coordinates": "Children are parent-local. Root children frontal unless rotation explicit. Rotation about own centre, clockwise with y down. Use provided group relativeTransform in Figma. Layer order is array order; parent group established before children.",
+  "font": {
+    "family": "Inter",
+    "file": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+    "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+    "weightAxes": "Variable licensed font; actual400\u2013700 supported",
+    "licenseRoute": "brand-library/packages/assets/identity/font-source/inter/"
+  },
+  "imageLookup": {
+    "OS-PH205": {
+      "path": "brand-library/packages/assets/revisions/v2/photos/OS-PH205.png",
+      "sha256": "f1364bab63122895af095145d6f64393b2166096b23017bf585da17a4f20192b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "FigmaInstruction": "Use original bytes via imageHash mapping; set native image rectangle1010\u00d7673.333 with FIT. No crop."
+    },
+    "OS-TX201": {
+      "path": "brand-library/packages/assets/revisions/v2/paper/OS-TX201.png",
+      "sha256": "64c2e680f4e30572ecde6c5ec5cfaaf2cd28f9700da01743a8e5aba0d4256f03",
+      "opacity": 0.12,
+      "FigmaInstruction": "Clip or mask to named paper plate only; image opaque photo covers centre; do not apply to page."
+    }
+  },
+  "generationLineage": {
+    "photo": {
+      "id": "OS-PH205",
+      "source": "[local-source-omitted]",
+      "destination": "brand-library/packages/assets/revisions/v2/photos/OS-PH205.png",
+      "prompt": "[dated-local-evidence-omitted]",
+      "route": "built-in imagegen",
+      "rights": "Original generated fictional media; label required; no real customer evidence",
+      "sha256": "f1364bab63122895af095145d6f64393b2166096b23017bf585da17a4f20192b"
+    },
+    "promptPath": "[dated-local-evidence-omitted]",
+    "promptSha256": "6614915ba0c4759c9aad5beed50c1afdf1cf040c374af563717d17e2d04299f2",
+    "promptText": "Create one original photorealistic editorial photograph, landscape 3:2. Two fictional B2B software cofounders having a quiet product discussion at a white meeting table: a Northern European woman with a dark blonde bob in her late thirties wearing an off-white textured shirt, and a Black European man around forty wearing a simple navy jacket. Natural individual faces, attentive thoughtful expressions and credible hands, subtle candid body language, no staged handshake. Medium-wide eye-level 50mm-equivalent perspective, both full heads and upper bodies safely inside crop with comfortable margin. Modern understated room with white plaster, one navy fabric acoustic panel, soft view through a distant open doorway, a few blank paper cards on the table. Soft daylight from upper-left, gentle depth of field while both faces stay sharp, quiet editorial luxury balanced with real work. No logos, text, device UI, final frame, watermark or implied real customer evidence. No plastic skin, office-stock grin, neon, chromed furniture or excess props.\n",
+    "framingSource": "Original deterministic SVG/native layer composition; no imagegen or pixel repaint."
+  },
+  "placementGuide": {
+    "photoPlane": [
+      95,
+      155,
+      1010,
+      673.3333333333334
+    ],
+    "rotationDegrees": 2,
+    "perspective": "2D framed image plane; no extra projective distortion; full generated3:2 image remains visible.",
+    "photographicLens": "Descriptive portrait/interview perspective from generated source; no actual camera/lens metadata claimed.",
+    "lighting": "Source soft daylight from left/front; frame cast shadow falls lower right, shared upper-left light.",
+    "backgroundDepth": "cofounder",
+    "copySafeSpace": "All title/disclosure native and frontal outside photo. PH203 original left white field remains clear.",
+    "use": "One focal frame on white. Do not imply the fictional people are customers or approved interviews."
+  },
+  "reviewStatus": "maker_composition_independent_review_pending",
+  "ownerAccepted": false
+}

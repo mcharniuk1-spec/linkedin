@@ -1,0 +1,82 @@
+{
+  "id": "P14",
+  "title": "Turn one product decision into a buyer-relevant post",
+  "author": "Max Charniuk",
+  "voice_status": "Provisional; anonymous profile fetch returned HTTP 999 and collection stopped. Spoken voice needs founder review.",
+  "target_duration_seconds": 75,
+  "format": "LinkedIn native video; 16:9 landscape master",
+  "performer": "Fictional presenter only. Do not resemble or impersonate either founder or any client.",
+  "theme": "A five-box decision worksheet: buyer question, constraint, options, evidence, user consequence.",
+  "spoken_script": "A product decision can tell a buyer more than a feature list—if you explain the reason behind it.\n\nHere’s a five-box worksheet: the buyer question, the constraint, the options, the evidence, and the consequence for the user.\n\nLet’s use a clearly hypothetical example. A team chooses a simpler default instead of adding another configuration screen. Before calling that a story, the founder needs to verify that this was the real decision, what evidence mattered, and who it affected.\n\nThen add the trade-off. Who might prefer more control? What would change the team’s mind? Those questions keep the explanation useful without pretending one design choice works for everyone.\n\nWhat product decision would you put through these five boxes?",
+  "shots": [
+    {
+      "shot": 1,
+      "time": "00:00–00:13",
+      "spoken_line": "A product decision can tell a buyer more than a feature list—if you explain the reason behind it.",
+      "camera": "Medium close-up, eye-level, locked camera; 65 mm full-frame equivalent; natural perspective, comfortable headroom.",
+      "action": "Fictional presenter faces camera, then turns a blank card toward lens with “Decision > feature list”.",
+      "lighting": "Soft large key at 45°; low-contrast fill; faint cool edge light; realistic skin tone.",
+      "on_screen_text": "The decision behind the feature",
+      "edit_notes": "Open on the point; no logo animation or fast zoom. Captions match speech exactly."
+    },
+    {
+      "shot": 2,
+      "time": "00:13–00:27",
+      "spoken_line": "Here’s a five-box worksheet: the buyer question, the constraint, the options, the evidence, and the consequence for the user.",
+      "camera": "Over-shoulder close-up of clean worksheet; 50 mm lens; shallow but readable focus.",
+      "action": "Presenter writes five labels in sequence; show all labels at once at the end.",
+      "lighting": "Soft overhead practical plus diffused key; even exposure on paper.",
+      "on_screen_text": "Question → Constraint → Options → Evidence → Consequence",
+      "edit_notes": "Hold final worksheet for two seconds; labels remain editable and large."
+    },
+    {
+      "shot": 3,
+      "time": "00:27–00:42",
+      "spoken_line": "Let’s use a clearly hypothetical example. A team chooses a simpler default instead of adding another configuration screen.",
+      "camera": "Return to medium shot, slight three-quarter angle; 70 mm equivalent; tripod.",
+      "action": "Presenter places a card marked “HYPOTHETICAL” beside a simple blank interface sketch.",
+      "lighting": "Same soft key; maintain continuity and avoid glossy, artificial highlights.",
+      "on_screen_text": "HYPOTHETICAL EXAMPLE",
+      "edit_notes": "Make the fictional status visible before example wording appears."
+    },
+    {
+      "shot": 4,
+      "time": "00:42–00:58",
+      "spoken_line": "Before calling that a story, the founder needs to verify that this was the real decision, what evidence mattered, and who it affected.",
+      "camera": "Close shot of worksheet evidence box, 85 mm equivalent; gentle rack focus from “evidence” to “buyer affected”.",
+      "action": "Presenter ticks “verify decision”, “evidence” and “who was affected”; no fake data entered.",
+      "lighting": "Soft directional task light with readable paper, no harsh shadow.",
+      "on_screen_text": "Verify the decision · evidence · person affected",
+      "edit_notes": "Do not imply a client example or real product."
+    },
+    {
+      "shot": 5,
+      "time": "00:58–01:15",
+      "spoken_line": "Then add the trade-off. Who might prefer more control? What would change the team’s mind? Those questions keep the explanation useful without pretending one design choice works for everyone. What product decision would you put through these five boxes?",
+      "camera": "Medium close-up, eye-level; 65 mm equivalent; fixed framing.",
+      "action": "Presenter points to “trade-off” then looks to camera for the final question.",
+      "lighting": "Match opening shot; clean neutral background.",
+      "on_screen_text": "What decision would you put through the five boxes?",
+      "edit_notes": "End cleanly after the question; no engagement-bait prompt or promise."
+    }
+  ],
+  "sources": "../../sources/references.json",
+  "source_claim_ids": [
+    "OUT-BRIEF-P2",
+    "OUT-WEB-OFFER",
+    "V5-METHOD-EDITORIAL",
+    "LI-VIDEO-CAPTIONS"
+  ],
+  "evidence_status": "Hypothetical method demonstration only. No client, founder story, product fact or outcome is asserted.",
+  "alt_text": "A fictional presenter fills five boxes—buyer question, constraint, options, evidence and user consequence—to show a hypothetical product-decision method.",
+  "captions": "P14.srt",
+  "production_status": "Script and generated silent storyboard animatic only. No filmed footage, spoken audio or finished native overlay animation.",
+  "aspect_ratio_guidance": "The five storyboard frames are landscape. Keep essential action and native captions in the central56% width for a possible9:16 reframe; review each crop separately. No generated portrait variant or finished video is claimed.",
+  "frame_paths": [
+    "assets/videos/frames/P14-shot-01.png",
+    "assets/videos/frames/P14-shot-02.png",
+    "assets/videos/frames/P14-shot-03.png",
+    "assets/videos/frames/P14-shot-04.png",
+    "assets/videos/frames/P14-shot-05.png"
+  ]
+}

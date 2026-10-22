@@ -1,0 +1,96 @@
+{
+  "id": "OS-O303",
+  "name": "Megaphone",
+  "context": "Distribution and campaign amplification",
+  "rights": "Original authored meshes and glyphs; no third-party model or competitor media",
+  "render": {
+    "width": 600,
+    "height": 600,
+    "alpha": true,
+    "actual": "Three.js0.186.1 GLB source scene",
+    "toneMapping": "ACESFilmic",
+    "exposure": 0.9
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      2.3,
+      7
+    ],
+    "lookAt": [
+      5.551115123125783e-17,
+      0,
+      0
+    ],
+    "extent": 1.2709888740935993
+  },
+  "meshes": [
+    {
+      "name": "megaphone tapered bell",
+      "vertices": 196,
+      "triangles": 192,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "bell edge",
+      "vertices": 845,
+      "triangles": 1536,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "metal barrel",
+      "vertices": 196,
+      "triangles": 192,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "hand grip",
+      "vertices": 4432,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "machined plate",
+      "vertices": 4500,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "citron / Outspoken V3"
+    },
+    {
+      "name": "metal barrel",
+      "vertices": 196,
+      "triangles": 192,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.6567024599767962,
+      -0.8462029153834953,
+      -0.7242278095634685
+    ],
+    "max": [
+      0.6567024599767963,
+      0.8462029153834953,
+      0.7242278095634685
+    ]
+  },
+  "kind": "semantic_object",
+  "usage": "Use for an agreed distribution plan; does not imply unsolicited automated outreach.",
+  "limitations": [
+    "Procedural satin material, not a photographic surface capture.",
+    "Use the flat SVG for small UI; do not shrink a decorative 3D render below64px."
+  ]
+}

@@ -1,0 +1,10 @@
+import type { Meta, StoryObj } from '@storybook/react-vite';
+import { useState } from 'react';
+import * as C from '../src';
+function ComposerDemo(){const [value,setValue]=useState('');return <C.ChatComposer value={value} onChange={setValue} onSend={()=>setValue('')}/>};
+function PaginationDemo(){const [page,setPage]=useState(1);return <C.PaginationSeries page={page} total={5} onChange={setPage}/>};
+const meta={title:'Content/PersonCard',component:C.PersonCard,tags:['autodocs'],parameters:{docs:{description:{component:'OS-C022 · canonical shared module. Stage 1 candidate; Figma and owner acceptance are separate.'}}}} satisfies Meta<typeof C.PersonCard>;
+export default meta;
+type Story = StoryObj;
+export const Default:Story={render:()=>(<C.PersonCard name="Maya Reed" role="Fictional founder · B2B AI SaaS" src="/assets/masters/OS-O010-fictional-founder.png"/>)};
+export const MissingMedia:Story={render:()=>(<C.PersonCard name="Maya Reed with a deliberately long family name" role="Fictional founder with a long role description"/>)};

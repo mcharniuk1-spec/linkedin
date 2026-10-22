@@ -1,0 +1,80 @@
+{
+  "id": "OS-O302",
+  "name": "Wavefront",
+  "context": "A point of view travelling outward",
+  "rights": "Original authored meshes and glyphs; no third-party model or competitor media",
+  "render": {
+    "width": 600,
+    "height": 600,
+    "alpha": true,
+    "actual": "Three.js0.186.1 GLB source scene",
+    "toneMapping": "ACESFilmic",
+    "exposure": 0.9
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      2.3,
+      7
+    ],
+    "lookAt": [
+      0,
+      0,
+      0
+    ],
+    "extent": 1.6752343820950295
+  },
+  "meshes": [
+    {
+      "name": "outward voice wavefront",
+      "vertices": 845,
+      "triangles": 1536,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "outward voice wavefront",
+      "vertices": 845,
+      "triangles": 1536,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "outward voice wavefront",
+      "vertices": 845,
+      "triangles": 1536,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "signal node",
+      "vertices": 423,
+      "triangles": 720,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "citron / Outspoken V3"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -1.2203571960255362,
+      -1.2624822815846224,
+      -0.20585228958027657
+    ],
+    "max": [
+      1.2203571960255362,
+      1.2624822815846224,
+      0.20585228958027657
+    ]
+  },
+  "kind": "semantic_object",
+  "usage": "Use as a chapter divider for distribution or the spread of one useful idea.",
+  "limitations": [
+    "Procedural satin material, not a photographic surface capture.",
+    "Use the flat SVG for small UI; do not shrink a decorative 3D render below64px."
+  ]
+}

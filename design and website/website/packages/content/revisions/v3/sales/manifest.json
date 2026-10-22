@@ -1,0 +1,108 @@
+{
+  "revision": "v3",
+  "date": "2026-10-20",
+  "lead_identity": "OS-LV4-004 Say It; uppercase OUTSPOKEN gradient primary",
+  "state": "identity_refreshed_self_checked_ready_for_root_review",
+  "entries": [
+    {
+      "id": "OS-S001",
+      "source": "brand-library/packages/content/sales/OS-S001.html",
+      "source_sha256": "f59eac1bc50f95597a5737b32fb76dd65f15fba9ae92202eb3c2f601b84297cf",
+      "html": "brand-library/packages/content/revisions/v3/sales/OS-S001.html",
+      "html_sha256": "c2af30a258e6643e4181f1ce14a828db0e540a85875c0c03216cfca89ee67491",
+      "copy_invariant_pass": true,
+      "relative_references": [
+        "../../../../assets/revisions/v4/identity/OS-LV4-004/lockup-gradient.svg",
+        "../../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+        "../../../../assets/identity/font-source/archivo/Archivo[wdth,wght].ttf"
+      ],
+      "fictional_disclosure_preserved": null,
+      "pdf": "brand-library/packages/content/revisions/v3/sales/exports/OS-S001.pdf",
+      "pdf_sha256": "690709152c0aaf876fdd993922fc5c3212dd26b3c9e7d668350781e1ae57df14",
+      "desktop_png": "brand-library/packages/content/revisions/v3/sales/exports/OS-S001-1280.png",
+      "phone_png": "brand-library/packages/content/revisions/v3/sales/exports/OS-S001-390.png",
+      "identity_only_diff_pass": true,
+      "v4_logo_instances": 1
+    },
+    {
+      "id": "OS-S002",
+      "source": "brand-library/packages/content/sales/OS-S002.html",
+      "source_sha256": "aebe03d5bafba27e8730b34baec2f0d6723bcd0c4f636ec2f73db2347aeafdfd",
+      "html": "brand-library/packages/content/revisions/v3/sales/OS-S002.html",
+      "html_sha256": "1f6431d44dd08fd0b431a833b758e6e067f2d9538010d91f8c86419b7237174f",
+      "copy_invariant_pass": true,
+      "relative_references": [
+        "../../../../assets/revisions/v4/identity/OS-LV4-004/lockup-gradient.svg",
+        "../../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+        "../../../../assets/identity/font-source/archivo/Archivo[wdth,wght].ttf"
+      ],
+      "fictional_disclosure_preserved": null,
+      "pdf": "brand-library/packages/content/revisions/v3/sales/exports/OS-S002.pdf",
+      "pdf_sha256": "8d3159364f21078c818c82daf2d2ec4db4cfd98c971a8b2e8262ecaf1c7e06e2",
+      "desktop_png": "brand-library/packages/content/revisions/v3/sales/exports/OS-S002-1280.png",
+      "phone_png": "brand-library/packages/content/revisions/v3/sales/exports/OS-S002-390.png",
+      "identity_only_diff_pass": true,
+      "v4_logo_instances": 1
+    },
+    {
+      "id": "OS-S003",
+      "source": "brand-library/packages/content/sales/OS-S003.html",
+      "source_sha256": "93792779e860559f9ee58db9a3cf0720092603a4ffa09c7bf70915a121ccf778",
+      "html": "brand-library/packages/content/revisions/v3/sales/OS-S003.html",
+      "html_sha256": "58e819c2c42c63280d8d36addfe69f5683b4b160d274ed47c83ef2897cd1c9b0",
+      "copy_invariant_pass": true,
+      "relative_references": [
+        "../../../../assets/revisions/v4/identity/OS-LV4-004/lockup-gradient.svg",
+        "../../../../assets/revisions/v4/identity/OS-LV4-004/lockup-gradient.svg",
+        "../../../../assets/revisions/v4/identity/OS-LV4-004/lockup-gradient.svg",
+        "../../../../assets/revisions/v4/identity/OS-LV4-004/lockup-gradient.svg",
+        "../../../../assets/revisions/v4/identity/OS-LV4-004/lockup-gradient.svg",
+        "../../../../assets/revisions/v4/identity/OS-LV4-004/lockup-gradient.svg",
+        "../../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+        "../../../../assets/identity/font-source/archivo/Archivo[wdth,wght].ttf"
+      ],
+      "fictional_disclosure_preserved": null,
+      "pdf": "brand-library/packages/content/revisions/v3/sales/exports/OS-S003.pdf",
+      "pdf_sha256": "c19f821bfb89fd4d3368e31b2a6b5bfa8c48e11e61ecd4f005bb3a1d31cce755",
+      "desktop_png": "brand-library/packages/content/revisions/v3/sales/exports/OS-S003-1280.png",
+      "phone_png": "brand-library/packages/content/revisions/v3/sales/exports/OS-S003-390.png",
+      "identity_only_diff_pass": true,
+      "v4_logo_instances": 6
+    },
+    {
+      "id": "OS-S004",
+      "source": "brand-library/packages/content/sales/OS-S004.html",
+      "source_sha256": "c868d66907dccf8d8d76b093046fcc9c3f57f4ce76baa5e1074630766936be42",
+      "html": "brand-library/packages/content/revisions/v3/sales/OS-S004.html",
+      "html_sha256": "e98c74feb3a8cb64e99647e530e6a11ca8ac926314b26e458f775823cd43b72d",
+      "copy_invariant_pass": true,
+      "relative_references": [
+        "../../../../assets/revisions/v4/identity/OS-LV4-004/lockup-gradient.svg",
+        "../../../../assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+        "../../../../assets/identity/font-source/archivo/Archivo[wdth,wght].ttf"
+      ],
+      "fictional_disclosure_preserved": true,
+      "pdf": "brand-library/packages/content/revisions/v3/sales/exports/OS-S004.pdf",
+      "pdf_sha256": "69466879f8b66306bff3957c69e7a8591b7fb86daed1a4c89af8c0143dd70d29",
+      "desktop_png": "brand-library/packages/content/revisions/v3/sales/exports/OS-S004-1280.png",
+      "phone_png": "brand-library/packages/content/revisions/v3/sales/exports/OS-S004-390.png",
+      "identity_only_diff_pass": true,
+      "v4_logo_instances": 1
+    }
+  ],
+  "checks": {
+    "copy_invariants": "4/4 exact HTML reversal against preserved snapshot; only V4 logo src and uppercase brand alt differ. Four PDFs retain exactly the prior extracted text after whitespace normalization.",
+    "relative_assets": "All fonts and V4lead SVG resolve as relative references;8/8 actual local HTTP browser checks loaded.",
+    "desktop_phone": "8/8 pass at1280/390; no overflow, missing images/fonts, page errors or failed responses.",
+    "pdf": {
+      "documents": 4,
+      "pages": 10,
+      "visual_review": "All10PDFpages actually viewed as rasters; no clipping or missing disclosure. Onepager1, proposal2, salesdeck6, email1."
+    },
+    "maker_visual_review": "All10PDFpages and4phone layouts viewed after the identity refresh; browser checks cover both widths for all4HTML documents."
+  },
+  "identity_revision": "v4",
+  "identity_refresh_evidence": "[dated-local-evidence-omitted]",
+  "content_revision": "v3; unchanged business copy and content-edition labels/footer",
+  "owner_acceptance": false
+}

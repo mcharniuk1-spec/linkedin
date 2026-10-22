@@ -1,0 +1,229 @@
+{
+  "id": "OS-F201",
+  "photoId": "OS-PH201",
+  "version": "2.0.0-candidate",
+  "author": "v2_designer maker; root and PM independent reviewers",
+  "width": 1200,
+  "height": 1000,
+  "nodes": [
+    {
+      "id": "root",
+      "type": "group",
+      "parentId": null,
+      "x": 0,
+      "y": 0,
+      "width": 1200,
+      "height": 1000,
+      "rotation": 0,
+      "opacity": 1,
+      "fill": "#FFFFFF"
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "parentId": "root",
+      "x": 68,
+      "y": 38,
+      "width": 1064,
+      "height": 64,
+      "rotation": 0,
+      "opacity": 1,
+      "text": "Floating rim \u00b7 soft side light",
+      "fontFamily": "Inter",
+      "fontStyle": "Semi Bold",
+      "fontSize": 48,
+      "fontWeight": 600,
+      "lineHeight": 60,
+      "fill": "#162760",
+      "maxLines": 2
+    },
+    {
+      "id": "photo-plane",
+      "type": "group",
+      "parentId": "root",
+      "x": 95,
+      "y": 155,
+      "width": 1010,
+      "height": 673.3333333333334,
+      "rotation": -2.5,
+      "opacity": 1,
+      "relativeTransform": [
+        [
+          0.9990482215818578,
+          0.043619387365336,
+          80.79545435483203
+        ],
+        [
+          -0.043619387365336,
+          0.9990482215818578,
+          177.34822268693597
+        ]
+      ],
+      "transformConvention": "parent coordinates; y down; clockwise degrees; matrix already includes centre pivot"
+    },
+    {
+      "id": "quiet-offset-backplate",
+      "type": "rect",
+      "parentId": "photo-plane",
+      "x": -16,
+      "y": 18,
+      "width": 1034,
+      "height": 683.3333333333334,
+      "rotation": 0,
+      "opacity": 1,
+      "fill": "#F1F3F6",
+      "cornerRadius": 4,
+      "shadow": {
+        "type": "DROP_SHADOW",
+        "color": "#162760",
+        "opacity": 0.08,
+        "offset": {
+          "x": 5,
+          "y": 10
+        },
+        "blur": 18,
+        "spread": 0,
+        "visible": true,
+        "lightOrigin": "upper left; shadow falls lower right"
+      }
+    },
+    {
+      "id": "blue-rim",
+      "type": "rect",
+      "parentId": "photo-plane",
+      "x": -3,
+      "y": -3,
+      "width": 1016,
+      "height": 679.3333333333334,
+      "rotation": 0,
+      "opacity": 1,
+      "fill": "#3157D5",
+      "cornerRadius": 4,
+      "shadow": {
+        "type": "DROP_SHADOW",
+        "color": "#162760",
+        "opacity": 0.16,
+        "offset": {
+          "x": 8,
+          "y": 15
+        },
+        "blur": 24,
+        "spread": 0,
+        "visible": true,
+        "lightOrigin": "upper left; shadow falls lower right"
+      }
+    },
+    {
+      "id": "fine-nickel-reveal",
+      "type": "rect",
+      "parentId": "photo-plane",
+      "x": -1,
+      "y": -1,
+      "width": 1012,
+      "height": 675.3333333333334,
+      "rotation": 0,
+      "opacity": 1,
+      "fill": "#A9AFBA",
+      "cornerRadius": 0
+    },
+    {
+      "id": "photo",
+      "type": "image",
+      "parentId": "photo-plane",
+      "x": 0,
+      "y": 0,
+      "width": 1010,
+      "height": 673.3333333333334,
+      "rotation": 0,
+      "opacity": 1,
+      "assetId": "OS-PH201",
+      "imageHash": "074c566fb5fea52a03fa21bafb52c6ea91e6e790ac412fe6d634b1b14b566deb",
+      "imagePath": "brand-library/packages/assets/revisions/v2/photos/OS-PH201.png",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "fit": "contain",
+      "preserveAspectRatio": "xMidYMid meet",
+      "crop": null,
+      "cornerRadius": 0,
+      "fullImageVisible": true
+    },
+    {
+      "id": "fiction-disclosure",
+      "type": "text",
+      "parentId": "root",
+      "x": 68,
+      "y": 905,
+      "width": 1064,
+      "height": 62,
+      "rotation": 0,
+      "opacity": 1,
+      "text": "design specimen \u00b7 fictional media",
+      "fontFamily": "Inter",
+      "fontStyle": "Medium",
+      "fontSize": 48,
+      "fontWeight": 500,
+      "lineHeight": 60,
+      "fill": "#162760",
+      "maxLines": 1,
+      "persistent": true,
+      "minimum360pxPreviewFontSize": 14.4
+    }
+  ],
+  "coordinates": "Children are parent-local. Root children frontal unless rotation explicit. Rotation about own centre, clockwise with y down. Use provided group relativeTransform in Figma. Layer order is array order; parent group established before children.",
+  "font": {
+    "family": "Inter",
+    "file": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+    "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+    "weightAxes": "Variable licensed font; actual400\u2013700 supported",
+    "licenseRoute": "brand-library/packages/assets/identity/font-source/inter/"
+  },
+  "imageLookup": {
+    "OS-PH201": {
+      "path": "brand-library/packages/assets/revisions/v2/photos/OS-PH201.png",
+      "sha256": "074c566fb5fea52a03fa21bafb52c6ea91e6e790ac412fe6d634b1b14b566deb",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "FigmaInstruction": "Use original bytes via imageHash mapping; set native image rectangle1010\u00d7673.333 with FIT. No crop."
+    },
+    "OS-TX201": {
+      "path": "brand-library/packages/assets/revisions/v2/paper/OS-TX201.png",
+      "sha256": "64c2e680f4e30572ecde6c5ec5cfaaf2cd28f9700da01743a8e5aba0d4256f03",
+      "opacity": 0.12,
+      "FigmaInstruction": "Clip or mask to named paper plate only; image opaque photo covers centre; do not apply to page."
+    }
+  },
+  "generationLineage": {
+    "photo": {
+      "id": "OS-PH201",
+      "source": "[local-source-omitted]",
+      "destination": "brand-library/packages/assets/revisions/v2/photos/OS-PH201.png",
+      "prompt": "[dated-local-evidence-omitted]",
+      "route": "built-in imagegen",
+      "rights": "Original generated fictional media; label required; no real customer evidence",
+      "sha256": "074c566fb5fea52a03fa21bafb52c6ea91e6e790ac412fe6d634b1b14b566deb"
+    },
+    "promptPath": "[dated-local-evidence-omitted]",
+    "promptSha256": "e57723c374eb9fb2a0dcbc1c8d016cd97dd54924310251eb1e40144c1973da21",
+    "promptText": "Create one original photorealistic editorial photograph, landscape 3:2. A fictional Black British woman B2B software founder in her early forties, individual natural features, short natural curls, dark navy tailored jacket over simple ivory shirt, engaged in a thoughtful interview, hands anatomically credible and relaxed. Medium close portrait at eye level, 75mm-equivalent perspective, subject on right half with full head, shoulders and hands comfortably inside crop. Quiet contemporary European studio: pale plaster foreground wall, deep navy shelving 2.5 metres behind, one small warm lamp distant, soft defocused architectural depth. Large soft key from upper camera-left, modest fill, restrained cool blue edge, natural skin and eyes, subtle texture, no beauty retouch gloss. Calm intelligent luxurious editorial feeling, white and cobalt/neutral environment, sophisticated depth. No logos, no text, no interface, no frame, no watermarks. This is fictional demonstration media, no real customer or public figure. Do not create cyberpunk, chrome room, studio stock-photo grin or plastic skin.\n",
+    "framingSource": "Original deterministic SVG/native layer composition; no imagegen or pixel repaint."
+  },
+  "placementGuide": {
+    "photoPlane": [
+      95,
+      155,
+      1010,
+      673.3333333333334
+    ],
+    "rotationDegrees": -2.5,
+    "perspective": "2D framed image plane; no extra projective distortion; full generated3:2 image remains visible.",
+    "photographicLens": "Descriptive portrait/interview perspective from generated source; no actual camera/lens metadata claimed.",
+    "lighting": "Source soft daylight from left/front; frame cast shadow falls lower right, shared upper-left light.",
+    "backgroundDepth": "floating",
+    "copySafeSpace": "All title/disclosure native and frontal outside photo. PH203 original left white field remains clear.",
+    "use": "One focal frame on white. Do not imply the fictional people are customers or approved interviews."
+  },
+  "reviewStatus": "maker_composition_independent_review_pending",
+  "ownerAccepted": false
+}

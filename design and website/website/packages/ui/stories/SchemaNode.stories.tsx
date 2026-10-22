@@ -1,0 +1,10 @@
+import type { Meta, StoryObj } from '@storybook/react-vite';
+import { useState } from 'react';
+import * as C from '../src';
+function ComposerDemo(){const [value,setValue]=useState('');return <C.ChatComposer value={value} onChange={setValue} onSend={()=>setValue('')}/>};
+function PaginationDemo(){const [page,setPage]=useState(1);return <C.PaginationSeries page={page} total={5} onChange={setPage}/>};
+const meta={title:'Schemas/SchemaNode',component:C.SchemaNode,tags:['autodocs'],parameters:{docs:{description:{component:'OS-C037 · canonical shared module. Stage 1 candidate; Figma and owner acceptance are separate.'}}}} satisfies Meta<typeof C.SchemaNode>;
+export default meta;
+type Story = StoryObj;
+export const Default:Story={render:()=>(<C.SchemaNode node={C.processModel.nodes[1]}/>)};
+export const AllRoles:Story={render:()=>(<C.StackGrid columns={3}>{C.nodeRoles.map((role,i)=><C.SchemaNode key={role} node={{id:`role-${i}`,role,title:role.replaceAll("_"," "),meaning:"Typed semantic node. Role is also stated in text.",owner:"Editorial team"}}/>)}</C.StackGrid>)};

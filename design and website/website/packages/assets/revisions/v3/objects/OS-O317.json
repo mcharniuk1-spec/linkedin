@@ -1,0 +1,104 @@
+{
+  "id": "OS-O317",
+  "name": "Camera",
+  "context": "A believable human presence",
+  "rights": "Original authored meshes and glyphs; no third-party model or competitor media",
+  "render": {
+    "width": 600,
+    "height": 600,
+    "alpha": true,
+    "actual": "Three.js0.186.1 GLB source scene",
+    "toneMapping": "ACESFilmic",
+    "exposure": 0.9
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      2.3,
+      7
+    ],
+    "lookAt": [
+      0,
+      0,
+      0
+    ],
+    "extent": 1.263660665481785
+  },
+  "meshes": [
+    {
+      "name": "machined plate",
+      "vertices": 4636,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "machined plate",
+      "vertices": 4532,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "metal barrel",
+      "vertices": 196,
+      "triangles": 192,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "metal barrel",
+      "vertices": 196,
+      "triangles": 192,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "rounded metal arc",
+      "vertices": 845,
+      "triangles": 1536,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "blue / Outspoken V3"
+    },
+    {
+      "name": "camera indicator",
+      "vertices": 423,
+      "triangles": 720,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "citron / Outspoken V3"
+    },
+    {
+      "name": "machined plate",
+      "vertices": 4328,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.8923835120767072,
+      -0.6714999970793725,
+      -0.6063502827608571
+    ],
+    "max": [
+      0.8923835120767072,
+      0.6714999970793725,
+      0.6063502827608571
+    ]
+  },
+  "kind": "semantic_object",
+  "usage": "Use for image direction, interview capture and responsible fictional-image specimens.",
+  "limitations": [
+    "Procedural satin material, not a photographic surface capture.",
+    "Use the flat SVG for small UI; do not shrink a decorative 3D render below64px."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "canvas": [
+    1200,
+    1000
+  ],
+  "schema": "Flat ordered node array per frame. Supported group/rect/image/text/path nodes; parentId maps hierarchy. Every layer has precise position, dimensions, rotation, opacity. No photo/image bytes in JSON.",
+  "frameIds": [
+    "OS-F201",
+    "OS-F202",
+    "OS-F203",
+    "OS-F204",
+    "OS-F205"
+  ],
+  "nativeFiles": [
+    "OS-F201.json",
+    "OS-F202.json",
+    "OS-F203.json",
+    "OS-F204.json",
+    "OS-F205.json"
+  ],
+  "figmaImageResolution": "Resolve assetId against imageLookup, verify SHA256 of original photo, create native image fill FIT. Texture uses12% opacity clipped to named paper shape.",
+  "rotationMatrix": "group.relativeTransform is exact local-to-parent Figma2\u00d73 affine matrix; clockwise y-down convention. Do not rotate readable root text."
+}

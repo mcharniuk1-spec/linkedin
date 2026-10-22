@@ -1,0 +1,47 @@
+{
+  "schema": "outspoken.scene-studies.v2",
+  "status": "stage1_defaults_preserved_stage2_optional_progress_reviewed",
+  "canonical_source": "packages/ui/src/scenes.tsx",
+  "scenes": [
+    {
+      "id": "OS-SC001",
+      "export": "SpatialScene",
+      "props": {
+        "kind": "founder"
+      },
+      "construction": "Actual Three.js capsule/sphere/phone mesh geometry",
+      "story_ids": [
+        "scenes-spatial-studies--founder",
+        "banners-centralherobanner--default",
+        "scenes-spatial-studies--chapter-study"
+      ],
+      "fictional": true,
+      "limits": "Conceptual original geometry and expertise metaphor. Current site adds bounded optional progress; default Stage 1 behavior is separately verified. Not medical, customer or anatomical evidence."
+    },
+    {
+      "id": "OS-SC002",
+      "export": "SpatialScene",
+      "props": {
+        "kind": "constellation"
+      },
+      "construction": "Seed218 volumetric two-lobe point cloud,5anchor meshes and5continuous projected SVG leaders with DOM labels",
+      "anchor_source": "exported expertiseAnchors in canonical source; mesh userData.anchorId and DOM data-anchor-id share exact IDs",
+      "story_ids": [
+        "scenes-spatial-studies--constellation",
+        "scenes-spatial-studies--static-fallback",
+        "scenes-spatial-studies--chapter-study"
+      ],
+      "not_medical": true,
+      "limits": "Conceptual original geometry and expertise metaphor. Current site adds bounded optional progress; default Stage 1 behavior is separately verified. Not medical, customer or anatomical evidence."
+    }
+  ],
+  "source_sha256": "37429d92721e6d781e56ac151e31f3efe84a76b4eee606bca4eee98f078a3f19",
+  "styles_sha256": "f21fda9a08ff23d1dfb147d1c286846a933d6e2c3c3eff0f3304153c1f7a8b53",
+  "verification": "[dated-local-evidence-omitted]",
+  "stage1_frozen_source_sha256": "a74f1597f6ff132ba30c783e4579585feca861efb0c3755d3848d64037b75224",
+  "stage2_extension": {
+    "source_sha256": "37429d92721e6d781e56ac151e31f3efe84a76b4eee606bca4eee98f078a3f19",
+    "proof": "[dated-local-evidence-omitted]",
+    "scope": "Optional camera/support/callout/cloud progress for bounded website chapter. Default values preserve isolated Stage 1 scene behavior. No full cinematic topology morph claimed."
+  }
+}

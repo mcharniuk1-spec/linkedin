@@ -1,0 +1,11 @@
+{
+  "actual_renderer": "ExistingThree0.186.1 + installedChrome/SwiftShader",
+  "errors": [],
+  "count": 8,
+  "dimensions": [
+    960,
+    960
+  ],
+  "source": "originalSVGcurves toclosedbeveled warpedExtrudeGeometry tobinaryGLB; renderactualsamegeometry",
+  "lead": null
+}

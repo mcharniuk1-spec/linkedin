@@ -1,0 +1,11 @@
+import type { Meta, StoryObj } from '@storybook/react-vite';
+import { useState } from 'react';
+import * as C from '../src';
+function ComposerDemo(){const [value,setValue]=useState('');return <C.ChatComposer value={value} onChange={setValue} onSend={()=>setValue('')}/>};
+function PaginationDemo(){const [page,setPage]=useState(1);return <C.PaginationSeries page={page} total={5} onChange={setPage}/>};
+const meta={title:'Banners/CentralHeroBanner',component:C.CentralHeroBanner,tags:['autodocs'],parameters:{docs:{description:{component:'OS-C025 · canonical shared module. Stage 1 candidate; Figma and owner acceptance are separate.'}}}} satisfies Meta<typeof C.CentralHeroBanner>;
+export default meta;
+type Story = StoryObj;
+export const Default:Story={render:()=>(<C.CentralHeroBanner media={<C.SpatialScene/>}/>)};
+export const MissingMedia:Story={render:()=>(<C.CentralHeroBanner/>)};
+export const LongCopy:Story={render:()=>(<C.CentralHeroBanner><>{C.approvedCopy.vp} This additional specimen tests a longer supporting paragraph without changing the approved hero or CTA.</></C.CentralHeroBanner>)};

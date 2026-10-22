@@ -1,0 +1,615 @@
+{
+  "version": "2.0.0-candidate",
+  "source": "Frozen current58V2SVGexport manifest",
+  "frozen_svg_manifest_sha256": "cd61dbab707b943872fbc755cd11271580a8935c98a60a8d9923c01be8513448",
+  "fps": 30,
+  "seconds": 48,
+  "scene_hold_seconds": 6,
+  "transition": "Opacity-only11frame fade; no claim of web cubic/translation equivalence",
+  "audio": "none",
+  "scope": "Silent style studies; no final footage or publishing",
+  "renders": [
+    {
+      "id": "OS-V001-landscape",
+      "source": "brand-library/packages/content/revisions/v2/OS-V001-landscape.svg",
+      "source_sha256": "2a94277ffb78c8be092168898d109a76f1b666d868eacfdfb6434658cb5b4a72",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "55f2717cfd0caf989733872acf338bf8f798728e5cab2ac2c1ca996cd0026067",
+      "width": 1920,
+      "height": 1080,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 01 Explain the decision. Fictional founder A buyer question. A source. A clear explanation. Silent Stage 1 specimen",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V002-landscape",
+      "source": "brand-library/packages/content/revisions/v2/OS-V002-landscape.svg",
+      "source_sha256": "5a2f45fcfd271ec720d86641e69c797e98832e81aa64dee1a7c1e2d5a7b15c90",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "aaecf3a293ad024a0ea661bc36e3049ddf9d17dcb2c77490f6d41d49328c349a",
+      "width": 1920,
+      "height": 1080,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 02 Show the workflow. Original demo screen Draft → Review Ready for review Silent Stage 1 specimen",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V003-landscape",
+      "source": "brand-library/packages/content/revisions/v2/OS-V003-landscape.svg",
+      "source_sha256": "5e9c73ae1be8885a65385e9c75e62f60b53e3dd4f300035f5fda08e0a34261ef",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "9b7a6ccbfdda6e638c90ab51d8b4cc66ddf738acd849f604fc76f30e39aa4721",
+      "width": 1920,
+      "height": 1080,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 03 Give the idea a form. One idea, made concrete. Silent Stage 1 specimen",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V004-landscape",
+      "source": "brand-library/packages/content/revisions/v2/OS-V004-landscape.svg",
+      "source_sha256": "f7b584ac75ff60f408ee9667e2587ac88b7f10c5986a3373589fadf6e7871e2b",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "30073dadcef1b0d4e6fd80f940124887e013dcd524c2bc36778b6b4ed16ce255",
+      "width": 1920,
+      "height": 1080,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 04 From source to review. Interview Draft Review Silent Stage 1 specimen",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V005-landscape",
+      "source": "brand-library/packages/content/revisions/v2/OS-V005-landscape.svg",
+      "source_sha256": "fc7ede1aa72268d0aa27b6de6299e2f365a69d226d8ee7518e44470ced24f5d1",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "e6168d4ff82ec906d698a2e2013a85c147f7d16b03a0b2a0b66ed7caee97c0cf",
+      "width": 1920,
+      "height": 1080,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 05 A useful draft has a source. Illustrative email “Please keep the qualification beside the claim.” Illustrative example — not a customer testimonial",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V006-landscape",
+      "source": "brand-library/packages/content/revisions/v2/OS-V006-landscape.svg",
+      "source_sha256": "89ab07de52a5fa96c1c3e4bf3d2cb530f520d02051bdca14aeb659d1382a5724",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "015f37a192bd42ba682af9c851dee53cc9982685e0ed39ba43e39256822cd8aa",
+      "width": 1920,
+      "height": 1080,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 06 Keep the meaning. Before Unsupported outcome claim. After Source + scope + limitation. Illustrative example — not a customer testimonial",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V007-landscape",
+      "source": "brand-library/packages/content/revisions/v2/OS-V007-landscape.svg",
+      "source_sha256": "28389949855bc4a85473d3c8b1c952b3c944102920e3c7e336a9ca8c95522445",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "ca9c4dcd32a05aef8e097ebc185b9f3845a14d5f8615dcb69aff0ad8412a26c2",
+      "width": 1920,
+      "height": 1080,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 07 Evidence needs context. Evidence required Source · date · scope · limitation Illustrative example — not a customer testimonial",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V008-landscape",
+      "source": "brand-library/packages/content/revisions/v2/OS-V008-landscape.svg",
+      "source_sha256": "5b18078f298348a6cbcac127cd066d7f2ff69a7f2a2d54f09e9f9b382ef0d672",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "ba67c0adb64f743ad2cb30206617be6b57287103ad390caf884f65cb8597574f",
+      "width": 1920,
+      "height": 1080,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 08 Make the next step clear. Book an intro call Destination to be configured. Silent Stage 1 specimen",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V001-square",
+      "source": "brand-library/packages/content/revisions/v2/OS-V001-square.svg",
+      "source_sha256": "048bac0b350683533f23af39a4d9972b7733a14ee372c93d2420dd16222f3ab9",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "6027df78c79e9bca64590b5ee5309b3a340d4dfa9831ffc9d9877d4ffe5a52de",
+      "width": 1080,
+      "height": 1080,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 01 Explain the decision. Fictional founder Silent Stage 1 specimen",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V002-square",
+      "source": "brand-library/packages/content/revisions/v2/OS-V002-square.svg",
+      "source_sha256": "89ded9a30f489c69ec8af8d67bfedf5d21ecb131d1834c63a1a9ffe57bd4921f",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "1097ff9bbc02894759cc680fd52c159b3205ed9777e709fe1e8a9d6d4c83d054",
+      "width": 1080,
+      "height": 1080,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 02 Show the workflow. Original demo screen Draft → Review Ready for review Silent Stage 1 specimen",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V003-square",
+      "source": "brand-library/packages/content/revisions/v2/OS-V003-square.svg",
+      "source_sha256": "1aee659c31b58b0b67cc55720703870004027ec4861fa8922759d174b959b5f6",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "b8bcf13ad6f0a8cb4d07e6fbf9d794d9086e23c4232087bc3a420e52ee0f1eb4",
+      "width": 1080,
+      "height": 1080,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 03 Give the idea a form. Silent Stage 1 specimen",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V004-square",
+      "source": "brand-library/packages/content/revisions/v2/OS-V004-square.svg",
+      "source_sha256": "30a4d2f26b04f044ffb11097c8813fc08be0e3871c43a2ab6a9a513de7e25a09",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "a2dee68cba7a821b14306b304912d4c05265cc016676e6873cd544d33a4cf93c",
+      "width": 1080,
+      "height": 1080,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 04 From source to review. Interview Draft Review Silent Stage 1 specimen",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V005-square",
+      "source": "brand-library/packages/content/revisions/v2/OS-V005-square.svg",
+      "source_sha256": "71f8cf7ad05456efd2f558b976259c57e244c28384d18fc4ccdbb309804c91a0",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "1e7337e3d6cc157433372f439d294ac1baa3ea75261fb09e75e84864d9f4a745",
+      "width": 1080,
+      "height": 1080,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 05 A useful draft has a source. Illustrative email “Please keep the qualification beside the claim.” Illustrative example — not a customer testimonial",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V006-square",
+      "source": "brand-library/packages/content/revisions/v2/OS-V006-square.svg",
+      "source_sha256": "7ba261ba98ed3e81df3d8d5251f86fb214e506891bb8da3a2f4ede595137628d",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "de66cc91a227abcb7fd2f0a1887be9961e49bd25676a8b2a05ac3743b82ef133",
+      "width": 1080,
+      "height": 1080,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 06 Keep the meaning. Before Unsupported outcome claim. After Source + scope + limitation. Illustrative example — not a customer testimonial",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V007-square",
+      "source": "brand-library/packages/content/revisions/v2/OS-V007-square.svg",
+      "source_sha256": "e4a7151d0a9acc981e4b476bdb05479bb9804903b00eb96dac9bbde124c75c1e",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "cb1107e3ca7a8cef6fc3a2318d22dcec658505ddb8365605004de9a9735e2f4e",
+      "width": 1080,
+      "height": 1080,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 07 Evidence needs context. Evidence required Source · date · scope · limitation Illustrative example — not a customer testimonial",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V008-square",
+      "source": "brand-library/packages/content/revisions/v2/OS-V008-square.svg",
+      "source_sha256": "d5bcba8aeedc4e398d704e70e77bf53770a48b80c2914e6a4260d7e6332eef1a",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "01f39745351cce496679f492904ac74049b62aaf03a4a867c2c690fdca3323d0",
+      "width": 1080,
+      "height": 1080,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 08 Make the next step clear. Book an intro call Destination to be configured. Silent Stage 1 specimen",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V001-portrait",
+      "source": "brand-library/packages/content/revisions/v2/OS-V001-portrait.svg",
+      "source_sha256": "018623b3d06a49904c633574c6c01b3c76ed24d3d3943620cd38e019f24cf20a",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "104e56bb014240bf2fc25c376539743a906282fc9c46acd76ed1c6614eee0e6b",
+      "width": 1080,
+      "height": 1920,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 01 Explain the decision. Fictional founder A buyer question. A source. A clear explanation. Silent Stage 1 specimen",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V002-portrait",
+      "source": "brand-library/packages/content/revisions/v2/OS-V002-portrait.svg",
+      "source_sha256": "08a5f0ba815ea9b7333148ebfacb851471d4ded7f074b8b455b6e3d7dabd4631",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "9b81e6cb9b0cc46c5084fea418bc143f859974260497a34805e3e4cc7af0dcab",
+      "width": 1080,
+      "height": 1920,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 02 Show the workflow. Original demo screen Draft → Review Ready for review Silent Stage 1 specimen",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V003-portrait",
+      "source": "brand-library/packages/content/revisions/v2/OS-V003-portrait.svg",
+      "source_sha256": "ed6628bde8c89c1ee606fd6665ef01099034a5ab0d3574ed8a8084bb7c8c96e6",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "12dc81f98fa486b4e0eae245e57434a202d953d1aee3c6909801d753481bc535",
+      "width": 1080,
+      "height": 1920,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 03 Give the idea a form. Silent Stage 1 specimen",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V004-portrait",
+      "source": "brand-library/packages/content/revisions/v2/OS-V004-portrait.svg",
+      "source_sha256": "f7cc01e36424c332a4e1a0b68095f3533b8ae966e6311c4e3ca0b475dfeeccfe",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "0abdcd5ad9ad7dbf383dc6712cff29b80c574ba6d94cd9a4bb33545618d3b447",
+      "width": 1080,
+      "height": 1920,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 04 From source to review. Interview Draft Review Silent Stage 1 specimen",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V005-portrait",
+      "source": "brand-library/packages/content/revisions/v2/OS-V005-portrait.svg",
+      "source_sha256": "5ceea25c1319c76a54c9235ed756ebe6a59d54c543df50192332d27a54c25cdb",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "3b743461911c9f11f17003f22bd3bda6a5e2706552435d828178434fbcef4ae2",
+      "width": 1080,
+      "height": 1920,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 05 A useful draft has a source. Illustrative email “Please keep the qualification beside the claim.” Illustrative example — not a customer testimonial",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V006-portrait",
+      "source": "brand-library/packages/content/revisions/v2/OS-V006-portrait.svg",
+      "source_sha256": "f06d2c96e2852a1d424874b26e0063886d2499dd23596a981877a35331b6d8a0",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "ae5d158a6fa25b748482a30326d6840e64b62a385980fca9edfc6999cdec386b",
+      "width": 1080,
+      "height": 1920,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 06 Keep the meaning. Before Unsupported outcome claim. After Source + scope + limitation. Illustrative example — not a customer testimonial",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V007-portrait",
+      "source": "brand-library/packages/content/revisions/v2/OS-V007-portrait.svg",
+      "source_sha256": "e850a2fd74addc044d56320d1300cc32fd9635e0d5e0b422271733dc18d724b7",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "e133261d8a5fc4ff24ca3be7a76396e9cda691612b97ffbcc91be57213354e31",
+      "width": 1080,
+      "height": 1920,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 07 Evidence needs context. Evidence required Source · date · scope · limitation Illustrative example — not a customer testimonial",
+        "missing": 0
+      }
+    },
+    {
+      "id": "OS-V008-portrait",
+      "source": "brand-library/packages/content/revisions/v2/OS-V008-portrait.svg",
+      "source_sha256": "d2f04e0e582b04021b36de8225f7c383829bda0de389978e47bf6ca9d00b20c6",
+      "png": "[dated-local-evidence-omitted]",
+      "png_sha256": "fd901cb27fac4247e08d2ea46e976be861db5629246ca965c5b6e4463781633f",
+      "width": 1080,
+      "height": 1920,
+      "check": {
+        "font": true,
+        "text": "Outspoken · scene 08 Make the next step clear. Book an intro call Destination to be configured. Silent Stage 1 specimen",
+        "missing": 0
+      }
+    }
+  ],
+  "proofs": [
+    {
+      "aspect": "landscape",
+      "file": "brand-library/packages/video/revisions/v2/Outspoken-v2-style-proof-landscape.mp4",
+      "sha256": "76bdaf20888867ba6007793836128b830c51dd2aae95e05e95323690bc8c9b58",
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640028",
+            "width": 1920,
+            "height": 1080,
+            "coded_width": 1920,
+            "coded_height": 1080,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 40,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "time_base": "1/15360",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 737280,
+            "duration": "48.000000",
+            "bit_rate": "132847",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "1440",
+            "extradata_size": 46,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "encoder": "Lavc62.28.100 libx264"
+            }
+          }
+        ],
+        "format": {
+          "filename": "[local-source-omitted] linkedin/brand-library/packages/video/revisions/v2/Outspoken-v2-style-proof-landscape.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "48.000000",
+          "size": "814946",
+          "bit_rate": "135824",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf62.12.100"
+          }
+        }
+      },
+      "full_decode": "pass"
+    },
+    {
+      "aspect": "square",
+      "file": "brand-library/packages/video/revisions/v2/Outspoken-v2-style-proof-square.mp4",
+      "sha256": "d73d28040386dff59c1ad1c65b0099f9d13dfe87708d16569ed8d234303d937c",
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640020",
+            "width": 1080,
+            "height": 1080,
+            "coded_width": 1080,
+            "coded_height": 1080,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 32,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "time_base": "1/15360",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 737280,
+            "duration": "48.000000",
+            "bit_rate": "79023",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "1440",
+            "extradata_size": 46,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "encoder": "Lavc62.28.100 libx264"
+            }
+          }
+        ],
+        "format": {
+          "filename": "[local-source-omitted] linkedin/brand-library/packages/video/revisions/v2/Outspoken-v2-style-proof-square.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "48.000000",
+          "size": "492006",
+          "bit_rate": "82001",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf62.12.100"
+          }
+        }
+      },
+      "full_decode": "pass"
+    },
+    {
+      "aspect": "portrait",
+      "file": "brand-library/packages/video/revisions/v2/Outspoken-v2-style-proof-portrait.mp4",
+      "sha256": "e167309588ad210945e1280d6191139924ea14147c9ba16cb84c4a9a482883ac",
+      "probe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640028",
+            "width": 1080,
+            "height": 1920,
+            "coded_width": 1080,
+            "coded_height": 1920,
+            "has_b_frames": 2,
+            "pix_fmt": "yuv420p",
+            "level": 40,
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "time_base": "1/15360",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 737280,
+            "duration": "48.000000",
+            "bit_rate": "104188",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "1440",
+            "extradata_size": 46,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "encoder": "Lavc62.28.100 libx264"
+            }
+          }
+        ],
+        "format": {
+          "filename": "[local-source-omitted] linkedin/brand-library/packages/video/revisions/v2/Outspoken-v2-style-proof-portrait.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "48.000000",
+          "size": "643018",
+          "bit_rate": "107169",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf62.12.100"
+          }
+        }
+      },
+      "full_decode": "pass"
+    }
+  ]
+}

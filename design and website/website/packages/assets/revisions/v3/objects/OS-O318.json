@@ -1,0 +1,88 @@
+{
+  "id": "OS-O318",
+  "name": "Architecture bridge",
+  "context": "Connect expertise to buyer value",
+  "rights": "Original authored meshes and glyphs; no third-party model or competitor media",
+  "render": {
+    "width": 600,
+    "height": 600,
+    "alpha": true,
+    "actual": "Three.js0.186.1 GLB source scene",
+    "toneMapping": "ACESFilmic",
+    "exposure": 0.9
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      2.3,
+      7
+    ],
+    "lookAt": [
+      0,
+      0,
+      0
+    ],
+    "extent": 1.5011471655479875
+  },
+  "meshes": [
+    {
+      "name": "architecture connecting arch",
+      "vertices": 671,
+      "triangles": 1200,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "machined plate",
+      "vertices": 4544,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "machined plate",
+      "vertices": 4544,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "machined plate",
+      "vertices": 4384,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "citron / Outspoken V3"
+    },
+    {
+      "name": "source to value bridge",
+      "vertices": 341,
+      "triangles": 600,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -1.210082244778421,
+      -0.8151851171255111,
+      -0.4286609526617262
+    ],
+    "max": [
+      1.210082244778421,
+      0.8151851171255111,
+      0.4286609526617262
+    ]
+  },
+  "kind": "semantic_object",
+  "usage": "Use in technical explainers and before/after process diagrams.",
+  "limitations": [
+    "Procedural satin material, not a photographic surface capture.",
+    "Use the flat SVG for small UI; do not shrink a decorative 3D render below64px."
+  ]
+}

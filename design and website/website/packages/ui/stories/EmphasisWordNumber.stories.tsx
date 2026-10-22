@@ -1,0 +1,10 @@
+import type { Meta, StoryObj } from '@storybook/react-vite';
+import { useState } from 'react';
+import * as C from '../src';
+function ComposerDemo(){const [value,setValue]=useState('');return <C.ChatComposer value={value} onChange={setValue} onSend={()=>setValue('')}/>};
+function PaginationDemo(){const [page,setPage]=useState(1);return <C.PaginationSeries page={page} total={5} onChange={setPage}/>};
+const meta={title:'Video/EmphasisWordNumber',component:C.EmphasisWordNumber,tags:['autodocs'],parameters:{docs:{description:{component:'OS-C056 · canonical shared module. Stage 1 candidate; Figma and owner acceptance are separate.'}}}} satisfies Meta<typeof C.EmphasisWordNumber>;
+export default meta;
+type Story = StoryObj;
+export const Default:Story={render:()=>(<C.EmphasisWordNumber>Customer insight</C.EmphasisWordNumber>)};
+export const Variants:Story={render:()=>(<div className="os-state-row"><C.EmphasisWordNumber variant="underline">Product judgment</C.EmphasisWordNumber><C.EmphasisWordNumber variant="number">03</C.EmphasisWordNumber></div>)};

@@ -1,0 +1,12 @@
+import type{Meta,StoryObj}from'@storybook/react-vite';
+import{BrandStudio,MediaFrame,WorkflowSchema,LinkedInPostSpecimen,GmailSpecimen,RoutedAnnotation}from'./BrandStudio';
+import{StudioButton}from'./StudioButton';
+const meta={title:'Brand Studio V5/Objects and media',component:BrandStudio,parameters:{layout:'fullscreen'}}satisfies Meta<typeof BrandStudio>;
+export default meta;type Story=StoryObj<typeof meta>;
+export const Complete:Story={args:{wordmarkSrc:'/assets/revisions/v5/identity/selected/lockup-gradient.svg'}};
+export const Buttons:Story={render:()=> <div className="os5-studio" style={{padding:50}}><StudioButton tone="navy" edge="bevel">Explore the idea</StudioButton><StudioButton tone="citron" variant="secondary" edge="rail">View the details</StudioButton></div>};
+export const Framing:Story={render:()=> <div className="os5-studio" style={{padding:50,maxWidth:700}}><MediaFrame src="/assets/revisions/v5/people/founder-blue.webp" pose="left"/></div>};
+export const NativePost:Story={render:()=> <div className="os5-studio" style={{padding:40,maxWidth:560}}><LinkedInPostSpecimen editable/></div>};
+export const NativeEmail:Story={render:()=> <div className="os5-studio" style={{padding:40,maxWidth:700}}><GmailSpecimen editable/></div>};
+export const Schema:Story={render:()=> <div className="os5-studio" style={{padding:40}}><WorkflowSchema editable/></div>};
+export const Annotation:Story={render:()=> <div className="os5-studio" style={{padding:40}}><RoutedAnnotation editable/></div>};

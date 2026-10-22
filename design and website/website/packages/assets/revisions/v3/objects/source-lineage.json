@@ -1,0 +1,13 @@
+{
+  "role": "Category breadth and editorial reference only; no extracted or traced M2Lab asset reused.",
+  "reference_node": "8:10",
+  "screenshot_sha256": "f25871bac958cf6a640aed809daa962794f84e9bfcb0947227d323f6a5f6abf3",
+  "metadata_sha256": "2d9aa07cdb12405f6469b338814ba0aa6812661408945fa71413fdcfc5206282",
+  "geometry_source": "objects.mjs",
+  "word_source": "run/design/identity-word-signs.py",
+  "flat_glyph_source": "run/design/identity-object-glyphs.py",
+  "font_license": "OFL-Archivo.txt",
+  "ownership": "Original locally authored mesh construction, native glyph drawings and source composition.",
+  "provider_calls": 0,
+  "installed_dependencies": 0
+}

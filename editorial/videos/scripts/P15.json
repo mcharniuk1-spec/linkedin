@@ -1,0 +1,86 @@
+{
+  "id": "P15",
+  "title": "Five different answers can hide inside “Was LinkedIn worth it?”",
+  "author": "Mykhailo Amplieiev",
+  "voice_status": "Identity and role verified; one indexed excerpt is insufficient for stable voice calibration. Founder voice review remains pending; profile collection stayed stopped.",
+  "target_duration_seconds": 75,
+  "format": "LinkedIn native video; 16:9 landscape master",
+  "performer": "Fictional presenter only. Do not resemble or impersonate either founder or any client.",
+  "theme": "Five distinct value hypotheses, shown as separate measures rather than a funnel.",
+  "spoken_script": "If you ask whether LinkedIn was worth the effort, first say what kind of value you mean.\n\nDid the founder spend less time? Do relevant buyers know what the company builds? Does a buyer arrive with a specific reason to trust the team? Are suitable conversations happening? Is a post being used in a real sales discussion?\n\nThose are five separate hypotheses. They are not stages that everyone moves through, and a reaction count cannot answer all five. Choose the most important one for the engagement, agree on a baseline, and decide what evidence would count.\n\nFor time, include interviews and review. For conversations, separate a relevant discussion from a demo. For sales use, record the specific context. Which hypothesis would you measure first?",
+  "shots": [
+    {
+      "shot": 1,
+      "time": "00:00–00:13",
+      "spoken_line": "If you ask whether LinkedIn was worth the effort, first say what kind of value you mean.",
+      "camera": "Medium close-up, eye-level, locked camera; 65 mm full-frame equivalent; natural headroom.",
+      "action": "Fictional presenter holds a card reading “Worth it?” then turns it to show “Which value?”",
+      "lighting": "Soft key at 45°, gentle fill, neutral background and realistic skin tone.",
+      "on_screen_text": "Worth it? Which value?",
+      "edit_notes": "No fake reactions or follower counts. Captions match speech exactly."
+    },
+    {
+      "shot": 2,
+      "time": "00:13–00:29",
+      "spoken_line": "Did the founder spend less time? Do relevant buyers know what the company builds? Does a buyer arrive with a specific reason to trust the team?",
+      "camera": "Three-quarter medium shot with 70 mm lens; subtle push-in only if the still sequence can support it.",
+      "action": "Presenter reveals three independent cards: Time, Awareness, Trust.",
+      "lighting": "Soft consistent key; modest fill so card text stays legible.",
+      "on_screen_text": "Time · Awareness · Trust",
+      "edit_notes": "Cards appear side-by-side, not as funnel steps."
+    },
+    {
+      "shot": 3,
+      "time": "00:29–00:43",
+      "spoken_line": "Are suitable conversations happening? Is a post being used in a real sales discussion?",
+      "camera": "Close-up of two more cards, 50 mm equivalent; keep both in focus.",
+      "action": "Presenter places Conversation and Sales use cards beside the first three.",
+      "lighting": "Even tabletop light; no dramatic color shifts.",
+      "on_screen_text": "Conversations · Sales use",
+      "edit_notes": "Keep all five measures visible together."
+    },
+    {
+      "shot": 4,
+      "time": "00:43–00:59",
+      "spoken_line": "Those are five separate hypotheses. They are not stages that everyone moves through, and a reaction count cannot answer all five.",
+      "camera": "Medium close-up, 65 mm equivalent; direct, stable framing.",
+      "action": "Presenter removes drawn connecting arrows from a transparent overlay; leaves five cards separate.",
+      "lighting": "Same continuity lighting; avoid dark or alarmist tone.",
+      "on_screen_text": "Five hypotheses. No guaranteed funnel.",
+      "edit_notes": "Do not show invented analytics or imply measured OUTSPOKEN results."
+    },
+    {
+      "shot": 5,
+      "time": "00:59–01:15",
+      "spoken_line": "Choose the most important one for the engagement, agree on a baseline, and decide what evidence would count. For time, include interviews and review. For conversations, separate a relevant discussion from a demo. For sales use, record the specific context. Which hypothesis would you measure first?",
+      "camera": "Medium close-up, eye-level; 65 mm equivalent; fixed final framing.",
+      "action": "Presenter points to “baseline” on a blank worksheet and closes with an open question.",
+      "lighting": "Match opening; soft neutral finish.",
+      "on_screen_text": "Pick one hypothesis. Agree on evidence.",
+      "edit_notes": "Keep the question sincere; no “comment to agree” or CTA implying results."
+    }
+  ],
+  "sources": "../../sources/references.json",
+  "source_claim_ids": [
+    "OUT-BRIEF-P2-WORTH-1",
+    "OUT-BRIEF-P2-WORTH-2",
+    "OUT-BRIEF-P2-WORTH-3",
+    "OUT-BRIEF-P2-WORTH-4",
+    "OUT-BRIEF-P2-WORTH-5",
+    "LI-ANALYTICS-MEMBER",
+    "LI-POST-ANALYTICS",
+    "LI-VIDEO-CAPTIONS"
+  ],
+  "evidence_status": "The five value areas are source-defined hypotheses, not measured OUTSPOKEN outcomes. LinkedIn analytics availability varies by account and post.",
+  "alt_text": "A fictional presenter shows five separate LinkedIn value hypotheses—time, awareness, trust, conversations and sales use—without connecting them as a funnel.",
+  "captions": "P15.srt",
+  "production_status": "Script and generated silent storyboard animatic only. No filmed footage, spoken audio or finished native overlay animation.",
+  "aspect_ratio_guidance": "The five storyboard frames are landscape. Keep essential action and native captions in the central56% width for a possible9:16 reframe; review each crop separately. No generated portrait variant or finished video is claimed.",
+  "frame_paths": [
+    "assets/videos/frames/P15-shot-01.png",
+    "assets/videos/frames/P15-shot-02.png",
+    "assets/videos/frames/P15-shot-03.png",
+    "assets/videos/frames/P15-shot-04.png",
+    "assets/videos/frames/P15-shot-05.png"
+  ]
+}

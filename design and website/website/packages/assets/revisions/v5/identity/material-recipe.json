@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-20",
+  "selected_study": "01",
+  "structure": {
+    "body": "One continuous closed solid capsule, lathed160 radial segments; radius0.78, body straight section1.24, rounded ends0.68 each.",
+    "crossbands": "Two broad silver front-wrapped annular sectors; centerY+0.32/-0.32, outer radius0.865, inner0.816, height0.36, beveled0.012.",
+    "rib": "One central upright silver rib; width0.145,height1.10,depth0.04,frontZ0.865,beveled0.009.",
+    "total_parts": 4,
+    "forbidden_substitutions": [
+      "Hollow outline/ring",
+      "Stand or foot",
+      "Detached silver cylinder",
+      "Replaced approved eight source studies"
+    ]
+  },
+  "material": {
+    "blue": "Physical metallic0.84,roughness0.24,navy#08234E\u2192cobalt#174DA3vertex tint",
+    "silver": "Physical metallic0.96,roughness0.22,base#BDC9D8",
+    "surface": "Deterministic512px fine procedural normal; anisotropy0.82,rotation90deg,clearcoat0.16.",
+    "qualification": "Native glossy/anodized approximation. It does not equal photographic fine brushing in supplied source or separate generated cutout."
+  },
+  "lighting": {
+    "environment": "Three RoomEnvironment through PMREM; blur0.02",
+    "key": {
+      "position": [
+        -3,
+        5,
+        7
+      ],
+      "color": "white",
+      "intensity": 2.2
+    },
+    "rim": {
+      "position": [
+        4,
+        2,
+        -3
+      ],
+      "color": "#7FA7F1",
+      "intensity": 2.2
+    },
+    "hemisphere_intensity": 0.35,
+    "tone": "ACESFilmic,exposure1.05,SRGB"
+  },
+  "cameras": {
+    "mic": "Perspective30deg,1100x1400,radius7.1,height0.45,azimuth0/-0.48/+0.48rad",
+    "wordmark": "Long-lens perspective10deg,1800x580,radius21,height0.22,azimuth0/-0.48/+0.48rad"
+  },
+  "wordmark": {
+    "text": "OUTSPOKEN",
+    "font_source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+    "font_sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+    "license": "SIL OFL1.1",
+    "weight": 730,
+    "width": 100,
+    "customization": "Only firstO. Boolean subtraction of original diagonal voice-notch polygon from font contours; native outline and3D share the resulting actual path. Ocurve flattened32samples perquadratic/cubic segment for deterministic boolean. Other8glyphs retain exactfontcurve paths.",
+    "real_depth": "64fontunits,bevel5fontunits;9 actual meshes matchingSVGoutlines",
+    "primary": "Primary2D: OUT solidnavy#162760; SPOKEN solidNickel#A9AFBA; matchingfill/stroke, no glintband. Physical3D metal texture/highlights remain unchanged.",
+    "treatments": [
+      "gradient",
+      "split",
+      "inverse",
+      "mono",
+      "citron"
+    ],
+    "compatibility_aliases": {
+      "gradient": "Primary solid navy/silver; filename retained only.",
+      "split": "Same primary palette compatibility alias; not an extra distinctlook."
+    },
+    "solid_revision_date": "2026-10-21"
+  },
+  "source": "studio.html, wordmark-source.json and run/identity/build-wordmarks.py reproduce geometry and outlined lettering with already installed dependencies.",
+  "limits": [
+    "Native reconstruction is authored from reference rather than pixel-identical geometry recovery.",
+    "3DwordmarkGLB is an archive/design source; use its WebP frames for web presentation unless an explicitly bounded3Dload is needed."
+  ]
+}

@@ -1,0 +1,481 @@
+{
+  "derived_from": "packages/motion/src/presets.ts",
+  "records": [
+    {
+      "id": "OS-M001",
+      "name": "feedback",
+      "trigger": "explicit interaction or in-view entrance",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "units": "seconds, CSS pixels, degrees",
+      "duration_or_spring": {
+        "duration": 0.16,
+        "ease": [
+          0.22,
+          1,
+          0.36,
+          1
+        ]
+      },
+      "easing": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "amplitude": "12 pixels maximum for text panels",
+      "stagger": 0,
+      "interrupt_exit": "Motion retargets from current value; caller controls presence",
+      "offscreen_pause": "No infinite animation; scene renders on state/resize only",
+      "reduced_motion": "Remove translation/rotation; immediate visible content",
+      "keyboard_touch": "Stable hit area; native focus and press states",
+      "static_export": "Final visible state",
+      "fps_mapping_if_video": "secondsToFrames(duration, fps); never reuse web springs",
+      "story_ids": [
+        "motion-presets--all-presets"
+      ],
+      "figma_reference": null,
+      "review_evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "source": "packages/motion/src/presets.ts",
+      "source_sha256": "c335bfd4892aeb9f89cc93610f85413e9f19b26843d3c409d0218a99c2078ac4",
+      "status": "implemented_candidate_pending_art_and_owner_review"
+    },
+    {
+      "id": "OS-M002",
+      "name": "panel",
+      "trigger": "explicit interaction or in-view entrance",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "units": "seconds, CSS pixels, degrees",
+      "duration_or_spring": {
+        "duration": 0.36,
+        "ease": [
+          0.22,
+          1,
+          0.36,
+          1
+        ]
+      },
+      "easing": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "amplitude": "12 pixels maximum for text panels",
+      "stagger": 0,
+      "interrupt_exit": "Motion retargets from current value; caller controls presence",
+      "offscreen_pause": "No infinite animation; scene renders on state/resize only",
+      "reduced_motion": "Remove translation/rotation; immediate visible content",
+      "keyboard_touch": "Stable hit area; native focus and press states",
+      "static_export": "Final visible state",
+      "fps_mapping_if_video": "secondsToFrames(duration, fps); never reuse web springs",
+      "story_ids": [
+        "motion-presets--all-presets"
+      ],
+      "figma_reference": null,
+      "review_evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "source": "packages/motion/src/presets.ts",
+      "source_sha256": "c335bfd4892aeb9f89cc93610f85413e9f19b26843d3c409d0218a99c2078ac4",
+      "status": "implemented_candidate_pending_art_and_owner_review"
+    },
+    {
+      "id": "OS-M003",
+      "name": "disclosure",
+      "trigger": "explicit interaction or in-view entrance",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "units": "seconds, CSS pixels, degrees",
+      "duration_or_spring": {
+        "duration": 0.22,
+        "ease": [
+          0.22,
+          1,
+          0.36,
+          1
+        ]
+      },
+      "easing": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "amplitude": "12 pixels maximum for text panels",
+      "stagger": 0,
+      "interrupt_exit": "Motion retargets from current value; caller controls presence",
+      "offscreen_pause": "No infinite animation; scene renders on state/resize only",
+      "reduced_motion": "Remove translation/rotation; immediate visible content",
+      "keyboard_touch": "Stable hit area; native focus and press states",
+      "static_export": "Final visible state",
+      "fps_mapping_if_video": "secondsToFrames(duration, fps); never reuse web springs",
+      "story_ids": [
+        "motion-presets--all-presets"
+      ],
+      "figma_reference": null,
+      "review_evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "source": "packages/motion/src/presets.ts",
+      "source_sha256": "c335bfd4892aeb9f89cc93610f85413e9f19b26843d3c409d0218a99c2078ac4",
+      "status": "implemented_candidate_pending_art_and_owner_review"
+    },
+    {
+      "id": "OS-M004",
+      "name": "continuity",
+      "trigger": "explicit interaction or in-view entrance",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "units": "seconds, CSS pixels, degrees",
+      "duration_or_spring": {
+        "duration": 0.28,
+        "ease": [
+          0.22,
+          1,
+          0.36,
+          1
+        ]
+      },
+      "easing": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "amplitude": "12 pixels maximum for text panels",
+      "stagger": 0,
+      "interrupt_exit": "Motion retargets from current value; caller controls presence",
+      "offscreen_pause": "No infinite animation; scene renders on state/resize only",
+      "reduced_motion": "Remove translation/rotation; immediate visible content",
+      "keyboard_touch": "Stable hit area; native focus and press states",
+      "static_export": "Final visible state",
+      "fps_mapping_if_video": "secondsToFrames(duration, fps); never reuse web springs",
+      "story_ids": [
+        "motion-presets--all-presets"
+      ],
+      "figma_reference": null,
+      "review_evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "source": "packages/motion/src/presets.ts",
+      "source_sha256": "c335bfd4892aeb9f89cc93610f85413e9f19b26843d3c409d0218a99c2078ac4",
+      "status": "implemented_candidate_pending_art_and_owner_review"
+    },
+    {
+      "id": "OS-M005",
+      "name": "message",
+      "trigger": "explicit interaction or in-view entrance",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "units": "seconds, CSS pixels, degrees",
+      "duration_or_spring": {
+        "duration": 0.26,
+        "ease": [
+          0.22,
+          1,
+          0.36,
+          1
+        ]
+      },
+      "easing": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "amplitude": "12 pixels maximum for text panels",
+      "stagger": 0,
+      "interrupt_exit": "Motion retargets from current value; caller controls presence",
+      "offscreen_pause": "No infinite animation; scene renders on state/resize only",
+      "reduced_motion": "Remove translation/rotation; immediate visible content",
+      "keyboard_touch": "Stable hit area; native focus and press states",
+      "static_export": "Final visible state",
+      "fps_mapping_if_video": "secondsToFrames(duration, fps); never reuse web springs",
+      "story_ids": [
+        "motion-presets--all-presets"
+      ],
+      "figma_reference": null,
+      "review_evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "source": "packages/motion/src/presets.ts",
+      "source_sha256": "c335bfd4892aeb9f89cc93610f85413e9f19b26843d3c409d0218a99c2078ac4",
+      "status": "implemented_candidate_pending_art_and_owner_review"
+    },
+    {
+      "id": "OS-M006",
+      "name": "emphasis",
+      "trigger": "explicit interaction or in-view entrance",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "units": "seconds, CSS pixels, degrees",
+      "duration_or_spring": {
+        "duration": 0.3,
+        "ease": [
+          0.22,
+          1,
+          0.36,
+          1
+        ]
+      },
+      "easing": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "amplitude": "12 pixels maximum for text panels",
+      "stagger": 0,
+      "interrupt_exit": "Motion retargets from current value; caller controls presence",
+      "offscreen_pause": "No infinite animation; scene renders on state/resize only",
+      "reduced_motion": "Remove translation/rotation; immediate visible content",
+      "keyboard_touch": "Stable hit area; native focus and press states",
+      "static_export": "Final visible state",
+      "fps_mapping_if_video": "secondsToFrames(duration, fps); never reuse web springs",
+      "story_ids": [
+        "motion-presets--all-presets"
+      ],
+      "figma_reference": null,
+      "review_evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "source": "packages/motion/src/presets.ts",
+      "source_sha256": "c335bfd4892aeb9f89cc93610f85413e9f19b26843d3c409d0218a99c2078ac4",
+      "status": "implemented_candidate_pending_art_and_owner_review"
+    },
+    {
+      "id": "OS-M007",
+      "name": "diagram",
+      "trigger": "explicit interaction or in-view entrance",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "units": "seconds, CSS pixels, degrees",
+      "duration_or_spring": {
+        "duration": 0.5,
+        "ease": [
+          0.22,
+          1,
+          0.36,
+          1
+        ]
+      },
+      "easing": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "amplitude": "12 pixels maximum for text panels",
+      "stagger": 0,
+      "interrupt_exit": "Motion retargets from current value; caller controls presence",
+      "offscreen_pause": "No infinite animation; scene renders on state/resize only",
+      "reduced_motion": "Remove translation/rotation; immediate visible content",
+      "keyboard_touch": "Stable hit area; native focus and press states",
+      "static_export": "Final visible state",
+      "fps_mapping_if_video": "secondsToFrames(duration, fps); never reuse web springs",
+      "story_ids": [
+        "motion-presets--all-presets"
+      ],
+      "figma_reference": null,
+      "review_evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "source": "packages/motion/src/presets.ts",
+      "source_sha256": "c335bfd4892aeb9f89cc93610f85413e9f19b26843d3c409d0218a99c2078ac4",
+      "status": "implemented_candidate_pending_art_and_owner_review"
+    },
+    {
+      "id": "OS-M008",
+      "name": "tilt",
+      "trigger": "fine-pointer hover, never touch",
+      "properties": [
+        "rotateX",
+        "rotateY"
+      ],
+      "units": "seconds, CSS pixels, degrees",
+      "duration_or_spring": {
+        "duration": 0.18,
+        "ease": [
+          0.22,
+          1,
+          0.36,
+          1
+        ]
+      },
+      "easing": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "amplitude": "3 degrees maximum",
+      "stagger": 0,
+      "interrupt_exit": "Motion retargets from current value; caller controls presence",
+      "offscreen_pause": "No infinite animation; scene renders on state/resize only",
+      "reduced_motion": "Remove translation/rotation; immediate visible content",
+      "keyboard_touch": "Stable hit area; native focus and press states",
+      "static_export": "Final visible state",
+      "fps_mapping_if_video": "secondsToFrames(duration, fps); never reuse web springs",
+      "story_ids": [
+        "motion-presets--all-presets"
+      ],
+      "figma_reference": null,
+      "review_evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "source": "packages/motion/src/presets.ts",
+      "source_sha256": "c335bfd4892aeb9f89cc93610f85413e9f19b26843d3c409d0218a99c2078ac4",
+      "status": "implemented_candidate_pending_art_and_owner_review"
+    },
+    {
+      "id": "OS-M009",
+      "name": "glint",
+      "trigger": "explicit interaction or in-view entrance",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "units": "seconds, CSS pixels, degrees",
+      "duration_or_spring": {
+        "duration": 0.42,
+        "ease": [
+          0.22,
+          1,
+          0.36,
+          1
+        ]
+      },
+      "easing": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "amplitude": "12 pixels maximum for text panels",
+      "stagger": 0,
+      "interrupt_exit": "Motion retargets from current value; caller controls presence",
+      "offscreen_pause": "No infinite animation; scene renders on state/resize only",
+      "reduced_motion": "Remove translation/rotation; immediate visible content",
+      "keyboard_touch": "Stable hit area; native focus and press states",
+      "static_export": "Final visible state",
+      "fps_mapping_if_video": "secondsToFrames(duration, fps); never reuse web springs",
+      "story_ids": [
+        "motion-presets--all-presets"
+      ],
+      "figma_reference": null,
+      "review_evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "source": "packages/motion/src/presets.ts",
+      "source_sha256": "c335bfd4892aeb9f89cc93610f85413e9f19b26843d3c409d0218a99c2078ac4",
+      "status": "implemented_candidate_pending_art_and_owner_review"
+    },
+    {
+      "id": "OS-M010",
+      "name": "chapter",
+      "trigger": "explicit interaction or in-view entrance",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "units": "seconds, CSS pixels, degrees",
+      "duration_or_spring": {
+        "duration": 0.8,
+        "ease": [
+          0.22,
+          1,
+          0.36,
+          1
+        ]
+      },
+      "easing": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "amplitude": "12 pixels maximum for text panels",
+      "stagger": 0,
+      "interrupt_exit": "Motion retargets from current value; caller controls presence",
+      "offscreen_pause": "No infinite animation; scene renders on state/resize only",
+      "reduced_motion": "Remove translation/rotation; immediate visible content",
+      "keyboard_touch": "Stable hit area; native focus and press states",
+      "static_export": "Final visible state",
+      "fps_mapping_if_video": "secondsToFrames(duration, fps); never reuse web springs",
+      "story_ids": [
+        "motion-presets--all-presets",
+        "motion-presets--chapter",
+        "scenes-spatial-studies--chapter-study"
+      ],
+      "figma_reference": null,
+      "review_evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "source": "packages/motion/src/presets.ts",
+      "source_sha256": "c335bfd4892aeb9f89cc93610f85413e9f19b26843d3c409d0218a99c2078ac4",
+      "status": "implemented_candidate_pending_art_and_owner_review"
+    },
+    {
+      "id": "OS-M011",
+      "name": "feedbackArrival",
+      "trigger": "explicit interaction or in-view entrance",
+      "properties": [
+        "opacity",
+        "transform"
+      ],
+      "units": "seconds, CSS pixels, degrees",
+      "duration_or_spring": {
+        "duration": 0.55,
+        "ease": [
+          0.22,
+          1,
+          0.36,
+          1
+        ]
+      },
+      "easing": [
+        0.22,
+        1,
+        0.36,
+        1
+      ],
+      "amplitude": "12 pixels maximum for text panels",
+      "stagger": 0,
+      "interrupt_exit": "Motion retargets from current value; caller controls presence",
+      "offscreen_pause": "No infinite animation; scene renders on state/resize only",
+      "reduced_motion": "Remove translation/rotation; immediate visible content",
+      "keyboard_touch": "Stable hit area; native focus and press states",
+      "static_export": "Final visible state",
+      "fps_mapping_if_video": "secondsToFrames(duration, fps); never reuse web springs",
+      "story_ids": [
+        "motion-presets--all-presets",
+        "motion-presets--side-arrival"
+      ],
+      "figma_reference": null,
+      "review_evidence": [
+        "[dated-local-evidence-omitted]"
+      ],
+      "source": "packages/motion/src/presets.ts",
+      "source_sha256": "c335bfd4892aeb9f89cc93610f85413e9f19b26843d3c409d0218a99c2078ac4",
+      "status": "implemented_candidate_pending_art_and_owner_review"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "source_release": "20261022-outspoken-editorial-v8",
+  "tool": "built-in image_gen",
+  "purpose": "Original fictional storyboard stills for previsualization only; no recorded footage or audio performance.",
+  "selected_assets": [
+    {
+      "asset_id": "P14-shot-01",
+      "post_id": "P14",
+      "shot": 1,
+      "generation_receipt": "exec-ce6a82bc-be30-49eb-bf0d-5b5ddadb8c8a",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape 16:9 opening frame of the same fictional founder video. Input image is identity and wardrobe reference only: same fictional woman in cobalt-blue jacket and black top, not any real person. Scene: same premium quiet navy-and-pearl office, same upholstered chair, soft office bokeh. Medium-close eye-level interview shot with comfortable headroom. She faces an off-camera interviewer, then gently turns one completely blank pearl card toward the lens, as though making a point; no writing or symbols on card. Natural 65 mm perspective, medium depth of field, calm confident expression, soft directional key at 45 degrees and gentle fill. Constraints: no logo, captions, text, watermark, dramatic chrome or artificial pose.",
+      "dimensions_px": {
+        "width": 1672,
+        "height": 941
+      },
+      "bytes": 1909408,
+      "sha256": "e02b378ada3b1468c862d295e57eabcb492ba23bca9949f349be0ee01089dac3",
+      "path": "assets/videos/frames/P14-shot-01.png",
+      "source_reference_hashes": [
+        "74183042a794732d355d8e46830e312bd2bbe5fc7c53e79889bf6e76aeffe3d3"
+      ]
+    },
+    {
+      "asset_id": "P14-shot-02",
+      "post_id": "P14",
+      "shot": 2,
+      "generation_receipt": "exec-4e0c4f3d-19e7-4c88-bc40-f34cab78458b",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Asset type: second landscape 16:9 storyboard frame in the same fictional founder video. Input image is identity and wardrobe reference. Scene: same quiet navy-and-pearl interview office and upholstered chair. Side-angle over-shoulder close view of the fictional woman in cobalt jacket leaning over a clean pearl worksheet with five empty outlined boxes on paper; her hand writes a simple short mark in one box, with no letters or words. A realistic silver broadcast microphone on a proper low desktop stand sits naturally near frame edge. Camera: 50 mm, shallow but readable focus on the worksheet, believable perspective and natural hands. Soft overhead practical plus diffused key, realistic skin tones. No logo, fake interface, legible text, captions, watermark, floating object, or dramatic chrome.",
+      "dimensions_px": {
+        "width": 1672,
+        "height": 941
+      },
+      "bytes": 1841907,
+      "sha256": "3da68b1464d7fa16668cf757dce5c7c84d2cb3f91625c6596f521699dcda98a4",
+      "path": "assets/videos/frames/P14-shot-02.png",
+      "source_reference_hashes": [
+        "74183042a794732d355d8e46830e312bd2bbe5fc7c53e79889bf6e76aeffe3d3"
+      ]
+    },
+    {
+      "asset_id": "P14-shot-03",
+      "post_id": "P14",
+      "shot": 3,
+      "generation_receipt": "exec-96f39b6b-b579-4564-910b-26e641ab49d6",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Asset type: third landscape 16:9 storyboard frame in the same fictional founder video. Input image sets the fictional woman performer, cobalt jacket, black top, and quiet navy/pearl office; keep the same woman and room. Camera: slightly over-shoulder medium shot, 70 mm equivalent, natural perspective. Action: she places a completely blank pearl card beside a simple blank interface sketch made only of pale empty rectangles on a laptop screen; a few plain paper cards lie nearby. Her cobalt sleeve and hand are visible. This is a clearly hypothetical product example, with all editable labels to be added later. Soft continuity key light, no glossy highlights. Constraints: no legible words, letters, numbers, logo, captions, watermark, fake realistic software UI, arrows, or extra metal.",
+      "dimensions_px": {
+        "width": 1672,
+        "height": 941
+      },
+      "bytes": 1711364,
+      "sha256": "13b06c6132ba7744ebda2acac86fdf2c98bb58901d5bf15b18aef2c99a0c27f4",
+      "path": "assets/videos/frames/P14-shot-03.png",
+      "source_reference_hashes": [
+        "e02b378ada3b1468c862d295e57eabcb492ba23bca9949f349be0ee01089dac3"
+      ]
+    },
+    {
+      "asset_id": "P14-shot-04",
+      "post_id": "P14",
+      "shot": 4,
+      "generation_receipt": "exec-7c0bf089-ae57-41cb-bdfe-18d24c14024f",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Asset type: fourth landscape 16:9 storyboard frame in the same fictional founder video. Input reference establishes same woman, cobalt sleeve and quiet navy/pearl office. Close 85 mm desk-level shot with the paper worksheet's five clean empty boxes in readable focus; show a hand adding only three simple check marks in separate boxes to represent verify decision, evidence and affected person. Beside the worksheet, a laptop screen shows a neutral blank editorial layout made only of pale empty rectangles, no realistic app controls. This suggests arranging and checking the story without entering data. Soft task light, natural materials, believable hand and perspective. Constraints: no text, letter-like marks, numbers, logos, captions, watermark, client details, or fabricated real software interface.",
+      "dimensions_px": {
+        "width": 1672,
+        "height": 941
+      },
+      "bytes": 1701979,
+      "sha256": "5c76dcf8d231737b8667c52350bf3d521abdacdb1c4c088edf338c7ec665cebe",
+      "path": "assets/videos/frames/P14-shot-04.png",
+      "source_reference_hashes": [
+        "e02b378ada3b1468c862d295e57eabcb492ba23bca9949f349be0ee01089dac3"
+      ]
+    },
+    {
+      "asset_id": "P14-shot-05",
+      "post_id": "P14",
+      "shot": 5,
+      "generation_receipt": "exec-b57d5f07-578e-46f6-933d-aa183382a746",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Asset type: fifth landscape 16:9 closing storyboard frame in the same fictional founder video. Keep the same fictional woman, cobalt jacket over black top, quiet navy-and-pearl office, chair, camera height and soft key light from the opening. Medium close-up, eye-level, fixed tripod framing. She faces the camera calmly, one hand gesturing toward a small completely blank pearl card on her lap as if referring to a trade-off, expression sincere and inviting. Natural skin, 65 mm perspective, medium depth of field. No text, symbols, captions, logo, watermark, or exaggerated pose. End feels clean and measured.",
+      "dimensions_px": {
+        "width": 1672,
+        "height": 941
+      },
+      "bytes": 1878027,
+      "sha256": "94a2199a17d5df83078e9eca4e36b8a1022a03d1049b0870a1a3d01076b7f18d",
+      "path": "assets/videos/frames/P14-shot-05.png",
+      "source_reference_hashes": [
+        "e02b378ada3b1468c862d295e57eabcb492ba23bca9949f349be0ee01089dac3"
+      ]
+    },
+    {
+      "asset_id": "P15-shot-01",
+      "post_id": "P15",
+      "shot": 1,
+      "generation_receipt": "exec-6293d93c-ea6f-4ecc-899e-ef002061cb90",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Asset type: opening landscape 16:9 frame for a fictional LinkedIn explainer. One fictional male B2B founder/analyst, not based on any real person, in navy overshirt and light shirt. Medium-close eye-level shot at a clean pale desk in the established bright quiet office, soft window key and neutral background. He faces camera with a thoughtful natural expression while holding up one small blank pearl card, as if turning a question over. Realistic skin texture and hands, 65 mm full-frame equivalent, natural headroom. Constraints: no logos, legible text, numbers, captions, watermark, fake metrics, stock thumbs-up, or exaggerated gesture. Same fictional actor, wardrobe and room for later shots.",
+      "dimensions_px": {
+        "width": 1672,
+        "height": 940
+      },
+      "bytes": 1857789,
+      "sha256": "b867ced90953f510d4bb2aca03e375ec096aba72a494073634cd62ac71458572",
+      "path": "assets/videos/frames/P15-shot-01.png",
+      "source_reference_hashes": []
+    },
+    {
+      "asset_id": "P15-shot-02",
+      "post_id": "P15",
+      "shot": 2,
+      "generation_receipt": "exec-85a8fa4a-863e-458c-97c3-0fa2ccb4cbb7",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Asset type: second landscape 16:9 frame in the same fictional male founder video. Same navy overshirt, pale desk and bright office. Close-up of the founder's hands revealing exactly three separate blank pearl cards side by side on the desk—each card distinct, with visible gaps, no arrows—with a small plain analog timer and open blank notebook nearby to represent time, awareness and trust as separate questions. No marks or writing on cards or timer. 50 mm documentary detail, natural hand proportions, soft window light, medium depth of field. No words, numbers, logo, captions, watermark, fake interface, or funnel graphic.",
+      "dimensions_px": {
+        "width": 1672,
+        "height": 941
+      },
+      "bytes": 1783102,
+      "sha256": "cde2d6e21f48ae36985036a23df37319fce3db0cf52b7dd48843f9814bb4ff23",
+      "path": "assets/videos/frames/P15-shot-02.png",
+      "source_reference_hashes": [
+        "b867ced90953f510d4bb2aca03e375ec096aba72a494073634cd62ac71458572"
+      ]
+    },
+    {
+      "asset_id": "P15-shot-03",
+      "post_id": "P15",
+      "shot": 3,
+      "generation_receipt": "exec-54dbcd5e-b759-4f87-909f-df1fb0564c14",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Asset type: third landscape 16:9 insert frame in the same fictional male founder video. Close tabletop angle at the same pale desk. Show exactly five blank pearl cards in a loose but separate side-by-side arrangement with visible gaps, no connecting lines or arrows; a hand places the fourth and fifth cards beside the first three. A laptop with only a few empty neutral tiles sits softly out of focus at frame edge, suggesting review without fabricated data. Same navy sleeve and natural office light. 50 mm lens, all cards readable as physical blank cards, natural perspective and hands. No text, numbers, logos, captions, watermark, fake user interface, or funnel graphic.",
+      "dimensions_px": {
+        "width": 1672,
+        "height": 941
+      },
+      "bytes": 1783061,
+      "sha256": "d49d3d7182844f117b61adc6c1711ef0e299eafaa01407149cdf82ac0d01bc60",
+      "path": "assets/videos/frames/P15-shot-03.png",
+      "source_reference_hashes": [
+        "b867ced90953f510d4bb2aca03e375ec096aba72a494073634cd62ac71458572"
+      ]
+    },
+    {
+      "asset_id": "P15-shot-04",
+      "post_id": "P15",
+      "shot": 4,
+      "generation_receipt": "exec-2e9293f1-5911-4218-9447-3908a57cb657",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Asset type: revised fourth landscape 16:9 storyboard frame in the same fictional male founder video. Reference image establishes the same fictional male presenter, navy overshirt, pale desk, bright office and soft daylight; retain that identity, wardrobe, room and natural photo style. Eye-level medium three-quarter view with the presenter alone at the same desk. Exactly five physically separate blank pearl cards sit in one clear row with visible gaps. His natural hand sets aside a thin transparent blank acetate sheet, revealing the separate cards underneath. No second person. Keep anatomy and hands realistic, soft daylight, commercial documentary still, 65 mm equivalent, medium depth of field. No text, arrows, marks, UI, logo, captions, watermark, fake analytics, or connecting elements.",
+      "dimensions_px": {
+        "width": 1672,
+        "height": 941
+      },
+      "bytes": 1831348,
+      "sha256": "93307ff81d24178df1d945e818dbe10449569391c610bfae8129305c77fdd3ba",
+      "path": "assets/videos/frames/P15-shot-04.png",
+      "source_reference_hashes": [
+        "b867ced90953f510d4bb2aca03e375ec096aba72a494073634cd62ac71458572"
+      ]
+    },
+    {
+      "asset_id": "P15-shot-05",
+      "post_id": "P15",
+      "shot": 5,
+      "generation_receipt": "exec-75d3ffe7-bc61-4c8f-b30c-5497b5172d63",
+      "tool": "built-in image_gen",
+      "prompt": "Use case: photorealistic-natural. Asset type: fifth landscape 16:9 storyboard frame in the same fictional male founder video. Top-down view of a pale desk with exactly five separate blank pearl cards laid side by side, each with one tiny discrete citron tab at its top edge; no arrows and no connections. Place a simple open notebook nearby with one empty baseline box on the page and a navy overshirt sleeve/hand just entering frame to point toward the blank box. Clean natural tabletop, subtle navy and pearl palette, small citron accents only. Believable 50 mm overhead perspective, soft even daylight. Constraints: no legible text, numbers, logo, captions, watermark, funnel, or fake metrics.",
+      "dimensions_px": {
+        "width": 1672,
+        "height": 940
+      },
+      "bytes": 1898299,
+      "sha256": "3683d87a81650a11804d9f70b2fa76d8a1db17e98e5725266870bb50dacfdb1a",
+      "path": "assets/videos/frames/P15-shot-05.png",
+      "source_reference_hashes": []
+    }
+  ],
+  "rights": "Original generated fictional stills; exact generation reference hashes retained; reference source files stay local."
+}

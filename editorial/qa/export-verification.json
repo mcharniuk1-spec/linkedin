@@ -1,0 +1,750 @@
+{
+  "status": "PASS",
+  "publication_ids": [
+    "P01",
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06",
+    "P07",
+    "P08",
+    "P09",
+    "P10",
+    "P11",
+    "P12",
+    "P13",
+    "P14",
+    "P15",
+    "P16",
+    "P17",
+    "P18",
+    "P19",
+    "P20"
+  ],
+  "body_hashes": {
+    "P01": "28b547ea239c44efd5f8a3250598db58118d3f2eb31590b3db9624a830fdb26d",
+    "P02": "48168c657e6527b8d98d4310af6aa3a9dc6263d19338201157e2e86c73bfcd08",
+    "P03": "329e271d5dca97b66f4ba6b181fb1afedfcad9bf3b847ca186042a4418b3dbc7",
+    "P04": "d7fd7434266a32e858715fb07c87f4b60b62c5cb5ee2d4beddacd4fc6ea6422d",
+    "P05": "929a3fe191d2c96e36251b44cd793087c4317d8ad472343dc605b916e55d47bb",
+    "P06": "13a175c03905d947bc5bd07ffb03e5e8c15cc76f10e8f09c2850dfcc7addb544",
+    "P07": "0edb0653bef23de3c083017cf98ce517c7f997574dcee142fcdb5425cd91cf4e",
+    "P08": "459f4060faaf1263f4e8585664bf4262096524bdb51b4057e04e1550adddaf2f",
+    "P09": "b5043e7805462fe726a735adefc6246c9e39c28fe3b64b5a83fddfad318fd79c",
+    "P10": "201b2221f69fc4d9f7b462a10a53eac9ec37c001acc59e9f3be9f02fa0e14701",
+    "P11": "750801b4f30faa69b3d24b3b0df5ad51b9e2044796fed052ab1a2a3680825b8c",
+    "P12": "64eb5ec2c9e06ad83f306098eb09a008c7f05ef8a4f0eeed65b99a601baaa76e",
+    "P13": "226148fad58583f00e45eecd530255236f241e2a77b644c0e98b4f9fbcaab172",
+    "P14": "413331912250e89fc55942b0104498161739a17dda4913f0805ad8fd3d46c066",
+    "P15": "d496ca8fd028493d64eb5f6aed189412e2719c80336939dc0db194d866eb2906",
+    "P16": "ec364f57f75ef4e45986ad0c3f3f67b2f5c0e1e07f04b1b085b1500118612a77",
+    "P17": "bfa48a16b2df59b7cd0b0a9517cfb5bd7b8365b8a93feb027c808e23acb97e4b",
+    "P18": "85a7128e2fc7b413932388a14020728bb42952d93e9d47ba3a1c41456e86712f",
+    "P19": "7ddbf1f283d568e1fdaeec85685c446a047eee11c356b03f66edef8a4b2e6718",
+    "P20": "ed8b9415d7ae4de3a597ce87ab84d0993edda5768ddc099b8a4d2010de42f6da"
+  },
+  "formats": {
+    "image": 13,
+    "video": 2,
+    "text-only": 5
+  },
+  "diagrams": 13,
+  "diagram_exports": 13,
+  "fictional_stills": 10,
+  "silent75s_previews": 2,
+  "scripts": 2,
+  "captions": 4,
+  "figma_frame_links": 20,
+  "check_count": 170,
+  "passed": 170,
+  "checks": [
+    {
+      "name": "exact ordered20 source IDs",
+      "pass": true
+    },
+    {
+      "name": "format distribution",
+      "pass": true
+    },
+    {
+      "name": "P01 body exact",
+      "pass": true
+    },
+    {
+      "name": "P02 body exact",
+      "pass": true
+    },
+    {
+      "name": "P03 body exact",
+      "pass": true
+    },
+    {
+      "name": "P04 body exact",
+      "pass": true
+    },
+    {
+      "name": "P05 body exact",
+      "pass": true
+    },
+    {
+      "name": "P06 body exact",
+      "pass": true
+    },
+    {
+      "name": "P07 body exact",
+      "pass": true
+    },
+    {
+      "name": "P08 body exact",
+      "pass": true
+    },
+    {
+      "name": "P09 body exact",
+      "pass": true
+    },
+    {
+      "name": "P10 body exact",
+      "pass": true
+    },
+    {
+      "name": "P11 body exact",
+      "pass": true
+    },
+    {
+      "name": "P12 body exact",
+      "pass": true
+    },
+    {
+      "name": "P13 body exact",
+      "pass": true
+    },
+    {
+      "name": "P14 body exact",
+      "pass": true
+    },
+    {
+      "name": "P15 body exact",
+      "pass": true
+    },
+    {
+      "name": "P16 body exact",
+      "pass": true
+    },
+    {
+      "name": "P17 body exact",
+      "pass": true
+    },
+    {
+      "name": "P18 body exact",
+      "pass": true
+    },
+    {
+      "name": "P19 body exact",
+      "pass": true
+    },
+    {
+      "name": "P20 body exact",
+      "pass": true
+    },
+    {
+      "name": "every body matches frozen content manifest",
+      "pass": true
+    },
+    {
+      "name": "images/P01.svg manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P01.png manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P02.svg manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P02.png manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P03.svg manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P03.png manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P04.svg manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P04.png manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P05.svg manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P05.png manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P06.svg manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P06.png manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P07.svg manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P07.png manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P08.svg manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P08.png manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P09.svg manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P09.png manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P10.svg manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P10.png manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P11.svg manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P11.png manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P12.svg manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P12.png manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P13.svg manifest hash",
+      "pass": true
+    },
+    {
+      "name": "images/P13.png manifest hash",
+      "pass": true
+    },
+    {
+      "name": "P14-shot-01 frozen hash",
+      "pass": true
+    },
+    {
+      "name": "P14-shot-02 frozen hash",
+      "pass": true
+    },
+    {
+      "name": "P14-shot-03 frozen hash",
+      "pass": true
+    },
+    {
+      "name": "P14-shot-04 frozen hash",
+      "pass": true
+    },
+    {
+      "name": "P14-shot-05 frozen hash",
+      "pass": true
+    },
+    {
+      "name": "P15-shot-01 frozen hash",
+      "pass": true
+    },
+    {
+      "name": "P15-shot-02 frozen hash",
+      "pass": true
+    },
+    {
+      "name": "P15-shot-03 frozen hash",
+      "pass": true
+    },
+    {
+      "name": "P15-shot-04 frozen hash",
+      "pass": true
+    },
+    {
+      "name": "P15-shot-05 frozen hash",
+      "pass": true
+    },
+    {
+      "name": "P14 exact script",
+      "pass": true
+    },
+    {
+      "name": "P15 exact script",
+      "pass": true
+    },
+    {
+      "name": "P14 preview hash",
+      "pass": true
+    },
+    {
+      "name": "P15 preview hash",
+      "pass": true
+    },
+    {
+      "name": "P01 Figma body parity",
+      "pass": true
+    },
+    {
+      "name": "P02 Figma body parity",
+      "pass": true
+    },
+    {
+      "name": "P03 Figma body parity",
+      "pass": true
+    },
+    {
+      "name": "P04 Figma body parity",
+      "pass": true
+    },
+    {
+      "name": "P05 Figma body parity",
+      "pass": true
+    },
+    {
+      "name": "P06 Figma body parity",
+      "pass": true
+    },
+    {
+      "name": "P07 Figma body parity",
+      "pass": true
+    },
+    {
+      "name": "P08 Figma body parity",
+      "pass": true
+    },
+    {
+      "name": "P09 Figma body parity",
+      "pass": true
+    },
+    {
+      "name": "P10 Figma body parity",
+      "pass": true
+    },
+    {
+      "name": "P11 Figma body parity",
+      "pass": true
+    },
+    {
+      "name": "P12 Figma body parity",
+      "pass": true
+    },
+    {
+      "name": "P13 Figma body parity",
+      "pass": true
+    },
+    {
+      "name": "P14 Figma body parity",
+      "pass": true
+    },
+    {
+      "name": "P15 Figma body parity",
+      "pass": true
+    },
+    {
+      "name": "P16 Figma body parity",
+      "pass": true
+    },
+    {
+      "name": "P17 Figma body parity",
+      "pass": true
+    },
+    {
+      "name": "P18 Figma body parity",
+      "pass": true
+    },
+    {
+      "name": "P19 Figma body parity",
+      "pass": true
+    },
+    {
+      "name": "P20 Figma body parity",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/images/P01.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/images/P02.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/images/P03.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/images/P04.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/images/P05.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/images/P06.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/images/P07.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/images/P08.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/images/P09.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/images/P10.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/images/P11.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/images/P12.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/images/P13.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/videos/frames/P14-shot-01.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/videos/previews/P14-storyboard.mp4",
+      "pass": true
+    },
+    {
+      "name": "preview link videos/scripts/P14.vtt",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/videos/frames/P15-shot-01.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/videos/previews/P15-storyboard.mp4",
+      "pass": true
+    },
+    {
+      "name": "preview link videos/scripts/P15.vtt",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/videos/frames/P14-shot-01.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/videos/frames/P14-shot-02.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/videos/frames/P14-shot-03.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/videos/frames/P14-shot-04.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/videos/frames/P14-shot-05.png",
+      "pass": true
+    },
+    {
+      "name": "preview link videos/scripts/P14.json",
+      "pass": true
+    },
+    {
+      "name": "preview link videos/scripts/P14.srt",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/videos/frames/P15-shot-01.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/videos/frames/P15-shot-02.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/videos/frames/P15-shot-03.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/videos/frames/P15-shot-04.png",
+      "pass": true
+    },
+    {
+      "name": "preview link assets/videos/frames/P15-shot-05.png",
+      "pass": true
+    },
+    {
+      "name": "preview link videos/scripts/P15.json",
+      "pass": true
+    },
+    {
+      "name": "preview link videos/scripts/P15.srt",
+      "pass": true
+    },
+    {
+      "name": "preview link copy/publications.md",
+      "pass": true
+    },
+    {
+      "name": "P14 actual video duration",
+      "pass": true
+    },
+    {
+      "name": "P14 silent video",
+      "pass": true
+    },
+    {
+      "name": "P14 video size",
+      "pass": true
+    },
+    {
+      "name": "P15 actual video duration",
+      "pass": true
+    },
+    {
+      "name": "P15 silent video",
+      "pass": true
+    },
+    {
+      "name": "P15 video size",
+      "pass": true
+    },
+    {
+      "name": "P14 srt five cues",
+      "pass": true
+    },
+    {
+      "name": "P14 srt caption/script token parity",
+      "pass": true
+    },
+    {
+      "name": "P14 vtt five cues",
+      "pass": true
+    },
+    {
+      "name": "P14 vtt caption/script token parity",
+      "pass": true
+    },
+    {
+      "name": "P15 srt five cues",
+      "pass": true
+    },
+    {
+      "name": "P15 srt caption/script token parity",
+      "pass": true
+    },
+    {
+      "name": "P15 vtt five cues",
+      "pass": true
+    },
+    {
+      "name": "P15 vtt caption/script token parity",
+      "pass": true
+    },
+    {
+      "name": "no machine path index.html",
+      "pass": true
+    },
+    {
+      "name": "no machine path README.md",
+      "pass": true
+    },
+    {
+      "name": "no machine path release-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "no machine path qa/export-verification.json",
+      "pass": true
+    },
+    {
+      "name": "no machine path qa/copy-review.json",
+      "pass": true
+    },
+    {
+      "name": "no machine path videos/generation-prompts.json",
+      "pass": true
+    },
+    {
+      "name": "no machine path figma/FRAME-MAP.json",
+      "pass": true
+    },
+    {
+      "name": "no machine path figma/FRAME-MAP.md",
+      "pass": true
+    },
+    {
+      "name": "no machine path scripts/verify.py",
+      "pass": true
+    },
+    {
+      "name": "no machine path sources/references.json",
+      "pass": true
+    },
+    {
+      "name": "no machine path sources/editorial-methods.json",
+      "pass": true
+    },
+    {
+      "name": "no machine path copy/publications.json",
+      "pass": true
+    },
+    {
+      "name": "no machine path copy/publications.md",
+      "pass": true
+    },
+    {
+      "name": "no machine path copy/visual-briefs.json",
+      "pass": true
+    },
+    {
+      "name": "no machine path videos/scripts/P14.srt",
+      "pass": true
+    },
+    {
+      "name": "no machine path videos/scripts/P15.srt",
+      "pass": true
+    },
+    {
+      "name": "no machine path videos/scripts/P15.vtt",
+      "pass": true
+    },
+    {
+      "name": "no machine path videos/scripts/P14.vtt",
+      "pass": true
+    },
+    {
+      "name": "no machine path videos/scripts/P15.json",
+      "pass": true
+    },
+    {
+      "name": "no machine path videos/scripts/P14.json",
+      "pass": true
+    },
+    {
+      "name": "no machine path assets/images/P02.svg",
+      "pass": true
+    },
+    {
+      "name": "no machine path assets/images/P03.svg",
+      "pass": true
+    },
+    {
+      "name": "no machine path assets/images/P01.svg",
+      "pass": true
+    },
+    {
+      "name": "no machine path assets/images/P04.svg",
+      "pass": true
+    },
+    {
+      "name": "no machine path assets/images/P10.svg",
+      "pass": true
+    },
+    {
+      "name": "no machine path assets/images/P11.svg",
+      "pass": true
+    },
+    {
+      "name": "no machine path assets/images/P05.svg",
+      "pass": true
+    },
+    {
+      "name": "no machine path assets/images/P13.svg",
+      "pass": true
+    },
+    {
+      "name": "no machine path assets/images/P07.svg",
+      "pass": true
+    },
+    {
+      "name": "no machine path assets/images/P06.svg",
+      "pass": true
+    },
+    {
+      "name": "no machine path assets/images/P12.svg",
+      "pass": true
+    },
+    {
+      "name": "no machine path assets/images/P08.svg",
+      "pass": true
+    },
+    {
+      "name": "no machine path assets/images/P09.svg",
+      "pass": true
+    },
+    {
+      "name": "no machine path assets/images/manifest.json",
+      "pass": true
+    },
+    {
+      "name": "no machine path assets/videos/asset-manifest.json",
+      "pass": true
+    },
+    {
+      "name": "no machine path assets/fonts/inter-OFL.txt",
+      "pass": true
+    },
+    {
+      "name": "no machine path assets/fonts/archivo-OFL.txt",
+      "pass": true
+    },
+    {
+      "name": "no machine path assets/videos/previews/manifest.json",
+      "pass": true
+    },
+    {
+      "name": "external source IDs complete",
+      "pass": true
+    }
+  ],
+  "limitations": [
+    "Owner/proposed-author approval is pending.",
+    "P16/P19 research attribution and P20 team-capability statement require owner confirmation before social publication.",
+    "Two videos are silent generated storyboard animatics, not filmed/spoken videos.",
+    "Private source documents/founder samples and raw third-party research are excluded.",
+    "No new rendered browser review performed by this export worker; existing local editorial rendered checks are dated source evidence."
+  ]
+}

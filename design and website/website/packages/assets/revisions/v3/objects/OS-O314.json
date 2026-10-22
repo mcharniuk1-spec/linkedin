@@ -1,0 +1,120 @@
+{
+  "id": "OS-O314",
+  "name": "Network",
+  "context": "The relevant buying group",
+  "rights": "Original authored meshes and glyphs; no third-party model or competitor media",
+  "render": {
+    "width": 600,
+    "height": 600,
+    "alpha": true,
+    "actual": "Three.js0.186.1 GLB source scene",
+    "toneMapping": "ACESFilmic",
+    "exposure": 0.9
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      2.3,
+      7
+    ],
+    "lookAt": [
+      0,
+      0,
+      2.7755575615628914e-17
+    ],
+    "extent": 1.1946971186178676
+  },
+  "meshes": [
+    {
+      "name": "buying-group connection",
+      "vertices": 231,
+      "triangles": 400,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "buying-group connection",
+      "vertices": 231,
+      "triangles": 400,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "buying-group connection",
+      "vertices": 231,
+      "triangles": 400,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "buying-group connection",
+      "vertices": 231,
+      "triangles": 400,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "signal node",
+      "vertices": 423,
+      "triangles": 720,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "citron / Outspoken V3"
+    },
+    {
+      "name": "signal node",
+      "vertices": 423,
+      "triangles": 720,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "signal node",
+      "vertices": 423,
+      "triangles": 720,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "signal node",
+      "vertices": 423,
+      "triangles": 720,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "signal node",
+      "vertices": 423,
+      "triangles": 720,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.9418674241369922,
+      -0.7800000005960465,
+      -0.38234335507769657
+    ],
+    "max": [
+      0.9418674241369922,
+      0.7800000005960465,
+      0.3823433550776966
+    ]
+  },
+  "kind": "semantic_object",
+  "usage": "Use for audience mapping, connected roles and meaningful distribution.",
+  "limitations": [
+    "Procedural satin material, not a photographic surface capture.",
+    "Use the flat SVG for small UI; do not shrink a decorative 3D render below64px."
+  ]
+}

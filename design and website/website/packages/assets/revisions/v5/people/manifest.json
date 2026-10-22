@@ -1,0 +1,44 @@
+{
+  "revision": "5",
+  "mode": "built-in imagegen",
+  "assets": [
+    {
+      "id": "founder-blue",
+      "png": "founder-blue.png",
+      "webp": "founder-blue.webp",
+      "source": "exec-48cd594a-46fc-491d-91a6-0a32b9159f34.png",
+      "sha256": "a5debf461725d2cf70d014d45f119548f1dbd42a38ed025f13124cf5c1827697",
+      "size": [
+        1672,
+        941
+      ],
+      "rights": "Original built-in generated fictional editorial person; no realidentity/customer relationship."
+    },
+    {
+      "id": "avatar-a",
+      "png": "avatar-a.png",
+      "webp": "avatar-a.webp",
+      "source": "exec-23e9c782-a592-4534-8740-6097d001ca91.png",
+      "sha256": "92d7387d18a3f753ab05f1dea01fc54e0cb0e51adeed1b1b6645ec50fc1b5509",
+      "size": [
+        1254,
+        1254
+      ],
+      "rights": "Original built-in generated fictional editorial person; no realidentity/customer relationship."
+    },
+    {
+      "id": "avatar-b",
+      "png": "avatar-b.png",
+      "webp": "avatar-b.webp",
+      "source": "exec-bd56a169-70ad-41a5-b385-00f6fcb77d3e.png",
+      "sha256": "66dcd68c66a7f06850e74f6791526d9e44316f9695549c56ad3af740cdad3900",
+      "size": [
+        1254,
+        1254
+      ],
+      "rights": "Original built-in generated fictional editorial person; no realidentity/customer relationship."
+    }
+  ],
+  "edits": "Format conversion only; original PNG preserved.",
+  "disclosure": "People are fictional illustrations."
+}

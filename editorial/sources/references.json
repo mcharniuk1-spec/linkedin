@@ -1,0 +1,376 @@
+{
+  "accessed_at": "2026-10-22",
+  "source_ids_expected": [
+    "LI-ANALYTICS-MEMBER",
+    "LI-AUTHENTIC-2026",
+    "LI-DISTRIBUTION-HELP",
+    "LI-POST-ANALYTICS",
+    "LI-VIDEO-CAPTIONS",
+    "OUT-BRIEF-P1",
+    "OUT-BRIEF-P2",
+    "OUT-BRIEF-P2-TECHNICAL-UNDERSTANDING",
+    "OUT-BRIEF-P2-WORTH-1",
+    "OUT-BRIEF-P2-WORTH-2",
+    "OUT-BRIEF-P2-WORTH-3",
+    "OUT-BRIEF-P2-WORTH-4",
+    "OUT-BRIEF-P2-WORTH-5",
+    "OUT-WEB-OFFER",
+    "OUT-WEB-SERVICE-BOUNDARY",
+    "OUT-WEB-SERVICE-MARKETING",
+    "OUT-WEB-SERVICE-MEASUREMENT",
+    "OUT-WEB-SERVICE-WRITING",
+    "V5-CAPTION-WHISPER-ROUTE",
+    "V5-COHORT-LIMITS",
+    "V5-EXA-QUERY-DATE-LIMIT",
+    "V5-EXA-ROUTE",
+    "V5-FFMPEG-FRAME-PREP",
+    "V5-MEDIA-REVIEW-LIMITS",
+    "V5-METHOD-EDITORIAL",
+    "V5-METHOD-METRICS",
+    "V5-OBSERVATION-COUNTS",
+    "V5-OUTCOME-GAP",
+    "V5-PIPELINE-CLAIM-BOUNDARIES",
+    "V5-PIPELINE-IMMUTABLE",
+    "V5-PYTHON-SQLITE-WORKFLOW",
+    "V5-QUALIFICATION-SEPARATION",
+    "V5-REPARSE-LINEAGE",
+    "V5-SOURCE-HASH-CAPTURE-TIME"
+  ],
+  "references": [
+    {
+      "id": "LI-ANALYTICS-MEMBER",
+      "title": "Analytics for LinkedIn members",
+      "publisher": "LinkedIn Help",
+      "date": "last updated 2026-04 (relative; accessed 2026-10-22)",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a711358",
+      "source_type": "official analytics documentation",
+      "method": "Lists post, creator, audience and profile analytics available to members.",
+      "supports": [
+        "Use owner analytics and audience/profile measures beyond public reactions."
+      ],
+      "limits": "Feature availability and fields can vary by post type/account; individual analytics are owner-only."
+    },
+    {
+      "id": "LI-AUTHENTIC-2026",
+      "title": "How LinkedIn Is Improving the Feed to Show More Relevant, Authentic Professional Content",
+      "publisher": "LinkedIn Pressroom",
+      "date": "2026-03-12",
+      "url": "https://news.linkedin.com/2026/ImprovingTheFeed",
+      "source_type": "official product policy announcement",
+      "method": "LinkedIn states current direction on relevance, authentic engagement and reduced generic/engagement-bait content.",
+      "supports": [
+        "Avoid comment automation, engagement pods, repetitive low-substance and “comment to agree” bait.",
+        "Prefer genuine useful professional insight."
+      ],
+      "limits": "Policy statement, not independent measurement of distribution outcomes; implementation is rolling out."
+    },
+    {
+      "id": "LI-DISTRIBUTION-HELP",
+      "title": "Distribution of your content on LinkedIn",
+      "publisher": "LinkedIn Help",
+      "date": "accessed 2026-10-22; page date not displayed in captured result",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a516930",
+      "source_type": "official help guidance",
+      "method": "Explains visibility, follower distribution, public-profile indexing and editorial tips.",
+      "supports": [
+        "Write for audience relevance; share useful professional insights and avoid over-promotion.",
+        "Public visibility depends on profile/content settings."
+      ],
+      "limits": "Broad platform help guidance; not a ranking guarantee."
+    },
+    {
+      "id": "LI-POST-ANALYTICS",
+      "title": "View post analytics for your content",
+      "publisher": "LinkedIn Help",
+      "date": "last updated 2026-08 (relative; accessed 2026-10-22)",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a525196/",
+      "source_type": "official analytics documentation",
+      "method": "Describes per-post discovery, in/out-of-network, profile activity, video/article, social and link analytics; notes own interactions count.",
+      "supports": [
+        "Measure relevant funnel stages and compare at fixed windows; account for creator self-interactions."
+      ],
+      "limits": "Metrics are available for bounded retention windows and vary by post type; analytics do not prove causality."
+    },
+    {
+      "id": "LI-VIDEO-CAPTIONS",
+      "title": "Accessibility features for video posts",
+      "publisher": "LinkedIn Help",
+      "date": "last updated 2023 (relative; accessed 2026-10-22)",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a1375949",
+      "source_type": "official accessibility documentation",
+      "method": "Describes captions and high-contrast viewing controls.",
+      "supports": [
+        "Use accurate captions and readable contrast."
+      ],
+      "limits": "Some features are gradually rolled out; page is older and documents access features, not engagement lift."
+    },
+    {
+      "id": "OUT-BRIEF-P1",
+      "source_type": "owner-authored brief",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "distribution": "Source document remains local; this package preserves the derived candidate and claim ID only.",
+      "limits": "Owner-stated method/offer rationale; no independent buyer, credential or outcome verification."
+    },
+    {
+      "id": "OUT-BRIEF-P2",
+      "source_type": "owner-authored brief",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "distribution": "Source document remains local; this package preserves the derived candidate and claim ID only.",
+      "limits": "Owner-stated method/offer rationale; no independent buyer, credential or outcome verification."
+    },
+    {
+      "id": "OUT-BRIEF-P2-TECHNICAL-UNDERSTANDING",
+      "source_type": "owner-authored brief",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "distribution": "Source document remains local; this package preserves the derived candidate and claim ID only.",
+      "limits": "Owner-stated method/offer rationale; no independent buyer, credential or outcome verification."
+    },
+    {
+      "id": "OUT-BRIEF-P2-WORTH-1",
+      "source_type": "owner-authored brief",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "distribution": "Source document remains local; this package preserves the derived candidate and claim ID only.",
+      "limits": "Owner-stated method/offer rationale; no independent buyer, credential or outcome verification."
+    },
+    {
+      "id": "OUT-BRIEF-P2-WORTH-2",
+      "source_type": "owner-authored brief",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "distribution": "Source document remains local; this package preserves the derived candidate and claim ID only.",
+      "limits": "Owner-stated method/offer rationale; no independent buyer, credential or outcome verification."
+    },
+    {
+      "id": "OUT-BRIEF-P2-WORTH-3",
+      "source_type": "owner-authored brief",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "distribution": "Source document remains local; this package preserves the derived candidate and claim ID only.",
+      "limits": "Owner-stated method/offer rationale; no independent buyer, credential or outcome verification."
+    },
+    {
+      "id": "OUT-BRIEF-P2-WORTH-4",
+      "source_type": "owner-authored brief",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "distribution": "Source document remains local; this package preserves the derived candidate and claim ID only.",
+      "limits": "Owner-stated method/offer rationale; no independent buyer, credential or outcome verification."
+    },
+    {
+      "id": "OUT-BRIEF-P2-WORTH-5",
+      "source_type": "owner-authored brief",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "distribution": "Source document remains local; this package preserves the derived candidate and claim ID only.",
+      "limits": "Owner-stated method/offer rationale; no independent buyer, credential or outcome verification."
+    },
+    {
+      "id": "OUT-WEB-OFFER",
+      "source_type": "owned website offer",
+      "url": "https://outspoken-voice-7c4e2.vercel.app/services",
+      "source_release": "20261022-outspoken-design-v9",
+      "limits": "Describes current proposed offer; not evidence of clients or outcomes."
+    },
+    {
+      "id": "OUT-WEB-SERVICE-BOUNDARY",
+      "source_type": "owned website offer",
+      "url": "https://outspoken-voice-7c4e2.vercel.app/services",
+      "source_release": "20261022-outspoken-design-v9",
+      "limits": "Describes current proposed offer; not evidence of clients or outcomes."
+    },
+    {
+      "id": "OUT-WEB-SERVICE-MARKETING",
+      "source_type": "owned website offer",
+      "url": "https://outspoken-voice-7c4e2.vercel.app/services",
+      "source_release": "20261022-outspoken-design-v9",
+      "limits": "Describes current proposed offer; not evidence of clients or outcomes."
+    },
+    {
+      "id": "OUT-WEB-SERVICE-MEASUREMENT",
+      "source_type": "owned website offer",
+      "url": "https://outspoken-voice-7c4e2.vercel.app/services",
+      "source_release": "20261022-outspoken-design-v9",
+      "limits": "Describes current proposed offer; not evidence of clients or outcomes."
+    },
+    {
+      "id": "OUT-WEB-SERVICE-WRITING",
+      "source_type": "owned website offer",
+      "url": "https://outspoken-voice-7c4e2.vercel.app/services",
+      "source_release": "20261022-outspoken-design-v9",
+      "limits": "Describes current proposed offer; not evidence of clients or outcomes."
+    },
+    {
+      "id": "V5-CAPTION-WHISPER-ROUTE",
+      "source_type": "owned bounded research method/observations",
+      "source_release": "20261022-linkedin-pipeline-v5",
+      "portable_context": [
+        "../docs/FUNCTIONS-AND-DATA-PATH.md",
+        "../docs/SEARCH-AND-QUALIFICATION.md",
+        "../datasets/current/README.md"
+      ],
+      "limits": "Dated curated sample and source-bound observations; no causal, market-wide, sales or personal execution proof."
+    },
+    {
+      "id": "V5-COHORT-LIMITS",
+      "source_type": "owned bounded research method/observations",
+      "source_release": "20261022-linkedin-pipeline-v5",
+      "portable_context": [
+        "../docs/FUNCTIONS-AND-DATA-PATH.md",
+        "../docs/SEARCH-AND-QUALIFICATION.md",
+        "../datasets/current/README.md"
+      ],
+      "limits": "Dated curated sample and source-bound observations; no causal, market-wide, sales or personal execution proof."
+    },
+    {
+      "id": "V5-EXA-QUERY-DATE-LIMIT",
+      "source_type": "owned bounded research method/observations",
+      "source_release": "20261022-linkedin-pipeline-v5",
+      "portable_context": [
+        "../docs/FUNCTIONS-AND-DATA-PATH.md",
+        "../docs/SEARCH-AND-QUALIFICATION.md",
+        "../datasets/current/README.md"
+      ],
+      "limits": "Dated curated sample and source-bound observations; no causal, market-wide, sales or personal execution proof."
+    },
+    {
+      "id": "V5-EXA-ROUTE",
+      "source_type": "owned bounded research method/observations",
+      "source_release": "20261022-linkedin-pipeline-v5",
+      "portable_context": [
+        "../docs/FUNCTIONS-AND-DATA-PATH.md",
+        "../docs/SEARCH-AND-QUALIFICATION.md",
+        "../datasets/current/README.md"
+      ],
+      "limits": "Dated curated sample and source-bound observations; no causal, market-wide, sales or personal execution proof."
+    },
+    {
+      "id": "V5-FFMPEG-FRAME-PREP",
+      "source_type": "owned bounded research method/observations",
+      "source_release": "20261022-linkedin-pipeline-v5",
+      "portable_context": [
+        "../docs/FUNCTIONS-AND-DATA-PATH.md",
+        "../docs/SEARCH-AND-QUALIFICATION.md",
+        "../datasets/current/README.md"
+      ],
+      "limits": "Dated curated sample and source-bound observations; no causal, market-wide, sales or personal execution proof."
+    },
+    {
+      "id": "V5-MEDIA-REVIEW-LIMITS",
+      "source_type": "owned bounded research method/observations",
+      "source_release": "20261022-linkedin-pipeline-v5",
+      "portable_context": [
+        "../docs/FUNCTIONS-AND-DATA-PATH.md",
+        "../docs/SEARCH-AND-QUALIFICATION.md",
+        "../datasets/current/README.md"
+      ],
+      "limits": "Dated curated sample and source-bound observations; no causal, market-wide, sales or personal execution proof."
+    },
+    {
+      "id": "V5-METHOD-EDITORIAL",
+      "source_type": "owned bounded research method/observations",
+      "source_release": "20261022-linkedin-pipeline-v5",
+      "portable_context": [
+        "../docs/FUNCTIONS-AND-DATA-PATH.md",
+        "../docs/SEARCH-AND-QUALIFICATION.md",
+        "../datasets/current/README.md"
+      ],
+      "limits": "Dated curated sample and source-bound observations; no causal, market-wide, sales or personal execution proof."
+    },
+    {
+      "id": "V5-METHOD-METRICS",
+      "source_type": "owned bounded research method/observations",
+      "source_release": "20261022-linkedin-pipeline-v5",
+      "portable_context": [
+        "../docs/FUNCTIONS-AND-DATA-PATH.md",
+        "../docs/SEARCH-AND-QUALIFICATION.md",
+        "../datasets/current/README.md"
+      ],
+      "limits": "Dated curated sample and source-bound observations; no causal, market-wide, sales or personal execution proof."
+    },
+    {
+      "id": "V5-OBSERVATION-COUNTS",
+      "source_type": "owned bounded research method/observations",
+      "source_release": "20261022-linkedin-pipeline-v5",
+      "portable_context": [
+        "../docs/FUNCTIONS-AND-DATA-PATH.md",
+        "../docs/SEARCH-AND-QUALIFICATION.md",
+        "../datasets/current/README.md"
+      ],
+      "limits": "Dated curated sample and source-bound observations; no causal, market-wide, sales or personal execution proof."
+    },
+    {
+      "id": "V5-OUTCOME-GAP",
+      "source_type": "owned bounded research method/observations",
+      "source_release": "20261022-linkedin-pipeline-v5",
+      "portable_context": [
+        "../docs/FUNCTIONS-AND-DATA-PATH.md",
+        "../docs/SEARCH-AND-QUALIFICATION.md",
+        "../datasets/current/README.md"
+      ],
+      "limits": "Dated curated sample and source-bound observations; no causal, market-wide, sales or personal execution proof."
+    },
+    {
+      "id": "V5-PIPELINE-CLAIM-BOUNDARIES",
+      "source_type": "owned bounded research method/observations",
+      "source_release": "20261022-linkedin-pipeline-v5",
+      "portable_context": [
+        "../docs/FUNCTIONS-AND-DATA-PATH.md",
+        "../docs/SEARCH-AND-QUALIFICATION.md",
+        "../datasets/current/README.md"
+      ],
+      "limits": "Dated curated sample and source-bound observations; no causal, market-wide, sales or personal execution proof."
+    },
+    {
+      "id": "V5-PIPELINE-IMMUTABLE",
+      "source_type": "owned bounded research method/observations",
+      "source_release": "20261022-linkedin-pipeline-v5",
+      "portable_context": [
+        "../docs/FUNCTIONS-AND-DATA-PATH.md",
+        "../docs/SEARCH-AND-QUALIFICATION.md",
+        "../datasets/current/README.md"
+      ],
+      "limits": "Dated curated sample and source-bound observations; no causal, market-wide, sales or personal execution proof."
+    },
+    {
+      "id": "V5-PYTHON-SQLITE-WORKFLOW",
+      "source_type": "owned bounded research method/observations",
+      "source_release": "20261022-linkedin-pipeline-v5",
+      "portable_context": [
+        "../docs/FUNCTIONS-AND-DATA-PATH.md",
+        "../docs/SEARCH-AND-QUALIFICATION.md",
+        "../datasets/current/README.md"
+      ],
+      "limits": "Dated curated sample and source-bound observations; no causal, market-wide, sales or personal execution proof."
+    },
+    {
+      "id": "V5-QUALIFICATION-SEPARATION",
+      "source_type": "owned bounded research method/observations",
+      "source_release": "20261022-linkedin-pipeline-v5",
+      "portable_context": [
+        "../docs/FUNCTIONS-AND-DATA-PATH.md",
+        "../docs/SEARCH-AND-QUALIFICATION.md",
+        "../datasets/current/README.md"
+      ],
+      "limits": "Dated curated sample and source-bound observations; no causal, market-wide, sales or personal execution proof."
+    },
+    {
+      "id": "V5-REPARSE-LINEAGE",
+      "source_type": "owned bounded research method/observations",
+      "source_release": "20261022-linkedin-pipeline-v5",
+      "portable_context": [
+        "../docs/FUNCTIONS-AND-DATA-PATH.md",
+        "../docs/SEARCH-AND-QUALIFICATION.md",
+        "../datasets/current/README.md"
+      ],
+      "limits": "Dated curated sample and source-bound observations; no causal, market-wide, sales or personal execution proof."
+    },
+    {
+      "id": "V5-SOURCE-HASH-CAPTURE-TIME",
+      "source_type": "owned bounded research method/observations",
+      "source_release": "20261022-linkedin-pipeline-v5",
+      "portable_context": [
+        "../docs/FUNCTIONS-AND-DATA-PATH.md",
+        "../docs/SEARCH-AND-QUALIFICATION.md",
+        "../datasets/current/README.md"
+      ],
+      "limits": "Dated curated sample and source-bound observations; no causal, market-wide, sales or personal execution proof."
+    }
+  ],
+  "boundaries": "Public links and owned derived references only. No raw third-party posts, transcripts, private owner brief or founder-source samples."
+}

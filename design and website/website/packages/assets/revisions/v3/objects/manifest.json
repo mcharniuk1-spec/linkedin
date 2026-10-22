@@ -1,0 +1,489 @@
+{
+  "version": "3.0.0-candidate",
+  "status": "maker_rendered_and_exhaustively_checked_independent_review_pending",
+  "objects": [
+    {
+      "id": "OS-O301",
+      "name": "Microphone",
+      "context": "Interview and founder voice",
+      "usage": "Use beside a founder interview or a source quote; never imply an audio service that was not scoped.",
+      "glb": "OS-O301.glb",
+      "png": "OS-O301.png",
+      "webp": "OS-O301.webp",
+      "glyph": "OS-O301.svg",
+      "metadata": "OS-O301.json"
+    },
+    {
+      "id": "OS-O302",
+      "name": "Wavefront",
+      "context": "A point of view travelling outward",
+      "usage": "Use as a chapter divider for distribution or the spread of one useful idea.",
+      "glb": "OS-O302.glb",
+      "png": "OS-O302.png",
+      "webp": "OS-O302.webp",
+      "glyph": "OS-O302.svg",
+      "metadata": "OS-O302.json"
+    },
+    {
+      "id": "OS-O303",
+      "name": "Megaphone",
+      "context": "Distribution and campaign amplification",
+      "usage": "Use for an agreed distribution plan; does not imply unsolicited automated outreach.",
+      "glb": "OS-O303.glb",
+      "png": "OS-O303.png",
+      "webp": "OS-O303.webp",
+      "glyph": "OS-O303.svg",
+      "metadata": "OS-O303.json"
+    },
+    {
+      "id": "OS-O304",
+      "name": "Ink pen",
+      "context": "Professional writing and editorial judgment",
+      "usage": "Use beside original drafting, revision and voice decisions.",
+      "glb": "OS-O304.glb",
+      "png": "OS-O304.png",
+      "webp": "OS-O304.webp",
+      "glyph": "OS-O304.svg",
+      "metadata": "OS-O304.json"
+    },
+    {
+      "id": "OS-O305",
+      "name": "Notebook",
+      "context": "First-hand experience and source notes",
+      "usage": "Use in interview and discovery material; represents a private source, not published proof.",
+      "glb": "OS-O305.glb",
+      "png": "OS-O305.png",
+      "webp": "OS-O305.webp",
+      "glyph": "OS-O305.svg",
+      "metadata": "OS-O305.json"
+    },
+    {
+      "id": "OS-O306",
+      "name": "Publication stack",
+      "context": "One idea across several formats",
+      "usage": "Use beside posts, carousels and document sequencing.",
+      "glb": "OS-O306.glb",
+      "png": "OS-O306.png",
+      "webp": "OS-O306.webp",
+      "glyph": "OS-O306.svg",
+      "metadata": "OS-O306.json"
+    },
+    {
+      "id": "OS-O307",
+      "name": "Search lens",
+      "context": "Buyer language and discoverability",
+      "usage": "Use for profile search terms, customer research and finding evidence.",
+      "glb": "OS-O307.glb",
+      "png": "OS-O307.png",
+      "webp": "OS-O307.webp",
+      "glyph": "OS-O307.svg",
+      "metadata": "OS-O307.json"
+    },
+    {
+      "id": "OS-O308",
+      "name": "Profile frame",
+      "context": "A recognizable founder presence",
+      "usage": "Use beside profile positioning, headline and About-section work.",
+      "glb": "OS-O308.glb",
+      "png": "OS-O308.png",
+      "webp": "OS-O308.webp",
+      "glyph": "OS-O308.svg",
+      "metadata": "OS-O308.json"
+    },
+    {
+      "id": "OS-O309",
+      "name": "Dialogue",
+      "context": "An exchange that clarifies the idea",
+      "usage": "Use for interviews, useful replies and founder/editor conversation.",
+      "glb": "OS-O309.glb",
+      "png": "OS-O309.png",
+      "webp": "OS-O309.webp",
+      "glyph": "OS-O309.svg",
+      "metadata": "OS-O309.json"
+    },
+    {
+      "id": "OS-O310",
+      "name": "Envelope",
+      "context": "A useful follow-up",
+      "usage": "Use with permission-based email examples and client communication.",
+      "glb": "OS-O310.glb",
+      "png": "OS-O310.png",
+      "webp": "OS-O310.webp",
+      "glyph": "OS-O310.svg",
+      "metadata": "OS-O310.json"
+    },
+    {
+      "id": "OS-O311",
+      "name": "Calendar",
+      "context": "A considered publishing rhythm",
+      "usage": "Use for agreed content planning and approvals, without promising a fixed cadence.",
+      "glb": "OS-O311.glb",
+      "png": "OS-O311.png",
+      "webp": "OS-O311.webp",
+      "glyph": "OS-O311.svg",
+      "metadata": "OS-O311.json"
+    },
+    {
+      "id": "OS-O312",
+      "name": "Evidence check",
+      "context": "A claim checked against its source",
+      "usage": "Use beside source review and approval; does not certify a commercial result.",
+      "glb": "OS-O312.glb",
+      "png": "OS-O312.png",
+      "webp": "OS-O312.webp",
+      "glyph": "OS-O312.svg",
+      "metadata": "OS-O312.json"
+    },
+    {
+      "id": "OS-O313",
+      "name": "Compass",
+      "context": "A deliberate position",
+      "usage": "Use for strategic direction and editorial choices, not generic navigation.",
+      "glb": "OS-O313.glb",
+      "png": "OS-O313.png",
+      "webp": "OS-O313.webp",
+      "glyph": "OS-O313.svg",
+      "metadata": "OS-O313.json"
+    },
+    {
+      "id": "OS-O314",
+      "name": "Network",
+      "context": "The relevant buying group",
+      "usage": "Use for audience mapping, connected roles and meaningful distribution.",
+      "glb": "OS-O314.glb",
+      "png": "OS-O314.png",
+      "webp": "OS-O314.webp",
+      "glyph": "OS-O314.svg",
+      "metadata": "OS-O314.json"
+    },
+    {
+      "id": "OS-O315",
+      "name": "Spotlight",
+      "context": "Attention on the right point",
+      "usage": "Use for one selected buyer question or product insight.",
+      "glb": "OS-O315.glb",
+      "png": "OS-O315.png",
+      "webp": "OS-O315.webp",
+      "glyph": "OS-O315.svg",
+      "metadata": "OS-O315.json"
+    },
+    {
+      "id": "OS-O316",
+      "name": "Play frame",
+      "context": "A story in motion",
+      "usage": "Use beside founder video or product walkthrough media.",
+      "glb": "OS-O316.glb",
+      "png": "OS-O316.png",
+      "webp": "OS-O316.webp",
+      "glyph": "OS-O316.svg",
+      "metadata": "OS-O316.json"
+    },
+    {
+      "id": "OS-O317",
+      "name": "Camera",
+      "context": "A believable human presence",
+      "usage": "Use for image direction, interview capture and responsible fictional-image specimens.",
+      "glb": "OS-O317.glb",
+      "png": "OS-O317.png",
+      "webp": "OS-O317.webp",
+      "glyph": "OS-O317.svg",
+      "metadata": "OS-O317.json"
+    },
+    {
+      "id": "OS-O318",
+      "name": "Architecture bridge",
+      "context": "Connect expertise to buyer value",
+      "usage": "Use in technical explainers and before/after process diagrams.",
+      "glb": "OS-O318.glb",
+      "png": "OS-O318.png",
+      "webp": "OS-O318.webp",
+      "glyph": "OS-O318.svg",
+      "metadata": "OS-O318.json"
+    },
+    {
+      "id": "OS-O319",
+      "name": "Target",
+      "context": "A specific buyer problem",
+      "usage": "Use for audience relevance and campaign brief scope.",
+      "glb": "OS-O319.glb",
+      "png": "OS-O319.png",
+      "webp": "OS-O319.webp",
+      "glyph": "OS-O319.svg",
+      "metadata": "OS-O319.json"
+    },
+    {
+      "id": "OS-O320",
+      "name": "Ripple",
+      "context": "A useful idea resonates",
+      "usage": "Use for the Outspoken sound association and a quiet background transition.",
+      "glb": "OS-O320.glb",
+      "png": "OS-O320.png",
+      "webp": "OS-O320.webp",
+      "glyph": "OS-O320.svg",
+      "metadata": "OS-O320.json"
+    },
+    {
+      "id": "OS-O321",
+      "name": "Signal bars",
+      "context": "A clearer signal",
+      "usage": "Use for signal quality and review, not invented growth statistics.",
+      "glb": "OS-O321.glb",
+      "png": "OS-O321.png",
+      "webp": "OS-O321.webp",
+      "glyph": "OS-O321.svg",
+      "metadata": "OS-O321.json"
+    },
+    {
+      "id": "OS-O322",
+      "name": "Content folder",
+      "context": "An organized editorial handoff",
+      "usage": "Use for source-to-draft organization and reusable assets.",
+      "glb": "OS-O322.glb",
+      "png": "OS-O322.png",
+      "webp": "OS-O322.webp",
+      "glyph": "OS-O322.svg",
+      "metadata": "OS-O322.json"
+    },
+    {
+      "id": "OS-O323",
+      "name": "Bookmark",
+      "context": "An idea worth keeping",
+      "usage": "Use for a useful reference or save-worthy post, not fake engagement counts.",
+      "glb": "OS-O323.glb",
+      "png": "OS-O323.png",
+      "webp": "OS-O323.webp",
+      "glyph": "OS-O323.svg",
+      "metadata": "OS-O323.json"
+    },
+    {
+      "id": "OS-O324",
+      "name": "Story reel",
+      "context": "Sequence and narrative",
+      "usage": "Use for storyboarding, a personal story or a visual sequence.",
+      "glb": "OS-O324.glb",
+      "png": "OS-O324.png",
+      "webp": "OS-O324.webp",
+      "glyph": "OS-O324.svg",
+      "metadata": "OS-O324.json"
+    },
+    {
+      "id": "OS-O325",
+      "name": "Quote",
+      "context": "The founder\u2019s own words",
+      "usage": "Use for attributable verified quotations or clearly fictional specimens.",
+      "glb": "OS-O325.glb",
+      "png": "OS-O325.png",
+      "webp": "OS-O325.webp",
+      "glyph": "OS-O325.svg",
+      "metadata": "OS-O325.json"
+    }
+  ],
+  "word_signs": [
+    {
+      "id": "OS-W301",
+      "word": "Voice",
+      "outline": "OS-W301.svg",
+      "glb": "OS-W301.glb",
+      "png": "OS-W301.png",
+      "webp": "OS-W301.webp",
+      "metadata": "OS-W301.json",
+      "context": "A genuine extruded typographic sign for voice, used in editorial artwork and scene transitions.",
+      "font": {
+        "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+        "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+        "weight": 720,
+        "width": 100,
+        "license": "SIL OFL1.1"
+      }
+    },
+    {
+      "id": "OS-W302",
+      "word": "Story",
+      "outline": "OS-W302.svg",
+      "glb": "OS-W302.glb",
+      "png": "OS-W302.png",
+      "webp": "OS-W302.webp",
+      "metadata": "OS-W302.json",
+      "context": "A genuine extruded typographic sign for story, used in editorial artwork and scene transitions.",
+      "font": {
+        "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+        "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+        "weight": 720,
+        "width": 100,
+        "license": "SIL OFL1.1"
+      }
+    },
+    {
+      "id": "OS-W303",
+      "word": "Signal",
+      "outline": "OS-W303.svg",
+      "glb": "OS-W303.glb",
+      "png": "OS-W303.png",
+      "webp": "OS-W303.webp",
+      "metadata": "OS-W303.json",
+      "context": "A genuine extruded typographic sign for signal, used in editorial artwork and scene transitions.",
+      "font": {
+        "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+        "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+        "weight": 720,
+        "width": 100,
+        "license": "SIL OFL1.1"
+      }
+    },
+    {
+      "id": "OS-W304",
+      "word": "Proof",
+      "outline": "OS-W304.svg",
+      "glb": "OS-W304.glb",
+      "png": "OS-W304.png",
+      "webp": "OS-W304.webp",
+      "metadata": "OS-W304.json",
+      "context": "A genuine extruded typographic sign for proof, used in editorial artwork and scene transitions.",
+      "font": {
+        "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+        "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+        "weight": 720,
+        "width": 100,
+        "license": "SIL OFL1.1"
+      }
+    },
+    {
+      "id": "OS-W305",
+      "word": "Trust",
+      "outline": "OS-W305.svg",
+      "glb": "OS-W305.glb",
+      "png": "OS-W305.png",
+      "webp": "OS-W305.webp",
+      "metadata": "OS-W305.json",
+      "context": "A genuine extruded typographic sign for trust, used in editorial artwork and scene transitions.",
+      "font": {
+        "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+        "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+        "weight": 720,
+        "width": 100,
+        "license": "SIL OFL1.1"
+      }
+    },
+    {
+      "id": "OS-W306",
+      "word": "Clarity",
+      "outline": "OS-W306.svg",
+      "glb": "OS-W306.glb",
+      "png": "OS-W306.png",
+      "webp": "OS-W306.webp",
+      "metadata": "OS-W306.json",
+      "context": "A genuine extruded typographic sign for clarity, used in editorial artwork and scene transitions.",
+      "font": {
+        "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+        "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+        "weight": 720,
+        "width": 100,
+        "license": "SIL OFL1.1"
+      }
+    },
+    {
+      "id": "OS-W307",
+      "word": "Context",
+      "outline": "OS-W307.svg",
+      "glb": "OS-W307.glb",
+      "png": "OS-W307.png",
+      "webp": "OS-W307.webp",
+      "metadata": "OS-W307.json",
+      "context": "A genuine extruded typographic sign for context, used in editorial artwork and scene transitions.",
+      "font": {
+        "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+        "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+        "weight": 720,
+        "width": 100,
+        "license": "SIL OFL1.1"
+      }
+    },
+    {
+      "id": "OS-W308",
+      "word": "Product",
+      "outline": "OS-W308.svg",
+      "glb": "OS-W308.glb",
+      "png": "OS-W308.png",
+      "webp": "OS-W308.webp",
+      "metadata": "OS-W308.json",
+      "context": "A genuine extruded typographic sign for product, used in editorial artwork and scene transitions.",
+      "font": {
+        "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+        "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+        "weight": 720,
+        "width": 100,
+        "license": "SIL OFL1.1"
+      }
+    },
+    {
+      "id": "OS-W309",
+      "word": "Perspective",
+      "outline": "OS-W309.svg",
+      "glb": "OS-W309.glb",
+      "png": "OS-W309.png",
+      "webp": "OS-W309.webp",
+      "metadata": "OS-W309.json",
+      "context": "A genuine extruded typographic sign for perspective, used in editorial artwork and scene transitions.",
+      "font": {
+        "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+        "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+        "weight": 720,
+        "width": 100,
+        "license": "SIL OFL1.1"
+      }
+    },
+    {
+      "id": "OS-W310",
+      "word": "Conversation",
+      "outline": "OS-W310.svg",
+      "glb": "OS-W310.glb",
+      "png": "OS-W310.png",
+      "webp": "OS-W310.webp",
+      "metadata": "OS-W310.json",
+      "context": "A genuine extruded typographic sign for conversation, used in editorial artwork and scene transitions.",
+      "font": {
+        "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+        "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+        "weight": 720,
+        "width": 100,
+        "license": "SIL OFL1.1"
+      }
+    },
+    {
+      "id": "OS-W311",
+      "word": "OUTSPOKEN",
+      "outline": "OS-W311.svg",
+      "glb": "OS-W311.glb",
+      "png": "OS-W311.png",
+      "webp": "OS-W311.webp",
+      "metadata": "OS-W311.json",
+      "context": "Uppercase brand word, extruded as editorial artwork. Use the separate custom-O logo lockup for navigation.",
+      "font": {
+        "source": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+        "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+        "weight": 720,
+        "width": 100,
+        "license": "SIL OFL1.1"
+      }
+    }
+  ],
+  "palette": {
+    "navy": "#162760",
+    "blue": "#3157D5",
+    "silver": "#A9AFBA",
+    "citron": "#D4DD67",
+    "paper": "#F1F3F6"
+  },
+  "material_recipe": "material-recipe.json",
+  "checks": "checks.json",
+  "rights": "Original geometry/glyphs; licensedArchivoOFL1.1forwordoutlines; no stockmesh/no competitorassets",
+  "date": "2026-10-20",
+  "counts": {
+    "objects": 25,
+    "word_signs": 11,
+    "actual_transparent_renders": 36,
+    "functional_svg_glyphs": 25,
+    "outlined_word_sources": 11
+  },
+  "render_checks": "render-checks.json"
+}

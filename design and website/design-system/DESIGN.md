@@ -1,0 +1,115 @@
+# Current owner refinement —20 October 2026
+
+The active run is [OUTSPOKEN V5 polish]([dated-local-evidence-omitted]). The owner explicitly authorized Stage 1 and Stage 2 together, superseding the dated Stage 2 acceptance gate. Both are implemented candidates with scoped verification; owner artistic acceptance remains false. The later owner request authorizes one isolated publicly reachable static Vercel site on the existing free subscription without affecting other websites. The older local-only prohibition is historical. The [public OUTSPOKEN site](https://outspoken-voice-7c4e2.vercel.app) passed anonymous HTTP verification: 173 served asset hashes and five routes matched. The fresh anonymous public browser review passed 58/58 checks, including the repaired initial Close-button focus. No authorization headers, cookies or protection bypass were used. The four prior project IDs and timestamps were unchanged; no billing or plan operation occurred. The connector did not expose the plan name, so its name is not claimed as independently verified.
+
+The current identity is **selected study01**, a solid capsule microphone with two silver wrapped bands and one upright rib. Preserve all eight exact source studies. Use the exact uppercase **OUTSPOKEN** Archivo730 outlines and custom first-O notch. The primary 2D wordmark uses navy OUT and full solid Nickel silver SPOKEN (#A9AFBA), with no horizontal glint or color transition. Split, inverse, mono and citron remain the other treatments. Use mono navy for a small signature. [V5 identity](brand-library/packages/assets/revisions/v5/identity/manifest.json), [component index](design-system/COMPONENT-INDEX-v5.md), [57-page reader](brand-library/design/v5-book/index.html) and [delivery guide](brand-library/design/releases/v5-release-notes.md) are current. V4 selected004 and earlier artwork remain historical.
+
+# OUTSPOKEN — design contract
+
+Version5.0 candidate ·20 October 2026 · Owner: Max · Status: implemented with scoped verification; native scoped audit verified; public HTTP and browser verification complete; packaging verification external; owner acceptance false.
+
+Read [design-system/START-HERE.md](design-system/START-HERE.md). This contract governs Outspoken website, LinkedIn, social, document and video design. It does not change the separate Reels runtime. Values described as starting values are design proposals to test, not measurements extracted from a raster image.
+
+## Identity and purpose
+
+**OUTSPOKEN** makes a founder's expertise, judgment and company story visible and useful to the right buyers. The audience is Europe-based B2B AI SaaS founders, companies of 10–50 people, Seed through Series B. Marketing capacity and buying intent must be established separately; size or funding alone does not prove need.
+
+Preserve the approved hero: **Make the right buyers care about you and what you’re building.**
+
+Preserve the approved VP: **We help Europe-based B2B AI SaaS founders turn their story and the business they’re building into LinkedIn content that attracts the right buyers, earns their trust and gives them a reason to buy.**
+
+Preserve the primary CTA wording: **Book an intro call**. A missing destination remains a configuration gap; do not interrupt design work to invent or demand a booking integration.
+
+The service narrative is interview → clarify the founder's experience and buyer relevance → positioning and content strategy → drafts and visual content → founder approval → ready-to-post delivery → review and improvement. Service modules from the reviewed stack are candidates, not proof that every integration or operational capability is running. Do not guarantee viral posts, followers, revenue or trends.
+
+## Selected direction and lineage
+
+The current system follows the owner's three-plane sculptural reference and later requirements for photographic human shadow, sound/resonance depth, perspective media, a volumetric star brain, a centered native post stack and a varied fictional email library. The exact source, hashes and decisions remain in the dated run and [agent configuration](design-system/agent-config.json). [The corrected V10 board]([dated-local-evidence-omitted]) and the V2 release are historical evidence. Preserve their safe annotation, readability and thin-frame lessons; their old wordmark colors and rejected toy/slab scenes are superseded.
+
+Use contemporary editorial luxury: white space, navy depth, restrained silver material, tactile paper and selected sound imagery. Only one subtle water direction is used in the current image set. Contextual interview/writing/search objects may support their actual subject; do not fill scenes with unrelated music props or borrow M2 Lab assets. Premium means readable hierarchy, crafted material and useful space.
+
+## Fixed visual grammar
+
+- White is the main ground. Deep cobalt `#162760` is the principal ink and dark scene surface. Cobalt `#3157D5` gives chromatic depth. Citron `#D4DD67` is a selective emphasis surface. Brushed nickel `#A9AFBA` and pearl `#F1F3F6` support material and neutral space.
+- The supplied blue-and-silver three-plane reference remains the material exemplar: clean substantial geometry, shallow realistic volume, fine brushed metal, an opaque blue plane, a narrow luminous edge, controlled reflection and believable contact shadow. Use the 25 recognizable V3 subjects and 11 word sculptures with meaningful captions. Disconnected slabs and capsule people from the rejected website are superseded. Do not recolor a generic stock 3D pack.
+- Surfaces remain predominantly solid. The owner's renewed request for liquid/floating cues means restrained optical highlights, gentle edge refraction where useful, crafted bevels and depth. It does not restore watery transparent blocks, inflated glass, excessive chrome or broad milky blue-green gloss. Material must remain readable and calm.
+- Space carries the hierarchy. Use one dominant focal scene per viewport or content panel. Default to at most two overlapping focal media layers; a third quiet backing layer needs a clear purpose. Do not let shadows, rims and adjacent objects create accidental triple-edge tangencies.
+- Perspective belongs to selected media frames, objects and illustrations. Paragraphs, navigation, controls and the readable surface of native LinkedIn/email specimens stay front-facing. A tilted parent may frame a media object, but essential reading must remain easy.
+- The thin cobalt/nickel video frame is a signature component. The current gallery also provides blue, citron and frameless alternatives with the same reading and camera rules. Keep its fine blue rim, fine silver reveal, soft contact shadow and coherent corner radii. Avoid a thick silver replacement bezel. Borders and highlights must follow one camera, light and perspective.
+- The callout signature is a small point, a restrained routed line and an exact text target. Route through dedicated empty space. Never cross a face, post author/header, other text, media or unrelated layers. Enter only at the selected phrase's level. Every line has a semantic target; it is not decoration.
+- Strong emphasis highlights complete significant words or a short phrase with citron and dark ink. A lighter emphasis may use an underline, thin rule, weight or color. Do not highlight entire paragraphs or use accent simultaneously on every object. Native text stays editable.
+- **No citron L/corner-arrow ornament**, including beside the wordmark. **No standalone Positioning / Writing / Founder-video service-icon row.** Functional controls still need clear small glyphs. Brand objects belong in meaningful scenes, publications, diagrams or contextual cards.
+- Paper is optional and contextual. A paper object must look like paper: fine fiber/grain, slight thickness, controlled curl/fold and matte diffuse light. Do not put a paper filter on the whole interface.
+
+## Typography and readability correction
+
+Start from Archivo Variable for the Swiss wordmark/display family and Inter Variable for readable body/UI. Confirm exact licensed font files and test competing weights/widths before freezing. A restrained editorial serif may be tested for content artwork only; do not add another interface family without a reason.
+
+Small type in V10 is an anti-reference. The “Founder content example” eyebrow and stacked “People / Customers / Markets / Perspective” are too tiny and widely spaced. Use stronger, open letterforms, less tracking and sufficient size. Condensation is optional; readability is mandatory. Avoid fragile hairlines, extreme narrow fonts and decorative monospace for ordinary labels.
+
+Starting web roles: body 17–18 px / 1.5–1.6, weight 450–500; supporting text 15–16 px / 1.45–1.55, weight 500; labels/captions at least 14 px at ordinary desktop display size, weight 600–650, tracking 0–0.04 em; button 16 px / 1.2, weight 650, tracking 0; headings 700–800 with controlled wrapping. Large display can be tighter, but never distort a font. Use real semibold/bold masters or supported variable axes. Keep upper-case micro labels short. Recompose long labels rather than spacing their letters further apart.
+
+Use navy on white and white on dark navy. Nickel is a material, not a small-text color on white. Citron is a highlight surface, not pale body text. Test actual rendered text at 100%, phone width and exported social-preview size. Values, font mapping and contrast pairs must be recorded in the production release; an AI image does not establish exact type or color fidelity.
+
+## Layout and geometry starting values
+
+Use a 4 px base spacing unit with 8/12/16/24/32/48/64/96 px steps. Begin with content width 1200 px, 48 px desktop and 20–24 px phone margins, 24–32 px desktop grid gutters, and readable body measure 55–70 characters. These are starting constraints, not a requirement to fill every screen with cards. Preserve whole-screen composition and mobile reading order.
+
+Begin with radii 6 px for small controls, 10 px for content panels and 14 px for large media. The owner's request permits slightly rounder corners than V10. Use coherent radii across perspective transforms. Borders are generally 1 px; the large video frame begins at a 2 px blue rim with a fine silver reveal. Review thickness at final size rather than scaling it indiscriminately.
+
+Suggested media tilt envelope: 2–6 degrees apparent rotation or a restrained 3D perspective, with one shared horizon and plausible light. Avoid arbitrary alternating rotations. Reading surfaces stay near level. Keep at least 24 px visible separation between independent dense reading panels; annotation clearance starts at 12–16 px. More space is appropriate at section level. Geometry values must pass optical review, not only arithmetic.
+
+## Buttons, interaction and motion
+
+Use one distinctive solid deep-cobalt primary button: subtle metal edge, limited directional sheen, readable semibold label, controlled radius and grounded shadow. The secondary uses a clear quiet surface and intentional border. Avoid green slabs, slanted text, jagged bevels and glossy pill inflation. Design default, hover, focus-visible, pressed, disabled and loading only where relevant; also document unavailable-destination behavior.
+
+For small desktop buttons, pointer position may produce a restrained tilt toward the pointer, up to a starting limit of 3 degrees. Keep label geometry legible, click area stable and sheen inside bounds. Reset on pointer leave/cancel. Touch and keyboard need equally clear non-tilting states. Use Motion named presets; The current canonical ThreeTiltButton uses actual Three.js mesh/light treatment with a stable native hit area; the retained ActionButton is a functional baseline control. Do not claim their rendering methods are identical. Never force people to follow a moving target. The V5 StudioButton gallery expands presentation to all seven brand colors, primary/secondary, five edge styles and three poses. This210-variant matrix is separate from the retained ThreeTiltButton API; labels and native hit areas stay readable and stable.
+
+Motion is slow enough to feel intentional, fast enough to respect the reader. Favor short functional feedback, restrained side entrances, exact connector reveals and limited luminous points. No endless shimmer over reading. Respect reduced motion, interruption, focus, touch, static export and offscreen suspension. Scroll chapters may use bounded sticky sections; never trap scrolling or depend on scroll-jacking. Keep text accessible in ordinary document order.
+
+## Human imagery and scenes
+
+Use approved real people with usage rights or clearly identified fictional humans. Do not imply a fictional founder is a customer. Portraits should feel photographed: natural skin, individual features, credible hands, quiet business clothing, unforced expression, soft directional key and believable blue/neutral environment. Avoid plastic skin, beauty-ad gloss, generic stock poses and neon cyberpunk light.
+
+For the selected interview-frame example, start with an eye-level 50–85 mm-equivalent portrait perspective, a medium close view, moderate depth of field and room for crop/caption. Keep camera/lens language descriptive unless an actual camera is used. Generate the person/media without final small text, player UI or logo; assemble those as native elements. Match the same identity, wardrobe, key light and exposure across related scenes.
+
+The conceptual founder/team/phone scene has a different job from the portrait: a deep-blue founder silhouette, a quiet team behind, and a phone as the channel through which expertise reaches people. This earlier founder/team/phone construction is historical. The current hero uses an original photographic human shadow with sound/resonance; the rejected capsule-human scene must not return. Contextual microphone/megaphone objects are separate editorial assets, not this hero. Develop 2D key art and actual compatible 3D geometry if camera rotation is promised; a generated flat image cannot establish a rotatable model.
+
+The later brain scene is a metaphor for expertise, not a medical visualization. Many small luminous points form a recognizable volumetric brain shape against deep blue. Select 3–7 anchor points for experience, customer insight, product judgment, methods/tools, evidence/cases, convictions and market perspective. Callouts must be useful and buyer-facing, supported by a founder interview. Keep lights sparse and controlled; no toy brain, glowing jelly or unreadable particle storm. The current scene uses the licensed HRA/Allen reference geometry as an artistic metaphor, with attribution on Credits. The local edition uses the original model. A separately reviewed display LOD is used in the static public build; actual public deployment and anonymous reachability require the root receipt. Fine facets differ from the photographic reference. Neither model nor five labels make medical or cognitive claims.
+
+## Publications, proof and truthful examples
+
+A LinkedIn post shell preserves native reading order: author/avatar/role → body → attached artwork → applicable actions. The **publication image** is a separate exportable object. Do not bake a fake LinkedIn UI shell into the artwork the founder will upload. Posts, documents/carousels, video and website have separate layouts using the same identity.
+
+Keep exact editorial text native/editable until export. Human photos, authored objects, generous text plates, highlights, labeled diagrams and source notes can vary without changing the material family. Separate foreground, background, shadow, frame, mask, label and annotations where reuse/motion needs them. Test new topics rather than repeating one image.
+
+Use AIwithRemy's email wall as a reference for the variety and presentation of feedback. Until real approved quotes exist, every email/comment must retain visible sample/fictional identification, with **Illustrative example — not a customer testimonial** in its full reader/export context, and use fictional identities and reserved `.example` addresses. The current Customer Opinion wall has 15 compact native cards and a full reader library; the compact Sample badge does not replace the section and reader disclosures. Do not fabricate customer outcomes or pass generated Gmail screenshots as real correspondence. The fictional label must survive cropping, hover and animation. Prepare a verified-feedback mode that accepts genuine permissioned source excerpts later. A logo/review wall cannot imply clients or endorsements that do not exist.
+
+## Stage scope, current evidence and authority
+
+Stage 1 covers the full brand system, identity/asset libraries, native Figma, Storybook, publications and video. Stage 2 covers Home, Services, Contact, Confirmation, Credits and the current `/design-system` gallery, responsive composition and animated website. The unchanged v5 plan remains the coverage source under the owner's joint-stage correction and maximum of three Figma pages. A successful finite check is not artistic acceptance.
+
+Current V5 finite sets are: eight preserved identity studies; five exact wordmarks; six actual native identity model views;25 semantic objects and11 word sculptures shown in108 front/left/right views;210 button variants;24 media compositions;19 editable templates; five contained fictional people directions. The baseline64 UI families,88 catalog layouts,14 publication exports and15 fictional email examples remain available with separate source contracts. [Coverage](brand-library/design/coverage.json) binds the original53 requirements and19 reference families without automatically promoting dated row states.
+
+The current [57-page reader](brand-library/design/v5-book/index.html) and [PDF](brand-library/design/v5-book/outspoken-brand-system-v5.pdf) cover17section families and186 image references. Book checks passed21/21; all 57 rendered page bounds passed, all 57 current PDF pages received maker review and five current critical pages received independent review. The previous eleven-page review remains dated history. [Three current films]([dated-local-evidence-omitted]) are18-second,30 fps,silent recompositions with six scenes each. [Storybook]([dated-local-evidence-omitted]) has218 entries:152 stories and66 docs, with43/43 baseline and30/30 gallery checks. [Motion receipts]([dated-local-evidence-omitted]) cover17 convergence and17 video-flight checks. These are finite scopes, not exhaustive all-story or native/runtime pixel parity.
+
+The application source remains [website-v3](brand-library/website-v3/). The [final native readback]([dated-local-evidence-omitted]) passed 376/376 scoped checks, preserving three pages, 75 variables and 14 text styles. The [V5 native map](brand-library/design/v5-figma-map.json) binds current components, and independent native library and website screenshots received scoped review. The [static build manifest]([dated-local-evidence-omitted]) binds174 files and 138 required dependencies. A local build is not a verified public endpoint. Portable packaging is verified separately by `[dated-local-evidence-omitted]` and the delivered `DELIVERY-MANIFEST.json`/`FILE-CHECKSUMS.json`. Canonical records verify implementation and remain frozen before packaging; no archive PASS or future ZIP hash is inferred here. Root owns current release metadata, public deployment/readback, archive assembly and run closure. Native scoped verification is recorded in the current map and final receipt.
+
+The loopback enquiry edition saves validated records to a private Excel workbook. The public static edition cannot save a workbook, send email or book a meeting; booking remains inert. No remote form backend, social account access, customer outreach, Git push, paid service or subscription change is included. All15exact workbook competitors have dated official offer rows, but public prices are missing or incomparable for several suppliers. The three OUTSPOKEN packages are proposed prices, not an exhaustive competitor mean. Sample emails, publications and portraits remain fictional and are not customer proof or buyer validation.
+
+Motion MCP 403 and21stMCP 401 remain recorded external gaps. Actual local Motion/Three.js and Storybook checks do not establish those services. Retained [V4 book](brand-library/design/v4-book/index.html), earlier source records and the unchanged v5 plan remain history. Four sales HTML/PDF documents retain their approved body copy and dated labels; their separate identity/source receipts govern their current edition. Do not silently promote historical sales or catalog artwork to exact V5 visual parity.
+
+## V5 material and native editing boundary
+
+Reference-derived transparent beauty, preserved source crops, native vector identity, raster model views and actual GLBs are separate representations. The native microphone and lettering have real volume and glossy/anodized material; they do not reproduce fine photographic brushing exactly. Keep that qualification in usage and release records.
+
+Native Figma affine transforms approximate browser perspective. A photo/object PNG remains a raster fill; its pixel internals cannot be natively recolored or rotated as real geometry. Keep text, vectors, diagrams, frames, masks, shadows and image slots separate where they need editing. Native video posters do not prove embedded film playback. The website's live3D/motion and exported silent films have different runtime contracts.
+
+The custom first O remains exact vector outlines. A licensed native-text companion supports editing/layout but does not authorize an ordinary-O substitution. Never outline body or UI copy to imitate the logo. Preserve all three approved copy strings above, original source hashes and the dated master plan. Owner artistic acceptance remains separate and false until recorded.
+
+
+## Final runtime and packaging boundary
+
+The current 57-page book/PDF was regenerated for the owner’s solid-silver primary 2D correction. All 203 input hashes match current source, including the earlier PerspectiveVideo focus repair. The previous PDF, source map and amendment are preserved under `[dated-local-evidence-omitted]`. Current book checks passed 21/21; all 57 rendered page bounds and 186 images passed. The refreshed five critical PDF pages passed independent review. See the [solid-primary book recapture]([dated-local-evidence-omitted]).
+
+Portable packaging is verified separately by `[dated-local-evidence-omitted]` and the delivered `DELIVERY-MANIFEST.json`/`FILE-CHECKSUMS.json`. Canonical records verify implementation and remain frozen before packaging; no archive PASS or future ZIP hash is inferred here.

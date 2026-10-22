@@ -1,0 +1,112 @@
+{
+  "id": "OS-O324",
+  "name": "Story reel",
+  "context": "Sequence and narrative",
+  "rights": "Original authored meshes and glyphs; no third-party model or competitor media",
+  "render": {
+    "width": 600,
+    "height": 600,
+    "alpha": true,
+    "actual": "Three.js0.186.1 GLB source scene",
+    "toneMapping": "ACESFilmic",
+    "exposure": 0.9
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      2.3,
+      7
+    ],
+    "lookAt": [
+      0,
+      0,
+      0
+    ],
+    "extent": 1.2614337077425146
+  },
+  "meshes": [
+    {
+      "name": "metal barrel",
+      "vertices": 196,
+      "triangles": 192,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "metal barrel",
+      "vertices": 196,
+      "triangles": 192,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "metal barrel",
+      "vertices": 196,
+      "triangles": 192,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "metal barrel",
+      "vertices": 196,
+      "triangles": 192,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "metal barrel",
+      "vertices": 196,
+      "triangles": 192,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "metal barrel",
+      "vertices": 196,
+      "triangles": 192,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "metal barrel",
+      "vertices": 196,
+      "triangles": 192,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "unspooled story tail",
+      "vertices": 451,
+      "triangles": 800,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.9334633096194936,
+      -0.9368413865566254,
+      -0.200610030591059
+    ],
+    "max": [
+      0.9334633096194936,
+      0.9368413865566254,
+      0.200610030591059
+    ]
+  },
+  "kind": "semantic_object",
+  "usage": "Use for storyboarding, a personal story or a visual sequence.",
+  "limitations": [
+    "Procedural satin material, not a photographic surface capture.",
+    "Use the flat SVG for small UI; do not shrink a decorative 3D render below64px."
+  ]
+}

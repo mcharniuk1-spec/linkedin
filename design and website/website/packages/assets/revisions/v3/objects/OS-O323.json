@@ -1,0 +1,72 @@
+{
+  "id": "OS-O323",
+  "name": "Bookmark",
+  "context": "An idea worth keeping",
+  "rights": "Original authored meshes and glyphs; no third-party model or competitor media",
+  "render": {
+    "width": 600,
+    "height": 600,
+    "alpha": true,
+    "actual": "Three.js0.186.1 GLB source scene",
+    "toneMapping": "ACESFilmic",
+    "exposure": 0.9
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      2.3,
+      7
+    ],
+    "lookAt": [
+      0,
+      0,
+      -1.3877787807814457e-17
+    ],
+    "extent": 1.205122999628745
+  },
+  "meshes": [
+    {
+      "name": "notched bookmark",
+      "vertices": 198,
+      "triangles": 76,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "machined plate",
+      "vertices": 4616,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "citron / Outspoken V3"
+    },
+    {
+      "name": "machined plate",
+      "vertices": 4744,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.5191623408622096,
+      -0.9558108448982239,
+      -0.149345311864103
+    ],
+    "max": [
+      0.5191623408622096,
+      0.9558108448982239,
+      0.14934531186410296
+    ]
+  },
+  "kind": "semantic_object",
+  "usage": "Use for a useful reference or save-worthy post, not fake engagement counts.",
+  "limitations": [
+    "Procedural satin material, not a photographic surface capture.",
+    "Use the flat SVG for small UI; do not shrink a decorative 3D render below64px."
+  ]
+}

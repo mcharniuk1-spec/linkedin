@@ -1,0 +1,371 @@
+{
+  "date": "2026-10-20",
+  "status": "pass",
+  "expected_objects": 25,
+  "expected_word_signs": 11,
+  "exact_ids_reconciled": true,
+  "checked_files": 180,
+  "records": [
+    {
+      "id": "OS-O301",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 12993,
+      "glb_triangles": 21736,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.800000011920929
+    },
+    {
+      "id": "OS-O302",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 2958,
+      "glb_triangles": 5328,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.20000000298023224
+    },
+    {
+      "id": "OS-O303",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 10365,
+      "glb_triangles": 6328,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 1.2999999523162842
+    },
+    {
+      "id": "OS-O304",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 1125,
+      "glb_triangles": 1368,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.2485339194536209
+    },
+    {
+      "id": "OS-O305",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 24158,
+      "glb_triangles": 17648,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.15799999982118607
+    },
+    {
+      "id": "OS-O306",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 32736,
+      "glb_triangles": 14756,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.07800000533461571
+    },
+    {
+      "id": "OS-O307",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 2117,
+      "glb_triangles": 3664,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.25999999046325684
+    },
+    {
+      "id": "OS-O308",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 15926,
+      "glb_triangles": 9404,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.12999999523162842
+    },
+    {
+      "id": "OS-O309",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 10333,
+      "glb_triangles": 6464,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.12800000607967377
+    },
+    {
+      "id": "OS-O310",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 9731,
+      "glb_triangles": 5616,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.2069995477795601
+    },
+    {
+      "id": "OS-O311",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 48782,
+      "glb_triangles": 26260,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.1679999977350235
+    },
+    {
+      "id": "OS-O312",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 10272,
+      "glb_triangles": 5544,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.2904391884803772
+    },
+    {
+      "id": "OS-O313",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 4707,
+      "glb_triangles": 7592,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 1.600000023841858
+    },
+    {
+      "id": "OS-O314",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 3039,
+      "glb_triangles": 5200,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.4399999976158142
+    },
+    {
+      "id": "OS-O315",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 2307,
+      "glb_triangles": 3632,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.9599999785423279
+    },
+    {
+      "id": "OS-O316",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 9805,
+      "glb_triangles": 4668,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.16899999976158142
+    },
+    {
+      "id": "OS-O317",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 15156,
+      "glb_triangles": 8964,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.9599999785423279
+    },
+    {
+      "id": "OS-O318",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 14484,
+      "glb_triangles": 8124,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.578000009059906
+    },
+    {
+      "id": "OS-O319",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 2892,
+      "glb_triangles": 5052,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.595145933330059
+    },
+    {
+      "id": "OS-O320",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 3803,
+      "glb_triangles": 6864,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.11999999731779099
+    },
+    {
+      "id": "OS-O321",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 22516,
+      "glb_triangles": 10540,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.2879999876022339
+    },
+    {
+      "id": "OS-O322",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 23072,
+      "glb_triangles": 10540,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.1379999965429306
+    },
+    {
+      "id": "OS-O323",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 9558,
+      "glb_triangles": 4292,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.14800000190734863
+    },
+    {
+      "id": "OS-O324",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 1823,
+      "glb_triangles": 2144,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 1.559999942779541
+    },
+    {
+      "id": "OS-O325",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 10128,
+      "glb_triangles": 6856,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.20800000429153442
+    },
+    {
+      "id": "OS-W301",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 77464,
+      "glb_triangles": 16320,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.28279999643564224
+    },
+    {
+      "id": "OS-W302",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 94752,
+      "glb_triangles": 20912,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.28279999643564224
+    },
+    {
+      "id": "OS-W303",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 140776,
+      "glb_triangles": 30752,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.28279999643564224
+    },
+    {
+      "id": "OS-W304",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 70100,
+      "glb_triangles": 15112,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.28279999643564224
+    },
+    {
+      "id": "OS-W305",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 73940,
+      "glb_triangles": 15612,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.28279999643564224
+    },
+    {
+      "id": "OS-W306",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 89948,
+      "glb_triangles": 19636,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.28279999643564224
+    },
+    {
+      "id": "OS-W307",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 95920,
+      "glb_triangles": 20684,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.28279999643564224
+    },
+    {
+      "id": "OS-W308",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 107112,
+      "glb_triangles": 22704,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.28279999643564224
+    },
+    {
+      "id": "OS-W309",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 201284,
+      "glb_triangles": 42212,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.28279999643564224
+    },
+    {
+      "id": "OS-W310",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 225300,
+      "glb_triangles": 46892,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.28279999643564224
+    },
+    {
+      "id": "OS-W311",
+      "files": 5,
+      "png_webp_alpha": "pass",
+      "glb_vertices": 172388,
+      "glb_triangles": 36508,
+      "finite_ranges": "pass",
+      "native_svg": "pass",
+      "depth": 0.28279999643564224
+    }
+  ],
+  "maker_visual_review": "object-contact-sheet.png and word-contact-sheet.png plus individual repairedpen; independent review pending"
+}

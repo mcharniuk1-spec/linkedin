@@ -1,0 +1,14 @@
+{
+  "model": "brand-library/packages/assets/revisions/v3/neural/human-reference-brain.glb",
+  "source": "https://raw.githubusercontent.com/hubmapconsortium/ccf-releases/main/v2.0/models/3d-vh-m-allen-brain.glb",
+  "source_page": "https://3d.nih.gov/entries/20960?version=1",
+  "source_repository": "https://github.com/hubmapconsortium/ccf-releases",
+  "license": "CC BY 4.0 per HRAbrainv1.3entry",
+  "attribution": "HuBMAP / Human Reference Atlas, Allen brain reference atlas (Ding et al.,2016); materials and star rendering adapted by Outspoken",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "sha256": "2b9ad5b53e40e9f0936da74f7be38d2eed15604e26358c3870a0ea13499b9a35",
+  "bytes": 11977312,
+  "meshes": 283,
+  "nodes": 286,
+  "extensions": []
+}

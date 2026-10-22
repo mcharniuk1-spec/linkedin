@@ -1,0 +1,62 @@
+{
+  "id": "OS-LV4-006",
+  "name": "In Dialogue",
+  "idea_family": "dialogue quotation",
+  "meaning": "Two clear quotation commas stand on one baseline. Each has one broad curved body and one silver reply turn; they never interlock.",
+  "status": "original candidate; independent PM review pending; no lead selected",
+  "layers": [
+    {
+      "name": "navy curved layer1",
+      "material": "navy",
+      "path": "M17 22 C12 22 10 28 10 35 L10 66 C10 76 15 80 25 78 C23 88 18 92 12 95 L21 106 C40 94 48 81 48 66 L48 34 C48 25 43 22 36 22 Z M22 36 L36 36 L36 60 L22 60 Z",
+      "depth": 0.13,
+      "bow": 0.2,
+      "z": 0.0,
+      "yaw": -0.08,
+      "roll": 0
+    },
+    {
+      "name": "silver curved layer2",
+      "material": "silver",
+      "path": "M36 26 C44 27 48 30 48 40 L48 65 C47 78 41 86 33 92 L28 84 C37 74 40 67 37 59 Z",
+      "depth": 0.13,
+      "bow": 0.32,
+      "z": 0.16,
+      "yaw": 0.08,
+      "roll": 0
+    },
+    {
+      "name": "blue curved layer3",
+      "material": "blue",
+      "path": "M72 22 C67 22 65 28 65 35 L65 66 C65 76 70 80 80 78 C78 88 73 92 67 95 L76 106 C95 94 103 81 103 66 L103 34 C103 25 98 22 91 22 Z M77 36 L91 36 L91 60 L77 60 Z",
+      "depth": 0.13,
+      "bow": 0.2,
+      "z": 0.32,
+      "yaw": -0.04,
+      "roll": 0
+    },
+    {
+      "name": "silver curved layer4",
+      "material": "silver",
+      "path": "M91 26 C99 27 103 30 103 40 L103 65 C102 78 96 86 88 92 L83 84 C92 74 95 67 92 59 Z",
+      "depth": 0.13,
+      "bow": 0.32,
+      "z": 0.48,
+      "yaw": 0.1,
+      "roll": 0
+    }
+  ],
+  "geometry": "Closed beveled extrusion of the editable curved paths with continuous bowed depth; original geometry, not a stock mesh",
+  "wordmark": "Always uppercase OUTSPOKEN. Exact Archivo730 outlines with optical manual tracking; only firstO has a narrow outward voice notch.",
+  "small_size_verdict": "Two distinct quotation counters and short matching tails remain legible at24/32. Repaired from rejected interlockedS.",
+  "files": {
+    "glb": "model.glb",
+    "png": "beauty.png",
+    "webp": "beauty.webp",
+    "editable_svg": "flat.svg",
+    "outlined_lockup": "lockup-split.svg"
+  },
+  "curation_status": "secondary_candidate",
+  "geometry_checks": "finite all attributes; valid all indices; nonzero real depth; permesh bounds recorded",
+  "render_quality_limit": "Procedural satin/material counterpart; smoother and less photorealistic than root generated brushed-metal art. No raster/GLB pixel parity claim."
+}

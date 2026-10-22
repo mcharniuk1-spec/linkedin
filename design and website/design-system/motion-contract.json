@@ -1,0 +1,152 @@
+{
+  "version": "3.0.0-candidate",
+  "state": "current_v3_runtime_scoped_behavior_and_visual_verification",
+  "runtime": "Motion/react for DOM continuity, Three.js0.186.1 real mesh/brain/pointer button. No R3F dependency.",
+  "presets": [
+    {
+      "id": "OS-M001",
+      "name": "Immediate feedback",
+      "status": "proposed"
+    },
+    {
+      "id": "OS-M002",
+      "name": "Panel enter/exit",
+      "status": "proposed"
+    },
+    {
+      "id": "OS-M003",
+      "name": "Disclosure",
+      "status": "proposed"
+    },
+    {
+      "id": "OS-M004",
+      "name": "Layout continuity",
+      "status": "proposed"
+    },
+    {
+      "id": "OS-M005",
+      "name": "Message arrival",
+      "status": "proposed"
+    },
+    {
+      "id": "OS-M006",
+      "name": "Editorial emphasis",
+      "status": "proposed"
+    },
+    {
+      "id": "OS-M007",
+      "name": "Diagram reveal",
+      "status": "proposed"
+    },
+    {
+      "id": "OS-M008",
+      "name": "Pointer tilt and directional button sheen",
+      "status": "v3_runtime_scoped_verified",
+      "duration_ms_start": 180,
+      "max_rotation_degrees_start": null,
+      "trigger": "Fine mouse pointer, actual mesh and DOM ink share transform. Disabled/loading inert. Touch/reduced use flat control.",
+      "fallback": "stable focus/pressed states; no tilt on touch/reduced motion",
+      "source": "../brand-library/packages/experience-v3/ThreeTiltButton.tsx",
+      "actual_rotation_limits_degrees": {
+        "x": 6.303,
+        "y": 8.594
+      }
+    },
+    {
+      "id": "OS-M009",
+      "name": "Quiet edge glint",
+      "status": "v3_runtime_scoped_verified",
+      "duration_ms_start": 420,
+      "trigger": "one deliberate interaction or entrance",
+      "fallback": "static thin highlight; no endless sheen"
+    },
+    {
+      "id": "OS-M010",
+      "name": "Photographic shadow \u2192 focused video \u2192 true star-brain \u2192 publication",
+      "status": "v3_runtime_scoped_verified",
+      "trigger": "bounded scroll progress or manual story controls",
+      "fallback": "Phone/reduced motion normal DOM flow and readable headings; full content static mode for native composition.",
+      "source": "../brand-library/website-v3/App.tsx"
+    },
+    {
+      "id": "OS-M011",
+      "name": "Feedback side arrivals",
+      "status": "v3_runtime_scoped_verified",
+      "duration_ms_start": 550,
+      "trigger": "section progress",
+      "fallback": "Phone/reduced: three compact previews and Browse all opens all15; full reader navigation and Escape restore focus.",
+      "source": "../brand-library/website-v3/App.tsx"
+    }
+  ],
+  "required_fields_per_preset": [
+    "trigger",
+    "properties",
+    "units",
+    "duration_or_spring",
+    "easing",
+    "amplitude",
+    "stagger",
+    "interrupt_exit",
+    "offscreen_pause",
+    "reduced_motion",
+    "keyboard_touch",
+    "static_export",
+    "fps_mapping_if_video",
+    "story_ids",
+    "figma_reference",
+    "review_evidence"
+  ],
+  "scroll_contract": {
+    "stage1": "Shared interactive components, native keyframe specification board and separate silent18-second film studies delivered.",
+    "stage2": "Implemented bounded sticky chapters in native scroll; no wheel override. The local website is the motion reference.",
+    "story_content": "Experience, customer insight, product judgment, methods/tools, evidence/cases, convictions, market perspective; final selection from buyer/source analysis, not anatomical functions",
+    "feedback": "Fictional label always visible for mock emails/comments. Hover/focus may add a fine light and pause movement; never obscure essential copy.",
+    "story_beats": [
+      "Photographic human shadow with native sound contours; heading line reveals and quiet single water texture.",
+      "After hero scrollp.32, thin video at yawabout\u221216.6\u00b0; focus click reaches0\u00b0 in620ms cubic-bezier(.22,1,.36,1), modal controls and reverse exit.",
+      "Actual HRA brain orbits70\u00b0 with14000desktop/7600phone star points, then pins with five actual projected anchor labels.",
+      "Brain fades towardp.70; result beginsp.64; brief controlled flarep.68\u2013.78; reduced motion omits flare.",
+      "Native LinkedIn cards enter alternating sides into screen-centered stack; heading fades before crossing; use rest states to read.",
+      "15 fictional compact emails; alternate rails and central focus reader; Previous/Next/Arrow/Escape, restore focus."
+    ]
+  },
+  "tests": [
+    "deterministic seeded scene and frozen visual snapshots",
+    "normal/reduced motion",
+    "touch and keyboard",
+    "pointer leave/cancel",
+    "interrupted entrance/exit",
+    "scroll back and resize",
+    "offscreen suspension",
+    "320px width",
+    "low-power/static fallback",
+    "no focus movement or obscured text",
+    "separate time/frame mapping for video"
+  ],
+  "historical_scroll_beats": [
+    "White ground; deep-blue founder/team silhouette, phone channel, logo/approved copy/CTA and 20\u201325% viewport-area video target subject to mobile recomposition",
+    "On controlled scroll, supporting elements withdraw; spatial camera approaches founder and moves above toward head",
+    "Transition to deep cobalt; many subtle lights reveal a volumetric brain-shaped constellation",
+    "Hold constellation and background within bounded chapter; progressively reveal 3\u20137 target-point lines and readable expertise/buyer-value callouts",
+    "Points recede while experience/value cards remain; cards assemble into authored publication and interview\u2192strategy\u2192content\u2192approval narrative",
+    "Continue to offer/FAQ and honest feedback demo or real permissioned proof; sides enter with sufficient reading dwell"
+  ],
+  "current_web_sources": [
+    "../brand-library/website-v3/App.tsx",
+    "../brand-library/website-v3/website.css",
+    "../brand-library/packages/experience-v3/NeuronField.tsx",
+    "../brand-library/packages/experience-v3/PerspectiveVideo.tsx",
+    "../brand-library/packages/experience-v3/ThreeTiltButton.tsx"
+  ],
+  "native_keyframes": "../brand-library/design/v3-figma-map.json#/motion_storyboard",
+  "review_evidence": [
+    "[dated-local-evidence-omitted]",
+    "[dated-local-evidence-omitted]",
+    "[dated-local-evidence-omitted]"
+  ],
+  "limits": [
+    "Native Figma keyframes do not play real3D.",
+    "Exported18-second videos are silent style proofs, not recordings of the website interaction.",
+    "Scoped checks do not establish every possible scroll/device combination."
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "id": "OS-O305",
+  "name": "Notebook",
+  "context": "First-hand experience and source notes",
+  "rights": "Original authored meshes and glyphs; no third-party model or competitor media",
+  "render": {
+    "width": 600,
+    "height": 600,
+    "alpha": true,
+    "actual": "Three.js0.186.1 GLB source scene",
+    "toneMapping": "ACESFilmic",
+    "exposure": 0.9
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      2.3,
+      7
+    ],
+    "lookAt": [
+      0,
+      0,
+      0
+    ],
+    "extent": 1.2608057093753835
+  },
+  "meshes": [
+    {
+      "name": "navy notebook cover",
+      "vertices": 4720,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "visible paper block",
+      "vertices": 4676,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "paper / Outspoken V3"
+    },
+    {
+      "name": "front notebook cover",
+      "vertices": 4688,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "rounded metal arc",
+      "vertices": 845,
+      "triangles": 1536,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "rounded metal arc",
+      "vertices": 845,
+      "triangles": 1536,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "rounded metal arc",
+      "vertices": 845,
+      "triangles": 1536,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "rounded metal arc",
+      "vertices": 845,
+      "triangles": 1536,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "rounded metal arc",
+      "vertices": 845,
+      "triangles": 1536,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "rounded metal arc",
+      "vertices": 845,
+      "triangles": 1536,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "elastic page marker",
+      "vertices": 5004,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "citron / Outspoken V3"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.6899859306795134,
+      -0.9390000104904175,
+      -0.31538582413390936
+    ],
+    "max": [
+      0.6899859306795134,
+      0.9390000104904175,
+      0.31538582413390936
+    ]
+  },
+  "kind": "semantic_object",
+  "usage": "Use in interview and discovery material; represents a private source, not published proof.",
+  "limitations": [
+    "Procedural satin material, not a photographic surface capture.",
+    "Use the flat SVG for small UI; do not shrink a decorative 3D render below64px."
+  ]
+}

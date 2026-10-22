@@ -1,0 +1,490 @@
+{
+  "version": "3.0.0",
+  "title": "Outspoken original publication system",
+  "expected_export_ids": [
+    "OS-T301",
+    "OS-T302",
+    "OS-T303",
+    "OS-T304-01",
+    "OS-T305",
+    "OS-T306",
+    "OS-T307",
+    "OS-T308",
+    "OS-T309",
+    "OS-T310",
+    "OS-T304-02",
+    "OS-T304-03",
+    "OS-T304-04",
+    "OS-T304-05"
+  ],
+  "count_rule": "10 master families. OS-T304-01 is the carousel master and slide1. Four additional slides02–05 produce14SVG exports total, not15.",
+  "master_family_count": 10,
+  "carousel_slide_count": 5,
+  "export_count": 14,
+  "exports": [
+    {
+      "id": "OS-T301",
+      "title": "Before the opening line",
+      "type": "professional_text",
+      "path": "brand-library/packages/content/revisions/v3/OS-T301.svg",
+      "svg_sha256": "6d3ada4c2c6dbde8fc5a3ced272663418d01156cf118015bd0c6f7e610cd8cee",
+      "width": 1080,
+      "height": 1350,
+      "native_text": true,
+      "source": "Original maker-authored layout and illustrative copy",
+      "customer_evidence": false,
+      "label": "Illustrative work — not published client content",
+      "state": "rendered_geometry_checked_pending_independent_visual_review",
+      "parameters": {
+        "safe_margin": 72,
+        "heading_px": "60–82",
+        "body_px": "32–42",
+        "label_px": 27,
+        "fonts": [
+          "Archivo",
+          "Inter"
+        ],
+        "palette": {
+          "navy": "#162760",
+          "silver": "#9FA9B8",
+          "citron": "#D4DD67",
+          "paper": "#FBFBF7"
+        }
+      },
+      "png_sha256": "5ecc7e0307bcaa9146996880820807aa861599f12a04f2e6bf4aea6069c696c1"
+    },
+    {
+      "id": "OS-T302",
+      "title": "The moment your view changed",
+      "type": "personal_story",
+      "path": "brand-library/packages/content/revisions/v3/OS-T302.svg",
+      "svg_sha256": "0f1bb46ff74559d773cd63d5975403e3becb0705f929b62895a04d399a7644f5",
+      "width": 1080,
+      "height": 1350,
+      "native_text": true,
+      "source": "Original maker-authored layout and illustrative copy",
+      "customer_evidence": false,
+      "label": "Illustrative work — not published client content",
+      "state": "rendered_geometry_checked_pending_independent_visual_review",
+      "parameters": {
+        "safe_margin": 72,
+        "heading_px": "60–82",
+        "body_px": "32–42",
+        "label_px": 27,
+        "fonts": [
+          "Archivo",
+          "Inter"
+        ],
+        "palette": {
+          "navy": "#162760",
+          "silver": "#9FA9B8",
+          "citron": "#D4DD67",
+          "paper": "#FBFBF7"
+        }
+      },
+      "png_sha256": "c937726290bfeeb0c729b54434aaa3b488851e792080dbddf37c9db1e7030e0d"
+    },
+    {
+      "id": "OS-T303",
+      "title": "The feature you chose not to build",
+      "type": "founder_perspective",
+      "path": "brand-library/packages/content/revisions/v3/OS-T303.svg",
+      "svg_sha256": "50b2bb93dc4de8642e6c20f52cfc2a1906e7c6269b2f9684ebfd339292be0f0a",
+      "width": 1080,
+      "height": 1350,
+      "native_text": true,
+      "source": "Original maker-authored layout and illustrative copy",
+      "customer_evidence": false,
+      "label": "Illustrative work — not published client content",
+      "state": "rendered_geometry_checked_pending_independent_visual_review",
+      "parameters": {
+        "safe_margin": 72,
+        "heading_px": "60–82",
+        "body_px": "32–42",
+        "label_px": 27,
+        "fonts": [
+          "Archivo",
+          "Inter"
+        ],
+        "palette": {
+          "navy": "#162760",
+          "silver": "#9FA9B8",
+          "citron": "#D4DD67",
+          "paper": "#FBFBF7"
+        }
+      },
+      "png_sha256": "55b631807548d9be6e62b977e6f01d2756fe2aa290243ad04cd2ff6110ee5361"
+    },
+    {
+      "id": "OS-T304-01",
+      "title": "Product judgment / 01",
+      "type": "carousel_slide",
+      "path": "brand-library/packages/content/revisions/v3/OS-T304-01.svg",
+      "svg_sha256": "ec70662a52b8e6de4ed8aa260eb713ec562590e37b7e309333f682191f91e4e5",
+      "width": 1080,
+      "height": 1350,
+      "native_text": true,
+      "source": "Original maker-authored layout and illustrative copy",
+      "customer_evidence": false,
+      "label": "Illustrative work — not published client content",
+      "state": "rendered_geometry_checked_pending_independent_visual_review",
+      "parameters": {
+        "safe_margin": 72,
+        "heading_px": "60–82",
+        "body_px": "32–42",
+        "label_px": 27,
+        "fonts": [
+          "Archivo",
+          "Inter"
+        ],
+        "palette": {
+          "navy": "#162760",
+          "silver": "#9FA9B8",
+          "citron": "#D4DD67",
+          "paper": "#FBFBF7"
+        }
+      },
+      "carousel_id": "OS-T304",
+      "slide": 1,
+      "slide_count": 5,
+      "master": true,
+      "png_sha256": "b5d39358b6656ed74aa8ad7d6c9d4e62a250a6094fba22235c9cddbec058f4f4"
+    },
+    {
+      "id": "OS-T305",
+      "title": "A draft is not an approved post",
+      "type": "interface_walkthrough",
+      "path": "brand-library/packages/content/revisions/v3/OS-T305.svg",
+      "svg_sha256": "5ddc1c74fb20b484e69594aebde640d894294bc8ea7f98f0bd902b1b4f57a002",
+      "width": 1080,
+      "height": 1350,
+      "native_text": true,
+      "source": "Original maker-authored layout and illustrative copy",
+      "customer_evidence": false,
+      "label": "Illustrative work — not published client content",
+      "state": "rendered_geometry_checked_pending_independent_visual_review",
+      "parameters": {
+        "safe_margin": 72,
+        "heading_px": "60–82",
+        "body_px": "32–42",
+        "label_px": 27,
+        "fonts": [
+          "Archivo",
+          "Inter"
+        ],
+        "palette": {
+          "navy": "#162760",
+          "silver": "#9FA9B8",
+          "citron": "#D4DD67",
+          "paper": "#FBFBF7"
+        }
+      },
+      "png_sha256": "d462612e6b5ceee936a1bde1b4e57c2cbc15f0268b6374ffc01b88d9785a4169"
+    },
+    {
+      "id": "OS-T306",
+      "title": "Automate the steps, keep the judgment",
+      "type": "architecture_schema",
+      "path": "brand-library/packages/content/revisions/v3/OS-T306.svg",
+      "svg_sha256": "68cc4e6e7d8f06f5a7910635786cd6114019b93e5d47c16a3d7cfb6e8476d618",
+      "width": 1080,
+      "height": 1350,
+      "native_text": true,
+      "source": "Original maker-authored layout and illustrative copy",
+      "customer_evidence": false,
+      "label": "Illustrative work — not published client content",
+      "state": "rendered_geometry_checked_pending_independent_visual_review",
+      "parameters": {
+        "safe_margin": 72,
+        "heading_px": "60–82",
+        "body_px": "32–42",
+        "label_px": 27,
+        "fonts": [
+          "Archivo",
+          "Inter"
+        ],
+        "palette": {
+          "navy": "#162760",
+          "silver": "#9FA9B8",
+          "citron": "#D4DD67",
+          "paper": "#FBFBF7"
+        }
+      },
+      "png_sha256": "3b027ed23aba9dc640f3e9d79870c4831d14dedd94b0c6f2955a0fd297fed6d8"
+    },
+    {
+      "id": "OS-T307",
+      "title": "A promise needs something specific",
+      "type": "comparison",
+      "path": "brand-library/packages/content/revisions/v3/OS-T307.svg",
+      "svg_sha256": "0c0abde4d6338f4e20ac7964a8202dfd005884a344000665520ea634b05bcbbe",
+      "width": 1080,
+      "height": 1350,
+      "native_text": true,
+      "source": "Original maker-authored layout and illustrative copy",
+      "customer_evidence": false,
+      "label": "Illustrative work — not published client content",
+      "state": "rendered_geometry_checked_pending_independent_visual_review",
+      "parameters": {
+        "safe_margin": 72,
+        "heading_px": "60–82",
+        "body_px": "32–42",
+        "label_px": 27,
+        "fonts": [
+          "Archivo",
+          "Inter"
+        ],
+        "palette": {
+          "navy": "#162760",
+          "silver": "#9FA9B8",
+          "citron": "#D4DD67",
+          "paper": "#FBFBF7"
+        }
+      },
+      "png_sha256": "1055b931158f058e439fc734c0168d394c600afda442f8ce6508d26fa061797b"
+    },
+    {
+      "id": "OS-T308",
+      "title": "Start the launch with the customer",
+      "type": "company_launch",
+      "path": "brand-library/packages/content/revisions/v3/OS-T308.svg",
+      "svg_sha256": "b1f02579bc28b2007b84937f308f6994cff2b10f21972aea2519043fd0444e78",
+      "width": 1080,
+      "height": 1350,
+      "native_text": true,
+      "source": "Original maker-authored layout and illustrative copy",
+      "customer_evidence": false,
+      "label": "Illustrative work — not published client content",
+      "state": "rendered_geometry_checked_pending_independent_visual_review",
+      "parameters": {
+        "safe_margin": 72,
+        "heading_px": "60–82",
+        "body_px": "32–42",
+        "label_px": 27,
+        "fonts": [
+          "Archivo",
+          "Inter"
+        ],
+        "palette": {
+          "navy": "#162760",
+          "silver": "#9FA9B8",
+          "citron": "#D4DD67",
+          "paper": "#FBFBF7"
+        }
+      },
+      "png_sha256": "fff907ca16c8afd334d87fab333381bd2fad46a4fb1403348152001832797b08"
+    },
+    {
+      "id": "OS-T309",
+      "title": "Make the basis of the claim visible",
+      "type": "evidence_note",
+      "path": "brand-library/packages/content/revisions/v3/OS-T309.svg",
+      "svg_sha256": "530fc574a76d7286af1a2c9612f83935aad7f4ae7321205888eb6241e2eaaa74",
+      "width": 1080,
+      "height": 1350,
+      "native_text": true,
+      "source": "Original maker-authored layout and illustrative copy",
+      "customer_evidence": false,
+      "label": "Illustrative work — not published client content",
+      "state": "rendered_geometry_checked_pending_independent_visual_review",
+      "parameters": {
+        "safe_margin": 72,
+        "heading_px": "60–82",
+        "body_px": "32–42",
+        "label_px": 27,
+        "fonts": [
+          "Archivo",
+          "Inter"
+        ],
+        "palette": {
+          "navy": "#162760",
+          "silver": "#9FA9B8",
+          "citron": "#D4DD67",
+          "paper": "#FBFBF7"
+        }
+      },
+      "png_sha256": "190eb7f058cc1804d00beabebc21a15f2641870076a27042751a9061baa80e07"
+    },
+    {
+      "id": "OS-T310",
+      "title": "One decision, your explanation",
+      "type": "video_story",
+      "path": "brand-library/packages/content/revisions/v3/OS-T310.svg",
+      "svg_sha256": "0a4de3cf6236ba96b4c7860264f515b61ab3bff695691c93024351103637a7cd",
+      "width": 1080,
+      "height": 1350,
+      "native_text": true,
+      "source": "Original maker-authored layout and illustrative copy",
+      "customer_evidence": false,
+      "label": "Illustrative work — not published client content",
+      "state": "rendered_geometry_checked_pending_independent_visual_review",
+      "parameters": {
+        "safe_margin": 72,
+        "heading_px": "60–82",
+        "body_px": "32–42",
+        "label_px": 27,
+        "fonts": [
+          "Archivo",
+          "Inter"
+        ],
+        "palette": {
+          "navy": "#162760",
+          "silver": "#9FA9B8",
+          "citron": "#D4DD67",
+          "paper": "#FBFBF7"
+        }
+      },
+      "png_sha256": "00528309aad65243c3748cb8941ebe3a15c55eef4f0396ffec105d999221fa2a"
+    },
+    {
+      "id": "OS-T304-02",
+      "title": "Product judgment / 02",
+      "type": "carousel_slide",
+      "path": "brand-library/packages/content/revisions/v3/OS-T304-02.svg",
+      "svg_sha256": "fbe93107bd7ecacb5cc53becd5f0181d53fa7428278648a90b696b662e69183f",
+      "width": 1080,
+      "height": 1350,
+      "native_text": true,
+      "source": "Original maker-authored layout and illustrative copy",
+      "customer_evidence": false,
+      "label": "Illustrative work — not published client content",
+      "state": "rendered_geometry_checked_pending_independent_visual_review",
+      "parameters": {
+        "safe_margin": 72,
+        "heading_px": "60–82",
+        "body_px": "32–42",
+        "label_px": 27,
+        "fonts": [
+          "Archivo",
+          "Inter"
+        ],
+        "palette": {
+          "navy": "#162760",
+          "silver": "#9FA9B8",
+          "citron": "#D4DD67",
+          "paper": "#FBFBF7"
+        }
+      },
+      "carousel_id": "OS-T304",
+      "slide": 2,
+      "slide_count": 5,
+      "master": false,
+      "png_sha256": "d97246d6ad82f5ff94c8522969b39a95b3ede814df3c4ed3bd031e117ea1c2b9"
+    },
+    {
+      "id": "OS-T304-03",
+      "title": "Product judgment / 03",
+      "type": "carousel_slide",
+      "path": "brand-library/packages/content/revisions/v3/OS-T304-03.svg",
+      "svg_sha256": "107042d2d7f582004a6b7e03320bef7f8c42e2bacd1c706ae30c06b7f06498b0",
+      "width": 1080,
+      "height": 1350,
+      "native_text": true,
+      "source": "Original maker-authored layout and illustrative copy",
+      "customer_evidence": false,
+      "label": "Illustrative work — not published client content",
+      "state": "rendered_geometry_checked_pending_independent_visual_review",
+      "parameters": {
+        "safe_margin": 72,
+        "heading_px": "60–82",
+        "body_px": "32–42",
+        "label_px": 27,
+        "fonts": [
+          "Archivo",
+          "Inter"
+        ],
+        "palette": {
+          "navy": "#162760",
+          "silver": "#9FA9B8",
+          "citron": "#D4DD67",
+          "paper": "#FBFBF7"
+        }
+      },
+      "carousel_id": "OS-T304",
+      "slide": 3,
+      "slide_count": 5,
+      "master": false,
+      "png_sha256": "388a7646af23d95e6a0d95aa43e5c60f89171f5fb45a31e469872571dedf3382"
+    },
+    {
+      "id": "OS-T304-04",
+      "title": "Product judgment / 04",
+      "type": "carousel_slide",
+      "path": "brand-library/packages/content/revisions/v3/OS-T304-04.svg",
+      "svg_sha256": "08218f4ec6e93ac67989f9154be1e379c6bcce92634cefc21149cedc223dd2d7",
+      "width": 1080,
+      "height": 1350,
+      "native_text": true,
+      "source": "Original maker-authored layout and illustrative copy",
+      "customer_evidence": false,
+      "label": "Illustrative work — not published client content",
+      "state": "rendered_geometry_checked_pending_independent_visual_review",
+      "parameters": {
+        "safe_margin": 72,
+        "heading_px": "60–82",
+        "body_px": "32–42",
+        "label_px": 27,
+        "fonts": [
+          "Archivo",
+          "Inter"
+        ],
+        "palette": {
+          "navy": "#162760",
+          "silver": "#9FA9B8",
+          "citron": "#D4DD67",
+          "paper": "#FBFBF7"
+        }
+      },
+      "carousel_id": "OS-T304",
+      "slide": 4,
+      "slide_count": 5,
+      "master": false,
+      "png_sha256": "98302833d3013680b1c506cfc04b63c181998a8d9bd2d31e6e9e91811c3f594d"
+    },
+    {
+      "id": "OS-T304-05",
+      "title": "Product judgment / 05",
+      "type": "carousel_slide",
+      "path": "brand-library/packages/content/revisions/v3/OS-T304-05.svg",
+      "svg_sha256": "3d076ad58678c89f447fe81d44ce3c5cff33455e2928dc70cc17691e516e7976",
+      "width": 1080,
+      "height": 1350,
+      "native_text": true,
+      "source": "Original maker-authored layout and illustrative copy",
+      "customer_evidence": false,
+      "label": "Illustrative work — not published client content",
+      "state": "rendered_geometry_checked_pending_independent_visual_review",
+      "parameters": {
+        "safe_margin": 72,
+        "heading_px": "60–82",
+        "body_px": "32–42",
+        "label_px": 27,
+        "fonts": [
+          "Archivo",
+          "Inter"
+        ],
+        "palette": {
+          "navy": "#162760",
+          "silver": "#9FA9B8",
+          "citron": "#D4DD67",
+          "paper": "#FBFBF7"
+        }
+      },
+      "carousel_id": "OS-T304",
+      "slide": 5,
+      "slide_count": 5,
+      "master": false,
+      "png_sha256": "94a257cef57aae0b0e98d2667742e8ae7e37b00e5d093d7e398dbb7769463145"
+    }
+  ],
+  "sources": {
+    "copy": "[dated-local-evidence-omitted]",
+    "nature": "brand-library/packages/assets/revisions/v3/nature/manifest.json",
+    "visual_direction": "[dated-local-evidence-omitted]"
+  },
+  "rights": "Original text, vector layouts and original generated nature artwork. No competitor design, marks, portraits or customer testimony reused. Fonts from existing licensed project sources.",
+  "render_state": "14 browser rendered, font/image/text-bound checks executed; independent visual review pending",
+  "figma_state": "not_imported_by_this_lane",
+  "native_text_state": "SVG text/tspan remains editable; not outlined; font resolution and raster review pending",
+  "platform_boundary": "Website preview controls/perspective are presentation interactions. Exports do not include LinkedIn interface chrome or claim native platform interactivity."
+}

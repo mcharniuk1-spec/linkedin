@@ -1,0 +1,236 @@
+{
+  "id": "OS-F202",
+  "photoId": "OS-PH202",
+  "version": "2.0.0-candidate",
+  "author": "v2_designer maker; root and PM independent reviewers",
+  "width": 1200,
+  "height": 1000,
+  "nodes": [
+    {
+      "id": "root",
+      "type": "group",
+      "parentId": null,
+      "x": 0,
+      "y": 0,
+      "width": 1200,
+      "height": 1000,
+      "rotation": 0,
+      "opacity": 1,
+      "fill": "#FFFFFF"
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "parentId": "root",
+      "x": 68,
+      "y": 38,
+      "width": 1064,
+      "height": 64,
+      "rotation": 0,
+      "opacity": 1,
+      "text": "Cotton inlay \u00b7 close conversation",
+      "fontFamily": "Inter",
+      "fontStyle": "Semi Bold",
+      "fontSize": 48,
+      "fontWeight": 600,
+      "lineHeight": 60,
+      "fill": "#162760",
+      "maxLines": 2
+    },
+    {
+      "id": "photo-plane",
+      "type": "group",
+      "parentId": "root",
+      "x": 95,
+      "y": 155,
+      "width": 1010,
+      "height": 673.3333333333334,
+      "rotation": 1.5,
+      "opacity": 1,
+      "relativeTransform": [
+        [
+          0.9996573249755573,
+          -0.026176948307873153,
+          103.9859568176609
+        ],
+        [
+          0.026176948307873153,
+          0.9996573249755573,
+          141.89600836275315
+        ]
+      ],
+      "transformConvention": "parent coordinates; y down; clockwise degrees; matrix already includes centre pivot"
+    },
+    {
+      "id": "cotton-paper-inlay",
+      "type": "rect",
+      "parentId": "photo-plane",
+      "x": -24,
+      "y": -24,
+      "width": 1058,
+      "height": 721.3333333333334,
+      "rotation": 0,
+      "opacity": 1,
+      "fill": "#FAFAF8",
+      "cornerRadius": 4,
+      "shadow": {
+        "type": "DROP_SHADOW",
+        "color": "#162760",
+        "opacity": 0.16,
+        "offset": {
+          "x": 8,
+          "y": 15
+        },
+        "blur": 24,
+        "spread": 0,
+        "visible": true,
+        "lightOrigin": "upper left; shadow falls lower right"
+      }
+    },
+    {
+      "id": "cotton-grain",
+      "type": "image",
+      "parentId": "photo-plane",
+      "x": -24,
+      "y": -24,
+      "width": 1058,
+      "height": 721.3333333333334,
+      "rotation": 0,
+      "opacity": 0.12,
+      "assetId": "OS-TX201",
+      "imageHash": "64c2e680f4e30572ecde6c5ec5cfaaf2cd28f9700da01743a8e5aba0d4256f03",
+      "imagePath": "brand-library/packages/assets/revisions/v2/paper/OS-TX201.png",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "fit": "cover",
+      "clipTo": "cotton-paper-inlay",
+      "isTexture": true
+    },
+    {
+      "id": "blue-rim",
+      "type": "rect",
+      "parentId": "photo-plane",
+      "x": -3,
+      "y": -3,
+      "width": 1016,
+      "height": 679.3333333333334,
+      "rotation": 0,
+      "opacity": 1,
+      "fill": "#3157D5",
+      "cornerRadius": 4,
+      "shadow": null
+    },
+    {
+      "id": "fine-nickel-reveal",
+      "type": "rect",
+      "parentId": "photo-plane",
+      "x": -1,
+      "y": -1,
+      "width": 1012,
+      "height": 675.3333333333334,
+      "rotation": 0,
+      "opacity": 1,
+      "fill": "#A9AFBA",
+      "cornerRadius": 0
+    },
+    {
+      "id": "photo",
+      "type": "image",
+      "parentId": "photo-plane",
+      "x": 0,
+      "y": 0,
+      "width": 1010,
+      "height": 673.3333333333334,
+      "rotation": 0,
+      "opacity": 1,
+      "assetId": "OS-PH202",
+      "imageHash": "7b5c5743f86e8ac1d34a56afbb15265a1a43d78ff5612cff611620addd143a9b",
+      "imagePath": "brand-library/packages/assets/revisions/v2/photos/OS-PH202.png",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "fit": "contain",
+      "preserveAspectRatio": "xMidYMid meet",
+      "crop": null,
+      "cornerRadius": 0,
+      "fullImageVisible": true
+    },
+    {
+      "id": "fiction-disclosure",
+      "type": "text",
+      "parentId": "root",
+      "x": 68,
+      "y": 905,
+      "width": 1064,
+      "height": 62,
+      "rotation": 0,
+      "opacity": 1,
+      "text": "design specimen \u00b7 fictional media",
+      "fontFamily": "Inter",
+      "fontStyle": "Medium",
+      "fontSize": 48,
+      "fontWeight": 500,
+      "lineHeight": 60,
+      "fill": "#162760",
+      "maxLines": 1,
+      "persistent": true,
+      "minimum360pxPreviewFontSize": 14.4
+    }
+  ],
+  "coordinates": "Children are parent-local. Root children frontal unless rotation explicit. Rotation about own centre, clockwise with y down. Use provided group relativeTransform in Figma. Layer order is array order; parent group established before children.",
+  "font": {
+    "family": "Inter",
+    "file": "brand-library/packages/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
+    "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+    "weightAxes": "Variable licensed font; actual400\u2013700 supported",
+    "licenseRoute": "brand-library/packages/assets/identity/font-source/inter/"
+  },
+  "imageLookup": {
+    "OS-PH202": {
+      "path": "brand-library/packages/assets/revisions/v2/photos/OS-PH202.png",
+      "sha256": "7b5c5743f86e8ac1d34a56afbb15265a1a43d78ff5612cff611620addd143a9b",
+      "sourceDimensions": [
+        1536,
+        1024
+      ],
+      "FigmaInstruction": "Use original bytes via imageHash mapping; set native image rectangle1010\u00d7673.333 with FIT. No crop."
+    },
+    "OS-TX201": {
+      "path": "brand-library/packages/assets/revisions/v2/paper/OS-TX201.png",
+      "sha256": "64c2e680f4e30572ecde6c5ec5cfaaf2cd28f9700da01743a8e5aba0d4256f03",
+      "opacity": 0.12,
+      "FigmaInstruction": "Clip or mask to named paper plate only; image opaque photo covers centre; do not apply to page."
+    }
+  },
+  "generationLineage": {
+    "photo": {
+      "id": "OS-PH202",
+      "source": "[local-source-omitted]",
+      "destination": "brand-library/packages/assets/revisions/v2/photos/OS-PH202.png",
+      "prompt": "[dated-local-evidence-omitted]",
+      "route": "built-in imagegen",
+      "rights": "Original generated fictional media; label required; no real customer evidence",
+      "sha256": "7b5c5743f86e8ac1d34a56afbb15265a1a43d78ff5612cff611620addd143a9b"
+    },
+    "promptPath": "[dated-local-evidence-omitted]",
+    "promptSha256": "5c266c7486dab0ee0593f2239525beb6ab3fc0d45304bb9bc63550f7b24253cb",
+    "promptText": "One original photorealistic editorial photograph, landscape 3:2. Fictional Southern European male software founder in his late thirties, medium olive skin, short dark wavy hair, a little grey at temples, clean quiet navy overshirt, no tie. Candid three-quarter interview pose facing slightly camera-left, looking to interviewer just off camera, measured conversational expression. Natural unretouched face and credible visible hands. Frame with generous headroom and visible shoulders at eye level, 65mm-equivalent lens. Bright loft meeting room with white cotton-paper samples and a pale desk in foreground, navy upholstered wall panel 2 metres behind, one cobalt object far in background, daylight through tall window camera-left. Background depth is photographic and layered, not flat painted backdrop. Soft directional light with fine shadow modeling and gentle separation; balanced white, navy, neutral silver accents. No final frame, typography, logo, UI, watermark, fake company proof. Original fictional person only; elegant editorial photography, no model glamour or metal overload.\n",
+    "framingSource": "Original deterministic SVG/native layer composition; no imagegen or pixel repaint."
+  },
+  "placementGuide": {
+    "photoPlane": [
+      95,
+      155,
+      1010,
+      673.3333333333334
+    ],
+    "rotationDegrees": 1.5,
+    "perspective": "2D framed image plane; no extra projective distortion; full generated3:2 image remains visible.",
+    "photographicLens": "Descriptive portrait/interview perspective from generated source; no actual camera/lens metadata claimed.",
+    "lighting": "Source soft daylight from left/front; frame cast shadow falls lower right, shared upper-left light.",
+    "backgroundDepth": "paper",
+    "copySafeSpace": "All title/disclosure native and frontal outside photo. PH203 original left white field remains clear.",
+    "use": "One focal frame on white. Do not imply the fictional people are customers or approved interviews."
+  },
+  "reviewStatus": "maker_composition_independent_review_pending",
+  "ownerAccepted": false
+}

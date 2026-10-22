@@ -1,0 +1,37 @@
+{
+  "status": "maker_views_visually_frozen; independent review below scoped to composition/material",
+  "microphone": [
+    {
+      "id": "OS5-ID-microphone-front",
+      "src": "/assets/revisions/v5/identity/selected/model-front.png",
+      "label": "Native microphone / front"
+    },
+    {
+      "id": "OS5-ID-microphone-left",
+      "src": "/assets/revisions/v5/identity/selected/model-left.png",
+      "label": "Native microphone / left"
+    },
+    {
+      "id": "OS5-ID-microphone-right",
+      "src": "/assets/revisions/v5/identity/selected/model-right.png",
+      "label": "Native microphone / right"
+    }
+  ],
+  "wordmark": [
+    {
+      "id": "OS5-ID-wordmark-front",
+      "src": "/assets/revisions/v5/identity/wordmark-3d/model-front.png",
+      "label": "Native extruded OUTSPOKEN / front"
+    },
+    {
+      "id": "OS5-ID-wordmark-left",
+      "src": "/assets/revisions/v5/identity/wordmark-3d/model-left.png",
+      "label": "Native extruded OUTSPOKEN / left"
+    },
+    {
+      "id": "OS5-ID-wordmark-right",
+      "src": "/assets/revisions/v5/identity/wordmark-3d/model-right.png",
+      "label": "Native extruded OUTSPOKEN / right"
+    }
+  ]
+}

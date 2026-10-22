@@ -1,0 +1,52 @@
+{
+  "id": "OS-LV4-007",
+  "name": "Outward Signal",
+  "idea_family": "broadcast voice",
+  "meaning": "A compact speech source opens into two broad wavefronts. The direction moves from a private thought to a public voice.",
+  "status": "original candidate; independent PM review pending; no lead selected",
+  "layers": [
+    {
+      "name": "navy curved layer1",
+      "material": "navy",
+      "path": "M17 38 Q35 27 51 38 L51 71 Q35 83 17 72 L17 60 L8 54 L17 49 Z",
+      "depth": 0.13,
+      "bow": 0.2,
+      "z": 0.0,
+      "yaw": -0.08,
+      "roll": 0
+    },
+    {
+      "name": "silver curved layer2",
+      "material": "silver",
+      "path": "M59 25 C80 32 88 43 88 57 C88 74 77 86 59 92 L55 80 C69 75 76 68 76 57 C76 47 69 40 55 37 Z",
+      "depth": 0.13,
+      "bow": 0.32,
+      "z": 0.16,
+      "yaw": 0.08,
+      "roll": 0
+    },
+    {
+      "name": "blue curved layer3",
+      "material": "blue",
+      "path": "M80 9 C110 20 120 38 120 57 C120 81 105 102 80 111 L75 99 C97 89 107 75 107 57 C107 41 98 27 75 21 Z",
+      "depth": 0.13,
+      "bow": 0.2,
+      "z": 0.32,
+      "yaw": -0.04,
+      "roll": 0
+    }
+  ],
+  "geometry": "Closed beveled extrusion of the editable curved paths with continuous bowed depth; original geometry, not a stock mesh",
+  "wordmark": "Always uppercase OUTSPOKEN. Exact Archivo730 outlines with optical manual tracking; only firstO has a narrow outward voice notch.",
+  "small_size_verdict": "Voice source plus two wavefronts remains legible at24/32. Broadcast/audio association is explicit.",
+  "files": {
+    "glb": "model.glb",
+    "png": "beauty.png",
+    "webp": "beauty.webp",
+    "editable_svg": "flat.svg",
+    "outlined_lockup": "lockup-split.svg"
+  },
+  "curation_status": "secondary",
+  "geometry_checks": "finite all attributes; valid all indices; nonzero real depth; permesh bounds recorded",
+  "render_quality_limit": "Procedural satin/material counterpart; smoother and less photorealistic than root generated brushed-metal art. No raster/GLB pixel parity claim."
+}

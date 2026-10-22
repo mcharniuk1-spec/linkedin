@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-22",
+  "content_version": "v8.4-public-copy-humanized",
+  "scope": {
+    "source": "copy/publications.json",
+    "publication_ids_expected": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      "P15",
+      "P16",
+      "P17",
+      "P18",
+      "P19",
+      "P20"
+    ],
+    "publication_ids_checked": [
+      "P01",
+      "P02",
+      "P03",
+      "P04",
+      "P05",
+      "P06",
+      "P07",
+      "P08",
+      "P09",
+      "P10",
+      "P11",
+      "P12",
+      "P13",
+      "P14",
+      "P15",
+      "P16",
+      "P17",
+      "P18",
+      "P19",
+      "P20"
+    ],
+    "count": 20,
+    "unique_ids": 20,
+    "all_bodies_and_ctas_read": true,
+    "duplicate_json_keys_checked": true
+  },
+  "findings": [
+    {
+      "id": "P16, P19",
+      "severity": "owner_confirmation_before_publication",
+      "category": "first_person_research_attribution",
+      "finding": "“Our keyless Exa probes” (P16) and “our V5 LinkedIn release” (P19) accurately refer to the cited V5 work, but the receipts establish the work and its counts, not that Outspoken may publicly present that pipeline as its own company research. This is not a client-result claim.",
+      "action": "Confirm the public brand/account attribution for the V5 work. If that attribution is not intended, name the dated V5 research release without “our”."
+    },
+    {
+      "id": "P20",
+      "severity": "owner_fact_check_before_publication",
+      "category": "team_capability_claim",
+      "finding": "“Our team has a technical background” maps to the owner-authored technical-understanding rationale. The source supports that it is owner-stated, but this review did not independently verify credentials or team composition.",
+      "action": "Have the owner confirm that this wording accurately describes the current Outspoken team; retain the copy’s boundary that it is not client proof."
+    }
+  ],
+  "limits": "Existing dated editorial review. Separate current export reconciliation validates all20 exact bodies and media hashes; artistic/author approval remains pending."
+}

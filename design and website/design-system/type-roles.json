@@ -1,0 +1,83 @@
+{
+  "version": "0.1",
+  "state": "starting_values_to_render_and_review",
+  "families": {
+    "display_wordmark": "Archivo Variable candidate; inspect actual font license/files/axes",
+    "body_ui": "Inter Variable candidate; strict open forms",
+    "editorial_artwork": "Optional one serif tested only in publication artwork, not automatic third UI family"
+  },
+  "web_css_px": {
+    "display": {
+      "family": "display_wordmark",
+      "size_desktop": 72,
+      "size_phone": 42,
+      "weight": 800,
+      "line_height": 1.02,
+      "tracking_em": -0.035
+    },
+    "h2": {
+      "family": "display_wordmark",
+      "size_desktop": 44,
+      "size_phone": 32,
+      "weight": 750,
+      "line_height": 1.1,
+      "tracking_em": -0.025
+    },
+    "lead": {
+      "family": "body_ui",
+      "size_desktop": 20,
+      "size_phone": 18,
+      "weight": 500,
+      "line_height": 1.5,
+      "tracking_em": 0
+    },
+    "body": {
+      "family": "body_ui",
+      "size_desktop": 18,
+      "size_phone": 17,
+      "weight": 450,
+      "line_height": 1.55,
+      "tracking_em": 0
+    },
+    "support": {
+      "family": "body_ui",
+      "size_desktop": 16,
+      "size_phone": 16,
+      "weight": 500,
+      "line_height": 1.5,
+      "tracking_em": 0
+    },
+    "label": {
+      "family": "body_ui",
+      "size_desktop": 14,
+      "size_phone": 14,
+      "weight": 650,
+      "line_height": 1.35,
+      "tracking_em": 0.02
+    },
+    "button": {
+      "family": "body_ui",
+      "size_desktop": 16,
+      "size_phone": 16,
+      "weight": 650,
+      "line_height": 1.2,
+      "tracking_em": 0
+    }
+  },
+  "corrections": [
+    "Do not inherit V10 tiny widely spaced Founder content example and People/Customers/Markets/Perspective labels",
+    "Stronger label/button/body strokes; no fragile thin type or extreme narrow width",
+    "Prefer short normal-case labels; brief uppercase allowed within readable tracking",
+    "Condense only if actual-size tests improve recognition; do not mathematically squeeze lettering"
+  ],
+  "social": "Create independent type scale at actual canvas dimensions; do not use web CSS sizes as a 1080px export scale. Test phone-sized preview.",
+  "test_matrix": [
+    "100% desktop actual size",
+    "320/375/390 phone widths",
+    "200% zoom and reflow checks",
+    "long labels and two-line CTA",
+    "publication phone preview",
+    "light/dark/photographic surfaces",
+    "all required language glyphs and licensed font loading"
+  ]
+}

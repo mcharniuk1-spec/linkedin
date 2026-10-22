@@ -1,0 +1,702 @@
+{
+  "OFL-Archivo.txt": {
+    "bytes": 4388,
+    "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b"
+  },
+  "OS-LV4-001/beauty.png": {
+    "bytes": 89572,
+    "sha256": "442d1dcc460ebd81d2bbdcc7c2942f12e8123989e907cd35e2bac86abc3e71c6"
+  },
+  "OS-LV4-001/beauty.webp": {
+    "bytes": 17396,
+    "sha256": "f5c13fa4a30d57288f74b83d582e5c41ac96ce51038bb87bbe2bd983f675ee8f"
+  },
+  "OS-LV4-001/flat-inverse.svg": {
+    "bytes": 663,
+    "sha256": "b930f7e708c87b68b2ce731c6b075130ef234fd0c6863095ee4db5ea31d30cbd"
+  },
+  "OS-LV4-001/flat-mono.svg": {
+    "bytes": 666,
+    "sha256": "1f68f7c42902f8eefb14d0d98998190685ff3d8822c74e1815297a0f13fae078"
+  },
+  "OS-LV4-001/flat.svg": {
+    "bytes": 738,
+    "sha256": "e2bdf7c60342916fb67549cbc70706dfc54e815989cc8a66a8140362ab3d743b"
+  },
+  "OS-LV4-001/geometry-check.json": {
+    "bytes": 1890,
+    "sha256": "8e379b66405af226fbf7165495f94ac8ea7ff80e7aa50902f570554883bcbe80"
+  },
+  "OS-LV4-001/lockup-citron.svg": {
+    "bytes": 13993,
+    "sha256": "b6c823ad8d017c09c451fb181adb09498c325c36d00222e8a5a21d30df9d581a"
+  },
+  "OS-LV4-001/lockup-gradient.svg": {
+    "bytes": 14441,
+    "sha256": "c18d6fbfd0b59768b0802ea57d0706ce7d18e62b4dfd67e2fb870ec429d953fb"
+  },
+  "OS-LV4-001/lockup-inverse.svg": {
+    "bytes": 13993,
+    "sha256": "d8f1a70cec5a3d3f850957d689761c6cf8202d19f4771fddda82e44504a5626a"
+  },
+  "OS-LV4-001/lockup-mono.svg": {
+    "bytes": 13993,
+    "sha256": "5603538cdf5a080422db7bf81bfede7fb5dbf0e3037031ac1d7cf740059bb57f"
+  },
+  "OS-LV4-001/lockup-split.svg": {
+    "bytes": 14053,
+    "sha256": "814c68d9a4c5f1e1569326851c8930ad61d821c41a99ff88f5878866a8bc123e"
+  },
+  "OS-LV4-001/model.glb": {
+    "bytes": 1147256,
+    "sha256": "bdccb66210e356fe33519c49eda8c941ff3f656b27afb2c7aa95b1cbd02423c4"
+  },
+  "OS-LV4-001/recipe.json": {
+    "bytes": 2270,
+    "sha256": "d3242684a03e5a585f8f987e51e476cc5fac65e7051a11cc3f0e4390a9a5520d"
+  },
+  "OS-LV4-001/small-proof.png": {
+    "bytes": 1742,
+    "sha256": "ab83fc1367a08bd4709366314d13996130e8e7dcf487bf249c055a7967837445"
+  },
+  "OS-LV4-001/wordmark-citron.svg": {
+    "bytes": 13450,
+    "sha256": "d49b2dd1049cc114810c38272fefe47520c308336356b756d0f9896f82c842c5"
+  },
+  "OS-LV4-001/wordmark-gradient.svg": {
+    "bytes": 13833,
+    "sha256": "375951bc7683d5753f3c771330f1123060b015b488979ed99d800c26ffd3e9cc"
+  },
+  "OS-LV4-001/wordmark-inverse.svg": {
+    "bytes": 13450,
+    "sha256": "90ad95bfd70a2bcd2951917fc74c9a3024cf242d36e8d47b4127a4b5a6cb17f1"
+  },
+  "OS-LV4-001/wordmark-mono.svg": {
+    "bytes": 13450,
+    "sha256": "bc334ec96e5d3a2e992818480e2e1d51e7828e90c80df8c795458b780bb92248"
+  },
+  "OS-LV4-001/wordmark-split.svg": {
+    "bytes": 13450,
+    "sha256": "173a3a699d87a7afda52f9d4e83d9c93ae7eeb4a34f0d9194088813217d82c9d"
+  },
+  "OS-LV4-002/beauty.png": {
+    "bytes": 88960,
+    "sha256": "e9c90f00f0335b87d32ea1c9667ef5dcbf6f129e2e05e0c893e03c09b832e7b1"
+  },
+  "OS-LV4-002/beauty.webp": {
+    "bytes": 16034,
+    "sha256": "96ab2a6f62c9d9e8d4449ee7e5aa2f34f46991a2a8adf7c95271d037836857b4"
+  },
+  "OS-LV4-002/flat-inverse.svg": {
+    "bytes": 511,
+    "sha256": "01d82085644886b86f91590221129f157bc0445ef875f2ec5785eca5473e31b2"
+  },
+  "OS-LV4-002/flat-mono.svg": {
+    "bytes": 514,
+    "sha256": "7c6bec4e33511d2ccd562dea26e6afcb66487000f91f99327d6c1fe5b51effc0"
+  },
+  "OS-LV4-002/flat.svg": {
+    "bytes": 571,
+    "sha256": "4b9d25676f7d212b9c53554369a51ea4164e1db25a4188dcc80f01875bc163ea"
+  },
+  "OS-LV4-002/geometry-check.json": {
+    "bytes": 1453,
+    "sha256": "0037e680b7449fecbda5e27e5beea0272d91f2f00338330e5324c3df0216428d"
+  },
+  "OS-LV4-002/lockup-citron.svg": {
+    "bytes": 13841,
+    "sha256": "e6fef8f10a6dfc10b6e34e3be029ca07255eb8ee62e223f53719e21e172d615e"
+  },
+  "OS-LV4-002/lockup-gradient.svg": {
+    "bytes": 14274,
+    "sha256": "24cff8db43de631eba02cf87300857b35a7b69f8fc0a85b35126a10c5b1c238e"
+  },
+  "OS-LV4-002/lockup-inverse.svg": {
+    "bytes": 13841,
+    "sha256": "e524c10939314e690a4c422fb3971e6ec36b14a6c3e3a7328f09d6e72211aac2"
+  },
+  "OS-LV4-002/lockup-mono.svg": {
+    "bytes": 13841,
+    "sha256": "11b52bffa91a3f0d696bb3e15e06f0305bf57405e8b6146aa784b93c573da774"
+  },
+  "OS-LV4-002/lockup-split.svg": {
+    "bytes": 13886,
+    "sha256": "9aba04624afbdfb873a93fe2d3b17395d93656dfdae21233a7459d6d218f885e"
+  },
+  "OS-LV4-002/model.glb": {
+    "bytes": 779008,
+    "sha256": "5372686d610e6b1f6476a4c376d18877d6c10ff8800c421cc5c626574b297989"
+  },
+  "OS-LV4-002/recipe.json": {
+    "bytes": 1986,
+    "sha256": "11232ab5d2ad9e1045ed0af4d6d1c5a7e639275b1109407612c691c0d51135a5"
+  },
+  "OS-LV4-002/small-proof.png": {
+    "bytes": 1508,
+    "sha256": "777d7d2463b32a6be77f1175ebcca0cde5981b783b57d9709c381a6e9fefe7f5"
+  },
+  "OS-LV4-002/wordmark-citron.svg": {
+    "bytes": 13450,
+    "sha256": "a842bb1bf731768b8110fb1f27e6109f6896d9f2a639116e02070ca1c9a50621"
+  },
+  "OS-LV4-002/wordmark-gradient.svg": {
+    "bytes": 13833,
+    "sha256": "c3970824ccc392db12a9a663c6f4bf35819cb880dc81222984294c21f6a63b57"
+  },
+  "OS-LV4-002/wordmark-inverse.svg": {
+    "bytes": 13450,
+    "sha256": "03da3b0582947ca928276e8f3afe2d5a2297def74d72e93ef716e183b3319e27"
+  },
+  "OS-LV4-002/wordmark-mono.svg": {
+    "bytes": 13450,
+    "sha256": "b6a12295d4355c77039dd8d570cda7564c8abf7f5ad9180dbf012ca9519623ed"
+  },
+  "OS-LV4-002/wordmark-split.svg": {
+    "bytes": 13450,
+    "sha256": "cf89ebc41041c5e9f12bc3f75dadb359c02e2d9866b82fbba76611f65656d818"
+  },
+  "OS-LV4-003/beauty.png": {
+    "bytes": 93993,
+    "sha256": "33a39c605b085ec8c5a695fe1f13150dfac13cd5977a5e3a0e2699627d63bade"
+  },
+  "OS-LV4-003/beauty.webp": {
+    "bytes": 19560,
+    "sha256": "5ae71f14048e83a2abc572d78f5659bc5101d7b0a8acdba7328bb532aa1eb1f1"
+  },
+  "OS-LV4-003/flat-inverse.svg": {
+    "bytes": 582,
+    "sha256": "736b4b7f253e95fba7cd25510b7e86e1ac0c4b5973072eebe9667f23ccd85fa7"
+  },
+  "OS-LV4-003/flat-mono.svg": {
+    "bytes": 585,
+    "sha256": "e81505b87294976d6effd4f872bbf5f5e0def8bc527acf02ef7098088786a4b8"
+  },
+  "OS-LV4-003/flat.svg": {
+    "bytes": 642,
+    "sha256": "ff99c237152f8622d97be1747a5e31232d6764cf24dba5888f8df678f3ce5322"
+  },
+  "OS-LV4-003/geometry-check.json": {
+    "bytes": 1454,
+    "sha256": "767593c0b8caacc99f4d714077d3cf227f24e99adc42759b9d7b098ae593e19c"
+  },
+  "OS-LV4-003/lockup-citron.svg": {
+    "bytes": 13912,
+    "sha256": "0de37c32e901f32eae1cfa8008bf645b1ad244f96cc5f01c26c63f98c93e7cc6"
+  },
+  "OS-LV4-003/lockup-gradient.svg": {
+    "bytes": 14345,
+    "sha256": "349079ce73ef3a44b27a1362c50e418c019d82c37fd3acfb507db6b566d633c7"
+  },
+  "OS-LV4-003/lockup-inverse.svg": {
+    "bytes": 13912,
+    "sha256": "b658927489cb5d951a12b25df6d48658845dd929d0f45df6de5220deb8d10f7c"
+  },
+  "OS-LV4-003/lockup-mono.svg": {
+    "bytes": 13912,
+    "sha256": "78c7f6cbaf5acad8e05e4ea227ddf1125eed9f09fecb8673f6b5c84d8ab19191"
+  },
+  "OS-LV4-003/lockup-split.svg": {
+    "bytes": 13957,
+    "sha256": "a28b47db559a737d69f6d41eb46fafc04bb79034c7775992d7f84e98d8e9cb28"
+  },
+  "OS-LV4-003/model.glb": {
+    "bytes": 990484,
+    "sha256": "5fb2c1f2981286caef9b314bc2ee91e717d2a4d239a7bdf85f8587d45024df0a"
+  },
+  "OS-LV4-003/recipe.json": {
+    "bytes": 2127,
+    "sha256": "9b62ca657f20244216234c88e5236445e9f444577834733798d189bc0c121842"
+  },
+  "OS-LV4-003/small-proof.png": {
+    "bytes": 1828,
+    "sha256": "1e4e9a31f8b609568afde2f1cf51c7df55d0720dbe21bf88fb67caef58bb84ef"
+  },
+  "OS-LV4-003/wordmark-citron.svg": {
+    "bytes": 13450,
+    "sha256": "c59a5c26ee7107270b365a402599fef4809b6590687d5ae7c7c1fc31a13e8c37"
+  },
+  "OS-LV4-003/wordmark-gradient.svg": {
+    "bytes": 13833,
+    "sha256": "d3c8f002ff1acf2e0a9115305ac0d775377f3987cc29c0b4bd99777baab34587"
+  },
+  "OS-LV4-003/wordmark-inverse.svg": {
+    "bytes": 13450,
+    "sha256": "52887f20184c29fbb59a42b534292d02ec01c16f41061dec433b7ac025339d50"
+  },
+  "OS-LV4-003/wordmark-mono.svg": {
+    "bytes": 13450,
+    "sha256": "00e29a1d4297262626eeb4b29ecb2ac9f5ef08a957ad59feadb17f0d580d0a42"
+  },
+  "OS-LV4-003/wordmark-split.svg": {
+    "bytes": 13450,
+    "sha256": "1814e7ca7c972b8156839d2c56bbc50919af25c8e7c8945e089f5b5fd2f75ca1"
+  },
+  "OS-LV4-004/beauty.png": {
+    "bytes": 104569,
+    "sha256": "191fc8884c1926fb9a6e07e94f7514fafbbd38fc871cbdf9ce8a535ad264791e"
+  },
+  "OS-LV4-004/beauty.webp": {
+    "bytes": 18406,
+    "sha256": "6a1ff092cdcf67d6f8a2e5bdc577fa8979380c92b80dab4d0ff7af0236d65b09"
+  },
+  "OS-LV4-004/flat-inverse.svg": {
+    "bytes": 567,
+    "sha256": "c3f6858ab8ddc36ab5f2dc413bd11c26b96f25d63fffd91f52bb8dc116294f51"
+  },
+  "OS-LV4-004/flat-mono.svg": {
+    "bytes": 570,
+    "sha256": "69f82b332542a1e36989c3703c03a45d06acb4ce01293fc9e48ccf3536d1487f"
+  },
+  "OS-LV4-004/flat.svg": {
+    "bytes": 627,
+    "sha256": "c3cfedc6ad6b8df2a721fe936baf94789ca25141865b4c3a2770bf50131f0f27"
+  },
+  "OS-LV4-004/geometry-check.json": {
+    "bytes": 1457,
+    "sha256": "a95db7f43fd4538548b785e413c2bed77efb28f7d9b3b13d24bc910308d28946"
+  },
+  "OS-LV4-004/lockup-citron.svg": {
+    "bytes": 13897,
+    "sha256": "fb4635f90a4147314bb32252d8c990c5a089b1ff17bb7ddc87737bbf4fab32bf"
+  },
+  "OS-LV4-004/lockup-gradient.svg": {
+    "bytes": 14330,
+    "sha256": "10e0917170702795af8084feb0d871843ea084f2ed3f293199f835a8212300c6"
+  },
+  "OS-LV4-004/lockup-inverse.svg": {
+    "bytes": 13897,
+    "sha256": "eb8e4bf16cf380eb3042e0d24d9c2d8c16f3e20515d597066d5fa3b1f94b8db7"
+  },
+  "OS-LV4-004/lockup-mono.svg": {
+    "bytes": 13897,
+    "sha256": "a87b00a0255372eadc9904f8bd431594a6f1b8b4b046b271d6f94e1a18e9f973"
+  },
+  "OS-LV4-004/lockup-split.svg": {
+    "bytes": 13942,
+    "sha256": "6135cb077b81c53c8ecf1bbe1160cfc80df22dc2f1f3cbc9b96023375f648fb1"
+  },
+  "OS-LV4-004/model.glb": {
+    "bytes": 965268,
+    "sha256": "1db612ce6c997ab27420d805941dc6b7d0f009f9c285c2dfcac992520eda6f09"
+  },
+  "OS-LV4-004/recipe.json": {
+    "bytes": 2146,
+    "sha256": "08811f86728d76a5cea17cf2527e8a24d6e012ce30f126a234b330472d20ce45"
+  },
+  "OS-LV4-004/small-proof.png": {
+    "bytes": 1476,
+    "sha256": "06c2c3c21e19a8e49f5ea3bc25da81995eee5e8091703c2db99666200b7384e9"
+  },
+  "OS-LV4-004/wordmark-citron.svg": {
+    "bytes": 13450,
+    "sha256": "2d1b3630c5cc8412247dc71e00a3a498d672196c1cf72fa89dc4277fb7357431"
+  },
+  "OS-LV4-004/wordmark-gradient.svg": {
+    "bytes": 13833,
+    "sha256": "e1b3ed0c69f74db2a66c176b0929e5046cc39da8a3319231f22686fee34ccdaa"
+  },
+  "OS-LV4-004/wordmark-inverse.svg": {
+    "bytes": 13450,
+    "sha256": "a868e2814373bbd25aafa9ee9dab4aef013f33e077a739c372648bca589fd483"
+  },
+  "OS-LV4-004/wordmark-mono.svg": {
+    "bytes": 13450,
+    "sha256": "56784efa97b84bd256729c4ec8c0abc08ec61dcb86421cd49f953799e9b12f90"
+  },
+  "OS-LV4-004/wordmark-split.svg": {
+    "bytes": 13450,
+    "sha256": "b99e7a164b7b9c816a41cbbdf40deaa935d92ec787952dd4829a5fea9b0abb0f"
+  },
+  "OS-LV4-005/beauty.png": {
+    "bytes": 109712,
+    "sha256": "dfd8e3c694c1792ccd5e3703d1f76955783d19fbe25d108ec0ebe32474530a31"
+  },
+  "OS-LV4-005/beauty.webp": {
+    "bytes": 22778,
+    "sha256": "3a3e535364ea29878fa6674b4dcc5b32e8f21de2bc49b0bf05074c07ce845183"
+  },
+  "OS-LV4-005/flat-inverse.svg": {
+    "bytes": 634,
+    "sha256": "cf0d4d16f763a6ff14fe8d1322fe809800d23bde96e2b16e4d15450cafb1a90d"
+  },
+  "OS-LV4-005/flat-mono.svg": {
+    "bytes": 637,
+    "sha256": "2e9f8d8a6c33d509686dde16a51f0e2c115a3e33ce3f43b0011e466e34cfeb89"
+  },
+  "OS-LV4-005/flat.svg": {
+    "bytes": 694,
+    "sha256": "3c38b9282eb91a3ebb4e2d4586a71f0b982a51ebd9861364b8592134fa8096b7"
+  },
+  "OS-LV4-005/geometry-check.json": {
+    "bytes": 1456,
+    "sha256": "52dc5b3ddb1cc0a25d857007449524cc90629b4a0bccd1135916acb09ec439e4"
+  },
+  "OS-LV4-005/lockup-citron.svg": {
+    "bytes": 13964,
+    "sha256": "7f271b6058e0ed852b7f0be0f6368d7f78095873521c1b05ba58dfd68e28df88"
+  },
+  "OS-LV4-005/lockup-gradient.svg": {
+    "bytes": 14397,
+    "sha256": "af3431b37b77230ceb03c74fdb716e546dd0f1462165c16f9f23885c2cb3e54f"
+  },
+  "OS-LV4-005/lockup-inverse.svg": {
+    "bytes": 13964,
+    "sha256": "679332e56d1f1003f07d5f53c67e4bf91e36c30455dbd69e16acaada1be2f70a"
+  },
+  "OS-LV4-005/lockup-mono.svg": {
+    "bytes": 13964,
+    "sha256": "ba4003a4be1ebaca7026185eeacd7925c48a0f28a6baea757b067271b3f84231"
+  },
+  "OS-LV4-005/lockup-split.svg": {
+    "bytes": 14009,
+    "sha256": "f32484161ac5a8974e81df91e1ad47b149a91b3b6739aa781e13a625141e3d40"
+  },
+  "OS-LV4-005/model.glb": {
+    "bytes": 1285124,
+    "sha256": "1e5f4e9c15c489a1bb99cd10071cb36f2baad50d4921fd7475086feadf5ab00b"
+  },
+  "OS-LV4-005/recipe.json": {
+    "bytes": 2140,
+    "sha256": "33764249fcc483f7962bb5af7de0e2a1d45f0edd7dd5e9397296294f61469e09"
+  },
+  "OS-LV4-005/small-proof.png": {
+    "bytes": 1876,
+    "sha256": "084b0ba02bab0f865141f8058492577872d339924bef70d3d6ccdf119dc8e24b"
+  },
+  "OS-LV4-005/wordmark-citron.svg": {
+    "bytes": 13450,
+    "sha256": "3d1b18c31c8ef22a82c8f1840c97e2ef876ccb0c373eeb31ed9c2dc64aacb8c8"
+  },
+  "OS-LV4-005/wordmark-gradient.svg": {
+    "bytes": 13833,
+    "sha256": "d06911124cac4dfb8c14628c396be4fb999bd174f22dc339ab22c19f364dd6c7"
+  },
+  "OS-LV4-005/wordmark-inverse.svg": {
+    "bytes": 13450,
+    "sha256": "847b0c2b26e35d2739a6d0b038cbb7b9206a9611e66d2ae9f3130b23c9b156c0"
+  },
+  "OS-LV4-005/wordmark-mono.svg": {
+    "bytes": 13450,
+    "sha256": "73a91824d2aa08b7d1793c6168fd82ed810a05a146da10319bb08d6b10c6b086"
+  },
+  "OS-LV4-005/wordmark-split.svg": {
+    "bytes": 13450,
+    "sha256": "30039412b988aed210abc4e6600c112b4c0b5b4b615f3f169b5d0c7239f2efdd"
+  },
+  "OS-LV4-006/beauty.png": {
+    "bytes": 98673,
+    "sha256": "a093a2adbe1ddae5fdf5639f8295143d0ec719a334dd3515a134d27668a43fe8"
+  },
+  "OS-LV4-006/beauty.webp": {
+    "bytes": 21850,
+    "sha256": "b83f9fdba125647dd217c397dbbdb1e2952ba99ca3c11a7e61c2e5a2b115d53f"
+  },
+  "OS-LV4-006/flat-inverse.svg": {
+    "bytes": 814,
+    "sha256": "7ae8bec36be86b40b567c6ddb6ca63857d1edb5b4553c33e7869666298daf3d9"
+  },
+  "OS-LV4-006/flat-mono.svg": {
+    "bytes": 817,
+    "sha256": "eadb88b913edfca5928fda162e33ef7d10c3dc7678e57b857884dbf9d71350c5"
+  },
+  "OS-LV4-006/flat.svg": {
+    "bytes": 889,
+    "sha256": "de22c701f57601ea7ccd6b17059c5c8a9c7ae856899dea714cfa1e7d525da6ca"
+  },
+  "OS-LV4-006/geometry-check.json": {
+    "bytes": 1896,
+    "sha256": "c91c485c465a3c84c456cdfb91495d35c81c7c946241c7a060c20413019d3f93"
+  },
+  "OS-LV4-006/lockup-citron.svg": {
+    "bytes": 14144,
+    "sha256": "7888ff2f65f05b8c533b11a94af74c070f684769bff5be436718031582996077"
+  },
+  "OS-LV4-006/lockup-gradient.svg": {
+    "bytes": 14592,
+    "sha256": "9455381b68e543d266b60d3dedaf09c3bf0a9ae5c9e34370afb88dfecc635e0c"
+  },
+  "OS-LV4-006/lockup-inverse.svg": {
+    "bytes": 14144,
+    "sha256": "373110562dbefd5dc83b5bfc2c7889047051f9594ae697cd360f0d0da0bbd333"
+  },
+  "OS-LV4-006/lockup-mono.svg": {
+    "bytes": 14144,
+    "sha256": "c6296e15d9d234074ff2362c99c07901d0bbfc6b2a76694df7e987dfd5990e4a"
+  },
+  "OS-LV4-006/lockup-split.svg": {
+    "bytes": 14204,
+    "sha256": "8d4a830009fb7fac1112a1867bc8071064bbf86fe552da8e50c699b966e37da2"
+  },
+  "OS-LV4-006/model.glb": {
+    "bytes": 1460684,
+    "sha256": "54dc13148405e086a268d42b51aba10ab7b6ba7a1d5843c44e7f2a2668d5cbb9"
+  },
+  "OS-LV4-006/recipe.json": {
+    "bytes": 2481,
+    "sha256": "f13344bf1e7983fa20b3a00a260931baab272b82640873a39661681eeb806b64"
+  },
+  "OS-LV4-006/small-proof.png": {
+    "bytes": 1720,
+    "sha256": "021ad0dfa66c07d264bab5a352a89c61ffb6ace1da73f118f63237ee61aca018"
+  },
+  "OS-LV4-006/wordmark-citron.svg": {
+    "bytes": 13450,
+    "sha256": "c527d1011f93a15f79ec88c45ac1ca5400d5efb2ab3b6e6bc0c1f17289b548a8"
+  },
+  "OS-LV4-006/wordmark-gradient.svg": {
+    "bytes": 13833,
+    "sha256": "03ef28ae2ccbd3c5fe1c11ba8022f0fbdfb571050c02d717f59676699f63f0ff"
+  },
+  "OS-LV4-006/wordmark-inverse.svg": {
+    "bytes": 13450,
+    "sha256": "b7d0019ee7062bec109a9bedeb68a8b56063df7578ba5f33dfce4864ccc978ab"
+  },
+  "OS-LV4-006/wordmark-mono.svg": {
+    "bytes": 13450,
+    "sha256": "8e65cc5c34eb905e2a7fda21e3c0d4c886858b6d661cfd68b7d8158c3a14ec5a"
+  },
+  "OS-LV4-006/wordmark-split.svg": {
+    "bytes": 13450,
+    "sha256": "9d77961071494b9ecedcbc123dce91373cb9a35a01a54ba8271324b8e818481a"
+  },
+  "OS-LV4-007/beauty.png": {
+    "bytes": 95326,
+    "sha256": "70043de177494b759f9d29c7ee6058729fcace0e3baaa4d76c9722f394989651"
+  },
+  "OS-LV4-007/beauty.webp": {
+    "bytes": 20948,
+    "sha256": "8c50b7f5b4651c42288375499111af7a441acb7e513860ff2f999b97ebe9bc44"
+  },
+  "OS-LV4-007/flat-inverse.svg": {
+    "bytes": 546,
+    "sha256": "d36338e474ec05c5798890ffae7de7ad42f559f1d2a754a8603c628ae1d55d47"
+  },
+  "OS-LV4-007/flat-mono.svg": {
+    "bytes": 549,
+    "sha256": "99beee5a8c2678820db03c05d364b795048985a975f9c06f1b639308e25db873"
+  },
+  "OS-LV4-007/flat.svg": {
+    "bytes": 606,
+    "sha256": "74230b08965a3c60f265fb8bb33825e11fb47eeded605b4de1d07e176b20dbc5"
+  },
+  "OS-LV4-007/geometry-check.json": {
+    "bytes": 1452,
+    "sha256": "be9a9e1b2488ddaa2915ae1abc2498c0d56429e41a983ba70a0d5adbcba98b27"
+  },
+  "OS-LV4-007/lockup-citron.svg": {
+    "bytes": 13876,
+    "sha256": "4f9ef87741ca68c6c1aa2a63a79b677960c8bd8761f72f192ce5f948caa921a2"
+  },
+  "OS-LV4-007/lockup-gradient.svg": {
+    "bytes": 14309,
+    "sha256": "6f075d98e67d8c29143563afd99e24fe2837e7007683d1beb012b7ba2297b423"
+  },
+  "OS-LV4-007/lockup-inverse.svg": {
+    "bytes": 13876,
+    "sha256": "9c2bdf9cef43872e7ac29609754772351b7fcf346649a6c7d9ce61fcdec46e6c"
+  },
+  "OS-LV4-007/lockup-mono.svg": {
+    "bytes": 13876,
+    "sha256": "ee138424b26882c777a55eb910689f274a39ab7edc59acb819f48fa02cc7bc55"
+  },
+  "OS-LV4-007/lockup-split.svg": {
+    "bytes": 13921,
+    "sha256": "9402fe6781931e08d9281a62a88167c78dddee2f7a437c5ae5590862ff654bd1"
+  },
+  "OS-LV4-007/model.glb": {
+    "bytes": 826568,
+    "sha256": "3033ae573958754f5d0d46cd016f72751bf9ea29ea69420ef20fbd85faee50b2"
+  },
+  "OS-LV4-007/recipe.json": {
+    "bytes": 2029,
+    "sha256": "4a697a6a3d95637ac537cb5d4cac24cc9cdea6df3a8e02efd27aa4eff5d16d18"
+  },
+  "OS-LV4-007/small-proof.png": {
+    "bytes": 1948,
+    "sha256": "a7a1ecae465d1f063d94fcc9776177698e491c23fdb06640b0a912631a4d2933"
+  },
+  "OS-LV4-007/wordmark-citron.svg": {
+    "bytes": 13450,
+    "sha256": "91ed58f9cd64ade990a396e708df9f045c3b9c4467eb4109462c32f53eedbbf5"
+  },
+  "OS-LV4-007/wordmark-gradient.svg": {
+    "bytes": 13833,
+    "sha256": "df4e2b5c2cd18d4c2bc4bf514b857f93b516403a948c64fcaf0356af23904735"
+  },
+  "OS-LV4-007/wordmark-inverse.svg": {
+    "bytes": 13450,
+    "sha256": "01125cfba4d5dcc071b9fac1d614ee1484143326dc07e665ae965b0be75f63dd"
+  },
+  "OS-LV4-007/wordmark-mono.svg": {
+    "bytes": 13450,
+    "sha256": "2250f0dfe7b80bd112910a1e90bf73569e9be0766c47ad2ab1fe700a6df0f341"
+  },
+  "OS-LV4-007/wordmark-split.svg": {
+    "bytes": 13450,
+    "sha256": "e1f5ac3ca8bb47ad57cd845a6a1c30a4b7b81e516cd8eb79e4f7a2c94df88a6b"
+  },
+  "OS-LV4-008/beauty.png": {
+    "bytes": 117529,
+    "sha256": "02c12f174e1f66edb2547ac794df2cda6bf087430a59706af21fd86a08b0f0e0"
+  },
+  "OS-LV4-008/beauty.webp": {
+    "bytes": 26342,
+    "sha256": "b98b31dd711801693bb42c9b50b89d5de89f8d64b2b85d1927cd0c45f9627cd0"
+  },
+  "OS-LV4-008/flat-inverse.svg": {
+    "bytes": 632,
+    "sha256": "708fa9d2671f21bb6d89ec9891a879f0291b2c8dca323e237585ee1fe68e1e71"
+  },
+  "OS-LV4-008/flat-mono.svg": {
+    "bytes": 635,
+    "sha256": "122ccd4abc9f8d87bb2aa71fdb164476dd322cacca3e10466fa35fb65d40b710"
+  },
+  "OS-LV4-008/flat.svg": {
+    "bytes": 692,
+    "sha256": "4e4253e1c7b601b75ef8148580db9e56a148c137695571dfb48e3173684e8b46"
+  },
+  "OS-LV4-008/geometry-check.json": {
+    "bytes": 1455,
+    "sha256": "8aa2dc6d83b83f3c715b96cd2dbb13e3cce799d459f135b2a2c867532e155cd3"
+  },
+  "OS-LV4-008/lockup-citron.svg": {
+    "bytes": 13962,
+    "sha256": "3b1bad1955116747781c79c24f403aecf19ba88adcf8fa36fb123bd429539a0d"
+  },
+  "OS-LV4-008/lockup-gradient.svg": {
+    "bytes": 14395,
+    "sha256": "a2e46cb816dfc5e9c5005429aaf40184559c9d007f62fcc6879046c954233af8"
+  },
+  "OS-LV4-008/lockup-inverse.svg": {
+    "bytes": 13962,
+    "sha256": "4161be5733eb046cf84280870ff55c2f7f69aff2dfb8776a1b84c35fba6f83a8"
+  },
+  "OS-LV4-008/lockup-mono.svg": {
+    "bytes": 13962,
+    "sha256": "f6dff5de9c20e3bfe3bea9c834d5a56dad0097dfd633a037eb179ee1c08476ed"
+  },
+  "OS-LV4-008/lockup-split.svg": {
+    "bytes": 14007,
+    "sha256": "a69d2acdb73dbcba28d5092c703c7dbc8a22f31e79d0ec9054dd05008dfe5ef2"
+  },
+  "OS-LV4-008/model.glb": {
+    "bytes": 1417400,
+    "sha256": "49979bbe3ed2f70ca9c43b9564d6b8569b54c93906686ed255f23e42722fa11a"
+  },
+  "OS-LV4-008/recipe.json": {
+    "bytes": 2137,
+    "sha256": "71ddac74ee9c957593eb4d4f42d26786eb3d6f453a3c2f5f9d190edb1ce4ab1f"
+  },
+  "OS-LV4-008/small-proof.png": {
+    "bytes": 2126,
+    "sha256": "dd104ae5e966c347999a9e150961060eac7e9d304ce09fd0ac0baa661b6cafba"
+  },
+  "OS-LV4-008/wordmark-citron.svg": {
+    "bytes": 13450,
+    "sha256": "03807d1b13698ae93e9924427674e1a3fe14321fba8a8f013bb1169ad98fcefc"
+  },
+  "OS-LV4-008/wordmark-gradient.svg": {
+    "bytes": 13833,
+    "sha256": "cfe7af8a53bc0113d05d52c426d13ccc95337fb198713089c2a3fc95bfe4ee6e"
+  },
+  "OS-LV4-008/wordmark-inverse.svg": {
+    "bytes": 13450,
+    "sha256": "32e0c163e9d57c368ec123b94f07ef1ec4e807dfbe8c196c7862b5e4b8e88e78"
+  },
+  "OS-LV4-008/wordmark-mono.svg": {
+    "bytes": 13450,
+    "sha256": "b352349e485a1b681045f2139a59f0e35f23bcc31b83c998ca6275b052a30984"
+  },
+  "OS-LV4-008/wordmark-split.svg": {
+    "bytes": 13450,
+    "sha256": "fdd1ca56ef44f3544b2483bbda6dbb3bfd13ec125d99623e17244f968740fc7d"
+  },
+  "README.md": {
+    "bytes": 5518,
+    "sha256": "1322ec02889a988ea39bb0031d9735c3b77b4c8a49f6534cd754b2aba4f9df95"
+  },
+  "comparison-rendered.png": {
+    "bytes": 207331,
+    "sha256": "d10435f2077b3665f36716e364b88f007212868508adddc22b469a31ee4b3d42"
+  },
+  "geometry-checks.json": {
+    "bytes": 16660,
+    "sha256": "7afaeea0f5bee2e77430b1c8d0fc2a7e8a07a1b1a15b6db9b5b199adf77d6b12"
+  },
+  "manifest.json": {
+    "bytes": 20844,
+    "sha256": "4130a9098f649a013e1f0a58204e3d123db41bf0cea929c5bb51a3410873a7e0"
+  },
+  "material-recipe.json": {
+    "bytes": 1071,
+    "sha256": "83619703ab1a5382af1c3658e744dbe77d78edd8275ce575f445d98b4c2825aa"
+  },
+  "mesh-studio.html": {
+    "bytes": 6261,
+    "sha256": "dddad2c5300dc9845e01fe12fdce1fa1ff1bb3cb4add54e448ffaec3eaf3c78b"
+  },
+  "render-checks.json": {
+    "bytes": 272,
+    "sha256": "172a57353c02ad3a84059b8324088d1ecf23db77b898695857c909cce8972c88"
+  },
+  "render.mjs": {
+    "bytes": 1954,
+    "sha256": "39067807010b3441c7d914bda3de7595a376021390a91152103ccfe75daf0ab2"
+  },
+  "speech-sculpture-generated.json": {
+    "bytes": 758,
+    "sha256": "36000f23db8c0b2e5c8960747fc3570b5711af15615e3eda74d992e2d4be05d6"
+  },
+  "speech-sculpture-generated.png": {
+    "bytes": 1735564,
+    "sha256": "d80ed83127571a66a218d5a3e882304e1dbda67d6edf91802712602307b1bf7b"
+  },
+  "speech-sculpture-generated.webp": {
+    "bytes": 154814,
+    "sha256": "45675cb22c666f19012cd526406421bf61c3786644cad396c92f9cde7d4315cb"
+  },
+  "studio-proof.png": {
+    "bytes": 277842,
+    "sha256": "a20a54fb580f4cda59fe0c3c6f380887872dcbdfdbbc4c9f8f32bb16ef0a0525"
+  },
+  "wordmark-citron.svg": {
+    "bytes": 13430,
+    "sha256": "9fc1991bf33e3e189752791c0fdc83a698b8469d3143a7ef51647090eeb76e0a"
+  },
+  "wordmark-gradient.svg": {
+    "bytes": 13815,
+    "sha256": "d99da53286b28801938e4efb9a541e8c9dc16257eccb481aeaa18d49905c4ec0"
+  },
+  "wordmark-inverse.svg": {
+    "bytes": 13431,
+    "sha256": "31e0cb2a1a17f24666df2b0b4233ed17aca78cdef45ca84d08c0b61e640c93d0"
+  },
+  "wordmark-mono.svg": {
+    "bytes": 13428,
+    "sha256": "cf418b12a546ba80ac752f5a7b1cf7bdb3803644e7619326c31f49e02ce7992c"
+  },
+  "wordmark-native-inverse.svg": {
+    "bytes": 1505,
+    "sha256": "9147bd8be8af277f3ebd0473cac8407171b9a04a0aca457e49064993706994d8"
+  },
+  "wordmark-native-mono.svg": {
+    "bytes": 1505,
+    "sha256": "4556403a6e7a361915740f89fe7b673043cea4f63d3197bf7eebd7a4d1a2a978"
+  },
+  "wordmark-native-split.svg": {
+    "bytes": 1505,
+    "sha256": "55d1962190a0ca33ddade939e526697834a3e6b6c04e06a95f271368a26fb987"
+  },
+  "wordmark-source.json": {
+    "bytes": 13082,
+    "sha256": "c24430a05e69d19bc933136a7bc1f47570076e31eb89be573e9030129fa81ed0"
+  },
+  "wordmark-split.svg": {
+    "bytes": 13429,
+    "sha256": "7b751f2c28315e58c4f5f17955be52d9fe23ba5a24813344f7f4bc025f045375"
+  },
+  "wordmark-treatments.png": {
+    "bytes": 47164,
+    "sha256": "72ef2ccaa889775813317cb8909485a87c24316caf8cdcc6ffb678cf9bafcfbd"
+  }
+}

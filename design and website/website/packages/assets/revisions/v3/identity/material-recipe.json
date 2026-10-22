@@ -1,0 +1,107 @@
+{
+  "version": "3.0.0-candidate",
+  "geometry": "Three closed continuously bowed full-height sampled sheets;2sides+closedrim;true thickness .060sceneunits;rounded boundary radius .13sceneunits. No detached cylinders.",
+  "font": {
+    "path": "../../../../identity/font-source/archivo/Archivo[wdth,wght].ttf",
+    "weight": 720,
+    "width": 100,
+    "tracking_font_units": -7,
+    "out": "#162760",
+    "spoken": "#A9AFBA",
+    "spoken_edge": "#697383",
+    "license": "OFL-Archivo.txt"
+  },
+  "camera": {
+    "type": "PerspectiveCamera",
+    "fov_deg": 38,
+    "position": [
+      3.6,
+      1.8,
+      7.4
+    ],
+    "look_at": [
+      0,
+      0,
+      0
+    ],
+    "group_rotation_xyz": [
+      0.02,
+      -0.18,
+      0
+    ]
+  },
+  "renderer": {
+    "actual": "Three.js0.186.1, Chrome/SwiftShader",
+    "size": [
+      1200,
+      1200
+    ],
+    "transparent": true,
+    "tone_mapping": "ACESFilmic",
+    "exposure": 0.88,
+    "environment": "PMREM RoomEnvironment original standard Three.js studio",
+    "blue": {
+      "metalness": 0.58,
+      "roughness": 0.38,
+      "env_intensity": 0.28
+    },
+    "silver": {
+      "metalness": 0.82,
+      "roughness": 0.38,
+      "env_intensity": 0.72
+    },
+    "brushing": "original deterministic DataTexture,seed41,bumpScale .004;fine source noise;not photographed brushed metal"
+  },
+  "lighting": {
+    "hemisphere": [
+      "#F1F7FF",
+      "#0B173B",
+      0.32
+    ],
+    "key": {
+      "position": [
+        -3,
+        5,
+        6
+      ],
+      "color": "#FFFFFF",
+      "intensity": 1.8
+    },
+    "rim": {
+      "position": [
+        4,
+        2,
+        -3
+      ],
+      "color": "#6F9CFF",
+      "intensity": 0.8
+    }
+  },
+  "color_management": "glTF baseColorFactor encodes linear RGB from declared sRGB palette. Transparent rendered highlights change perceived color; flat SVG remains exact palette.",
+  "motion": {
+    "lead_recommended_yaw_deg": [
+      -8,
+      0,
+      12
+    ],
+    "range": "presentation turn only, not endless spin",
+    "duration_ms": 900,
+    "max_hover_yaw_deg": 7,
+    "max_hover_pitch_deg": 5,
+    "reduced_motion": "static principal view"
+  },
+  "optical": {
+    "min_mark_px": 24,
+    "mono": "transparent separation mask; uniform negative seams",
+    "wordmark_min_visible_height_px": 18,
+    "header_lockup_width_start_px": 210,
+    "clearspace": "at least0.5capheightaroundwordmark;0.2markheightaroundstandalone",
+    "svg_companion": "same source projected surface contour, authored material-gradient counterpart;not a raster or mesh render"
+  },
+  "limits": [
+    "Initial light-metal pass rejected by maker; final pass uses corrected linear glTF colors and quarter camera.",
+    "Procedural satin/brush is smoother than photographic owner reference.",
+    "Several candidates are deliberately related surface studies; owner selection and trademark clearance pending.",
+    "Tiny 16px use not accepted; use minimum24px mark."
+  ]
+}

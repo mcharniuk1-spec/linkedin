@@ -1,0 +1,23 @@
+{
+  "source": "[local-source-omitted]",
+  "role": "Generatedmaterialheroart;discrete raster,not GLB render or exactfont/vectorasset",
+  "prompt": "[dated-local-evidence-omitted]",
+  "sha256": "d80ed83127571a66a218d5a3e882304e1dbda67d6edf91802712602307b1bf7b",
+  "webp_sha256": "45675cb22c666f19012cd526406421bf61c3786644cad396c92f9cde7d4315cb",
+  "mode": "RGBA",
+  "size": [
+    1536,
+    1024
+  ],
+  "alpha": [
+    0,
+    254
+  ],
+  "corner_alpha": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "rights": "Built-in generatedoriginalspeechsymbolartforowner-authorizedOUTSPOKENidentity;not a customer or competitor asset."
+}

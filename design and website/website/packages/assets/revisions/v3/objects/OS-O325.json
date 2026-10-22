@@ -1,0 +1,96 @@
+{
+  "id": "OS-O325",
+  "name": "Quote",
+  "context": "The founder’s own words",
+  "rights": "Original authored meshes and glyphs; no third-party model or competitor media",
+  "render": {
+    "width": 600,
+    "height": 600,
+    "alpha": true,
+    "actual": "Three.js0.186.1 GLB source scene",
+    "toneMapping": "ACESFilmic",
+    "exposure": 0.9
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      3.6,
+      2.3,
+      7
+    ],
+    "lookAt": [
+      0,
+      0,
+      0
+    ],
+    "extent": 0.9318056411258876
+  },
+  "meshes": [
+    {
+      "name": "quote body",
+      "vertices": 4300,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "quote tail",
+      "vertices": 341,
+      "triangles": 600,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "silver / Outspoken V3"
+    },
+    {
+      "name": "signal node",
+      "vertices": 423,
+      "triangles": 720,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "citron / Outspoken V3"
+    },
+    {
+      "name": "quote body",
+      "vertices": 4300,
+      "triangles": 2108,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "quote tail",
+      "vertices": 341,
+      "triangles": 600,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "navy / Outspoken V3"
+    },
+    {
+      "name": "signal node",
+      "vertices": 423,
+      "triangles": 720,
+      "finite": true,
+      "validIndexRange": true,
+      "material": "citron / Outspoken V3"
+    }
+  ],
+  "bounds": {
+    "min": [
+      -0.775919916467442,
+      -0.601389154791832,
+      -0.21788589328960217
+    ],
+    "max": [
+      0.775919916467442,
+      0.601389154791832,
+      0.21788589328960217
+    ]
+  },
+  "kind": "semantic_object",
+  "usage": "Use for attributable verified quotations or clearly fictional specimens.",
+  "limitations": [
+    "Procedural satin material, not a photographic surface capture.",
+    "Use the flat SVG for small UI; do not shrink a decorative 3D render below64px."
+  ]
+}

@@ -1,0 +1,1446 @@
+{
+  "date": "2026-10-21",
+  "scope": "All16 exact source extractions,2 native GLBs/every accessor/every mesh,6 native frames,5 outlined wordmark treatments,flat symbols,stable aliases,font source,cutout alpha.",
+  "checks": [
+    {
+      "name": "reference source SHA",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-study-01 exact source pixels",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-study-01 SHA",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-study-02 exact source pixels",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-study-02 SHA",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-study-03 exact source pixels",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-study-03 SHA",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-study-04 exact source pixels",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-study-04 SHA",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-study-05 exact source pixels",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-study-05 SHA",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-study-06 exact source pixels",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-study-06 SHA",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-study-07 exact source pixels",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-study-07 SHA",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-study-08 exact source pixels",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-study-08 SHA",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-symbol-01 exact source pixels",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-symbol-01 SHA",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-symbol-02 exact source pixels",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-symbol-02 SHA",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-symbol-03 exact source pixels",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-symbol-03 SHA",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-symbol-04 exact source pixels",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-symbol-04 SHA",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-symbol-05 exact source pixels",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-symbol-05 SHA",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-symbol-06 exact source pixels",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-symbol-06 SHA",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-symbol-07 exact source pixels",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-symbol-07 SHA",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-symbol-08 exact source pixels",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "approved-symbol-08 SHA",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "exactly8 complete studies and8 symbol-only crops",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "uppercase exact9 glyphs",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "font original SHA and OFL",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "custom firstO actual outline distinct from secondO",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG parses flat-gradient.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG parses flat-inverse.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG parses flat-mono.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG parses flat.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG parses lockup-citron.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG uppercase nine outlined glyphs lockup-citron.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG parses lockup-gradient.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG uppercase nine outlined glyphs lockup-gradient.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG parses lockup-inverse.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG uppercase nine outlined glyphs lockup-inverse.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG parses lockup-mono.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG uppercase nine outlined glyphs lockup-mono.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG parses lockup-split.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG uppercase nine outlined glyphs lockup-split.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG parses selected/flat.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG parses selected/lockup-gradient.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG uppercase nine outlined glyphs selected/lockup-gradient.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG parses selected/lockup-inverse.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG uppercase nine outlined glyphs selected/lockup-inverse.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG parses selected/wordmark-gradient.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG uppercase nine outlined glyphs selected/wordmark-gradient.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG parses selected/wordmark-inverse.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG uppercase nine outlined glyphs selected/wordmark-inverse.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG parses wordmark-citron.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG uppercase nine outlined glyphs wordmark-citron.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG parses wordmark-gradient.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG uppercase nine outlined glyphs wordmark-gradient.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG parses wordmark-inverse.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG uppercase nine outlined glyphs wordmark-inverse.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG parses wordmark-mono.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG uppercase nine outlined glyphs wordmark-mono.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG parses wordmark-split.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "SVG uppercase nine outlined glyphs wordmark-split.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "stable alias exact lockup-gradient.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "stable alias exact lockup-inverse.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "stable alias exact wordmark-gradient.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "stable alias exact wordmark-inverse.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "stable alias exact flat.svg",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "native full alpha silhouette selected/front",
+      "pass": true,
+      "details": {
+        "size": [
+          1100,
+          1400
+        ],
+        "opaque_bbox": [
+          224,
+          216,
+          876,
+          1181
+        ]
+      }
+    },
+    {
+      "name": "native full alpha silhouette selected/left",
+      "pass": true,
+      "details": {
+        "size": [
+          1100,
+          1400
+        ],
+        "opaque_bbox": [
+          227,
+          216,
+          876,
+          1181
+        ]
+      }
+    },
+    {
+      "name": "native full alpha silhouette selected/right",
+      "pass": true,
+      "details": {
+        "size": [
+          1100,
+          1400
+        ],
+        "opaque_bbox": [
+          224,
+          216,
+          873,
+          1181
+        ]
+      }
+    },
+    {
+      "name": "native full alpha silhouette wordmark-3d/front",
+      "pass": true,
+      "details": {
+        "size": [
+          1800,
+          580
+        ],
+        "opaque_bbox": [
+          230,
+          216,
+          1570,
+          364
+        ]
+      }
+    },
+    {
+      "name": "native full alpha silhouette wordmark-3d/left",
+      "pass": true,
+      "details": {
+        "size": [
+          1800,
+          580
+        ],
+        "opaque_bbox": [
+          244,
+          213,
+          1446,
+          374
+        ]
+      }
+    },
+    {
+      "name": "native full alpha silhouette wordmark-3d/right",
+      "pass": true,
+      "details": {
+        "size": [
+          1800,
+          580
+        ],
+        "opaque_bbox": [
+          354,
+          215,
+          1556,
+          372
+        ]
+      }
+    },
+    {
+      "name": "derived cutout genuine transparency",
+      "pass": true,
+      "details": {
+        "size": [
+          1059,
+          1486
+        ],
+        "bbox_alpha128": [
+          88,
+          82,
+          962,
+          1339
+        ],
+        "bbox_any_alpha": [
+          0,
+          5,
+          1041,
+          1470
+        ],
+        "corner_alpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "beauty aliases exact",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "GLB header selected",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "GLB binary container selected",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "selected accessor0 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "selected accessor1 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "selected accessor2 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "selected accessor3 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "selected accessor4 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "selected accessor5 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "selected accessor6 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "selected accessor7 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "selected accessor8 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "selected accessor9 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "selected accessor10 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "selected accessor11 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "selected accessor12 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "selected accessor13 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "selected accessor14 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "selected accessor15 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "selected accessor16 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "selected mesh valid triangles ",
+      "pass": true,
+      "details": {
+        "vertices": 13202,
+        "triangles": 25920,
+        "bounds": [
+          [
+            -0.7799999713897705,
+            -1.2999999523162842,
+            -0.7799999713897705
+          ],
+          [
+            0.7799999713897705,
+            1.2999999523162842,
+            0.7799999713897705
+          ]
+        ]
+      }
+    },
+    {
+      "name": "selected mesh valid triangles ",
+      "pass": true,
+      "details": {
+        "vertices": 25444,
+        "triangles": 9260,
+        "bounds": [
+          [
+            -0.8769940137863159,
+            0.12799999117851257,
+            -0.20305559039115906
+          ],
+          [
+            0.8769940137863159,
+            0.5120000243186951,
+            0.8770005106925964
+          ]
+        ]
+      }
+    },
+    {
+      "name": "selected mesh valid triangles ",
+      "pass": true,
+      "details": {
+        "vertices": 25444,
+        "triangles": 9260,
+        "bounds": [
+          [
+            -0.8769940137863159,
+            -0.5120000243186951,
+            -0.20305559039115906
+          ],
+          [
+            0.8769940137863159,
+            -0.12800000607967377,
+            0.8770005106925964
+          ]
+        ]
+      }
+    },
+    {
+      "name": "selected mesh valid triangles ",
+      "pass": true,
+      "details": {
+        "vertices": 8604,
+        "triangles": 3164,
+        "bounds": [
+          [
+            -0.08150000125169754,
+            -0.5590000152587891,
+            0.8560000061988831
+          ],
+          [
+            0.08150000125169754,
+            0.5590000152587891,
+            0.9139999747276306
+          ]
+        ]
+      }
+    },
+    {
+      "name": "expected mesh count selected",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "physical metallic PBR selected",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "GLB header wordmark-3d",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "GLB binary container wordmark-3d",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor0 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor1 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor2 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor3 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor4 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor5 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor6 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor7 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor8 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor9 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor10 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor11 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor12 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor13 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor14 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor15 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor16 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor17 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor18 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor19 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor20 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor21 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor22 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor23 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor24 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor25 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor26 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor27 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor28 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor29 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor30 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor31 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor32 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor33 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor34 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor35 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor36 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor37 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor38 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor39 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor40 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d accessor41 range/finite",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "wordmark-3d mesh valid triangles ",
+      "pass": true,
+      "details": {
+        "vertices": 56848,
+        "triangles": 20756,
+        "bounds": [
+          [
+            -0.006473221816122532,
+            -0.022008724510669708,
+            -0.04790112376213074
+          ],
+          [
+            0.9231687188148499,
+            0.9109370708465576,
+            0.04790112376213074
+          ]
+        ]
+      }
+    },
+    {
+      "name": "wordmark-3d mesh valid triangles ",
+      "pass": true,
+      "details": {
+        "vertices": 21306,
+        "triangles": 7820,
+        "bounds": [
+          [
+            1.075355052947998,
+            -0.022008704021573067,
+            -0.04790112376213074
+          ],
+          [
+            1.8820370435714722,
+            0.8954021334648132,
+            0.04790112376213074
+          ]
+        ]
+      }
+    },
+    {
+      "name": "wordmark-3d mesh valid triangles ",
+      "pass": true,
+      "details": {
+        "vertices": 382,
+        "triangles": 188,
+        "bounds": [
+          [
+            1.9980847835540771,
+            -0.006473124958574772,
+            -0.04790112376213074
+          ],
+          [
+            2.7897095680236816,
+            0.8954021334648132,
+            0.04790112376213074
+          ]
+        ]
+      }
+    },
+    {
+      "name": "wordmark-3d mesh valid triangles ",
+      "pass": true,
+      "details": {
+        "vertices": 103228,
+        "triangles": 37724,
+        "bounds": [
+          [
+            2.9004383087158203,
+            -0.022008664906024933,
+            -0.04790112376213074
+          ],
+          [
+            3.687319755554199,
+            0.9109376072883606,
+            0.04790112376213074
+          ]
+        ]
+      }
+    },
+    {
+      "name": "wordmark-3d mesh valid triangles ",
+      "pass": true,
+      "details": {
+        "vertices": 23602,
+        "triangles": 8640,
+        "bounds": [
+          [
+            3.8390414714813232,
+            -0.006473124958574772,
+            -0.04790112376213074
+          ],
+          [
+            4.6118927001953125,
+            0.8954021334648132,
+            0.04790112376213074
+          ]
+        ]
+      }
+    },
+    {
+      "name": "wordmark-3d mesh valid triangles ",
+      "pass": true,
+      "details": {
+        "vertices": 58996,
+        "triangles": 21552,
+        "bounds": [
+          [
+            4.6981940269470215,
+            -0.022008724510669708,
+            -0.04790112376213074
+          ],
+          [
+            5.627835273742676,
+            0.9109377264976501,
+            0.04790112376213074
+          ]
+        ]
+      }
+    },
+    {
+      "name": "wordmark-3d mesh valid triangles ",
+      "pass": true,
+      "details": {
+        "vertices": 734,
+        "triangles": 284,
+        "bounds": [
+          [
+            5.783568382263184,
+            -0.006473124958574772,
+            -0.04790112376213074
+          ],
+          [
+            6.632269382476807,
+            0.8954021334648132,
+            0.04790112376213074
+          ]
+        ]
+      }
+    },
+    {
+      "name": "wordmark-3d mesh valid triangles ",
+      "pass": true,
+      "details": {
+        "vertices": 586,
+        "triangles": 284,
+        "bounds": [
+          [
+            6.749288082122803,
+            -0.006473124958574772,
+            -0.04790112376213074
+          ],
+          [
+            7.487522125244141,
+            0.8954021334648132,
+            0.04790112376213074
+          ]
+        ]
+      }
+    },
+    {
+      "name": "wordmark-3d mesh valid triangles ",
+      "pass": true,
+      "details": {
+        "vertices": 17065,
+        "triangles": 7196,
+        "bounds": [
+          [
+            7.656890392303467,
+            -0.006473124958574772,
+            -0.04790112376213074
+          ],
+          [
+            8.46357250213623,
+            0.8954021334648132,
+            0.04790112376213074
+          ]
+        ]
+      }
+    },
+    {
+      "name": "expected mesh count wordmark-3d",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "physical metallic PBR wordmark-3d",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "actual renderer zero errors",
+      "pass": true,
+      "details": null
+    }
+  ],
+  "passed": 164,
+  "total": 164,
+  "failures": [],
+  "native_models": [
+    {
+      "file": "selected/model.glb",
+      "bytes": 3059800,
+      "sha256": "03bde29b46656fbf2b79e2604268410b8d3446f2e5d8bf8475e98eeffeeb1d03",
+      "mesh_count": 4,
+      "meshes": [
+        {
+          "name": null,
+          "vertices": 13202,
+          "triangles": 25920,
+          "bounds": [
+            [
+              -0.7799999713897705,
+              -1.2999999523162842,
+              -0.7799999713897705
+            ],
+            [
+              0.7799999713897705,
+              1.2999999523162842,
+              0.7799999713897705
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 25444,
+          "triangles": 9260,
+          "bounds": [
+            [
+              -0.8769940137863159,
+              0.12799999117851257,
+              -0.20305559039115906
+            ],
+            [
+              0.8769940137863159,
+              0.5120000243186951,
+              0.8770005106925964
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 25444,
+          "triangles": 9260,
+          "bounds": [
+            [
+              -0.8769940137863159,
+              -0.5120000243186951,
+              -0.20305559039115906
+            ],
+            [
+              0.8769940137863159,
+              -0.12800000607967377,
+              0.8770005106925964
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 8604,
+          "triangles": 3164,
+          "bounds": [
+            [
+              -0.08150000125169754,
+              -0.5590000152587891,
+              0.8560000061988831
+            ],
+            [
+              0.08150000125169754,
+              0.5590000152587891,
+              0.9139999747276306
+            ]
+          ]
+        }
+      ],
+      "embedded_images": 1
+    },
+    {
+      "file": "wordmark-3d/model.glb",
+      "bytes": 12650192,
+      "sha256": "3ba8695070601822401d2cd264df3937303b70f4741ed45124c0daa5a78b34d1",
+      "mesh_count": 9,
+      "meshes": [
+        {
+          "name": null,
+          "vertices": 56848,
+          "triangles": 20756,
+          "bounds": [
+            [
+              -0.006473221816122532,
+              -0.022008724510669708,
+              -0.04790112376213074
+            ],
+            [
+              0.9231687188148499,
+              0.9109370708465576,
+              0.04790112376213074
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 21306,
+          "triangles": 7820,
+          "bounds": [
+            [
+              1.075355052947998,
+              -0.022008704021573067,
+              -0.04790112376213074
+            ],
+            [
+              1.8820370435714722,
+              0.8954021334648132,
+              0.04790112376213074
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 382,
+          "triangles": 188,
+          "bounds": [
+            [
+              1.9980847835540771,
+              -0.006473124958574772,
+              -0.04790112376213074
+            ],
+            [
+              2.7897095680236816,
+              0.8954021334648132,
+              0.04790112376213074
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 103228,
+          "triangles": 37724,
+          "bounds": [
+            [
+              2.9004383087158203,
+              -0.022008664906024933,
+              -0.04790112376213074
+            ],
+            [
+              3.687319755554199,
+              0.9109376072883606,
+              0.04790112376213074
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 23602,
+          "triangles": 8640,
+          "bounds": [
+            [
+              3.8390414714813232,
+              -0.006473124958574772,
+              -0.04790112376213074
+            ],
+            [
+              4.6118927001953125,
+              0.8954021334648132,
+              0.04790112376213074
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 58996,
+          "triangles": 21552,
+          "bounds": [
+            [
+              4.6981940269470215,
+              -0.022008724510669708,
+              -0.04790112376213074
+            ],
+            [
+              5.627835273742676,
+              0.9109377264976501,
+              0.04790112376213074
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 734,
+          "triangles": 284,
+          "bounds": [
+            [
+              5.783568382263184,
+              -0.006473124958574772,
+              -0.04790112376213074
+            ],
+            [
+              6.632269382476807,
+              0.8954021334648132,
+              0.04790112376213074
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 586,
+          "triangles": 284,
+          "bounds": [
+            [
+              6.749288082122803,
+              -0.006473124958574772,
+              -0.04790112376213074
+            ],
+            [
+              7.487522125244141,
+              0.8954021334648132,
+              0.04790112376213074
+            ]
+          ]
+        },
+        {
+          "name": null,
+          "vertices": 17065,
+          "triangles": 7196,
+          "bounds": [
+            [
+              7.656890392303467,
+              -0.006473124958574772,
+              -0.04790112376213074
+            ],
+            [
+              8.46357250213623,
+              0.8954021334648132,
+              0.04790112376213074
+            ]
+          ]
+        }
+      ],
+      "embedded_images": 1
+    }
+  ],
+  "native_images": [
+    {
+      "file": "selected/model-front.png",
+      "size": [
+        1100,
+        1400
+      ],
+      "opaque_bbox": [
+        224,
+        216,
+        876,
+        1181
+      ],
+      "sha256": "c3265d2bdb0c14d843fc5a511b1dacf55ea7f889347820dcb6abf896e9ab116f"
+    },
+    {
+      "file": "selected/model-left.png",
+      "size": [
+        1100,
+        1400
+      ],
+      "opaque_bbox": [
+        227,
+        216,
+        876,
+        1181
+      ],
+      "sha256": "f52cacd28aff9eb76da366750e2b541f7241793144f4800aa9d7126357e970aa"
+    },
+    {
+      "file": "selected/model-right.png",
+      "size": [
+        1100,
+        1400
+      ],
+      "opaque_bbox": [
+        224,
+        216,
+        873,
+        1181
+      ],
+      "sha256": "3aaa83cadd6e52d6f257cac5cfeb219fa819e025338dc8d686457dbe81ba793e"
+    },
+    {
+      "file": "wordmark-3d/model-front.png",
+      "size": [
+        1800,
+        580
+      ],
+      "opaque_bbox": [
+        230,
+        216,
+        1570,
+        364
+      ],
+      "sha256": "940527828802da29e9e0d1be96c8336582bbfe27e6bf2bb0615d198794abaf3a"
+    },
+    {
+      "file": "wordmark-3d/model-left.png",
+      "size": [
+        1800,
+        580
+      ],
+      "opaque_bbox": [
+        244,
+        213,
+        1446,
+        374
+      ],
+      "sha256": "99586e30383bd0d7758754bd490d6d8c15017a34c05d9c54a9d0c8bd962ef5e3"
+    },
+    {
+      "file": "wordmark-3d/model-right.png",
+      "size": [
+        1800,
+        580
+      ],
+      "opaque_bbox": [
+        354,
+        215,
+        1556,
+        372
+      ],
+      "sha256": "4760cb537e3f830b98f0c7cafc2db96094f3e82e1b83e200f77d2e46df4a7e14"
+    }
+  ],
+  "owner_accepted": false,
+  "limits": [
+    "Native views render the authored Three geometry used in GLB export; this check parses and validates exported GLB data, not a second viewer roundtrip.",
+    "Glossy/anodized native shading differs from fine photographic brushing in supplied source and the generated cutout.",
+    "Trademark clearance and pixel-identical reconstruction are not claimed."
+  ]
+}

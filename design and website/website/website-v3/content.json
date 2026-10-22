@@ -1,0 +1,595 @@
+{
+  "version": "3.1.0-copy-draft",
+  "status": "product_drafted_pending_root_review",
+  "observed_date": "2026-10-20",
+  "audience": "Europe-based B2B AI SaaS founders; 10–50 people; Seed–Series B",
+  "protected": {
+    "hero": "Make the right buyers care about you and what you’re building.",
+    "vp": "We help Europe-based B2B AI SaaS founders turn their story and the business they’re building into LinkedIn content that attracts the right buyers, earns their trust and gives them a reason to buy.",
+    "cta": "Book an intro call"
+  },
+  "offer": {
+    "category": "Founder-led LinkedIn marketing for B2B AI SaaS",
+    "headline": "Your expertise. A clear position. A consistent presence.",
+    "body": "Bring the product thinking, founder story and customer context together—from profile and content strategy to writing, design, approved workflows and paid campaigns.",
+    "differentiation_state": "Proposed positioning; not a proven exclusive market distinction",
+    "differentiation": "Make product judgment legible to a specific buyer. Show the decision, its evidence and its consequence before turning it into content."
+  },
+  "home": {
+    "seo": {
+      "title": "Founder-led LinkedIn marketing for B2B AI SaaS | Outspoken",
+      "description": "LinkedIn positioning, profile optimization, content strategy, professional writing, visual content and campaigns for Europe-based B2B AI SaaS founders."
+    },
+    "eyebrow": "Founder-led LinkedIn marketing",
+    "title": "Make the right buyers care about you and what you’re building.",
+    "body": "We help Europe-based B2B AI SaaS founders turn their story and the business they’re building into LinkedIn content that attracts the right buyers, earns their trust and gives them a reason to buy.",
+    "cta": "Book an intro call",
+    "proofline": "For Europe-based B2B AI SaaS founders. Seed to Series B.",
+    "experience": {
+      "eyebrow": "From expertise to a clear offer",
+      "title": "Everything you know. Something buyers can understand.",
+      "body": "Your experience, methods, tools, product judgment, evidence and cases hold the substance. We find the connection to the buyer, then shape it into a clear position and content you can stand behind.",
+      "inputs": [
+        "Experience",
+        "Methods",
+        "Tools",
+        "Product judgment",
+        "Evidence",
+        "Cases"
+      ],
+      "outputs": [
+        "Positioning",
+        "Profile",
+        "Content",
+        "Campaigns"
+      ],
+      "beats": [
+        {
+          "title": "Start with substance.",
+          "body": "Explore the decisions, evidence and experiences behind the business."
+        },
+        {
+          "title": "Find the buyer’s question.",
+          "body": "Connect what you know to what a specific customer needs to understand."
+        },
+        {
+          "title": "Make the position clear.",
+          "body": "Turn that connection into a profile, an editorial direction and a considered offer."
+        }
+      ]
+    },
+    "stack": {
+      "eyebrow": "A recognizable point of view",
+      "title": "One strong idea. Many useful ways to tell it.",
+      "body": "Founder posts, stories, carousels, product walkthroughs and visual explanations. Each format has a job; each piece starts with something worth saying.",
+      "label": "Illustrative work — not published client content"
+    },
+    "services": {
+      "eyebrow": "What we can work on together",
+      "title": "Build the presence around the business.",
+      "body": "Choose the support your next stage needs. Start with a clear position, then connect content, design, operations and distribution.",
+      "link": "Explore the services"
+    },
+    "review": {
+      "eyebrow": "Customer Opinion",
+      "title": "Customer Opinion",
+      "body": "15 fictional email examples show the kind of feedback a collaboration could address. They are design specimens, not customer opinions or verified testimonials.",
+      "label": "Illustrative example — not a customer testimonial"
+    },
+    "closing": {
+      "title": "Tell us what you’re building.",
+      "body": "Bring the product, the buyer and the part of the story that is hard to explain. We can use the intro conversation to decide what support makes sense."
+    }
+  },
+  "services": {
+    "seo": {
+      "title": "LinkedIn strategy, writing, design & advertising | Outspoken",
+      "description": "Explore profile optimization, content strategy, founder writing, visual content, approved automation, company marketing, LinkedIn advertising and measurement."
+    },
+    "eyebrow": "The services",
+    "title": "A clear position. A presence built around it.",
+    "intro": "We help turn founder expertise into a coherent LinkedIn presence. The scope can include your profile, professional content, company story, workflows and campaigns—agreed around your buyer, evidence and priorities.",
+    "modules": [
+      {
+        "id": "profile",
+        "number": "01",
+        "title": "LinkedIn profile,  search & positioning",
+        "short": "Make the first impression explain the business.",
+        "body": "Clarify who you help,  the problem you solve and why your experience matters. Align your headline,  About section,  featured work and company presence with the language your intended buyers recognize.",
+        "deliverables": [
+          "Founder positioning and buyer-language/search-term map",
+          "Profile copy and featured-section plan",
+          "Company-page message alignment and authorized Search Appearances review"
+        ],
+        "boundary": "Profile edits and account data require approval and agreed permissions. Search position, keyword demand and ranking gains are not guaranteed."
+      },
+      {
+        "id": "strategy",
+        "number": "02",
+        "title": "Content strategy",
+        "short": "Give every post a reason to exist.",
+        "body": "Connect buyer questions with the decisions,  experience and evidence inside your business. Build an editorial direction that balances product expertise,  founder perspective and a clear commercial offer.",
+        "deliverables": [
+          "Buyer questions, search-language hypotheses and editorial themes",
+          "Publication format mix and content calendar",
+          "Evidence, claim and search-observation boundaries"
+        ],
+        "boundary": "Audience assumptions and priorities are hypotheses until checked against your buyer evidence."
+      },
+      {
+        "id": "writing",
+        "number": "03",
+        "title": "Professional writing & founder stories",
+        "short": "Sound like the person behind the product.",
+        "body": "Turn regular founder and expert interviews into considered LinkedIn posts,  personal stories and longer pieces. Keep your judgment, vocabulary and technical meaning intact as the writing becomes easier to read.",
+        "deliverables": [
+          "Regular founder/expert interviews and source notes",
+          "Written posts, stories and explainers",
+          "Voice, factual and technical review"
+        ],
+        "boundary": "You approve the final meaning and factual claims. We do not invent experiences,  customer cases or results."
+      },
+      {
+        "id": "design",
+        "number": "04",
+        "title": "Carousels,  visuals & video",
+        "short": "Show the idea as clearly as you explain it.",
+        "body": "Make complex work easier to understand through document posts,  product walkthroughs,  diagrams and short videos. Build a recognizable visual language for the founder and the company.",
+        "deliverables": [
+          "Document carousels and story posts",
+          "Interface and architecture explainers",
+          "Video scripts,  visual direction and reusable templates"
+        ],
+        "boundary": "Production scope,  footage rights,  accessibility and final formats are agreed before delivery."
+      },
+      {
+        "id": "automation",
+        "number": "05",
+        "title": "Content operations & automation",
+        "short": "Make the process easier to keep running.",
+        "body": "Organize source capture,  drafts,  approvals and repurposing in a shared workflow. Automate repeatable administration where it helps,  while keeping publishing decisions with the people responsible for the account.",
+        "deliverables": [
+          "Source library and review workflow",
+          "Approved scheduling and repurposing process",
+          "Tool and handoff setup for your team"
+        ],
+        "boundary": "Tool integrations,  subscriptions,  account permissions and publishing are separately scoped. No automated connection requests,  scraped inboxes or engagement pods are included."
+      },
+      {
+        "id": "marketing",
+        "number": "06",
+        "title": "Marketing, outreach & customer conversations",
+        "short": "Connect the personal brand to the next useful conversation.",
+        "body": "Bring founder content, company messaging and campaign material into the same conversation. Develop relevant outreach starters, follow-up copy and response guidance around a defined buyer and a genuine reason to speak.",
+        "deliverables": [
+          "Founder/company messaging and campaign content",
+          "Manual outreach and follow-up copy",
+          "Customer-question, response and sales-support material"
+        ],
+        "boundary": "Real outreach, inbox work and community actions require explicit scope and account authority. No scraped lists, bulk sending or automated relationship activity is implied."
+      },
+      {
+        "id": "advertising",
+        "number": "07",
+        "title": "LinkedIn advertising",
+        "short": "Put a considered message behind a considered budget.",
+        "body": "Develop campaign angles,  creative and landing-page messages around a defined buyer and objective. Use measured tests to learn which messages deserve more investment.",
+        "deliverables": [
+          "Campaign brief and audience hypothesis",
+          "Ad copy,  creative and landing-page alignment",
+          "Test plan and reporting framework"
+        ],
+        "boundary": "Media buying,  tracking,  account access and campaign launch require separate approval. Ad spend and platform costs are additional. No pipeline or return is guaranteed."
+      },
+      {
+        "id": "measurement",
+        "number": "08",
+        "title": "Measurement & editorial learning",
+        "short": "Learn which ideas matter to the right people.",
+        "body": "Review what was published,  who responded and what the available evidence can show. Use those observations to improve the next round of themes,  formats and distribution decisions.",
+        "deliverables": [
+          "Agreed measures and reporting period",
+          "Content and qualified-response review",
+          "Next-test recommendations"
+        ],
+        "boundary": "Reporting uses the data you authorize. Engagement,  attributed leads and revenue remain distinct measures; we do not claim causality from a simple before-and-after comparison."
+      }
+    ],
+    "processTitle": "From source material to a presence you can stand behind.",
+    "steps": [
+      {
+        "title": "Understand the business",
+        "body": "Map the product, the buyer, the alternatives and the evidence already available. Agree the job LinkedIn should do."
+      },
+      {
+        "title": "Choose the position",
+        "body": "Define the perspective and message. Set the formats, workflow, permissions and measures for the engagement."
+      },
+      {
+        "title": "Create and review",
+        "body": "Develop writing, visuals and campaign material. Check technical meaning, voice, sources and approvals together."
+      },
+      {
+        "title": "Publish, learn and improve",
+        "body": "Use the agreed distribution process and authorized data. Review the response and choose the next test."
+      }
+    ],
+    "faqTitle": "Clear expectations before the work begins.",
+    "faq": [
+      {
+        "question": "Can we start with the profile or strategy only?",
+        "answer": "Yes. A focused scope can establish the position, profile or editorial direction before an ongoing program. Deliverables, cadence and commercial terms are agreed for the engagement."
+      },
+      {
+        "question": "What does automation cover?",
+        "answer": "Repeatable administration such as source organization, review routing, approved scheduling and repurposing. Specific tools, subscriptions, integrations and account permissions are agreed separately. It does not mean autonomous publishing or automated relationship activity."
+      },
+      {
+        "question": "Do advertising services include the media budget?",
+        "answer": "Campaign strategy, creative and management scope are agreed separately. Media spend and platform costs are additional. Launch requires the account access, tracking choices and budget you approve."
+      },
+      {
+        "question": "Will the writing still sound like me?",
+        "answer": "Your interviews, examples and feedback shape the draft. You review the voice, factual detail and technical meaning before approval."
+      },
+      {
+        "question": "Can you guarantee leads or sales?",
+        "answer": "No. We agree the objective and measures, then report what the authorized evidence can show. Reach, qualified responses, attributed leads and revenue are different outcomes."
+      },
+      {
+        "question": "Can you help with LinkedIn search and customer conversations?",
+        "answer": "Yes. The scope can include buyer-language research,profile and publication wording,manual outreach copy and customer-response guidance. We agree permissions and review responsibility before any account action. A particular search position,response rate or sales outcome is not guaranteed."
+      }
+    ],
+    "closing": {
+      "title": "Choose the right starting point.",
+      "body": "Tell us where the message breaks down today. We can discuss a focused brief or a broader program."
+    }
+  },
+  "reviews": [
+    {
+      "id": "sample-email-01",
+      "kind": "email",
+      "label": "Illustrative example — not a customer testimonial",
+      "sender": "Sample founder",
+      "email": "founder01@example.com",
+      "recipient": "Outspoken team",
+      "recipient_email": "team@example.com",
+      "subject": "Re: Profile — this is the clearer version",
+      "body": "The headline finally gives the product a clear place to stand. I can see who it is for without having to read the whole About section.\n\nThe quieter tone feels right, too. I would use this version as the basis for the final review. Thank you for keeping the technical detail instead of replacing it with a bigger promise.",
+      "service": "profile",
+      "context": "Short review of profile clarity; no observed profile performance.",
+      "display_date": "Sample correspondence",
+      "fictional": true,
+      "thread_label": "Illustrative conversation",
+      "reply_excerpt": null
+    },
+    {
+      "id": "sample-email-02",
+      "kind": "email",
+      "label": "Illustrative example — not a customer testimonial",
+      "sender": "Sample marketing lead",
+      "email": "marketing02@example.com",
+      "recipient": "Outspoken team",
+      "recipient_email": "team@example.com",
+      "subject": "The content plan makes sense now",
+      "body": "Honestly, seeing the themes next to the buyer questions is a relief. The plan feels connected to the business rather than like a list of things we ought to post.\n\nI especially like that the product posts, founder stories and direct offers each have a different job. I can see where our team should add evidence and where we need another conversation with the founder.",
+      "service": "strategy",
+      "context": "Hypothetical editorial-plan organization feedback.",
+      "display_date": "Sample correspondence",
+      "fictional": true,
+      "thread_label": "Illustrative conversation",
+      "reply_excerpt": null
+    },
+    {
+      "id": "sample-email-03",
+      "kind": "email",
+      "label": "Illustrative example — not a customer testimonial",
+      "sender": "Sample founder",
+      "email": "founder03@example.com",
+      "recipient": "Outspoken team",
+      "recipient_email": "team@example.com",
+      "subject": "Re: First draft / small wording note",
+      "body": "This sounds much closer to how I would explain it on a call. One small correction: I would say “review the recommendation,” rather than “approve the model.” That distinction matters for our product.\n\nThe rest of the argument feels good to me. Please keep the qualification in the last paragraph. It makes the point more credible.",
+      "service": "writing",
+      "context": "Hypothetical voice/technical review; no real product or implementation.",
+      "display_date": "Sample correspondence",
+      "fictional": true,
+      "thread_label": "Illustrative conversation",
+      "reply_excerpt": {
+        "sender": "Outspoken team · fictional",
+        "body": "Thanks for the clear feedback. We would keep your correction and the relevant approval step in the next review."
+      }
+    },
+    {
+      "id": "sample-email-04",
+      "kind": "email",
+      "label": "Illustrative example — not a customer testimonial",
+      "sender": "Sample product lead",
+      "email": "product04@example.com",
+      "recipient": "Outspoken team",
+      "recipient_email": "team@example.com",
+      "subject": "That is the explanation I was looking for",
+      "body": "The carousel is much easier to follow with the customer question on the first page. The trade-off has a purpose now.\n\nI would move the architecture detail into the follow-up piece. For this one, the decision and its consequence are enough. Happy with this direction.",
+      "service": "carousel",
+      "context": "Hypothetical response to an original carousel specimen.",
+      "display_date": "Sample correspondence",
+      "fictional": true,
+      "thread_label": "Illustrative conversation",
+      "reply_excerpt": null
+    },
+    {
+      "id": "sample-email-05",
+      "kind": "email",
+      "label": "Illustrative example — not a customer testimonial",
+      "sender": "Sample content lead",
+      "email": "content05@example.com",
+      "recipient": "Outspoken team",
+      "recipient_email": "team@example.com",
+      "subject": "Re: Approval workflow",
+      "body": "I like this setup. Source, draft, comments and approval are in one place, and it is obvious which part needs a person.\n\nPlease leave the final publishing step with us for now. That would let us try the workflow without changing account access at the same time.",
+      "service": "automation",
+      "context": "Hypothetical workflow preference; no tool integration or actual time saving.",
+      "display_date": "Sample correspondence",
+      "fictional": true,
+      "thread_label": "Illustrative conversation",
+      "reply_excerpt": {
+        "sender": "Outspoken team · fictional",
+        "body": "Thanks for the clear feedback. We would keep your correction and the relevant approval step in the next review."
+      }
+    },
+    {
+      "id": "sample-email-06",
+      "kind": "email",
+      "label": "Illustrative example — not a customer testimonial",
+      "sender": "Sample marketing lead",
+      "email": "marketing06@example.com",
+      "recipient": "Outspoken team",
+      "recipient_email": "team@example.com",
+      "subject": "Founder and company messaging",
+      "body": "Thanks for showing the two versions together. They feel related without saying the same thing.\n\nThe founder post has a point of view; the company version explains the offer more directly. That is the balance I was hoping to see. I would like to use this as a reference when the wider team reviews the launch copy.",
+      "service": "company",
+      "context": "Hypothetical founder/company coherence feedback; no real launch.",
+      "display_date": "Sample correspondence",
+      "fictional": true,
+      "thread_label": "Illustrative conversation",
+      "reply_excerpt": null
+    },
+    {
+      "id": "sample-email-07",
+      "kind": "email",
+      "label": "Illustrative example — not a customer testimonial",
+      "sender": "Sample growth lead",
+      "email": "growth07@example.com",
+      "recipient": "Outspoken team",
+      "recipient_email": "team@example.com",
+      "subject": "Re: Campaign brief before the budget discussion",
+      "body": "This gives us a useful starting point. I can see the audience assumption, the message we want to test and what the landing page needs to explain.\n\nI appreciate that the brief separates the creative work from the media budget. Let us review the tracking and approval steps before we decide whether to run anything.",
+      "service": "advertising",
+      "context": "Hypothetical ad-plan feedback; no campaign launch, spend or return.",
+      "display_date": "Sample correspondence",
+      "fictional": true,
+      "thread_label": "Illustrative conversation",
+      "reply_excerpt": {
+        "sender": "Outspoken team · fictional",
+        "body": "Thanks for the clear feedback. We would keep your correction and the relevant approval step in the next review."
+      }
+    },
+    {
+      "id": "sample-email-08",
+      "kind": "email",
+      "label": "Illustrative example — not a customer testimonial",
+      "sender": "Sample founder",
+      "email": "founder08@example.com",
+      "recipient": "Outspoken team",
+      "recipient_email": "team@example.com",
+      "subject": "The report questions are the right ones",
+      "body": "Much better. The distinction between people noticing the content and people asking about the product is important.\n\nI would rather have a clear account of the responses than a larger number with no context. The notes on what we still cannot attribute are useful.",
+      "service": "measurement",
+      "context": "Hypothetical measurement preference; no actual report, audience or results.",
+      "display_date": "Sample correspondence",
+      "fictional": true,
+      "thread_label": "Illustrative conversation",
+      "reply_excerpt": null
+    },
+    {
+      "id": "sample-email-09",
+      "kind": "email",
+      "label": "Illustrative example — not a customer testimonial",
+      "sender": "Sample founder",
+      "email": "founder09@example.com",
+      "recipient": "Outspoken team",
+      "recipient_email": "team@example.com",
+      "subject": "Re: Questions for the next interview",
+      "body": "These are good questions. They get past the company update and into the decisions behind it.\n\nI do not have a polished story for the third one yet, but I can talk through the options we considered. That should give us something more specific to work with than another broad post about the market.",
+      "service": "interviews",
+      "context": "Hypothetical regular interview preparation.",
+      "display_date": "Sample correspondence",
+      "fictional": true,
+      "thread_label": "Illustrative conversation",
+      "reply_excerpt": null
+    },
+    {
+      "id": "sample-email-10",
+      "kind": "email",
+      "label": "Illustrative example — not a customer testimonial",
+      "sender": "Sample commercial lead",
+      "email": "commercial10@example.com",
+      "recipient": "Outspoken team",
+      "recipient_email": "team@example.com",
+      "subject": "Profile terms and the way buyers describe the problem",
+      "body": "The terminology feels more natural now. The profile uses the words our intended buyers would recognize, while the detail still sounds like the founder.\n\nI also like the explanation of where those terms belong. It is helpful to treat search clarity as part of a useful profile, without promising a particular place in the results.",
+      "service": "search",
+      "context": "Hypothetical keyword/profile clarity; no ranking or search-volume claim.",
+      "display_date": "Sample correspondence",
+      "fictional": true,
+      "thread_label": "Illustrative conversation",
+      "reply_excerpt": null
+    },
+    {
+      "id": "sample-email-11",
+      "kind": "email",
+      "label": "Illustrative example — not a customer testimonial",
+      "sender": "Sample founder",
+      "email": "founder11@example.com",
+      "recipient": "Outspoken team",
+      "recipient_email": "team@example.com",
+      "subject": "Re: Conversation starters",
+      "body": "The messages are more considerate with the shared context at the start. I would be comfortable reviewing these before choosing who to contact.\n\nPlease keep the invitation low-pressure. If there is no relevant reason to speak, I would rather leave that person out of the list.",
+      "service": "outreach",
+      "context": "Hypothetical manual outreach-copy review; no messages sent or consent inferred.",
+      "display_date": "Sample correspondence",
+      "fictional": true,
+      "thread_label": "Illustrative conversation",
+      "reply_excerpt": {
+        "sender": "Outspoken team · fictional",
+        "body": "Thanks for the clear feedback. We would keep your correction and the relevant approval step in the next review."
+      }
+    },
+    {
+      "id": "sample-email-12",
+      "kind": "email",
+      "label": "Illustrative example — not a customer testimonial",
+      "sender": "Sample product lead",
+      "email": "product12@example.com",
+      "recipient": "Outspoken team",
+      "recipient_email": "team@example.com",
+      "subject": "The shorter opening works",
+      "body": "Yes, this opening gets to the question faster. The captions also make the sequence understandable without sound.\n\nI would keep the line about the limitation in the final edit. The video feels more useful when it explains the choice rather than trying to make the product sound effortless.",
+      "service": "video",
+      "context": "Hypothetical video-script/caption feedback; no real footage or edit result.",
+      "display_date": "Sample correspondence",
+      "fictional": true,
+      "thread_label": "Illustrative conversation",
+      "reply_excerpt": null
+    },
+    {
+      "id": "sample-email-13",
+      "kind": "email",
+      "label": "Illustrative example — not a customer testimonial",
+      "sender": "Sample founder",
+      "email": "founder13@example.com",
+      "recipient": "Outspoken team",
+      "recipient_email": "team@example.com",
+      "subject": "A story that still feels like me",
+      "body": "I was hesitant about making this personal. The structure helps: it starts with the experience, but the point is the decision that came out of it.\n\nI would still remove the detail about the other person. We can make the lesson clear without identifying anyone. I am happy to keep developing it from there.",
+      "service": "personal",
+      "context": "Hypothetical personal-story/privacy preference; no actual anecdote.",
+      "display_date": "Sample correspondence",
+      "fictional": true,
+      "thread_label": "Illustrative conversation",
+      "reply_excerpt": null
+    },
+    {
+      "id": "sample-email-14",
+      "kind": "email",
+      "label": "Illustrative example — not a customer testimonial",
+      "sender": "Sample technical lead",
+      "email": "technical14@example.com",
+      "recipient": "Outspoken team",
+      "recipient_email": "team@example.com",
+      "subject": "Re: Diagram — keep the boundary visible",
+      "body": "The diagram reads much better with the human review step named. It avoids implying that the whole process runs by itself.\n\nCould we keep the connector labels in the exported version? They explain what moves between the steps, which is the part people tend to miss.",
+      "service": "architecture",
+      "context": "Hypothetical architecture/specimen feedback; no implemented system.",
+      "display_date": "Sample correspondence",
+      "fictional": true,
+      "thread_label": "Illustrative conversation",
+      "reply_excerpt": {
+        "sender": "Outspoken team · fictional",
+        "body": "Thanks for the clear feedback. We would keep your correction and the relevant approval step in the next review."
+      }
+    },
+    {
+      "id": "sample-email-15",
+      "kind": "email",
+      "label": "Illustrative example — not a customer testimonial",
+      "sender": "Sample marketing lead",
+      "email": "marketing15@example.com",
+      "recipient": "Outspoken team",
+      "recipient_email": "team@example.com",
+      "subject": "A good place to start the next review",
+      "body": "Thank you for being patient with the comments. The useful part for me is seeing why a line changed, not just receiving another version of the document.\n\nThe profile, posts and company copy now have a clear relationship in this sample. I can see how we would review them as one body of work while still giving each piece its own purpose.\n\nLet us use these questions for the next interview and see which ideas have enough substance to develop.",
+      "service": "collaboration",
+      "context": "Hypothetical collaboration feedback; no actual engagement or observed customer satisfaction.",
+      "display_date": "Sample correspondence",
+      "fictional": true,
+      "thread_label": "Illustrative conversation",
+      "reply_excerpt": null
+    }
+  ],
+  "posts": [
+    {
+      "id": "post-judgment",
+      "format": "Founder perspective",
+      "title": "A product decision is a story worth telling.",
+      "body": "The feature we chose not to build can say more about our product than the next release. What did that decision protect for the customer?",
+      "label": "Illustrative post — not a published founder statement"
+    },
+    {
+      "id": "post-carousel",
+      "format": "Document carousel",
+      "title": "Explain the trade-off. Show the consequence.",
+      "slides": [
+        "The buyer’s question",
+        "The options we considered",
+        "The choice we made",
+        "What changes for the customer",
+        "What still needs evidence"
+      ],
+      "label": "Illustrative carousel — not a customer case"
+    },
+    {
+      "id": "post-story",
+      "format": "Personal story",
+      "title": "Start with the moment your view changed.",
+      "body": "A useful founder story connects an experience to a decision. What happened, what did you learn, and how does it change the way you build?",
+      "label": "Illustrative writing prompt — not a personal anecdote"
+    },
+    {
+      "id": "post-interface",
+      "format": "Interface walkthrough",
+      "title": "Show the work behind the click.",
+      "body": "Take one buyer task through the product. Explain what the interface helps them do, where judgment still matters and what must be true for the workflow to work.",
+      "label": "Illustrative walkthrough — not a shipped product claim"
+    },
+    {
+      "id": "post-architecture",
+      "format": "Architecture explainer",
+      "title": "Make the system understandable.",
+      "body": "Map inputs, decisions and outputs. Name the boundary between an automated step and a decision that needs a person.",
+      "label": "Illustrative architecture — not a client implementation"
+    }
+  ],
+  "truthfulness": {
+    "customer_evidence": "No real customer testimony, account, results or metrics supplied. All review specimens must keep the visible label in every crop and export.",
+    "capabilities": "Owner-authorized proposed offer modules, not proof of staffing, runtime integration, connected ad account or active client service.",
+    "pricing": "Indicative package prices are in pricing.json; final scope and commercial terms are agreed together.",
+    "demand": "Buyer demand and conversion gains unvalidated."
+  },
+  "design_handoff": {
+    "review_labels": "Visible next to every email/comment and repeated within expanded modal. Never place only in a distant footer.",
+    "posts": "Specimen labels stay in perspective cards, stack and video descriptions. Do not add follower counts, likes, client logos or fake timestamps.",
+    "headings": "Keep full meaningful text in DOM. Animations must preserve accessible reading order and reduced-motion access.",
+    "service_groups": {
+      "Foundation": [
+        "profile",
+        "strategy"
+      ],
+      "Editorial": [
+        "writing",
+        "design"
+      ],
+      "Operation": [
+        "automation",
+        "marketing"
+      ],
+      "Distribution & learning": [
+        "advertising",
+        "measurement"
+      ]
+    }
+  },
+  "pricing_proposal": "pricing-proposal.json",
+  "scope_extensions": "pricing-proposal.json#scope_extensions"
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "OS-DOC001",
+    "title": "One decision. A useful story.",
+    "pages": [
+      [
+        "The decision is a starting point.",
+        "A product update tells buyers what changed. The reasoning helps them understand why it matters."
+      ],
+      [
+        "Name the buyer problem.",
+        "Explain the situation that made this decision necessary. Keep confidential details out."
+      ],
+      [
+        "Show the trade-off.",
+        "What did the team choose? What did it give up? State where the approach fits and where it does not."
+      ],
+      [
+        "Bring the evidence.",
+        "Use a permissioned demonstration, a source-linked observation or a clearly marked example. Do not substitute a claim for proof."
+      ],
+      [
+        "Explain the implication.",
+        "Give the buyer a useful question to ask when evaluating a similar approach."
+      ]
+    ],
+    "status": "illustrative editorial method; owner review pending",
+    "source_ids": [
+      "SRC-OWNER",
+      "SRC-SERVICE-COPY"
+    ],
+    "claim_type": "proposed_method",
+    "actual_client_evidence": false
+  },
+  {
+    "id": "OS-DOC002",
+    "title": "Before a draft is ready.",
+    "pages": [
+      [
+        "Check the material.",
+        "Did this experience happen? Is the product claim true today? Keep each answer linked to its source."
+      ],
+      [
+        "Check the permission.",
+        "Can the example be shared? Who owns the media? A public page is not automatic permission to reuse it."
+      ],
+      [
+        "Check the meaning.",
+        "Keep the qualification that makes the claim true. Edit for clarity without changing the evidence."
+      ],
+      [
+        "Give the founder the exact draft.",
+        "Approval applies to the wording and media being reviewed. Changed claims return for review."
+      ],
+      [
+        "Keep the next step clear.",
+        "Deliver approved text and artwork with sources, accessibility text and a clear publishing owner."
+      ]
+    ],
+    "status": "illustrative editorial method; owner review pending",
+    "source_ids": [
+      "SRC-OWNER",
+      "SRC-SERVICE-COPY"
+    ],
+    "claim_type": "proposed_method",
+    "actual_client_evidence": false
+  }
+]

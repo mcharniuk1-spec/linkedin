@@ -1,0 +1,103 @@
+{
+  "id": "OS-W304",
+  "name": "Proof",
+  "context": "A genuine extruded typographic sign for proof, used in editorial artwork and scene transitions.",
+  "rights": "Original authored meshes and glyphs; no third-party model or competitor media",
+  "render": {
+    "width": 600,
+    "height": 600,
+    "alpha": true,
+    "actual": "Three.js0.186.1 GLB source scene",
+    "toneMapping": "ACESFilmic",
+    "exposure": 0.9
+  },
+  "camera": {
+    "type": "orthographic",
+    "position": [
+      1.1999999999999997,
+      1.1,
+      7
+    ],
+    "lookAt": [
+      -2.220446049250313e-16,
+      5.551115123125783e-17,
+      0
+    ],
+    "extent": 3.460389404290642
+  },
+  "meshes": [
+    {
+      "name": "Proof / outlined glyph 1",
+      "vertices": 4852,
+      "triangles": 2240,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "citron / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    },
+    {
+      "name": "Proof / outlined glyph 2",
+      "vertices": 4232,
+      "triangles": 1852,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "citron / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    },
+    {
+      "name": "Proof / outlined glyph 3",
+      "vertices": 10858,
+      "triangles": 4640,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "citron / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    },
+    {
+      "name": "Proof / outlined glyph 4",
+      "vertices": 11166,
+      "triangles": 4640,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "citron / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    },
+    {
+      "name": "Proof / outlined glyph 5",
+      "vertices": 3942,
+      "triangles": 1740,
+      "finite": true,
+      "validIndexRange": true,
+      "material": [
+        "citron / Outspoken V3",
+        "silver / Outspoken V3"
+      ]
+    }
+  ],
+  "bounds": {
+    "min": [
+      -2.8126829913459046,
+      -0.8806575934569647,
+      -0.9486672714877761
+    ],
+    "max": [
+      2.812682991345904,
+      0.8806575934569648,
+      0.9486672714877761
+    ]
+  },
+  "kind": "real_extruded_typographic_geometry",
+  "usage": "Use as a media artwork object; keep ordinary interface/body text live and readable.",
+  "limitations": [
+    "Procedural satin material, not a photographic surface capture.",
+    "Use the flat SVG for small UI; do not shrink a decorative 3D render below64px."
+  ]
+}

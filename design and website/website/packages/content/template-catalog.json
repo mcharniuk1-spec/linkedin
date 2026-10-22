@@ -1,0 +1,89 @@
+{
+  "templates": [
+    {
+      "id": "OS-P001",
+      "source": "packages/content/templates/OS-P001.json",
+      "native_artwork": "packages/content/templates/OS-P001.svg"
+    },
+    {
+      "id": "OS-P002",
+      "source": "packages/content/templates/OS-P002.json",
+      "native_artwork": "packages/content/templates/OS-P002.svg"
+    },
+    {
+      "id": "OS-P003",
+      "source": "packages/content/templates/OS-P003.json",
+      "native_artwork": "packages/content/templates/OS-P003.svg"
+    },
+    {
+      "id": "OS-P004",
+      "source": "packages/content/templates/OS-P004.json",
+      "native_artwork": "packages/content/templates/OS-P004.svg"
+    },
+    {
+      "id": "OS-P005",
+      "source": "packages/content/templates/OS-P005.json",
+      "native_artwork": "packages/content/templates/OS-P005.svg"
+    },
+    {
+      "id": "OS-P006",
+      "source": "packages/content/templates/OS-P006.json",
+      "native_artwork": "packages/content/templates/OS-P006.svg"
+    },
+    {
+      "id": "OS-P007",
+      "source": "packages/content/templates/OS-P007.json",
+      "native_artwork": "packages/content/templates/OS-P007.svg"
+    },
+    {
+      "id": "OS-P008",
+      "source": "packages/content/templates/OS-P008.json",
+      "native_artwork": "packages/content/templates/OS-P008.svg"
+    },
+    {
+      "id": "OS-P009",
+      "source": "packages/content/templates/OS-P009.json",
+      "native_artwork": "packages/content/templates/OS-P009.svg"
+    },
+    {
+      "id": "OS-P010",
+      "source": "packages/content/templates/OS-P010.json",
+      "native_artwork": "packages/content/templates/OS-P010.svg"
+    },
+    {
+      "id": "OS-P011",
+      "source": "packages/content/templates/OS-P011.json",
+      "native_artwork": "packages/content/templates/OS-P011.svg"
+    },
+    {
+      "id": "OS-P012",
+      "source": "packages/content/templates/OS-P012.json",
+      "native_artwork": "packages/content/templates/OS-P012.svg"
+    },
+    {
+      "id": "OS-P013",
+      "source": "packages/content/templates/OS-P013.json",
+      "native_artwork": "packages/content/templates/OS-P013.svg"
+    }
+  ],
+  "filled_topics": [
+    "OS-T001",
+    "OS-T002",
+    "OS-T003"
+  ],
+  "documents": [
+    "OS-DOC001",
+    "OS-DOC002"
+  ],
+  "stage2_gate": "No full page/campaign website design or build before explicit owner acceptance",
+  "active_revision": {
+    "version": "2.0.0-candidate",
+    "manifest": "revisions/v2/manifest.json",
+    "gallery": "revisions/v2/index.html",
+    "boards": 58,
+    "editable_svg_text_lines": 453,
+    "silent_video_manifest": "../video/revisions/v2/manifest.json",
+    "source_policy": "OriginalV1templates/exports retained; activecurrentidentity/media in V2derivedexports",
+    "owner_accepted": false
+  }
+}

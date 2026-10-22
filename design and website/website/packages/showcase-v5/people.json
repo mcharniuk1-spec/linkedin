@@ -1,0 +1,32 @@
+[
+  {
+    "id": "OS-P5-01",
+    "name": "Founder voice \u00b7 blue jacket",
+    "src": "/assets/revisions/v5/people/founder-blue.webp",
+    "direction": "Fictional founder in a blue jacket. Eye-level medium portrait, soft studio key light and complete gestures. The whole supplied scene remains visible."
+  },
+  {
+    "id": "OS-P5-02",
+    "name": "Profile portrait \u00b7 direct gaze",
+    "src": "/assets/revisions/v5/people/avatar-a.webp",
+    "direction": "Fictional square portrait for a personal profile or author card. Preserve the head and shoulders, with the label outside the image."
+  },
+  {
+    "id": "OS-P5-03",
+    "name": "Founder story \u00b7 individual presence",
+    "src": "/assets/revisions/v5/people/avatar-b.webp",
+    "direction": "A distinct fictional portrait for a personal story. Use the natural expression and soft light; do not imply a client endorsement."
+  },
+  {
+    "id": "OS-P5-04",
+    "name": "Interview \u00b7 individual perspective",
+    "src": "/assets/revisions/v5/people/founder-blue.webp",
+    "direction": "Fictional founder interview specimen using the cleared blue-jacket portrait. One person is shown; retain the source image and visible fictional label."
+  },
+  {
+    "id": "OS-P5-05",
+    "name": "Expertise at work \u00b7 writing",
+    "src": "/assets/revisions/v2/photos/OS-PH204.png",
+    "direction": "A retained fictional expert writing at a desk. Preserve the face, hands, notebook and working context. This is a visual direction, not a customer."
+  }
+]

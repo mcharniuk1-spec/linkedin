@@ -1,0 +1,118 @@
+{
+  "id": "OS-CONTENT-SEED-1",
+  "revision": 1,
+  "artifact_type": "Stage 1 representative content, not full website",
+  "locale": "en-GB",
+  "audience": "Europe-based B2B AI SaaS founders",
+  "purpose": "Reusable truthful examples",
+  "sources": [
+    {
+      "id": "SRC-OWNER",
+      "locator": "writing-system/approved-positioning.json",
+      "rights": "owner-directed copy",
+      "sha256": "80d8063bf5af6eee2ab76275c6e45eaf81c1427d1df8b2931a460b40e67d34b9"
+    },
+    {
+      "id": "SRC-SERVICE-COPY",
+      "locator": "[dated-local-evidence-omitted]",
+      "rights": "internal original proposed copy",
+      "sha256": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f"
+    }
+  ],
+  "claims": [
+    {
+      "id": "CL-OWNER",
+      "state": "owner_direction",
+      "scope": "Protected positioning; not measured performance"
+    }
+  ],
+  "slots": [
+    {
+      "id": "hero-title",
+      "role": "h1",
+      "text": "Make the right buyers care about you and what you’re building.",
+      "claim_ids": [
+        "CL-OWNER"
+      ]
+    },
+    {
+      "id": "hero-body",
+      "role": "body",
+      "text": "We help Europe-based B2B AI SaaS founders turn their story and the business they’re building into LinkedIn content that attracts the right buyers, earns their trust and gives them a reason to buy.",
+      "claim_ids": [
+        "CL-OWNER"
+      ]
+    },
+    {
+      "id": "hero-cta",
+      "role": "cta",
+      "text": "Book an intro call",
+      "claim_ids": [],
+      "href": null
+    }
+  ],
+  "topics": [
+    {
+      "id": "OS-T001",
+      "title": "The customer problem behind the product.",
+      "kicker": "Founder judgment",
+      "body": "Explain the customer problem that made a product decision necessary. Give buyers the context they need to judge the trade-off.",
+      "takeaway": "Start with the problem. Show the decision. Explain what it changes.",
+      "asset": "OS-O014",
+      "claim": "opinion",
+      "source_ids": [
+        "SRC-OWNER",
+        "SRC-SERVICE-COPY"
+      ],
+      "status": "draft_for_owner_review",
+      "alt": "The customer problem behind the product. Explain the customer problem that made a product decision necessary. Give buyers the context they need to judge the trade-off.",
+      "actual_client_evidence": false
+    },
+    {
+      "id": "OS-T002",
+      "title": "A useful draft has a source.",
+      "kicker": "Editorial method",
+      "body": "Before a draft is ready for approval, trace its product claims, examples and numbers. Keep permission and context with the source.",
+      "takeaway": "A clear voice starts with material the founder can stand behind.",
+      "asset": "OS-O011",
+      "claim": "proposed_method",
+      "source_ids": [
+        "SRC-OWNER",
+        "SRC-SERVICE-COPY"
+      ],
+      "status": "draft_for_owner_review",
+      "alt": "A useful draft has a source. Before a draft is ready for approval, trace its product claims, examples and numbers. Keep permission and context with the source.",
+      "actual_client_evidence": false
+    },
+    {
+      "id": "OS-T003",
+      "title": "Choose the format after the question.",
+      "kicker": "Buyer relevance",
+      "body": "A short explanation can clarify a trade-off. A diagram can explain a sequence. A focused demonstration can show a workflow.",
+      "takeaway": "Choose the form that helps the reader understand the idea.",
+      "asset": "OS-O008",
+      "claim": "opinion",
+      "source_ids": [
+        "SRC-OWNER",
+        "SRC-SERVICE-COPY"
+      ],
+      "status": "draft_for_owner_review",
+      "alt": "Choose the format after the question. A short explanation can clarify a trade-off. A diagram can explain a sequence. A focused demonstration can show a workflow.",
+      "actual_client_evidence": false
+    }
+  ],
+  "review": {
+    "status": "draft_for_owner_review",
+    "method": "Humanize writing before/after; clarity/voice/source/CTA and invariant check; independent reviewer pending",
+    "approved_copy_sha256": null
+  },
+  "search": {
+    "demand_state": "unvalidated",
+    "query_evidence": []
+  },
+  "gaps": [
+    "CTA destination not configured",
+    "No real client proof or founder voice interview"
+  ],
+  "slots_sha256": "78d2c00c0d89e4b9566eb4a94df4ff0f5bfab0e58c21747a52470375afadd1c4"
+}

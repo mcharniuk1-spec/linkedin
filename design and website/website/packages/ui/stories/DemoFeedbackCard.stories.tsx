@@ -1,0 +1,11 @@
+import type { Meta, StoryObj } from '@storybook/react-vite';
+import { useState } from 'react';
+import * as C from '../src';
+function ComposerDemo(){const [value,setValue]=useState('');return <C.ChatComposer value={value} onChange={setValue} onSend={()=>setValue('')}/>};
+function PaginationDemo(){const [page,setPage]=useState(1);return <C.PaginationSeries page={page} total={5} onChange={setPage}/>};
+const meta={title:'Editorial/DemoFeedbackCard',component:C.DemoFeedbackCard,tags:['autodocs'],parameters:{docs:{description:{component:'OS-C052 · canonical shared module. Stage 1 candidate; Figma and owner acceptance are separate.'}}}} satisfies Meta<typeof C.DemoFeedbackCard>;
+export default meta;
+type Story = StoryObj;
+export const Default:Story={render:()=>(<C.DemoFeedbackCard/>)};
+export const Comment:Story={render:()=>(<C.DemoFeedbackCard kind="comment">This is a visibly fictional comment specimen.</C.DemoFeedbackCard>)};
+export const LongText:Story={render:()=>(<C.DemoFeedbackCard>One useful idea can need more room. This illustrative feedback card checks longer text and a persistent fiction label. No person or customer outcome is claimed, and the label remains part of the card at every width.</C.DemoFeedbackCard>)};

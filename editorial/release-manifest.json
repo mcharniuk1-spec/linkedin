@@ -1,0 +1,1005 @@
+{
+  "schema_version": "1.0.0",
+  "release_id": "20261022-outspoken-editorial-v8.4-public-review",
+  "date": "2026-10-22",
+  "status": "source_snapshot_verified",
+  "owner_accepted": false,
+  "published": false,
+  "source_copy_sha256": "3f3bc8f2cff87dd33d1cfdabce33aa834ff62b93ed841ecd10a444cd11222a89",
+  "content_version": "v8.4-public-copy-humanized",
+  "expected": {
+    "posts": 20,
+    "image_posts": 13,
+    "video_posts": 2,
+    "frames_per_video": 5,
+    "text_posts": 5
+  },
+  "body_hashes": {
+    "P01": "28b547ea239c44efd5f8a3250598db58118d3f2eb31590b3db9624a830fdb26d",
+    "P02": "48168c657e6527b8d98d4310af6aa3a9dc6263d19338201157e2e86c73bfcd08",
+    "P03": "329e271d5dca97b66f4ba6b181fb1afedfcad9bf3b847ca186042a4418b3dbc7",
+    "P04": "d7fd7434266a32e858715fb07c87f4b60b62c5cb5ee2d4beddacd4fc6ea6422d",
+    "P05": "929a3fe191d2c96e36251b44cd793087c4317d8ad472343dc605b916e55d47bb",
+    "P06": "13a175c03905d947bc5bd07ffb03e5e8c15cc76f10e8f09c2850dfcc7addb544",
+    "P07": "0edb0653bef23de3c083017cf98ce517c7f997574dcee142fcdb5425cd91cf4e",
+    "P08": "459f4060faaf1263f4e8585664bf4262096524bdb51b4057e04e1550adddaf2f",
+    "P09": "b5043e7805462fe726a735adefc6246c9e39c28fe3b64b5a83fddfad318fd79c",
+    "P10": "201b2221f69fc4d9f7b462a10a53eac9ec37c001acc59e9f3be9f02fa0e14701",
+    "P11": "750801b4f30faa69b3d24b3b0df5ad51b9e2044796fed052ab1a2a3680825b8c",
+    "P12": "64eb5ec2c9e06ad83f306098eb09a008c7f05ef8a4f0eeed65b99a601baaa76e",
+    "P13": "226148fad58583f00e45eecd530255236f241e2a77b644c0e98b4f9fbcaab172",
+    "P14": "413331912250e89fc55942b0104498161739a17dda4913f0805ad8fd3d46c066",
+    "P15": "d496ca8fd028493d64eb5f6aed189412e2719c80336939dc0db194d866eb2906",
+    "P16": "ec364f57f75ef4e45986ad0c3f3f67b2f5c0e1e07f04b1b085b1500118612a77",
+    "P17": "bfa48a16b2df59b7cd0b0a9517cfb5bd7b8365b8a93feb027c808e23acb97e4b",
+    "P18": "85a7128e2fc7b413932388a14020728bb42952d93e9d47ba3a1c41456e86712f",
+    "P19": "7ddbf1f283d568e1fdaeec85685c446a047eee11c356b03f66edef8a4b2e6718",
+    "P20": "ed8b9415d7ae4de3a597ce87ab84d0993edda5768ddc099b8a4d2010de42f6da"
+  },
+  "files": [
+    {
+      "path": "copy/publications.json",
+      "bytes": 54222,
+      "sha256": "cd20de98bad9f40329dd0f04e3a85a502e71c91abe4fc7ae95d3b81df8ebe6cd",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "copy/publications.json",
+      "source_sha256": "3f3bc8f2cff87dd33d1cfdabce33aa834ff62b93ed841ecd10a444cd11222a89",
+      "projection": "Exact20 bodies/hashtags/CTAs/status; omit private source and founder-sample ledgers; replace nonportable source locators."
+    },
+    {
+      "path": "copy/publications.md",
+      "bytes": 24905,
+      "sha256": "dcd47aea4e35871d2c6a3f9557345cbfa8ca58317bc27f7f9741f82904da445b",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "copy/publications.md",
+      "source_sha256": "2493ab19e3177f5096290841cd70f9f447d4f68c2e4f63d380354cd7f7661333",
+      "projection": "Render20 exact bodies from projected JSON; omit private source locators."
+    },
+    {
+      "path": "sources/references.json",
+      "bytes": 16942,
+      "sha256": "8fdf22242fd9e6ace516c9c01f165e03b5c634e6f70d8c62ed60c30fc9f1f028",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "research/sources.json",
+      "source_sha256": "6218c29fa15114d09a726b0b1afc10ca854a608746a95a3393db832ae378c114",
+      "projection": "sanitized_metadata"
+    },
+    {
+      "path": "sources/editorial-methods.json",
+      "bytes": 12740,
+      "sha256": "9bc69d9e0227d87480c60e13882fd5668f5391095e6fe3c2623706b9cf7de06b",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "research/editorial-methods.json",
+      "source_sha256": "520477862af684e2b440b925c7837f8d427b6878a1e84dbcc82a2dfdc88b912b",
+      "projection": "Exact owned derived method; no third-party media."
+    },
+    {
+      "path": "assets/images/P01.svg",
+      "bytes": 38378,
+      "sha256": "28f42e112c0cc8b2fbb8475ea70d9addf1bbdec85db227a4fcb92633b70c9dc0",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P01.svg",
+      "source_sha256": "28f42e112c0cc8b2fbb8475ea70d9addf1bbdec85db227a4fcb92633b70c9dc0",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P01.png",
+      "bytes": 245223,
+      "sha256": "74e06574e2852f5cf84dcb6aec99546691d05b08e8cd3e0a567d7fb8b1214064",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P01.png",
+      "source_sha256": "74e06574e2852f5cf84dcb6aec99546691d05b08e8cd3e0a567d7fb8b1214064",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P02.svg",
+      "bytes": 37500,
+      "sha256": "01e2a7883a0c51f1e56065313b6719ee8646cd25ae01cc159d0773dad5d2b4dd",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P02.svg",
+      "source_sha256": "01e2a7883a0c51f1e56065313b6719ee8646cd25ae01cc159d0773dad5d2b4dd",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P02.png",
+      "bytes": 254075,
+      "sha256": "e556c74cf080ed59d2a0bf6bea5a3737d6703c7a143ea4fd5693b7c7612a5cfa",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P02.png",
+      "source_sha256": "e556c74cf080ed59d2a0bf6bea5a3737d6703c7a143ea4fd5693b7c7612a5cfa",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P03.svg",
+      "bytes": 37394,
+      "sha256": "2a629acb590dbfc1085a6913df844bcfcee7a7f3fe6947258f151e96d8e0d084",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P03.svg",
+      "source_sha256": "2a629acb590dbfc1085a6913df844bcfcee7a7f3fe6947258f151e96d8e0d084",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P03.png",
+      "bytes": 1001326,
+      "sha256": "01dd20912e05f9b02036db43c14a79cec29a9b7c46a32d6b7183b4a97b302361",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P03.png",
+      "source_sha256": "01dd20912e05f9b02036db43c14a79cec29a9b7c46a32d6b7183b4a97b302361",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P04.svg",
+      "bytes": 37890,
+      "sha256": "6bbb2689cdaab338f71a62c11155eb24214b74c5b7a6bd57e2775db995cf8c4f",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P04.svg",
+      "source_sha256": "6bbb2689cdaab338f71a62c11155eb24214b74c5b7a6bd57e2775db995cf8c4f",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P04.png",
+      "bytes": 247054,
+      "sha256": "f8426de5178293ac141601e7f44bdd170ce63cd63d702cbe5437db869883b087",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P04.png",
+      "source_sha256": "f8426de5178293ac141601e7f44bdd170ce63cd63d702cbe5437db869883b087",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P05.svg",
+      "bytes": 37844,
+      "sha256": "bd46d518a5ed4a3bf25e1fed2d02878a93439eec1422cc2a31e26b708082de93",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P05.svg",
+      "source_sha256": "bd46d518a5ed4a3bf25e1fed2d02878a93439eec1422cc2a31e26b708082de93",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P05.png",
+      "bytes": 278406,
+      "sha256": "d3a1a0de2ce12de597bc73a423e5320d1c86d8b27aefa3a0ec9a22a930a0a207",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P05.png",
+      "source_sha256": "d3a1a0de2ce12de597bc73a423e5320d1c86d8b27aefa3a0ec9a22a930a0a207",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P06.svg",
+      "bytes": 37830,
+      "sha256": "14b365e08ee4c0c6be7f5a244336bd1610b775ff70e7190fe697d0224c92e39e",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P06.svg",
+      "source_sha256": "14b365e08ee4c0c6be7f5a244336bd1610b775ff70e7190fe697d0224c92e39e",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P06.png",
+      "bytes": 246235,
+      "sha256": "82737ae6852531ec9d9111112ba90d0f41da324c96530fa1efd10a9b4884ac12",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P06.png",
+      "source_sha256": "82737ae6852531ec9d9111112ba90d0f41da324c96530fa1efd10a9b4884ac12",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P07.svg",
+      "bytes": 36947,
+      "sha256": "dea4b72b5d8335810c34367710ceb66f391f990d1e4b99ecf75c4dece894073f",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P07.svg",
+      "source_sha256": "dea4b72b5d8335810c34367710ceb66f391f990d1e4b99ecf75c4dece894073f",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P07.png",
+      "bytes": 250516,
+      "sha256": "83820141339d45e5084f5eb405b659217b7cfb1a7c3f1c4d73de3f29a3e61cd0",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P07.png",
+      "source_sha256": "83820141339d45e5084f5eb405b659217b7cfb1a7c3f1c4d73de3f29a3e61cd0",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P08.svg",
+      "bytes": 38051,
+      "sha256": "fd2f85712606c57148a848dd57a4dcb3d337c373071db6763229c816373ba47b",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P08.svg",
+      "source_sha256": "fd2f85712606c57148a848dd57a4dcb3d337c373071db6763229c816373ba47b",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P08.png",
+      "bytes": 274737,
+      "sha256": "3436066424921cd445dc1d3f9ac36476fbea0933c3cbdfecaa4070c1b134750c",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P08.png",
+      "source_sha256": "3436066424921cd445dc1d3f9ac36476fbea0933c3cbdfecaa4070c1b134750c",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P09.svg",
+      "bytes": 38700,
+      "sha256": "6806dd90c61bc9fc8210e21998732ebc82a923aaa19dc599ebacacc989fe94fc",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P09.svg",
+      "source_sha256": "6806dd90c61bc9fc8210e21998732ebc82a923aaa19dc599ebacacc989fe94fc",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P09.png",
+      "bytes": 254990,
+      "sha256": "d5fb03ad1c66bc7d543d4cde71c689c3083e3518a4fa80c029510cf15eb0db3b",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P09.png",
+      "source_sha256": "d5fb03ad1c66bc7d543d4cde71c689c3083e3518a4fa80c029510cf15eb0db3b",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P10.svg",
+      "bytes": 37399,
+      "sha256": "5494eb891bc694f08eb6440c94bcc30a7e2f8c0747f2e43d9d56e1646200d181",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P10.svg",
+      "source_sha256": "5494eb891bc694f08eb6440c94bcc30a7e2f8c0747f2e43d9d56e1646200d181",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P10.png",
+      "bytes": 257682,
+      "sha256": "d4ad9bd6328f769794371e5689ccf22337aa64aeeca26aefa723508d8b06d5f6",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P10.png",
+      "source_sha256": "d4ad9bd6328f769794371e5689ccf22337aa64aeeca26aefa723508d8b06d5f6",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P11.svg",
+      "bytes": 36849,
+      "sha256": "fd2310931344830a108458bfb58ac28acbfdf99f183471d0ee331dcdf5169418",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P11.svg",
+      "source_sha256": "fd2310931344830a108458bfb58ac28acbfdf99f183471d0ee331dcdf5169418",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P11.png",
+      "bytes": 1041904,
+      "sha256": "70b977c46c06530be674b5c95462dfc804d147b609bfe041588a8fd08a2c5377",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P11.png",
+      "source_sha256": "70b977c46c06530be674b5c95462dfc804d147b609bfe041588a8fd08a2c5377",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P12.svg",
+      "bytes": 37768,
+      "sha256": "3c42b8d76fdeb18b0d472266021445a48d28dad483ca0a157fa58d263d0b1fd4",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P12.svg",
+      "source_sha256": "3c42b8d76fdeb18b0d472266021445a48d28dad483ca0a157fa58d263d0b1fd4",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P12.png",
+      "bytes": 251122,
+      "sha256": "0113c0a82d9e9a296fbf51e78f897ce4eb020769199145ccbf08ccba85f5a691",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P12.png",
+      "source_sha256": "0113c0a82d9e9a296fbf51e78f897ce4eb020769199145ccbf08ccba85f5a691",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P13.svg",
+      "bytes": 37943,
+      "sha256": "93cf9e7197e614e6d01469ad2e13d84a3df6467c94650b33128ebb37aabcc850",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P13.svg",
+      "source_sha256": "93cf9e7197e614e6d01469ad2e13d84a3df6467c94650b33128ebb37aabcc850",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/P13.png",
+      "bytes": 245693,
+      "sha256": "bd22a8de25efd57c5a8d5364e78493c48e47197c5329f4587ac0aded57bbb058",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/P13.png",
+      "source_sha256": "bd22a8de25efd57c5a8d5364e78493c48e47197c5329f4587ac0aded57bbb058",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/fonts/Archivo.ttf",
+      "bytes": 658596,
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/fonts/Archivo.ttf",
+      "source_sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/fonts/Inter.ttf",
+      "bytes": 876576,
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/fonts/Inter.ttf",
+      "source_sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/fonts/archivo-OFL.txt",
+      "bytes": 4388,
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/fonts/archivo-OFL.txt",
+      "source_sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/fonts/inter-OFL.txt",
+      "bytes": 4377,
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/fonts/inter-OFL.txt",
+      "source_sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/images/manifest.json",
+      "bytes": 10444,
+      "sha256": "99a82b9746520a9fc26848575da051a1569a4b5a40dac6a8b1ec9739bb61774e",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "images/manifest.json",
+      "source_sha256": "8bb3eb0d25081300d93907358126d0198d32dbfc697b5cb3f929a1034011eeaf",
+      "projection": "Keep exact diagram identities/hashes; use package-relative output paths."
+    },
+    {
+      "path": "copy/visual-briefs.json",
+      "bytes": 7851,
+      "sha256": "44416aede0d86aead2c19ba11d9e33db52cb5a2f80a0bb9e436a4b544e1c951c",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "copy/visual-briefs.json",
+      "source_sha256": "44416aede0d86aead2c19ba11d9e33db52cb5a2f80a0bb9e436a4b544e1c951c",
+      "projection": "Exact owned visual briefs."
+    },
+    {
+      "path": "assets/videos/frames/P14-shot-01.png",
+      "bytes": 1909408,
+      "sha256": "e02b378ada3b1468c862d295e57eabcb492ba23bca9949f349be0ee01089dac3",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/frames/P14-shot-01.png",
+      "source_sha256": "e02b378ada3b1468c862d295e57eabcb492ba23bca9949f349be0ee01089dac3",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/videos/frames/P14-shot-02.png",
+      "bytes": 1841907,
+      "sha256": "3da68b1464d7fa16668cf757dce5c7c84d2cb3f91625c6596f521699dcda98a4",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/frames/P14-shot-02.png",
+      "source_sha256": "3da68b1464d7fa16668cf757dce5c7c84d2cb3f91625c6596f521699dcda98a4",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/videos/frames/P14-shot-03.png",
+      "bytes": 1711364,
+      "sha256": "13b06c6132ba7744ebda2acac86fdf2c98bb58901d5bf15b18aef2c99a0c27f4",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/frames/P14-shot-03.png",
+      "source_sha256": "13b06c6132ba7744ebda2acac86fdf2c98bb58901d5bf15b18aef2c99a0c27f4",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/videos/frames/P14-shot-04.png",
+      "bytes": 1701979,
+      "sha256": "5c76dcf8d231737b8667c52350bf3d521abdacdb1c4c088edf338c7ec665cebe",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/frames/P14-shot-04.png",
+      "source_sha256": "5c76dcf8d231737b8667c52350bf3d521abdacdb1c4c088edf338c7ec665cebe",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/videos/frames/P14-shot-05.png",
+      "bytes": 1878027,
+      "sha256": "94a2199a17d5df83078e9eca4e36b8a1022a03d1049b0870a1a3d01076b7f18d",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/frames/P14-shot-05.png",
+      "source_sha256": "94a2199a17d5df83078e9eca4e36b8a1022a03d1049b0870a1a3d01076b7f18d",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/videos/frames/P15-shot-01.png",
+      "bytes": 1857789,
+      "sha256": "b867ced90953f510d4bb2aca03e375ec096aba72a494073634cd62ac71458572",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/frames/P15-shot-01.png",
+      "source_sha256": "b867ced90953f510d4bb2aca03e375ec096aba72a494073634cd62ac71458572",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/videos/frames/P15-shot-02.png",
+      "bytes": 1783102,
+      "sha256": "cde2d6e21f48ae36985036a23df37319fce3db0cf52b7dd48843f9814bb4ff23",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/frames/P15-shot-02.png",
+      "source_sha256": "cde2d6e21f48ae36985036a23df37319fce3db0cf52b7dd48843f9814bb4ff23",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/videos/frames/P15-shot-03.png",
+      "bytes": 1783061,
+      "sha256": "d49d3d7182844f117b61adc6c1711ef0e299eafaa01407149cdf82ac0d01bc60",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/frames/P15-shot-03.png",
+      "source_sha256": "d49d3d7182844f117b61adc6c1711ef0e299eafaa01407149cdf82ac0d01bc60",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/videos/frames/P15-shot-04.png",
+      "bytes": 1831348,
+      "sha256": "93307ff81d24178df1d945e818dbe10449569391c610bfae8129305c77fdd3ba",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/frames/P15-shot-04.png",
+      "source_sha256": "93307ff81d24178df1d945e818dbe10449569391c610bfae8129305c77fdd3ba",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/videos/frames/P15-shot-05.png",
+      "bytes": 1898299,
+      "sha256": "3683d87a81650a11804d9f70b2fa76d8a1db17e98e5725266870bb50dacfdb1a",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/frames/P15-shot-05.png",
+      "source_sha256": "3683d87a81650a11804d9f70b2fa76d8a1db17e98e5725266870bb50dacfdb1a",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/videos/asset-manifest.json",
+      "bytes": 6250,
+      "sha256": "cf5901c28ecf0736f4db06d9396092ad18d115b9314f6248aeb3673b6beda3cd",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/asset-manifest.json",
+      "source_sha256": "16cb3c7bf447a9f8c15ea4a0bb310faebaa00da15b6e4ac987dfdd257dbadd9d",
+      "projection": "Retain10 selected assets and receipts; omit machine generator paths and nonportable reference paths."
+    },
+    {
+      "path": "videos/generation-prompts.json",
+      "bytes": 13510,
+      "sha256": "0c36113a801e75d7b106fa45c6d8258d974a5d1342d3bdab3b3da51f0530bbf9",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/image-prompts.json",
+      "source_sha256": "338bf17b2473f811f4b1890f9d2dc3c13d608e7d22e039dc61d10e0d25a58152",
+      "projection": "Retain only selected exact prompt text/receipts/hashes; omit machine and superseded-generation paths."
+    },
+    {
+      "path": "videos/scripts/P14.json",
+      "bytes": 6014,
+      "sha256": "80538f3588e162bf1c9eeb831359d92f2daa0c98db2b6076481a122912e71990",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/scripts/P14.json",
+      "source_sha256": "e234e988f893d147d32424ece1ef5641c0dc3687cd19831f3c360fc93049ae97",
+      "projection": "Exact spoken_script/shots; portable source/frame locator metadata and truthful delivered storyboard status."
+    },
+    {
+      "path": "videos/scripts/P14.srt",
+      "bytes": 909,
+      "sha256": "2f936ebaa90b51dfc0249df818f42af378411a28415ca9e5bb5cd4626a340ebe",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/scripts/P14.srt",
+      "source_sha256": "2f936ebaa90b51dfc0249df818f42af378411a28415ca9e5bb5cd4626a340ebe",
+      "projection": "exact"
+    },
+    {
+      "path": "videos/scripts/P14.vtt",
+      "bytes": 917,
+      "sha256": "b561d4fa782363dd3ff37fd540ee7ea6b90471399ee7d5cd85bf7eaf33add28f",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/scripts/P14.vtt",
+      "source_sha256": "b561d4fa782363dd3ff37fd540ee7ea6b90471399ee7d5cd85bf7eaf33add28f",
+      "projection": "exact"
+    },
+    {
+      "path": "videos/scripts/P15.json",
+      "bytes": 5981,
+      "sha256": "7faab55fc1ceba530dfa0ef05165f6440de8e6c5359e3a3581af8d555a8165db",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/scripts/P15.json",
+      "source_sha256": "d219085222ed4184322eef1688916443d0b0fc99437575079cd85c306ec8fde1",
+      "projection": "Exact spoken_script/shots; portable source/frame locator metadata and truthful delivered storyboard status."
+    },
+    {
+      "path": "videos/scripts/P15.srt",
+      "bytes": 914,
+      "sha256": "5b874f07a2b812de435222c4c9f3929b14ea0674a070df9eb396024cbca1bb43",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/scripts/P15.srt",
+      "source_sha256": "5b874f07a2b812de435222c4c9f3929b14ea0674a070df9eb396024cbca1bb43",
+      "projection": "exact"
+    },
+    {
+      "path": "videos/scripts/P15.vtt",
+      "bytes": 922,
+      "sha256": "fea70e6770a49bce05426bb5c246e39987b6316b49613209bc5ca9dea115188c",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/scripts/P15.vtt",
+      "source_sha256": "fea70e6770a49bce05426bb5c246e39987b6316b49613209bc5ca9dea115188c",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/videos/previews/P14-storyboard.mp4",
+      "bytes": 3896908,
+      "sha256": "62acb865371a49f54cb5d44e9300511c2ff8f4f8d91349753fa4952c141a1847",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/previews/P14-storyboard.mp4",
+      "source_sha256": "62acb865371a49f54cb5d44e9300511c2ff8f4f8d91349753fa4952c141a1847",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/videos/previews/P15-storyboard.mp4",
+      "bytes": 3611879,
+      "sha256": "8edb4fa81154e15400f0b63f533fdcaad889db60fdb17fe8dd128e9617a61530",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/previews/P15-storyboard.mp4",
+      "source_sha256": "8edb4fa81154e15400f0b63f533fdcaad889db60fdb17fe8dd128e9617a61530",
+      "projection": "exact"
+    },
+    {
+      "path": "assets/videos/previews/manifest.json",
+      "bytes": 1487,
+      "sha256": "0d17499a6ddcce9484f8e490f9583f30a3e90ccf0b68176a14bc8fe7d0ebd8b0",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "videos/previews/manifest.json",
+      "source_sha256": "d5e80c3a8e3bfb2d7b8383cb75887860d6ccf593b172e762f499385b829f5835",
+      "projection": "Exact2 preview identities/hashes/technical facts; portable paths."
+    },
+    {
+      "path": "figma/FRAME-MAP.json",
+      "bytes": 16327,
+      "sha256": "d5db49be1509b56963f25c76530fcd49266e9a7155bcb30e423cb6685eaf4fc1",
+      "source_release": "20261022-outspoken-design-v9",
+      "source_path": "FRAME-MAP.json",
+      "source_sha256": "8f2d133ac0354cca6fc459a7a78779ca289e2da51f74a4c4172265efad1bb5d2",
+      "projection": "Omit private local source locators and editorial-only canvas geometry."
+    },
+    {
+      "path": "figma/FRAME-MAP.md",
+      "bytes": 2764,
+      "sha256": "b2a3a69148021ba41ae85a6c60db7fa54ab93af016a6529630389d9a12256d71",
+      "source_release": "20261022-outspoken-design-v9",
+      "source_path": "FRAME-MAP.md",
+      "source_sha256": "377b7130c1af5366a51e8aee061c529e7176ecca6674bf398bb2a1935470ccde",
+      "projection": "Portable public map explanation."
+    },
+    {
+      "path": "index.html",
+      "bytes": 75384,
+      "sha256": "d8c4f567600aa83dbfdefd85998e06cad522199e2e4c3cf07e1aa3916b88dd11",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "handoff/publications-preview.html",
+      "source_sha256": "8fa17d2075003d81803ffaae90e3037df4779c9f42525d20bcedcac7cb264241",
+      "projection": "Relocate preview to package root; rewrite relative media/font/script links only."
+    },
+    {
+      "path": "qa/copy-review.json",
+      "bytes": 2219,
+      "sha256": "04a23335051acef5973f2b3c4f603f919652e56a70e655718d8e0201f9f1e6ca",
+      "source_release": "20261022-outspoken-editorial-v8",
+      "source_path": "qa/final-copy-review.json",
+      "source_sha256": "2021103a9d118424855448fe6df6c7349b58f8fcce573b01c9e3132a9e61ef11",
+      "projection": "Bounded existing review coverage/findings; omit local workflow statements."
+    },
+    {
+      "path": "README.md",
+      "bytes": 2112,
+      "sha256": "42d7aceb9f83de04ddd5728c172bf388670a61f841728579afffdf7e304cd646"
+    },
+    {
+      "path": "scripts/verify.py",
+      "bytes": 2838,
+      "sha256": "b048dbc4de5a12d7a0d8e64427ed610dcced1137159c3d53059773ea726c654c"
+    },
+    {
+      "path": "qa/export-verification.json",
+      "bytes": 16164,
+      "sha256": "0d115d2abf01f4dc319287a35565ef7e820ef08d88703bb93701673337fcda05"
+    }
+  ],
+  "rights_ledger": [
+    {
+      "path": "copy/publications.json",
+      "sha256": "cd20de98bad9f40329dd0f04e3a85a502e71c91abe4fc7ae95d3b81df8ebe6cd",
+      "rights_state": "owned",
+      "rights_basis": "Owned derived editorial metadata; source locator and quotation exclusions recorded in projection."
+    },
+    {
+      "path": "sources/references.json",
+      "sha256": "8fdf22242fd9e6ace516c9c01f165e03b5c634e6f70d8c62ed60c30fc9f1f028",
+      "rights_state": "owned",
+      "rights_basis": "Owned derived editorial metadata; source locator and quotation exclusions recorded in projection."
+    },
+    {
+      "path": "sources/editorial-methods.json",
+      "sha256": "9bc69d9e0227d87480c60e13882fd5668f5391095e6fe3c2623706b9cf7de06b",
+      "rights_state": "owned",
+      "rights_basis": "Owned derived editorial metadata; source locator and quotation exclusions recorded in projection."
+    },
+    {
+      "path": "assets/images/P01.svg",
+      "sha256": "28f42e112c0cc8b2fbb8475ea70d9addf1bbdec85db227a4fcb92633b70c9dc0",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P01.png",
+      "sha256": "74e06574e2852f5cf84dcb6aec99546691d05b08e8cd3e0a567d7fb8b1214064",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P02.svg",
+      "sha256": "01e2a7883a0c51f1e56065313b6719ee8646cd25ae01cc159d0773dad5d2b4dd",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P02.png",
+      "sha256": "e556c74cf080ed59d2a0bf6bea5a3737d6703c7a143ea4fd5693b7c7612a5cfa",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P03.svg",
+      "sha256": "2a629acb590dbfc1085a6913df844bcfcee7a7f3fe6947258f151e96d8e0d084",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P03.png",
+      "sha256": "01dd20912e05f9b02036db43c14a79cec29a9b7c46a32d6b7183b4a97b302361",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P04.svg",
+      "sha256": "6bbb2689cdaab338f71a62c11155eb24214b74c5b7a6bd57e2775db995cf8c4f",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P04.png",
+      "sha256": "f8426de5178293ac141601e7f44bdd170ce63cd63d702cbe5437db869883b087",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P05.svg",
+      "sha256": "bd46d518a5ed4a3bf25e1fed2d02878a93439eec1422cc2a31e26b708082de93",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P05.png",
+      "sha256": "d3a1a0de2ce12de597bc73a423e5320d1c86d8b27aefa3a0ec9a22a930a0a207",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P06.svg",
+      "sha256": "14b365e08ee4c0c6be7f5a244336bd1610b775ff70e7190fe697d0224c92e39e",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P06.png",
+      "sha256": "82737ae6852531ec9d9111112ba90d0f41da324c96530fa1efd10a9b4884ac12",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P07.svg",
+      "sha256": "dea4b72b5d8335810c34367710ceb66f391f990d1e4b99ecf75c4dece894073f",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P07.png",
+      "sha256": "83820141339d45e5084f5eb405b659217b7cfb1a7c3f1c4d73de3f29a3e61cd0",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P08.svg",
+      "sha256": "fd2f85712606c57148a848dd57a4dcb3d337c373071db6763229c816373ba47b",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P08.png",
+      "sha256": "3436066424921cd445dc1d3f9ac36476fbea0933c3cbdfecaa4070c1b134750c",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P09.svg",
+      "sha256": "6806dd90c61bc9fc8210e21998732ebc82a923aaa19dc599ebacacc989fe94fc",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P09.png",
+      "sha256": "d5fb03ad1c66bc7d543d4cde71c689c3083e3518a4fa80c029510cf15eb0db3b",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P10.svg",
+      "sha256": "5494eb891bc694f08eb6440c94bcc30a7e2f8c0747f2e43d9d56e1646200d181",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P10.png",
+      "sha256": "d4ad9bd6328f769794371e5689ccf22337aa64aeeca26aefa723508d8b06d5f6",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P11.svg",
+      "sha256": "fd2310931344830a108458bfb58ac28acbfdf99f183471d0ee331dcdf5169418",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P11.png",
+      "sha256": "70b977c46c06530be674b5c95462dfc804d147b609bfe041588a8fd08a2c5377",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P12.svg",
+      "sha256": "3c42b8d76fdeb18b0d472266021445a48d28dad483ca0a157fa58d263d0b1fd4",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P12.png",
+      "sha256": "0113c0a82d9e9a296fbf51e78f897ce4eb020769199145ccbf08ccba85f5a691",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P13.svg",
+      "sha256": "93cf9e7197e614e6d01469ad2e13d84a3df6467c94650b33128ebb37aabcc850",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/images/P13.png",
+      "sha256": "bd22a8de25efd57c5a8d5364e78493c48e47197c5329f4587ac0aded57bbb058",
+      "rights_state": "owned",
+      "rights_basis": "Original owned diagram; exact selected OUTSPOKEN identity. Fonts SIL OFL; licenses in fonts/.",
+      "source_manifest": "assets/images/manifest.json"
+    },
+    {
+      "path": "assets/fonts/Archivo.ttf",
+      "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+      "rights_state": "licensed",
+      "license": "SIL Open Font License 1.1",
+      "rights_basis": "Bundled upstream font and exact license supplied in original image pack.",
+      "license_path": "assets/fonts/archivo-OFL.txt"
+    },
+    {
+      "path": "assets/fonts/Inter.ttf",
+      "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+      "rights_state": "licensed",
+      "license": "SIL Open Font License 1.1",
+      "rights_basis": "Bundled upstream font and exact license supplied in original image pack.",
+      "license_path": "assets/fonts/inter-OFL.txt"
+    },
+    {
+      "path": "assets/fonts/archivo-OFL.txt",
+      "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b",
+      "rights_state": "licensed",
+      "license": "SIL Open Font License 1.1",
+      "rights_basis": "Bundled upstream font and exact license supplied in original image pack.",
+      "license_path": "assets/fonts/archivo-OFL.txt"
+    },
+    {
+      "path": "assets/fonts/inter-OFL.txt",
+      "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57",
+      "rights_state": "licensed",
+      "license": "SIL Open Font License 1.1",
+      "rights_basis": "Bundled upstream font and exact license supplied in original image pack.",
+      "license_path": "assets/fonts/inter-OFL.txt"
+    },
+    {
+      "path": "assets/images/manifest.json",
+      "sha256": "99a82b9746520a9fc26848575da051a1569a4b5a40dac6a8b1ec9739bb61774e",
+      "rights_state": "owned",
+      "rights_basis": "Owned derived editorial metadata; source locator and quotation exclusions recorded in projection."
+    },
+    {
+      "path": "copy/visual-briefs.json",
+      "sha256": "44416aede0d86aead2c19ba11d9e33db52cb5a2f80a0bb9e436a4b544e1c951c",
+      "rights_state": "owned",
+      "rights_basis": "Owned derived editorial metadata; source locator and quotation exclusions recorded in projection."
+    },
+    {
+      "path": "assets/videos/frames/P14-shot-01.png",
+      "sha256": "e02b378ada3b1468c862d295e57eabcb492ba23bca9949f349be0ee01089dac3",
+      "rights_state": "owned",
+      "rights_basis": "Original built-in generated fictional storyboard still; source manifest and prompt receipt retained. No real founder/client likeness.",
+      "source_manifest": "assets/videos/asset-manifest.json"
+    },
+    {
+      "path": "assets/videos/frames/P14-shot-02.png",
+      "sha256": "3da68b1464d7fa16668cf757dce5c7c84d2cb3f91625c6596f521699dcda98a4",
+      "rights_state": "owned",
+      "rights_basis": "Original built-in generated fictional storyboard still; source manifest and prompt receipt retained. No real founder/client likeness.",
+      "source_manifest": "assets/videos/asset-manifest.json"
+    },
+    {
+      "path": "assets/videos/frames/P14-shot-03.png",
+      "sha256": "13b06c6132ba7744ebda2acac86fdf2c98bb58901d5bf15b18aef2c99a0c27f4",
+      "rights_state": "owned",
+      "rights_basis": "Original built-in generated fictional storyboard still; source manifest and prompt receipt retained. No real founder/client likeness.",
+      "source_manifest": "assets/videos/asset-manifest.json"
+    },
+    {
+      "path": "assets/videos/frames/P14-shot-04.png",
+      "sha256": "5c76dcf8d231737b8667c52350bf3d521abdacdb1c4c088edf338c7ec665cebe",
+      "rights_state": "owned",
+      "rights_basis": "Original built-in generated fictional storyboard still; source manifest and prompt receipt retained. No real founder/client likeness.",
+      "source_manifest": "assets/videos/asset-manifest.json"
+    },
+    {
+      "path": "assets/videos/frames/P14-shot-05.png",
+      "sha256": "94a2199a17d5df83078e9eca4e36b8a1022a03d1049b0870a1a3d01076b7f18d",
+      "rights_state": "owned",
+      "rights_basis": "Original built-in generated fictional storyboard still; source manifest and prompt receipt retained. No real founder/client likeness.",
+      "source_manifest": "assets/videos/asset-manifest.json"
+    },
+    {
+      "path": "assets/videos/frames/P15-shot-01.png",
+      "sha256": "b867ced90953f510d4bb2aca03e375ec096aba72a494073634cd62ac71458572",
+      "rights_state": "owned",
+      "rights_basis": "Original built-in generated fictional storyboard still; source manifest and prompt receipt retained. No real founder/client likeness.",
+      "source_manifest": "assets/videos/asset-manifest.json"
+    },
+    {
+      "path": "assets/videos/frames/P15-shot-02.png",
+      "sha256": "cde2d6e21f48ae36985036a23df37319fce3db0cf52b7dd48843f9814bb4ff23",
+      "rights_state": "owned",
+      "rights_basis": "Original built-in generated fictional storyboard still; source manifest and prompt receipt retained. No real founder/client likeness.",
+      "source_manifest": "assets/videos/asset-manifest.json"
+    },
+    {
+      "path": "assets/videos/frames/P15-shot-03.png",
+      "sha256": "d49d3d7182844f117b61adc6c1711ef0e299eafaa01407149cdf82ac0d01bc60",
+      "rights_state": "owned",
+      "rights_basis": "Original built-in generated fictional storyboard still; source manifest and prompt receipt retained. No real founder/client likeness.",
+      "source_manifest": "assets/videos/asset-manifest.json"
+    },
+    {
+      "path": "assets/videos/frames/P15-shot-04.png",
+      "sha256": "93307ff81d24178df1d945e818dbe10449569391c610bfae8129305c77fdd3ba",
+      "rights_state": "owned",
+      "rights_basis": "Original built-in generated fictional storyboard still; source manifest and prompt receipt retained. No real founder/client likeness.",
+      "source_manifest": "assets/videos/asset-manifest.json"
+    },
+    {
+      "path": "assets/videos/frames/P15-shot-05.png",
+      "sha256": "3683d87a81650a11804d9f70b2fa76d8a1db17e98e5725266870bb50dacfdb1a",
+      "rights_state": "owned",
+      "rights_basis": "Original built-in generated fictional storyboard still; source manifest and prompt receipt retained. No real founder/client likeness.",
+      "source_manifest": "assets/videos/asset-manifest.json"
+    },
+    {
+      "path": "assets/videos/asset-manifest.json",
+      "sha256": "cf5901c28ecf0736f4db06d9396092ad18d115b9314f6248aeb3673b6beda3cd",
+      "rights_state": "owned",
+      "rights_basis": "Owned derived editorial metadata; source locator and quotation exclusions recorded in projection."
+    },
+    {
+      "path": "videos/generation-prompts.json",
+      "sha256": "0c36113a801e75d7b106fa45c6d8258d974a5d1342d3bdab3b3da51f0530bbf9",
+      "rights_state": "owned",
+      "rights_basis": "Owned derived editorial metadata; source locator and quotation exclusions recorded in projection."
+    },
+    {
+      "path": "videos/scripts/P14.json",
+      "sha256": "80538f3588e162bf1c9eeb831359d92f2daa0c98db2b6076481a122912e71990",
+      "rights_state": "owned",
+      "rights_basis": "Owned derived editorial metadata; source locator and quotation exclusions recorded in projection."
+    },
+    {
+      "path": "videos/scripts/P15.json",
+      "sha256": "7faab55fc1ceba530dfa0ef05165f6440de8e6c5359e3a3581af8d555a8165db",
+      "rights_state": "owned",
+      "rights_basis": "Owned derived editorial metadata; source locator and quotation exclusions recorded in projection."
+    },
+    {
+      "path": "assets/videos/previews/P14-storyboard.mp4",
+      "sha256": "62acb865371a49f54cb5d44e9300511c2ff8f4f8d91349753fa4952c141a1847",
+      "rights_state": "owned",
+      "rights_basis": "Silent deterministic animatic made from five owned generated stills. No third-party audio or recorded footage.",
+      "source_manifest": "assets/videos/previews/manifest.json"
+    },
+    {
+      "path": "assets/videos/previews/P15-storyboard.mp4",
+      "sha256": "8edb4fa81154e15400f0b63f533fdcaad889db60fdb17fe8dd128e9617a61530",
+      "rights_state": "owned",
+      "rights_basis": "Silent deterministic animatic made from five owned generated stills. No third-party audio or recorded footage.",
+      "source_manifest": "assets/videos/previews/manifest.json"
+    },
+    {
+      "path": "assets/videos/previews/manifest.json",
+      "sha256": "0d17499a6ddcce9484f8e490f9583f30a3e90ccf0b68176a14bc8fe7d0ebd8b0",
+      "rights_state": "owned",
+      "rights_basis": "Owned derived editorial metadata; source locator and quotation exclusions recorded in projection."
+    },
+    {
+      "path": "figma/FRAME-MAP.json",
+      "sha256": "d5db49be1509b56963f25c76530fcd49266e9a7155bcb30e423cb6685eaf4fc1",
+      "rights_state": "owned",
+      "rights_basis": "Owned derived editorial metadata; source locator and quotation exclusions recorded in projection."
+    },
+    {
+      "path": "qa/copy-review.json",
+      "sha256": "04a23335051acef5973f2b3c4f603f919652e56a70e655718d8e0201f9f1e6ca",
+      "rights_state": "owned",
+      "rights_basis": "Owned derived editorial metadata; source locator and quotation exclusions recorded in projection."
+    },
+    {
+      "path": "qa/export-verification.json",
+      "sha256": "0d115d2abf01f4dc319287a35565ef7e820ef08d88703bb93701673337fcda05",
+      "rights_state": "owned",
+      "rights_basis": "Owned derived editorial metadata; source locator and quotation exclusions recorded in projection."
+    }
+  ],
+  "checks": {
+    "status": "PASS",
+    "passed": 170,
+    "report": "qa/export-verification.json"
+  },
+  "exclusions": [
+    "Raw LinkedIn/source posts and transcripts",
+    "Private owner brief and founder-source samples",
+    "Operational logs and machine paths",
+    "Installed/global skills and harness settings",
+    "Superseded stills and render intermediates"
+  ],
+  "acceptance_limits": [
+    "Owner/proposed-author approval is pending.",
+    "P16/P19 research attribution and P20 team-capability statement require owner confirmation before social publication.",
+    "Two videos are silent generated storyboard animatics, not filmed/spoken videos.",
+    "Private source documents/founder samples and raw third-party research are excluded.",
+    "No new rendered browser review performed by this export worker; existing local editorial rendered checks are dated source evidence."
+  ],
+  "manifest_scope": "All package files except release-manifest.json itself; hashes identify bytes after portable metadata projection.",
+  "publication_authority": "owner_requested_current_source_git_sync",
+  "social_published": false
+}

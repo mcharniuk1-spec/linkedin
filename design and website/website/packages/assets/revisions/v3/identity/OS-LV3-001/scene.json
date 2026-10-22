@@ -1,0 +1,62 @@
+{
+  "id": "OS-LV3-001",
+  "name": "Open Interval",
+  "status": "original candidate; owner acceptance pending",
+  "shape": "three full-height continuously bowed substantial sheets",
+  "parameters": [
+    [
+      -0.793,
+      -0.03,
+      0.6,
+      0.05,
+      -0.035,
+      0.28500000000000003,
+      1.7919999999999998,
+      2.75
+    ],
+    [
+      0.0,
+      0,
+      0.05,
+      -0.85,
+      0.025,
+      0.42000000000000004,
+      1.708,
+      2.72
+    ],
+    [
+      0.8784,
+      0.12,
+      -0.6,
+      0.08,
+      -0.02,
+      0.21000000000000002,
+      1.8479999999999999,
+      2.77
+    ]
+  ],
+  "dimensions": "three full-height plates, true thickness0.06sceneunits",
+  "wordmark": {
+    "font": "brand-library/packages/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
+    "sha256": "0e094a7d3c7c4c25cf1310c4b30014f1dae9332220b1c2c88f4fa996f0b05053",
+    "license": "SIL OFL1.1",
+    "weight": 720,
+    "width": 100,
+    "out": "#162760",
+    "spoken": "#A9AFBA",
+    "edge": "#697383"
+  },
+  "source_ownership": "Original authored parametric curves. Owner reference for material/proportion only; no traced mesh/third-party symbol.",
+  "svg_role": "Vector face contours project the same source curved surfaces; material gradient is an authored vector approximation, not a photographic render.",
+  "geometry": {
+    "glb": "model.glb",
+    "source": "mesh-source.json",
+    "source_script": "run/design/identity-mesh.py",
+    "closed": true,
+    "parts": 3,
+    "vertices": 15990,
+    "triangles": 31968,
+    "each_silver_height": 2.7440033873215777,
+    "model_sha256": "a7f43cf33a6b62817e98e007ae1b7bbd3a6fddba1ae2296e35ea3581b6e9f155"
+  }
+}
