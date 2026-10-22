@@ -1,0 +1,65 @@
+{
+  "schema": "linkedin-transcript-qa/1",
+  "statement": "Mechanical checks only.",
+  "records": [
+    {
+      "post_id": "urn:li:activity:7000000000000000003",
+      "asset_id": "urn:li:activity:7000000000000000003:video:0",
+      "transcript_path": "transcripts/b3-asr.json",
+      "transcript_sha256": "a2ef57bcc3054966679bcac5a765c38f45219e3a7b99857771bd384ba5bb6fb0",
+      "source_video_sha256": "7a29794dcc958f3ee5b6f7eec7c27e6a96247eb7d4e1a346f08cfbcdf351bd0d",
+      "origin": "local_cached_whisper_ASR",
+      "flags": [
+        "timing_overrun",
+        "repeated_tail"
+      ],
+      "status": "flagged",
+      "details": {
+        "timing_overrun": {
+          "duration_seconds": 74.1,
+          "last_segment_end": 76.36,
+          "overrun_seconds": 2.26
+        },
+        "repeated_tail": {
+          "excerpt": "You"
+        }
+      },
+      "audio_verified": false,
+      "accuracy_verified": false,
+      "alternative": {
+        "path": "transcripts/alternatives/b3-alt.json",
+        "sha256": "980b11828b1b87722587ec9846132769a37111e5dcecd324bfedb4f52e303614",
+        "review_status": "alternative_decode_unreviewed",
+        "supersedes_original": false,
+        "adjudication": "none: neither transcript is declared correct; a human must review the audio",
+        "side_by_side": {
+          "original": {
+            "status": "flagged",
+            "text_chars": 56,
+            "segments": 2
+          },
+          "alternative": {
+            "status": "pass",
+            "text_chars": 50,
+            "segments": 1
+          }
+        }
+      }
+    },
+    {
+      "post_id": "urn:li:activity:7100000000000000002",
+      "asset_id": "urn:li:activity:7100000000000000002:video:0",
+      "transcript_path": "transcripts/n2-1111.json",
+      "transcript_sha256": "c6413e76ee3fb067aaf3d98d875ea051acb2d451ea59fbb4219a7d5927173397",
+      "source_video_sha256": "681521bf4f38646258c33ff2d065664f5fe64c4246da557c7c6181e217d62c91",
+      "origin": "local_whisper_ASR",
+      "flags": [],
+      "status": "pass",
+      "details": {},
+      "audio_verified": false,
+      "accuracy_verified": false,
+      "alternative": null
+    }
+  ],
+  "gap_records": []
+}

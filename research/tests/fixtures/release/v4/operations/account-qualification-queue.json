@@ -1,0 +1,28 @@
+[
+  {
+    "post_id": "urn:li:activity:7100000000000000003",
+    "url": "https://www.linkedin.com/posts/erin-held-text-activity-7100000000000000003-AbCd",
+    "author": {
+      "name": "Erin Held",
+      "url": "https://www.linkedin.com/in/erin-held",
+      "type": "Person",
+      "followers": 1000
+    },
+    "published_at": "2026-10-19T09:00:00.000Z",
+    "status": "awaiting_reference_account_qualification",
+    "media_downloaded": false,
+    "required": "supervisor confirms public B2B role/topic relevance before watchlist and media collection"
+  },
+  {
+    "post_id": "urn:li:activity:7100000000000000999",
+    "url": "https://www.linkedin.com/posts/frank-held-queued-activity-7100000000000000999-AbCd",
+    "author": {
+      "name": "Frank Held",
+      "url": "https://www.linkedin.com/in/frank-held"
+    },
+    "published_at": "2026-10-10T09:00:00.000Z",
+    "status": "awaiting_reference_account_qualification",
+    "media_downloaded": false,
+    "required": "supervisor confirms public B2B role/topic relevance before watchlist and media collection"
+  }
+]

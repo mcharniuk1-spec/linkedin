@@ -1,0 +1,534 @@
+{
+  "schema": "linkedin-company-source-index/1",
+  "source_observed_date": "2026-10-22",
+  "sources": [
+    {
+      "id": "aindo-funding",
+      "url": "https://www.aindo.com/it/news/fundinga/",
+      "captured_at": "2026-10-22T08:43:47.563578+00:00",
+      "http_status": 200,
+      "response_sha256": "23510a9aee522a5e14b5548d60ddb94b249d5738469824c7015a647df469d6a8",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "575c5afb612b820cf0de18093674d0c784cb4793350b1e98117343fb6254b384",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "aindo-linkedin",
+      "url": "https://www.linkedin.com/company/aindo",
+      "captured_at": "2026-10-22T08:43:47.563484+00:00",
+      "http_status": 200,
+      "response_sha256": "a89295d80950c84dddb36f2a04ca435fbd595733b07471d2c578e8b6a0c47f02",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "7f0d1c69b463c69aad96f321fc77ca50a565b16f5296e0947c8d03f437f28832",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "aindo-official",
+      "url": "https://www.aindo.com/about",
+      "captured_at": "2026-10-22T08:43:47.563150+00:00",
+      "http_status": 200,
+      "response_sha256": "6875b88ca109e235ccb366f65c16bd9738fb2f96f844b3443dc9b705779885c1",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "c20ae69e5bdb576be02e73487186e4f7d925ae8cb0acbba3c31aa79ffc4e2170",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "askui-funding-search",
+      "url": "https://www.ypog.law/hubfs/YPOG%20advises%20Eurazeo%20on%20investment%20in%20askui.pdf",
+      "captured_at": "2026-10-22T08:48:53.120776+00:00",
+      "response_sha256": null,
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "8d2d3a80c69e779d056ca682dd91c25e3d019e32227a799ebceebcca88543ff3",
+      "evidence_scope": "Minimal company/funding facts from actual public web-tool result; no employee/contact/post data"
+    },
+    {
+      "id": "askui-linkedin",
+      "url": "https://www.linkedin.com/company/askui",
+      "captured_at": "2026-10-22T08:39:41.191500+00:00",
+      "http_status": 200,
+      "response_sha256": "974e718bc109d150afeb586b38cbf20e46783523be12b2eff1dff7853900add0",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "d207b8dcedb7f31d06369c0797b997895fb6a26b9fe6718819a9697915b95d3a",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "askui-official",
+      "url": "https://www.askui.com/about",
+      "captured_at": "2026-10-22T08:37:57.571793+00:00",
+      "http_status": 200,
+      "response_sha256": "065df7a6b967c810534291d8f1a341785fb42e09e2495c15342bb1b7781da570",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "5c3da9f6207a394a66761a227ec6305932136f79a649ea6e7d5c87c68fc574f5",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "embeddable-home",
+      "url": "https://embeddable.com/",
+      "captured_at": "2026-10-22T08:45:01.334018+00:00",
+      "http_status": 200,
+      "response_sha256": "903d21a58eeebc583ac2029488e57fef87c482a9db8288926a13fd63521602ac",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "074c22d993d9e51cd9739d9c5cf00deec5764e09e8391d6d1d42522944ca0f70",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "embeddable-linkedin",
+      "url": "https://www.linkedin.com/company/embeddable-hq/",
+      "captured_at": "2026-10-22T08:39:42.139374+00:00",
+      "http_status": 200,
+      "response_sha256": "a3371d78451865764dedc4fbab06751d3227a77385b003dd91e98dc2a575b49f",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "7e0561263a8c5e27582e769f4f55b22d61360e6b3475fb6c0442f88407af9eeb",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "embeddable-official",
+      "url": "https://embeddable.com/blog/embeddable-secures-6m-euro-seed-funding-led-by-openocean",
+      "captured_at": "2026-10-22T08:37:57.922360+00:00",
+      "http_status": 200,
+      "response_sha256": "3927ee045012115acfe9e76690d290f643d4b57685e47e6713f6f068f7ab9508",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "1b3358d99072f6c032af947c19914f92427a0de1040bee92b5d6b401c2ce10de",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "flowla-linkedin",
+      "url": "https://www.linkedin.com/company/flowlacom/",
+      "captured_at": "2026-10-22T08:39:41.191448+00:00",
+      "http_status": 200,
+      "response_sha256": "4b95d54a63320ecc15875c95c2f0789d00c08924acc8e18348f14b51729ec5dc",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "9d92ea9f9fb6cc42085e1004df123bd1348b43693bd80bd6f8370b1962bb3f71",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "flowla-official",
+      "url": "https://www.flowla.com/blog/flowla-raises-2-5m-to-build-the-customer-layer-of-the-modern-revenue-stack",
+      "captured_at": "2026-10-22T08:37:57.319057+00:00",
+      "http_status": 200,
+      "response_sha256": "70f177b8c2c7917da5be8670cc2a0f28c1bb59eacfc95ad5a97c40369e93bef1",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "b656c713955f7661de3b57b65fc3a1b3e9cc0f14bf73ba5e99d0d70b6038d7a7",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "gradient-linkedin",
+      "url": "https://uk.linkedin.com/company/gradientlabs",
+      "captured_at": "2026-10-22T08:39:41.191373+00:00",
+      "http_status": 200,
+      "response_sha256": "9314322e439ce7df9540499a3fb9d8aec59acf94fa6d0d26e4863a1a2aeba648",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "9e091e3156961bea5e54956da39bdb32fb4ef5dd57f0db22977fea5e49171e3f",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "gradient-official",
+      "url": "https://gradient-labs.ai/blog/weve-raised-26m-to-bring-autonomous-customer-operations-to-financial-services",
+      "captured_at": "2026-10-22T08:37:57.284472+00:00",
+      "http_status": 200,
+      "response_sha256": "0f27796ec828ad6aa37d4f9887d1175e71c2c30c22810db2c5fd6962d2a90ca0",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "91bd4c9120d86af669e77c9b818d7d744ff2c4af5592b54d036cc4846a935a89",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "kaizo-linkedin",
+      "url": "https://www.linkedin.com/company/kaizohq",
+      "captured_at": "2026-10-22T08:41:45.588318+00:00",
+      "http_status": 200,
+      "response_sha256": "eee632b33dde28cb725e0bf485b6c57ab4f5d0f1a92256c690319150236878f4",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "fa05117785f6aafafaf70bd66e15f9f9d0b1b0aa8f2bee3e8a2db83e5086595d",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "kaizo-official",
+      "url": "https://www.kaizo.com/",
+      "captured_at": "2026-10-22T08:41:45.585356+00:00",
+      "http_status": 200,
+      "response_sha256": "3577cf5c365050b69a7b2992bac6a62f1b37200b802ef3f218bdd32adc3c1467",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "de7b8689b03083103a3b1873b7cf148722075758b7f89f5e3f235699f195d9a8",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "langwatch-funding",
+      "url": "https://langwatch.ai/blog/langwatch-ai-announcing-1m-funding-round-to-bring-the-power-of-evaluations-to-ai-teams",
+      "captured_at": "2026-10-22T08:39:43.656078+00:00",
+      "http_status": 200,
+      "response_sha256": "62f2a58199575c2967b2dad6ad732c1710fb3830741a97e07e7ae0c824cc3fc3",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "a0d74fa645b1cea2c8055d583a49d435f7984ecb3e897f6521158dd32fb101f1",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "langwatch-linkedin",
+      "url": "https://www.linkedin.com/company/langwatch",
+      "captured_at": "2026-10-22T08:39:42.218671+00:00",
+      "http_status": 200,
+      "response_sha256": "b6d0260c16e75172027eb65fd5fece3579dc398415fb40e11cc1d0a232853550",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "3fe61caee9b5901abb36072bb7b9bafd1bb7fd799dd0d656a508be9ae9a07e67",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "langwatch-official",
+      "url": "https://langwatch.ai/",
+      "captured_at": "2026-10-22T08:37:58.085931+00:00",
+      "http_status": 200,
+      "response_sha256": "d1356b119ef68e4461feac6cc5df4d5659d49e77aa9f76db5effdc0f1dcce1a2",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "b30041429497f9ac9840f2afaaa1eae0eddb1a6ce655e494372ae99d0151cc00",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "malted-investor",
+      "url": "https://hoxtonventures.com/portfolio/malted-ai/",
+      "captured_at": "2026-10-22T08:41:45.494808+00:00",
+      "http_status": 200,
+      "response_sha256": "b47d0e1e9a80b7b46dcf4916fc9901e1076169743c7d0a226a0d7013b76793c4",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "ee0ec8dc0a62999aefc5d12f6859d8d4f0481f22657fb57c14870deb931d7a31",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "malted-linkedin",
+      "url": "https://uk.linkedin.com/company/malted",
+      "captured_at": "2026-10-22T08:41:45.494769+00:00",
+      "http_status": 200,
+      "response_sha256": "a9998a09ee7ef3450fc21201f9829ba6be0a160a28c50aa9b62287ad8dbfb459",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "25e7e8c5e21cc8b78fbe95409349a89e89fddabac8a144626413152a45541c0b",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "malted-official",
+      "url": "https://malted.ai/",
+      "captured_at": "2026-10-22T08:41:45.494724+00:00",
+      "http_status": 200,
+      "response_sha256": "364394bf28d6be9f56e72b47d6f5059a386769952ef977acba63ae3e4c6dda87",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "dc9867efac21a3626e1212800c8d0f69a91680ef80505f6e9d2559dc946eebe7",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "malted-stage-search",
+      "url": "https://www.caplight.com/company/malted-ai",
+      "captured_at": "2026-10-22T08:48:53.120776+00:00",
+      "response_sha256": null,
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "8bdc2129983eae64bb8386a07cabf7adab8c8e105313868a2665bc28c309ae1b",
+      "evidence_scope": "Minimal company/funding facts from actual public web-tool result; no employee/contact/post data"
+    },
+    {
+      "id": "orq-funding",
+      "url": "https://orq.ai/blog/orq-ai-raises-5m-to-close-the-ai-production-gap-for-enterprises",
+      "captured_at": "2026-10-22T08:39:43.655919+00:00",
+      "http_status": 200,
+      "response_sha256": "b9fdb08b3c4396af7341b0c247d7def7be6dec1318f4b09b72fbdc83efb36f73",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "ed138dcc3eb95825f17db2fea73f2e06e5bd624dc677f53e047500e71e775c9e",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "p01-linkedin",
+      "url": "https://www.linkedin.com/company/pruna-ai/",
+      "captured_at": "2026-10-22T08:37:54.287895+00:00",
+      "http_status": 200,
+      "response_sha256": "9f6c80491505d729b4eb4369ee86002ef2473e43d94037f888826728919c727e",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "4644a3fea4ea708abd168b6e2f37f56332bb74efea866d7b10eb152221e05670",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "p01-official",
+      "url": "https://www.pruna.ai/about",
+      "captured_at": "2026-10-22T08:37:54.288164+00:00",
+      "http_status": 200,
+      "response_sha256": "9760836781eb96ea2d5f55f2a4147843afd07a3c9795e102d8ce59afcc83ccbf",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "1da06557cc14e7789be58a48818ac684a30bcc08e521b4201706db6a5d504f44",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "p02-linkedin",
+      "url": "https://www.linkedin.com/company/lleverage-ai/",
+      "captured_at": "2026-10-22T08:37:54.288262+00:00",
+      "http_status": 200,
+      "response_sha256": "b283c401b84d545a58e0a26e152a3d502598f5593ab777c98a4ebdff9341ce35",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "fba474de56626a9b84d43c0b27fda192e426b6fa12cab5e3e9478539ca66c373",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "p02-official",
+      "url": "https://www.lleverage.ai/company/about",
+      "captured_at": "2026-10-22T08:37:54.288341+00:00",
+      "http_status": 200,
+      "response_sha256": "65b86be00c8a61de2b0a4361ffbe3ba4a945f75201aa3c063136853801b72201",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "8cd08e83f78fca8016558230c4d78b45050515d2f4ed575e4253077abcd551b9",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "p03-linkedin",
+      "url": "https://www.linkedin.com/company/orqai/",
+      "captured_at": "2026-10-22T08:37:54.288404+00:00",
+      "http_status": 200,
+      "response_sha256": "0bfc570fd06859c3ddd913235b251d79d56a7cbdcb04de5a80e620da38c1af1c",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "796bacd45488d65f58db2da5c3f3e93d32617572f9b1fa52f045fd52c329a843",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "p03-official",
+      "url": "https://orq.ai/press-releases",
+      "captured_at": "2026-10-22T08:37:54.288451+00:00",
+      "http_status": 200,
+      "response_sha256": "acacaea32e6060a9be33bcfbbdb7451fffc21b5860ec7a6acd90f77863b80342",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "3d2a297b9f89d8e164cfaa3a1388d889349d6fd30fe6a23c9af00bce7bcc42d5",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "p04-linkedin",
+      "url": "https://www.linkedin.com/company/giskard-ai/",
+      "captured_at": "2026-10-22T08:37:54.616048+00:00",
+      "http_status": 200,
+      "response_sha256": "bb4fbbd11f37c41efaaf48b9f4e2fd2c76ad0793ed801d759ccb1ec1137b7426",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "6d52fc06da20d26c7810a50f9c6ba1b804c532a1e26d9f00389eab9b0ce8747f",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "p04-official",
+      "url": "https://www.giskard.ai/about",
+      "captured_at": "2026-10-22T08:37:54.738860+00:00",
+      "http_status": 200,
+      "response_sha256": "bf51df5f036977c5350762b03294c000858fc79375c23df5db91123d036cca64",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "13593451648dc2bfafc163b3b48d8c3adf316a223d52ef13754c61b1dc969a1b",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "p05-linkedin",
+      "url": "https://www.linkedin.com/company/tesslio/",
+      "captured_at": "2026-10-22T08:37:54.996063+00:00",
+      "http_status": 200,
+      "response_sha256": "4a0796a90bc8f059904c00badef43824910debb6d63eb02d49d710862d3fec25",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "907eb0b996c8116486a5b178ac496b5e407c429f12a1b21e733fb822ece5c763",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "p05-official",
+      "url": "https://tessl.io/",
+      "captured_at": "2026-10-22T08:37:55.034043+00:00",
+      "http_status": 200,
+      "response_sha256": "51409aa93b24487f1ad9217a717a24acc02d2627840fcd508635b06356f9418c",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "0160eb5f03610e29ac9eb15b46cc080c94b3fbb5a0a05f69158ed0b7b9fafc75",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "p06-linkedin",
+      "url": "https://www.linkedin.com/company/rerun-io/",
+      "captured_at": "2026-10-22T08:37:55.607130+00:00",
+      "http_status": 200,
+      "response_sha256": "6813dfced972f0fb96dcc891f7d194d3eec617f3184ef114017b7b6d0fcc73e4",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "dd251e13463899b318b4bf3ee9125ab8d868269a8cc740a088ee86da7c628bf3",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "p06-official",
+      "url": "https://rerun.io/",
+      "captured_at": "2026-10-22T08:37:55.609297+00:00",
+      "http_status": 200,
+      "response_sha256": "b7eb9b00e427d7b0fd1ac2d5f9f7e82f397599cdc40a44e33cc0880c38f6c304",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "481c66ff981d86c76b9f5bcc0ea39a3da148d423fca30ac183513f48525ed3e1",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "p09-linkedin",
+      "url": "https://www.linkedin.com/company/lightdash/",
+      "captured_at": "2026-10-22T08:37:55.995229+00:00",
+      "http_status": 200,
+      "response_sha256": "8bd33ba0c10a3bba1f34d53f94e02de74d2f16c2a07c1be971a0c17d0f3608d4",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "ea1eae93ea62b12475a6acb5c6a2bb57a325104a850ed28b70680c1eb263df7a",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "p09-official",
+      "url": "https://www.lightdash.com/about",
+      "captured_at": "2026-10-22T08:37:56.274018+00:00",
+      "http_status": 200,
+      "response_sha256": "60c516db4192c9cedb1825dd3b80a6b40267f829d8d208f6acda8a128d3d335f",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "a76cc7d5a52201cfa5e4caa8f65c871e3d73a1252b64b69de1f86f9688900a1f",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "p11-linkedin",
+      "url": "https://www.linkedin.com/company/cogramai/",
+      "captured_at": "2026-10-22T08:37:56.788697+00:00",
+      "http_status": 200,
+      "response_sha256": "b75fb6655211c91c1f1cc6d3988fdc5f31fad4ea172927c5ba05cfa1243de972",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "3ea1996d7e15cf0ec5e144e9ac12d1fd65d98e6a8e42b6f1854ad3889cf5f91a",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "p11-official",
+      "url": "https://cogram.com/careers",
+      "captured_at": "2026-10-22T08:37:56.845889+00:00",
+      "http_status": 200,
+      "response_sha256": "f3ed7764af4ddeaeb779af1c941e971d7e843e3bdefd626e0b5dc925c3b2239f",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "59a68136fd320365607aef671445ce1abba6c9b3ad9ef5ee10e28658ba1a98c9",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "p12-linkedin",
+      "url": "https://www.linkedin.com/company/noota/",
+      "captured_at": "2026-10-22T08:37:56.883688+00:00",
+      "http_status": 200,
+      "response_sha256": "928d44d543cd252c10b059a24acf13360d78a62f42801c2914881218d2b07d63",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "79cbd0627c1a92e3a4947df34530b681178bde5504a9e56f18ea613dab993baa",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "p12-official",
+      "url": "https://www.noota.io/",
+      "captured_at": "2026-10-22T08:37:56.923253+00:00",
+      "http_status": 200,
+      "response_sha256": "a7e3fa39db33330634df2f96d5290f0e67ef8a1429ff365278cf7e74d8d24b60",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "d0f202a885370251c8c653d6e9d1b57e4ca6264b2cfa76ba17ec08039ad51a8d",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "pruna-funding-search",
+      "url": "https://www.pruna.ai/blog/pruna-ai-secures-6-5-million",
+      "captured_at": "2026-10-22T08:48:53.120776+00:00",
+      "response_sha256": null,
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "ded824a67cd6f3f1be9ee6aa734fbaebb19d87e4a71d79dafcc6e3287533b11c",
+      "evidence_scope": "Minimal company/funding facts from actual public web-tool result; no employee/contact/post data"
+    },
+    {
+      "id": "rerun-funding",
+      "url": "https://rerun.io/blog",
+      "captured_at": "2026-10-22T08:39:43.645964+00:00",
+      "http_status": 200,
+      "response_sha256": "c4ffc4ebe41294e16dd68e69d5035aa97eff5be34bdeb2ff5df684ce5dbf60be",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "5b59ea2c7c70b700238d3fbf50b56bb0597021bac2a58bad2a3cdabb56221036",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "tessl-funding",
+      "url": "https://www.prweb.com/releases/tessl-raises-125m-to-build-ai-native-software-development-302305976.html",
+      "captured_at": "2026-10-22T08:41:45.845308+00:00",
+      "http_status": 200,
+      "response_sha256": "12d723982a2733bca99a0b459c81aef2c14eb6e390cb66f370c49dd30c5e16f7",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "8e0ccbc5cfabaaed8355a4153384b4145d6e3aeb24baae50c68f2314a17a2f7f",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "textcortex-about-current",
+      "url": "https://textcortex.com/about",
+      "captured_at": "2026-10-22T08:45:21.876703+00:00",
+      "http_status": 200,
+      "response_sha256": "cdd378aea45fa89852f7578ccd57b96eea37e7b1c6cdbde94b937faad106cdac",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "1b9a52d4e9ef28256022ec38eb764862a51a2ef5361c5bfd8f94559c06177e1d",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "textcortex-linkedin",
+      "url": "https://www.linkedin.com/company/textcortex-ai/",
+      "captured_at": "2026-10-22T08:45:21.876198+00:00",
+      "http_status": 200,
+      "response_sha256": "27e4f7db3326e5f0037e857cdcceefe732f6025781bad3e331fcbdbed368f4c1",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "7ceadae548d13d44d5cfb92fad05ddc54867c11af8f4593b77da06192ed30268",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "textcortex-official",
+      "url": "https://textcortex.com/",
+      "captured_at": "2026-10-22T08:45:01.333679+00:00",
+      "http_status": 200,
+      "response_sha256": "88e7103f33fe3982b7f7cbb20705f40ccd3e53fd43cd34dd3f718333541de1fd",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "c7cd90a15833e32350866e5cb997978084604f16071d14fb0b7dfa0818727472",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "trustfull-funding",
+      "url": "https://trustfull.com/blog/trustfull-closes-eu6m-round-led-by-seaya-ventures-and-elevator-ventures-to-drive-european-expansion",
+      "captured_at": "2026-10-22T08:45:01.334068+00:00",
+      "http_status": 200,
+      "response_sha256": "afbcfa223721826af89e90045face4e05358d915ce09ca32f72b294fe01f4f90",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "967c89ab594d76719c3721e6e1cd14329d7b31831b16ab5b8439d4e350e20b44",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "trustfull-linkedin",
+      "url": "https://www.linkedin.com/company/trustfull",
+      "captured_at": "2026-10-22T08:43:47.988894+00:00",
+      "http_status": 200,
+      "response_sha256": "fb9e655b461579212ea3dda4f2a163d89b62a6cf8c67a9138c3f52badcd62f12",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "b8cef9af786d8c65282a5077c4ab05d1a53325294240afb5842147d822040cd4",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "trustfull-official",
+      "url": "https://www.trustfull.com/",
+      "captured_at": "2026-10-22T08:43:47.563811+00:00",
+      "http_status": 200,
+      "response_sha256": "7619e45acfb935ad413a035b6a06b9954169f482758e64b3654e74de675313c8",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "31f3d73e145d4d57e303955c183d2c0542e22ee69b415b7e45b8e14976bd7257",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "zeta-linkedin",
+      "url": "https://www.linkedin.com/company/zeta-alpha-vector",
+      "captured_at": "2026-10-22T08:43:47.563735+00:00",
+      "http_status": 200,
+      "response_sha256": "eed53011280740ccb03c16e80019130d50282a7916d9fa7652a3933a5c565e2a",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "58e5b1a993f50b668c1e0884c2af54760d14347c918edee625c25bb6d5a5cae1",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "zeta-official",
+      "url": "https://www.zeta-alpha.com/about",
+      "captured_at": "2026-10-22T08:43:47.563657+00:00",
+      "http_status": 200,
+      "response_sha256": "8ba661295754a77f099a57fea0b580e7af2bfa0e6e00b281b64fbb306430ad3b",
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "1da05b6634d1734ebe0a99a99247b5265ba4d9fa403774632b8b3e843d3331b2",
+      "evidence_scope": "Company About/general website text only; no employee lists, contact details or LinkedIn post bodies retained"
+    },
+    {
+      "id": "zeta-stage-search",
+      "url": "https://app.dealroom.co/companies/zeta_alpha_vector",
+      "captured_at": "2026-10-22T08:48:53.120776+00:00",
+      "response_sha256": null,
+      "status": "captured_company_excerpt",
+      "evidence_sha256": "fbdd42c8c5f89fb9ebe8a1e6bebb4b4f20689bd46a452691b5cc490e89c2f412",
+      "evidence_scope": "Minimal company/funding facts from actual public web-tool result; no employee/contact/post data"
+    }
+  ],
+  "unresolved_source_ids": [],
+  "scope": "Company-level public locators and source hashes only; source excerpts/contact/post/media bytes remain local. Capture status is not claim validation."
+}

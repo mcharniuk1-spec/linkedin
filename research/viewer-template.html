@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LinkedIn research — references and target audience</title>
+<style>
+body{font:16px/1.55 system-ui,sans-serif;background:#f5f7fa;color:#162334;max-width:1250px;margin:28px auto;padding:0 20px}
+h1{font-size:30px;line-height:1.2}h2{font-size:23px}h3{font-size:18px;margin:12px 0}
+button,select,input{font:inherit;padding:9px 12px;border:1px solid #b9c4d2;border-radius:7px;background:white;margin:4px}
+button{cursor:pointer}button[aria-selected=true]{background:#183859;color:white}
+article,.notice,section.panel{background:white;border:1px solid #d9e0e8;border-radius:12px;padding:20px;margin:18px 0}
+.notice{border-left:5px solid #426c96}
+a{color:#125d9e}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:15px/1.6 system-ui}
+small,.muted{color:#526274}
+.badge{display:inline-block;padding:2px 9px;border-radius:20px;background:#e8eef5;font-size:13px;margin-right:4px}
+.badge.held{background:#fff2d6}.badge.flag{background:#fde4e1}
+.warning{background:#fff2d6;padding:10px;border-radius:7px}
+.velocity{margin:10px 0;padding:8px 12px;border-left:4px solid #426c96;background:#eef3f8;border-radius:0 7px 7px 0}
+.velocity.off{border-left-color:#c9a227;background:#fff8e6}
+.media{border-top:1px solid #e1e6ed;margin-top:18px;padding-top:15px}
+.media img{max-width:100%;max-height:480px;display:block;margin:12px 0}
+.media video{max-width:100%;max-height:510px;display:block}
+details{margin:10px 0}summary{cursor:pointer;font-weight:600}
+dl{margin:8px 0}dt{font-weight:600;margin-top:10px}dd{margin-left:0;white-space:pre-wrap}
+nav{position:sticky;top:0;background:#f5f7faf2;backdrop-filter:blur(8px);padding:10px 0;z-index:2}
+.filters{display:flex;flex-wrap:wrap;align-items:center}.filters label{margin-right:8px}
+[hidden]{display:none!important}
+.links a{margin-right:15px}
+table{border-collapse:collapse;width:100%;font-size:14px;margin:8px 0}
+th,td{border:1px solid #d9e0e8;padding:5px 8px;text-align:left;vertical-align:top}th{background:#eef3f8}
+.tablewrap{overflow-x:auto}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.cols>div{min-width:0;border:1px solid #d9e0e8;border-radius:8px;padding:10px}
+.flags li{margin:2px 0}
+footer{margin:40px 0;font-size:14px;color:#526274}
+@media(max-width:700px){.cols{grid-template-columns:1fr}}
+@media(max-width:600px){body{padding:0 12px}article,section.panel{padding:15px}.filters label{display:block;width:100%}input,select{max-width:95%}h1{font-size:25px}}
+</style>
+</head>
+<body>
+<h1>LinkedIn research cycle</h1>
+<p id="totals"></p>
+<div class="links" id="links"></div>
+<aside class="notice" id="notice"></aside>
+<nav role="tablist" aria-label="Dataset view">
+<button id="ref-tab" role="tab" aria-selected="true" aria-controls="reference-pane">Reference publications</button>
+<button id="analysis-tab" role="tab" aria-selected="false" aria-controls="analysis-pane">Qualification table</button>
+<button id="target-tab" role="tab" aria-selected="false" aria-controls="target-pane">Target audience</button>
+</nav>
+<noscript><p class="warning">This page needs JavaScript to render the embedded dataset.</p></noscript>
+<section id="reference-pane" role="tabpanel">
+<section class="panel" id="cohort-section" aria-labelledby="cohort-heading">
+<h2 id="cohort-heading">Observed-velocity cohorts</h2>
+<p class="muted" id="cohort-note"></p>
+<div class="tablewrap" id="cohort-table"></div>
+</section>
+<details class="panel" id="held-section" hidden><summary id="held-summary"></summary><div class="tablewrap" id="held-table"></div></details>
+<div class="filters">
+<label>Collection <select id="collection"></select></label>
+<label>Account <select id="author"><option value="">All accounts</option></select></label>
+<label>Media <select id="media-filter"><option value="">All</option><option value="video">Video</option><option value="image">Image</option><option value="document_preview">Document previews</option></select></label>
+<label>Age <select id="age-filter"><option value="">Any date</option><option value="90">Within 90 days</option><option value="180">Within 180 days</option></select></label>
+<label>Velocity <select id="velocity-filter"><option value="">Any</option><option value="eligible">Observed change computed</option><option value="ineligible">Not computed (see reason)</option><option value="none">No velocity record</option></select></label>
+<label>Attention <select id="attention-filter"><option value="">None</option><option value="held">Held author</option><option value="gaps">Media or transcript gap</option><option value="qaflag">Transcript QA flag</option><option value="reobserved">Re-observed (2+ snapshots)</option></select></label>
+<label>Search <input id="post-search" placeholder="Post text or author"></label>
+</div>
+<p id="post-count"></p>
+<main id="post-list"></main>
+</section>
+<section id="analysis-pane" role="tabpanel" hidden>
+<h2>Content categories and qualification</h2>
+<p>Content meaning, creative value and measured performance are separate. Read the reason before using a label. Source claims remain claims; creative mechanisms are hypotheses. <a href="methodology/CATEGORY-GUIDE.md">Practical category guide</a> · <a href="methodology/SEARCH-AND-QUALIFICATION.md">Search and ranking method</a> · <a href="data/qualification-table.csv">Download qualification table</a></p>
+<div class="filters"><label>Topic <select id="analysis-topic"><option value="">All topics</option></select></label><label>Reference value <select id="analysis-value"><option value="">All</option><option value="core">Core</option><option value="adjacent">Adjacent</option><option value="hold">Hold</option><option value="exclude">Exclude</option></select></label><label>Performance <select id="analysis-performance"><option value="">All</option><option value="strong_sample_reference">Strong within sample</option><option value="ordinary_sample_reference">Ordinary within sample</option><option value="insufficient_comparable_sample">Insufficient comparison</option></select></label><label>Find <input id="analysis-search" placeholder="Topic, idea, author or lesson"></label></div>
+<p id="analysis-count"></p><div id="analysis-table" class="tablewrap"></div>
+<details><summary>Reference-account qualification decisions</summary><div id="author-decisions" class="tablewrap"></div></details>
+</section>
+<section id="target-pane" role="tabpanel" hidden>
+<h2>Target audience — company summaries</h2>
+<p id="target-note"></p>
+<div class="filters">
+<label>Qualification <select id="fit-filter"></select></label>
+<label>Search <input id="company-search" placeholder="Company, country or product"></label>
+</div>
+<p id="company-count"></p>
+<main id="company-list"></main>
+</section>
+<footer>Capture dates and publication dates are separate. Unknown public statistics remain unknown, never zero. Internal reference use only; media reuse rights are not established. Original source/transcript output and source conflicts are retained; an alternative transcript decode never replaces the original.</footer>
+<script id="dataset" type="application/json">__DATASET__</script>
+<script>
+const D=JSON.parse(document.getElementById('dataset').textContent),el=id=>document.getElementById(id);
+const E=x=>String(x??'unknown').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const SAFE=new RegExp(D.meta.safe_path_pattern);
+const url=u=>/^https:\/\//.test(u||'')?E(u):'#',local=p=>SAFE.test(p||'')?E(p):'#';
+const isNum=v=>typeof v==='number'&&Number.isFinite(v);
+const N=v=>isNum(v)?String(v):'unknown',F=(v,d)=>isNum(v)?v.toFixed(d):'unknown',S=v=>isNum(v)?(v>0?'+':v<0?'-':'')+Math.abs(v):'unknown';
+const W=x=>E(String(x??'unknown').replaceAll('_',' '));
+const by=(arr,key)=>{const m=new Map();for(const x of arr){const k=x[key];if(!m.has(k))m.set(k,[]);m.get(k).push(x)}return m};
+const S0=D.summary,M=D.meta;
+const reviews=new Map([...D.visual_reviews,...D.video_reviews].map(x=>[x.asset_id,x])),trans=new Map(D.transcripts.map(x=>[x.asset_id,x])),qual=new Map(D.qualification.map(x=>[x.post_id,x])),
+qaBy=new Map(D.transcript_qa.map(x=>[x.asset_id,x])),mgap=new Map(D.media_gaps.map(x=>[x.asset_id,x])),tgap=new Map(D.transcript_gaps.map(x=>[x.asset_id,x])),
+snaps=by(D.snapshots,'post_id'),velo=new Map(D.velocity.map(x=>[x.post_id,x])),cohorts=new Map(D.cohorts.map(x=>[x.cohort,x])),assetsBy=by(D.assets,'post_id'),
+heldPost=new Map(D.held_authors.flatMap(h=>h.post_ids.map(p=>[p,h])));
+const MEDIA=['image','video','document_preview'];
+const meanings=new Map((D.interpretations||[]).map(x=>[x.post_id,x])),performance=new Map((D.performance||[]).map(x=>[x.post_id,x]));
+function pretty(x){if(x===null||x===undefined)return '<p>Unknown.</p>';if(typeof x!=='object')return '<p>'+E(x)+'</p>';if(Array.isArray(x))return '<ul>'+x.map(v=>'<li>'+pretty(v)+'</li>').join('')+'</ul>';return '<dl>'+Object.entries(x).map(([k,v])=>'<dt>'+E(k.replaceAll('_',' '))+'</dt><dd>'+pretty(v)+'</dd>').join('')+'</dl>'}
+const sec=(title,x)=>x?(title?'<h3>'+E(title)+'</h3>':'')+pretty(x):'';
+
+/* ---- header, notice, links ---- */
+el('totals').textContent=`${S0.total_posts} posts across ${S0.total_accounts} accounts · ${S0.new_posts} new in ${M.cycle} · ${S0.snapshots} snapshots (${S0.posts_reobserved} posts re-observed) · ${S0.prospects} target-company summaries · as of ${M.as_of}`;
+const linkOk=h=>/^[A-Za-z0-9_.\/-]+$/.test(h||'')&&!h.includes('..')&&!h.startsWith('/');
+el('links').innerHTML=M.links.map(l=>`<a href="${linkOk(l.href)?E(l.href):'#'}">${E(l.label)}</a>`).join('');
+el('notice').innerHTML=`<strong>Read the evidence labels</strong><p>Fresh posts, strong historical examples and measured trends are different. Observed velocity is the change of a public reaction counter between two captured snapshots (at least ${E(M.min_velocity_span_hours)} h apart); it is not reach, impressions, engagement rate or a trend rank, and no sales-effectiveness claim is made. ${S0.velocity_eligible} of ${S0.velocity_rows} velocity rows are eligible in this release. Videos have sampled visual review and available transcripts; continuous playback and audio listening remain unverified. Unreviewed media and missing transcripts are listed as explicit gaps (${S0.media_gaps} media, ${S0.transcript_gaps} transcript). No recurring schedule or automatic supervisor wakeup is active.</p>`;
+
+/* ---- media, analysis and transcript dropdowns ---- */
+function altBlock(q,t){
+ const a=q.alternative;if(!a)return '';
+ const sbs=a.side_by_side;
+ return `<div class="cols"><div><h3>Original transcript (preserved)</h3><pre>${E(t?.text||'unknown')}</pre></div><div><h3>Alternative decode</h3><p class="badge flag">unreviewed alternative; original preserved</p><pre>${E(a.text||'unknown')}</pre></div></div><details><summary>Original versus alternative — mechanical comparison</summary>${pretty(sbs||'')}${sec('Adjudication',a.adjudication)}${sec('Decode parameters',a.decode_parameters)}<pre>${E(JSON.stringify({path:a.path,sha256:a.sha256,model_sha256:a.model_sha256,review_status:a.review_status,supersedes_original:a.supersedes_original,validation:a.validation},null,2))}</pre></details>`}
+function qaBlock(q){
+ if(!q)return '';
+ const fl=Array.isArray(q.flags)?q.flags:[];
+ return `<div class="qa"><p><span class="badge${fl.length?' flag':''}">QA ${W(q.status)}</span> ${fl.length?'Flags: '+fl.map(f=>'<span class="badge flag">'+W(f)+'</span>').join(' '):'No mechanical flag fired.'}</p>${fl.length?'<p class="muted">A flag means the transcript needs human audio review; it does not show the text is wrong.</p>':''}${q.details&&Object.keys(q.details).length?'<details><summary>QA details</summary>'+pretty(q.details)+'</details>':''}</div>`}
+function transcriptBlock(a,v){
+ const t=trans.get(a.asset_id),g=tgap.get(a.asset_id),q=qaBy.get(a.asset_id),vis=t?.onscreen_text_observed||v?.onscreen_text_observed;
+ const label=t?E(t.origin||'unavailable'):'gap';
+ const body=q?.alternative&&t?.text?altBlock(q,t):(t?.text?'<pre>'+E(t.text)+'</pre>':'<p>No speech transcript text is recorded for this file. No speech was fabricated.</p>'+(vis?pretty(vis):''));
+ return `<details class="media-transcript"><summary>Transcript — ${label}${q?' · QA '+W(q.status)+(q.flags?.length?' ('+q.flags.length+' flag'+(q.flags.length>1?'s':'')+')':''):''}</summary>${g?'<p class="warning">Gap: '+E(g.reason)+'</p>':''}${t?.timing_warning?'<p class="warning">'+E(t.timing_warning)+'</p>':''}${qaBlock(q)}${body}<p class="muted">Audio accuracy and continuous listening are unverified.</p>${t?.source_path?'<a href="'+local(t.source_path)+'">Original transcript record</a>':''}</details>`}
+function mediaCard(a){
+ const v=reviews.get(a.asset_id),g=mgap.get(a.asset_id),kind=a.kind==='video'?'Video':a.kind==='document_preview'?'Document preview':'Image',got=a.status==='acquired';
+ const poster=(assetsBy.get(a.post_id)||[]).find(x=>x.kind==='poster'&&x.asset_id===a.asset_id+':poster');
+ const el0=!got?`<p class="warning">File not acquired (status ${E(a.status)}).</p>`:a.kind==='video'?`<video controls preload="none" ${poster?.path?`poster="${local(poster.path)}"`:""} src="${local(a.path)}"></video>`:`<a href="${local(a.path)}"><img loading="lazy" src="${local(a.path)}" alt="${E(kind+' '+a.asset_id)}"></a>`;
+ const analysis=v?`<details class="media-analysis"><summary>${kind} analysis — story, structure and style</summary>${sec('',v.story_summary)}${sec('',v.description)}${sec('Visual description',v.visual_description)}${sec('Relationship to the post',v.relation_to_post_text)}${sec('Text or claim conflicts',v.contradictions)}${sec('',v.animation_supplement)}${sec('',v.onscreen_text_observed)}<h3>Review limits</h3>${pretty(v.caveats||v.limitations||v.interpretation_limit)}</details>`:`<details class="media-analysis" open><summary>${kind} analysis — not reviewed</summary><p class="warning">Not reviewed: ${E(g?.reason||'no analysis record at release time')}</p></details>`;
+ return `<div class="media" data-asset-id="${E(a.asset_id)}"><span class="badge">${kind}</span>${el0}${analysis}${a.kind==='video'?transcriptBlock(a,v):''}<details><summary>Media source and review receipt</summary><pre>${E(JSON.stringify({asset_id:a.asset_id,post_id:a.post_id,cycle:a.cycle,source_sha256:a.sha256,source_url:a.url,local_path:a.path,review_status:a.review_status,review_mode:v?.review_mode,full_watch:v?.full_watch,audio_review:v?.audio_review,rights:a.rights},null,2))}</pre></details></div>`}
+
+/* ---- snapshots and observed velocity ---- */
+const cell=m=>`<td title="${E(m?.status||'no value recorded')}">${isNum(m?.value)?m.value:'unknown'}</td>`;
+function snapTable(p){
+ const ss=snaps.get(p.id)||[],implicit=!ss.length;
+ const rows=implicit?[{captured_at:p.captured_at,capture_kind:'post record (no snapshot record attached)',metrics:p.metrics,source_run:p.cycle}]:ss;
+ const edited=new Set(ss.map(s=>s.text_sha256).filter(Boolean)).size>1,dates=new Set(ss.map(s=>s.published_at).filter(Boolean)).size>1;
+ return `<details class="snapshots"${ss.length>1?' open':''}><summary>Snapshot history — ${implicit?'no snapshot record (post capture shown)':ss.length+' snapshot'+(ss.length>1?'s':'')}</summary>${edited?'<p class="warning">Post text hash differs between snapshots; every capture is preserved.</p>':''}${dates?'<p class="warning">Publication date differs between snapshots; treat the date as conflicting.</p>':''}<div class="tablewrap"><table><thead><tr><th scope="col">captured_at</th><th scope="col">kind</th><th scope="col">reactions</th><th scope="col">comments</th><th scope="col">reposts</th><th scope="col">source</th></tr></thead><tbody>${rows.map(s=>`<tr><td>${E(s.captured_at)}</td><td>${W(s.capture_kind)}</td>${cell(s.metrics?.reactions)}${cell(s.metrics?.comments)}${cell(s.metrics?.reposts)}<td>${E(s.source_run)}${s.raw_sha256?' · '+E(s.raw_sha256.slice(0,10)):''}</td></tr>`).join('')}</tbody></table></div></details>`}
+const SCOPE='public counter, not reach/impressions/trend rank';
+function velocityLine(p){
+ const v=velo.get(p.id),n=(snaps.get(p.id)||[]).length;
+ if(!v)return `<p class="velocity off">Velocity: unknown — no velocity record for this post (${n>1?n+' snapshots attached':'single capture'}); ${SCOPE}.</p>`;
+ const co=v.cohort?cohorts.get(v.cohort):null;
+ const meta=`<br><small>Cohort ${E(v.cohort)}${co&&!co.ranked?' (cohort not ranked'+(isNum(co.n)&&isNum(co.min_n)&&co.n<co.min_n?': n &lt; min_n':'')+')':co?'':' (no cohort record)'} · media ${W(v.media_kind)} · age at first capture ${F(v.age_days_at_first_capture,1)} d · publication date ${W(v.publication_date_status)}</small>`;
+ if(v.eligible===true)return `<p class="velocity">Velocity: observed reaction change ${S(v.reaction_delta)} over ${F(v.span_hours,1)} h (${F(v.reactions_per_hour,2)}/h); ${SCOPE}.${isNum(v.comments_delta)?' Comments change '+S(v.comments_delta)+' in the same window.':''}${v.counter_decreased?' The reaction counter decreased between captures.':''}${meta}</p>`;
+ return `<p class="velocity off">Velocity: not computed — ${v.reason?W(v.reason):'reason not recorded'}. Window ${E(v.first_captured_at)} to ${E(v.last_captured_at)} (${F(v.span_hours,1)} h, ${N(v.snapshots??n)} snapshot${(v.snapshots??n)===1?'':'s'}); ${SCOPE}.${v.counter_decreased?' The reaction counter decreased between captures.':''}${meta}</p>`}
+
+/* ---- posts ---- */
+function postCard(p){
+ const q=qual.get(p.id),h=heldPost.get(p.id),as=(assetsBy.get(p.id)||[]).filter(x=>MEDIA.includes(x.kind));
+ const flagged=as.some(x=>qaBy.get(x.asset_id)?.flags?.length);
+ return `<article data-post-id="${E(p.id)}"><h2>${E(p.author.name)}</h2><p><span class="badge">${E(p.cycle)}</span><span class="badge">${W(q?.reference_class)}</span>${h?'<span class="badge held">held author — media not collected</span>':''}${flagged?'<span class="badge flag">transcript QA flag</span>':''}</p><small>Published ${E(p.published_at)} · Captured ${E(p.captured_at)}<br>At capture: reactions ${N(p.metrics.reactions?.value)} · comments ${N(p.metrics.comments?.value)} · reposts ${N(p.metrics.reposts?.value)} · <a href="${url(p.url)}">Original LinkedIn post</a></small>${qualificationCard(p)}${velocityLine(p)}<pre>${E(p.text)}</pre>${snapTable(p)}${as.map(mediaCard).join('')}<details><summary>Qualification and source evidence</summary>${pretty(q)}<pre>${E(JSON.stringify(p.source,null,2))}</pre></details></article>`}
+function attention(p,kind){
+ const as=assetsBy.get(p.id)||[];
+ if(kind==='held')return heldPost.has(p.id);
+ if(kind==='gaps')return as.some(a=>mgap.has(a.asset_id)||tgap.has(a.asset_id));
+ if(kind==='qaflag')return as.some(a=>qaBy.get(a.asset_id)?.flags?.length);
+ if(kind==='reobserved')return (snaps.get(p.id)||[]).length>1;
+ return true}
+function inScope(p,c){return c==='all'||(c==='new'&&p.collection==='new')||(c==='baseline'&&p.collection==='baseline')||p.cycle===c}
+function renderPosts(){
+ const c=el('collection').value||'all',a=el('author').value,m=el('media-filter').value,limit=Number(el('age-filter').value),vf=el('velocity-filter').value,af=el('attention-filter').value,s=(el('post-search').value||'').toLowerCase();
+ const ps=D.posts.filter(p=>inScope(p,c)&&(!a||p.author.name===a)&&(!m||(assetsBy.get(p.id)||[]).some(x=>x.kind===m))&&(!limit||(Number.isFinite(qual.get(p.id)?.age_days)&&qual.get(p.id).age_days>=0&&qual.get(p.id).age_days<=limit))&&(!vf||(vf==='none'?!velo.has(p.id):vf==='eligible'?velo.get(p.id)?.eligible===true:velo.has(p.id)&&velo.get(p.id).eligible!==true))&&(!af||attention(p,af))&&(!s||(p.id+' '+(p.author.name||'')+' '+p.text).toLowerCase().includes(s))).sort((x,y)=>(y.published_at||'').localeCompare(x.published_at||''));
+ el('post-count').textContent=`${ps.length} matching posts. Date filters use source publication dates, not search-result dates.`;
+ el('post-list').innerHTML=ps.map(postCard).join('')}
+
+/* ---- cohorts and held authors ---- */
+function renderCohorts(){
+ const rs=D.cohorts,reasons=Object.entries(S0.velocity_ineligible_reasons||{}).map(([k,n])=>`${n} ${E(k.replaceAll('_',' '))}`).join(', ');
+ el('cohort-note').innerHTML=`${S0.velocity_eligible} of ${S0.velocity_rows} velocity rows are eligible (two captures at least ${E(M.min_velocity_span_hours)} h apart).${reasons?' Not computed: '+reasons+'.':''} Cohorts compare observed reaction change per hour between similar posts; ${SCOPE}. A cohort below its minimum size is shown but not ranked.`;
+ el('cohort-table').innerHTML=rs.length?`<table><thead><tr><th scope="col">Cohort</th><th scope="col">n</th><th scope="col">min n</th><th scope="col">Median reactions/h</th><th scope="col">Ranking</th></tr></thead><tbody>${rs.map(c=>`<tr><td>${E(c.cohort)}</td><td>${N(c.n)}</td><td>${N(c.min_n)}</td><td>${F(c.median_reactions_per_hour,2)}</td><td>${c.ranked?'ranked':(isNum(c.n)&&isNum(c.min_n)&&c.n<c.min_n?'n &lt; min_n, not ranked':'not ranked')}</td></tr>`).join('')}</tbody></table>`:'<p>No cohort records in this release (the cohort file is empty or absent). Cohort size is unknown, so nothing is ranked.</p>'}
+function renderHeld(){
+ const h=D.held_authors;el('held-section').hidden=!h.length;if(!h.length)return;
+ el('held-summary').textContent=`Held new authors — ${h.length} author${h.length>1?'s':''}, ${S0.held_posts} post${S0.held_posts===1?'':'s'}: media is not collected until the account is qualified`;
+ el('held-table').innerHTML=`<table><thead><tr><th scope="col">Author</th><th scope="col">Status</th><th scope="col">Posts</th><th scope="col">Reason</th></tr></thead><tbody>${h.map(x=>`<tr><td>${x.author_url?`<a href="${url(x.author_url)}">${E(x.author_name)}</a>`:E(x.author_name)}</td><td>${W(x.status)}</td><td>${x.posts.map(q=>q.url?`<a href="${url(q.url)}">post</a>`:E(q.post_id)).join(', ')}</td><td>${E(x.reason)}</td></tr>`).join('')}</tbody></table>`}
+
+/* ---- target audience: description, links, qualification evidence only ---- */
+function renderCompanies(){
+ const fit=el('fit-filter').value,q=(el('company-search').value||'').toLowerCase(),ps=D.prospects.filter(p=>(!fit||(fit==='hold'?p.fit_status!=='observed_icp_fit':p.fit_status===fit))&&(!q||(p.name+' '+p.description+' '+JSON.stringify(p.country_and_base)).toLowerCase().includes(q)));
+ el('company-count').textContent=ps.length+' company summaries';
+ el('company-list').innerHTML=ps.map(p=>`<article><h2>${E(p.name)}</h2><span class="badge">${W(p.fit_status)}</span><p>${E(p.description)}</p><p><a href="${url(p.linkedin_url)}">LinkedIn company</a> · <a href="${url(p.website)}">Official website</a></p><p><strong>Base:</strong> ${E(p.country_and_base?.value)}<br><strong>Team:</strong> ${E(p.headcount?.value)} · company-reported band<br><strong>Funding:</strong> ${E(p.funding?.value)} · ${E(p.funding?.announcement_date)}<br><strong>Reviewed:</strong> ${E(p.reviewed_at)}</p><details><summary>Observed public presence</summary>${pretty(p.linkedin_presence)}</details><details><summary>Qualification gaps and source references</summary>${pretty(p.gaps)}${pretty({base:p.country_and_base,headcount:p.headcount,business:p.business,funding:p.funding,need:p.expressed_need,interest:p.buying_interest,next_step:p.next_step})}</details></article>`).join('')}
+function view(target){
+ el('reference-pane').hidden=target!=='references';el('target-pane').hidden=target!=='targets';el('analysis-pane').hidden=target!=='analysis';
+ el('analysis-tab').setAttribute('aria-selected',String(target==='analysis'));el('ref-tab').setAttribute('aria-selected',String(target==='references'));el('target-tab').setAttribute('aria-selected',String(target==='targets'));
+ if(target==='targets')renderCompanies();if(target==='analysis')renderAnalysis()}
+
+/* ---- setup ---- */
+const names=[...new Set(D.accounts.map(a=>a.name).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+el('author').innerHTML='<option value="">All accounts</option>'+names.map(n=>`<option value="${E(n)}">${E(n)}</option>`).join('');
+const earlier=M.cycles.filter(c=>!c.is_current),cur=M.cycles.find(c=>c.is_current);
+el('collection').innerHTML=`<option value="new">New in ${E(M.cycle)} (${cur?cur.posts:0})</option><option value="all">All ${D.posts.length} posts</option><option value="baseline">Earlier cycles (${D.posts.length-(cur?cur.posts:0)})</option>`+earlier.map(c=>`<option value="${E(c.id)}">Cycle ${E(c.id)} only (${c.posts})</option>`).join('');
+el('collection').value=S0.new_posts>0?'new':'all';
+const obs=D.prospects.filter(p=>p.fit_status==='observed_icp_fit').length;
+el('target-note').textContent=`${D.prospects.length} candidates: ${obs} have stronger observed ICP evidence; ${D.prospects.length-obs} have explicit holds. Known exclusions are kept outside this list. Need and buying interest remain unknown. This view contains no harvested prospect post histories, media or employee lists.`;
+el('fit-filter').innerHTML=`<option value="">All candidates</option><option value="observed_icp_fit">Observed fit — ${obs}</option><option value="hold">Evidence holds — ${D.prospects.length-obs}</option>`;
+el('ref-tab').onclick=()=>view('references');el('target-tab').onclick=()=>view('targets');
+for(const id of ['collection','author','media-filter','age-filter','velocity-filter','attention-filter','post-search'])el(id).addEventListener(id==='post-search'?'input':'change',renderPosts);
+for(const id of ['fit-filter','company-search'])el(id).addEventListener(id==='company-search'?'input':'change',renderCompanies);
+
+function qualificationCard(p){
+ const x=meanings.get(p.id),r=performance.get(p.id);if(!x&&!r)return '';
+ return `<details class="post-assessment"><summary>${W(x?.primary_topic||'Meaning not assessed')} · ${W(x?.reference_value||'unreviewed')} · ${W(r?.performance_status||'unassessed')}</summary>${x?'<p>'+E(x.content_summary)+'</p>'+pretty({editorial_job:x.editorial_job,intended_reader:x.intended_reader,hook_pattern:x.hook_pattern,central_claim:x.central_claim,qualification_reason:x.qualification_reason,media_role:x.media_role,media_evidence_basis:x.media_evidence_basis,claim_caveat:x.claim_caveat,adaptation_pattern:x.adaptation_pattern,variant_group_id:x.variant_group_id||'none',pattern_representative:x.pattern_representative}):'<p>Meaning has not been assessed.</p>'}${r?'<h3>Observed performance</h3><p>'+E(r.performance_reason)+'</p><p>'+E(r.trend_reason)+'</p><small>Metrics captured '+E(r.metric_captured_at)+' · '+E(r.scope)+'</small>':''}</details>`
+}
+function renderAnalysis(){
+ const topic=el('analysis-topic').value,val=el('analysis-value').value,pf=el('analysis-performance').value,q=el('analysis-search').value.toLowerCase();
+ const rows=D.posts.filter(p=>{const x=meanings.get(p.id),r=performance.get(p.id);return x&&(!topic||x.primary_topic===topic)&&(!val||x.reference_value===val)&&(!pf||r?.performance_status===pf)&&(!q||(p.author.name+' '+JSON.stringify(x)).toLowerCase().includes(q))}).sort((a,b)=>(b.published_at||'').localeCompare(a.published_at||''));
+ el('analysis-count').textContent=rows.length+' interpreted publications. Similar wording variants remain separate posts and share a pattern-family label.';
+ el('analysis-table').innerHTML='<table><thead><tr><th>Author / source</th><th>Category / job / reader</th><th>What to study and adapt</th><th>Media contribution and limits</th><th>Measured performance and trend</th></tr></thead><tbody>'+rows.map(p=>{const x=meanings.get(p.id),r=performance.get(p.id);return `<tr data-analysis-post="${E(p.id)}"><td><strong>${E(p.author.name)}</strong><p>${E(p.published_at||'date unknown')}</p><a href="${url(p.url)}">Original post</a><p><button class="open-record" data-open-post="${E(p.id)}">Open dataset record</button></p></td><td><span class="badge">${W(x.primary_topic)}</span><p>${W(x.editorial_job)}</p><p>${E(x.intended_reader)}</p><strong>${W(x.reference_value)}</strong><p>${E(x.qualification_reason)}</p></td><td><p>${E(x.content_summary)}</p><details><summary>Hook, claim and original adaptation</summary><p><strong>Hook:</strong> ${E(x.hook_pattern)}</p><p><strong>Claim:</strong> ${E(x.central_claim)}</p><p><strong>Adapt:</strong> ${E(x.adaptation_pattern)}</p><p><strong>Check first:</strong> ${E(x.claim_caveat)}</p>${x.variant_group_id?'<p class="warning">Similar-wording family '+E(x.variant_group_id)+'. '+(x.pattern_representative?'Selected representative for pattern synthesis.':'Variant: do not count as an independent content idea.')+'</p>':''}</details></td><td><p>${E(x.media_role)}</p><small>${W(x.media_evidence_basis)}</small></td><td><span class="badge">${W(r?.performance_status)}</span><p>${E(r?.performance_reason)}</p><p><strong>Trend:</strong> ${W(r?.trend_status)}</p><p>${E(r?.trend_reason)}</p><small>Latest observed reactions ${N(r?.reactions)} · comments ${N(r?.comments)} · captured ${E(r?.metric_captured_at)}</small></td></tr>`}).join('')+'</tbody></table>';
+ el('author-decisions').innerHTML='<table><thead><tr><th>Account</th><th>Decision</th><th>Evidence and scope</th></tr></thead><tbody>'+(D.author_decisions||[]).map(x=>`<tr><td><a href="${url(x.author_url)}">${E(x.author_name)}</a></td><td>${W(x.decision)}</td><td>${E(x.role_or_company_evidence)}<p>${E(x.reason)}</p><small>${E(x.caveat)}</small></td></tr>`).join('')+'</tbody></table>';
+}
+el('analysis-topic').innerHTML='<option value="">All topics</option>'+[...new Set((D.interpretations||[]).map(x=>x.primary_topic))].sort().map(t=>`<option value="${E(t)}">${W(t)}</option>`).join('');
+el('analysis-tab').onclick=()=>view('analysis');
+for(const id of ['analysis-topic','analysis-value','analysis-performance','analysis-search'])el(id).addEventListener(id==='analysis-search'?'input':'change',renderAnalysis);
+el('analysis-table').addEventListener('click',e=>{const b=e.target.closest('[data-open-post]');if(!b)return;for(const id of ['author','media-filter','age-filter','velocity-filter','attention-filter'])el(id).value='';el('collection').value='all';el('post-search').value=b.getAttribute('data-open-post');view('references');renderPosts();});
+
+renderCohorts();renderHeld();renderPosts();
+</script>
+</body>
+</html>

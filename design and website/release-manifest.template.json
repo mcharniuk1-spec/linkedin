@@ -1,0 +1,20 @@
+{
+  "schema": "outspoken-design-release/1",
+  "status": "awaiting_designer_finalization",
+  "release_id": null,
+  "source_revision": null,
+  "owner_acceptance": {
+    "status": "not_recorded",
+    "evidence": null
+  },
+  "copy_revision": null,
+  "canonical_sources": [],
+  "files": [],
+  "rights_ledger": [],
+  "checks": [],
+  "gaps": [
+    "Finalized designer source package and acceptance evidence not synchronized."
+  ],
+  "remote_commit": null,
+  "rollback": null
+}

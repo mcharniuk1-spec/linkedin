@@ -1,0 +1,350 @@
+[
+  {
+    "snapshot_id": "e553ff29b77a604ffd27a34d993a3e01a641e42efe46362652dbda62625f4969",
+    "post_id": "urn:li:activity:7000000000000000001",
+    "url": "https://www.linkedin.com/posts/alice-base-first-activity-7000000000000000001-AbCd",
+    "captured_at": "2026-10-20T10:00:00+00:00",
+    "capture_kind": "baseline_import",
+    "source_run": "v2",
+    "raw_sha256": "c4c75196fd06529a9ae6583a50113d0aaad5eba70eddfab8e712d2403596d53e",
+    "raw_path": "../v3/raw/b1.html",
+    "parser_version": "0.2.1",
+    "published_at": "2026-09-01T10:00:00.000Z",
+    "date_status": "verified_source_date",
+    "text_sha256": "e6188454a3b3829c9d9d87e7f347bd12ca80fa71813e9b8c77fd1976738dd09d",
+    "reobservation_flags": [],
+    "metrics": {
+      "reactions": {
+        "value": 100,
+        "status": "observed"
+      },
+      "comments": {
+        "value": 10,
+        "status": "observed"
+      },
+      "reposts": {
+        "value": null,
+        "status": "not_exposed"
+      }
+    }
+  },
+  {
+    "snapshot_id": "7da52b3e8b6f524902e7a49c72773cfd95fa5b302f8a9c3c3a2d28edcd25665b",
+    "post_id": "urn:li:activity:7000000000000000001",
+    "url": "https://www.linkedin.com/posts/alice-base-first-activity-7000000000000000001-AbCd",
+    "captured_at": "2026-10-21T12:30:00+00:00",
+    "capture_kind": "reobservation",
+    "source_run": "v4",
+    "raw_sha256": "6ee6e98a05990a7b887e9fe49548c5bc6cc381f052c67b0299d7dad2fd75c294",
+    "raw_path": "raw/objects/b1-re.html",
+    "parser_version": "0.2.1",
+    "published_at": "2026-09-01T10:00:00.000Z",
+    "date_status": "verified_source_date",
+    "text_sha256": "e6188454a3b3829c9d9d87e7f347bd12ca80fa71813e9b8c77fd1976738dd09d",
+    "reobservation_flags": [],
+    "metrics": {
+      "reactions": {
+        "value": 112,
+        "status": "observed"
+      },
+      "comments": {
+        "value": 12,
+        "status": "observed"
+      },
+      "reposts": {
+        "value": null,
+        "status": "not_exposed"
+      }
+    }
+  },
+  {
+    "snapshot_id": "11520bb390956a5e37f8a63094d74213e526715ed42c83a6c88d1019f0697c17",
+    "post_id": "urn:li:activity:7000000000000000002",
+    "url": "https://www.linkedin.com/posts/bob-base-image-activity-7000000000000000002-AbCd",
+    "captured_at": "2026-10-20T10:00:00+00:00",
+    "capture_kind": "baseline_import",
+    "source_run": "v2",
+    "raw_sha256": "1f5a3e4c47df9c222dc887e014daa66298b1b2b74b40f5f72db67cbaab244f3d",
+    "raw_path": "../v3/raw/b2.html",
+    "parser_version": "0.2.1",
+    "published_at": "2026-08-15T09:00:00.000Z",
+    "date_status": "verified_source_date",
+    "text_sha256": "9e5d272e9a41e0f90bfd3e5aa9769a5b6000bb1ece51871933eaf781e06fadf5",
+    "reobservation_flags": [],
+    "metrics": {
+      "reactions": {
+        "value": 50,
+        "status": "observed"
+      },
+      "comments": {
+        "value": 5,
+        "status": "observed"
+      },
+      "reposts": {
+        "value": null,
+        "status": "not_exposed"
+      }
+    }
+  },
+  {
+    "snapshot_id": "1be527a659c58e5e709e0b999cb58720bf80d50aebecee67e279110a27ec4616",
+    "post_id": "urn:li:activity:7000000000000000002",
+    "url": "https://www.linkedin.com/posts/bob-base-image-activity-7000000000000000002-AbCd",
+    "captured_at": "2026-10-20T13:00:00+00:00",
+    "capture_kind": "reobservation",
+    "source_run": "v4",
+    "raw_sha256": "5909256d7c7bca0caf8d2256b834c14b0d72ba0a946027b891cefcd236d546d1",
+    "raw_path": "raw/objects/b2-re.html",
+    "parser_version": "0.2.1",
+    "published_at": "2026-08-15T09:00:00.000Z",
+    "date_status": "verified_source_date",
+    "text_sha256": "9e5d272e9a41e0f90bfd3e5aa9769a5b6000bb1ece51871933eaf781e06fadf5",
+    "reobservation_flags": [],
+    "metrics": {
+      "reactions": {
+        "value": 52,
+        "status": "observed"
+      },
+      "comments": {
+        "value": 5,
+        "status": "observed"
+      },
+      "reposts": {
+        "value": null,
+        "status": "not_exposed"
+      }
+    }
+  },
+  {
+    "snapshot_id": "2b8f8274949e1710a7bda3d9f100237153fe77b9d54e9d7120ea01c1b787a709",
+    "post_id": "urn:li:activity:7000000000000000003",
+    "url": "https://www.linkedin.com/posts/alice-base-video-activity-7000000000000000003-AbCd",
+    "captured_at": "2026-10-22T08:00:00+00:00",
+    "capture_kind": "baseline_import",
+    "source_run": "v3",
+    "raw_sha256": "1ef6d4fbbb32b5fa02e0318893b402035449db1031c103e5755d45c22ca855a2",
+    "raw_path": "../v3/raw/b3.html",
+    "parser_version": "0.2.1",
+    "published_at": "2026-10-15T09:00:00.000Z",
+    "date_status": "verified_source_date",
+    "text_sha256": "0c37aba00b36fc4692a51644890b076aae4288c68397f4e85e8ed5003a05a06f",
+    "reobservation_flags": [],
+    "metrics": {
+      "reactions": {
+        "value": 200,
+        "status": "observed"
+      },
+      "comments": {
+        "value": 20,
+        "status": "observed"
+      },
+      "reposts": {
+        "value": null,
+        "status": "not_exposed"
+      }
+    }
+  },
+  {
+    "snapshot_id": "4626fea361d057dbe5b2441dd183ab7fb00d0fb297468449102d927dc7fbaa20",
+    "post_id": "urn:li:activity:7000000000000000004",
+    "url": "https://www.linkedin.com/posts/carol-base-doc-activity-7000000000000000004-AbCd",
+    "captured_at": "2026-10-22T08:00:00+00:00",
+    "capture_kind": "baseline_import",
+    "source_run": "v3",
+    "raw_sha256": "086150d1bec54b63b24c267a42fcd3c0d0a66692304ad067b4b099ee2edc6b6e",
+    "raw_path": "../v3/raw/b4.html",
+    "parser_version": "0.2.1",
+    "published_at": null,
+    "date_status": "date_missing",
+    "text_sha256": "afdb7b8e5944af7f2bccaf6f300b3c388b197d4c31ef5ca5c903d93a7313b838",
+    "reobservation_flags": [],
+    "metrics": {
+      "reactions": {
+        "value": 10,
+        "status": "observed"
+      },
+      "comments": {
+        "value": 1,
+        "status": "observed"
+      },
+      "reposts": {
+        "value": null,
+        "status": "not_exposed"
+      }
+    }
+  },
+  {
+    "snapshot_id": "9de9fa3569582df4be560566badce86d8cb74b5e997af21a442cf5a77a9714c1",
+    "post_id": "urn:li:activity:7000000000000000004",
+    "url": "https://www.linkedin.com/posts/carol-base-doc-activity-7000000000000000004-AbCd",
+    "captured_at": "2026-10-22T20:00:00+00:00",
+    "capture_kind": "reobservation",
+    "source_run": "v4",
+    "raw_sha256": "a1ef62b221b9756ae700772bfebe7fd212a129c6d7a2437e94a9912ee5aee9c8",
+    "raw_path": "raw/objects/b4-re.html",
+    "parser_version": "0.2.1",
+    "published_at": null,
+    "date_status": "date_missing",
+    "text_sha256": "afdb7b8e5944af7f2bccaf6f300b3c388b197d4c31ef5ca5c903d93a7313b838",
+    "reobservation_flags": [],
+    "metrics": {
+      "reactions": {
+        "value": null,
+        "status": "not_exposed"
+      },
+      "comments": {
+        "value": null,
+        "status": "not_exposed"
+      },
+      "reposts": {
+        "value": null,
+        "status": "not_exposed"
+      }
+    }
+  },
+  {
+    "snapshot_id": "b6136602a7ce0d2b6bf1d79d9ca4f15cf067073a71d65027b459578943604186",
+    "post_id": "urn:li:activity:7100000000000000001",
+    "url": "https://www.linkedin.com/posts/alice-base-new-image-activity-7100000000000000001-AbCd",
+    "captured_at": "2026-10-22T09:00:00+00:00",
+    "capture_kind": "new_discovery",
+    "source_run": "v4",
+    "raw_sha256": "ead662baa976d44f0e1276923bd6febc380deffbde3e8f526ab9e186b1a0b361",
+    "raw_path": "raw/objects/n1.html",
+    "parser_version": "0.2.1",
+    "published_at": "2026-10-21T09:00:00.000Z",
+    "date_status": "verified_source_date",
+    "text_sha256": "9d445ed42acb080c2077442ec79590805d8ff5c92e90f99ce527224a184f4f02",
+    "reobservation_flags": [],
+    "metrics": {
+      "reactions": {
+        "value": 15,
+        "status": "observed"
+      },
+      "comments": {
+        "value": 1,
+        "status": "observed"
+      },
+      "reposts": {
+        "value": null,
+        "status": "not_exposed"
+      }
+    }
+  },
+  {
+    "snapshot_id": "0bdc125019f341ce0236b1ac1ddb18979b7723e1b972cb56edebce9363fef5c2",
+    "post_id": "urn:li:activity:7100000000000000002",
+    "url": "https://www.linkedin.com/posts/dave-new-video-activity-7100000000000000002-AbCd",
+    "captured_at": "2026-10-22T09:00:00+00:00",
+    "capture_kind": "new_discovery",
+    "source_run": "v4",
+    "raw_sha256": "75412330c202c665358cd7d01673087198b4d4e180456986c091bc858d9a78d5",
+    "raw_path": "raw/objects/n2.html",
+    "parser_version": "0.2.1",
+    "published_at": "2026-10-20T09:00:00.000Z",
+    "date_status": "verified_source_date",
+    "text_sha256": "4638dc9efc1516ba000c42d6a159632036a7e80bb2b2056f6f803e51f797f33a",
+    "reobservation_flags": [],
+    "metrics": {
+      "reactions": {
+        "value": 30,
+        "status": "observed"
+      },
+      "comments": {
+        "value": 2,
+        "status": "observed"
+      },
+      "reposts": {
+        "value": null,
+        "status": "not_exposed"
+      }
+    }
+  },
+  {
+    "snapshot_id": "74ee867dbedfdca0ab35c470447dbdb1348cabb165d7ad0091592d366d02a775",
+    "post_id": "urn:li:activity:7100000000000000002",
+    "url": "https://www.linkedin.com/posts/dave-new-video-activity-7100000000000000002-AbCd",
+    "captured_at": "2026-10-23T09:00:00+00:00",
+    "capture_kind": "reobservation",
+    "source_run": "v4",
+    "raw_sha256": "57a4e0a293b47e44ee8c1e84054e22a5ca049297557d8acb23138f6ff0477db6",
+    "raw_path": "raw/objects/n2-re.html",
+    "parser_version": "0.2.1",
+    "published_at": "2026-10-20T09:00:00.000Z",
+    "date_status": "verified_source_date",
+    "text_sha256": "4638dc9efc1516ba000c42d6a159632036a7e80bb2b2056f6f803e51f797f33a",
+    "reobservation_flags": [],
+    "metrics": {
+      "reactions": {
+        "value": 36,
+        "status": "observed"
+      },
+      "comments": {
+        "value": 3,
+        "status": "observed"
+      },
+      "reposts": {
+        "value": 1,
+        "status": "observed"
+      }
+    }
+  },
+  {
+    "snapshot_id": "f71bb182ad3682bce7447042d317057233b5f08436b3347652ab70ca5a01e73e",
+    "post_id": "urn:li:activity:7100000000000000003",
+    "url": "https://www.linkedin.com/posts/erin-held-text-activity-7100000000000000003-AbCd",
+    "captured_at": "2026-10-22T09:00:00+00:00",
+    "capture_kind": "new_discovery",
+    "source_run": "v4",
+    "raw_sha256": "f888a6d3cd1c13277b9a70b48ff6e9c1805496aec0c64b2fc4b6fe140ae34928",
+    "raw_path": "raw/objects/n3.html",
+    "parser_version": "0.2.1",
+    "published_at": "2026-10-19T09:00:00.000Z",
+    "date_status": "verified_source_date",
+    "text_sha256": "ee024909112d264d487937a5126aaaccf66d8fbbacb7e9c480d3845c6c6dc194",
+    "reobservation_flags": [],
+    "metrics": {
+      "reactions": {
+        "value": 8,
+        "status": "observed"
+      },
+      "comments": {
+        "value": 0,
+        "status": "observed"
+      },
+      "reposts": {
+        "value": null,
+        "status": "not_exposed"
+      }
+    }
+  },
+  {
+    "snapshot_id": "22a44b58309c0cad7e346fa3d37296f0fea1b7b91ceddb145c707f421cecfc10",
+    "post_id": "urn:li:activity:7100000000000000004",
+    "url": "https://www.linkedin.com/posts/dave-new-silent-activity-7100000000000000004-AbCd",
+    "captured_at": "2026-10-22T09:00:00+00:00",
+    "capture_kind": "new_discovery",
+    "source_run": "v4",
+    "raw_sha256": "9fc8c1cdf18310c6eaae728acf49dee99f791d573c077626fe089fed44a9a4c7",
+    "raw_path": "raw/objects/n4.html",
+    "parser_version": "0.2.1",
+    "published_at": "2026-10-18T09:00:00.000Z",
+    "date_status": "verified_source_date",
+    "text_sha256": "d10d3ad4c28a04281cd366bf19ca9d7b6e2f36c8011370f10a6e46aed8016845",
+    "reobservation_flags": [],
+    "metrics": {
+      "reactions": {
+        "value": 4,
+        "status": "observed"
+      },
+      "comments": {
+        "value": 0,
+        "status": "observed"
+      },
+      "reposts": {
+        "value": null,
+        "status": "not_exposed"
+      }
+    }
+  }
+]

@@ -1,0 +1,4 @@
+# Optional frame-sheet preparation. FFmpeg/ffprobe must already be on PATH.
+Pillow==11.3.0
+# Whisper is optional and must use an existing local installation and cached model.
+# Do not download a model or invoke a provider as a fallback.

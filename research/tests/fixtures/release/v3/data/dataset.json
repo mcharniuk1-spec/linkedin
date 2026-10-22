@@ -1,0 +1,566 @@
+{
+  "summary": {
+    "run_id": "v3",
+    "schedule_active": false,
+    "external_supervisor_wakeup": false,
+    "paid_provider_spend": 0
+  },
+  "posts": [
+    {
+      "schema_version": 1,
+      "parser_version": "0.2.1",
+      "id": "urn:li:activity:7000000000000000001",
+      "url": "https://www.linkedin.com/posts/alice-base-first-activity-7000000000000000001-AbCd",
+      "attributed_urn": "urn:li:share:7000000000000000101",
+      "captured_at": "2026-10-20T10:00:00+00:00",
+      "source": {
+        "method": "captured_public_guest_html",
+        "raw_path": "raw/b1.html",
+        "sha256": "c4c75196fd06529a9ae6583a50113d0aaad5eba70eddfab8e712d2403596d53e",
+        "rights": "research_only_unverified_reuse",
+        "coverage": "single_public_page_subset",
+        "all_author_posts": false
+      },
+      "author": {
+        "name": "Alice Base",
+        "url": "https://www.linkedin.com/in/alice-base",
+        "type": "Person",
+        "followers": 1000
+      },
+      "published_at": "2026-09-01T10:00:00.000Z",
+      "text": "Alice base post one about positioning for founders.",
+      "text_status": "captured_dom_completeness_unverified",
+      "metrics": {
+        "reactions": {
+          "value": 100,
+          "status": "observed",
+          "source_path": null
+        },
+        "comments": {
+          "value": 10,
+          "status": "observed",
+          "source_path": null
+        },
+        "reposts": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        },
+        "impressions": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        },
+        "reach": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        },
+        "views": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        },
+        "clicks": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        },
+        "saves": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        }
+      },
+      "media": [],
+      "transcript": {
+        "text": null,
+        "origin": null,
+        "status": "not_exposed",
+        "language": null,
+        "timing": null
+      },
+      "warnings": [],
+      "collection": "baseline"
+    },
+    {
+      "schema_version": 1,
+      "parser_version": "0.2.1",
+      "id": "urn:li:activity:7000000000000000002",
+      "url": "https://www.linkedin.com/posts/bob-base-image-activity-7000000000000000002-AbCd",
+      "attributed_urn": "urn:li:share:7000000000000000102",
+      "captured_at": "2026-10-20T10:00:00+00:00",
+      "source": {
+        "method": "captured_public_guest_html",
+        "raw_path": "raw/b2.html",
+        "sha256": "1f5a3e4c47df9c222dc887e014daa66298b1b2b74b40f5f72db67cbaab244f3d",
+        "rights": "research_only_unverified_reuse",
+        "coverage": "single_public_page_subset",
+        "all_author_posts": false
+      },
+      "author": {
+        "name": "Bob Base",
+        "url": "https://www.linkedin.com/in/bob-base",
+        "type": "Person",
+        "followers": 1000
+      },
+      "published_at": "2026-08-15T09:00:00.000Z",
+      "text": "Bob base post two with an image about outbound sales.",
+      "text_status": "captured_dom_completeness_unverified",
+      "metrics": {
+        "reactions": {
+          "value": 50,
+          "status": "observed",
+          "source_path": null
+        },
+        "comments": {
+          "value": 5,
+          "status": "observed",
+          "source_path": null
+        },
+        "reposts": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        },
+        "impressions": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        },
+        "reach": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        },
+        "views": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        },
+        "clicks": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        },
+        "saves": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        }
+      },
+      "media": [],
+      "transcript": {
+        "text": null,
+        "origin": null,
+        "status": "not_exposed",
+        "language": null,
+        "timing": null
+      },
+      "warnings": [],
+      "collection": "baseline"
+    },
+    {
+      "schema_version": 1,
+      "parser_version": "0.2.1",
+      "id": "urn:li:activity:7000000000000000003",
+      "url": "https://www.linkedin.com/posts/alice-base-video-activity-7000000000000000003-AbCd",
+      "attributed_urn": "urn:li:share:7000000000000000103",
+      "captured_at": "2026-10-22T08:00:00+00:00",
+      "source": {
+        "method": "captured_public_guest_html",
+        "raw_path": "raw/b3.html",
+        "sha256": "1ef6d4fbbb32b5fa02e0318893b402035449db1031c103e5755d45c22ca855a2",
+        "rights": "research_only_unverified_reuse",
+        "coverage": "single_public_page_subset",
+        "all_author_posts": false
+      },
+      "author": {
+        "name": "Alice Base",
+        "url": "https://www.linkedin.com/in/alice-base",
+        "type": "Person",
+        "followers": 1000
+      },
+      "published_at": "2026-10-15T09:00:00.000Z",
+      "text": "Alice base post three with a video about demand generation.",
+      "text_status": "captured_dom_completeness_unverified",
+      "metrics": {
+        "reactions": {
+          "value": 200,
+          "status": "observed",
+          "source_path": null
+        },
+        "comments": {
+          "value": 20,
+          "status": "observed",
+          "source_path": null
+        },
+        "reposts": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        },
+        "impressions": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        },
+        "reach": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        },
+        "views": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        },
+        "clicks": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        },
+        "saves": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        }
+      },
+      "media": [],
+      "transcript": {
+        "text": null,
+        "origin": null,
+        "status": "not_exposed",
+        "language": null,
+        "timing": null
+      },
+      "warnings": [],
+      "collection": "new"
+    },
+    {
+      "schema_version": 1,
+      "parser_version": "0.2.1",
+      "id": "urn:li:activity:7000000000000000004",
+      "url": "https://www.linkedin.com/posts/carol-base-doc-activity-7000000000000000004-AbCd",
+      "attributed_urn": null,
+      "captured_at": "2026-10-22T08:00:00+00:00",
+      "source": {
+        "method": "captured_public_guest_html",
+        "raw_path": "raw/b4.html",
+        "sha256": "086150d1bec54b63b24c267a42fcd3c0d0a66692304ad067b4b099ee2edc6b6e",
+        "rights": "research_only_unverified_reuse",
+        "coverage": "single_public_page_subset",
+        "all_author_posts": false
+      },
+      "author": {
+        "name": "Carol Base",
+        "url": "https://www.linkedin.com/company/carol-base",
+        "type": "Person",
+        "followers": 1000
+      },
+      "published_at": null,
+      "text": "Carol base post four, an undated document preview about SaaS.",
+      "text_status": "captured_dom_completeness_unverified",
+      "metrics": {
+        "reactions": {
+          "value": 10,
+          "status": "observed",
+          "source_path": null
+        },
+        "comments": {
+          "value": 1,
+          "status": "observed",
+          "source_path": null
+        },
+        "reposts": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        },
+        "impressions": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        },
+        "reach": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        },
+        "views": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        },
+        "clicks": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        },
+        "saves": {
+          "value": null,
+          "status": "not_exposed",
+          "source_path": null
+        }
+      },
+      "media": [],
+      "transcript": {
+        "text": null,
+        "origin": null,
+        "status": "not_exposed",
+        "language": null,
+        "timing": null
+      },
+      "warnings": [],
+      "collection": "new"
+    }
+  ],
+  "assets": [
+    {
+      "post_id": "urn:li:activity:7000000000000000002",
+      "asset_id": "urn:li:activity:7000000000000000002:image:0",
+      "kind": "image",
+      "url": "https://media.licdn.com/dms/image/x",
+      "filename": "b2-image-0.jpg",
+      "status": "acquired",
+      "path": "../v2/media/b2-image-0.jpg",
+      "bytes": 17,
+      "sha256": "09dce3e8a334616365a3363e2fa9afac056a9a010ab8cb403ef906c9a891e09a",
+      "rights": "Internal analysis only",
+      "review_status": "not_reviewed",
+      "collection": "baseline"
+    },
+    {
+      "post_id": "urn:li:activity:7000000000000000003",
+      "asset_id": "urn:li:activity:7000000000000000003:video:0",
+      "kind": "video",
+      "url": "https://media.licdn.com/dms/image/x",
+      "filename": "b3-video-0.mp4",
+      "status": "acquired",
+      "path": "media/b3-video-0.mp4",
+      "bytes": 17,
+      "sha256": "7a29794dcc958f3ee5b6f7eec7c27e6a96247eb7d4e1a346f08cfbcdf351bd0d",
+      "rights": "Internal analysis only",
+      "review_status": "not_reviewed",
+      "collection": "new",
+      "ffprobe": {
+        "format": {
+          "duration": "74.1"
+        }
+      }
+    },
+    {
+      "post_id": "urn:li:activity:7000000000000000004",
+      "asset_id": "urn:li:activity:7000000000000000004:document:0",
+      "kind": "document_preview",
+      "url": "https://media.licdn.com/dms/image/x",
+      "filename": "b4-doc-0.png",
+      "status": "acquired",
+      "path": "media/b4-doc-0.png",
+      "bytes": 28,
+      "sha256": "2173b15eb0e5cbf936d2880862cc727812b43c28278f5757254de0b996c18886",
+      "rights": "Internal analysis only",
+      "review_status": "not_reviewed",
+      "collection": "new"
+    }
+  ],
+  "visual_reviews": [
+    {
+      "asset_id": "urn:li:activity:7000000000000000002:image:0",
+      "post_id": "urn:li:activity:7000000000000000002",
+      "source_sha256": "09dce3e8a334616365a3363e2fa9afac056a9a010ab8cb403ef906c9a891e09a",
+      "review_status": "reviewed",
+      "review_mode": "contact_sheet_actual_view",
+      "description": {
+        "form": "screenshot",
+        "composition": "fixture composition for urn:li:activity:7000000000000000002:image:0"
+      },
+      "caveats": [
+        "fixture only"
+      ],
+      "collection": "baseline"
+    },
+    {
+      "asset_id": "urn:li:activity:7000000000000000004:document:0",
+      "post_id": "urn:li:activity:7000000000000000004",
+      "source_sha256": "2173b15eb0e5cbf936d2880862cc727812b43c28278f5757254de0b996c18886",
+      "review_status": "reviewed",
+      "review_mode": "contact_sheet_actual_view",
+      "description": {
+        "form": "screenshot",
+        "composition": "fixture composition for urn:li:activity:7000000000000000004:document:0"
+      },
+      "caveats": [
+        "fixture only"
+      ],
+      "collection": "new"
+    }
+  ],
+  "video_reviews": [
+    {
+      "asset_id": "urn:li:activity:7000000000000000003:video:0",
+      "post_id": "urn:li:activity:7000000000000000003",
+      "source_sha256": "7a29794dcc958f3ee5b6f7eec7c27e6a96247eb7d4e1a346f08cfbcdf351bd0d",
+      "review_status": "reviewed",
+      "full_watch": false,
+      "audio_review": false,
+      "review_mode": "dense_sampled_timeline_plus_transcript",
+      "description": {
+        "format": "talking head"
+      },
+      "story_summary": "A founder explains demand generation.",
+      "onscreen_text_observed": [
+        {
+          "sample_seconds": 4,
+          "text": "Demand gen"
+        }
+      ],
+      "collection": "new"
+    }
+  ],
+  "transcripts": [
+    {
+      "post_id": "urn:li:activity:7000000000000000003",
+      "asset_id": "urn:li:activity:7000000000000000003:video:0",
+      "origin": "local_cached_whisper_ASR",
+      "text": " Alice talks about demand generation. You You You You You",
+      "source_path": "transcripts/b3-asr.json",
+      "source_video_sha256": "7a29794dcc958f3ee5b6f7eec7c27e6a96247eb7d4e1a346f08cfbcdf351bd0d",
+      "source_sha256": "a2ef57bcc3054966679bcac5a765c38f45219e3a7b99857771bd384ba5bb6fb0",
+      "audio_verified": false,
+      "timing_overrun_seconds": 2.26,
+      "timing_warning": "ASR segments exceed source duration; repeated tail may be hallucinated. Original output preserved; audio verification required.",
+      "collection": "new"
+    }
+  ],
+  "qualification": [
+    {
+      "post_id": "urn:li:activity:7000000000000000001",
+      "publication_date_verified": true,
+      "age_days": 30.0,
+      "reference_class": "recent_reference",
+      "trending_status": "not_established",
+      "sales_effectiveness": "unknown"
+    },
+    {
+      "post_id": "urn:li:activity:7000000000000000002",
+      "publication_date_verified": true,
+      "age_days": 30.0,
+      "reference_class": "recent_reference",
+      "trending_status": "not_established",
+      "sales_effectiveness": "unknown"
+    },
+    {
+      "post_id": "urn:li:activity:7000000000000000003",
+      "publication_date_verified": true,
+      "age_days": 30.0,
+      "reference_class": "recent_reference",
+      "trending_status": "not_established",
+      "sales_effectiveness": "unknown"
+    },
+    {
+      "post_id": "urn:li:activity:7000000000000000004",
+      "publication_date_verified": false,
+      "age_days": null,
+      "reference_class": "date_unverified",
+      "trending_status": "not_established",
+      "sales_effectiveness": "unknown"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "x",
+      "name": "Alice Base",
+      "url": "https://www.linkedin.com/in/alice-base",
+      "posts": 2,
+      "within90": 1,
+      "distinct_weeks90": 1
+    }
+  ],
+  "prospects": [
+    {
+      "id": "P01",
+      "stable_key": "company1.example",
+      "name": "Company 1",
+      "website": "https://company1.example/",
+      "linkedin_url": "https://www.linkedin.com/company/company1/",
+      "description": "Fixture company 1 builds software.",
+      "reviewed_at": "2026-10-22T08:00:00+00:00",
+      "fit_status": "observed_icp_fit",
+      "fit_is_not_sales_qualification": true,
+      "country_and_base": {
+        "value": "Germany"
+      },
+      "headcount": {
+        "value": "11-50"
+      },
+      "business": {
+        "value": "software"
+      },
+      "funding": {
+        "value": "Seed",
+        "announcement_date": "2024-01-01"
+      },
+      "linkedin_presence": {
+        "status": "public_company_about_page_observed",
+        "scope": "General presence only; no post text or media harvested."
+      },
+      "content_opportunity": {
+        "status": "HYPOTHESIS",
+        "angle": "fixture angle"
+      },
+      "expressed_need": {
+        "status": "unknown"
+      },
+      "buying_interest": {
+        "status": "unknown"
+      },
+      "next_step": "verify",
+      "gaps": [
+        "need unknown"
+      ]
+    },
+    {
+      "id": "P02",
+      "stable_key": "company2.example",
+      "name": "Company 2",
+      "website": "https://company2.example/",
+      "linkedin_url": "https://www.linkedin.com/company/company2/",
+      "description": "Fixture company 2 builds software.",
+      "reviewed_at": "2026-10-22T08:00:00+00:00",
+      "fit_status": "plausible_pending_evidence",
+      "fit_is_not_sales_qualification": true,
+      "country_and_base": {
+        "value": "Germany"
+      },
+      "headcount": {
+        "value": "11-50"
+      },
+      "business": {
+        "value": "software"
+      },
+      "funding": {
+        "value": "Seed",
+        "announcement_date": "2024-01-01"
+      },
+      "linkedin_presence": {
+        "status": "public_company_about_page_observed",
+        "scope": "General presence only; no post text or media harvested."
+      },
+      "content_opportunity": {
+        "status": "HYPOTHESIS",
+        "angle": "fixture angle"
+      },
+      "expressed_need": {
+        "status": "unknown"
+      },
+      "buying_interest": {
+        "status": "unknown"
+      },
+      "next_step": "verify",
+      "gaps": [
+        "need unknown"
+      ]
+    }
+  ]
+}

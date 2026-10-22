@@ -1,0 +1,60 @@
+[
+  {
+    "post_id": "urn:li:activity:7100000000000000001",
+    "asset_id": "urn:li:activity:7100000000000000001:image:0",
+    "kind": "image",
+    "url": "https://media.licdn.com/dms/image/x",
+    "filename": "n1-image-0.jpg",
+    "status": "acquired",
+    "path": "media/n1-image-0.jpg",
+    "bytes": 17,
+    "sha256": "984d8fc1aa237ea295f3f13178453ba5f562fc7f13cebce92650245629759af8",
+    "rights": "Internal analysis only"
+  },
+  {
+    "post_id": "urn:li:activity:7100000000000000002",
+    "asset_id": "urn:li:activity:7100000000000000002:video:0",
+    "kind": "video",
+    "url": "https://media.licdn.com/dms/image/x",
+    "filename": "n2-video-0.mp4",
+    "status": "acquired",
+    "path": "media/n2-video-0.mp4",
+    "bytes": 17,
+    "sha256": "681521bf4f38646258c33ff2d065664f5fe64c4246da557c7c6181e217d62c91",
+    "rights": "Internal analysis only",
+    "ffprobe": {
+      "format": {
+        "duration": "3.0"
+      }
+    }
+  },
+  {
+    "post_id": "urn:li:activity:7100000000000000002",
+    "asset_id": "urn:li:activity:7100000000000000002:poster:0",
+    "kind": "poster",
+    "url": "https://media.licdn.com/dms/image/x",
+    "filename": "n2-poster-0.jpg",
+    "status": "acquired",
+    "path": "media/n2-poster-0.jpg",
+    "bytes": 18,
+    "sha256": "f28db473c4418b967406309521063775a93be7a977e3f37ade17c855b08d8289",
+    "rights": "Internal analysis only"
+  },
+  {
+    "post_id": "urn:li:activity:7100000000000000004",
+    "asset_id": "urn:li:activity:7100000000000000004:video:0",
+    "kind": "video",
+    "url": "https://media.licdn.com/dms/image/x",
+    "filename": "n4-video-0.mp4",
+    "status": "acquired",
+    "path": "media/n4-video-0.mp4",
+    "bytes": 17,
+    "sha256": "ceee041391783580aff08fc2021e9cf9ea88f57f75c26d8a934d62deb9f6eba1",
+    "rights": "Internal analysis only",
+    "ffprobe": {
+      "format": {
+        "duration": "5.0"
+      }
+    }
+  }
+]

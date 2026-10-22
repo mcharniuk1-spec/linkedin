@@ -1,0 +1,19 @@
+{
+  "schema": "linkedin-transcript-alternative/1",
+  "post_id": "urn:li:activity:7000000000000000003",
+  "asset_id": "urn:li:activity:7000000000000000003:video:0",
+  "origin": "local_whisper_ASR_alternative_decode",
+  "source_video_sha256": "7a29794dcc958f3ee5b6f7eec7c27e6a96247eb7d4e1a346f08cfbcdf351bd0d",
+  "language": "en",
+  "text": " Alice talks about demand generation and the funnel.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 62.9,
+      "text": " Alice talks about demand generation and the funnel."
+    }
+  ],
+  "review_status": "alternative_decode_unreviewed",
+  "supersedes_original": false
+}

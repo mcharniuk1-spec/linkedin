@@ -1,0 +1,24 @@
+[
+  {
+    "asset_id": "urn:li:activity:7100000000000000002:video:0",
+    "post_id": "urn:li:activity:7100000000000000002",
+    "source_sha256": "681521bf4f38646258c33ff2d065664f5fe64c4246da557c7c6181e217d62c91",
+    "review_status": "reviewed",
+    "full_watch": false,
+    "audio_review": false,
+    "review_mode": "dense_sampled_timeline_plus_transcript",
+    "description": {
+      "format": "screen recording"
+    },
+    "story_summary": "A short fixture demo.",
+    "onscreen_text_observed": [
+      {
+        "sample_seconds": 1,
+        "text": "Hello fixture"
+      }
+    ],
+    "caveats": [
+      "sampled frames only"
+    ]
+  }
+]

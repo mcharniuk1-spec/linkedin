@@ -1,0 +1,12 @@
+{
+  "qualification": {
+    "as_of": "runtime-resolved-Europe/Sofia",
+    "as_of_mode": "runtime",
+    "velocity_min_observation_span_hours": 6,
+    "account_regular_min_posts90": 8,
+    "account_regular_min_distinct_weeks90": 6
+  },
+  "analysis": {
+    "continuous_watch_claim_allowed": false
+  }
+}

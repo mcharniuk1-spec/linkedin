@@ -1,0 +1,78 @@
+{
+  "schema": "linkedin-public-gaps/1",
+  "run_id": "20261022-linkedin-pipeline-v6",
+  "updated_at": "2026-10-22T13:14:35.236192+00:00",
+  "gaps": [
+    {
+      "id": "G01",
+      "status": "time_gated",
+      "gap": "v3 second observations",
+      "count": 100,
+      "next_task": "The current one-off process waits until 14:40 UTC. Preserve the actual six-hour minimum and access stops. Retain any missing observations as gaps. A collected snapshot does not automatically provide usable velocity."
+    },
+    {
+      "id": "G02",
+      "status": "evidence_hold",
+      "gap": "Akshay exact-profile professional role",
+      "count": 1,
+      "next_task": "Find an exact-profile role or service source for /in/akshaysureshh. Exa hit its quota. Do not merge a same-name person or retry a blocked profile. Media remains held."
+    },
+    {
+      "id": "G03",
+      "status": "audio_review_pending",
+      "gap": "Original transcript flags require audio review",
+      "count": 10,
+      "next_task": "All ten flagged records have source-bound alternatives: six mechanical passes and four high-compression warnings. An audio-capable reviewer must compare originals and alternatives against the exact audio. Preserve originals and unresolved flags."
+    },
+    {
+      "id": "G04",
+      "status": "backend_rate_limited",
+      "gap": "Keyless Exa public search quota",
+      "count": null,
+      "next_task": "Search stopped at the explicit free-tier rate limit. No key or paid backend was activated. Known-post refresh is independent of search. Check backend readiness before later discovery."
+    },
+    {
+      "id": "G05",
+      "status": "scope_limit",
+      "gap": "Continuous video watching and audio verification",
+      "count": 24,
+      "next_task": "Video descriptions cover sampled frames and captions. Audio input is unsupported and ComfyUI is unavailable. A full-watch or listening review remains unverified."
+    },
+    {
+      "id": "G06",
+      "status": "evidence_hold",
+      "gap": "Prospect firmographic and interest evidence",
+      "count": 16,
+      "next_task": "Retain twenty company summaries: four stronger fits and sixteen holds. Service need and buying interest remain unknown for all twenty. Do not collect a prospect post, media or employee corpus."
+    },
+    {
+      "id": "G07",
+      "status": "rights_unresolved",
+      "gap": "Third-party text and media redistribution",
+      "count": null,
+      "next_task": "Keep full source posts, transcripts and uncleared media local. Export owned interpretations, counters, hashes and public locators. Clear rights before creative reuse or redistribution."
+    },
+    {
+      "id": "G08",
+      "status": "verification_limit",
+      "gap": "Freshness of older offloaded media",
+      "count": null,
+      "next_task": "The five new images and exact flagged video/transcript bytes were verified. Other older offloaded files were not force-hydrated and rehashed. Preserve this limit and prior provenance."
+    },
+    {
+      "id": "G09",
+      "status": "awaiting_designer_finalization",
+      "gap": "Final design and website source package",
+      "count": null,
+      "next_task": "The repository folder and canonical agent handoff are ready. The designer/improver must finish and review the scoped source, cleared assets and QA manifest, then publish them there. No finalized design synchronization is claimed."
+    },
+    {
+      "id": "G10",
+      "status": "intentionally_off",
+      "gap": "Recurring schedule and automatic wake",
+      "count": null,
+      "next_task": "Keep both off under the owner instruction. The active due-only process runs once and exits; it is not a recurring service."
+    }
+  ],
+  "evidence_note": "Source-bound original records remain in the owner local evidence store. This repository contains derived facts/interpretations and public locators only."
+}

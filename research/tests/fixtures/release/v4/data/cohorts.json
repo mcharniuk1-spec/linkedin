@@ -1,0 +1,23 @@
+[
+  {
+    "cohort": "age_31_90d|text_or_other",
+    "n": 2,
+    "median_reactions_per_hour": 0.4528,
+    "ranked": true,
+    "min_n": 2,
+    "members": [
+      "urn:li:activity:7000000000000000001",
+      "urn:li:activity:7000000000000000002"
+    ]
+  },
+  {
+    "cohort": "age_0_7d|video",
+    "n": 1,
+    "median_reactions_per_hour": 0.25,
+    "ranked": false,
+    "min_n": 8,
+    "members": [
+      "urn:li:activity:7100000000000000002"
+    ]
+  }
+]

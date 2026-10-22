@@ -1,0 +1,17 @@
+{
+  "post_id": "urn:li:activity:7100000000000000002",
+  "asset_id": "urn:li:activity:7100000000000000002:video:0",
+  "origin": "local_whisper_ASR",
+  "text": " Hello from the fixture video.",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 2.5,
+      "text": " Hello from the fixture video."
+    }
+  ],
+  "source_video_sha256": "681521bf4f38646258c33ff2d065664f5fe64c4246da557c7c6181e217d62c91",
+  "audio_verified": false,
+  "review_status": "transcript_available_not_audio_verified"
+}

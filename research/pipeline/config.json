@@ -1,0 +1,139 @@
+{
+  "schema_version": 2,
+  "run_root": "../work",
+  "capture": {
+    "max_urls": 160,
+    "workers": 2,
+    "timeout_seconds": 18,
+    "max_html_bytes": 4000000,
+    "error_stop_codes": [
+      401,
+      403,
+      429,
+      999
+    ],
+    "same_host_redirects_only": true,
+    "wave_delay_seconds": 1.5,
+    "stop_cooldown_hours": 24,
+    "auth_or_challenge_paths_stop": true,
+    "soft_wall_consecutive_limit": 3
+  },
+  "media": {
+    "workers": 2,
+    "timeout_seconds": 30,
+    "max_video_bytes": 80000000,
+    "max_other_bytes": 12000000,
+    "allowed_host_suffix": "licdn.com",
+    "rendition": "lowest_exposed_bitrate",
+    "prior_post_ids": []
+  },
+  "discovery": {
+    "backend": "exa_via_existing_mcporter",
+    "max_queries": 0,
+    "max_results_per_query": 10,
+    "queries": [],
+    "public_search_result_is_not_performance_evidence": true,
+    "reuse_exposed_same_author_links": true,
+    "credential_policy": "pipeline/mcporter.json has imports=[] and the public keyless Exa MCP endpoint; no hidden editor/API credentials",
+    "author_queries_per_cycle": 0,
+    "author_query_template": "site:linkedin.com/posts/{slug}_ after:{since90} before:{tomorrow}",
+    "exposed_links": true,
+    "max_exposed_urls": 24,
+    "exposed_link_policy": "Only link-overlay-public_post anchors on captured public post pages; comment-text links excluded; activity-id order is a capture-priority hint, never a publication date"
+  },
+  "qualification": {
+    "fresh_candidate_max_days": 30,
+    "recent_reference_max_days": 180,
+    "account_regular_min_posts90": 8,
+    "account_regular_min_distinct_weeks90": 6,
+    "creator_min_observed_reactions": 100,
+    "company_min_observed_reactions": 20,
+    "same_cohort_min_posts": 8,
+    "historical_top_quantile": 0.8,
+    "velocity_min_observation_span_hours": 6,
+    "topics": {
+      "positioning": [
+        "positioning",
+        "messaging",
+        "ideal customer",
+        "icp",
+        "differentiation"
+      ],
+      "founder_story": [
+        "founder",
+        "building",
+        "bootstrapped",
+        "startup",
+        "co-founder"
+      ],
+      "b2b_sales": [
+        "b2b",
+        "sales",
+        "pipeline",
+        "outbound",
+        "cold email",
+        "revenue"
+      ],
+      "content_marketing": [
+        "content",
+        "linkedin",
+        "marketing",
+        "demand gen",
+        "brand"
+      ],
+      "ai_saas": [
+        "ai",
+        "artificial intelligence",
+        "saas",
+        "software"
+      ]
+    },
+    "as_of_mode": "runtime",
+    "as_of": "runtime-resolved-Europe/Sofia"
+  },
+  "whisper": {
+    "python": "",
+    "model": "~/.cache/whisper/large-v3-turbo.pt",
+    "threads": 4,
+    "language": "en",
+    "allow_download": false
+  },
+  "analysis": {
+    "backend": "supervised_native_agent",
+    "comfyui_url": "http://127.0.0.1:8188",
+    "comfyui_enabled": false,
+    "continuous_watch_claim_allowed": false,
+    "max_video_frames": 96,
+    "max_frames_per_sheet": 12,
+    "frame_width": 420,
+    "require_semantic_coverage": false
+  },
+  "supervisor": {
+    "delivery": "durable_local_event_and_queue",
+    "external_wake_adapter": null,
+    "schedule_active": false
+  },
+  "collection_approval": {
+    "require_watchlist": true,
+    "approved_author_paths": [],
+    "approval_basis": "No authors approved in public sample config. Qualify actual public business/topic evidence first.",
+    "new_authors": "Capture lightweight public post candidate, then hold media until supervisor confirms reference relevance"
+  },
+  "corpus_posts": [],
+  "refresh": {
+    "min_interval_hours": 6,
+    "max_urls": 12,
+    "purpose": "immutable reobservation snapshots of known posts for observed counter change; not new publications"
+  },
+  "corpus_snapshots": [],
+  "descriptive_keys_note": "Keys such as public_search_result_is_not_performance_evidence, reuse_exposed_same_author_links, credential_policy, exposed_link_policy, auth_or_challenge_paths_stop and refresh.purpose document policy for readers; cycle.py does not read them. Behaviour comes from the numeric/list keys.",
+  "transcript_qa": {
+    "corpus_datasets": [],
+    "decode_flagged": false
+  },
+  "tools": {
+    "ffmpeg": "ffmpeg",
+    "ffprobe": "ffprobe"
+  },
+  "sample_config_note": "Source/runtime paths resolve relative to this config file. Empty discovery and author lists are intentional. No service, provider, model download, login or recurring schedule is enabled."
+}

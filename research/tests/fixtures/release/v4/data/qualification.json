@@ -1,0 +1,35 @@
+[
+  {
+    "post_id": "urn:li:activity:7100000000000000001",
+    "publication_date_verified": true,
+    "age_days": 30.0,
+    "reference_class": "recent_reference",
+    "trending_status": "not_established",
+    "sales_effectiveness": "unknown"
+  },
+  {
+    "post_id": "urn:li:activity:7100000000000000002",
+    "publication_date_verified": true,
+    "age_days": 30.0,
+    "reference_class": "recent_reference",
+    "trending_status": "not_established",
+    "sales_effectiveness": "unknown"
+  },
+  {
+    "post_id": "urn:li:activity:7100000000000000003",
+    "publication_date_verified": true,
+    "age_days": 30.0,
+    "reference_class": "recent_reference",
+    "trending_status": "not_established",
+    "sales_effectiveness": "unknown",
+    "account_watchlist_approved": false
+  },
+  {
+    "post_id": "urn:li:activity:7100000000000000004",
+    "publication_date_verified": true,
+    "age_days": 30.0,
+    "reference_class": "recent_reference",
+    "trending_status": "not_established",
+    "sales_effectiveness": "unknown"
+  }
+]

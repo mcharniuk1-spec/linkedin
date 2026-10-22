@@ -1,0 +1,2987 @@
+{
+  "schema": "linkedin-service-tool-skill-map/1",
+  "source_observed_date": "2026-10-19",
+  "scope": "36 earlier candidates plus every 38 typed brand-plan entry plus Turnitout assessment. Overlapping capabilities retain separate source records; this is not a claim of 75 distinct installed software products.",
+  "tools": [
+    {
+      "id": "base:existing-marketing-skills",
+      "name": "Existing strategy, copywriting, editing, brand and SEO skills",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S01",
+        "S04",
+        "S03",
+        "S09"
+      ],
+      "exact_job": "Agent reads bounded SKILL.md and approved company evidence; human approval of claims/voice.",
+      "wrapper_skills": [],
+      "selection": "adopt_existing",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "existing_as_reported_by_root; not retested in this research lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": "Per installed bundle; root owns provenance audit.",
+      "cost_status_at_source_date": "Existing; model execution costs depend on selected runtime."
+    },
+    {
+      "id": "base:marketing-skills-v2",
+      "name": "MarketingSkills v2 selected gaps",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S04",
+        "S08",
+        "S10"
+      ],
+      "exact_job": "Root confirms social v2 installed. Upstream ads/ad-creative/attribution/lead-magnets bundles stay not installed after exact scan findings/incomplete evaluation coverage. Root owns original eu-ai-saas-linkedin-services guide and selected runtime-only variants with repair/rescan/semantic review before any activation.",
+      "wrapper_skills": [],
+      "selection": "selected_installed",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "Five selected skills installed through supported safe installer and hash readback; four original bundles rejected; see installation/manifest.json",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://github.com/coreyhaines31/marketingskills",
+      "repository": "coreyhaines31/marketingskills",
+      "license_note": "MIT",
+      "cost_status_at_source_date": "No skill fee; referenced vendors may charge."
+    },
+    {
+      "id": "base:office-parsers",
+      "name": "Existing format-aware Office/PDF tools",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S02",
+        "S10"
+      ],
+      "exact_job": "Use structured XLSX cells/sheets and document package extraction; preserve source hashes and locators.",
+      "wrapper_skills": [],
+      "selection": "adopt_existing",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "pdftotext extraction of approved source PDF executed; full Office lineage parsed read-only; no new parser dependency",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": "Per installed libraries",
+      "cost_status_at_source_date": "Existing"
+    },
+    {
+      "id": "base:docling",
+      "name": "Docling",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S02"
+      ],
+      "exact_job": "Python/CLI; structured document representation and layout-aware conversion.",
+      "wrapper_skills": [],
+      "selection": "defer",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://docling-project.github.io/docling/",
+      "repository": "docling-project/docling",
+      "license_note": "MIT code; processing model licenses must be checked separately.",
+      "cost_status_at_source_date": "Local compute/model downloads; no subscription needed for library."
+    },
+    {
+      "id": "base:marker",
+      "name": "Marker",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S02"
+      ],
+      "exact_job": "Python/CLI and small-scale API; optional LLM-backed extraction.",
+      "wrapper_skills": [],
+      "selection": "defer",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://github.com/datalab-to/marker",
+      "repository": "datalab-to/marker",
+      "license_note": "Apache-2.0 code; modified AI Pubs OpenRAIL-M model weights.",
+      "cost_status_at_source_date": "Weights free only research/personal/startups below $5M funding/revenue per current README; commercial licensing beyond threshold."
+    },
+    {
+      "id": "base:unstructured",
+      "name": "Unstructured",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S02"
+      ],
+      "exact_job": "Python partition functions; hosted API is a separate product.",
+      "wrapper_skills": [],
+      "selection": "defer",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://github.com/Unstructured-IO/unstructured",
+      "repository": "Unstructured-IO/unstructured",
+      "license_note": "Apache-2.0 library; dependency and model terms separate.",
+      "cost_status_at_source_date": "Open library plus local infra; hosted API paid/quota terms separate."
+    },
+    {
+      "id": "base:markitdown",
+      "name": "MarkItDown",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S02"
+      ],
+      "exact_job": "Python/CLI/MCP text conversion.",
+      "wrapper_skills": [],
+      "selection": "defer",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://github.com/microsoft/markitdown",
+      "repository": "microsoft/markitdown",
+      "license_note": "MIT",
+      "cost_status_at_source_date": "Local execution; optional external services may charge."
+    },
+    {
+      "id": "base:agent-browser",
+      "name": "agent-browser",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S02",
+        "S05",
+        "S09"
+      ],
+      "exact_job": "CLI for rendered public pages, semantic element references and screenshots; use installed skill first.",
+      "wrapper_skills": [],
+      "selection": "adopt_existing",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "Installed CLI verified; worker sandbox socket launch blocked, isolated root browser QA separately recorded",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://github.com/vercel-labs/agent-browser",
+      "repository": "vercel-labs/agent-browser",
+      "license_note": "Apache-2.0",
+      "cost_status_at_source_date": "Local browser; no hosted service required."
+    },
+    {
+      "id": "base:public-search-jina",
+      "name": "Existing public web search / Agent Reach / Jina Reader",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S02",
+        "S01"
+      ],
+      "exact_job": "Public search and anonymous page reads; prior project doctor reported no LinkedIn backend.",
+      "wrapper_skills": [],
+      "selection": "adopt_existing",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "existing_as_reported_by_root; not retested in this research lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://github.com/Panniantong/Agent-Reach",
+      "repository": null,
+      "license_note": "Agent Reach MIT; Jina Reader Apache-2.0 per prior assessment.",
+      "cost_status_at_source_date": "Anonymous quotas; paid upgrades optional."
+    },
+    {
+      "id": "base:firecrawl",
+      "name": "Firecrawl",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S02",
+        "S09"
+      ],
+      "exact_job": "Hosted API/SDK/MCP; self-host API differs from managed cloud.",
+      "wrapper_skills": [],
+      "selection": "conditional_paid_choice",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://docs.firecrawl.dev/",
+      "repository": "mendableai/firecrawl",
+      "license_note": "AGPL-3.0 code; hosted terms separate.",
+      "cost_status_at_source_date": "Hosted credits; self-host operations and optional providers cost separately."
+    },
+    {
+      "id": "base:crawl4ai",
+      "name": "Crawl4AI",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S02",
+        "S09"
+      ],
+      "exact_job": "Python async crawler/browser and structured extraction.",
+      "wrapper_skills": [],
+      "selection": "defer",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://github.com/unclecode/crawl4ai",
+      "repository": "unclecode/crawl4ai",
+      "license_note": "Apache-2.0; preserve upstream NOTICE/attribution obligations.",
+      "cost_status_at_source_date": "Local compute; optional model/provider cost."
+    },
+    {
+      "id": "base:langgraph",
+      "name": "Existing LangGraph controller",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S11"
+      ],
+      "exact_job": "Retain parent-owned state, approval and retry boundaries; local scripts remain executor.",
+      "wrapper_skills": [],
+      "selection": "adopt_existing",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "Existing parent architecture documented; not launched or modified in this LinkedIn research run",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://github.com/langchain-ai/langgraph",
+      "repository": "langchain-ai/langgraph",
+      "license_note": "MIT",
+      "cost_status_at_source_date": "Existing local framework; model/provider costs separate."
+    },
+    {
+      "id": "base:n8n",
+      "name": "n8n",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S11",
+        "S07",
+        "S10"
+      ],
+      "exact_job": "Workflow HTTP/OAuth nodes and documented LinkedIn node; use as optional connector adapter, not replacement controller.",
+      "wrapper_skills": [],
+      "selection": "defer",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://n8n.io/",
+      "repository": "n8n-io/n8n",
+      "license_note": "Sustainable Use License plus enterprise-licensed parts; not unrestricted OSI open source.",
+      "cost_status_at_source_date": "Community self-host or paid Cloud; customer workflow configuration/hosting can require commercial terms."
+    },
+    {
+      "id": "base:native-linkedin",
+      "name": "Native LinkedIn scheduling, analytics and Campaign Manager",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S03",
+        "S07",
+        "S08",
+        "S10"
+      ],
+      "exact_job": "Owner-operated UI/exports; exact authenticated API permissions are separate.",
+      "wrapper_skills": [],
+      "selection": "adopt_existing",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://www.linkedin.com/",
+      "repository": null,
+      "license_note": "Proprietary LinkedIn terms.",
+      "cost_status_at_source_date": "Native organic tools; ad spend separate."
+    },
+    {
+      "id": "base:buffer",
+      "name": "Buffer",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S07",
+        "S11",
+        "S10"
+      ],
+      "exact_job": "Current GraphQL API and remote MCP; personal API key or OAuth app with connected channels.",
+      "wrapper_skills": [],
+      "selection": "conditional_paid_choice",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://buffer.com/api",
+      "repository": null,
+      "license_note": "Proprietary service and API terms.",
+      "cost_status_at_source_date": "API included Free tier (one key, 3,000 requests/30 days); paid channel/team limits. Verify account pricing before purchase."
+    },
+    {
+      "id": "base:hootsuite",
+      "name": "Hootsuite",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S07",
+        "S08",
+        "S10"
+      ],
+      "exact_job": "Managed publishing/approval/reporting product; developer integration scope needs separate validation.",
+      "wrapper_skills": [],
+      "selection": "defer",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://www.hootsuite.com/plans/advanced",
+      "repository": null,
+      "license_note": "Proprietary subscription.",
+      "cost_status_at_source_date": "Paid; approvals/features plan-dependent."
+    },
+    {
+      "id": "base:postiz",
+      "name": "Postiz",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S07",
+        "S11"
+      ],
+      "exact_job": "REST API, webhooks, CLI/MCP; self-host LinkedIn requires own developer app/products/scopes/OAuth.",
+      "wrapper_skills": [],
+      "selection": "defer",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://docs.postiz.com/public-api",
+      "repository": "gitroomhq/postiz-app",
+      "license_note": "AGPL-3.0; service/provider terms separate.",
+      "cost_status_at_source_date": "Self-host infra and operations or paid hosted plan; provider keys separate."
+    },
+    {
+      "id": "base:shield",
+      "name": "Shield",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S10"
+      ],
+      "exact_job": "Historical LinkedIn analytics; no current integration assumption.",
+      "wrapper_skills": [],
+      "selection": "reject",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://shieldapp.ai/",
+      "repository": null,
+      "license_note": "Proprietary historical service.",
+      "cost_status_at_source_date": "Do not purchase on historical feature claims."
+    },
+    {
+      "id": "base:authoredup",
+      "name": "AuthoredUp",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S04",
+        "S07",
+        "S10"
+      ],
+      "exact_job": "Editor/extension, drafts, team collaboration and analytics; official help says uses native LinkedIn scheduling, no own scheduler/API.",
+      "wrapper_skills": [],
+      "selection": "conditional_paid_choice",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://help.authoredup.com/articles/ghostwriting-with-authoredup",
+      "repository": null,
+      "license_note": "Proprietary subscription.",
+      "cost_status_at_source_date": "Paid; business plan for multiple profiles."
+    },
+    {
+      "id": "base:taplio",
+      "name": "Taplio",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S04",
+        "S07",
+        "S10"
+      ],
+      "exact_job": "Current official REST API and OAuth remote MCP at mcp.taplio.com; active subscription/trial required.",
+      "wrapper_skills": [],
+      "selection": "defer",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://taplio.com/pricing",
+      "repository": null,
+      "license_note": "Proprietary service.",
+      "cost_status_at_source_date": "Current advertised monthly tiers $39/$69/$199; features and tax/region vary."
+    },
+    {
+      "id": "base:figma",
+      "name": "Existing Figma tools and design agents",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S05",
+        "S03",
+        "S08"
+      ],
+      "exact_job": "Existing connector/plugin skills; whoami owner match and exact target required before mutation. REST OAuth/PAT scope differs from plugin/MCP capabilities.",
+      "wrapper_skills": [],
+      "selection": "adopt_existing",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "Connector tools exposed and existing design agents retained; account identity/target mutation not tested",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://developers.figma.com/",
+      "repository": null,
+      "license_note": "Proprietary service; local skills licenses separate.",
+      "cost_status_at_source_date": "Existing plan; seats/API limits per account."
+    },
+    {
+      "id": "base:canva",
+      "name": "Canva",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S05",
+        "S08"
+      ],
+      "exact_job": "OAuth Connect APIs/MCP, async autofill and export from approved brand templates.",
+      "wrapper_skills": [],
+      "selection": "conditional_paid_choice",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://www.canva.dev/docs/apps/rest-apis/reference/autofills/",
+      "repository": null,
+      "license_note": "Proprietary platform; asset licenses separate.",
+      "cost_status_at_source_date": "Current Autofill available Pro and above, no longer Enterprise-only; future usage limits announced."
+    },
+    {
+      "id": "base:remotion",
+      "name": "Existing Remotion",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S06",
+        "S08"
+      ],
+      "exact_job": "React/Node deterministic video templates, render APIs and agent skills.",
+      "wrapper_skills": [],
+      "selection": "adopt_existing",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "Version 4.0.520 import passed; renderer import did not complete within bounded probe; full render acceptance open",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://www.remotion.dev/docs/",
+      "repository": "remotion-dev/remotion",
+      "license_note": "Special Remotion license; company license required above free eligibility.",
+      "cost_status_at_source_date": "Free up to three people under current terms; agency/client IP/headcount rules require exact deployment review."
+    },
+    {
+      "id": "base:davinci",
+      "name": "Existing DaVinci Resolve connector",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S06"
+      ],
+      "exact_job": "Purpose-built installed Resolve MCP surface; inspect exact supported commands before a footage task.",
+      "wrapper_skills": [],
+      "selection": "adopt_existing",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "Connector tools exposed; application/project runtime not launched or tested",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "repository": null,
+      "license_note": "Proprietary Free/Studio editions.",
+      "cost_status_at_source_date": "Installed edition/runtime not verified here; Studio may be needed for selected external scripting/features."
+    },
+    {
+      "id": "base:ffmpeg",
+      "name": "Existing FFmpeg",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S06",
+        "S10"
+      ],
+      "exact_job": "CLI transcode, audio loudness, probing and deterministic render QA.",
+      "wrapper_skills": [],
+      "selection": "adopt_existing",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "Synthetic 1-second H.264/AAC encode passed; ffprobe dimensions/frame count/duration verified",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://ffmpeg.org/legal.html",
+      "repository": "FFmpeg/FFmpeg",
+      "license_note": "Primarily LGPL-2.1-or-later; enabled GPL/nonfree components alter obligations.",
+      "cost_status_at_source_date": "Local compute; exact binary build licensing must be checked."
+    },
+    {
+      "id": "base:whisper",
+      "name": "Existing Whisper",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S02",
+        "S06",
+        "S04"
+      ],
+      "exact_job": "Local transcription/translation Python/CLI for approved owner interviews, with source review.",
+      "wrapper_skills": [],
+      "selection": "adopt_existing",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "Installed CLI help executed; ASR inference and caption accuracy not tested here",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://github.com/openai/whisper",
+      "repository": "openai/whisper",
+      "license_note": "Upstream code/model weights MIT; HF conversion card separately reports Apache-2.0.",
+      "cost_status_at_source_date": "Local compute and weights; no provider required when already installed."
+    },
+    {
+      "id": "base:hyperframes",
+      "name": "HyperFrames",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S06",
+        "S08"
+      ],
+      "exact_job": "HTML/CSS/seekable animation to deterministic MP4 via agent-oriented CLI.",
+      "wrapper_skills": [],
+      "selection": "defer",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://www.hyperframes.dev/",
+      "repository": "heygen-com/hyperframes",
+      "license_note": "Apache-2.0",
+      "cost_status_at_source_date": "Local runtime; optional providers/assets separate."
+    },
+    {
+      "id": "base:openmontage",
+      "name": "OpenMontage",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S06"
+      ],
+      "exact_job": "Agent skills/MCP video planning and multiple composition/provider pipelines.",
+      "wrapper_skills": [],
+      "selection": "defer",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://github.com/calesthio/OpenMontage",
+      "repository": "calesthio/OpenMontage",
+      "license_note": "AGPL-3.0 plus dependencies/assets/provider licenses.",
+      "cost_status_at_source_date": "Library not subscription, but many optional cloud/model/asset routes have separate costs."
+    },
+    {
+      "id": "base:gpt-image",
+      "name": "Existing GPT Image capability",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S05",
+        "S08",
+        "S06"
+      ],
+      "exact_job": "Codex image tool for explicitly approved still run; application automation requires separately approved API adapter.",
+      "wrapper_skills": [],
+      "selection": "conditional_paid_choice",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "Built-in tool exposed; no image generation in this run",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://platform.openai.com/docs/guides/image-generation",
+      "repository": null,
+      "license_note": "OpenAI service terms; source rights separate.",
+      "cost_status_at_source_date": "Existing capability; exact model generation/budget not authorized or executed in this run."
+    },
+    {
+      "id": "base:fal",
+      "name": "Existing fal connector",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S05",
+        "S06",
+        "S08"
+      ],
+      "exact_job": "Queue/synchronous model APIs and installed connector/skills; select exact endpoint per request.",
+      "wrapper_skills": [],
+      "selection": "conditional_paid_choice",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "Connector tools exposed; no account/provider/generation request in this run",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://docs.fal.ai/model-apis",
+      "repository": null,
+      "license_note": "Per endpoint/model and fal service terms; not one universal media license.",
+      "cost_status_at_source_date": "Paid usage usually model-dependent; no call/budget activated."
+    },
+    {
+      "id": "base:gsc",
+      "name": "Google Search Console",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S09",
+        "S10"
+      ],
+      "exact_job": "Owner-authorized verified-property exports or Search Analytics API/OAuth.",
+      "wrapper_skills": [],
+      "selection": "adopt_existing",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://developers.google.com/webmaster-tools/v1/api_reference_index",
+      "repository": null,
+      "license_note": "Google service/API terms.",
+      "cost_status_at_source_date": "No SEO-suite subscription; requires property permission."
+    },
+    {
+      "id": "base:bing-webmaster",
+      "name": "Bing Webmaster Tools",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S09",
+        "S10"
+      ],
+      "exact_job": "Verified property UI/exports; AI Performance preview citation reporting.",
+      "wrapper_skills": [],
+      "selection": "adopt_existing",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://www.bing.com/webmasters/help/ai-performance-9f8e7d6c",
+      "repository": null,
+      "license_note": "Microsoft service terms.",
+      "cost_status_at_source_date": "No paid suite required; verified-site access needed."
+    },
+    {
+      "id": "base:ahrefs",
+      "name": "Ahrefs",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S09",
+        "S02"
+      ],
+      "exact_job": "Current official API v3/MCP; MCP Lite+; quotas and add-ons apply.",
+      "wrapper_skills": [],
+      "selection": "conditional_paid_choice",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://docs.ahrefs.com/en/api/docs/introduction",
+      "repository": null,
+      "license_note": "Proprietary service/data terms.",
+      "cost_status_at_source_date": "Paid eligible plans; API unit/row limits and Brand Radar add-ons separate."
+    },
+    {
+      "id": "base:semrush",
+      "name": "Semrush",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S09",
+        "S02",
+        "S08"
+      ],
+      "exact_job": "Official MCP with Semrush authentication; SEO/traffic/competitive data per plan.",
+      "wrapper_skills": [],
+      "selection": "conditional_paid_choice",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://www.semrush.com/mcp/",
+      "repository": null,
+      "license_note": "Proprietary service/data terms.",
+      "cost_status_at_source_date": "MCP included selected Semrush One/SEO Classic/Trends API plans; AI visibility entitlements separate."
+    },
+    {
+      "id": "base:lighthouse",
+      "name": "Lighthouse",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S09",
+        "S08"
+      ],
+      "exact_job": "CLI/Node or DevTools audit on approved landing pages.",
+      "wrapper_skills": [],
+      "selection": "adopt_existing",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://github.com/GoogleChrome/lighthouse",
+      "repository": "GoogleChrome/lighthouse",
+      "license_note": "Apache-2.0",
+      "cost_status_at_source_date": "Local browser compute."
+    },
+    {
+      "id": "base:screaming-frog",
+      "name": "Screaming Frog SEO Spider",
+      "kind": "earlier_tool_candidate",
+      "service_ids": [
+        "S09"
+      ],
+      "exact_job": "Desktop crawler and licensed command-line automation.",
+      "wrapper_skills": [],
+      "selection": "defer",
+      "readiness_at_source_date": {
+        "baseline_date": "2026-10-19",
+        "baseline_runtime_status": "official capability documented; not installed, authenticated or executed in this lane",
+        "current_overlay": "Executed installation and runtime evidence; no account activation implied",
+        "v2_retested": false
+      },
+      "official_url": "https://www.screamingfrog.co.uk/seo-spider/",
+      "repository": null,
+      "license_note": "Proprietary product.",
+      "cost_status_at_source_date": "Free crawl limited to 500 URLs; full features/CLI configuration depend on paid license."
+    },
+    {
+      "id": "brand:21st",
+      "name": "21st.dev",
+      "kind": "product",
+      "service_ids": [
+        "S05",
+        "S11"
+      ],
+      "exact_job": "Evaluate a bounded candidate set for real website needs; inspect per-item license, dependencies, source revision and adaptation; save canonical local code.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "design-system-ui-builder",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:21st-mcp",
+      "name": "21st unified HTTP MCP",
+      "kind": "integration",
+      "service_ids": [
+        "S05",
+        "S11"
+      ],
+      "exact_job": "Discover tools/account access; narrow search and permitted code retrieval through https://21st.dev/api/mcp.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "design-system-ui-builder",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:magic-proxy",
+      "name": "Legacy Magic compatibility proxy",
+      "kind": "legacy_integration",
+      "service_ids": [
+        "S11"
+      ],
+      "exact_job": "Recognize older 21st setup and migrate only through current client-supported route; do not make legacy proxy the new architecture.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "design-system-ui-builder",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:motion-runtime",
+      "name": "Motion runtime (motion; motion/react)",
+      "kind": "library",
+      "service_ids": [
+        "S05",
+        "S11"
+      ],
+      "exact_job": "Implement shared named web-motion presets with accessible static/reduced-motion alternatives, interruption and layout tests.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "design-system-ui-builder",
+          "status": null
+        },
+        {
+          "name": "frontend-design",
+          "status": null
+        },
+        {
+          "name": "accessibility",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:motion-ai-kit",
+      "name": "Motion AI Kit free docs/skill MCP",
+      "kind": "integration",
+      "service_ids": [
+        "S05",
+        "S11"
+      ],
+      "exact_job": "Discover current free tools; query official current docs at https://mcp.motion.dev; inspect results; prove runtime separately.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "design-system-ui-builder",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:motion-plus",
+      "name": "Motion+ premium MCP/features",
+      "kind": "paid_integration",
+      "service_ids": [
+        "S05",
+        "S11"
+      ],
+      "exact_job": "Optional premium source, audits and transitions at https://mcp.motion.dev/plus only for a selected entitled task.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "design-system-ui-builder",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:storybook",
+      "name": "Storybook",
+      "kind": "product",
+      "service_ids": [
+        "S05",
+        "S11"
+      ],
+      "exact_job": "Canonical code component catalogue importing the same source as the app; typed props, fixtures, relevant states, interactions and checks.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "design-system-ui-builder",
+          "status": null
+        },
+        {
+          "name": "browser-qa-performance-a11y",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:storybook-mcp",
+      "name": "@storybook/addon-mcp (preview)",
+      "kind": "integration",
+      "service_ids": [
+        "S05",
+        "S11"
+      ],
+      "exact_job": "Local loopback docs/preview/configured tests at observed actual port; supported component manifest, docs-list/docs-show/stories-preview/test-run checks.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "design-system-ui-builder",
+          "status": null
+        },
+        {
+          "name": "browser-qa-performance-a11y",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:storybook-csf",
+      "name": "Storybook Component Story Format (CSF 3)",
+      "kind": "authoring_format",
+      "service_ids": [
+        "S05",
+        "S11"
+      ],
+      "exact_job": "Stable story IDs, typed args/controls, deterministic fixtures and app-provider/font/token parity using pinned supported syntax.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "design-system-ui-builder",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:storybook-designs",
+      "name": "Storybook Designs addon",
+      "kind": "integration",
+      "service_ids": [
+        "S05",
+        "S11"
+      ],
+      "exact_job": "Embed Figma design references in story metadata; maintain explicit mapping independently.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "design-system-ui-builder",
+          "status": null
+        },
+        {
+          "name": "figma-use",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:storybook-connect",
+      "name": "Storybook Connect",
+      "kind": "integration",
+      "service_ids": [
+        "S05",
+        "S11"
+      ],
+      "exact_job": "Connect Figma/story references if an authorized Chromatic-published Storybook and authentication exist.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "design-system-ui-builder",
+          "status": null
+        },
+        {
+          "name": "figma-use",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:chromatic",
+      "name": "Chromatic",
+      "kind": "hosted_visual_testing",
+      "service_ids": [
+        "S05",
+        "S09"
+      ],
+      "exact_job": "Optional hosted approved visual baselines; use local screenshot/diff route without hosting when sufficient.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "browser-qa-performance-a11y",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:axe",
+      "name": "axe accessibility checks",
+      "kind": "testing_library",
+      "service_ids": [
+        "S05",
+        "S09"
+      ],
+      "exact_job": "Configure Storybook accessibility checks; inspect failures and combine with manual keyboard/focus/assistive-tech checks.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "accessibility",
+          "status": null
+        },
+        {
+          "name": "browser-qa-performance-a11y",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:figma",
+      "name": "Figma Design",
+      "kind": "product",
+      "service_ids": [
+        "S05",
+        "S11"
+      ],
+      "exact_job": "Create NEW brand design file; populate/read back exact ordered 20 pages, native masters/tokens and cross-media templates.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "figma-create-new-file",
+          "status": null
+        },
+        {
+          "name": "figma-use",
+          "status": null
+        },
+        {
+          "name": "figma-generate-library",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:figma-mcp",
+      "name": "Figma purpose-built connector / use_figma",
+      "kind": "integration",
+      "service_ids": [
+        "S05",
+        "S11"
+      ],
+      "exact_job": "whoami exact owner; native file/page/component and variable operations; serial writer and complete readback.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "figma-create-new-file",
+          "status": null
+        },
+        {
+          "name": "figma-use",
+          "status": null
+        },
+        {
+          "name": "figma-generate-library",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:figma-upload-assets",
+      "name": "Figma upload_assets import route",
+      "kind": "integration_operation",
+      "service_ids": [
+        "S05",
+        "S06"
+      ],
+      "exact_job": "Read schema; request bounded single-use upload URLs, POST exact accepted bytes once; reconcile uncertain imports and map asset hashes to nodes.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "figma-use",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:figma-code-connect",
+      "name": "Figma Code Connect",
+      "kind": "integration",
+      "service_ids": [
+        "S05",
+        "S11"
+      ],
+      "exact_job": "Map actual native Figma components/props to canonical code exports; otherwise maintain explicit component-to-code mapping.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "figma-code-connect-components",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:react",
+      "name": "React",
+      "kind": "library",
+      "service_ids": [
+        "S05",
+        "S09",
+        "S11"
+      ],
+      "exact_job": "Reference website implementation with canonical components shared by application and Storybook.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "frontend-design",
+          "status": null
+        },
+        {
+          "name": "design-system-ui-builder",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:typescript",
+      "name": "TypeScript",
+      "kind": "language_toolchain",
+      "service_ids": [
+        "S05",
+        "S09",
+        "S11"
+      ],
+      "exact_job": "Typed UI APIs, story args, token/motion adapters and runtime validation boundaries.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "frontend-design",
+          "status": null
+        },
+        {
+          "name": "design-system-ui-builder",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:css",
+      "name": "CSS derived token representation",
+      "kind": "web_language",
+      "service_ids": [
+        "S05",
+        "S09",
+        "S11"
+      ],
+      "exact_job": "Generate/reconcile CSS semantic token output from one versioned source; choose actual CSS system against target app.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "design-system-ui-builder",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:dtcg",
+      "name": "DTCG 2025.10 design token exchange",
+      "kind": "community_specification",
+      "service_ids": [
+        "S05",
+        "S11"
+      ],
+      "exact_job": "Versioned typed tokens/aliases/modes/units; prove transform into frontend and Figma reconciliation; reject missing/cyclic aliases.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "design-system-ui-builder",
+          "status": null
+        },
+        {
+          "name": "figma-generate-library",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:gpt-image",
+      "name": "Built-in GPT Image / imagegen",
+      "kind": "generation_tool",
+      "service_ids": [
+        "S05",
+        "S06"
+      ],
+      "exact_job": "Generate individual illustrative objects with true transparency; preserve exact outputs/prompts/hashes; separate native editable text/logo/data.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "imagegen",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:imagegen-edit",
+      "name": "Built-in authorized image-editing route",
+      "kind": "generation_operation",
+      "service_ids": [
+        "S05",
+        "S06"
+      ],
+      "exact_job": "Repair a failed alpha/background or edge defect only; preserve identity; count each edit toward initial+two-repair ceiling and rerun changed-pixel checks.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "imagegen",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:openai-image-api",
+      "name": "OpenAI image API alternate route",
+      "kind": "provider_integration",
+      "service_ids": [
+        "S05",
+        "S06"
+      ],
+      "exact_job": "Optional API generation alternative only after model-specific transparency controls, credentials/authority and exact request scope are verified.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "imagegen",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:frame-video",
+      "name": "Selected frame-based video compositor",
+      "kind": "runtime_role",
+      "service_ids": [
+        "S06",
+        "S05"
+      ],
+      "exact_job": "Compose approved independent layers with explicit FPS/unit conversion/spring sampling and full render review; do not reuse browser animation as video proof.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "remotion",
+          "status": null
+        },
+        {
+          "name": "motion-review",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:png",
+      "name": "PNG alpha export/inspection",
+      "kind": "file_format",
+      "service_ids": [
+        "S05",
+        "S06"
+      ],
+      "exact_job": "Inspect actual dimensions, useful transparent/opaque/partial-alpha distribution, visible bounds and edges on checkerboard/light/dark backgrounds.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "imagegen",
+          "status": null
+        },
+        {
+          "name": "figma-use",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:svg",
+      "name": "SVG editable/vector export",
+      "kind": "file_format",
+      "service_ids": [
+        "S05"
+      ],
+      "exact_job": "Keep outlined wordmark/vector master and native vector uploads separate from raster fills; verify rights/glyphs and exact artwork.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "figma-use",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:mp4",
+      "name": "MP4 video export",
+      "kind": "file_format",
+      "service_ids": [
+        "S06"
+      ],
+      "exact_job": "Verify codec/aspect/duration/full playback independently; use alpha-capable compositor format when transparency is required.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "remotion",
+          "status": null
+        },
+        {
+          "name": "motion-review",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:wcag",
+      "name": "WCAG 2.2 AA",
+      "kind": "accessibility_standard",
+      "service_ids": [
+        "S05",
+        "S09"
+      ],
+      "exact_job": "Verify contrast/reflow/labels/errors/keyboard/focus/alternatives and applicable target-size criteria; combine manual assistive-technology review.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "accessibility",
+          "status": null
+        },
+        {
+          "name": "browser-qa-performance-a11y",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:carbon-icons",
+      "name": "Carbon icon guidance",
+      "kind": "reference_resource",
+      "service_ids": [
+        "S05"
+      ],
+      "exact_job": "Use licensed consistent functional glyph family with optical sizing and accessible naming; Carbon guidance is a reference, not selected icon library.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "accessibility",
+          "status": null
+        },
+        {
+          "name": "design-system-ui-builder",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:govuk-layout",
+      "name": "GOV.UK layout guidance",
+      "kind": "reference_resource",
+      "service_ids": [
+        "S05"
+      ],
+      "exact_job": "Judge content-aware layouts by communication, optical alignment and reflow rather than a compulsory proportion.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "design-system-ui-builder",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:design-taste-frontend",
+      "name": "design-taste-frontend",
+      "kind": "wrapper_skill",
+      "service_ids": [
+        "S05"
+      ],
+      "exact_job": "Art-direction pilot and distinctive web composition under approved brand grammar.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "design-taste-frontend",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:gpt-taste",
+      "name": "gpt-taste",
+      "kind": "wrapper_skill",
+      "service_ids": [
+        "S05"
+      ],
+      "exact_job": "Selective art-direction judgment while retaining approved copy, Motion stack, accessible behavior and template scope.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "gpt-taste",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:awesome-design-md",
+      "name": "awesome-design-md",
+      "kind": "wrapper_skill",
+      "service_ids": [
+        "S05"
+      ],
+      "exact_job": "Inspect relevant brand DESIGN.md examples as attributed references; derive original system from approved target brief.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "awesome-design-md",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:figma-new-file-skill",
+      "name": "Current Figma new-file skill",
+      "kind": "wrapper_skill",
+      "service_ids": [
+        "S05"
+      ],
+      "exact_job": "Create exact authorized new brand file with identity/destination/readback receipt.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "figma-create-new-file",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:figma-library-skills",
+      "name": "Figma use/library skills",
+      "kind": "wrapper_skill",
+      "service_ids": [
+        "S05"
+      ],
+      "exact_job": "Native variables/styles/components/Auto Layout; preserve editability and reconcile IDs/code/story/asset maps.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "figma-use",
+          "status": null
+        },
+        {
+          "name": "figma-generate-library",
+          "status": null
+        },
+        {
+          "name": "accessibility",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:research-routing",
+      "name": "Installed research routing / Agent Reach",
+      "kind": "wrapper_skill",
+      "service_ids": [
+        "S01",
+        "S05",
+        "S09"
+      ],
+      "exact_job": "Inspect task-relevant available channels; use bounded public evidence and leave unavailable channels as gaps.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        },
+        {
+          "name": "agent-reach",
+          "status": null
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "brand:mermaid",
+      "name": "Mermaid flowchart notation",
+      "kind": "documentation_format",
+      "service_ids": [
+        "S11"
+      ],
+      "exact_job": "Express proposed dependency map in the playbook; not deployed runtime orchestration.",
+      "wrapper_skills": [
+        {
+          "name": "brand-system-delivery",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        }
+      ],
+      "selection": null,
+      "readiness_at_source_date": {
+        "documented": true,
+        "configured": "not established by scoped read",
+        "tools_discovered": "not checked in this read-only extraction",
+        "auth_or_account_checked": "not checked",
+        "executed": "not executed for this run",
+        "output_verified": "not verified for this run"
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    },
+    {
+      "id": "writing:turnitout",
+      "name": "Turnitout-Humanizer",
+      "kind": "assessed_product_candidate",
+      "service_ids": [
+        "S02",
+        "S04",
+        "S09"
+      ],
+      "exact_job": "Requested natural-writing candidate; assess engine/API/rights, do not execute the unavailable backend. Existing founder-content-writing performs voice and fact-preserving editorial work.",
+      "wrapper_skills": [
+        {
+          "name": "founder-content-writing",
+          "status": "installed, independently reviewed, static-scanned and hash-verified; runtime/product readiness separate"
+        }
+      ],
+      "selection": "assessed_not_integrated",
+      "readiness_at_source_date": {
+        "commit": "1363602d165eb02a3168d10c52f6357f2bd2f089",
+        "public_tree_files": 37,
+        "license": "proprietary",
+        "local_engine": "absent from inspected public tree",
+        "landing_demo": "present, inspected; simple replacement/simulated scores",
+        "supported_api": "not established",
+        "installed": false,
+        "executed": false,
+        "client_text_uploaded": false
+      },
+      "official_url": null,
+      "repository": null,
+      "license_note": null,
+      "cost_status_at_source_date": null
+    }
+  ],
+  "service_skill_bindings": [
+    {
+      "service_id": "S01",
+      "service": "Founder positioning and buyer strategy",
+      "skill": "product-marketing",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "cbebd56731ed1883d2f481ec72477b392ee0bdf99be7fa7470b9d078ff154fcb"
+    },
+    {
+      "service_id": "S01",
+      "service": "Founder positioning and buyer strategy",
+      "skill": "market-research-competitive-intelligence",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "212222e511a8b53bad73563297275d81841655c010c99e90e633f0a855e60b8a"
+    },
+    {
+      "service_id": "S01",
+      "service": "Founder positioning and buyer strategy",
+      "skill": "company-research",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "b8e03e5402231029912c2ea8dcf28a827bf8033837e65a009dda3c566f048308"
+    },
+    {
+      "service_id": "S01",
+      "service": "Founder positioning and buyer strategy",
+      "skill": "content-strategy",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "0611532b2a0dce8d0d5b783c99bba10d13a6d5fd7eecd829974012f74ea33258"
+    },
+    {
+      "service_id": "S01",
+      "service": "Founder positioning and buyer strategy",
+      "skill": "customer-journey-map",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "665865520121f4fedc5c43534bccbf45772caf8dbc1078957c6115c2c6c77318"
+    },
+    {
+      "service_id": "S01",
+      "service": "Founder positioning and buyer strategy",
+      "skill": "decision-memo-builder",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "b55a8cf2bfe223b3ddc96218d6a42a6c87ba19d849494d544c1e797ddd93de3a"
+    },
+    {
+      "service_id": "S02",
+      "service": "Founder knowledge and voice system",
+      "skill": "pdf",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "d108cf2b36355ab37eb5962933f4d09785ec002f3105c506129320209306b9d2"
+    },
+    {
+      "service_id": "S02",
+      "service": "Founder knowledge and voice system",
+      "skill": "doc",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "0a635585817d1ac96e8e512114d08258b70f9e54ce0052078a258291ac13a8ed"
+    },
+    {
+      "service_id": "S02",
+      "service": "Founder knowledge and voice system",
+      "skill": "documents",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "c9b9ba61ac15f20a600220bc10a380c7753992bbd3c323bfe33fae864adefc21"
+    },
+    {
+      "service_id": "S02",
+      "service": "Founder knowledge and voice system",
+      "skill": "knowledge-memory-routing",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "649b52e13c7275e743b6c60a5a454eb62ad928c2dfb622cce8c617938fa46a78"
+    },
+    {
+      "service_id": "S02",
+      "service": "Founder knowledge and voice system",
+      "skill": "data-quality-frameworks",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "58e61444165ba7caa572fb7f1ba2d23cfd5038cfa6699f86b5648e7fcb71d34d"
+    },
+    {
+      "service_id": "S02",
+      "service": "Founder knowledge and voice system",
+      "skill": "human-like-rewrite-with-fact-preservation",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "6ee209105cac1c2f46e8212699e9625dffc789280dc3fbbb37ad6c4468a3a209"
+    },
+    {
+      "service_id": "S03",
+      "service": "Founder profile and company-page conversion",
+      "skill": "copywriting",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "fd5e039eea8b4e47f92ee8adbf47dd56e6a1da12d70789ca05386604a3c062a8"
+    },
+    {
+      "service_id": "S03",
+      "service": "Founder profile and company-page conversion",
+      "skill": "copy-editing",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "9b5a20be3dc5513c8f0b4f4c4960857e4d28ed83698a5b33c8dde9dc75a47bf6"
+    },
+    {
+      "service_id": "S03",
+      "service": "Founder profile and company-page conversion",
+      "skill": "product-marketing",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "cbebd56731ed1883d2f481ec72477b392ee0bdf99be7fa7470b9d078ff154fcb"
+    },
+    {
+      "service_id": "S03",
+      "service": "Founder profile and company-page conversion",
+      "skill": "brandkit",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "b0c4837e1bd140ca816ae54948754ddd2ac1e2a4d3619363777a80caf00b2ede"
+    },
+    {
+      "service_id": "S03",
+      "service": "Founder profile and company-page conversion",
+      "skill": "social",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "7a7a43a82cde2c0819b5e2530953b0bb6da1ddc20a74281afede587a7ba92461"
+    },
+    {
+      "service_id": "S03",
+      "service": "Founder profile and company-page conversion",
+      "skill": "accessibility",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "267fb2a0707d6142f2871f22688203a42ba21291a2aa200fb740936e41362b5d"
+    },
+    {
+      "service_id": "S04",
+      "service": "Founder ghostwriting and editorial production",
+      "skill": "social",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "7a7a43a82cde2c0819b5e2530953b0bb6da1ddc20a74281afede587a7ba92461"
+    },
+    {
+      "service_id": "S04",
+      "service": "Founder ghostwriting and editorial production",
+      "skill": "content-strategy",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "0611532b2a0dce8d0d5b783c99bba10d13a6d5fd7eecd829974012f74ea33258"
+    },
+    {
+      "service_id": "S04",
+      "service": "Founder ghostwriting and editorial production",
+      "skill": "content-research-writer",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "27eb5c1a0a88a9c1c64f6fcd9c28782e6a6e70d5da43233c4e99ade946f74825"
+    },
+    {
+      "service_id": "S04",
+      "service": "Founder ghostwriting and editorial production",
+      "skill": "copywriting",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "fd5e039eea8b4e47f92ee8adbf47dd56e6a1da12d70789ca05386604a3c062a8"
+    },
+    {
+      "service_id": "S04",
+      "service": "Founder ghostwriting and editorial production",
+      "skill": "copy-editing",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "9b5a20be3dc5513c8f0b4f4c4960857e4d28ed83698a5b33c8dde9dc75a47bf6"
+    },
+    {
+      "service_id": "S04",
+      "service": "Founder ghostwriting and editorial production",
+      "skill": "humanize-writing",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "dcd968cf934abb467197356a023db4b51f70543b91c9bb672892b866a6ba7099"
+    },
+    {
+      "service_id": "S04",
+      "service": "Founder ghostwriting and editorial production",
+      "skill": "human-like-rewrite-with-fact-preservation",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "6ee209105cac1c2f46e8212699e9625dffc789280dc3fbbb37ad6c4468a3a209"
+    },
+    {
+      "service_id": "S04",
+      "service": "Founder ghostwriting and editorial production",
+      "skill": "eu-ai-saas-linkedin-services",
+      "status": "installed wrapper; exact reviewed/scanned copy",
+      "sha256": "6dfa51e067821d78c0ac254633df4ece37df2cfadeadba373ba6816f1d4e9fa3"
+    },
+    {
+      "service_id": "S05",
+      "service": "Visual identity and LinkedIn design",
+      "skill": "brandkit",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "b0c4837e1bd140ca816ae54948754ddd2ac1e2a4d3619363777a80caf00b2ede"
+    },
+    {
+      "service_id": "S05",
+      "service": "Visual identity and LinkedIn design",
+      "skill": "brand-guidelines",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "1120b3769e2985cefb3d25be981b1f914abeba57ae079b83c20c666c164fa9fe"
+    },
+    {
+      "service_id": "S05",
+      "service": "Visual identity and LinkedIn design",
+      "skill": "figma:figma-use",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "afa9c4ae068a18b93e4914b2d224180ace113db7713dd66f4df397f16ba9c4b4"
+    },
+    {
+      "service_id": "S05",
+      "service": "Visual identity and LinkedIn design",
+      "skill": "figma:figma-generate-design",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "45d2b97103bdeb31cb2744fca2c79bcefb659c88faca626bea30ec2f9342dcc9"
+    },
+    {
+      "service_id": "S05",
+      "service": "Visual identity and LinkedIn design",
+      "skill": "design-system-from-reference",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "05fe9a48a46ab07840a6f65c4265e4a8ac55014a276b8e79f4a0effab4fc0986"
+    },
+    {
+      "service_id": "S05",
+      "service": "Visual identity and LinkedIn design",
+      "skill": "canvas-design",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "a1f288079624402f30682753c1d43920b6664785698d21d3e7aa197450a6448b"
+    },
+    {
+      "service_id": "S05",
+      "service": "Visual identity and LinkedIn design",
+      "skill": "imagegen",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba"
+    },
+    {
+      "service_id": "S05",
+      "service": "Visual identity and LinkedIn design",
+      "skill": "fal:fal-prompting",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "1abef2710f2fd16138b70cbd02999e102ab1a676dc26a669429f752f6949b6f2"
+    },
+    {
+      "service_id": "S05",
+      "service": "Visual identity and LinkedIn design",
+      "skill": "accessibility",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "267fb2a0707d6142f2871f22688203a42ba21291a2aa200fb740936e41362b5d"
+    },
+    {
+      "service_id": "S06",
+      "service": "Founder video scripting and production",
+      "skill": "remotion:remotion-best-practices",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "d1890bd78db7f02673359c9a1078a6a31666a196c0ba513be7bf109fc68cf7df"
+    },
+    {
+      "service_id": "S06",
+      "service": "Founder video scripting and production",
+      "skill": "remotion:remotion-captions",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "528b8de50d6793d2c5f794767e06a118d6863a67ae908eb9eadfa44a94943abd"
+    },
+    {
+      "service_id": "S06",
+      "service": "Founder video scripting and production",
+      "skill": "remotion:remotion-render",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "311a257f351e4e57b42777749827f770fdf2d0b606d29c6cfb75b74a163aa5c8"
+    },
+    {
+      "service_id": "S06",
+      "service": "Founder video scripting and production",
+      "skill": "content-engine-motion-review",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "ad5531bbff2e2e6f2a6d7ad576d911d1545b953a5cf6ed9f6b153266d43219ef"
+    },
+    {
+      "service_id": "S06",
+      "service": "Founder video scripting and production",
+      "skill": "fal:storytelling",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "3b7556c78459e63ddd18606ce61422fc43adcdda8f586e9e9f31f588c311d0e1"
+    },
+    {
+      "service_id": "S06",
+      "service": "Founder video scripting and production",
+      "skill": "fal:cinematography",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "593da1228f548b61338cca965dc6b87706933136200df2c374e82f24e0a2f292"
+    },
+    {
+      "service_id": "S06",
+      "service": "Founder video scripting and production",
+      "skill": "eu-ai-saas-linkedin-services",
+      "status": "installed wrapper; exact reviewed/scanned copy",
+      "sha256": "6dfa51e067821d78c0ac254633df4ece37df2cfadeadba373ba6816f1d4e9fa3"
+    },
+    {
+      "service_id": "S06",
+      "service": "Founder video scripting and production",
+      "skill": "copy-editing",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "9b5a20be3dc5513c8f0b4f4c4960857e4d28ed83698a5b33c8dde9dc75a47bf6"
+    },
+    {
+      "service_id": "S07",
+      "service": "Publishing and community support",
+      "skill": "social",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "7a7a43a82cde2c0819b5e2530953b0bb6da1ddc20a74281afede587a7ba92461"
+    },
+    {
+      "service_id": "S07",
+      "service": "Publishing and community support",
+      "skill": "community-marketing",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "e4c4a21e82a04e8ef6e2845fa34ebaf5512ba59ae1c9c74d8caa9f045628f4da"
+    },
+    {
+      "service_id": "S07",
+      "service": "Publishing and community support",
+      "skill": "copy-editing",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "9b5a20be3dc5513c8f0b4f4c4960857e4d28ed83698a5b33c8dde9dc75a47bf6"
+    },
+    {
+      "service_id": "S07",
+      "service": "Publishing and community support",
+      "skill": "sales-enablement",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "d30008d34e6a314b422e0a35cacf38aea39d39d2c48683e1ef6edcbdfca30ebd"
+    },
+    {
+      "service_id": "S07",
+      "service": "Publishing and community support",
+      "skill": "agent-browser",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "00709861067d0cbb634609778b1be0469de6d6cef5293fcd24cbd469faaae42c"
+    },
+    {
+      "service_id": "S08",
+      "service": "LinkedIn advertising and creative testing",
+      "skill": "eu-ai-saas-linkedin-services",
+      "status": "installed wrapper; exact reviewed/scanned copy",
+      "sha256": "6dfa51e067821d78c0ac254633df4ece37df2cfadeadba373ba6816f1d4e9fa3"
+    },
+    {
+      "service_id": "S08",
+      "service": "LinkedIn advertising and creative testing",
+      "skill": "analytics",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "59aa734aeae52d084239fcb6e40565e173bf8a1fc00b97a51455291340d41e90"
+    },
+    {
+      "service_id": "S08",
+      "service": "LinkedIn advertising and creative testing",
+      "skill": "ab-testing",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "d10afccf07cc362053d8850c138cd91b79b1ed200b1222466e5ab3df1c184928"
+    },
+    {
+      "service_id": "S08",
+      "service": "LinkedIn advertising and creative testing",
+      "skill": "cro",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "199016bec3b44bc6a7507b111b6028f6550cc852cd54c7d0df789f15d6f814c4"
+    },
+    {
+      "service_id": "S08",
+      "service": "LinkedIn advertising and creative testing",
+      "skill": "conversion-landing-page-audit",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "e77cae718e107000ec760ba72baec343ddc5e10b0e81e314570ccd934be8396a"
+    },
+    {
+      "service_id": "S09",
+      "service": "Search visibility, SEO and AI discoverability",
+      "skill": "seo-audit",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "3b03a2e07578e9964acac0b6907ae343a904c6547bfefe779ba326db5eedd1cb"
+    },
+    {
+      "service_id": "S09",
+      "service": "Search visibility, SEO and AI discoverability",
+      "skill": "ai-seo",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "a757abe9e8863ee7f4288041982cd30f4efa0b6efade2b8cd0fbd915dff2d928"
+    },
+    {
+      "service_id": "S09",
+      "service": "Search visibility, SEO and AI discoverability",
+      "skill": "schema",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "d8b7aa7bcd9727a87fb5470a6c9ee252b99a7ccb84f637d7c67c5d155b507e0b"
+    },
+    {
+      "service_id": "S09",
+      "service": "Search visibility, SEO and AI discoverability",
+      "skill": "content-strategy",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "0611532b2a0dce8d0d5b783c99bba10d13a6d5fd7eecd829974012f74ea33258"
+    },
+    {
+      "service_id": "S09",
+      "service": "Search visibility, SEO and AI discoverability",
+      "skill": "programmatic-seo",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "15cb5979cab5263ede902a830e03342869256ece17905bff240eef498e27cde1"
+    },
+    {
+      "service_id": "S09",
+      "service": "Search visibility, SEO and AI discoverability",
+      "skill": "copywriting",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "fd5e039eea8b4e47f92ee8adbf47dd56e6a1da12d70789ca05386604a3c062a8"
+    },
+    {
+      "service_id": "S09",
+      "service": "Search visibility, SEO and AI discoverability",
+      "skill": "analytics",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "59aa734aeae52d084239fcb6e40565e173bf8a1fc00b97a51455291340d41e90"
+    },
+    {
+      "service_id": "S10",
+      "service": "Measurement and commercial learning",
+      "skill": "analytics",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "59aa734aeae52d084239fcb6e40565e173bf8a1fc00b97a51455291340d41e90"
+    },
+    {
+      "service_id": "S10",
+      "service": "Measurement and commercial learning",
+      "skill": "eu-ai-saas-linkedin-services",
+      "status": "installed wrapper; exact reviewed/scanned copy",
+      "sha256": "6dfa51e067821d78c0ac254633df4ece37df2cfadeadba373ba6816f1d4e9fa3"
+    },
+    {
+      "service_id": "S10",
+      "service": "Measurement and commercial learning",
+      "skill": "ab-testing",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "d10afccf07cc362053d8850c138cd91b79b1ed200b1222466e5ab3df1c184928"
+    },
+    {
+      "service_id": "S10",
+      "service": "Measurement and commercial learning",
+      "skill": "data-analytics:design-kpis",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "6f3f3841371e4269d8bc6be406537145de3e86d7ca8d34d65af21548dfff2d46"
+    },
+    {
+      "service_id": "S10",
+      "service": "Measurement and commercial learning",
+      "skill": "data-analytics:metric-diagnostics",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "e3a591bf256a84cfdb59efdc4ff5a1e6938d7e2a2a42f43144e5ad204bf054b2"
+    },
+    {
+      "service_id": "S10",
+      "service": "Measurement and commercial learning",
+      "skill": "data-analytics:visualize-data",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "91868fdcc816e487ad65f188c4911ce98f400692cd5024157e7ddcb37cc1912b"
+    },
+    {
+      "service_id": "S10",
+      "service": "Measurement and commercial learning",
+      "skill": "data-quality-frameworks",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "58e61444165ba7caa572fb7f1ba2d23cfd5038cfa6699f86b5648e7fcb71d34d"
+    },
+    {
+      "service_id": "S11",
+      "service": "Content operations and agent workflows",
+      "skill": "eu-ai-saas-linkedin-services",
+      "status": "installed wrapper; exact reviewed/scanned copy",
+      "sha256": "6dfa51e067821d78c0ac254633df4ece37df2cfadeadba373ba6816f1d4e9fa3"
+    },
+    {
+      "service_id": "S11",
+      "service": "Content operations and agent workflows",
+      "skill": "backend-api-architecture",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "e43aa3524c219dd200d1cfc0636b1802c040024e8723c54719829423bf07eeb2"
+    },
+    {
+      "service_id": "S11",
+      "service": "Content operations and agent workflows",
+      "skill": "data-architecture-pipelines",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "527d8df9ad6a73aafe1d46b45012170cf2be19d236f2a865684be1e7cef06443"
+    },
+    {
+      "service_id": "S11",
+      "service": "Content operations and agent workflows",
+      "skill": "knowledge-memory-routing",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "649b52e13c7275e743b6c60a5a454eb62ad928c2dfb622cce8c617938fa46a78"
+    },
+    {
+      "service_id": "S11",
+      "service": "Content operations and agent workflows",
+      "skill": "agent-handoff-document",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "c1ca38ce89b3faec4636c5b49bb9eb24537145ea12228dbee0e50151f064c0f7"
+    },
+    {
+      "service_id": "S01",
+      "service": null,
+      "skill": "founder-content-writing",
+      "status": "installed wrapper; exact reviewed/scanned copy",
+      "sha256": "d54d900e61f28ecb8e80684d2aa3ec2dd69f728efed2f30f822a8c652943661b"
+    },
+    {
+      "service_id": "S02",
+      "service": null,
+      "skill": "founder-content-writing",
+      "status": "installed wrapper; exact reviewed/scanned copy",
+      "sha256": "d54d900e61f28ecb8e80684d2aa3ec2dd69f728efed2f30f822a8c652943661b"
+    },
+    {
+      "service_id": "S03",
+      "service": null,
+      "skill": "founder-content-writing",
+      "status": "installed wrapper; exact reviewed/scanned copy",
+      "sha256": "d54d900e61f28ecb8e80684d2aa3ec2dd69f728efed2f30f822a8c652943661b"
+    },
+    {
+      "service_id": "S04",
+      "service": null,
+      "skill": "founder-content-writing",
+      "status": "installed wrapper; exact reviewed/scanned copy",
+      "sha256": "d54d900e61f28ecb8e80684d2aa3ec2dd69f728efed2f30f822a8c652943661b"
+    },
+    {
+      "service_id": "S06",
+      "service": null,
+      "skill": "founder-content-writing",
+      "status": "installed wrapper; exact reviewed/scanned copy",
+      "sha256": "d54d900e61f28ecb8e80684d2aa3ec2dd69f728efed2f30f822a8c652943661b"
+    },
+    {
+      "service_id": "S08",
+      "service": null,
+      "skill": "founder-content-writing",
+      "status": "installed wrapper; exact reviewed/scanned copy",
+      "sha256": "d54d900e61f28ecb8e80684d2aa3ec2dd69f728efed2f30f822a8c652943661b"
+    },
+    {
+      "service_id": "S09",
+      "service": null,
+      "skill": "founder-content-writing",
+      "status": "installed wrapper; exact reviewed/scanned copy",
+      "sha256": "d54d900e61f28ecb8e80684d2aa3ec2dd69f728efed2f30f822a8c652943661b"
+    },
+    {
+      "service_id": "S05",
+      "service": null,
+      "skill": "brand-system-delivery",
+      "status": "installed wrapper; exact reviewed/scanned copy",
+      "sha256": "5bd3f48b7cc538b614e2f02d2157336e1da3e489e43e93c1e23ff8e4b1492c0b"
+    },
+    {
+      "service_id": "S06",
+      "service": null,
+      "skill": "brand-system-delivery",
+      "status": "installed wrapper; exact reviewed/scanned copy",
+      "sha256": "5bd3f48b7cc538b614e2f02d2157336e1da3e489e43e93c1e23ff8e4b1492c0b"
+    },
+    {
+      "service_id": "S09",
+      "service": null,
+      "skill": "brand-system-delivery",
+      "status": "installed wrapper; exact reviewed/scanned copy",
+      "sha256": "5bd3f48b7cc538b614e2f02d2157336e1da3e489e43e93c1e23ff8e4b1492c0b"
+    },
+    {
+      "service_id": "S11",
+      "service": null,
+      "skill": "brand-system-delivery",
+      "status": "installed wrapper; exact reviewed/scanned copy",
+      "sha256": "5bd3f48b7cc538b614e2f02d2157336e1da3e489e43e93c1e23ff8e4b1492c0b"
+    },
+    {
+      "service_id": "S09",
+      "service": null,
+      "skill": "site-architecture",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "a47f693c6a4f45db89276d8c341b3aa3054090cc8002dd4a2635448d7d152492"
+    },
+    {
+      "service_id": "S05",
+      "service": null,
+      "skill": "design-system-ui-builder",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "dd9ba07057fe85d855be75d1e3ac4c0cd1f34560681f7e3351a3b85634284867"
+    },
+    {
+      "service_id": "S11",
+      "service": null,
+      "skill": "design-system-ui-builder",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "dd9ba07057fe85d855be75d1e3ac4c0cd1f34560681f7e3351a3b85634284867"
+    },
+    {
+      "service_id": "S05",
+      "service": null,
+      "skill": "frontend-design",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "b81e2ff87ed8fa4d6c377ccb127a7254c9e6a77e3ae94f21e6b514f7bb2945a0"
+    },
+    {
+      "service_id": "S11",
+      "service": null,
+      "skill": "frontend-design",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "b81e2ff87ed8fa4d6c377ccb127a7254c9e6a77e3ae94f21e6b514f7bb2945a0"
+    },
+    {
+      "service_id": "S11",
+      "service": null,
+      "skill": "accessibility",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "267fb2a0707d6142f2871f22688203a42ba21291a2aa200fb740936e41362b5d"
+    },
+    {
+      "service_id": "S05",
+      "service": null,
+      "skill": "browser-qa-performance-a11y",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "d69a7dfba1df789a23d2f285dba19a42e9bf39c7bb883661fe3571a6367129da"
+    },
+    {
+      "service_id": "S11",
+      "service": null,
+      "skill": "browser-qa-performance-a11y",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "d69a7dfba1df789a23d2f285dba19a42e9bf39c7bb883661fe3571a6367129da"
+    },
+    {
+      "service_id": "S11",
+      "service": null,
+      "skill": "figma-use",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "afa9c4ae068a18b93e4914b2d224180ace113db7713dd66f4df397f16ba9c4b4"
+    },
+    {
+      "service_id": "S09",
+      "service": null,
+      "skill": "browser-qa-performance-a11y",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "d69a7dfba1df789a23d2f285dba19a42e9bf39c7bb883661fe3571a6367129da"
+    },
+    {
+      "service_id": "S09",
+      "service": null,
+      "skill": "accessibility",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "267fb2a0707d6142f2871f22688203a42ba21291a2aa200fb740936e41362b5d"
+    },
+    {
+      "service_id": "S05",
+      "service": null,
+      "skill": "figma-create-new-file",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "23f429203bd57f186905b2523d4ff8bdf10d3b85b39fc7eed4786097d81f1adc"
+    },
+    {
+      "service_id": "S11",
+      "service": null,
+      "skill": "figma-create-new-file",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "23f429203bd57f186905b2523d4ff8bdf10d3b85b39fc7eed4786097d81f1adc"
+    },
+    {
+      "service_id": "S05",
+      "service": null,
+      "skill": "figma-generate-library",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "7f42103c59fc181d7081404a56545f321c458d97f5ee7f7a0ab2af75ea69a85f"
+    },
+    {
+      "service_id": "S11",
+      "service": null,
+      "skill": "figma-generate-library",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "7f42103c59fc181d7081404a56545f321c458d97f5ee7f7a0ab2af75ea69a85f"
+    },
+    {
+      "service_id": "S06",
+      "service": null,
+      "skill": "figma-use",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "afa9c4ae068a18b93e4914b2d224180ace113db7713dd66f4df397f16ba9c4b4"
+    },
+    {
+      "service_id": "S05",
+      "service": null,
+      "skill": "figma-code-connect-components",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "0f19edad8aed28063a3517c419fbcbef5421d024f189fd02a17fae25093ec69d"
+    },
+    {
+      "service_id": "S11",
+      "service": null,
+      "skill": "figma-code-connect-components",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "0f19edad8aed28063a3517c419fbcbef5421d024f189fd02a17fae25093ec69d"
+    },
+    {
+      "service_id": "S09",
+      "service": null,
+      "skill": "frontend-design",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "b81e2ff87ed8fa4d6c377ccb127a7254c9e6a77e3ae94f21e6b514f7bb2945a0"
+    },
+    {
+      "service_id": "S09",
+      "service": null,
+      "skill": "design-system-ui-builder",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "dd9ba07057fe85d855be75d1e3ac4c0cd1f34560681f7e3351a3b85634284867"
+    },
+    {
+      "service_id": "S06",
+      "service": null,
+      "skill": "imagegen",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "681ddb4ad6d06a2acc78a3535b583f8d0c1ea800ecda3d56370d3310fd2cd4ba"
+    },
+    {
+      "service_id": "S05",
+      "service": null,
+      "skill": "remotion",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "d1890bd78db7f02673359c9a1078a6a31666a196c0ba513be7bf109fc68cf7df"
+    },
+    {
+      "service_id": "S05",
+      "service": null,
+      "skill": "motion-review",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "ad5531bbff2e2e6f2a6d7ad576d911d1545b953a5cf6ed9f6b153266d43219ef"
+    },
+    {
+      "service_id": "S05",
+      "service": null,
+      "skill": "design-taste-frontend",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "aa194351b246b8b4799099d4ed7b033d29eab6e6e3d58d8d2172978be7b3ec89"
+    },
+    {
+      "service_id": "S05",
+      "service": null,
+      "skill": "gpt-taste",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "2e64c269953f2656c21bf5a0fa6b4568e82fe0c72b36e8f84758e090349966a5"
+    },
+    {
+      "service_id": "S05",
+      "service": null,
+      "skill": "awesome-design-md",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "8ab91c00a47410a2842f3c7907974e4d1636abdebd3bc2c6689eb0fc3555d1fc"
+    },
+    {
+      "service_id": "S01",
+      "service": null,
+      "skill": "agent-reach",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "c03e28899e5a1a5b4956fa88ac8aade1b1f0d424cd01cfa9caa72702813391f5"
+    },
+    {
+      "service_id": "S05",
+      "service": null,
+      "skill": "agent-reach",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "c03e28899e5a1a5b4956fa88ac8aade1b1f0d424cd01cfa9caa72702813391f5"
+    },
+    {
+      "service_id": "S09",
+      "service": null,
+      "skill": "agent-reach",
+      "status": "existing file verified; task-specific read required; not reinstalled/re-audited in v2",
+      "sha256": "c03e28899e5a1a5b4956fa88ac8aade1b1f0d424cd01cfa9caa72702813391f5"
+    }
+  ],
+  "portability": "Skill names/tasks are portable guidance. Historical local installation/hash receipts do not establish fresh-clone availability, license redistribution, current product entitlement or connected accounts. Global installedskilldirectories are not copied.",
+  "current_research_tools": [
+    {
+      "name": "Keyless Exa via mcporter",
+      "state": "Tested; free MCP quota hit during v6, search stopped. No numeric quota guaranteed."
+    },
+    {
+      "name": "Python/BeautifulSoup/SQLite",
+      "state": "Portable code and synthetic offline tests included; use an existing supported environment."
+    },
+    {
+      "name": "FFmpeg/ffprobe",
+      "state": "Existing local media processing; portable PATH/config discovery. No binaries installed by repo."
+    },
+    {
+      "name": "Cached local Whisper",
+      "state": "Existing local model decode; no model weights distributed or downloaded. Machine output is not verified listening."
+    },
+    {
+      "name": "Native supervisor",
+      "state": "Semantic and actual visual evidence review; no automatic future wake."
+    },
+    {
+      "name": "Native LinkedIn search",
+      "state": "Optional human seed route; no account/cookie integration."
+    },
+    {
+      "name": "ComfyUI",
+      "state": "Local endpoint unavailable; no video-understanding backend claimed."
+    },
+    {
+      "name": "Agent Reach",
+      "state": "No verified active LinkedIn backend; not an operational dependency."
+    }
+  ]
+}

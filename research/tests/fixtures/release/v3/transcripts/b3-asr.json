@@ -1,0 +1,23 @@
+{
+  "post_id": "urn:li:activity:7000000000000000003",
+  "asset_id": "urn:li:activity:7000000000000000003:video:0",
+  "origin": "local_cached_whisper_ASR",
+  "text": " Alice talks about demand generation. You You You You You",
+  "segments": [
+    {
+      "id": 0,
+      "start": 0.0,
+      "end": 70.0,
+      "text": " Alice talks about demand generation."
+    },
+    {
+      "id": 1,
+      "start": 70.0,
+      "end": 76.36,
+      "text": " You You You You You"
+    }
+  ],
+  "source_video_sha256": "7a29794dcc958f3ee5b6f7eec7c27e6a96247eb7d4e1a346f08cfbcdf351bd0d",
+  "audio_verified": false,
+  "review_status": "transcript_available_not_audio_verified"
+}

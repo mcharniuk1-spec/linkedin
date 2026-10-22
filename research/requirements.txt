@@ -1,0 +1,2 @@
+# Core capture/parser dependency. No installation is performed by this repository.
+beautifulsoup4==4.15.0

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "export_date": "2026-10-22",
+  "source": "Owner-authorized local LinkedIn research implementation v0.5.0, v6 source snapshot. Only hashes and component-relative identifiers are published.",
+  "source_component_sha256": {
+    "pipeline/cycle.py": "86bc5a588fad9c3b55e503ea13e8cdc33dc673c17dc1f575fa1010da1fd619d7",
+    "pipeline/normalizer.py": "8e49f97c8274a8b47d74907e7221f88e4e9f79361683fdbf5b7ca91a8318f330",
+    "pipeline/asr_worker.py": "910401d6badc9f84248bb4e6651023fd1cdee46a99f6249a8647bcc0a27fc84e",
+    "pipeline/transcript_qa.py": "d00cac0ace4c91a8bbb5eecefe0ed010025303b7fb81c2f2be97d970ed3e5e99",
+    "pipeline/prepare_evidence.py": "859034a5a1c37c11f197247343990bceceef28763888aa17e35396e151edbd78",
+    "pipeline/config.json": "4997df28e41170e177bdc44ee6ca484862c003f4b2a80d1219bffccd46728830",
+    "pipeline/mcporter.json": "d4a05da1ae4752adc40190598cc361dbca390ad90ae8da824c94404e4a9c98ff",
+    "release.py": "3b4a85f6db0c22deb7ca78feece5ff7b5f5520908400c53bd882dc21218ae3c0",
+    "performance.py": "507f205deecfd7126d8334efee8b90ffe4f4b83d7142dda7aab8b262484e90c6",
+    "viewer-template.html": "bc4766ba3b7efad547fbfaef92b2ec275681d791f5fee2e8a3cb8b600f603276",
+    "tests/test_cycle.py": "96a4059ad6df9f2734581e41ee8e5382179515ec597e5505ea8f822d9d1bea7d",
+    "tests/test_release.py": "6989d40c090f3aa1d3125b299215628aeb3bbbb942f9f1661b9c0f30a107368d",
+    "tests/test_transcript_qa.py": "b54a52d1f5fa11e9c144699802afc83f54a38ceb6aae88b304e33b5cdd8924de",
+    "tests/test_performance.py": "50ad7f22d9458d04a246d29b53e43bb7a6f45d00ce4af68b6e055c435f8bad31"
+  },
+  "export_changes": [
+    "Configuration paths resolve from config directory; NDJSON/snapshot raw paths resolve from their source run.",
+    "Existing FFmpeg/ffprobe tools resolve through config or PATH; missing tools fail without installation.",
+    "Existing cached Whisper interpreter/model can be supplied via local config/environment; downloads remain disabled.",
+    "Empty sample corpus/query/watchlist and inactive schedule/wake defaults.",
+    "Release base defaults to synthetic example, with explicit base required in documented real-run commands.",
+    "Original local-corpus test dependencies replaced by original synthetic fixtures; assertions retained with clearly synthetic author/ID substitutions.",
+    "Eight focused config/tool/relative-source/default-off checks added."
+  ],
+  "test_parity_limit": "The147retained behavioral tests now use synthetic equivalent selector shapes. They do not reproduce or certify every captured production page layout.",
+  "source_evidence_not_exported": [
+    "Captured HTML and full third-party posts",
+    "Actual photo/video/caption files",
+    "Private enquiry workbook and device configuration",
+    "Canonical private operational SQLite or source paths"
+  ],
+  "claims": "Portable implementation and executed offline synthetic tests only; no connected account, provider, unrestricted LinkedIn access, media reuse rights or unattended service claim."
+}

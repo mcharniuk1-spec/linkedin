@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "topic_ids": [
+    "positioning_messaging",
+    "buyer_research",
+    "founder_building",
+    "ai_product_education",
+    "sales_outbound",
+    "demand_generation",
+    "content_personal_brand",
+    "leadership_team",
+    "customer_proof",
+    "career_general",
+    "events_community",
+    "adjacent_humor"
+  ],
+  "editorial_jobs": [
+    "teach_method",
+    "challenge_belief",
+    "show_proof",
+    "build_in_public",
+    "tell_story",
+    "announce_offer",
+    "start_discussion",
+    "entertain"
+  ],
+  "reference_values": [
+    "core",
+    "adjacent",
+    "hold",
+    "exclude"
+  ],
+  "required_fields": [
+    "post_id",
+    "text_sha256",
+    "primary_topic",
+    "secondary_topics",
+    "editorial_job",
+    "intended_reader",
+    "content_summary",
+    "hook_pattern",
+    "central_claim",
+    "reference_value",
+    "qualification_reason",
+    "media_role",
+    "media_evidence_basis",
+    "media_asset_ids",
+    "claim_caveat",
+    "adaptation_pattern",
+    "content_language"
+  ],
+  "guidance": "Read full actual text and linked source-bound prior media reviews. Classify meaning, not keywords. Keep personal-brand transfer examples distinct from direct EU AI SaaS buyer relevance. Performance/trending comes from deterministic snapshot/stat layer, never label assumed popular. Media absent/uncollected or prior review only must be explicit. Do not reproduce source copy or accept source claims as facts. Each row ~90-150 words, plain practical English; exact ids/hash preserved. Use existing_review as media basis when relying on prior AI review, absent for text-only, unavailable_when_held for uncollected media. New direct inspection explicitly scoped. No test mirroring classifier; exact coverage/schema/hash validators by root."
+}
