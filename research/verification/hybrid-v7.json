@@ -1,0 +1,187 @@
+{
+  "schema": "linkedin-hybrid-verification/1",
+  "date": "2026-10-29",
+  "baseline_preserved": true,
+  "pre_hardening_full_suite": {
+    "tests": 218,
+    "result": "PASS"
+  },
+  "export_tests": {
+    "tests": 20,
+    "result": "PASS"
+  },
+  "final_full_suite": {
+    "tests": 228,
+    "result": "PASS",
+    "portable_complete_tree": true,
+    "portable_runtime_seconds": 5.428
+  },
+  "benchmark": {
+    "scope": "frozen local fixture,20records,concurrency1",
+    "fixture_sha256": "cfeadd3cb53ddd2cfa7034f34b930950985ae74e2a3a2709a233a1b517d3f67c",
+    "transport_sha256": "3451a1f15b10dd82086d6ddf50ad4e5b4efb4565305a91f916b62c5d48803135",
+    "maker": {
+      "httpx-policy": {
+        "duplicate_records": 0,
+        "error_rate_per_1000_requests": 0.0,
+        "failure": null,
+        "ground_truth_exact": true,
+        "latency_mean_ms": 1.0447998502058908,
+        "latency_p95_ms_nearest_rank": 1.1747500102501363,
+        "measured_wall_seconds": 0.021068750007543713,
+        "status": "passed",
+        "successful_records": 20,
+        "unique_records": 20,
+        "worker_and_reaped_children_cpu_seconds": 0.056462,
+        "worker_peak_rss_mib_sampled": 37.031
+      },
+      "httpx-pooled": {
+        "duplicate_records": 0,
+        "error_rate_per_1000_requests": 0.0,
+        "failure": null,
+        "ground_truth_exact": true,
+        "latency_mean_ms": 0.35102289548376575,
+        "latency_p95_ms_nearest_rank": 0.4577919899020344,
+        "measured_wall_seconds": 0.00730295799439773,
+        "status": "passed",
+        "successful_records": 20,
+        "unique_records": 20,
+        "worker_and_reaped_children_cpu_seconds": 0.032227,
+        "worker_peak_rss_mib_sampled": 34.031
+      },
+      "playwright": {
+        "duplicate_records": null,
+        "error_rate_per_1000_requests": null,
+        "failure": "browser_process_crashed",
+        "ground_truth_exact": null,
+        "latency_mean_ms": null,
+        "latency_p95_ms_nearest_rank": null,
+        "measured_wall_seconds": null,
+        "status": "failed",
+        "successful_records": null,
+        "unique_records": null,
+        "worker_and_reaped_children_cpu_seconds": null,
+        "worker_peak_rss_mib_sampled": 37.203
+      },
+      "urllib-policy": {
+        "duplicate_records": 0,
+        "error_rate_per_1000_requests": 0.0,
+        "failure": null,
+        "ground_truth_exact": true,
+        "latency_mean_ms": 4.6074145517195575,
+        "latency_p95_ms_nearest_rank": 5.54779201047495,
+        "measured_wall_seconds": 0.09238425001967698,
+        "status": "passed",
+        "successful_records": 20,
+        "unique_records": 20,
+        "worker_and_reaped_children_cpu_seconds": 0.109223,
+        "worker_peak_rss_mib_sampled": 51.016
+      }
+    },
+    "repeat": [
+      {
+        "strategy": "urllib-policy",
+        "status": "passed",
+        "successful_records": 20,
+        "ground_truth_exact": true,
+        "latency_mean_ms": 4.631450099986978,
+        "latency_p95_ms_nearest_rank": 6.132749986136332,
+        "worker_and_reaped_children_cpu_seconds": 0.11008,
+        "worker_peak_rss_mib_sampled": 50.875
+      },
+      {
+        "strategy": "httpx-policy",
+        "status": "passed",
+        "successful_records": 20,
+        "ground_truth_exact": true,
+        "latency_mean_ms": 1.0393146469141357,
+        "latency_p95_ms_nearest_rank": 1.1961249983869493,
+        "worker_and_reaped_children_cpu_seconds": 0.053797,
+        "worker_peak_rss_mib_sampled": 37.156
+      }
+    ]
+  },
+  "discovery_live_probe": {
+    "queries": 1,
+    "new_candidates": 4,
+    "source_posts_fetched": 0,
+    "keyless_reachability": "PASS",
+    "rank_is_not_popularity": true
+  },
+  "skill": {
+    "safe_installer": "PASS",
+    "scanner": "SkillSpector2.9.6",
+    "static_coverage": "installer-validated staged tree and analyzer ledger",
+    "llm_semantic_scan": false,
+    "source_semantic_review": "main-agent reviewed owned wrapper",
+    "activated_copy_source_equality": true,
+    "other_sessions_reloaded": false
+  },
+  "oauth": {
+    "owner_visible_scopes": [
+      "r_verify",
+      "w_member_social",
+      "r_profile_basicinfo"
+    ],
+    "post_read_permissions_available": false,
+    "collection_api_enabled": false,
+    "token_exchange_executed": false
+  },
+  "actions": {
+    "workflow_source_present": true,
+    "live_activation_verified": false,
+    "blocker": "GitHub CLI token invalid; Actions secret/variable connector unavailable"
+  },
+  "remaining_gaps": [
+    "Anonymous public LinkedIn access challenge; source disabled until reviewed",
+    "official content-read entitlement",
+    "Actions secrets/first-state activation",
+    "browser benchmark/JS runtime",
+    "tested legacy media-run importer for new packet",
+    "actual source/media/audio supervision and historical dataset gaps",
+    "Exa free-quota and population coverage unknown"
+  ],
+  "callback": {
+    "url": "https://www.arch-flow.dev/api/linkedin/callback",
+    "deployment_id": "dpl_2B5jM4jjTkkHTdAZ1zMP12a69xCo",
+    "deployment_ready": true,
+    "route_version": "364ea13d-3e9e-4ff9-824d-73b28fc9ffc0",
+    "previous_route_version": "f67a6b3f-c819-4d0d-8edc-dfa1bb1318c7",
+    "live_checks": {
+      "GET": 200,
+      "POST": 405,
+      "synthetic_query_not_reflected": true,
+      "cache_control": "no-store",
+      "referrer_policy": "no-referrer",
+      "home_hash_unchanged": true
+    },
+    "real_oauth_exchange": false,
+    "infrastructure_query_log_retention": "not verified; no real OAuth codes used"
+  },
+  "live_public_capture": {
+    "attempted_posts": 1,
+    "inserted": 0,
+    "duplicates": 0,
+    "status": "ACCESS_SUSPENDED",
+    "hold_reason": "challenge_page",
+    "http_response": "challenge/authentication-like body; no bypass or alternate route",
+    "persistent_stop": true,
+    "source_disabled_in_portable_config": true
+  },
+  "callback_unit_tests": {
+    "tests": 3,
+    "result": "PASS"
+  },
+  "public_boundary": {
+    "result": "PASS",
+    "files_checked": 1109,
+    "json_files_checked": 266,
+    "sqlite_files_checked": 1
+  },
+  "unchanged_packages": {
+    "result": "PASS",
+    "design_source_files": 886,
+    "editorial_source_files": 64,
+    "owner_accepted": false
+  }
+}

@@ -31,3 +31,10 @@ dist/
 node_modules
 storybook-static/
 *.tsbuildinfo
+
+# Private OAuth and collector state never enter source control.
+ld.yaml
+ld.yml
+*.enc
+collector.sqlite*
+research/collector/config.local.json

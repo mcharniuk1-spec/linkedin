@@ -1,3 +1,7 @@
+# Hybrid collector update —29October2026
+
+Implemented: pooled HTTPX/static/RSS/JSON adapters, optional permission-gated Scrapy/Playwright, read-only OAuth/API scaffolding, durable SQLite deduplication, encrypted Actions state and twice-daily Sofia workflow, manual analysis packet/skill and a bounded writing graph. See [audit/plan](docs/HYBRID-AUDIT-AND-PLAN.md), [operations](docs/HYBRID-COLLECTOR.md), [access status](research/collector/linkedin-access-status.json). Schedule activation and official API access must be read from the final verification record; source files alone prove neither. The current app has no approved post-read scopes. Existing V6 research, design and editorial releases below remain unchanged.
+
 # Consolidated current state — 22 October 2026
 
 The owner requested consolidation of the parallel-agent work and publication of the current source snapshot to `mcharniuk1-spec/linkedin`.

@@ -1,0 +1,5 @@
+# Install only for an explicitly permitted source that requires this adapter.
+# No browser/model downloads happen during the default collection cycle.
+scrapy==2.19.0
+playwright==1.56.0
+psutil==7.1.3

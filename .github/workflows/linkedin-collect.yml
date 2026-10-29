@@ -1,0 +1,77 @@
+name: LinkedIn collection only
+on:
+  schedule:
+    - cron: '0 12,20 * * *'
+      timezone: Europe/Sofia
+  workflow_dispatch:
+    inputs:
+      bootstrap:
+        description: 'First run only: bootstrap known identity hashes if no checkpoint or artifacts exist'
+        type: boolean
+        default: false
+permissions:
+  contents: read
+concurrency:
+  group: linkedin-collection-state
+  cancel-in-progress: false
+jobs:
+  collect:
+    if: vars.COLLECTOR_ENABLED == 'true' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+      actions: write
+    env:
+      COLLECTOR_BOOTSTRAP_ALLOWED: ${{ vars.COLLECTOR_BOOTSTRAP_ALLOWED }}
+      GH_TOKEN: ${{ github.token }}
+      COLLECTOR_STATE_KEY: ${{ secrets.COLLECTOR_STATE_KEY }}
+      LINKEDIN_CLIENT_ID: ${{ secrets.LINKEDIN_CLIENT_ID }}
+      LINKEDIN_CLIENT_SECRET: ${{ secrets.LINKEDIN_CLIENT_SECRET }}
+      LINKEDIN_REDIRECT_URI: ${{ vars.LINKEDIN_REDIRECT_URI }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            research
+            docs
+            datasets
+            scripts
+          sparse-checkout-cone-mode: true
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+      - name: Install bounded collector dependencies
+        run: python -m pip install --require-hashes -r research/collector/requirements.lock
+      - name: Restore authenticated encrypted state
+        id: restore
+        env:
+          FIRST_BOOTSTRAP: ${{ github.event_name == 'workflow_dispatch' && inputs.bootstrap }}
+        run: |
+          args=()
+          if [[ "$FIRST_BOOTSTRAP" == "true" ]]; then args+=(--bootstrap); fi
+          python -m research.collector.ci_state restore "${args[@]}"
+      - name: Discover and collect new records only
+        id: capture
+        timeout-minutes: 13
+        run: python -m research.collector.cli collect --config research/collector/config.json
+      - name: Seal state including partial work and suspensions
+        id: seal
+        if: always() && steps.restore.outcome == 'success'
+        run: python -m research.collector.ci_state seal
+      - name: Upload ciphertext only
+        id: upload
+        if: always() && steps.seal.outcome == 'success'
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: linkedin-private-state-${{ github.run_id }}-${{ github.run_attempt }}
+          path: research/work/state.enc
+          if-no-files-found: error
+          retention-days: 90
+          compression-level: 0
+      - name: Advance checkpoint with compare-and-swap and readback
+        if: always() && steps.upload.outcome == 'success'
+        env:
+          STATE_ARTIFACT_ID: ${{ steps.upload.outputs.artifact-id }}
+        run: python -m research.collector.ci_state publish --artifact-id "$STATE_ARTIFACT_ID"

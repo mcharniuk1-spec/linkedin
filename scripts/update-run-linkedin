@@ -1,0 +1,6 @@
+#!/usr/bin/env sh
+# Explicit manual packet preparation. No network collection or model execution.
+set -eu
+TASK_REPO_ROOT=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+cd "$TASK_REPO_ROOT"
+exec "${PYTHON:-python3}" -m research.collector.cli update-run "$@"

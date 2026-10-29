@@ -1,0 +1,153 @@
+{
+  "schema": "linkedin-hybrid-config/1",
+  "state_dir": "../work/collector",
+  "baseline_seed": "bootstrap-identities.json",
+  "default_transport": "httpx",
+  "max_new_records": 20,
+  "max_candidates": 40,
+  "max_database_bytes": 25165824,
+  "automatic_media_bytes": false,
+  "approved_author_paths": [
+    "/company/ai-for-strategy",
+    "/company/content-revops",
+    "/company/datamaticsbpm",
+    "/company/debtlink",
+    "/company/fullfunnel",
+    "/company/headsupb2b",
+    "/company/keewee-saas-marketing",
+    "/company/smarter-saas-growth",
+    "/in/alex-lieberman",
+    "/in/alicjasmin",
+    "/in/andrei-persh",
+    "/in/annikagrumertklang",
+    "/in/anureet-sekhon",
+    "/in/armand-farrokh",
+    "/in/chrisorlob",
+    "/in/cornelmanu",
+    "/in/david-tarkhanyan-cfa-frm",
+    "/in/derektigges",
+    "/in/devinreed",
+    "/in/divinitymalshe",
+    "/in/finley-topping-570b1a300",
+    "/in/gergana-dragoeva-quievy",
+    "/in/guillaume-moubeche-a026541b2",
+    "/in/hari-prasanna-kumar",
+    "/in/josh-braun",
+    "/in/justwillaitken",
+    "/in/karriem-muhammad",
+    "/in/kelleherdenis",
+    "/in/kimberly-price1",
+    "/in/kushanshekhar",
+    "/in/lindafanaras",
+    "/in/lucy-hall-2068b6392",
+    "/in/manishgkothari",
+    "/in/martinhennigmorrissette",
+    "/in/meir-weichselbaum",
+    "/in/muhammed-shamil-t",
+    "/in/nickmamou",
+    "/in/outboundphd",
+    "/in/retentionadam",
+    "/in/richardvanderblom",
+    "/in/robertjohngough",
+    "/in/shaqib-ansari-179241288",
+    "/in/silkyagarwal",
+    "/in/sohail-ahmad-b2b-marketer",
+    "/in/sonu-k-suman-73546183",
+    "/in/stephenarmenti",
+    "/in/tadavidson41",
+    "/in/vivekavasthi"
+  ],
+  "sources": [
+    {
+      "source_id": "linkedin-public",
+      "adapter": "http",
+      "access_group": "linkedin-public",
+      "enabled": false,
+      "urls": [],
+      "allowed_hosts": [
+        "www.linkedin.com"
+      ],
+      "permitted_methods": [
+        "GET"
+      ],
+      "rate_per_second": 0.5,
+      "concurrency": 2,
+      "timeout_seconds": 18,
+      "max_bytes": 4000000,
+      "max_attempts": 3,
+      "permissions": {
+        "authorization_basis": "Owner-authorized anonymous public research2026-10-29; no login/bypass",
+        "licensing": "reference_only_reuse_unverified",
+        "collection": true
+      },
+      "options": {
+        "linkedin_posts": true
+      },
+      "access_hold": {
+        "reason": "challenge_page",
+        "observed_at": "2026-10-29T10:33:10.981056+00:00",
+        "automatic_resume": false,
+        "required": "Source-backed authorization/access review before re-enabling; do not switch runtimes or tools to evade this stop."
+      }
+    },
+    {
+      "source_id": "linkedin-official",
+      "adapter": "linkedin_api",
+      "access_group": "linkedin-api",
+      "enabled": false,
+      "urls": [],
+      "allowed_hosts": [
+        "api.linkedin.com"
+      ],
+      "permitted_methods": [
+        "GET"
+      ],
+      "rate_per_second": 0.5,
+      "concurrency": 1,
+      "max_bytes": 4000000,
+      "permissions": {
+        "authorization_basis": "Requires real OAuth token, granted read scope and authorized actor",
+        "licensing": "LinkedIn API terms; scope-bound use",
+        "collection": true
+      },
+      "options": {
+        "operation": "posts",
+        "actor_urn": "",
+        "api_version": "202610",
+        "max_pages": 5
+      },
+      "authorized_actors": [],
+      "operations": [
+        "posts"
+      ],
+      "allowed_resources": [],
+      "api_version": "202610",
+      "max_pages": 5
+    }
+  ],
+  "discovery": {
+    "enabled": true,
+    "endpoint": "https://mcp.exa.ai/mcp",
+    "max_queries": 3,
+    "max_results_per_query": 8,
+    "queries": [
+      "site:linkedin.com/posts/ \"B2B\" \"founder\" after:{since14} before:{tomorrow}",
+      "site:linkedin.com/posts/ \"SaaS\" \"positioning\" after:{since14} before:{tomorrow}",
+      "site:linkedin.com/posts/ \"LinkedIn\" \"content\" \"B2B\" after:{since14} before:{tomorrow}"
+    ],
+    "author_queries_per_run": 2
+  },
+  "oauth": {
+    "redirect_uri_env": "LINKEDIN_REDIRECT_URI",
+    "scopes": [],
+    "token_vault": "tokens.enc",
+    "client_credentials_file_env": "LINKEDIN_CREDENTIALS_FILE"
+  },
+  "analysis": {
+    "automatic": false,
+    "cached_whisper_only": true,
+    "comfyui_enabled": false,
+    "full_watch_or_audio_verification": false
+  },
+  "max_run_seconds": 600
+}

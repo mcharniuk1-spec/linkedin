@@ -1,0 +1,31 @@
+name: Collector offline checks
+on:
+  workflow_dispatch:
+  pull_request:
+    paths: ['research/**', '.github/workflows/**', 'skills/**', 'knowledge/writing/**']
+  push:
+    branches: [main, 'codex/**']
+    paths: ['research/**', '.github/workflows/**', 'skills/**', 'knowledge/writing/**']
+permissions:
+  contents: read
+jobs:
+  synthetic-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            research
+            docs
+            datasets
+            scripts
+            skills
+            knowledge
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.12'
+      - run: python -m pip install --require-hashes -r research/collector/requirements.lock
+      - run: python -m unittest discover -s research/tests -p 'test_*.py' -q
+      - run: python scripts/public_safety_scan.py

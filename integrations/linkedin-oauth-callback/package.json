@@ -1,0 +1,12 @@
+{
+  "name": "linkedin-oauth-callback",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stateless Vercel callback page for local LinkedIn OAuth completion",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

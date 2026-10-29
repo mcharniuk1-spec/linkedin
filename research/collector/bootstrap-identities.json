@@ -1,0 +1,2951 @@
+{
+  "schema": "linkedin-identity-bootstrap/1",
+  "reference_posts": 279,
+  "additional_owner_authorized_source_posts": 8,
+  "contains_original_text": false,
+  "publications": [
+    {
+      "external_id": "urn:li:activity:7422666982032056322",
+      "aliases": [
+        "id:urn:li:activity:7422666982032056322",
+        "url:https://www.linkedin.com/posts/aprildunford_you-dont-want-to-start-any-positioning-work-activity-7422666982032056322-QbQr",
+        "text:0ee634cc28c5b38ae1dae9e4af19b8ae21ab2225cb94c9f2257aedc95b516910",
+        "id:urn:li:share:7422666980631023617"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7472977517189111808",
+      "aliases": [
+        "id:urn:li:activity:7472977517189111808",
+        "url:https://www.linkedin.com/posts/katebour_i-went-bankrupt-building-a-dream-business-activity-7472977517189111808-PCEE",
+        "text:125ec3a6be9c80cd0da7558e449585af0aa391332edece2059f806031fd60883",
+        "id:urn:li:share:7472977515817508864"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7419714950715088898",
+      "aliases": [
+        "id:urn:li:activity:7419714950715088898",
+        "url:https://www.linkedin.com/posts/cognism_are-you-stuck-in-thecontent-calendar-trap-activity-7419714950715088898-iR5T",
+        "text:43cf32e282d08eff317d9924a958675af8cfb397f3315f4267e8e1b51056504f",
+        "id:urn:li:ugcPost:7419714413881987072"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7460343196770816000",
+      "aliases": [
+        "id:urn:li:activity:7460343196770816000",
+        "url:https://www.linkedin.com/posts/gong-io_mama-we-made-it-seeing-gong-on-the-nyse-activity-7460343196770816000-0nAU",
+        "text:8fe4406d0cf82de7a3795413c1b85e5a5b4743da83e70fd46942fe40e132fdaa",
+        "id:urn:li:ugcPost:7460082189867753474"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7419061081295224832",
+      "aliases": [
+        "id:urn:li:activity:7419061081295224832",
+        "url:https://www.linkedin.com/posts/refine-labs_right-now-the-market-is-noisy-ai-is-changing-activity-7419061081295224832-7K9v",
+        "text:28bbe4b2aba9082fb19f5041bc1d33e70f6428366cdfdcb7f72d24532b102c6a",
+        "id:urn:li:ugcPost:7414058849965387776"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7414031072918683648",
+      "aliases": [
+        "id:urn:li:activity:7414031072918683648",
+        "url:https://www.linkedin.com/posts/amandanat_some-of-my-strongly-held-opinions-b2b-activity-7414031072918683648-FCF8",
+        "text:5b4e35941fc5ef0ad0daf3bfe6280d2793c405d447c1a2173e7cfd1a49d77bdc",
+        "id:urn:li:share:7414031072415518722"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7445857522336411648",
+      "aliases": [
+        "id:urn:li:activity:7445857522336411648",
+        "url:https://www.linkedin.com/posts/anthonypierri_most-sales-leaders-hate-positioning-projects-activity-7445857522336411648--ozw",
+        "text:6b2b1a07caef78a779327b34fd98f75eef2d40040a135f475b099ca2f8834a7b",
+        "id:urn:li:share:7445857519324864512"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7457063849356234752",
+      "aliases": [
+        "id:urn:li:activity:7457063849356234752",
+        "url:https://www.linkedin.com/posts/daniel-murray-marketing_every-single-marketing-meeting-in-2026-activity-7457063849356234752-4APC",
+        "text:aa23bc7dd79f3c898df35c254477ec3f815f3aca84966f57ae8105ae40d8fd4e",
+        "id:urn:li:share:7457063848177647616"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7510681708631875584",
+      "aliases": [
+        "id:urn:li:activity:7510681708631875584",
+        "url:https://www.linkedin.com/posts/davegerhardt_heres-how-to-do-great-marketing-for-any-activity-7510681708631875584-sM-Y",
+        "text:c8887d9b0c7d49da8ee383931ff95b27716cc393357977b507891eb0244b19b7",
+        "id:urn:li:share:7510681705893249024"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7416823425274388480",
+      "aliases": [
+        "id:urn:li:activity:7416823425274388480",
+        "url:https://www.linkedin.com/posts/justinwelsh_i-overthought-my-first-100-posts-edited-activity-7416823425274388480-y_Ux",
+        "text:da283572c2377e1b292d061ee32ceaa0ac8ec35a6455586c18e0d131f5e068eb",
+        "id:urn:li:share:7416823424184033280"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7425146200825159681",
+      "aliases": [
+        "id:urn:li:activity:7425146200825159681",
+        "url:https://www.linkedin.com/posts/peeplaja_youre-pitching-to-the-wrong-person-we-activity-7425146200825159681-3Zqx",
+        "text:40cdda4ec1b537867ae5226495eef1317e5e0dff7aa5a6f62d154c8d9db40933",
+        "id:urn:li:share:7424534423276187648"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7242555636188676097",
+      "aliases": [
+        "id:urn:li:activity:7242555636188676097",
+        "url:https://www.linkedin.com/posts/aprildunford_one-of-the-most-common-questions-i-get-is-activity-7242555636188676097-b937",
+        "text:a1d4b0450b31637e742e18fff1805b389e918e856cb1e14273b15efa313a48c1",
+        "id:urn:li:share:7242555633080655872"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7470081865073332225",
+      "aliases": [
+        "id:urn:li:activity:7470081865073332225",
+        "url:https://www.linkedin.com/posts/katebour_your-buyers-brain-is-lazy-thats-why-activity-7470081865073332225-iGVC",
+        "text:7808bc2da197e61d9981f12af6dfc8df95fde52f78f129279caabb53e876516a",
+        "id:urn:li:share:7470081864511451136"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7396571489132564480",
+      "aliases": [
+        "id:urn:li:activity:7396571489132564480",
+        "url:https://www.linkedin.com/posts/cognism_reporting-pushes-us-toward-the-work-that-activity-7396571489132564480-JbiA",
+        "text:7d0db9bb6f2284a5cdd3999fa4172c836773ddc543cdf1a9a1cec026187998d8",
+        "id:urn:li:ugcPost:7396571278314483712"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7386400974287880192",
+      "aliases": [
+        "id:urn:li:activity:7386400974287880192",
+        "url:https://www.linkedin.com/posts/gong-io_our-new-product-announcements-activity-7386400974287880192-mzHJ",
+        "text:a58e1d2ae70e0f384e90b917d7d9beb17edbcc4bd807fc9f365a283493ed9a21",
+        "id:urn:li:ugcPost:7386387501499805696"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7420510653624287233",
+      "aliases": [
+        "id:urn:li:activity:7420510653624287233",
+        "url:https://www.linkedin.com/posts/refine-labs_our-ai-strategy-is-built-on-three-pillars-activity-7420510653624287233-WF7J",
+        "text:1fcbeab29150d45062bc48f2cd0d3ec3aeb9ee74b3b15527a0b0b77ac72b09d9",
+        "id:urn:li:ugcPost:7414059479710932992"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7477430092319584256",
+      "aliases": [
+        "id:urn:li:activity:7477430092319584256",
+        "url:https://www.linkedin.com/posts/amandanat_the-inflection-point-that-started-my-zero-activity-7477430092319584256-a1R5",
+        "text:938ecee41ed4caea263ccb0d9300502a563a0f9d43ddd43ef05e866b6e8ee845",
+        "id:urn:li:share:7477430089547403264"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7482445503268347904",
+      "aliases": [
+        "id:urn:li:activity:7482445503268347904",
+        "url:https://www.linkedin.com/posts/anthonypierri_how-default-can-fix-their-positioning-activity-7482445503268347904-0uvr",
+        "text:662189a31e97d241387db93a27aa59d8a0cd8e706f7483cb436b816823650e34",
+        "id:urn:li:ugcPost:7482445500068065281"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7411795391488151553",
+      "aliases": [
+        "id:urn:li:activity:7411795391488151553",
+        "url:https://www.linkedin.com/posts/daniel-murray-marketing_just-ship-it-that-perfect-campaign-you-activity-7411795391488151553-0ZmC",
+        "text:b87c8b79c3833eda5fe438732cd3dbd35a381052a200cebe0b5b43fc0c8433b8",
+        "id:urn:li:share:7411795390389411840"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7498736797229899776",
+      "aliases": [
+        "id:urn:li:activity:7498736797229899776",
+        "url:https://www.linkedin.com/posts/davegerhardt_consistently-the-hardest-role-to-hire-for-activity-7498736797229899776-byt5",
+        "text:7433c461b67700f51209ba80397051c964f28a2016b2b38418bf4fd40869a955",
+        "id:urn:li:share:7498736796579549184"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7417548201823686656",
+      "aliases": [
+        "id:urn:li:activity:7417548201823686656",
+        "url:https://www.linkedin.com/posts/justinwelsh_i-spent-16-years-becoming-a-cro-and-then-activity-7417548201823686656-nvWx",
+        "text:5257023f007fce3ad46c43517c71d85f9777a9427a42cfd0d126fa6a74994b9f",
+        "id:urn:li:share:7417548200879935489"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7387080431445389313",
+      "aliases": [
+        "id:urn:li:activity:7387080431445389313",
+        "url:https://www.linkedin.com/posts/peeplaja_something-people-dont-realize-about-b2b-activity-7387080431445389313-nMYY",
+        "text:74d586d3423685d6cfd94b51938ed467d8fcf65cf1549f1d0a3dd2d1b853b488",
+        "id:urn:li:share:7386780942306082816"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7057366791588622336",
+      "aliases": [
+        "id:urn:li:activity:7057366791588622336",
+        "url:https://www.linkedin.com/posts/aprildunford_im-often-asked-can-you-look-at-our-website-activity-7057366791588622336-0dgN",
+        "text:85bf0cb2269826e156af58f3032f179a9beab2cb1d58f76b69b113a7b50cfb7d",
+        "id:urn:li:share:7057366789634093056"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7466099984392671233",
+      "aliases": [
+        "id:urn:li:activity:7466099984392671233",
+        "url:https://www.linkedin.com/posts/katebour_want-more-customers-share-something-revelatory-activity-7466099984392671233-HQUE",
+        "text:37ec80256b8901b7a5020272cb0cf1060d3408672b45373e52949f2209bcb7c2",
+        "id:urn:li:share:7466099983864492032"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7419318992173015042",
+      "aliases": [
+        "id:urn:li:activity:7419318992173015042",
+        "url:https://www.linkedin.com/posts/cognism_what-we-have-learned-from-marketing-leaders-activity-7419318992173015042-_tc-",
+        "text:98d6bede0c803c83666807512a24c6b63ac41cdebe0ba9190bf7c948397f383e",
+        "id:urn:li:ugcPost:7419318989824200704"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7397002727039488002",
+      "aliases": [
+        "id:urn:li:activity:7397002727039488002",
+        "url:https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+        "text:bc261beecc0196c62db046251b367a9cb011ac46d7ebd55b9a4982f0eba815b6",
+        "id:urn:li:ugcPost:7397002570830913536"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:6984167253877366787",
+      "aliases": [
+        "id:urn:li:activity:6984167253877366787",
+        "url:https://www.linkedin.com/posts/refine-labs_if-youve-spent-any-time-on-linkedin-over-activity-6984167253877366787-9go4",
+        "text:4e288b97d16a148fb148d7183b6d5bf064b88f8e79d73e61ec1a6a37c29ac574",
+        "id:urn:li:share:6984167250731663360"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7432114156843212800",
+      "aliases": [
+        "id:urn:li:activity:7432114156843212800",
+        "url:https://www.linkedin.com/posts/amandanat_best-practices-are-the-beige-of-marketing-activity-7432114156843212800-IRVM",
+        "text:f4f25fe89f57475121001954863587075e46ca7a8281dd0822cd813959e471ae",
+        "id:urn:li:share:7432114156255846400"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7284585014342643712",
+      "aliases": [
+        "id:urn:li:activity:7284585014342643712",
+        "url:https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-b2b-activity-7284585014342643712-KBvq",
+        "text:932cda8f7207b34845778b1a6c2e9a4448d1ac19dfcef7e8913b41d9148d062e",
+        "id:urn:li:share:7283242038651731968"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7462185582744616960",
+      "aliases": [
+        "id:urn:li:activity:7462185582744616960",
+        "url:https://www.linkedin.com/posts/daniel-murray-marketing_ai-didnt-make-great-writers-irrelevant-activity-7462185582744616960-sWuA",
+        "text:4897bed48cb961d36b83d049ae1aece2e059ce8678415b7bcad1d24e9182783e",
+        "id:urn:li:share:7462185581557645312"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7470059629784506368",
+      "aliases": [
+        "id:urn:li:activity:7470059629784506368",
+        "url:https://www.linkedin.com/posts/davegerhardt_today-is-my-39th-birthday-and-as-an-internet-activity-7470059629784506368-_lsg",
+        "text:2e473ef5a9afe7cf509e429a6e3e970a80a022991dd738893f500abe40e3f953",
+        "id:urn:li:share:7469866566713769985"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7417413059574546432",
+      "aliases": [
+        "id:urn:li:activity:7417413059574546432",
+        "url:https://www.linkedin.com/posts/justinwelsh_prior-to-2019-id-never-used-social-media-activity-7417413059574546432-g6k8",
+        "text:986f932a3b2538d74b39a4744043897a5fce1f0e3a594776af90d5070515da8a",
+        "id:urn:li:share:7417413057414516736"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7434591787576504320",
+      "aliases": [
+        "id:urn:li:activity:7434591787576504320",
+        "url:https://www.linkedin.com/posts/peeplaja_b2b-saas-companies-tend-to-care-about-one-activity-7434591787576504320-QYm9",
+        "text:a9566d0b7a29d9f22073a244554e0d123afd4fa90e40a19eaf31d0a6b640d8dc",
+        "id:urn:li:share:7434591786372829184"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:6952643016314552320",
+      "aliases": [
+        "id:urn:li:activity:6952643016314552320",
+        "url:https://www.linkedin.com/posts/aprildunford_consumer-marketers-are-often-tapping-into-activity-6952643016314552320-kPgc",
+        "text:538e2340cdd65f832939d6464fc2b7ed610cee372571b423b58a606151967c33",
+        "id:urn:li:share:6952643015547006976"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:6986042662453694464",
+      "aliases": [
+        "id:urn:li:activity:6986042662453694464",
+        "url:https://www.linkedin.com/posts/katebour_marketing-growth-buyerresearch-activity-6986042662453694464-wMxk",
+        "text:8d4580833c40160512e7214d88e0328e62a549a84463666b9de6e3894e11783d",
+        "id:urn:li:share:6986042661732278272"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7267117381456412674",
+      "aliases": [
+        "id:urn:li:activity:7267117381456412674",
+        "url:https://www.linkedin.com/posts/cognism_steal-cognisms-demand-gen-playbook-activity-7267117381456412674-byr_",
+        "text:6e9b9406e921064eaf8e05fcfc029d0b53b8e151df94bc665edea72c870d4375",
+        "id:urn:li:ugcPost:7267117380516880384"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7420211593428365312",
+      "aliases": [
+        "id:urn:li:activity:7420211593428365312",
+        "url:https://www.linkedin.com/posts/gong-io_2026-the-year-of-big-wins-powered-by-the-activity-7420211593428365312-mHEq",
+        "text:7b01f2536df211234b701efb07d62647f8b8ffd1cae7995dead558bc8cece193",
+        "id:urn:li:share:7420211592476164097"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7151226277188763648",
+      "aliases": [
+        "id:urn:li:activity:7151226277188763648",
+        "url:https://www.linkedin.com/posts/refine-labs_were-kicking-off-2024-with-a-return-to-our-activity-7151226277188763648-JT7W",
+        "text:6f4843ca52bdde4c8d9aca8af97ce92a8e8bc0d8a6c537f3431b379795401510",
+        "id:urn:li:share:7150931531023175680"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7099404788823465986",
+      "aliases": [
+        "id:urn:li:activity:7099404788823465986",
+        "url:https://www.linkedin.com/posts/amandanat_contentmarketing-marketing-organicmarketing-activity-7099404788823465986-3wds",
+        "text:dbdae43c436cdebd5ac04ea245be73b9dc98d7f68f58a234bae51bbc051acf10",
+        "id:urn:li:share:7099260682386231296"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7259580222310645760",
+      "aliases": [
+        "id:urn:li:activity:7259580222310645760",
+        "url:https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+        "text:1fd141a5e15faa59cdd2869dc0e32d51dacedd75be4051bd0e1ca89a60ab3abc",
+        "id:urn:li:share:7259307531355774976"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7459960231138234368",
+      "aliases": [
+        "id:urn:li:activity:7459960231138234368",
+        "url:https://www.linkedin.com/posts/daniel-murray-marketing_the-prompt-is-the-problem-not-the-tool-activity-7459960231138234368-gwuX",
+        "text:facaf8382b23ef80039d24de3ef58534f35be8d9a789737b89fcbdf267435e49",
+        "id:urn:li:share:7459960229993185280"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7467552266716217344",
+      "aliases": [
+        "id:urn:li:activity:7467552266716217344",
+        "url:https://www.linkedin.com/posts/davegerhardt_we-are-building-drive-2026-around-real-people-activity-7467552266716217344-1Olv",
+        "text:1f7703fee0644b2d09799846973d31bc8d17dd67325ebab7901e9b94d3c826ab",
+        "id:urn:li:share:7467552264853921793"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7415736261057179648",
+      "aliases": [
+        "id:urn:li:activity:7415736261057179648",
+        "url:https://www.linkedin.com/posts/justinwelsh_most-people-are-building-their-business-for-activity-7415736261057179648-Shrd",
+        "text:ee887f63f44d89a8fe8299f913b6d2a14171c0350c16caeac79067ef850ed063",
+        "id:urn:li:share:7415736259647614976"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7428063574889263105",
+      "aliases": [
+        "id:urn:li:activity:7428063574889263105",
+        "url:https://www.linkedin.com/posts/peeplaja_the-discovery-call-is-dead-your-buyers-activity-7428063574889263105-i62b",
+        "text:2e21a1e0d54a0cbb70ef224d08a18dfbbcd2c3c72e9cf4c9a3f8ea2b31711980",
+        "id:urn:li:share:7428063572515299328"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7199789151532036096",
+      "aliases": [
+        "id:urn:li:activity:7199789151532036096",
+        "url:https://www.linkedin.com/posts/aprildunford_positioning-should-not-drive-product-strategy-activity-7199789151532036096-o-ZQ",
+        "text:f0801ab39053dcd59670198a790fffebd7f94bfaa96dfe69262b819fdd6f52f6",
+        "id:urn:li:share:7199789150416347138"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7379131891515412481",
+      "aliases": [
+        "id:urn:li:activity:7379131891515412481",
+        "url:https://www.linkedin.com/posts/katebour_my-personal-brand-messaging-feels-messy-right-activity-7379131891515412481-lnA0",
+        "text:aaaf72bf1fb222b526b861454f43e563cf92ac69cab6274e1967e27efc9914ef",
+        "id:urn:li:share:7379131888449536001"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7209935012652044290",
+      "aliases": [
+        "id:urn:li:activity:7209935012652044290",
+        "url:https://www.linkedin.com/posts/cognism_how-to-pivot-from-lead-gen-to-demand-gen-activity-7209935012652044290-UwOs",
+        "text:c2869c8d8e32871b94793c48e77caf5dc0766814197b5f5ab8f138385f6b2ef1",
+        "id:urn:li:share:7209935012001976321"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7416890509341716480",
+      "aliases": [
+        "id:urn:li:activity:7416890509341716480",
+        "url:https://www.linkedin.com/posts/gong-io_enablement-leaders-have-a-choice-evolve-activity-7416890509341716480-6KFg",
+        "text:0588024c58ba3f5a92d9d21450ae6b7778e6568c694e7071425ec023e64c1a76",
+        "id:urn:li:ugcPost:7416890508347809792"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7353091404425842690",
+      "aliases": [
+        "id:urn:li:activity:7353091404425842690",
+        "url:https://www.linkedin.com/posts/refine-labs_update-from-our-ceo-megan-bowen-megan-is-activity-7353091404425842690-bnua",
+        "text:abf72390754f71aaf6addf618f13ef8e96a68ab44dc3a7c797fa3fe40a4607f6",
+        "id:urn:li:share:7353083435298574336"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7292206456672600066",
+      "aliases": [
+        "id:urn:li:activity:7292206456672600066",
+        "url:https://www.linkedin.com/posts/amandanat_50000-of-you-time-for-a-re-introduction-activity-7292206456672600066-VSdw",
+        "text:7c64f9061322446b6de09712a6be16bd89aaa1e36f5c17e1000bc23fa18b812a",
+        "id:urn:li:share:7290861149372198913"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7078733576279621632",
+      "aliases": [
+        "id:urn:li:activity:7078733576279621632",
+        "url:https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7078733576279621632-Pe9K",
+        "text:49ce0842f7891c2566db07917d8a7400d763a39833c4be279236c1a63a21d439",
+        "id:urn:li:share:7078567318720577536"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7389668448923963392",
+      "aliases": [
+        "id:urn:li:activity:7389668448923963392",
+        "url:https://www.linkedin.com/posts/daniel-murray-marketing_just-kicked-off-marketingland-festival-2025-activity-7389668448923963392-wq9f",
+        "text:1680fda06636a1c59b202f7c5865bd58b788a6c138262b302040509d04459dab",
+        "id:urn:li:share:7389668447959400450"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7467168126963732480",
+      "aliases": [
+        "id:urn:li:activity:7467168126963732480",
+        "url:https://www.linkedin.com/posts/davegerhardt_so-dave-what-do-you-do-for-work-i-worked-activity-7467168126963732480-buHo",
+        "text:5c1a9cc9ffbef37448b43ef0f4ec3d5b6bc6aaa108603c12dda2b63331114b99",
+        "id:urn:li:share:7466159068357918723"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7437102049583857665",
+      "aliases": [
+        "id:urn:li:activity:7437102049583857665",
+        "url:https://www.linkedin.com/posts/justinwelsh_theres-nothing-worse-than-holding-onto-a-activity-7437102049583857665-NE1i",
+        "text:7fd4d0d6f6884b13536e3459479e518e566564b225b25053cece5874b5ad8fe1",
+        "id:urn:li:share:7437102048363360256"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7433158871055126528",
+      "aliases": [
+        "id:urn:li:activity:7433158871055126528",
+        "url:https://www.linkedin.com/posts/peeplaja_we-surveyed-50-smb-founders-on-their-marketing-activity-7433158871055126528-CqsN",
+        "text:314a839ccf8ee3f69cf4ed346b4f9107bc37592416857b0103d66ac20c2a1e8c",
+        "id:urn:li:share:7433158870442840065"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7151201811373113344",
+      "aliases": [
+        "id:urn:li:activity:7151201811373113344",
+        "url:https://www.linkedin.com/posts/aprildunford_some-folks-put-too-much-focus-on-choosing-activity-7151201811373113344-4PSb",
+        "text:ccf4a66934bf70d8225f65d47f65b2449b407e1ece50078716297769e20b9a43",
+        "id:urn:li:share:7151201810496507904"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7187130560216018945",
+      "aliases": [
+        "id:urn:li:activity:7187130560216018945",
+        "url:https://www.linkedin.com/posts/katebour_competitors-can-steal-your-customers-but-activity-7187130560216018945-cqvl",
+        "text:477bd9ffd9b1034d57a2e49db9af06510f09051b9b1117485246f22fc34aaf07",
+        "id:urn:li:share:7187130557007364096"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7057745281064300545",
+      "aliases": [
+        "id:urn:li:activity:7057745281064300545",
+        "url:https://www.linkedin.com/posts/cognism_demandgen-b2bmarketing-activity-7057745281064300545--zJ7",
+        "text:024541126f7d8200fc42496d175a7ef9551602c81e43d4ca80a2620165fa9840",
+        "id:urn:li:ugcPost:7056217001886670848"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7445243025297133568",
+      "aliases": [
+        "id:urn:li:activity:7445243025297133568",
+        "url:https://www.linkedin.com/posts/gong-io_the-state-of-revenue-ai-2026-gong-activity-7445243025297133568-W7Id",
+        "text:e182daeb909065ff8438ef3877f9b97315ec5b6f5f383c786bf3bbb3e4f7a997",
+        "id:urn:li:share:7445243024474927104"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7104829153966780416",
+      "aliases": [
+        "id:urn:li:activity:7104829153966780416",
+        "url:https://www.linkedin.com/posts/refine-labs_demand-capture-breakdown-activity-7104829153966780416-Xmxd",
+        "text:213562fa8f5f843c880293bae3abbf2233aeb98a2c8982a071f065a9dcc0a8c0",
+        "id:urn:li:ugcPost:7104828635227836416"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7372286629400465408",
+      "aliases": [
+        "id:urn:li:activity:7372286629400465408",
+        "url:https://www.linkedin.com/posts/amandanat_we-marketers-need-to-ask-better-questions-activity-7372286629400465408-Tpvh",
+        "text:06461b4da7ab5a9389a3acb58f7f50d1893a0adbb752a52fbc8c994812c55832",
+        "id:urn:li:share:7372166758528569344"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7289296037570101250",
+      "aliases": [
+        "id:urn:li:activity:7289296037570101250",
+        "url:https://www.linkedin.com/posts/anthonypierri_b2b-startups-productmarketing-activity-7289296037570101250-Jnl4",
+        "text:f879238b75d4cf7186a086ead9bc3405d791a8c0d7230bdc77482a67d55e622c",
+        "id:urn:li:share:7288219481191989251"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7492597948887781376",
+      "aliases": [
+        "id:urn:li:activity:7492597948887781376",
+        "url:https://www.linkedin.com/posts/davegerhardt_hi-im-dave-my-company-is-called-exit-five-activity-7492597948887781376-e8Qz",
+        "text:5f3ce0eefbdf52582f3eb9ba7be5bdf516d554fcb7ce77c8c3485dbfc41654b1",
+        "id:urn:li:share:7492597946132160513"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7418137836232699904",
+      "aliases": [
+        "id:urn:li:activity:7418137836232699904",
+        "url:https://www.linkedin.com/posts/justinwelsh_i-got-lucky-a-lot-in-the-last-six-years-activity-7418137836232699904-0yJs",
+        "text:948ba0db6528ff73332da0a734d7f6e74a1b9885768bd4918613673329f95404",
+        "id:urn:li:share:7418137835330789376"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7465356166890545153",
+      "aliases": [
+        "id:urn:li:activity:7465356166890545153",
+        "url:https://www.linkedin.com/posts/peeplaja_30-of-b2b-companies-admit-their-ai-marketing-activity-7465356166890545153-XPD8",
+        "text:5699df8d8ee34f9b460e6193df46de8ab38d83d259ab6eca625a969beb3f75f6",
+        "id:urn:li:share:7464748666529062912"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7065308376557047808",
+      "aliases": [
+        "id:urn:li:activity:7065308376557047808",
+        "url:https://www.linkedin.com/posts/aprildunford_positioning-activity-7065308376557047808-A479",
+        "text:be262dd3c1e7d4ec50be365a916642f1418aca89bdec328fae85936595d961d5",
+        "id:urn:li:share:7065308375353315328"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7149767591601860609",
+      "aliases": [
+        "id:urn:li:activity:7149767591601860609",
+        "url:https://www.linkedin.com/posts/katebour_when-you-understand-why-people-really-buy-activity-7149767591601860609-ZG2U",
+        "text:7e93cd33ec01d350e7795a895d94ca3884d3663b2a10eabdb6b3a6b730899937",
+        "id:urn:li:share:7149767591169847296"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7354479139665375232",
+      "aliases": [
+        "id:urn:li:activity:7354479139665375232",
+        "url:https://www.linkedin.com/posts/cognism_whats-actually-working-in-b2b-marketing-activity-7354479139665375232-ecrK",
+        "text:576f1b819c80a8ba6ec09231c11bf2c5ec459d25f275d10e9cb69b696ad5e8f8",
+        "id:urn:li:ugcPost:7354478331972526081"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7265393602850152449",
+      "aliases": [
+        "id:urn:li:activity:7265393602850152449",
+        "url:https://www.linkedin.com/posts/gong-io_introducing-activity-7265393602850152449-WaF9",
+        "text:fd77e6b22bed9d7cb9746ca66e765640323c2c49afddac12a5c2b7b7d7b255bf",
+        "id:urn:li:ugcPost:7265361151431962626"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7334186834442207232",
+      "aliases": [
+        "id:urn:li:activity:7334186834442207232",
+        "url:https://www.linkedin.com/posts/refine-labs_what-if-pipeline-isnt-the-only-way-to-measure-activity-7334186834442207232-nX2a",
+        "text:fd737e642bf7ff4b99413827bed3f33a093e9e9d4f764734a341282d6445de24",
+        "id:urn:li:ugcPost:7333973695222161410"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7092192467973783552",
+      "aliases": [
+        "id:urn:li:activity:7092192467973783552",
+        "url:https://www.linkedin.com/posts/amandanat_marketing-pr-prstrategy-activity-7092192467973783552-CkJo",
+        "text:6d9c339827a2c4d035353f2e79f026dd54fe74e61da394b2f83ffe5bc0f4c2b9",
+        "id:urn:li:share:7092192465092313091"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7287846534564483072",
+      "aliases": [
+        "id:urn:li:activity:7287846534564483072",
+        "url:https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-b2b-activity-7287846534564483072-wz94",
+        "text:4207a4dc36c33b0e602330ec23b703f726d820f564909822b7758aa69e540cf3",
+        "id:urn:li:share:7283319977154113537"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7483869995735625728",
+      "aliases": [
+        "id:urn:li:activity:7483869995735625728",
+        "url:https://www.linkedin.com/posts/davegerhardt_what-is-the-best-marketing-play-youve-run-activity-7483869995735625728-EOYI",
+        "text:cdb3298f23f2be3b6fb78fa799435dacc27cd36778f4eec79fe0b5d41091e2bd",
+        "id:urn:li:share:7483869994838040576"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7415601120288706560",
+      "aliases": [
+        "id:urn:li:activity:7415601120288706560",
+        "url:https://www.linkedin.com/posts/justinwelsh_ive-been-writing-online-for-6-years-and-activity-7415601120288706560-3qYE",
+        "text:ed9767163fe41f3cedfc33e39aa88e9df4a2ff0c6c5cf965774621e5d1f4e5d3",
+        "id:urn:li:share:7415601117302165505"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7435293327442333696",
+      "aliases": [
+        "id:urn:li:activity:7435293327442333696",
+        "url:https://www.linkedin.com/posts/peeplaja_ai-cant-buy-your-software-ai-cant-feel-activity-7435293327442333696-ttM8",
+        "text:50d4848157be130382fec347d8595c514480c360b80e3c7208d1c5edad88c623",
+        "id:urn:li:share:7435054854521167872"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7179200520924901376",
+      "aliases": [
+        "id:urn:li:activity:7179200520924901376",
+        "url:https://www.linkedin.com/posts/aprildunford_consumer-products-rarely-shift-positioning-activity-7179200520924901376-O7GO",
+        "text:4d3d56c2e098a81026b0f83c96f0588536bb9c1750e2d7dcf7bd0ff1a371006e",
+        "id:urn:li:share:7179200517896638464"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7243928223313539072",
+      "aliases": [
+        "id:urn:li:activity:7243928223313539072",
+        "url:https://www.linkedin.com/posts/cognism_how-are-we-testing-and-using-ai-in-our-marketing-activity-7243928223313539072-AW7p",
+        "text:7ce0fa8ebb4731bbac2067dd8ffb4d5bd56d165c376422e9615a12c2f957f5e1",
+        "id:urn:li:ugcPost:7243928222541705216"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7196524924000157698",
+      "aliases": [
+        "id:urn:li:activity:7196524924000157698",
+        "url:https://www.linkedin.com/posts/gong-io_new-gongster-alert-were-thrilled-to-activity-7196524924000157698-GJGu",
+        "text:afd3b4e93f210c5722a71f925cc5a7b25b04b72c527a21952585f53cde907c63",
+        "id:urn:li:share:7196524919906619394"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7059496833818988544",
+      "aliases": [
+        "id:urn:li:activity:7059496833818988544",
+        "url:https://www.linkedin.com/posts/refine-labs_refine-labs-paid-social-philosophy-proven-activity-7059496833818988544-VSL8",
+        "text:af4165518b7805ec5a1489eeec9349831c877a26eeeacb00216722fdf380029d",
+        "id:urn:li:share:7059285048289636352"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7378857438831292416",
+      "aliases": [
+        "id:urn:li:activity:7378857438831292416",
+        "url:https://www.linkedin.com/posts/amandanat_my-most-successful-content-marketing-strategy-activity-7378857438831292416-lYDD",
+        "text:4d911b5aab6238e7b69ab2837a3268295c46fe901583edd0c7556ca678ae0383",
+        "id:urn:li:share:7378857435836555264"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7301302790323154945",
+      "aliases": [
+        "id:urn:li:activity:7301302790323154945",
+        "url:https://www.linkedin.com/posts/anthonypierri_strong-positioning-means-you-have-to-do-almost-activity-7301302790323154945-UYUM",
+        "text:e01494533e05a591116188b059ff41584f2c1bc24e43e23c771208e7cf65f0e0",
+        "id:urn:li:share:7301302787571625985"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7469761012234297344",
+      "aliases": [
+        "id:urn:li:activity:7469761012234297344",
+        "url:https://www.linkedin.com/posts/davegerhardt_the-anti-social-buyer-demand-gen-plays-for-activity-7469761012234297344-oNGm",
+        "text:cee0de1ed3508ea4e094e42f50ce0b936edf32ae54df7a688b57c9dad14cc7b1",
+        "id:urn:li:share:7469761011273609217"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7217857656370143232",
+      "aliases": [
+        "id:urn:li:activity:7217857656370143232",
+        "url:https://www.linkedin.com/posts/justinwelsh_an-interesting-observation-about-business-activity-7217857656370143232--zTQ",
+        "text:c4bb8e3cd1bf6fa592ad61f61bbbbdf8b43570c5cf43aeba039d4e7a94a45065",
+        "id:urn:li:share:7217857655573225473"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7425508627932663808",
+      "aliases": [
+        "id:urn:li:activity:7425508627932663808",
+        "url:https://www.linkedin.com/posts/peeplaja_were-open-to-new-vendors-thats-what-activity-7425508627932663808-9G7K",
+        "text:c34ad68e593a92996c203e8b08e0bf91f43c0584fca712e317c80494ca4ef76b",
+        "id:urn:li:share:7424536186767085568"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7095052315962847232",
+      "aliases": [
+        "id:urn:li:activity:7095052315962847232",
+        "url:https://www.linkedin.com/posts/aprildunford_positioning-activity-7095052315962847232-BBcd",
+        "text:499e91e371ac0fa8879fb3ff3dfd1e7121001889bfa9216770b1192aa503821e",
+        "id:urn:li:ugcPost:7095052296836820992"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7358781543944781824",
+      "aliases": [
+        "id:urn:li:activity:7358781543944781824",
+        "url:https://www.linkedin.com/posts/cognism_at-cognism-ai-is-built-into-how-we-work-activity-7358781543944781824-e0yI",
+        "text:4d910746be87dae8bf43ca5e0c9c6c3b37d9ef9c8f60a1c2bf2caa8a277f1df4",
+        "id:urn:li:ugcPost:7358478843466158081"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7335319405859414016",
+      "aliases": [
+        "id:urn:li:activity:7335319405859414016",
+        "url:https://www.linkedin.com/posts/gong-io_gtm-is-changing-fast-revenue-teams-that-activity-7335319405859414016-aTRU",
+        "text:4a0cc9404ee865a55b29a2714c1fd674fb00f3feb8f0263d913888b10b9108cc",
+        "id:urn:li:share:7335319395126136832"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7097562666906337280",
+      "aliases": [
+        "id:urn:li:activity:7097562666906337280",
+        "url:https://www.linkedin.com/posts/refine-labs_weve-been-busy-in-the-lab-helping-zappi-activity-7097562666906337280-gDqN",
+        "text:6da633d070a8bd16d7dac056a8dff932d4b0adcf3d969b8ef526895475dd05fe",
+        "id:urn:li:share:7097356369455964161"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7087844893871542272",
+      "aliases": [
+        "id:urn:li:activity:7087844893871542272",
+        "url:https://www.linkedin.com/posts/amandanat_marketing-contentmarketing-contentstrategy-activity-7087844893871542272-jStb",
+        "text:d12f45cef689575c18b2e256b208719a0169523ad41b31bf0c0b0bdb2e65e106",
+        "id:urn:li:share:7087844893384966145"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7262164693144743936",
+      "aliases": [
+        "id:urn:li:activity:7262164693144743936",
+        "url:https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7262164693144743936-l3qY",
+        "text:0aaade285c00b5f373fb087b251e61d9f832fbd6df7b6d12ce76ece389855ef6",
+        "id:urn:li:share:7262164691815157760"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7475485166887464960",
+      "aliases": [
+        "id:urn:li:activity:7475485166887464960",
+        "url:https://www.linkedin.com/posts/davegerhardt_60-minute-b2b-blitz-9-marketers-share-their-activity-7475485166887464960-eP9C",
+        "text:9e6370c1875341d7b8190cc5c903037af4c464aed45f11addc898a7b226514ae",
+        "id:urn:li:share:7475485165423644672"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7061747199101022208",
+      "aliases": [
+        "id:urn:li:activity:7061747199101022208",
+        "url:https://www.linkedin.com/posts/justinwelsh_making-extra-income-is-no-longer-a-choice-activity-7061747199101022208-PreC",
+        "text:edd038e5b9f29899aa191bdd855585f6a5d2d80b1d1451e90eb6440bbf238eae",
+        "id:urn:li:share:7061747198492823552"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7470791975546445824",
+      "aliases": [
+        "id:urn:li:activity:7470791975546445824",
+        "url:https://www.linkedin.com/posts/peeplaja_64-of-buyers-said-it-is-hard-to-tell-competing-activity-7470791975546445824-yWxe",
+        "text:5681ba718268250a1f1266d91e81440456f2c0a145d942284411bcfa44d14d91",
+        "id:urn:li:share:7470170193747542017"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7161002941233926144",
+      "aliases": [
+        "id:urn:li:activity:7161002941233926144",
+        "url:https://www.linkedin.com/posts/aprildunford_great-positioning-fails-if-it-does-not-make-activity-7161002941233926144-kLCP",
+        "text:2e9f9947243abfe9ad5893ddac120d1c453ae6df90c3dc8878ca477b9bd3c50c",
+        "id:urn:li:share:7161002939442991104"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:6928316799851651072",
+      "aliases": [
+        "id:urn:li:activity:6928316799851651072",
+        "url:https://www.linkedin.com/posts/cognism_boost-your-inbounds-with-cognism-activity-6928316799851651072-nyI-",
+        "text:956cb28700a4385836263beebe2a980f2a9fc3b75bc0c18a101fb29b58bd3bd0",
+        "id:urn:li:share:6928316799235080192"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7295109463705796611",
+      "aliases": [
+        "id:urn:li:activity:7295109463705796611",
+        "url:https://www.linkedin.com/posts/gong-io_gongs-ai-for-marketers-our-marketing-team-activity-7295109463705796611-JbI3",
+        "text:b20f1b56929a2f31b97be429c5b62d71b65ad32f7c96f1f8e752cb70d6573d75",
+        "id:urn:li:share:7295109463038902274"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7306372357110042624",
+      "aliases": [
+        "id:urn:li:activity:7306372357110042624",
+        "url:https://www.linkedin.com/posts/refine-labs_refine-labs-leading-b2b-demand-generation-activity-7306372357110042624-PxXT",
+        "text:777c02fe02ecaf8beecce1e60e6145ce2b9a333d016c4a1ee272de2540602e93",
+        "id:urn:li:share:7306372356409606144"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7313576086661971970",
+      "aliases": [
+        "id:urn:li:activity:7313576086661971970",
+        "url:https://www.linkedin.com/posts/amandanat_the-marketing-mistake-youre-probably-making-activity-7313576086661971970-rH5_",
+        "text:939fdf327fb70d20672f9bbe6849873fd01fab4c0a9d52eb85c62f690c0e236a",
+        "id:urn:li:share:7312693421855412224"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7142166097746624512",
+      "aliases": [
+        "id:urn:li:activity:7142166097746624512",
+        "url:https://www.linkedin.com/posts/anthonypierri_there-are-two-primary-ways-to-do-positioning-activity-7142166097746624512-xOOA",
+        "text:74f015a242c48a5c51af3abf9e429976cfe67c3c3b13fdb511287c2eb6e6aec0",
+        "id:urn:li:share:7142166096920424448"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7487848074413973505",
+      "aliases": [
+        "id:urn:li:activity:7487848074413973505",
+        "url:https://www.linkedin.com/posts/davegerhardt_what-are-you-doing-in-september-if-you-work-activity-7487848074413973505-3h5E",
+        "text:ec31617c38eda7125eaa2bf37d09cfedd54c75e2eb209542ea1b3e002f56f595",
+        "id:urn:li:ugcPost:7487847823011442689"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7285724914865635328",
+      "aliases": [
+        "id:urn:li:activity:7285724914865635328",
+        "url:https://www.linkedin.com/posts/justwillaitken_will-why-did-you-stop-doing-sales-training-activity-7285724914865635328-CNsF",
+        "text:8e5634ef27674c3ec0f606364830d22df03bd05b97e5f609f74364076ae4d0a2",
+        "id:urn:li:share:7285724913485688832"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7321619218699882497",
+      "aliases": [
+        "id:urn:li:activity:7321619218699882497",
+        "url:https://www.linkedin.com/posts/devinreed_two-months-ago-a-ceo-reached-out-after-seeing-activity-7321619218699882497-sp4s",
+        "text:bc9f521643c9fccfd55e22f712b07060d876397f764125a64a430e57be383d15",
+        "id:urn:li:share:7321619217198321664"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7393587347768119296",
+      "aliases": [
+        "id:urn:li:activity:7393587347768119296",
+        "url:https://www.linkedin.com/posts/guillaume-moubeche-a026541b2_last-week-3-founders-asked-me-if-they-should-activity-7393587347768119296-CpX5",
+        "text:59f7159759f3661c20788b6123f027eacfa79dd1b906ed630f4f686a3ed59f01",
+        "id:urn:li:share:7393587346400616448"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7393936626944593920",
+      "aliases": [
+        "id:urn:li:activity:7393936626944593920",
+        "url:https://www.linkedin.com/posts/guillaume-moubeche-a026541b2_most-people-have-valuation-completely-backwards-activity-7393936626944593920-xz3S",
+        "text:0b692e844519e8066dc3c34745f1ea861e67f79dcb8dae5bed0fae2f226e7ea5",
+        "id:urn:li:share:7393936625921261568"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7414377331823304704",
+      "aliases": [
+        "id:urn:li:activity:7414377331823304704",
+        "url:https://www.linkedin.com/posts/armand-farrokh_top-sdr-vs-top-sdr-leader-it-was-a-dead-activity-7414377331823304704-ZCQy",
+        "text:82337e3434856e6a868499f357224b095891aab324dfb02f7180a72881d53f00",
+        "id:urn:li:share:7414377330501922817"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7419682704260059138",
+      "aliases": [
+        "id:urn:li:activity:7419682704260059138",
+        "url:https://www.linkedin.com/posts/guillaume-moubeche-a026541b2_ive-invested-millions-of-in-25-companies-activity-7419682704260059138-0kFs",
+        "text:c46cab49f0775b8e763cca9b4b2adf31021f5a6cc4dd37d42a70a0cc749c6c45",
+        "id:urn:li:share:7419682703081410560"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7420851125358239744",
+      "aliases": [
+        "id:urn:li:activity:7420851125358239744",
+        "url:https://www.linkedin.com/posts/retentionadam_contrarian-take-several-simpler-than-ever-before-activity-7420851125358239744-8MrS",
+        "text:1305754ad00164eab2ecaeb8b7411d1b9bedb10f880c443948a65031bd0e568a",
+        "id:urn:li:share:7420713705128161280"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7426551231109709824",
+      "aliases": [
+        "id:urn:li:activity:7426551231109709824",
+        "url:https://www.linkedin.com/posts/guillaume-moubeche-a026541b2_ive-invested-millions-of-dollars-in-25-activity-7426551231109709824-rQyt",
+        "text:57b14d06adce1adf293d469a36e164113baf4d2ad7d650d0095d25772414f0e4",
+        "id:urn:li:share:7426551228438016000"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7432725180860407809",
+      "aliases": [
+        "id:urn:li:activity:7432725180860407809",
+        "url:https://www.linkedin.com/posts/guillaume-moubeche-a026541b2_everyone-knows-how-important-it-is-to-hire-activity-7432725180860407809-RvZu",
+        "text:1c46c503277d8b086508d37ce3371853d2aea6d935b8f6d71020959a653aed17",
+        "id:urn:li:share:7432725180185116672"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7438160716169379840",
+      "aliases": [
+        "id:urn:li:activity:7438160716169379840",
+        "url:https://www.linkedin.com/posts/guillaume-moubeche-a026541b2_this-week-on-billions-anish-acharya-activity-7438160716169379840-X-Be",
+        "text:7a0b14cc478b4a1effb8c3fd0a50fd3136627614a8871d382e2662d6cdb588ec",
+        "id:urn:li:share:7438160713178689536"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7438221080412000256",
+      "aliases": [
+        "id:urn:li:activity:7438221080412000256",
+        "url:https://www.linkedin.com/posts/retentionadam_until-you-have-pmf-there-are-only-4-things-activity-7438221080412000256-VdNh",
+        "text:c6b37ca1279f3b9089ce15bf96e68a4b18c9c15f0002e97d0fec237d542e3172",
+        "id:urn:li:share:7437983640178991105"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7445743043049312256",
+      "aliases": [
+        "id:urn:li:activity:7445743043049312256",
+        "url:https://www.linkedin.com/posts/guillaume-moubeche-a026541b2_never-wrote-a-line-of-code-now-a-66b-unicorn-activity-7445743043049312256-JwyC",
+        "text:942b2cf9d3114defa1b096e0bbd74f71a0e5d3fd8a3aca5193402e620bd1b7fe",
+        "id:urn:li:share:7445743039949541376"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7449536001334501377",
+      "aliases": [
+        "id:urn:li:activity:7449536001334501377",
+        "url:https://www.linkedin.com/posts/retentionadam_will-mctighe-went-from-3000-to-400000-linkedin-activity-7449536001334501377-OMag",
+        "text:ef2ff4c31c6554feb3e8a55149a56900a5bacd7f866568cdad0c8d34151c21ba",
+        "id:urn:li:share:7449536000479051776"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7456976799269560320",
+      "aliases": [
+        "id:urn:li:activity:7456976799269560320",
+        "url:https://www.linkedin.com/posts/guillaume-moubeche-a026541b2_creating-a-140b-market-the-secondary-market-activity-7456976799269560320-XsjN",
+        "text:fa8ed47bce89b79f1342f3c718629779116160cfd6f54f5cd66fb6a8a10bc7d6",
+        "id:urn:li:share:7456976798099169282"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7457823899653890048",
+      "aliases": [
+        "id:urn:li:activity:7457823899653890048",
+        "url:https://www.linkedin.com/posts/justwillaitken_be-first-first-to-discovery-demo-and-activity-7457823899653890048-FXs6",
+        "text:726fb6a8110d5938b5c418b2d1386b46a5d4c38e8af2666e32894fe3ecd3087b",
+        "id:urn:li:share:7457823898861072384"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7469412330540290049",
+      "aliases": [
+        "id:urn:li:activity:7469412330540290049",
+        "url:https://www.linkedin.com/posts/chrisorlob_a-few-years-into-my-sales-career-i-stopped-activity-7469412330540290049-u_nY",
+        "text:02fe10c8e2e9bf21fd73c1150f2a7a4bea8ccaf5c0cb9e12553ba19071813799",
+        "id:urn:li:share:7469412327822381056"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7469800677146529792",
+      "aliases": [
+        "id:urn:li:activity:7469800677146529792",
+        "url:https://www.linkedin.com/posts/armand-farrokh_when-you-have-no-pipeline-in-sales-you-activity-7469800677146529792-WZdE",
+        "text:36c30d77b648f45f12fa11fa2287c7d7ed4e0c08ecc06dea21266bce5b91cfbf",
+        "id:urn:li:share:7469800676072689664"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7470120723479490560",
+      "aliases": [
+        "id:urn:li:activity:7470120723479490560",
+        "url:https://www.linkedin.com/posts/chrisorlob_today-we-opened-enrollment-for-our-first-activity-7470120723479490560-HD_a",
+        "text:0d896917c4835f4cc51652185639d7e1b34fdebcb6d6b287d1e5212b9398271c",
+        "id:urn:li:share:7470120721495781377"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7472187562955149312",
+      "aliases": [
+        "id:urn:li:activity:7472187562955149312",
+        "url:https://www.linkedin.com/posts/richardvanderblom_most-b2b-professionals-treat-linkedin-like-activity-7472187562955149312-5QP_",
+        "text:73dc76c085e3d6090403f9694f3511e1ca2a68eb61e97a3e48241527c5d55593",
+        "id:urn:li:ugcPost:7472187561377988608"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7472663804993110016",
+      "aliases": [
+        "id:urn:li:activity:7472663804993110016",
+        "url:https://www.linkedin.com/posts/chrisorlob_the-fastest-way-to-lose-a-deal-in-2026-is-activity-7472663804993110016-uVjc",
+        "text:8823745497d59c722f8714d8fbb8512566068c422eee7a33c1b80b69b861f196",
+        "id:urn:li:share:7472663802254139392"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7475603019565252608",
+      "aliases": [
+        "id:urn:li:activity:7475603019565252608",
+        "url:https://www.linkedin.com/posts/alex-lieberman_stupid-simple-but-most-powerful-claude-skill-activity-7475603019565252608-6yJ2",
+        "text:0bd989b9023b242ddd0cf4fd67f81429983a7aacf051f84927a5345bdc513d73",
+        "id:urn:li:share:7475603018378305536"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7475623789402411008",
+      "aliases": [
+        "id:urn:li:activity:7475623789402411008",
+        "url:https://www.linkedin.com/posts/chrisorlob_you-can-run-flawless-discovery-and-still-activity-7475623789402411008-mSkY",
+        "text:8bbef5976a0e6804d46343808adfa5c95eaa80a2ed496524cf2a939101f3f006",
+        "id:urn:li:share:7475494712393498624"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7475974076671619072",
+      "aliases": [
+        "id:urn:li:activity:7475974076671619072",
+        "url:https://www.linkedin.com/posts/alex-lieberman_a-partner-at-one-of-the-big-4-said-something-activity-7475974076671619072-QZ_n",
+        "text:f398dc444164f761ca7290945c8cc21b2abbd93ad5f927a16f541b7269bf2487",
+        "id:urn:li:share:7475974074926641152"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7477376013664964608",
+      "aliases": [
+        "id:urn:li:activity:7477376013664964608",
+        "url:https://www.linkedin.com/posts/alex-lieberman_replyguys-activity-7477376013664964608-1elm",
+        "text:7adb62223e931b022d961b6a9d47f464be38c7249903fc3b07fd2bf8181d59e9",
+        "id:urn:li:share:7477376010888433664"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7478435815572856832",
+      "aliases": [
+        "id:urn:li:activity:7478435815572856832",
+        "url:https://www.linkedin.com/posts/alex-lieberman_i-find-most-meetings-to-be-a-waste-but-activity-7478435815572856832-1cBv",
+        "text:1bacc4153d294bb1af7316e3a2e5afe164df622d07e68464b9c55146bf2b7443",
+        "id:urn:li:share:7478435812863483905"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7480365029364494336",
+      "aliases": [
+        "id:urn:li:activity:7480365029364494336",
+        "url:https://www.linkedin.com/posts/chrisorlob_ask-salespeople-how-good-their-discovery-activity-7480365029364494336-sTIw",
+        "text:86ffb610fbed694d924be1aebd8d03b9d75ae0ef6aa457e982c4f3e741430e71",
+        "id:urn:li:share:7480115595246493698"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7482909641828663297",
+      "aliases": [
+        "id:urn:li:activity:7482909641828663297",
+        "url:https://www.linkedin.com/posts/alex-lieberman_my-team-spends-all-day-talking-ai-with-enterprise-activity-7482909641828663297-nqUj",
+        "text:6060026d5819b37884454bd159d95cc592611b569b521a1e124216d8c2eed7b9",
+        "id:urn:li:share:7482909639114653696"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7483476991925452800",
+      "aliases": [
+        "id:urn:li:activity:7483476991925452800",
+        "url:https://www.linkedin.com/posts/alex-lieberman_despite-being-a-successful-founder-i-really-activity-7483476991925452800-0n17",
+        "text:29b1452644f1b49a238901a733b580c60f4ddd09a5282eb11d7da8ddb9d17e82",
+        "id:urn:li:share:7483476990180732928"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7485076078286467072",
+      "aliases": [
+        "id:urn:li:activity:7485076078286467072",
+        "url:https://www.linkedin.com/posts/chrisorlob_sobriety-groups-understand-buyer-psychology-activity-7485076078286467072-CutC",
+        "text:58583a3eaf66ba17f75389553c87a2ebb45faa28b532358784fb875805a6b03c",
+        "id:urn:li:share:7484987916771979264"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7486163253220364288",
+      "aliases": [
+        "id:urn:li:activity:7486163253220364288",
+        "url:https://www.linkedin.com/posts/chrisorlob_every-quarter-end-deal-in-your-pipeline-fits-activity-7486163253220364288-lBMN",
+        "text:94d9b7f3d5ae8114faf110650030f2e79940bc50fb9d9f793fb11b760e673a2b",
+        "id:urn:li:share:7486026113828179968"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7486525636014989312",
+      "aliases": [
+        "id:urn:li:activity:7486525636014989312",
+        "url:https://www.linkedin.com/posts/chrisorlob_one-of-the-habits-that-quietly-kills-deals-activity-7486525636014989312--Aym",
+        "text:97e5996ec3d28f81a0681854c128ce6f1514360fc869f55d44090121b4379dd0",
+        "id:urn:li:share:7486393348627501056"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7487612800245252096",
+      "aliases": [
+        "id:urn:li:activity:7487612800245252096",
+        "url:https://www.linkedin.com/posts/chrisorlob_john-mcmahon-the-author-of-the-qualified-activity-7487612800245252096-RKtZ",
+        "text:f477745785cfa9e0c0babd1b2ad49f6e0d4a47998f5b1d58218c3d9071625670",
+        "id:urn:li:share:7487513029975146496"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7487919878591516673",
+      "aliases": [
+        "id:urn:li:activity:7487919878591516673",
+        "url:https://www.linkedin.com/posts/alex-lieberman_introducing-the-content-machine-first-time-activity-7487919878591516673-5tW5",
+        "text:b8100c57e2206d38349f692c3c0f5df6a0261ae0912384ab96529e410c01a9d9",
+        "id:urn:li:share:7487919876314058754"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7487975187448107008",
+      "aliases": [
+        "id:urn:li:activity:7487975187448107008",
+        "url:https://www.linkedin.com/posts/chrisorlob_small-changes-in-how-you-phrase-discovery-activity-7487975187448107008-Bcsn",
+        "text:d56d64d93742160d7a91da22a93b1617c4c9203304d59f7e3951087230ac0cac",
+        "id:urn:li:share:7487871294307287040"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7488605427002171392",
+      "aliases": [
+        "id:urn:li:activity:7488605427002171392",
+        "url:https://www.linkedin.com/posts/alex-lieberman_im-either-going-to-look-like-an-absolute-activity-7488605427002171392-GFX2",
+        "text:d0bfac56c7b010803af69b956ef263f9b39f5f84caaf3cd5c355e30abaf491e1",
+        "id:urn:li:share:7488605425508999169"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7488699954484506626",
+      "aliases": [
+        "id:urn:li:activity:7488699954484506626",
+        "url:https://www.linkedin.com/posts/chrisorlob_whats-your-decision-making-process-this-activity-7488699954484506626-wf1s",
+        "text:297d0f09f6bf7a7285268b0dbb53273ee92bbd765a3235c1953e511142416652",
+        "id:urn:li:share:7488598470040166400"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7489424731964657665",
+      "aliases": [
+        "id:urn:li:activity:7489424731964657665",
+        "url:https://www.linkedin.com/posts/chrisorlob_if-your-second-meeting-no-show-rate-is-high-activity-7489424731964657665-rXAt",
+        "text:03d40681c3deca322c20c11739625d07854ef41e1e3487393ccc2fafc615a4be",
+        "id:urn:li:share:7489316971881082880"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7490770072739913729",
+      "aliases": [
+        "id:urn:li:activity:7490770072739913729",
+        "url:https://www.linkedin.com/posts/tadavidson41_someone-at-your-company-is-posting-on-linkedin-activity-7490770072739913729-Lj0m",
+        "text:268bafa59589a8d936d346b74a817e163ca446f959f8b1bbf107fb6f4b0c73e6",
+        "id:urn:li:ugcPost:7490769972634476544"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7492765126673149952",
+      "aliases": [
+        "id:urn:li:activity:7492765126673149952",
+        "url:https://www.linkedin.com/posts/alex-lieberman_an-ai-hackathon-is-one-of-the-highest-leverage-activity-7492765126673149952--crA",
+        "text:10d420ee7f334b39a1ae92c0ae3e5c92a190ad766979e265f41fe4e0208bbff9",
+        "id:urn:li:share:7492765124706013184"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7493288917706727424",
+      "aliases": [
+        "id:urn:li:activity:7493288917706727424",
+        "url:https://www.linkedin.com/posts/tadavidson41_starting-a-solo-services-business-where-all-activity-7493288917706727424-PwFY",
+        "text:51b8dfafab4ea88d2b3ca7638126ddf7ac2ee383e9585dc171fe634edeb7b9f8",
+        "id:urn:li:ugcPost:7493288834856652801"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7494401252995256321",
+      "aliases": [
+        "id:urn:li:activity:7494401252995256321",
+        "url:https://www.linkedin.com/posts/alex-lieberman_random-ai-thought-of-the-day-demand-and-activity-7494401252995256321-HvZW",
+        "text:4d945c69455d871efd352a8c7c786e425d25460a006c6cb984a5966b22fab4d6",
+        "id:urn:li:share:7494401252035067904"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7495486184798826496",
+      "aliases": [
+        "id:urn:li:activity:7495486184798826496",
+        "url:https://www.linkedin.com/posts/armand-farrokh_self-respect-is-everything-in-sales-if-activity-7495486184798826496-s_z9",
+        "text:6431831b2ec2313e4c694424a9e519c4a7813f6b7226bb59b6b5b812162bdaaf",
+        "id:urn:li:share:7495486184001896448"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7495836579312148480",
+      "aliases": [
+        "id:urn:li:activity:7495836579312148480",
+        "url:https://www.linkedin.com/posts/tadavidson41_the-ai-creative-delusion-needs-to-be-stopped-activity-7495836579312148480-WKT_",
+        "text:52b2a84a42f37c6d05bb6f292d0cb80cc1c58520e5a04ef799ac9f8b61c48628",
+        "id:urn:li:ugcPost:7495836492427190272"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7496623169282400256",
+      "aliases": [
+        "id:urn:li:activity:7496623169282400256",
+        "url:https://www.linkedin.com/posts/alex-lieberman_75m-founder-reveals-his-agentic-engineering-activity-7496623169282400256-3BL_",
+        "text:93513be43a5816477220b0d869cacf7bf9bb64c368bda0b504d30bc614af5865",
+        "id:urn:li:share:7496623166086365184"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7496993501486690304",
+      "aliases": [
+        "id:urn:li:activity:7496993501486690304",
+        "url:https://www.linkedin.com/posts/retentionadam_founders-your-team-cant-use-ai-to-write-activity-7496993501486690304-Su1N",
+        "text:23e66e92a800f753cd27718161fcd62c5470f835e65e3d5a7e41ca8e8e14aaf4",
+        "id:urn:li:share:7496661043797037057"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7498372009941295105",
+      "aliases": [
+        "id:urn:li:activity:7498372009941295105",
+        "url:https://www.linkedin.com/posts/tadavidson41_i-dont-want-to-pile-on-more-to-any-b2b-marketers-activity-7498372009941295105-k34n",
+        "text:4a7c8b2f9b3c9872491936681177b9e88d7adf26eac7d6c86b7a4b527edbaeec",
+        "id:urn:li:ugcPost:7498371955088273409"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7499100505869213696",
+      "aliases": [
+        "id:urn:li:activity:7499100505869213696",
+        "url:https://www.linkedin.com/posts/tadavidson41_this-is-what-happens-when-you-give-kids-activity-7499100505869213696-YRD5",
+        "text:0b8ab36274c6492e10e376d7824fa2a2a33900b7aa07be3b288ee7c5a4d5c48c",
+        "id:urn:li:ugcPost:7499100428324716544"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7501038407763038208",
+      "aliases": [
+        "id:urn:li:activity:7501038407763038208",
+        "url:https://www.linkedin.com/posts/tadavidson41_a-few-days-into-using-grokbot-and-i-must-activity-7501038407763038208-oozM",
+        "text:971ccdac547c0d61570c0e7ee3b6ecda84c11e9e2db03a8dd5638c99dbdfe4b4",
+        "id:urn:li:share:7501038405334556672"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7502355701000962048",
+      "aliases": [
+        "id:urn:li:activity:7502355701000962048",
+        "url:https://www.linkedin.com/posts/josh-braun_i-keep-seeing-advice-like-this-quit-your-activity-7502355701000962048-bsST",
+        "text:b75001bc824d73cd1147af62ac6f7d0b5438a5cd3e96aa9b4ab6b0746e705704",
+        "id:urn:li:share:7502355698161459200"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7503761584188538881",
+      "aliases": [
+        "id:urn:li:activity:7503761584188538881",
+        "url:https://www.linkedin.com/posts/alicjasmin_i-flew-7-people-to-bosnia-this-year-all-activity-7503761584188538881-6t6G",
+        "text:80a05a156f2553a9748f90b93389bc7cc30e0486c65ae301adf2cfc4d1a7c736",
+        "id:urn:li:share:7503761581021761538"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7510947455253897216",
+      "aliases": [
+        "id:urn:li:activity:7510947455253897216",
+        "url:https://www.linkedin.com/posts/richardvanderblom_every-week-someone-tells-me-im-posting-activity-7510947455253897216-FMvM",
+        "text:759e847d769eb0ca2c2ee7396a8354c6b31c503a575d5db0bf3458b99db94744",
+        "id:urn:li:share:7510947453194510336"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7511015655685464066",
+      "aliases": [
+        "id:urn:li:activity:7511015655685464066",
+        "url:https://www.linkedin.com/posts/josh-braun_as-sellers-were-obsessed-with-quantifying-activity-7511015655685464066-VwKl",
+        "text:8cdc61670587e130b89f3131582ff2e497132d88871aa9fa227f6a6787eff9ce",
+        "id:urn:li:share:7511015654716628992"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7511754411224784896",
+      "aliases": [
+        "id:urn:li:activity:7511754411224784896",
+        "url:https://www.linkedin.com/posts/justwillaitken_a-seller-crawling-in-confusion-moves-further-activity-7511754411224784896-FQk7",
+        "text:d251b22590f5d7318cc111618243b55e7dbbed84859636e337a3d3e1393b99d8",
+        "id:urn:li:share:7511754410155261952"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7513226484199620608",
+      "aliases": [
+        "id:urn:li:activity:7513226484199620608",
+        "url:https://www.linkedin.com/posts/armand-farrokh_we-booked-15-warm-meetings-in-3-hours-at-activity-7513226484199620608-m87N",
+        "text:696a40fe835dae5fef30d5e7dea4f2f2c0b7f0ef1ed1363cb6c80a9459c9b0f7",
+        "id:urn:li:share:7513226481964322816"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7513596925716209664",
+      "aliases": [
+        "id:urn:li:activity:7513596925716209664",
+        "url:https://www.linkedin.com/posts/justwillaitken_youre-not-tho-are-you-lets-chat-finding-activity-7513596925716209664-lYb-",
+        "text:c3ca13f702f12f415fad4d08d63c11918114a89df3c7c734c033ec5f246e61a0",
+        "id:urn:li:share:7513596924386615296"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7513597249093038080",
+      "aliases": [
+        "id:urn:li:activity:7513597249093038080",
+        "url:https://www.linkedin.com/posts/armand-farrokh_if-you-wanna-master-cold-calling-you-gotta-activity-7513597249093038080-9zwd",
+        "text:7d8254cbbe52fc691e2a3cc3fca8b1d80a1d24697776c33a67c1ce7dab8511aa",
+        "id:urn:li:share:7513597247918440450"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7513618895895793665",
+      "aliases": [
+        "id:urn:li:activity:7513618895895793665",
+        "url:https://www.linkedin.com/posts/retentionadam_heres-my-startup-hiring-philosophy-hire-activity-7513618895895793665-7X3Q",
+        "text:d03fd9d5d796c4a243701728e12280db41564d2ca68833c8258336376706d81f",
+        "id:urn:li:share:7513474728653750272"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7513844447919534082",
+      "aliases": [
+        "id:urn:li:activity:7513844447919534082",
+        "url:https://www.linkedin.com/posts/richardvanderblom_i-have-studied-the-linkedin-algorithm-for-activity-7513844447919534082-8P8W",
+        "text:ed3ff224dfc83eda4bf79cb4e2b6e7c00a76d63ee607aaed9fb6a267e2fd0acb",
+        "id:urn:li:share:7513813893417459712"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7513954187152650240",
+      "aliases": [
+        "id:urn:li:activity:7513954187152650240",
+        "url:https://www.linkedin.com/posts/armand-farrokh_im-looking-for-the-best-enablement-person-activity-7513954187152650240-1ZF8",
+        "text:0e782aec61c8a9c5d5504d465d665f0a4da928a7c70d3f76c5b5a8e53e92ab22",
+        "id:urn:li:share:7513281284270456832"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7513959825400258560",
+      "aliases": [
+        "id:urn:li:activity:7513959825400258560",
+        "url:https://www.linkedin.com/posts/justwillaitken_pov-your-personal-life-is-in-shambles-but-activity-7513959825400258560-Xq8F",
+        "text:ae8e5a7383bd0c705dd2604b9fc0f1e81da12c04b6c48d699e957b70e2101619",
+        "id:urn:li:ugcPost:7513959783578836992"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7514027249868722177",
+      "aliases": [
+        "id:urn:li:activity:7514027249868722177",
+        "url:https://www.linkedin.com/posts/retentionadam_today-im-officially-launching-my-new-startup-activity-7514027249868722177-dSjz",
+        "text:97525a9eba7234b9d8ff8d32172ecb391266922e2959795895d205e1bb2f76bc",
+        "id:urn:li:share:7514027248597782530"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7514312213948428289",
+      "aliases": [
+        "id:urn:li:activity:7514312213948428289",
+        "url:https://www.linkedin.com/posts/armand-farrokh_ive-made-20000-cold-calls-we-sold-100000-activity-7514312213948428289-pMiy",
+        "text:21d4b38212fdf08b09aacdf5e41947965763e91ea3f360ce3694daa81f762a2b",
+        "id:urn:li:share:7513962700608245760"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7515046842762481664",
+      "aliases": [
+        "id:urn:li:activity:7515046842762481664",
+        "url:https://www.linkedin.com/posts/tadavidson41_pov-what-its-like-being-a-b2b-marketer-activity-7515046842762481664-kqwF",
+        "text:0b792f18e8a6d3fd414274b12979d25d2219fa132d0511a3cac7a2c83e05d342",
+        "id:urn:li:ugcPost:7515046776475697152"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7515458256652128256",
+      "aliases": [
+        "id:urn:li:activity:7515458256652128256",
+        "url:https://www.linkedin.com/posts/armand-farrokh_you-wanna-get-your-reps-hot-before-cold-calling-activity-7515458256652128256-nFBI",
+        "text:ae5664ca2792eef0e01a24b62c9826adb95f545fab27057143762f3a8a317a18",
+        "id:urn:li:share:7515458255578619905"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7515476677955604480",
+      "aliases": [
+        "id:urn:li:activity:7515476677955604480",
+        "url:https://www.linkedin.com/posts/retentionadam_you-can-build-the-cleanest-list-of-your-tam-activity-7515476677955604480-YQHI",
+        "text:df71f9addde0a13d604b0335ca881e61a28b407ad35b155b8d45660eaf47bc20",
+        "id:urn:li:share:7515476677121183744"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7515720497519734784",
+      "aliases": [
+        "id:urn:li:activity:7515720497519734784",
+        "url:https://www.linkedin.com/posts/alicjasmin_linkedin-has-its-ups-and-downs-with-reach-activity-7515720497519734784-4YSY",
+        "text:2ffc2835fa4453590ab131bf8e8e84ddf6a908286932f2618029e4259400d51c",
+        "id:urn:li:share:7515720494470504448"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7515725014055415808",
+      "aliases": [
+        "id:urn:li:activity:7515725014055415808",
+        "url:https://www.linkedin.com/posts/josh-braun_if-youre-explaining-youre-losing-explaining-activity-7515725014055415808-T-FY",
+        "text:fec690358ff7cd24c3574bb0b422d1233d9c30d7159dbaed979e5fc792290960",
+        "id:urn:li:share:7515725011563741185"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7515775539018735616",
+      "aliases": [
+        "id:urn:li:activity:7515775539018735616",
+        "url:https://www.linkedin.com/posts/armand-farrokh_were-on-pace-to-get-30-warm-meetings-from-activity-7515775539018735616-25Q_",
+        "text:04891d3394e6b866e6a4e657a34ee81f82ce8f86e3ab3a15b46b2d2c47c432c9",
+        "id:urn:li:share:7515775537718464512"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7515775958419767296",
+      "aliases": [
+        "id:urn:li:activity:7515775958419767296",
+        "url:https://www.linkedin.com/posts/tadavidson41_ive-been-running-linkedin-ads-for-a-long-activity-7515775958419767296-U4lC",
+        "text:108002c86eeb5895365dd97372e6b3f71604dfe89ce8117ec585f521d3e2e623",
+        "id:urn:li:share:7515775955739783170"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7516082879920111617",
+      "aliases": [
+        "id:urn:li:activity:7516082879920111617",
+        "url:https://www.linkedin.com/posts/alicjasmin_my-linkedin-strategy-hasnt-changed-in-5-activity-7516082879920111617-ckSd",
+        "text:7b1a61339ba17fde2ade5b94322d8932442fe4d5cc1e4c7a5e08dca3b43ec6a7",
+        "id:urn:li:share:7516082877101637632"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7516183151208108034",
+      "aliases": [
+        "id:urn:li:activity:7516183151208108034",
+        "url:https://www.linkedin.com/posts/retentionadam_i-get-multiple-emails-every-day-saying-the-activity-7516183151208108034-kcEy",
+        "text:73028363e4d933f00d6cd8b575dca8feb72fe85fd917cfe1941547a87def6e83",
+        "id:urn:li:share:7515638559115251712"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7516195847756505089",
+      "aliases": [
+        "id:urn:li:activity:7516195847756505089",
+        "url:https://www.linkedin.com/posts/outboundphd_automated-cold-email-infrastructure-hypertide-activity-7516195847756505089-_Cwl",
+        "text:fa415f314e1f6a9ea784b439ad67f66adfd95b1814bf050c4a3fd54ca33cab04",
+        "id:urn:li:share:7516195844665290752"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7516402977348358144",
+      "aliases": [
+        "id:urn:li:activity:7516402977348358144",
+        "url:https://www.linkedin.com/posts/richardvanderblom_my-posts-are-being-used-to-spam-you-and-activity-7516402977348358144-y6Sp",
+        "text:071dc0b2295c06747face4fef124e21565807a8cd69ccca2721b49655bfd3b84",
+        "id:urn:li:share:7516402975930699776"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7516585699589033985",
+      "aliases": [
+        "id:urn:li:activity:7516585699589033985",
+        "url:https://www.linkedin.com/posts/tadavidson41_on-a-call-today-theres-a-lot-of-new-faces-activity-7516585699589033985-W9Ul",
+        "text:14ab95aecc9fa8ac148ce2df25e49000d07f4c2a9a058fd758db9321b49b5261",
+        "id:urn:li:share:7516585699093991424"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7516744076461985793",
+      "aliases": [
+        "id:urn:li:activity:7516744076461985793",
+        "url:https://www.linkedin.com/posts/richardvanderblom_i-spent-years-polishing-my-expert-posts-activity-7516744076461985793-MhZz",
+        "text:49bde2c541c232b82f41c07675bcff0e09e0776b08b20cb20d76901fb078b3c2",
+        "id:urn:li:share:7516744073353871360"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7516868596896002048",
+      "aliases": [
+        "id:urn:li:activity:7516868596896002048",
+        "url:https://www.linkedin.com/posts/armand-farrokh_we-got-really-really-lucky-with-our-founding-activity-7516868596896002048-9X6B",
+        "text:a6486e39706a9b0fada9822062d46816b95f2234c9ce5e958aac2e141cdf1499",
+        "id:urn:li:share:7516868595201544192"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7516909187809964036",
+      "aliases": [
+        "id:urn:li:activity:7516909187809964036",
+        "url:https://www.linkedin.com/posts/tadavidson41_i-just-learned-and-im-starting-to-do-something-activity-7516909187809964036-JMYv",
+        "text:c5b1d4677bc3de40503a2f87fa7d6809051a6e9e57dd4356b37d3d5258c16fa3",
+        "id:urn:li:share:7516909187184992256"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7517152462722736128",
+      "aliases": [
+        "id:urn:li:activity:7517152462722736128",
+        "url:https://www.linkedin.com/posts/richardvanderblom_some-of-my-posts-reached-millions-others-activity-7517152462722736128-YlFB",
+        "text:fdab6dc7ba802104e9c2e326b55d442745072f44087bd9b07abaced3c80a5708",
+        "id:urn:li:share:7517152459673296896"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7517488283384393728",
+      "aliases": [
+        "id:urn:li:activity:7517488283384393728",
+        "url:https://www.linkedin.com/posts/richardvanderblom_78-the-features-linkedin-killed-are-back-activity-7517488283384393728-taR8",
+        "text:3078a3a683d46144c9ef5bca8bfe0dbe56bca110ef27afe5b9372897ed8eb113",
+        "id:urn:li:ugcPost:7517488282977419264"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7517540146313904128",
+      "aliases": [
+        "id:urn:li:activity:7517540146313904128",
+        "url:https://www.linkedin.com/posts/devinreed_how-to-pick-what-to-post-when-you-could-post-activity-7517540146313904128-7q4Q",
+        "text:447549eb6cf8f4993d469806961da507f8348f9db4ca63c0632b9aa6dc4337a2",
+        "id:urn:li:ugcPost:7516248284361945088"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7517631935356235776",
+      "aliases": [
+        "id:urn:li:activity:7517631935356235776",
+        "url:https://www.linkedin.com/posts/retentionadam_hey-yc-founders-since-i-cant-turn-back-activity-7517631935356235776-24H0",
+        "text:d1c8ce946a812caab06fe0d05998513389640fe5a9f9a7e60164de4b4597d7a0",
+        "id:urn:li:share:7517297158459490304"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7517841734031015936",
+      "aliases": [
+        "id:urn:li:activity:7517841734031015936",
+        "url:https://www.linkedin.com/posts/richardvanderblom_last-month-i-counted-23-recorded-client-calls-activity-7517841734031015936-CTmV",
+        "text:facccbe6047809b75cce99f95cfe108ebfe5a4ff87f0fb56bcb9f804ce28ac49",
+        "id:urn:li:share:7517841731250442240"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7517894627199262720",
+      "aliases": [
+        "id:urn:li:activity:7517894627199262720",
+        "url:https://www.linkedin.com/posts/alicjasmin_a-year-ago-i-wrote-an-open-letter-to-linkedin-activity-7517894627199262720-GJc7",
+        "text:4d49d0338bc9e980160accc25339c996006220cfaf8916faf80ccb7d49e8a637",
+        "id:urn:li:share:7517894625295134720"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7518000058513014785",
+      "aliases": [
+        "id:urn:li:activity:7518000058513014785",
+        "url:https://www.linkedin.com/posts/outboundphd_2-features-brought-us-back-to-using-clay-activity-7518000058513014785-uw0U",
+        "text:0f69684d4e78c06620cdfaa1175affdf482745bee9897efb6f766fcef35aa5d6",
+        "id:urn:li:share:7518000055455219713"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7518006369120055296",
+      "aliases": [
+        "id:urn:li:activity:7518006369120055296",
+        "url:https://www.linkedin.com/posts/retentionadam_amos-bar-joseph-just-cut-his-ai-monthly-invoice-activity-7518006369120055296-sOxG",
+        "text:4d08f4a242ee5251d808fc721727ce994cb9f6c4f56184cc87cc4f2e6c6a743e",
+        "id:urn:li:share:7517685713467875328"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7518018665850630144",
+      "aliases": [
+        "id:urn:li:activity:7518018665850630144",
+        "url:https://www.linkedin.com/posts/armand-farrokh_in-2022-nick-and-i-went-on-a-hall-of-fame-activity-7518018665850630144-e5sB",
+        "text:a69990b98d5c2804186f4a9cb4a5c26d3b1b96bef1070c9b721dbc4fb64147a3",
+        "id:urn:li:share:7518018664298844160"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7518193216072966144",
+      "aliases": [
+        "id:urn:li:activity:7518193216072966144",
+        "url:https://www.linkedin.com/posts/richardvanderblom_most-linkedin-posts-inside-companies-don-activity-7518193216072966144-4cb5",
+        "text:25c7d4374501ea11ebc101f70879305c8e1dca63ce7d67549ad9b7fd65b619d2",
+        "id:urn:li:ugcPost:7518025204405542912"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7518299343205019650",
+      "aliases": [
+        "id:urn:li:activity:7518299343205019650",
+        "url:https://www.linkedin.com/posts/armand-farrokh_we-just-hired-the-greatest-ae-of-all-time-activity-7518299343205019650-OOk0",
+        "text:693969361bbc05d3aff5055c4fd334ea0f0824199b420cddb300c9a582541c60",
+        "id:urn:li:share:7518299342047170560"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7518563147230674944",
+      "aliases": [
+        "id:urn:li:activity:7518563147230674944",
+        "url:https://www.linkedin.com/posts/richardvanderblom_last-thursday-in-valencia-i-started-going-activity-7518563147230674944-00HG",
+        "text:666e292f91a642b39c6ed2d75ce0a3b7a6413f8d2cfaab4e1d83f8d9eb4b24eb",
+        "id:urn:li:share:7517838314503159808"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7518619414922076161",
+      "aliases": [
+        "id:urn:li:activity:7518619414922076161",
+        "url:https://www.linkedin.com/posts/alicjasmin_i-dont-have-linkedin-on-my-phone-and-yet-activity-7518619414922076161-hU94",
+        "text:f0fb2ea84943534dc25f933465aaa725cce3a8cfe8b12beea7714a497fe3e930",
+        "id:urn:li:share:7518619413559058433"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7518623519883132928",
+      "aliases": [
+        "id:urn:li:activity:7518623519883132928",
+        "url:https://www.linkedin.com/posts/josh-braun_do-you-have-any-questions-for-us-if-you-activity-7518623519883132928-Rk1W",
+        "text:6ffa69ca49f046769da0dc3f3a1d7c5c651f36fecd92b7d4c6760f5c1062a0c2",
+        "id:urn:li:share:7518623519069503488"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7518650095827976192",
+      "aliases": [
+        "id:urn:li:activity:7518650095827976192",
+        "url:https://www.linkedin.com/posts/josh-braun_theres-so-much-information-about-selling-activity-7518650095827976192-dqoM",
+        "text:f6d8902be2a74aaef1e069de889e156d9cda84b8e8ac12ad998c95e8967f33c0",
+        "id:urn:li:share:7518650092946636801"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7518652557486104576",
+      "aliases": [
+        "id:urn:li:activity:7518652557486104576",
+        "url:https://www.linkedin.com/posts/josh-braun_when-morgan-j-ingram-was-an-sdr-he-started-activity-7518652557486104576-HR8v",
+        "text:e56686f4e0157bc9fae607557dd094f24c2998388e6e1927b7d48819d3944737",
+        "id:urn:li:share:7518652555908939778"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7518657336354394112",
+      "aliases": [
+        "id:urn:li:activity:7518657336354394112",
+        "url:https://www.linkedin.com/posts/josh-braun_someone-commented-on-one-of-my-posts-last-activity-7518657336354394112-9E0x",
+        "text:b50f312b87e5a8fec90ec390781a0bdb97e7094ed30289934d1f61db8874f4a5",
+        "id:urn:li:share:7518657334378946561"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7518683861753606144",
+      "aliases": [
+        "id:urn:li:activity:7518683861753606144",
+        "url:https://www.linkedin.com/posts/devinreed_how-to-create-banger-webinars-activity-7518683861753606144-9M8K",
+        "text:e51de78befbb2e1c5b564069409cf91964b340d3f2622fc85166b49adf73148e",
+        "id:urn:li:ugcPost:7518378147302490112"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7518720533476245504",
+      "aliases": [
+        "id:urn:li:activity:7518720533476245504",
+        "url:https://www.linkedin.com/posts/josh-braun_this-skill-is-a-sales-superpower-had-my-activity-7518720533476245504-6yRX",
+        "text:7be045e45210a6bf1021be7b236c5319d63ccb0ecd51f4f3f8dfbbc936d6a9ec",
+        "id:urn:li:share:7518720532020789248"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7518729877647343618",
+      "aliases": [
+        "id:urn:li:activity:7518729877647343618",
+        "url:https://www.linkedin.com/posts/josh-braun_got-a-cold-call-rep-said-they-book-meetings-activity-7518729877647343618-dKXV",
+        "text:c015d8bfd7dc96616cb63e411d0cae0f6d96b294d0301c38aea34c60ca6eb63e",
+        "id:urn:li:share:7518729876963708928"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7518737027824168960",
+      "aliases": [
+        "id:urn:li:activity:7518737027824168960",
+        "url:https://www.linkedin.com/posts/justwillaitken_see-people-complain-about-sdr-roles-that-activity-7518737027824168960-Z-Ey",
+        "text:44d1ea82106a1ab24280a25bc917f2ba440b7a6ec9fae2c02568c5e24013d553",
+        "id:urn:li:share:7518737026804998144"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7518847793139134464",
+      "aliases": [
+        "id:urn:li:activity:7518847793139134464",
+        "url:https://www.linkedin.com/posts/josh-braun_someone-analyzed-my-last-50-linkedin-posts-activity-7518847793139134464-re1b",
+        "text:c6d44820bf335e0f65f3c250973ff22a7b22a41089ad7bb369653e5b0b361d42",
+        "id:urn:li:share:7518847791742418944"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7518852407938887680",
+      "aliases": [
+        "id:urn:li:activity:7518852407938887680",
+        "url:https://www.linkedin.com/posts/josh-braun_interviewer-if-you-dont-get-this-job-activity-7518852407938887680--BUa",
+        "text:93f36ebb9bd41f2b4d130c057d8fcd2b21912c93e7724b5a7bcdc83ece63c1b1",
+        "id:urn:li:share:7518852407204818944"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7484170100879609856",
+      "aliases": [
+        "id:urn:li:activity:7484170100879609856",
+        "url:https://www.linkedin.com/posts/chrisorlob_customers-buy-more-from-feeling-understood-activity-7484170100879609856-IxRB",
+        "text:f9b3277dc12482564f70ad1f1c535efec87a224b3c904c6650bf24bee8b7bd56",
+        "id:urn:li:share:7483899590119747584"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7484351294439321600",
+      "aliases": [
+        "id:urn:li:activity:7484351294439321600",
+        "url:https://www.linkedin.com/posts/chrisorlob_most-sales-calls-are-lost-in-the-first-five-activity-7484351294439321600-x0bD",
+        "text:47b9fa5d3bb495470820983d87d8f1b60baba659361c383e075d18b7fc9edda7",
+        "id:urn:li:share:7484289948997668865"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7485438541850693632",
+      "aliases": [
+        "id:urn:li:activity:7485438541850693632",
+        "url:https://www.linkedin.com/posts/chrisorlob_an-inbound-lead-with-no-power-is-the-trap-activity-7485438541850693632-5Nyp",
+        "text:17aa2fb6589bf8979e848a966c4d7d78840204d164f38d87096901de3a0cb20e",
+        "id:urn:li:share:7485287382733176842"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7485587121517391872",
+      "aliases": [
+        "id:urn:li:activity:7485587121517391872",
+        "url:https://www.linkedin.com/posts/richardvanderblom_two-types-of-linkedin-creators-only-one-activity-7485587121517391872-QYQj",
+        "text:59d5a63b0afd256f8b428bac9fe557b6c3fc31243e5c61110186201d8087ffcf",
+        "id:urn:li:share:7485587118505824256"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7486056038190854148",
+      "aliases": [
+        "id:urn:li:activity:7486056038190854148",
+        "url:https://www.linkedin.com/posts/robertjohngough_im-taking-on-founding-customers-for-stayupfront-activity-7486056038190854148-oIOZ",
+        "text:a192418b12173e0aed11c5eb2197e0b823c5dfa3accf0b6e8029b3436fee3cdc",
+        "id:urn:li:ugcPost:7486056035233865728"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7486321786146639872",
+      "aliases": [
+        "id:urn:li:activity:7486321786146639872",
+        "url:https://www.linkedin.com/posts/kelleherdenis_the-cost-of-trying-to-be-everything-to-everyone-activity-7486321786146639872-65YW",
+        "text:496aa83aead9859b74b7c1013a6dc6c737b7321e95aa90fe7c630ea398558554",
+        "id:urn:li:share:7485731270325628930"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7486343271615717376",
+      "aliases": [
+        "id:urn:li:activity:7486343271615717376",
+        "url:https://www.linkedin.com/posts/datamaticsbpm_demand-b2b-ai-activity-7486343271615717376--dcB",
+        "text:c536bdc4a7461eb3dfa56611573c38613e35715dd4b344e0620f90acf325148c",
+        "id:urn:li:share:7486343270424535040"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7486347327583105024",
+      "aliases": [
+        "id:urn:li:activity:7486347327583105024",
+        "url:https://www.linkedin.com/posts/divinitymalshe_b2bmarketing-thoughtleadership-demandgeneration-activity-7486347327583105024-Larv",
+        "text:03e9f9be0afc66d23e8cf511d984db7791d1a99a022a1d0ef88f2e70f628d323",
+        "id:urn:li:share:7482387412837605376"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7486397323766345730",
+      "aliases": [
+        "id:urn:li:activity:7486397323766345730",
+        "url:https://www.linkedin.com/posts/content-revops_where-did-all-the-demand-generation-managers-activity-7486397323766345730-wpbn",
+        "text:d30bc9b35f8d991ff1b3bf9250fcecee32b97a8bf5a61fe391baacf53bf4dbbb",
+        "id:urn:li:ugcPost:7479881903240761344"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7486412385763844097",
+      "aliases": [
+        "id:urn:li:activity:7486412385763844097",
+        "url:https://www.linkedin.com/posts/manishgkothari_the-biggest-shift-in-b2b-demand-generation-activity-7486412385763844097-3v8H",
+        "text:cee9cca85aba3b89c93be156a2abb7b609fd53fef18822427fb02de52addcd68",
+        "id:urn:li:share:7486337344523038722"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7486417449202933760",
+      "aliases": [
+        "id:urn:li:activity:7486417449202933760",
+        "url:https://www.linkedin.com/posts/stephenarmenti_is-field-marketing-becoming-more-important-activity-7486417449202933760-AJ-z",
+        "text:d518772e84ae0b53177448cfa52c9fae468a1b292f99397bb89cf4c2cf779930",
+        "id:urn:li:share:7486417447764271104"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7486419959699427329",
+      "aliases": [
+        "id:urn:li:activity:7486419959699427329",
+        "url:https://www.linkedin.com/posts/lindafanaras_whats-changing-in-b2b-sales-10-trends-revenue-activity-7486419959699427329-NbHc",
+        "text:71ab78eb47c062da5fa906f541b3947c6ae5c9bbbd6aff07982d66efc8c91563",
+        "id:urn:li:share:7479893070348685312"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7486457817332199424",
+      "aliases": [
+        "id:urn:li:activity:7486457817332199424",
+        "url:https://www.linkedin.com/posts/fullfunnel_demandgeneration-b2bmarketing-revops-activity-7486457817332199424-uqdE",
+        "text:9eb4f19e6b28bdb9af7b560bab1e693b33f039366455f5773fb80e3ab1b48339",
+        "id:urn:li:share:7486457816333852672"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7486510522297704448",
+      "aliases": [
+        "id:urn:li:activity:7486510522297704448",
+        "url:https://www.linkedin.com/posts/shaqib-ansari-179241288_three-things-i-didnt-expect-when-building-activity-7486510522297704448-dnuo",
+        "text:33a36956b5e7b14a2b5c9fd9a93849544113c0082815edb61c26d11dd8144727",
+        "id:urn:li:share:7485942575334555649"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7487250403202572288",
+      "aliases": [
+        "id:urn:li:activity:7487250403202572288",
+        "url:https://www.linkedin.com/posts/chrisorlob_selling-involves-more-status-dynamics-than-activity-7487250403202572288-nfKV",
+        "text:da340b9772e33fae137d0ba17f549203ad945306620e92b257933d665a1a6404",
+        "id:urn:li:share:7487038502400880641"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7487394885134798848",
+      "aliases": [
+        "id:urn:li:activity:7487394885134798848",
+        "url:https://www.linkedin.com/posts/richardvanderblom_rvdb4-system-of-trust-building-activity-7487394885134798848-hG5y",
+        "text:7487130b1f3e2ce1c566320a06ecb65fc005f49e107e71d44d93e9df4b726785",
+        "id:urn:li:ugcPost:7487394882026635264"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7487454191326756864",
+      "aliases": [
+        "id:urn:li:activity:7487454191326756864",
+        "url:https://www.linkedin.com/posts/alicjasmin_i-just-did-a-1-hour-masterclass-on-national-activity-7487454191326756864-u6Mz",
+        "text:21e8f1f083a6a8df5ad7c83e8f60c6f5e8fd33929b9a616206c72771e51194c3",
+        "id:urn:li:share:7487454188336005122"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7487885980805378049",
+      "aliases": [
+        "id:urn:li:activity:7487885980805378049",
+        "url:https://www.linkedin.com/posts/debtlink_modernizing-accounts-receivable-from-manual-activity-7487885980805378049-wywr",
+        "text:0cbfb869e611fdc9643d0a7cd86a4a996cdb8d53229c025179151619bdb76fa9",
+        "id:urn:li:share:7487885980054601728"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7488126088943071232",
+      "aliases": [
+        "id:urn:li:activity:7488126088943071232",
+        "url:https://www.linkedin.com/posts/richardvanderblom_someone-emailed-me-their-new-linkedin-profile-activity-7488126088943071232-HMdy",
+        "text:790d9be71958ae47ed9062681cb60f7dfc08b0f5716fa2b9cd156fa7f48392fc",
+        "id:urn:li:share:7488126085889523712"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7488178981431734272",
+      "aliases": [
+        "id:urn:li:activity:7488178981431734272",
+        "url:https://www.linkedin.com/posts/alicjasmin_my-1-linkedin-rule-is-never-post-and-ghost-activity-7488178981431734272-PmY8",
+        "text:e5c1aa0f54416bde836fdd11327808ed535ee7b7cdf3b593e5696525bbb6f833",
+        "id:urn:li:share:7488178979917578254"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7488486895841136641",
+      "aliases": [
+        "id:urn:li:activity:7488486895841136641",
+        "url:https://www.linkedin.com/posts/grameen-healthtech-limited_were-hiring-kam-sales-operations-department-activity-7488486895841136641-98n9",
+        "text:bf2f5aee87cc27285445f839ada87d5c39f6cab095d6156b31935246a3eb59e2",
+        "id:urn:li:share:7488486894905737216"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7489062336897654784",
+      "aliases": [
+        "id:urn:li:activity:7489062336897654784",
+        "url:https://www.linkedin.com/posts/chrisorlob_the-deals-that-die-quietly-are-the-ones-where-activity-7489062336897654784-wbC-",
+        "text:367a1486e6ddedd44abac1dbdf9cd55c19c9f3c54160f3904bf0e2b64bf45339",
+        "id:urn:li:share:7488986568830115840"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7490480530568945664",
+      "aliases": [
+        "id:urn:li:activity:7490480530568945664",
+        "url:https://www.linkedin.com/posts/retentionadam_anthropics-revenue-and-growth-rate-is-like-activity-7490480530568945664-a5io",
+        "text:0705ab04227356ab161d66956571e02bf2a6cfcc58e7ec63ad40d2bc0ff48f00",
+        "id:urn:li:share:7490480530128564225"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7491381810644279296",
+      "aliases": [
+        "id:urn:li:activity:7491381810644279296",
+        "url:https://www.linkedin.com/posts/richardvanderblom_how-to-make-3m-on-linkedin-step-by-step-activity-7491381810644279296-7kFT",
+        "text:521f8a6dc28d744562c16dcab387e35ca79e631af01c02ec76a7fd954a41f50d",
+        "id:urn:li:share:7491381809151401985"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7492993256629288960",
+      "aliases": [
+        "id:urn:li:activity:7492993256629288960",
+        "url:https://www.linkedin.com/posts/alex-lieberman_after-10-years-of-building-businesses-ive-activity-7492993256629288960-JP2p",
+        "text:3ef39e043411c34c0014b977c54831c68f92be1e2dc1b1288c93580271404ac9",
+        "id:urn:li:share:7492993254741667840"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7494093919580790784",
+      "aliases": [
+        "id:urn:li:activity:7494093919580790784",
+        "url:https://www.linkedin.com/posts/alex-lieberman_heres-why-80-growth-at-7b-revenue-isn-activity-7494093919580790784-RoJl",
+        "text:9f115f01ad74f0f4eadfe7562a0cab989e56c48303b5b563b4aa0160f74cb673",
+        "id:urn:li:share:7494093918481874944"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7494148482530922497",
+      "aliases": [
+        "id:urn:li:activity:7494148482530922497",
+        "url:https://www.linkedin.com/posts/josh-braun_weve-reached-the-strangest-loop-in-writing-activity-7494148482530922497-qBZz",
+        "text:113cfc8018172cb9198714d560aabc816f24305368204fbf04f79997384fa7a4",
+        "id:urn:li:share:7494148482052591616"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7495012953511890944",
+      "aliases": [
+        "id:urn:li:activity:7495012953511890944",
+        "url:https://www.linkedin.com/posts/richardvanderblom_ive-spent-3-weeks-buried-in-algorithm-data-activity-7495012953511890944-SH8L",
+        "text:27df48e24db608394d8137b5b6452107d61db5643a4a1f96ec2fe323fbb12e17",
+        "id:urn:li:share:7495012950479380480"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7495153236165869568",
+      "aliases": [
+        "id:urn:li:activity:7495153236165869568",
+        "url:https://www.linkedin.com/posts/josh-braun_you-know-its-fleetwood-mac-the-second-the-activity-7495153236165869568-zuKp",
+        "text:dce1e08923365feef3078f3c09ebb364a193ff89128388980d9bd45313aa21e6",
+        "id:urn:li:share:7495153234437816320"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7497601024711544832",
+      "aliases": [
+        "id:urn:li:activity:7497601024711544832",
+        "url:https://www.linkedin.com/posts/alicjasmin_i-just-hosted-the-biggest-event-of-my-life-activity-7497601024711544832-tS-j",
+        "text:4b959258a56a20c64ba65851350796fe4ff3ab53109a6ed68a875b0a2b8ee644",
+        "id:urn:li:share:7497601023457505281"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7497769456589537281",
+      "aliases": [
+        "id:urn:li:activity:7497769456589537281",
+        "url:https://www.linkedin.com/posts/alex-lieberman_agent-harness-harness-engineering-will-activity-7497769456589537281-sl3Y",
+        "text:6c3165862a80f21975aa4df97273db168c7d5143a40e123a95109240b74aab99",
+        "id:urn:li:share:7497769456102756353"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7497999214736596993",
+      "aliases": [
+        "id:urn:li:activity:7497999214736596993",
+        "url:https://www.linkedin.com/posts/tadavidson41_i-would-like-to-propose-a-new-marketing-title-activity-7497999214736596993-gIYy",
+        "text:c8bf7709926b911f0bd134b54afae34d6df497449656e908181b1760bf5c64a3",
+        "id:urn:li:share:7497999213570498560"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7498067931671605248",
+      "aliases": [
+        "id:urn:li:activity:7498067931671605248",
+        "url:https://www.linkedin.com/posts/chrisorlob_just-stop-spat-the-coo-from-across-the-activity-7498067931671605248-0wAq",
+        "text:989bee68db850dba2f1ae8cc2139c592751c9d9e32c924f6fa4fa5bf935319d0",
+        "id:urn:li:share:7497803821608361984"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7498107030432284672",
+      "aliases": [
+        "id:urn:li:activity:7498107030432284672",
+        "url:https://www.linkedin.com/posts/alex-lieberman_10-most-common-ai-transformation-asks-we-activity-7498107030432284672-6gd2",
+        "text:f22993432f45a721735bc9157117a7dacf4f8210e348f4d4db614059bca534cf",
+        "id:urn:li:share:7498107029492744193"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7498624136882192384",
+      "aliases": [
+        "id:urn:li:activity:7498624136882192384",
+        "url:https://www.linkedin.com/posts/richardvanderblom_30-likes-in-the-first-10-minutes-zero-reach-activity-7498624136882192384-2e23",
+        "text:cc61ddfdaf5476879256ef3c871895bf68266ce3be27908a26c54b750424e122",
+        "id:urn:li:share:7498481271711424512"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7500200474252443648",
+      "aliases": [
+        "id:urn:li:activity:7500200474252443648",
+        "url:https://www.linkedin.com/posts/josh-braun_ai-slop-isnt-an-ai-problem-its-a-human-activity-7500200474252443648-nxKY",
+        "text:602ecd8505796f6cb317dcdc5dbb3879e15eabb8e30e1badce5b375ad4576857",
+        "id:urn:li:share:7500200473715572737"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7500622239306817536",
+      "aliases": [
+        "id:urn:li:activity:7500622239306817536",
+        "url:https://www.linkedin.com/posts/armand-farrokh_do-not-sell-cheesecake-as-a-good-source-of-activity-7500622239306817536-tIyN",
+        "text:bdf2d9cff2ffc04b122028d2d3329e747ccee727571138efe88dbc17dc94ae7b",
+        "id:urn:li:share:7500622238119829504"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7501273222479503360",
+      "aliases": [
+        "id:urn:li:activity:7501273222479503360",
+        "url:https://www.linkedin.com/posts/josh-braun_every-website-has-a-consent-form-accept-activity-7501273222479503360-p20x",
+        "text:404cc9cc65f44d0e570521f614a6f8e8d3f2cfdd6c29155d4dba58352dced834",
+        "id:urn:li:share:7501273221606883328"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7502674434613460993",
+      "aliases": [
+        "id:urn:li:activity:7502674434613460993",
+        "url:https://www.linkedin.com/posts/alicjasmin_ive-had-the-same-linkedin-habits-for-5-years-activity-7502674434613460993-_wZw",
+        "text:cce7aa79a8ada3cba8047389ee96657a9029c529bde3509f57f897db2fcd2c53",
+        "id:urn:li:share:7502674433413705728"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7503248845297008640",
+      "aliases": [
+        "id:urn:li:activity:7503248845297008640",
+        "url:https://www.linkedin.com/posts/alex-lieberman_to-truly-understand-ai-you-need-to-understand-activity-7503248845297008640-OFd3",
+        "text:daae68a510e40da807a27724fd97b9a431a610191e8a0c986b1b2204360f87ea",
+        "id:urn:li:share:7503248842755330049"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7503966729509883904",
+      "aliases": [
+        "id:urn:li:activity:7503966729509883904",
+        "url:https://www.linkedin.com/posts/alex-lieberman_just-had-lunch-with-a-strategy-exec-at-a-activity-7503966729509883904-LPRA",
+        "text:d24dee461a1fdddf922d06621e0447f38401b47dd5e706e1e11f5d94af98f37e",
+        "id:urn:li:share:7503966726791860224"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7505172011124514816",
+      "aliases": [
+        "id:urn:li:activity:7505172011124514816",
+        "url:https://www.linkedin.com/posts/richardvanderblom_three-things-i-changed-on-my-profile-last-activity-7505172011124514816-N17v",
+        "text:7893b666c070d338002a41f3ae27f9a1e3f88e9ba644c7b874bd0a1af7ad1739",
+        "id:urn:li:share:7505172008045924352"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7506298298975219712",
+      "aliases": [
+        "id:urn:li:activity:7506298298975219712",
+        "url:https://www.linkedin.com/posts/alicjasmin_im-lucky-enough-to-work-with-pakistanis-activity-7506298298975219712-BskF",
+        "text:54231e93f5e1fe570738cbdc42faea34388b7430961f57069aa0b164a733206c",
+        "id:urn:li:share:7506298297192644608"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7506384628858085376",
+      "aliases": [
+        "id:urn:li:activity:7506384628858085376",
+        "url:https://www.linkedin.com/posts/nickmamou_demand-generation-is-a-system-not-a-channel-activity-7506384628858085376-KY8T",
+        "text:1f5f75187bdeba4472a82c1b7bf0ef5b0d5ba6b9cb1ebaeb17f11f41cfdd2731",
+        "id:urn:li:ugcPost:7506384628073623553"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7507291243052376064",
+      "aliases": [
+        "id:urn:li:activity:7507291243052376064",
+        "url:https://www.linkedin.com/posts/silkyagarwal_b2bsaas-positioning-messaging-activity-7507291243052376064-XjIn",
+        "text:e3cf260dd794856fb004d711bbb5d11404fb5b2207c4d5dd40c60fd1748501a5",
+        "id:urn:li:ugcPost:7507261498637848576"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7507747844729163778",
+      "aliases": [
+        "id:urn:li:activity:7507747844729163778",
+        "url:https://www.linkedin.com/posts/alicjasmin_i-woke-up-on-a-global-magazine-cover-first-activity-7507747844729163778-1DvL",
+        "text:f2eb8d252c5fcf1e1308cf10ad6f9ef47a9dc1f3f97392ffff81ff95caf4a3bd",
+        "id:urn:li:share:7507747841608482816"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7508134144367947776",
+      "aliases": [
+        "id:urn:li:activity:7508134144367947776",
+        "url:https://www.linkedin.com/posts/martinhennigmorrissette_we-sometimes-still-use-demand-generation-activity-7508134144367947776-7eES",
+        "text:d3e77d407c05bd9dca8e9d654775d2642dfc0ee1af0f6debc5a324a59e6b7fdb",
+        "id:urn:li:share:7505229850153238528"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7508159545311997952",
+      "aliases": [
+        "id:urn:li:activity:7508159545311997952",
+        "url:https://www.linkedin.com/posts/armand-farrokh_fix-your-cold-call-pitch-by-removing-anything-activity-7508159545311997952-12h4",
+        "text:b5ba7e9b3ab42d78e16cf65419715a3b64a260361cacb277842f3146e05eee10",
+        "id:urn:li:share:7507828751972470785"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7509066775272079361",
+      "aliases": [
+        "id:urn:li:activity:7509066775272079361",
+        "url:https://www.linkedin.com/posts/alex-lieberman_just-spoke-to-one-of-the-big-data-labeling-activity-7509066775272079361-5nZa",
+        "text:9aaaeb1a59ec5f0cec59475969892876ed2539130e5587b68a926540643890eb",
+        "id:urn:li:share:7509066774038953984"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7509205134611148800",
+      "aliases": [
+        "id:urn:li:activity:7509205134611148800",
+        "url:https://www.linkedin.com/posts/david-tarkhanyan-cfa-frm_entrepreneurship-startups-founders-activity-7509205134611148800-nETm",
+        "text:afafcc79fd7bc4b95856cc188b664a87ed3337d8676a261547fd65242a394370",
+        "id:urn:li:share:7505914021900902400"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7510284574065672192",
+      "aliases": [
+        "id:urn:li:activity:7510284574065672192",
+        "url:https://www.linkedin.com/posts/alicjasmin_my-country-gave-me-a-diplomatic-passport-activity-7510284574065672192-FYrv",
+        "text:f025e37964c5a45480e151ecbaf0bcc399f815edbe15c11a0b6be5d7ff62fa5e",
+        "id:urn:li:share:7510284572891430912"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7511216426049777664",
+      "aliases": [
+        "id:urn:li:activity:7511216426049777664",
+        "url:https://www.linkedin.com/posts/alex-lieberman_the-real-winner-of-this-ai-race-is-capitalism-activity-7511216426049777664-nHJ9",
+        "text:4aee54c30ce9379f580a053c58c1bb100c7e7fbed52affdd84f6d5abd1415ec3",
+        "id:urn:li:share:7511216425307451392"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7511686160465874944",
+      "aliases": [
+        "id:urn:li:activity:7511686160465874944",
+        "url:https://www.linkedin.com/posts/cornelmanu_b2b-saas-gets-more-complex-that-means-positioning-activity-7511686160465874944-7jI3",
+        "text:ced00d5d6f7c0f6af645a3ba4645d9b376db3f58e48ff90cb10945c21b9bf163",
+        "id:urn:li:share:7511686158968512512"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7511698137003048960",
+      "aliases": [
+        "id:urn:li:activity:7511698137003048960",
+        "url:https://www.linkedin.com/posts/derektigges_revenuearchitecture-b2bgrowth-salesleadership-activity-7511698137003048960-dtof",
+        "text:06a7a152a3dae3ec624fb6b5f2ba13ac95a2659953ad93880668e342e9512ee4",
+        "id:urn:li:share:7511698133828001792"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7511726808887615488",
+      "aliases": [
+        "id:urn:li:activity:7511726808887615488",
+        "url:https://www.linkedin.com/posts/smarter-saas-growth-ai_the-saas-growth-conversation-is-changing-activity-7511726808887615488-4AOh",
+        "text:9465313cd470947e4090f20ebeb915bdf80fac395e7bcbc283b3728584af4acc",
+        "id:urn:li:share:7510693857836052481"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7512439045629714433",
+      "aliases": [
+        "id:urn:li:activity:7512439045629714433",
+        "url:https://www.linkedin.com/posts/sohail-ahmad-b2b-marketer_ai-didnt-kill-b2b-saas-sales-it-killed-activity-7512439045629714433-fDtF",
+        "text:345dbc9e51ecc7c28499ccb47185d9492fa472c930bf1c6f6aa24e1904108493",
+        "id:urn:li:share:7512439042811170817"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7512452457143185410",
+      "aliases": [
+        "id:urn:li:activity:7512452457143185410",
+        "url:https://www.linkedin.com/posts/ai-for-strategy_claude-for-b2b-sales-is-here-we-are-sharing-activity-7512452457143185410-wCyp",
+        "text:3e2dc7a0fd29747b1495ab45e4eeaade325992c7153a4a003c817d15f753105d",
+        "id:urn:li:share:7512452456140681217"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7512868240696471552",
+      "aliases": [
+        "id:urn:li:activity:7512868240696471552",
+        "url:https://www.linkedin.com/posts/karriem-muhammad_claude-for-b2b-sales-is-here-we-are-sharing-activity-7512868240696471552-5OIV",
+        "text:a22af955f9fd65db6b6666f38d9cc34b44d5f56ec4a1e2c844c7e14a04a52e97",
+        "id:urn:li:share:7512868239354351616"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7512912376581488640",
+      "aliases": [
+        "id:urn:li:activity:7512912376581488640",
+        "url:https://www.linkedin.com/posts/sonu-k-suman-73546183_your-saas-doesnt-need-to-be-better-at-everything-activity-7512912376581488640-tsa-",
+        "text:f21dbba8e0b515af1a26180ca2aa0269efcf32143b56106111085b850d9cacf3",
+        "id:urn:li:share:7512912375654764545"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7513086863964979201",
+      "aliases": [
+        "id:urn:li:activity:7513086863964979201",
+        "url:https://www.linkedin.com/posts/kushanshekhar_b2bsaas-brandstrategy-b2bmarketing-activity-7513086863964979201-Ct3y",
+        "text:c21d250058f494f2a200e7db31a5c16d3045938f4641b3bc6a76dbbd0dfa1df1",
+        "id:urn:li:share:7513086862413033472"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7513097151367786496",
+      "aliases": [
+        "id:urn:li:activity:7513097151367786496",
+        "url:https://www.linkedin.com/posts/vivekavasthi_saas-saasfounders-saasmarketing-activity-7513097151367786496-ll9m",
+        "text:192d08591c797954c6f1baad67835bf37e9ea0aecbba19955dd9d118710da087",
+        "id:urn:li:share:7513079301353746433"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7513183667696107520",
+      "aliases": [
+        "id:urn:li:activity:7513183667696107520",
+        "url:https://www.linkedin.com/posts/alicjasmin_i-just-crossed-380000-linkedin-followers-activity-7513183667696107520-B2tO",
+        "text:e95001e32b0b35f5d4d14841b15966e04840811885fc8c182216e8bbb89dd590",
+        "id:urn:li:share:7513183666504908800"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7513294273237274624",
+      "aliases": [
+        "id:urn:li:activity:7513294273237274624",
+        "url:https://www.linkedin.com/posts/meir-weichselbaum_i-built-shipmarket-because-i-got-tired-of-activity-7513294273237274624-2rwp",
+        "text:380136da3eb316ad7aaf6eef62a176e1ec6211dda7a5060da39d5361b276dbfc",
+        "id:urn:li:share:7513294272562016256"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7513367100040560641",
+      "aliases": [
+        "id:urn:li:activity:7513367100040560641",
+        "url:https://www.linkedin.com/posts/kimberly-price1_what-would-take-a-good-b2b-sales-rep-to-close-activity-7513367100040560641-6qVf",
+        "text:2703c8f501045b23ec997afbba24c8e2091cfc813b7b26e6bd3df6a8076cfae6",
+        "id:urn:li:share:7513367098727788544"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7513403752046047232",
+      "aliases": [
+        "id:urn:li:activity:7513403752046047232",
+        "url:https://www.linkedin.com/posts/alex-lieberman_im-not-smarter-than-most-entrepreneurs-activity-7513403752046047232-ZbUi",
+        "text:a9f053654c5dcc36e22fc8337c2afd3a7b0866931b6f17e36d5f17a34749cab7",
+        "id:urn:li:share:7513403751446020097"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7513546191159324672",
+      "aliases": [
+        "id:urn:li:activity:7513546191159324672",
+        "url:https://www.linkedin.com/posts/muhammed-shamil-t_a-founder-told-me-i-want-to-grow-my-pipeline-activity-7513546191159324672-TVK5",
+        "text:f2d772471efd8ce5dc816ee417bd6f2b3cdf3950bea4e3fb0afac4def5ee677f",
+        "id:urn:li:share:7513451582110351360"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7513550129472368640",
+      "aliases": [
+        "id:urn:li:activity:7513550129472368640",
+        "url:https://www.linkedin.com/posts/finley-topping-570b1a300_i-built-50-claude-skills-for-b2b-sales-activity-7513550129472368640-4oBV",
+        "text:48b762dad43e1613e8fd6ab90c2c2f09aa1662b84b39e27635d4e10bed9e6f30",
+        "id:urn:li:share:7513550126393475072"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7513678543659335682",
+      "aliases": [
+        "id:urn:li:activity:7513678543659335682",
+        "url:https://www.linkedin.com/posts/annikagrumertklang_lead-generation-vs-demand-generation-activity-7513678543659335682-C1CS",
+        "text:9113bb0dc80fadd16da257d443b7c2d1fef32a64ee49586d2b8b4c6b5f3668c8",
+        "id:urn:li:share:7513678542803750912"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7513937445088817152",
+      "aliases": [
+        "id:urn:li:activity:7513937445088817152",
+        "url:https://www.linkedin.com/posts/keewee-saas-marketing_saas-positioning-examples-activity-7513937445088817152-wD95",
+        "text:e531d497838dd368ee44f12200e8dcacc7788bdbb6e4d056dbaf992536fdd54c",
+        "id:urn:li:ugcPost:7513937444078116864"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7513954203418017794",
+      "aliases": [
+        "id:urn:li:activity:7513954203418017794",
+        "url:https://www.linkedin.com/posts/akshaysureshh_positioning-gtm-saas-activity-7513954203418017794-zxWL",
+        "text:0bb9e0cdd3cfcf24c14b77e444a8db878a7a1a13a8f06bf25bd564bb8e374e1e",
+        "id:urn:li:share:7513855175325839360"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7514090072808439808",
+      "aliases": [
+        "id:urn:li:activity:7514090072808439808",
+        "url:https://www.linkedin.com/posts/gergana-dragoeva-quievy_my-co-founder-is-outside-could-he-also-activity-7514090072808439808-jG_2",
+        "text:ba8655921931e14e33f8648f5026c69d3b5c41d62790d1e231952c56e3ac1113",
+        "id:urn:li:ugcPost:7514090071227076608"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7515019416645021696",
+      "aliases": [
+        "id:urn:li:activity:7515019416645021696",
+        "url:https://www.linkedin.com/posts/silkyagarwal_b2bsaas-differentiation-positioning-activity-7515019416645021696-XWP7",
+        "text:7d70e1e0e9649b11e7caac2835999cd5e90e46a77e663a419205d712c16e11a4",
+        "id:urn:li:ugcPost:7515019282569842689"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7515330200956641281",
+      "aliases": [
+        "id:urn:li:activity:7515330200956641281",
+        "url:https://www.linkedin.com/posts/richardvanderblom_carouselyour-network-isnt-your-distribution-activity-7515330200956641281-zzDY",
+        "text:301ce4a5b733bac7cb046bba2170fb728a887b6cf4185df008c364880a6ce772",
+        "id:urn:li:ugcPost:7515330197919956993"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7515484706189152256",
+      "aliases": [
+        "id:urn:li:activity:7515484706189152256",
+        "url:https://www.linkedin.com/posts/alex-lieberman_if-we-assume-ai-is-a-magnifier-of-human-capability-activity-7515484706189152256--8U7",
+        "text:b24fd8d7b07a7e04868822416694d0e04f2cd9ab39f9d37dc82c592ef5627684",
+        "id:urn:li:share:7515484705626947584"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7515834066860916736",
+      "aliases": [
+        "id:urn:li:activity:7515834066860916736",
+        "url:https://www.linkedin.com/posts/lucy-hall-2068b6392_i-built-50-claude-skills-for-b2b-sales-teams-activity-7515834066860916736-TCns",
+        "text:009de0741e182dee1952aa0884b008b9b30c29e79ba4a3e5197c2fd493860664",
+        "id:urn:li:share:7515834063845441536"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7516019595443408896",
+      "aliases": [
+        "id:urn:li:activity:7516019595443408896",
+        "url:https://www.linkedin.com/posts/headsupb2b_sumit-kumar-on-building-a-profitable-b2b-activity-7516019595443408896-RH3g",
+        "text:b56679782577ad26c5e6a6bec03ca0e1ced60bed8c79e5459b667633cf9660a1",
+        "id:urn:li:share:7516019592239153152"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7516103269018935296",
+      "aliases": [
+        "id:urn:li:activity:7516103269018935296",
+        "url:https://www.linkedin.com/posts/andrei-persh_the-claude-for-b2b-sales-playbook-is-here-activity-7516103269018935296-sv6R",
+        "text:818aeeb922e6e3d51dd6437b6485890661ab00986f5dbc17a539139e4824e633",
+        "id:urn:li:share:7516103267932688384"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7516121162381185024",
+      "aliases": [
+        "id:urn:li:activity:7516121162381185024",
+        "url:https://www.linkedin.com/posts/anureet-sekhon_gtm-b2bsales-aistartups-activity-7516121162381185024-HH_E",
+        "text:1e9b357ed81f55973704bd33bb380eff4cc51ea3278c760164d2bd41295559b1",
+        "id:urn:li:share:7516117460194918400"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7516739771445088256",
+      "aliases": [
+        "id:urn:li:activity:7516739771445088256",
+        "url:https://www.linkedin.com/posts/hari-prasanna-kumar_katalystiq-b2bsales-producthunt-activity-7516739771445088256-Wp4W",
+        "text:ca6792e12ce48308db248138669a64d7c4209d349206b9a6d35438ed6b0721fb",
+        "id:urn:li:ugcPost:7516739684409192449"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7493282982535782401",
+      "aliases": [
+        "id:urn:li:activity:7493282982535782401",
+        "url:https://www.linkedin.com/posts/archflow-automate_agent-work-usually-breaks-between-a-source-activity-7493282982535782401-EWx8",
+        "text:80feec3fdb3bc2b3c55bb0159575603ead219001a9eff8146c8c8474dcb66dc6"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7491097920226910208",
+      "aliases": [
+        "id:urn:li:activity:7491097920226910208",
+        "url:https://www.linkedin.com/posts/archflow-automate_archflow-knowledgemanagement-voiceai-activity-7491097920226910208-fIF5",
+        "text:fe9375c2cca4f64fc353aa50debd2c2663feacf45a16f4b674ff4ffb5e707826"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7491091724354895872",
+      "aliases": [
+        "id:urn:li:activity:7491091724354895872",
+        "url:https://www.linkedin.com/posts/archflow-automate_knowledgemanagement-agenticworkflows-projectmanagement-activity-7491091724354895872-FMlw",
+        "text:3dbe0257a5894628f3c2b8d279e8e5d98044d8862e1938094549fa62a06fca2b"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7490738535482949632",
+      "aliases": [
+        "id:urn:li:activity:7490738535482949632",
+        "url:https://www.linkedin.com/posts/archflow-automate_i-keep-coming-back-to-one-question-about-activity-7490738535482949632-8LSL",
+        "text:6f112045bd9ea76e6759b3cf01e05d5d0d21b2ddcd24f92b4f5d69412923f836"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7490698583952789504",
+      "aliases": [
+        "id:urn:li:activity:7490698583952789504",
+        "url:https://www.linkedin.com/posts/archflow-automate_onboarding-is-not-read-these-links-it-activity-7490698583952789504-EFaq",
+        "text:d42cdaad8ac0c038611528f0805314987b73336470b00f4644cb6151f2b6b481"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7490351507746328576",
+      "aliases": [
+        "id:urn:li:activity:7490351507746328576",
+        "url:https://www.linkedin.com/posts/archflow-automate_archflow-builds-and-maintains-source-grounded-activity-7490351507746328576-mUuw",
+        "text:a025348b81401036d5f7f7ce11d7c68b4b2a54b7c713e31cf5179ef8d1aef6a7"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7487533518504448000",
+      "aliases": [
+        "id:urn:li:activity:7487533518504448000",
+        "url:https://www.linkedin.com/posts/archflow-automate_knowledgemanagement-workflowdesign-operationalexcellence-activity-7487533518504448000-HmNA",
+        "text:a27555bc4f2fb006901795cdd0b9d6642e9bd22e86ff69a8214c1878ffa18444"
+      ]
+    },
+    {
+      "external_id": "urn:li:activity:7491096995206590465",
+      "aliases": [
+        "id:urn:li:activity:7491096995206590465",
+        "url:https://www.linkedin.com/posts/max-charniuk_voiceai-agenticworkflows-projectmanagement-activity-7491096995206590465-bLK0",
+        "text:70b9de2fdf15869e566882e203511c5d761161004a34df431c2ed4d5d6401bdc"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "url": "https://www.linkedin.com/in/aprildunford",
+      "name": "April Dunford",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/katebour",
+      "name": "Katelyn Bourgoin",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/cognism",
+      "name": "Cognism",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/gong-io",
+      "name": "Gong",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/refine-labs",
+      "name": "Refine Labs",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/amandanat",
+      "name": "Amanda Natividad",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/anthonypierri",
+      "name": "Anthony Pierri",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/daniel-murray-marketing",
+      "name": "Daniel Murray",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/davegerhardt",
+      "name": "Dave Gerhardt",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/justinwelsh",
+      "name": "Justin Welsh",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/peeplaja",
+      "name": "Peep Laja",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/justwillaitken",
+      "name": "Will Aitken",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/devinreed",
+      "name": "Devin Reed",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/guillaume-moubeche-a026541b2",
+      "name": "Guillaume Moubeche",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/armand-farrokh",
+      "name": "Armand Farrokh",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/retentionadam",
+      "name": "Adam Robinson",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/chrisorlob",
+      "name": "Chris Orlob",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/richardvanderblom",
+      "name": "Richard van der Blom",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/alex-lieberman",
+      "name": "Alex Lieberman",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/tadavidson41",
+      "name": "Tim Davidson",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/josh-braun",
+      "name": "Josh Braun",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/alicjasmin",
+      "name": "Jasmin Ali\u0107",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/outboundphd",
+      "name": "\ud83e\uddbeEric Nowoslawski",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/robertjohngough",
+      "name": "Rob Gough",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/kelleherdenis",
+      "name": "Denis Kelleher",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/datamaticsbpm",
+      "name": "Datamatics Business Solutions",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/divinitymalshe",
+      "name": "Divinity Malshe",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/content-revops",
+      "name": "Content RevOps",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/manishgkothari",
+      "name": "Manish Kothari",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/stephenarmenti",
+      "name": "Steve Armenti",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/lindafanaras",
+      "name": "Linda Fanaras",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/fullfunnel",
+      "name": "FullFunnel",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/shaqib-ansari-179241288",
+      "name": "Shaqib Ansari",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/debtlink",
+      "name": "DebtLink",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/grameen-healthtech-limited",
+      "name": "Grameen HealthTech Limited",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/nickmamou",
+      "name": "Nick Mamouzellos",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/silkyagarwal",
+      "name": "Silky Agarwal",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/martinhennigmorrissette",
+      "name": "Martin H. Morrissette",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/david-tarkhanyan-cfa-frm",
+      "name": "David Tarkhanyan, CFA, FRM",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/cornelmanu",
+      "name": "Cornel Manu",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/derektigges",
+      "name": "Derek Tigges",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/smarter-saas-growth",
+      "name": "Smarter SaaS Growth",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/sohail-ahmad-b2b-marketer",
+      "name": "Sohail Ahmad",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/ai-for-strategy",
+      "name": "AI for Strategy",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/karriem-muhammad",
+      "name": "Karriem Muhammad",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/sonu-k-suman-73546183",
+      "name": "Sonu K Suman",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/kushanshekhar",
+      "name": "Kushan Shekhar",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/vivekavasthi",
+      "name": "Vivek Avasthi",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/meir-weichselbaum",
+      "name": "meir weichselbaum",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/kimberly-price1",
+      "name": "Kimberly Price",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/muhammed-shamil-t",
+      "name": "Shamil Muhammed",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/finley-topping-570b1a300",
+      "name": "Finley Topping",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/annikagrumertklang",
+      "name": "Annika Grumert Klang",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/keewee-saas-marketing",
+      "name": "Keewee",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/akshaysureshh",
+      "name": "Akshay Suresh",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/gergana-dragoeva-quievy",
+      "name": "Gergana Dragoeva Quievy",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/lucy-hall-2068b6392",
+      "name": "Lucy Hall",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/company/headsupb2b",
+      "name": "Headsup B2B",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/andrei-persh",
+      "name": "Andrew Persh",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/anureet-sekhon",
+      "name": "Anureet Sekhon",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/hari-prasanna-kumar",
+      "name": "Hari Prasanna Kumar",
+      "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    }
+  ]
+}

@@ -4,6 +4,10 @@ A public-safe research/runtime and service-method repository for Europe-based B2
 
 Start with [the consolidated current state](CURRENT-STATE.md), [the current derived dataset](datasets/current/index.html), [dataset state](datasets/current/STATE.json), [gaps](datasets/current/gaps.json) and [the project agent contract](AGENTS.md). The public projection contains original assessments, public counters and source locators. Full copied source posts, speech transcripts and uncleared third-party media remain in the owner's local evidence store; this repository does not distribute them or claim their reuse rights.
 
+## Collector update —29October2026
+
+The collection-only runtime, optional adapters and encrypted GitHub Actions workflow are in [the hybrid audit and migration plan](docs/HYBRID-AUDIT-AND-PLAN.md) and [operational guide](docs/HYBRID-COLLECTOR.md). HTTPX is selected after same-fixture checks. The new workflow declares12:00and20:00 Europe/Sofia and needs verified secrets/state activation. Read [the API boundary](docs/LINKEDIN-OAUTH.md): the current app lacks post-read permissions, so official collection stays disabled. Manual packet preparation: `python -m research.collector.cli update-run`. The reviewed historical dataset below is preserved.
+
 ## Layout
 
 - [research/](research/README.md): portable collector/parser, immutable observations, media/transcription/QA, qualification, analytical release and standalone synthetic tests.
@@ -40,7 +44,7 @@ Tests use invented source/byte fixtures. They do not establish live LinkedIn lay
 
 Discovery seeds are not platform rankings. Public reaction counters are not impressions, reach, buyer quality or conversions. Meaning and performance remain separate; a current trend requires actual comparable observations. Preserve the six-hour measurement floor, original capture times, parser hashes and access stops. Source claims, including tool/free-access and customer-result claims, remain attributed and unverified where applicable.
 
-This repository does not activate login/cookie import, paid providers, outreach, post publication, ad launch, website deployment, recurring runs or future agent wakes. The separately deployed current website is linked in the state record. The owner explicitly requested no recurring scheduling. The design and editorial manifests record the current owner-authorized Git source snapshot. Artistic/voice acceptance remains pending; build success does not establish it.
+This repository does not activate login/cookie import, paid providers, outreach, post publication, ad launch or future agent wakes. The owner has now authorized the bounded twice-daily collection workflow and the exact OAuth callback route; inspect current operational evidence before claiming either is active. The separately deployed current website is linked in the state record. The29October request supersedes the earlier no-schedule instruction for collection only. The design and editorial manifests record the current owner-authorized Git source snapshot. Artistic/voice acceptance remains pending; build success does not establish it.
 
 ## Rights and provenance
 

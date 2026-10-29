@@ -1,0 +1,16 @@
+{
+  "schema": "linkedin-app-access-status/1",
+  "as_of": "2026-10-29",
+  "evidence": "owner-reported Auth tab permissions; not a token or API readback",
+  "registered_redirect_uri": "https://www.arch-flow.dev/api/linkedin/callback",
+  "visible_scopes": [
+    "r_verify",
+    "w_member_social",
+    "r_profile_basicinfo"
+  ],
+  "collection_read_scopes_available": false,
+  "collection_api_enabled": false,
+  "oauth_consent_executed": false,
+  "credential_values_included": false,
+  "effect": "Keep competitor discovery/public permitted route separate. Do not request write scope or identity data for this collection task. Post/comment/analytics API requires separate approved read entitlements."
+}

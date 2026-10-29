@@ -1,0 +1,1043 @@
+{
+  "edges": [
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_category_guide_md",
+      "source_file": "docs/CATEGORY-GUIDE.md",
+      "source_location": "line 3",
+      "target": "heading_docs_category_guide_md_a_practical_category_system_for_founder_led_publications_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_category_guide_md",
+      "source_file": "docs/CATEGORY-GUIDE.md",
+      "source_location": "line 26",
+      "target": "heading_docs_category_guide_md_how_to_use_the_qualification_table_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 153",
+      "target": "heading_docs_positioning_and_copy_md_carousel_script_and_visual_brief_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 80",
+      "target": "heading_docs_positioning_and_copy_md_commercial_packaging_to_test_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 166",
+      "target": "heading_docs_positioning_and_copy_md_founder_video_script_approximately_45_seconds_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 71",
+      "target": "heading_docs_positioning_and_copy_md_how_the_work_runs_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 5",
+      "target": "heading_docs_positioning_and_copy_md_keep_the_approved_front_door_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 53",
+      "target": "heading_docs_positioning_and_copy_md_linkedin_ads_that_support_the_same_buyer_story_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 65",
+      "target": "heading_docs_positioning_and_copy_md_measurement_that_informs_the_next_decision_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 184",
+      "target": "heading_docs_positioning_and_copy_md_original_image_generation_brief_template_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 29",
+      "target": "heading_docs_positioning_and_copy_md_positioning_that_gives_your_content_a_direction_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 102",
+      "target": "heading_docs_positioning_and_copy_md_post_1_the_product_decision_is_the_story_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 118",
+      "target": "heading_docs_positioning_and_copy_md_post_2_a_good_draft_needs_a_source_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 137",
+      "target": "heading_docs_positioning_and_copy_md_post_3_connect_the_content_to_the_buyer_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 47",
+      "target": "heading_docs_positioning_and_copy_md_publishing_and_conversations_that_stay_organized_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 98",
+      "target": "heading_docs_positioning_and_copy_md_review_copy_three_agency_linkedin_posts_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 59",
+      "target": "heading_docs_positioning_and_copy_md_search_visibility_that_extends_your_best_ideas_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 1",
+      "target": "heading_docs_positioning_and_copy_md_service_positioning_and_review_copy_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 17",
+      "target": "heading_docs_positioning_and_copy_md_the_service_position_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 41",
+      "target": "heading_docs_positioning_and_copy_md_visuals_and_video_that_make_the_idea_clear_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 27",
+      "target": "heading_docs_positioning_and_copy_md_website_service_menu_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 92",
+      "target": "heading_docs_positioning_and_copy_md_what_to_state_in_each_proposal_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_positioning_and_copy_md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 35",
+      "target": "heading_docs_positioning_and_copy_md_writing_that_comes_from_your_experience_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_search_and_qualification_md",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_location": "line 61",
+      "target": "heading_docs_search_and_qualification_md_architecture_choice_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_search_and_qualification_md",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_location": "line 44",
+      "target": "heading_docs_search_and_qualification_md_decision_ladder_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_search_and_qualification_md",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_location": "line 65",
+      "target": "heading_docs_search_and_qualification_md_later_v6_access_observation_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_search_and_qualification_md",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_location": "line 55",
+      "target": "heading_docs_search_and_qualification_md_prospect_lane_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_search_and_qualification_md",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_location": "line 3",
+      "target": "heading_docs_search_and_qualification_md_search_ranking_and_qualification_what_each_tool_can_establish_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_search_and_qualification_md",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_location": "line 26",
+      "target": "heading_docs_search_and_qualification_md_search_recipes_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_search_and_qualification_md",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_location": "line 7",
+      "target": "heading_docs_search_and_qualification_md_tools_and_their_actual_roles_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_services_and_writing_md",
+      "source_file": "docs/SERVICES-AND-WRITING.md",
+      "source_location": "line 44",
+      "target": "heading_docs_services_and_writing_md_content_pack_fields_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_services_and_writing_md",
+      "source_file": "docs/SERVICES-AND-WRITING.md",
+      "source_location": "line 48",
+      "target": "heading_docs_services_and_writing_md_humanizer_and_stack_readiness_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_services_and_writing_md",
+      "source_file": "docs/SERVICES-AND-WRITING.md",
+      "source_location": "line 54",
+      "target": "heading_docs_services_and_writing_md_public_boundary_and_finalized_design_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_services_and_writing_md",
+      "source_file": "docs/SERVICES-AND-WRITING.md",
+      "source_location": "line 11",
+      "target": "heading_docs_services_and_writing_md_scope_and_execution_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_services_and_writing_md",
+      "source_file": "docs/SERVICES-AND-WRITING.md",
+      "source_location": "line 1",
+      "target": "heading_docs_services_and_writing_md_services_founder_writing_and_design_delivery_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "file_docs_services_and_writing_md",
+      "source_file": "docs/SERVICES-AND-WRITING.md",
+      "source_location": "line 29",
+      "target": "heading_docs_services_and_writing_md_writing_workflow_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "references",
+      "source": "file_docs_services_and_writing_md",
+      "source_file": "docs/SERVICES-AND-WRITING.md",
+      "source_location": "line 5",
+      "target": "file_docs_approved_positioning_json",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_category_guide_md_a_practical_category_system_for_founder_led_publications_1",
+      "source_file": "docs/CATEGORY-GUIDE.md",
+      "source_location": "line 26",
+      "target": "heading_docs_category_guide_md_how_to_use_the_qualification_table_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_positioning_and_copy_md_review_copy_three_agency_linkedin_posts_1",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 102",
+      "target": "heading_docs_positioning_and_copy_md_post_1_the_product_decision_is_the_story_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_positioning_and_copy_md_review_copy_three_agency_linkedin_posts_1",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 118",
+      "target": "heading_docs_positioning_and_copy_md_post_2_a_good_draft_needs_a_source_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_positioning_and_copy_md_review_copy_three_agency_linkedin_posts_1",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 137",
+      "target": "heading_docs_positioning_and_copy_md_post_3_connect_the_content_to_the_buyer_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_positioning_and_copy_md_service_positioning_and_review_copy_1",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 153",
+      "target": "heading_docs_positioning_and_copy_md_carousel_script_and_visual_brief_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_positioning_and_copy_md_service_positioning_and_review_copy_1",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 80",
+      "target": "heading_docs_positioning_and_copy_md_commercial_packaging_to_test_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_positioning_and_copy_md_service_positioning_and_review_copy_1",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 166",
+      "target": "heading_docs_positioning_and_copy_md_founder_video_script_approximately_45_seconds_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_positioning_and_copy_md_service_positioning_and_review_copy_1",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 71",
+      "target": "heading_docs_positioning_and_copy_md_how_the_work_runs_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_positioning_and_copy_md_service_positioning_and_review_copy_1",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 5",
+      "target": "heading_docs_positioning_and_copy_md_keep_the_approved_front_door_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_positioning_and_copy_md_service_positioning_and_review_copy_1",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 184",
+      "target": "heading_docs_positioning_and_copy_md_original_image_generation_brief_template_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_positioning_and_copy_md_service_positioning_and_review_copy_1",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 98",
+      "target": "heading_docs_positioning_and_copy_md_review_copy_three_agency_linkedin_posts_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_positioning_and_copy_md_service_positioning_and_review_copy_1",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 17",
+      "target": "heading_docs_positioning_and_copy_md_the_service_position_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_positioning_and_copy_md_service_positioning_and_review_copy_1",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 27",
+      "target": "heading_docs_positioning_and_copy_md_website_service_menu_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_positioning_and_copy_md_service_positioning_and_review_copy_1",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 92",
+      "target": "heading_docs_positioning_and_copy_md_what_to_state_in_each_proposal_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_positioning_and_copy_md_website_service_menu_1",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 53",
+      "target": "heading_docs_positioning_and_copy_md_linkedin_ads_that_support_the_same_buyer_story_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_positioning_and_copy_md_website_service_menu_1",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 65",
+      "target": "heading_docs_positioning_and_copy_md_measurement_that_informs_the_next_decision_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_positioning_and_copy_md_website_service_menu_1",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 29",
+      "target": "heading_docs_positioning_and_copy_md_positioning_that_gives_your_content_a_direction_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_positioning_and_copy_md_website_service_menu_1",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 47",
+      "target": "heading_docs_positioning_and_copy_md_publishing_and_conversations_that_stay_organized_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_positioning_and_copy_md_website_service_menu_1",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 59",
+      "target": "heading_docs_positioning_and_copy_md_search_visibility_that_extends_your_best_ideas_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_positioning_and_copy_md_website_service_menu_1",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 41",
+      "target": "heading_docs_positioning_and_copy_md_visuals_and_video_that_make_the_idea_clear_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_positioning_and_copy_md_website_service_menu_1",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_location": "line 35",
+      "target": "heading_docs_positioning_and_copy_md_writing_that_comes_from_your_experience_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_search_and_qualification_md_search_ranking_and_qualification_what_each_tool_can_establish_1",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_location": "line 61",
+      "target": "heading_docs_search_and_qualification_md_architecture_choice_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_search_and_qualification_md_search_ranking_and_qualification_what_each_tool_can_establish_1",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_location": "line 44",
+      "target": "heading_docs_search_and_qualification_md_decision_ladder_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_search_and_qualification_md_search_ranking_and_qualification_what_each_tool_can_establish_1",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_location": "line 65",
+      "target": "heading_docs_search_and_qualification_md_later_v6_access_observation_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_search_and_qualification_md_search_ranking_and_qualification_what_each_tool_can_establish_1",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_location": "line 55",
+      "target": "heading_docs_search_and_qualification_md_prospect_lane_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_search_and_qualification_md_search_ranking_and_qualification_what_each_tool_can_establish_1",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_location": "line 26",
+      "target": "heading_docs_search_and_qualification_md_search_recipes_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_search_and_qualification_md_search_ranking_and_qualification_what_each_tool_can_establish_1",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_location": "line 7",
+      "target": "heading_docs_search_and_qualification_md_tools_and_their_actual_roles_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_services_and_writing_md_services_founder_writing_and_design_delivery_1",
+      "source_file": "docs/SERVICES-AND-WRITING.md",
+      "source_location": "line 44",
+      "target": "heading_docs_services_and_writing_md_content_pack_fields_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_services_and_writing_md_services_founder_writing_and_design_delivery_1",
+      "source_file": "docs/SERVICES-AND-WRITING.md",
+      "source_location": "line 48",
+      "target": "heading_docs_services_and_writing_md_humanizer_and_stack_readiness_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_services_and_writing_md_services_founder_writing_and_design_delivery_1",
+      "source_file": "docs/SERVICES-AND-WRITING.md",
+      "source_location": "line 54",
+      "target": "heading_docs_services_and_writing_md_public_boundary_and_finalized_design_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_services_and_writing_md_services_founder_writing_and_design_delivery_1",
+      "source_file": "docs/SERVICES-AND-WRITING.md",
+      "source_location": "line 11",
+      "target": "heading_docs_services_and_writing_md_scope_and_execution_1",
+      "weight": 1.0
+    },
+    {
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "relation": "contains",
+      "source": "heading_docs_services_and_writing_md_services_founder_writing_and_design_delivery_1",
+      "source_file": "docs/SERVICES-AND-WRITING.md",
+      "source_location": "line 29",
+      "target": "heading_docs_services_and_writing_md_writing_workflow_1",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "input_tokens": 0,
+  "metadata": {
+    "generator": "research.collector.writing_graph",
+    "relations": [
+      "contains",
+      "references"
+    ],
+    "schema_version": 1,
+    "semantic_inference": false,
+    "source_hashes": {
+      "docs/APPROVED-POSITIONING.json": "80d8063bf5af6eee2ab76275c6e45eaf81c1427d1df8b2931a460b40e67d34b9",
+      "docs/CATEGORY-GUIDE.md": "1dbd20fc78390cace1555981c8df7e5b4ee57c053dbe26a538bfc389bac8f74c",
+      "docs/SEARCH-AND-QUALIFICATION.md": "4fde5499d2332c670fd80167b659e1f5170cc6d49a899af918733b3a4ca2557d",
+      "docs/SERVICES-AND-WRITING.md": "0673f70bf70d0a5cf13f893608a19f34629f11ed1f6f1c62f9bc60576c4d847c",
+      "docs/positioning-and-copy.md": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f"
+    }
+  },
+  "nodes": [
+    {
+      "file_type": "document",
+      "id": "file_docs_approved_positioning_json",
+      "label": "APPROVED-POSITIONING.json",
+      "source_file": "docs/APPROVED-POSITIONING.json",
+      "source_hash": "80d8063bf5af6eee2ab76275c6e45eaf81c1427d1df8b2931a460b40e67d34b9",
+      "source_location": null
+    },
+    {
+      "file_type": "document",
+      "id": "file_docs_category_guide_md",
+      "label": "CATEGORY-GUIDE.md",
+      "source_file": "docs/CATEGORY-GUIDE.md",
+      "source_hash": "1dbd20fc78390cace1555981c8df7e5b4ee57c053dbe26a538bfc389bac8f74c",
+      "source_location": null
+    },
+    {
+      "file_type": "document",
+      "id": "file_docs_positioning_and_copy_md",
+      "label": "positioning-and-copy.md",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": null
+    },
+    {
+      "file_type": "document",
+      "id": "file_docs_search_and_qualification_md",
+      "label": "SEARCH-AND-QUALIFICATION.md",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_hash": "4fde5499d2332c670fd80167b659e1f5170cc6d49a899af918733b3a4ca2557d",
+      "source_location": null
+    },
+    {
+      "file_type": "document",
+      "id": "file_docs_services_and_writing_md",
+      "label": "SERVICES-AND-WRITING.md",
+      "source_file": "docs/SERVICES-AND-WRITING.md",
+      "source_hash": "0673f70bf70d0a5cf13f893608a19f34629f11ed1f6f1c62f9bc60576c4d847c",
+      "source_location": null
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_category_guide_md_a_practical_category_system_for_founder_led_publications_1",
+      "label": "A practical category system for founder-led publications",
+      "source_file": "docs/CATEGORY-GUIDE.md",
+      "source_hash": "1dbd20fc78390cace1555981c8df7e5b4ee57c053dbe26a538bfc389bac8f74c",
+      "source_location": "line 3"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_category_guide_md_how_to_use_the_qualification_table_1",
+      "label": "How to use the qualification table",
+      "source_file": "docs/CATEGORY-GUIDE.md",
+      "source_hash": "1dbd20fc78390cace1555981c8df7e5b4ee57c053dbe26a538bfc389bac8f74c",
+      "source_location": "line 26"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_carousel_script_and_visual_brief_1",
+      "label": "Carousel script and visual brief",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 153"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_commercial_packaging_to_test_1",
+      "label": "Commercial packaging to test",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 80"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_founder_video_script_approximately_45_seconds_1",
+      "label": "Founder video script: approximately 45 seconds",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 166"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_how_the_work_runs_1",
+      "label": "How the work runs",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 71"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_keep_the_approved_front_door_1",
+      "label": "Keep the approved front door",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 5"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_linkedin_ads_that_support_the_same_buyer_story_1",
+      "label": "LinkedIn ads that support the same buyer story",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 53"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_measurement_that_informs_the_next_decision_1",
+      "label": "Measurement that informs the next decision",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 65"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_original_image_generation_brief_template_1",
+      "label": "Original image-generation brief template",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 184"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_positioning_that_gives_your_content_a_direction_1",
+      "label": "Positioning that gives your content a direction",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 29"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_post_1_the_product_decision_is_the_story_1",
+      "label": "Post 1 — The product decision is the story",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 102"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_post_2_a_good_draft_needs_a_source_1",
+      "label": "Post 2 — A good draft needs a source",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 118"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_post_3_connect_the_content_to_the_buyer_1",
+      "label": "Post 3 — Connect the content to the buyer",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 137"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_publishing_and_conversations_that_stay_organized_1",
+      "label": "Publishing and conversations that stay organized",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 47"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_review_copy_three_agency_linkedin_posts_1",
+      "label": "Review copy: three agency LinkedIn posts",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 98"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_search_visibility_that_extends_your_best_ideas_1",
+      "label": "Search visibility that extends your best ideas",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 59"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_service_positioning_and_review_copy_1",
+      "label": "Service positioning and review copy",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 1"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_the_service_position_1",
+      "label": "The service position",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 17"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_visuals_and_video_that_make_the_idea_clear_1",
+      "label": "Visuals and video that make the idea clear",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 41"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_website_service_menu_1",
+      "label": "Website service menu",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 27"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_what_to_state_in_each_proposal_1",
+      "label": "What to state in each proposal",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 92"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_positioning_and_copy_md_writing_that_comes_from_your_experience_1",
+      "label": "Writing that comes from your experience",
+      "source_file": "docs/positioning-and-copy.md",
+      "source_hash": "ec5b260c167882402f9d28bbac5a39040d2a034d29ef5e6320698b0bfe89811f",
+      "source_location": "line 35"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_search_and_qualification_md_architecture_choice_1",
+      "label": "Architecture choice",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_hash": "4fde5499d2332c670fd80167b659e1f5170cc6d49a899af918733b3a4ca2557d",
+      "source_location": "line 61"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_search_and_qualification_md_decision_ladder_1",
+      "label": "Decision ladder",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_hash": "4fde5499d2332c670fd80167b659e1f5170cc6d49a899af918733b3a4ca2557d",
+      "source_location": "line 44"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_search_and_qualification_md_later_v6_access_observation_1",
+      "label": "Later v6 access observation",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_hash": "4fde5499d2332c670fd80167b659e1f5170cc6d49a899af918733b3a4ca2557d",
+      "source_location": "line 65"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_search_and_qualification_md_prospect_lane_1",
+      "label": "Prospect lane",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_hash": "4fde5499d2332c670fd80167b659e1f5170cc6d49a899af918733b3a4ca2557d",
+      "source_location": "line 55"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_search_and_qualification_md_search_ranking_and_qualification_what_each_tool_can_establish_1",
+      "label": "Search, ranking and qualification: what each tool can establish",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_hash": "4fde5499d2332c670fd80167b659e1f5170cc6d49a899af918733b3a4ca2557d",
+      "source_location": "line 3"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_search_and_qualification_md_search_recipes_1",
+      "label": "Search recipes",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_hash": "4fde5499d2332c670fd80167b659e1f5170cc6d49a899af918733b3a4ca2557d",
+      "source_location": "line 26"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_search_and_qualification_md_tools_and_their_actual_roles_1",
+      "label": "Tools and their actual roles",
+      "source_file": "docs/SEARCH-AND-QUALIFICATION.md",
+      "source_hash": "4fde5499d2332c670fd80167b659e1f5170cc6d49a899af918733b3a4ca2557d",
+      "source_location": "line 7"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_services_and_writing_md_content_pack_fields_1",
+      "label": "Content-pack fields",
+      "source_file": "docs/SERVICES-AND-WRITING.md",
+      "source_hash": "0673f70bf70d0a5cf13f893608a19f34629f11ed1f6f1c62f9bc60576c4d847c",
+      "source_location": "line 44"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_services_and_writing_md_humanizer_and_stack_readiness_1",
+      "label": "Humanizer and stack readiness",
+      "source_file": "docs/SERVICES-AND-WRITING.md",
+      "source_hash": "0673f70bf70d0a5cf13f893608a19f34629f11ed1f6f1c62f9bc60576c4d847c",
+      "source_location": "line 48"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_services_and_writing_md_public_boundary_and_finalized_design_1",
+      "label": "Public boundary and finalized design",
+      "source_file": "docs/SERVICES-AND-WRITING.md",
+      "source_hash": "0673f70bf70d0a5cf13f893608a19f34629f11ed1f6f1c62f9bc60576c4d847c",
+      "source_location": "line 54"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_services_and_writing_md_scope_and_execution_1",
+      "label": "Scope and execution",
+      "source_file": "docs/SERVICES-AND-WRITING.md",
+      "source_hash": "0673f70bf70d0a5cf13f893608a19f34629f11ed1f6f1c62f9bc60576c4d847c",
+      "source_location": "line 11"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_services_and_writing_md_services_founder_writing_and_design_delivery_1",
+      "label": "Services, founder writing and design delivery",
+      "source_file": "docs/SERVICES-AND-WRITING.md",
+      "source_hash": "0673f70bf70d0a5cf13f893608a19f34629f11ed1f6f1c62f9bc60576c4d847c",
+      "source_location": "line 1"
+    },
+    {
+      "file_type": "document",
+      "id": "heading_docs_services_and_writing_md_writing_workflow_1",
+      "label": "Writing workflow",
+      "source_file": "docs/SERVICES-AND-WRITING.md",
+      "source_hash": "0673f70bf70d0a5cf13f893608a19f34629f11ed1f6f1c62f9bc60576c4d847c",
+      "source_location": "line 29"
+    }
+  ],
+  "output_tokens": 0
+}
