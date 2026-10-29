@@ -183,5 +183,12 @@
     "design_source_files": 886,
     "editorial_source_files": 64,
     "owner_accepted": false
+  },
+  "github_ci": {
+    "first_run": 40859808013,
+    "result": "FAILED; two workflow tests missing sparse-checkout input",
+    "root_cause": "test workflow checkout omitted .github directory",
+    "fix": "Include .github and assert the essential checkout input",
+    "rerun": "pending pushed correction"
   }
 }

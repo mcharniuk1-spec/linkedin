@@ -17,6 +17,7 @@ jobs:
         with:
           persist-credentials: false
           sparse-checkout: |
+            .github
             research
             docs
             datasets

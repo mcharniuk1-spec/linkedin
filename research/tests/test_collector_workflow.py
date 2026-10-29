@@ -24,6 +24,8 @@ class WorkflowTests(unittest.TestCase):
     self.assertEqual(local.astimezone(ZoneInfo('UTC')).hour,hour-offset)
  def test_test_workflow_commands_exist(self):
   w=yaml.load((ROOT/'.github/workflows/collector-tests.yml').read_text(),Loader=yaml.BaseLoader)
+  checkout=next(x for x in w['jobs']['synthetic-tests']['steps'] if x.get('uses','').startswith('actions/checkout@'))
+  self.assertIn('.github',checkout['with']['sparse-checkout'].split())
   for x in w['jobs']['synthetic-tests']['steps']:
    run=x.get('run','')
    if run.startswith('python scripts/'):self.assertTrue((ROOT/run.split()[1]).is_file())
