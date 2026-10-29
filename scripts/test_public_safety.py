@@ -10,6 +10,10 @@ class PublicBoundary(unittest.TestCase):
  def test_public_method_passes(self):self.write('README.md','Source public counters remain observations. No schedule.');self.assertEqual(safety.scan(self.r)['status'],'PASS')
  def test_rejects_private_machine_reference(self):self.write('data.json',json.dumps({'source':'/'+'Users/'+'example-owner/private-corpus'}));self.assertIn('private_machine_path',self.reasons())
  def test_rejects_token_like_secret(self):self.write('settings.py','token = '+repr('ghp_'+'X'*36));self.assertIn('credential_or_private_key_pattern',self.reasons())
+ def test_rejects_oauth_and_encrypted_state_artifacts(self):
+  for name in ('ld.yaml','ld.yml','tokens.enc','oauth-state.enc','collector-state.key','authorize.html','state.enc'):
+   with self.subTest(name=name):
+    f=self.write(name,'synthetic private fixture');self.assertIn('forbidden_private_file_type',self.reasons());f.unlink()
  def test_rejects_private_workbook(self):self.write('enquiries.xlsx',b'privatefixture');self.assertIn('forbidden_private_file_type',self.reasons())
  def test_checks_duplicate_json_keys(self):self.write('facts.json','{"x":1,"x":2}');self.assertIn('invalid_json_or_duplicate_key',self.reasons())
  def test_rejects_unreviewed_binary(self):self.write('design and website/assets/scene.png',b'\x89PNG\x00\xff');self.assertIn('unreviewed_binary',self.reasons())

@@ -178,6 +178,11 @@ def update_run(config_path, output=None):
                     raw=output/'raw'/f'{h}.bin';raw.parent.mkdir(exist_ok=True,mode=0o700);raw.write_bytes(store.raw_bytes(h));os.chmod(raw,0o600);d['raw_path']=str(raw.relative_to(output))
             discovery_path=output/'discovery-observations.ndjson';discovery_path.write_text(''.join(json.dumps(d)+'\n' for d in discoveries));os.chmod(discovery_path,0o600)
             result['discovery_observations']=len(discoveries)
+            access_rows=[json.loads(x[0]) for x in store.db.execute('SELECT payload FROM access_evidence')]
+            for d in access_rows:
+                h=d['raw_sha256'];raw=output/'raw'/f'{h}.bin';raw.parent.mkdir(exist_ok=True,mode=0o700);raw.write_bytes(store.raw_bytes(h));os.chmod(raw,0o600);d['raw_path']=str(raw.relative_to(output))
+            access_path=output/'access-evidence.ndjson';access_path.write_text(''.join(json.dumps(d)+'\n' for d in access_rows));os.chmod(access_path,0o600)
+            result['access_review_evidence']=len(access_rows)
             fields=['record_id','source_id','external_id','source_url','content_hash','raw_sha256','topic','reader','editorial_job','hook','claim','image_structure_style','video_story_timestamps','transcript_path','reference_value','performance_evidence','practical_adaptation','limitations','review_status']
             with (output/'insights.csv').open('w',newline='') as f:
                 writer=csv.DictWriter(f,fieldnames=fields);writer.writeheader()

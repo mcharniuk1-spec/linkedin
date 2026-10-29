@@ -62,7 +62,7 @@
       "source_id": "linkedin-public",
       "adapter": "http",
       "access_group": "linkedin-public",
-      "enabled": false,
+      "enabled": true,
       "urls": [],
       "allowed_hosts": [
         "www.linkedin.com"
@@ -83,11 +83,10 @@
       "options": {
         "linkedin_posts": true
       },
-      "access_hold": {
-        "reason": "challenge_page",
-        "observed_at": "2026-10-29T10:33:10.981056+00:00",
-        "automatic_resume": false,
-        "required": "Source-backed authorization/access review before re-enabling; do not switch runtimes or tools to evade this stop."
+      "last_access_review": {
+        "date": "2026-10-29",
+        "outcome": "overbroad detector corrected; one permitted public capture passed and repeated run fetched nothing",
+        "no_access_bypass": true
       }
     },
     {

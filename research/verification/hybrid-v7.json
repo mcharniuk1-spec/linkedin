@@ -7,14 +7,15 @@
     "result": "PASS"
   },
   "export_tests": {
-    "tests": 20,
+    "tests": 21,
     "result": "PASS"
   },
   "final_full_suite": {
-    "tests": 228,
+    "tests": 233,
     "result": "PASS",
     "portable_complete_tree": true,
-    "portable_runtime_seconds": 5.428
+    "portable_runtime_seconds": 4.175,
+    "optional_scrapy_fixture_executed_locally": true
   },
   "benchmark": {
     "scope": "frozen local fixture,20records,concurrency1",
@@ -99,6 +100,29 @@
         "worker_and_reaped_children_cpu_seconds": 0.053797,
         "worker_peak_rss_mib_sampled": 37.156
       }
+    ],
+    "final_runtime_sha256": "8a45627f64977d599191b6a4eb4f305a65e3107d0d109a47f768d9f2c90e91e5",
+    "final_runtime": [
+      {
+        "strategy": "urllib-policy",
+        "status": "passed",
+        "successful_records": 20,
+        "ground_truth_exact": true,
+        "latency_mean_ms": 4.3278479017317295,
+        "latency_p95_ms_nearest_rank": 5.277541000396013,
+        "worker_and_reaped_children_cpu_seconds": 0.107897,
+        "worker_peak_rss_mib_sampled": 45.516
+      },
+      {
+        "strategy": "httpx-policy",
+        "status": "passed",
+        "successful_records": 20,
+        "ground_truth_exact": true,
+        "latency_mean_ms": 1.1084894533269107,
+        "latency_p95_ms_nearest_rank": 1.2364580179564655,
+        "worker_and_reaped_children_cpu_seconds": 0.051229,
+        "worker_peak_rss_mib_sampled": 37.25
+      }
     ]
   },
   "discovery_live_probe": {
@@ -133,7 +157,7 @@
     "blocker": "GitHub CLI token invalid; Actions secret/variable connector unavailable"
   },
   "remaining_gaps": [
-    "Anonymous public LinkedIn access challenge; source disabled until reviewed",
+    "One live post only; broad source/layout coverage unverified",
     "official content-read entitlement",
     "Actions secrets/first-state activation",
     "browser benchmark/JS runtime",
@@ -159,14 +183,23 @@
     "infrastructure_query_log_retention": "not verified; no real OAuth codes used"
   },
   "live_public_capture": {
-    "attempted_posts": 1,
-    "inserted": 0,
-    "duplicates": 0,
-    "status": "ACCESS_SUSPENDED",
-    "hold_reason": "challenge_page",
-    "http_response": "challenge/authentication-like body; no bypass or alternate route",
-    "persistent_stop": true,
-    "source_disabled_in_portable_config": true
+    "initial_stop": "overbroad body detector; exact response not retained by initial version",
+    "offline_correction": "4of4cached public pages no longer false-positive; denial/gate tests retained",
+    "after_fix": {
+      "inserted": 1,
+      "new_actor_metadata": 1,
+      "source_date": "verified_source_date",
+      "media_refs": 1,
+      "media_bytes_downloaded": false,
+      "analysis_executed": false
+    },
+    "dedup_repeat": {
+      "inserted": 0,
+      "source_fetches": 0
+    },
+    "bootstrap_known_publications": 288,
+    "bootstrap_actor_metadata": 62,
+    "coverage": "one live post only; not production/population proof"
   },
   "callback_unit_tests": {
     "tests": 3,
@@ -189,6 +222,20 @@
     "result": "FAILED; two workflow tests missing sparse-checkout input",
     "root_cause": "test workflow checkout omitted .github directory",
     "fix": "Include .github and assert the essential checkout input",
-    "rerun": "pending pushed correction"
+    "rerun": "pending pushed correction",
+    "corrected_run": {
+      "id": 40860446816,
+      "conclusion": "success",
+      "tested_commit": "bc68dac455a0367ae7f21eb8f994e28e17017e53"
+    },
+    "latest_detector_change": "pending final CI after detector correction"
+  },
+  "challenge_detector_review": {
+    "original_rule": "overbroad generic body strings/scripts",
+    "cached_pages_checked": 4,
+    "old_false_positive_count": 4,
+    "new_false_positive_count": 0,
+    "genuine_stop_cases_preserved": true,
+    "private_future_stop_evidence": true
   }
 }

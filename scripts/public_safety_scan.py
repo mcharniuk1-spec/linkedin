@@ -6,8 +6,8 @@ ROOT=Path(__file__).resolve().parents[1]
 EXCLUDE_PARTS={'.git','__pycache__','node_modules','.venv','work','.pytest_cache'}
 PRIVATE_PATHS=[re.compile('/'+'Users/'),re.compile('/'+'private/(?:tmp|var)/'),re.compile('/'+'opt/homebrew/'),re.compile(r'[A-Za-z]:\\Users\\'),re.compile('/'+'home/(?!runner(?:/|$)|example(?:/|$))')]
 SECRETS=[re.compile(r'gh[pousr]_[A-Za-z0-9]{30,}'),re.compile(r'github_pat_[A-Za-z0-9_]{30,}'),re.compile(r'(?<![A-Za-z0-9_-])sk-[A-Za-z0-9_-]{24,}'),re.compile(r'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----'),re.compile(r'exaApiKey=(?!YOUR_|example|placeholder)[A-Za-z0-9]{16,}')]
-FORBIDDEN_NAMES={'.env','.env.local','cookies.json','cookies.txt','credentials.json','id_rsa','id_ed25519'}
-FORBIDDEN_SUFFIXES={'.xlsx','.xlsm','.xls','.p12','.pem','.key'}
+FORBIDDEN_NAMES={'.env','.env.local','cookies.json','cookies.txt','credentials.json','id_rsa','id_ed25519','ld.yaml','ld.yml','tokens.enc','oauth-state.enc','collector-state.key','authorize.html'}
+FORBIDDEN_SUFFIXES={'.xlsx','.xlsm','.xls','.p12','.pem','.key','.enc'}
 
 def pairs(xs):
  d={}

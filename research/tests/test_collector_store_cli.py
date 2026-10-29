@@ -124,3 +124,15 @@ class ResourceBoundaryTests(unittest.TestCase):
     out=s.root/'manual';out.mkdir(mode=0o755);os.chmod(out,0o755);s.export_pending(out)
     self.assertEqual(out.stat().st_mode&0o777,0o700);self.assertEqual((out/'records.ndjson').stat().st_mode&0o777,0o600)
    finally:s.close()
+
+
+class AccessEvidenceTests(unittest.TestCase):
+ def test_denial_bytes_retained_privately_without_creating_post(self):
+  with tempfile.TemporaryDirectory() as td:
+   s=Store(td)
+   try:
+    body=b'<title>Security verification</title><form id="captcha"></form>'
+    digest=s.record_access_evidence(source_id='fixture',url='https://example.test/gate',status_code=200,body=body,reason='challenge_page',permissions={'collection':True})
+    self.assertEqual(s.raw_bytes(digest),body);self.assertEqual(s.counts()['records'],0)
+    row=json.loads(s.db.execute('select payload from access_evidence').fetchone()[0]);self.assertFalse(row['is_publication']);self.assertEqual(row['raw_sha256'],digest)
+   finally:s.close()

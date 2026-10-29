@@ -55,6 +55,7 @@ class Store:
         CREATE TABLE IF NOT EXISTS processing_events (id TEXT PRIMARY KEY, record_id TEXT NOT NULL,
           created_at TEXT NOT NULL, status TEXT NOT NULL, evidence TEXT NOT NULL);
         CREATE TABLE IF NOT EXISTS metadata (key TEXT PRIMARY KEY, value TEXT NOT NULL);
+        CREATE TABLE IF NOT EXISTS access_evidence (id TEXT PRIMARY KEY, payload TEXT NOT NULL);
         ''')
 
     def close(self):
@@ -155,6 +156,18 @@ class Store:
                     (identity,json.dumps({**author,'observation_scope':'public_post_actor_only',
                      'collected_at':value['collected_at'],'full_profile_retrieved':False},sort_keys=True)))
         return {'inserted':True,'record_id':owner}
+
+    def record_access_evidence(self, *, source_id, url, status_code, body, reason, permissions):
+        """Private denied-response evidence. Never source text or request credentials in logs."""
+        if not isinstance(body,bytes):raise ConfigurationError('access_evidence_requires_bytes')
+        digest=hashlib.sha256(body).hexdigest()
+        value={'source_id':source_id,'source_url':canonical_url(url),'collected_at':utcnow(),
+            'status_code':status_code,'reason':reason,'raw_sha256':digest,'permissions':permissions,
+            'processing_status':'access_review_required','is_publication':False}
+        with self.db:
+            self.db.execute('INSERT OR IGNORE INTO raw_objects VALUES (?,?)',(digest,gzip.compress(body,mtime=0)))
+            self.db.execute('INSERT INTO access_evidence VALUES (?,?)',(uuid.uuid4().hex,json.dumps(value,sort_keys=True)))
+        return digest
 
     def get_suspension(self, key):
         row = self.db.execute('SELECT payload FROM suspensions WHERE access_group=?',(key,)).fetchone()

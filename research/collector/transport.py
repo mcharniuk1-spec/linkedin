@@ -4,7 +4,9 @@ from __future__ import annotations
 import asyncio
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
+from html.parser import HTMLParser
 import random
+import re
 import time
 from urllib.error import HTTPError, URLError
 from urllib.parse import urljoin, urlsplit
@@ -108,6 +110,27 @@ class _BaseTransport:
     def _suspend(self, key, reason, retry_after=None):
         self.state.suspend(key, reason, retry_after_seconds=retry_after)
 
+    def _stop_with_evidence(self, key, *, url, status_code, body, reason, retry_after=None):
+        hook = getattr(self.state, "record_access_evidence", None)
+        evidence_failed = False
+        if callable(hook):
+            try:
+                hook(source_id=self.spec.get("source_id", "unknown"), url=url,
+                     status_code=status_code, body=body, reason=reason,
+                     permissions=self.spec.get("permissions", {}))
+            except Exception:
+                # Preserve the access hold even if evidence storage is unavailable.
+                evidence_failed = True
+        try:
+            self._suspend(key, reason, retry_after)
+        except Exception:
+            self._log(status=status_code, event="suspension_persist_failed",
+                      error_code="suspension_persist_failed")
+            raise AccessSuspended("Source access stopped; suspension could not be persisted") from None
+        if evidence_failed:
+            self._log(status=status_code, event="access_evidence_persist_failed",
+                      error_code="access_evidence_persist_failed")
+
     async def _backoff(self, attempt: int, retry_after: float | None = None):
         # Never retry before the server's Retry-After. Long waits suspend this bounded job.
         if retry_after is not None and retry_after > 30:
@@ -131,11 +154,76 @@ class _BaseTransport:
     @staticmethod
     def _challenge(url: str, body: bytes) -> bool:
         path = urlsplit(url).path.lower()
-        sample = body[:65536].lower()
-        challenge_form = b"captcha" in sample and (b"<form" in sample or b"data-sitekey" in sample)
-        return any(s in path for s in ("/authwall", "/checkpoint", "/challenge")) or challenge_form or any(
-            s in sample for s in (b"verify you are human", b"security check", b"authwall")
+        if any(s in path for s in ("/authwall", "/checkpoint", "/challenge")):
+            return True
+
+        # Ignore scripts, links, and ordinary article prose. These often mention
+        # authwalls or quote security prompts without presenting an access gate.
+        marker = re.compile(r"(?:^|[\s_-])(captcha|recaptcha|hcaptcha|turnstile|challenge|authwall)(?:$|[\s_-])", re.I)
+        gate_heading = re.compile(
+            r"(?:verify (?:that )?you are human|security (?:verification|check)|"
+            r"complete (?:the )?security check|prove you are human|unusual traffic|"
+            r"access denied|authentication required|sign in to (?:continue|view|access|linkedin)|"
+            r"log in to (?:continue|view|access|linkedin))",
+            re.I,
         )
+
+        class GateMarkup(HTMLParser):
+            _VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input",
+                     "link", "meta", "param", "source", "track", "wbr"}
+
+            def __init__(self):
+                super().__init__(convert_charrefs=True)
+                self.headings = []
+                self._capture = 0
+                self._skip = 0
+                self._stack = []
+                self.widget = False
+
+            def handle_starttag(self, tag, attrs):
+                tag = tag.lower()
+                attrs = {key.lower(): value or "" for key, value in attrs}
+                if tag in {"script", "style", "template", "noscript"}:
+                    self._skip += 1
+                parent_hidden = any(hidden for _, hidden in self._stack)
+                style = re.sub(r"\s+", "", attrs.get("style", "").lower())
+                own_hidden = ("hidden" in attrs or attrs.get("aria-hidden", "").lower() == "true"
+                              or "inert" in attrs or "display:none" in style
+                              or "visibility:hidden" in style or "opacity:0" in style)
+                visible = not self._skip and not parent_hidden and not own_hidden
+                if visible and tag in {"title", "h1", "h2"}:
+                    self._capture += 1
+                attr_text = " ".join(attrs.get(key, "") for key in
+                                      ("id", "class", "name", "action", "title", "aria-label", "src"))
+                if visible and ("data-sitekey" in attrs or (tag == "form" and marker.search(attr_text))):
+                    self.widget = True
+                if visible and tag in {"div", "span", "iframe", "section"} and marker.search(attr_text):
+                    self.widget = True
+                if tag not in self._VOID:
+                    self._stack.append((tag, parent_hidden or own_hidden))
+
+            def handle_endtag(self, tag):
+                tag = tag.lower()
+                if tag in {"script", "style", "template", "noscript"} and self._skip:
+                    self._skip -= 1
+                if not self._skip and tag in {"title", "h1", "h2"} and self._capture:
+                    self._capture -= 1
+                for index in range(len(self._stack) - 1, -1, -1):
+                    if self._stack[index][0] == tag:
+                        del self._stack[index:]
+                        break
+
+            def handle_data(self, data):
+                if self._capture and not self._skip:
+                    self.headings.append(data)
+
+        parser = GateMarkup()
+        try:
+            parser.feed(body[:65536].decode("utf-8", errors="replace"))
+        except Exception:
+            # A malformed body is not itself evidence of an access challenge.
+            return False
+        return parser.widget or bool(gate_heading.search(" ".join(parser.headings)))
 
     async def aclose(self):
         return None
@@ -222,11 +310,13 @@ class HttpxTransport(_BaseTransport):
                         raise CollectionError("Response exceeds configured byte cap")
                     if code in STOP_CODES:
                         retry_after = _retry_after(response_headers.get("retry-after"))
-                        self._suspend(key, f"http_{code}", retry_after)
+                        self._stop_with_evidence(key, url=final_url, status_code=code, body=body,
+                                                 reason=f"http_{code}", retry_after=retry_after)
                         self._log(status=code, attempt=attempt, event="access_suspended")
                         raise AccessSuspended(f"Source access suspended after HTTP {code}")
                     if code == 200 and self._challenge(final_url, body):
-                        self._suspend(key, "challenge_page")
+                        self._stop_with_evidence(key, url=final_url, status_code=code, body=body,
+                                                 reason="challenge_page")
                         self._log(status=code, attempt=attempt, event="access_suspended", error_code="challenge_page")
                         raise AccessSuspended("Source access suspended after challenge page")
                     if code in TRANSIENT_CODES and attempt < self._attempts:
@@ -296,11 +386,13 @@ class UrllibTransport(_BaseTransport):
                         raise CollectionError("Response exceeds configured byte cap")
                     if code in STOP_CODES:
                         retry_after = _retry_after(response_headers.get("retry-after"))
-                        self._suspend(key, f"http_{code}", retry_after)
+                        self._stop_with_evidence(key, url=final_url, status_code=code, body=body,
+                                                 reason=f"http_{code}", retry_after=retry_after)
                         self._log(status=code, attempt=attempt, event="access_suspended")
                         raise AccessSuspended(f"Source access suspended after HTTP {code}")
                     if code == 200 and HttpxTransport._challenge(final_url, body):
-                        self._suspend(key, "challenge_page")
+                        self._stop_with_evidence(key, url=final_url, status_code=code, body=body,
+                                                 reason="challenge_page")
                         self._log(status=code, attempt=attempt, event="access_suspended", error_code="challenge_page")
                         raise AccessSuspended("Source access suspended after challenge page")
                     if code in TRANSIENT_CODES and attempt < self._attempts:

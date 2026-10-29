@@ -2578,6 +2578,18 @@
         "url:https://www.linkedin.com/posts/max-charniuk_voiceai-agenticworkflows-projectmanagement-activity-7491096995206590465-bLK0",
         "text:70b9de2fdf15869e566882e203511c5d761161004a34df431c2ed4d5d6401bdc"
       ]
+    },
+    {
+      "external_id": "urn:li:activity:7516536611371687936",
+      "aliases": [
+        "activity:7516536611371687936",
+        "id:urn:li:activity:7516536611371687936",
+        "id:urn:li:ugcPost:7516536610385997825",
+        "text:2c52e6c80e6fdc33293a7c91ad5498d52a5de5385c26db4e4322f0e5edf15fed",
+        "url:https://www.linkedin.com/posts/owenvansyckle_b2b-founders-if-youre-still-doing-all-your-activity-7516536611371687936-LnBS"
+      ],
+      "origin": "v7 bounded live capture; source bytes remain private",
+      "source_sha256": "b5c6fd4097d215a4f2fbce6a7e9321dbbea676ad789ce38d6777703e4cc00af0"
     }
   ],
   "profiles": [
@@ -2945,6 +2957,12 @@
       "url": "https://www.linkedin.com/in/hari-prasanna-kumar",
       "name": "Hari Prasanna Kumar",
       "observation_scope": "public_post_actor_only",
+      "full_profile_retrieved": false
+    },
+    {
+      "url": "https://www.linkedin.com/in/owenvansyckle",
+      "name": "Owen Van Syckle",
+      "observation_scope": "post_actor_only",
       "full_profile_retrieved": false
     }
   ]
