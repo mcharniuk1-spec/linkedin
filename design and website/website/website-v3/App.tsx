@@ -16,10 +16,12 @@ import {WhyOutspoken} from './WhyOutspoken';
 import './opening-v7.css';
 import './button.css';
 import './identity-v10.css';
+import './hero-v10.css';
+import {HeroPeople,Sel} from './HeroPeople';
 
 const copy=copyData as any, pricing=priceData as any;
-const asset='/assets/revisions/v3/', media='/assets/revisions/v5/people/founder-blue.webp';
-const avatars=['/assets/revisions/v5/people/avatar-a.webp','/assets/revisions/v5/people/avatar-b.webp'];
+const asset='/assets/revisions/v3/', media='/assets/identity/v10/heroes/h2-founder.webp';
+const avatars=['/assets/identity/v10/heroes/h3-avatar-a.webp','/assets/identity/v10/heroes/h4-avatar-b.webp'];
 const countWord=(n:number)=>['Zero','One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten'][n]??String(n);
 const identity='/assets/revisions/v5/identity/selected/';
 const film='/video/revisions/v5/Outspoken-v5-style-proof-landscape.mp4';
@@ -51,12 +53,12 @@ export function AtmosphereHero(){
   return <section ref={host} className={'atmosphere-hero hero-v7 '+(still?'is-static ':'')+(focused?'video-focused':'')} data-block="atmosphere-hero" data-hero-phase={phase.phase}>
     <div className="v7-opening-stage">
       <div className="v7-opening-waves"><SoundWaves/></div>
-      <motion.div className="v7-human-shadow" data-shadow-figure="" style={still?undefined:{opacity:phase.shadowOpacity,scale:phase.shadowScale}}><img src={asset+'nature/05-real-human-shadow.webp'} alt="Photographic shadow of a fictional person speaking"/></motion.div>
-      <motion.div className="v7-opening-copy" inert={!phase.copyReady} style={still?undefined:{opacity:phase.copyOpacity,y:phase.copyY}}><p className="eyebrow">{copy.home.eyebrow}</p><RevealHeading as="h1">Make the <span className="highlight">right buyers</span> care about you and what you’re building.</RevealHeading><p className="hero-value">{copy.protected.vp}</p><CallButton/><p className="audience-line">Europe-based B2B AI SaaS · Seed to Series B</p></motion.div>
+      <motion.div className="v7-human-shadow" data-shadow-figure="" style={still?undefined:{opacity:phase.shadowOpacity,scale:phase.shadowScale}}><img src="/assets/identity/v10/heroes/h1-shadow.webp" alt="Photographic shadow of a fictional person speaking"/></motion.div>
+      <motion.div className="v7-opening-copy" inert={!phase.copyReady} style={still?undefined:{opacity:phase.copyOpacity,y:phase.copyY}}><p className="eyebrow hero-pill">{copy.home.eyebrow}</p><RevealHeading as="h1">Make the right buyers <Sel>care</Sel> about you and what you’re building.</RevealHeading><p className="hero-value">{copy.protected.vp}</p><CallButton/><HeroPeople/></motion.div>
       {!still?<motion.div className="v7-shadow-cover" data-shadow-cover="" aria-hidden="true" style={{clipPath:phase.cover}}/>:null}
-      <motion.div className="v7-film-scene" data-hero-media="" inert={!phase.ready} style={still?undefined:{opacity:phase.mediaOpacity,y:phase.mediaY,scale:phase.mediaScale}}>
-        <div className="v7-film-heading"><p className="eyebrow">A point of view worth hearing.</p><h2>Founder thinking.<br/><span className="highlight">Buyer relevance.</span></h2></div>
-        <div className="v7-film-composition"><PerspectiveVideo poster={media} src={film} title="Founder thinking. Buyer relevance." description="An original silent visual study. The people and publications shown are illustrative, not customers or client results." caption="Fictional interview image · silent visual study" onOpenChange={setFocused}/><div className="v7-publication-overlap" data-hero-post=""><HeroPublication post={copy.posts[0]} onOpenChange={setFocused}><PostCard post={copy.posts[0]}/></HeroPublication></div></div>
+      <motion.div className="v7-film-scene" data-hero-media="" style={still?undefined:{opacity:phase.statementOpacity}}>
+        <motion.div className="v7-film-heading" style={still?undefined:{y:phase.statementY}}><p className="eyebrow">A point of view worth hearing.</p><h2>Founder thinking.<br/><span className="highlight">Buyer relevance.</span></h2></motion.div>
+        <motion.div className="v7-film-composition" inert={!phase.ready} style={still?undefined:{opacity:phase.mediaOpacity,y:phase.mediaY,scale:phase.mediaScale}}><PerspectiveVideo poster={media} src={film} title="Founder thinking. Buyer relevance." description="An original silent visual study. The people and publications shown are illustrative, not customers or client results." caption="Fictional interview image · silent visual study" onOpenChange={setFocused}/><div className="v7-publication-overlap" data-hero-post=""><HeroPublication post={copy.posts[0]} onOpenChange={setFocused}><PostCard post={copy.posts[0]}/></HeroPublication></div></motion.div>
       </motion.div>
       {!still?<motion.div className="v7-opening-cue" style={{opacity:phase.cueOpacity}} aria-hidden="true"><span>Scroll to bring the story into focus</span><span>↓</span></motion.div>:null}
     </div>

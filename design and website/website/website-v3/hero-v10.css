@@ -1,0 +1,38 @@
+/* Hero V10 (proposed). Principles taken from the light, centred founder-marketing pages reviewed on 31 Oct 2026
+   (dotted ground, kicker pill, one "selected text" accent, a people strip), drawn only with Outspoken tokens.
+   The phase story is unchanged: copy, shadow figure floods the screen, statement, then proof (post and film). */
+.hero-pill{display:inline-flex;align-items:center;gap:8px;padding:7px 14px 7px 12px;border:1px solid var(--rule);border-radius:999px;background:rgba(255,255,255,.88);font-size:11px;letter-spacing:.09em;margin-bottom:22px;box-shadow:0 8px 20px -14px rgba(22,39,96,.35)}
+.hero-pill::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--marigold-500);flex:none}
+.v7-opening-stage,.m-hero__scene{background-image:radial-gradient(rgba(22,39,96,.13) 1px,transparent 1.5px),linear-gradient(145deg,#fff 8%,#F1F3F6 70%,#E4EAF0);background-size:22px 22px,100% 100%}
+/* one accent word: marker fill that sweeps in, dashed selection outline, four corner handles */
+.sel{position:relative;display:inline-block;padding:0 .14em;margin:0 .02em;color:var(--ink);background:linear-gradient(var(--marker),var(--marker)) left center/100% 100% no-repeat;border-radius:3px;outline:1.5px dashed rgba(22,39,96,.55);outline-offset:4px;animation:sel-fill .9s cubic-bezier(.22,1,.36,1) .65s both}
+.sel>i{position:absolute;width:8px;height:8px;background:#fff;border:1.5px solid var(--ink);border-radius:1.5px;animation:sel-handle .5s cubic-bezier(.22,1,.36,1) 1.3s both}
+.sel>i:nth-of-type(1){left:-10px;top:-10px}.sel>i:nth-of-type(2){right:-10px;top:-10px}.sel>i:nth-of-type(3){left:-10px;bottom:-10px}.sel>i:nth-of-type(4){right:-10px;bottom:-10px}
+@keyframes sel-fill{from{background-size:0% 100%;outline-color:transparent}60%{outline-color:transparent}to{background-size:100% 100%;outline-color:rgba(22,39,96,.55)}}
+@keyframes sel-handle{from{opacity:0;transform:scale(.3)}to{opacity:1;transform:scale(1)}}
+/* people strip: graded fictional portraits next to the audience line */
+.hero-people{display:flex;align-items:center;gap:12px;margin-top:22px}
+.hero-people__faces{display:inline-flex;flex:none}
+.hero-people__faces img{width:40px;height:40px;border-radius:50%;object-fit:cover;border:2px solid #fff;box-shadow:0 3px 8px -2px rgba(22,39,96,.35);animation:face-in .7s cubic-bezier(.22,1,.36,1) both}
+.hero-people__faces img+img{margin-left:-12px;animation-delay:.12s}
+.hero-people__faces img+img+img{animation-delay:.24s}
+.hero-people p,.hero-people .audience-line,.hero-people .m-hero__audience{margin:0;font-size:12px;line-height:1.45;max-width:32ch;color:#475477}
+@keyframes face-in{from{opacity:0;transform:translateY(10px) scale(.9)}to{opacity:1;transform:none}}
+.v7-opening-copy .hero-pill,.m-hero__copy .hero-pill{animation:face-in .7s cubic-bezier(.22,1,.36,1) both}
+/* statement beat: the flooded screen already carries the next line before the proof arrives */
+.v7-film-heading,.m-hero__film-copy{will-change:transform,opacity}
+@media(max-width:800px){
+  .m-hero__copy{text-align:center}
+  .m-hero__copy h1{font-size:clamp(34px,9.4vw,60px);margin-inline:auto;max-width:15ch}
+  .m-hero__value{margin:20px auto 18px;font-size:clamp(15px,3.9vw,18px)}
+  .m-hero__copy .hero-pill{margin-inline:auto;margin-bottom:18px}
+  .m-hero__copy .hero-people{flex-direction:column;gap:8px;margin-top:16px;justify-content:center}
+  .m-hero__copy .hero-people p{text-align:center;max-width:30ch;font-size:11px}
+  .m-hero__copy>.os-btn{margin-inline:auto}
+  .m-hero__shadow{height:31%;right:-8%;width:96%}
+  .sel{outline-offset:3px}
+  .sel>i{width:7px;height:7px}
+}
+@media(prefers-reduced-motion:reduce){
+  .sel,.sel>i,.hero-people__faces img,.hero-pill{animation:none}
+}

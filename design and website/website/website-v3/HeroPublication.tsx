@@ -8,7 +8,7 @@ export function HeroPublication({post,children,onOpenChange}:{post:{body?:string
   useEffect(()=>{if(!open)return;const node=dialog.current;if(!node)return;node.showModal();closeButton.current?.focus({preventScroll:true});const before=document.body.style.overflow;document.body.style.overflow='hidden';return()=>{node.close();document.body.style.overflow=before;trigger.current?.focus({preventScroll:true});};},[open]);
   const close=()=>{if(closing)return;setClosing(true);onOpenChange?.(false);const finish=()=>{dialog.current?.close();setOpen(false);setClosing(false);};if(reduced||!dialog.current)return finish();dialog.current.animate([{opacity:1,transform:'translateY(0) scale(1)'},{opacity:0,transform:'translateY(12px) scale(.98)'}],{duration:220,easing:'ease-in',fill:'forwards'}).finished.then(finish,finish);};
   return <><article className="hero-publication" aria-label="Illustrative LinkedIn publication">
-    <header><img src="/assets/revisions/v5/people/avatar-b.webp" alt="Fictional founder portrait" width="32" height="32"/><span><strong>Founder perspective</strong><small>Illustrative LinkedIn post</small></span><i aria-hidden="true">•••</i></header>
+    <header><img src="/assets/identity/v10/heroes/h4-avatar-b.webp" alt="Fictional founder portrait" width="32" height="32"/><span><strong>Founder perspective</strong><small>Illustrative LinkedIn post</small></span><i aria-hidden="true">•••</i></header>
     <p className="hero-publication__excerpt">{post.body}</p>
     <div className="hero-publication__art"><h3>{post.title}</h3><img src="/assets/identity/v10/mark-b01-24.svg" alt="" width="30" height="30"/></div>
     <p className="hero-publication__disclosure">Illustrative work · not client content</p>

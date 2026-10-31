@@ -24,8 +24,8 @@
   "files": [
     {
       "path": "HANDOFF.md",
-      "bytes": 4873,
-      "sha256": "cb83d8d4e97f73e96e292e195f48e6ab621d3ab395e07c5be5e5c67424a5f41f"
+      "bytes": 5027,
+      "sha256": "c743237fe41b533e58fc2bd5a7c08cec4a1a4b4b573aeffb030bf4a0633ba44b"
     },
     {
       "path": "README.md",
@@ -34,8 +34,8 @@
     },
     {
       "path": "asset-rights.json",
-      "bytes": 434363,
-      "sha256": "5019ad8c311096f4f2e2032dd6126d971cef0942fb7977c2cbe7a25bc98ba672"
+      "bytes": 438381,
+      "sha256": "38218e734cddcf7fbbbd32b7dde6e8bf0a8f13d7ba0c5907a0d95cf5ed5e1fd6"
     },
     {
       "path": "assets/README.md",
@@ -166,6 +166,26 @@
       "path": "assets/public/assets/identity/v10/favicon.svg",
       "bytes": 668,
       "sha256": "92e70e12dd27eb23de25c859de4afbdcf523f9cafa41e3d32e86dfb38c14f202"
+    },
+    {
+      "path": "assets/public/assets/identity/v10/heroes/h1-shadow.webp",
+      "bytes": 90946,
+      "sha256": "4c119f6bed7f104ebfd255b207d418b149410889bae1c676590dc6854116a48c"
+    },
+    {
+      "path": "assets/public/assets/identity/v10/heroes/h2-founder.webp",
+      "bytes": 140148,
+      "sha256": "ac71dbde47c8eafb52d0a0d31f89ee324d1a7aea2c726fe70d60cc4d2818b02b"
+    },
+    {
+      "path": "assets/public/assets/identity/v10/heroes/h3-avatar-a.webp",
+      "bytes": 157152,
+      "sha256": "fb90008449be0e71b401c345029a1b43977bfb78aefd9b785458188f595f64a2"
+    },
+    {
+      "path": "assets/public/assets/identity/v10/heroes/h4-avatar-b.webp",
+      "bytes": 124550,
+      "sha256": "b96d0c09fad4830f1b843b655d3e850e8fbb70d8967319ab793569e0e3580739"
     },
     {
       "path": "assets/public/assets/identity/v10/icons-d05.svg",
@@ -2399,13 +2419,18 @@
     },
     {
       "path": "design-system/identity-v10/README.md",
-      "bytes": 3065,
-      "sha256": "a2e7e7bdc88f6e3413955d33e074b22a019fec53a4f7c92abb98b147cc3fb44d"
+      "bytes": 3994,
+      "sha256": "37a44052c97fe4206d55f8f52a6649d965b742a751afef6a4ebc99fe23b42b37"
     },
     {
       "path": "design-system/identity-v10/build.mjs",
       "bytes": 8857,
       "sha256": "40306e1047f630369dfa4e6d66a0b599a828ea674484d897651405ffa56e159d"
+    },
+    {
+      "path": "design-system/identity-v10/grade-heroes.py",
+      "bytes": 5511,
+      "sha256": "47d64907b472c4258c50cc165efc631ed90815472ef046f20ae96b0c706172cb"
     },
     {
       "path": "design-system/identity-v10/icons.json",
@@ -5019,8 +5044,8 @@
     },
     {
       "path": "website/website-v3/App.tsx",
-      "bytes": 26507,
-      "sha256": "d4e9a6e859947ef4afa83bc8bd3d9d235a49a7acc479d7d9f20588c6313e08c9"
+      "bytes": 26634,
+      "sha256": "91164e6fb179a95df5b3d0234fda13b30b1f3542e1821199000a899163070fa8"
     },
     {
       "path": "website/website-v3/Blocks.stories.tsx",
@@ -5038,9 +5063,14 @@
       "sha256": "4c1794f01c4ea3314207056b912fe808b7a6947ed6dd839e394966d9945160ee"
     },
     {
+      "path": "website/website-v3/HeroPeople.tsx",
+      "bytes": 1187,
+      "sha256": "b1e7ddbc75caa91a6cec4aaf881a6f302967a8272132df5e7f12b0065ee971db"
+    },
+    {
       "path": "website/website-v3/HeroPublication.tsx",
-      "bytes": 2649,
-      "sha256": "481a7bf775a4024e5a1879fc9378061e59a69bad1b01dafbe0e6a97f3b2ba495"
+      "bytes": 2652,
+      "sha256": "826baca43e23bf09aa35fe28934e41e08ddf448f17a09967485ac9b3431cc075"
     },
     {
       "path": "website/website-v3/Icon.tsx",
@@ -5089,13 +5119,18 @@
     },
     {
       "path": "website/website-v3/hero-phases.ts",
-      "bytes": 1787,
-      "sha256": "48d5eb268593949ea14c16e844a8736aa60759cac1e58bbafe9c5cf817a9469f"
+      "bytes": 1960,
+      "sha256": "74edd62988bdf14fb67f528f40d58bac70cd58fe8dc8a4a80f92fedba9ba8b86"
     },
     {
       "path": "website/website-v3/hero-publication.css",
       "bytes": 3810,
       "sha256": "bc527312f2988f5f368a848277d5eaa471bd16333f42aa3a3a40340ce32df3fc"
+    },
+    {
+      "path": "website/website-v3/hero-v10.css",
+      "bytes": 3705,
+      "sha256": "24b9721bdf0aee935d26f00801aeb4da54a97e19cf6ec72b9b94af589a9e9736"
     },
     {
       "path": "website/website-v3/identity-v10.css",
@@ -5119,8 +5154,8 @@
     },
     {
       "path": "website/website-v3/mobile/MobileHome.tsx",
-      "bytes": 9191,
-      "sha256": "c48c97c54a80288fe0aba0cd5125be986ca4244bb84cebe5052bdea16ca3d42c"
+      "bytes": 9261,
+      "sha256": "097164546b435a346968699b873560f86a6ac20aef0e233e37b64032fcd30d90"
     },
     {
       "path": "website/website-v3/mobile/mobile-chapter.css",
@@ -5616,6 +5651,74 @@
       "conditions": [
         "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
         "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/heroes/h1-shadow.webp",
+      "repository_path": "design and website/assets/public/assets/identity/v10/heroes/h1-shadow.webp",
+      "sha256": "4c119f6bed7f104ebfd255b207d418b149410889bae1c676590dc6854116a48c",
+      "bytes": 90946,
+      "source": "design-system/identity-v10/grade-heroes.py: deterministic colour grade of the already registered fictional hero images (V3 shadow figure, V5 founder and portraits); size, crop and transparency unchanged",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Graded derivative of registered fictional portraits; no real person is depicted or implied.",
+        "Fictional people stay labelled 'Illustrative' wherever shown.",
+        "Proposed look; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/heroes/h2-founder.webp",
+      "repository_path": "design and website/assets/public/assets/identity/v10/heroes/h2-founder.webp",
+      "sha256": "ac71dbde47c8eafb52d0a0d31f89ee324d1a7aea2c726fe70d60cc4d2818b02b",
+      "bytes": 140148,
+      "source": "design-system/identity-v10/grade-heroes.py: deterministic colour grade of the already registered fictional hero images (V3 shadow figure, V5 founder and portraits); size, crop and transparency unchanged",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Graded derivative of registered fictional portraits; no real person is depicted or implied.",
+        "Fictional people stay labelled 'Illustrative' wherever shown.",
+        "Proposed look; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/heroes/h3-avatar-a.webp",
+      "repository_path": "design and website/assets/public/assets/identity/v10/heroes/h3-avatar-a.webp",
+      "sha256": "fb90008449be0e71b401c345029a1b43977bfb78aefd9b785458188f595f64a2",
+      "bytes": 157152,
+      "source": "design-system/identity-v10/grade-heroes.py: deterministic colour grade of the already registered fictional hero images (V3 shadow figure, V5 founder and portraits); size, crop and transparency unchanged",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Graded derivative of registered fictional portraits; no real person is depicted or implied.",
+        "Fictional people stay labelled 'Illustrative' wherever shown.",
+        "Proposed look; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/heroes/h4-avatar-b.webp",
+      "repository_path": "design and website/assets/public/assets/identity/v10/heroes/h4-avatar-b.webp",
+      "sha256": "b96d0c09fad4830f1b843b655d3e850e8fbb70d8967319ab793569e0e3580739",
+      "bytes": 124550,
+      "source": "design-system/identity-v10/grade-heroes.py: deterministic colour grade of the already registered fictional hero images (V3 shadow figure, V5 founder and portraits); size, crop and transparency unchanged",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Graded derivative of registered fictional portraits; no real person is depicted or implied.",
+        "Fictional people stay labelled 'Illustrative' wherever shown.",
+        "Proposed look; owner acceptance pending."
       ]
     },
     {

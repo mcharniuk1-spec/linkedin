@@ -6,6 +6,7 @@ import {opinions as emails,opinionCount} from '../opinions';
 import {MobileChapter} from './MobileChapter';
 import {useHeroPhases} from '../hero-phases';
 import {HeroPublication} from '../HeroPublication';
+import {HeroPeople,Sel} from '../HeroPeople';
 import './mobile-home.css';
 
 type Parts={
@@ -20,17 +21,17 @@ function HeroScene({progress,still,CallButton,SoundWaves,PostCard}:{progress:Mot
   const waveRotate=useTransform(progress,[0,1],[-9,8]);
   return <div className={'m-hero__scene m-hero__scene--v7'+(focused?' is-focused':'')} data-mobile-stage="hero" data-hero-phase={phase.phase}>
     <motion.div className="m-hero__waves" style={still?undefined:{rotate:waveRotate}}><SoundWaves/></motion.div>
-    <motion.div className="m-hero__shadow" data-shadow-figure="" style={still?undefined:{opacity:phase.shadowOpacity,scale:phase.shadowScale}}><img src="/assets/revisions/v3/nature/05-real-human-shadow.webp" alt="Photographic shadow of a fictional person speaking"/></motion.div>
+    <motion.div className="m-hero__shadow" data-shadow-figure="" style={still?undefined:{opacity:phase.shadowOpacity,scale:phase.shadowScale}}><img src="/assets/identity/v10/heroes/h1-shadow.webp" alt="Photographic shadow of a fictional person speaking"/></motion.div>
     <motion.div className="m-hero__copy" inert={!phase.copyReady} style={still?undefined:{opacity:phase.copyOpacity,y:phase.copyY}}>
-      <p className="eyebrow">{content.home.eyebrow}</p>
-      <h1>Make the <span className="highlight">right buyers</span> care about you and what you’re building.</h1>
+      <p className="eyebrow hero-pill">{content.home.eyebrow}</p>
+      <h1>Make the right buyers <Sel>care</Sel> about you and what you’re building.</h1>
       <p className="m-hero__value">{content.protected.vp}</p><CallButton/>
-      <p className="m-hero__audience">Europe-based B2B AI SaaS · Seed to Series B</p>
+      <HeroPeople className="m-hero__audience"/>
     </motion.div>
     {!still?<motion.div className="v7-shadow-cover" data-shadow-cover="" aria-hidden="true" style={{clipPath:phase.cover}}/>:null}
-    <motion.div className="m-hero__film" data-hero-media="" inert={!phase.ready} style={still?undefined:{opacity:phase.mediaOpacity,y:phase.mediaY,scale:phase.mediaScale}}>
+    <motion.div className="m-hero__film" data-hero-media="" style={still?undefined:{opacity:phase.statementOpacity,y:phase.statementY}}>
       <div className="m-hero__film-copy"><p className="eyebrow">A point of view worth hearing.</p><h2>Founder thinking.<br/><span className="highlight">Buyer relevance.</span></h2></div>
-      <div className="m-hero__media" data-mobile-dock="video"><PerspectiveVideo poster="/assets/revisions/v5/people/founder-blue.webp" src="/video/revisions/v5/Outspoken-v5-style-proof-landscape.mp4" title="Founder thinking. Buyer relevance." description="An original silent visual study. The people and publications shown are illustrative, not customers or client results." caption="Fictional interview image · silent visual study" onOpenChange={setFocused}/><div className="m-hero__publication" data-hero-post=""><HeroPublication post={content.posts[0]} onOpenChange={setFocused}><PostCard post={content.posts[0]}/></HeroPublication></div></div>
+      <motion.div className="m-hero__media" data-mobile-dock="video" inert={!phase.ready} style={still?undefined:{opacity:phase.mediaOpacity,y:phase.mediaY,scale:phase.mediaScale}}><PerspectiveVideo poster="/assets/identity/v10/heroes/h2-founder.webp" src="/video/revisions/v5/Outspoken-v5-style-proof-landscape.mp4" title="Founder thinking. Buyer relevance." description="An original silent visual study. The people and publications shown are illustrative, not customers or client results." caption="Fictional interview image · silent visual study" onOpenChange={setFocused}/><div className="m-hero__publication" data-hero-post=""><HeroPublication post={content.posts[0]} onOpenChange={setFocused}><PostCard post={content.posts[0]}/></HeroPublication></div></motion.div>
     </motion.div>
     {!still?<motion.div className="m-chapter-cue" style={{opacity:phase.cueOpacity}} aria-hidden="true"><span>Scroll to bring the story into focus</span><span>↓</span></motion.div>:null}
   </div>;

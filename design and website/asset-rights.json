@@ -29,6 +29,10 @@
     "assets/public/assets/identity/mic-candidates-r10/contact-20.jpg",
     "assets/public/assets/identity/mic-candidates-r10/directions-board.jpg",
     "assets/public/assets/identity/v10/favicon.svg",
+    "assets/public/assets/identity/v10/heroes/h1-shadow.webp",
+    "assets/public/assets/identity/v10/heroes/h2-founder.webp",
+    "assets/public/assets/identity/v10/heroes/h3-avatar-a.webp",
+    "assets/public/assets/identity/v10/heroes/h4-avatar-b.webp",
     "assets/public/assets/identity/v10/icons-d05.svg",
     "assets/public/assets/identity/v10/icons/advertising.svg",
     "assets/public/assets/identity/v10/icons/automation.svg",
@@ -907,6 +911,74 @@
       "conditions": [
         "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
         "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/heroes/h1-shadow.webp",
+      "repository_path": "design and website/assets/public/assets/identity/v10/heroes/h1-shadow.webp",
+      "sha256": "4c119f6bed7f104ebfd255b207d418b149410889bae1c676590dc6854116a48c",
+      "bytes": 90946,
+      "source": "design-system/identity-v10/grade-heroes.py: deterministic colour grade of the already registered fictional hero images (V3 shadow figure, V5 founder and portraits); size, crop and transparency unchanged",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Graded derivative of registered fictional portraits; no real person is depicted or implied.",
+        "Fictional people stay labelled 'Illustrative' wherever shown.",
+        "Proposed look; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/heroes/h2-founder.webp",
+      "repository_path": "design and website/assets/public/assets/identity/v10/heroes/h2-founder.webp",
+      "sha256": "ac71dbde47c8eafb52d0a0d31f89ee324d1a7aea2c726fe70d60cc4d2818b02b",
+      "bytes": 140148,
+      "source": "design-system/identity-v10/grade-heroes.py: deterministic colour grade of the already registered fictional hero images (V3 shadow figure, V5 founder and portraits); size, crop and transparency unchanged",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Graded derivative of registered fictional portraits; no real person is depicted or implied.",
+        "Fictional people stay labelled 'Illustrative' wherever shown.",
+        "Proposed look; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/heroes/h3-avatar-a.webp",
+      "repository_path": "design and website/assets/public/assets/identity/v10/heroes/h3-avatar-a.webp",
+      "sha256": "fb90008449be0e71b401c345029a1b43977bfb78aefd9b785458188f595f64a2",
+      "bytes": 157152,
+      "source": "design-system/identity-v10/grade-heroes.py: deterministic colour grade of the already registered fictional hero images (V3 shadow figure, V5 founder and portraits); size, crop and transparency unchanged",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Graded derivative of registered fictional portraits; no real person is depicted or implied.",
+        "Fictional people stay labelled 'Illustrative' wherever shown.",
+        "Proposed look; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/heroes/h4-avatar-b.webp",
+      "repository_path": "design and website/assets/public/assets/identity/v10/heroes/h4-avatar-b.webp",
+      "sha256": "b96d0c09fad4830f1b843b655d3e850e8fbb70d8967319ab793569e0e3580739",
+      "bytes": 124550,
+      "source": "design-system/identity-v10/grade-heroes.py: deterministic colour grade of the already registered fictional hero images (V3 shadow figure, V5 founder and portraits); size, crop and transparency unchanged",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Graded derivative of registered fictional portraits; no real person is depicted or implied.",
+        "Fictional people stay labelled 'Illustrative' wherever shown.",
+        "Proposed look; owner acceptance pending."
       ]
     },
     {
@@ -8324,9 +8396,9 @@
     }
   ],
   "counts": {
-    "assets": 461,
+    "assets": 465,
     "excluded": 21,
-    "included_assets": 459,
+    "included_assets": 463,
     "excluded_assets": 23
   },
   "license_records": {

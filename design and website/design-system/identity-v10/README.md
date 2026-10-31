@@ -21,5 +21,8 @@ Site use: header and footer lockup (`Wordmark`), hero publication mark, closing 
 - Spelling: the only text is OUTSPOKEN (titles, alt text, wordmark outlines), checked by search; the wordmark is never typeset.
 - Reduced motion: the closing-panel rings are CSS animations and are removed under `prefers-reduced-motion: reduce` (rule contents verified; the media query itself was not emulated in this browser).
 
+## First-screen heroes (proposed)
+`grade-heroes.py` applies a deterministic editorial grade (no generative model) to the four existing fictional hero images, keeping size, crop, pose and transparency: royal blue shifts to navy, shadows take a navy lift, highlights a little marigold, matte contrast, seeded grain; the silhouette gets a navy volume gradient and a marigold rim light. Output: `assets/public/assets/identity/v10/heroes/h1-shadow.webp` (shadow figure), `h2-founder.webp` (film frame), `h3-avatar-a.webp`, `h4-avatar-b.webp`. The first screens use them with a kicker pill, one "selected text" accent word (`Sel`), a dotted ground, an illustrative people strip (`HeroPeople`) and a statement beat during the flood phase; the phase story (copy, shadow figure floods the screen, statement, proof) is unchanged. Principles came from the light centred founder-marketing pages reviewed on 31 Oct 2026; nothing was copied.
+
 ## Not done
 Brand Studio (`/design-system`) still documents the V5 capsule artefacts; Figma was not updated (no edit access); the film's end card keeps the wordmark only; icon set has no animation yet.
