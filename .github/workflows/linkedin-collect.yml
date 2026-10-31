@@ -68,7 +68,7 @@ jobs:
           name: linkedin-private-state-${{ github.run_id }}-${{ github.run_attempt }}
           path: research/work/state.enc
           if-no-files-found: error
-          retention-days: 90
+          retention-days: 7
           compression-level: 0
       - name: Advance checkpoint with compare-and-swap and readback
         if: always() && steps.upload.outcome == 'success'

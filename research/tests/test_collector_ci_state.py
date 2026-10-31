@@ -180,8 +180,11 @@ raise SystemExit('invalid database was restored')'''
     def test_restore_holds_for_orphan_or_missing_checkpoint_artifact(self):
         point = checkpoint(artifact_id=7)
         with patch.object(ci_state, "pointer", return_value=(point, "blob-sha")), \
-             patch.object(ci_state, "artifacts", return_value=[{"id": 8, "name": "linkedin-private-state-x",
-                                                                  "expired": False, "size_in_bytes": 10}]), \
+             patch.object(ci_state, "artifacts", return_value=[
+                 {"id": 7, "name": "linkedin-private-state-7", "expired": False, "size_in_bytes": 10,
+                  "created_at": "2026-10-31T10:00:00Z"},
+                 {"id": 8, "name": "linkedin-private-state-x", "expired": False, "size_in_bytes": 10,
+                  "created_at": "2026-10-31T10:01:00Z"}]), \
              patch.object(ci_state, "gh") as gh:
             with self.assertRaisesRegex(ConfigurationError, "orphan_state_artifact_requires_recovery"):
                 ci_state.restore(REPOSITORY, self.root / "state", self.root / "context.json")
@@ -192,9 +195,72 @@ raise SystemExit('invalid database was restored')'''
                 ci_state.restore(REPOSITORY, self.root / "state", self.root / "context.json")
             gh.assert_not_called()
 
+    def test_restore_orders_artifacts_by_created_at_not_id_and_authenticates_checkpoint(self):
+        point = checkpoint(artifact_id=13039121983)
+        # The older artifact has the larger ID, as observed in live Actions.
+        available = [
+            {"id": 13039481363, "name": "linkedin-private-state-old", "expired": False,
+             "size_in_bytes": 10, "created_at": "2026-10-31T10:00:00Z"},
+            {"id": 13039121983, "name": "linkedin-private-state-current", "expired": False,
+             "size_in_bytes": 10, "created_at": "2026-10-31T10:01:00Z"},
+        ]
+        with patch.object(ci_state, "pointer", return_value=(point, "blob-sha")), \
+             patch.object(ci_state, "artifacts", return_value=available), \
+             patch.object(ci_state, "_read_state_artifact", return_value=b"encrypted") as read_artifact, \
+             patch.object(ci_state, "unseal", return_value={"restored": True, "revision": 1}) as unseal:
+            result = ci_state.restore(REPOSITORY, self.root / "state", self.root / "context.json")
+        self.assertEqual(result["restored_revision"], 1)
+        read_artifact.assert_called_once_with(REPOSITORY, available[1])
+        unseal.assert_called_once()
+
+    def test_restore_holds_for_newer_orphan_by_timestamp_even_with_lower_id(self):
+        point = checkpoint(artifact_id=500)
+        available = [
+            {"id": 500, "name": "linkedin-private-state-pointed", "expired": False,
+             "size_in_bytes": 10, "created_at": "2026-10-31T10:00:00Z"},
+            {"id": 400, "name": "linkedin-private-state-orphan", "expired": False,
+             "size_in_bytes": 10, "created_at": "2026-10-31T10:01:00Z"},
+        ]
+        with patch.object(ci_state, "pointer", return_value=(point, "blob-sha")), \
+             patch.object(ci_state, "artifacts", return_value=available), \
+             patch.object(ci_state, "_read_state_artifact") as read_artifact:
+            with self.assertRaisesRegex(ConfigurationError, "orphan_state_artifact_requires_recovery"):
+                ci_state.restore(REPOSITORY, self.root / "state", self.root / "context.json")
+        read_artifact.assert_not_called()
+
+    def test_restore_fails_closed_on_missing_or_malformed_artifact_timestamps(self):
+        point = checkpoint(artifact_id=7)
+        for created_at in (None, "not-a-time", "2026-10-31T10:00:00"):
+            artifact = {"id": 7, "name": "linkedin-private-state-7", "expired": False, "size_in_bytes": 10}
+            if created_at is not None:artifact["created_at"] = created_at
+            with self.subTest(created_at=created_at), \
+                 patch.object(ci_state, "pointer", return_value=(point, "blob-sha")), \
+                 patch.object(ci_state, "artifacts", return_value=[artifact]), \
+                 patch.object(ci_state, "_read_state_artifact") as read_artifact:
+                with self.assertRaisesRegex(ConfigurationError, "ambiguous_state_artifact_order"):
+                    ci_state.restore(REPOSITORY, self.root / "state", self.root / "context.json")
+                read_artifact.assert_not_called()
+
+    def test_restore_fails_closed_on_equal_artifact_timestamps(self):
+        point = checkpoint(artifact_id=7)
+        same_time = "2026-10-31T10:00:00Z"
+        available = [
+            {"id": 7, "name": "linkedin-private-state-7", "expired": False,
+             "size_in_bytes": 10, "created_at": same_time},
+            {"id": 8, "name": "linkedin-private-state-8", "expired": False,
+             "size_in_bytes": 10, "created_at": same_time},
+        ]
+        with patch.object(ci_state, "pointer", return_value=(point, "blob-sha")), \
+             patch.object(ci_state, "artifacts", return_value=available), \
+             patch.object(ci_state, "_read_state_artifact") as read_artifact:
+            with self.assertRaisesRegex(ConfigurationError, "ambiguous_state_artifact_order"):
+                ci_state.restore(REPOSITORY, self.root / "state", self.root / "context.json")
+        read_artifact.assert_not_called()
+
     def test_restore_rejects_archive_members_outside_exact_state_file(self):
         point = checkpoint(artifact_id=7)
-        artifact = {"id": 7, "name": "linkedin-private-state-7", "expired": False, "size_in_bytes": 0}
+        artifact = {"id": 7, "name": "linkedin-private-state-7", "expired": False, "size_in_bytes": 0,
+                    "created_at": "2026-10-31T10:00:00Z"}
         buffer = io.BytesIO()
         with zipfile.ZipFile(buffer, "w") as z:
             z.writestr("state.enc", b"encrypted")
@@ -210,7 +276,8 @@ raise SystemExit('invalid database was restored')'''
 
     def test_restore_rejects_oversized_state_zip_member_before_read(self):
         point = checkpoint(artifact_id=7)
-        artifact = {"id": 7, "name": "linkedin-private-state-7", "expired": False, "size_in_bytes": len(b"zip bytes")}
+        artifact = {"id": 7, "name": "linkedin-private-state-7", "expired": False,
+                    "size_in_bytes": len(b"zip bytes"), "created_at": "2026-10-31T10:00:00Z"}
 
         class FakeZip:
             def __init__(self, *_args, **_kwargs): pass
@@ -298,6 +365,7 @@ raise SystemExit('invalid database was restored')'''
             archive.writestr("state.enc", (self.root / "publish-state.enc").read_bytes())
         zip_bytes = buffer.getvalue()
         artifact = {"id": 99, "name": "linkedin-private-state-99", "expired": False,
+                    "created_at": "2026-10-31T10:00:00Z",
                     "size_in_bytes": len(zip_bytes)}
         next_pointer = None
         put_bodies = []

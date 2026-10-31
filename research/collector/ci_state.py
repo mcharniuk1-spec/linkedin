@@ -187,6 +187,20 @@ def artifacts(repository, *, include_expired=False):
     raise ConfigurationError('artifact_listing_page_cap')
 
 
+def _artifact_created_at(artifact):
+    """Parse GitHub's authoritative artifact creation time; IDs are not ordered."""
+    value=artifact.get('created_at')
+    if not isinstance(value,str) or not value:
+        raise ConfigurationError('ambiguous_state_artifact_order')
+    try:
+        parsed=datetime.fromisoformat(value[:-1]+'+00:00' if value.endswith('Z') else value)
+    except ValueError:
+        raise ConfigurationError('ambiguous_state_artifact_order') from None
+    if parsed.tzinfo is None or parsed.utcoffset() is None:
+        raise ConfigurationError('ambiguous_state_artifact_order')
+    return parsed.astimezone(timezone.utc)
+
+
 def seal(state_dir, output, context):
     if not isinstance(context,dict) or not isinstance(context.get('repository'),str):
         raise ConfigurationError('invalid_state_context')
@@ -313,12 +327,22 @@ def restore(repository, state_dir, context_path, bootstrap=False):
         context={'repository':repository,'revision':0,'checkpoint_sha256':None,'blob_sha':None,'artifact_id':None}
         key()  # Missing key must fail before any source request, including bootstrap.
     else:
-        # A newer orphan might contain observations not yet referenced by the checkpoint.
-        if any(a['id']>p['artifact_id'] for a in available):
-            raise ConfigurationError('orphan_state_artifact_requires_recovery')
         artifact=next((a for a in available if a['id']==p['artifact_id'] and not a.get('expired',False)),None)
         if not artifact:
             raise ConfigurationError('state_artifact_missing_or_oversized')
+        # GitHub artifact IDs are opaque. Ties or missing timestamps make order
+        # ambiguous, so fail closed instead of risking loss of newer state.
+        timestamps={a['id']:_artifact_created_at(a) for a in available}
+        if len(timestamps)!=len(available):
+            raise ConfigurationError('ambiguous_state_artifact_order')
+        seen={}
+        for artifact_id,created_at in timestamps.items():
+            if created_at in seen and seen[created_at]!=artifact_id:
+                raise ConfigurationError('ambiguous_state_artifact_order')
+            seen[created_at]=artifact_id
+        checkpoint_time=timestamps[p['artifact_id']]
+        if any(a['id']!=p['artifact_id'] and timestamps[a['id']]>checkpoint_time for a in available):
+            raise ConfigurationError('orphan_state_artifact_requires_recovery')
         encrypted=_read_state_artifact(repository,artifact)
         unseal(encrypted,state_dir,p)
         context={'repository':repository,'revision':p['revision'],

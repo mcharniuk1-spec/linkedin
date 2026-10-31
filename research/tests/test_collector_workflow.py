@@ -16,12 +16,14 @@ class WorkflowTests(unittest.TestCase):
    if 'uses' in x:self.assertRegex(x['uses'],r'@[0-9a-f]{40}$')
   upload=next(x for x in steps if x.get('uses','').startswith('actions/upload-artifact@'))
   self.assertEqual(upload['with']['path'],'research/work/state.enc')
- def test_timezone_retains_local_noon_and_evening_across_dst(self):
+  self.assertEqual(upload['with']['retention-days'],'7')
+ def test_half_hour_schedule_retains_local_half_hours_across_dst(self):
   for month,offset in ((1,2),(7,3),(10,2)):
-   for hour in (12,20):
-    local=datetime(2026,month,29,hour,tzinfo=ZoneInfo('Europe/Sofia'))
+   for hour in range(24):
+    local=datetime(2026,month,29,hour,30,tzinfo=ZoneInfo('Europe/Sofia'))
     self.assertEqual(local.utcoffset().total_seconds()/3600,offset)
-    self.assertEqual(local.astimezone(ZoneInfo('UTC')).hour,hour-offset)
+    self.assertEqual(local.astimezone(ZoneInfo('UTC')).hour,(hour-offset)%24)
+    self.assertEqual(local.astimezone(ZoneInfo('UTC')).minute,30)
  def test_test_workflow_commands_exist(self):
   w=yaml.load((ROOT/'.github/workflows/collector-tests.yml').read_text(),Loader=yaml.BaseLoader)
   checkout=next(x for x in w['jobs']['synthetic-tests']['steps'] if x.get('uses','').startswith('actions/checkout@'))
