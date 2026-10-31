@@ -1,6 +1,6 @@
 # Outspoken design system and website
 
-Current source snapshot: **22 October 2026**. Website V9, cumulative mobile/V7 refinements and the selected V5 brand system are consolidated here. The owner requested publication of the current work to this repository. Artistic acceptance remains pending; this snapshot does not claim a final approved design.
+Current source snapshot: **22 October 2026**, updated on **31 October 2026** (V10: marigold palette, new typography, merged experience block, founders block; see HANDOFF.md). Website V9, cumulative mobile/V7 refinements and the selected V5 brand system are consolidated here. The owner requested publication of the current work to this repository. Artistic acceptance remains pending; this snapshot does not claim a final approved design.
 
 ## Folders
 

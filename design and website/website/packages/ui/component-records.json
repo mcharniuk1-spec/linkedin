@@ -489,7 +489,7 @@
       "Materials"
     ],
     "slots": {
-      "typed_parameters": "{children,tone='pearl',className=''}:ChildrenProps&{tone?:'white'|'pearl'|'navy'|'citron'|'nickel'}",
+      "typed_parameters": "{children,tone='pearl',className=''}:ChildrenProps&{tone?:'white'|'pearl'|'navy'|'marigold'|'nickel'}",
       "copy_limits": {
         "enforced_character_caps": [],
         "policy": "No project character/word cap is enforced by this component.",
@@ -502,7 +502,7 @@
       "token_ids": [
         "color.surface.base",
         "color.text.primary",
-        "palette.citron",
+        "palette.marigold-500",
         "palette.cobalt",
         "palette.navy",
         "palette.nickel",
@@ -521,7 +521,7 @@
         "palette.white"
       ],
       "direct_css_variables": [
-        "--os-palette-citron",
+        "--os-palette-marigold-500",
         "--os-palette-cobalt",
         "--os-palette-navy",
         "--os-palette-nickel",
@@ -543,7 +543,7 @@
       ],
       "classes": [
         "os-plate",
-        "os-tone-citron",
+        "os-tone-marigold",
         "os-tone-navy",
         "os-tone-nickel",
         "os-tone-pearl",
@@ -622,13 +622,13 @@
     },
     "lifecycle": "implemented_candidate_not_owner_accepted",
     "migration_notes": "V2 identity OS-LV2-001; native3page map. Original V1 source/review snapshot archived in run/backups/local-v1-release.zip. No owner acceptance.",
-    "props_signature": "{children,tone='pearl',className=''}:ChildrenProps&{tone?:'white'|'pearl'|'navy'|'citron'|'nickel'}",
+    "props_signature": "{children,tone='pearl',className=''}:ChildrenProps&{tone?:'white'|'pearl'|'navy'|'marigold'|'nickel'}",
     "native_anatomy": [
       "div"
     ],
     "source_sha256": "086bda5afb4e65630ef2ddbfa4ad68b92ecf3f8dfb665f5b70936707da0fb325",
     "props_and_defaults": {
-      "signature": "{children,tone='pearl',className=''}:ChildrenProps&{tone?:'white'|'pearl'|'navy'|'citron'|'nickel'}",
+      "signature": "{children,tone='pearl',className=''}:ChildrenProps&{tone?:'white'|'pearl'|'navy'|'marigold'|'nickel'}",
       "default_expressions": {
         "tone": "'pearl'",
         "className": "''"
@@ -7674,7 +7674,7 @@
         "color.surface.base",
         "color.text.primary",
         "layout.readingMeasure",
-        "palette.citron",
+        "palette.marigold-500",
         "palette.navy",
         "palette.nickel",
         "radius.panel",
@@ -7693,7 +7693,7 @@
       ],
       "direct_css_variables": [
         "--os-layout-readingMeasure",
-        "--os-palette-citron",
+        "--os-palette-marigold-500",
         "--os-palette-nickel",
         "--os-radius-panel",
         "--os-space-s16",
@@ -7936,7 +7936,7 @@
         "color.surface.base",
         "color.text.primary",
         "layout.readingMeasure",
-        "palette.citron",
+        "palette.marigold-500",
         "palette.cobalt",
         "palette.navy",
         "palette.nickel",
@@ -7964,7 +7964,7 @@
         "--os-color-action-fill",
         "--os-color-surface-base",
         "--os-layout-readingMeasure",
-        "--os-palette-citron",
+        "--os-palette-marigold-500",
         "--os-palette-cobalt",
         "--os-palette-navy",
         "--os-palette-nickel",
@@ -10728,7 +10728,7 @@
         "color.surface.base",
         "color.text.inverse",
         "color.text.primary",
-        "palette.citron",
+        "palette.marigold-500",
         "palette.cobalt",
         "palette.navy",
         "palette.nickel",
@@ -10756,7 +10756,7 @@
       "direct_css_variables": [
         "--os-color-surface-base",
         "--os-color-text-inverse",
-        "--os-palette-citron",
+        "--os-palette-marigold-500",
         "--os-palette-cobalt",
         "--os-palette-navy",
         "--os-palette-nickel",
@@ -11787,7 +11787,7 @@
         "color.surface.base",
         "color.text.inverse",
         "color.text.primary",
-        "palette.citron",
+        "palette.marigold-500",
         "palette.cobalt",
         "palette.navy",
         "palette.nickel",
@@ -11823,7 +11823,7 @@
       "direct_css_variables": [
         "--os-color-surface-base",
         "--os-color-text-inverse",
-        "--os-palette-citron",
+        "--os-palette-marigold-500",
         "--os-palette-cobalt",
         "--os-palette-navy",
         "--os-palette-nickel",
@@ -15147,7 +15147,7 @@
         "color.surface.base",
         "color.text.inverse",
         "color.text.primary",
-        "palette.citron",
+        "palette.marigold-500",
         "palette.navy",
         "space.s12",
         "space.s24",
@@ -15167,7 +15167,7 @@
       ],
       "direct_css_variables": [
         "--os-color-text-inverse",
-        "--os-palette-citron",
+        "--os-palette-marigold-500",
         "--os-palette-navy",
         "--os-space-s12",
         "--os-space-s24",
@@ -15397,7 +15397,7 @@
       "token_ids": [
         "color.surface.base",
         "color.text.primary",
-        "palette.citron",
+        "palette.marigold-500",
         "palette.navy",
         "palette.white",
         "space.s12",
@@ -15414,7 +15414,7 @@
         "palette.white"
       ],
       "direct_css_variables": [
-        "--os-palette-citron",
+        "--os-palette-marigold-500",
         "--os-palette-navy",
         "--os-palette-white",
         "--os-space-s12",
@@ -15656,7 +15656,7 @@
         "color.surface.base",
         "color.text.inverse",
         "color.text.primary",
-        "palette.citron",
+        "palette.marigold-500",
         "palette.navy",
         "radius.control",
         "space.s16",
@@ -15671,7 +15671,7 @@
       ],
       "direct_css_variables": [
         "--os-color-text-inverse",
-        "--os-palette-citron",
+        "--os-palette-marigold-500",
         "--os-palette-navy",
         "--os-radius-control",
         "--os-space-s16",
@@ -15889,7 +15889,7 @@
       "token_ids": [
         "color.surface.base",
         "color.text.primary",
-        "palette.citron",
+        "palette.marigold-500",
         "palette.cobalt",
         "palette.navy",
         "type-roles.web_css_px.body.line_height",
@@ -15901,7 +15901,7 @@
         "palette.white"
       ],
       "direct_css_variables": [
-        "--os-palette-citron",
+        "--os-palette-marigold-500",
         "--os-palette-cobalt",
         "--os-palette-navy"
       ],
@@ -16371,7 +16371,7 @@
       "token_ids": [
         "color.surface.base",
         "color.text.primary",
-        "palette.citron",
+        "palette.marigold-500",
         "palette.navy",
         "palette.pearl",
         "space.s24",
@@ -16387,7 +16387,7 @@
         "palette.white"
       ],
       "direct_css_variables": [
-        "--os-palette-citron",
+        "--os-palette-marigold-500",
         "--os-palette-pearl",
         "--os-space-s24",
         "--os-space-s48",
@@ -17242,7 +17242,7 @@
         "color.surface.base",
         "color.text.inverse",
         "color.text.primary",
-        "palette.citron",
+        "palette.marigold-500",
         "palette.cobalt",
         "palette.navy",
         "palette.nickel",
@@ -17270,7 +17270,7 @@
       ],
       "direct_css_variables": [
         "--os-color-text-inverse",
-        "--os-palette-citron",
+        "--os-palette-marigold-500",
         "--os-palette-cobalt",
         "--os-palette-navy",
         "--os-palette-nickel",
@@ -18299,7 +18299,7 @@
       "token_ids": [
         "color.surface.base",
         "color.text.primary",
-        "palette.citron",
+        "palette.marigold-500",
         "palette.cobalt",
         "palette.navy",
         "palette.pearl",
@@ -18325,7 +18325,7 @@
         "palette.white"
       ],
       "direct_css_variables": [
-        "--os-palette-citron",
+        "--os-palette-marigold-500",
         "--os-palette-cobalt",
         "--os-palette-navy",
         "--os-palette-pearl",

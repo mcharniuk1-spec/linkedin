@@ -24,18 +24,18 @@
   "files": [
     {
       "path": "HANDOFF.md",
-      "bytes": 1559,
-      "sha256": "41ce77696041726e9bc968791e75e14942011901215d576645e1eed423c04da8"
+      "bytes": 2730,
+      "sha256": "d86319e01e7637a617f976f366cc27c720fe0f6e0370b9fda747e3b010865097"
     },
     {
       "path": "README.md",
-      "bytes": 4080,
-      "sha256": "48c18c4369361912af3c8fec2b5c18ceca3d439d5ee1fe1421de0f8f85f79219"
+      "bytes": 4209,
+      "sha256": "3cff6040f20d245ab1e181bcd0aab357a2c9a2962cc5943c0a749253d0935dd8"
     },
     {
       "path": "asset-rights.json",
-      "bytes": 389364,
-      "sha256": "793f1090a08283d5e62f6258897938c6251fc65fbbc30be49cdf3dd12db6603b"
+      "bytes": 398899,
+      "sha256": "76e9b95e10a51731f0ff436af484e5b09ba61e4594be75f9532e05653ce61de7"
     },
     {
       "path": "assets/README.md",
@@ -53,6 +53,26 @@
       "sha256": "108b4e57c9c796d3d38d0428ca7ee39de47ad93187302718d9b2d8864b9b716b"
     },
     {
+      "path": "assets/public/assets/identity/font-source/fraunces/OFL.txt",
+      "bytes": 4504,
+      "sha256": "cd3384cafac6f2bddc3955273958a2e029f97027c8037ac539ef5744a77b579e"
+    },
+    {
+      "path": "assets/public/assets/identity/font-source/fraunces/fraunces-latin-full-normal.woff2",
+      "bytes": 121016,
+      "sha256": "7e744849028e2219e2aa1bc467dc4032980dc4487c9c3da3010081cd72d3b103"
+    },
+    {
+      "path": "assets/public/assets/identity/font-source/geist-mono/OFL.txt",
+      "bytes": 4498,
+      "sha256": "cc815ed4fc045f0e991abb10395b7932bd028c6a067deb13316d6002105074e6"
+    },
+    {
+      "path": "assets/public/assets/identity/font-source/geist-mono/geist-mono-latin-wght-normal.woff2",
+      "bytes": 23128,
+      "sha256": "684ad5b531f81d43c1e8c7038262d5db7cdc1f68006e04d6c7769efa8d33c8cc"
+    },
+    {
       "path": "assets/public/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
       "bytes": 876576,
       "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031"
@@ -63,9 +83,34 @@
       "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
     },
     {
+      "path": "assets/public/assets/identity/font-source/mona-sans/OFL.txt",
+      "bytes": 4564,
+      "sha256": "41e9911493de5899a20336baf13b6ea6483b5eea34e237f2ffed22c39bdc4a8d"
+    },
+    {
+      "path": "assets/public/assets/identity/font-source/mona-sans/mona-sans-latin-wght-normal.woff2",
+      "bytes": 39788,
+      "sha256": "a59061e38c5e7e6a00aaa6b6645a220c7d9c530991167f058cc0f8575f5d5844"
+    },
+    {
       "path": "assets/public/assets/masters/OS-O010-fictional-founder.png",
       "bytes": 1984618,
       "sha256": "2ea2c56148b17f1e007242e51e843bd4b54b71732cac3a3f723f188af1cae514"
+    },
+    {
+      "path": "assets/public/assets/revisions/v10/people/PROVENANCE.md",
+      "bytes": 450,
+      "sha256": "9e2e48988f1ac1d2244bb317297462695da7dc54ccb9fa8e7208e399dd05a6a9"
+    },
+    {
+      "path": "assets/public/assets/revisions/v10/people/maksym-charniuk.jpg",
+      "bytes": 10887,
+      "sha256": "e89c308d3c02ebf0308041eb7f6aee3a56b1eb6cd0ed8f5bb48e7727a5224aef"
+    },
+    {
+      "path": "assets/public/assets/revisions/v10/people/mykhailo-amplieiev.jpg",
+      "bytes": 11609,
+      "sha256": "953834ed2d503aa5667d1568bb008b82136dfe05c4c96fabc4edba0d4778f892"
     },
     {
       "path": "assets/public/assets/revisions/v2/paper/OS-TX201.png",
@@ -383,6 +428,11 @@
       "sha256": "e4a310f9252c839acd903a0e1eda6f594a68cc11675ebf5f1792d808801a5297"
     },
     {
+      "path": "assets/public/assets/revisions/v5/identity/lockup-marigold.svg",
+      "bytes": 25252,
+      "sha256": "408b238a2dc63452b5f6431c4ff8b52e86e888bc13ce5337883ce167f90ba0b9"
+    },
+    {
       "path": "assets/public/assets/revisions/v5/identity/lockup-mono.svg",
       "bytes": 24921,
       "sha256": "8a3a00dd9421ee8be23600e7d310589e6c40a0580778d6b45d659827dcf0d483"
@@ -516,6 +566,11 @@
       "path": "assets/public/assets/revisions/v5/identity/wordmark-inverse.svg",
       "bytes": 24536,
       "sha256": "fd05d9c78f4a1a6d461fdd2c4c9361f8310e2adb3efd0e1487d82d03b4f276f6"
+    },
+    {
+      "path": "assets/public/assets/revisions/v5/identity/wordmark-marigold.svg",
+      "bytes": 24537,
+      "sha256": "769ffdf83abd8e53a8596dcff8a91c7a484a4b94d13ab10d1a125d871e998fba"
     },
     {
       "path": "assets/public/assets/revisions/v5/identity/wordmark-mono.svg",
@@ -2099,8 +2154,8 @@
     },
     {
       "path": "design-system/COMPONENT-INDEX-v5.md",
-      "bytes": 67682,
-      "sha256": "202f35c296b4d1628e172fecbdd46a8fd361188af2930907bb3993f999076915"
+      "bytes": 67692,
+      "sha256": "c96ef00ffe344ab265efc5720d778da7a77e6ad33dc99318536b191091c9ca1c"
     },
     {
       "path": "design-system/COMPONENT-INDEX.md",
@@ -2109,8 +2164,8 @@
     },
     {
       "path": "design-system/DESIGN.md",
-      "bytes": 22737,
-      "sha256": "75418793c252c10e5c278aebd0b3a58c66b2d0b29cfec975d22805987e59598b"
+      "bytes": 26901,
+      "sha256": "aa2dcf06fd03a590451a7e1c0d1e52bfedb354b52dda2cdfd45448dda565da5c"
     },
     {
       "path": "design-system/README.md",
@@ -2119,13 +2174,13 @@
     },
     {
       "path": "design-system/START-HERE.md",
-      "bytes": 7465,
-      "sha256": "16dd7e356cf6a855849e461818fcc7f0c5c60860ad894a896b8f25508a33d877"
+      "bytes": 7561,
+      "sha256": "025c1e824f9fef3c01f8d2cc3df0b92f90f8a409f59ac347f3438cd89f88acb2"
     },
     {
       "path": "design-system/agent-config.json",
-      "bytes": 30436,
-      "sha256": "b1034df892453bc1d729982701e772b583ab81565bcf883baa7cc25e54179d8b"
+      "bytes": 30448,
+      "sha256": "a98cde213fcc852b1274b049bbcb2d01f4cf7888d9f5e588fd83f2c645d92696"
     },
     {
       "path": "design-system/catalog-plan.json",
@@ -2144,8 +2199,8 @@
     },
     {
       "path": "design-system/requirements.json",
-      "bytes": 33005,
-      "sha256": "24c1de06f8b88607bf9b5359d038d76228921c32a0eca40a1668650a714a1019"
+      "bytes": 33009,
+      "sha256": "d4835a2208f8c6dd793296869c5199e543ee3062a622431835f4e6555dcbcaa0"
     },
     {
       "path": "design-system/stage-plan.md",
@@ -2154,18 +2209,18 @@
     },
     {
       "path": "design-system/style-grammar.json",
-      "bytes": 8582,
-      "sha256": "b381100b6f11ba204dbed5b9ff3bf2892e74d2a8f920f624419912b3a9edf608"
+      "bytes": 8586,
+      "sha256": "bcb45732ba5ca286049a71307e27bbb6881282fe6061c4f5755f247515e97a0f"
     },
     {
       "path": "design-system/tokens.json",
-      "bytes": 6029,
-      "sha256": "d15a6b2829eab3b93af1138104762e4a1370f70c32434d1532cf72b467631c0b"
+      "bytes": 9877,
+      "sha256": "4eb19123ae3bad0e28bae2093322d3fad148bec9d3706a2431cbc6d4b5fb4392"
     },
     {
       "path": "design-system/type-roles.json",
-      "bytes": 2466,
-      "sha256": "0a0a7ea7bc02ecdeaef2009ddfa6235d4582bb3179bf6e52a869ff4db16b3f5f"
+      "bytes": 2533,
+      "sha256": "942cec6d36aa476ab1b0a8462997609151926b5aec052aaa4d656959645f7d57"
     },
     {
       "path": "design-system/writing/approved-positioning.json",
@@ -2181,6 +2236,11 @@
       "path": "qa/README.md",
       "bytes": 1262,
       "sha256": "1d3e8bcdb930a86281f77d6bd8b7f3de6e33be2783200b54cc8f7fb7384e7840"
+    },
+    {
+      "path": "qa/contrast-v10.json",
+      "bytes": 3203,
+      "sha256": "fe8341129b2701e3bdc51dc4b707466fc3df177b044a1d0f2e0b23a6506c2d2f"
     },
     {
       "path": "qa/current-checks.json",
@@ -2206,6 +2266,11 @@
       "path": "qa/typecheck.md",
       "bytes": 1145,
       "sha256": "a6004eb99e7510777a78faee0b1e9a4f6d08d1fee25d07628e945b0b7503b4fe"
+    },
+    {
+      "path": "qa/v10-checks.json",
+      "bytes": 3209,
+      "sha256": "3a477719fbb4ab106305c0a7054efce199954a3c60488b204e1a3246f7335520"
     },
     {
       "path": "release-manifest.template.json",
@@ -3744,13 +3809,13 @@
     },
     {
       "path": "website/packages/experience-v3/README.md",
-      "bytes": 4008,
-      "sha256": "252927c4b2946fe4270f65049722edf85089f9bfe26d56ece2d324488be729d1"
+      "bytes": 4010,
+      "sha256": "4b48927173e002f9aa72b7819cab0d07de12584fe5ad83d3639e656a1974a32e"
     },
     {
       "path": "website/packages/experience-v3/ThreeTiltButton.tsx",
-      "bytes": 9684,
-      "sha256": "df5f1b809ee2870ebf80df06fe42daa9f40d5f81ffec877a9a72d521b5057c6b"
+      "bytes": 9688,
+      "sha256": "b1cec18d9460fbcbf9bfc3912f48c904171fc0f31fb7cf956060c13150f6beaf"
     },
     {
       "path": "website/packages/experience-v3/corticalGeometry.ts",
@@ -3759,23 +3824,38 @@
     },
     {
       "path": "website/packages/experience-v3/experience.css",
-      "bytes": 8925,
-      "sha256": "5216a34d41ac0925b33d2669fb1cd3c52a71675a9d956c99f912ea1bcc7446ba"
+      "bytes": 8927,
+      "sha256": "96e1f721214499dfe189a63c5424d0d41141e4f533cca5bf6655f7b56dd24c5d"
+    },
+    {
+      "path": "website/packages/experience-v3/frames/MediaFrame.tsx",
+      "bytes": 694,
+      "sha256": "22abcf89fc96b96d43dba3217a9cace92693f02e851f345cf51713d8c298f7e1"
+    },
+    {
+      "path": "website/packages/experience-v3/frames/media-frame.css",
+      "bytes": 2064,
+      "sha256": "f6e2532c52b1b368aa011924569a0846b64aaef6714d08fcf44ad441ae357a8d"
     },
     {
       "path": "website/packages/experience-v3/index.ts",
-      "bytes": 231,
-      "sha256": "707e461bb1d65bf494d262882f686b2c6fdbc0c8ea6b98a2907d5a8545709cb6"
+      "bytes": 303,
+      "sha256": "e527a12df6c47eac765de95819ff50f51728b4ebd4c315410d146aae3e45f87e"
     },
     {
       "path": "website/packages/experience-v3/stories/Experience.stories.tsx",
-      "bytes": 1163,
-      "sha256": "0e1fbfddaedc38296230905fcd9201d2030c52ef6548d49e5396e8e06d658b72"
+      "bytes": 1165,
+      "sha256": "086c05076dc7d388bdb8efb1a8dbbddb0ca95f4685a23c1694353e7a03616c82"
     },
     {
       "path": "website/packages/experience-v3/stories/ExperienceV4Buttons.stories.tsx",
-      "bytes": 2841,
-      "sha256": "2ea9f60e52ee30953fc4c2d553781d4343d8826b9d539db8111b252c944d057b"
+      "bytes": 2843,
+      "sha256": "07356f3d37ba089e5ed4b132a7cdbb358e1b32daa9e9db953b938fe5eaf91c6a"
+    },
+    {
+      "path": "website/packages/experience-v3/stories/MediaFrame.stories.tsx",
+      "bytes": 968,
+      "sha256": "2b81c9217ede39a0dd98aac66df642d4ffd7835d914d6e6e9e677f4862b93613"
     },
     {
       "path": "website/packages/experience-v3/stories/NeuronField.stories.tsx",
@@ -3794,23 +3874,23 @@
     },
     {
       "path": "website/packages/showcase-v5/BrandStudio.tsx",
-      "bytes": 21707,
-      "sha256": "9c71fea39eae46922a969351e5b5bc2638cef191d1fe8b8ba9b8dc386756be52"
+      "bytes": 21719,
+      "sha256": "e65bebd65683be1a357558c71398c6d177bdaeb100cbed80ea3cc33e7c14abf0"
     },
     {
       "path": "website/packages/showcase-v5/README.md",
-      "bytes": 2653,
-      "sha256": "47f51312b7aca3ad86e70ff649df1b739cb32d4b236140565623bbb39b936439"
+      "bytes": 2655,
+      "sha256": "b01dc235259db34c89c664dbd3446bd9a4aea29ecfad9c89d201c77d2f38ca96"
     },
     {
       "path": "website/packages/showcase-v5/Showcase.stories.tsx",
-      "bytes": 1510,
-      "sha256": "3127bc8fd80eaf8563bc846ac8a69d9813239b479fe657151f0db4b3a9ad85c3"
+      "bytes": 1512,
+      "sha256": "aaac6cc4dc575c6b8c32dc40df3c0e98ba393e39f07fb20ace32f38f34352814"
     },
     {
       "path": "website/packages/showcase-v5/StudioButton.tsx",
-      "bytes": 9917,
-      "sha256": "d3bdafd86c6a4e3c9cda7c24c0c6a0e2b8d9360585e0de9b6184908a37023145"
+      "bytes": 9921,
+      "sha256": "8e799c2d4d68e1a14b88fce60b4b51a8b81cbad0a086145c15f767fe9988d837"
     },
     {
       "path": "website/packages/showcase-v5/identity-views.json",
@@ -3824,8 +3904,8 @@
     },
     {
       "path": "website/packages/showcase-v5/manifest.json",
-      "bytes": 219020,
-      "sha256": "ce0f66a80df99019648af58ced4a591cd96767856371f1ce37fba5244a137f4f"
+      "bytes": 219226,
+      "sha256": "d7c0cb492aa52a3851d01eeee89abaf0d81058c38bfd69fa74733cd95b77d014"
     },
     {
       "path": "website/packages/showcase-v5/people.json",
@@ -3834,23 +3914,23 @@
     },
     {
       "path": "website/packages/showcase-v5/showcase.css",
-      "bytes": 17374,
-      "sha256": "4a897d3fec9a2dfe9c8ac562be3c494f469274e016e7764d3b45ee610efa7b0c"
+      "bytes": 17370,
+      "sha256": "ac91457a55bcd668e015489e72c61b46e168dfb91bccf2b94e71156ae9d07971"
     },
     {
       "path": "website/packages/tokens/generated/tokens.css",
-      "bytes": 2608,
-      "sha256": "8a6e84974220a3d21126bad36fe8d94c3f7d9c1f1b5b8fd21bb82f8f2336ee5e"
+      "bytes": 3300,
+      "sha256": "c77d490a042e9dcab0fe87bbfc4945032234d6bd5ecaee3045644296f1648114"
     },
     {
       "path": "website/packages/tokens/generated/tokens.ts",
-      "bytes": 2650,
-      "sha256": "17f827798244b8cfed90155a36e4aac06c70aa4c5484cccd702644b3e2755778"
+      "bytes": 3324,
+      "sha256": "c994d103f509602c7178a4e55279d55d75b027d34c53f13c7bf1afe67b60c683"
     },
     {
       "path": "website/packages/ui/component-records.json",
-      "bytes": 676113,
-      "sha256": "851d640a54a53363089819be3185fa67f4d927794e6108d6cc9c4398f7429aef"
+      "bytes": 676265,
+      "sha256": "fae0331c6f38aee3f7d14b6491e019d096b94b7cda560b586b951103df97d657"
     },
     {
       "path": "website/packages/ui/scene-records.json",
@@ -3869,8 +3949,8 @@
     },
     {
       "path": "website/packages/ui/src/foundations.tsx",
-      "bytes": 8182,
-      "sha256": "086bda5afb4e65630ef2ddbfa4ad68b92ecf3f8dfb665f5b70936707da0fb325"
+      "bytes": 8184,
+      "sha256": "907b4099d4124355c0d4f4ca161256b123c5f1da41d6a3b38bd2d55877284ac0"
     },
     {
       "path": "website/packages/ui/src/index.ts",
@@ -3879,18 +3959,18 @@
     },
     {
       "path": "website/packages/ui/src/scenes.tsx",
-      "bytes": 14792,
-      "sha256": "37429d92721e6d781e56ac151e31f3efe84a76b4eee606bca4eee98f078a3f19"
+      "bytes": 14806,
+      "sha256": "f059a713e6c0a4b462e21f767816690e25b93832a8f8e654309cefe774c4b10b"
     },
     {
       "path": "website/packages/ui/src/schemas.tsx",
-      "bytes": 14873,
-      "sha256": "aafd2ad6429c49c9e4806a15f6e06354c2a67e4df1e44cc830dd600d70a53d2c"
+      "bytes": 14879,
+      "sha256": "637bfa33a61840ce01aed9c9378c60cb856161066eaacc9a7002fd9750083e4e"
     },
     {
       "path": "website/packages/ui/src/styles.css",
-      "bytes": 34207,
-      "sha256": "342d109a5073112630e5c0ecef9d1771fe8e47a170d160b5e347c2a7debcfad8"
+      "bytes": 34256,
+      "sha256": "b3cc0af84e66c340e15480eb9f21e0fba5687c29dbfc0d1ef26cd8440f25f173"
     },
     {
       "path": "website/packages/ui/stories/ActionButton.stories.tsx",
@@ -4134,8 +4214,8 @@
     },
     {
       "path": "website/packages/ui/stories/SchemaFlow.stories.tsx",
-      "bytes": 5841,
-      "sha256": "b630695a9b76b27c6db41c604607371715e8bf0fb976e42bb9737b11a3807242"
+      "bytes": 5847,
+      "sha256": "da40ef45557bf0c07f5d50590b24c0b696c1c8a432ad5ac1bc2821e5b850df0b"
     },
     {
       "path": "website/packages/ui/stories/SchemaGroup.stories.tsx",
@@ -4194,8 +4274,8 @@
     },
     {
       "path": "website/packages/ui/stories/SurfacePlate.stories.tsx",
-      "bytes": 1154,
-      "sha256": "3bc7b821980282d9462e81ef986bc05d398e0f32f5cd8ffc3af12c1e0a2e55bb"
+      "bytes": 1156,
+      "sha256": "bbed31365d6e4383b73ced09d4af10dd180c91e17e17b86944f628f27df92d33"
     },
     {
       "path": "website/packages/ui/stories/TextArea.stories.tsx",
@@ -4334,18 +4414,23 @@
     },
     {
       "path": "website/website-v3/App.tsx",
-      "bytes": 29391,
-      "sha256": "12722d396615dd3d596168d4b152f69341e152e43760b15093660148199ffd05"
+      "bytes": 26364,
+      "sha256": "1861bef39304bac4e3832997e761d016f1e2917070c9755e608d7a2a37c8c61d"
     },
     {
       "path": "website/website-v3/Blocks.stories.tsx",
-      "bytes": 1320,
-      "sha256": "c29202d0daf4b7163070c9d658cb4a689beeb691a204a2aaf57eedc54beb5e28"
+      "bytes": 1348,
+      "sha256": "1330dc72f2768f17c96e8e99682fc93507ca1940c156dc725176ee486ab290dd"
     },
     {
-      "path": "website/website-v3/BuyerStory.tsx",
-      "bytes": 4672,
-      "sha256": "eb99c97dca4f35b728f1a47a41eb82c010b0780973d9b1364090f3e67ea96d35"
+      "path": "website/website-v3/Buttons.stories.tsx",
+      "bytes": 1265,
+      "sha256": "de25e43d6902455d2a48a6ef62fab82cd2fd832679eecb28e8ce8227aeb074fd"
+    },
+    {
+      "path": "website/website-v3/ExperienceStory.tsx",
+      "bytes": 7725,
+      "sha256": "26c11928a056f742877c145716880011d627920e9b5c76ecf25b64fd7536cb84"
     },
     {
       "path": "website/website-v3/HeroPublication.tsx",
@@ -4358,9 +4443,14 @@
       "sha256": "2b54f39d9e74dc9712cc7388838c757de42e7d7ceef6958438a9a07050a2c316"
     },
     {
-      "path": "website/website-v3/buyer-story.css",
-      "bytes": 8355,
-      "sha256": "9c73df90073e486499f6ae52573444bfe7a08c88368618239cb76d10632424ec"
+      "path": "website/website-v3/WhyOutspoken.tsx",
+      "bytes": 2385,
+      "sha256": "fb64c70f1db1e480ed5573af3f83554053815f5bf14ac78924dd682bece1c5e3"
+    },
+    {
+      "path": "website/website-v3/button.css",
+      "bytes": 2886,
+      "sha256": "676f1f131789cff55912a1ed9554336e8f38311d03afa8d78038f94d97786205"
     },
     {
       "path": "website/website-v3/buyer-story.json",
@@ -4371,6 +4461,16 @@
       "path": "website/website-v3/content.json",
       "bytes": 32642,
       "sha256": "4edc23632026156934b45b02b9e936efaa23e515d4d56501defaaaefa2355261"
+    },
+    {
+      "path": "website/website-v3/experience-story.css",
+      "bytes": 7472,
+      "sha256": "952613fcbed85da0bbf22532e0540348a0062b4037dd959f2f7cfd4526a7b31c"
+    },
+    {
+      "path": "website/website-v3/founders.json",
+      "bytes": 1267,
+      "sha256": "afe9a2f93278cec76f4579bf06d03424f359afcd99f423967d597a3ea4c56e19"
     },
     {
       "path": "website/website-v3/hero-phases.ts",
@@ -4398,14 +4498,9 @@
       "sha256": "5163d8901dcce20472761bc3ea057536d7cb858ae75ca1768550871ed3cc033a"
     },
     {
-      "path": "website/website-v3/mobile/MobileExpertise.tsx",
-      "bytes": 2651,
-      "sha256": "7676efa02e6b2702c4d5f6cac1abeaf9262d86317f1f908cd00a36a4b4dcd20a"
-    },
-    {
       "path": "website/website-v3/mobile/MobileHome.tsx",
-      "bytes": 10822,
-      "sha256": "997ddd1168b95e8f8d0e249591ec0ad9e4d76601a90b150c415814769bb11b9d"
+      "bytes": 9191,
+      "sha256": "c48c97c54a80288fe0aba0cd5125be986ca4244bb84cebe5052bdea16ca3d42c"
     },
     {
       "path": "website/website-v3/mobile/mobile-chapter.css",
@@ -4413,19 +4508,19 @@
       "sha256": "fff2c2458b737137621ad46f48ff3055f5c0b01b6fb8cba027ab72b709cd1ca8"
     },
     {
-      "path": "website/website-v3/mobile/mobile-expertise.css",
-      "bytes": 3791,
-      "sha256": "fc7a56eec50cd571cf356678d4c8387c800ec01545dc52a78f57edbfb8ec01a5"
-    },
-    {
       "path": "website/website-v3/mobile/mobile-home.css",
-      "bytes": 15197,
-      "sha256": "b1a56f521793d5cfb1449172b72058b1cb96c39bd99ec4e4520bd92052bdbc28"
+      "bytes": 15191,
+      "sha256": "b8bd00c808affcc2fb52267710c2fa3e2597acd24e1d0ee9eba63eee0061d6ba"
     },
     {
       "path": "website/website-v3/opening-v7.css",
       "bytes": 3992,
-      "sha256": "8da0f8137b59e4ee6f1251db046dbb4fcbc69a59603efd241e4b2e0b71d3eb01"
+      "sha256": "281625285a02bc0995448d249ba2281582c8db27096df5f8ec2b48d25df221b1"
+    },
+    {
+      "path": "website/website-v3/opinions.ts",
+      "bytes": 401,
+      "sha256": "b81445fdf938a5308fc8f86e0d82bd152f87314ea95fddc527a5f9618aba95a1"
     },
     {
       "path": "website/website-v3/pricing.json",
@@ -4449,8 +4544,13 @@
     },
     {
       "path": "website/website-v3/website.css",
-      "bytes": 43365,
-      "sha256": "541998d90286a62452e76e83e251c073fafd30087d6b6f54a7f86f86ebd9bcad"
+      "bytes": 44828,
+      "sha256": "6735532361b1263655e9c499904af1a4d3eb23e4c719b3b8787ba8ce953fe434"
+    },
+    {
+      "path": "website/website-v3/why-outspoken.css",
+      "bytes": 3674,
+      "sha256": "bbfb1f1bfef858c5e63659e0180bd6af5c079aeeb3834109240d30145a8575d1"
     }
   ],
   "rights_ledger": [
@@ -4495,6 +4595,70 @@
       "license": "OFL-1.1"
     },
     {
+      "path": "assets/public/assets/identity/font-source/fraunces/OFL.txt",
+      "repository_path": "design and website/assets/public/assets/identity/font-source/fraunces/OFL.txt",
+      "sha256": "cd3384cafac6f2bddc3955273958a2e029f97027c8037ac539ef5744a77b579e",
+      "bytes": 4504,
+      "source": "brand-library/packages/assets/identity/font-source/fraunces/OFL.txt",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/assets/public/assets/identity/font-source/provenance.json"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "SIL Open Font License 1.1; licence text retained beside the file.",
+        "Fontsource self-hosted build of the upstream family."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/font-source/fraunces/fraunces-latin-full-normal.woff2",
+      "repository_path": "design and website/assets/public/assets/identity/font-source/fraunces/fraunces-latin-full-normal.woff2",
+      "sha256": "7e744849028e2219e2aa1bc467dc4032980dc4487c9c3da3010081cd72d3b103",
+      "bytes": 121016,
+      "source": "brand-library/packages/assets/identity/font-source/fraunces/fraunces-latin-full-normal.woff2",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/assets/public/assets/identity/font-source/provenance.json"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "SIL Open Font License 1.1; licence text retained beside the file.",
+        "Fontsource self-hosted build of the upstream family."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/font-source/geist-mono/OFL.txt",
+      "repository_path": "design and website/assets/public/assets/identity/font-source/geist-mono/OFL.txt",
+      "sha256": "cc815ed4fc045f0e991abb10395b7932bd028c6a067deb13316d6002105074e6",
+      "bytes": 4498,
+      "source": "brand-library/packages/assets/identity/font-source/geist-mono/OFL.txt",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/assets/public/assets/identity/font-source/provenance.json"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "SIL Open Font License 1.1; licence text retained beside the file.",
+        "Fontsource self-hosted build of the upstream family."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/font-source/geist-mono/geist-mono-latin-wght-normal.woff2",
+      "repository_path": "design and website/assets/public/assets/identity/font-source/geist-mono/geist-mono-latin-wght-normal.woff2",
+      "sha256": "684ad5b531f81d43c1e8c7038262d5db7cdc1f68006e04d6c7769efa8d33c8cc",
+      "bytes": 23128,
+      "source": "brand-library/packages/assets/identity/font-source/geist-mono/geist-mono-latin-wght-normal.woff2",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/assets/public/assets/identity/font-source/provenance.json"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "SIL Open Font License 1.1; licence text retained beside the file.",
+        "Fontsource self-hosted build of the upstream family."
+      ]
+    },
+    {
       "path": "assets/public/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
       "repository_path": "design and website/assets/public/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
       "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
@@ -4535,6 +4699,38 @@
       "license": "OFL-1.1"
     },
     {
+      "path": "assets/public/assets/identity/font-source/mona-sans/OFL.txt",
+      "repository_path": "design and website/assets/public/assets/identity/font-source/mona-sans/OFL.txt",
+      "sha256": "41e9911493de5899a20336baf13b6ea6483b5eea34e237f2ffed22c39bdc4a8d",
+      "bytes": 4564,
+      "source": "brand-library/packages/assets/identity/font-source/mona-sans/OFL.txt",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/assets/public/assets/identity/font-source/provenance.json"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "SIL Open Font License 1.1; licence text retained beside the file.",
+        "Fontsource self-hosted build of the upstream family."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/font-source/mona-sans/mona-sans-latin-wght-normal.woff2",
+      "repository_path": "design and website/assets/public/assets/identity/font-source/mona-sans/mona-sans-latin-wght-normal.woff2",
+      "sha256": "a59061e38c5e7e6a00aaa6b6645a220c7d9c530991167f058cc0f8575f5d5844",
+      "bytes": 39788,
+      "source": "brand-library/packages/assets/identity/font-source/mona-sans/mona-sans-latin-wght-normal.woff2",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/assets/public/assets/identity/font-source/provenance.json"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "SIL Open Font License 1.1; licence text retained beside the file.",
+        "Fontsource self-hosted build of the upstream family."
+      ]
+    },
+    {
       "path": "assets/public/assets/masters/OS-O010-fictional-founder.png",
       "repository_path": "design and website/assets/public/assets/masters/OS-O010-fictional-founder.png",
       "sha256": "2ea2c56148b17f1e007242e51e843bd4b54b71732cac3a3f723f188af1cae514",
@@ -4548,6 +4744,52 @@
       "conditions": [
         "Preserve fictional/sample disclosures wherever fictional people or feedback are used.",
         "No verified client, endorsement, or artistic acceptance is implied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/revisions/v10/people/PROVENANCE.md",
+      "repository_path": "design and website/assets/public/assets/revisions/v10/people/PROVENANCE.md",
+      "sha256": "9e2e48988f1ac1d2244bb317297462695da7dc54ccb9fa8e7208e399dd05a6a9",
+      "bytes": 450,
+      "source": "brand-library/packages/assets/revisions/v10/people/PROVENANCE.md",
+      "rights_state": "permission_verified",
+      "evidence": [
+        "design and website/assets/public/assets/revisions/v10/people/PROVENANCE.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Preserve fictional/sample disclosures wherever fictional people or feedback are used.",
+        "No verified client, endorsement, or artistic acceptance is implied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/revisions/v10/people/maksym-charniuk.jpg",
+      "repository_path": "design and website/assets/public/assets/revisions/v10/people/maksym-charniuk.jpg",
+      "sha256": "e89c308d3c02ebf0308041eb7f6aee3a56b1eb6cd0ed8f5bb48e7727a5224aef",
+      "bytes": 10887,
+      "source": "brand-library/packages/assets/revisions/v10/people/maksym-charniuk.jpg",
+      "rights_state": "permission_verified",
+      "evidence": [
+        "design and website/assets/public/assets/revisions/v10/people/PROVENANCE.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Portraits of the named co-founders copied unchanged from their own public site on 2026-10-31; reuse on the Outspoken site authorised by the owner's brief; do not reuse elsewhere without the founders' consent."
+      ]
+    },
+    {
+      "path": "assets/public/assets/revisions/v10/people/mykhailo-amplieiev.jpg",
+      "repository_path": "design and website/assets/public/assets/revisions/v10/people/mykhailo-amplieiev.jpg",
+      "sha256": "953834ed2d503aa5667d1568bb008b82136dfe05c4c96fabc4edba0d4778f892",
+      "bytes": 11609,
+      "source": "brand-library/packages/assets/revisions/v10/people/mykhailo-amplieiev.jpg",
+      "rights_state": "permission_verified",
+      "evidence": [
+        "design and website/assets/public/assets/revisions/v10/people/PROVENANCE.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Portraits of the named co-founders copied unchanged from their own public site on 2026-10-31; reuse on the Outspoken site authorised by the owner's brief; do not reuse elsewhere without the founders' consent."
       ]
     },
     {
@@ -5610,6 +5852,22 @@
       ]
     },
     {
+      "path": "assets/public/assets/revisions/v5/identity/lockup-marigold.svg",
+      "repository_path": "design and website/assets/public/assets/revisions/v5/identity/lockup-marigold.svg",
+      "sha256": "408b238a2dc63452b5f6431c4ff8b52e86e888bc13ce5337883ce167f90ba0b9",
+      "bytes": 25252,
+      "source": "brand-library/packages/assets/revisions/v5/identity/lockup-marigold.svg",
+      "rights_state": "owned",
+      "evidence": [
+        "retained V5 identity manifest; colour variant of an owned outline"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Preserve fictional/sample disclosures wherever fictional people or feedback are used.",
+        "No verified client, endorsement, or artistic acceptance is implied."
+      ]
+    },
+    {
       "path": "assets/public/assets/revisions/v5/identity/lockup-mono.svg",
       "repository_path": "design and website/assets/public/assets/revisions/v5/identity/lockup-mono.svg",
       "sha256": "8a3a00dd9421ee8be23600e7d310589e6c40a0580778d6b45d659827dcf0d483",
@@ -6066,6 +6324,22 @@
         "Preserve fictional/sample disclosures wherever fictional people or feedback are used.",
         "No verified client, endorsement, or artistic acceptance is implied.",
         "Retain Archivo SIL OFL 1.1 for any font-derived outlines; native model render differs from supplied reference artwork."
+      ]
+    },
+    {
+      "path": "assets/public/assets/revisions/v5/identity/wordmark-marigold.svg",
+      "repository_path": "design and website/assets/public/assets/revisions/v5/identity/wordmark-marigold.svg",
+      "sha256": "769ffdf83abd8e53a8596dcff8a91c7a484a4b94d13ab10d1a125d871e998fba",
+      "bytes": 24537,
+      "source": "brand-library/packages/assets/revisions/v5/identity/wordmark-marigold.svg",
+      "rights_state": "owned",
+      "evidence": [
+        "retained V5 identity manifest; colour variant of an owned outline"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Preserve fictional/sample disclosures wherever fictional people or feedback are used.",
+        "No verified client, endorsement, or artistic acceptance is implied."
       ]
     },
     {
@@ -11520,5 +11794,12 @@
   ],
   "qa": "qa/current-checks.json",
   "source_revision_map": "source-revision-map.json",
-  "manifest_scope": "All payload files except this self-referential manifest; dependency/build caches excluded. Manifest identity is covered by the Git commit."
+  "manifest_scope": "All payload files except this self-referential manifest; dependency/build caches excluded. Manifest identity is covered by the Git commit.",
+  "v10_update": {
+    "date": "2026-10-31",
+    "scope": "Marigold accent replaces citron; Fraunces/Mona Sans/Geist Mono typography; merged experience-story block; Why Outspoken block; matte CSS buttons; two media frames; six labelled sample emails.",
+    "owner_accepted": false,
+    "deployment_performed_by_this_run": false,
+    "microphone_series": "requested separately; not part of this update"
+  }
 }

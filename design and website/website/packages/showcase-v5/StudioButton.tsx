@@ -7,7 +7,7 @@ export type StudioButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   edge?: 'base'|'bevel'|'groove'|'cut'|'rail';
   pose?: 'front'|'left'|'right';
   loading?: boolean;
-  tone?: 'navy'|'cobalt'|'white'|'citron'|'nickel'|'pearl'|'black';
+  tone?: 'navy'|'cobalt'|'white'|'marigold'|'nickel'|'pearl'|'black';
   arrow?: boolean;
 };
 type Entry = {
@@ -16,7 +16,7 @@ type Entry = {
   tx: number; ty: number; active: boolean; dirty: boolean;
   mesh: THREE.Mesh<THREE.ExtrudeGeometry, THREE.MeshPhysicalMaterial>;
 };
-const colors = {navy:'#162760',cobalt:'#3157D5',white:'#FFFFFF',citron:'#D4DD67',nickel:'#A9AFBA',pearl:'#F1F3F6',black:'#101218'};
+const colors = {navy:'#162760',cobalt:'#3157D5',white:'#FFFFFF',marigold:'#EAA93C',nickel:'#A9AFBA',pearl:'#F1F3F6',black:'#101218'};
 const entries = new Set<Entry>();
 let renderer: THREE.WebGLRenderer | undefined;
 let scene: THREE.Scene | undefined;
@@ -39,7 +39,7 @@ function createRenderer() {
     camera.position.set(0, 0, 8);
     scene.add(new THREE.HemisphereLight(0xf9fcff, 0x101b39, 2.2));
     key = new THREE.DirectionalLight(0xffffff, 4.2); key.position.set(-3, 4, 6); scene.add(key);
-    rim = new THREE.PointLight(0xd4dd67, 5, 20); rim.position.set(3, 2, 4); scene.add(rim);
+    rim = new THREE.PointLight(0xeaa93c, 5, 20); rim.position.set(3, 2, 4); scene.add(rim);
     return true;
   } catch { renderer?.dispose(); renderer = undefined; return false; }
 }

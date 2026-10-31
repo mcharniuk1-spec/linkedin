@@ -9,7 +9,7 @@
     "navy": "#162760",
     "cobalt": "#3157D5",
     "white": "#FFFFFF",
-    "citron": "#D4DD67",
+    "marigold": "#EAA93C",
     "nickel": "#A9AFBA",
     "pearl": "#F1F3F6",
     "black": "#101218"
@@ -3290,14 +3290,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-primary-base-front",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-primary-base-front",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "primary",
         "edge": "base",
         "pose": "front",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "primary",
           "edge": "base",
           "pose": "front"
@@ -3326,14 +3326,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-primary-base-left",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-primary-base-left",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "primary",
         "edge": "base",
         "pose": "left",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "primary",
           "edge": "base",
           "pose": "left"
@@ -3362,14 +3362,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-primary-base-right",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-primary-base-right",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "primary",
         "edge": "base",
         "pose": "right",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "primary",
           "edge": "base",
           "pose": "right"
@@ -3398,14 +3398,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-primary-bevel-front",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-primary-bevel-front",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "primary",
         "edge": "bevel",
         "pose": "front",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "primary",
           "edge": "bevel",
           "pose": "front"
@@ -3434,14 +3434,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-primary-bevel-left",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-primary-bevel-left",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "primary",
         "edge": "bevel",
         "pose": "left",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "primary",
           "edge": "bevel",
           "pose": "left"
@@ -3470,14 +3470,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-primary-bevel-right",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-primary-bevel-right",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "primary",
         "edge": "bevel",
         "pose": "right",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "primary",
           "edge": "bevel",
           "pose": "right"
@@ -3506,14 +3506,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-primary-groove-front",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-primary-groove-front",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "primary",
         "edge": "groove",
         "pose": "front",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "primary",
           "edge": "groove",
           "pose": "front"
@@ -3542,14 +3542,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-primary-groove-left",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-primary-groove-left",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "primary",
         "edge": "groove",
         "pose": "left",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "primary",
           "edge": "groove",
           "pose": "left"
@@ -3578,14 +3578,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-primary-groove-right",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-primary-groove-right",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "primary",
         "edge": "groove",
         "pose": "right",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "primary",
           "edge": "groove",
           "pose": "right"
@@ -3614,14 +3614,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-primary-cut-front",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-primary-cut-front",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "primary",
         "edge": "cut",
         "pose": "front",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "primary",
           "edge": "cut",
           "pose": "front"
@@ -3650,14 +3650,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-primary-cut-left",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-primary-cut-left",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "primary",
         "edge": "cut",
         "pose": "left",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "primary",
           "edge": "cut",
           "pose": "left"
@@ -3686,14 +3686,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-primary-cut-right",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-primary-cut-right",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "primary",
         "edge": "cut",
         "pose": "right",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "primary",
           "edge": "cut",
           "pose": "right"
@@ -3722,14 +3722,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-primary-rail-front",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-primary-rail-front",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "primary",
         "edge": "rail",
         "pose": "front",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "primary",
           "edge": "rail",
           "pose": "front"
@@ -3758,14 +3758,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-primary-rail-left",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-primary-rail-left",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "primary",
         "edge": "rail",
         "pose": "left",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "primary",
           "edge": "rail",
           "pose": "left"
@@ -3794,14 +3794,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-primary-rail-right",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-primary-rail-right",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "primary",
         "edge": "rail",
         "pose": "right",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "primary",
           "edge": "rail",
           "pose": "right"
@@ -3830,14 +3830,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-secondary-base-front",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-secondary-base-front",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "secondary",
         "edge": "base",
         "pose": "front",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "secondary",
           "edge": "base",
           "pose": "front"
@@ -3866,14 +3866,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-secondary-base-left",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-secondary-base-left",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "secondary",
         "edge": "base",
         "pose": "left",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "secondary",
           "edge": "base",
           "pose": "left"
@@ -3902,14 +3902,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-secondary-base-right",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-secondary-base-right",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "secondary",
         "edge": "base",
         "pose": "right",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "secondary",
           "edge": "base",
           "pose": "right"
@@ -3938,14 +3938,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-secondary-bevel-front",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-secondary-bevel-front",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "secondary",
         "edge": "bevel",
         "pose": "front",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "secondary",
           "edge": "bevel",
           "pose": "front"
@@ -3974,14 +3974,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-secondary-bevel-left",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-secondary-bevel-left",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "secondary",
         "edge": "bevel",
         "pose": "left",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "secondary",
           "edge": "bevel",
           "pose": "left"
@@ -4010,14 +4010,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-secondary-bevel-right",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-secondary-bevel-right",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "secondary",
         "edge": "bevel",
         "pose": "right",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "secondary",
           "edge": "bevel",
           "pose": "right"
@@ -4046,14 +4046,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-secondary-groove-front",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-secondary-groove-front",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "secondary",
         "edge": "groove",
         "pose": "front",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "secondary",
           "edge": "groove",
           "pose": "front"
@@ -4082,14 +4082,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-secondary-groove-left",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-secondary-groove-left",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "secondary",
         "edge": "groove",
         "pose": "left",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "secondary",
           "edge": "groove",
           "pose": "left"
@@ -4118,14 +4118,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-secondary-groove-right",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-secondary-groove-right",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "secondary",
         "edge": "groove",
         "pose": "right",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "secondary",
           "edge": "groove",
           "pose": "right"
@@ -4154,14 +4154,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-secondary-cut-front",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-secondary-cut-front",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "secondary",
         "edge": "cut",
         "pose": "front",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "secondary",
           "edge": "cut",
           "pose": "front"
@@ -4190,14 +4190,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-secondary-cut-left",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-secondary-cut-left",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "secondary",
         "edge": "cut",
         "pose": "left",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "secondary",
           "edge": "cut",
           "pose": "left"
@@ -4226,14 +4226,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-secondary-cut-right",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-secondary-cut-right",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "secondary",
         "edge": "cut",
         "pose": "right",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "secondary",
           "edge": "cut",
           "pose": "right"
@@ -4262,14 +4262,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-secondary-rail-front",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-secondary-rail-front",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "secondary",
         "edge": "rail",
         "pose": "front",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "secondary",
           "edge": "rail",
           "pose": "front"
@@ -4298,14 +4298,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-secondary-rail-left",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-secondary-rail-left",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "secondary",
         "edge": "rail",
         "pose": "left",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "secondary",
           "edge": "rail",
           "pose": "left"
@@ -4334,14 +4334,14 @@
         "native_import": "Keep native button shape and live text; WebGL canvas is decorative, never flatten UI."
       },
       {
-        "id": "OS5-BT-citron-secondary-rail-right",
-        "tone": "citron",
-        "hex": "#D4DD67",
+        "id": "OS5-BT-marigold-secondary-rail-right",
+        "tone": "marigold",
+        "hex": "#EAA93C",
         "variant": "secondary",
         "edge": "rail",
         "pose": "right",
         "props": {
-          "tone": "citron",
+          "tone": "marigold",
           "variant": "secondary",
           "edge": "rail",
           "pose": "right"
@@ -7795,9 +7795,9 @@
         ]
       },
       {
-        "id": "OS5-MD-image-citron-front",
+        "id": "OS5-MD-image-marigold-front",
         "kind": "image",
-        "frame": "citron",
+        "frame": "marigold",
         "pose": "front",
         "component": "MediaFrame",
         "props": [
@@ -7825,9 +7825,9 @@
         ]
       },
       {
-        "id": "OS5-MD-image-citron-left",
+        "id": "OS5-MD-image-marigold-left",
         "kind": "image",
-        "frame": "citron",
+        "frame": "marigold",
         "pose": "left",
         "component": "MediaFrame",
         "props": [
@@ -7855,9 +7855,9 @@
         ]
       },
       {
-        "id": "OS5-MD-image-citron-right",
+        "id": "OS5-MD-image-marigold-right",
         "kind": "image",
-        "frame": "citron",
+        "frame": "marigold",
         "pose": "right",
         "component": "MediaFrame",
         "props": [
@@ -8155,9 +8155,9 @@
         ]
       },
       {
-        "id": "OS5-MD-video-citron-front",
+        "id": "OS5-MD-video-marigold-front",
         "kind": "video",
-        "frame": "citron",
+        "frame": "marigold",
         "pose": "front",
         "component": "MediaFrame",
         "props": [
@@ -8185,9 +8185,9 @@
         ]
       },
       {
-        "id": "OS5-MD-video-citron-left",
+        "id": "OS5-MD-video-marigold-left",
         "kind": "video",
-        "frame": "citron",
+        "frame": "marigold",
         "pose": "left",
         "component": "MediaFrame",
         "props": [
@@ -8215,9 +8215,9 @@
         ]
       },
       {
-        "id": "OS5-MD-video-citron-right",
+        "id": "OS5-MD-video-marigold-right",
         "kind": "video",
-        "frame": "citron",
+        "frame": "marigold",
         "pose": "right",
         "component": "MediaFrame",
         "props": [

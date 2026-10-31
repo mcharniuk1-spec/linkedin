@@ -5,7 +5,7 @@ import './experience.css';
 export type ThreeTiltButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   variant?: 'primary' | 'secondary' | 'quiet';
   loading?: boolean;
-  tone?: 'navy' | 'citron' | 'silver';
+  tone?: 'navy' | 'marigold' | 'silver';
   arrow?: boolean;
 };
 type Entry = {
@@ -14,7 +14,7 @@ type Entry = {
   tx: number; ty: number; active: boolean; dirty: boolean;
   mesh: THREE.Mesh<THREE.ExtrudeGeometry, THREE.MeshPhysicalMaterial>;
 };
-const colors = { navy: '#162760', citron: '#D4DD67', silver: '#A9AFBA' };
+const colors = { navy: '#162760', marigold: '#EAA93C', silver: '#A9AFBA' };
 const entries = new Set<Entry>();
 let renderer: THREE.WebGLRenderer | undefined;
 let scene: THREE.Scene | undefined;
@@ -37,7 +37,7 @@ function createRenderer() {
     camera.position.set(0, 0, 8);
     scene.add(new THREE.HemisphereLight(0xf9fcff, 0x101b39, 2.2));
     key = new THREE.DirectionalLight(0xffffff, 4.2); key.position.set(-3, 4, 6); scene.add(key);
-    rim = new THREE.PointLight(0xd4dd67, 5, 20); rim.position.set(3, 2, 4); scene.add(rim);
+    rim = new THREE.PointLight(0xeaa93c, 5, 20); rim.position.set(3, 2, 4); scene.add(rim);
     return true;
   } catch { renderer?.dispose(); renderer = undefined; return false; }
 }

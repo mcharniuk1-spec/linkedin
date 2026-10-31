@@ -7,4 +7,4 @@ const meta={title:'Foundations/SurfacePlate',component:C.SurfacePlate,tags:['aut
 export default meta;
 type Story = StoryObj;
 export const Default:Story={render:()=>(<C.SurfacePlate><C.SectionHeading title="A calm surface for a clear thought."/><p>Solid pearl, a fine edge and controlled depth.</p></C.SurfacePlate>)};
-export const Materials:Story={render:()=>(<C.StackGrid columns={3}>{(["white","navy","citron","pearl","nickel"] as const).map(t=><C.SurfacePlate key={t} tone={t}><h3>{t}</h3><p>Readable material specimen.</p></C.SurfacePlate>)}</C.StackGrid>)};
+export const Materials:Story={render:()=>(<C.StackGrid columns={3}>{(["white","navy","marigold","pearl","nickel"] as const).map(t=><C.SurfacePlate key={t} tone={t}><h3>{t}</h3><p>Readable material specimen.</p></C.SurfacePlate>)}</C.StackGrid>)};

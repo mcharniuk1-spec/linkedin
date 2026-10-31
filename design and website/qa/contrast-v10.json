@@ -1,0 +1,177 @@
+{
+ "method": "WCAG 2.x relative luminance computed in Python from the exact hex values used in the CSS",
+ "rows": [
+  {
+   "pair": "body text ink on paper",
+   "fg": "#162760",
+   "bg": "#FAFAF7",
+   "ratio": 13.45,
+   "kind": "text",
+   "required": 4.5,
+   "pass": true
+  },
+  {
+   "pair": "ink on marker (300)",
+   "fg": "#162760",
+   "bg": "#F6D591",
+   "ratio": 9.94,
+   "kind": "text",
+   "required": 4.5,
+   "pass": true
+  },
+  {
+   "pair": "ink on accent button (500)",
+   "fg": "#162760",
+   "bg": "#EAA93C",
+   "ratio": 6.86,
+   "kind": "text",
+   "required": 4.5,
+   "pass": true
+  },
+  {
+   "pair": "ink on accent hover (400)",
+   "fg": "#162760",
+   "bg": "#F3C15D",
+   "ratio": 8.44,
+   "kind": "text",
+   "required": 4.5,
+   "pass": true
+  },
+  {
+   "pair": "ink on accent pressed (600)",
+   "fg": "#162760",
+   "bg": "#CC8C30",
+   "ratio": 4.93,
+   "kind": "text",
+   "required": 4.5,
+   "pass": true
+  },
+  {
+   "pair": "white on navy button",
+   "fg": "#FFFFFF",
+   "bg": "#162760",
+   "ratio": 14.06,
+   "kind": "text",
+   "required": 4.5,
+   "pass": true
+  },
+  {
+   "pair": "white on navy button hover",
+   "fg": "#FFFFFF",
+   "bg": "#223579",
+   "ratio": 11.33,
+   "kind": "text",
+   "required": 4.5,
+   "pass": true
+  },
+  {
+   "pair": "accent text 400 on dark band",
+   "fg": "#F3C15D",
+   "bg": "#0E1A47",
+   "ratio": 10.02,
+   "kind": "text",
+   "required": 4.5,
+   "pass": true
+  },
+  {
+   "pair": "white on dark band",
+   "fg": "#FFFFFF",
+   "bg": "#0E1A47",
+   "ratio": 16.7,
+   "kind": "text",
+   "required": 4.5,
+   "pass": true
+  },
+  {
+   "pair": "founder bio on dark band",
+   "fg": "#C3CCE0",
+   "bg": "#0E1A47",
+   "ratio": 10.37,
+   "kind": "text",
+   "required": 4.5,
+   "pass": true
+  },
+  {
+   "pair": "note text on dark band",
+   "fg": "#B4BFD8",
+   "bg": "#0E1A47",
+   "ratio": 9.05,
+   "kind": "text",
+   "required": 4.5,
+   "pass": true
+  },
+  {
+   "pair": "card body on white",
+   "fg": "#33456F",
+   "bg": "#FFFFFF",
+   "ratio": 9.45,
+   "kind": "text",
+   "required": 4.5,
+   "pass": true
+  },
+  {
+   "pair": "mono label on white",
+   "fg": "#4B5B84",
+   "bg": "#FFFFFF",
+   "ratio": 6.71,
+   "kind": "text",
+   "required": 4.5,
+   "pass": true
+  },
+  {
+   "pair": "lede on warm paper",
+   "fg": "#3A4A75",
+   "bg": "#F6F4EE",
+   "ratio": 7.9,
+   "kind": "text",
+   "required": 4.5,
+   "pass": true
+  },
+  {
+   "pair": "accent text 800 on white",
+   "fg": "#824F19",
+   "bg": "#FFFFFF",
+   "ratio": 6.81,
+   "kind": "text",
+   "required": 4.5,
+   "pass": true
+  },
+  {
+   "pair": "accent text 800 on warm paper",
+   "fg": "#824F19",
+   "bg": "#F6F4EE",
+   "ratio": 6.2,
+   "kind": "text",
+   "required": 4.5,
+   "pass": true
+  },
+  {
+   "pair": "focus ring cobalt on paper",
+   "fg": "#3157D5",
+   "bg": "#FAFAF7",
+   "ratio": 5.81,
+   "kind": "non-text",
+   "required": 3.0,
+   "pass": true
+  },
+  {
+   "pair": "focus ring marigold-300 on dark band",
+   "fg": "#F6D591",
+   "bg": "#0E1A47",
+   "ratio": 11.81,
+   "kind": "non-text",
+   "required": 3.0,
+   "pass": true
+  },
+  {
+   "pair": "active chip white on ink",
+   "fg": "#FFFFFF",
+   "bg": "#162760",
+   "ratio": 14.06,
+   "kind": "text",
+   "required": 4.5,
+   "pass": true
+  }
+ ],
+ "failures": []
+}

@@ -1,33 +1,34 @@
 {
-  "version": "0.1",
-  "state": "starting_values_to_render_and_review",
+  "version": "0.2",
+  "state": "v10_rendered_and_selected_2026-10-31",
   "families": {
-    "display_wordmark": "Archivo Variable candidate; inspect actual font license/files/axes",
-    "body_ui": "Inter Variable candidate; strict open forms",
-    "editorial_artwork": "Optional one serif tested only in publication artwork, not automatic third UI family"
+    "display_wordmark": "Fraunces Variable (OFL) for headings; wordmark stays outlined Archivo 730 geometry. Zodiak (Fontshare) rendered as comparison only, not bundled: public redistribution unconfirmed.",
+    "body_ui": "Mona Sans Variable (OFL)",
+    "label_mono": "Geist Mono Variable (OFL), uppercase, +9% tracking",
+    "legacy": "Archivo/Inter remain only for the outlined wordmark source and older packages"
   },
   "web_css_px": {
     "display": {
       "family": "display_wordmark",
-      "size_desktop": 72,
+      "size_desktop": 68,
       "size_phone": 42,
-      "weight": 800,
-      "line_height": 1.02,
-      "tracking_em": -0.035
+      "weight": 400,
+      "line_height": 1.04,
+      "tracking_em": -0.02
     },
     "h2": {
       "family": "display_wordmark",
-      "size_desktop": 44,
-      "size_phone": 32,
-      "weight": 750,
-      "line_height": 1.1,
-      "tracking_em": -0.025
+      "size_desktop": 52,
+      "size_phone": 34,
+      "weight": 400,
+      "line_height": 1.08,
+      "tracking_em": -0.02
     },
     "lead": {
       "family": "body_ui",
       "size_desktop": 20,
       "size_phone": 18,
-      "weight": 500,
+      "weight": 400,
       "line_height": 1.5,
       "tracking_em": 0
     },
@@ -35,7 +36,7 @@
       "family": "body_ui",
       "size_desktop": 18,
       "size_phone": 17,
-      "weight": 450,
+      "weight": 400,
       "line_height": 1.55,
       "tracking_em": 0
     },
@@ -43,32 +44,32 @@
       "family": "body_ui",
       "size_desktop": 16,
       "size_phone": 16,
-      "weight": 500,
+      "weight": 400,
       "line_height": 1.5,
       "tracking_em": 0
     },
     "label": {
-      "family": "body_ui",
-      "size_desktop": 14,
-      "size_phone": 14,
-      "weight": 650,
-      "line_height": 1.35,
-      "tracking_em": 0.02
+      "family": "label_mono",
+      "size_desktop": 12,
+      "size_phone": 12,
+      "weight": 500,
+      "line_height": 1.4,
+      "tracking_em": 0.09
     },
     "button": {
       "family": "body_ui",
       "size_desktop": 16,
       "size_phone": 16,
-      "weight": 650,
+      "weight": 600,
       "line_height": 1.2,
       "tracking_em": 0
     }
   },
   "corrections": [
-    "Do not inherit V10 tiny widely spaced Founder content example and People/Customers/Markets/Perspective labels",
-    "Stronger label/button/body strokes; no fragile thin type or extreme narrow width",
-    "Prefer short normal-case labels; brief uppercase allowed within readable tracking",
-    "Condense only if actual-size tests improve recognition; do not mathematically squeeze lettering"
+    "V10: heavy 730-800 weights retired; headings 400 serif, text 400, buttons 600, mono labels 500",
+    "Bold only where a single accent is needed (names, numbers, one key phrase)",
+    "Labels: Geist Mono uppercase, 12px, +9% tracking; never below 11px",
+    "Check actual render at 320/390/1440 and 200% zoom"
   ],
   "social": "Create independent type scale at actual canvas dimensions; do not use web CSS sizes as a 1080px export scale. Test phone-sized preview.",
   "test_matrix": [

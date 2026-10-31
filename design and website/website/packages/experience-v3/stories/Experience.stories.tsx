@@ -5,4 +5,4 @@ export default meta;
 type Story = StoryObj<typeof meta>;
 export const LeftPlate: Story = {};
 export const RightPlate: Story = {args:{tilt:'right'}};
-export const Buttons: Story = {render:()=> <div style={{display:'flex',flexWrap:'wrap',gap:28,padding:24}}><ThreeTiltButton>Book an intro call</ThreeTiltButton><ThreeTiltButton tone="citron">Explore the approach</ThreeTiltButton><ThreeTiltButton variant="secondary" tone="silver">View services</ThreeTiltButton><ThreeTiltButton loading>Preparing</ThreeTiltButton><ThreeTiltButton disabled>Unavailable</ThreeTiltButton></div>};
+export const Buttons: Story = {render:()=> <div style={{display:'flex',flexWrap:'wrap',gap:28,padding:24}}><ThreeTiltButton>Book an intro call</ThreeTiltButton><ThreeTiltButton tone="marigold">Explore the approach</ThreeTiltButton><ThreeTiltButton variant="secondary" tone="silver">View services</ThreeTiltButton><ThreeTiltButton loading>Preparing</ThreeTiltButton><ThreeTiltButton disabled>Unavailable</ThreeTiltButton></div>};

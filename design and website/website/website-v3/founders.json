@@ -1,0 +1,25 @@
+{
+  "id": "OS-WHY-V10",
+  "kicker": "Why Outspoken?",
+  "title": "We understand the product behind the story.",
+  "quote": "Founders know what they built. Buyers need to know *why it matters*. We sit with the product, the decisions and the trade-offs, so the story keeps its *substance* and your *voice*.",
+  "quote_status": "Proposed editorial wording written for this site. Not confirmed by the co-founders; replace or approve before publication.",
+  "note": "Before we start, we agree interview cadence, preparation, approvals, deliverables and permissions.",
+  "founders": [
+    {
+      "name": "Maksym Charniuk",
+      "role": "Co-founder",
+      "bio": "Economic research, data analysis, and product operations",
+      "photo": "/assets/revisions/v10/people/maksym-charniuk.jpg",
+      "href": "https://www.linkedin.com/in/max-charniuk/"
+    },
+    {
+      "name": "Mykhailo Amplieiev",
+      "role": "Co-founder",
+      "bio": "Product research, project operations, and venture execution",
+      "photo": "/assets/revisions/v10/people/mykhailo-amplieiev.jpg",
+      "href": "https://www.linkedin.com/in/mykhailoamplieiev/"
+    }
+  ],
+  "source": "Names, roles, bios, photos and links verified on https://www.arch-flow.dev/ (founders section) on 2026-10-31."
+}

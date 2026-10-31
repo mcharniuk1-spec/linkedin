@@ -6,9 +6,18 @@
   "paths": [
     "assets/public/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
     "assets/public/assets/identity/font-source/archivo/OFL.txt",
+    "assets/public/assets/identity/font-source/fraunces/OFL.txt",
+    "assets/public/assets/identity/font-source/fraunces/fraunces-latin-full-normal.woff2",
+    "assets/public/assets/identity/font-source/geist-mono/OFL.txt",
+    "assets/public/assets/identity/font-source/geist-mono/geist-mono-latin-wght-normal.woff2",
     "assets/public/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
     "assets/public/assets/identity/font-source/inter/OFL.txt",
+    "assets/public/assets/identity/font-source/mona-sans/OFL.txt",
+    "assets/public/assets/identity/font-source/mona-sans/mona-sans-latin-wght-normal.woff2",
     "assets/public/assets/masters/OS-O010-fictional-founder.png",
+    "assets/public/assets/revisions/v10/people/PROVENANCE.md",
+    "assets/public/assets/revisions/v10/people/maksym-charniuk.jpg",
+    "assets/public/assets/revisions/v10/people/mykhailo-amplieiev.jpg",
     "assets/public/assets/revisions/v2/paper/OS-TX201.png",
     "assets/public/assets/revisions/v2/photos/OS-PH201.png",
     "assets/public/assets/revisions/v2/photos/OS-PH202.png",
@@ -72,6 +81,7 @@
     "assets/public/assets/revisions/v5/identity/lockup-citron.svg",
     "assets/public/assets/revisions/v5/identity/lockup-gradient.svg",
     "assets/public/assets/revisions/v5/identity/lockup-inverse.svg",
+    "assets/public/assets/revisions/v5/identity/lockup-marigold.svg",
     "assets/public/assets/revisions/v5/identity/lockup-mono.svg",
     "assets/public/assets/revisions/v5/identity/lockup-split.svg",
     "assets/public/assets/revisions/v5/identity/microphone-three-views.png",
@@ -99,6 +109,7 @@
     "assets/public/assets/revisions/v5/identity/wordmark-five-treatments.png",
     "assets/public/assets/revisions/v5/identity/wordmark-gradient.svg",
     "assets/public/assets/revisions/v5/identity/wordmark-inverse.svg",
+    "assets/public/assets/revisions/v5/identity/wordmark-marigold.svg",
     "assets/public/assets/revisions/v5/identity/wordmark-mono.svg",
     "assets/public/assets/revisions/v5/identity/wordmark-split.svg",
     "assets/public/assets/revisions/v5/identity/wordmark-three-views.png",
@@ -458,6 +469,70 @@
       "license": "OFL-1.1"
     },
     {
+      "path": "assets/public/assets/identity/font-source/fraunces/OFL.txt",
+      "repository_path": "design and website/assets/public/assets/identity/font-source/fraunces/OFL.txt",
+      "sha256": "cd3384cafac6f2bddc3955273958a2e029f97027c8037ac539ef5744a77b579e",
+      "bytes": 4504,
+      "source": "brand-library/packages/assets/identity/font-source/fraunces/OFL.txt",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/assets/public/assets/identity/font-source/provenance.json"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "SIL Open Font License 1.1; licence text retained beside the file.",
+        "Fontsource self-hosted build of the upstream family."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/font-source/fraunces/fraunces-latin-full-normal.woff2",
+      "repository_path": "design and website/assets/public/assets/identity/font-source/fraunces/fraunces-latin-full-normal.woff2",
+      "sha256": "7e744849028e2219e2aa1bc467dc4032980dc4487c9c3da3010081cd72d3b103",
+      "bytes": 121016,
+      "source": "brand-library/packages/assets/identity/font-source/fraunces/fraunces-latin-full-normal.woff2",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/assets/public/assets/identity/font-source/provenance.json"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "SIL Open Font License 1.1; licence text retained beside the file.",
+        "Fontsource self-hosted build of the upstream family."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/font-source/geist-mono/OFL.txt",
+      "repository_path": "design and website/assets/public/assets/identity/font-source/geist-mono/OFL.txt",
+      "sha256": "cc815ed4fc045f0e991abb10395b7932bd028c6a067deb13316d6002105074e6",
+      "bytes": 4498,
+      "source": "brand-library/packages/assets/identity/font-source/geist-mono/OFL.txt",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/assets/public/assets/identity/font-source/provenance.json"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "SIL Open Font License 1.1; licence text retained beside the file.",
+        "Fontsource self-hosted build of the upstream family."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/font-source/geist-mono/geist-mono-latin-wght-normal.woff2",
+      "repository_path": "design and website/assets/public/assets/identity/font-source/geist-mono/geist-mono-latin-wght-normal.woff2",
+      "sha256": "684ad5b531f81d43c1e8c7038262d5db7cdc1f68006e04d6c7769efa8d33c8cc",
+      "bytes": 23128,
+      "source": "brand-library/packages/assets/identity/font-source/geist-mono/geist-mono-latin-wght-normal.woff2",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/assets/public/assets/identity/font-source/provenance.json"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "SIL Open Font License 1.1; licence text retained beside the file.",
+        "Fontsource self-hosted build of the upstream family."
+      ]
+    },
+    {
       "path": "assets/public/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
       "repository_path": "design and website/assets/public/assets/identity/font-source/inter/Inter[opsz,wght].ttf",
       "sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
@@ -498,6 +573,38 @@
       "license": "OFL-1.1"
     },
     {
+      "path": "assets/public/assets/identity/font-source/mona-sans/OFL.txt",
+      "repository_path": "design and website/assets/public/assets/identity/font-source/mona-sans/OFL.txt",
+      "sha256": "41e9911493de5899a20336baf13b6ea6483b5eea34e237f2ffed22c39bdc4a8d",
+      "bytes": 4564,
+      "source": "brand-library/packages/assets/identity/font-source/mona-sans/OFL.txt",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/assets/public/assets/identity/font-source/provenance.json"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "SIL Open Font License 1.1; licence text retained beside the file.",
+        "Fontsource self-hosted build of the upstream family."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/font-source/mona-sans/mona-sans-latin-wght-normal.woff2",
+      "repository_path": "design and website/assets/public/assets/identity/font-source/mona-sans/mona-sans-latin-wght-normal.woff2",
+      "sha256": "a59061e38c5e7e6a00aaa6b6645a220c7d9c530991167f058cc0f8575f5d5844",
+      "bytes": 39788,
+      "source": "brand-library/packages/assets/identity/font-source/mona-sans/mona-sans-latin-wght-normal.woff2",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/assets/public/assets/identity/font-source/provenance.json"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "SIL Open Font License 1.1; licence text retained beside the file.",
+        "Fontsource self-hosted build of the upstream family."
+      ]
+    },
+    {
       "path": "assets/public/assets/masters/OS-O010-fictional-founder.png",
       "repository_path": "design and website/assets/public/assets/masters/OS-O010-fictional-founder.png",
       "sha256": "2ea2c56148b17f1e007242e51e843bd4b54b71732cac3a3f723f188af1cae514",
@@ -511,6 +618,52 @@
       "conditions": [
         "Preserve fictional/sample disclosures wherever fictional people or feedback are used.",
         "No verified client, endorsement, or artistic acceptance is implied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/revisions/v10/people/PROVENANCE.md",
+      "repository_path": "design and website/assets/public/assets/revisions/v10/people/PROVENANCE.md",
+      "sha256": "9e2e48988f1ac1d2244bb317297462695da7dc54ccb9fa8e7208e399dd05a6a9",
+      "bytes": 450,
+      "source": "brand-library/packages/assets/revisions/v10/people/PROVENANCE.md",
+      "rights_state": "permission_verified",
+      "evidence": [
+        "design and website/assets/public/assets/revisions/v10/people/PROVENANCE.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Preserve fictional/sample disclosures wherever fictional people or feedback are used.",
+        "No verified client, endorsement, or artistic acceptance is implied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/revisions/v10/people/maksym-charniuk.jpg",
+      "repository_path": "design and website/assets/public/assets/revisions/v10/people/maksym-charniuk.jpg",
+      "sha256": "e89c308d3c02ebf0308041eb7f6aee3a56b1eb6cd0ed8f5bb48e7727a5224aef",
+      "bytes": 10887,
+      "source": "brand-library/packages/assets/revisions/v10/people/maksym-charniuk.jpg",
+      "rights_state": "permission_verified",
+      "evidence": [
+        "design and website/assets/public/assets/revisions/v10/people/PROVENANCE.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Portraits of the named co-founders copied unchanged from their own public site on 2026-10-31; reuse on the Outspoken site authorised by the owner's brief; do not reuse elsewhere without the founders' consent."
+      ]
+    },
+    {
+      "path": "assets/public/assets/revisions/v10/people/mykhailo-amplieiev.jpg",
+      "repository_path": "design and website/assets/public/assets/revisions/v10/people/mykhailo-amplieiev.jpg",
+      "sha256": "953834ed2d503aa5667d1568bb008b82136dfe05c4c96fabc4edba0d4778f892",
+      "bytes": 11609,
+      "source": "brand-library/packages/assets/revisions/v10/people/mykhailo-amplieiev.jpg",
+      "rights_state": "permission_verified",
+      "evidence": [
+        "design and website/assets/public/assets/revisions/v10/people/PROVENANCE.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Portraits of the named co-founders copied unchanged from their own public site on 2026-10-31; reuse on the Outspoken site authorised by the owner's brief; do not reuse elsewhere without the founders' consent."
       ]
     },
     {
@@ -1573,6 +1726,22 @@
       ]
     },
     {
+      "path": "assets/public/assets/revisions/v5/identity/lockup-marigold.svg",
+      "repository_path": "design and website/assets/public/assets/revisions/v5/identity/lockup-marigold.svg",
+      "sha256": "408b238a2dc63452b5f6431c4ff8b52e86e888bc13ce5337883ce167f90ba0b9",
+      "bytes": 25252,
+      "source": "brand-library/packages/assets/revisions/v5/identity/lockup-marigold.svg",
+      "rights_state": "owned",
+      "evidence": [
+        "retained V5 identity manifest; colour variant of an owned outline"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Preserve fictional/sample disclosures wherever fictional people or feedback are used.",
+        "No verified client, endorsement, or artistic acceptance is implied."
+      ]
+    },
+    {
       "path": "assets/public/assets/revisions/v5/identity/lockup-mono.svg",
       "repository_path": "design and website/assets/public/assets/revisions/v5/identity/lockup-mono.svg",
       "sha256": "8a3a00dd9421ee8be23600e7d310589e6c40a0580778d6b45d659827dcf0d483",
@@ -2029,6 +2198,22 @@
         "Preserve fictional/sample disclosures wherever fictional people or feedback are used.",
         "No verified client, endorsement, or artistic acceptance is implied.",
         "Retain Archivo SIL OFL 1.1 for any font-derived outlines; native model render differs from supplied reference artwork."
+      ]
+    },
+    {
+      "path": "assets/public/assets/revisions/v5/identity/wordmark-marigold.svg",
+      "repository_path": "design and website/assets/public/assets/revisions/v5/identity/wordmark-marigold.svg",
+      "sha256": "769ffdf83abd8e53a8596dcff8a91c7a484a4b94d13ab10d1a125d871e998fba",
+      "bytes": 24537,
+      "source": "brand-library/packages/assets/revisions/v5/identity/wordmark-marigold.svg",
+      "rights_state": "owned",
+      "evidence": [
+        "retained V5 identity manifest; colour variant of an owned outline"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Preserve fictional/sample disclosures wherever fictional people or feedback are used.",
+        "No verified client, endorsement, or artistic acceptance is implied."
       ]
     },
     {
@@ -7482,9 +7667,9 @@
     }
   ],
   "counts": {
-    "assets": 413,
+    "assets": 424,
     "excluded": 21,
-    "included_assets": 411,
+    "included_assets": 422,
     "excluded_assets": 23
   },
   "license_records": {

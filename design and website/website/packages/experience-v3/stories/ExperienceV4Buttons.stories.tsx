@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react-vite';
 import type { CSSProperties } from 'react';
 import { ThreeTiltButton, type ThreeTiltButtonProps } from '../index';
 
-const tones = ['navy', 'citron', 'silver'] as const;
+const tones = ['navy', 'marigold', 'silver'] as const;
 const variants = ['primary', 'secondary', 'quiet'] as const;
 const matrixStyle: CSSProperties = {display:'grid',gridTemplateColumns:'repeat(auto-fit,minmax(240px,1fr))',gap:32,maxWidth:1080,padding:32};
 function Matrix({disabled=false,loading=false}:{disabled?:boolean;loading?:boolean}) {

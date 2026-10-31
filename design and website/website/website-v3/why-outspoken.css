@@ -1,0 +1,25 @@
+/* OS-WEB-V10-002 — Why Outspoken. Dark navy band with a centred, controlled-width quote. */
+.why{background:#0E1A47;color:#fff;position:relative;isolation:isolate;overflow:clip}
+.why::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(ellipse at 50% 0%,rgba(49,87,213,.28),transparent 60%),radial-gradient(ellipse at 50% 110%,rgba(234,169,60,.1),transparent 55%)}
+.why__inner{max-width:1100px;margin:auto;padding:clamp(80px,11vw,140px) var(--gutter);text-align:center;display:flex;flex-direction:column;align-items:center}
+.why .eyebrow{color:var(--accent-on-dark)}
+.why h2{font-size:clamp(34px,3.8vw,54px);max-width:18ch}
+.why__quote{margin:clamp(28px,4vw,48px) 0 clamp(34px,4vw,52px)}
+.why__quote blockquote{margin:0;max-width:30ch;font-family:var(--font-display);font-optical-sizing:auto;font-weight:400;font-size:clamp(26px,2.7vw,38px);line-height:1.28;letter-spacing:-.018em;text-wrap:balance}
+.why .word{display:inline-block;color:#fff;white-space:pre}.why .word.is-accent{color:var(--accent-on-dark)}
+.why__quote figcaption{margin-top:20px}
+.why__tag{display:inline-block;font-family:var(--font-mono);font-size:11px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;color:var(--marigold-300);border:1px solid rgba(243,193,93,.45);border-radius:999px;padding:7px 14px}
+.why__cards{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;width:min(920px,100%)}
+.why__card{display:grid;grid-template-columns:72px minmax(0,1fr) auto;align-items:center;gap:16px;min-width:0;padding:14px 18px 14px 14px;color:#fff;text-decoration:none;text-align:left;border:1px solid rgba(255,255,255,.14);border-radius:14px;background:linear-gradient(145deg,rgba(255,255,255,.07),rgba(255,255,255,.025));box-shadow:0 20px 48px -24px rgba(0,0,0,.5);transition:transform .22s cubic-bezier(.16,1,.3,1),border-color .22s,background .22s,box-shadow .22s}
+.why__card img{width:72px;height:72px;border-radius:50%;object-fit:cover;border:1px solid rgba(243,193,93,.4);transition:transform .22s cubic-bezier(.16,1,.3,1),border-color .22s}
+.why__copy{display:grid;gap:3px;min-width:0}.why__copy strong{font-family:var(--font-display);font-weight:400;font-size:20px;line-height:1.15;letter-spacing:-.01em}
+.why__copy>span{font-family:var(--font-mono);font-size:10px;font-weight:500;letter-spacing:.09em;text-transform:uppercase;color:var(--accent-on-dark)}
+.why__copy small{font-size:13px;line-height:1.4;color:#C3CCE0}
+.why__link{font-family:var(--font-mono);font-size:11px;font-weight:500;color:#C3CCE0;transition:color .22s,transform .22s}
+.why__card:hover,.why__card:focus-visible{transform:translateY(-4px);border-color:rgba(243,193,93,.6);background:linear-gradient(145deg,rgba(255,255,255,.1),rgba(255,255,255,.04));box-shadow:0 26px 60px -24px rgba(0,0,0,.6),0 0 28px rgba(234,169,60,.1)}
+.why__card:hover img,.why__card:focus-visible img{transform:scale(1.035);border-color:rgba(243,193,93,.8)}
+.why__card:hover .why__link,.why__card:focus-visible .why__link{color:var(--accent-on-dark);transform:translateX(2px)}
+.why__card:focus-visible{outline:3px solid var(--marigold-300);outline-offset:4px}
+.why__note{margin-top:34px;font-size:14px;line-height:1.6;color:#B4BFD8;max-width:56ch}
+@media(max-width:800px){.why__inner{padding:76px 24px}.why__cards{grid-template-columns:1fr}.why__card{grid-template-columns:58px minmax(0,1fr);gap:13px;padding:12px}.why__card img{width:58px;height:58px}.why__link{display:none}.why__quote blockquote{font-size:27px;max-width:22ch}}
+@media(prefers-reduced-motion:reduce){.why *{transition:none!important}.why .word{opacity:1!important;transform:none!important}}

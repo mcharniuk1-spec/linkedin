@@ -1,0 +1,38 @@
+{
+ "run": "20261031-outspoken-redesign-v10",
+ "date": "2026-10-31",
+ "owner_accepted": false,
+ "implemented": [
+  "marigold scale + roles replace citron in tokens, CSS, TypeScript, manifests",
+  "Fraunces / Mona Sans / Geist Mono (OFL) typography, weights 400-600",
+  "matte CSS button set replaces WebGL button on the website",
+  "merged experience-story block (former blocks 3-5) with schema card, clipped sideways card frame, chips, list mode",
+  "Why Outspoken block with verified founder names/photos/links and a proposed, labelled quote",
+  "six labelled fictional sample emails with initials instead of repeated faces",
+  "two finished media frames (hairline, bracket) + Storybook stories"
+ ],
+ "checks_passed": {
+  "typecheck_canonical": "tsc over website-v3 + packages (excluding stories) exit 0",
+  "typecheck_projection": "npm run typecheck in the public projection exit 0 (after fixing one MediaFrame story typing error found by it)",
+  "build_canonical": "vite build exit 0, 183 output files, 20 MB",
+  "build_projection": "npm run build in the public projection exit 0; fonts, photos, wordmarks present in dist",
+  "layout_overflow": "document scrollWidth - innerWidth = 0 at 320, 390, 768, 1024 and 1440 px",
+  "console": "no console errors on the dev server pages",
+  "frame_clipping": "7 scroll positions x 236 points along the four frame lines: 0 points where a card is the topmost element; frame overflow clip; edge mask present",
+  "scrub_sequence": "active card changed experience, time, voice, usefulness, conversations across the scroll range; chip click scrolls and sets aria-current",
+  "reduced_motion_js_path": "matchMedia override on the built projection: story mode rail, hero static, quote words opacity 1, no overflow (JS path only, not OS emulation)",
+  "contrast": "19 colour pairs computed, 0 failures (contrast-v10.json)",
+  "repository": "verify-package.mjs PASS 904 files / 422 rights; public_safety_scan.py problems [] ; verify_release.py ran without assertion error"
+ },
+ "not_done_or_not_verified": [
+  "Figma file m7zSeYVpEI88i9qwTrnUQt: no read or write; connected Figma account is mcharniuk1@gmail.com (View seat), not michael.hermann@gloxdev.com",
+  "20 microphone images: request file written, no evidence Codex received or processed it (computer-use access to the ChatGPT app was declined)",
+  "Vercel deployment: team access for scope mcharniuk1-4994s-projects requires owner approval; no deployment or readback performed",
+  "Storybook not rebuilt (storybook-static is the stale V5 build); stories added but not rendered",
+  "no physical iOS/Safari/assistive-technology testing; OS-level reduced-motion not emulated",
+  "competitor visual review: 18 pages read from served HTML/CSS, 3 viewed in the browser; Behance only the cover (cookie banner not accepted)",
+  "closing panel and identity still use the V5 glossy blue capsule; the 210 recoloured button variants in the Brand Studio keep the old WebGL look",
+  "no deletion of local design material was performed (Figma preservation not possible yet)"
+ ],
+ "limits": "Owner artistic acceptance, founder approval of the proposed quote and any rights clearance beyond the recorded conditions remain separate."
+}

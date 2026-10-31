@@ -154,7 +154,7 @@
     {
       "id": "OS-R012",
       "topic": "No old motif",
-      "requirement": "No citron L/corner-arrow ornament or generic service-icon row.",
+      "requirement": "No marigold L/corner-arrow ornament or generic service-icon row.",
       "destination": "../DESIGN.md",
       "stage": "1",
       "state": "preserved_constraint",
@@ -284,7 +284,7 @@
       "evidence": [
         "[dated-local-evidence-omitted]"
       ],
-      "review_note": "Out#D4DD67;spoken#162760primary/#101218alternate; current projected32/64color+mono reviewed.",
+      "review_note": "Out#EAA93C;spoken#162760primary/#101218alternate; current projected32/64color+mono reviewed.",
       "owner_accepted": false
     },
     {
@@ -721,7 +721,7 @@
     {
       "id": "OS-R051",
       "topic": "Current palette",
-      "requirement": "Outcitron#D4DD67; spokenprimarynavy#162760,blackalternate#101218.",
+      "requirement": "Outmarigold#EAA93C; spokenprimarynavy#162760,blackalternate#101218.",
       "stage": "1",
       "state": "created_and_independently_reviewed_candidate",
       "evidence": [

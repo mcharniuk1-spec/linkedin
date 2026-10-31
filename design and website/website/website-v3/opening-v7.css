@@ -13,7 +13,7 @@
 .v7-film-heading{position:absolute;left:var(--gutter);top:13%;max-width:48%;transition:opacity .35s,transform .5s}
 .v7-film-heading .eyebrow{font-size:14px;margin-bottom:15px}
 .v7-film-heading h2{font-size:clamp(35px,4vw,64px);line-height:1.03;letter-spacing:-.045em}
-.v7-film-heading .highlight{color:#162760;background:#D4DD67}
+.v7-film-heading .highlight{color:#162760;background:#EAA93C}
 .v7-film-composition{position:absolute;left:12%;right:24%;bottom:7%;perspective:1500px}
 .v7-film-composition>.os3-perspective{margin:0}
 .v7-film-composition .os3-perspective figcaption{color:#E7EBF2;font-size:13px;margin-top:20px}

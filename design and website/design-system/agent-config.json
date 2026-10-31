@@ -325,7 +325,7 @@
     "wordmark_out": "#162760",
     "wordmark_spoken": "#A9AFBA solid full fill in primary2D; no horizontal glint or color transition",
     "inverse": "Use documented inverse on dark grounds",
-    "citron": "#D4DD67 optionalwordmarktreatmentandselectivewhole-wordemphasis",
+    "marigold": "#EAA93C optionalwordmarktreatmentandselectivewhole-wordemphasis",
     "canonical_source": "tokens.json",
     "wordmark_case": "OUTSPOKEN",
     "primary_treatment": "solid navy/silver",
@@ -334,7 +334,7 @@
       "split",
       "inverse",
       "mono",
-      "citron"
+      "marigold"
     ],
     "compatibility_asset_key": "gradient",
     "treatment_labels": {
@@ -342,7 +342,7 @@
       "split": "Split",
       "inverse": "Inverse",
       "mono": "Mono",
-      "citron": "Citron"
+      "marigold": "Marigold"
     }
   },
   "historical_reviewed_master_coverage": "[dated-local-evidence-omitted]",
@@ -427,7 +427,7 @@
       "split",
       "inverse",
       "mono",
-      "citron"
+      "marigold"
     ],
     "font": "Archivo730;SILOFL1.1",
     "customization": "Exact outlined first-O voice notch; native-text companion does not authorize ordinary-O substitution.",
@@ -559,7 +559,7 @@
       "split",
       "inverse",
       "mono",
-      "citron"
+      "marigold"
     ],
     "font": "Archivo730;SILOFL1.1",
     "customization": "OnlyfirstOvoice-notch;recordedopticalkerning",

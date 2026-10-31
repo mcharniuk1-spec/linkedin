@@ -1,0 +1,16 @@
+/* OS-FRAME-V10 — hairline mat (A) and marigold brackets (B). Radii: A outer 18 / mat 8 / media 10; B media 8, brackets 2px on the media corners. */
+.os-frame{--ink:#162760;--mat:8px;--outer:18px;--ratio:16/10;margin:0;position:relative;isolation:isolate}
+.os-frame__media{position:relative;aspect-ratio:var(--ratio);overflow:clip;background:#E8EBF2}
+.os-frame__media>img,.os-frame__media>video{display:block;width:100%;height:100%;object-fit:cover}
+.os-frame figcaption{margin-top:12px;font:500 11px/1.4 'Geist Mono',ui-monospace,monospace;letter-spacing:.09em;text-transform:uppercase;color:#4B5B84}
+.os-frame--hairline{padding:var(--mat);border:1px solid rgba(22,39,96,.2);border-radius:var(--outer);background:#FBFAF6;box-shadow:0 22px 50px -34px rgba(22,39,96,.45);transition:border-color .24s cubic-bezier(.16,1,.3,1),box-shadow .24s cubic-bezier(.16,1,.3,1)}
+.os-frame--hairline .os-frame__media{border-radius:calc(var(--outer) - var(--mat) - 1px)}
+.os-frame--hairline:hover,.os-frame--hairline:focus-within{border-color:var(--ink);box-shadow:0 26px 56px -32px rgba(22,39,96,.55)}
+.os-frame--bracket{--c:#EAA93C;--len:22px;--th:2px;--gap:12px;padding:var(--gap);transition:padding .24s cubic-bezier(.16,1,.3,1);background:
+ linear-gradient(var(--c),var(--c)) top left/var(--len) var(--th) no-repeat,linear-gradient(var(--c),var(--c)) top left/var(--th) var(--len) no-repeat,
+ linear-gradient(var(--c),var(--c)) top right/var(--len) var(--th) no-repeat,linear-gradient(var(--c),var(--c)) top right/var(--th) var(--len) no-repeat,
+ linear-gradient(var(--c),var(--c)) bottom left/var(--len) var(--th) no-repeat,linear-gradient(var(--c),var(--c)) bottom left/var(--th) var(--len) no-repeat,
+ linear-gradient(var(--c),var(--c)) bottom right/var(--len) var(--th) no-repeat,linear-gradient(var(--c),var(--c)) bottom right/var(--th) var(--len) no-repeat}
+.os-frame--bracket .os-frame__media{border-radius:8px}
+.os-frame--bracket:hover,.os-frame--bracket:focus-within{--gap:7px}
+@media(prefers-reduced-motion:reduce){.os-frame,.os-frame--bracket{transition:none}}

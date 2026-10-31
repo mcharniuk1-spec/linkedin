@@ -1,0 +1,2 @@
+# People photos (V10)
+Two 200x200 JPEG portraits of the co-founders Maksym Charniuk and Mykhailo Amplieiev, copied unchanged on 2026-10-31 from the owner's own public site https://www.arch-flow.dev/ (assets/founders/founder-research.jpg, founder-product.jpg). Reuse on the Outspoken site is authorized by the owner's brief of 31 Oct 2026. Names, roles and LinkedIn links come from the same page. Do not reuse elsewhere without the founders' consent.
