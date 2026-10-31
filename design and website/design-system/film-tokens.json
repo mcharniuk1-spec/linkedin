@@ -1,0 +1,36 @@
+{
+  "$description": "PROPOSED film extension of the Outspoken tokens (31 Oct 2026): video-only values derived from the design-system audit for a 75-80 s, 1920x1080, 30 fps LinkedIn film. Not part of tokens.json and not generated into the web CSS; owner sign-off pending (particle bursts in particular extend the quiet editorial system). The film project reads colours from tokens.json and mirrors these values in film/src/kit.",
+  "state": "proposed_owner_pending",
+  "aliases": {"paper": "palette.pearl #F1F3F6", "silver": "palette.nickel #A9AFBA", "marker": "palette.marigold-300 #F6D591", "ink": "palette.navy #162760"},
+  "grounds": {"navy-deep": "#101E4B", "navy-night": "#071024", "scrim": "rgba(22,39,96,0.72)", "shadow-contact": "rgba(7,16,36,0.40)", "glow-cobalt": "rgba(49,87,213,0.35)"},
+  "wordmark": {"out-inverse": "#F2F5FA", "spoken-inverse": "#B9C7DA", "rim-on-dark": "palette.nickel", "rim-on-light": "palette.cobalt"},
+  "heat": ["#FFFFFF", "#F6E6BD", "#F6D591", "#F3C15D", "#EAA93C", "#CC8C30", "#824F19"],
+  "particleWeights": {"marigold-500": 0.35, "marigold-400": 0.25, "marigold-300": 0.2, "white": 0.12, "nickel": 0.08},
+  "font": {
+    "display": "\"Fraunces\", Georgia, serif",
+    "text": "\"Mona Sans\", Inter, system-ui, sans-serif",
+    "mono": "\"Geist Mono\", ui-monospace, monospace",
+    "displayVariationProposal": "'opsz' 96, 'SOFT' 0, 'WONK' 0 (verify on a probe frame at CRF 18)"
+  },
+  "typePx1080": {
+    "display": {"size": 200, "lineHeight": 1.0, "tracking": "-0.02em", "maxWords": 5},
+    "headline": {"size": 128, "lineHeight": 1.05, "tracking": "-0.02em", "maxWords": 7, "maxLines": 3},
+    "sub": {"size": 88, "lineHeight": 1.1, "tracking": "-0.015em"},
+    "body": {"size": 64, "lineHeight": 1.3, "tracking": "0"},
+    "label": {"size": 56, "lineHeight": 1.2, "tracking": "+0.09em", "family": "Geist Mono 500 uppercase", "maxChars": 24},
+    "caption": {"size": 52, "lineHeight": 1.3, "tracking": "+0.09em"},
+    "minPx": {"meaning": 60, "label": 56, "disclosureMin": 40},
+    "rationale": "Web sizes (label 12, body 18) render at 2.4-4.9 CSS px on a ~390 px phone feed when a 1920 px film is scaled to it (scale ~0.2). Assumption: the feed width is not specified by LinkedIn's spec page."
+  },
+  "canvas": {"width": 1920, "height": 1080, "fps": 30, "safeActionPct": 5, "safeTitle": {"x": 154, "top": 108, "bottom": 162}, "bottomReservedPct": 15},
+  "geometry1080": {"radius": {"control": 12, "panel": 20, "media": 28}, "stroke": {"hairline": 2, "rim": 6, "callout": 3}, "space": [8, 16, 24, 32, 48, 64, 96, 128], "panelSeparation": 48},
+  "motion": {
+    "ease": {"brand": "cubic-bezier(0.22,1,0.36,1)", "camera": "cubic-bezier(0.45,0,0.15,1)", "inOut": "cubic-bezier(0.65,0,0.35,1)", "exit": "cubic-bezier(0.7,0,0.84,0)"},
+    "spring": {"calm": {"damping": 26, "stiffness": 120, "mass": 1}, "arrive": {"damping": 22, "stiffness": 140, "mass": 1}, "pop": {"damping": 16, "stiffness": 180, "mass": 0.8}, "note": "analytical zeta 1.19 / 0.93 / 0.67; verify in Remotion; Remotion's default spring overshoots ~16 % and is not used"},
+    "frames30": {"micro": 6, "arrive": 16, "diagram": 20, "camera": 45, "transition": 10, "stagger": 3, "holdMin": 20, "holdPerWordBeyond3": 9},
+    "camera": {"zoomMax": 1.18, "punchMax": 1.25, "punchFramesMax": 8, "panMaxPct": 8, "rollMaxDeg": 1.5, "driftPx": 6, "driftPeriodFrames": 70, "parallaxDepths": [0.3, 0.6, 1.0, 1.6], "mediaTiltMaxDeg": 6}
+  },
+  "particles": {"maxPerBurst": 220, "ignitionMax": 320, "sizePx": [4, 10], "lifeFrames": [24, 48], "finaleLifeFrames": 66, "bigBurstsMax": 8, "calmAfterBurstFrames": 30, "textKeepoutPx": 24, "overlappingAdditiveLayersMax": 2},
+  "flash": {"maxAlpha": 0.2, "maxFrames": 3, "maxPerSecond": 3},
+  "delivery": {"container": "mp4 (faststart)", "video": "H.264 High, yuv420p, BT.709, CRF 16-18, 30 fps", "audio": "AAC 48 kHz stereo", "loudnessNote": "see film/DESIGN-FIT.md: LinkedIn publishes no loudness target; the film targets about -16 LUFS integrated, true peak <= -1.5 dBTP", "linkedinLimits": "1920x1080 max for 16:9, 30 fps recommended, 75 KB-500 MB, 3 s-30 min (business.linkedin.com ads video specs, read 31 Oct 2026)"}
+}

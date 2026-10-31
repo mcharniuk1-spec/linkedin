@@ -1,0 +1,21 @@
+[
+  {"t": 0.4, "type": "tick", "gain": 0.5, "pan": -0.5, "note": "cut 1 POSITIONING: label lands on the word, 40 nickel dots pop in top-left, hub ripple"},
+  {"t": 1.1, "type": "tick", "gain": 0.5, "pan": 0.5, "note": "cut 2 PROFILE: label lands, profile skeleton assembles from particles top-right"},
+  {"t": 1.5, "type": "whoosh", "dur": 0.3, "gain": 0.25, "pan": -0.4, "note": "quiet move: next mini-scene arrives bottom-left"},
+  {"t": 1.6, "type": "tick", "gain": 0.5, "pan": -0.5, "note": "cut 3 CONTENT STRATEGY: label lands, seven cadence dots start to light"},
+  {"t": 2.3, "type": "whoosh", "dur": 0.3, "gain": 0.25, "pan": 0.4, "note": "quiet move: next mini-scene arrives bottom-right"},
+  {"t": 2.37, "type": "tick", "gain": 0.5, "pan": 0.5, "note": "cut 4 WRITING: label lands, generic draft line staggers in"},
+  {"t": 2.73, "type": "whoosh", "dur": 0.3, "gain": 0.22, "pan": -0.4, "note": "quiet move: positioning clears, visuals takes the top-left"},
+  {"t": 2.8, "type": "tick", "gain": 0.5, "pan": -0.5, "note": "cut 5 VISUALS: label lands, publication frame draws"},
+  {"t": 3.17, "type": "whoosh", "dur": 0.3, "gain": 0.22, "pan": 0.4, "note": "quiet move: profile clears, campaigns takes the top-right"},
+  {"t": 3.23, "type": "tick", "gain": 0.5, "pan": 0.5, "note": "cut 6 CAMPAIGNS: label lands, rhythm dots start"},
+  {"t": 3.47, "type": "tick", "gain": 0.35, "pan": 0.4, "note": "draft line struck through"},
+  {"t": 4.47, "type": "sparkle", "gain": 0.35, "pan": -0.4, "note": "visual planes re-lock into the frame"},
+  {"t": 4.93, "type": "whoosh", "dir": "up", "dur": 0.5, "gain": 0.35, "pan": 0, "note": "dock begins: four panes shrink toward the ring"},
+  {"t": 5.2, "type": "tick", "gain": 0.45, "pan": 0, "note": "title 'Six jobs' lands on the spoken words"},
+  {"t": 5.27, "type": "whoosh", "dur": 0.35, "gain": 0.25, "pan": -0.6, "note": "positioning module flies in from the left"},
+  {"t": 5.4, "type": "whoosh", "dur": 0.35, "gain": 0.25, "pan": 0.6, "note": "profile module flies in from the right"},
+  {"t": 6.27, "type": "sparkle", "gain": 0.9, "pan": 0, "note": "dock: the last module latches, six spokes meet the founder disc"},
+  {"t": 7.4, "type": "tick", "gain": 0.45, "pan": 0, "note": "title 'one difference' lands as the thread starts to run"},
+  {"t": 8.27, "type": "sparkle", "gain": 0.5, "pan": 0, "note": "dock: the thread closes through all six modules"}
+]

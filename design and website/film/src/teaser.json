@@ -1,0 +1,11 @@
+{
+  "name": "Teaser 16:9, about 30 s: the hook, the detonation, the spread, the verdict and the invitation",
+  "crossfadeFrames": 12,
+  "segments": [
+    {"scene": "S1", "from": 0.6, "to": 6.6, "enter": "none"},
+    {"scene": "S4", "from": 4.2, "to": 9.0, "enter": "wipe"},
+    {"scene": "S5", "from": 0.8, "to": 6.4, "enter": "bloom"},
+    {"scene": "S7", "from": 3.2, "to": 8.2, "enter": "shutter"},
+    {"scene": "S9", "from": 0.0, "to": 9.4, "enter": "bloom"}
+  ]
+}

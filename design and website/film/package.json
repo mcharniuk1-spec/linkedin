@@ -1,0 +1,27 @@
+{
+  "name": "outspoken-film",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync-assets.mjs",
+    "timeline": "node scripts/build-timeline.mjs",
+    "vo": "node scripts/make-vo-sheet.mjs",
+    "audio": "npm run timeline && python3 scripts/audio/synth.py",
+    "typecheck": "tsc --noEmit",
+    "render": "node render.mjs",
+    "qa": "python3 scripts/qa/qa.py"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.520",
+    "@remotion/renderer": "4.0.520",
+    "remotion": "4.0.520",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.10",
+    "@types/react-dom": "19.1.9",
+    "typescript": "5.9.2"
+  }
+}

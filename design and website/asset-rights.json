@@ -4,6 +4,12 @@
   "status": "verified_for_public_projection_with_explicit_exclusions",
   "scope": "Exact public assets from V9 candidate plus all recovered eligible inputs and registered runtime additions. Original source and rights evidence read locally; no new legal clearance claimed.",
   "paths": [
+    "assets/public/assets/film/contact-master.png",
+    "assets/public/assets/film/contact-teaser.png",
+    "assets/public/assets/film/master-preview-720p.mp4",
+    "assets/public/assets/film/phone-montage.png",
+    "assets/public/assets/film/poster.jpg",
+    "assets/public/assets/film/teaser-preview-720p.mp4",
     "assets/public/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
     "assets/public/assets/identity/font-source/archivo/OFL.txt",
     "assets/public/assets/identity/font-source/fraunces/OFL.txt",
@@ -428,6 +434,114 @@
     "assets/public/video/revisions/v5/Outspoken-v5-style-proof-square.mp4"
   ],
   "assets": [
+    {
+      "path": "assets/public/assets/film/contact-master.png",
+      "repository_path": "design and website/assets/public/assets/film/contact-master.png",
+      "sha256": "4fa8318ce6b8a20e3707e5c5c3960d453cc4a7a2404bfc944f6132b2e5f561eb",
+      "bytes": 981812,
+      "source": "film/ build: Remotion render of owned design-system graphics and the owner's brand SVGs; audio synthesised in code by film/scripts/audio/synth.py; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/film/renders/README.md",
+        "design and website/film/SPEC.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed creative work; owner acceptance is false.",
+        "Fictional founder, accounts and buyer are labelled on screen; no real person, client, quote or statistic appears.",
+        "Fonts are SIL OFL 1.1 (texts beside the bundled files); the sound is a code-synthesised stand-in for a recorded orchestra."
+      ]
+    },
+    {
+      "path": "assets/public/assets/film/contact-teaser.png",
+      "repository_path": "design and website/assets/public/assets/film/contact-teaser.png",
+      "sha256": "c47730cffbc957c87a57f979ba69a23c2e09735878043b6d532d787f19b0917c",
+      "bytes": 429269,
+      "source": "film/ build: Remotion render of owned design-system graphics and the owner's brand SVGs; audio synthesised in code by film/scripts/audio/synth.py; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/film/renders/README.md",
+        "design and website/film/SPEC.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed creative work; owner acceptance is false.",
+        "Fictional founder, accounts and buyer are labelled on screen; no real person, client, quote or statistic appears.",
+        "Fonts are SIL OFL 1.1 (texts beside the bundled files); the sound is a code-synthesised stand-in for a recorded orchestra."
+      ]
+    },
+    {
+      "path": "assets/public/assets/film/master-preview-720p.mp4",
+      "repository_path": "design and website/assets/public/assets/film/master-preview-720p.mp4",
+      "sha256": "5d5c9e37a8d65d91494f589a4eae62fa2524d2b9306f6f0f08422d77873ba94b",
+      "bytes": 6187403,
+      "source": "film/ build: Remotion render of owned design-system graphics and the owner's brand SVGs; audio synthesised in code by film/scripts/audio/synth.py; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/film/renders/README.md",
+        "design and website/film/SPEC.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed creative work; owner acceptance is false.",
+        "Fictional founder, accounts and buyer are labelled on screen; no real person, client, quote or statistic appears.",
+        "Fonts are SIL OFL 1.1 (texts beside the bundled files); the sound is a code-synthesised stand-in for a recorded orchestra."
+      ]
+    },
+    {
+      "path": "assets/public/assets/film/phone-montage.png",
+      "repository_path": "design and website/assets/public/assets/film/phone-montage.png",
+      "sha256": "a495033763820541763ebe1300017f5f2dad69324d9c769371ff3b0eb979f68b",
+      "bytes": 842159,
+      "source": "film/ build: Remotion render of owned design-system graphics and the owner's brand SVGs; audio synthesised in code by film/scripts/audio/synth.py; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/film/renders/README.md",
+        "design and website/film/SPEC.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed creative work; owner acceptance is false.",
+        "Fictional founder, accounts and buyer are labelled on screen; no real person, client, quote or statistic appears.",
+        "Fonts are SIL OFL 1.1 (texts beside the bundled files); the sound is a code-synthesised stand-in for a recorded orchestra."
+      ]
+    },
+    {
+      "path": "assets/public/assets/film/poster.jpg",
+      "repository_path": "design and website/assets/public/assets/film/poster.jpg",
+      "sha256": "d3ea6bd5d702adadfc93a33174a0a9c1c2638bf82469fa975e711946a683bfb4",
+      "bytes": 29160,
+      "source": "film/ build: Remotion render of owned design-system graphics and the owner's brand SVGs; audio synthesised in code by film/scripts/audio/synth.py; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/film/renders/README.md",
+        "design and website/film/SPEC.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed creative work; owner acceptance is false.",
+        "Fictional founder, accounts and buyer are labelled on screen; no real person, client, quote or statistic appears.",
+        "Fonts are SIL OFL 1.1 (texts beside the bundled files); the sound is a code-synthesised stand-in for a recorded orchestra."
+      ]
+    },
+    {
+      "path": "assets/public/assets/film/teaser-preview-720p.mp4",
+      "repository_path": "design and website/assets/public/assets/film/teaser-preview-720p.mp4",
+      "sha256": "74c5f90135649a30928a9a2ab85d6d982da34162d35cd7f1704289bbb10e9bab",
+      "bytes": 2770400,
+      "source": "film/ build: Remotion render of owned design-system graphics and the owner's brand SVGs; audio synthesised in code by film/scripts/audio/synth.py; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/film/renders/README.md",
+        "design and website/film/SPEC.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed creative work; owner acceptance is false.",
+        "Fictional founder, accounts and buyer are labelled on screen; no real person, client, quote or statistic appears.",
+        "Fonts are SIL OFL 1.1 (texts beside the bundled files); the sound is a code-synthesised stand-in for a recorded orchestra."
+      ]
+    },
     {
       "path": "assets/public/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
       "repository_path": "design and website/assets/public/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
@@ -7667,9 +7781,9 @@
     }
   ],
   "counts": {
-    "assets": 424,
+    "assets": 430,
     "excluded": 21,
-    "included_assets": 422,
+    "included_assets": 428,
     "excluded_assets": 23
   },
   "license_records": {

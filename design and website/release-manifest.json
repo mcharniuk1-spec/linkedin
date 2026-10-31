@@ -24,8 +24,8 @@
   "files": [
     {
       "path": "HANDOFF.md",
-      "bytes": 2730,
-      "sha256": "d86319e01e7637a617f976f366cc27c720fe0f6e0370b9fda747e3b010865097"
+      "bytes": 3878,
+      "sha256": "151b86828f8a0bb3234227b9fd87c380fcbc294f6c30d44aeea95be447ee14b4"
     },
     {
       "path": "README.md",
@@ -34,13 +34,43 @@
     },
     {
       "path": "asset-rights.json",
-      "bytes": 398899,
-      "sha256": "76e9b95e10a51731f0ff436af484e5b09ba61e4594be75f9532e05653ce61de7"
+      "bytes": 405209,
+      "sha256": "9ecf71db090c1d7dc280f312dff9dec4f01e2fd41f77b7107e88e67b15ed903a"
     },
     {
       "path": "assets/README.md",
       "bytes": 1126,
       "sha256": "a90e35385d4ba0cd12d97ed984a40b85b08d4e2c3e651869f932fc135c15f354"
+    },
+    {
+      "path": "assets/public/assets/film/contact-master.png",
+      "bytes": 981812,
+      "sha256": "4fa8318ce6b8a20e3707e5c5c3960d453cc4a7a2404bfc944f6132b2e5f561eb"
+    },
+    {
+      "path": "assets/public/assets/film/contact-teaser.png",
+      "bytes": 429269,
+      "sha256": "c47730cffbc957c87a57f979ba69a23c2e09735878043b6d532d787f19b0917c"
+    },
+    {
+      "path": "assets/public/assets/film/master-preview-720p.mp4",
+      "bytes": 6187403,
+      "sha256": "5d5c9e37a8d65d91494f589a4eae62fa2524d2b9306f6f0f08422d77873ba94b"
+    },
+    {
+      "path": "assets/public/assets/film/phone-montage.png",
+      "bytes": 842159,
+      "sha256": "a495033763820541763ebe1300017f5f2dad69324d9c769371ff3b0eb979f68b"
+    },
+    {
+      "path": "assets/public/assets/film/poster.jpg",
+      "bytes": 29160,
+      "sha256": "d3ea6bd5d702adadfc93a33174a0a9c1c2638bf82469fa975e711946a683bfb4"
+    },
+    {
+      "path": "assets/public/assets/film/teaser-preview-720p.mp4",
+      "bytes": 2770400,
+      "sha256": "74c5f90135649a30928a9a2ab85d6d982da34162d35cd7f1704289bbb10e9bab"
     },
     {
       "path": "assets/public/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
@@ -2153,6 +2183,21 @@
       "sha256": "6924d635d62bdc6b787b9dec2a6b95c767d2d231a315871d90453a94412859ce"
     },
     {
+      "path": "deploy/vercel/README.md",
+      "bytes": 2325,
+      "sha256": "9b04f12a71799cd0b3d63569f99e5e9276ac5443182f1010a741bb9a00327e92"
+    },
+    {
+      "path": "deploy/vercel/vercel-build.sh",
+      "bytes": 1439,
+      "sha256": "56e92a8817f3da335aff862e892ee7d102834299280c5c9e30ad13938e603505"
+    },
+    {
+      "path": "deploy/vercel/vercel.json",
+      "bytes": 205,
+      "sha256": "64b5ab2eae818f364267f30ccb45d19030e875b5f7a4ef6d3e80d9ed3c64fc4a"
+    },
+    {
       "path": "design-system/COMPONENT-INDEX-v5.md",
       "bytes": 67692,
       "sha256": "c96ef00ffe344ab265efc5720d778da7a77e6ad33dc99318536b191091c9ca1c"
@@ -2164,8 +2209,8 @@
     },
     {
       "path": "design-system/DESIGN.md",
-      "bytes": 26901,
-      "sha256": "aa2dcf06fd03a590451a7e1c0d1e52bfedb354b52dda2cdfd45448dda565da5c"
+      "bytes": 26899,
+      "sha256": "f155ea2ac806f89951dd10be72d46e91640588f008b8fdeebf94eeee44879b53"
     },
     {
       "path": "design-system/README.md",
@@ -2174,8 +2219,8 @@
     },
     {
       "path": "design-system/START-HERE.md",
-      "bytes": 7561,
-      "sha256": "025c1e824f9fef3c01f8d2cc3df0b92f90f8a409f59ac347f3438cd89f88acb2"
+      "bytes": 7559,
+      "sha256": "ddc40bc75ef7354ce44e8c25e0c682644214af092cdce14d7e1b9eb6e4f06ef4"
     },
     {
       "path": "design-system/agent-config.json",
@@ -2186,6 +2231,11 @@
       "path": "design-system/catalog-plan.json",
       "bytes": 84103,
       "sha256": "a8d10fdc711c0dd53eb1409577976c7f6c38ddbf90a5f53a5d7e424541d83751"
+    },
+    {
+      "path": "design-system/film-tokens.json",
+      "bytes": 4163,
+      "sha256": "2a39a93286248eb14089024db0bf2a62b6f9d01ee806475a3c7facf9628fd148"
     },
     {
       "path": "design-system/generation-recipes.md",
@@ -2231,6 +2281,391 @@
       "path": "design-system/writing/content-contract.md",
       "bytes": 8049,
       "sha256": "d958f578c3786b6c9b388e5a724c6829bc975f35756c18a05cdbb4c312f3c87d"
+    },
+    {
+      "path": "film/.gitignore",
+      "bytes": 138,
+      "sha256": "5836fb1ace80f6b06259aaa27119bb9fdd132b16b97d82a84e5005df39a89311"
+    },
+    {
+      "path": "film/DESIGN-FIT.md",
+      "bytes": 7720,
+      "sha256": "99142951ee19f7390387f69a2f4f6f55322dde946b191ec77de40cf7fc2491dc"
+    },
+    {
+      "path": "film/PLAN-NEXT.md",
+      "bytes": 7029,
+      "sha256": "2b265cf36082c20ca01752ba7a756b57f59ed8c8c91bb54a91f9a10ad29d74f3"
+    },
+    {
+      "path": "film/PROMPT-FOR-CLAUDE.md",
+      "bytes": 4533,
+      "sha256": "dbfdc7f72b3851f2476bc3183c367b49874f3da788db4f906877fa19cef1a129"
+    },
+    {
+      "path": "film/README.md",
+      "bytes": 3596,
+      "sha256": "7d141710135603d7ca02e1d9a5eb1457c37b72cb727825c3427cbc3131920e78"
+    },
+    {
+      "path": "film/RESEARCH.md",
+      "bytes": 6125,
+      "sha256": "5dca3322db9f941fca9013350ee2d2b54464b5f169120c4bb0c99b1500a93747"
+    },
+    {
+      "path": "film/SPEC.md",
+      "bytes": 18261,
+      "sha256": "d190b57d48e5defb588daed756d70ae51cbb6bb954716a0b63680909fde7302d"
+    },
+    {
+      "path": "film/package-lock.json",
+      "bytes": 103773,
+      "sha256": "4054508a743bcf336dc79d5441bf259d64b9824774729269d8af5b217c09be0e"
+    },
+    {
+      "path": "film/package.json",
+      "bytes": 714,
+      "sha256": "ee9042fbf0f877624c0f2248957b908dc596ecab417e8446a4610b3812793f93"
+    },
+    {
+      "path": "film/public/brand/flat-inverse.svg",
+      "bytes": 470,
+      "sha256": "5bfb02824e908e5e0b02f1673bd694549eee915a44b86b0a331aeb1832ac6131"
+    },
+    {
+      "path": "film/public/brand/flat.svg",
+      "bytes": 898,
+      "sha256": "7248808267bfe0ac25e6f3e085cca51a22a74bfb0e4df2775c213c8736e43240"
+    },
+    {
+      "path": "film/public/brand/lockup-inverse.svg",
+      "bytes": 24823,
+      "sha256": "e4a310f9252c839acd903a0e1eda6f594a68cc11675ebf5f1792d808801a5297"
+    },
+    {
+      "path": "film/public/brand/wordmark-gradient.svg",
+      "bytes": 24549,
+      "sha256": "4a3a0e3392e86497cf9ff5c9beec5d5317944db916da848bcaf85913d2e2f902"
+    },
+    {
+      "path": "film/public/brand/wordmark-inverse.svg",
+      "bytes": 24536,
+      "sha256": "fd05d9c78f4a1a6d461fdd2c4c9361f8310e2adb3efd0e1487d82d03b4f276f6"
+    },
+    {
+      "path": "film/public/brand/wordmark-marigold.svg",
+      "bytes": 24537,
+      "sha256": "769ffdf83abd8e53a8596dcff8a91c7a484a4b94d13ab10d1a125d871e998fba"
+    },
+    {
+      "path": "film/public/fonts/OFL-fraunces.txt",
+      "bytes": 4504,
+      "sha256": "cd3384cafac6f2bddc3955273958a2e029f97027c8037ac539ef5744a77b579e"
+    },
+    {
+      "path": "film/public/fonts/OFL-geist-mono.txt",
+      "bytes": 4498,
+      "sha256": "cc815ed4fc045f0e991abb10395b7932bd028c6a067deb13316d6002105074e6"
+    },
+    {
+      "path": "film/public/fonts/OFL-mona-sans.txt",
+      "bytes": 4564,
+      "sha256": "41e9911493de5899a20336baf13b6ea6483b5eea34e237f2ffed22c39bdc4a8d"
+    },
+    {
+      "path": "film/render.mjs",
+      "bytes": 4171,
+      "sha256": "464a8e0f6491d9340b3c0a6f2f8fc1c219776faa5cbfb99d7a741f39824e8333"
+    },
+    {
+      "path": "film/renders/README.md",
+      "bytes": 2457,
+      "sha256": "71f4941833f1dadf66a2364a0d77b94df2b9982058742656fce7e43dfa0bfeb3"
+    },
+    {
+      "path": "film/renders/qa-master.json",
+      "bytes": 3414,
+      "sha256": "727d413c24098162473fcd9d589d1c465f0e924b0068add30e3f0778c1e03bcd"
+    },
+    {
+      "path": "film/renders/qa-teaser.json",
+      "bytes": 1948,
+      "sha256": "13906f7e7cb26cd87a57c16a48edf7e48c9b0ad087afe24f0dfc24a4fe35aed3"
+    },
+    {
+      "path": "film/scripts/audio/synth.py",
+      "bytes": 16369,
+      "sha256": "fa3257c98e6b764216956a494425513bdde830b507efd49345dde94ecb80bf4c"
+    },
+    {
+      "path": "film/scripts/build-timeline.mjs",
+      "bytes": 2139,
+      "sha256": "5255efbe5488072bc84cce853101d226d86b3e659267c0b472c387a154430fa3"
+    },
+    {
+      "path": "film/scripts/make-teaser.mjs",
+      "bytes": 2100,
+      "sha256": "d4895752576f4b0c0ba0e3c4ea2da9e79c6ee3b8f8a5bd0b6416b8cc0ad266b2"
+    },
+    {
+      "path": "film/scripts/make-vo-sheet.mjs",
+      "bytes": 5098,
+      "sha256": "67032272f019780c5df08113f430e6a8071932c53429bd57ce63104a13638845"
+    },
+    {
+      "path": "film/scripts/qa/qa.py",
+      "bytes": 9623,
+      "sha256": "0f0b5e9febfd1b062c7265c54a7f35bf06e6bfb31942bce5855ffc6de86eb677"
+    },
+    {
+      "path": "film/scripts/sync-assets.mjs",
+      "bytes": 2029,
+      "sha256": "679aa200d8178ee814c4a0ccd61788b159bc4ade63e1643c26a6c3ff6c7e90d1"
+    },
+    {
+      "path": "film/src/Film.tsx",
+      "bytes": 1721,
+      "sha256": "dca199e6d78008c0ab5d0d7d393287ddbb8a0e9eb36a624036ca9cb6f907577f"
+    },
+    {
+      "path": "film/src/Root.tsx",
+      "bytes": 926,
+      "sha256": "2b003f8a7a1a74a50593e86e500f23088836180790463f378f8fcf3cb9cea49e"
+    },
+    {
+      "path": "film/src/Teaser.tsx",
+      "bytes": 1893,
+      "sha256": "c353439de6617745e59036a3410a139f73428ea2a1f43651327ec7482cd558ca"
+    },
+    {
+      "path": "film/src/generated/tokens.json",
+      "bytes": 834,
+      "sha256": "36ec3c4ad0b03002ecccd8ab0745d3c3b00771b25ac0aa5b4df984f72d15e9fd"
+    },
+    {
+      "path": "film/src/index.tsx",
+      "bytes": 89,
+      "sha256": "a58f804bf74bab68b4549aa5c715eb4a89ec5835206d198fc79b462b4fc71ef9"
+    },
+    {
+      "path": "film/src/kit/Camera.tsx",
+      "bytes": 2251,
+      "sha256": "615b7fbd8c8a53c5448974c488162307a74dbd9a6e4f2a2ed386515f02092134"
+    },
+    {
+      "path": "film/src/kit/Chrome.tsx",
+      "bytes": 2517,
+      "sha256": "e9c48ca6c7bbd21e124e6d65593c6d6da539ee0d0e6a4b1ed5a720e4a598e7d0"
+    },
+    {
+      "path": "film/src/kit/Particles.tsx",
+      "bytes": 4202,
+      "sha256": "8b852c93b9aa95231045906da2af9be20d01138367815509b942e246076d8690"
+    },
+    {
+      "path": "film/src/kit/Scene.tsx",
+      "bytes": 2584,
+      "sha256": "3e1412b653a6b16c07e2f77b5c71d38ffaeb1c1c1f7b19b93983583bd92e10f0"
+    },
+    {
+      "path": "film/src/kit/Type.tsx",
+      "bytes": 2636,
+      "sha256": "b0788ef11fc84459b16430bf88e8461a8b309d62bf16bd3ea495d13ecfeaf7d3"
+    },
+    {
+      "path": "film/src/kit/ease.ts",
+      "bytes": 436,
+      "sha256": "cdb053c37eabe90de146ba54a459d165cbc543d8e2913d1a8c24d68b2a478d2a"
+    },
+    {
+      "path": "film/src/kit/fonts.tsx",
+      "bytes": 1057,
+      "sha256": "c2233e0bea2e0a4a688fc6c9a880f646722829ab4fc475096d72a05d1534aec5"
+    },
+    {
+      "path": "film/src/kit/head.ts",
+      "bytes": 2754,
+      "sha256": "b5d885706d97800f90689588ef2e93ddb3013a11d07797f3d0a2c9966d9be7bb"
+    },
+    {
+      "path": "film/src/kit/rng.ts",
+      "bytes": 815,
+      "sha256": "207c84629a4b2f5c31bf113c911377e2d3a0f05af5969bc9f0284e2f671a0a34"
+    },
+    {
+      "path": "film/src/kit/tokens.ts",
+      "bytes": 2803,
+      "sha256": "d1301ced4fc18ce06c5b095daa0e3ec2cffa1d430c8667fba2907228121be267"
+    },
+    {
+      "path": "film/src/scenes/S1.S3.shared.tsx",
+      "bytes": 4533,
+      "sha256": "b6923cc736da503a26ed1fa9067d2c6f71660296c57352774d3a20d6e8298780"
+    },
+    {
+      "path": "film/src/scenes/S1.events.json",
+      "bytes": 1321,
+      "sha256": "20dc22fae25cba98431afdb252b67e65f011bdb0250cac1f5c47742c82dea34c"
+    },
+    {
+      "path": "film/src/scenes/S1.tsx",
+      "bytes": 14059,
+      "sha256": "4db97325feadcd52097d42da5b669a18a8bc565c646b54fb5709c6900fa88ee5"
+    },
+    {
+      "path": "film/src/scenes/S2.events.json",
+      "bytes": 4180,
+      "sha256": "6271b4272b7616477e40500c8856f86ebb10fb9598e4d20f62adba00614caf1a"
+    },
+    {
+      "path": "film/src/scenes/S2.shared.tsx",
+      "bytes": 9638,
+      "sha256": "b838e79d8dd0c95d619792826aed1fac5a82cae85c841b24e770c7f8f8c370a5"
+    },
+    {
+      "path": "film/src/scenes/S2.tsx",
+      "bytes": 22043,
+      "sha256": "5bbd3b51b0c8423f65baed0930aa0f7739568aec0312cae81e9ba8b21d167173"
+    },
+    {
+      "path": "film/src/scenes/S3.events.json",
+      "bytes": 773,
+      "sha256": "444931c9cfd76b2219c449958e1bc3d0601c06fe09e8d8feee3899fabcbac089"
+    },
+    {
+      "path": "film/src/scenes/S3.tsx",
+      "bytes": 10376,
+      "sha256": "e5543984f54bcf74b81e26ac1d273ea208520277327fc32fa93015fa6906713f"
+    },
+    {
+      "path": "film/src/scenes/S4.S9.shared.tsx",
+      "bytes": 1262,
+      "sha256": "98ce9bf4714aeb10395074fb64f47d50558330e9ad01f003f01772f9a3e34002"
+    },
+    {
+      "path": "film/src/scenes/S4.events.json",
+      "bytes": 1534,
+      "sha256": "4dd7bc53ec8a1fbfc6f29e0abb7693caa7c1b11dc8f28d92084d45d8c9fc3ad6"
+    },
+    {
+      "path": "film/src/scenes/S4.field.tsx",
+      "bytes": 9996,
+      "sha256": "f976f5ea85e87ca250e62851e640f1517ce1166a5df6735c588ddddff604e0b4"
+    },
+    {
+      "path": "film/src/scenes/S4.post.tsx",
+      "bytes": 7174,
+      "sha256": "c05ff194f54934aac1ef11939d6ea0cfd9abea550fd3445d0ffd5a20b8e96354"
+    },
+    {
+      "path": "film/src/scenes/S4.tsx",
+      "bytes": 6908,
+      "sha256": "00451ae22e6cc913e4ff211efbe9d2acf40d5fb7fde9b83afdc92cae6544a986"
+    },
+    {
+      "path": "film/src/scenes/S5.events.json",
+      "bytes": 2176,
+      "sha256": "e6a88c1336cce7eda023486a48f6a6c2009409b01004352cb8a51f18505a9059"
+    },
+    {
+      "path": "film/src/scenes/S5.tsx",
+      "bytes": 23329,
+      "sha256": "3da3d9fc95a3e558778eb592eb7f005f30f55e30fab4120b9731b54cc2d3f543"
+    },
+    {
+      "path": "film/src/scenes/S6.diagrams.tsx",
+      "bytes": 18454,
+      "sha256": "8c92bca3cccb3ceca4ac292e1a3eb7e8a41d309f633ea3452eae362033158bc3"
+    },
+    {
+      "path": "film/src/scenes/S6.events.json",
+      "bytes": 2411,
+      "sha256": "a9888e88e211f4dbe19460cfe2ef1c16e3cf4d3d5a65ec9b9cb29717b0fc43ec"
+    },
+    {
+      "path": "film/src/scenes/S6.tsx",
+      "bytes": 15829,
+      "sha256": "046f647aa099bb2aec671ff2d891a22eb55a7318401285abe6aae5a1a9125624"
+    },
+    {
+      "path": "film/src/scenes/S7.S8.shared.tsx",
+      "bytes": 4359,
+      "sha256": "bdec0c7bc3c1761d38b279d29c2907147993aa702fa885116dbb848b6afea5a3"
+    },
+    {
+      "path": "film/src/scenes/S7.events.json",
+      "bytes": 2114,
+      "sha256": "53382d864fae6148db7c8c7562a04f05d76e95868e28682cb3ad5cafd4e6d4f5"
+    },
+    {
+      "path": "film/src/scenes/S7.tsx",
+      "bytes": 15414,
+      "sha256": "3915792a74ed965c3d14b848b5d723c9f499e01571c3915d5adb38f7b8806591"
+    },
+    {
+      "path": "film/src/scenes/S8.events.json",
+      "bytes": 1844,
+      "sha256": "ca01e9277f8ef4c5d3a73d105bf6426ca0c251859c24b32c427fbf37f8c1de1d"
+    },
+    {
+      "path": "film/src/scenes/S8.tsx",
+      "bytes": 9793,
+      "sha256": "0444306c2d9c5442ddf9e6a569cb1178db40b40381268fb12d85497a2e53d56d"
+    },
+    {
+      "path": "film/src/scenes/S9.events.json",
+      "bytes": 1392,
+      "sha256": "8db677766729ecca75bedc8be0f744710651e8a51e8b4d70a331eaeeece95e0e"
+    },
+    {
+      "path": "film/src/scenes/S9.fx.tsx",
+      "bytes": 6897,
+      "sha256": "7ce95de81dc82284c00df11cad27a98cb75574d5e516398fdc29a1491ebd1a2b"
+    },
+    {
+      "path": "film/src/scenes/S9.tsx",
+      "bytes": 13095,
+      "sha256": "a9e06187c4cc3c8096e2d216230f08a5ebb15abdc94778883cd64e9b75adaf09"
+    },
+    {
+      "path": "film/src/script.json",
+      "bytes": 4357,
+      "sha256": "b90efd86c8ec375b3950e0b03aecf343783017b31f25c4a8f289665292e85225"
+    },
+    {
+      "path": "film/src/teaser.json",
+      "bytes": 470,
+      "sha256": "cccd5191e66fc542747405fd2d3ade7401c985e69867772ac624fcf16bc50db0"
+    },
+    {
+      "path": "film/src/timeline.json",
+      "bytes": 25126,
+      "sha256": "7aa17f39955db126aa73ede64a681ec6e9e5faee0b30b1f714ffcf2e89facc4e"
+    },
+    {
+      "path": "film/src/timeline.ts",
+      "bytes": 487,
+      "sha256": "d218e723240396147934641eaa16b3eead8307395d63e4b5a1b0a02cc4412e9e"
+    },
+    {
+      "path": "film/tsconfig.json",
+      "bytes": 330,
+      "sha256": "3430ef34ef5995a485385a67858246003581e27e0b93d26df0be68e8847dc5cd"
+    },
+    {
+      "path": "film/voiceover/VOICEOVER.md",
+      "bytes": 6658,
+      "sha256": "a5e2dca1b7c85b63ea06172b162a3dc6fcdcb9bd64cd308f6a50d637912e9dfe"
+    },
+    {
+      "path": "film/voiceover/captions.srt",
+      "bytes": 1737,
+      "sha256": "0e4ea416ac4b7b95292f15ed5926dce8bccf86171ab89816f14f9320c5c7cc5c"
+    },
+    {
+      "path": "film/voiceover/vo-timing.csv",
+      "bytes": 1762,
+      "sha256": "2be0cd9c4f3f566ecdc736a9a81fdc01513d44fe3621a5927e62048b64307305"
     },
     {
       "path": "qa/README.md",
@@ -4554,6 +4989,114 @@
     }
   ],
   "rights_ledger": [
+    {
+      "path": "assets/public/assets/film/contact-master.png",
+      "repository_path": "design and website/assets/public/assets/film/contact-master.png",
+      "sha256": "4fa8318ce6b8a20e3707e5c5c3960d453cc4a7a2404bfc944f6132b2e5f561eb",
+      "bytes": 981812,
+      "source": "film/ build: Remotion render of owned design-system graphics and the owner's brand SVGs; audio synthesised in code by film/scripts/audio/synth.py; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/film/renders/README.md",
+        "design and website/film/SPEC.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed creative work; owner acceptance is false.",
+        "Fictional founder, accounts and buyer are labelled on screen; no real person, client, quote or statistic appears.",
+        "Fonts are SIL OFL 1.1 (texts beside the bundled files); the sound is a code-synthesised stand-in for a recorded orchestra."
+      ]
+    },
+    {
+      "path": "assets/public/assets/film/contact-teaser.png",
+      "repository_path": "design and website/assets/public/assets/film/contact-teaser.png",
+      "sha256": "c47730cffbc957c87a57f979ba69a23c2e09735878043b6d532d787f19b0917c",
+      "bytes": 429269,
+      "source": "film/ build: Remotion render of owned design-system graphics and the owner's brand SVGs; audio synthesised in code by film/scripts/audio/synth.py; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/film/renders/README.md",
+        "design and website/film/SPEC.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed creative work; owner acceptance is false.",
+        "Fictional founder, accounts and buyer are labelled on screen; no real person, client, quote or statistic appears.",
+        "Fonts are SIL OFL 1.1 (texts beside the bundled files); the sound is a code-synthesised stand-in for a recorded orchestra."
+      ]
+    },
+    {
+      "path": "assets/public/assets/film/master-preview-720p.mp4",
+      "repository_path": "design and website/assets/public/assets/film/master-preview-720p.mp4",
+      "sha256": "5d5c9e37a8d65d91494f589a4eae62fa2524d2b9306f6f0f08422d77873ba94b",
+      "bytes": 6187403,
+      "source": "film/ build: Remotion render of owned design-system graphics and the owner's brand SVGs; audio synthesised in code by film/scripts/audio/synth.py; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/film/renders/README.md",
+        "design and website/film/SPEC.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed creative work; owner acceptance is false.",
+        "Fictional founder, accounts and buyer are labelled on screen; no real person, client, quote or statistic appears.",
+        "Fonts are SIL OFL 1.1 (texts beside the bundled files); the sound is a code-synthesised stand-in for a recorded orchestra."
+      ]
+    },
+    {
+      "path": "assets/public/assets/film/phone-montage.png",
+      "repository_path": "design and website/assets/public/assets/film/phone-montage.png",
+      "sha256": "a495033763820541763ebe1300017f5f2dad69324d9c769371ff3b0eb979f68b",
+      "bytes": 842159,
+      "source": "film/ build: Remotion render of owned design-system graphics and the owner's brand SVGs; audio synthesised in code by film/scripts/audio/synth.py; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/film/renders/README.md",
+        "design and website/film/SPEC.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed creative work; owner acceptance is false.",
+        "Fictional founder, accounts and buyer are labelled on screen; no real person, client, quote or statistic appears.",
+        "Fonts are SIL OFL 1.1 (texts beside the bundled files); the sound is a code-synthesised stand-in for a recorded orchestra."
+      ]
+    },
+    {
+      "path": "assets/public/assets/film/poster.jpg",
+      "repository_path": "design and website/assets/public/assets/film/poster.jpg",
+      "sha256": "d3ea6bd5d702adadfc93a33174a0a9c1c2638bf82469fa975e711946a683bfb4",
+      "bytes": 29160,
+      "source": "film/ build: Remotion render of owned design-system graphics and the owner's brand SVGs; audio synthesised in code by film/scripts/audio/synth.py; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/film/renders/README.md",
+        "design and website/film/SPEC.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed creative work; owner acceptance is false.",
+        "Fictional founder, accounts and buyer are labelled on screen; no real person, client, quote or statistic appears.",
+        "Fonts are SIL OFL 1.1 (texts beside the bundled files); the sound is a code-synthesised stand-in for a recorded orchestra."
+      ]
+    },
+    {
+      "path": "assets/public/assets/film/teaser-preview-720p.mp4",
+      "repository_path": "design and website/assets/public/assets/film/teaser-preview-720p.mp4",
+      "sha256": "74c5f90135649a30928a9a2ab85d6d982da34162d35cd7f1704289bbb10e9bab",
+      "bytes": 2770400,
+      "source": "film/ build: Remotion render of owned design-system graphics and the owner's brand SVGs; audio synthesised in code by film/scripts/audio/synth.py; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/film/renders/README.md",
+        "design and website/film/SPEC.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed creative work; owner acceptance is false.",
+        "Fictional founder, accounts and buyer are labelled on screen; no real person, client, quote or statistic appears.",
+        "Fonts are SIL OFL 1.1 (texts beside the bundled files); the sound is a code-synthesised stand-in for a recorded orchestra."
+      ]
+    },
     {
       "path": "assets/public/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
       "repository_path": "design and website/assets/public/assets/identity/font-source/archivo/Archivo[wdth,wght].ttf",
@@ -11801,5 +12344,12 @@
     "owner_accepted": false,
     "deployment_performed_by_this_run": false,
     "microphone_series": "requested separately; not part of this update"
+  },
+  "film_update": {
+    "date": "2026-10-31",
+    "scope": "film/ (Remotion launch film, about 80 s, plus a 29 s teaser re-cut, voiceover sheet, procedural audio, QA script, specification, design-system fit audit, research, next-step plan and prompts), design-system/film-tokens.json (proposed), deploy/vercel/ (rehearsed recipe, not executed on Vercel), two damaged sentences fixed in design-system docs",
+    "owner_accepted": false,
+    "deployment_performed_by_this_run": false,
+    "audio": "code-synthesised stand-in for a recorded orchestra; voiceover not recorded"
   }
 }

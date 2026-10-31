@@ -1,0 +1,17 @@
+[
+  {"t": 0.15, "type": "sparkle", "gain": 0.3, "pan": 0.3, "dur": 0.9, "note": "49 identical nickel discs pop in as a wave from the centre of the grid"},
+  {"t": 0.70, "type": "tick", "gain": 0.55, "pan": -0.5, "note": "label THE VERDICT finishes resolving"},
+  {"t": 1.33, "type": "tick", "gain": 0.6, "pan": -0.4, "note": "headline 'Anyone can list features.' starts to land"},
+  {"t": 2.20, "type": "riser", "gain": 0.5, "pan": 0.3, "dur": 1.25, "dir": "up", "note": "tension builds: a pale scan front sweeps across the 49 identical discs toward the one that will change"},
+  {"t": 3.20, "type": "tick", "gain": 0.8, "pan": 0.6, "note": "target ring locks onto the chosen disc (upper right of the grid)"},
+  {"t": 3.50, "type": "boom", "gain": 0.55, "pan": 0.55, "note": "small boom: the chosen disc's outline breaks into the 64-point spline, turns marigold; small particle burst"},
+  {"t": 3.53, "type": "sparkle", "gain": 0.9, "pan": 0.55, "dur": 1.1, "note": "sparkle on the morph, thin ring expands"},
+  {"t": 3.72, "type": "whoosh", "gain": 0.5, "pan": 0.3, "dur": 0.85, "dir": "up", "note": "the blob glides to the centre of the stage and grows while the other 48 discs dim"},
+  {"t": 5.30, "type": "sparkle", "gain": 0.6, "pan": 0.4, "dur": 1.0, "note": "blob settles at full size: soft corona, head outline starts to draw inside it"},
+  {"t": 5.55, "type": "tick", "gain": 0.45, "pan": 0.5, "note": "S2 callback: diamonds (decisions) light one by one"},
+  {"t": 5.90, "type": "tick", "gain": 0.5, "pan": 0.35, "note": "S2 callback: circle pairs (trade-offs) light"},
+  {"t": 6.25, "type": "tick", "gain": 0.55, "pan": 0.45, "note": "S2 callback: hexagons (product knowledge) light, links draw"},
+  {"t": 6.80, "type": "low", "gain": 0.8, "pan": 0, "note": "anticipation drone: the blob breathes once, the vignette deepens"},
+  {"t": 6.90, "type": "tick", "gain": 0.6, "pan": -0.4, "note": "headline 'That difference is the asset.' starts to land"},
+  {"t": 7.73, "type": "sparkle", "gain": 0.5, "pan": -0.3, "dur": 0.8, "note": "marker bar wipes in behind 'the asset.' (last event before the hush)"}
+]

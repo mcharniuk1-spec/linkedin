@@ -1,0 +1,12 @@
+[
+  {"t": 0.00, "type": "riser", "dur": 0.45, "dir": "up", "gain": 0.7, "pan": 0, "note": "particles converge on the centre (bloom is revealing the scene)"},
+  {"t": 0.45, "type": "hit", "gain": 1.1, "pan": 0, "note": "HIT 1, drums enter: the inverse wordmark locks in, corona 1 (160 particles, 66 frames), 3-frame flash"},
+  {"t": 0.80, "type": "whoosh", "dur": 0.8, "dir": "up", "gain": 0.35, "pan": 0, "note": "the wordmark glides up to the top of the frame"},
+  {"t": 1.47, "type": "tick", "gain": 0.35, "pan": 0, "note": "audience line For Europe-based B2B AI SaaS founders appears under the wordmark"},
+  {"t": 1.65, "type": "hit", "gain": 0.95, "pan": 0, "note": "HIT 2: the hero line begins, corona 2 (190 particles, dimmed over the text block)"},
+  {"t": 2.67, "type": "tick", "gain": 0.5, "pan": 0, "note": "the word care lands on its marker bar"},
+  {"t": 4.67, "type": "sparkle", "gain": 0.7, "pan": 0, "note": "the CTA capsule Book an intro call pops in (spring, at most 6 % overshoot)"},
+  {"t": 6.30, "type": "hit", "gain": 1.3, "pan": 0, "note": "FINAL HIT: biggest corona (220 particles, 66 frames) born around the capsule"},
+  {"t": 6.30, "type": "low", "gain": 1.0, "pan": 0, "note": "final low under the last hit"},
+  {"t": 7.57, "type": "tick", "gain": 0.6, "pan": 0, "note": "scripted press of the capsule (default to pressed and back); nothing after this is louder"}
+]

@@ -1,0 +1,16 @@
+[
+  {"t": 0.00, "type": "whoosh", "gain": 0.35, "pan": 0, "dur": 0.5, "dir": "down", "note": "wipe from the navy verdict into the calm pearl scene"},
+  {"t": 0.30, "type": "tick", "gain": 0.45, "pan": -0.3, "f": 1700, "note": "headline words 'We don't promise' land"},
+  {"t": 1.40, "type": "tick", "gain": 0.85, "pan": 0.1, "f": 2300, "note": "'outcomes.' lands in marigold-800"},
+  {"t": 1.68, "type": "glitch", "gain": 0.5, "pan": 0, "note": "navy strike-through slashes across 'outcomes.'"},
+  {"t": 1.95, "type": "sparkle", "gain": 0.3, "pan": 0.2, "dur": 0.9, "base": 2400, "note": "five empty nodes appear on the pentagon one by one, 0.3 s apart, unconnected"},
+  {"t": 3.25, "type": "tick", "gain": 0.4, "pan": -0.5, "f": 1500, "note": "caption 'Separate. Never a funnel.' lands"},
+  {"t": 3.74, "type": "riser", "gain": 0.3, "pan": -0.4, "dur": 0.85, "dir": "up", "note": "the small funnel line draws, tension"},
+  {"t": 4.62, "type": "glitch", "gain": 0.7, "pan": -0.3, "note": "the funnel shatters (no burst, slow dispersal)"},
+  {"t": 4.85, "type": "tick", "gain": 0.9, "pan": -0.35, "f": 2100, "note": "TIME node (lower left) lights, marker bar under its label"},
+  {"t": 5.15, "type": "sparkle", "gain": 0.5, "pan": -0.55, "dur": 0.8, "base": 3300, "note": "RECOGNITION node (upper left) lights"},
+  {"t": 5.93, "type": "tick", "gain": 0.75, "pan": 0.35, "f": 1600, "note": "VOICE node (lower right) lights"},
+  {"t": 6.30, "type": "sparkle", "gain": 0.4, "pan": 0.65, "dur": 0.8, "base": 2600, "note": "SALES USEFULNESS node (upper right) lights"},
+  {"t": 6.93, "type": "tick", "gain": 0.85, "pan": 0, "f": 2000, "note": "CONVERSATIONS node (top) lights: last event before the hush"},
+  {"t": 7.60, "type": "whoosh", "gain": 0.5, "pan": 0, "dur": 0.55, "dir": "up", "note": "lead-in to the S9 reveal; the picture stays calm"}
+]

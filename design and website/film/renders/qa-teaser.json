@@ -1,0 +1,112 @@
+{
+ "file": "out/teaser.mp4",
+ "duration_s": 29.2,
+ "size_bytes": 12787747,
+ "bitrate_kbps": 3503,
+ "checks": [
+  {
+   "check": "container/codec",
+   "pass": true,
+   "detail": "mov,mp4,m4a,3gp,3g2,mj2 h264 High yuv420p",
+   "warn": false
+  },
+  {
+   "check": "resolution",
+   "pass": true,
+   "detail": "1920x1080",
+   "warn": false
+  },
+  {
+   "check": "frame rate",
+   "pass": true,
+   "detail": "30.000",
+   "warn": false
+  },
+  {
+   "check": "faststart (moov before mdat)",
+   "pass": true,
+   "detail": "",
+   "warn": false
+  },
+  {
+   "check": "audio present AAC stereo",
+   "pass": true,
+   "detail": "aac 2ch 48000 Hz",
+   "warn": false
+  },
+  {
+   "check": "A/V duration match (<=0.15 s)",
+   "pass": true,
+   "detail": "video 29.20s audio 29.20s",
+   "warn": false
+  },
+  {
+   "check": "integrated loudness",
+   "pass": true,
+   "detail": "-15.1 LUFS, LRA 4.3",
+   "warn": false
+  },
+  {
+   "check": "true peak",
+   "pass": true,
+   "detail": "-2.5 dBTP",
+   "warn": false
+  },
+  {
+   "check": "no long silence",
+   "pass": true,
+   "detail": "gaps >=0.4 s: []",
+   "warn": false
+  },
+  {
+   "check": "no frozen picture >1 s (open and end card exempt)",
+   "pass": true,
+   "detail": "offending: []; all freezes >=0.5 s: [(4.5, 5.43)]",
+   "warn": false
+  },
+  {
+   "check": "no black frames",
+   "pass": true,
+   "detail": "[]",
+   "warn": false
+  },
+  {
+   "check": "motion energy: no low-energy run over 2 s (WARN only: mean luminance difference under-reads small changes on pale scenes)",
+   "pass": true,
+   "detail": "longest low-motion run 1 s; low seconds [4, 25, 28]; per-second energy min 0.30 median 2.01 max 15.36",
+   "warn": true
+  }
+ ],
+ "motion_energy_per_second": [
+  11.9,
+  0.87,
+  1.36,
+  0.83,
+  0.57,
+  1.33,
+  0.76,
+  15.36,
+  4.28,
+  2.35,
+  6.18,
+  1.51,
+  2.74,
+  2.58,
+  2.5,
+  5.19,
+  2.28,
+  0.78,
+  1.1,
+  7.49,
+  4.41,
+  3.27,
+  2.01,
+  1.26,
+  1.18,
+  0.36,
+  2.97,
+  1.3,
+  0.3
+ ],
+ "margin_samples": []
+}

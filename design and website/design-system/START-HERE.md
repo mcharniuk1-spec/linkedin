@@ -1,4 +1,4 @@
-# OUTSPOKEN design system — current V5 entry (V10 palette, type and site update of 31 Oct 2026: see DESIGN.md; marigold replaces marigold)
+# OUTSPOKEN design system — current V5 entry (V10 palette, type and site update of 31 Oct 2026: see DESIGN.md; marigold replaces citron)
 
 Use **selected study01**, the solid capsule microphone with two silver wrap bands and one upright rib. The primary wordmark is always **OUTSPOKEN**, with exact outlined Archivo730 construction and its custom first-O notch. The primary 2D wordmark uses navy OUT and full solid Nickel silver SPOKEN (#A9AFBA), with no horizontal glint or color transition. Five source specimens retain the primary, its split compatibility alias, inverse, mono and marigold. Use mono navy for small reading signatures. [Current identity manifest](../brand-library/packages/assets/revisions/v5/identity/manifest.json) and [independent composition review]([dated-local-evidence-omitted]) distinguish exact source crops, reference-derived transparent art, flat vectors and actual native GLB views. V4 selected004 is historical.
 

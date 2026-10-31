@@ -1,0 +1,7 @@
+{
+  "framework": null,
+  "installCommand": "echo skip",
+  "buildCommand": "bash scripts/vercel-build.sh",
+  "outputDirectory": "site",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}

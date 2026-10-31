@@ -1,0 +1,1320 @@
+{
+ "fps": 30,
+ "duration": 79.9,
+ "bar": 3.0072463768115942,
+ "bar_offset": 1.3,
+ "finale_start": 70.46666666666667,
+ "roll_len": 1.5,
+ "silence": [
+  {
+   "start": 0,
+   "end": 1.3
+  },
+  {
+   "start": 19.633333333333333,
+   "end": 24.78333333333333
+  },
+  {
+   "start": 67.86666666666667,
+   "end": 69.91666666666667
+  }
+ ],
+ "scenes": [
+  {
+   "id": "S1",
+   "start": 0,
+   "end": 11.066666666666666,
+   "energy": 0.2
+  },
+  {
+   "id": "S2",
+   "start": 11.066666666666666,
+   "end": 19.433333333333334,
+   "energy": 0.32
+  },
+  {
+   "id": "S3",
+   "start": 19.433333333333334,
+   "end": 25.466666666666665,
+   "energy": 0.12
+  },
+  {
+   "id": "S4",
+   "start": 25.466666666666665,
+   "end": 35,
+   "energy": 0.58
+  },
+  {
+   "id": "S5",
+   "start": 35,
+   "end": 43.4,
+   "energy": 0.64
+  },
+  {
+   "id": "S6",
+   "start": 43.4,
+   "end": 52.733333333333334,
+   "energy": 0.55
+  },
+  {
+   "id": "S7",
+   "start": 52.733333333333334,
+   "end": 62.266666666666666,
+   "energy": 0.72
+  },
+  {
+   "id": "S8",
+   "start": 62.266666666666666,
+   "end": 70.46666666666667,
+   "energy": 0.4
+  },
+  {
+   "id": "S9",
+   "start": 70.46666666666667,
+   "end": 79.9,
+   "energy": 1
+  }
+ ],
+ "cues": [
+  {
+   "t": 1.3,
+   "type": "boom",
+   "gain": 1.2,
+   "note": "IMPACT after true silence: ground rises to navy, 3-frame marigold flash, marker ring, P1 burst (36), camera punch + shake",
+   "scene": "S1"
+  },
+  {
+   "t": 1.4,
+   "type": "hit",
+   "gain": 0.7,
+   "note": "YOU slams in (scale 1.6 to 1.0) and the marker bar wipes behind it",
+   "scene": "S1"
+  },
+  {
+   "t": 3.6,
+   "type": "glitch",
+   "gain": 0.8,
+   "note": "hard cut to BRILLIANT with a 2-frame horizontal slice offset",
+   "scene": "S1"
+  },
+  {
+   "t": 4.27,
+   "type": "sparkle",
+   "gain": 0.35,
+   "pan": 0.2,
+   "note": "a gold glint sweeps once across BRILLIANT",
+   "scene": "S1"
+  },
+  {
+   "t": 5.1,
+   "type": "tick",
+   "gain": 0.6,
+   "note": "hard cut to QUIET at full size",
+   "scene": "S1"
+  },
+  {
+   "t": 5.8,
+   "type": "whoosh",
+   "dir": "down",
+   "dur": 0.8,
+   "gain": 0.3,
+   "note": "QUIET shrinks 120 to 64 px, tracking widens, opacity drops: the type gets quieter",
+   "scene": "S1"
+  },
+  {
+   "t": 6.9,
+   "type": "sparkle",
+   "gain": 0.5,
+   "note": "QUIET collapses into the founder dot, which pops at the exact centre (960, 540)",
+   "scene": "S1"
+  },
+  {
+   "t": 7.2,
+   "type": "tick",
+   "gain": 0.4,
+   "note": "label B2B AI software, Europe resolves under the dot; headline assembles word by word",
+   "scene": "S1"
+  },
+  {
+   "t": 9.8,
+   "type": "sparkle",
+   "gain": 0.45,
+   "pan": -0.1,
+   "note": "the emphasised word heard pulses as it is spoken",
+   "scene": "S1"
+  },
+  {
+   "t": 10.4,
+   "type": "whoosh",
+   "dir": "up",
+   "dur": 0.7,
+   "gain": 0.7,
+   "note": "the dot inhales (ring contracts into it) ahead of the S2 bloom",
+   "scene": "S1"
+  },
+  {
+   "t": 11.134,
+   "type": "whoosh",
+   "gain": 0.5,
+   "dur": 1.3,
+   "dir": "down",
+   "pan": 0,
+   "note": "Pull-back: the camera leaves the founder dot and the head outline draws",
+   "scene": "S2"
+  },
+  {
+   "t": 11.4,
+   "type": "tick",
+   "gain": 0.5,
+   "pan": -0.5,
+   "note": "Label Exhibit A lands with its marker bar",
+   "scene": "S2"
+  },
+  {
+   "t": 12.734,
+   "type": "sparkle",
+   "gain": 0.6,
+   "pan": 0.35,
+   "note": "Cluster Decisions lights, label Decisions",
+   "scene": "S2"
+  },
+  {
+   "t": 12.8,
+   "type": "tick",
+   "gain": 0.22,
+   "pan": -0.3,
+   "note": "Decision diamond 1 lights",
+   "scene": "S2"
+  },
+  {
+   "t": 12.934,
+   "type": "tick",
+   "gain": 0.232,
+   "pan": -0.215,
+   "note": "Decision diamond 2 lights",
+   "scene": "S2"
+  },
+  {
+   "t": 13.067,
+   "type": "tick",
+   "gain": 0.244,
+   "pan": -0.13,
+   "note": "Decision diamond 3 lights",
+   "scene": "S2"
+  },
+  {
+   "t": 13.2,
+   "type": "tick",
+   "gain": 0.256,
+   "pan": -0.045,
+   "note": "Decision diamond 4 lights",
+   "scene": "S2"
+  },
+  {
+   "t": 13.334,
+   "type": "tick",
+   "gain": 0.268,
+   "pan": 0.04,
+   "note": "Decision diamond 5 lights",
+   "scene": "S2"
+  },
+  {
+   "t": 13.467,
+   "type": "tick",
+   "gain": 0.28,
+   "pan": 0.125,
+   "note": "Decision diamond 6 lights",
+   "scene": "S2"
+  },
+  {
+   "t": 13.6,
+   "type": "tick",
+   "gain": 0.292,
+   "pan": 0.21,
+   "note": "Decision diamond 7 lights",
+   "scene": "S2"
+  },
+  {
+   "t": 13.667,
+   "type": "sparkle",
+   "gain": 0.6,
+   "pan": -0.3,
+   "note": "Cluster Trade-offs lights, label Trade-offs",
+   "scene": "S2"
+  },
+  {
+   "t": 13.734,
+   "type": "tick",
+   "gain": 0.304,
+   "pan": 0.295,
+   "note": "Decision diamond 8 lights",
+   "scene": "S2"
+  },
+  {
+   "t": 13.734,
+   "type": "tick",
+   "gain": 0.26,
+   "pan": -0.4,
+   "note": "Trade-off pair 1 appears and its dashed edge connects",
+   "scene": "S2"
+  },
+  {
+   "t": 13.867,
+   "type": "tick",
+   "gain": 0.26,
+   "pan": 0.3,
+   "note": "Trade-off pair 2 appears and its dashed edge connects",
+   "scene": "S2"
+  },
+  {
+   "t": 14,
+   "type": "tick",
+   "gain": 0.26,
+   "pan": -0.15,
+   "note": "Trade-off pair 3 appears and its dashed edge connects",
+   "scene": "S2"
+  },
+  {
+   "t": 14.134,
+   "type": "tick",
+   "gain": 0.26,
+   "pan": 0.45,
+   "note": "Trade-off pair 4 appears and its dashed edge connects",
+   "scene": "S2"
+  },
+  {
+   "t": 14.267,
+   "type": "tick",
+   "gain": 0.26,
+   "pan": -0.35,
+   "note": "Trade-off pair 5 appears and its dashed edge connects",
+   "scene": "S2"
+  },
+  {
+   "t": 14.4,
+   "type": "tick",
+   "gain": 0.26,
+   "pan": 0.15,
+   "note": "Trade-off pair 6 appears and its dashed edge connects",
+   "scene": "S2"
+  },
+  {
+   "t": 14.667,
+   "type": "riser",
+   "gain": 0.35,
+   "dur": 0.65,
+   "dir": "up",
+   "pan": 0.2,
+   "note": "Anticipation: the chosen pair pulses",
+   "scene": "S2"
+  },
+  {
+   "t": 15.334,
+   "type": "tick",
+   "gain": 1,
+   "pan": 0.25,
+   "note": "Scar snap: the dashed edge breaks",
+   "scene": "S2"
+  },
+  {
+   "t": 15.4,
+   "type": "sparkle",
+   "gain": 0.45,
+   "pan": 0.25,
+   "note": "Scar: a notch is cut from the unchosen circle, a quiet marigold mark",
+   "scene": "S2"
+  },
+  {
+   "t": 16,
+   "type": "sparkle",
+   "gain": 0.6,
+   "pan": 0.2,
+   "note": "Cluster Product knowledge lights, label Product knowledge",
+   "scene": "S2"
+  },
+  {
+   "t": 16.067,
+   "type": "tick",
+   "gain": 0.22,
+   "pan": 0.35,
+   "note": "Product hexagon 1 lights",
+   "scene": "S2"
+  },
+  {
+   "t": 16.167,
+   "type": "tick",
+   "gain": 0.23,
+   "pan": 0.26,
+   "note": "Product hexagon 2 lights",
+   "scene": "S2"
+  },
+  {
+   "t": 16.267,
+   "type": "tick",
+   "gain": 0.24,
+   "pan": 0.17,
+   "note": "Product hexagon 3 lights",
+   "scene": "S2"
+  },
+  {
+   "t": 16.367,
+   "type": "tick",
+   "gain": 0.25,
+   "pan": 0.08,
+   "note": "Product hexagon 4 lights",
+   "scene": "S2"
+  },
+  {
+   "t": 16.467,
+   "type": "tick",
+   "gain": 0.26,
+   "pan": -0.01,
+   "note": "Product hexagon 5 lights",
+   "scene": "S2"
+  },
+  {
+   "t": 16.567,
+   "type": "tick",
+   "gain": 0.27,
+   "pan": -0.1,
+   "note": "Product hexagon 6 lights",
+   "scene": "S2"
+  },
+  {
+   "t": 16.667,
+   "type": "tick",
+   "gain": 0.28,
+   "pan": -0.19,
+   "note": "Product hexagon 7 lights",
+   "scene": "S2"
+  },
+  {
+   "t": 16.767,
+   "type": "tick",
+   "gain": 0.29,
+   "pan": -0.28,
+   "note": "Product hexagon 8 lights",
+   "scene": "S2"
+  },
+  {
+   "t": 16.934,
+   "type": "low",
+   "gain": 1,
+   "pan": 0,
+   "note": "All of it: every node pulses once, the glass wall starts to close",
+   "scene": "S2"
+  },
+  {
+   "t": 17.367,
+   "type": "sparkle",
+   "gain": 0.5,
+   "pan": 0.1,
+   "note": "Glass wall seals, sheen passes over it",
+   "scene": "S2"
+  },
+  {
+   "t": 17.6,
+   "type": "tick",
+   "gain": 0.5,
+   "pan": -0.4,
+   "note": "Label In your head arrives",
+   "scene": "S2"
+  },
+  {
+   "t": 18.867,
+   "type": "whoosh",
+   "gain": 0.6,
+   "dur": 0.55,
+   "dir": "down",
+   "pan": 0,
+   "note": "Nodes drift toward the centre, ready for the silence",
+   "scene": "S2"
+  },
+  {
+   "t": 20.633,
+   "type": "tick",
+   "gain": 0.3,
+   "note": "the drained map leaves one empty profile card (avatar disc, one name bar, no words yet)",
+   "scene": "S3"
+  },
+  {
+   "t": 21.233,
+   "type": "whoosh",
+   "dir": "up",
+   "dur": 0.6,
+   "gain": 0.25,
+   "pan": 0.7,
+   "note": "the buyer disc glides in from the right, labelled Buyer, illustrative",
+   "scene": "S3"
+  },
+  {
+   "t": 22.033,
+   "type": "tick",
+   "gain": 0.5,
+   "pan": 0.3,
+   "note": "the buyer disc stops over the card while the single word Founder. is read",
+   "scene": "S3"
+  },
+  {
+   "t": 22.833,
+   "type": "whoosh",
+   "dir": "down",
+   "dur": 0.6,
+   "gain": 0.45,
+   "pan": 0.8,
+   "note": "the buyer disc slides off to the right and greys out: the stake of the scene",
+   "scene": "S3"
+  },
+  {
+   "t": 24.733,
+   "type": "low",
+   "gain": 0.6,
+   "note": "anticipation drone under the lone card: a faint cobalt glow rises, the vignette closes, wind only",
+   "scene": "S3"
+  },
+  {
+   "t": 25.567,
+   "type": "low",
+   "gain": 0.5,
+   "pan": 0,
+   "note": "the head map returns small, cobalt glow wakes, outline draws on",
+   "scene": "S4"
+  },
+  {
+   "t": 25.767,
+   "type": "riser",
+   "dur": 5.45,
+   "dir": "up",
+   "gain": 0.9,
+   "pan": 0,
+   "note": "convergence riser; it ends 0.1 s before the detonation so the hit lands in a gap",
+   "scene": "S4"
+  },
+  {
+   "t": 26.737,
+   "type": "whoosh",
+   "dur": 0.8,
+   "dir": "up",
+   "gain": 0.3,
+   "pan": 0,
+   "note": "a thin scan ring leaves the core",
+   "scene": "S4"
+  },
+  {
+   "t": 27.737,
+   "type": "tick",
+   "gain": 0.6,
+   "pan": -0.4,
+   "note": "label Decisions; the eight diamonds light and are absorbed",
+   "scene": "S4"
+  },
+  {
+   "t": 28.867,
+   "type": "tick",
+   "gain": 0.7,
+   "pan": 0,
+   "note": "label Trade-offs; the six pairs light and are absorbed",
+   "scene": "S4"
+  },
+  {
+   "t": 29.997,
+   "type": "tick",
+   "gain": 0.8,
+   "pan": 0.4,
+   "note": "label Product; the eight hexagons light and are absorbed",
+   "scene": "S4"
+  },
+  {
+   "t": 31.317,
+   "type": "boom",
+   "gain": 1.2,
+   "pan": 0,
+   "note": "DETONATION: 320-particle idea burst, shockwave ring, 3-frame flash, camera punch to 1.25",
+   "scene": "S4"
+  },
+  {
+   "t": 31.347,
+   "type": "sparkle",
+   "gain": 0.8,
+   "pan": 0,
+   "note": "glitter of the burst while the core turns into the white post card",
+   "scene": "S4"
+  },
+  {
+   "t": 32.247,
+   "type": "sparkle",
+   "gain": 0.4,
+   "pan": 0.3,
+   "note": "card has locked in; headline Your thinking, in public. lands (30 frames of calm have passed)",
+   "scene": "S4"
+  },
+  {
+   "t": 33.197,
+   "type": "sparkle",
+   "gain": 0.3,
+   "pan": -0.2,
+   "note": "label In your voice with its marker bar",
+   "scene": "S4"
+  },
+  {
+   "t": 34.067,
+   "type": "whoosh",
+   "dur": 0.9,
+   "dir": "up",
+   "gain": 0.4,
+   "pan": 0,
+   "note": "the card gives way; the founder disc travels to (960, 540) to continue into S5",
+   "scene": "S4"
+  },
+  {
+   "t": 35.067,
+   "type": "sparkle",
+   "gain": 0.45,
+   "pan": 0,
+   "note": "Founder disc: the first marigold ripple leaves it",
+   "scene": "S5"
+  },
+  {
+   "t": 35.6,
+   "type": "riser",
+   "gain": 0.45,
+   "dur": 5.7,
+   "dir": "up",
+   "pan": 0,
+   "note": "Riser under the pull-back, peaking on One voice",
+   "scene": "S5"
+  },
+  {
+   "t": 36.2,
+   "type": "sparkle",
+   "gain": 0.4,
+   "pan": 0.2,
+   "note": "Signal: sparks leave the founder toward the first ring",
+   "scene": "S5"
+  },
+  {
+   "t": 38.067,
+   "type": "tick",
+   "gain": 0.6,
+   "pan": -0.2,
+   "note": "Team ring: first account arrives",
+   "scene": "S5"
+  },
+  {
+   "t": 38.467,
+   "type": "sparkle",
+   "gain": 0.55,
+   "pan": 0.2,
+   "note": "Team ring complete, label Team",
+   "scene": "S5"
+  },
+  {
+   "t": 39.4,
+   "type": "tick",
+   "gain": 0.35,
+   "pan": -0.4,
+   "note": "Buyers ring: tick 1",
+   "scene": "S5"
+  },
+  {
+   "t": 39.533,
+   "type": "tick",
+   "gain": 0.45,
+   "pan": 0.3,
+   "note": "Buyers ring: tick 2",
+   "scene": "S5"
+  },
+  {
+   "t": 39.667,
+   "type": "tick",
+   "gain": 0.4,
+   "pan": -0.1,
+   "note": "Buyers ring: tick 3",
+   "scene": "S5"
+  },
+  {
+   "t": 39.8,
+   "type": "tick",
+   "gain": 0.5,
+   "pan": 0.5,
+   "note": "Buyers ring: tick 4",
+   "scene": "S5"
+  },
+  {
+   "t": 39.933,
+   "type": "sparkle",
+   "gain": 0.6,
+   "pan": -0.2,
+   "note": "Buyers ring complete, label Buyers",
+   "scene": "S5"
+  },
+  {
+   "t": 40.533,
+   "type": "sparkle",
+   "gain": 0.6,
+   "pan": 0.3,
+   "note": "Partners ring starts, label Partners",
+   "scene": "S5"
+  },
+  {
+   "t": 40.867,
+   "type": "sparkle",
+   "gain": 0.5,
+   "pan": -0.3,
+   "note": "Partners ring grows",
+   "scene": "S5"
+  },
+  {
+   "t": 41.2,
+   "type": "glitch",
+   "gain": 0.6,
+   "pan": 0,
+   "note": "Partners ring: glitch as the last accounts connect",
+   "scene": "S5"
+  },
+  {
+   "t": 41.467,
+   "type": "whoosh",
+   "gain": 0.5,
+   "dur": 0.7,
+   "dir": "up",
+   "pan": 0,
+   "note": "The wave gathers at the founder",
+   "scene": "S5"
+  },
+  {
+   "t": 41.533,
+   "type": "boom",
+   "gain": 0.6,
+   "pan": 0,
+   "note": "One voice: a single marigold wave runs through all rings",
+   "scene": "S5"
+  },
+  {
+   "t": 41.667,
+   "type": "tick",
+   "gain": 0.4,
+   "pan": -0.3,
+   "note": "Label One voice, many accounts arrives",
+   "scene": "S5"
+  },
+  {
+   "t": 42.4,
+   "type": "sparkle",
+   "gain": 0.4,
+   "pan": 0.2,
+   "note": "Network lands on the head outline",
+   "scene": "S5"
+  },
+  {
+   "t": 42.8,
+   "type": "whoosh",
+   "gain": 0.6,
+   "dur": 0.55,
+   "dir": "up",
+   "pan": 0,
+   "note": "End whoosh into the pale scene",
+   "scene": "S5"
+  },
+  {
+   "t": 43.8,
+   "type": "tick",
+   "gain": 0.5,
+   "pan": -0.5,
+   "note": "cut 1 POSITIONING: label lands on the word, 40 nickel dots pop in top-left, hub ripple",
+   "scene": "S6"
+  },
+  {
+   "t": 44.5,
+   "type": "tick",
+   "gain": 0.5,
+   "pan": 0.5,
+   "note": "cut 2 PROFILE: label lands, profile skeleton assembles from particles top-right",
+   "scene": "S6"
+  },
+  {
+   "t": 44.9,
+   "type": "whoosh",
+   "dur": 0.3,
+   "gain": 0.25,
+   "pan": -0.4,
+   "note": "quiet move: next mini-scene arrives bottom-left",
+   "scene": "S6"
+  },
+  {
+   "t": 45,
+   "type": "tick",
+   "gain": 0.5,
+   "pan": -0.5,
+   "note": "cut 3 CONTENT STRATEGY: label lands, seven cadence dots start to light",
+   "scene": "S6"
+  },
+  {
+   "t": 45.7,
+   "type": "whoosh",
+   "dur": 0.3,
+   "gain": 0.25,
+   "pan": 0.4,
+   "note": "quiet move: next mini-scene arrives bottom-right",
+   "scene": "S6"
+  },
+  {
+   "t": 45.77,
+   "type": "tick",
+   "gain": 0.5,
+   "pan": 0.5,
+   "note": "cut 4 WRITING: label lands, generic draft line staggers in",
+   "scene": "S6"
+  },
+  {
+   "t": 46.13,
+   "type": "whoosh",
+   "dur": 0.3,
+   "gain": 0.22,
+   "pan": -0.4,
+   "note": "quiet move: positioning clears, visuals takes the top-left",
+   "scene": "S6"
+  },
+  {
+   "t": 46.2,
+   "type": "tick",
+   "gain": 0.5,
+   "pan": -0.5,
+   "note": "cut 5 VISUALS: label lands, publication frame draws",
+   "scene": "S6"
+  },
+  {
+   "t": 46.57,
+   "type": "whoosh",
+   "dur": 0.3,
+   "gain": 0.22,
+   "pan": 0.4,
+   "note": "quiet move: profile clears, campaigns takes the top-right",
+   "scene": "S6"
+  },
+  {
+   "t": 46.63,
+   "type": "tick",
+   "gain": 0.5,
+   "pan": 0.5,
+   "note": "cut 6 CAMPAIGNS: label lands, rhythm dots start",
+   "scene": "S6"
+  },
+  {
+   "t": 46.87,
+   "type": "tick",
+   "gain": 0.35,
+   "pan": 0.4,
+   "note": "draft line struck through",
+   "scene": "S6"
+  },
+  {
+   "t": 47.87,
+   "type": "sparkle",
+   "gain": 0.35,
+   "pan": -0.4,
+   "note": "visual planes re-lock into the frame",
+   "scene": "S6"
+  },
+  {
+   "t": 48.33,
+   "type": "whoosh",
+   "dir": "up",
+   "dur": 0.5,
+   "gain": 0.35,
+   "pan": 0,
+   "note": "dock begins: four panes shrink toward the ring",
+   "scene": "S6"
+  },
+  {
+   "t": 48.6,
+   "type": "tick",
+   "gain": 0.45,
+   "pan": 0,
+   "note": "title 'Six jobs' lands on the spoken words",
+   "scene": "S6"
+  },
+  {
+   "t": 48.67,
+   "type": "whoosh",
+   "dur": 0.35,
+   "gain": 0.25,
+   "pan": -0.6,
+   "note": "positioning module flies in from the left",
+   "scene": "S6"
+  },
+  {
+   "t": 48.8,
+   "type": "whoosh",
+   "dur": 0.35,
+   "gain": 0.25,
+   "pan": 0.6,
+   "note": "profile module flies in from the right",
+   "scene": "S6"
+  },
+  {
+   "t": 49.67,
+   "type": "sparkle",
+   "gain": 0.9,
+   "pan": 0,
+   "note": "dock: the last module latches, six spokes meet the founder disc",
+   "scene": "S6"
+  },
+  {
+   "t": 50.8,
+   "type": "tick",
+   "gain": 0.45,
+   "pan": 0,
+   "note": "title 'one difference' lands as the thread starts to run",
+   "scene": "S6"
+  },
+  {
+   "t": 51.67,
+   "type": "sparkle",
+   "gain": 0.5,
+   "pan": 0,
+   "note": "dock: the thread closes through all six modules",
+   "scene": "S6"
+  },
+  {
+   "t": 52.883,
+   "type": "sparkle",
+   "gain": 0.3,
+   "pan": 0.3,
+   "dur": 0.9,
+   "note": "49 identical nickel discs pop in as a wave from the centre of the grid",
+   "scene": "S7"
+  },
+  {
+   "t": 53.433,
+   "type": "tick",
+   "gain": 0.55,
+   "pan": -0.5,
+   "note": "label THE VERDICT finishes resolving",
+   "scene": "S7"
+  },
+  {
+   "t": 54.063,
+   "type": "tick",
+   "gain": 0.6,
+   "pan": -0.4,
+   "note": "headline 'Anyone can list features.' starts to land",
+   "scene": "S7"
+  },
+  {
+   "t": 54.933,
+   "type": "riser",
+   "gain": 0.5,
+   "pan": 0.3,
+   "dur": 1.25,
+   "dir": "up",
+   "note": "tension builds: a pale scan front sweeps across the 49 identical discs toward the one that will change",
+   "scene": "S7"
+  },
+  {
+   "t": 55.933,
+   "type": "tick",
+   "gain": 0.8,
+   "pan": 0.6,
+   "note": "target ring locks onto the chosen disc (upper right of the grid)",
+   "scene": "S7"
+  },
+  {
+   "t": 56.233,
+   "type": "boom",
+   "gain": 0.55,
+   "pan": 0.55,
+   "note": "small boom: the chosen disc's outline breaks into the 64-point spline, turns marigold; small particle burst",
+   "scene": "S7"
+  },
+  {
+   "t": 56.263,
+   "type": "sparkle",
+   "gain": 0.9,
+   "pan": 0.55,
+   "dur": 1.1,
+   "note": "sparkle on the morph, thin ring expands",
+   "scene": "S7"
+  },
+  {
+   "t": 56.453,
+   "type": "whoosh",
+   "gain": 0.5,
+   "pan": 0.3,
+   "dur": 0.85,
+   "dir": "up",
+   "note": "the blob glides to the centre of the stage and grows while the other 48 discs dim",
+   "scene": "S7"
+  },
+  {
+   "t": 58.033,
+   "type": "sparkle",
+   "gain": 0.6,
+   "pan": 0.4,
+   "dur": 1,
+   "note": "blob settles at full size: soft corona, head outline starts to draw inside it",
+   "scene": "S7"
+  },
+  {
+   "t": 58.283,
+   "type": "tick",
+   "gain": 0.45,
+   "pan": 0.5,
+   "note": "S2 callback: diamonds (decisions) light one by one",
+   "scene": "S7"
+  },
+  {
+   "t": 58.633,
+   "type": "tick",
+   "gain": 0.5,
+   "pan": 0.35,
+   "note": "S2 callback: circle pairs (trade-offs) light",
+   "scene": "S7"
+  },
+  {
+   "t": 58.983,
+   "type": "tick",
+   "gain": 0.55,
+   "pan": 0.45,
+   "note": "S2 callback: hexagons (product knowledge) light, links draw",
+   "scene": "S7"
+  },
+  {
+   "t": 59.533,
+   "type": "low",
+   "gain": 0.8,
+   "pan": 0,
+   "note": "anticipation drone: the blob breathes once, the vignette deepens",
+   "scene": "S7"
+  },
+  {
+   "t": 59.633,
+   "type": "tick",
+   "gain": 0.6,
+   "pan": -0.4,
+   "note": "headline 'That difference is the asset.' starts to land",
+   "scene": "S7"
+  },
+  {
+   "t": 60.463,
+   "type": "sparkle",
+   "gain": 0.5,
+   "pan": -0.3,
+   "dur": 0.8,
+   "note": "marker bar wipes in behind 'the asset.' (last event before the hush)",
+   "scene": "S7"
+  },
+  {
+   "t": 62.267,
+   "type": "whoosh",
+   "gain": 0.35,
+   "pan": 0,
+   "dur": 0.5,
+   "dir": "down",
+   "note": "wipe from the navy verdict into the calm pearl scene",
+   "scene": "S8"
+  },
+  {
+   "t": 62.567,
+   "type": "tick",
+   "gain": 0.45,
+   "pan": -0.3,
+   "f": 1700,
+   "note": "headline words 'We don't promise' land",
+   "scene": "S8"
+  },
+  {
+   "t": 63.667,
+   "type": "tick",
+   "gain": 0.85,
+   "pan": 0.1,
+   "f": 2300,
+   "note": "'outcomes.' lands in marigold-800",
+   "scene": "S8"
+  },
+  {
+   "t": 63.947,
+   "type": "glitch",
+   "gain": 0.5,
+   "pan": 0,
+   "note": "navy strike-through slashes across 'outcomes.'",
+   "scene": "S8"
+  },
+  {
+   "t": 65.067,
+   "type": "sparkle",
+   "gain": 0.3,
+   "pan": 0.2,
+   "dur": 0.9,
+   "base": 2400,
+   "note": "five empty nodes appear on the pentagon, unconnected",
+   "scene": "S8"
+  },
+  {
+   "t": 65.517,
+   "type": "tick",
+   "gain": 0.4,
+   "pan": -0.5,
+   "f": 1500,
+   "note": "caption 'Separate. Never a funnel.' lands",
+   "scene": "S8"
+  },
+  {
+   "t": 66.007,
+   "type": "riser",
+   "gain": 0.3,
+   "pan": -0.4,
+   "dur": 0.85,
+   "dir": "up",
+   "note": "the small funnel line draws, tension",
+   "scene": "S8"
+  },
+  {
+   "t": 66.887,
+   "type": "glitch",
+   "gain": 0.7,
+   "pan": -0.3,
+   "note": "the funnel shatters (no burst, slow dispersal)",
+   "scene": "S8"
+  },
+  {
+   "t": 67.117,
+   "type": "tick",
+   "gain": 0.9,
+   "pan": -0.35,
+   "f": 2100,
+   "note": "TIME node (lower left) lights, marker bar under its label",
+   "scene": "S8"
+  },
+  {
+   "t": 67.417,
+   "type": "sparkle",
+   "gain": 0.5,
+   "pan": -0.55,
+   "dur": 0.8,
+   "base": 3300,
+   "note": "RECOGNITION node (upper left) lights",
+   "scene": "S8"
+  },
+  {
+   "t": 68.197,
+   "type": "tick",
+   "gain": 0.75,
+   "pan": 0.35,
+   "f": 1600,
+   "note": "VOICE node (lower right) lights",
+   "scene": "S8"
+  },
+  {
+   "t": 68.567,
+   "type": "sparkle",
+   "gain": 0.4,
+   "pan": 0.65,
+   "dur": 0.8,
+   "base": 2600,
+   "note": "SALES USEFULNESS node (upper right) lights",
+   "scene": "S8"
+  },
+  {
+   "t": 69.197,
+   "type": "tick",
+   "gain": 0.85,
+   "pan": 0,
+   "f": 2000,
+   "note": "CONVERSATIONS node (top) lights: last event before the hush",
+   "scene": "S8"
+  },
+  {
+   "t": 69.867,
+   "type": "whoosh",
+   "gain": 0.5,
+   "pan": 0,
+   "dur": 0.55,
+   "dir": "up",
+   "note": "lead-in to the S9 reveal; the picture stays calm",
+   "scene": "S8"
+  },
+  {
+   "t": 70.467,
+   "type": "riser",
+   "dur": 0.45,
+   "dir": "up",
+   "gain": 0.7,
+   "pan": 0,
+   "note": "particles converge on the centre (bloom is revealing the scene)",
+   "scene": "S9"
+  },
+  {
+   "t": 70.917,
+   "type": "hit",
+   "gain": 1.1,
+   "pan": 0,
+   "note": "HIT 1, drums enter: the inverse wordmark locks in, corona 1 (160 particles, 66 frames), 3-frame flash",
+   "scene": "S9"
+  },
+  {
+   "t": 71.267,
+   "type": "whoosh",
+   "dur": 0.8,
+   "dir": "up",
+   "gain": 0.35,
+   "pan": 0,
+   "note": "the wordmark glides up to the top of the frame",
+   "scene": "S9"
+  },
+  {
+   "t": 71.937,
+   "type": "tick",
+   "gain": 0.35,
+   "pan": 0,
+   "note": "audience line For Europe-based B2B AI SaaS founders appears under the wordmark",
+   "scene": "S9"
+  },
+  {
+   "t": 72.117,
+   "type": "hit",
+   "gain": 0.95,
+   "pan": 0,
+   "note": "HIT 2: the hero line begins, corona 2 (190 particles, dimmed over the text block)",
+   "scene": "S9"
+  },
+  {
+   "t": 73.137,
+   "type": "tick",
+   "gain": 0.5,
+   "pan": 0,
+   "note": "the word care lands on its marker bar",
+   "scene": "S9"
+  },
+  {
+   "t": 75.137,
+   "type": "sparkle",
+   "gain": 0.7,
+   "pan": 0,
+   "note": "the CTA capsule Book an intro call pops in (spring, at most 6 % overshoot)",
+   "scene": "S9"
+  },
+  {
+   "t": 76.767,
+   "type": "hit",
+   "gain": 1.3,
+   "pan": 0,
+   "note": "FINAL HIT: biggest corona (220 particles, 66 frames) born around the capsule",
+   "scene": "S9"
+  },
+  {
+   "t": 76.767,
+   "type": "low",
+   "gain": 1,
+   "pan": 0,
+   "note": "final low under the last hit",
+   "scene": "S9"
+  },
+  {
+   "t": 78.037,
+   "type": "tick",
+   "gain": 0.6,
+   "pan": 0,
+   "note": "scripted press of the capsule (default to pressed and back); nothing after this is louder",
+   "scene": "S9"
+  }
+ ],
+ "vo": [
+  {
+   "start": 1.8,
+   "end": 3.467
+  },
+  {
+   "start": 3.967,
+   "end": 6.467
+  },
+  {
+   "start": 6.967,
+   "end": 10.717
+  },
+  {
+   "start": 11.416666666666666,
+   "end": 12.249666666666666
+  },
+  {
+   "start": 12.749666666666666,
+   "end": 16.083666666666666
+  },
+  {
+   "start": 16.583666666666666,
+   "end": 19.083666666666666
+  },
+  {
+   "start": 19.783333333333335,
+   "end": 21.033333333333335
+  },
+  {
+   "start": 22.033333333333335,
+   "end": 23.283333333333335
+  },
+  {
+   "start": 24.28333333333333,
+   "end": 25.116333333333333
+  },
+  {
+   "start": 25.816666666666666,
+   "end": 30.816666666666663
+  },
+  {
+   "start": 31.316666666666663,
+   "end": 34.64966666666666
+  },
+  {
+   "start": 35.35,
+   "end": 37.017
+  },
+  {
+   "start": 37.317,
+   "end": 41.067
+  },
+  {
+   "start": 41.367,
+   "end": 43.033
+  },
+  {
+   "start": 43.75,
+   "end": 48.333
+  },
+  {
+   "start": 48.632999999999996,
+   "end": 52.382999999999996
+  },
+  {
+   "start": 53.083333333333336,
+   "end": 53.916333333333334
+  },
+  {
+   "start": 54.416333333333334,
+   "end": 59.416333333333334
+  },
+  {
+   "start": 59.81633333333333,
+   "end": 61.900333333333336
+  },
+  {
+   "start": 62.61666666666667,
+   "end": 64.28366666666666
+  },
+  {
+   "start": 64.68366666666667,
+   "end": 70.09966666666666
+  },
+  {
+   "start": 70.81666666666666,
+   "end": 71.23366666666666
+  },
+  {
+   "start": 71.73366666666666,
+   "end": 76.31666666666666
+  },
+  {
+   "start": 76.81666666666666,
+   "end": 78.48366666666666
+  }
+ ]
+}

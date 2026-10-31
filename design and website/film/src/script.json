@@ -1,0 +1,243 @@
+{
+ "fps": 30,
+ "wordsPerSecond": 2.4,
+ "totalFrames": 2397,
+ "totalSeconds": 79.9,
+ "totalWords": 152,
+ "scenes": [
+  {
+   "id": "S1",
+   "title": "The Charge",
+   "startFrame": 0,
+   "frames": 332,
+   "start": 0.0,
+   "dur": 11.067,
+   "vo": [
+    {
+     "text": "Let's talk about you.",
+     "start": 1.8,
+     "end": 3.467,
+     "words": 4
+    },
+    {
+     "text": "The brilliant one. The quiet one.",
+     "start": 3.967,
+     "end": 6.467,
+     "words": 6
+    },
+    {
+     "text": "The one the right buyers still haven't heard of.",
+     "start": 6.967,
+     "end": 10.717,
+     "words": 9
+    }
+   ]
+  },
+  {
+   "id": "S2",
+   "title": "Exhibit A",
+   "startFrame": 332,
+   "frames": 251,
+   "start": 11.067,
+   "dur": 8.367,
+   "vo": [
+    {
+     "text": "Exhibit A.",
+     "start": 0.35,
+     "end": 1.183,
+     "words": 2
+    },
+    {
+     "text": "Every decision, a trade-off. Every trade-off, a scar.",
+     "start": 1.683,
+     "end": 5.017,
+     "words": 8
+    },
+    {
+     "text": "All of it. In your head.",
+     "start": 5.517,
+     "end": 8.017,
+     "words": 6
+    }
+   ]
+  },
+  {
+   "id": "S3",
+   "title": "The Silence",
+   "startFrame": 583,
+   "frames": 181,
+   "start": 19.433,
+   "dur": 6.033,
+   "vo": [
+    {
+     "text": "And out here?",
+     "start": 0.35,
+     "end": 1.6,
+     "words": 3
+    },
+    {
+     "text": "One word. Founder.",
+     "start": 2.6,
+     "end": 3.85,
+     "words": 3
+    },
+    {
+     "text": "Nothing else.",
+     "start": 4.85,
+     "end": 5.683,
+     "words": 2
+    }
+   ]
+  },
+  {
+   "id": "S4",
+   "title": "Ignition",
+   "startFrame": 764,
+   "frames": 286,
+   "start": 25.467,
+   "dur": 9.533,
+   "vo": [
+    {
+     "text": "We take what's in your head: the decisions, the trade-offs, the product.",
+     "start": 0.35,
+     "end": 5.35,
+     "words": 12
+    },
+    {
+     "text": "Then we make it public. In your voice.",
+     "start": 5.85,
+     "end": 9.183,
+     "words": 8
+    }
+   ]
+  },
+  {
+   "id": "S5",
+   "title": "The Spread",
+   "startFrame": 1050,
+   "frames": 252,
+   "start": 35.0,
+   "dur": 8.4,
+   "vo": [
+    {
+     "text": "Then it can travel.",
+     "start": 0.35,
+     "end": 2.017,
+     "words": 4
+    },
+    {
+     "text": "From you, to your team, to buyers, to partners.",
+     "start": 2.317,
+     "end": 6.067,
+     "words": 9
+    },
+    {
+     "text": "One voice, many accounts.",
+     "start": 6.367,
+     "end": 8.033,
+     "words": 4
+    }
+   ]
+  },
+  {
+   "id": "S6",
+   "title": "The Work",
+   "startFrame": 1302,
+   "frames": 280,
+   "start": 43.4,
+   "dur": 9.333,
+   "vo": [
+    {
+     "text": "Positioning. Your profile. Content strategy. Writing. Visuals. Campaigns, LinkedIn ads included.",
+     "start": 0.35,
+     "end": 4.933,
+     "words": 11
+    },
+    {
+     "text": "Six jobs, each built on what makes you different.",
+     "start": 5.233,
+     "end": 8.983,
+     "words": 9
+    }
+   ]
+  },
+  {
+   "id": "S7",
+   "title": "The Verdict",
+   "startFrame": 1582,
+   "frames": 286,
+   "start": 52.733,
+   "dur": 9.533,
+   "vo": [
+    {
+     "text": "The verdict.",
+     "start": 0.35,
+     "end": 1.183,
+     "words": 2
+    },
+    {
+     "text": "Anyone can list features. Only you can explain why you chose them.",
+     "start": 1.683,
+     "end": 6.683,
+     "words": 12
+    },
+    {
+     "text": "That difference is the asset.",
+     "start": 7.083,
+     "end": 9.167,
+     "words": 5
+    }
+   ]
+  },
+  {
+   "id": "S8",
+   "title": "Five Things To Watch",
+   "startFrame": 1868,
+   "frames": 246,
+   "start": 62.267,
+   "dur": 8.2,
+   "vo": [
+    {
+     "text": "We don't promise outcomes.",
+     "start": 0.35,
+     "end": 2.017,
+     "words": 4
+    },
+    {
+     "text": "We agree five things to observe, separately: time, recognition, voice, sales usefulness, conversations.",
+     "start": 2.417,
+     "end": 7.833,
+     "words": 13
+    }
+   ]
+  },
+  {
+   "id": "S9",
+   "title": "The Invitation",
+   "startFrame": 2114,
+   "frames": 283,
+   "start": 70.467,
+   "dur": 9.433,
+   "vo": [
+    {
+     "text": "Outspoken.",
+     "start": 0.35,
+     "end": 0.767,
+     "words": 1
+    },
+    {
+     "text": "Make the right buyers care about you and what you're building.",
+     "start": 1.267,
+     "end": 5.85,
+     "words": 11
+    },
+    {
+     "text": "Book an intro call.",
+     "start": 6.35,
+     "end": 8.017,
+     "words": 4
+    }
+   ]
+  }
+ ]
+}

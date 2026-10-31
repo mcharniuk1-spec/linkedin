@@ -1,0 +1,7 @@
+[
+  {"t": 1.2, "type": "tick", "gain": 0.3, "note": "the drained map leaves one empty profile card (avatar disc, one name bar, no words yet)"},
+  {"t": 1.8, "type": "whoosh", "dir": "up", "dur": 0.6, "gain": 0.25, "pan": 0.7, "note": "the buyer disc glides in from the right, labelled Buyer, illustrative"},
+  {"t": 2.6, "type": "tick", "gain": 0.5, "pan": 0.3, "note": "the buyer disc stops over the card while the single word Founder. is read"},
+  {"t": 3.4, "type": "whoosh", "dir": "down", "dur": 0.6, "gain": 0.45, "pan": 0.8, "note": "the buyer disc slides off to the right and greys out: the stake of the scene"},
+  {"t": 5.3, "type": "low", "gain": 0.6, "note": "anticipation drone under the lone card: a faint cobalt glow rises, the vignette closes, wind only"}
+]

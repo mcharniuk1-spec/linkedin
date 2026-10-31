@@ -1,0 +1,12 @@
+[
+  {"t": 1.3, "type": "boom", "gain": 1.2, "note": "IMPACT after true silence: ground rises to navy, 3-frame marigold flash, marker ring, P1 burst (36), camera punch + shake"},
+  {"t": 1.4, "type": "hit", "gain": 0.7, "note": "YOU slams in (scale 1.6 to 1.0) and the marker bar wipes behind it"},
+  {"t": 3.6, "type": "glitch", "gain": 0.8, "note": "hard cut to BRILLIANT with a 2-frame horizontal slice offset"},
+  {"t": 4.27, "type": "sparkle", "gain": 0.35, "pan": 0.2, "note": "a gold glint sweeps once across BRILLIANT"},
+  {"t": 5.1, "type": "tick", "gain": 0.6, "note": "hard cut to QUIET at full size"},
+  {"t": 5.8, "type": "whoosh", "dir": "down", "dur": 0.8, "gain": 0.3, "note": "QUIET shrinks 120 to 64 px, tracking widens, opacity drops: the type gets quieter"},
+  {"t": 6.9, "type": "sparkle", "gain": 0.5, "note": "QUIET collapses into the founder dot, which pops at the exact centre (960, 540)"},
+  {"t": 7.2, "type": "tick", "gain": 0.4, "note": "label B2B AI software, Europe resolves under the dot; headline assembles word by word"},
+  {"t": 9.8, "type": "sparkle", "gain": 0.45, "pan": -0.1, "note": "the emphasised word heard pulses as it is spoken"},
+  {"t": 10.4, "type": "whoosh", "dir": "up", "dur": 0.7, "gain": 0.7, "note": "the dot inhales (ring contracts into it) ahead of the S2 bloom"}
+]

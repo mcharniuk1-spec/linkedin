@@ -1,0 +1,13 @@
+[
+  {"t": 0.10, "type": "low", "gain": 0.5, "pan": 0, "note": "the head map returns small, cobalt glow wakes, outline draws on"},
+  {"t": 0.30, "type": "riser", "dur": 5.45, "dir": "up", "gain": 0.9, "pan": 0, "note": "convergence riser; it ends 0.1 s before the detonation so the hit lands in a gap"},
+  {"t": 1.27, "type": "whoosh", "dur": 0.8, "dir": "up", "gain": 0.3, "pan": 0, "note": "a thin scan ring leaves the core"},
+  {"t": 2.27, "type": "tick", "gain": 0.6, "pan": -0.4, "note": "label Decisions; the eight diamonds light and are absorbed"},
+  {"t": 3.40, "type": "tick", "gain": 0.7, "pan": 0, "note": "label Trade-offs; the six pairs light and are absorbed"},
+  {"t": 4.53, "type": "tick", "gain": 0.8, "pan": 0.4, "note": "label Product; the eight hexagons light and are absorbed"},
+  {"t": 5.85, "type": "boom", "gain": 1.2, "pan": 0, "note": "DETONATION: 320-particle idea burst, shockwave ring, 3-frame flash, camera punch to 1.25"},
+  {"t": 5.88, "type": "sparkle", "gain": 0.8, "pan": 0, "note": "glitter of the burst while the core turns into the white post card"},
+  {"t": 6.78, "type": "sparkle", "gain": 0.4, "pan": 0.3, "note": "card has locked in; headline Your thinking, in public. lands (30 frames of calm have passed)"},
+  {"t": 7.73, "type": "sparkle", "gain": 0.3, "pan": -0.2, "note": "label In your voice with its marker bar"},
+  {"t": 8.60, "type": "whoosh", "dur": 0.9, "dir": "up", "gain": 0.4, "pan": 0, "note": "the card gives way; the founder disc travels to (960, 540) to continue into S5"}
+]

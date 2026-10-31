@@ -1,0 +1,134 @@
+[
+ {
+  "t": 0.067,
+  "type": "sparkle",
+  "gain": 0.45,
+  "pan": 0,
+  "note": "Founder disc: the first marigold ripple leaves it"
+ },
+ {
+  "t": 0.6,
+  "type": "riser",
+  "gain": 0.45,
+  "dur": 5.7,
+  "dir": "up",
+  "pan": 0,
+  "note": "Riser under the pull-back, peaking on One voice"
+ },
+ {
+  "t": 1.2,
+  "type": "sparkle",
+  "gain": 0.4,
+  "pan": 0.2,
+  "note": "Signal: sparks leave the founder toward the first ring"
+ },
+ {
+  "t": 3.067,
+  "type": "tick",
+  "gain": 0.6,
+  "pan": -0.2,
+  "note": "Team ring: first account arrives"
+ },
+ {
+  "t": 3.467,
+  "type": "sparkle",
+  "gain": 0.55,
+  "pan": 0.2,
+  "note": "Team ring complete, label Team"
+ },
+ {
+  "t": 4.4,
+  "type": "tick",
+  "gain": 0.35,
+  "pan": -0.4,
+  "note": "Buyers ring: tick 1"
+ },
+ {
+  "t": 4.533,
+  "type": "tick",
+  "gain": 0.45,
+  "pan": 0.3,
+  "note": "Buyers ring: tick 2"
+ },
+ {
+  "t": 4.667,
+  "type": "tick",
+  "gain": 0.4,
+  "pan": -0.1,
+  "note": "Buyers ring: tick 3"
+ },
+ {
+  "t": 4.8,
+  "type": "tick",
+  "gain": 0.5,
+  "pan": 0.5,
+  "note": "Buyers ring: tick 4"
+ },
+ {
+  "t": 4.933,
+  "type": "sparkle",
+  "gain": 0.6,
+  "pan": -0.2,
+  "note": "Buyers ring complete, label Buyers"
+ },
+ {
+  "t": 5.533,
+  "type": "sparkle",
+  "gain": 0.6,
+  "pan": 0.3,
+  "note": "Partners ring starts, label Partners"
+ },
+ {
+  "t": 5.867,
+  "type": "sparkle",
+  "gain": 0.5,
+  "pan": -0.3,
+  "note": "Partners ring grows"
+ },
+ {
+  "t": 6.2,
+  "type": "glitch",
+  "gain": 0.6,
+  "pan": 0,
+  "note": "Partners ring: glitch as the last accounts connect"
+ },
+ {
+  "t": 6.467,
+  "type": "whoosh",
+  "gain": 0.5,
+  "dur": 0.7,
+  "dir": "up",
+  "pan": 0,
+  "note": "The wave gathers at the founder"
+ },
+ {
+  "t": 6.533,
+  "type": "boom",
+  "gain": 0.6,
+  "pan": 0,
+  "note": "One voice: a single marigold wave runs through all rings"
+ },
+ {
+  "t": 6.667,
+  "type": "tick",
+  "gain": 0.4,
+  "pan": -0.3,
+  "note": "Label One voice, many accounts arrives"
+ },
+ {
+  "t": 7.4,
+  "type": "sparkle",
+  "gain": 0.4,
+  "pan": 0.2,
+  "note": "Network lands on the head outline"
+ },
+ {
+  "t": 7.8,
+  "type": "whoosh",
+  "gain": 0.6,
+  "dur": 0.55,
+  "dir": "up",
+  "pan": 0,
+  "note": "End whoosh into the pale scene"
+ }
+]

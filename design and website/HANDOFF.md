@@ -1,5 +1,11 @@
 # Current design and website handoff
 
+## Launch film and next-step plan — 31 October 2026 (owner acceptance pending)
+
+New in this source: `film/` (Remotion 4.0.520 + React + FFmpeg launch film, about 80 s, 1920x1080, with a 30 s teaser re-cut), `design-system/film-tokens.json` (proposed film-only tokens), `deploy/vercel/` (a deployment recipe that has been rehearsed locally but not executed on Vercel). Start at `film/README.md`; the plan for the next agent is `film/PLAN-NEXT.md` and ready-to-paste prompts are in `film/PROMPT-FOR-CLAUDE.md`. The design-system audit for film use is `film/DESIGN-FIT.md` (two sentences damaged by a find-and-replace were fixed in `design-system/DESIGN.md` and `START-HERE.md`; other findings remain open). The research behind the film is `film/RESEARCH.md`.
+
+Honest status: the film is rendered and passes the measured checks in `film/renders/README.md`, but the music is **synthesised in code** (a stand-in for a recorded orchestra), the voiceover is not recorded, the wording and visuals are proposals, and a human viewing and listening pass is still open. Figma was not updated (no edit access) and nothing was deployed to Vercel in this run.
+
 ## V10 update — 31 October 2026 (owner acceptance pending)
 
 Changed in this source: marigold orange scale replaces citron (tokens, CSS, components); Fraunces / Mona Sans / Geist Mono (all OFL, bundled) replace the heavy Archivo/Inter UI type; matte CSS buttons replace the WebGL plate on the website; the old expertise, publication and business-value blocks are one `ExperienceStory` block (schema card instead of the animated brain; cards move sideways inside a clipped frame); a `WhyOutspoken` block with verified co-founder names, photos and LinkedIn links and a **proposed, labelled** quote; six labelled fictional sample emails; two finished media frames (`packages/experience-v3/frames`). Evidence and limits: `qa/v10-checks.json`, `qa/contrast-v10.json`.

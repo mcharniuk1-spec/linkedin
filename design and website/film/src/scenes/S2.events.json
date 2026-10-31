@@ -1,0 +1,246 @@
+[
+ {
+  "t": 0.067,
+  "type": "whoosh",
+  "gain": 0.5,
+  "dur": 1.3,
+  "dir": "down",
+  "pan": 0,
+  "note": "Pull-back: the camera leaves the founder dot and the head outline draws"
+ },
+ {
+  "t": 0.333,
+  "type": "tick",
+  "gain": 0.5,
+  "pan": -0.5,
+  "note": "Label Exhibit A lands with its marker bar"
+ },
+ {
+  "t": 1.667,
+  "type": "sparkle",
+  "gain": 0.6,
+  "pan": 0.35,
+  "note": "Cluster Decisions lights, label Decisions"
+ },
+ {
+  "t": 1.733,
+  "type": "tick",
+  "gain": 0.22,
+  "pan": -0.3,
+  "note": "Decision diamond 1 lights"
+ },
+ {
+  "t": 1.867,
+  "type": "tick",
+  "gain": 0.232,
+  "pan": -0.215,
+  "note": "Decision diamond 2 lights"
+ },
+ {
+  "t": 2.0,
+  "type": "tick",
+  "gain": 0.244,
+  "pan": -0.13,
+  "note": "Decision diamond 3 lights"
+ },
+ {
+  "t": 2.133,
+  "type": "tick",
+  "gain": 0.256,
+  "pan": -0.045,
+  "note": "Decision diamond 4 lights"
+ },
+ {
+  "t": 2.267,
+  "type": "tick",
+  "gain": 0.268,
+  "pan": 0.04,
+  "note": "Decision diamond 5 lights"
+ },
+ {
+  "t": 2.4,
+  "type": "tick",
+  "gain": 0.28,
+  "pan": 0.125,
+  "note": "Decision diamond 6 lights"
+ },
+ {
+  "t": 2.533,
+  "type": "tick",
+  "gain": 0.292,
+  "pan": 0.21,
+  "note": "Decision diamond 7 lights"
+ },
+ {
+  "t": 2.667,
+  "type": "tick",
+  "gain": 0.304,
+  "pan": 0.295,
+  "note": "Decision diamond 8 lights"
+ },
+ {
+  "t": 2.6,
+  "type": "sparkle",
+  "gain": 0.6,
+  "pan": -0.3,
+  "note": "Cluster Trade-offs lights, label Trade-offs"
+ },
+ {
+  "t": 2.667,
+  "type": "tick",
+  "gain": 0.26,
+  "pan": -0.4,
+  "note": "Trade-off pair 1 appears and its dashed edge connects"
+ },
+ {
+  "t": 2.8,
+  "type": "tick",
+  "gain": 0.26,
+  "pan": 0.3,
+  "note": "Trade-off pair 2 appears and its dashed edge connects"
+ },
+ {
+  "t": 2.933,
+  "type": "tick",
+  "gain": 0.26,
+  "pan": -0.15,
+  "note": "Trade-off pair 3 appears and its dashed edge connects"
+ },
+ {
+  "t": 3.067,
+  "type": "tick",
+  "gain": 0.26,
+  "pan": 0.45,
+  "note": "Trade-off pair 4 appears and its dashed edge connects"
+ },
+ {
+  "t": 3.2,
+  "type": "tick",
+  "gain": 0.26,
+  "pan": -0.35,
+  "note": "Trade-off pair 5 appears and its dashed edge connects"
+ },
+ {
+  "t": 3.333,
+  "type": "tick",
+  "gain": 0.26,
+  "pan": 0.15,
+  "note": "Trade-off pair 6 appears and its dashed edge connects"
+ },
+ {
+  "t": 3.6,
+  "type": "riser",
+  "gain": 0.35,
+  "dur": 0.65,
+  "dir": "up",
+  "pan": 0.2,
+  "note": "Anticipation: the chosen pair pulses"
+ },
+ {
+  "t": 4.267,
+  "type": "tick",
+  "gain": 1.0,
+  "pan": 0.25,
+  "note": "Scar snap: the dashed edge breaks"
+ },
+ {
+  "t": 4.333,
+  "type": "sparkle",
+  "gain": 0.45,
+  "pan": 0.25,
+  "note": "Scar: a notch is cut from the unchosen circle, a quiet marigold mark"
+ },
+ {
+  "t": 4.933,
+  "type": "sparkle",
+  "gain": 0.6,
+  "pan": 0.2,
+  "note": "Cluster Product knowledge lights, label Product knowledge"
+ },
+ {
+  "t": 5.0,
+  "type": "tick",
+  "gain": 0.22,
+  "pan": 0.35,
+  "note": "Product hexagon 1 lights"
+ },
+ {
+  "t": 5.1,
+  "type": "tick",
+  "gain": 0.23,
+  "pan": 0.26,
+  "note": "Product hexagon 2 lights"
+ },
+ {
+  "t": 5.2,
+  "type": "tick",
+  "gain": 0.24,
+  "pan": 0.17,
+  "note": "Product hexagon 3 lights"
+ },
+ {
+  "t": 5.3,
+  "type": "tick",
+  "gain": 0.25,
+  "pan": 0.08,
+  "note": "Product hexagon 4 lights"
+ },
+ {
+  "t": 5.4,
+  "type": "tick",
+  "gain": 0.26,
+  "pan": -0.01,
+  "note": "Product hexagon 5 lights"
+ },
+ {
+  "t": 5.5,
+  "type": "tick",
+  "gain": 0.27,
+  "pan": -0.1,
+  "note": "Product hexagon 6 lights"
+ },
+ {
+  "t": 5.6,
+  "type": "tick",
+  "gain": 0.28,
+  "pan": -0.19,
+  "note": "Product hexagon 7 lights"
+ },
+ {
+  "t": 5.7,
+  "type": "tick",
+  "gain": 0.29,
+  "pan": -0.28,
+  "note": "Product hexagon 8 lights"
+ },
+ {
+  "t": 5.867,
+  "type": "low",
+  "gain": 1.0,
+  "pan": 0,
+  "note": "All of it: every node pulses once, the glass wall starts to close"
+ },
+ {
+  "t": 6.3,
+  "type": "sparkle",
+  "gain": 0.5,
+  "pan": 0.1,
+  "note": "Glass wall seals, sheen passes over it"
+ },
+ {
+  "t": 6.533,
+  "type": "tick",
+  "gain": 0.5,
+  "pan": -0.4,
+  "note": "Label In your head arrives"
+ },
+ {
+  "t": 7.8,
+  "type": "whoosh",
+  "gain": 0.6,
+  "dur": 0.55,
+  "dir": "down",
+  "pan": 0,
+  "note": "Nodes drift toward the centre, ready for the silence"
+ }
+]
