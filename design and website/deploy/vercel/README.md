@@ -17,3 +17,6 @@ Create a production deployment with `files` = `vercel.json`, `scripts/vercel-bui
 
 ## Rollback
 Keep the previous deployment ID. A failed build does not move the production alias.
+
+## Incident note (31 Oct 2026)
+A `create_deployment` call with `deploymentId` and a partial `files` list produced a READY deployment with no content and moved production to 404. It was undone with `request_promote` of the previous deployment within about two minutes. Never redeploy with a partial file list; send the complete list every time.

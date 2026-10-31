@@ -2339,13 +2339,13 @@
     },
     {
       "path": "deploy/vercel/README.md",
-      "bytes": 2596,
-      "sha256": "d36bdbec2c0380cb7f62373a021dcc0382c3b18beb10640b9475b588a7044010"
+      "bytes": 2941,
+      "sha256": "5c40c562c13330c49130406ca774650d755eed8463dec3ee9fd01cd1c0a0fb30"
     },
     {
       "path": "deploy/vercel/vercel-build.sh",
-      "bytes": 1439,
-      "sha256": "56e92a8817f3da335aff862e892ee7d102834299280c5c9e30ad13938e603505"
+      "bytes": 1459,
+      "sha256": "cea5dd5767f0115661434ff3bbbe53895e09128cf831ac292ad85c6df72b5e8b"
     },
     {
       "path": "deploy/vercel/vercel.json",
