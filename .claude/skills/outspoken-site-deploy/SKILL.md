@@ -1,0 +1,12 @@
+---
+name: outspoken-site-deploy
+description: Build, verify and deploy the Outspoken review website to the existing Vercel project through the Vercel connector, with anonymous readback. Use for any site update or deployment.
+---
+
+# Outspoken site: build, deploy, verify
+
+1. **Build and check** in `design and website/website`: `npm ci --ignore-scripts && npm run typecheck && npm run build`. Run the repository verifiers (`python3 scripts/verify_release.py`, `node "design and website/scripts/verify-package.mjs"`, `python3 scripts/public_safety_scan.py`) before any push.
+2. **Vercel connector, personal (hobby) scope:** the account is a personal one. **Do not pass `teamId` or `slug`** to any tool; passing the personal scope id returns 403 even though the connection is authorised, and an empty team list is normal. Find the project by name `outspoken-voice-7c4e2` with `list_projects` (no team parameter). Never ask for tokens or passwords.
+3. **Deploy:** `create_deployment` needs file contents inline, so a 1 MB bundle cannot be uploaded directly. Use the build-from-commit recipe in `design and website/deploy/vercel/` (`vercel.json` + `scripts/vercel-build.sh` inline; set the commit SHA inside the script; already-uploaded media referenced by SHA-1). Target `production`, project by id, no `projectSettings` change. A failed build never moves the production alias; keep the previous deployment id for rollback.
+4. **Verify anonymously (required before saying "deployed"):** deployment state READY and alias set; fetch the public URL without credentials; every route returns 200; the HTML references the new `index-*.js/css`; compare the SHA-256 of every shipped file against the expected list; fonts and founder photos load; no console errors; no `citron` in the DOM; no horizontal overflow at 390 px.
+5. **Record** the deployment id, previous id, commit, checks and gaps in `design and website/HANDOFF.md`. Eleven rights-excluded media files are carried by SHA reference, not by the repository: do not drop them silently.

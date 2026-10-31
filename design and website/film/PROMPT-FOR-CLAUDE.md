@@ -2,6 +2,13 @@
 
 Both prompts assume the agent starts in a clean checkout of `https://github.com/mcharniuk1-spec/linkedin` and nothing else. Paste one as the first message. Variation A needs no connectors. Variation B adds Figma and Vercel.
 
+## How to start the cloud session (branch instructions)
+1. Open Claude Code on the web (claude.ai/code), choose the repository `mcharniuk1-spec/linkedin` and the base branch **`main`**: it holds the film, the plan, the owned skills in `.claude/skills/` and this file.
+2. The agent must **not commit to `main`**. Its first action is to create a working branch from `main`, one per task: `claude/film-4x5`, `claude/film-retime`, `claude/logo-vectors`, `claude/site-update`. It pushes only to that branch, without force.
+3. You review the branch (diff or pull request) and merge it yourself. Before merging, the agent rebases on `main` if `main` moved (the repository's collection workflow may add commits).
+4. Variation A needs no connector. Variation B needs the Figma connector signed in to the design account and the Vercel connector; for Vercel, tell the agent not to pass `teamId` (see `.claude/skills/outspoken-site-deploy/SKILL.md`).
+5. Paste the prompt as the first message; the agent reads the skills automatically from `.claude/skills/`.
+
 ---
 
 ## Variation A: repository only (film, retime, 4:5 cut, teaser)

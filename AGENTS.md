@@ -49,3 +49,6 @@ For an owner-requested manual update, read skills/update-run-linkedin/SKILL.md. 
 ## Activated collection and descriptive report — 31 October 2026
 
 Current cadence is every 30 minutes. Read `reports/20261031/ACTIVATION.md` for actual verification, recovery limits and source identity, and `reports/20261031/README.md` for the assessed sample. Three live workflow runs, authenticated encrypted state and local restores were verified; new records remain a private review queue. Never bootstrap over existing or missing checkpoint history. API post reads remain disabled without approved scopes. Do not conflate a source/config declaration with a later successful run. The report includes sampled media evidence and missingness; it makes no causal format or conversion claims. Design/editorial packages remain unchanged.
+
+## Project skills
+Owned, script-free skills for this repository live in `.claude/skills/` (film build, design rules, site deploy, logo and icon direction, LinkedIn run update); `skills/README.md` indexes them and lists third-party material that is reading-only. Skills installed on an owner's own machine are not available here.

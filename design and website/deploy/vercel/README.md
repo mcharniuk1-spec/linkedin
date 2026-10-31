@@ -1,6 +1,6 @@
 # Deploying the Outspoken review site to Vercel from a repository commit
 
-Status: **rehearsed locally, not yet executed on Vercel** (the Vercel connector had no access to the owner's team on 31 Oct 2026). Treat it as a recipe to verify, not a record of a deployment.
+Status: **executed once, on 31 Oct 2026**, for commit `d5f5880`: the production deployment reached READY, the production alias moved, and an anonymous readback matched the SHA-256 of all 181 shipped files, returned 200 on every route and showed no console errors. Gotcha: the connected account is a personal (hobby) scope, so **do not pass `teamId` or `slug`** to the Vercel tools (passing the personal scope id returns 403 although the connection is authorised).
 
 ## Why this exists
 A Vercel deployment made from uploaded files has to carry every file inline (the main JS bundle is about 1 MB). Building from the public repository commit avoids that: the deployment holds `vercel.json`, `vercel-build.sh` and the media that is not in the public tree, and Vercel builds the rest.

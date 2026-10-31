@@ -24,8 +24,8 @@
   "files": [
     {
       "path": "HANDOFF.md",
-      "bytes": 3878,
-      "sha256": "151b86828f8a0bb3234227b9fd87c380fcbc294f6c30d44aeea95be447ee14b4"
+      "bytes": 4166,
+      "sha256": "e1bc906ae603d8bd4281316ab9cec110c675104570d4a77c94291702c77c7bbd"
     },
     {
       "path": "README.md",
@@ -34,8 +34,8 @@
     },
     {
       "path": "asset-rights.json",
-      "bytes": 405209,
-      "sha256": "9ecf71db090c1d7dc280f312dff9dec4f01e2fd41f77b7107e88e67b15ed903a"
+      "bytes": 414175,
+      "sha256": "64426984ea670fc3b88dc9dd831fa770cd5032e0ce45538327493cf1c1c5ae84"
     },
     {
       "path": "assets/README.md",
@@ -121,6 +121,46 @@
       "path": "assets/public/assets/identity/font-source/mona-sans/mona-sans-latin-wght-normal.woff2",
       "bytes": 39788,
       "sha256": "a59061e38c5e7e6a00aaa6b6645a220c7d9c530991167f058cc0f8575f5d5844"
+    },
+    {
+      "path": "assets/public/assets/identity/mic-candidates-r10/A03-preview.jpg",
+      "bytes": 69471,
+      "sha256": "7aeae14f49d1c67c312b0b22b39efbd1a1ad16510ad061b9a80d470e2fa3448d"
+    },
+    {
+      "path": "assets/public/assets/identity/mic-candidates-r10/A05-preview.jpg",
+      "bytes": 47217,
+      "sha256": "6f0e28e41742404cb1cf935f614ccedb9c3e81c385d51bb79a4cf65f5ac4067a"
+    },
+    {
+      "path": "assets/public/assets/identity/mic-candidates-r10/B01-preview.jpg",
+      "bytes": 51098,
+      "sha256": "0e320a38673fffde5fc5214aa2bf7da26f9b38d3bd0c56ae45807066480484fc"
+    },
+    {
+      "path": "assets/public/assets/identity/mic-candidates-r10/B03-preview.jpg",
+      "bytes": 59552,
+      "sha256": "bcbe8b8fef5356555772faccc72babd31dc1b8eed44abfac8478f85e0076f3be"
+    },
+    {
+      "path": "assets/public/assets/identity/mic-candidates-r10/D01-preview.jpg",
+      "bytes": 37656,
+      "sha256": "068b746787cc15bd7ca2aad10e9e15ea3d280e11fba57e8683e9b382de2653ce"
+    },
+    {
+      "path": "assets/public/assets/identity/mic-candidates-r10/D05-preview.jpg",
+      "bytes": 59102,
+      "sha256": "1e4cfca1c38c92e56a32d7316a7e99ba764395bca9ee25164d88f2bc028245cf"
+    },
+    {
+      "path": "assets/public/assets/identity/mic-candidates-r10/contact-20.jpg",
+      "bytes": 243443,
+      "sha256": "e85f71effbdbb5104a4c3e0b471f7096906e5ff33e36b98116e3be4490b628d2"
+    },
+    {
+      "path": "assets/public/assets/identity/mic-candidates-r10/directions-board.jpg",
+      "bytes": 336377,
+      "sha256": "8a138e9b3b1184f38e5004ed3678439b293f539dc62d2b912bbb02bb3b722c09"
     },
     {
       "path": "assets/public/assets/masters/OS-O010-fictional-founder.png",
@@ -2184,8 +2224,8 @@
     },
     {
       "path": "deploy/vercel/README.md",
-      "bytes": 2325,
-      "sha256": "9b04f12a71799cd0b3d63569f99e5e9276ac5443182f1010a741bb9a00327e92"
+      "bytes": 2596,
+      "sha256": "d36bdbec2c0380cb7f62373a021dcc0382c3b18beb10640b9475b588a7044010"
     },
     {
       "path": "deploy/vercel/vercel-build.sh",
@@ -2294,13 +2334,13 @@
     },
     {
       "path": "film/PLAN-NEXT.md",
-      "bytes": 7029,
-      "sha256": "2b265cf36082c20ca01752ba7a756b57f59ed8c8c91bb54a91f9a10ad29d74f3"
+      "bytes": 7109,
+      "sha256": "f9e4f40ea58af2fe9a746f1f7784c6bc9f2dfc06fe8c758175f597a4370fe4c8"
     },
     {
       "path": "film/PROMPT-FOR-CLAUDE.md",
-      "bytes": 4533,
-      "sha256": "dbfdc7f72b3851f2476bc3183c367b49874f3da788db4f906877fa19cef1a129"
+      "bytes": 5580,
+      "sha256": "62f7af0a9c1aad02fa57467beac7d8449803404f3a26f89aa432a6c2a8a282a5"
     },
     {
       "path": "film/README.md",
@@ -5271,6 +5311,150 @@
       "conditions": [
         "SIL Open Font License 1.1; licence text retained beside the file.",
         "Fontsource self-hosted build of the upstream family."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/mic-candidates-r10/A03-preview.jpg",
+      "repository_path": "design and website/assets/public/assets/identity/mic-candidates-r10/A03-preview.jpg",
+      "sha256": "7aeae14f49d1c67c312b0b22b39efbd1a1ad16510ad061b9a80d470e2fa3448d",
+      "bytes": 69471,
+      "source": "Codex image-generation request R10-MIC-001 (twenty microphone candidates, 31 Oct 2026); downscaled previews and contact sheets made locally",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/design-system/film-tokens.json",
+        "design and website/film/DESIGN-FIT.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Candidate artwork only, not a selected or final asset; the client has not chosen a direction.",
+        "Generated with the owner's image-generation tool under its terms of use; no third-party reference image or brand was copied.",
+        "Full-size originals (1122x1402) stay local to the owner; these are downscaled previews."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/mic-candidates-r10/A05-preview.jpg",
+      "repository_path": "design and website/assets/public/assets/identity/mic-candidates-r10/A05-preview.jpg",
+      "sha256": "6f0e28e41742404cb1cf935f614ccedb9c3e81c385d51bb79a4cf65f5ac4067a",
+      "bytes": 47217,
+      "source": "Codex image-generation request R10-MIC-001 (twenty microphone candidates, 31 Oct 2026); downscaled previews and contact sheets made locally",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/design-system/film-tokens.json",
+        "design and website/film/DESIGN-FIT.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Candidate artwork only, not a selected or final asset; the client has not chosen a direction.",
+        "Generated with the owner's image-generation tool under its terms of use; no third-party reference image or brand was copied.",
+        "Full-size originals (1122x1402) stay local to the owner; these are downscaled previews."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/mic-candidates-r10/B01-preview.jpg",
+      "repository_path": "design and website/assets/public/assets/identity/mic-candidates-r10/B01-preview.jpg",
+      "sha256": "0e320a38673fffde5fc5214aa2bf7da26f9b38d3bd0c56ae45807066480484fc",
+      "bytes": 51098,
+      "source": "Codex image-generation request R10-MIC-001 (twenty microphone candidates, 31 Oct 2026); downscaled previews and contact sheets made locally",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/design-system/film-tokens.json",
+        "design and website/film/DESIGN-FIT.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Candidate artwork only, not a selected or final asset; the client has not chosen a direction.",
+        "Generated with the owner's image-generation tool under its terms of use; no third-party reference image or brand was copied.",
+        "Full-size originals (1122x1402) stay local to the owner; these are downscaled previews."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/mic-candidates-r10/B03-preview.jpg",
+      "repository_path": "design and website/assets/public/assets/identity/mic-candidates-r10/B03-preview.jpg",
+      "sha256": "bcbe8b8fef5356555772faccc72babd31dc1b8eed44abfac8478f85e0076f3be",
+      "bytes": 59552,
+      "source": "Codex image-generation request R10-MIC-001 (twenty microphone candidates, 31 Oct 2026); downscaled previews and contact sheets made locally",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/design-system/film-tokens.json",
+        "design and website/film/DESIGN-FIT.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Candidate artwork only, not a selected or final asset; the client has not chosen a direction.",
+        "Generated with the owner's image-generation tool under its terms of use; no third-party reference image or brand was copied.",
+        "Full-size originals (1122x1402) stay local to the owner; these are downscaled previews."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/mic-candidates-r10/D01-preview.jpg",
+      "repository_path": "design and website/assets/public/assets/identity/mic-candidates-r10/D01-preview.jpg",
+      "sha256": "068b746787cc15bd7ca2aad10e9e15ea3d280e11fba57e8683e9b382de2653ce",
+      "bytes": 37656,
+      "source": "Codex image-generation request R10-MIC-001 (twenty microphone candidates, 31 Oct 2026); downscaled previews and contact sheets made locally",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/design-system/film-tokens.json",
+        "design and website/film/DESIGN-FIT.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Candidate artwork only, not a selected or final asset; the client has not chosen a direction.",
+        "Generated with the owner's image-generation tool under its terms of use; no third-party reference image or brand was copied.",
+        "Full-size originals (1122x1402) stay local to the owner; these are downscaled previews."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/mic-candidates-r10/D05-preview.jpg",
+      "repository_path": "design and website/assets/public/assets/identity/mic-candidates-r10/D05-preview.jpg",
+      "sha256": "1e4cfca1c38c92e56a32d7316a7e99ba764395bca9ee25164d88f2bc028245cf",
+      "bytes": 59102,
+      "source": "Codex image-generation request R10-MIC-001 (twenty microphone candidates, 31 Oct 2026); downscaled previews and contact sheets made locally",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/design-system/film-tokens.json",
+        "design and website/film/DESIGN-FIT.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Candidate artwork only, not a selected or final asset; the client has not chosen a direction.",
+        "Generated with the owner's image-generation tool under its terms of use; no third-party reference image or brand was copied.",
+        "Full-size originals (1122x1402) stay local to the owner; these are downscaled previews."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/mic-candidates-r10/contact-20.jpg",
+      "repository_path": "design and website/assets/public/assets/identity/mic-candidates-r10/contact-20.jpg",
+      "sha256": "e85f71effbdbb5104a4c3e0b471f7096906e5ff33e36b98116e3be4490b628d2",
+      "bytes": 243443,
+      "source": "Codex image-generation request R10-MIC-001 (twenty microphone candidates, 31 Oct 2026); downscaled previews and contact sheets made locally",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/design-system/film-tokens.json",
+        "design and website/film/DESIGN-FIT.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Candidate artwork only, not a selected or final asset; the client has not chosen a direction.",
+        "Generated with the owner's image-generation tool under its terms of use; no third-party reference image or brand was copied.",
+        "Full-size originals (1122x1402) stay local to the owner; these are downscaled previews."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/mic-candidates-r10/directions-board.jpg",
+      "repository_path": "design and website/assets/public/assets/identity/mic-candidates-r10/directions-board.jpg",
+      "sha256": "8a138e9b3b1184f38e5004ed3678439b293f539dc62d2b912bbb02bb3b722c09",
+      "bytes": 336377,
+      "source": "Codex image-generation request R10-MIC-001 (twenty microphone candidates, 31 Oct 2026); downscaled previews and contact sheets made locally",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/design-system/film-tokens.json",
+        "design and website/film/DESIGN-FIT.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Candidate artwork only, not a selected or final asset; the client has not chosen a direction.",
+        "Generated with the owner's image-generation tool under its terms of use; no third-party reference image or brand was copied.",
+        "Full-size originals (1122x1402) stay local to the owner; these are downscaled previews."
       ]
     },
     {
