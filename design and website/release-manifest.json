@@ -34,8 +34,8 @@
     },
     {
       "path": "asset-rights.json",
-      "bytes": 438381,
-      "sha256": "38218e734cddcf7fbbbd32b7dde6e8bf0a8f13d7ba0c5907a0d95cf5ed5e1fd6"
+      "bytes": 438645,
+      "sha256": "8f162cfb8ef73ba6d4a23e8da5b7827d0a3cf3f7b4bdb759becc3ba3fa1e3f42"
     },
     {
       "path": "assets/README.md",
@@ -5659,9 +5659,10 @@
       "sha256": "4c119f6bed7f104ebfd255b207d418b149410889bae1c676590dc6854116a48c",
       "bytes": 90946,
       "source": "design-system/identity-v10/grade-heroes.py: deterministic colour grade of the already registered fictional hero images (V3 shadow figure, V5 founder and portraits); size, crop and transparency unchanged",
-      "rights_state": "licensed",
+      "rights_state": "owned",
       "evidence": [
-        "design and website/design-system/identity-v10/README.md"
+        "design and website/design-system/identity-v10/README.md",
+        "website/packages/assets/revisions/v3/nature/manifest.json"
       ],
       "source_hash_match": false,
       "conditions": [
@@ -5676,9 +5677,10 @@
       "sha256": "ac71dbde47c8eafb52d0a0d31f89ee324d1a7aea2c726fe70d60cc4d2818b02b",
       "bytes": 140148,
       "source": "design-system/identity-v10/grade-heroes.py: deterministic colour grade of the already registered fictional hero images (V3 shadow figure, V5 founder and portraits); size, crop and transparency unchanged",
-      "rights_state": "licensed",
+      "rights_state": "owned",
       "evidence": [
-        "design and website/design-system/identity-v10/README.md"
+        "design and website/design-system/identity-v10/README.md",
+        "website/packages/assets/revisions/v5/people/manifest.json"
       ],
       "source_hash_match": false,
       "conditions": [
@@ -5693,9 +5695,10 @@
       "sha256": "fb90008449be0e71b401c345029a1b43977bfb78aefd9b785458188f595f64a2",
       "bytes": 157152,
       "source": "design-system/identity-v10/grade-heroes.py: deterministic colour grade of the already registered fictional hero images (V3 shadow figure, V5 founder and portraits); size, crop and transparency unchanged",
-      "rights_state": "licensed",
+      "rights_state": "owned",
       "evidence": [
-        "design and website/design-system/identity-v10/README.md"
+        "design and website/design-system/identity-v10/README.md",
+        "website/packages/assets/revisions/v5/people/manifest.json"
       ],
       "source_hash_match": false,
       "conditions": [
@@ -5710,9 +5713,10 @@
       "sha256": "b96d0c09fad4830f1b843b655d3e850e8fbb70d8967319ab793569e0e3580739",
       "bytes": 124550,
       "source": "design-system/identity-v10/grade-heroes.py: deterministic colour grade of the already registered fictional hero images (V3 shadow figure, V5 founder and portraits); size, crop and transparency unchanged",
-      "rights_state": "licensed",
+      "rights_state": "owned",
       "evidence": [
-        "design and website/design-system/identity-v10/README.md"
+        "design and website/design-system/identity-v10/README.md",
+        "website/packages/assets/revisions/v5/people/manifest.json"
       ],
       "source_hash_match": false,
       "conditions": [
