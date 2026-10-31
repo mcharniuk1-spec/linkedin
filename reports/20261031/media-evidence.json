@@ -1,0 +1,967 @@
+{
+  "schema_version": "1.0",
+  "source_release": "runs/20261022-linkedin-pipeline-v6/data/dataset.json",
+  "scope": {
+    "posts": 279,
+    "accounts": 61,
+    "visual_reviews": 145,
+    "video_reviews": 24,
+    "assets": 207,
+    "interpretations": 279,
+    "qualification_records": 279,
+    "performance_records": 279,
+    "observation_capture_start": "2026-10-20T17:59:36.061239+00:00",
+    "observation_capture_end": "2026-10-22T10:09:39.885659+00:00",
+    "publication_dates": {
+      "known": 274,
+      "missing": 5,
+      "earliest": "2022-07-12T15:21:08.932Z",
+      "latest": "2026-10-22T01:55:07.573Z"
+    }
+  },
+  "topic_counts": {
+    "content_personal_brand": 53,
+    "positioning_messaging": 41,
+    "sales_outbound": 39,
+    "ai_product_education": 34,
+    "demand_generation": 27,
+    "founder_building": 23,
+    "buyer_research": 21,
+    "leadership_team": 14,
+    "events_community": 13,
+    "adjacent_humor": 6,
+    "career_general": 5,
+    "customer_proof": 3
+  },
+  "editorial_job_counts": {
+    "teach_method": 91,
+    "announce_offer": 63,
+    "challenge_belief": 46,
+    "tell_story": 36,
+    "show_proof": 23,
+    "build_in_public": 8,
+    "start_discussion": 6,
+    "entertain": 6
+  },
+  "format_counts": {
+    "text_or_external_link": 135,
+    "image": 111,
+    "video": 24,
+    "document": 9
+  },
+  "qualification_counts": {
+    "core": 179,
+    "adjacent": 75,
+    "hold": 24,
+    "exclude": 1
+  },
+  "performance_counts": {
+    "insufficient_comparable_sample": 245,
+    "ordinary_sample_reference": 26,
+    "strong_sample_reference": 8
+  },
+  "post_text_example_visual_reviews": [
+    {
+      "post_id": "urn:li:activity:7078733576279621632",
+      "url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7078733576279621632-Pe9K",
+      "author": "Anthony Pierri",
+      "topic": "positioning_messaging",
+      "job": "teach_method",
+      "visual_source_sha256": "2ea7434585082eb836279b91415781424bda259fb2c2c4f1eca8c4875fd12dfb",
+      "observed_design": "Landscape framework slide: headline and small product example at left, two rows of colored positioning cards at right; some card text is small.",
+      "evidence_basis": "Existing review is bound to source SHA-256; directly inspected actual source image in this review."
+    },
+    {
+      "post_id": "urn:li:activity:7092192467973783552",
+      "url": "https://www.linkedin.com/posts/amandanat_marketing-pr-prstrategy-activity-7092192467973783552-CkJo",
+      "author": "Amanda Natividad",
+      "topic": "buyer_research",
+      "job": "tell_story",
+      "visual_source_sha256": "22027cc6f1036e8d5067207c02816c45e4b69807f109c2feb8f5535f4d2c9d23",
+      "observed_design": "White landscape matrix with title/subtitle and four colored quadrants contrasting short/long term and reputation/acquisition outcomes.",
+      "evidence_basis": "Existing review is bound to source SHA-256; directly inspected actual source image in this review."
+    },
+    {
+      "post_id": "urn:li:activity:7097562666906337280",
+      "url": "https://www.linkedin.com/posts/refine-labs_weve-been-busy-in-the-lab-helping-zappi-activity-7097562666906337280-gDqN",
+      "author": "Refine Labs",
+      "topic": "customer_proof",
+      "job": "show_proof",
+      "visual_source_sha256": "c14acb2c8ed3d8e19817b0bb90790a61ac71361d9d0cb0e4dc3c14b472703a3e",
+      "observed_design": "Dark square case-claim card with a large headline and two prominent metric panels.",
+      "evidence_basis": "Existing review is bound to source SHA-256; directly inspected actual source image in this review. The image design does not validate the claims displayed."
+    },
+    {
+      "post_id": "urn:li:activity:7284585014342643712",
+      "url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-b2b-activity-7284585014342643712-KBvq",
+      "author": "Anthony Pierri",
+      "topic": "positioning_messaging",
+      "job": "teach_method",
+      "visual_source_sha256": "aa91005a019dfec99e5c3634360b81323c788a8f6f9cc1c3740b72e1cf32067e",
+      "observed_design": "Dense white landscape equation sheet that repeats a positioning formula across four product examples with homepage crops; smaller text is not all readable at feed scale.",
+      "evidence_basis": "Existing review is bound to source SHA-256; directly inspected actual source image in this review."
+    }
+  ],
+  "video_evidence": {
+    "review_count": 24,
+    "existing_review_method": "Sampled timeline frames plus available page/caption transcript evidence, as recorded per video; this review did not watch or listen to any video.",
+    "audio_reviewed_count": 0,
+    "full_watch_count": 0,
+    "limitations": [
+      "Existing reports describe sampled frames, not continuous motion or complete video viewing.",
+      "Audio review is false in the reviewed records; transcript/caption availability does not establish audio verification.",
+      "Some videos have only sampled burned-in text and no external transcript. Do not infer silence or missing speech from that state.",
+      "Frame coverage fraction is not populated consistently."
+    ],
+    "representative_source_urls": [
+      "https://www.linkedin.com/posts/cognism_are-you-stuck-in-thecontent-calendar-trap-activity-7419714950715088898-iR5T",
+      "https://www.linkedin.com/posts/refine-labs_right-now-the-market-is-noisy-ai-is-changing-activity-7419061081295224832-7K9v",
+      "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+      "https://www.linkedin.com/posts/aprildunford_positioning-activity-7095052315962847232-BBcd"
+    ],
+    "description_limits": "Use the existing per-record analyses for sampled framing, visible captions/text, structure and CTA presence. Do not restate transcripts or claim continuous watching/listening.",
+    "existing_review_mode_counts": {
+      "sampled_full_timeline_frames_plus_available_transcript": 13,
+      "dense_sampled_timeline_plus_transcript": 8,
+      "dense_sampled_frames_and_original_captions": 2,
+      "three_contact_sheets_actual_view_plus_original_platform_caption_read": 1
+    },
+    "transcript_review_status_counts": {
+      "all_available_caption_and_page_transcript_text_read": 7,
+      "no_external_transcript_available_burned_in_sampled_text_only": 6,
+      "not_recorded": 11
+    }
+  },
+  "interpretation": "In this selected reference set, reusable editorial building blocks include teachable positioning frameworks, buyer/problem explanations, founder/operator judgment, and concrete product or case examples. This describes the corpus and suggests creative options; it does not establish what caused reactions or what will work for Outspoken clients.",
+  "post_level_feature_tags": {
+    "method": "Rule-based tags from existing V6 reviewed fields only; no new visual/audio classification. Each post counted once per feature; features overlap. Unmatched or missing fields remain unknown, and untagged does not mean confirmed absent.",
+    "rubric": {
+      "framework_or_diagram": "Form/structured literal-visible fields explicitly name framework, diagram, matrix, table, equation, checklist, comparison or wireframe.",
+      "screenshot_or_product_ui": "Structured literal-visible fields explicitly name screenshot, interface/UI, screen-led media or homepage crop.",
+      "typography_or_metric_card": "Form/hierarchy/subject names a card, typographic treatment, quote card or metric-card design.",
+      "human_portrait_or_event": "Form/structured fields identify portrait, speaker, event, personal-brand photo or interview subject.",
+      "interview_or_talking_head": "Existing video format/framing explicitly labels interview, talking head, direct-to-camera, speaker or presenter.",
+      "product_demo_or_ui": "Existing video format/cuts explicitly describe product/UI/interface demonstration or screen tour.",
+      "visible_sampled_captions": "Existing video analysis captions field is populated and does not explicitly say captions are absent; indicates sampled visible captions only.",
+      "explicit_cta_recorded": "Existing video analysis records CTA fact/type; not a performance measure."
+    },
+    "feature_reaction_summary": {
+      "screenshot_or_product_ui": {
+        "post_n": 5,
+        "reaction_observed_n": 5,
+        "reaction_missing_n": 0,
+        "reaction_median": 785,
+        "reaction_mean": 983.2,
+        "distinct_authors_n": 3,
+        "top_authors": [
+          [
+            "Anthony Pierri",
+            3
+          ],
+          [
+            "April Dunford",
+            1
+          ],
+          [
+            "Justin Welsh",
+            1
+          ]
+        ],
+        "example_urls": [
+          "https://www.linkedin.com/posts/aprildunford_consumer-marketers-are-often-tapping-into-activity-6952643016314552320-kPgc",
+          "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7078733576279621632-Pe9K",
+          "https://www.linkedin.com/posts/justinwelsh_an-interesting-observation-about-business-activity-7217857656370143232--zTQ"
+        ]
+      },
+      "human_portrait_or_event": {
+        "post_n": 8,
+        "reaction_observed_n": 8,
+        "reaction_missing_n": 0,
+        "reaction_median": 144.0,
+        "reaction_mean": 132.2,
+        "distinct_authors_n": 4,
+        "top_authors": [
+          [
+            "Refine Labs",
+            3
+          ],
+          [
+            "Katelyn Bourgoin",
+            2
+          ],
+          [
+            "Gong",
+            2
+          ]
+        ],
+        "example_urls": [
+          "https://www.linkedin.com/posts/refine-labs_if-youve-spent-any-time-on-linkedin-over-activity-6984167253877366787-9go4",
+          "https://www.linkedin.com/posts/refine-labs_were-kicking-off-2024-with-a-return-to-our-activity-7151226277188763648-JT7W",
+          "https://www.linkedin.com/posts/katebour_competitors-can-steal-your-customers-but-activity-7187130560216018945-cqvl"
+        ]
+      },
+      "framework_or_diagram": {
+        "post_n": 13,
+        "reaction_observed_n": 13,
+        "reaction_missing_n": 0,
+        "reaction_median": 421,
+        "reaction_mean": 468.5,
+        "distinct_authors_n": 4,
+        "top_authors": [
+          [
+            "Anthony Pierri",
+            7
+          ],
+          [
+            "April Dunford",
+            3
+          ],
+          [
+            "Amanda Natividad",
+            2
+          ]
+        ],
+        "example_urls": [
+          "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7078733576279621632-Pe9K",
+          "https://www.linkedin.com/posts/amandanat_marketing-pr-prstrategy-activity-7092192467973783552-CkJo",
+          "https://www.linkedin.com/posts/amandanat_contentmarketing-marketing-organicmarketing-activity-7099404788823465986-3wds"
+        ]
+      },
+      "typography_or_metric_card": {
+        "post_n": 8,
+        "reaction_observed_n": 8,
+        "reaction_missing_n": 0,
+        "reaction_median": 135.5,
+        "reaction_mean": 122.8,
+        "distinct_authors_n": 4,
+        "top_authors": [
+          [
+            "Refine Labs",
+            3
+          ],
+          [
+            "Katelyn Bourgoin",
+            2
+          ],
+          [
+            "Gong",
+            2
+          ]
+        ],
+        "example_urls": [
+          "https://www.linkedin.com/posts/refine-labs_weve-been-busy-in-the-lab-helping-zappi-activity-7097562666906337280-gDqN",
+          "https://www.linkedin.com/posts/refine-labs_were-kicking-off-2024-with-a-return-to-our-activity-7151226277188763648-JT7W",
+          "https://www.linkedin.com/posts/katebour_competitors-can-steal-your-customers-but-activity-7187130560216018945-cqvl"
+        ]
+      },
+      "interview_or_talking_head": {
+        "post_n": 9,
+        "reaction_observed_n": 9,
+        "reaction_missing_n": 0,
+        "reaction_median": 26,
+        "reaction_mean": 48.1,
+        "distinct_authors_n": 4,
+        "top_authors": [
+          [
+            "Cognism",
+            5
+          ],
+          [
+            "Refine Labs",
+            2
+          ],
+          [
+            "Gong",
+            1
+          ]
+        ],
+        "example_urls": [
+          "https://www.linkedin.com/posts/cognism_are-you-stuck-in-thecontent-calendar-trap-activity-7419714950715088898-iR5T",
+          "https://www.linkedin.com/posts/refine-labs_right-now-the-market-is-noisy-ai-is-changing-activity-7419061081295224832-7K9v",
+          "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX"
+        ]
+      },
+      "visible_sampled_captions": {
+        "post_n": 13,
+        "reaction_observed_n": 13,
+        "reaction_missing_n": 0,
+        "reaction_median": 26,
+        "reaction_mean": 63.5,
+        "distinct_authors_n": 5,
+        "top_authors": [
+          [
+            "Cognism",
+            6
+          ],
+          [
+            "Refine Labs",
+            4
+          ],
+          [
+            "Gong",
+            1
+          ]
+        ],
+        "example_urls": [
+          "https://www.linkedin.com/posts/cognism_are-you-stuck-in-thecontent-calendar-trap-activity-7419714950715088898-iR5T",
+          "https://www.linkedin.com/posts/refine-labs_right-now-the-market-is-noisy-ai-is-changing-activity-7419061081295224832-7K9v",
+          "https://www.linkedin.com/posts/cognism_reporting-pushes-us-toward-the-work-that-activity-7396571489132564480-JbiA"
+        ]
+      },
+      "explicit_cta_recorded": {
+        "post_n": 13,
+        "reaction_observed_n": 13,
+        "reaction_missing_n": 0,
+        "reaction_median": 26,
+        "reaction_mean": 63.5,
+        "distinct_authors_n": 5,
+        "top_authors": [
+          [
+            "Cognism",
+            6
+          ],
+          [
+            "Refine Labs",
+            4
+          ],
+          [
+            "Gong",
+            1
+          ]
+        ],
+        "example_urls": [
+          "https://www.linkedin.com/posts/cognism_are-you-stuck-in-thecontent-calendar-trap-activity-7419714950715088898-iR5T",
+          "https://www.linkedin.com/posts/refine-labs_right-now-the-market-is-noisy-ai-is-changing-activity-7419061081295224832-7K9v",
+          "https://www.linkedin.com/posts/cognism_reporting-pushes-us-toward-the-work-that-activity-7396571489132564480-JbiA"
+        ]
+      },
+      "product_demo_or_ui": {
+        "post_n": 1,
+        "reaction_observed_n": 1,
+        "reaction_missing_n": 0,
+        "reaction_median": 184,
+        "reaction_mean": 184,
+        "distinct_authors_n": 1,
+        "top_authors": [
+          [
+            "Gong",
+            1
+          ]
+        ],
+        "example_urls": [
+          "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX"
+        ]
+      }
+    },
+    "post_tags": [
+      {
+        "post_id": "urn:li:activity:6952643016314552320",
+        "url": "https://www.linkedin.com/posts/aprildunford_consumer-marketers-are-often-tapping-into-activity-6952643016314552320-kPgc",
+        "author": "April Dunford",
+        "media_class": "image",
+        "feature_source_fields": {
+          "screenshot_or_product_ui": "visual_reviews.literal_visible.form/composition/subject/style"
+        },
+        "source_sha256_by_feature": {
+          "screenshot_or_product_ui": "a76e865cafd8e465fe2795479bf01abd64aebaed0ebcda7b0014d54db9453744"
+        },
+        "reactions": 879,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:06:29.599631+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:6984167253877366787",
+        "url": "https://www.linkedin.com/posts/refine-labs_if-youve-spent-any-time-on-linkedin-over-activity-6984167253877366787-9go4",
+        "author": "Refine Labs",
+        "media_class": "image",
+        "feature_source_fields": {
+          "human_portrait_or_event": "visual_reviews.literal_visible.form/composition/subject/style"
+        },
+        "source_sha256_by_feature": {
+          "human_portrait_or_event": "917eac0d2df79e8294df51ed044b0de5f9fb5789e32e299173bb59e89cba16d6"
+        },
+        "reactions": 234,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T11:42:43.346968+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7057745281064300545",
+        "url": "https://www.linkedin.com/posts/cognism_demandgen-b2bmarketing-activity-7057745281064300545--zJ7",
+        "author": "Cognism",
+        "media_class": "video",
+        "feature_source_fields": {
+          "interview_or_talking_head": "video_reviews.analysis.format/framing",
+          "visible_sampled_captions": "video_reviews.analysis.captions",
+          "explicit_cta_recorded": "video_reviews.analysis.cta"
+        },
+        "source_sha256_by_feature": {
+          "interview_or_talking_head": "684e27b167a7690da8b4f86a32d2424c69a6b11b5c8ae230daae72c914e22800",
+          "visible_sampled_captions": "684e27b167a7690da8b4f86a32d2424c69a6b11b5c8ae230daae72c914e22800",
+          "explicit_cta_recorded": "684e27b167a7690da8b4f86a32d2424c69a6b11b5c8ae230daae72c914e22800"
+        },
+        "reactions": 26,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:07:12.261992+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7078733576279621632",
+        "url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7078733576279621632-Pe9K",
+        "author": "Anthony Pierri",
+        "media_class": "image",
+        "feature_source_fields": {
+          "screenshot_or_product_ui": "visual_reviews.literal_visible.form/composition/subject/style",
+          "framework_or_diagram": "visual_reviews.literal_visible structured fields"
+        },
+        "source_sha256_by_feature": {
+          "screenshot_or_product_ui": "2ea7434585082eb836279b91415781424bda259fb2c2c4f1eca8c4875fd12dfb",
+          "framework_or_diagram": "2ea7434585082eb836279b91415781424bda259fb2c2c4f1eca8c4875fd12dfb"
+        },
+        "reactions": 435,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:05:41.099926+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7092192467973783552",
+        "url": "https://www.linkedin.com/posts/amandanat_marketing-pr-prstrategy-activity-7092192467973783552-CkJo",
+        "author": "Amanda Natividad",
+        "media_class": "image",
+        "feature_source_fields": {
+          "framework_or_diagram": "visual_reviews.literal_visible structured fields"
+        },
+        "source_sha256_by_feature": {
+          "framework_or_diagram": "22027cc6f1036e8d5067207c02816c45e4b69807f109c2feb8f5535f4d2c9d23"
+        },
+        "reactions": 278,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:06:32.045787+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7095052315962847232",
+        "url": "https://www.linkedin.com/posts/aprildunford_positioning-activity-7095052315962847232-BBcd",
+        "author": "April Dunford",
+        "media_class": "video",
+        "feature_source_fields": {
+          "visible_sampled_captions": "video_reviews.analysis.captions",
+          "explicit_cta_recorded": "video_reviews.analysis.cta"
+        },
+        "source_sha256_by_feature": {
+          "visible_sampled_captions": "90af42f1b13cf1163373a455d0b762c92d21e6087891c85657081cde96f5712c",
+          "explicit_cta_recorded": "90af42f1b13cf1163373a455d0b762c92d21e6087891c85657081cde96f5712c"
+        },
+        "reactions": 346,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:06:27.007748+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7097562666906337280",
+        "url": "https://www.linkedin.com/posts/refine-labs_weve-been-busy-in-the-lab-helping-zappi-activity-7097562666906337280-gDqN",
+        "author": "Refine Labs",
+        "media_class": "image",
+        "feature_source_fields": {
+          "typography_or_metric_card": "visual_reviews.literal_visible.form/hierarchy/composition/subject"
+        },
+        "source_sha256_by_feature": {
+          "typography_or_metric_card": "c14acb2c8ed3d8e19817b0bb90790a61ac71361d9d0cb0e4dc3c14b472703a3e"
+        },
+        "reactions": 22,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:06:18.977382+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7099404788823465986",
+        "url": "https://www.linkedin.com/posts/amandanat_contentmarketing-marketing-organicmarketing-activity-7099404788823465986-3wds",
+        "author": "Amanda Natividad",
+        "media_class": "image",
+        "feature_source_fields": {
+          "framework_or_diagram": "visual_reviews.literal_visible structured fields"
+        },
+        "source_sha256_by_feature": {
+          "framework_or_diagram": "c1eddcde49b312d3cde9fafd50b0d227bae20c39339b1d297c5174cc701165f5"
+        },
+        "reactions": 862,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:06:34.647247+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7104829153966780416",
+        "url": "https://www.linkedin.com/posts/refine-labs_demand-capture-breakdown-activity-7104829153966780416-Xmxd",
+        "author": "Refine Labs",
+        "media_class": "video",
+        "feature_source_fields": {
+          "visible_sampled_captions": "video_reviews.analysis.captions",
+          "explicit_cta_recorded": "video_reviews.analysis.cta"
+        },
+        "source_sha256_by_feature": {
+          "visible_sampled_captions": "ff685d1a5c368708197695e3a0e053ad31f8a46c06e01d5224d0995d07f942e3",
+          "explicit_cta_recorded": "ff685d1a5c368708197695e3a0e053ad31f8a46c06e01d5224d0995d07f942e3"
+        },
+        "reactions": 31,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:06:18.979306+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7142166097746624512",
+        "url": "https://www.linkedin.com/posts/anthonypierri_there-are-two-primary-ways-to-do-positioning-activity-7142166097746624512-xOOA",
+        "author": "Anthony Pierri",
+        "media_class": "image",
+        "feature_source_fields": {
+          "framework_or_diagram": "visual_reviews.literal_visible structured fields"
+        },
+        "source_sha256_by_feature": {
+          "framework_or_diagram": "232233da32c806a9cce69c1c2bbd5176ccfe8ebc85d1b1da64aac44f6e4b3801"
+        },
+        "reactions": 189,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:05:35.348216+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7151201811373113344",
+        "url": "https://www.linkedin.com/posts/aprildunford_some-folks-put-too-much-focus-on-choosing-activity-7151201811373113344-4PSb",
+        "author": "April Dunford",
+        "media_class": "image",
+        "feature_source_fields": {
+          "framework_or_diagram": "visual_reviews.literal_visible structured fields"
+        },
+        "source_sha256_by_feature": {
+          "framework_or_diagram": "12f1b44783366af804f684160fa9b29ae22de3db32b3b72d008a9a99d6311ecb"
+        },
+        "reactions": 560,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T11:42:43.347030+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7151226277188763648",
+        "url": "https://www.linkedin.com/posts/refine-labs_were-kicking-off-2024-with-a-return-to-our-activity-7151226277188763648-JT7W",
+        "author": "Refine Labs",
+        "media_class": "image",
+        "feature_source_fields": {
+          "human_portrait_or_event": "visual_reviews.literal_visible.form/composition/subject/style",
+          "typography_or_metric_card": "visual_reviews.literal_visible.form/hierarchy/composition/subject"
+        },
+        "source_sha256_by_feature": {
+          "human_portrait_or_event": "1a2959730eb423c42714101112e06fb9e041edda4106064cfdee93445f01119a",
+          "typography_or_metric_card": "1a2959730eb423c42714101112e06fb9e041edda4106064cfdee93445f01119a"
+        },
+        "reactions": 167,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:06:24.541173+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7179200520924901376",
+        "url": "https://www.linkedin.com/posts/aprildunford_consumer-products-rarely-shift-positioning-activity-7179200520924901376-O7GO",
+        "author": "April Dunford",
+        "media_class": "image",
+        "feature_source_fields": {
+          "framework_or_diagram": "visual_reviews.literal_visible structured fields"
+        },
+        "source_sha256_by_feature": {
+          "framework_or_diagram": "e9eb069614c14e2e98cc099bf197060fb105b3703b98f701f5bbbe504de82c75"
+        },
+        "reactions": 421,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:06:24.541861+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7187130560216018945",
+        "url": "https://www.linkedin.com/posts/katebour_competitors-can-steal-your-customers-but-activity-7187130560216018945-cqvl",
+        "author": "Katelyn Bourgoin",
+        "media_class": "image",
+        "feature_source_fields": {
+          "human_portrait_or_event": "visual_reviews.literal_visible.form/composition/subject/style",
+          "typography_or_metric_card": "visual_reviews.literal_visible.form/hierarchy/composition/subject"
+        },
+        "source_sha256_by_feature": {
+          "human_portrait_or_event": "69b0819c297400c32fb9a884cedffa8fdaba7dbc47b7579ef6def62f1dcf5db0",
+          "typography_or_metric_card": "69b0819c297400c32fb9a884cedffa8fdaba7dbc47b7579ef6def62f1dcf5db0"
+        },
+        "reactions": 109,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:06:03.560151+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7196524924000157698",
+        "url": "https://www.linkedin.com/posts/gong-io_new-gongster-alert-were-thrilled-to-activity-7196524924000157698-GJGu",
+        "author": "Gong",
+        "media_class": "image",
+        "feature_source_fields": {
+          "human_portrait_or_event": "visual_reviews.literal_visible.form/composition/subject/style",
+          "typography_or_metric_card": "visual_reviews.literal_visible.form/hierarchy/composition/subject"
+        },
+        "source_sha256_by_feature": {
+          "human_portrait_or_event": "35cd84b6338e00a3915dded4511ac2b927028ad150cc6c9c7af96a87a7303764",
+          "typography_or_metric_card": "35cd84b6338e00a3915dded4511ac2b927028ad150cc6c9c7af96a87a7303764"
+        },
+        "reactions": 180,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:07:02.898904+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7217857656370143232",
+        "url": "https://www.linkedin.com/posts/justinwelsh_an-interesting-observation-about-business-activity-7217857656370143232--zTQ",
+        "author": "Justin Welsh",
+        "media_class": "image",
+        "feature_source_fields": {
+          "screenshot_or_product_ui": "visual_reviews.literal_visible.form/composition/subject/style"
+        },
+        "source_sha256_by_feature": {
+          "screenshot_or_product_ui": "d35e052830440094d776da7c0741814bd8ede1838e3c9f01a8ba17b8ae42d13f"
+        },
+        "reactions": 2498,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:05:19.438157+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7242555636188676097",
+        "url": "https://www.linkedin.com/posts/aprildunford_one-of-the-most-common-questions-i-get-is-activity-7242555636188676097-b937",
+        "author": "April Dunford",
+        "media_class": "image",
+        "feature_source_fields": {
+          "framework_or_diagram": "visual_reviews.literal_visible structured fields"
+        },
+        "source_sha256_by_feature": {
+          "framework_or_diagram": "e23661b3e404eef52304a5044fd798886aa281e44d3c633b6b8b617a489b3b6e"
+        },
+        "reactions": 1139,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:06:11.400031+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7259580222310645760",
+        "url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+        "author": "Anthony Pierri",
+        "media_class": "image",
+        "feature_source_fields": {
+          "framework_or_diagram": "visual_reviews.literal_visible structured fields"
+        },
+        "source_sha256_by_feature": {
+          "framework_or_diagram": "03133a6753e9a62d3473483be1a62ea575f7f0c7f7048a6879bec63e37dcfd9b"
+        },
+        "reactions": 504,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:05:43.554254+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7262164693144743936",
+        "url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7262164693144743936-l3qY",
+        "author": "Anthony Pierri",
+        "media_class": "image",
+        "feature_source_fields": {
+          "framework_or_diagram": "visual_reviews.literal_visible structured fields"
+        },
+        "source_sha256_by_feature": {
+          "framework_or_diagram": "67a682c11d7e4efeedc4d1f5f5c44368007b3c5d5b0d310fc130fdbebaea73c2"
+        },
+        "reactions": 211,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:05:48.329221+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7267117381456412674",
+        "url": "https://www.linkedin.com/posts/cognism_steal-cognisms-demand-gen-playbook-activity-7267117381456412674-byr_",
+        "author": "Cognism",
+        "media_class": "video",
+        "feature_source_fields": {
+          "interview_or_talking_head": "video_reviews.analysis.format/framing",
+          "visible_sampled_captions": "video_reviews.analysis.captions",
+          "explicit_cta_recorded": "video_reviews.analysis.cta"
+        },
+        "source_sha256_by_feature": {
+          "interview_or_talking_head": "51dcfc8d20314aeb2c5b9d5d2c85adcfbda142eb10e3be5d0d9a04cd9e6b6451",
+          "visible_sampled_captions": "51dcfc8d20314aeb2c5b9d5d2c85adcfbda142eb10e3be5d0d9a04cd9e6b6451",
+          "explicit_cta_recorded": "51dcfc8d20314aeb2c5b9d5d2c85adcfbda142eb10e3be5d0d9a04cd9e6b6451"
+        },
+        "reactions": 69,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:07:12.261384+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7284585014342643712",
+        "url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-b2b-activity-7284585014342643712-KBvq",
+        "author": "Anthony Pierri",
+        "media_class": "image",
+        "feature_source_fields": {
+          "screenshot_or_product_ui": "visual_reviews.literal_visible.form/composition/subject/style",
+          "framework_or_diagram": "visual_reviews.literal_visible structured fields"
+        },
+        "source_sha256_by_feature": {
+          "screenshot_or_product_ui": "aa91005a019dfec99e5c3634360b81323c788a8f6f9cc1c3740b72e1cf32067e",
+          "framework_or_diagram": "aa91005a019dfec99e5c3634360b81323c788a8f6f9cc1c3740b72e1cf32067e"
+        },
+        "reactions": 785,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:05:38.188896+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7287846534564483072",
+        "url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-b2b-activity-7287846534564483072-wz94",
+        "author": "Anthony Pierri",
+        "media_class": "image",
+        "feature_source_fields": {
+          "framework_or_diagram": "visual_reviews.literal_visible structured fields",
+          "typography_or_metric_card": "visual_reviews.literal_visible.form/hierarchy/composition/subject"
+        },
+        "source_sha256_by_feature": {
+          "framework_or_diagram": "181173a20a12bdd743726be466362786349a47b20808b018e23d379131ec87b7",
+          "typography_or_metric_card": "181173a20a12bdd743726be466362786349a47b20808b018e23d379131ec87b7"
+        },
+        "reactions": 262,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:05:43.553623+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7289296037570101250",
+        "url": "https://www.linkedin.com/posts/anthonypierri_b2b-startups-productmarketing-activity-7289296037570101250-Jnl4",
+        "author": "Anthony Pierri",
+        "media_class": "image",
+        "feature_source_fields": {
+          "screenshot_or_product_ui": "visual_reviews.literal_visible.form/composition/subject/style",
+          "framework_or_diagram": "visual_reviews.literal_visible structured fields"
+        },
+        "source_sha256_by_feature": {
+          "screenshot_or_product_ui": "edecb2db787b1649e4d48af9c188dd92adf47281bde049c3bdd2074b6adb8a3d",
+          "framework_or_diagram": "edecb2db787b1649e4d48af9c188dd92adf47281bde049c3bdd2074b6adb8a3d"
+        },
+        "reactions": 319,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:05:45.947969+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7334186834442207232",
+        "url": "https://www.linkedin.com/posts/refine-labs_what-if-pipeline-isnt-the-only-way-to-measure-activity-7334186834442207232-nX2a",
+        "author": "Refine Labs",
+        "media_class": "video",
+        "feature_source_fields": {
+          "interview_or_talking_head": "video_reviews.analysis.format/framing",
+          "visible_sampled_captions": "video_reviews.analysis.captions",
+          "explicit_cta_recorded": "video_reviews.analysis.cta"
+        },
+        "source_sha256_by_feature": {
+          "interview_or_talking_head": "b9f50fdec2a9ba120fc2369db688228fd890b6472a5f64ac2937cda30e076560",
+          "visible_sampled_captions": "b9f50fdec2a9ba120fc2369db688228fd890b6472a5f64ac2937cda30e076560",
+          "explicit_cta_recorded": "b9f50fdec2a9ba120fc2369db688228fd890b6472a5f64ac2937cda30e076560"
+        },
+        "reactions": 29,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:07:19.022690+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7335319405859414016",
+        "url": "https://www.linkedin.com/posts/gong-io_gtm-is-changing-fast-revenue-teams-that-activity-7335319405859414016-aTRU",
+        "author": "Gong",
+        "media_class": "image",
+        "feature_source_fields": {
+          "human_portrait_or_event": "visual_reviews.literal_visible.form/composition/subject/style",
+          "typography_or_metric_card": "visual_reviews.literal_visible.form/hierarchy/composition/subject"
+        },
+        "source_sha256_by_feature": {
+          "human_portrait_or_event": "9e056d28a1fa73b29eef20f6d1f27e4bea55424f7e7057e9a993ccb5c5a47b8b",
+          "typography_or_metric_card": "9e056d28a1fa73b29eef20f6d1f27e4bea55424f7e7057e9a993ccb5c5a47b8b"
+        },
+        "reactions": 41,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:07:00.663524+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7353091404425842690",
+        "url": "https://www.linkedin.com/posts/refine-labs_update-from-our-ceo-megan-bowen-megan-is-activity-7353091404425842690-bnua",
+        "author": "Refine Labs",
+        "media_class": "image",
+        "feature_source_fields": {
+          "human_portrait_or_event": "visual_reviews.literal_visible.form/composition/subject/style",
+          "typography_or_metric_card": "visual_reviews.literal_visible.form/hierarchy/composition/subject"
+        },
+        "source_sha256_by_feature": {
+          "human_portrait_or_event": "987422b9f8df709e557b77a2c6bdff759e90ace044556fa02fc4511f10fc44e6",
+          "typography_or_metric_card": "987422b9f8df709e557b77a2c6bdff759e90ace044556fa02fc4511f10fc44e6"
+        },
+        "reactions": 39,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:06:05.979594+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7354479139665375232",
+        "url": "https://www.linkedin.com/posts/cognism_whats-actually-working-in-b2b-marketing-activity-7354479139665375232-ecrK",
+        "author": "Cognism",
+        "media_class": "video",
+        "feature_source_fields": {
+          "interview_or_talking_head": "video_reviews.analysis.format/framing",
+          "visible_sampled_captions": "video_reviews.analysis.captions",
+          "explicit_cta_recorded": "video_reviews.analysis.cta"
+        },
+        "source_sha256_by_feature": {
+          "interview_or_talking_head": "0aef34a23c9aabec07becc3f750f1be47c1e8df6ce527d1c8ce9e9aa5c7365b8",
+          "visible_sampled_captions": "0aef34a23c9aabec07becc3f750f1be47c1e8df6ce527d1c8ce9e9aa5c7365b8",
+          "explicit_cta_recorded": "0aef34a23c9aabec07becc3f750f1be47c1e8df6ce527d1c8ce9e9aa5c7365b8"
+        },
+        "reactions": 26,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:07:02.899202+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7358781543944781824",
+        "url": "https://www.linkedin.com/posts/cognism_at-cognism-ai-is-built-into-how-we-work-activity-7358781543944781824-e0yI",
+        "author": "Cognism",
+        "media_class": "video",
+        "feature_source_fields": {
+          "interview_or_talking_head": "video_reviews.analysis.format/framing",
+          "visible_sampled_captions": "video_reviews.analysis.captions",
+          "explicit_cta_recorded": "video_reviews.analysis.cta"
+        },
+        "source_sha256_by_feature": {
+          "interview_or_talking_head": "4cebceb194404abfd5778f92b6372508e380fc5bfb8936551e0f2e6a8ba97aa4",
+          "visible_sampled_captions": "4cebceb194404abfd5778f92b6372508e380fc5bfb8936551e0f2e6a8ba97aa4",
+          "explicit_cta_recorded": "4cebceb194404abfd5778f92b6372508e380fc5bfb8936551e0f2e6a8ba97aa4"
+        },
+        "reactions": 21,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:07:05.356750+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7379131891515412481",
+        "url": "https://www.linkedin.com/posts/katebour_my-personal-brand-messaging-feels-messy-right-activity-7379131891515412481-lnA0",
+        "author": "Katelyn Bourgoin",
+        "media_class": "image",
+        "feature_source_fields": {
+          "human_portrait_or_event": "visual_reviews.literal_visible.form/composition/subject/style",
+          "typography_or_metric_card": "visual_reviews.literal_visible.form/hierarchy/composition/subject"
+        },
+        "source_sha256_by_feature": {
+          "human_portrait_or_event": "ef65a5c3559fb766061cd5786e74a06c909eaaa1403d62deb6c47d628bb8cb02",
+          "typography_or_metric_card": "ef65a5c3559fb766061cd5786e74a06c909eaaa1403d62deb6c47d628bb8cb02"
+        },
+        "reactions": 162,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:05:53.232764+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7389668448923963392",
+        "url": "https://www.linkedin.com/posts/daniel-murray-marketing_just-kicked-off-marketingland-festival-2025-activity-7389668448923963392-wq9f",
+        "author": "Daniel Murray",
+        "media_class": "image",
+        "feature_source_fields": {
+          "human_portrait_or_event": "visual_reviews.literal_visible.form/composition/subject/style",
+          "framework_or_diagram": "visual_reviews.literal_visible structured fields"
+        },
+        "source_sha256_by_feature": {
+          "human_portrait_or_event": "fabec1448638c5daf282e48753982ef53d50e9c414e4ad293bd38e797cf5460b",
+          "framework_or_diagram": "fabec1448638c5daf282e48753982ef53d50e9c414e4ad293bd38e797cf5460b"
+        },
+        "reactions": 126,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:07:21.445230+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7396571489132564480",
+        "url": "https://www.linkedin.com/posts/cognism_reporting-pushes-us-toward-the-work-that-activity-7396571489132564480-JbiA",
+        "author": "Cognism",
+        "media_class": "video",
+        "feature_source_fields": {
+          "visible_sampled_captions": "video_reviews.analysis.captions",
+          "explicit_cta_recorded": "video_reviews.analysis.cta"
+        },
+        "source_sha256_by_feature": {
+          "visible_sampled_captions": "c656d4d26d283ec8131953d42747c1975f574001084d56bec50d45ed576d3a5a",
+          "explicit_cta_recorded": "c656d4d26d283ec8131953d42747c1975f574001084d56bec50d45ed576d3a5a"
+        },
+        "reactions": 9,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:07:14.435363+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7397002727039488002",
+        "url": "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+        "author": "Gong",
+        "media_class": "video",
+        "feature_source_fields": {
+          "interview_or_talking_head": "video_reviews.analysis.format/framing",
+          "visible_sampled_captions": "video_reviews.analysis.captions",
+          "explicit_cta_recorded": "video_reviews.analysis.cta",
+          "product_demo_or_ui": "video_reviews.analysis.format/cuts"
+        },
+        "source_sha256_by_feature": {
+          "interview_or_talking_head": "84134a5d3de769914b8194f13fe31955a239b0457cdcf04765e0ffa882423f62",
+          "visible_sampled_captions": "84134a5d3de769914b8194f13fe31955a239b0457cdcf04765e0ffa882423f62",
+          "explicit_cta_recorded": "84134a5d3de769914b8194f13fe31955a239b0457cdcf04765e0ffa882423f62",
+          "product_demo_or_ui": "84134a5d3de769914b8194f13fe31955a239b0457cdcf04765e0ffa882423f62"
+        },
+        "reactions": 184,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:07:07.450440+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7419061081295224832",
+        "url": "https://www.linkedin.com/posts/refine-labs_right-now-the-market-is-noisy-ai-is-changing-activity-7419061081295224832-7K9v",
+        "author": "Refine Labs",
+        "media_class": "video",
+        "feature_source_fields": {
+          "interview_or_talking_head": "video_reviews.analysis.format/framing",
+          "visible_sampled_captions": "video_reviews.analysis.captions",
+          "explicit_cta_recorded": "video_reviews.analysis.cta"
+        },
+        "source_sha256_by_feature": {
+          "interview_or_talking_head": "921badffd7ddbade6d7eb0c960a8d97aaf93a9c464e08cb748da9140ddf76204",
+          "visible_sampled_captions": "921badffd7ddbade6d7eb0c960a8d97aaf93a9c464e08cb748da9140ddf76204",
+          "explicit_cta_recorded": "921badffd7ddbade6d7eb0c960a8d97aaf93a9c464e08cb748da9140ddf76204"
+        },
+        "reactions": 9,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:06:16.759365+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7419714950715088898",
+        "url": "https://www.linkedin.com/posts/cognism_are-you-stuck-in-thecontent-calendar-trap-activity-7419714950715088898-iR5T",
+        "author": "Cognism",
+        "media_class": "video",
+        "feature_source_fields": {
+          "interview_or_talking_head": "video_reviews.analysis.format/framing",
+          "visible_sampled_captions": "video_reviews.analysis.captions",
+          "explicit_cta_recorded": "video_reviews.analysis.cta"
+        },
+        "source_sha256_by_feature": {
+          "interview_or_talking_head": "22b3ba0d146ce23b79b6cbdef65682c161fd4a7e5b6065d5302b3b86c5d13a72",
+          "visible_sampled_captions": "22b3ba0d146ce23b79b6cbdef65682c161fd4a7e5b6065d5302b3b86c5d13a72",
+          "explicit_cta_recorded": "22b3ba0d146ce23b79b6cbdef65682c161fd4a7e5b6065d5302b3b86c5d13a72"
+        },
+        "reactions": 14,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:07:10.011742+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7420510653624287233",
+        "url": "https://www.linkedin.com/posts/refine-labs_our-ai-strategy-is-built-on-three-pillars-activity-7420510653624287233-WF7J",
+        "author": "Refine Labs",
+        "media_class": "video",
+        "feature_source_fields": {
+          "visible_sampled_captions": "video_reviews.analysis.captions",
+          "explicit_cta_recorded": "video_reviews.analysis.cta"
+        },
+        "source_sha256_by_feature": {
+          "visible_sampled_captions": "394d090142b037501de0106207929a47b456ae97fecea1c6d601fe11f3769316",
+          "explicit_cta_recorded": "394d090142b037501de0106207929a47b456ae97fecea1c6d601fe11f3769316"
+        },
+        "reactions": 6,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:06:05.977785+00:00"
+      },
+      {
+        "post_id": "urn:li:activity:7487848074413973505",
+        "url": "https://www.linkedin.com/posts/davegerhardt_what-are-you-doing-in-september-if-you-work-activity-7487848074413973505-3h5E",
+        "author": "Dave Gerhardt",
+        "media_class": "video",
+        "feature_source_fields": {
+          "interview_or_talking_head": "video_reviews.analysis.format/framing",
+          "visible_sampled_captions": "video_reviews.analysis.captions",
+          "explicit_cta_recorded": "video_reviews.analysis.cta"
+        },
+        "source_sha256_by_feature": {
+          "interview_or_talking_head": "4f5f2318b1c0872f274b2cece01fdb6eb94c70c905d11c5226775be0e27ca4b5",
+          "visible_sampled_captions": "4f5f2318b1c0872f274b2cece01fdb6eb94c70c905d11c5226775be0e27ca4b5",
+          "explicit_cta_recorded": "4f5f2318b1c0872f274b2cece01fdb6eb94c70c905d11c5226775be0e27ca4b5"
+        },
+        "reactions": 55,
+        "metric_source": "latest_same_parser_snapshot",
+        "metric_captured_at": "2026-10-22T10:06:42.580190+00:00"
+      }
+    ]
+  }
+}

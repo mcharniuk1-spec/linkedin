@@ -1,0 +1,241 @@
+{
+  "review_scope": "V6 source-bound interpretations, qualification, performance, accounts, visual_reviews, video_reviews, assets and dataset schemas; approved Outspoken writing/service/positioning files.",
+  "checked": {
+    "dataset_counts_and_expected_fields": "PASS: dataset contains 279 posts, interpretations, qualification and performance records; 61 accounts; 145 visual reviews; 24 video reviews; 207 assets.",
+    "source_bound_image_examples": "PASS: four examples were selected from visual_reviews with matching review/source SHA-256 fields and actual images were directly inspected through view_image.",
+    "public_output_boundary": "PASS: outputs contain no copied post bodies, transcripts, local media paths or image pixels. Only source IDs, public post URLs, review hashes and high-level design descriptions are included.",
+    "video_claim_scope": "PASS: output states the existing sampled-frame/transcript limits and does not claim new viewing, listening or ASR.",
+    "descriptive_language": "PASS: counts are corpus-bounded; causal, reach, impression, conversion and sales inferences are explicitly excluded.",
+    "approved_positioning": "PASS: protected hero, VP and CTA are reproduced exactly; client pack boundary is retained.",
+    "write_allowlist": "PASS: only analysis/media-evidence.json, analysis/practical-findings.md and verification/media-review-checks.json were written."
+  },
+  "limitations": [
+    "Full population coverage and representativeness are unknown; sampling/author-selection bias and concentration are material.",
+    "The capture window ended 2026-10-22; these observations do not establish current platform behavior on 2026-10-31.",
+    "Video audio and complete temporal viewing were not reviewed.",
+    "This analysis does not verify the truth of third-party post claims or media reuse rights."
+  ],
+  "post_level_feature_coding": {
+    "result": "PASS",
+    "features": {
+      "screenshot_or_product_ui": {
+        "post_n": 5,
+        "reaction_observed_n": 5,
+        "reaction_missing_n": 0,
+        "reaction_median": 785,
+        "reaction_mean": 983.2,
+        "distinct_authors_n": 3,
+        "top_authors": [
+          [
+            "Anthony Pierri",
+            3
+          ],
+          [
+            "April Dunford",
+            1
+          ],
+          [
+            "Justin Welsh",
+            1
+          ]
+        ],
+        "example_urls": [
+          "https://www.linkedin.com/posts/aprildunford_consumer-marketers-are-often-tapping-into-activity-6952643016314552320-kPgc",
+          "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7078733576279621632-Pe9K",
+          "https://www.linkedin.com/posts/justinwelsh_an-interesting-observation-about-business-activity-7217857656370143232--zTQ"
+        ]
+      },
+      "human_portrait_or_event": {
+        "post_n": 8,
+        "reaction_observed_n": 8,
+        "reaction_missing_n": 0,
+        "reaction_median": 144.0,
+        "reaction_mean": 132.2,
+        "distinct_authors_n": 4,
+        "top_authors": [
+          [
+            "Refine Labs",
+            3
+          ],
+          [
+            "Katelyn Bourgoin",
+            2
+          ],
+          [
+            "Gong",
+            2
+          ]
+        ],
+        "example_urls": [
+          "https://www.linkedin.com/posts/refine-labs_if-youve-spent-any-time-on-linkedin-over-activity-6984167253877366787-9go4",
+          "https://www.linkedin.com/posts/refine-labs_were-kicking-off-2024-with-a-return-to-our-activity-7151226277188763648-JT7W",
+          "https://www.linkedin.com/posts/katebour_competitors-can-steal-your-customers-but-activity-7187130560216018945-cqvl"
+        ]
+      },
+      "framework_or_diagram": {
+        "post_n": 13,
+        "reaction_observed_n": 13,
+        "reaction_missing_n": 0,
+        "reaction_median": 421,
+        "reaction_mean": 468.5,
+        "distinct_authors_n": 4,
+        "top_authors": [
+          [
+            "Anthony Pierri",
+            7
+          ],
+          [
+            "April Dunford",
+            3
+          ],
+          [
+            "Amanda Natividad",
+            2
+          ]
+        ],
+        "example_urls": [
+          "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7078733576279621632-Pe9K",
+          "https://www.linkedin.com/posts/amandanat_marketing-pr-prstrategy-activity-7092192467973783552-CkJo",
+          "https://www.linkedin.com/posts/amandanat_contentmarketing-marketing-organicmarketing-activity-7099404788823465986-3wds"
+        ]
+      },
+      "typography_or_metric_card": {
+        "post_n": 8,
+        "reaction_observed_n": 8,
+        "reaction_missing_n": 0,
+        "reaction_median": 135.5,
+        "reaction_mean": 122.8,
+        "distinct_authors_n": 4,
+        "top_authors": [
+          [
+            "Refine Labs",
+            3
+          ],
+          [
+            "Katelyn Bourgoin",
+            2
+          ],
+          [
+            "Gong",
+            2
+          ]
+        ],
+        "example_urls": [
+          "https://www.linkedin.com/posts/refine-labs_weve-been-busy-in-the-lab-helping-zappi-activity-7097562666906337280-gDqN",
+          "https://www.linkedin.com/posts/refine-labs_were-kicking-off-2024-with-a-return-to-our-activity-7151226277188763648-JT7W",
+          "https://www.linkedin.com/posts/katebour_competitors-can-steal-your-customers-but-activity-7187130560216018945-cqvl"
+        ]
+      },
+      "interview_or_talking_head": {
+        "post_n": 9,
+        "reaction_observed_n": 9,
+        "reaction_missing_n": 0,
+        "reaction_median": 26,
+        "reaction_mean": 48.1,
+        "distinct_authors_n": 4,
+        "top_authors": [
+          [
+            "Cognism",
+            5
+          ],
+          [
+            "Refine Labs",
+            2
+          ],
+          [
+            "Gong",
+            1
+          ]
+        ],
+        "example_urls": [
+          "https://www.linkedin.com/posts/cognism_are-you-stuck-in-thecontent-calendar-trap-activity-7419714950715088898-iR5T",
+          "https://www.linkedin.com/posts/refine-labs_right-now-the-market-is-noisy-ai-is-changing-activity-7419061081295224832-7K9v",
+          "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX"
+        ]
+      },
+      "visible_sampled_captions": {
+        "post_n": 13,
+        "reaction_observed_n": 13,
+        "reaction_missing_n": 0,
+        "reaction_median": 26,
+        "reaction_mean": 63.5,
+        "distinct_authors_n": 5,
+        "top_authors": [
+          [
+            "Cognism",
+            6
+          ],
+          [
+            "Refine Labs",
+            4
+          ],
+          [
+            "Gong",
+            1
+          ]
+        ],
+        "example_urls": [
+          "https://www.linkedin.com/posts/cognism_are-you-stuck-in-thecontent-calendar-trap-activity-7419714950715088898-iR5T",
+          "https://www.linkedin.com/posts/refine-labs_right-now-the-market-is-noisy-ai-is-changing-activity-7419061081295224832-7K9v",
+          "https://www.linkedin.com/posts/cognism_reporting-pushes-us-toward-the-work-that-activity-7396571489132564480-JbiA"
+        ]
+      },
+      "explicit_cta_recorded": {
+        "post_n": 13,
+        "reaction_observed_n": 13,
+        "reaction_missing_n": 0,
+        "reaction_median": 26,
+        "reaction_mean": 63.5,
+        "distinct_authors_n": 5,
+        "top_authors": [
+          [
+            "Cognism",
+            6
+          ],
+          [
+            "Refine Labs",
+            4
+          ],
+          [
+            "Gong",
+            1
+          ]
+        ],
+        "example_urls": [
+          "https://www.linkedin.com/posts/cognism_are-you-stuck-in-thecontent-calendar-trap-activity-7419714950715088898-iR5T",
+          "https://www.linkedin.com/posts/refine-labs_right-now-the-market-is-noisy-ai-is-changing-activity-7419061081295224832-7K9v",
+          "https://www.linkedin.com/posts/cognism_reporting-pushes-us-toward-the-work-that-activity-7396571489132564480-JbiA"
+        ]
+      },
+      "product_demo_or_ui": {
+        "post_n": 1,
+        "reaction_observed_n": 1,
+        "reaction_missing_n": 0,
+        "reaction_median": 184,
+        "reaction_mean": 184,
+        "distinct_authors_n": 1,
+        "top_authors": [
+          [
+            "Gong",
+            1
+          ]
+        ],
+        "example_urls": [
+          "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX"
+        ]
+      }
+    },
+    "checks": {
+      "post_tags_unique": true,
+      "all_tags_have_review_hashes": true,
+      "reaction_counts_reconcile": true,
+      "tagged_posts_join_rows": true,
+      "all_experience_and_message_origin_uncoded": true
+    },
+    "limitations": [
+      "Deterministic coding based on reviewed fields; no new vision/audio analysis.",
+      "Small, overlapping cells; author, audience, age, topic and format confounds.",
+      "Tags record visible feature evidence; absence of a tag is not confirmed absence."
+    ]
+  }
+}

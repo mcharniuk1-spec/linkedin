@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "All 279 assessed V6 posts; V7/new collector rows excluded.",
+  "checks": {
+    "source_unique_ids": true,
+    "public_dataset_same_279_ids": true,
+    "report_rows_same_279_ids": true,
+    "no_duplicate_json_keys": true,
+    "no_duplicate_post_ids": true,
+    "no_duplicate_post_urls": true,
+    "all_snapshot_rows_parser_0_3_0_and_latest_per_post": true,
+    "cycle_counts_reconcile": true,
+    "all_61_author_rows_sum_to_279": true,
+    "all_8_metric_availability_rows_reconcile_to_279": true,
+    "grouped_metric_rows_reconcile_for_media_topic_job_author_type_qualification": true,
+    "public_crosscheck_author_publication_date_cycle": true,
+    "20_prospect_funding_records_separate": true,
+    "experience_origin_role_uncoded_when_source_absent": true,
+    "report_rows_public_safe_and_text_free": true
+  },
+  "public_dataset_hash": "f8fff0ab3ee47f6d96ab6c4968c4864b78073bc25f75e8177a4f021b80a460b1",
+  "new_collector_records_mixed": false,
+  "limitations": [
+    "Public cross-check validates IDs, authors, publication dates and cycles; it does not independently verify every derived statistic.",
+    "Follows are source-reported historical profile-size values, not reach or exposure.",
+    "Only 8 repost counters are observed; impressions, reach, views, clicks and saves are explicitly not exposed.",
+    "Within-author comparisons are descriptive and use small authorship-format subsets; no causal inference.",
+    "Experience, message-origin and messenger-role do not exist as source-coded fields; outputs preserve them as uncoded.",
+    "Prospect funding labels are separate, dated records and are not current reference-account funding status."
+  ]
+}

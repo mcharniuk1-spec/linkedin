@@ -1,0 +1,79 @@
+{
+  "schema": "linkedin-sample-report/1",
+  "status": "descriptive_report",
+  "evidence_cutoff": "2026-10-22",
+  "prepared_date": "2026-10-31",
+  "files": [
+    {
+      "path": "ACTIVATION.md",
+      "sha256": "6adcc0fe999b147c13cb47f93af9ea189825accbb0d2a74b028126d3dff9fe9d",
+      "bytes": 4811
+    },
+    {
+      "path": "README.md",
+      "sha256": "557f8e6564468743a57cd2f6c2a7699cfb905fc3e223d3d06251b26b1e4dedde",
+      "bytes": 5636
+    },
+    {
+      "path": "artifact-order-review.json",
+      "sha256": "17e19af71bee3ca38c7cf25ba39c6ea9815d35a7d25d9d2aa207441502251b67",
+      "bytes": 1724
+    },
+    {
+      "path": "data.json",
+      "sha256": "09df59ea0a46f5234f8681a3dad45741943a1409d4e07f2506c51748c2c81ee5",
+      "bytes": 475341
+    },
+    {
+      "path": "independent-statistics-review.json",
+      "sha256": "340334b845031ee38ccc15947f7ad53a91b09eef68e3346b656bc019737b08cd",
+      "bytes": 6796
+    },
+    {
+      "path": "index.html",
+      "sha256": "6fe543fdcb8c504a3971254db952f46118157fd6f66dcbedc96202c03bc53243",
+      "bytes": 3346111
+    },
+    {
+      "path": "media-evidence.json",
+      "sha256": "32abd6304af8410624aa3e25fd94dcb87e2025c6483d3a5fa4b45bfbadf6509d",
+      "bytes": 46551
+    },
+    {
+      "path": "media-review-checks.json",
+      "sha256": "3ea40b16e8c1ec0c14f560c8f79dfc8bb10dd731bc4a9d6357ddb3f681ccd766",
+      "bytes": 9107
+    },
+    {
+      "path": "report-rows.json",
+      "sha256": "16e5ee713ff79888e39ee8ed006e318dd8c8ebf0cd8a9f55e9e87d32c3f975cb",
+      "bytes": 341778
+    },
+    {
+      "path": "sample-statistics.json",
+      "sha256": "a7ba0e020b13d51ac0aa00c9decfb248d1e6589de09d3df402b1afe1e43b411f",
+      "bytes": 560847
+    },
+    {
+      "path": "source/ReportContent.jsx",
+      "sha256": "885105e9de6a81b088de89601f33ebb4bbc1e08bd3b38eb6944f8e9861d3a7b9",
+      "bytes": 13863
+    },
+    {
+      "path": "source/report.css",
+      "sha256": "c01a55c6272769d6325c2ce0b9696ce4ab0d53d4f8ffeaa73aacb2716c347d97",
+      "bytes": 343
+    },
+    {
+      "path": "statistics-checks.json",
+      "sha256": "f4473616eefccbcf808d83b279ee779e5aa4c72c5390b797a18a7760425c8102",
+      "bytes": 1697
+    },
+    {
+      "path": "verify_report.py",
+      "sha256": "67ffc300bc8e519e41e78cf99a8424d8474bea57d830f093cc8888df5effd6b2",
+      "bytes": 2888
+    }
+  ],
+  "rights": "Owned analysis and portable report export; public counters and locators. No copied post bodies, speech transcripts or uncleared third-party media."
+}

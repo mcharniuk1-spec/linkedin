@@ -1,0 +1,224 @@
+{
+  "status": "PASS",
+  "independent_method": "Read V6 dataset.json directly; selected max captured_at per post from parser_version 0.3.0. Did not import or execute sample_statistics.py. Derived post media class from V6 asset kinds and post media types.",
+  "source_sha256": "a91235e87579ae4fd85656bca35e9e2297a10e9dd2ab70d235b28fc7f06f4d22",
+  "sample_n": 279,
+  "snapshot_parser_versions_selected": [
+    "0.3.0"
+  ],
+  "report_rows_n": 279,
+  "overall_metrics": {
+    "reactions": {
+      "n": 276,
+      "missing": 3,
+      "sum": 115216,
+      "median": 107.5
+    },
+    "comments": {
+      "n": 256,
+      "missing": 23,
+      "sum": 39930,
+      "median": 36.5
+    }
+  },
+  "format_counts": {
+    "text": 135,
+    "image": 111,
+    "video": 24,
+    "document": 9
+  },
+  "format_metrics": {
+    "document": {
+      "reactions": {
+        "n": 9,
+        "missing": 0,
+        "median": 178
+      },
+      "comments": {
+        "n": 9,
+        "missing": 0,
+        "median": 14
+      }
+    },
+    "image": {
+      "reactions": {
+        "n": 110,
+        "missing": 1,
+        "median": 186.5
+      },
+      "comments": {
+        "n": 106,
+        "missing": 5,
+        "median": 57.0
+      }
+    },
+    "text": {
+      "reactions": {
+        "n": 133,
+        "missing": 2,
+        "median": 94
+      },
+      "comments": {
+        "n": 123,
+        "missing": 12,
+        "median": 31
+      }
+    },
+    "video": {
+      "reactions": {
+        "n": 24,
+        "missing": 0,
+        "median": 30.0
+      },
+      "comments": {
+        "n": 18,
+        "missing": 6,
+        "median": 20.0
+      }
+    }
+  },
+  "within_author_image_vs_text": {
+    "eligible_author_n_min2_each": 11,
+    "median_author_difference_image_minus_text": 26.5,
+    "pairs": [
+      {
+        "author": "Adam Robinson",
+        "image_n": 3,
+        "text_n": 8,
+        "image_median": 107,
+        "text_median": 235.0,
+        "difference": -128.0
+      },
+      {
+        "author": "Alex Lieberman",
+        "image_n": 2,
+        "text_n": 19,
+        "image_median": 274.5,
+        "text_median": 140,
+        "difference": 134.5
+      },
+      {
+        "author": "Amanda Natividad",
+        "image_n": 2,
+        "text_n": 8,
+        "image_median": 570.0,
+        "text_median": 218.5,
+        "difference": 351.5
+      },
+      {
+        "author": "April Dunford",
+        "image_n": 5,
+        "text_n": 4,
+        "image_median": 560,
+        "text_median": 738.0,
+        "difference": -178.0
+      },
+      {
+        "author": "Armand Farrokh",
+        "image_n": 11,
+        "text_n": 3,
+        "image_median": 61,
+        "text_median": 266,
+        "difference": -205
+      },
+      {
+        "author": "Chris Orlob",
+        "image_n": 2,
+        "text_n": 16,
+        "image_median": 32.5,
+        "text_median": 41.5,
+        "difference": -9.0
+      },
+      {
+        "author": "Dave Gerhardt",
+        "image_n": 2,
+        "text_n": 7,
+        "image_median": 178.5,
+        "text_median": 148,
+        "difference": 30.5
+      },
+      {
+        "author": "Gong",
+        "image_n": 5,
+        "text_n": 2,
+        "image_median": 41,
+        "text_median": 14.5,
+        "difference": 26.5
+      },
+      {
+        "author": "Katelyn Bourgoin",
+        "image_n": 3,
+        "text_n": 4,
+        "image_median": 162,
+        "text_median": 110.0,
+        "difference": 52.0
+      },
+      {
+        "author": "Peep Laja",
+        "image_n": 2,
+        "text_n": 7,
+        "image_median": 50.0,
+        "text_median": 146,
+        "difference": -96.0
+      },
+      {
+        "author": "Refine Labs",
+        "image_n": 4,
+        "text_n": 2,
+        "image_median": 103.0,
+        "text_median": 14.0,
+        "difference": 89.0
+      }
+    ],
+    "causal_inference": false
+  },
+  "author_reconciliation": {
+    "source_author_n": 61,
+    "reported_author_rows": 61,
+    "reported_posts_sum": 279
+  },
+  "media_feature_summary_review": {
+    "method": "Rule-based tags from existing V6 reviewed fields only; no new visual/audio classification. Each post counted once per feature; features overlap. Unmatched or missing fields remain unknown, and untagged does not mean confirmed absent.",
+    "tagged_post_records_n": 36,
+    "tagged_unique_post_ids_n": 36,
+    "tagged_media_class_counts": {
+      "image": 23,
+      "video": 13
+    },
+    "feature_post_counts": {
+      "explicit_cta_recorded": 13,
+      "framework_or_diagram": 13,
+      "human_portrait_or_event": 8,
+      "interview_or_talking_head": 9,
+      "product_demo_or_ui": 1,
+      "screenshot_or_product_ui": 5,
+      "typography_or_metric_card": 8,
+      "visible_sampled_captions": 13
+    },
+    "feature_counts_reconcile_to_feature_reaction_summary": true,
+    "features_overlap": true,
+    "smallest_feature_count": 1,
+    "largest_feature_count": 13,
+    "four_directly_inspected_visual_examples_in_media_evidence": 4,
+    "direct_visual_examples_are_distinct_from_rule_tag_population": true,
+    "video_review_count": 24,
+    "full_watch_count": 0,
+    "audio_reviewed_count": 0,
+    "video_limitations": [
+      "Existing reports describe sampled frames, not continuous motion or complete video viewing.",
+      "Audio review is false in the reviewed records; transcript/caption availability does not establish audio verification.",
+      "Some videos have only sampled burned-in text and no external transcript. Do not infer silence or missing speech from that state.",
+      "Frame coverage fraction is not populated consistently."
+    ],
+    "interpretation": "In this selected reference set, reusable editorial building blocks include teachable positioning frameworks, buyer/problem explanations, founder/operator judgment, and concrete product or case examples. This describes the corpus and suggests creative options; it does not establish what caused reactions or what will work for Outspoken clients.",
+    "caveat": "Correction: post_level_feature_tags is an object containing a 36-row post_tags list, not a four-row list. These 36 unique source-tagged posts produce eight overlapping feature counts (range 1–13 posts per feature); this is a small selected evidence set. Four directly inspected visual examples are separately enumerated. The tags are rule-based extractions from existing review fields, not 36 new independent visual reviews. Video entries rely on sampled frames and transcript/caption evidence; no full watch or audio listening occurred, and frame coverage is inconsistently populated."
+  },
+  "mismatches": [],
+  "checks": {
+    "report_rows_match_source_on_id_author_format_reactions_comments": true,
+    "overall_reaction_comment_stats_match": true,
+    "format_counts_and_medians_match": true,
+    "within_author_pairs_match": true,
+    "61_authors_279_rows_reconcile": true
+  }
+}

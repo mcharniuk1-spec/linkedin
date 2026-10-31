@@ -1,0 +1,25 @@
+{
+  "scope": "Actions artifact ordering during encrypted-state restore",
+  "change": {
+    "file": "research/collector/ci_state.py",
+    "ordering_source": "GitHub artifact created_at timestamps, parsed as timezone-aware ISO-8601 and normalized to UTC",
+    "behavior": "Artifact IDs are treated as opaque. The checkpoint artifact must be present and unexpired. Restore holds on missing or malformed timestamps, duplicate artifact IDs, or equal timestamps across distinct artifacts. A distinct artifact created later than the checkpoint triggers orphan_state_artifact_requires_recovery. The pointed artifact is downloaded and authenticated by unseal before restore succeeds.",
+    "bootstrap": "Unchanged; first-run bootstrap remains explicit and fail-closed."
+  },
+  "verification": {
+    "command": "/tmp/linkedin-v7-venv/bin/python -m unittest research.tests.test_collector_ci_state -v",
+    "result": "PASS: 18 tests",
+    "cases_added": [
+      "Legitimate checkpoint with lower artifact ID than an older artifact restores and authenticates the pointed artifact",
+      "Newer orphan with lower artifact ID is rejected by timestamp",
+      "Missing, malformed, and timezone-naive timestamps fail closed",
+      "Equal timestamps across artifacts fail closed"
+    ],
+    "network": "No live GitHub calls were made; fixtures and mocks only."
+  },
+  "limits": [
+    "Restore requires GitHub to return valid created_at metadata for every retained private state artifact in the bounded listing.",
+    "Timestamp ties are treated as ambiguous even when they might be harmless; operator recovery is required.",
+    "This review does not verify the live Actions artifacts or checkpoint beyond the supplied run evidence."
+  ]
+}
