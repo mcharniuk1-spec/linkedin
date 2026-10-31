@@ -28,6 +28,29 @@
     "assets/public/assets/identity/mic-candidates-r10/D05-preview.jpg",
     "assets/public/assets/identity/mic-candidates-r10/contact-20.jpg",
     "assets/public/assets/identity/mic-candidates-r10/directions-board.jpg",
+    "assets/public/assets/identity/v10/favicon.svg",
+    "assets/public/assets/identity/v10/icons-d05.svg",
+    "assets/public/assets/identity/v10/icons/advertising.svg",
+    "assets/public/assets/identity/v10/icons/automation.svg",
+    "assets/public/assets/identity/v10/icons/conversations.svg",
+    "assets/public/assets/identity/v10/icons/design.svg",
+    "assets/public/assets/identity/v10/icons/marketing.svg",
+    "assets/public/assets/identity/v10/icons/measurement.svg",
+    "assets/public/assets/identity/v10/icons/mic.svg",
+    "assets/public/assets/identity/v10/icons/profile.svg",
+    "assets/public/assets/identity/v10/icons/recognition.svg",
+    "assets/public/assets/identity/v10/icons/strategy.svg",
+    "assets/public/assets/identity/v10/icons/time.svg",
+    "assets/public/assets/identity/v10/icons/usefulness.svg",
+    "assets/public/assets/identity/v10/icons/voice.svg",
+    "assets/public/assets/identity/v10/icons/writing.svg",
+    "assets/public/assets/identity/v10/lockup-b01-inverse.svg",
+    "assets/public/assets/identity/v10/lockup-b01.svg",
+    "assets/public/assets/identity/v10/mark-b01-24-inverse.svg",
+    "assets/public/assets/identity/v10/mark-b01-24.svg",
+    "assets/public/assets/identity/v10/mark-b01-inverse.svg",
+    "assets/public/assets/identity/v10/mark-b01-mono.svg",
+    "assets/public/assets/identity/v10/mark-b01.svg",
     "assets/public/assets/masters/OS-O010-fictional-founder.png",
     "assets/public/assets/revisions/v10/people/PROVENANCE.md",
     "assets/public/assets/revisions/v10/people/maksym-charniuk.jpg",
@@ -868,6 +891,374 @@
         "Candidate artwork only, not a selected or final asset; the client has not chosen a direction.",
         "Generated with the owner's image-generation tool under its terms of use; no third-party reference image or brand was copied.",
         "Full-size originals (1122x1402) stay local to the owner; these are downscaled previews."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/favicon.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/favicon.svg",
+      "sha256": "92e70e12dd27eb23de25c859de4afbdcf523f9cafa41e3d32e86dfb38c14f202",
+      "bytes": 668,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/icons-d05.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/icons-d05.svg",
+      "sha256": "cad2f1ce5624dcb745775176b45d84f24f70b54b62b52c6a00283fa485d06601",
+      "bytes": 5550,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/icons/advertising.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/icons/advertising.svg",
+      "sha256": "759094f0be1ec3a83d0754e9d4cf8236c146bba7e6b7d66b2d5999772b3e879a",
+      "bytes": 385,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/icons/automation.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/icons/automation.svg",
+      "sha256": "491d5b910c1800f958e048f8beb0ba0c52d2d8ea140b1550410bdd3b09c691f3",
+      "bytes": 460,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/icons/conversations.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/icons/conversations.svg",
+      "sha256": "83b605bb3302672dc078362d0170be892f02121fa1aca777388395861cd97283",
+      "bytes": 509,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/icons/design.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/icons/design.svg",
+      "sha256": "68ac1ceef125a2b868b80edc0d10968437d6a1d954440f6c08a7ecb23e62ebde",
+      "bytes": 440,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/icons/marketing.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/icons/marketing.svg",
+      "sha256": "74b7121c695b9515968d597c41def6c2e84d6caad0c8acd2c9a8b9b852bc4cfe",
+      "bytes": 387,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/icons/measurement.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/icons/measurement.svg",
+      "sha256": "58430b23466b5e79901847b4f53858d4ab977f7dc83ed1e89def681342219f19",
+      "bytes": 487,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/icons/mic.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/icons/mic.svg",
+      "sha256": "2aa3a875769380b004c39362c48df790d4b28f1b87318cf50a12e5787ca2d142",
+      "bytes": 428,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/icons/profile.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/icons/profile.svg",
+      "sha256": "2e91d74b3140b75910f3e324124b9e79967212050b3d8ffe9bd6390bbb49d6d9",
+      "bytes": 472,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/icons/recognition.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/icons/recognition.svg",
+      "sha256": "ca2a023fc02f0bf9e5ede85bb08052ccf62b4117cc514bd0000bb150c6ee8157",
+      "bytes": 393,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/icons/strategy.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/icons/strategy.svg",
+      "sha256": "392e3c45faad28670e5288699ddff8c71371ae28f65dc367afbd1837927ee227",
+      "bytes": 430,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/icons/time.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/icons/time.svg",
+      "sha256": "ee2b5b388fa105cb763561136ebe73e87a1c092d2a7d943382f850eec440ce6c",
+      "bytes": 370,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/icons/usefulness.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/icons/usefulness.svg",
+      "sha256": "f537c72f76c7a49aaa80fa0178bd0d828fdd5ccfd2299119f44259c84f54b9ae",
+      "bytes": 384,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/icons/voice.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/icons/voice.svg",
+      "sha256": "3be6f61d427c647ceefb38040ce993882b4fe9bced4e52ec8765ffd0b7467394",
+      "bytes": 368,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/icons/writing.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/icons/writing.svg",
+      "sha256": "c4c924cc9e8d145f0a9305e705ec213af077a3bb6afd9782f9ba80605ac939e0",
+      "bytes": 388,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/lockup-b01-inverse.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/lockup-b01-inverse.svg",
+      "sha256": "739e444f1f37e1117e708c559ea062a7851b4ff749540a15bdf0bde8052b6ca1",
+      "bytes": 25027,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/lockup-b01.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/lockup-b01.svg",
+      "sha256": "a08213c1d18e9d996229344d567df31c155fcc665d8aebae95c1a43678075068",
+      "bytes": 25018,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/mark-b01-24-inverse.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/mark-b01-24-inverse.svg",
+      "sha256": "efb6117870e480f6603d7910472c8c2183ce130a4bfc83ad8bc8b6bec77160fa",
+      "bytes": 627,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/mark-b01-24.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/mark-b01-24.svg",
+      "sha256": "76f88215f895478873ddc32b4a003e40756737f3e7de4670c41cf3e43fa30fec",
+      "bytes": 627,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/mark-b01-inverse.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/mark-b01-inverse.svg",
+      "sha256": "e3578d76fe54ca8e05ab3b745f533f9d330b49428fe3bc1f26057b85f13ef69d",
+      "bytes": 1104,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/mark-b01-mono.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/mark-b01-mono.svg",
+      "sha256": "9b42afbcb2b5155edccb8e49bcdfb0dc939a2e77daff2a8729af6f0dfa3f149d",
+      "bytes": 961,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v10/mark-b01.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v10/mark-b01.svg",
+      "sha256": "b7e35794a1ccfd3923016faf1afc1b9c25c1f584752169402a33dec2badf3f98",
+      "bytes": 1078,
+      "source": "design-system/identity-v10/build.mjs (own vector geometry; lockups reuse the owned V5 outlined wordmark paths unchanged)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-v10/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed identity: the client chose B01 and D05 on 2026-10-31, final acceptance pending.",
+        "Derived from the selected candidate direction; no third-party reference or brand was copied."
       ]
     },
     {
@@ -7933,9 +8324,9 @@
     }
   ],
   "counts": {
-    "assets": 438,
+    "assets": 461,
     "excluded": 21,
-    "included_assets": 436,
+    "included_assets": 459,
     "excluded_assets": 23
   },
   "license_records": {

@@ -2,12 +2,14 @@ import {useEffect,useRef,useState} from 'react';
 import {motion,useReducedMotion,useScroll} from 'motion/react';
 import story from './buyer-story.json';
 import './experience-story.css';
+import {Icon,type IconName} from './Icon';
 
 /** OS-WEB-V10-001. One block for blocks 3-5: expertise, formats and the five value markers. Cards travel sideways inside a clipped frame. */
 const cards=[
   {id:'experience',nav:'Experience',eyebrow:'Your personal brand positioning',title:'A clear position, built from the substance of your company.',body:'We uncover the experience, methods, tools and product judgment inside your business. Then we connect the evidence to the customer’s question.',signal:''},
   ...story.beats.map(b=>({id:b.id,nav:b.nav,eyebrow:b.eyebrow,title:b.title,body:b.approach,signal:b.signal}))
 ];
+const cardIcon:Record<string,IconName>={experience:'mic',time:'time',recognition:'recognition',voice:'voice',usefulness:'usefulness',conversations:'conversations'};
 const sources=['Experience','Methods','Tools','Product judgment'],results=['Positioning','Profile','Content','Distribution'];
 const count=cards.length,pad=(n:number)=>String(n).padStart(2,'0'),ys=[12.5,37.5,62.5,87.5];
 
@@ -65,7 +67,7 @@ export function ExperienceStory({forceRail=false}:{forceRail?:boolean}){
       </motion.header>
       <div className="xs__nav">
         <p className="xs__ask">What would make LinkedIn worth it?</p>
-        <div className="xs__chips" role="group" aria-label="Choose a card">{cards.map((c,i)=><button key={c.id} type="button" aria-current={active===i?'true':undefined} onClick={()=>go(i)}><span>{pad(i+1)}</span>{c.nav}</button>)}</div>
+        <div className="xs__chips" role="group" aria-label="Choose a card">{cards.map((c,i)=><button key={c.id} type="button" aria-current={active===i?'true':undefined} onClick={()=>go(i)}><span>{pad(i+1)}</span><Icon name={cardIcon[c.id]??'mic'} size={18}/>{c.nav}</button>)}</div>
       </div>
       <div className="xs__frame">
         <div ref={view} className="xs__view" {...(!scrub&&!list?{tabIndex:0,role:'region','aria-label':'Value markers, scroll sideways'}:{})}>

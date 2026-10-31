@@ -5,6 +5,8 @@ description: Review the logo and icon boards and microphone candidates, present 
 
 # Logo and icon directions: review, present, rebuild
 
+Selection record: on 31 Oct 2026 the client chose B01 (mark) and D05 (icons); vectors and the site integration are in `design-system/identity-v10/` and `assets/public/assets/identity/v10/` and are still proposed until final acceptance.
+
 Inputs: the OS and OUTSPOKEN logo boards and icon boards named in the handoff, the V5 identity (`assets/public/assets/revisions/v5/identity/`), and the twenty microphone candidates R10 (contact sheet and shortlist under `assets/public/assets/identity/mic-candidates-r10/`; full-size originals are local to the owner). The OS monogram board is **superseded**; the selected live identity stays the V5 capsule + outlined wordmark until the client chooses.
 
 1. **Review** every board and candidate against the design rules (`outspoken-design-rules`): palette (navy, nickel, warm marigold only), spelling of OUTSPOKEN, small-size legibility (render each at 64, 32 and 24 px and look), contrast pairs, no glossy/glass/chrome, original forms only.

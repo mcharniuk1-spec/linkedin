@@ -1,0 +1,16 @@
+/* Identity V10 (proposed): B01 microphone mark, D05 icons. Colours come from the existing tokens; no new values. */
+.icon-d05{flex:none;color:inherit;--icon-marker:var(--marigold-500)}
+.icon-d05[data-marker=off]{--icon-marker:transparent}
+.closing-panel .icon-d05{--icon-marker:var(--marigold-400)}
+.xs__chips button>.icon-d05{width:18px;height:18px}
+.services-overview__title>.icon-d05{display:inline-block;vertical-align:-5px;margin-right:12px}
+/* Closing panel: the matte capsule mark with the sound rings travelling out of it (story unchanged: the voice carries). */
+.closing-mark{position:relative;justify-self:center;width:min(100%,460px);aspect-ratio:1;display:grid;place-items:center;z-index:1}
+.closing-mark>img{position:relative;z-index:1;width:54%;height:auto;max-width:none;filter:none}
+.closing-mark>i{position:absolute;inset:16%;border:2px solid var(--marigold-400);border-radius:50%;opacity:0;animation:closing-ring 5.2s cubic-bezier(.22,1,.36,1) infinite}
+.closing-mark>i:nth-of-type(2){animation-delay:1.7s}
+.closing-mark>i:nth-of-type(3){animation-delay:3.4s}
+@keyframes closing-ring{0%{transform:scale(.62);opacity:0}14%{opacity:.5}100%{transform:scale(1.6);opacity:0}}
+@media(prefers-reduced-motion:reduce){.closing-mark>i{animation:none;opacity:0}}
+@media(max-width:800px){.closing-mark{display:grid;width:min(100%,340px);margin:25px auto 0}}
+.hero-publication__art>img{width:30px;height:30px}

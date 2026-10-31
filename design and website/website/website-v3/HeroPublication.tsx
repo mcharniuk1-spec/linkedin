@@ -10,7 +10,7 @@ export function HeroPublication({post,children,onOpenChange}:{post:{body?:string
   return <><article className="hero-publication" aria-label="Illustrative LinkedIn publication">
     <header><img src="/assets/revisions/v5/people/avatar-b.webp" alt="Fictional founder portrait" width="32" height="32"/><span><strong>Founder perspective</strong><small>Illustrative LinkedIn post</small></span><i aria-hidden="true">•••</i></header>
     <p className="hero-publication__excerpt">{post.body}</p>
-    <div className="hero-publication__art"><h3>{post.title}</h3><img src="/assets/revisions/v5/identity/selected/flat.svg" alt="" width="28" height="40"/></div>
+    <div className="hero-publication__art"><h3>{post.title}</h3><img src="/assets/identity/v10/mark-b01-24.svg" alt="" width="30" height="30"/></div>
     <p className="hero-publication__disclosure">Illustrative work · not client content</p>
     <footer><span aria-hidden="true">Like　 Comment　 Repost</span><button ref={trigger} type="button" aria-haspopup="dialog" onClick={()=>{setOpen(true);onOpenChange?.(true);}}>Read post ↗</button></footer>
   </article>{open?createPortal(<dialog ref={dialog} className="hero-post-dialog" aria-labelledby={id} onCancel={e=>{e.preventDefault();close();}} onClick={e=>{if(e.target===e.currentTarget)close();}}><div className="hero-post-reader"><header><h2 id={id}>Illustrative LinkedIn publication</h2><button ref={closeButton} type="button" onClick={close} aria-label="Close publication">Close ×</button></header>{children}</div></dialog>,document.body):null}</>;

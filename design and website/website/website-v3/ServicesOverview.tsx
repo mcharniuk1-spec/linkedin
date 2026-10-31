@@ -1,5 +1,6 @@
 import content from "./content.json";
 import "./services-overview.css";
+import {Icon,type IconName} from "./Icon";
 
 type ServicesOverviewProps = {
   children?: import("react").ReactNode;
@@ -23,7 +24,7 @@ export function ServicesOverview({ children }: ServicesOverviewProps) {
                 <summary className="services-overview__summary">
                   <span className="services-overview__number" aria-hidden="true">{service.number}</span>
                   <span className="services-overview__summary-copy">
-                    <span className="services-overview__title">{service.title}</span>
+                    <span className="services-overview__title"><Icon name={service.id as IconName} size={28}/>{service.title}</span>
                     <span className="services-overview__short">{service.short}</span>
                   </span>
                   <span className="services-overview__chevron" aria-hidden="true" />
