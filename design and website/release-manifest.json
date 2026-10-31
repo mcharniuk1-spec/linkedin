@@ -24,8 +24,8 @@
   "files": [
     {
       "path": "HANDOFF.md",
-      "bytes": 5027,
-      "sha256": "c743237fe41b533e58fc2bd5a7c08cec4a1a4b4b573aeffb030bf4a0633ba44b"
+      "bytes": 5865,
+      "sha256": "a433a4552c11d48d35aba4ab028089736b2e14604ff0f873053d88bad00748ca"
     },
     {
       "path": "README.md",
@@ -2359,8 +2359,8 @@
     },
     {
       "path": "deploy/vercel/README.md",
-      "bytes": 2941,
-      "sha256": "5c40c562c13330c49130406ca774650d755eed8463dec3ee9fd01cd1c0a0fb30"
+      "bytes": 3693,
+      "sha256": "e83cdd4fe932665d514a49852739bf23bdc453e750cca3f700a1e670bad7a494"
     },
     {
       "path": "deploy/vercel/vercel-build.sh",
@@ -2489,13 +2489,13 @@
     },
     {
       "path": "film/PLAN-NEXT.md",
-      "bytes": 7109,
-      "sha256": "f9e4f40ea58af2fe9a746f1f7784c6bc9f2dfc06fe8c758175f597a4370fe4c8"
+      "bytes": 8003,
+      "sha256": "36ff9a9605ed7c377720f905a5290682d4d54eb6a9fe0cd1de451b495edbc70c"
     },
     {
       "path": "film/PROMPT-FOR-CLAUDE.md",
-      "bytes": 5580,
-      "sha256": "62f7af0a9c1aad02fa57467beac7d8449803404f3a26f89aa432a6c2a8a282a5"
+      "bytes": 10648,
+      "sha256": "fba632d247c8b7f6703ac2885ef3724dfedee606a72bada439110db1ef58d34c"
     },
     {
       "path": "film/README.md",
@@ -13147,9 +13147,14 @@
   },
   "film_update": {
     "date": "2026-10-31",
-    "scope": "film/ (Remotion launch film, about 80 s, plus a 29 s teaser re-cut, voiceover sheet, procedural audio, QA script, specification, design-system fit audit, research, next-step plan and prompts), design-system/film-tokens.json (proposed), deploy/vercel/ (rehearsed recipe, not executed on Vercel), two damaged sentences fixed in design-system docs",
+    "scope": "film/ (Remotion launch film, about 80 s, plus a 29 s teaser re-cut, voiceover sheet, procedural audio, QA script, specification, design-system fit audit, research, next-step plan and prompts), design-system/film-tokens.json (proposed), deploy/vercel/ (build-from-commit recipe; executed on Vercel for d5f5880, f572c3a and acf8655 on 2026-10-31, see its README), two damaged sentences fixed in design-system docs",
     "owner_accepted": false,
-    "deployment_performed_by_this_run": false,
+    "deployments": {
+      "latest_commit": "acf8655",
+      "latest_deployment": "dpl_Hx1irxvPivqP2n9hqMRZb2meRiCo",
+      "previous_deployment": "dpl_HVZUSzP32nqQaBgj3XnogHAqvJPo",
+      "readback": "anonymous SHA-256 comparison, see deploy/vercel/README.md"
+    },
     "audio": "code-synthesised stand-in for a recorded orchestra; voiceover not recorded"
   }
 }
