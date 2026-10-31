@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[2]
 class WorkflowTests(unittest.TestCase):
  def test_collection_schedule_and_no_analysis_boundary(self):
   p=ROOT/'.github/workflows/linkedin-collect.yml';text=p.read_text();w=yaml.load(text,Loader=yaml.BaseLoader)
-  self.assertEqual(w['on']['schedule'],[{'cron':'0 12,20 * * *','timezone':'Europe/Sofia'}])
+  self.assertEqual(w['on']['schedule'],[{'cron':'*/30 * * * *','timezone':'Europe/Sofia'}])
   self.assertEqual(w['concurrency']['cancel-in-progress'],'false');steps=w['jobs']['collect']['steps']
   runs='\n'.join(x.get('run','') for x in steps)
   self.assertIn('research.collector.cli collect',runs)

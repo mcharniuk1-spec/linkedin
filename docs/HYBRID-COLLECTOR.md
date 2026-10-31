@@ -1,3 +1,9 @@
+# Active cadence —31 October2026
+
+The owner now authorizes collection every30minutes. Workflow cron is `*/30 * * * *` in Europe/Sofia. Each run performs at most one Exa query, alternating topical discovery with rotating approved-author searches. Completed queries alone advance cursors. With48approved authors, a full author-query rotation takes about48hours; a30minute job does not imply every account is checked each time. Public-only access stops and global deduplication remain enforced. The24MiB database bound pauses collection with an explicit storage-capacity failure rather than silently reporting success. Free upstream quota and population coverage are not guaranteed. API content reads stay disabled under the app's current scopes. Source/media analysis remains a manual supervisor stage.
+
+Earlier dated sections below record the migration history; use this cadence for current execution.
+
 # Hybrid LinkedIn collector
 
 Status: source and local synthetic tests are implemented in this run. This document describes the current v7 code and the checked-in Actions workflow. It does not prove that GitHub Actions is enabled, that OAuth is configured, that any source is reachable, or that a scheduled run has completed.

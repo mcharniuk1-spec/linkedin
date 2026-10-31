@@ -28,9 +28,30 @@ class DiscoveryTests(unittest.TestCase):
   self.assertIn('after:2026-10-15',queries[0]['params']['arguments']['query'])
   self.assertEqual(self.s.db.execute('select count(*) from discoveries').fetchone()[0],2)
   self.assertEqual(self.s.db.execute("select value from metadata where key='author_cursor'").fetchone()[0],'1')
+ def test_single_query_cadence_alternates_topic_and_rotates_authors(self):
+  cfg={**self.config(),'queries':['topic-one {since14}','topic-two {since14}'],'max_queries':1,'author_queries_per_run':1}
+  authors=['/in/author-one','/in/author-two']
+  expected=['topic-one','author-one','topic-two','author-two']
+  for fragment in expected:
+   self.calls=[]
+   with self.client() as c:discover(cfg,self.s,authors,client=c,now=datetime(2026,10,29,tzinfo=ZoneInfo('Europe/Sofia')))
+   query=[x['params']['arguments']['query'] for x in self.calls if x['method']=='tools/call']
+   self.assertEqual(len(query),1);self.assertIn(fragment,query[0])
+  self.assertEqual(self.s.db.execute("select value from metadata where key='topic_cursor'").fetchone()[0],'2')
+  self.assertEqual(self.s.db.execute("select value from metadata where key='author_cursor'").fetchone()[0],'2')
+  phases=[json.loads(x[0])['phase'] for x in self.s.db.execute('select payload from discoveries')]
+  self.assertEqual(phases.count('topic'),2);self.assertEqual(phases.count('author'),2)
+ def test_truncated_multiquery_advances_only_executed_author_cursor(self):
+  cfg={**self.config(),'max_queries':2,'author_queries_per_run':3}
+  with self.client() as c:discover(cfg,self.s,['/in/a','/in/b','/in/c'],client=c)
+  self.assertEqual(len([x for x in self.calls if x['method']=='tools/call']),2)
+  self.assertEqual(self.s.db.execute("select value from metadata where key='topic_cursor'").fetchone()[0],'1')
+  self.assertEqual(self.s.db.execute("select value from metadata where key='author_cursor'").fetchone()[0],'1')
  def test_429_is_durable_stop_without_backend_switch(self):
   with self.client(True) as c:
    with self.assertRaises(AccessSuspended):discover(self.config(),self.s,client=c)
+  self.assertIsNone(self.s.db.execute("select value from metadata where key='topic_cursor'").fetchone())
+  self.assertIsNone(self.s.db.execute("select value from metadata where key='author_cursor'").fetchone())
   count=len(self.calls)
   with self.client() as c:
    with self.assertRaises(AccessSuspended):discover(self.config(),self.s,client=c)

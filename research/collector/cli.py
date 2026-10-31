@@ -154,7 +154,7 @@ async def collect(config_path, *, discover_fn=None, transport_factory=None):
                 lat=m.pop('fetch_latency_ms');m['mean_fetch_latency_ms']=sum(lat)/len(lat) if lat else None
                 m['latency_definition']='End-to-end fetch call including configured pacing/retry delay.'
             report.update(metrics=metrics,elapsed_seconds=time.perf_counter()-start,
-                status='COMPLETE' if not report['errors'] and not after['suspensions'] else 'COMPLETE_WITH_SOURCE_HOLDS',finished_at=utcnow())
+                status='STORAGE_CAPACITY_HOLD' if not _capacity(store,cfg) else ('COMPLETE' if not report['errors'] and not after['suspensions'] else 'COMPLETE_WITH_SOURCE_HOLDS'),finished_at=utcnow())
             with store.db:store.db.execute('INSERT INTO runs VALUES (?,?)',(report['run_id'],json.dumps(report,sort_keys=True)))
             (Path(cfg['state_dir'])/'last-run.json').write_text(json.dumps(report,indent=2)+'\n')
             return report

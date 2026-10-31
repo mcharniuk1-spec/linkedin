@@ -4,7 +4,7 @@
   "baseline_seed": "bootstrap-identities.json",
   "default_transport": "httpx",
   "max_new_records": 20,
-  "max_candidates": 40,
+  "max_candidates": 10,
   "max_database_bytes": 25165824,
   "automatic_media_bytes": false,
   "approved_author_paths": [
@@ -127,14 +127,14 @@
   "discovery": {
     "enabled": true,
     "endpoint": "https://mcp.exa.ai/mcp",
-    "max_queries": 3,
+    "max_queries": 1,
     "max_results_per_query": 8,
     "queries": [
       "site:linkedin.com/posts/ \"B2B\" \"founder\" after:{since14} before:{tomorrow}",
       "site:linkedin.com/posts/ \"SaaS\" \"positioning\" after:{since14} before:{tomorrow}",
       "site:linkedin.com/posts/ \"LinkedIn\" \"content\" \"B2B\" after:{since14} before:{tomorrow}"
     ],
-    "author_queries_per_run": 2
+    "author_queries_per_run": 1
   },
   "oauth": {
     "redirect_uri_env": "LINKEDIN_REDIRECT_URI",

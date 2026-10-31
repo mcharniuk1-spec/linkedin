@@ -136,3 +136,12 @@ class AccessEvidenceTests(unittest.TestCase):
     self.assertEqual(s.raw_bytes(digest),body);self.assertEqual(s.counts()['records'],0)
     row=json.loads(s.db.execute('select payload from access_evidence').fetchone()[0]);self.assertFalse(row['is_publication']);self.assertEqual(row['raw_sha256'],digest)
    finally:s.close()
+
+
+class CapacityVisibilityTests(unittest.IsolatedAsyncioTestCase):
+ async def test_storage_limit_is_explicit_and_performs_no_source_fetch(self):
+  with tempfile.TemporaryDirectory() as td:
+   root=Path(td);(root/'seed.json').write_text(json.dumps({'publications':[],'profiles':[]}))
+   cfg={'schema':'linkedin-hybrid-config/1','state_dir':'state','baseline_seed':'seed.json','max_new_records':1,'max_candidates':1,'max_database_bytes':1,'discovery':{'enabled':False},'sources':[]}
+   p=root/'config.json';p.write_text(json.dumps(cfg));r=await collect(p)
+   self.assertEqual(r['status'],'STORAGE_CAPACITY_HOLD');self.assertEqual(r['inserted'],0);self.assertEqual(r['metrics'],{})

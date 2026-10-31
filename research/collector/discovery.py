@@ -41,14 +41,28 @@ def discover(config, store, approved_authors=(), *, client=None, now=None):
     def cursor(k):
         x=store.db.execute('SELECT value FROM metadata WHERE key=?',(k,)).fetchone();return int(x[0]) if x else 0
     tc,ac=cursor('topic_cursor'),cursor('author_cursor');topics=config.get('queries',[]);queries=[]
-    if topics:
-        queries.append(topics[tc%len(topics)].format(**values))
+    limit=min(8,max(0,int(config.get('max_queries',3))))
     author_count=min(int(config.get('author_queries_per_run',2)),len(approved_authors))
-    for i in range(author_count):
-        slug=approved_authors[(ac+i)%len(approved_authors)].rstrip('/').split('/')[-1]
-        if re.fullmatch('[A-Za-z0-9-]+',slug):
-            queries.append(f'site:linkedin.com/posts/{slug}_ after:{values["since14"]} before:{values["tomorrow"]}')
-    queries=queries[:min(8,int(config.get('max_queries',3)))];urls=[]
+    def topic_query(index):
+        return topics[index%len(topics)].format(**values) if topics else None
+    def author_query(index):
+        if not approved_authors:return None
+        slug=approved_authors[index%len(approved_authors)].rstrip('/').split('/')[-1]
+        return f'site:linkedin.com/posts/{slug}_ after:{values["since14"]} before:{values["tomorrow"]}' if re.fullmatch('[A-Za-z0-9-]+',slug) else None
+    if limit==1 and topics and approved_authors:
+        # With one query per cadence, alternate the two query classes using
+        # completed-query cursors. Equal cursors mean topic is next.
+        phase='topic' if tc<=ac else 'author'
+        query=topic_query(tc) if phase=='topic' else author_query(ac)
+        if query is not None:queries.append((phase,query))
+    else:
+        if topics:
+            queries.append(('topic',topic_query(tc)))
+        for i in range(author_count):
+            query=author_query(ac+i)
+            if query is not None:queries.append(('author',query))
+        queries=queries[:limit]
+    urls=[]
     owned=client is None;c=client or httpx.Client(timeout=30,follow_redirects=False,trust_env=False)
     headers={'Accept':'application/json, text/event-stream','Content-Type':'application/json'}
     def request(ident,method,params):
@@ -72,7 +86,8 @@ def discover(config, store, approved_authors=(), *, client=None, now=None):
         tool=next((x for x in listing.get('tools',[]) if x.get('name')=='web_search_exa'),None)
         if not tool:
             raise CollectionError('discovery_tool_not_available')
-        for i,query in enumerate(queries,3):
+        topic_done=0;author_done=0
+        for i,(phase,query) in enumerate(queries,3):
             arguments={'query':query,'numResults':min(10,int(config.get('max_results_per_query',8)))}
             if 'objective' in tool.get('inputSchema',{}).get('properties',{}):
                 arguments['objective']=OBJECTIVE
@@ -84,18 +99,20 @@ def discover(config, store, approved_authors=(), *, client=None, now=None):
             with store.db:
                 store.db.execute('CREATE TABLE IF NOT EXISTS discoveries (id TEXT PRIMARY KEY,payload TEXT NOT NULL)')
                 store.db.execute('INSERT OR IGNORE INTO raw_objects VALUES (?,?)',(digest,gzip.compress(raw,mtime=0)))
-                store.db.execute('INSERT OR IGNORE INTO discoveries VALUES (?,?)',(hashlib.sha256((query+'|'+digest+'|'+utcnow()).encode()).hexdigest(),json.dumps({'query':query,'collected_at':utcnow(),'raw_sha256':digest,'rank_is_not_performance':True})))
+                store.db.execute('INSERT OR IGNORE INTO discoveries VALUES (?,?)',(hashlib.sha256((query+'|'+digest+'|'+utcnow()).encode()).hexdigest(),json.dumps({'query':query,'collected_at':utcnow(),'raw_sha256':digest,'rank_is_not_performance':True,'source_id':'exa-search','phase':phase})))
             if result.get('isError') or re.search(r'quota|rate.limit|unauthori[sz]ed|too many requests',text,re.I):
                 store.suspend('exa-search','discovery_tool_quota_or_error');raise AccessSuspended('discovery_tool_quota_or_error')
+            with store.db:
+                if phase=='topic':
+                    topic_done+=1;store.db.execute('INSERT OR REPLACE INTO metadata VALUES (?,?)',('topic_cursor',str(tc+topic_done)))
+                else:
+                    author_done+=1;store.db.execute('INSERT OR REPLACE INTO metadata VALUES (?,?)',('author_cursor',str(ac+author_done)))
             for value in re.findall(r'https://[^\s<>"\)]+',text):
                 p=urlsplit(value)
                 if (p.hostname=='linkedin.com' or (p.hostname or '').endswith('.linkedin.com')) and '/posts/' in p.path and re.search(r'activity-\d{19}',p.path):
                     from ..pipeline.normalizer import canonical
                     url=canonical(value)
                     if url not in urls and not store.known_url(url):urls.append(url)
-        with store.db:
-            store.db.execute('INSERT OR REPLACE INTO metadata VALUES (?,?)',('topic_cursor',str(tc+1)))
-            store.db.execute('INSERT OR REPLACE INTO metadata VALUES (?,?)',('author_cursor',str(ac+author_count)))
         return urls
     finally:
         if owned:c.close()
