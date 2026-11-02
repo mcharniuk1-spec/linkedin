@@ -24,8 +24,8 @@
   "files": [
     {
       "path": "HANDOFF.md",
-      "bytes": 9124,
-      "sha256": "aa1da5f781d03b5b1c94f835df5a199cb248790429a31f62f894dd3210ceb6b8"
+      "bytes": 9852,
+      "sha256": "3394e81d2252cb15c04344165150a08409140c7b41603d5fe82d0407c91bd276"
     },
     {
       "path": "README.md",
@@ -34,8 +34,8 @@
     },
     {
       "path": "asset-rights.json",
-      "bytes": 515351,
-      "sha256": "ea60f715230d52d420687ce671ffbb290c9acaa36e831d7844b48ee5624fbd1c"
+      "bytes": 527802,
+      "sha256": "6cd471e5c9def460ece0b92a8c64bf81f81b43e223fb684d16265bb82e8e4cb4"
     },
     {
       "path": "assets/README.md",
@@ -166,6 +166,66 @@
       "path": "assets/public/assets/identity/r12/directions-board.png",
       "bytes": 1812045,
       "sha256": "9c456f79a00989cacf1c282d54af2e64fa185fb35e2ab788d4686f1a523bac9c"
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-animated.svg",
+      "bytes": 6728,
+      "sha256": "bb2353ed5e051d45d97caab23a8127cc0a38ec76f32ba3ad4dbda87bd90e1ef9"
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-apple-touch-180.png",
+      "bytes": 5431,
+      "sha256": "72ca8412eba10ae6876ad7b1d0518a62f8ec15f3bc95d3712c87f0c414aa0bc1"
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-avatar-24.svg",
+      "bytes": 5436,
+      "sha256": "4964786e7eb4d5376c339b06bf2b2d8ed288f044bad3655ad860863ae8c3a999"
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-avatar-400.png",
+      "bytes": 9167,
+      "sha256": "2e32031474599087a29ac03d7d1054974dc335e2af07e1c1857c8cc515b50557"
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-avatar-800.png",
+      "bytes": 18458,
+      "sha256": "23ffae12fbe0d46a048d259a717a1e8b68424fe690c982fbeaa79cb02b978179"
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-avatar.svg",
+      "bytes": 5711,
+      "sha256": "c73dd4d37086f821d9b40682af25e115201241958b92f8e07fa67097f37aef5f"
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-favicon-64.png",
+      "bytes": 2045,
+      "sha256": "fb82e1d68b08b83a288df9f509679e42268078c217e7954566ceb20bcb1cf106"
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-favicon.svg",
+      "bytes": 5415,
+      "sha256": "ef8544150f62bc52e88ca0e7e3dde0a4c6d775808968992cc0d420470aa33c04"
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-lockup-2x.png",
+      "bytes": 21142,
+      "sha256": "6be808cc9eef7ceaae03bcd6a331659230ae1d446b290a279a9f8c487138d6f3"
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-lockup-inverse.svg",
+      "bytes": 29166,
+      "sha256": "f4298a20f93f1434678a60fcf0adf0a518eb5324fea4f4d427c55b80b1151a62"
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-lockup-mono.svg",
+      "bytes": 29119,
+      "sha256": "3ca4b57a2aa764a94a5ae76ee5157a7bcf59bc11bff02e577605e355f6432e1d"
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-lockup.svg",
+      "bytes": 29119,
+      "sha256": "f91dadd8f550cbee66681a63c2b0260d5645b9b60c6ff961c8d21b15298c803d"
     },
     {
       "path": "assets/public/assets/identity/v10/favicon.svg",
@@ -2908,9 +2968,54 @@
       "sha256": "f280620076a83626380007111a7835d02cde2d4fc0ba1e8ea6a7919339ae4ebb"
     },
     {
+      "path": "design-system/identity-r12/ADAPTATION-A.md",
+      "bytes": 5237,
+      "sha256": "5b73e52532477da1a4447bce7ac6945596d865b42e7475c9744f52829c75f0ea"
+    },
+    {
       "path": "design-system/identity-r12/build.py",
       "bytes": 4947,
       "sha256": "6194b421ac360e58dc0e72d8013fb1c39435e6dc28c59bf1d039caaff524f106"
+    },
+    {
+      "path": "design-system/identity-r12/build_bracket.py",
+      "bytes": 7333,
+      "sha256": "d41a75db9bfc6b0302980568fa67a1b281506455921865c7d8c77689d96252df"
+    },
+    {
+      "path": "design-system/identity-r12/os-bracket-animated.svg",
+      "bytes": 6728,
+      "sha256": "bb2353ed5e051d45d97caab23a8127cc0a38ec76f32ba3ad4dbda87bd90e1ef9"
+    },
+    {
+      "path": "design-system/identity-r12/os-bracket-avatar-24.svg",
+      "bytes": 5436,
+      "sha256": "4964786e7eb4d5376c339b06bf2b2d8ed288f044bad3655ad860863ae8c3a999"
+    },
+    {
+      "path": "design-system/identity-r12/os-bracket-avatar.svg",
+      "bytes": 5711,
+      "sha256": "c73dd4d37086f821d9b40682af25e115201241958b92f8e07fa67097f37aef5f"
+    },
+    {
+      "path": "design-system/identity-r12/os-bracket-favicon.svg",
+      "bytes": 5415,
+      "sha256": "ef8544150f62bc52e88ca0e7e3dde0a4c6d775808968992cc0d420470aa33c04"
+    },
+    {
+      "path": "design-system/identity-r12/os-bracket-lockup-inverse.svg",
+      "bytes": 29166,
+      "sha256": "f4298a20f93f1434678a60fcf0adf0a518eb5324fea4f4d427c55b80b1151a62"
+    },
+    {
+      "path": "design-system/identity-r12/os-bracket-lockup-mono.svg",
+      "bytes": 29119,
+      "sha256": "3ca4b57a2aa764a94a5ae76ee5157a7bcf59bc11bff02e577605e355f6432e1d"
+    },
+    {
+      "path": "design-system/identity-r12/os-bracket-lockup.svg",
+      "bytes": 29119,
+      "sha256": "f91dadd8f550cbee66681a63c2b0260d5645b9b60c6ff961c8d21b15298c803d"
     },
     {
       "path": "design-system/identity-r12/os-d1-serif-orbit-24.svg",
@@ -3564,8 +3669,8 @@
     },
     {
       "path": "prompts/CLOUD-CLAUDE-R12.md",
-      "bytes": 9777,
-      "sha256": "0dcb704ea037b570cf1f59a7eaa123e23aa14dee61413f11df9d0094d28abd42"
+      "bytes": 10332,
+      "sha256": "946275cfddae6f84ddbfa4236d7625e26c54ed20a99203df53c82f74bee1dcee"
     },
     {
       "path": "qa/README.md",
@@ -15278,6 +15383,210 @@
       "source_hash_match": false,
       "conditions": [
         "Draft; nothing was published; no client or result is claimed."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-animated.svg",
+      "repository_path": "design and website/assets/public/assets/identity/r12/os-bracket-animated.svg",
+      "sha256": "bb2353ed5e051d45d97caab23a8127cc0a38ec76f32ba3ad4dbda87bd90e1ef9",
+      "bytes": 6728,
+      "source": "Generated by design-system/identity-r12/build_bracket.py (owner-selected direction A, bracket OS): Mona Sans letter outlines plus the unchanged V5 outlined wordmark paths; PNGs rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r12/ADAPTATION-A.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner chose direction A on 2 November 2026 but has not accepted a new identity.",
+        "Companion mark only; does not replace the B01 microphone mark with the V5 wordmark.",
+        "SPOKEN in nickel is 1.98:1 on pearl (primary wordmark rule); use the mono lockup for small reading sizes. No 16 px build."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-apple-touch-180.png",
+      "repository_path": "design and website/assets/public/assets/identity/r12/os-bracket-apple-touch-180.png",
+      "sha256": "72ca8412eba10ae6876ad7b1d0518a62f8ec15f3bc95d3712c87f0c414aa0bc1",
+      "bytes": 5431,
+      "source": "Generated by design-system/identity-r12/build_bracket.py (owner-selected direction A, bracket OS): Mona Sans letter outlines plus the unchanged V5 outlined wordmark paths; PNGs rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r12/ADAPTATION-A.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner chose direction A on 2 November 2026 but has not accepted a new identity.",
+        "Companion mark only; does not replace the B01 microphone mark with the V5 wordmark.",
+        "SPOKEN in nickel is 1.98:1 on pearl (primary wordmark rule); use the mono lockup for small reading sizes. No 16 px build."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-avatar-24.svg",
+      "repository_path": "design and website/assets/public/assets/identity/r12/os-bracket-avatar-24.svg",
+      "sha256": "4964786e7eb4d5376c339b06bf2b2d8ed288f044bad3655ad860863ae8c3a999",
+      "bytes": 5436,
+      "source": "Generated by design-system/identity-r12/build_bracket.py (owner-selected direction A, bracket OS): Mona Sans letter outlines plus the unchanged V5 outlined wordmark paths; PNGs rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r12/ADAPTATION-A.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner chose direction A on 2 November 2026 but has not accepted a new identity.",
+        "Companion mark only; does not replace the B01 microphone mark with the V5 wordmark.",
+        "SPOKEN in nickel is 1.98:1 on pearl (primary wordmark rule); use the mono lockup for small reading sizes. No 16 px build."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-avatar-400.png",
+      "repository_path": "design and website/assets/public/assets/identity/r12/os-bracket-avatar-400.png",
+      "sha256": "2e32031474599087a29ac03d7d1054974dc335e2af07e1c1857c8cc515b50557",
+      "bytes": 9167,
+      "source": "Generated by design-system/identity-r12/build_bracket.py (owner-selected direction A, bracket OS): Mona Sans letter outlines plus the unchanged V5 outlined wordmark paths; PNGs rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r12/ADAPTATION-A.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner chose direction A on 2 November 2026 but has not accepted a new identity.",
+        "Companion mark only; does not replace the B01 microphone mark with the V5 wordmark.",
+        "SPOKEN in nickel is 1.98:1 on pearl (primary wordmark rule); use the mono lockup for small reading sizes. No 16 px build."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-avatar-800.png",
+      "repository_path": "design and website/assets/public/assets/identity/r12/os-bracket-avatar-800.png",
+      "sha256": "23ffae12fbe0d46a048d259a717a1e8b68424fe690c982fbeaa79cb02b978179",
+      "bytes": 18458,
+      "source": "Generated by design-system/identity-r12/build_bracket.py (owner-selected direction A, bracket OS): Mona Sans letter outlines plus the unchanged V5 outlined wordmark paths; PNGs rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r12/ADAPTATION-A.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner chose direction A on 2 November 2026 but has not accepted a new identity.",
+        "Companion mark only; does not replace the B01 microphone mark with the V5 wordmark.",
+        "SPOKEN in nickel is 1.98:1 on pearl (primary wordmark rule); use the mono lockup for small reading sizes. No 16 px build."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-avatar.svg",
+      "repository_path": "design and website/assets/public/assets/identity/r12/os-bracket-avatar.svg",
+      "sha256": "c73dd4d37086f821d9b40682af25e115201241958b92f8e07fa67097f37aef5f",
+      "bytes": 5711,
+      "source": "Generated by design-system/identity-r12/build_bracket.py (owner-selected direction A, bracket OS): Mona Sans letter outlines plus the unchanged V5 outlined wordmark paths; PNGs rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r12/ADAPTATION-A.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner chose direction A on 2 November 2026 but has not accepted a new identity.",
+        "Companion mark only; does not replace the B01 microphone mark with the V5 wordmark.",
+        "SPOKEN in nickel is 1.98:1 on pearl (primary wordmark rule); use the mono lockup for small reading sizes. No 16 px build."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-favicon-64.png",
+      "repository_path": "design and website/assets/public/assets/identity/r12/os-bracket-favicon-64.png",
+      "sha256": "fb82e1d68b08b83a288df9f509679e42268078c217e7954566ceb20bcb1cf106",
+      "bytes": 2045,
+      "source": "Generated by design-system/identity-r12/build_bracket.py (owner-selected direction A, bracket OS): Mona Sans letter outlines plus the unchanged V5 outlined wordmark paths; PNGs rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r12/ADAPTATION-A.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner chose direction A on 2 November 2026 but has not accepted a new identity.",
+        "Companion mark only; does not replace the B01 microphone mark with the V5 wordmark.",
+        "SPOKEN in nickel is 1.98:1 on pearl (primary wordmark rule); use the mono lockup for small reading sizes. No 16 px build."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-favicon.svg",
+      "repository_path": "design and website/assets/public/assets/identity/r12/os-bracket-favicon.svg",
+      "sha256": "ef8544150f62bc52e88ca0e7e3dde0a4c6d775808968992cc0d420470aa33c04",
+      "bytes": 5415,
+      "source": "Generated by design-system/identity-r12/build_bracket.py (owner-selected direction A, bracket OS): Mona Sans letter outlines plus the unchanged V5 outlined wordmark paths; PNGs rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r12/ADAPTATION-A.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner chose direction A on 2 November 2026 but has not accepted a new identity.",
+        "Companion mark only; does not replace the B01 microphone mark with the V5 wordmark.",
+        "SPOKEN in nickel is 1.98:1 on pearl (primary wordmark rule); use the mono lockup for small reading sizes. No 16 px build."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-lockup-2x.png",
+      "repository_path": "design and website/assets/public/assets/identity/r12/os-bracket-lockup-2x.png",
+      "sha256": "6be808cc9eef7ceaae03bcd6a331659230ae1d446b290a279a9f8c487138d6f3",
+      "bytes": 21142,
+      "source": "Generated by design-system/identity-r12/build_bracket.py (owner-selected direction A, bracket OS): Mona Sans letter outlines plus the unchanged V5 outlined wordmark paths; PNGs rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r12/ADAPTATION-A.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner chose direction A on 2 November 2026 but has not accepted a new identity.",
+        "Companion mark only; does not replace the B01 microphone mark with the V5 wordmark.",
+        "SPOKEN in nickel is 1.98:1 on pearl (primary wordmark rule); use the mono lockup for small reading sizes. No 16 px build."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-lockup-inverse.svg",
+      "repository_path": "design and website/assets/public/assets/identity/r12/os-bracket-lockup-inverse.svg",
+      "sha256": "f4298a20f93f1434678a60fcf0adf0a518eb5324fea4f4d427c55b80b1151a62",
+      "bytes": 29166,
+      "source": "Generated by design-system/identity-r12/build_bracket.py (owner-selected direction A, bracket OS): Mona Sans letter outlines plus the unchanged V5 outlined wordmark paths; PNGs rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r12/ADAPTATION-A.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner chose direction A on 2 November 2026 but has not accepted a new identity.",
+        "Companion mark only; does not replace the B01 microphone mark with the V5 wordmark.",
+        "SPOKEN in nickel is 1.98:1 on pearl (primary wordmark rule); use the mono lockup for small reading sizes. No 16 px build."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-lockup-mono.svg",
+      "repository_path": "design and website/assets/public/assets/identity/r12/os-bracket-lockup-mono.svg",
+      "sha256": "3ca4b57a2aa764a94a5ae76ee5157a7bcf59bc11bff02e577605e355f6432e1d",
+      "bytes": 29119,
+      "source": "Generated by design-system/identity-r12/build_bracket.py (owner-selected direction A, bracket OS): Mona Sans letter outlines plus the unchanged V5 outlined wordmark paths; PNGs rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r12/ADAPTATION-A.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner chose direction A on 2 November 2026 but has not accepted a new identity.",
+        "Companion mark only; does not replace the B01 microphone mark with the V5 wordmark.",
+        "SPOKEN in nickel is 1.98:1 on pearl (primary wordmark rule); use the mono lockup for small reading sizes. No 16 px build."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/r12/os-bracket-lockup.svg",
+      "repository_path": "design and website/assets/public/assets/identity/r12/os-bracket-lockup.svg",
+      "sha256": "f91dadd8f550cbee66681a63c2b0260d5645b9b60c6ff961c8d21b15298c803d",
+      "bytes": 29119,
+      "source": "Generated by design-system/identity-r12/build_bracket.py (owner-selected direction A, bracket OS): Mona Sans letter outlines plus the unchanged V5 outlined wordmark paths; PNGs rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r12/ADAPTATION-A.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner chose direction A on 2 November 2026 but has not accepted a new identity.",
+        "Companion mark only; does not replace the B01 microphone mark with the V5 wordmark.",
+        "SPOKEN in nickel is 1.98:1 on pearl (primary wordmark rule); use the mono lockup for small reading sizes. No 16 px build."
       ]
     }
   ],
