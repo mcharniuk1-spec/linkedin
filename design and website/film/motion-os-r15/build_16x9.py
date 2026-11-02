@@ -3,17 +3,25 @@
 
 An independent re-composition of the six scenes of build.py (the 4:5 film), not a crop and not a scaled copy. The narration windows,
 cut times, captions and story are the same, so one voice recording fits both frames; layout, choreography and transitions are new
-for the wide frame and use the horizontal axis throughout:
-  S1  thought field contracts onto the outline of the stencil O; the mark resolves; pearl opens out of the O's counter
-  S2  the O parts into a wide interview frame (two brackets), the strand threads through as a speaking waveform, camera travel
-  S3  three notes ride in with parallax, the strand becomes the cut, two notes leave, one becomes "Position"; a marigold curtain sweeps
-  S4  the Position card is the middle panel of a tri-fold that opens into a 6 x 4 calendar; one cell lifts into a post; navy grows out of it
-  S5  the post shrinks to a node and the strand grows left to right into a buyer network; signals return to three separate rings
-  S6  the rings fold into package cards; the cards sink into the call to action; lockup, hero line and call to action centred
+for the wide frame and use the horizontal axis throughout (times in seconds):
+  S1  0-4    120 thought particles contract onto the outline of the stencil O; the mark resolves in inverse colours on navy;
+             3.2-4.3 pearl opens out of the O's counter as a circle that also clips a navy-ink copy of the mark (exact recolouring)
+  S2  4-8    the S and slash step back, the O parts into a wide interview frame (two brackets); the strand fills the gap and becomes a
+             speaking waveform; 7.25-8.7 camera travel with parallax (pale dots, two rulers and three notes pass at three depths)
+  S3  8-12   the strand morphs into one diagonal that crosses the three notes, a marigold slash is drawn along it (the only diagonal band),
+             the outer notes leave, the middle note scales into "Position"; 10.4-11.95 a marigold curtain sweeps across behind it
+  S4  12-17  the Position card is the middle panel of a tri-fold; the wings unfold (3D fold) into a 6 x 4 calendar that fills left to right;
+             one cell lifts into a post while the wings fold shut; 16.3-17.3 navy grows out of the post as a circle
+  S5  17-22  the post shrinks into a node, the strand grows left to right (path morph) and sprouts a buyer network; signals return to three
+             separate, unquantified rings; 20.9-22 each ring flips edge-on (3D fold) and unfolds as a package card
+  S6  22-28  three package cards (public label, names and prices from pricing.json); at 23.3 they sink into one marigold bar that becomes the
+             call to action; lockup, protected hero line and call to action centred; final hold from about 24.6 s with a very slow push-in
 
 Usage: python3 build_16x9.py <project_dir> <paths_json> [--audio] [--guide]
-Deterministic: seeded random only, no wall clock, no network, no absolute paths. Package names, prices, the hero line and the call
-to action are read from the site JSON at build time. The OS stencil comes from the paths JSON (never re-typeset)."""
+Deterministic: seeded random only, no wall clock, no network, no absolute paths. Package names, prices, the public label, the hero line and the
+call to action are read from the site JSON at build time. The OS stencil comes from the paths JSON (never re-typeset).
+HyperFrames rules kept: only transforms, opacity, colours, clip-path and SVG d are animated (never left, top, width or height); every element
+has one fromTo and then only to tweens; shared strand paths keep a fixed point count (N) so attr d morphs interpolate in GSAP core."""
 import sys, pathlib, json, math, random, re
 HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))
@@ -37,13 +45,13 @@ SCENES = ["S1 thought into the O", "S2 interview frame", "S3 the cut", "S4 plan 
 # one designed sound for each visual beat of THIS choreography (kind, time[, count, spacing]); times match the timeline below
 EVENTS = [("shimmer", .2), ("tick", 1.15, 14, .1), ("swoosh", 1.9), ("pop", 2.55), ("swoosh", 2.85), ("pop", 3.05), ("swoosh", 3.2),            # S1: field, O, S, slash, circle
           ("swoosh", 4.45), ("pop", 4.8), ("tick", 5.25, 11, .18), ("riser", 6.4), ("swoosh", 7.2), ("pop", 8.0), ("pop", 8.15), ("pop", 8.3),  # S2: frame parts, wave, travel, notes land
-          ("riser", 8.85), ("thump", 9.8), ("swoosh", 10.0), ("swoosh", 10.4), ("shimmer", 10.8),                                                # S3: the cut, notes leave, curtain, Position
+          ("riser", 9.1), ("thump", 9.95), ("swoosh", 10.0), ("swoosh", 10.4), ("shimmer", 10.8),                                                # S3: the cut, notes leave, curtain, Position
           ("swoosh", 12.05), ("tick", 12.95, 24, .085), ("pop", 15.15), ("riser", 15.55), ("thump", 16.35),                                    # S4: wings open, cells fill, post lifts, navy grows
-          ("swoosh", 17.65), ("pop", 17.7), ("pop", 17.85, 12, .09), ("tick", 18.4, 12, .07), ("pop", 18.5, 3, .13), ("tick", 19.2, 9, .12),    # S5: node, sprouts, activation, rings, signals
+          ("swoosh", 17.65), ("pop", 17.78, 12, .085), ("tick", 18.4, 12, .07), ("pop", 18.5, 3, .13), ("tick", 19.2, 9, .12),    # S5: node, sprouts, activation, rings, signals
           ("pop", 19.9, 9, .12), ("swoosh", 20.95), ("pop", 21.3, 3, .1),                                                                      # S5-S6: ring pulses, rings fold, cards land
           ("swoosh", 23.3), ("thump", 23.95), ("pop", 24.1), ("shimmer", 24.15)]                                                               # S6: cards sink, call to action
-# ---- stage geometry (px). Safe zone x 64..1856, y 64..1016; captions sit in the band y 937..1012 and nothing else lives there
-CX, CY = 960, 500                       # centre of the working area: the working band is y 130..920, the caption band is below
+# ---- stage geometry (px). Safe zone x 64..1856, y 64..1016; the caption pill occupies y 937..1012, so the working band is y 130..920
+CX, CY = 960, 500                       # centre of the working band (a little above the frame centre, which leaves the caption room)
 mk = K.mark_parts(PATHS)                # (width, height, O left half, O right half, S, slash) in viewBox units, 184.16 x 100
 MW = 880; U = MW / mk[0]; MH = U * mk[1]; MX = (W - MW) / 2; MY = CY - MH / 2
 def mxp(x): return MX + x * U
@@ -92,11 +100,12 @@ FRAME_EDGE = 96                                                         # outer 
 PART = (CX - FRAME_EDGE - (OCU - OL_BOX[0]) * U) / U                    # how far each half travels, in viewBox units
 rnd = random.Random(2828)
 
-# ---- shared strand paths: always 64 points so that attr d morphs interpolate in GSAP core
+# ---- shared strand paths: always N points so that attr d morphs interpolate in GSAP core
 N = 160
 def path(pts): return "M" + " L".join(f"{x:.1f},{y:.1f}" for x, y in pts)
 def line(x0, y0, x1, y1): return path([(x0 + (x1 - x0) * i / (N - 1), y0 + (y1 - y0) * i / (N - 1)) for i in range(N)])
-def wave(ph, amp, cyc=7, x0=0, x1=W, y=CY, lo=.06, hi=.94):
+SX0, SX1 = 140, 1780                                                    # the strand ends behind the spines of the two brackets, inside the safe margin
+def wave(ph, amp, cyc=7, x0=SX0, x1=SX1, y=CY, lo=.06, hi=.94):
     pts = []
     for i in range(N):
         u = i / (N - 1); env = math.sin(math.pi * (u - lo) / (hi - lo)) ** 1.25 if lo < u < hi else 0
@@ -106,10 +115,10 @@ CUT_A, CUT_B = (330, 760), (1590, 240)                                  # the cu
 SRC = (300, 420)                                                        # the post becomes this node; the strand grows from it
 def trunk_y(x): return 420 + 30 * math.sin((x - 300) / 240.0)
 def trunk(frac):
-    """The S5 strand from the source node to the right edge; frac < 1 gives the growing tip (all 64 points stay on the curve)."""
+    """The S5 strand from the source node to the right edge; frac < 1 gives the growing tip (all N points stay on the curve)."""
     x0, x1 = SRC[0] + 30, 1840
     return path([(x0 + (x1 - x0) * frac * i / (N - 1), trunk_y(x0 + (x1 - x0) * frac * i / (N - 1))) for i in range(N)])
-SH = {"flat": line(0, CY, W, CY), "w1": wave(0, 150), "w2": wave(1.9, 112), "w3": wave(3.6, 158), "w4": wave(5.3, 120),
+SH = {"flat": line(SX0, CY, SX1, CY), "w1": wave(0, 150), "w2": wave(1.9, 112), "w3": wave(3.6, 158), "w4": wave(5.3, 120),
       "cut": line(*CUT_A, *CUT_B), "t0": trunk(0.0001), "t1": trunk(1.0)}
 
 # ---- S1: thought particles contract onto the outline of the stencil O (outline points sampled from the paths JSON)
@@ -174,16 +183,16 @@ def faint(y0, amp, wl, ph):
 FAINT = [("far", faint(210, 40, 330, .4)), ("far", faint(560, 55, 420, 2.1)), ("far", faint(900, 36, 360, 4.0)),
          ("mid", faint(330, 50, 270, 1.3)), ("mid", faint(690, 60, 310, 3.3))]
 
-# ---- S6: three package cards (names, prices, descriptors read from pricing.json) and the final stack
+# ---- S6: three package cards (names and prices read from pricing.json) and the final stack
 PK = PRICING["packages"][:3]
 PKW, PKH, PKG = 544, 360, 48
 PKR = [{"x": 96 + i * (PKW + PKG), "y": 330, "w": PKW, "h": PKH} for i in range(3)]
 CTA = {"w": 600, "h": 108, "cy": 744}
 
-CFG = {"pts": pts, "sh": SH, "oc": list(OC), "shift": SHIFT, "part": PART, "mw": MW, "mh": MH, "u": U,
+CFG = {"pts": pts, "sh": SH, "oc": list(OC), "shift": SHIFT, "part": PART,
        "notes": [{"cx": n["cx"], "d": NOTE_DEPTH[i]} for i, n in enumerate(NOTES)], "travel": TRAVEL, "noteScale": NOTE_TO_PLATE,
        "cut": {"cx": (CUT_A[0] + CUT_B[0]) / 2, "cy": (CUT_A[1] + CUT_B[1]) / 2, "len": CUT_LEN, "ang": CUT_ANG},
-       "panels": PANELS, "cells": cells, "lift": LIFT_I, "post": POST, "src": SRC,
+       "panels": PANELS, "pw": PW, "cells": cells, "lift": LIFT_I, "post": POST, "src": SRC,
        "nodes": nodes, "links": [[link(nd, 0.0001), link(nd, 1)] for nd in nodes], "trunkT": [TRUNK_T0, TRUNK_T1],
        "rings": [[x, y] for x, y, _ in RINGS], "pkr": PKR, "cta": CTA}
 
@@ -317,8 +326,8 @@ body = f"""
 """
 
 js = "const CFG = " + json.dumps(CFG) + ";\nconst LINES = " + json.dumps(LINES) + ";\n" + r"""
-        const q = s => document.querySelector(s), qa = s => [...document.querySelectorAll(s)];
         const SM = 'power3.inOut', SO = 'power3.out';
+        gsap.config({force3D: false});                                              // plain 2D transforms: no per-element compositor layers, so frames do not depend on load
         const show = (id, t) => tl.set(id, {opacity: 1}, t), hide = (id, t) => tl.set(id, {opacity: 0}, t);
         const at = (r) => 'at ' + r[0] + 'px ' + r[1] + 'px)';
         const DRIFT0 = 17.4, DRIFT_DUR = 4.0, DRIFT_X = -90;                      // slow left drift of the buyer network in S5
@@ -327,12 +336,13 @@ js = "const CFG = " + json.dumps(CFG) + ";\nconst LINES = " + json.dumps(LINES) 
         tl.set('#cut', {x: CFG.cut.cx - CFG.cut.len / 2, y: CFG.cut.cy - 14, rotation: CFG.cut.ang, transformOrigin: '50% 50%'}, 0);
         tl.set('#cta', {x: 960 - CFG.cta.w / 2}, 0);
         tl.set('#pnA', {transformOrigin: (CFG.panels[1].x - CFG.panels[0].x) + 'px 50%'}, 0);
-        tl.set('#pnC', {transformOrigin: (CFG.panels[1].x + 530 - CFG.panels[2].x) + 'px 50%'}, 0);
+        tl.set('#pnC', {transformOrigin: (CFG.panels[1].x + CFG.pw - CFG.panels[2].x) + 'px 50%'}, 0);
 
         // ===== S1 0-4: the thought field contracts onto the O's outline; the mark resolves; pearl opens out of the O's counter
-        tl.fromTo('#k1', {opacity: 0}, {opacity: 1, duration: .4}, .5); tl.to('#k1', {opacity: 0, duration: .3}, 2.9);
+        tl.fromTo('#k1', {opacity: 0}, {opacity: 1, duration: .4}, .2); tl.to('#k1', {opacity: 0, duration: .3}, 2.9);
         CFG.pts.forEach((p, i) => {
-          tl.fromTo('#p' + i, {x: p.s[0], y: p.s[1], opacity: 0, scale: .4}, {opacity: .9, scale: 1, duration: .8, ease: SO}, .1 + (i % 20) * .03);
+          if (i % 4 === 0) tl.set('#p' + i, {x: p.s[0], y: p.s[1], opacity: .9, scale: 1}, 0);                  // part of the field is there from the first frame
+          else tl.fromTo('#p' + i, {x: p.s[0], y: p.s[1], opacity: 0, scale: .4}, {opacity: .9, scale: 1, duration: .8, ease: SO}, .1 + (i % 20) * .03);
           tl.to('#p' + i, {x: p.c[0], duration: p.dur, ease: 'power2.inOut'}, p.t0);      // different eases on x and y bend each path inwards
           tl.to('#p' + i, {y: p.c[1], duration: p.dur, ease: 'power3.inOut'}, p.t0);
           tl.to('#p' + i, {opacity: 0, scale: .3, duration: .35}, 2.85 + (i % 8) * .02);
@@ -452,7 +462,8 @@ js = "const CFG = " + json.dumps(CFG) + ";\nconst LINES = " + json.dumps(LINES) 
           tl.set('#rg' + i, {opacity: 0}, 21.26 + i * .1);
           tl.fromTo('#pk' + i, {x: r[0] - 70 - d.x, y: r[1] - 70 - d.y, scaleX: s, scaleY: sy, rotationY: -90, transformPerspective: 1400, borderRadius: '50%', opacity: 0}, {opacity: 1, duration: .01}, 21.2 + i * .1);
           tl.to('#pk' + i, {rotationY: 0, duration: .55, ease: SO}, 21.2 + i * .1);
-          tl.to('#pk' + i, {x: 0, y: 0, scaleX: 1, scaleY: 1, borderRadius: '28px', backgroundColor: '#F2F5FA', borderColor: '#F2F5FA', duration: .85, ease: SM}, 21.25 + i * .1);
+          tl.to('#pk' + i, {x: 0, y: 0, scaleX: 1, scaleY: 1, borderRadius: '28px', duration: .8, ease: SO}, 21.25 + i * .1);
+          tl.to('#pk' + i, {backgroundColor: '#F2F5FA', borderColor: '#F2F5FA', duration: .3, ease: SO}, 21.3 + i * .1);           // the face is solid early, so the unfolding card never reads as a ghost
           tl.to('#pk' + i + ' .in', {opacity: 1, duration: .4}, 21.6 + i * .1);
           tl.to('#pk' + i + ' .ac', {scaleX: 1, duration: .5, ease: SO}, 22.1 + i * .1); });
         hide('#c5', 21.7); hide('#c4', 21.5);

@@ -13,7 +13,7 @@ Status: proposed, owner acceptance false, nothing published. Music and effects a
 | 19–24 | Plan | A 3D fold opens the calendar (4 columns x 6 rows); cells fill row by row with themes, proof and formats; three cells are outlined in marigold | Three cells lift out |
 | 24–29 | Create | The three cells become a founder profile, a post and a carousel (pages fan out), stacked in one column; the calendar folds back and the strand drops underneath the cards | Navy grows out of the post card as a circle |
 | 29–34 | Conversations | The three pieces iris down to discs and fly up to buyer nodes in a mesh; replies fall as signals to three separate stacked rings (engagement, qualified replies, attributed leads), with no numbers | The three rings fill and open into package cards |
-| 34–42 | Packages | Three package cards in one column with the current names and prices from `pricing.json` and the on-screen note that prices are indicative, then the stacked OS lockup, the protected hero line and "Book an intro call" | Final hold of about 2.5 s |
+| 34–42 | Packages | Three package cards in one column with the current names and prices from `pricing.json` and the on-screen note that prices are indicative, then the stacked OS lockup, the protected hero line and "Book an intro call" | Final hold of about 2.3 s |
 
 ## Transition mechanisms (at least five different ones)
 - **Path morph:** the strand is one SVG path with a fixed 64-point count and morphs between a vertical line, a speaking waveform, the outline of the slash, the line through the lens, a single point, the calendar's top edge, an underline and an arc.
@@ -33,12 +33,13 @@ python3 "design and website/film/launch-r15/build_4x5.py" "$P" "design and websi
 cd "$P" && HYPERFRAMES_SKIP_SKILLS=1 npx hyperframes@0.9.2 check && npx hyperframes@0.9.2 render . -w 2 -o renders/a.mp4 && npx hyperframes@0.9.2 render . -w 2 -o renders/b.mp4
 python3 "<repository>/design and website/film/qa_films.py" renders/a.mp4 renders/b.mp4 --size 1080x1350 --duration 42
 ```
-The build script also copies `lockup-os-stacked-inverse.svg` from `assets/public/assets/identity/v13/` into the project (the shared kit copies only the horizontal lockups), and it writes `VOICEOVER.md`, `voiceover.txt` and `captions.srt` into this folder through `filmkit.write_vo`.
+The build script also copies `lockup-os-stacked-inverse.svg` from `assets/public/assets/identity/v13/` into the project (the shared kit copies only the horizontal lockups), writes the three ground bitmaps into the project's `assets` folder, and writes `VOICEOVER.md`, `voiceover.txt` and `captions.srt` into this folder through `filmkit.write_vo`.
 
 ## Build notes for the next maintainer
 - HyperFrames animates transforms, opacity, colours, clip-path and SVG `d` only; each element has one `fromTo` and then `to` tweens; no `left`, `top`, `width` or `height` tweens.
 - GSAP interpolates `clip-path` strings only when every number is written in the browser's shortest form (`640px`, not `640.0px`); otherwise the start value holds until the tween ends. The script formats its clip strings with one helper for that reason, and `path()` strings are avoided (the browser rewrites them).
 - The linter warns when a composition carries about 40 elements with clip-path, blur or radial-gradient styling (black frames in the capture layer): this composition stays well under that count.
+- **No live CSS gradients.** Chrome dithers a gradient again whenever it re-rasters the tiles next to moving content, and that dither differs by a few levels between runs. Two renders then differed by a few pixels in a handful of frames, x264 took a different path from there, and the difference spread across the rest of its group of pictures (250 frames), which failed the two-render determinism check. The soft grounds are therefore bitmaps (`ground-navy.png`, `ground-navy-b.png`, `ground-pearl.png`) that the script draws with the same stops, radii and positions as the CSS it replaced, dithers once with a fixed ordered pattern and writes with the standard library (no Pillow); they match the CSS gradients to within one level. Keep new grounds and glows flat or baked.
 - The renders for this film are deterministic by construction: seeded Python randomness for the layout, no wall clock and no network in the script.
 
 ## Measured

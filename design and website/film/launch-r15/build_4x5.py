@@ -17,10 +17,12 @@ choreographed again on the vertical axis. One marigold strand carries the founde
 Transition mechanisms: path morph (strand), mask and clip reveals (stencil aperture, S reveal, slit, lockup), camera travel with parallax (market
 layers), 3D folds (calendar open and fold back), clipped colour fields (slit, diagonal band, top fold, circle).
 Rules kept: HyperFrames 0.9.2 animates transforms, opacity, colours, clip-path and SVG d only; one fromTo per element, then to tweens; the strand has a
-fixed point count; clip-path strings are written in the shortest browser form (a trailing .0 stops GSAP from interpolating them).
+fixed point count; clip-path strings are written in the shortest browser form (a trailing .0 stops GSAP from interpolating them); the soft grounds are
+baked bitmaps, not live CSS gradients (see ground bitmaps below: gradient dither made two renders differ).
 Safe zone at rest: x 64 to 1016, y 64 to 1286, captions included; type is 28 px or more.
 Usage: python3 build_4x5.py <project_dir> <paths_json> [--audio] [--guide]"""
-import sys, pathlib, json, math, random, re, shutil
+import sys, pathlib, json, math, random, re, shutil, struct, zlib
+import numpy as np
 HERE = pathlib.Path(__file__).resolve().parent
 sys.path.insert(0, str(HERE.parent))
 import filmkit as K
@@ -40,7 +42,7 @@ LINES = [(0.35, 4.6, "Your best material starts with the work."),
          (29.3, 33.7, "We prepare the next conversation and review the response."),
          (34.5, 37.8, "Choose the right starting point.")]
 SCENES = ["S1 thought", "S2 interview", "S3 position", "S4 market", "S5 plan", "S6 create", "S7 conversations", "S8 packages"]
-# one designed sound for each visual beat of this choreography (kind, time[, count, spacing]); times follow the timeline below
+# One designed sound for each visual beat of this choreography: (kind, time[, count, spacing]); times follow the timeline further down.
 EVENTS = [("shimmer", .2),                                                                    # S1 particles appear
           ("tick", 1.7, 10, .15), ("pop", 2.3), ("pop", 2.42), ("pop", 2.54),                 # gathering into clusters, three cluster labels
           ("swoosh", 3.85), ("pop", 4.5),                                                     # line-up, strand draws
@@ -50,15 +52,15 @@ EVENTS = [("shimmer", .2),                                                      
           ("swoosh", 12.0), ("shimmer", 12.6),                                                # diagonal band, "Position"
           ("swoosh", 14.0), ("pop", 14.3), ("tick", 14.9, 8, .3),                             # S4 mark into lens, lens, market layers travel
           ("pop", 15.6), ("pop", 16.05), ("pop", 16.5), ("riser", 17.6), ("swoosh", 18.2),    # three questions, lens flattens
-          ("thump", 18.95)] \
-         + [("tick", 20.0 + r * .38, 4, .085) for r in range(6)] \
-         + [("pop", 23.5), ("pop", 23.65), ("pop", 23.8),                                     # S5 calendar fills row by row, three cells are selected
-          ("swoosh", 24.3, 3, .12), ("swoosh", 24.5), ("pop", 25.1, 3, .12),                  # S6 cells lift, calendar folds back, content appears
-          ("swoosh", 26.6, 3, .18), ("riser", 27.6), ("swoosh", 28.2), ("thump", 28.5),       # pages fan out, navy grows from the post
-          ("swoosh", 29.0, 3, .12), ("tick", 29.4, 12, .05), ("pop", 30.4, 12, .1),           # S7 pieces fly to nodes, nodes appear and light up
-          ("pop", 30.6), ("pop", 30.75), ("pop", 30.9), ("tick", 31.5, 9, .12),               # three rings, signals return
-          ("swoosh", 34.0), ("pop", 34.95), ("pop", 35.3), ("pop", 35.65), ("tick", 36.6, 3, .15),  # S8 rings open into cards, content, accent bars
-          ("swoosh", 37.8), ("thump", 38.4), ("shimmer", 38.5), ("pop", 38.7), ("pop", 39.1), ("shimmer", 39.15)]  # lockup, hero line, call to action
+          ("thump", 18.95)]                                                                   # calendar opens
+EVENTS += [("tick", 20.0 + r * .38, 4, .085) for r in range(6)]                               # S5 calendar fills row by row
+EVENTS += [("pop", 23.5), ("pop", 23.65), ("pop", 23.8),                                      # three cells are selected
+           ("swoosh", 24.3, 3, .12), ("swoosh", 24.5), ("pop", 25.1, 3, .12),                 # S6 cells lift, calendar folds back, content appears
+           ("swoosh", 26.6, 3, .18), ("riser", 27.6), ("swoosh", 28.2), ("thump", 28.5),      # pages fan out, navy grows from the post
+           ("swoosh", 29.0, 3, .12), ("tick", 29.4, 12, .05), ("pop", 30.4, 12, .1),          # S7 pieces fly to nodes, nodes appear and light up
+           ("pop", 30.6), ("pop", 30.75), ("pop", 30.9), ("tick", 31.5, 9, .12),              # three rings, signals return
+           ("swoosh", 34.0), ("pop", 34.95), ("pop", 35.3), ("pop", 35.65), ("tick", 36.6, 3, .15),  # S8 rings open into cards, content, accent bars
+           ("swoosh", 37.8), ("thump", 38.4), ("shimmer", 38.5), ("pop", 38.7), ("pop", 39.1), ("shimmer", 39.15)]  # lockup, hero line, call to action
 rnd = random.Random(4545)
 N = 64                      # fixed point count of every strand shape (attr d morphs need equal counts)
 CX = W / 2
@@ -236,12 +238,49 @@ CFG = {"parts": parts, "sh": SH, "cells": cells, "lift": LIFTI, "cards": CARDS, 
        "apA0": AP_A0, "apA1": AP_A1, "apB0": AP_B0, "apB1": AP_B1, "band": [band(XB0), band(XB1), band(XB0 + BAND_W), band(XB1 + BAND_W)],
        "tO": round(T_O, 2), "tS": round(T_S, 2), "tPos": round(T_POS, 2), "tr": [TRY, TRX], "lens": LENS, "postC": POST_C, "mini": MINI}
 
+# ------------------------------------------------------------------ ground bitmaps
+# The soft grounds (navy with a blue glow, pearl with a pale fall-off) are drawn here into bitmaps instead of CSS gradients: Chrome dithers a live
+# gradient while it re-rasters the tiles next to moving cards, and that dither differs by a few levels from run to run, which is enough to send x264
+# down a different path for the rest of a group of pictures (two renders then disagree on 250 frames). A bitmap drawn 1:1 has no raster-time dither.
+# The gradients are evaluated exactly as the CSS would (stops, radii, positions) and dithered once with a fixed ordered pattern.
+BAYER = (np.array([[0, 32, 8, 40, 2, 34, 10, 42], [48, 16, 56, 24, 50, 18, 58, 26], [12, 44, 4, 36, 14, 46, 6, 38], [60, 28, 52, 20, 62, 30, 54, 22],
+                   [3, 35, 11, 43, 1, 33, 9, 41], [51, 19, 59, 27, 49, 17, 57, 25], [15, 47, 7, 39, 13, 45, 5, 37], [63, 31, 55, 23, 61, 29, 53, 21]]) + .5) / 64
+def hexrgb(h): return np.array([int(h[i:i + 2], 16) for i in (1, 3, 5)], float)
+def radial_glow(base, cx, cy, rx, ry, rgb, a0, end):
+    """Composites radial-gradient(rx ry at cx cy, rgba(rgb, a0), transparent end) over base (premultiplied interpolation, as CSS does)."""
+    yy, xx = np.mgrid[0:H, 0:W]; t = np.sqrt(((xx - cx) / rx) ** 2 + ((yy - cy) / ry) ** 2)
+    a = (a0 * np.clip(1 - t / end, 0, 1))[..., None]
+    return base * (1 - a) + np.array(rgb, float) * a
+def png_bytes(img):
+    """Minimal 8-bit RGB PNG writer (filter 'up'), so the build needs only numpy and the standard library."""
+    h, w, _ = img.shape; up = np.vstack([img[:1], (img[1:].astype(int) - img[:-1].astype(int)) % 256]).astype(np.uint8)
+    raw = b"".join(b"\x02" + up[y].tobytes() for y in range(h))
+    def chunk(t, d): return struct.pack(">I", len(d)) + t + d + struct.pack(">I", zlib.crc32(t + d) & 0xffffffff)
+    return b"\x89PNG\r\n\x1a\n" + chunk(b"IHDR", struct.pack(">IIBBBBB", w, h, 8, 2, 0, 0, 0)) + chunk(b"IDAT", zlib.compress(raw, 9)) + chunk(b"IEND", b"")
+def dithered(f):
+    tile = np.tile(BAYER, (H // 8 + 1, W // 8 + 1))[:H, :W, None]
+    return np.clip(np.floor(f + tile), 0, 255).astype(np.uint8)
+def ground_navy(glow_xy, glow_end, warm):
+    f = np.ones((H, W, 3)) * hexrgb("#0D1A3B")
+    if warm: f = radial_glow(f, .04 * W, .98 * H, 900, 800, (234, 169, 60), .09, .60)
+    return dithered(radial_glow(f, glow_xy[0] * W, glow_xy[1] * H, 1000, 900, (49, 87, 213), .24 if warm else .22, glow_end))
+def ground_pearl():
+    yy, xx = np.mgrid[0:H, 0:W]; th = math.radians(170); dx, dy = math.sin(th), -math.cos(th); L = abs(W * dx) + abs(H * dy)
+    t = .5 + ((xx - W / 2) * dx + (yy - H / 2) * dy) / L
+    c0, c1, c2 = hexrgb("#FFFFFF"), hexrgb("#F1F3F6"), hexrgb("#E6EBF1")
+    u1 = np.clip((t - .06) / (.58 - .06), 0, 1)[..., None]; u2 = np.clip((t - .58) / (1 - .58), 0, 1)[..., None]
+    return dithered(np.where((t < .58)[..., None], c0 + (c1 - c0) * u1, c1 + (c2 - c1) * u2))
+def write_grounds(folder):
+    folder.mkdir(parents=True, exist_ok=True)
+    for name, img in (("ground-navy.png", ground_navy((.84, .06), .62, True)), ("ground-navy-b.png", ground_navy((.16, .08), .60, False)), ("ground-pearl.png", ground_pearl())):
+        (folder / name).write_bytes(png_bytes(img))
+
 # ------------------------------------------------------------------ styles
 css = """
 .g{position:absolute;inset:0}
-#gN{background:radial-gradient(1000px 900px at 84% 6%,rgba(49,87,213,.24),transparent 62%),radial-gradient(900px 800px at 4% 98%,rgba(234,169,60,.09),transparent 60%),#0D1A3B}
-.pearl{background:linear-gradient(170deg,#fff 6%,#F1F3F6 58%,#E6EBF1)}
-.navy{background:radial-gradient(1000px 900px at 16% 8%,rgba(49,87,213,.22),transparent 60%),#0D1A3B}
+#gN{background:#0D1A3B url(assets/ground-navy.png) 0 0/1080px 1350px no-repeat}
+.pearl{background:#F1F3F6 url(assets/ground-pearl.png) 0 0/1080px 1350px no-repeat}
+.navy{background:#0D1A3B url(assets/ground-navy-b.png) 0 0/1080px 1350px no-repeat}
 #gA{clip-path:inset(0px 540px 0px 540px)}
 #gBb{background:#EAA93C;clip-path:%B0M%}
 #gB{clip-path:%B0%}
@@ -275,7 +314,7 @@ css = """
 .mkt{position:absolute;left:0;top:0;width:1080px;height:3000px;opacity:0}
 .mkt svg{position:absolute;left:0;top:0;overflow:visible}
 .mkt path{fill:none;stroke-linecap:round}
-#ring{position:absolute;left:%RL%px;top:%RT%px;width:440px;height:440px;border-radius:50%;border:7px solid #EAA93C;opacity:0;z-index:32;background:radial-gradient(circle at 50% 38%,rgba(242,245,250,.07),rgba(242,245,250,.01))}
+#ring{position:absolute;left:%RL%px;top:%RT%px;width:440px;height:440px;border-radius:50%;border:7px solid #EAA93C;opacity:0;z-index:32;background:rgba(242,245,250,.04)}
 .q{position:absolute;left:0;right:0;margin:0 auto;width:max-content;padding:18px 32px;border-radius:20px;background:#0D1A3B;border:2px solid rgba(185,199,218,.42);color:#F2F5FA;font-size:34px;line-height:1.3;white-space:nowrap;opacity:0}
 #calw{position:absolute;inset:0;perspective:2200px;perspective-origin:50% 192px}
 #cal{position:absolute;inset:0;transform-origin:50% 192px;transform-style:preserve-3d}
@@ -528,6 +567,7 @@ js = "const CFG = " + json.dumps(CFG) + ";\nconst LINES = " + json.dumps(LINES) 
 # the stacked lockup is not among the files filmkit.sync_assets copies, so this script copies it from the repository's identity folder
 (PROJ / "assets" / "brand").mkdir(parents=True, exist_ok=True)
 shutil.copy(IDENT / "lockup-os-stacked-inverse.svg", PROJ / "assets" / "brand" / "lockup-os-stacked-inverse.svg")
+write_grounds(PROJ / "assets")
 PROJ.mkdir(parents=True, exist_ok=True)
 (PROJ / "index.html").write_text(K.root_html(W, H, DUR, css, body, js, "assets/audio/" + ("mix-with-guide.wav" if GUIDE else "mix-voice-ready.wav")), encoding="utf-8")
 (PROJ / "hyperframes.json").write_text(json.dumps({"$schema": "https://hyperframes.heygen.com/schema/hyperframes.json", "paths": {"blocks": "compositions", "assets": "assets"}}, indent=2))
