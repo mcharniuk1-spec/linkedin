@@ -35,13 +35,13 @@ LINES = [(0.3, 3.7, "Start with what you know."),
          (21.6, 24.0, "Choose where to start.")]
 SCENES = ["S1 thought into the O", "S2 interview frame", "S3 the cut", "S4 plan and post", "S5 conversations", "S6 packages and close"]
 # one designed sound for each visual beat of THIS choreography (kind, time[, count, spacing]); times match the timeline below
-EVENTS = [("shimmer", .2), ("tick", 1.15, 14, .1), ("swoosh", 1.9), ("pop", 2.6), ("swoosh", 2.85), ("pop", 3.1), ("swoosh", 3.15), ("thump", 3.95),
-          ("swoosh", 4.2), ("thump", 4.75), ("tick", 5.3, 11, .19), ("riser", 6.3), ("swoosh", 6.75), ("pop", 7.75), ("pop", 7.95), ("pop", 8.15),
-          ("riser", 8.5), ("thump", 9.3), ("swoosh", 9.75), ("swoosh", 10.2), ("shimmer", 10.65), ("thump", 11.9),
-          ("swoosh", 12.0), ("tick", 12.95, 22, .08), ("pop", 15.15), ("riser", 15.6), ("thump", 16.4), ("pop", 17.55), ("swoosh", 17.7),
-          ("pop", 18.0, 7, .15), ("pop", 19.0, 5, .14), ("tick", 19.5, 9, .15), ("swoosh", 21.0), ("pop", 21.45), ("pop", 21.6), ("pop", 21.75),
-          ("swoosh", 23.25), ("thump", 23.85), ("pop", 24.0), ("shimmer", 24.05)]
-
+EVENTS = [("shimmer", .2), ("tick", 1.15, 14, .1), ("swoosh", 1.9), ("pop", 2.55), ("swoosh", 2.85), ("pop", 3.05), ("swoosh", 3.2),            # S1: field, O, S, slash, circle
+          ("swoosh", 4.45), ("pop", 4.8), ("tick", 5.25, 11, .18), ("riser", 6.4), ("swoosh", 7.2), ("pop", 8.0), ("pop", 8.15), ("pop", 8.3),  # S2: frame parts, wave, travel, notes land
+          ("riser", 8.85), ("thump", 9.8), ("swoosh", 10.0), ("swoosh", 10.4), ("shimmer", 10.8),                                                # S3: the cut, notes leave, curtain, Position
+          ("swoosh", 12.05), ("tick", 12.95, 24, .085), ("pop", 15.15), ("riser", 15.55), ("thump", 16.35),                                    # S4: wings open, cells fill, post lifts, navy grows
+          ("swoosh", 17.65), ("pop", 17.7), ("pop", 17.85, 12, .09), ("tick", 18.4, 12, .07), ("pop", 18.5, 3, .13), ("tick", 19.2, 9, .12),    # S5: node, sprouts, activation, rings, signals
+          ("pop", 19.9, 9, .12), ("swoosh", 20.95), ("pop", 21.3, 3, .1),                                                                      # S5-S6: ring pulses, rings fold, cards land
+          ("swoosh", 23.3), ("thump", 23.95), ("pop", 24.1), ("shimmer", 24.15)]                                                               # S6: cards sink, call to action
 # ---- stage geometry (px). Safe zone x 64..1856, y 64..1016; captions sit in the band y 937..1012 and nothing else lives there
 CX, CY = 960, 500                       # centre of the working area: the working band is y 130..920, the caption band is below
 mk = K.mark_parts(PATHS)                # (width, height, O left half, O right half, S, slash) in viewBox units, 184.16 x 100
@@ -88,7 +88,7 @@ OL_BOX = bbox(parse_path(mk[2])); OR_BOX = bbox(parse_path(mk[3]))     # the two
 OCU = (OL_BOX[0] + OR_BOX[2]) / 2                                       # x of the O's centre (viewBox units)
 OC = (mxp(OCU), CY)                                                     # centre of the O's counter on screen
 SHIFT = CX - OC[0]                                                      # moves the O to the centre of the frame in S2
-FRAME_EDGE = 120                                                        # outer edge of the left bracket when the O has parted
+FRAME_EDGE = 96                                                         # outer edge of the left bracket when the O has parted
 PART = (CX - FRAME_EDGE - (OCU - OL_BOX[0]) * U) / U                    # how far each half travels, in viewBox units
 rnd = random.Random(2828)
 
@@ -126,8 +126,8 @@ for i in range(NP):
                 "t0": round(1.0 + d * .12 + rnd.uniform(0, .35), 3), "dur": round(1.45 + d * .1 + rnd.uniform(0, .2), 3), "k": i % 7 == 0, "s2": i % 3 == 1})
 
 # ---- S3: three portrait notes in the interview frame; the plate they grow into is the middle panel of the S4 tri-fold
-NOTE_W, NOTE_H = 350, 384
-NOTES = [{"cx": 570, "t": "A product decision", "n": "01"}, {"cx": 960, "t": "A customer question", "n": "02"}, {"cx": 1350, "t": "The proof behind it", "n": "03"}]
+NOTE_W, NOTE_H = 340, 373
+NOTES = [{"cx": 575, "t": "A product decision", "n": "01"}, {"cx": 960, "t": "A customer question", "n": "02"}, {"cx": 1345, "t": "The proof behind it", "n": "03"}]
 NOTE_DEPTH = [1.3, 1.1, .9]                                              # parallax depth: the nearest note travels the farthest
 TRAVEL = 1300
 CUT_LEN = math.dist(CUT_A, CUT_B); CUT_ANG = math.degrees(math.atan2(CUT_B[1] - CUT_A[1], CUT_B[0] - CUT_A[0]))
@@ -177,7 +177,7 @@ FAINT = [("far", faint(210, 40, 330, .4)), ("far", faint(560, 55, 420, 2.1)), ("
 # ---- S6: three package cards (names, prices, descriptors read from pricing.json) and the final stack
 PK = PRICING["packages"][:3]
 PKW, PKH, PKG = 544, 360, 48
-PKR = [{"x": 96 + i * (PKW + PKG), "y": 300, "w": PKW, "h": PKH} for i in range(3)]
+PKR = [{"x": 96 + i * (PKW + PKG), "y": 330, "w": PKW, "h": PKH} for i in range(3)]
 CTA = {"w": 600, "h": 108, "cy": 744}
 
 CFG = {"pts": pts, "sh": SH, "oc": list(OC), "shift": SHIFT, "part": PART, "mw": MW, "mh": MH, "u": U,
@@ -208,7 +208,6 @@ css = """
 .pt{position:absolute;left:0;top:0;border-radius:50%;background:#F2F5FA;opacity:0}
 .pt.m{background:#EAA93C}.pt.s{background:#B9C7DA}
 .mk{position:absolute;left:%MX%px;top:%MY%px;width:%MW%px;height:%MH%px}
-#mkD{z-index:31}
 #mkLw{position:absolute;inset:0;z-index:32;clip-path:circle(0px at %OCX%px %OCY%px)}
 #sv{position:absolute;inset:0;z-index:30;overflow:visible;clip-path:inset(0 50% 0 50%)}
 #strand{fill:none;stroke:#EAA93C;stroke-width:7;stroke-linecap:round;stroke-linejoin:round}
@@ -219,7 +218,7 @@ css = """
 #play{position:absolute;left:958px;top:132px;width:4px;height:52px;border-radius:2px;background:#EAA93C;opacity:0}
 .note{position:absolute;left:0;top:%NOTETOP%px;width:%NW%px;height:%NH%px;border-radius:26px;background:#fff;border:2px solid #E1E6EE;box-shadow:0 26px 50px -30px rgba(22,39,96,.55)}
 .note b{position:absolute;left:30px;top:26px;font-family:'Geist Mono',monospace;font-weight:500;font-size:30px;color:#666F7F;letter-spacing:.06em}
-.note p{position:absolute;left:30px;right:24px;bottom:30px;font-family:'Fraunces',serif;font-size:50px;line-height:1.06;color:#162760}
+.note p{position:absolute;left:30px;right:24px;bottom:30px;font-family:'Fraunces',serif;font-size:48px;line-height:1.06;color:#162760}
 #cut{position:absolute;left:0;top:0;width:%CUTLEN%px;height:28px;border-radius:14px;background:#EAA93C;z-index:33;clip-path:inset(0 100% 0 0)}
 #pos{position:absolute;left:0;right:0;top:438px;text-align:center;font-size:112px;color:#162760;opacity:0;z-index:5}
 #calw{position:absolute;inset:0;perspective:2600px;perspective-origin:50% 50%}
@@ -234,6 +233,7 @@ css = """
 #post .art::after{content:'';position:absolute;left:40px;top:40px;width:70px;height:70px;border-radius:50%;background:#EAA93C}
 #post .tt{position:absolute;left:52px;bottom:44px;font-family:'Fraunces',serif;font-size:64px;color:#162760;opacity:0}
 #nets{position:absolute;inset:0;overflow:visible}
+#far{position:absolute;inset:0;opacity:0}
 .lk{fill:none;stroke:#B9C7DA;stroke-width:2.5;stroke-linecap:round;opacity:0}
 .fs{fill:none;stroke:#B9C7DA;stroke-width:2;stroke-linecap:round}
 .node{position:absolute;left:0;top:0;border-radius:50%;border:4px solid #B9C7DA;background:#0D1A3B;opacity:0}
@@ -246,10 +246,10 @@ css = """
 .pk .pr{margin-top:40px;font-family:'Geist Mono',monospace;font-weight:500;font-size:76px;line-height:1.05;color:#162760;letter-spacing:-.04em}
 .pk .pe{margin-top:10px;font-family:'Geist Mono',monospace;font-weight:500;font-size:30px;line-height:1.2;color:#666F7F;letter-spacing:.08em;text-transform:uppercase}
 .pk .ac{position:absolute;left:40px;right:40px;bottom:40px;height:8px;border-radius:4px;background:#EAA93C;transform:scaleX(0);transform-origin:0 50%}
-#pkl{position:absolute;left:0;right:0;top:214px;text-align:center;font-size:30px;opacity:0}
+#pkl{position:absolute;left:0;right:0;top:242px;text-align:center;font-size:30px;opacity:0}
 #lock{position:absolute;left:50%;top:230px;width:780px;margin-left:-390px}
-#hero{position:absolute;left:300px;right:300px;top:430px;text-align:center;font-size:84px;color:#F2F5FA;text-wrap:balance}
-#cta{position:absolute;left:0;top:%CTATOP%px;width:%CTAW%px;height:%CTAH%px;border-radius:999px;background:#EAA93C;color:#0D1A3B;font-size:44px;font-weight:600;display:flex;align-items:center;justify-content:center;white-space:nowrap}
+#hero{position:absolute;left:300px;right:300px;top:430px;text-align:center;font-size:84px;color:#F2F5FA;text-wrap:balance;opacity:0}
+#cta{position:absolute;left:0;top:%CTATOP%px;width:%CTAW%px;height:%CTAH%px;border-radius:999px;background:#EAA93C;color:#0D1A3B;font-size:44px;font-weight:600;display:flex;align-items:center;justify-content:center;white-space:nowrap;opacity:0}
 #cap{position:absolute;left:0;right:0;bottom:68px;display:flex;justify-content:center;z-index:60}
 #cap span{max-width:1400px;padding:14px 32px;border-radius:16px;background:rgba(13,26,59,.88);color:#F1F3F6;font-size:36px;line-height:1.3;text-align:center;opacity:0}
 """
@@ -270,7 +270,7 @@ panels_html = ""
 for pn in PANELS:
     cs = "".join(f'<div class="cell k-{c["t"]}" id="ce{c["r"] * 6 + c["c"]}" style="left:{c["lx"]}px;top:{c["ly"]}px"><i>{c["t"] if c["on"] else ""}</i></div>' for c in cells if PANELS[c["p"]]["id"] == pn["id"])
     panels_html += f'<div class="pnl" id="pn{pn["id"]}" style="left:{pn["x"]:.0f}px;top:{pn["y"]:.0f}px">{cs}</div>'
-post_html = (f'<div id="post" style="{rect(POST)}"><div class="av"></div><div class="ln" style="left:176px;top:62px;width:300px;background:#162760"></div>'
+post_html = (f'<div id="post" data-layout-allow-occlusion style="{rect(POST)}"><div class="av"></div><div class="ln" style="left:176px;top:62px;width:300px;background:#162760"></div>'
              '<div class="ln" style="left:176px;top:100px;width:200px"></div><div class="ln" style="left:52px;top:200px;width:420px"></div>'
              '<div class="ln" style="left:52px;top:240px;width:380px"></div><div class="ln" style="left:52px;top:280px;width:410px"></div><div class="art"></div><div class="tt">Post</div></div>')
 faint_html = "".join(f'<svg class="fsv" id="fs{i}" style="position:absolute;inset:0;overflow:visible;opacity:{.12 if L == "far" else .2}" viewBox="0 0 {W} {H}"><path class="fs" d="{d}"/></svg>' for i, (L, d) in enumerate(FAINT))
@@ -283,19 +283,21 @@ pk_html = "".join(
     f'<div class="pr">{esc(p["display_price"].split(" /")[0])}</div><div class="pe">{"one-off" if p["period"] == "one-off" else "per month"}</div>'
     f'</div><div class="ac"></div></div>' for i, p in enumerate(PK))
 body = f"""
-      <div class="g" id="gN"></div><div class="g pearl" id="gA"></div><div class="g" id="gM"></div><div class="g navy" id="gD"></div>
+      <div class="g" id="gN"></div>
+      <div class="mk" id="mkD">{K.mark_svg(mk, "mkDs", o="#F2F5FA", s="#B9C7DA", width=MW)}</div>
+      <div class="g pearl" id="gA"></div><div class="g" id="gM"></div><div class="g navy" id="gD"></div>
       <div id="cam">
         <div class="sc" id="c1">{parts_html}<div class="kick mono lt" id="k1">Your thinking</div></div>
         <div class="sc" id="c2">{dots_html}<div class="kick mono dk" id="k2">Interview</div>{rule_html}<div id="play"></div></div>
-        <div class="sc" id="c3">{notes_html}<div id="cut"></div></div>
+        <div class="sc" id="c3">{notes_html}<div id="cut" data-layout-allow-occlusion></div></div>
         <div class="sc" id="c4">
           <div class="kick mono dk" id="k4">Plan</div>
           <div id="calw">{panels_html}</div>
           <div class="disp" id="pos">Position</div>
           {post_html}
         </div>
+        <div id="far">{faint_html}</div>
         <div class="sc" id="c5">
-          <div id="far">{faint_html}</div>
           <div class="kick mono lt" id="k5">Conversations</div>
           <div id="net">{net_html}</div>
           {"".join(f'<div class="sig" id="sg{i}"></div>' for i in range(9))}
@@ -309,7 +311,6 @@ body = f"""
           <div id="cta">{esc(PROT["cta"])}</div>
         </div>
       </div>
-      <div class="mk" id="mkD">{K.mark_svg(mk, "mkDs", o="#F2F5FA", s="#B9C7DA", width=MW)}</div>
       <div id="mkLw"><div class="mk" id="mkL">{K.mark_svg(mk, "mkLs", width=MW)}</div></div>
       <svg id="sv" viewBox="0 0 {W} {H}" width="{W}" height="{H}"><path id="strand" d="{SH['flat']}"/></svg>
       <div id="cap"><span id="capt"></span></div>
@@ -373,13 +374,14 @@ js = "const CFG = " + json.dumps(CFG) + ";\nconst LINES = " + json.dumps(LINES) 
         tl.to('#strand', {attr: {d: CFG.sh.cut}, duration: .75, ease: SM}, 8.9);
         tl.to('#cut', {clipPath: 'inset(0% 0% 0% 0%)', duration: .5, ease: 'power3.in'}, 9.6);
         tl.to('#strand', {opacity: 0, duration: .25}, 10.05);
-        tl.to('#n0', {x: -1000, y: -330, rotation: -14, duration: .8, ease: 'power2.in'}, 10.05);
-        tl.to('#n2', {x: 1000, y: 330, rotation: 14, duration: .8, ease: 'power2.in'}, 10.05);
+        tl.to('#n0', {x: -1000, y: -330, rotation: -14, duration: .65, ease: 'power2.inOut'}, 10.0);
+        tl.to('#n2', {x: 1000, y: 330, rotation: 14, duration: .65, ease: 'power2.inOut'}, 10.0);
         tl.to('#n1 b, #n1 p', {opacity: 0, duration: .25}, 10.1);
         tl.to('#n1', {scale: CFG.noteScale, duration: .7, ease: SM}, 10.25);
         tl.to('#cut', {clipPath: 'inset(0% 0% 0% 100%)', duration: .5, ease: 'power3.out'}, 10.2);
-        tl.to('#mkL .ol', {x: -CFG.part - 70, duration: .75, ease: 'power3.in'}, 10.15);    // the frame leaves through the sides
-        tl.to('#mkL .or', {x: CFG.part + 70, duration: .75, ease: 'power3.in'}, 10.15);
+        tl.to('#mkL .ol', {x: -CFG.part - 110, duration: .75, ease: 'power3.in'}, 10.5);    // the frame leaves through the sides
+        tl.to('#mkL .or', {x: CFG.part + 110, duration: .75, ease: 'power3.in'}, 10.5);
+        hide('#mkLw', 11.3);
         // the marigold curtain: a clipped field that sweeps across behind the notes, then leaves the way it came
         tl.fromTo('#gM', {clipPath: 'inset(0% 100% 0% 0%)'}, {clipPath: 'inset(0% 0% 0% 0%)', duration: .65, ease: SM}, 10.4);
         tl.to('#gM', {clipPath: 'inset(0% 0% 0% 100%)', duration: .75, ease: SM}, 11.2);
@@ -395,7 +397,7 @@ js = "const CFG = " + json.dumps(CFG) + ";\nconst LINES = " + json.dumps(LINES) 
         tl.to('#pos', {opacity: 0, y: -14, duration: .3}, 12.2);
         tl.fromTo('#pnB .cell', {opacity: 0}, {opacity: 1, duration: .3}, 12.35);
         tl.fromTo('#k4', {opacity: 0}, {opacity: 1, duration: .4}, 12.3);
-        CFG.cells.forEach((c, i) => { if (c.on) tl.fromTo('#ce' + i + ' i', {opacity: 0, scale: .6}, {opacity: 1, scale: 1, duration: .28, ease: 'back.out(1.7)'}, 12.95 + (c.c * 4 + c.r) * .085); });
+        CFG.cells.forEach((c, i) => { if (c.on) tl.fromTo('#ce' + i + ' i', {opacity: 0, scale: .8}, {opacity: 1, scale: 1, duration: .28, ease: 'back.out(1.7)'}, 12.95 + (c.c * 4 + c.r) * .085); });
         { const c = CFG.cells[CFG.lift], d = CFG.post;
           tl.fromTo('#post', {x: c.x - d.x, y: c.y - d.y, scaleX: c.w / d.w, scaleY: c.h / d.h, opacity: 0, backgroundColor: '#EAA93C'}, {opacity: 1, duration: .01}, 15.1);
           tl.to('#post', {x: 0, y: 0, scaleX: 1, scaleY: 1, backgroundColor: '#FFFFFF', duration: .8, ease: SM}, 15.15);
@@ -409,15 +411,16 @@ js = "const CFG = " + json.dumps(CFG) + ";\nconst LINES = " + json.dumps(LINES) 
         tl.fromTo('#gD', {clipPath: 'circle(0px at ' + (CFG.post.x + CFG.post.w / 2) + 'px ' + (CFG.post.y + CFG.post.h / 2) + 'px)'}, {clipPath: 'circle(1500px at ' + (CFG.post.x + CFG.post.w / 2) + 'px ' + (CFG.post.y + CFG.post.h / 2) + 'px)', duration: 1.0, ease: SM}, 16.3);
 
         // ===== S5 17-22: the post shrinks into a node; the strand grows left to right into a buyer network; signals return to three rings
-        show('#c5', 16.9);
+        show('#c5', 17.05);
         tl.to('#post > *', {opacity: 0, duration: .2}, 17.0);
         tl.to('#post', {x: CFG.src[0] - 28 - CFG.post.x, y: CFG.src[1] - 28 - CFG.post.y, scaleX: 56 / CFG.post.w, scaleY: 56 / CFG.post.h, borderRadius: '50%', borderColor: '#F2F5FA', duration: .85, ease: SM}, 17.0);
         tl.fromTo('#k5', {opacity: 0}, {opacity: 1, duration: .4}, 17.3);
-        tl.fromTo('#far svg:nth-child(-n+3)', {x: 0}, {x: -60, duration: 4.0, ease: 'none'}, 17.0);          // far and mid strands drift at their own speeds
-        tl.fromTo('#far svg:nth-child(n+4)', {x: 0}, {x: -140, duration: 4.0, ease: 'none'}, 17.0);
+        tl.fromTo('#far', {opacity: 0}, {opacity: 1, duration: .6}, 17.05);                                    // faint strands stay to the end and keep drifting
+        tl.fromTo('#far svg:nth-child(-n+3)', {x: 0}, {x: -165, duration: 11, ease: 'none'}, 17.0);          // far and mid strands drift at their own speeds
+        tl.fromTo('#far svg:nth-child(n+4)', {x: 0}, {x: -385, duration: 11, ease: 'none'}, 17.0);
         tl.fromTo('#net', {x: 0}, {x: DRIFT_X, duration: DRIFT_DUR, ease: 'sine.inOut'}, DRIFT0);
         tl.set('#strand', {attr: {d: CFG.sh.t0}}, 16.95);
-        tl.to('#strand', {opacity: 1, duration: .2}, 17.0);
+        tl.set('#strand', {opacity: 1}, 17.62);
         tl.to('#strand', {attr: {d: CFG.sh.t1}, duration: CFG.trunkT[1] - CFG.trunkT[0], ease: 'none'}, CFG.trunkT[0]);
         CFG.nodes.forEach((n, i) => {                                                                       // each link and node sprouts where the growing tip passes
           tl.fromTo('#lk' + i, {opacity: 0}, {opacity: .55, duration: .2}, n.t);
@@ -440,7 +443,7 @@ js = "const CFG = " + json.dumps(CFG) + ";\nconst LINES = " + json.dumps(LINES) 
         }
 
         // ===== S6 22-28: the rings fold into package cards; the cards sink into the call to action; lockup and hero line
-        tl.to(['#k5', '#net', '#far', '#strand', '#post'], {opacity: 0, duration: .3}, 20.9);
+        tl.to(['#k5', '#net', '#strand', '#post'], {opacity: 0, duration: .3}, 20.9);
         tl.to('.rl', {opacity: 0, duration: .25}, 20.95);
         show('#c6', 20.85);
         tl.fromTo('#pkl', {opacity: 0, y: 12}, {opacity: 1, y: 0, duration: .5, ease: SO}, 20.95);
@@ -456,18 +459,19 @@ js = "const CFG = " + json.dumps(CFG) + ";\nconst LINES = " + json.dumps(LINES) 
         // the cards sink into one marigold bar (pill corners) that becomes the call to action
         tl.to(['#pk0 .in', '#pk1 .in', '#pk2 .in', '#pk0 .ac', '#pk1 .ac', '#pk2 .ac'], {opacity: 0, duration: .22}, 23.2);
         tl.to('#pkl', {opacity: 0, duration: .25}, 23.3);
-        tl.to('#pk0', {x: CFG.pkr[1].x - CFG.pkr[0].x, duration: .7, ease: SM}, 23.3);
-        tl.to('#pk2', {x: CFG.pkr[1].x - CFG.pkr[2].x, duration: .7, ease: SM}, 23.3);
-        [0, 1, 2].forEach(i => {
+        [0, 1, 2].forEach(i => {                                                                              // transform-origin is the top left corner of each card
           const d = CFG.pkr[i], sx = CFG.cta.w / d.w, sy = CFG.cta.h / d.h, rx = (CFG.cta.h / 2) / sx + 'px ' + (CFG.cta.h / 2) / sy + 'px';
-          tl.to('#pk' + i, {y: CFG.cta.cy - d.h / 2 - d.y, scaleY: sy, scaleX: sx, backgroundColor: '#EAA93C', borderColor: '#EAA93C', duration: .7, ease: SM}, 23.3);
+          tl.to('#pk' + i, {x: 960 - CFG.cta.w / 2 - d.x, y: CFG.cta.cy - CFG.cta.h / 2 - d.y, scaleY: sy, scaleX: sx, backgroundColor: '#EAA93C', borderColor: '#EAA93C', duration: .7, ease: SM}, 23.3);
           tl.to('#pk' + i, {borderTopLeftRadius: rx, borderTopRightRadius: rx, borderBottomLeftRadius: rx, borderBottomRightRadius: rx, duration: .7, ease: SM}, 23.3);
         });
         tl.to(['#pk0', '#pk2'], {opacity: 0, duration: .15}, 23.9);
         tl.fromTo('#lock', {clipPath: 'inset(0% 100% 0% 0%)', y: 18}, {clipPath: 'inset(0% 0% 0% 0%)', y: 0, duration: .55, ease: SO}, 23.95);
-        tl.fromTo('#hero', {clipPath: 'inset(0% 0% 100% 0%)', y: 28}, {clipPath: 'inset(0% 0% 0% 0%)', y: 0, duration: .6, ease: SO}, 24.0);
-        tl.fromTo('#cta', {clipPath: 'inset(0% 100% 0% 0%)'}, {clipPath: 'inset(0% 0% 0% 0%)', duration: .45, ease: SO}, 24.05);
-        tl.set('#pk1', {opacity: 0}, 24.52);
+        show('#hero', 23.99); show('#cta', 24.01);
+        tl.fromTo('#hero', {clipPath: 'inset(-5% -5% 100% -5%)', y: 28}, {clipPath: 'inset(-5% -5% -20% -5%)', y: 0, duration: .6, ease: SO}, 24.0);   // the clip box is taller than the line box so descenders stay whole
+        tl.fromTo('#cta', {clipPath: 'inset(0% 100% 0% 0%)'}, {clipPath: 'inset(0% 0% 0% 0%)', duration: .28, ease: SO}, 24.02);
+        tl.set('#pk1', {opacity: 0}, 24.32);
+        tl.to('#far', {opacity: 0, duration: .5}, 23.95);                                                   // the lockup keeps its clear space
+        tl.fromTo('#c6', {scale: 1}, {scale: 1.025, duration: 3.5, ease: 'none'}, 24.5);                       // a very slow push-in carries the final hold
 
         // ===== captions: native lower-third type that follows the narration windows (each fades out as its window ends)
         LINES.forEach(([a, b, t]) => {
