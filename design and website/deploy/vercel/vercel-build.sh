@@ -14,7 +14,7 @@ cp -R video site/video
 cp "$DIST/index.html" site/index.html
 cp "$DIST"/assets/index-* site/assets/
 for f in robots.txt sitemap.xml llms.txt; do cp "$DIST/$f" "site/$f"; done
-for p in assets/identity/font-source/fraunces assets/identity/font-source/mona-sans assets/identity/font-source/geist-mono assets/revisions/v10/people/maksym-charniuk.jpg assets/revisions/v10/people/mykhailo-amplieiev.jpg assets/revisions/v5/identity/wordmark-marigold.svg assets/revisions/v5/identity/lockup-marigold.svg assets/identity/v10 assets/og; do
+for p in assets/identity/font-source/fraunces assets/identity/font-source/mona-sans assets/identity/font-source/geist-mono assets/revisions/v10/people/maksym-charniuk.jpg assets/revisions/v10/people/mykhailo-amplieiev.jpg assets/revisions/v5/identity/wordmark-marigold.svg assets/revisions/v5/identity/lockup-marigold.svg assets/identity/v10 assets/og assets/library-r12; do
   mkdir -p "site/$(dirname "$p")"
   cp -R "$DIST/$p" "site/$p"
 done

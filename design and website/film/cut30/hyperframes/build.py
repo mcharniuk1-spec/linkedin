@@ -117,7 +117,7 @@ def profile_card(i, avatar, name_w, pos):
     return """
       <div class="card pc" id="s2-pc%d" style="left:150px;top:660px;width:780px;height:470px;padding:44px;z-index:%d">
         <div style="display:flex;gap:34px;align-items:center">
-          <img src="assets/heroes/%s" alt="" style="width:150px;height:150px;border-radius:50%%;object-fit:cover;%s">
+          <img src="assets/portraits/%s" alt="" style="width:150px;height:150px;border-radius:50%%;object-fit:cover;%s">
           <div style="flex:1;display:grid;gap:18px"><div class="bar m" style="width:%dpx;height:30px"></div><div class="bar" style="width:%dpx"></div></div>
         </div>
         <div style="margin-top:44px;display:grid;gap:18px"><div class="bar m" style="width:92%%;height:28px"></div><div class="bar" style="width:78%%"></div><div class="bar" style="width:64%%"></div></div>
@@ -139,9 +139,9 @@ S2_HTML = """
     </svg>
     <div id="s2-tag" class="tag" style="position:absolute;left:150px;top:1150px;color:#A9AFBA">Illustrative profiles</div>""" % (
     SEL("seconds."),
-    profile_card(0, "h3-avatar-a.webp", 330, ""),
-    profile_card(1, "h4-avatar-b.webp", 300, ""),
-    profile_card(2, "h2-founder.webp", 360, "object-position:56% 22%;"))
+    profile_card(0, "portrait-01.webp", 330, ""),
+    profile_card(1, "portrait-04.webp", 300, ""),
+    profile_card(2, "portrait-06.webp", 360, ""))
 S2_CSS = ".pc{transform-origin:20% 80%}"
 S2_JS = r"""
     const w = document.querySelectorAll('.s2w');
@@ -182,7 +182,7 @@ S3_HTML = """
       <circle id="s3-halo" cx="650" cy="600" r="30" fill="none" stroke="#EAA93C" stroke-width="5" opacity="0"/>
     </svg>
     <div id="s3-card" class="card" style="left:560px;top:640px;width:470px;height:470px;padding:40px;transform-origin:15%% 10%%">
-      <div style="display:flex;gap:22px;align-items:center"><img src="assets/heroes/h4-avatar-b.webp" alt="" style="width:92px;height:92px;border-radius:50%%;object-fit:cover"><div style="display:grid;gap:14px;flex:1"><div class="bar m" style="width:200px"></div><div class="bar" style="width:140px;height:18px"></div></div></div>
+      <div style="display:flex;gap:22px;align-items:center"><img src="assets/portraits/portrait-03.webp" alt="" style="width:92px;height:92px;border-radius:50%%;object-fit:cover"><div style="display:grid;gap:14px;flex:1"><div class="bar m" style="width:200px"></div><div class="bar" style="width:140px;height:18px"></div></div></div>
       <div class="disp" style="font-size:210px;line-height:1;margin:14px 0 0 6px;color:#162760">%s</div>
       <div style="display:grid;gap:14px;margin-top:8px"><div class="bar" style="width:90%%"></div><div class="bar" style="width:68%%"></div></div>
     </div>
@@ -215,7 +215,7 @@ S4_HTML = """
     </div>
     <svg id="s4-wave" width="1080" height="440" viewBox="0 0 1080 440" style="position:absolute;left:0;top:520px"></svg>
     <div id="s4-card" class="card" style="left:70px;top:700px;width:940px;height:420px;padding:44px 50px;transform-origin:50%% 50%%">
-      <div style="display:flex;gap:26px;align-items:center"><img src="assets/heroes/h3-avatar-a.webp" alt="" style="width:100px;height:100px;border-radius:50%%;object-fit:cover"><div style="display:grid;gap:14px;flex:1"><div class="bar m" style="width:260px"></div><div class="bar" style="width:180px;height:18px"></div></div></div>
+      <div style="display:flex;gap:26px;align-items:center"><img src="assets/portraits/portrait-09.webp" alt="" style="width:100px;height:100px;border-radius:50%%;object-fit:cover"><div style="display:grid;gap:14px;flex:1"><div class="bar m" style="width:260px"></div><div class="bar" style="width:180px;height:18px"></div></div></div>
       <div id="s4-type" class="disp" style="font-size:78px;margin-top:34px;height:96px;white-space:nowrap"><span id="s4-txt"></span><span id="s4-caret" style="display:inline-block;width:6px;height:70px;margin-left:6px;background:#EAA93C;vertical-align:-6px"></span></div>
       <div style="display:grid;gap:16px;margin-top:20px"><div class="bar" style="width:94%%"></div><div class="bar" style="width:76%%"></div></div>
     </div>
@@ -257,7 +257,7 @@ def fmt_card(i, label, art):
         <div class="tag">%s</div>%s
       </div>""" % (i, label, art)
 
-ART_POST = """<div style="margin-top:22px;display:flex;gap:22px;align-items:center"><img src="assets/heroes/h3-avatar-a.webp" alt="" style="width:84px;height:84px;border-radius:50%;object-fit:cover"><div style="display:grid;gap:12px;flex:1"><div class="bar m" style="width:240px"></div><div class="bar" style="width:170px;height:16px"></div></div></div>
+ART_POST = """<div style="margin-top:22px;display:flex;gap:22px;align-items:center"><img src="assets/portraits/portrait-02.webp" alt="" style="width:84px;height:84px;border-radius:50%;object-fit:cover"><div style="display:grid;gap:12px;flex:1"><div class="bar m" style="width:240px"></div><div class="bar" style="width:170px;height:16px"></div></div></div>
 <div class="disp" style="font-size:84px;margin-top:30px;color:#162760">A decision, explained.</div><div style="display:grid;gap:14px;margin-top:30px"><div class="bar" style="width:92%"></div><div class="bar" style="width:70%"></div></div>"""
 ART_STORY = """<div style="position:absolute;left:250px;top:44px;width:280px;height:470px;border-radius:34px;background:linear-gradient(170deg,#1B2F78,#0D1A3B);overflow:hidden;box-shadow:0 30px 50px -30px rgba(22,39,96,.7)"><div style="position:absolute;left:50%;top:44%;width:170px;height:170px;margin:-85px 0 0 -85px;border:4px solid #EAA93C;border-radius:50%"></div><div style="position:absolute;left:50%;top:44%;width:90px;height:90px;margin:-45px 0 0 -45px;background:#F6D591;border-radius:50%"></div><div style="position:absolute;left:26px;right:26px;bottom:30px;display:grid;gap:12px"><div class="bar" style="background:rgba(241,243,246,.75);width:80%"></div><div class="bar" style="background:rgba(241,243,246,.4);width:55%"></div></div></div>"""
 ART_CAR = """<div style="position:absolute;left:150px;top:70px;width:480px;height:400px"><div style="position:absolute;left:120px;top:30px;width:340px;height:360px;border-radius:30px;background:#DDE3EC"></div><div style="position:absolute;left:60px;top:15px;width:340px;height:360px;border-radius:30px;background:#C8D0DD"></div><div style="position:absolute;left:0;top:0;width:340px;height:360px;border-radius:30px;background:#fff;border:2px solid rgba(22,39,96,.14);padding:30px"><div class="disp" style="font-size:64px">Slide 1</div><div style="display:grid;gap:14px;margin-top:26px"><div class="bar" style="width:90%"></div><div class="bar" style="width:62%"></div></div></div></div><div style="position:absolute;left:0;right:0;bottom:30px;display:flex;gap:14px;justify-content:center"><i style="width:20px;height:20px;border-radius:50%;background:#EAA93C"></i><i style="width:20px;height:20px;border-radius:50%;background:#C8D0DD"></i><i style="width:20px;height:20px;border-radius:50%;background:#C8D0DD"></i></div>"""
@@ -439,11 +439,18 @@ def chrome():
 
 
 # ------------------------------------------------------------------ root index.html (transitions, ink, sparks, band, iris, selection)
+import sys
+ASPECT = "4x5" if "--aspect" in sys.argv and sys.argv[sys.argv.index("--aspect") + 1] == "4x5" else "9x16"
+H, TOP, SUF = (1350, -90, "-4x5") if ASPECT == "4x5" else (1920, 0, "")
+
 def index_html():
     hosts = ""
     for z, (sid, start, dur) in enumerate(HOSTS, start=2):
         hosts += '    <div id="%s" data-composition-id="%s" data-composition-src="compositions/%s.html" data-start="%.2f" data-duration="%.2f" data-track-index="%d" data-width="1080" data-height="1920" data-track-kind="graphics" style="position:absolute;inset:0;z-index:%d"></div>\n' % (sid, sid, sid, start, dur, z, z)
-    return open(ROOT / "src/root.template.txt").read().replace("@@HOSTS@@", hosts)
+    html = open(ROOT / "src/root.template.txt").read().replace("@@HOSTS@@", hosts)
+    html = html.replace("@@H@@", str(H)).replace("@@TOP@@", str(TOP))
+    if ASPECT == "4x5": html = html.replace("compositions/s7.html", "compositions/s7-4x5.html")
+    return html
 
 
 def main():
@@ -454,7 +461,11 @@ def main():
         (comp / (sid + ".html")).write_text(scene(sid, dur, h, c, j))
     (comp / "captions.html").write_text(captions())
     (comp / "chrome.html").write_text(chrome())
-    (ROOT / "index.html").write_text(index_html())
+    if ASPECT == "4x5":
+        h, c, j = SCENES["s7"]
+        h = h.replace("top:230px;width:200px;height:265px","top:150px;width:200px;height:265px").replace("top:560px;width:940px;font-size:92px","top:470px;width:940px;font-size:88px").replace("left:260px;top:1040px","left:260px;top:960px").replace("left:270px;top:1215px","left:270px;top:1100px").replace("right:0;top:1300px","right:0;top:1195px").replace("top:1380px;overflow:visible","top:1085px;overflow:visible")
+        (comp / "s7-4x5.html").write_text(scene("s7", 8.7, h, c, j))
+    (ROOT / ("index" + SUF + ".html")).write_text(index_html())
     print("built", len(SCENES) + 2, "compositions and index.html")
 
 

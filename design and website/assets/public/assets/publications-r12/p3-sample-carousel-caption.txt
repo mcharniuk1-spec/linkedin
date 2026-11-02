@@ -1,0 +1,11 @@
+We read 279 LinkedIn posts from 61 accounts so you do not have to guess.
+
+What the medians show (descriptive, not causal):
+- Formats: image 186.5 reactions, document 178, text 94, video 30.
+- Topics: personal brand 258, founder building 203.5, positioning 179, sales outbound 48, demand generation 26.
+- Jobs: telling a story 267, challenging a belief 108, showing proof 107, teaching a method 106, announcing an offer 67.
+
+What we do not know: reach, clicks, video views and conversions were not observed, and ten posts hold 33% of all reactions.
+
+Our rule for our own posts: one buyer problem, one founder decision, one proof, one lesson.
+#linkedindata #B2BSaaS #founderled

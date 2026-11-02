@@ -65,3 +65,10 @@
   .svc-section>.process-section{margin-top:56px;padding-top:36px}
 }
 @media(prefers-reduced-motion:reduce){.svc.is-animated .svc__stage>i,.svc .sel,.svc .sel>i{animation:none}}
+/* R12: element illustrations (generated concept sheets, cropped) sit on a soft tile; the architectural arch and sun echo the website-block concepts */
+.svc__stage--image{background:#E3E2E5;box-shadow:0 22px 40px -30px rgba(22,39,96,.55)}
+.svc__stage--image img{object-position:center}
+.svc-head{position:relative}
+.svc-head::after{content:"";position:absolute;right:max(0px,2vw);top:-6px;width:min(26vw,320px);aspect-ratio:3/4;border-radius:999px 999px 18px 18px;background:radial-gradient(circle at 62% 30%,#F6D591 0 17%,transparent 17.5%),linear-gradient(180deg,rgba(22,39,96,.92),rgba(13,26,59,.96));opacity:.96;box-shadow:0 40px 70px -46px rgba(22,39,96,.7);pointer-events:none}
+.svc-head::before{content:"";position:absolute;right:calc(max(0px,2vw) + min(26vw,320px) * .5);top:84px;width:min(14vw,170px);aspect-ratio:1;border-radius:50%;background:#EAA93C;mix-blend-mode:multiply;opacity:.0;pointer-events:none}
+@media(max-width:1080px){.svc-head::after{display:none}}

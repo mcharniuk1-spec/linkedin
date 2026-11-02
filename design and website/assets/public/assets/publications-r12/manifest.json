@@ -1,0 +1,34 @@
+[
+  {
+    "id": "p1-method-carousel",
+    "slides": 7,
+    "files": [
+      "p1-method-carousel-01.png",
+      "p1-method-carousel-02.png",
+      "p1-method-carousel-03.png",
+      "p1-method-carousel-04.png",
+      "p1-method-carousel-05.png",
+      "p1-method-carousel-06.png",
+      "p1-method-carousel-07.png"
+    ]
+  },
+  {
+    "id": "p2-belief-image",
+    "slides": 1,
+    "files": [
+      "p2-belief-image-01.png"
+    ]
+  },
+  {
+    "id": "p3-sample-carousel",
+    "slides": 6,
+    "files": [
+      "p3-sample-carousel-01.png",
+      "p3-sample-carousel-02.png",
+      "p3-sample-carousel-03.png",
+      "p3-sample-carousel-04.png",
+      "p3-sample-carousel-05.png",
+      "p3-sample-carousel-06.png"
+    ]
+  }
+]

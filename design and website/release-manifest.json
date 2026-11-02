@@ -24,8 +24,8 @@
   "files": [
     {
       "path": "HANDOFF.md",
-      "bytes": 7549,
-      "sha256": "d3c41d5792942de04f288d6994f2d6a3c8b2e768ff11f0ad13c3fcc24c76a165"
+      "bytes": 8910,
+      "sha256": "dc6a2c52c460e85bd2f31f2d2c57fd429795b07309810211c0083691ff8e1552"
     },
     {
       "path": "README.md",
@@ -34,8 +34,8 @@
     },
     {
       "path": "asset-rights.json",
-      "bytes": 439536,
-      "sha256": "b8cd2dd792fe01de904b0739ff72bc40df9a1f20e2cdc42c1ea2f1d695cfca01"
+      "bytes": 515351,
+      "sha256": "ea60f715230d52d420687ce671ffbb290c9acaa36e831d7844b48ee5624fbd1c"
     },
     {
       "path": "assets/README.md",
@@ -161,6 +161,11 @@
       "path": "assets/public/assets/identity/mic-candidates-r10/directions-board.jpg",
       "bytes": 336377,
       "sha256": "8a138e9b3b1184f38e5004ed3678439b293f539dc62d2b912bbb02bb3b722c09"
+    },
+    {
+      "path": "assets/public/assets/identity/r12/directions-board.png",
+      "bytes": 1812045,
+      "sha256": "9c456f79a00989cacf1c282d54af2e64fa185fb35e2ab788d4686f1a523bac9c"
     },
     {
       "path": "assets/public/assets/identity/v10/favicon.svg",
@@ -298,6 +303,371 @@
       "sha256": "b7e35794a1ccfd3923016faf1afc1b9c25c1f584752169402a33dec2badf3f98"
     },
     {
+      "path": "assets/public/assets/library-r12/elements/element-01-1.webp",
+      "bytes": 17860,
+      "sha256": "7619c8ed690ffc1bfb1df68ebdcbdb1c7f427b67f78ff6e19d3d742fa1613ae4"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-01-2.webp",
+      "bytes": 8126,
+      "sha256": "1e47b30d240b033eec0e30aefb66f949599cc909e3ea341e30714c93db39d4d4"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-01-3.webp",
+      "bytes": 12326,
+      "sha256": "c226edb36b242ac08789b272e87f725441bda7341dad960e3ded9a16d52b5276"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-01-4.webp",
+      "bytes": 7252,
+      "sha256": "ebe8fbd4770de4d9fe90c944a066ac48a982d12175407172ee3cd8c6bb6e3a6d"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-01-5.webp",
+      "bytes": 11040,
+      "sha256": "dacdd33e3756666db140922a9ddee021b2434aaf66a8e82adfba8b872f86dd15"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-02-1.webp",
+      "bytes": 11602,
+      "sha256": "fb32cf65b44393f22e856b31577b1777f322a9a3453612f092cfda4f520bb91b"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-02-2.webp",
+      "bytes": 7588,
+      "sha256": "51bba61668a239360c44e43f2bcfceb3ed86501fa7fbd7c6b1803e8072ee6c60"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-02-3.webp",
+      "bytes": 10870,
+      "sha256": "4069d228b4c8e04ce9c77dc15e894ae34f3ef507e9811a11cbb15b6046c4a07a"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-02-4.webp",
+      "bytes": 9798,
+      "sha256": "cd1167b4eb7d96bb771e9b7dfcea0f89f0ff11db9da62e3dda43a742510929d6"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-02-5.webp",
+      "bytes": 11328,
+      "sha256": "1a2ecfa4031500b66aadbd0e2de173a248137ac05fd8e5ebb22f8046820abe53"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-03-1.webp",
+      "bytes": 12592,
+      "sha256": "6bc70c3aa1437498cd84419ae2176f459109c9b3aa2cf01135e02a81e73de1b8"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-03-2.webp",
+      "bytes": 16938,
+      "sha256": "a089cdfef345cd12d14a73aa820b46a5d59a37825f6e4b93282e6cff7807dd27"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-03-3.webp",
+      "bytes": 13420,
+      "sha256": "05ef24b4e079d54fcfba98a3f05f6fb1dac26e9567a7b8dd40ebe087eafd6066"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-03-4.webp",
+      "bytes": 8356,
+      "sha256": "2943f66240db3dedc071969c504dd5658e1c4055280318d00239e292dda3fd5b"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-03-5.webp",
+      "bytes": 9824,
+      "sha256": "a52925bce5eae90e95e07f44811d1aae59d9e90c10c2e9b2090e5dc3b88b6605"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-04-1.webp",
+      "bytes": 10598,
+      "sha256": "9633025eab21ba76c7479c9a8a187e9c9181e281901d1d4a81dcb3ee11858008"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-04-2.webp",
+      "bytes": 7244,
+      "sha256": "fcc6d178f85cd8bbab0070c66f3002846e597faacd654d8280c91fc11f7d0845"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-04-3.webp",
+      "bytes": 8862,
+      "sha256": "ab945c739c9641a111acda25738ac5c83047a231d251ea57cb7d37c79151fbc7"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-04-4.webp",
+      "bytes": 9196,
+      "sha256": "c2708e8737ffbb5d3ed204cceb645529a8d8c5830da49a885a756bba37826fb0"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-04-5.webp",
+      "bytes": 11342,
+      "sha256": "ebefaa99b18544333f3d2c03cf1dee5efc64a2653ad9b9975f7a712bf1523067"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-05-1.webp",
+      "bytes": 12300,
+      "sha256": "42bef316f5bbbc5c959e3dc54d22b514b3f39221943f4f2c6f0c84c346c44d9b"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-05-2.webp",
+      "bytes": 13948,
+      "sha256": "7a33713e465ae4e3e6eab0eeb14624cfa9b38abb65ebd3a41e67605c267ae76e"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-05-3.webp",
+      "bytes": 8986,
+      "sha256": "f6bed873272178e80c67ab5922793d39c111b33dd1935e112cfd8c75397a3489"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-05-4.webp",
+      "bytes": 7984,
+      "sha256": "e5abf260a19afe0dfd11e6aed3eacbee56051293e31f43262e7e1a9e826095d7"
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-05-5.webp",
+      "bytes": 15326,
+      "sha256": "4c1d08c2a867144b63c08023e445b670aa94d85ee7a26e470ffbc8dd2ad252d7"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-01.webp",
+      "bytes": 27204,
+      "sha256": "ceb067a9135842d5f494345a751be91b641c1b8d36925f0b31ff43d9279b4ca7"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-02.webp",
+      "bytes": 33250,
+      "sha256": "b2b90ccdb54c343eb7f05220abc5ec202fbcfa97174cfe06d8916f85f4effb90"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-03.webp",
+      "bytes": 19010,
+      "sha256": "72b2c93538ecdc5a204d1b8d5295e80f0c8e210b9520e05e5e24ddf0a4f8f28e"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-04.webp",
+      "bytes": 15314,
+      "sha256": "4df0f516bc9fd50a6e593a9de4d6e6e07f569c99830ee6d52fe2f5d029dd8c1a"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-05.webp",
+      "bytes": 30140,
+      "sha256": "41deaaff02a7ea558e5477620181774cc5daa2423cf1476c86204343359bc63e"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-06.webp",
+      "bytes": 42096,
+      "sha256": "2c800fb466bd515ad814d6f1bc4aa3ca9177fafd67c6710132ee3348d11a6edb"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-07.webp",
+      "bytes": 27562,
+      "sha256": "88e2fa77b2b4e139ed78a3926055a7acd77db9fc87899c1320cb89d6201984cf"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-08.webp",
+      "bytes": 22510,
+      "sha256": "b33d36620fcddb3eb8eaf049c36162c1983ed7d99dfffbe9c986ad9dfad5040c"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-09.webp",
+      "bytes": 29370,
+      "sha256": "760c30e8eac54d9951f1af9e5e72add8606021b86b2596ad463a7d639f0d2c93"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-10.webp",
+      "bytes": 17240,
+      "sha256": "3be5847dc3e540661b7f0700d4cdb188cef3f92ecf0a7d0042e899d680a70b3d"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-11.webp",
+      "bytes": 25418,
+      "sha256": "84ccc39adfec9af4642265393dd2831bb606732af16146f7a379b0f383162cea"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-12.webp",
+      "bytes": 36306,
+      "sha256": "87d9eea9f0f5228c80de04a7e940134184c06d8c44d7dc5d602032ce89b0ccc5"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-13.webp",
+      "bytes": 28198,
+      "sha256": "e5b1419c1bd804c6887f6de04683b55dfa072417f4f511197ce291de9c91c1af"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-14.webp",
+      "bytes": 25096,
+      "sha256": "8db44bdea69129a5498619ba99a31d226ccbc66be64f825149b584cf2366bdf1"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-15.webp",
+      "bytes": 25468,
+      "sha256": "dc7260658cbfb7c2f321f3a6f70c81f1f043b94af41c1516c4d1c32c63ab83ca"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-16.webp",
+      "bytes": 34646,
+      "sha256": "86956c611c118542cc64dbbda45ff89906c3c8f7f82c7b5d188ef19cceb276f5"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-17.webp",
+      "bytes": 20048,
+      "sha256": "d6f8066cb43a055c343893c6f7d08cf44ee6e7ba2c94de323fd48b3e57e92823"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-18.webp",
+      "bytes": 29552,
+      "sha256": "0103a02941a3e61493d68557a440b8e5c8954fe2ee7e96a36d3cc529d20651f5"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-19.webp",
+      "bytes": 35416,
+      "sha256": "39df146affb46d4eb16d425cbf0888ffe0085e83f9eb5d557e3952b9ec82de7e"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-20.webp",
+      "bytes": 22388,
+      "sha256": "1127de4bcd20387f751f83e00d831283b427ddc7c239e9652afa8ebd4b30b346"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-21.webp",
+      "bytes": 31014,
+      "sha256": "70bff1117fd85c8b09df0f41a3730b183c697a94e70cbb87e4f1c51aa0d45521"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-22.webp",
+      "bytes": 21942,
+      "sha256": "8f744a8160aee3d97419458ca351b8cc169a8abba93168d6d79ca4a8a367c50b"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-23.webp",
+      "bytes": 23814,
+      "sha256": "8ac24df93efa10693b003f0345d9ed1e4e375861f5aaa4729344e1c39baa0833"
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-24.webp",
+      "bytes": 20884,
+      "sha256": "0737805a5d83be6db04a759bbc4248fc3c28976698ca3ba4d0132bbaa06f46bf"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-01.webp",
+      "bytes": 3534,
+      "sha256": "947b42e9bbca6c262db624a1c22e27f6cff9ce3a93c74b4e1315addcde97aa3b"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-02.webp",
+      "bytes": 2540,
+      "sha256": "a878e4805e6580338a447033f6ad3731d2408f0d15779128a4030599e36f69a0"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-03.webp",
+      "bytes": 2376,
+      "sha256": "92d1c387381d1525959473000d1c9908aefe53ae348626bd53ec1acbdd611edd"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-04.webp",
+      "bytes": 1938,
+      "sha256": "05d6a7c6e97d13ebe52518f310c0d279cd49a36c3f349cfad82d477c55b9f5bb"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-05.webp",
+      "bytes": 3092,
+      "sha256": "8bc252d30a30ed608c0bb648bfaee021ca8bfcd00bedcab3bc83c6f37a1cf8e4"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-06.webp",
+      "bytes": 2664,
+      "sha256": "dca13c6d081c14410d23a2d66db906e351c4aa724a41fcac037176ab983b936d"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-07.webp",
+      "bytes": 2430,
+      "sha256": "0e2fc6a503237b0f8345d3c96b0b98b7c2f7b2e4474296768e41393445bd62a1"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-08.webp",
+      "bytes": 2110,
+      "sha256": "f9248d8af1e49df70e5586ae508c80676b1fbe1d1d0faf6115ca195e062f87a1"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-09.webp",
+      "bytes": 3078,
+      "sha256": "34540221eb9bc3eb13e645cf41ed0b3d13af7b1c91126b7db6d99fc6d362c3cf"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-10.webp",
+      "bytes": 2406,
+      "sha256": "240f1aba7bca76bf60cd4930d2ed83ff7424e520c76e3a2ded5133f8cfe779dd"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-11.webp",
+      "bytes": 3134,
+      "sha256": "f495f99fdbb9058187de5eacb1def0e9cdc07125c673ce1395ccd3054d9126c3"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-12.webp",
+      "bytes": 2222,
+      "sha256": "5aca3c7d812a10479ee4ade8f1c5a0e634fb6c2285670002b9063107a3925264"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-13.webp",
+      "bytes": 3058,
+      "sha256": "c90d424d19eabb445cd6a4c5d21b601de2ea220e9e38bcbd4ea01a553e4aae8a"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-14.webp",
+      "bytes": 2778,
+      "sha256": "4b96985afbae06e7695264d302c9faad5b964e43bdf605d1632ba7bb06d48d29"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-15.webp",
+      "bytes": 2716,
+      "sha256": "c90c8e9753070cfaa418fa1ed35527960ac7d6c4e769ed4e60b77d344bb76af6"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-16.webp",
+      "bytes": 2728,
+      "sha256": "edcece18324e07d11257b10ef1c854b23f449abef292476a4f0ab70e425ecb73"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-17.webp",
+      "bytes": 2650,
+      "sha256": "d54880c7c332ef19e48997e18de572e278445c6920f380293d9016909b651a23"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-18.webp",
+      "bytes": 2758,
+      "sha256": "373821b1902e44a2d400f554d5bb1f43be910d87facf603b6353b80367951a99"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-19.webp",
+      "bytes": 2470,
+      "sha256": "2272eb8b0d706e40722179bd386902053820b6a501974fc4121a43a0f9a016b2"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-20.webp",
+      "bytes": 2616,
+      "sha256": "1d36fa14ec7530754778835711b994beda35af37efb6e49c08ffe9ad0c4ae75c"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-21.webp",
+      "bytes": 3666,
+      "sha256": "3e0a40e0a5f93f57c9b7c160507248813f0450837550899103a06ff2a4493e62"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-22.webp",
+      "bytes": 2296,
+      "sha256": "ef65b4780b26f0c2a86dc0921416d73a07f7d17c121bc389fa8d6dc35afed9ea"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-23.webp",
+      "bytes": 2994,
+      "sha256": "d5087bb498103c23ea4e9c5a5dfe54fa8406d8989f82dee0473f8a9d3ea303d0"
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-24.webp",
+      "bytes": 2480,
+      "sha256": "8c1b9bb36df9eb0748eadb907f1fee6bbb9aa2d09765046da322a8f87cce609d"
+    },
+    {
       "path": "assets/public/assets/masters/OS-O010-fictional-founder.png",
       "bytes": 1984618,
       "sha256": "2ea2c56148b17f1e007242e51e843bd4b54b71732cac3a3f723f188af1cae514"
@@ -306,6 +676,106 @@
       "path": "assets/public/assets/og/og-outspoken-1200x630.png",
       "bytes": 273361,
       "sha256": "4d234d4f7b038f0eb6596fc5c4c9835dfcee8a21999e35d80c439912fb304293"
+    },
+    {
+      "path": "assets/public/assets/publications-r12/manifest.json",
+      "bytes": 721,
+      "sha256": "f8b414c02f0e2f7552091c66f6b0181b66aeb14f9969ece7ebc5343cc3bbd4c7"
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p1-method-carousel-01.png",
+      "bytes": 280323,
+      "sha256": "9e1424f3ad914b37d307300a565329c06e3378dd4ba8ce950ebf4490a02046c3"
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p1-method-carousel-02.png",
+      "bytes": 328705,
+      "sha256": "6869acb5379303b7f38abc5f692e8e2cbe5f577ecfabbe60ebe8ecaaca8cb472"
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p1-method-carousel-03.png",
+      "bytes": 348955,
+      "sha256": "8f76c677aa3333638e2ae89683bc2dd3e8430a86ec263be80a6249a64a55c6a2"
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p1-method-carousel-04.png",
+      "bytes": 335966,
+      "sha256": "fd302a1a775008cba8dfeede3111c5d5f0eb9ca38c12e8db1fc10f38223aa160"
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p1-method-carousel-05.png",
+      "bytes": 344620,
+      "sha256": "174c5be1efeafbfc814c5adf27a62d847231427043c5f833c89634271da952a8"
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p1-method-carousel-06.png",
+      "bytes": 320559,
+      "sha256": "4369fffbe269c7bf0443d3e74feee353c6ef66b097c50c548835eefb47e71858"
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p1-method-carousel-07.png",
+      "bytes": 276682,
+      "sha256": "16e90ba2b3a1ef05f315bf937e4dbf3a5cf2e8635b9d55b2165dacbba3d8c319"
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p1-method-carousel-caption.txt",
+      "bytes": 650,
+      "sha256": "e4a66ae739add96f6e18620cebd8bfcd1c90a2a9b2645e76313e0324ea1ff32f"
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p1-method-carousel.pdf",
+      "bytes": 630669,
+      "sha256": "d9debe9dc05f11dca43472d0604440e84ebac69e53bc681bcb00c632467c1cc8"
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p2-belief-image-01.png",
+      "bytes": 411101,
+      "sha256": "97b33989adbfefcead111621929fb093cdbe64ba233a02ae029f7e56330dbb3e"
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p2-belief-image-caption.txt",
+      "bytes": 609,
+      "sha256": "2f22a5131bf5d23886bf0b1bda258ddff8b99dfb7551cacf7d3fee0ba1587654"
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p3-sample-carousel-01.png",
+      "bytes": 297049,
+      "sha256": "e6e3491fcc462fd87b5777aca90173ca3723f6fb3d94a9ea06015441a0e067ef"
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p3-sample-carousel-02.png",
+      "bytes": 339664,
+      "sha256": "4b40cf69da410d56a7d23003dbb5bcdf6677789dfc94d7aceb0518769e28d7f8"
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p3-sample-carousel-03.png",
+      "bytes": 364621,
+      "sha256": "0d704910ebffc474c7bc0d8dcb86c7e839740bac6d4a526fac123a7136d3f182"
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p3-sample-carousel-04.png",
+      "bytes": 338221,
+      "sha256": "fbaf400494f07d712c2d9010adff3ead0ea6d6c88910b06020af3cd2d2e3ddc4"
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p3-sample-carousel-05.png",
+      "bytes": 378015,
+      "sha256": "ea9f8930d3f69399fae51e35ba7dd96347947f9b542f1ee99ce7957a676bcd98"
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p3-sample-carousel-06.png",
+      "bytes": 258460,
+      "sha256": "ba7ad879bb03cda3b590b9a23ff645af1ee5a549942cc7cd0c39b3fccf6a3eb9"
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p3-sample-carousel-caption.txt",
+      "bytes": 676,
+      "sha256": "37a5b4402b717e767f4efb4f94b49afe601a4b17f556e9bc645e119aa422710d"
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p3-sample-carousel.pdf",
+      "bytes": 581349,
+      "sha256": "f17b32a10ca3ce0cc6d999a361ecbdd213906c0fa51f686735e8a189209e28bd"
     },
     {
       "path": "assets/public/assets/revisions/v10/people/PROVENANCE.md",
@@ -2374,18 +2844,23 @@
     },
     {
       "path": "deploy/vercel/README.md",
-      "bytes": 4122,
-      "sha256": "2dcbcff6811c90cab05edf3eef05b18b128867fe6abc984f8feddd8c6aefaf34"
+      "bytes": 5150,
+      "sha256": "ad16ae2a7db58250807aa21372246748e81f11e2b7487c3566940cb1ec6e3aa9"
+    },
+    {
+      "path": "deploy/vercel/api/lead.js",
+      "bytes": 3695,
+      "sha256": "b2464477f284ffe9385195ceaf94561b863fc54800cf2ca996163ae47829ad0f"
     },
     {
       "path": "deploy/vercel/vercel-build.sh",
-      "bytes": 1544,
-      "sha256": "d2599bf870b54c59938f4c88609a823ccb525aa18804d6d307337ba8fffc2bd9"
+      "bytes": 1563,
+      "sha256": "8416119eb422debde6f24059d9b58b60e3732ee9cf9616f376a553544bfb969d"
     },
     {
       "path": "deploy/vercel/vercel.json",
-      "bytes": 205,
-      "sha256": "64b5ab2eae818f364267f30ccb45d19030e875b5f7a4ef6d3e80d9ed3c64fc4a"
+      "bytes": 213,
+      "sha256": "ac47702baf8ecbfff9627eb1514c11d49b23c731ac6d1dc8bd76eac5c06f23bd"
     },
     {
       "path": "design-system/COMPONENT-INDEX-v5.md",
@@ -2431,6 +2906,71 @@
       "path": "design-system/generation-recipes.md",
       "bytes": 7116,
       "sha256": "f280620076a83626380007111a7835d02cde2d4fc0ba1e8ea6a7919339ae4ebb"
+    },
+    {
+      "path": "design-system/identity-r12/build.py",
+      "bytes": 4947,
+      "sha256": "6194b421ac360e58dc0e72d8013fb1c39435e6dc28c59bf1d039caaff524f106"
+    },
+    {
+      "path": "design-system/identity-r12/os-d1-serif-orbit-24.svg",
+      "bytes": 6986,
+      "sha256": "1e5645ecc701238400dad1413129e576c5c489bdba6b944f32fa82546508b4af"
+    },
+    {
+      "path": "design-system/identity-r12/os-d1-serif-orbit-inverse.svg",
+      "bytes": 7033,
+      "sha256": "a7cb36c7e4b8df9b5dfdefb5652cc7486adafcc4a23d2abfbe64f4740ab6260b"
+    },
+    {
+      "path": "design-system/identity-r12/os-d1-serif-orbit-mono.svg",
+      "bytes": 6986,
+      "sha256": "428b69441987ab7a932f4185de1d785e2de92474455bbe1a98237af19df170e7"
+    },
+    {
+      "path": "design-system/identity-r12/os-d1-serif-orbit.svg",
+      "bytes": 6986,
+      "sha256": "352bc1fc00d23cf30143a4a23718ca2a596c46090f2691f077576ca892912797"
+    },
+    {
+      "path": "design-system/identity-r12/os-d2-bracket-24.svg",
+      "bytes": 4440,
+      "sha256": "848489c53c18984803c8bf1afdf7d1287466af583cfe92f609c8efd7cb43e276"
+    },
+    {
+      "path": "design-system/identity-r12/os-d2-bracket-inverse.svg",
+      "bytes": 4898,
+      "sha256": "dac5c8ffea3f14db9dc49278846fa911a95c1853ddbb72138fec88cf7eb1b304"
+    },
+    {
+      "path": "design-system/identity-r12/os-d2-bracket-mono.svg",
+      "bytes": 4851,
+      "sha256": "6b106bd36d47d315559197156c47ed5ebe159db4e31d52cec04e61333da356d7"
+    },
+    {
+      "path": "design-system/identity-r12/os-d2-bracket.svg",
+      "bytes": 4851,
+      "sha256": "7d0fa2dffcf8d1c7a68246cdeeb6341d4c0137f340a5aaefde222251222bdc56"
+    },
+    {
+      "path": "design-system/identity-r12/os-d3-badge-24.svg",
+      "bytes": 6896,
+      "sha256": "e19702ddc1e4d1e158d448bb451730fac63a6d4856729f853cbffe8b2c5bed8c"
+    },
+    {
+      "path": "design-system/identity-r12/os-d3-badge-inverse.svg",
+      "bytes": 6942,
+      "sha256": "836d2e86d5ee46aca22b76787cdaf6dccdb514fe168b32d533074bb687f3b20b"
+    },
+    {
+      "path": "design-system/identity-r12/os-d3-badge-mono.svg",
+      "bytes": 6895,
+      "sha256": "123e1cc090138a2a1bc39b5efba491af3c1128aa6299aac4d5c0e9ba09e06815"
+    },
+    {
+      "path": "design-system/identity-r12/os-d3-badge.svg",
+      "bytes": 6895,
+      "sha256": "d9177759df1546ea8fbb2c31c9a4bb0666f3eccfd9c7aeaf9de43b3c8fc0ed37"
     },
     {
       "path": "design-system/identity-v10/README.md",
@@ -2549,13 +3089,13 @@
     },
     {
       "path": "film/cut30/hyperframes/README.md",
-      "bytes": 2382,
-      "sha256": "5bf98ccfe20e26824c36033f700e9368f655381220d48165485e0f18232003d5"
+      "bytes": 2599,
+      "sha256": "0537b57051a09505b4393f78f59919ac36ed41368f1355e7626eb346461b8c76"
     },
     {
       "path": "film/cut30/hyperframes/build.py",
-      "bytes": 36742,
-      "sha256": "0e839f5fd0820c67a18e715b146d556b71f1cf05115087b8b422d4e57e466a34"
+      "bytes": 37658,
+      "sha256": "5759718d9182b04b1d35c7f61a1d7df77601d1eaf0cf5bdc06d21f78f602a2eb"
     },
     {
       "path": "film/cut30/hyperframes/compositions/captions.html",
@@ -2574,28 +3114,33 @@
     },
     {
       "path": "film/cut30/hyperframes/compositions/s2.html",
-      "bytes": 8405,
-      "sha256": "1679e203e21cc614730b9f940aba600ab7c8128839adc0c1b85d0d9c7b6ac9be"
+      "bytes": 8391,
+      "sha256": "67b6b3789c68f959431e7f6840da2b54af5bbac04dfea24747bfb9252a12bf11"
     },
     {
       "path": "film/cut30/hyperframes/compositions/s3.html",
-      "bytes": 9572,
-      "sha256": "e4bbcd119541f2988ed17e4e751a5d657643bd67cffbe974f194e7e67d0cf62a"
+      "bytes": 9575,
+      "sha256": "8baf696041d03841e96232acfc6ca86bd40db087d8c0a6467cc63e6bcbbb6916"
     },
     {
       "path": "film/cut30/hyperframes/compositions/s4.html",
-      "bytes": 7330,
-      "sha256": "0ef86d68194df00dc720fcefb338d003e9d91232d119e32dcf64429be90051f4"
+      "bytes": 7333,
+      "sha256": "648fe97a094232c18c8d624fcb545f6ff16fc22494fe11597acc2fd1529e9c88"
     },
     {
       "path": "film/cut30/hyperframes/compositions/s5.html",
-      "bytes": 9372,
-      "sha256": "a80a8bd7f84d556cb036786aff72cd28d991c4bab2f61978b85ff3c6205bc86d"
+      "bytes": 9375,
+      "sha256": "43d1ea52fa394241966c43a93334f45923670b460eb64de916902557ca0fa88b"
     },
     {
       "path": "film/cut30/hyperframes/compositions/s6.html",
       "bytes": 8400,
       "sha256": "5f1146f49648526668513cf94a43afe166a5c49d17d22780e993a1d70921e827"
+    },
+    {
+      "path": "film/cut30/hyperframes/compositions/s7-4x5.html",
+      "bytes": 8082,
+      "sha256": "67ec751a0d1964e2263a6514925f23d289e4b670dc29524896baf827d16f5fd2"
     },
     {
       "path": "film/cut30/hyperframes/compositions/s7.html",
@@ -2608,9 +3153,14 @@
       "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
     },
     {
+      "path": "film/cut30/hyperframes/index-4x5.html",
+      "bytes": 14702,
+      "sha256": "b3f09d4288911cc299b271468b7e63d7cc7d15b6290e7a585206a54879abe7ef"
+    },
+    {
       "path": "film/cut30/hyperframes/index.html",
-      "bytes": 14573,
-      "sha256": "1e638902de19416c0bc46e0d68d7907f75e5fab56b7c9f791efb853e06526b02"
+      "bytes": 14696,
+      "sha256": "182afdac02f4a0416528434e07a7d07243c3a5ba0d2988539132658a931859bf"
     },
     {
       "path": "film/cut30/hyperframes/meta.json",
@@ -2624,8 +3174,8 @@
     },
     {
       "path": "film/cut30/hyperframes/package.json",
-      "bytes": 661,
-      "sha256": "65908bf4023bb412c62b0238c65230bff5dc8c58ed80b141c49ff39e77540e2c"
+      "bytes": 897,
+      "sha256": "cc0b8edfd8465b9fa39f17e2231ebbf18949131979c013bacc039d3fb7d719c9"
     },
     {
       "path": "film/cut30/hyperframes/scripts/make_audio.py",
@@ -2639,13 +3189,13 @@
     },
     {
       "path": "film/cut30/hyperframes/scripts/sync-assets.sh",
-      "bytes": 1206,
-      "sha256": "d08758ada7345b052cdc859c29c4b9b2f42ee6b9618e255ad92d0600de913ae2"
+      "bytes": 1344,
+      "sha256": "1465c6846f8755d3a230e1d82daf930a5b87afd599861f785af68a11c1a75b20"
     },
     {
       "path": "film/cut30/hyperframes/src/root.template.txt",
-      "bytes": 12751,
-      "sha256": "9f9384256c45ff742697ff23d65233267c4889a3075bc68fde693c8083dda34d"
+      "bytes": 12884,
+      "sha256": "e325374d3d07db34dc31ea6eeca611f7976c3df451963a3c89b11a9889c46a66"
     },
     {
       "path": "film/cut30/voiceover-30s.txt",
@@ -3003,9 +3553,19 @@
       "sha256": "2be0cd9c4f3f566ecdc736a9a81fdc01513d44fe3621a5927e62048b64307305"
     },
     {
+      "path": "linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md",
+      "bytes": 5873,
+      "sha256": "2e82f77cfb53e327ac4d1d631b6569ea96765428951988705d49ad5296cbe13a"
+    },
+    {
       "path": "prompts/CLOUD-CLAUDE-R11.md",
-      "bytes": 12228,
-      "sha256": "95f0f0923a560ebe5f784b43950334037799670309b00150073b086754e85da1"
+      "bytes": 144,
+      "sha256": "ae61e87e497c6c56d48bebab542603f18048434fe125479a223a37d5a000bb8b"
+    },
+    {
+      "path": "prompts/CLOUD-CLAUDE-R12.md",
+      "bytes": 9777,
+      "sha256": "0dcb704ea037b570cf1f59a7eaa123e23aa14dee61413f11df9d0094d28abd42"
     },
     {
       "path": "qa/README.md",
@@ -3061,6 +3621,16 @@
       "path": "releases/20261022-reservation-handoff.md",
       "bytes": 4282,
       "sha256": "71fc0b9f9c7b60bdeb343029040d590a1c8a027c2a4c45221784610d6cb0ccda"
+    },
+    {
+      "path": "scripts/add-ledger-entries.py",
+      "bytes": 1747,
+      "sha256": "0d4aaa9c286ad9f745d94d9fa6959b19b2d08e3d3df6bca6632268c4cb184f03"
+    },
+    {
+      "path": "scripts/make_publications.py",
+      "bytes": 13931,
+      "sha256": "b786e977d45cbb1adcd2567422fad0f58bc456e4dc7637a934578d3df42ceee2"
     },
     {
       "path": "scripts/refresh-manifest.py",
@@ -5204,8 +5774,8 @@
     },
     {
       "path": "website/website-v3/App.tsx",
-      "bytes": 27088,
-      "sha256": "575490da19e89dcba72ea675938adfe8e8520ce1ceacf8ee86288183f93b2b86"
+      "bytes": 28130,
+      "sha256": "459bb2bb2e945c34b5b6ea2da142d16583820cd8279d7643ec026b4f46fea8dd"
     },
     {
       "path": "website/website-v3/Blocks.stories.tsx",
@@ -5224,13 +5794,13 @@
     },
     {
       "path": "website/website-v3/HeroPeople.tsx",
-      "bytes": 1187,
-      "sha256": "b1e7ddbc75caa91a6cec4aaf881a6f302967a8272132df5e7f12b0065ee971db"
+      "bytes": 1142,
+      "sha256": "5978c6dbfdaf02e9909ea4c3038a5e1351e1bc81cf2ff725e1ec2c2d53d5cfdc"
     },
     {
       "path": "website/website-v3/HeroPublication.tsx",
-      "bytes": 2652,
-      "sha256": "826baca43e23bf09aa35fe28934e41e08ddf448f17a09967485ac9b3431cc075"
+      "bytes": 2648,
+      "sha256": "8e7ee522d875c27c385b03803b91196848ef85b358753d7c73f72345f5ca04a9"
     },
     {
       "path": "website/website-v3/Icon.tsx",
@@ -5264,8 +5834,8 @@
     },
     {
       "path": "website/website-v3/contact-block.css",
-      "bytes": 2460,
-      "sha256": "cb15a2e953863a8bbc1f3a4766d832b35a24f3128499531d8581932fc08e9dc1"
+      "bytes": 3585,
+      "sha256": "d288be88540a9c2ee8bea3015aebcc029239159e006f45166fdc61a38a48eb61"
     },
     {
       "path": "website/website-v3/content.json",
@@ -5354,13 +5924,13 @@
     },
     {
       "path": "website/website-v3/service-details.css",
-      "bytes": 7518,
-      "sha256": "02fa36e37f4b5251e32b86a8b15a80d5e701980153c8f05cc70df4baa15402d4"
+      "bytes": 8493,
+      "sha256": "dcce359faab948e3cd90eabd92eca3500ae2b28c569978730ddce0512d562a2e"
     },
     {
       "path": "website/website-v3/service-details.json",
-      "bytes": 4888,
-      "sha256": "44e9e2cfb497ad8bb011400588192e4c2bb0efa7759c035798079b90094939e2"
+      "bytes": 5408,
+      "sha256": "232458ba6087680de29a31fd4aa5ebc7bd4f4f0c932456ff197af86fd87d505e"
     },
     {
       "path": "website/website-v3/vite.config.ts",
@@ -5369,8 +5939,8 @@
     },
     {
       "path": "website/website-v3/website.css",
-      "bytes": 44828,
-      "sha256": "1b016ef1b78e805b3fed1901ff9d1029da3990c724e855b35b9cfbdb7a412b9c"
+      "bytes": 45077,
+      "sha256": "75f8b1f17ae92720de5d653bf19ae307f3d2587f2ac9ee0798c8c602d5ddb0d7"
     },
     {
       "path": "website/website-v3/why-outspoken.css",
@@ -13149,6 +13719,1565 @@
       "conditions": [
         "Contains the fictional shadow figure; no real person is depicted.",
         "Proposed look; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-01.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-01.webp",
+      "sha256": "ceb067a9135842d5f494345a751be91b641c1b8d36925f0b31ff43d9279b4ca7",
+      "bytes": 27204,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-02.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-02.webp",
+      "sha256": "b2b90ccdb54c343eb7f05220abc5ec202fbcfa97174cfe06d8916f85f4effb90",
+      "bytes": 33250,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-03.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-03.webp",
+      "sha256": "72b2c93538ecdc5a204d1b8d5295e80f0c8e210b9520e05e5e24ddf0a4f8f28e",
+      "bytes": 19010,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-04.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-04.webp",
+      "sha256": "4df0f516bc9fd50a6e593a9de4d6e6e07f569c99830ee6d52fe2f5d029dd8c1a",
+      "bytes": 15314,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-05.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-05.webp",
+      "sha256": "41deaaff02a7ea558e5477620181774cc5daa2423cf1476c86204343359bc63e",
+      "bytes": 30140,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-06.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-06.webp",
+      "sha256": "2c800fb466bd515ad814d6f1bc4aa3ca9177fafd67c6710132ee3348d11a6edb",
+      "bytes": 42096,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-07.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-07.webp",
+      "sha256": "88e2fa77b2b4e139ed78a3926055a7acd77db9fc87899c1320cb89d6201984cf",
+      "bytes": 27562,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-08.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-08.webp",
+      "sha256": "b33d36620fcddb3eb8eaf049c36162c1983ed7d99dfffbe9c986ad9dfad5040c",
+      "bytes": 22510,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-09.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-09.webp",
+      "sha256": "760c30e8eac54d9951f1af9e5e72add8606021b86b2596ad463a7d639f0d2c93",
+      "bytes": 29370,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-10.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-10.webp",
+      "sha256": "3be5847dc3e540661b7f0700d4cdb188cef3f92ecf0a7d0042e899d680a70b3d",
+      "bytes": 17240,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-11.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-11.webp",
+      "sha256": "84ccc39adfec9af4642265393dd2831bb606732af16146f7a379b0f383162cea",
+      "bytes": 25418,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-12.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-12.webp",
+      "sha256": "87d9eea9f0f5228c80de04a7e940134184c06d8c44d7dc5d602032ce89b0ccc5",
+      "bytes": 36306,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-13.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-13.webp",
+      "sha256": "e5b1419c1bd804c6887f6de04683b55dfa072417f4f511197ce291de9c91c1af",
+      "bytes": 28198,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-14.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-14.webp",
+      "sha256": "8db44bdea69129a5498619ba99a31d226ccbc66be64f825149b584cf2366bdf1",
+      "bytes": 25096,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-15.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-15.webp",
+      "sha256": "dc7260658cbfb7c2f321f3a6f70c81f1f043b94af41c1516c4d1c32c63ab83ca",
+      "bytes": 25468,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-16.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-16.webp",
+      "sha256": "86956c611c118542cc64dbbda45ff89906c3c8f7f82c7b5d188ef19cceb276f5",
+      "bytes": 34646,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-17.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-17.webp",
+      "sha256": "d6f8066cb43a055c343893c6f7d08cf44ee6e7ba2c94de323fd48b3e57e92823",
+      "bytes": 20048,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-18.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-18.webp",
+      "sha256": "0103a02941a3e61493d68557a440b8e5c8954fe2ee7e96a36d3cc529d20651f5",
+      "bytes": 29552,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-19.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-19.webp",
+      "sha256": "39df146affb46d4eb16d425cbf0888ffe0085e83f9eb5d557e3952b9ec82de7e",
+      "bytes": 35416,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-20.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-20.webp",
+      "sha256": "1127de4bcd20387f751f83e00d831283b427ddc7c239e9652afa8ebd4b30b346",
+      "bytes": 22388,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-21.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-21.webp",
+      "sha256": "70bff1117fd85c8b09df0f41a3730b183c697a94e70cbb87e4f1c51aa0d45521",
+      "bytes": 31014,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-22.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-22.webp",
+      "sha256": "8f744a8160aee3d97419458ca351b8cc169a8abba93168d6d79ca4a8a367c50b",
+      "bytes": 21942,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-23.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-23.webp",
+      "sha256": "8ac24df93efa10693b003f0345d9ed1e4e375861f5aaa4729344e1c39baa0833",
+      "bytes": 23814,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/portraits/portrait-24.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/portraits/portrait-24.webp",
+      "sha256": "0737805a5d83be6db04a759bbc4248fc3c28976698ca3ba4d0132bbaa06f46bf",
+      "bytes": 20884,
+      "source": "Codex image generation R11 pack A1 (fictional founder portraits, 1254x1254), converted to 640 px WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-01.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-01.webp",
+      "sha256": "947b42e9bbca6c262db624a1c22e27f6cff9ce3a93c74b4e1315addcde97aa3b",
+      "bytes": 3534,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-02.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-02.webp",
+      "sha256": "a878e4805e6580338a447033f6ad3731d2408f0d15779128a4030599e36f69a0",
+      "bytes": 2540,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-03.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-03.webp",
+      "sha256": "92d1c387381d1525959473000d1c9908aefe53ae348626bd53ec1acbdd611edd",
+      "bytes": 2376,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-04.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-04.webp",
+      "sha256": "05d6a7c6e97d13ebe52518f310c0d279cd49a36c3f349cfad82d477c55b9f5bb",
+      "bytes": 1938,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-05.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-05.webp",
+      "sha256": "8bc252d30a30ed608c0bb648bfaee021ca8bfcd00bedcab3bc83c6f37a1cf8e4",
+      "bytes": 3092,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-06.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-06.webp",
+      "sha256": "dca13c6d081c14410d23a2d66db906e351c4aa724a41fcac037176ab983b936d",
+      "bytes": 2664,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-07.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-07.webp",
+      "sha256": "0e2fc6a503237b0f8345d3c96b0b98b7c2f7b2e4474296768e41393445bd62a1",
+      "bytes": 2430,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-08.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-08.webp",
+      "sha256": "f9248d8af1e49df70e5586ae508c80676b1fbe1d1d0faf6115ca195e062f87a1",
+      "bytes": 2110,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-09.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-09.webp",
+      "sha256": "34540221eb9bc3eb13e645cf41ed0b3d13af7b1c91126b7db6d99fc6d362c3cf",
+      "bytes": 3078,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-10.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-10.webp",
+      "sha256": "240f1aba7bca76bf60cd4930d2ed83ff7424e520c76e3a2ded5133f8cfe779dd",
+      "bytes": 2406,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-11.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-11.webp",
+      "sha256": "f495f99fdbb9058187de5eacb1def0e9cdc07125c673ce1395ccd3054d9126c3",
+      "bytes": 3134,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-12.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-12.webp",
+      "sha256": "5aca3c7d812a10479ee4ade8f1c5a0e634fb6c2285670002b9063107a3925264",
+      "bytes": 2222,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-13.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-13.webp",
+      "sha256": "c90d424d19eabb445cd6a4c5d21b601de2ea220e9e38bcbd4ea01a553e4aae8a",
+      "bytes": 3058,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-14.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-14.webp",
+      "sha256": "4b96985afbae06e7695264d302c9faad5b964e43bdf605d1632ba7bb06d48d29",
+      "bytes": 2778,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-15.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-15.webp",
+      "sha256": "c90c8e9753070cfaa418fa1ed35527960ac7d6c4e769ed4e60b77d344bb76af6",
+      "bytes": 2716,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-16.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-16.webp",
+      "sha256": "edcece18324e07d11257b10ef1c854b23f449abef292476a4f0ab70e425ecb73",
+      "bytes": 2728,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-17.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-17.webp",
+      "sha256": "d54880c7c332ef19e48997e18de572e278445c6920f380293d9016909b651a23",
+      "bytes": 2650,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-18.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-18.webp",
+      "sha256": "373821b1902e44a2d400f554d5bb1f43be910d87facf603b6353b80367951a99",
+      "bytes": 2758,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-19.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-19.webp",
+      "sha256": "2272eb8b0d706e40722179bd386902053820b6a501974fc4121a43a0f9a016b2",
+      "bytes": 2470,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-20.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-20.webp",
+      "sha256": "1d36fa14ec7530754778835711b994beda35af37efb6e49c08ffe9ad0c4ae75c",
+      "bytes": 2616,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-21.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-21.webp",
+      "sha256": "3e0a40e0a5f93f57c9b7c160507248813f0450837550899103a06ff2a4493e62",
+      "bytes": 3666,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-22.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-22.webp",
+      "sha256": "ef65b4780b26f0c2a86dc0921416d73a07f7d17c121bc389fa8d6dc35afed9ea",
+      "bytes": 2296,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-23.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-23.webp",
+      "sha256": "d5087bb498103c23ea4e9c5a5dfe54fa8406d8989f82dee0473f8a9d3ea303d0",
+      "bytes": 2994,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/thumbs/thumb-24.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/thumbs/thumb-24.webp",
+      "sha256": "8c1b9bb36df9eb0748eadb907f1fee6bbb9aa2d09765046da322a8f87cce609d",
+      "bytes": 2480,
+      "source": "160 px WebP thumbnails of the R11 A1 portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Generated fictional people; no real person is depicted or implied, but likeness clearance was not verified by the generator.",
+        "Label shown with the images: Illustrative.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-01-1.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-01-1.webp",
+      "sha256": "7619c8ed690ffc1bfb1df68ebdcbdb1c7f427b67f78ff6e19d3d742fa1613ae4",
+      "bytes": 17860,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-01-2.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-01-2.webp",
+      "sha256": "1e47b30d240b033eec0e30aefb66f949599cc909e3ea341e30714c93db39d4d4",
+      "bytes": 8126,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-01-3.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-01-3.webp",
+      "sha256": "c226edb36b242ac08789b272e87f725441bda7341dad960e3ded9a16d52b5276",
+      "bytes": 12326,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-01-4.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-01-4.webp",
+      "sha256": "ebe8fbd4770de4d9fe90c944a066ac48a982d12175407172ee3cd8c6bb6e3a6d",
+      "bytes": 7252,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-01-5.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-01-5.webp",
+      "sha256": "dacdd33e3756666db140922a9ddee021b2434aaf66a8e82adfba8b872f86dd15",
+      "bytes": 11040,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-02-1.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-02-1.webp",
+      "sha256": "fb32cf65b44393f22e856b31577b1777f322a9a3453612f092cfda4f520bb91b",
+      "bytes": 11602,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-02-2.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-02-2.webp",
+      "sha256": "51bba61668a239360c44e43f2bcfceb3ed86501fa7fbd7c6b1803e8072ee6c60",
+      "bytes": 7588,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-02-3.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-02-3.webp",
+      "sha256": "4069d228b4c8e04ce9c77dc15e894ae34f3ef507e9811a11cbb15b6046c4a07a",
+      "bytes": 10870,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-02-4.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-02-4.webp",
+      "sha256": "cd1167b4eb7d96bb771e9b7dfcea0f89f0ff11db9da62e3dda43a742510929d6",
+      "bytes": 9798,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-02-5.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-02-5.webp",
+      "sha256": "1a2ecfa4031500b66aadbd0e2de173a248137ac05fd8e5ebb22f8046820abe53",
+      "bytes": 11328,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-03-1.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-03-1.webp",
+      "sha256": "6bc70c3aa1437498cd84419ae2176f459109c9b3aa2cf01135e02a81e73de1b8",
+      "bytes": 12592,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-03-2.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-03-2.webp",
+      "sha256": "a089cdfef345cd12d14a73aa820b46a5d59a37825f6e4b93282e6cff7807dd27",
+      "bytes": 16938,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-03-3.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-03-3.webp",
+      "sha256": "05ef24b4e079d54fcfba98a3f05f6fb1dac26e9567a7b8dd40ebe087eafd6066",
+      "bytes": 13420,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-03-4.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-03-4.webp",
+      "sha256": "2943f66240db3dedc071969c504dd5658e1c4055280318d00239e292dda3fd5b",
+      "bytes": 8356,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-03-5.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-03-5.webp",
+      "sha256": "a52925bce5eae90e95e07f44811d1aae59d9e90c10c2e9b2090e5dc3b88b6605",
+      "bytes": 9824,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-04-1.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-04-1.webp",
+      "sha256": "9633025eab21ba76c7479c9a8a187e9c9181e281901d1d4a81dcb3ee11858008",
+      "bytes": 10598,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-04-2.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-04-2.webp",
+      "sha256": "fcc6d178f85cd8bbab0070c66f3002846e597faacd654d8280c91fc11f7d0845",
+      "bytes": 7244,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-04-3.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-04-3.webp",
+      "sha256": "ab945c739c9641a111acda25738ac5c83047a231d251ea57cb7d37c79151fbc7",
+      "bytes": 8862,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-04-4.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-04-4.webp",
+      "sha256": "c2708e8737ffbb5d3ed204cceb645529a8d8c5830da49a885a756bba37826fb0",
+      "bytes": 9196,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-04-5.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-04-5.webp",
+      "sha256": "ebefaa99b18544333f3d2c03cf1dee5efc64a2653ad9b9975f7a712bf1523067",
+      "bytes": 11342,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-05-1.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-05-1.webp",
+      "sha256": "42bef316f5bbbc5c959e3dc54d22b514b3f39221943f4f2c6f0c84c346c44d9b",
+      "bytes": 12300,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-05-2.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-05-2.webp",
+      "sha256": "7a33713e465ae4e3e6eab0eeb14624cfa9b38abb65ebd3a41e67605c267ae76e",
+      "bytes": 13948,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-05-3.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-05-3.webp",
+      "sha256": "f6bed873272178e80c67ab5922793d39c111b33dd1935e112cfd8c75397a3489",
+      "bytes": 8986,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-05-4.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-05-4.webp",
+      "sha256": "e5abf260a19afe0dfd11e6aed3eacbee56051293e31f43262e7e1a9e826095d7",
+      "bytes": 7984,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/library-r12/elements/element-05-5.webp",
+      "repository_path": "design and website/assets/public/assets/library-r12/elements/element-05-5.webp",
+      "sha256": "4c1d08c2a867144b63c08023e445b670aa94d85ee7a26e470ffbc8dd2ad252d7",
+      "bytes": 15326,
+      "source": "Crops of the Codex EXTRA-ELEMENTS concept sheets (matte object illustrations), feathered and converted to WebP by the designer",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/codex-requests/R11-visual-library.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept illustrations generated by an image model; no trademark or clearance search.",
+        "Proposed; owner acceptance pending."
+      ]
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p1-method-carousel-01.png",
+      "repository_path": "design and website/assets/public/assets/publications-r12/p1-method-carousel-01.png",
+      "sha256": "9e1424f3ad914b37d307300a565329c06e3378dd4ba8ce950ebf4490a02046c3",
+      "bytes": 280323,
+      "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md",
+        "reports/20261031/data.json"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Draft publication images; descriptive medians only; no client, result or quote is claimed.",
+        "Nothing was published."
+      ]
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p1-method-carousel-02.png",
+      "repository_path": "design and website/assets/public/assets/publications-r12/p1-method-carousel-02.png",
+      "sha256": "6869acb5379303b7f38abc5f692e8e2cbe5f577ecfabbe60ebe8ecaaca8cb472",
+      "bytes": 328705,
+      "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md",
+        "reports/20261031/data.json"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Draft publication images; descriptive medians only; no client, result or quote is claimed.",
+        "Nothing was published."
+      ]
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p1-method-carousel-03.png",
+      "repository_path": "design and website/assets/public/assets/publications-r12/p1-method-carousel-03.png",
+      "sha256": "8f76c677aa3333638e2ae89683bc2dd3e8430a86ec263be80a6249a64a55c6a2",
+      "bytes": 348955,
+      "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md",
+        "reports/20261031/data.json"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Draft publication images; descriptive medians only; no client, result or quote is claimed.",
+        "Nothing was published."
+      ]
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p1-method-carousel-04.png",
+      "repository_path": "design and website/assets/public/assets/publications-r12/p1-method-carousel-04.png",
+      "sha256": "fd302a1a775008cba8dfeede3111c5d5f0eb9ca38c12e8db1fc10f38223aa160",
+      "bytes": 335966,
+      "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md",
+        "reports/20261031/data.json"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Draft publication images; descriptive medians only; no client, result or quote is claimed.",
+        "Nothing was published."
+      ]
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p1-method-carousel-05.png",
+      "repository_path": "design and website/assets/public/assets/publications-r12/p1-method-carousel-05.png",
+      "sha256": "174c5be1efeafbfc814c5adf27a62d847231427043c5f833c89634271da952a8",
+      "bytes": 344620,
+      "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md",
+        "reports/20261031/data.json"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Draft publication images; descriptive medians only; no client, result or quote is claimed.",
+        "Nothing was published."
+      ]
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p1-method-carousel-06.png",
+      "repository_path": "design and website/assets/public/assets/publications-r12/p1-method-carousel-06.png",
+      "sha256": "4369fffbe269c7bf0443d3e74feee353c6ef66b097c50c548835eefb47e71858",
+      "bytes": 320559,
+      "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md",
+        "reports/20261031/data.json"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Draft publication images; descriptive medians only; no client, result or quote is claimed.",
+        "Nothing was published."
+      ]
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p1-method-carousel-07.png",
+      "repository_path": "design and website/assets/public/assets/publications-r12/p1-method-carousel-07.png",
+      "sha256": "16e90ba2b3a1ef05f315bf937e4dbf3a5cf2e8635b9d55b2165dacbba3d8c319",
+      "bytes": 276682,
+      "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md",
+        "reports/20261031/data.json"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Draft publication images; descriptive medians only; no client, result or quote is claimed.",
+        "Nothing was published."
+      ]
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p2-belief-image-01.png",
+      "repository_path": "design and website/assets/public/assets/publications-r12/p2-belief-image-01.png",
+      "sha256": "97b33989adbfefcead111621929fb093cdbe64ba233a02ae029f7e56330dbb3e",
+      "bytes": 411101,
+      "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md",
+        "reports/20261031/data.json"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Draft publication images; descriptive medians only; no client, result or quote is claimed.",
+        "Nothing was published."
+      ]
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p3-sample-carousel-01.png",
+      "repository_path": "design and website/assets/public/assets/publications-r12/p3-sample-carousel-01.png",
+      "sha256": "e6e3491fcc462fd87b5777aca90173ca3723f6fb3d94a9ea06015441a0e067ef",
+      "bytes": 297049,
+      "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md",
+        "reports/20261031/data.json"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Draft publication images; descriptive medians only; no client, result or quote is claimed.",
+        "Nothing was published."
+      ]
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p3-sample-carousel-02.png",
+      "repository_path": "design and website/assets/public/assets/publications-r12/p3-sample-carousel-02.png",
+      "sha256": "4b40cf69da410d56a7d23003dbb5bcdf6677789dfc94d7aceb0518769e28d7f8",
+      "bytes": 339664,
+      "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md",
+        "reports/20261031/data.json"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Draft publication images; descriptive medians only; no client, result or quote is claimed.",
+        "Nothing was published."
+      ]
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p3-sample-carousel-03.png",
+      "repository_path": "design and website/assets/public/assets/publications-r12/p3-sample-carousel-03.png",
+      "sha256": "0d704910ebffc474c7bc0d8dcb86c7e839740bac6d4a526fac123a7136d3f182",
+      "bytes": 364621,
+      "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md",
+        "reports/20261031/data.json"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Draft publication images; descriptive medians only; no client, result or quote is claimed.",
+        "Nothing was published."
+      ]
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p3-sample-carousel-04.png",
+      "repository_path": "design and website/assets/public/assets/publications-r12/p3-sample-carousel-04.png",
+      "sha256": "fbaf400494f07d712c2d9010adff3ead0ea6d6c88910b06020af3cd2d2e3ddc4",
+      "bytes": 338221,
+      "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md",
+        "reports/20261031/data.json"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Draft publication images; descriptive medians only; no client, result or quote is claimed.",
+        "Nothing was published."
+      ]
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p3-sample-carousel-05.png",
+      "repository_path": "design and website/assets/public/assets/publications-r12/p3-sample-carousel-05.png",
+      "sha256": "ea9f8930d3f69399fae51e35ba7dd96347947f9b542f1ee99ce7957a676bcd98",
+      "bytes": 378015,
+      "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md",
+        "reports/20261031/data.json"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Draft publication images; descriptive medians only; no client, result or quote is claimed.",
+        "Nothing was published."
+      ]
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p3-sample-carousel-06.png",
+      "repository_path": "design and website/assets/public/assets/publications-r12/p3-sample-carousel-06.png",
+      "sha256": "ba7ad879bb03cda3b590b9a23ff645af1ee5a549942cc7cd0c39b3fccf6a3eb9",
+      "bytes": 258460,
+      "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md",
+        "reports/20261031/data.json"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Draft publication images; descriptive medians only; no client, result or quote is claimed.",
+        "Nothing was published."
+      ]
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p1-method-carousel.pdf",
+      "repository_path": "design and website/assets/public/assets/publications-r12/p1-method-carousel.pdf",
+      "sha256": "d9debe9dc05f11dca43472d0604440e84ebac69e53bc681bcb00c632467c1cc8",
+      "bytes": 630669,
+      "source": "PDF assembled from the rendered publication slides (LinkedIn document format)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Draft; nothing was published."
+      ]
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p3-sample-carousel.pdf",
+      "repository_path": "design and website/assets/public/assets/publications-r12/p3-sample-carousel.pdf",
+      "sha256": "f17b32a10ca3ce0cc6d999a361ecbdd213906c0fa51f686735e8a189209e28bd",
+      "bytes": 581349,
+      "source": "PDF assembled from the rendered publication slides (LinkedIn document format)",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Draft; nothing was published."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/r12/directions-board.png",
+      "repository_path": "design and website/assets/public/assets/identity/r12/directions-board.png",
+      "sha256": "9c456f79a00989cacf1c282d54af2e64fa185fb35e2ab788d4686f1a523bac9c",
+      "bytes": 1812045,
+      "source": "Directions board composed in HTML from rebuilt SVG monograms, cropped Codex concept boards and portraits",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/design-system/identity-r12/build.py"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Concept board; the Codex raster crops are unapproved concepts; selection belongs to the owner."
+      ]
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p1-method-carousel-caption.txt",
+      "repository_path": "design and website/assets/public/assets/publications-r12/p1-method-carousel-caption.txt",
+      "sha256": "e4a66ae739add96f6e18620cebd8bfcd1c90a2a9b2645e76313e0324ea1ff32f",
+      "bytes": 650,
+      "source": "Caption or manifest text written for the publication drafts (scripts/make_publications.py); numbers from reports/20261031/data.json",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Draft; nothing was published; no client or result is claimed."
+      ]
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p2-belief-image-caption.txt",
+      "repository_path": "design and website/assets/public/assets/publications-r12/p2-belief-image-caption.txt",
+      "sha256": "2f22a5131bf5d23886bf0b1bda258ddff8b99dfb7551cacf7d3fee0ba1587654",
+      "bytes": 609,
+      "source": "Caption or manifest text written for the publication drafts (scripts/make_publications.py); numbers from reports/20261031/data.json",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Draft; nothing was published; no client or result is claimed."
+      ]
+    },
+    {
+      "path": "assets/public/assets/publications-r12/p3-sample-carousel-caption.txt",
+      "repository_path": "design and website/assets/public/assets/publications-r12/p3-sample-carousel-caption.txt",
+      "sha256": "37a5b4402b717e767f4efb4f94b49afe601a4b17f556e9bc645e119aa422710d",
+      "bytes": 676,
+      "source": "Caption or manifest text written for the publication drafts (scripts/make_publications.py); numbers from reports/20261031/data.json",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Draft; nothing was published; no client or result is claimed."
+      ]
+    },
+    {
+      "path": "assets/public/assets/publications-r12/manifest.json",
+      "repository_path": "design and website/assets/public/assets/publications-r12/manifest.json",
+      "sha256": "f8b414c02f0e2f7552091c66f6b0181b66aeb14f9969ece7ebc5343cc3bbd4c7",
+      "bytes": 721,
+      "source": "Caption or manifest text written for the publication drafts (scripts/make_publications.py); numbers from reports/20261031/data.json",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Draft; nothing was published; no client or result is claimed."
       ]
     }
   ],

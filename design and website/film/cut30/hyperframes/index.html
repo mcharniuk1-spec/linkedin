@@ -8,6 +8,7 @@
       * { margin: 0; padding: 0; box-sizing: border-box; }
       html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #F1F3F6; }
       #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+      #world { position: absolute; left: 0; top: 0px; width: 1080px; height: 1920px; }
       #ground { position: absolute; inset: 0; background: #F1F3F6; }
       #ink { position: absolute; inset: 0; width: 1080px; height: 1920px; z-index: 40; pointer-events: none; }
       #flash { position: absolute; inset: 0; background: #F1F3F6; opacity: 0; z-index: 41; }
@@ -16,6 +17,7 @@
   </head>
   <body>
     <div id="root" data-composition-id="main" data-start="0" data-duration="30" data-width="1080" data-height="1920" data-fps="30">
+      <div id="world">
       <div id="ground"></div>
     <div id="s1" data-composition-id="s1" data-composition-src="compositions/s1.html" data-start="0.00" data-duration="3.60" data-track-index="2" data-width="1080" data-height="1920" data-track-kind="graphics" style="position:absolute;inset:0;z-index:2"></div>
     <div id="s2" data-composition-id="s2" data-composition-src="compositions/s2.html" data-start="3.30" data-duration="2.60" data-track-index="3" data-width="1080" data-height="1920" data-track-kind="graphics" style="position:absolute;inset:0;z-index:3"></div>
@@ -39,6 +41,7 @@
       <audio id="mix" src="assets/audio/mix-voice-ready.wav" data-start="0" data-duration="30" data-volume="1"></audio>
       <div id="flash"></div>
       <canvas id="fx" width="1080" height="1920"></canvas>
+      </div>
     </div>
     <script>
       window.__timelines = window.__timelines || {};

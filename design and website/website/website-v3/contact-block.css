@@ -19,3 +19,12 @@
 .contact-block .form-status{margin:0;min-height:1.4em;font-size:14px;color:#29375F}
 .contact-block form small{font-size:12px;color:#5B6A86}
 @media(max-width:1000px){.contact-block{grid-template-columns:1fr;min-height:0;padding:84px var(--m-pad,24px) 60px}.contact-block__title{max-width:10ch;font-size:clamp(42px,12vw,72px)}.contact-block .closing-mark{width:min(100%,240px)}.contact-block form{padding:26px 22px;border-radius:20px}}
+
+/* R12: consent line, honeypot, status colours, architectural arch (echo of the website-block concepts) */
+.contact-hp{position:absolute!important;left:-9999px;width:1px;height:1px;overflow:hidden;opacity:0}
+.contact-block .contact-consent{display:flex;gap:12px;align-items:flex-start;font:500 15px/1.45 var(--font-body)}
+.contact-block .contact-consent input{width:22px;min-height:22px;height:22px;margin-top:2px;accent-color:var(--ink);flex:none}
+.contact-block .form-status.is-ok{color:#1D6B3F;font-weight:600}.contact-block .form-status.is-error{color:#A4262C;font-weight:600}
+.contact-block__arch{position:absolute;right:-60px;bottom:-40px;width:min(34vw,420px);aspect-ratio:3/4;border-radius:999px 999px 0 0;background:linear-gradient(180deg,rgba(241,243,246,.07),rgba(241,243,246,.02));border:1px solid rgba(241,243,246,.12);pointer-events:none;z-index:0}
+.contact-block__arch i{position:absolute;left:50%;top:22%;width:34%;aspect-ratio:1;translate:-50% 0;border-radius:50%;background:radial-gradient(circle,rgba(246,213,145,.55),rgba(234,169,60,.0) 70%)}
+@media(max-width:1000px){.contact-block__arch{display:none}}

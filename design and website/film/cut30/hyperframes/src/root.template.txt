@@ -2,12 +2,13 @@
 <html lang="en" data-resolution="portrait">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=1080, height=1920" />
+    <meta name="viewport" content="width=1080, height=@@H@@" />
     <script src="assets/gsap.min.js"></script>
     <style>
       * { margin: 0; padding: 0; box-sizing: border-box; }
-      html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #F1F3F6; }
-      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+      html, body { margin: 0; width: 1080px; height: @@H@@px; overflow: hidden; background: #F1F3F6; }
+      #root { position: relative; width: 1080px; height: @@H@@px; overflow: hidden; }
+      #world { position: absolute; left: 0; top: @@TOP@@px; width: 1080px; height: 1920px; }
       #ground { position: absolute; inset: 0; background: #F1F3F6; }
       #ink { position: absolute; inset: 0; width: 1080px; height: 1920px; z-index: 40; pointer-events: none; }
       #flash { position: absolute; inset: 0; background: #F1F3F6; opacity: 0; z-index: 41; }
@@ -15,7 +16,8 @@
     </style>
   </head>
   <body>
-    <div id="root" data-composition-id="main" data-start="0" data-duration="30" data-width="1080" data-height="1920" data-fps="30">
+    <div id="root" data-composition-id="main" data-start="0" data-duration="30" data-width="1080" data-height="@@H@@" data-fps="30">
+      <div id="world">
       <div id="ground"></div>
 @@HOSTS@@
       <div id="cap" data-composition-id="captions" data-composition-src="compositions/captions.html" data-start="0" data-duration="30" data-track-index="20" data-width="1080" data-height="1920" data-track-kind="captions" style="position:absolute;inset:0;z-index:30"></div>
@@ -32,6 +34,7 @@
       <audio id="mix" src="assets/audio/mix-voice-ready.wav" data-start="0" data-duration="30" data-volume="1"></audio>
       <div id="flash"></div>
       <canvas id="fx" width="1080" height="1920"></canvas>
+      </div>
     </div>
     <script>
       window.__timelines = window.__timelines || {};

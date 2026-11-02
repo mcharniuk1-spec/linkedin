@@ -1,5 +1,5 @@
 // Hero helpers (V10, proposed): the "selected text" accent on one word and the people strip with the graded hero portraits.
-const base = '/assets/identity/v10/heroes/';
+const base = '/assets/library-r12/thumbs/';
 
 /** One accent word per headline: marker fill, dashed selection outline and four corner handles. */
 export function Sel({children}: {children: string}) {
@@ -11,9 +11,9 @@ export function HeroPeople({className = 'audience-line'}: {className?: string}) 
   return (
     <div className="hero-people">
       <span className="hero-people__faces" aria-hidden="true">
-        <img src={base + 'h3-avatar-a.webp'} alt="" width="40" height="40" />
-        <img src={base + 'h4-avatar-b.webp'} alt="" width="40" height="40" />
-        <img src={base + 'h2-founder.webp'} alt="" width="40" height="40" style={{objectPosition: '56% 22%'}} />
+        <img src={base + 'thumb-01.webp'} alt="" width="40" height="40" />
+        <img src={base + 'thumb-04.webp'} alt="" width="40" height="40" />
+        <img src={base + 'thumb-03.webp'} alt="" width="40" height="40" />
       </span>
       <p className={className}>Illustrative founders · Europe-based B2B AI SaaS · Seed to Series B</p>
     </div>

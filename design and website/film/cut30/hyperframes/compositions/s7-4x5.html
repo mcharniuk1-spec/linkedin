@@ -1,0 +1,85 @@
+<template>
+  <style>
+@font-face{font-family:'Fraunces';src:url('assets/fonts/fraunces.woff2') format('woff2');font-weight:100 900}
+@font-face{font-family:'Mona Sans';src:url('assets/fonts/mona-sans.woff2') format('woff2');font-weight:200 900}
+@font-face{font-family:'Geist Mono';src:url('assets/fonts/geist-mono.woff2') format('woff2');font-weight:100 900}
+#root{position:absolute;inset:0;overflow:hidden;font-family:'Mona Sans',sans-serif;color:#162760}
+#root *{box-sizing:border-box}
+.pearl{position:absolute;inset:0;background:linear-gradient(160deg,#fff 6%,#F1F3F6 58%,#E4EAF0)}
+.deep{position:absolute;inset:0;background:radial-gradient(900px 900px at 80% 10%,rgba(49,87,213,.30),transparent 62%),radial-gradient(760px 760px at 8% 92%,rgba(234,169,60,.13),transparent 60%),#0D1A3B}
+.dots{position:absolute;inset:0;background:radial-gradient(rgba(22,39,96,.15) 2.5px,transparent 3.5px) 0 0/48px 48px}
+.dots.lt{background:radial-gradient(rgba(241,243,246,.13) 2.5px,transparent 3.5px) 0 0/48px 48px}
+.mono{font-family:'Geist Mono',monospace;font-weight:500;letter-spacing:.09em;text-transform:uppercase}
+.disp{font-family:'Fraunces',serif;font-weight:400;letter-spacing:-.02em;line-height:1.03}
+.pill{position:absolute;display:inline-flex;align-items:center;gap:16px;padding:15px 30px 15px 24px;border:2px solid #D9DEE7;border-radius:999px;background:rgba(255,255,255,.94);box-shadow:0 16px 34px -20px rgba(22,39,96,.45);font-size:28px;white-space:nowrap}
+.pill::before{content:"";width:15px;height:15px;border-radius:50%;background:#EAA93C;flex:none}
+.sel{position:relative;display:inline-block;padding:0 .12em;border-radius:10px;color:#162760;background:linear-gradient(#F6D591,#F6D591) left center/0% 100% no-repeat;outline:3px dashed rgba(22,39,96,0);outline-offset:10px}
+.sel i{position:absolute;width:20px;height:20px;background:#fff;border:3px solid #162760;border-radius:3px;opacity:0;transform:scale(.3)}
+.sel i:nth-of-type(1){left:-20px;top:-20px}.sel i:nth-of-type(2){right:-20px;top:-20px}.sel i:nth-of-type(3){left:-20px;bottom:-20px}.sel i:nth-of-type(4){right:-20px;bottom:-20px}
+.ico{overflow:visible;flex:none;--icon-marker:#EAA93C}
+.card{position:absolute;background:#fff;border:2px solid rgba(22,39,96,.12);border-radius:44px;box-shadow:0 44px 80px -46px rgba(22,39,96,.55)}
+.bar{height:24px;border-radius:12px;background:#DDE3EC}
+.bar.m{background:#C8D0DD}
+.tag{font-family:'Geist Mono',monospace;font-weight:500;font-size:28px;letter-spacing:.09em;text-transform:uppercase;color:#475477}
+.w{display:inline-block;will-change:transform,opacity}
+.ln{display:block;white-space:nowrap}
+
+.s7w{will-change:transform,opacity}#s7-pw .sel{color:#162760}</style>
+  <div id="root" data-composition-id="s7" data-width="1080" data-height="1920">
+
+    <div class="deep"></div><div class="dots lt"></div>
+    <svg id="s7-wave" width="1080" height="560" viewBox="0 0 1080 560" style="position:absolute;left:0;top:1085px;overflow:visible"></svg>
+    <div id="s7-mark" style="position:absolute;left:440px;top:150px;width:200px;height:265px">
+      <i class="rg" style="position:absolute;left:-60px;top:10px;width:320px;height:320px;border:4px solid #F3C15D;border-radius:50%;opacity:0"></i>
+      <i class="rg" style="position:absolute;left:-60px;top:10px;width:320px;height:320px;border:4px solid #F3C15D;border-radius:50%;opacity:0"></i>
+      <i class="rg" style="position:absolute;left:-60px;top:10px;width:320px;height:320px;border:4px solid #F3C15D;border-radius:50%;opacity:0"></i>
+      <img src="assets/brand/mark-b01-inverse.svg" alt="" style="position:absolute;inset:0;width:200px;height:265px">
+    </div>
+    <div id="s7-head" class="disp" style="position:absolute;left:70px;top:470px;width:940px;font-size:88px;line-height:1.22;color:#F1F3F6;text-align:center">
+      <span class="ln"><span class="w s7w">Make</span> <span class="w s7w">the</span> <span class="w s7w">right</span></span>
+      <span class="ln"><span class="w s7w">buyers</span> <span class="w s7w" id="s7-pw"><span class="sel">care<i></i><i></i><i></i><i></i></span></span> <span class="w s7w">about</span></span>
+      <span class="ln"><span class="w s7w">you</span> <span class="w s7w">and</span> <span class="w s7w">what</span></span>
+      <span class="ln"><span class="w s7w">you&rsquo;re</span> <span class="w s7w">building.</span></span>
+    </div>
+    <div id="s7-cta" style="position:absolute;left:260px;top:960px;width:560px;height:116px;border-radius:58px;background:#F1F3F6;color:#162760;display:flex;align-items:center;justify-content:center;gap:18px;font-size:40px;font-weight:600">Book an intro call
+      <svg width="30" height="30" viewBox="0 0 14 14" fill="none"><path d="M3 11 11 3M5 3h6v6" stroke="#162760" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+    <img id="s7-lock" src="assets/brand/lockup-b01-inverse.svg" alt="OUTSPOKEN" style="position:absolute;left:270px;top:1100px;width:540px;height:auto">
+    <div id="s7-note" class="tag" style="position:absolute;left:0;right:0;top:1195px;text-align:center;font-size:28px;color:#A9AFBA;text-transform:none;letter-spacing:.02em">Illustrative film. People and posts are fictional.</div>
+  </div>
+  <script>
+  (function(){
+    
+function selIn(tl, el, t){
+  tl.fromTo(el,{backgroundSize:'0% 100%',outlineColor:'rgba(22,39,96,0)'},{backgroundSize:'100% 100%',outlineColor:'rgba(22,39,96,.6)',duration:.7,ease:'power3.out'},t);
+  tl.fromTo(el.querySelectorAll('i'),{opacity:0,scale:.3},{opacity:1,scale:1,duration:.35,ease:'back.out(2.4)',stagger:.06},t+.42);
+}
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+
+    const tl = gsap.timeline({ paused: true });
+
+    tl.fromTo('#s7-mark',{scale:.6,opacity:0,y:30},{scale:1,opacity:1,y:0,duration:.7,ease:'back.out(1.7)'},0.35);
+    document.querySelectorAll('#s7-mark .rg').forEach((r,i)=>tl.fromTo(r,{scale:.55,opacity:.8},{scale:1.3,opacity:0,duration:1.9,ease:'power2.out'},0.5+i*.55));
+    const w=document.querySelectorAll('.s7w');
+    tl.fromTo('.deep',{scale:1},{scale:1.07,duration:8.7,ease:'none'},0);
+    tl.fromTo('.dots',{y:0},{y:-110,duration:8.7,ease:'none'},0);
+    tl.fromTo('#s7-head',{y:0},{y:-12,duration:8.0,ease:'sine.inOut'},1.6);
+    const sv=document.querySelector('#s7-wave'),ps=[];
+    for(let i=0;i<11;i++){const q=document.createElementNS('http://www.w3.org/2000/svg','path');q.setAttribute('fill','none');q.setAttribute('stroke',i===5?'#EAA93C':(i%4===1?'#3157D5':'#A9AFBA'));q.setAttribute('stroke-width',i===5?4:2.4);q.setAttribute('opacity',i===5?.85:.42);sv.appendChild(q);ps.push(q)}
+    const ws={t:0,a:0};
+    function drawW(){ps.forEach((q,i)=>{let d='';for(let x=-20;x<=1100;x+=14){const env=0.55+0.45*Math.sin(x*.004+ws.t*.6);const y=280+Math.sin(x*(.0058+i*.00035)+i*.55+ws.t*1.4)*(34+i*9)*env*ws.a+Math.sin(x*.0021+i*.8+ws.t*.7)*22*ws.a+(i-5)*14;d+=(d?'L':'M')+x+' '+y.toFixed(1)}q.setAttribute('d',d)})}
+    drawW();
+    tl.to(ws,{a:1,duration:1.2,ease:'power2.out',onUpdate:drawW},0.9);
+    tl.to(ws,{t:8.7,duration:8.7,ease:'none',onUpdate:drawW},0);
+    tl.fromTo(w,{y:60,opacity:0,filter:'blur(12px)'},{y:0,opacity:1,filter:'blur(0px)',duration:.55,ease:'power4.out',stagger:.15},0.9);
+    selIn(tl, document.querySelector('#s7-pw .sel'), 2.55);
+    tl.fromTo('#s7-cta',{y:40,opacity:0,scale:.9},{y:0,opacity:1,scale:1,duration:.7,ease:'back.out(1.8)'},4.0);
+    tl.fromTo('#s7-lock',{opacity:0,y:20},{opacity:1,y:0,duration:.7,ease:'power4.out'},4.4);
+    tl.fromTo('#s7-note',{opacity:0},{opacity:1,duration:.6},5.2);
+    document.querySelectorAll('#s7-mark .rg').forEach((r,i)=>tl.fromTo(r,{scale:.55,opacity:.7},{scale:1.3,opacity:0,duration:1.9,ease:'power2.out'},6.6+i*.5));
+    tl.fromTo('#s7-cta',{boxShadow:'0 0 0 0 rgba(234,169,60,0)'},{boxShadow:'0 0 0 14px rgba(234,169,60,.35)',duration:.6,ease:'power2.out'},5.4);
+    tl.to('#s7-cta',{boxShadow:'0 0 0 0 rgba(234,169,60,0)',duration:.7,ease:'power2.in'},6.0);
+
+    window.__timelines["s7"] = tl;
+  })();
+  </script>
+</template>

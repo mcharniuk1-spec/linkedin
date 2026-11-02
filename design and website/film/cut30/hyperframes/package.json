@@ -5,11 +5,13 @@
   "description": "Outspoken 30-second motion film (HyperFrames). Proposed; owner acceptance false.",
   "scripts": {
     "sync": "bash scripts/sync-assets.sh",
-    "build": "python3 build.py",
+    "build": "python3 build.py && python3 build.py --aspect 4x5",
     "check": "hyperframes check .",
     "snapshot": "hyperframes snapshot . --at 0,1.6,4.4,5.75,8,11.1,13.9,16.6,19,21.2,25.5,29.5 -o renders/snapshots",
     "render": "hyperframes render . -o renders/cut30-9x16.mp4 --quiet",
-    "qa": "python3 scripts/qa.py renders/cut30-9x16.mp4 --out renders/cut30-9x16-qa.json"
+    "qa": "python3 scripts/qa.py renders/cut30-9x16.mp4 --out renders/cut30-9x16-qa.json",
+    "render:4x5": "hyperframes render . -c index-4x5.html -o renders/cut30-4x5.mp4 --quiet",
+    "qa:4x5": "python3 scripts/qa.py renders/cut30-4x5.mp4 --size 1080x1350 --out renders/cut30-4x5-qa.json"
   },
   "devDependencies": {
     "gsap": "3.15.0",

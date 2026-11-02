@@ -55,3 +55,6 @@
 .founder-avatar img{transform:none;object-position:center 34%}.hero-post-overlay .art-signature{gap:8px;align-items:flex-end}.hero-post-overlay .art-signature>span{font-size:9px;max-width:48px}
 @media(min-width:801px) and (max-height:800px){.hero-stage{min-height:0;padding-top:92px;padding-bottom:50px}.hero-copy{max-width:390px;padding-bottom:0}.hero-copy h1{font-size:50px;line-height:1.02}.hero-value{font-size:15px;line-height:1.55;margin-top:20px}.hero-copy>.os3-tilt{margin-top:20px;min-height:50px}.audience-line{margin-top:16px!important;font-size:12px}.hero-visual{height:520px}.hero-film{top:145px;left:-45px;right:105px}.hero-post-overlay{top:-265px;right:-153px;width:228px}.hero-film .os3-perspective figcaption{margin-top:16px;font-size:13px}.scroll-cue{bottom:18px}.human-shadow{inset:-10px -25px 0 -35px}}
 @media(min-width:801px) and (max-height:800px){.hero-post-overlay{scale:.96}.hero-stage>.scroll-cue{display:none}}
+.plan-art{position:absolute;right:22px;top:20px;width:112px;height:auto;border-radius:16px;box-shadow:0 14px 30px -22px rgba(22,39,96,.6)}
+.price-plan{position:relative}
+.price-plan.is-featured .plan-art{box-shadow:0 14px 30px -18px rgba(0,0,0,.6)}
