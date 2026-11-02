@@ -21,6 +21,9 @@ OWN = ["outspoken-design-rules", "outspoken-film-build", "outspoken-logo-icon-di
 TOOLS = ["React 19", "Vite 8", "TypeScript 5.9", "Storybook 10", "Motion 14", "Three.js", "HyperFrames 0.9.2", "GSAP", "FFmpeg", "Vercel", "Neon Postgres", "Lighthouse", "fontTools", "potrace", "Claude Code", "Codex"]
 TREE = [("mcharniuk1-spec/linkedin", ""), ("├─ design and website/", ""), ("│  ├─ website/", "one-page site"), ("│  ├─ design-system/", "tokens, identity, depth"), ("│  ├─ film/", "motion films"), ("│  └─ deploy/vercel/", "build and lead function"),
         ("├─ research/", "public-source collector"), ("├─ reports/", "279 posts · 61 accounts"), ("├─ skills/", "agent skills"), ("└─ AGENTS.md", "rules for every agent")]
+EVENTS = [("swoosh", .15), ("shimmer", 1.05), ("thump", 1.15), ("pop", 1.7), ("tick", 2.3), ("tick", 5.45, 10, .26), ("pop", 6.3), ("pop", 10.8), ("tick", 11.5, 15, .07), ("tick", 12.9, 13, .05), ("thump", 14.0), ("pop", 14.4, 5, .1),
+          ("pop", 16.8), ("tick", 17.2, 16, .12), ("pop", 22.0), ("tick", 22.2, 18, .075), ("tick", 23.3, 12, .06), ("swoosh", 24.6), ("thump", 25.2), ("shimmer", 25.25), ("swoosh", 26.2, 5, .28),
+          ("pop", 29.0), ("pop", 29.4, 4, .2), ("tick", 29.6, 14, .1), ("tick", 30.4), ("swoosh", 34.9), ("pop", 35.5), ("thump", 36.3), ("tick", 36.9)]
 parts = K.mark_parts(PATHS)
 css = """
 .sc{position:absolute;inset:0;opacity:0}
@@ -166,6 +169,6 @@ PROJ.mkdir(parents=True, exist_ok=True)
 (PROJ / "hyperframes.json").write_text(json.dumps({"$schema": "https://hyperframes.heygen.com/schema/hyperframes.json", "paths": {"blocks": "compositions", "assets": "assets"}}, indent=2))
 (PROJ / "meta.json").write_text(json.dumps({"id": "outspoken-launch", "name": "outspoken-launch"}, indent=2))
 if "--audio" in sys.argv:
-    print(K.make_audio(PROJ / "assets" / "audio", DUR, CUTS, LINES, chords=[50, 45, 47, 43], bpm=96, seed=1414))
+    print(K.make_audio(PROJ / "assets" / "audio", DUR, CUTS, LINES, chords=[50, 45, 47, 43], bpm=96, seed=1414, events=EVENTS))
 K.write_vo(pathlib.Path(__file__).resolve().parent, "Outspoken launch film", DUR, LINES, SCENES, "Narration for a human voice; the synthetic guide voice in the renders is a timing reference only.")
 print("built", PROJ / "index.html")

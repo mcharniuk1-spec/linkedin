@@ -10,50 +10,50 @@
   "arguments": {
     "profile": {
       "headline": "Buyers check your *profile* before they reply.",
-      "why": "After a post, a message or an introduction, the profile is usually the next page a buyer, investor or candidate opens. It should answer three questions on the first screen: who you help, which problem you solve and why you are credible. Most founder profiles list a job title instead.",
-      "check": "Ask someone outside your company to read your headline and About section for ten seconds, then say what you do and for whom.",
+      "why": "After a post, a message or an introduction, buyers open your profile next. Its first screen must say who you help, which problem you solve and why you are credible.",
+      "check": "Ask someone outside the company to read your headline for ten seconds, then say what you do and for whom.",
       "image": "/assets/library-r12/elements/element-02-4.webp"
     },
     "strategy": {
       "headline": "Every post needs a *reason* to exist.",
-      "why": "Posting often is not a strategy. A useful editorial direction starts from the questions your buyers already ask and connects them to the decisions, evidence and opinions only your company can offer. Four or five themes you can sustain protect your position better than a long calendar of topics.",
-      "check": "Open the plan: each theme should name a buyer question, the proof behind it and the offer it leads to.",
+      "why": "Posting often is not a strategy. Start from the questions buyers already ask, then answer with the decisions, evidence and opinions only your company has. Four or five themes beat a long calendar.",
+      "check": "Each theme names a buyer question, the proof behind it and the offer it leads to.",
       "image": "/assets/library-r12/elements/element-02-1.webp"
     },
     "writing": {
       "headline": "Your judgment, written so buyers can *read* it.",
-      "why": "The most valuable material in a young company sits in the founder's head, in calls and in product trade-offs. Regular interviews capture it in your own words, and the writing keeps the technical meaning intact while it becomes easier to read. You approve every claim before anything is published.",
-      "check": "Read a draft aloud. If it does not sound like you, or a claim is not one you would defend on a call, it does not go out.",
+      "why": "Your best material lives in your head, your calls and your product trade-offs. Regular interviews capture it in your words; we keep the meaning exact and the reading easy. You approve every claim.",
+      "check": "Read a draft aloud. If it does not sound like you, it does not go out.",
       "image": "/assets/library-r12/elements/element-01-4.webp"
     },
     "design": {
       "headline": "Make the idea *visible* before the reader scrolls on.",
-      "why": "Complex products are hard to explain in a feed. A clear carousel, diagram or short video shows how a decision works in seconds and gives people something to save and send to a colleague. Reusable templates keep the look consistent without a designer on every post.",
-      "check": "Show one visual to a colleague for five seconds and ask what it says. If they cannot answer, simplify it.",
+      "why": "Complex products are hard to explain in a feed. A clear carousel, diagram or short video shows a decision in seconds and gets saved and shared. Templates keep the look consistent.",
+      "check": "Show a visual for five seconds. If a colleague cannot say what it means, simplify it.",
       "image": "/assets/library-r12/elements/element-05-3.webp"
     },
     "automation": {
       "headline": "A process that keeps *running* when the week gets busy.",
-      "why": "Founder content usually stops when the calendar fills up. A shared source library, a short review route and approved scheduling keep it moving, while the people responsible still decide what is published. Automation covers administration, not relationships.",
-      "check": "Look at the workflow: every step has an owner, and nothing is published without an approval.",
+      "why": "Founder content stops when the calendar fills up. A source library, a short review route and approved scheduling keep it moving. Automation covers administration, never relationships.",
+      "check": "Every step has an owner, and nothing is published without approval.",
       "image": "/assets/library-r12/elements/element-04-5.webp"
     },
     "marketing": {
       "headline": "Content opens a conversation. *Follow-up* continues it.",
-      "why": "A strong post only helps if the next step is clear. We align founder content, company messaging and manual follow-up copy around one defined buyer, so a reply, a comment or a question has somewhere sensible to go.",
-      "check": "Take any post and ask what an interested buyer would do next. There should be one obvious answer.",
+      "why": "A strong post helps only if the next step is clear. We align founder posts, company messaging and follow-up copy around one buyer, so every reply has somewhere to go.",
+      "check": "For any post, an interested buyer should see one obvious next step.",
       "image": "/assets/library-r12/elements/element-01-3.webp"
     },
     "advertising": {
       "headline": "Spend on the message that has *earned* attention.",
-      "why": "Paid distribution multiplies whatever message it is given. We build campaign angles, creative and landing messages around one buyer and one objective, then plan small tests to learn which message deserves a larger budget before it grows.",
-      "check": "Ask for the test plan: it should state the audience, the message being tested and what result would change the budget.",
+      "why": "Paid distribution multiplies whatever message it gets. We build angles, creative and landing messages for one buyer and one objective, and test small before the budget grows.",
+      "check": "The test plan states the audience, the message and the result that would change the budget.",
       "image": "/assets/library-r12/elements/element-02-3.webp"
     },
     "measurement": {
       "headline": "Learn what matters to the *right* people.",
-      "why": "Likes are easy to count and easy to misread. We agree what to measure, such as qualified replies, conversations and attributed leads, report what the authorized data can show and use it to choose the next test. Engagement, leads and revenue stay separate measures.",
-      "check": "Ask which decision each number supports. A number that supports no decision is dropped from the report.",
+      "why": "Likes are easy to count and easy to misread. We agree what matters, such as qualified replies, conversations and attributed leads, keep engagement, leads and revenue apart, and use the data to choose the next test.",
+      "check": "Every number supports a decision, or it leaves the report.",
       "image": "/assets/library-r12/elements/element-03-1.webp"
     }
   },

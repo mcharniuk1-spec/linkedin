@@ -13,6 +13,9 @@ LINES = [(0.45, 5.45, "Two letters, cut like a stencil. A marigold slash that ma
          (18.45, 24.35, "All of it serves one promise. Make the right buyers care about you and what you're building."),
          (24.9, 27.5, "Outspoken. Book an intro call.")]
 SCENES = ["S1 the mark", "S2 the system", "S3 palette and type", "S4 the promise", "S5 close"]
+EVENTS = [("swoosh", .1), ("riser", 1.15), ("shimmer", 1.75), ("thump", 1.8), ("swoosh", 2.6), ("tick", 3.2, 3, .25), ("pop", 4.0),
+          ("pop", 6.2), ("swoosh", 6.7, 5, .95), ("tick", 6.8, 5, .95), ("swoosh", 11.6), ("pop", 13.2, 5, .14), ("thump", 15.4), ("tick", 15.7, 3, .3),
+          ("tick", 18.5, 14, .3), ("swoosh", 20.0), ("shimmer", 20.05), ("pop", 20.45, 4, .06), ("swoosh", 24.8), ("thump", 25.4), ("tick", 25.5)]
 parts = K.mark_parts(PATHS)
 css = """
 .sc{position:absolute;inset:0;opacity:0}
@@ -130,6 +133,6 @@ PROJ.mkdir(parents=True, exist_ok=True)
 (PROJ / "hyperframes.json").write_text(json.dumps({"$schema": "https://hyperframes.heygen.com/schema/hyperframes.json", "paths": {"blocks": "compositions", "assets": "assets"}}, indent=2))
 (PROJ / "meta.json").write_text(json.dumps({"id": "outspoken-os-motion", "name": "outspoken-os-motion"}, indent=2))
 if "--audio" in sys.argv:
-    print(K.make_audio(PROJ / "assets" / "audio", DUR, CUTS, LINES, chords=[52, 57, 48, 55], bpm=84, seed=2026, rate=165))
+    print(K.make_audio(PROJ / "assets" / "audio", DUR, CUTS, LINES, chords=[52, 57, 48, 55], bpm=84, seed=2026, rate=165, events=EVENTS))
 K.write_vo(pathlib.Path(__file__).resolve().parent, "Outspoken OS motion film", DUR, LINES, SCENES, "Narration for a human voice; the synthetic guide voice in the renders is a timing reference only.")
 print("built", PROJ / "index.html")

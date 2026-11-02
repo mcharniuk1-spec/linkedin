@@ -1,0 +1,17 @@
+# Outspoken launch film: scene-by-scene script (proposed)
+
+40.00 s, 16:9 1920x1080, 30 fps. One focal idea per scene; every scene ends on a slash seam (a panel in the next ground colour with a marigold leading edge). Captions repeat the narration for muted autoplay.
+
+**Plot.** Open the box: Outspoken is public. Show where everything lives, prove the work was done carefully (a security gate for agent skills, open tools, research, identity work) and close on measured results and one action.
+
+| # | Time | Picture | Motion and transition out | Sound (synthetic, event-synced) | Voice (record yourself; text from VOICEOVER.md) |
+|---|---|---|---|---|---|
+| 1 | 0.0 to 5.2 | Deep navy, dot grid. The stencil OS mark is already on screen (thumbnail), halves close; 'Outspoken is open.'; the repository address. | Halves close, the slash cuts in, a slow push; seam | Soft swoosh, shimmer on the slash, low thump as the mark locks, pop on the title, tick on the address | Outspoken is open. Every file lives in one public repository. |
+| 2 | 5.2 to 10.6 | Pearl. The repository tree types out line by line; 'Everything we built, in one public repository.' | Lines type in 0.26 s apart; seam | Ten typing ticks, pop on the headline | The site, the design system, the research and the films sit side by side, so anyone can see how the work is made. |
+| 3 | 10.6 to 16.6 | Deep navy. '15 skills passed a security scan.' Fifteen pass cards, thirteen rejected cards that dim, five repository skills in marigold outline. | Cards cascade, rejected cards fade to 38 percent; seam | A tick per pass card, softer ticks for the rejected, a thump as they dim, pops for the five repository skills | Fifteen agent skills passed a security scan before we used them. Thirteen did not. Five more were written for this project. |
+| 4 | 16.6 to 21.8 | Pearl. 'Built with open tools.' Sixteen tool names assemble as chips (no logos). | Chips rise with a small overshoot; seam | Pop on the title, a tick per chip | The stack is open too: React, Vite, Storybook, HyperFrames, Vercel and Neon. |
+| 5 | 21.8 to 28.8 | Deep navy. Counter to 279 posts and 61 accounts; thirty concept tiles converge into the OS mark; five depth layers stack with their names. | Counter, convergence, stack; seam | Rapid counter ticks, ticks for the tiles, swoosh into the convergence, thump and shimmer as the mark forms, a swoosh per layer | We studied two hundred and seventy-nine LinkedIn posts from sixty-one accounts, scored thirty logo concepts, and kept one clear mark. |
+| 6 | 28.8 to 34.6 | Pearl. 'Then we measured.' Four stat cards count up: 100, 100, 100, 168; the film QA line. | Cards rise and count; seam | Pop on the title, a pop per card, counter ticks | Then we measured: accessibility one hundred, a hundred tests, and a deployment verified by hash. |
+| 7 | 34.6 to 40.0 | Deep navy. Inverse lockup, 'Founder-led LinkedIn marketing for B2B AI SaaS.', the call to action, the repository address, the synthetic-sound note. | Elements settle; final hold 1 s | Swoosh, pop, thump on the call to action, tick, closing bell | Outspoken. Founder-led LinkedIn marketing for B2B AI SaaS. Book an intro call. |
+
+Review notes: the plot moves from openness to proof to action; numbers appear only once each and come from the repository records; the dense skill wall is texture, its message is carried by the headline and the counts. Record each voice line inside its window (`VOICEOVER.md`); a take may be shorter than its window, never longer.

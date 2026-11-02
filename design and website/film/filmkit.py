@@ -92,7 +92,7 @@ def _norm(x, target, peak_db=-2.2):
         x = x * 10 ** ((target - _lufs(x)) / 20); x = lim * np.tanh(x / lim)
     return x
 
-def make_audio(out_dir, dur, cuts, lines, chords, bpm=92, seed=7, voice="Daniel", rate=172, speech_duck=True):
+def make_audio(out_dir, dur, cuts, lines, chords, bpm=92, seed=7, voice="Daniel", rate=172, speech_duck=True, events=()):
     """Writes music.wav, sfx.wav, guide-voice.wav, mix-voice-ready.wav (-19 LUFS) and mix-with-guide.wav (-16 LUFS). lines: [(t0, t1, text)]."""
     out = pathlib.Path(out_dir); out.mkdir(parents=True, exist_ok=True); rng = np.random.default_rng(seed); N = int(dur * SR)
     t = np.arange(N) / SR; mus = np.zeros((N, 2)); sfx = np.zeros((N, 2))
@@ -110,6 +110,23 @@ def make_audio(out_dir, dur, cuts, lines, chords, bpm=92, seed=7, voice="Daniel"
     for c in cuts:  # transition effects: a filtered whoosh into the cut and a soft hit on it
         n = int(.55 * SR); w = _lp(_hp(rng.standard_normal(n), 400), 5000) * np.linspace(0, 1, n) ** 2 * .10; _place(sfx, w, max(0, c - .55), pan=.15)
         n2 = int(.9 * SR); tt = np.arange(n2) / SR; h = (np.sin(2 * np.pi * 61 * tt) * np.exp(-tt * 6) + _lp(rng.standard_normal(n2), 900) * np.exp(-tt * 14) * .5) * .32; _place(sfx, h, c)
+    # event-synced effects: one designed sound for each visual beat (kind, time[, count, spacing])
+    def tick(t0, g=.07, f=3200):
+        n = int(.035 * SR); tt = np.arange(n) / SR; _place(sfx, np.sin(2 * np.pi * f * tt) * np.exp(-tt * 140) * g, t0, pan=.2)
+    def pop(t0, g=.10, f=720):
+        n = int(.16 * SR); tt = np.arange(n) / SR; _place(sfx, (np.sin(2 * np.pi * f * tt) + .4 * np.sin(2 * np.pi * f * 2.01 * tt)) * np.exp(-tt * 34) * g, t0, pan=-.15)
+    def swoosh(t0, g=.08, d=.38):
+        n = int(d * SR); env = np.sin(np.linspace(0, np.pi, n)) ** 2; _place(sfx, _lp(_hp(rng.standard_normal(n), 900), 6500) * env * g, t0, pan=.1)
+    def thump(t0, g=.26):
+        n = int(.45 * SR); tt = np.arange(n) / SR; _place(sfx, np.sin(2 * np.pi * (48 + 40 * np.exp(-tt * 22)) * tt) * np.exp(-tt * 8) * g, t0)
+    def shimmer(t0, g=.05):
+        n = int(1.2 * SR); tt = np.arange(n) / SR; _place(sfx, sum(np.sin(2 * np.pi * f * tt) * a for f, a in ((1320, 1), (1980, .5), (2640, .3))) * np.exp(-tt * 3.2) * g, t0, pan=.25)
+    def riser(t0, g=.06, d=.6):
+        n = int(d * SR); _place(sfx, _hp(rng.standard_normal(n), 1500) * np.linspace(0, 1, n) ** 3 * g, t0)
+    KIND = {"tick": tick, "pop": pop, "swoosh": swoosh, "thump": thump, "shimmer": shimmer, "riser": riser}
+    for ev in events:
+        kind, t0 = ev[0], ev[1]; count = ev[2] if len(ev) > 2 else 1; step = ev[3] if len(ev) > 3 else .08
+        for k in range(count): KIND[kind](t0 + k * step)
     n = int(2.6 * SR); tt = np.arange(n) / SR  # final bell
     bell = sum(np.sin(2 * np.pi * f * tt) * a for f, a in ((880, 1), (1320, .4), (1760, .2))) * np.exp(-tt * 1.6) * .08; _place(sfx, bell, max(0, dur - 4.2))
     fade = np.ones(N); nf = int(1.0 * SR); fade[-nf:] = np.linspace(1, 0, nf) ** 1.5; mus *= fade[:, None]; sfx *= fade[:, None]

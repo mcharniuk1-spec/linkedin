@@ -3924,13 +3924,18 @@
     },
     {
       "path": "film/filmkit.py",
-      "bytes": 10420,
-      "sha256": "bb646bc29cf03d0d5967abf7d7061e4f6e287110450b0a53aa583349c3fc06c9"
+      "bytes": 11893,
+      "sha256": "49f40c979a08ea188864af235fa7b6da2a7c05ce3fb4585e75abd7325bf08125"
     },
     {
       "path": "film/launch/README.md",
-      "bytes": 3079,
-      "sha256": "0305debbb531f79c92cd72ee6f928c9ec6d1196f675d9e6de7fb355c64152759"
+      "bytes": 3353,
+      "sha256": "9f45d086cf6c51477e9a518d40aa8946fcd33f375b5383ad7c4eb141b0d7e389"
+    },
+    {
+      "path": "film/launch/SCRIPT.md",
+      "bytes": 3506,
+      "sha256": "8a2a9b8a1ef936f32f7750913f5b36b702ffd881c99f92f4a4deddfeef8a20bb"
     },
     {
       "path": "film/launch/VOICEOVER.md",
@@ -3939,8 +3944,8 @@
     },
     {
       "path": "film/launch/build.py",
-      "bytes": 19155,
-      "sha256": "24844d7c43a892823b287acb4db7ad29ae1799492438e8d2f8cbe197525eea12"
+      "bytes": 19755,
+      "sha256": "80a6625e96d660cd198d0169d3530a0b34b2c646d21d04508ff192bd0d0b22a5"
     },
     {
       "path": "film/launch/captions.srt",
@@ -3954,8 +3959,13 @@
     },
     {
       "path": "film/motion-os/README.md",
-      "bytes": 2832,
-      "sha256": "cbb05f0f7eb1eb419c10faad035bfd2b17fe3e9857dff3976518dbe0efa67700"
+      "bytes": 3106,
+      "sha256": "958f57592a8525385df3a4e6307db99bf38cb3e1f24d1ab5b3806225ece738fe"
+    },
+    {
+      "path": "film/motion-os/SCRIPT.md",
+      "bytes": 2413,
+      "sha256": "bf1eb79a6096e8fa20db0ffb94cd4d6012e4f9b18bf70a7a698a27d99ad0c98b"
     },
     {
       "path": "film/motion-os/VOICEOVER.md",
@@ -3964,8 +3974,8 @@
     },
     {
       "path": "film/motion-os/build.py",
-      "bytes": 13954,
-      "sha256": "fb9df078c4ca3d483cb850632057cc8440b67aa2b9357639bff369bbcff3abc9"
+      "bytes": 14401,
+      "sha256": "3af71743bc376b77c3a999e91fd312975b25c1b3d02fd7f5cac4ce9a53a3d5d3"
     },
     {
       "path": "film/motion-os/captions.srt",
@@ -4331,6 +4341,11 @@
       "path": "film/voiceover/vo-timing.csv",
       "bytes": 1762,
       "sha256": "2be0cd9c4f3f566ecdc736a9a81fdc01513d44fe3621a5927e62048b64307305"
+    },
+    {
+      "path": "linkedin-analysis/PUBLICATIONS-R14.md",
+      "bytes": 3194,
+      "sha256": "3ecd9f4f5b459382a46eac87cd78bc57821b959a9c545555a5ab15c22a66f170"
     },
     {
       "path": "linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md",
@@ -6749,8 +6764,8 @@
     },
     {
       "path": "website/website-v3/service-details.json",
-      "bytes": 5408,
-      "sha256": "232458ba6087680de29a31fd4aa5ebc7bd4f4f0c932456ff197af86fd87d505e"
+      "bytes": 4533,
+      "sha256": "c9175a8be849155fd6f293fe31669f287c5386637cb6be961418e7197d848d91"
     },
     {
       "path": "website/website-v3/vite.config.ts",

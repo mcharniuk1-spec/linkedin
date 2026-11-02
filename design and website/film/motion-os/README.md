@@ -5,6 +5,7 @@
 Status: proposed, owner acceptance false, nothing published. Music, effects and the guide voice are **synthetic stand-ins** (numpy and scipy synthesis; macOS `say` for the guide voice). The narration in `VOICEOVER.md` is written for a human voice to be recorded later. Renders are not committed; build them with the steps below.
 
 ## Files
+- `SCRIPT.md`: the scene-by-scene script (plot, picture, motion, transitions, event-synced sound, voice line).
 - `build.py`: generates the HyperFrames root composition (`index.html`) from the shared kit `../filmkit.py`; `--audio` synthesises the stems; `--guide` points the film at the mix with the guide voice.
 - `VOICEOVER.md` (timed narration table), `voiceover.txt` (narration only), `captions.srt`.
 - Shared: `../filmkit.py` (fonts, the OS mark as animatable parts from `design-system/identity-r13/os-stencil-paths.json`, audio synthesis, voiceover files) and `../qa_films.py` (measured QA with `--duration`).
@@ -21,6 +22,6 @@ python3 "<repository>/design and website/film/qa_films.py" renders/a.mp4 renders
 Render on an idle machine: a heavily loaded machine can break the determinism comparison.
 
 ## Measured (2 November 2026, two renders on an idle machine)
-- Master (voice-ready mix): 28.000 s, 840 frames, H.264 yuv420p 30 fps, AAC 48 kHz, -19.3 LUFS, -7.0 dBTP, 0 isolated-spike frames, 10 of 10 sampled frames identical across two renders: PASS
-- Guide-voice version: -16.3 LUFS: PASS
+- Master (voice-ready mix): 28.000 s, 840 frames, H.264 yuv420p 30 fps, AAC 48 kHz, -19.2 LUFS, -7.1 dBTP (event-synced effects added), 0 isolated-spike frames, 10 of 10 sampled frames identical across two renders: PASS
+- The final masters carry music and effects only; the voice is recorded by the owner from `VOICEOVER.md`. Guide-voice version (timing reference, synthetic): -16.3 LUFS: PASS
 - `hyperframes check`: zero errors.
