@@ -29,8 +29,8 @@
     },
     {
       "path": "R15-INTEGRATION.md",
-      "bytes": 4670,
-      "sha256": "629bb65e47a72088511cf29b76f4f7cd30e1a0fd61ca5152bfcdb27d3a63771b"
+      "bytes": 5120,
+      "sha256": "7826d2c75694b92eba473820b82a243b6bed212f54a3990b53d5c08e24099228"
     },
     {
       "path": "README.md",
@@ -39,13 +39,23 @@
     },
     {
       "path": "asset-rights.json",
-      "bytes": 614983,
-      "sha256": "46d7e369e2b42a7189252361f4ea476beeb2de2fe87570cdcb780620b5f0e83a"
+      "bytes": 617094,
+      "sha256": "afe1653588286f9573c30a07d8a1844146b2219b4f1ef9978a57e6a3857889f9"
     },
     {
       "path": "assets/README.md",
       "bytes": 1126,
       "sha256": "a90e35385d4ba0cd12d97ed984a40b85b08d4e2c3e651869f932fc135c15f354"
+    },
+    {
+      "path": "assets/film-r15/launch-r15-16x9-master.mp4",
+      "bytes": 10149238,
+      "sha256": "ef30d592893f8825a5a03322ebb8bde720c48b056db676b09c4d31c8eb61a88a"
+    },
+    {
+      "path": "assets/film-r15/os-motion-r15-4x5-master.mp4",
+      "bytes": 4524415,
+      "sha256": "c37bc3bd12aaa97e635b8bb53b2981cad33a9bed6ea1c58c726556eac537bc5e"
     },
     {
       "path": "assets/offer-deck-r15/fonts/FRAUNCES-OFL.txt",
@@ -17982,6 +17992,42 @@
       "source_hash_match": true,
       "conditions": [
         "Licence text retained beside the font files it covers."
+      ]
+    },
+    {
+      "path": "assets/film-r15/launch-r15-16x9-master.mp4",
+      "repository_path": "design and website/assets/film-r15/launch-r15-16x9-master.mp4",
+      "sha256": "ef30d592893f8825a5a03322ebb8bde720c48b056db676b09c4d31c8eb61a88a",
+      "bytes": 10149238,
+      "source": "film/launch-r15/build.py (HyperFrames 0.9.2 render of owned design-system graphics, the R13 OS stencil and the site's JSON copy); music and effects synthesised in code by film/filmkit.py; no voice, faces or third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/film/launch-r15/README.md",
+        "design and website/R15-INTEGRATION.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed film master; owner acceptance is false; not published.",
+        "Music and effects only; the owner records the voice from VOICEOVER.md.",
+        "Prices are indicative packages read from pricing.json; no client, result or quote is shown."
+      ]
+    },
+    {
+      "path": "assets/film-r15/os-motion-r15-4x5-master.mp4",
+      "repository_path": "design and website/assets/film-r15/os-motion-r15-4x5-master.mp4",
+      "sha256": "c37bc3bd12aaa97e635b8bb53b2981cad33a9bed6ea1c58c726556eac537bc5e",
+      "bytes": 4524415,
+      "source": "film/motion-os-r15/build.py (HyperFrames 0.9.2 render of owned design-system graphics, the R13 OS stencil and the site's JSON copy); music and effects synthesised in code by film/filmkit.py; no voice, faces or third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/film/motion-os-r15/QA.md",
+        "design and website/R15-INTEGRATION.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed film master; owner acceptance is false; not published.",
+        "Music and effects only; the owner records the voice from VOICEOVER.md.",
+        "Prices are indicative packages read from pricing.json; no client, result or quote is shown."
       ]
     }
   ],

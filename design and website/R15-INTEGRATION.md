@@ -24,3 +24,6 @@ Not changed: prices, package scope and exclusions, the identity (R13 OS stencil 
 
 ## Gaps
 Owner acceptance of copy, deck, films and identity; the owner's voice recordings; legal review of the privacy draft; Safari and iOS checks; a Figma edit seat for Claude or an owner-run readback; the launch steps in `seo/SEO-GEO-AEO-R14.md`.
+
+## Film masters added (owner request, 2 November 2026)
+The two R15 masters are now in `assets/film-r15/` (launch 16:9, 42 s, 10.1 MB; OS motion 4:5, 28 s, 4.5 MB), registered as owned in `asset-rights.json` and the release manifest. They carry music and effects only, are proposed and are not published. The 4:5 launch and 16:9 OS compositions are still open; the cloud session may add their masters to the same folder with the same rights entries.

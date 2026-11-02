@@ -4,6 +4,8 @@
   "status": "verified_for_public_projection_with_explicit_exclusions",
   "scope": "Exact public assets from V9 candidate plus all recovered eligible inputs and registered runtime additions. Original source and rights evidence read locally; no new legal clearance claimed.",
   "paths": [
+    "assets/film-r15/launch-r15-16x9-master.mp4",
+    "assets/film-r15/os-motion-r15-4x5-master.mp4",
     "assets/public/assets/film/contact-master.png",
     "assets/public/assets/film/contact-teaser.png",
     "assets/public/assets/film/master-preview-720p.mp4",
@@ -11482,6 +11484,42 @@
       "source_hash_match": true,
       "conditions": [
         "Licence text retained beside the font files it covers."
+      ]
+    },
+    {
+      "path": "assets/film-r15/launch-r15-16x9-master.mp4",
+      "repository_path": "design and website/assets/film-r15/launch-r15-16x9-master.mp4",
+      "sha256": "ef30d592893f8825a5a03322ebb8bde720c48b056db676b09c4d31c8eb61a88a",
+      "bytes": 10149238,
+      "source": "film/launch-r15/build.py (HyperFrames 0.9.2 render of owned design-system graphics, the R13 OS stencil and the site's JSON copy); music and effects synthesised in code by film/filmkit.py; no voice, faces or third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/film/launch-r15/README.md",
+        "design and website/R15-INTEGRATION.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed film master; owner acceptance is false; not published.",
+        "Music and effects only; the owner records the voice from VOICEOVER.md.",
+        "Prices are indicative packages read from pricing.json; no client, result or quote is shown."
+      ]
+    },
+    {
+      "path": "assets/film-r15/os-motion-r15-4x5-master.mp4",
+      "repository_path": "design and website/assets/film-r15/os-motion-r15-4x5-master.mp4",
+      "sha256": "c37bc3bd12aaa97e635b8bb53b2981cad33a9bed6ea1c58c726556eac537bc5e",
+      "bytes": 4524415,
+      "source": "film/motion-os-r15/build.py (HyperFrames 0.9.2 render of owned design-system graphics, the R13 OS stencil and the site's JSON copy); music and effects synthesised in code by film/filmkit.py; no voice, faces or third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/film/motion-os-r15/QA.md",
+        "design and website/R15-INTEGRATION.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed film master; owner acceptance is false; not published.",
+        "Music and effects only; the owner records the voice from VOICEOVER.md.",
+        "Prices are indicative packages read from pricing.json; no client, result or quote is shown."
       ]
     }
   ],
