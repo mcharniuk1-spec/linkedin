@@ -24,8 +24,8 @@
   "files": [
     {
       "path": "HANDOFF.md",
-      "bytes": 12608,
-      "sha256": "5cbd30bb4d988e69bf7fa600617f746cc8ba3d67d29e64e0c4eb88f99e21c25c"
+      "bytes": 14562,
+      "sha256": "22801071415d860f526aa515d1d9f02a1cdd065c970cd3bd9bd17071b8c946a7"
     },
     {
       "path": "README.md",
@@ -3264,8 +3264,8 @@
     },
     {
       "path": "deploy/vercel/vercel-build.sh",
-      "bytes": 1587,
-      "sha256": "458658bafb570e03fe63faf4a352b58b108c84ab9584ea6983d0444da99dc692"
+      "bytes": 1684,
+      "sha256": "babb3767e04eef2f6211b76cc541009b3545c2b5352f525ec648ff84edccb629"
     },
     {
       "path": "deploy/vercel/vercel.json",
@@ -3289,8 +3289,8 @@
     },
     {
       "path": "design-system/DESIGN.md",
-      "bytes": 26899,
-      "sha256": "f155ea2ac806f89951dd10be72d46e91640588f008b8fdeebf94eeee44879b53"
+      "bytes": 28331,
+      "sha256": "df94a2f6b22b0eac418b5e8d929e6d205171e650079f252254efb7b1caf00d0f"
     },
     {
       "path": "design-system/README.md",
@@ -3923,6 +3923,61 @@
       "sha256": "274d4e0936afcd8219e4d3adf01975cca74c973fc5090c7f6db569dd53cc33ee"
     },
     {
+      "path": "film/filmkit.py",
+      "bytes": 10420,
+      "sha256": "bb646bc29cf03d0d5967abf7d7061e4f6e287110450b0a53aa583349c3fc06c9"
+    },
+    {
+      "path": "film/launch/README.md",
+      "bytes": 3079,
+      "sha256": "0305debbb531f79c92cd72ee6f928c9ec6d1196f675d9e6de7fb355c64152759"
+    },
+    {
+      "path": "film/launch/VOICEOVER.md",
+      "bytes": 1445,
+      "sha256": "25ba7c85e682b4b0b97f687d1bec6b4f9e5a73c8f752f1a2edf9f6fad56e042a"
+    },
+    {
+      "path": "film/launch/build.py",
+      "bytes": 19155,
+      "sha256": "24844d7c43a892823b287acb4db7ad29ae1799492438e8d2f8cbe197525eea12"
+    },
+    {
+      "path": "film/launch/captions.srt",
+      "bytes": 917,
+      "sha256": "3eff5e958194cc462e3e03b05947552a02feac0f5cf7ac5812705820a0355014"
+    },
+    {
+      "path": "film/launch/voiceover.txt",
+      "bytes": 687,
+      "sha256": "1f1095948cde52e2d670caf894e22bb74a7ead481cd355efd8ca184e5692e0a5"
+    },
+    {
+      "path": "film/motion-os/README.md",
+      "bytes": 2832,
+      "sha256": "cbb05f0f7eb1eb419c10faad035bfd2b17fe3e9857dff3976518dbe0efa67700"
+    },
+    {
+      "path": "film/motion-os/VOICEOVER.md",
+      "bytes": 1044,
+      "sha256": "c6424172e570665c39008bca187553f1c700ad938e5087cd6ed630dc592ec94e"
+    },
+    {
+      "path": "film/motion-os/build.py",
+      "bytes": 13954,
+      "sha256": "fb9df078c4ca3d483cb850632057cc8440b67aa2b9357639bff369bbcff3abc9"
+    },
+    {
+      "path": "film/motion-os/captions.srt",
+      "bytes": 514,
+      "sha256": "731becae7a7acc1df34e7baa06486fe7b1e62f75c2e5bf0f6e587bfd804dcc47"
+    },
+    {
+      "path": "film/motion-os/voiceover.txt",
+      "bytes": 350,
+      "sha256": "904bc99e30448febd9c768bfa0b667e582175cff40829f87499d13982c2bf42a"
+    },
+    {
       "path": "film/package-lock.json",
       "bytes": 103773,
       "sha256": "4054508a743bcf336dc79d5441bf259d64b9824774729269d8af5b217c09be0e"
@@ -3976,6 +4031,11 @@
       "path": "film/public/fonts/OFL-mona-sans.txt",
       "bytes": 4564,
       "sha256": "41e9911493de5899a20336baf13b6ea6483b5eea34e237f2ffed22c39bdc4a8d"
+    },
+    {
+      "path": "film/qa_films.py",
+      "bytes": 4610,
+      "sha256": "7712efff385276deb154acd620ccfd006bcb52fb6c0ef3c7c0e2b6dab92e066d"
     },
     {
       "path": "film/render.mjs",
@@ -4289,8 +4349,8 @@
     },
     {
       "path": "prompts/CLOUD-CLAUDE-R13.md",
-      "bytes": 8294,
-      "sha256": "16339304b21e504805db512509a3a61693269473ef39477c61d3f9ec807c79f8"
+      "bytes": 8824,
+      "sha256": "cda55f4298ab9402b69624b575586f91a8ef55247ee137952ae23d075833ffab"
     },
     {
       "path": "qa/README.md",
@@ -4366,6 +4426,11 @@
       "path": "scripts/verify-package.mjs",
       "bytes": 1125,
       "sha256": "a1e68fad524379238e785a038002e0c9ce87b49903fe9d6a77274d57bafac2f7"
+    },
+    {
+      "path": "seo/SEO-GEO-AEO-R14.md",
+      "bytes": 4634,
+      "sha256": "a888d9ffd9c8bb69971f8e4711e68046bfe465f25f30e5f47c06afbd11761fe1"
     },
     {
       "path": "seo/SEO-GEO-R11.md",
@@ -5989,8 +6054,8 @@
     },
     {
       "path": "website/packages/showcase-v5/manifest.json",
-      "bytes": 219226,
-      "sha256": "d7c0cb492aa52a3851d01eeee89abaf0d81058c38bfd69fa74733cd95b77d014"
+      "bytes": 219835,
+      "sha256": "6cce54af7c3baebe08df0a619efbfc24abda1d28236e9e3f61a9f87b3439dbad"
     },
     {
       "path": "website/packages/showcase-v5/people.json",
@@ -6494,8 +6559,8 @@
     },
     {
       "path": "website/scripts/seo-static.mjs",
-      "bytes": 8411,
-      "sha256": "c6e6c73fecf4f03e8f80b396df0075a80952c3dcf0ab2ff74716725c87e059b2"
+      "bytes": 11069,
+      "sha256": "4c6032392f7d2da0c2b90ffb62fae7b31555c8b6c25d6c85c152c808eb4b0e9c"
     },
     {
       "path": "website/tsconfig.json",
@@ -6579,8 +6644,8 @@
     },
     {
       "path": "website/website-v3/content.json",
-      "bytes": 34330,
-      "sha256": "1f9ccb1817d18b5724e4b53f27e8e0eae1e630835e1def1b3d30aa32f4577a0f"
+      "bytes": 35088,
+      "sha256": "43c07bc6a0247ee7e1bbc06f55bdbedb9344307aba021f7978f2a673dfbfd754"
     },
     {
       "path": "website/website-v3/depth.css",
@@ -6694,8 +6759,8 @@
     },
     {
       "path": "website/website-v3/website.css",
-      "bytes": 45379,
-      "sha256": "c560fa2b30083e0cfe603ff3e55dd662a5ee36553761a0063856a642b562d77f"
+      "bytes": 45830,
+      "sha256": "57550f12d04a71ee7812eebd1083c5fb6b3ebb9d0c26cfefbbe20deb47f6f068"
     },
     {
       "path": "website/website-v3/why-outspoken.css",

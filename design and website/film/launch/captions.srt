@@ -1,0 +1,27 @@
+1
+00:00:00,350 --> 00:00:04,750
+Outspoken is open. Every file lives in one public repository.
+
+2
+00:00:05,550 --> 00:00:10,250
+The site, the design system, the research and the films sit side by side, so anyone can see how the work is made.
+
+3
+00:00:10,950 --> 00:00:16,250
+Fifteen agent skills passed a security scan before we used them. Thirteen did not. Five more were written for this project.
+
+4
+00:00:16,950 --> 00:00:21,450
+The stack is open too: React, Vite, Storybook, HyperFrames, Vercel and Neon.
+
+5
+00:00:22,150 --> 00:00:28,450
+We studied two hundred and seventy-nine LinkedIn posts from sixty-one accounts, scored thirty logo concepts, and kept one clear mark.
+
+6
+00:00:29,150 --> 00:00:34,250
+Then we measured: accessibility one hundred, a hundred tests, and a deployment verified by hash.
+
+7
+00:00:34,950 --> 00:00:39,400
+Outspoken. Founder-led LinkedIn marketing for B2B AI SaaS. Book an intro call.

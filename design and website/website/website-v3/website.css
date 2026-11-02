@@ -60,3 +60,5 @@
 .price-plan.is-featured .plan-art{box-shadow:0 14px 30px -18px rgba(0,0,0,.6)}
 /* R13: the plan art tile is absolutely positioned at the top right; keep the title clear of it so a narrow card wraps the title instead of hiding it */
 .price-plan h3{padding-right:128px}@media(max-width:800px){.price-plan .plan-art{width:96px;right:18px;top:18px}.price-plan h3{padding-right:112px}}
+/* R14: from 801 to 960 px the three plans and the header call to action need more room than the band gives them (titles hid behind the art tiles; the header button wrapped) */
+@media(min-width:801px) and (max-width:960px){.price-plans{grid-template-columns:1fr;max-width:680px;margin-inline:auto}.site-header .brand-wordmark{width:220px;height:auto}.site-header nav{gap:16px;padding-left:18px}.site-header .os-btn{white-space:nowrap;padding:0 16px}}

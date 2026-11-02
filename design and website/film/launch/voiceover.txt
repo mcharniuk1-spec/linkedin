@@ -1,0 +1,7 @@
+Outspoken is open. Every file lives in one public repository.
+The site, the design system, the research and the films sit side by side, so anyone can see how the work is made.
+Fifteen agent skills passed a security scan before we used them. Thirteen did not. Five more were written for this project.
+The stack is open too: React, Vite, Storybook, HyperFrames, Vercel and Neon.
+We studied two hundred and seventy-nine LinkedIn posts from sixty-one accounts, scored thirty logo concepts, and kept one clear mark.
+Then we measured: accessibility one hundred, a hundred tests, and a deployment verified by hash.
+Outspoken. Founder-led LinkedIn marketing for B2B AI SaaS. Book an intro call.

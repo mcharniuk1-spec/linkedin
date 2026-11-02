@@ -19,7 +19,19 @@
     "Archivo",
     "Inter"
   ],
-  "identity": "/assets/revisions/v5/identity/selected/lockup-gradient.svg",
+  "identity": "/assets/identity/v13/lockup-os.svg",
+  "identity_current": {
+    "status": "proposed; the owner chose the stencil OS mark on 2 November 2026; not accepted as identity",
+    "mark": "/assets/identity/v13/mark-os.svg",
+    "lockup": "/assets/identity/v13/lockup-os.svg",
+    "lockup_inverse": "/assets/identity/v13/lockup-os-inverse.svg",
+    "small_size_build": "/assets/identity/v13/mark-os-solid.svg",
+    "record": "design-system/identity-r13/ADAPTATION-R13.md"
+  },
+  "identity_earlier": {
+    "lockup": "/assets/revisions/v5/identity/selected/lockup-gradient.svg",
+    "note": "V5 and V10 microphone identity, kept as history; identity_views below describe it"
+  },
   "object_views": {
     "manifest": "../assets/revisions/v5/objects/manifest.json",
     "assets": 36,

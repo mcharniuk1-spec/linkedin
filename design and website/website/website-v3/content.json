@@ -245,6 +245,10 @@
         "answer": "OUTSPOKEN works with Europe-based founders of B2B AI SaaS companies, from seed to Series B, who know their product well and want the right buyers to understand it. It suits founders who will join regular interviews and approve what is published in their name."
       },
       {
+        "question": "How does the work start?",
+        "answer": "It starts with understanding the business: the product, the buyer, the alternatives and the evidence you already have, and agreeing the job LinkedIn should do. Then we choose the position and set the formats, workflow, permissions and measures before anything is written."
+      },
+      {
         "question": "How much does it cost?",
         "answer": "Indicative packages start with a €1,500 one-off Positioning Sprint, then €2,500 per month for Founder Presence and €3,900 per month for Founder + Company. Taxes, tools and media spend are extra, and the final scope is agreed together before work starts."
       },
@@ -259,6 +263,10 @@
       {
         "question": "Why work on a founder’s profile and not only a company page?",
         "answer": "For an early-stage company, buyers are also judging the people behind it. A founder can explain decisions and trade-offs in a personal voice, which a company page rarely does. We align both so they tell the same story."
+      },
+      {
+        "question": "What happens to the details I send through the form?",
+        "answer": "With your consent, they are stored in a private database and used to reply to your enquiry: your name, email, company, the service you choose and your message, plus your browser's user agent and a shortened hash of your network address for spam checks. The privacy page is still a draft."
       }
     ],
     "closing": {

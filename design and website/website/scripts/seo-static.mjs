@@ -95,6 +95,32 @@ ${faq.map(f => `- ${f.question} ${f.answer}`).join('\n')}
 - The people, posts and emails shown on the site are illustrative. No customer result is claimed.
 - We do not guarantee leads, rankings or sales.
 - Contact: use the form at ${SITE}/#contact (review edition: no call is booked and no email is sent).
+
+## Optional
+- [Full page text](${SITE}/llms-full.txt): every section of the page as plain text, including all answers and package details.
 `;
 fs.writeFileSync(path.join(dist, 'llms.txt'), llms);
-console.log(JSON.stringify({site: SITE, robots, jsonld: jsonld.length, noscript_bytes: noscript.length, files: ['robots.txt', 'sitemap.xml', 'llms.txt']}));
+
+// llms-full.txt: the same text as the no-JavaScript copy, as plain Markdown, so language models and answer engines get every section in one file
+const unesc = s => s.replace(/&quot;/g, '"').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&');
+const full = unesc(noscript.replace(/<\/?(noscript|main|section|ul)[^>]*>/g, '').replace(/<h1>/g, '\n# ').replace(/<h2>/g, '\n## ').replace(/<h3>/g, '\n### ').replace(/<li>/g, '- ').replace(/<\/(h1|h2|h3|li|p)>/g, '\n').replace(/<p>/g, '\n').replace(/<\/?strong>/g, '**').replace(/<[^>]+>/g, '')).replace(/\n{3,}/g, '\n\n').trim();
+fs.writeFileSync(path.join(dist, 'llms-full.txt'), `# OUTSPOKEN: full page text\n\n> ${content.home.seo.description}\n\nSource: ${SITE}/ (one-page site). People, posts and emails shown on the site are illustrative; no customer result is claimed.\n${full.replace(/^# /, '\n# ')}\n`);
+
+// Agentic Resource Discovery (ARD v0.91, proposal): /.well-known/ard.json lists agentic resources, here the repository's own agent skills.
+// Written only for the launch build (OUTSPOKEN_INDEXABLE=1), because ARD identifiers are bound to the publisher's domain and the review domain is temporary.
+const files = ['robots.txt', 'sitemap.xml', 'llms.txt', 'llms-full.txt'];
+if (INDEXABLE) {
+  const host = new URL(SITE).host, RAW = 'https://raw.githubusercontent.com/mcharniuk1-spec/linkedin/main/.claude/skills/';
+  const skills = [
+    ['outspoken-design-rules', 'Outspoken design rules', ['apply the Outspoken design system to a page', 'which colours and fonts does Outspoken use']],
+    ['outspoken-logo-icon-direction', 'Outspoken logo and icon direction', ['rebuild the Outspoken OS mark as vector', 'review Outspoken logo concepts']],
+    ['outspoken-film-build', 'Outspoken film build', ['build an Outspoken motion film', 'render and check an Outspoken video']],
+    ['outspoken-site-deploy', 'Outspoken site deploy', ['deploy the Outspoken review site', 'verify an Outspoken deployment by hash']],
+    ['update-run-linkedin', 'Outspoken LinkedIn run update', ['prepare a LinkedIn research packet', 'update the LinkedIn collection run']],
+  ];
+  const ard = {entries: skills.map(([id, name, queries]) => ({identifier: `urn:air:${host}:skills:${id}`, displayName: name, type: 'application/agent-skills+md', url: RAW + id + '/SKILL.md', representativeQueries: queries}))};
+  fs.mkdirSync(path.join(dist, '.well-known'), {recursive: true});
+  fs.writeFileSync(path.join(dist, '.well-known', 'ard.json'), JSON.stringify(ard, null, 2) + '\n');
+  files.push('.well-known/ard.json');
+}
+console.log(JSON.stringify({site: SITE, robots, jsonld: jsonld.length, noscript_bytes: noscript.length, files}));

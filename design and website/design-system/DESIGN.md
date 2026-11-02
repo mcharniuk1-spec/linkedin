@@ -132,3 +132,12 @@ The custom first O remains exact vector outlines. A licensed native-text compani
 The current 57-page book/PDF was regenerated for the owner’s solid-silver primary 2D correction. All 203 input hashes match current source, including the earlier PerspectiveVideo focus repair. The previous PDF, source map and amendment are preserved under `[dated-local-evidence-omitted]`. Current book checks passed 21/21; all 57 rendered page bounds and 186 images passed. The refreshed five critical PDF pages passed independent review. See the [solid-primary book recapture]([dated-local-evidence-omitted]).
 
 Portable packaging is verified separately by `[dated-local-evidence-omitted]` and the delivered `DELIVERY-MANIFEST.json`/`FILE-CHECKSUMS.json`. Canonical records verify implementation and remain frozen before packaging; no archive PASS or future ZIP hash is inferred here.
+
+## R13 and R14 additions (proposed, 2 November 2026)
+- **Identity:** the OS stencil mark (navy stencil O, Nickel 600 S, marigold slash) with the unchanged V5 outlined wordmark, chosen by the owner over the smooth alternate; not yet accepted as identity. Files and rules: `identity-r13/ADAPTATION-R13.md`. Use the stencil mark from 48 px mark height, the solid build below it; clear space equals the height of the slash.
+- **Nickel 600 `#666F7F`:** the text-grade silver for the S and SPOKEN on light grounds (4.56:1 on pearl, 5.07:1 on white). Nickel `#A9AFBA` stays for borders and rules only.
+- **Depth:** every home block uses the five layers in `DEPTH.md` (ground, far OS watermark, mid glow, slash seam, front card) with body text kept at 4.5:1 or better on the worst-case blend.
+- **801 to 960 px band:** the three price plans stack in one centred column (680 px) and the header uses a 220 px lockup with a tighter navigation, because three columns hid the plan titles behind their art tiles and the header button wrapped. Checked at 820 and 900 px; 1024 px keeps three columns.
+- **Plan titles:** always leave room for the art tile (`.price-plan h3` right padding), so a narrow card wraps the title instead of hiding it.
+- **Motion:** the launch film and the OS motion film (`film/launch/`, `film/motion-os/`) use one designed seam, a slash panel in the next ground colour with a marigold leading edge, and the brand ease.
+
