@@ -40,6 +40,7 @@ On the board the letters were set at 128 units. Measured with fontTools, "OS" at
 | Pearl `#F2F5FA` on deep navy `#0D1A3B` (inverse letters) | above 15:1 |
 | Lettering | Wordmark outline letters read `OUTSPOKEN` (9 paths, `data-letter` attributes). Monogram letters are the string `OS`. |
 | SVG well-formedness | All 7 SVG files parse as XML. |
+| Animation (`os-bracket-animated.svg`, headless Chrome, direct load) | At 0.1 s only the first arm has started (470 non-white pixels). After 5 s the full monogram is drawn (8,810). With `prefers-reduced-motion` forced, the full state shows at 0.1 s (8,810, equal to the end state). Delays are set per element, so they do not depend on child order. |
 | Rendering | Lockup, avatar, favicon, apple-touch and the 24 px build were rendered with headless Chrome and inspected at 4x. Letters clear the arms at every size. |
 
 ## Findings for the owner (not changed here)
