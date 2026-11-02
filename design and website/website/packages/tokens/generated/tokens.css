@@ -1,4 +1,4 @@
-/* Derived from design-system/tokens.json sha256 4eb19123ae3bad0e28bae2093322d3fad148bec9d3706a2431cbc6d4b5fb4392. Do not edit. */
+/* Derived from design-system/tokens.json sha256 c83cd89f47627f13bc44660482f91d415e7e3466ebcdd0f87261211a3f3b5a1c. Do not edit. */
 :root {
   --os-palette-navy: #162760;
   --os-palette-cobalt: #3157D5;
@@ -15,8 +15,12 @@
   --os-palette-marigold-900: #6A3D12;
   --os-palette-marigold-950: #472309;
   --os-palette-nickel: #A9AFBA;
+  --os-palette-silver-600: #666F7F;
   --os-palette-pearl: #F1F3F6;
   --os-palette-black: #101218;
+  --os-palette-inverse-light: #F2F5FA;
+  --os-palette-inverse-silver: #B9C7DA;
+  --os-palette-navy-deep: #0D1A3B;
   --os-color-text-primary: #162760;
   --os-color-text-inverse: #FFFFFF;
   --os-color-surface-base: #FFFFFF;
@@ -58,6 +62,9 @@
   --os-wordmark-out: #162760;
   --os-wordmark-spoken: #A9AFBA;
   --os-wordmark-spokenBlack: #101218;
+  --os-wordmark-spokenOnLight: #666F7F;
+  --os-wordmark-outInverse: #F2F5FA;
+  --os-wordmark-spokenInverse: #B9C7DA;
   --os-type-display-size_desktop: 68px;
   --os-type-display-size_phone: 42px;
   --os-type-display-weight: 400;

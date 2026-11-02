@@ -1,0 +1,146 @@
+/* DEPTH (OS identity, 2 Nov 2026, proposed). One layer recipe for every block of the one-page site:
+   1 ground (white / pearl / deep navy)  2 far layer (cropped OS stencil watermark + 22 px dots)  3 mid layer (soft glows behind the focal object)
+   4 edge (angled slash seam, echoing the 32 degree marigold slash of the mark)  5 front layer (hairline + two-stage shadow cards)  6 optional slow drift.
+   Background layers and pseudo-elements only: no content box changes size. Import this file LAST (after App) in main.tsx. See design-system/DEPTH.md. */
+
+:root{
+  --silver-600:#666F7F;
+  --depth-pearl:#F1F3F6;--depth-navy:#0D1A3B;--depth-navy-2:#162760;--depth-flood:#0B173C;
+  --depth-mark:url('/assets/identity/v13/mark-os-mono.svg');
+  --depth-mark-inverse:url('/assets/identity/v13/mark-os-mono-inverse.svg');
+  --depth-seam:clamp(26px,3vw,44px);
+  --depth-dots:radial-gradient(rgba(22,39,96,.07) 1px,transparent 1.5px) 0 0/22px 22px;
+  --depth-line:rgba(22,39,96,.12);
+  --depth-card-shadow:0 1px 2px rgba(22,39,96,.06),0 24px 48px -30px rgba(22,39,96,.38);
+  --depth-card-shadow-up:0 2px 4px rgba(22,39,96,.07),0 30px 56px -28px rgba(22,39,96,.46);
+  --depth-ease:cubic-bezier(.22,1,.36,1);
+}
+html body{background:#fff}
+
+/* ---------- 1 GROUND: alternating white, pearl and deep navy blocks ---------- */
+.xs{--xs-paper:#fff;background:#fff;overflow:clip}
+.xs__frame{background:linear-gradient(180deg,#fff,var(--depth-pearl))}
+.opinion-section,.m-opinions{background:var(--depth-pearl);background-image:var(--depth-dots)}
+.m-opinion-chapter{background:linear-gradient(180deg,var(--depth-pearl),#EBEFF3)}
+.pricing-section.section{background:#fff}
+.pricing-section.section{background-image:
+  radial-gradient(520px 420px at 50% 74%,rgba(49,87,213,.06),transparent 72%),
+  radial-gradient(420px 320px at 94% 4%,rgba(234,169,60,.08),transparent 72%),
+  var(--depth-dots)}
+.svc-section{background-image:
+  radial-gradient(900px 640px at 80% 380px,rgba(49,87,213,.06),transparent 72%),
+  radial-gradient(640px 520px at 6% 1500px,rgba(234,169,60,.06),transparent 72%),
+  radial-gradient(rgba(22,39,96,.1) 1px,transparent 1.5px);background-size:auto,auto,22px 22px;background-position:0 0,0 0,0 0;border-top-color:transparent}
+.contact-block{background:
+  radial-gradient(620px 520px at 78% 52%,rgba(49,87,213,.08),transparent 72%),
+  radial-gradient(520px 420px at 6% 100%,rgba(234,169,60,.08),transparent 72%),
+  radial-gradient(90% 130% at 76% 26%,var(--depth-navy-2) 0%,var(--depth-navy) 64%)}
+.site-footer{background:#fff}
+/* full-bleed grounds above 1600 px: same inner width as before, no boxed band edge on wide screens */
+.pricing-section.section,.svc-section.section{max-width:none;padding-inline:max(var(--gutter),calc((100% - 1600px)/2 + var(--gutter)))}
+
+/* ---------- 2 FAR LAYER: cropped OS stencil, one per block, different place each time ---------- */
+.xs{--wm-img:var(--depth-mark);--wm-col:rgba(22,39,96,.05);--wm-pos:right -16vw top 110px;--wm-size:min(1080px,70vw)}
+.why{--wm-img:var(--depth-mark-inverse);--wm-col:rgba(242,245,250,.055);--wm-pos:left -20vw top 18%;--wm-size:min(1120px,76vw)}
+.opinion-section,.m-opinions{--wm-img:var(--depth-mark);--wm-col:rgba(22,39,96,.05);--wm-pos:right -12vw bottom 90px;--wm-size:min(940px,62vw)}
+.pricing-section{--wm-img:var(--depth-mark);--wm-col:rgba(22,39,96,.045);--wm-pos:left -14vw top 22%;--wm-size:min(880px,58vw)}
+.svc-section{--wm-img:var(--depth-mark);--wm-col:rgba(22,39,96,.04);--wm-pos:right -18vw top 640px;--wm-size:min(800px,54vw)}
+.contact-block{--wm-img:var(--depth-mark-inverse);--wm-col:rgba(242,245,250,.06);--wm-pos:46% 112%;--wm-size:min(1040px,70vw)}
+.site-footer{--wm-img:var(--depth-mark);--wm-col:rgba(22,39,96,.05);--wm-pos:right -6vw bottom -40px;--wm-size:min(440px,36vw)}
+.v7-opening-stage,.m-hero__scene{--wm-img:var(--depth-mark);--wm-col:rgba(22,39,96,.035);--wm-pos:left -9vw bottom -110px;--wm-size:min(860px,56vw)}
+.v7-shadow-cover{--wm-img:var(--depth-mark-inverse);--wm-col:rgba(242,245,250,.05);--wm-pos:right -10vw top 10%;--wm-size:min(900px,60vw)}
+.hero-v7.is-static .v7-film-scene,.mobile-home .m-chapter.is-reduced .m-hero__scene--v7 .m-hero__film{--wm-img:var(--depth-mark-inverse);--wm-col:rgba(242,245,250,.05);--wm-pos:right -8% bottom -12%;--wm-size:min(640px,70%)}
+
+:where(.xs,.why,.opinion-section,.m-opinions,.pricing-section,.svc-section,.contact-block,.site-footer,.v7-opening-stage,.m-hero__scene,.v7-shadow-cover,.hero-v7.is-static .v7-film-scene,.mobile-home .m-chapter.is-reduced .m-hero__scene--v7 .m-hero__film)::before{
+  content:"";position:absolute;left:0;right:0;top:-56px;bottom:-56px;z-index:-1;pointer-events:none;
+  -webkit-mask:var(--wm-img) no-repeat var(--wm-pos)/var(--wm-size) auto;mask:var(--wm-img) no-repeat var(--wm-pos)/var(--wm-size) auto;background:var(--wm-col)}
+.v7-opening-stage::before,.m-hero__scene::before,.v7-shadow-cover::before{top:0;bottom:0;z-index:0}
+.hero-v7.is-static .v7-film-scene::before,.mobile-home .m-chapter.is-reduced .m-hero__scene--v7 .m-hero__film::before{top:0;bottom:0;z-index:0;border-radius:inherit}
+/* sections that host the far layer need their own stacking context and a clip (clip keeps position:sticky working) */
+.opinion-section,.m-opinions,.pricing-section,.svc-section,.contact-block,.site-footer,.why{position:relative;isolation:isolate;overflow:clip}
+.hero-v7.is-static .v7-film-scene,.mobile-home .m-chapter.is-reduced .m-hero__scene--v7 .m-hero__film{position:relative;overflow:hidden}
+
+/* hero secondary text: one step darker so it keeps 4.5:1 on the worst-case hero ground (see DEPTH.md) */
+html .hero-people p,html .hero-people .audience-line,html .hero-people .m-hero__audience,html .v7-opening-cue,html .m-chapter-cue{color:#3A4A75}
+
+/* ---------- 3 MID LAYER: soft glows behind the focal object ---------- */
+.v7-opening-stage::after,.m-hero__scene::after{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;
+  background:radial-gradient(40% 56% at 74% 46%,rgba(49,87,213,.07),transparent 72%),radial-gradient(30% 40% at 6% 104%,rgba(234,169,60,.08),transparent 72%)}
+.v7-opening-stage .v7-shadow-cover,.m-hero__scene .v7-shadow-cover{background:
+  radial-gradient(46% 62% at 60% 56%,rgba(49,87,213,.08),transparent 72%),
+  radial-gradient(34% 40% at 96% 98%,rgba(234,169,60,.08),transparent 72%),
+  radial-gradient(80% 110% at 62% 46%,var(--depth-navy-2) 0%,var(--depth-flood) 66%)}
+.atmosphere-hero.hero-v7.is-static .v7-film-scene,.mobile-home .m-chapter.is-reduced .m-hero__scene--v7 .m-hero__film{background:
+  radial-gradient(46% 60% at 38% 62%,rgba(49,87,213,.08),transparent 72%),
+  radial-gradient(30% 40% at 96% 96%,rgba(234,169,60,.08),transparent 72%),
+  radial-gradient(90% 120% at 50% 40%,var(--depth-navy-2) 0%,var(--depth-flood) 70%)}
+/* pinned stages keep their glow with the stage */
+.xs__stage::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background:radial-gradient(40% 36% at 50% 62%,rgba(49,87,213,.06),transparent 72%),radial-gradient(26% 30% at 92% 94%,rgba(234,169,60,.08),transparent 72%),var(--depth-dots)}
+.xs.is-rail .xs__stage{position:relative}
+.opinion-stage::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
+  background:radial-gradient(46% 40% at 50% 62%,rgba(49,87,213,.07),transparent 72%),radial-gradient(28% 30% at 90% 8%,rgba(234,169,60,.09),transparent 72%)}
+.m-opinion-chapter::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background:radial-gradient(60% 40% at 50% 60%,rgba(49,87,213,.07),transparent 72%)}
+
+/* ---------- 4 EDGES: angled slash seam (previous block colour above a gently rising cut, nickel hairline, marigold 32 degree slash) ---------- */
+:where(.xs,.why,.opinion-section,.m-opinions,.pricing-section,.svc-section,.contact-block,.site-footer)::after{
+  content:"";position:absolute;left:0;right:0;top:0;height:var(--depth-seam);z-index:4;pointer-events:none;
+  background:
+    linear-gradient(to bottom right,transparent calc(50% - 1px),var(--marigold-500,#EAA93C) calc(50% - 1px) calc(50% + 1px),transparent calc(50% + 1px)) var(--gutter,72px) 0/calc(var(--depth-seam)*1.6) 100% no-repeat,
+    linear-gradient(to bottom right,transparent calc(50% - .5px),rgba(169,175,186,.95) calc(50% - .5px) calc(50% + .5px),transparent calc(50% + .5px)) 0 0/100% 100% no-repeat,
+    linear-gradient(to bottom right,var(--seam-prev,#fff) 50%,transparent 50%) 0 0/100% 100% no-repeat}
+.xs{--seam-prev:#fff}
+.atmosphere-hero:not(.is-static)+.xs{--seam-prev:var(--depth-flood)}
+.atmosphere-hero.is-static+.xs{--seam-prev:#EEF1F5}
+.m-hero+.m-flow--story .xs{--seam-prev:var(--depth-flood)}
+.m-hero.is-reduced+.m-flow--story .xs{--seam-prev:#EEF1F5}
+.why{--seam-prev:#fff}
+.opinion-section,.m-opinions{--seam-prev:var(--depth-navy)}
+.pricing-section{--seam-prev:var(--depth-pearl)}
+.svc-section{--seam-prev:#fff}
+.contact-block{--seam-prev:var(--depth-pearl)}
+.site-footer{--seam-prev:var(--depth-navy)}
+/* straight horizontal rules inside the service block become a slash-led hairline */
+.process-section,.faq-section,.site-footer>small{position:relative;border-top-color:transparent}
+.process-section::before,.faq-section::before,.site-footer>small::before{content:"";position:absolute;left:0;right:0;top:0;height:16px;pointer-events:none;
+  background:linear-gradient(to bottom right,transparent calc(50% - 1px),var(--marigold-500,#EAA93C) calc(50% - 1px) calc(50% + 1px),transparent calc(50% + 1px)) 0 0/26px 16px no-repeat,linear-gradient(rgba(22,39,96,.2),rgba(22,39,96,.2)) 26px 0/100% 1px no-repeat}
+
+/* ---------- 5 FRONT LAYER: hairline + two-stage soft shadow ---------- */
+.xs__frame{box-shadow:0 1px 2px rgba(22,39,96,.05),0 34px 64px -46px rgba(22,39,96,.36)}
+.xs-card{border:1px solid var(--depth-line);box-shadow:var(--depth-card-shadow)}
+.xs-card.is-active{border-color:var(--marigold-400);box-shadow:var(--depth-card-shadow-up),0 0 0 3px rgba(234,169,60,.14)}
+.mail-card{border-color:var(--depth-line);box-shadow:0 1px 2px rgba(22,39,96,.06),0 16px 30px -20px rgba(22,39,96,.4)}
+.mail-card:hover,.mail-card:focus-visible{box-shadow:var(--depth-card-shadow-up)}
+/* hairline drawn as an outside ring so the card keeps its exact box size (no layout change) */
+.price-plan{border-radius:18px;background:var(--depth-pearl);box-shadow:0 0 0 1px var(--depth-line),var(--depth-card-shadow)}
+.price-plan.is-featured{background:var(--depth-navy-2);border-top-color:rgba(185,199,218,.45);box-shadow:0 0 0 1px rgba(22,39,96,.9),0 2px 4px rgba(13,26,59,.2),0 34px 60px -30px rgba(13,26,59,.62)}
+.svc{border-color:var(--depth-line);box-shadow:0 1px 0 rgba(255,255,255,.9) inset,0 1px 2px rgba(22,39,96,.05),0 30px 60px -42px rgba(22,39,96,.5)}
+.svc-def,.svc-index ol{box-shadow:0 1px 2px rgba(22,39,96,.05),0 20px 40px -30px rgba(22,39,96,.45)}
+.publication-card{border-color:var(--depth-line);box-shadow:0 1px 2px rgba(22,39,96,.06),0 22px 50px -32px rgba(13,28,66,.4)}
+.why__card{box-shadow:0 1px 2px rgba(0,0,0,.28),0 20px 48px -24px rgba(0,0,0,.55),0 1px 0 rgba(255,255,255,.08) inset}
+.why__card:hover,.why__card:focus-visible{box-shadow:0 2px 4px rgba(0,0,0,.3),0 26px 60px -24px rgba(0,0,0,.62),0 0 28px rgba(234,169,60,.1)}
+.contact-block form{box-shadow:0 2px 4px rgba(0,0,0,.25),0 40px 80px -36px rgba(0,0,0,.7),0 0 0 1px rgba(255,255,255,.5) inset}
+.opinion-dialog,.hero-post-dialog{box-shadow:0 2px 6px rgba(4,13,35,.2),0 35px 100px rgba(4,13,35,.34)}
+
+/* ---------- 6 optional slow drift: only where supported and motion is allowed; static fallback is complete ---------- */
+@keyframes depth-drift{from{translate:0 -48px}to{translate:0 48px}}
+@supports (animation-timeline:view()){
+  @media (prefers-reduced-motion:no-preference) and (min-width:801px){
+    :is(.why,.pricing-section,.svc-section,.contact-block)::before{animation:depth-drift linear both;animation-timeline:view();animation-range:cover 0% cover 100%}
+    /* tall pinned blocks keep the far layer pinned to the viewport instead (slower than the content that slides over it) */
+    .xs::before,.opinion-section::before{position:sticky;top:0;bottom:auto;left:auto;right:auto;display:block;height:100dvh;margin-bottom:-100dvh}
+  }
+}
+
+/* ---------- phones: smaller watermark, no drift, no pinning, shorter seam ---------- */
+@media(max-width:800px){
+  :root{--depth-seam:clamp(20px,5.6vw,28px)}
+  :is(.xs,.why,.opinion-section,.m-opinions,.pricing-section,.svc-section,.contact-block,.site-footer,.v7-opening-stage,.m-hero__scene){--wm-size:84vw}
+  .xs{--wm-pos:right -30vw top 70px}.why{--wm-pos:left -34vw top 22%}.m-opinions{--wm-pos:right -28vw bottom 60px}.pricing-section{--wm-pos:left -32vw top 18%}.svc-section{--wm-pos:right -34vw top 540px}.contact-block{--wm-pos:50% 108%}.site-footer{--wm-size:60vw;--wm-pos:right -14vw bottom -20px}
+  .m-hero__scene{--wm-pos:left -26vw bottom -20px}
+  .svc-section.section,.pricing-section.section{padding-inline:var(--m-pad,24px)}
+  .xs__stage::before{background:radial-gradient(70% 30% at 50% 58%,rgba(49,87,213,.06),transparent 72%),var(--depth-dots)}
+  .process-section::before,.faq-section::before,.site-footer>small::before{height:12px;background-size:20px 12px,100% 100%,auto;background-position:0 0,0 0,0 0}
+}
+@media(max-width:800px){.process-section::before,.faq-section::before,.site-footer>small::before{background:linear-gradient(to bottom right,transparent calc(50% - 1px),var(--marigold-500,#EAA93C) calc(50% - 1px) calc(50% + 1px),transparent calc(50% + 1px)) 0 0/20px 12px no-repeat,linear-gradient(rgba(22,39,96,.2),rgba(22,39,96,.2)) 20px 0/100% 1px no-repeat}}
+@media(prefers-reduced-motion:reduce){:is(.xs,.why,.opinion-section,.pricing-section,.svc-section,.contact-block)::before{animation:none}}

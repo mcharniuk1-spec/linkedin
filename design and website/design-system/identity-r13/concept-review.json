@@ -1,0 +1,689 @@
+{
+ "method": "three independent reviewers (brand designer, legibility specialist, systems engineer), 30 concepts, six criteria scored 1-5, same ten boards; not told any preferred concept",
+ "criteria": [
+  "reads_os",
+  "palette",
+  "small_size",
+  "wordmark_fit",
+  "distinct",
+  "vector_ready"
+ ],
+ "top5_votes": [
+  [
+   "LOGO-06-L",
+   3
+  ],
+  [
+   "LOGO-04-L",
+   3
+  ],
+  [
+   "LOGO-05-R",
+   2
+  ],
+  [
+   "LOGO-03-L",
+   2
+  ],
+  [
+   "LOGO-08-R",
+   2
+  ],
+  [
+   "LOGO-04-R",
+   2
+  ],
+  [
+   "LOGO-03-R",
+   1
+  ]
+ ],
+ "concepts": [
+  {
+   "id": "LOGO-04-L",
+   "mean_total": 26.33,
+   "means": {
+    "reads_os": 5.0,
+    "palette": 5.0,
+    "small_size": 4.33,
+    "wordmark_fit": 4.67,
+    "distinct": 3.0,
+    "vector_ready": 4.33
+   },
+   "min_reads_os": 5,
+   "lettering_errors": [
+    "none (rounded bold wordmark, no notch in first O)"
+   ],
+   "notes": [
+    "Heavy navy ring O and silver S with a marigold lens where they overlap. Reads OS at once. Bold and calm; the lens is the only small detail. Venn overlap is a common device.",
+    "Bold navy O ring and silver S that overlap, with a small marigold lens at the crossing. Both letters stay whole, the strokes are heavy, and there are few parts. Marigold is a true accent. Rounded geometry sits well beside a bold sans. The overlap lens is a common idea, so ownability is middling.",
+    "Best build candidate. Heavy navy ring O, grey S, one marigold lens at the overlap. Three flat colours, no hairlines, rounded-sans stroke weight matches the wordmark. Rebuild is circle plus S plus intersection. Overlap idea is somewhat common."
+   ]
+  },
+  {
+   "id": "LOGO-06-L",
+   "mean_total": 26.33,
+   "means": {
+    "reads_os": 4.0,
+    "palette": 5.0,
+    "small_size": 4.0,
+    "wordmark_fit": 5.0,
+    "distinct": 4.0,
+    "vector_ready": 4.33
+   },
+   "min_reads_os": 4,
+   "lettering_errors": [
+    "none (first O has no notch)",
+    "none (no notch in first O)"
+   ],
+   "notes": [
+    "Heavy rounded navy O, marigold diagonal cut, silver S. It matches the bold geometric sans, and the slash echoes the notch. Reads OS at once, with few parts. O is squat but it is lettering, not a frame.",
+    "Wide navy O with a diagonal notch, a marigold slanted bar, then a silver S with a clipped top. The notch repeats the wordmark's diagonal cut, so the mark and wordmark relate. Heavy strokes, few parts, and a true accent. The S top terminal is clipped but the S still reads.",
+    "Wide stadium O, marigold diagonal, grey S. The slash is the one accent and mirrors the notch in the first O of the wordmark, so the family builds easily: avatar can crop to O plus slash, animation can sweep the slash. Bold weights and consistent stroke. Slight risk of reading O/S."
+   ]
+  },
+  {
+   "id": "LOGO-08-R",
+   "mean_total": 24.01,
+   "means": {
+    "reads_os": 3.67,
+    "palette": 5.0,
+    "small_size": 4.0,
+    "wordmark_fit": 3.67,
+    "distinct": 3.0,
+    "vector_ready": 4.67
+   },
+   "min_reads_os": 3,
+   "lettering_errors": [
+    "none (chamfered face)",
+    "none (chamfered square face)"
+   ],
+   "notes": [
+    "Italic parallelogram O reads as 0S and looks sporty or esports. Marigold wedge is a good accent. Bold and clean but off the calm, premium brief.",
+    "Slanted navy O and silver S with a marigold wedge under them. Heavy strokes, big counters and clean straight edges. Reads OS with a small risk of 0S. The angular face is slightly harder than a round geometric sans.",
+    "Slanted parallelogram O, grey S and one marigold wedge. Three flat colours, pure straight-line geometry, easiest rebuild on any board. Italic slant gives motion for animation. Reads OS but O is boxy like a 0 and the wedge is a stock speed-line."
+   ]
+  },
+  {
+   "id": "LOGO-05-R",
+   "mean_total": 23.33,
+   "means": {
+    "reads_os": 3.33,
+    "palette": 5.0,
+    "small_size": 3.67,
+    "wordmark_fit": 3.0,
+    "distinct": 4.0,
+    "vector_ready": 4.33
+   },
+   "min_reads_os": 3,
+   "lettering_errors": [
+    "none (condensed wordmark)"
+   ],
+   "notes": [
+    "Condensed navy OS cut by a bold marigold diagonal. The cut echoes the notch in the wordmark's O and is ownable and bold. Condensed width needs adapting to the wide sans.",
+    "Heavy condensed O and S in the same navy, touching, with a marigold diagonal across both. Same colour and no gap invite an 08 read. The slash is a strong move but crosses the letters.",
+    "Fused condensed O and S cut by one marigold diagonal, which echoes the notch in the first O of the wordmark. Reads 0S or 08 to some viewers. Very few shapes, bold weights; rebuild is rectangles plus one cut. Narrow proportion is a fit risk."
+   ]
+  },
+  {
+   "id": "LOGO-03-L",
+   "mean_total": 21.67,
+   "means": {
+    "reads_os": 4.0,
+    "palette": 4.67,
+    "small_size": 3.0,
+    "wordmark_fit": 3.0,
+    "distinct": 3.33,
+    "vector_ready": 3.67
+   },
+   "min_reads_os": 4,
+   "lettering_errors": [
+    "Stencil wordmark: E and K are split by bridges and P is broken. Legible at large size, ambiguous at small size. No first-O notch.",
+    "Stencil wordmark: bridges in E, K and S make glyphs ambiguous at small sizes"
+   ],
+   "notes": [
+    "Stencil O with silver S and a marigold parallelogram. Bridge cuts echo the brand's notch-cut idea. All three colours are used correctly. Bridges may close up at 16 px.",
+    "Stencil navy O, silver S and a small marigold parallelogram. The mark is bold. If the stencil gaps fill in at 16 px it falls back to a plain O and S. The O could be read as a zero.",
+    "Stencil O with grey S and a marigold fragment reads OS. Stencil bridges close up at 24 px and clash with a clean geometric wordmark. Each cut is extra geometry to rebuild."
+   ]
+  },
+  {
+   "id": "LOGO-10-C",
+   "mean_total": 21.34,
+   "means": {
+    "reads_os": 2.0,
+    "palette": 5.0,
+    "small_size": 3.0,
+    "wordmark_fit": 3.67,
+    "distinct": 4.0,
+    "vector_ready": 3.67
+   },
+   "min_reads_os": 2,
+   "lettering_errors": [
+    "none (geometric sans wordmark)"
+   ],
+   "notes": [
+    "Bauhaus-style navy half-disc O, marigold quarter circle and silver S on a baseline. Most original and clean geometry, but the half disc reads as C or D, so it reads CS or GS.",
+    "Navy half-disc with a thin arc, a marigold quarter circle and a silver S. The left shape reads as C or G, so the pair reads CS or GS. Bold shapes and an ownable construction, but the O is not an O.",
+    "Half-disc navy O, marigold quarter-circle and a grey S with a flat bar. Interesting Bauhaus geometry but the O reads as D or half-circle, so it reads DS or CS. Simple circle segments rebuild well; the S joint is unclear."
+   ]
+  },
+  {
+   "id": "LOGO-04-R",
+   "mean_total": 21.33,
+   "means": {
+    "reads_os": 5.0,
+    "palette": 4.0,
+    "small_size": 4.0,
+    "wordmark_fit": 3.33,
+    "distinct": 2.0,
+    "vector_ready": 3.0
+   },
+   "min_reads_os": 5,
+   "lettering_errors": [],
+   "notes": [
+    "White OS reversed out of a navy blob with a marigold swoosh. Very legible. The blob container and swoosh are stock and cheap-looking, not matte-premium.",
+    "White O and S knocked out of a navy blob, with a marigold swoosh. The best contrast and the clearest letters. The blob and swoosh are generic, and this is a container, not lettering worked creatively. The swoosh is thin at 16 px.",
+    "White OS knocked out of a navy blob with a marigold swoosh; reads instantly and works as avatar. The blob outline is irregular, hand-drawn and reads like a stock chat bubble. Only usable if rebuilt as a regular superellipse."
+   ]
+  },
+  {
+   "id": "LOGO-05-L",
+   "mean_total": 20.34,
+   "means": {
+    "reads_os": 3.67,
+    "palette": 4.67,
+    "small_size": 3.0,
+    "wordmark_fit": 2.33,
+    "distinct": 2.67,
+    "vector_ready": 4.0
+   },
+   "min_reads_os": 3,
+   "lettering_errors": [
+    "none (condensed face, no notch)",
+    "none (condensed wordmark)"
+   ],
+   "notes": [
+    "Tall condensed navy O with silver S, bracketed by marigold bars. Reads OS. The bars act like a frame and add small parts. Condensed letters sit against a wide geometric wordmark.",
+    "Tall condensed navy O and silver S between two marigold bars. Reads OS but the narrow O counter can read as a zero. The condensed proportions do not match a wide geometric sans.",
+    "Condensed O reads as zero (0S). Marigold bars add framing, close to the bracket idea. Rects and straight cuts are easy to rebuild, but condensed form clashes with the wide geometric wordmark."
+   ]
+  },
+  {
+   "id": "LOGO-03-R",
+   "mean_total": 20.33,
+   "means": {
+    "reads_os": 4.0,
+    "palette": 3.0,
+    "small_size": 3.0,
+    "wordmark_fit": 3.0,
+    "distinct": 3.33,
+    "vector_ready": 4.0
+   },
+   "min_reads_os": 4,
+   "lettering_errors": [
+    "Stencil wordmark: E and K break into pieces, ambiguous",
+    "Stencil wordmark: E and K broken by bridges, ambiguous at small size."
+   ],
+   "notes": [
+    "Octagonal navy O with a large marigold S. Chamfers and the diagonal cut are strong and ownable. Marigold dominates half the mark, and the O can read as a zero.",
+    "Octagonal navy O with a diagonal cut and a marigold S. Both letters read. Marigold carries half the mark, so it is not an accent. Chamfered octagon looks like a zero.",
+    "Octagonal navy O with a big marigold S reads OS. Polygon geometry rebuilds cleanly, but marigold is the dominant fill and the stencil gaps are fragile at 16 px."
+   ]
+  },
+  {
+   "id": "LOGO-01-L",
+   "mean_total": 19.67,
+   "means": {
+    "reads_os": 3.0,
+    "palette": 3.0,
+    "small_size": 4.0,
+    "wordmark_fit": 3.67,
+    "distinct": 2.0,
+    "vector_ready": 4.0
+   },
+   "min_reads_os": 3,
+   "lettering_errors": [
+    "none (first O has no diagonal notch)",
+    "none (first O in wordmark has no diagonal notch)"
+   ],
+   "notes": [
+    "Chunky overlapped rounded-square O with silver S; reads OS/CS. It is the squared-block type the owner rejected. No marigold, generic interlock.",
+    "Squared navy O overlapped by a boxy silver S. The right side of the O is hidden behind the S, so the pair can read as CS or a link chain. It is the square-type look the owner rejected. No marigold.",
+    "Two rounded-rect strokes overlapped; navy O half hidden by S so it reads CS or OS. Blocky square-type the owner rejected. Marigold absent. Rebuild is easy but overlap needs a defined knockout."
+   ]
+  },
+  {
+   "id": "LOGO-05-C",
+   "mean_total": 19.67,
+   "means": {
+    "reads_os": 4.0,
+    "palette": 3.0,
+    "small_size": 3.0,
+    "wordmark_fit": 2.67,
+    "distinct": 2.67,
+    "vector_ready": 4.33
+   },
+   "min_reads_os": 3,
+   "lettering_errors": [
+    "none (condensed wordmark, marigold underline)",
+    "none (marigold only on the underline, not the mark)"
+   ],
+   "notes": [
+    "Two slanted panels with knocked-out O and S. Clearest and cleanest geometry, but it is a boxed template, the container-type logo the owner dislikes. No marigold inside the mark.",
+    "Letters knocked out of two slanted panels, navy and silver. The O counter is a narrow pill, and the knockouts shrink at 16 px. The mark itself has no marigold. A fresh idea but not the easiest read.",
+    "Two skewed tiles with knocked-out O and S: the square-tile type the owner rejected. 0S read risk, no marigold in the mark. Geometry is easy but off-brief."
+   ]
+  },
+  {
+   "id": "LOGO-06-C",
+   "mean_total": 19.67,
+   "means": {
+    "reads_os": 3.0,
+    "palette": 4.0,
+    "small_size": 2.67,
+    "wordmark_fit": 3.33,
+    "distinct": 3.0,
+    "vector_ready": 3.67
+   },
+   "min_reads_os": 3,
+   "lettering_errors": [],
+   "notes": [
+    "Silver octagonal O, navy S, marigold chip above the join. The chip reads as an i-dot, so it can read as OiS. Colour order puts silver on the first letter and weakens contrast.",
+    "Silver octagonal O and navy S, with a marigold bar sitting above the join like a dot. It reads OiS or DS. The marigold bar makes the pair ambiguous.",
+    "Grey octagonal O with a marigold bar that acts as an i-dot, so it reads OiS or OS. Grey-led mark has weak contrast on a light ground; spikes on the S are fussy."
+   ]
+  },
+  {
+   "id": "LOGO-10-L",
+   "mean_total": 19.34,
+   "means": {
+    "reads_os": 4.67,
+    "palette": 5.0,
+    "small_size": 2.0,
+    "wordmark_fit": 2.0,
+    "distinct": 3.0,
+    "vector_ready": 2.67
+   },
+   "min_reads_os": 4,
+   "lettering_errors": [
+    "none (serif face)",
+    "none (serif wordmark)"
+   ],
+   "notes": [
+    "Large high-contrast serif O with silver S and a marigold slash. Strong colour order and an elegant overlap. The slash is thin and the hairline serifs fail at small size.",
+    "Large serif navy O and silver S cut by a marigold slash. A clear read. Serif hairlines, a thin slash and the overlap fail small. A serif pair beside a bold sans wordmark would clash.",
+    "Large serif O, grey S and a marigold slash. Palette is right and the cut is tidy, but serif hairlines and a thin slash fail at 16 px. Serif contrast needs a font to rebuild."
+   ]
+  },
+  {
+   "id": "LOGO-08-L",
+   "mean_total": 19.33,
+   "means": {
+    "reads_os": 2.0,
+    "palette": 4.33,
+    "small_size": 3.0,
+    "wordmark_fit": 3.0,
+    "distinct": 3.0,
+    "vector_ready": 4.0
+   },
+   "min_reads_os": 2,
+   "lettering_errors": [
+    "none (chamfered face)",
+    "none (chamfered square face, not the brand sans)"
+   ],
+   "notes": [
+    "Chamfered navy letter is open on its right side where the silver S overlaps, so it reads CS. The marigold corner wedge is a fair accent. The chamfered style is techy and sporty.",
+    "Navy octagonal glyph overlapped by a silver S. The O is open on the right and reads as a C, so the pair reads CS. The marigold triangle is a good accent.",
+    "Octagon O opens where the grey S overlaps, so it reads CS. Polygons rebuild easily and the marigold corner wedge is neat, but the O needs to close."
+   ]
+  },
+  {
+   "id": "LOGO-08-C",
+   "mean_total": 19.33,
+   "means": {
+    "reads_os": 3.0,
+    "palette": 4.33,
+    "small_size": 3.0,
+    "wordmark_fit": 3.0,
+    "distinct": 2.0,
+    "vector_ready": 4.0
+   },
+   "min_reads_os": 3,
+   "lettering_errors": [
+    "none (chamfered face)",
+    "none (chamfered square face)"
+   ],
+   "notes": [
+    "Rectangular O and S inside a hexagon shield with a marigold chevron. The O reads as a 0 or D. Shield and house form are generic, with a container logo feel.",
+    "Silver O and navy S inside a hexagon with a marigold chevron. The tall silver O reads like a zero or a D. Shield and hexagon are a stock container.",
+    "Grey rectangular O and navy S in a shield with a marigold chevron: defence-badge cliche, reads 0S. Container and many parts add rebuild and scaling work."
+   ]
+  },
+  {
+   "id": "LOGO-02-R",
+   "mean_total": 18.67,
+   "means": {
+    "reads_os": 5.0,
+    "palette": 4.67,
+    "small_size": 2.0,
+    "wordmark_fit": 2.0,
+    "distinct": 2.0,
+    "vector_ready": 3.0
+   },
+   "min_reads_os": 5,
+   "lettering_errors": [
+    "none (serif face)",
+    "none (serif wordmark)"
+   ],
+   "notes": [
+    "Most legible OS and the most premium feel here. It is a generic circled-monogram template with hairline arcs and serif, so it fails at small size and clashes with the sans wordmark.",
+    "Plain serif OS between two thin marigold arcs. It is the clearest read of the three serif boards, but the arcs and hairlines die at 16 px and the arc frame is generic.",
+    "Clearest OS read on any board, correct palette use, but it is a generic letter pair inside a hairline marigold ring. Serif hairlines and arcs vanish at 16 px. Letters are font glyphs, rings are easy."
+   ]
+  },
+  {
+   "id": "LOGO-06-R",
+   "mean_total": 18.33,
+   "means": {
+    "reads_os": 2.0,
+    "palette": 4.33,
+    "small_size": 2.67,
+    "wordmark_fit": 3.33,
+    "distinct": 3.0,
+    "vector_ready": 3.0
+   },
+   "min_reads_os": 2,
+   "lettering_errors": [],
+   "notes": [
+    "Navy letter is open on the right, so it reads C. Marigold crescent is a nice accent but turns the O into CS. Overlaps are hard to rebuild.",
+    "Navy open C, a marigold crescent and a silver S overlap, so it reads CS or COS. The O is lost. The crescent is thin at 16 px.",
+    "Navy C, marigold arc and grey S overlap; reads CS. Overlapping arcs need careful knockouts. The O is not closed."
+   ]
+  },
+  {
+   "id": "LOGO-02-C",
+   "mean_total": 18.0,
+   "means": {
+    "reads_os": 4.0,
+    "palette": 4.33,
+    "small_size": 2.0,
+    "wordmark_fit": 1.67,
+    "distinct": 3.0,
+    "vector_ready": 3.0
+   },
+   "min_reads_os": 4,
+   "lettering_errors": [
+    "none (serif face)",
+    "none (serif wordmark)"
+   ],
+   "notes": [
+    "O/S split by a hairline marigold slash. Palette use is good, but the slash is too thin to survive. It reads as O/S shorthand and the serif is off-brand.",
+    "Serif O and S split by a thin marigold slash. It reads O/S, a slash pair, and still gets read as OS. The slash is a hairline that vanishes small. Serif letters do not pair with a bold geometric sans.",
+    "O/S with a marigold slash reads like a fraction or O/S abbreviation. Hairline slash and serifs fail at small size. Serif contrast curves are hard to rebuild without the font."
+   ]
+  },
+  {
+   "id": "LOGO-01-C",
+   "mean_total": 17.67,
+   "means": {
+    "reads_os": 2.0,
+    "palette": 3.0,
+    "small_size": 3.0,
+    "wordmark_fit": 3.0,
+    "distinct": 2.67,
+    "vector_ready": 4.0
+   },
+   "min_reads_os": 2,
+   "lettering_errors": [
+    "none (no notch in first O)"
+   ],
+   "notes": [
+    "Hexagon C plus marigold S reads CS. Marigold covers half the mark, so it is no longer an accent. Hexagon frame is a stock shape.",
+    "The navy hexagon glyph is open on the right and reads as a C, so the pair reads CS. Marigold fills the whole S, which breaks the 'sparingly' rule. Silver is missing. Hexagon container is a stock shape.",
+    "Hexagon-C plus zigzag S reads CS, S looks like a 5 or Z. Marigold is a major fill, not an accent. Straight-line polygons are trivial to rebuild but the letter read fails."
+   ]
+  },
+  {
+   "id": "LOGO-07-C",
+   "mean_total": 17.67,
+   "means": {
+    "reads_os": 4.67,
+    "palette": 4.33,
+    "small_size": 1.0,
+    "wordmark_fit": 2.0,
+    "distinct": 1.0,
+    "vector_ready": 4.67
+   },
+   "min_reads_os": 4,
+   "lettering_errors": [
+    "none (light weight wordmark)",
+    "none (light weight)"
+   ],
+   "notes": [
+    "Thin OS inside marigold corner brackets. This is the plain bracket frame the owner rejected. Hairline strokes mean it will not survive small sizes and the template is generic.",
+    "Thin O and S inside marigold corner brackets. The most plain read, but it is exactly the square or bracket frame the owner asked to avoid, with hairlines.",
+    "Thin OS inside marigold corner brackets: exactly the square or bracket frame the owner rejected. Clean read and palette, but hairlines and a generic frame."
+   ]
+  },
+  {
+   "id": "LOGO-04-C",
+   "mean_total": 17.66,
+   "means": {
+    "reads_os": 3.0,
+    "palette": 4.33,
+    "small_size": 2.0,
+    "wordmark_fit": 2.67,
+    "distinct": 3.33,
+    "vector_ready": 2.33
+   },
+   "min_reads_os": 3,
+   "lettering_errors": [
+    "Wordmark is low-contrast silver. No spelling error.",
+    "Wordmark set in low-contrast silver; spelling correct."
+   ],
+   "notes": [
+    "O flows into S as a ribbon with a marigold wave. It reads as a loop or infinity plus S, not OS. Variable stroke and the wave are hard to vectorise.",
+    "The O stroke flows into the S, so it reads like an infinity loop or an alpha-S. The marigold wave and the thin joins fail at small sizes. Creative, but the letters lose clarity.",
+    "O flows into S through a marigold ribbon; reads OS or infinity-S. Thin swoosh and tapered terminals are free-form and fail at 16 px. Hard to rebuild without guessing curves."
+   ]
+  },
+  {
+   "id": "LOGO-01-R",
+   "mean_total": 17.0,
+   "means": {
+    "reads_os": 2.0,
+    "palette": 3.67,
+    "small_size": 2.33,
+    "wordmark_fit": 3.0,
+    "distinct": 3.0,
+    "vector_ready": 3.0
+   },
+   "min_reads_os": 2,
+   "lettering_errors": [
+    "none (no notch in first O)"
+   ],
+   "notes": [
+    "Disc cut into slices; the navy letter is an open C so it reads CS. Marigold fragments add noise. The cuts are clean but the letters are lost.",
+    "A circle sliced into a C, an S and marigold slivers. It reads CS. The thin white cut lines close up at 24 px and the marigold wedges turn into specks.",
+    "Circle sliced into C, S and marigold shards; reads CS. Thin gaps and slivers vanish at 24 px. Container-in-circle idea adds avatar logic but too many parts."
+   ]
+  },
+  {
+   "id": "LOGO-02-L",
+   "mean_total": 17.0,
+   "means": {
+    "reads_os": 4.0,
+    "palette": 3.33,
+    "small_size": 2.0,
+    "wordmark_fit": 2.0,
+    "distinct": 3.0,
+    "vector_ready": 2.67
+   },
+   "min_reads_os": 4,
+   "lettering_errors": [
+    "none (serif face, off-brand)",
+    "none (serif wordmark, not the brand sans)"
+   ],
+   "notes": [
+    "Elegant Didone O with silver S overlap. Hairline serifs fail at 16 px. Serif contrast clashes with a bold geometric sans. S tail pokes below the O.",
+    "Large serif O with a silver S crossing its lower right. Reads OS clearly at large size. Serif hairlines fail at 16 px. Bold sans wordmark would clash. No marigold.",
+    "High-contrast serif O with grey S overlap reads OS clearly. Hairline serifs and thin strokes die below 32 px; needs a font license or heavy redrawing. Wrong register next to a bold geometric sans."
+   ]
+  },
+  {
+   "id": "LOGO-07-L",
+   "mean_total": 16.66,
+   "means": {
+    "reads_os": 4.0,
+    "palette": 3.33,
+    "small_size": 1.0,
+    "wordmark_fit": 2.0,
+    "distinct": 2.0,
+    "vector_ready": 4.33
+   },
+   "min_reads_os": 4,
+   "lettering_errors": [
+    "none (light weight wordmark)",
+    "none (light weight, wide tracking)"
+   ],
+   "notes": [
+    "Monoline ring O with a silver S. Light and refined but hairlines fail at 24 px and 16 px, and it does not pair with a bold wordmark. No marigold.",
+    "Thin navy O ring crossed by a silver S. A clear read at large size. Hairline strokes fail at 24 px and 16 px. Light weight does not pair with a bold wordmark. No marigold.",
+    "Monoline O with a grey S overlap reads OS. Hairline stroke fails at 24 px and 16 px, and a light mark does not pair with a bold wordmark. Monoline circles are easy to rebuild."
+   ]
+  },
+  {
+   "id": "LOGO-09-R",
+   "mean_total": 16.33,
+   "means": {
+    "reads_os": 5.0,
+    "palette": 4.0,
+    "small_size": 2.0,
+    "wordmark_fit": 1.0,
+    "distinct": 1.0,
+    "vector_ready": 3.33
+   },
+   "min_reads_os": 5,
+   "lettering_errors": [
+    "none (italic serif face)",
+    "none (italic serif wordmark)"
+   ],
+   "notes": [
+    "Italic serif OS inside two swoosh arcs. Reads OS but it is a 1990s corporate ellipse template. Thin arcs and serif contrast fail at small size.",
+    "Italic serif OS inside a silver and a marigold swoosh orbit. A very clear read, but the orbit is the generic swoosh trope. Serif hairlines and thin arcs fail at 16 px.",
+    "Clear OS inside grey and marigold orbit swooshes; generic corporate swoosh that is hairline-thin at the tips. Italic serif clashes with a bold geometric wordmark."
+   ]
+  },
+  {
+   "id": "LOGO-07-R",
+   "mean_total": 16.0,
+   "means": {
+    "reads_os": 3.0,
+    "palette": 4.0,
+    "small_size": 1.0,
+    "wordmark_fit": 2.0,
+    "distinct": 3.0,
+    "vector_ready": 3.0
+   },
+   "min_reads_os": 3,
+   "lettering_errors": [
+    "none (light weight wordmark)",
+    "none (light weight)"
+   ],
+   "notes": [
+    "Calligraphic OS ligature with a marigold sweep through the S. It reads partly as an infinity loop. Variable hairline stroke is hard to vectorise and breaks at small size.",
+    "Thin O and S joined by a marigold ribbon. The O is open and the ribbon crossing reads like an alpha-S or an infinity sign. Hairlines vanish small.",
+    "Open O links to S through a marigold segment; reads CS or infinity-S. Variable-width calligraphic strokes plus hairlines mean guessing during rebuild."
+   ]
+  },
+  {
+   "id": "LOGO-03-C",
+   "mean_total": 15.34,
+   "means": {
+    "reads_os": 2.67,
+    "palette": 3.67,
+    "small_size": 2.0,
+    "wordmark_fit": 2.0,
+    "distinct": 2.67,
+    "vector_ready": 2.33
+   },
+   "min_reads_os": 2,
+   "lettering_errors": [
+    "Grey stencil wordmark has low contrast; E and K ambiguous",
+    "Stencil wordmark in low-contrast silver. E and K have breaks and are ambiguous."
+   ],
+   "notes": [
+    "Silver ring O overlapped by navy S with a marigold sliver. The overlap is muddy and the stencil gaps are fine. Hard to rebuild cleanly.",
+    "The silver O ring is partly covered by a navy S, so the O reads like a C. Silver on a pale ground has weak contrast. Stencil cuts and marigold fragments clutter the mark.",
+    "Grey ring O reads as C and overlaps the S; marigold fragment is stray. Overlaps plus stencil cuts make it the riskiest rebuild on the board."
+   ]
+  },
+  {
+   "id": "LOGO-09-L",
+   "mean_total": 14.34,
+   "means": {
+    "reads_os": 4.0,
+    "palette": 3.67,
+    "small_size": 2.0,
+    "wordmark_fit": 1.0,
+    "distinct": 1.0,
+    "vector_ready": 2.67
+   },
+   "min_reads_os": 4,
+   "lettering_errors": [
+    "none (italic serif face)",
+    "none (italic serif wordmark)"
+   ],
+   "notes": [
+    "Italic serif OS with a marigold swoosh. Stock corporate swoosh and a highlight on it add gloss, which breaks the matte rule. Italic serif clashes with the geometric sans.",
+    "Italic serif O and silver S under a marigold swoosh. A stock corporate swoosh. The swoosh has a gloss highlight, which breaks the matte rule. Italic serif hairlines fail small.",
+    "Italic serif OS with a stock swoosh. The marigold swoosh has a gloss highlight and a gradient, which breaks the matte rule. Swash and gradient cannot be rebuilt as flat vector without redesign."
+   ]
+  },
+  {
+   "id": "LOGO-09-C",
+   "mean_total": 13.33,
+   "means": {
+    "reads_os": 3.33,
+    "palette": 3.0,
+    "small_size": 2.0,
+    "wordmark_fit": 1.0,
+    "distinct": 2.0,
+    "vector_ready": 2.0
+   },
+   "min_reads_os": 3,
+   "lettering_errors": [
+    "none (italic serif face)",
+    "none (italic serif wordmark)"
+   ],
+   "notes": [
+    "Italic O over translucent silver panel and marigold stripe. Transparency makes a muddy dark overlap and gloss highlights. Palette is not matte or faithful.",
+    "Italic navy O and S over a silver parallelogram with a marigold edge. Overlaps show a darker transparency patch and a gloss streak on the marigold bar. These are hard to rebuild as flat vector.",
+    "Italic O and S over a grey parallelogram with a marigold edge. Transparency overlaps leave dark smudges and a glossy sliver. Letters are lost inside the panel."
+   ]
+  },
+  {
+   "id": "LOGO-10-R",
+   "mean_total": 13.33,
+   "means": {
+    "reads_os": 2.0,
+    "palette": 4.0,
+    "small_size": 1.0,
+    "wordmark_fit": 1.33,
+    "distinct": 3.0,
+    "vector_ready": 2.0
+   },
+   "min_reads_os": 2,
+   "lettering_errors": [
+    "Wordmark is low-contrast silver serif. No spelling error.",
+    "Wordmark is low-contrast silver serif; spelling correct."
+   ],
+   "notes": [
+    "Italic O with a hairline slash and a grey fragment reads as q/S or a percent sign. Marigold S is too big for an accent. Hairlines and fragments fail at small size.",
+    "Italic navy O with a hairline slash, a marigold S and a silver fragment. It reads 9/S, Q/S or a percent sign. The edge has a blur artefact. The hairline slash and silver fragment fail small.",
+    "Italic O split by a hairline slash with a stray grey fragment and marigold S reads %S or QS. Hairline slash, a visible smudge near the O top, and fragments make a rebuild guess-heavy."
+   ]
+  }
+ ]
+}

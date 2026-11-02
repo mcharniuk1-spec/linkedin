@@ -4,7 +4,9 @@ import './why-outspoken.css';
 
 /** OS-WEB-V10-002. Founder quote and cards: names, photos, roles and links are verified on arch-flow.dev; the quote is a proposed edit. */
 const ease=[.2,.8,.2,1] as const;
-const words=data.quote.split(/(\*[^*]+\*)/).filter(Boolean).flatMap(part=>{const accent=part.startsWith('*');return (part.replace(/\*/g,'').match(/\S+\s*/g)||[]).map(w=>({w,accent}))});
+const quoteParts=data.quote.split(/(\*[^*]+\*)/).filter(Boolean);
+// An accent part has no trailing space of its own: when the text after it starts with a space, keep that space on the accent's last word (the word regex below drops leading spaces).
+const words=quoteParts.flatMap((part,i)=>{const accent=part.startsWith('*'),tokens=part.replace(/\*/g,'').match(/\S+\s*/g)||[];if(accent&&tokens.length&&/^\s/.test(quoteParts[i+1]||''))tokens[tokens.length-1]=tokens[tokens.length-1].replace(/\s*$/,' ');return tokens.map(w=>({w,accent}))});
 
 export function WhyOutspoken(){
   const reduced=useReducedMotion(),still=reduced||new URLSearchParams(location.search).has('design');

@@ -583,6 +583,28 @@
     "vp": "We help Europe-based B2B AI SaaS founders turn their story and the business they\u2019re building into LinkedIn content that attracts the right buyers, earns their trust and gives them a reason to buy.",
     "cta": "Book an intro call"
   },
+  "r13_proposed_identity_2026_11_02": {
+    "status": "proposed; annotation only; owner acceptance of the final artwork not recorded",
+    "date": "2026-11-02",
+    "note": "R13 proposed. The OS stencil mark with the unchanged V5 outlined wordmark replaces the B01 microphone mark in the proposal under review. All V5 and V10 entries in this file stay as history and are not deleted.",
+    "served_assets": "/assets/identity/v13/",
+    "vector_sources": "identity-r13/",
+    "earlier_version": "B01 microphone identity (V10), kept at /assets/identity/v10/",
+    "origin": "Rebuilt as vector from a Codex concept (LOGO-03 left).",
+    "mark_viewbox": "184.16 x 100 (aspect 1.84:1)",
+    "small_size_rule": "Stencil mark at 48 px (mark height) and above; solid gap-closed build below.",
+    "wordmark_rule": "Unchanged V5 outline; never re-typeset.",
+    "clear_space": "Equal to the height of the marigold slash on every side.",
+    "proposed_tokens": {
+      "palette.silver-600": "#666F7F (Nickel 600): S and SPOKEN on light grounds; 4.56:1 on pearl #F1F3F6, 5.07:1 on white",
+      "palette.inverse-light": "#F2F5FA: O and OUT on dark grounds; 15.65:1 on #0D1A3B",
+      "palette.inverse-silver": "#B9C7DA: S and SPOKEN on dark grounds; 9.97:1 on #0D1A3B",
+      "palette.navy-deep": "#0D1A3B: dark ground for the inverse pair",
+      "wordmark.spokenOnLight / outInverse / spokenInverse": "aliases of the three tokens above"
+    },
+    "unchanged": "palette.nickel #A9AFBA and every V5 and V10 token, rule and protected copy string",
+    "brand_studio": "packages/showcase-v5/IdentityR13.tsx renders the identity section; styles in website-v3/brand-r13.css"
+  },
   "policy_ack": {
     "revision": "max-shared-2026-10-20.1",
     "receipt": "MAX-HARNESS2-b03ac794",

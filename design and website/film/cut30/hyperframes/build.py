@@ -219,11 +219,11 @@ S4_HTML = """
       <div id="s4-type" class="disp" style="font-size:78px;margin-top:34px;height:96px;white-space:nowrap"><span id="s4-txt"></span><span id="s4-caret" style="display:inline-block;width:6px;height:70px;margin-left:6px;background:#EAA93C;vertical-align:-6px"></span></div>
       <div style="display:grid;gap:16px;margin-top:20px"><div class="bar" style="width:94%%"></div><div class="bar" style="width:76%%"></div></div>
     </div>
-    <div id="s4-mark" style="position:absolute;left:840px;top:250px;width:170px;height:225px">
-      <i class="rg" style="position:absolute;left:-20px;top:20px;width:210px;height:210px;border:3px solid #EAA93C;border-radius:50%%;opacity:0"></i>
-      <i class="rg" style="position:absolute;left:-20px;top:20px;width:210px;height:210px;border:3px solid #EAA93C;border-radius:50%%;opacity:0"></i>
-      <i class="rg" style="position:absolute;left:-20px;top:20px;width:210px;height:210px;border:3px solid #EAA93C;border-radius:50%%;opacity:0"></i>
-      <img src="assets/brand/mark-b01.svg" alt="" style="position:absolute;inset:0;width:170px;height:225px">
+    <div id="s4-mark" style="position:absolute;left:410px;top:480px;width:260px;height:141px">
+      <i class="rg" style="position:absolute;left:40px;top:-20px;width:180px;height:180px;border:3px solid #EAA93C;border-radius:50%%;opacity:0"></i>
+      <i class="rg" style="position:absolute;left:40px;top:-20px;width:180px;height:180px;border:3px solid #EAA93C;border-radius:50%%;opacity:0"></i>
+      <i class="rg" style="position:absolute;left:40px;top:-20px;width:180px;height:180px;border:3px solid #EAA93C;border-radius:50%%;opacity:0"></i>
+      <img src="assets/brand/mark-os.svg" alt="" style="position:absolute;inset:0;width:260px;height:141px">
     </div>""" % SEL("voice.")
 S4_CSS = ""
 S4_JS = r"""
@@ -333,11 +333,11 @@ S6_JS = r"""
 S7_HTML = """
     <div class="deep"></div><div class="dots lt"></div>
     <svg id="s7-wave" width="1080" height="560" viewBox="0 0 1080 560" style="position:absolute;left:0;top:1380px;overflow:visible"></svg>
-    <div id="s7-mark" style="position:absolute;left:440px;top:230px;width:200px;height:265px">
-      <i class="rg" style="position:absolute;left:-60px;top:10px;width:320px;height:320px;border:4px solid #F3C15D;border-radius:50%%;opacity:0"></i>
-      <i class="rg" style="position:absolute;left:-60px;top:10px;width:320px;height:320px;border:4px solid #F3C15D;border-radius:50%%;opacity:0"></i>
-      <i class="rg" style="position:absolute;left:-60px;top:10px;width:320px;height:320px;border:4px solid #F3C15D;border-radius:50%%;opacity:0"></i>
-      <img src="assets/brand/mark-b01-inverse.svg" alt="" style="position:absolute;inset:0;width:200px;height:265px">
+    <div id="s7-mark" style="position:absolute;left:390px;top:281px;width:300px;height:163px">
+      <i class="rg" style="position:absolute;left:-10px;top:-78px;width:320px;height:320px;border:4px solid #F3C15D;border-radius:50%%;opacity:0"></i>
+      <i class="rg" style="position:absolute;left:-10px;top:-78px;width:320px;height:320px;border:4px solid #F3C15D;border-radius:50%%;opacity:0"></i>
+      <i class="rg" style="position:absolute;left:-10px;top:-78px;width:320px;height:320px;border:4px solid #F3C15D;border-radius:50%%;opacity:0"></i>
+      <img src="assets/brand/mark-os-inverse.svg" alt="" style="position:absolute;inset:0;width:300px;height:163px">
     </div>
     <div id="s7-head" class="disp" style="position:absolute;left:70px;top:560px;width:940px;font-size:92px;line-height:1.22;color:#F1F3F6;text-align:center">
       <span class="ln"><span class="w s7w">Make</span> <span class="w s7w">the</span> <span class="w s7w">right</span></span>
@@ -347,7 +347,7 @@ S7_HTML = """
     </div>
     <div id="s7-cta" style="position:absolute;left:260px;top:1040px;width:560px;height:116px;border-radius:58px;background:#F1F3F6;color:#162760;display:flex;align-items:center;justify-content:center;gap:18px;font-size:40px;font-weight:600">Book an intro call
       <svg width="30" height="30" viewBox="0 0 14 14" fill="none"><path d="M3 11 11 3M5 3h6v6" stroke="#162760" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-    <img id="s7-lock" src="assets/brand/lockup-b01-inverse.svg" alt="OUTSPOKEN" style="position:absolute;left:270px;top:1215px;width:540px;height:auto">
+    <img id="s7-lock" src="assets/brand/lockup-os-inverse.svg" alt="OUTSPOKEN" style="position:absolute;left:270px;top:1215px;width:540px;height:auto">
     <div id="s7-note" class="tag" style="position:absolute;left:0;right:0;top:1300px;text-align:center;font-size:28px;color:#A9AFBA;text-transform:none;letter-spacing:.02em">Illustrative film. People and posts are fictional.</div>""" % SEL("care")
 S7_CSS = ".s7w{will-change:transform,opacity}#s7-pw .sel{color:#162760}"
 S7_JS = r"""

@@ -23,7 +23,7 @@ const packages = pricing.packages;
 const jsonld = [
   {
     '@context': 'https://schema.org', '@type': 'Organization', '@id': SITE + '/#organization', name: 'OUTSPOKEN', url: SITE + '/',
-    logo: SITE + '/assets/identity/v10/mark-b01.svg', description: content.home.seo.description,
+    logo: SITE + '/assets/identity/v13/avatar-os-800.png', description: content.home.seo.description,
     founder: founders.founders.map(f => ({'@type': 'Person', name: f.name, jobTitle: f.role, sameAs: [f.href]})),
   },
   {'@context': 'https://schema.org', '@type': 'WebSite', '@id': SITE + '/#website', url: SITE + '/', name: 'OUTSPOKEN', inLanguage: 'en', publisher: {'@id': SITE + '/#organization'}},

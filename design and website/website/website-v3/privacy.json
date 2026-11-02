@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "status": "draft",
+    "banner": "Draft for owner and legal review. Not legal advice.",
+    "prepared": "2 November 2026",
+    "basis": "Written from the contact form (ContactBlock in website-v3/App.tsx), the lead function (deploy/vercel/api/lead.js) and the deployment notes (deploy/vercel/README.md), as they stood on 2 November 2026. Only facts found in those files are stated as facts. Everything else is a marked placeholder. Every placeholder in the sections is repeated word for word in open_questions.",
+    "show_open_questions_on_page": true
+  },
+  "eyebrow": "Privacy and data use",
+  "title": "What happens to the details you send.",
+  "intro": [
+    "This page covers one thing: the contact form on this site. It says what the form stores, where, and who can see it.",
+    "It is a working draft. Anything we could not confirm is marked in square brackets, like this: [Owner to confirm: ...]."
+  ],
+  "contents_label": "On this page",
+  "sections": [
+    {
+      "id": "what-we-store",
+      "heading": "What the form stores",
+      "paragraphs": [
+        "When you press Send message, the form sends these details to a small server function. If the checks pass, the function saves them as one row in a database table named leads."
+      ],
+      "fields": [
+        { "label": "Name", "text": "What you type. Required. Up to 120 characters." },
+        { "label": "Email", "text": "What you type. Required. It must look like an email address. Up to 200 characters." },
+        { "label": "Company", "text": "What you type. Optional. Up to 160 characters." },
+        { "label": "Where would you like to start?", "text": "One of five choices in the form. Saved as text, up to 80 characters." },
+        { "label": "Your context", "text": "What you type. Required. At least 10 and at most 4,000 characters. It is free text, so please keep sensitive details out of it." },
+        { "label": "Consent", "text": "Saved as \"yes\". The form cannot be sent without ticking the box, and the function refuses a message without it." },
+        { "label": "Source", "text": "A short label that the page adds itself. For this form it is \"website one-pager\"." },
+        { "label": "Time", "text": "The database keeps a date and time for each message (column created_at). The rate check below uses it." },
+        { "label": "Browser identification", "text": "Your browser sends a line of text that names the browser and system (the user agent). The function saves the first 300 characters." },
+        { "label": "Connection hash", "text": "A short code made from your network address. See the next sections." },
+        { "label": "Status", "text": "A column the owner can use to track follow-up. The form does not set it." },
+        { "label": "Reference number", "text": "The database gives every message an id. The function returns it to the page, and the page keeps it in the session storage of your browser tab. See \"What stays in your browser\"." }
+      ]
+    },
+    {
+      "id": "consent",
+      "heading": "What the consent box says",
+      "paragraphs": [
+        "The box next to the Send button reads:"
+      ],
+      "quote": "I agree that OUTSPOKEN stores these details to reply to my enquiry.",
+      "paragraphs_after": [
+        "The small print under the button says: \"Details are kept in a private database and are not shared. Ask us to delete them at any time.\"",
+        "[Owner to confirm: that \"not shared\" is accurate, because the hosting and database providers named below process the details for us.]"
+      ]
+    },
+    {
+      "id": "spam-checks",
+      "heading": "Spam checks and your network address",
+      "paragraphs": [
+        "The function does not save your network address (IP address) in readable form. It combines the address with a fixed piece of text, runs a one-way hash (SHA-256) over it, and keeps the first 24 characters of the result.",
+        "That code is saved with your message. Before saving a new message, the function counts the saved messages that have the same code and arrived in the last 10 minutes. If it finds 5 or more, it refuses the new message.",
+        "The code stays the same for the same connection, so it can link several messages from one connection to each other. The fixed text is in the public code, and the number of network addresses is limited. So a person with access to the database could work out the address by trying them all. This draft treats the code as personal data.",
+        "The form also has a hidden field that people do not see. Automated form fillers often fill it. If it holds anything, the function replies \"ok\" and saves nothing.",
+        "The function also checks that the request comes from this site (the Origin header). It does not save that header."
+      ]
+    },
+    {
+      "id": "where",
+      "heading": "Where the details are kept",
+      "paragraphs": [
+        "The site runs on Vercel. The function saves messages to a private Neon database (Postgres). The deployment notes record that project as being on Neon's free plan, in AWS us-west-2, which is a United States region.",
+        "The function connects with a secret connection string that is kept as a protected setting on Vercel. It is not in the public code. The deployment notes say the database role it uses can only add rows to the leads table and read them.",
+        "[Owner to confirm: the region of the Vercel function, and whether the database region stays us-west-2.]",
+        "[Owner to confirm: the companies that process these details for us (processors), the terms with each, and what to tell visitors about transfers outside their country.]"
+      ]
+    },
+    {
+      "id": "who-sees",
+      "heading": "Who can see it",
+      "paragraphs": [
+        "The function does not send your message to anyone. It sends no email and calls no service other than the database.",
+        "The owner reads messages in the Neon console, or through the Neon connector. The deployment notes say there is no notification email yet.",
+        "[Owner to confirm: who has access to the database and the Vercel project, and how that access is protected.]"
+      ]
+    },
+    {
+      "id": "retention",
+      "heading": "How long we keep it",
+      "paragraphs": [
+        "The function never deletes a message by itself. A message stays in the table until someone removes it.",
+        "[Owner to confirm: how long enquiries are kept, and when they are deleted if they do not lead to work.]"
+      ]
+    },
+    {
+      "id": "responsible",
+      "heading": "Who is responsible",
+      "paragraphs": [
+        "[Owner to confirm: the full name of the person or company that decides how these details are used (the controller).]",
+        "[Owner to confirm: the postal address of that person or company.]"
+      ]
+    },
+    {
+      "id": "requests",
+      "heading": "Your requests",
+      "paragraphs": [
+        "The form tells you to ask us if you want your details deleted. To do that, write to the address below and say which email address you used in the form.",
+        "[Owner to confirm: the email address for questions and for requests to see, correct or delete details.]",
+        "[Owner to confirm: how fast we reply, the steps for a deletion request, and which other rights to list.]"
+      ]
+    },
+    {
+      "id": "browser",
+      "heading": "What stays in your browser",
+      "paragraphs": [
+        "After a message is saved, the page keeps its reference number in the session storage of your browser tab, under the name outspoken-local-save. The browser clears it when you close the tab.",
+        "The contact form and the function set no cookies.",
+        "[Owner to confirm: whether the rest of the site uses cookies, analytics or other tools, and what the hosting provider logs about each visit, including network addresses.]"
+      ]
+    },
+    {
+      "id": "limits",
+      "heading": "What this page does not cover",
+      "paragraphs": [
+        "This draft covers the contact form only. It does not describe other ways to reach us, such as email or LinkedIn, or the rest of the site. It makes no claim that the site meets any privacy law.",
+        "[Owner to confirm: the legal basis for storing enquiries, and the wording of the consent box.]"
+      ]
+    }
+  ],
+  "open_questions_label": "Open questions for the owner",
+  "open_questions_note": "These are the same placeholders as above, in one list. Remove this block when the draft is approved.",
+  "open_questions": [
+    "Owner to confirm: that \"not shared\" is accurate, because the hosting and database providers named below process the details for us.",
+    "Owner to confirm: the region of the Vercel function, and whether the database region stays us-west-2.",
+    "Owner to confirm: the companies that process these details for us (processors), the terms with each, and what to tell visitors about transfers outside their country.",
+    "Owner to confirm: who has access to the database and the Vercel project, and how that access is protected.",
+    "Owner to confirm: how long enquiries are kept, and when they are deleted if they do not lead to work.",
+    "Owner to confirm: the full name of the person or company that decides how these details are used (the controller).",
+    "Owner to confirm: the postal address of that person or company.",
+    "Owner to confirm: the email address for questions and for requests to see, correct or delete details.",
+    "Owner to confirm: how fast we reply, the steps for a deletion request, and which other rights to list.",
+    "Owner to confirm: whether the rest of the site uses cookies, analytics or other tools, and what the hosting provider logs about each visit, including network addresses.",
+    "Owner to confirm: the legal basis for storing enquiries, and the wording of the consent box."
+  ],
+  "links": {
+    "home_label": "Back to the home page",
+    "home_href": "/",
+    "contact_label": "Go to the contact form",
+    "contact_href": "/#contact"
+  }
+}

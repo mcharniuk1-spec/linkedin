@@ -1,4 +1,4 @@
-/* Derived from design-system/tokens.json sha256 4eb19123ae3bad0e28bae2093322d3fad148bec9d3706a2431cbc6d4b5fb4392. Do not edit. */
+/* Derived from design-system/tokens.json sha256 c83cd89f47627f13bc44660482f91d415e7e3466ebcdd0f87261211a3f3b5a1c. Do not edit. */
 export const tokens = {
   "palette.navy": "#162760",
   "palette.cobalt": "#3157D5",
@@ -15,8 +15,12 @@ export const tokens = {
   "palette.marigold-900": "#6A3D12",
   "palette.marigold-950": "#472309",
   "palette.nickel": "#A9AFBA",
+  "palette.silver-600": "#666F7F",
   "palette.pearl": "#F1F3F6",
   "palette.black": "#101218",
+  "palette.inverse-light": "#F2F5FA",
+  "palette.inverse-silver": "#B9C7DA",
+  "palette.navy-deep": "#0D1A3B",
   "color.text.primary": "#162760",
   "color.text.inverse": "#FFFFFF",
   "color.surface.base": "#FFFFFF",
@@ -58,6 +62,9 @@ export const tokens = {
   "wordmark.out": "#162760",
   "wordmark.spoken": "#A9AFBA",
   "wordmark.spokenBlack": "#101218",
+  "wordmark.spokenOnLight": "#666F7F",
+  "wordmark.outInverse": "#F2F5FA",
+  "wordmark.spokenInverse": "#B9C7DA",
   "type.display.size_desktop": "68px",
   "type.display.size_phone": "42px",
   "type.display.weight": "400",
@@ -94,4 +101,4 @@ export const tokens = {
   "type.button.line_height": "1.2",
   "type.button.tracking_em": "0"
 } as const;
-export const sourceHash = '4eb19123ae3bad0e28bae2093322d3fad148bec9d3706a2431cbc6d4b5fb4392';
+export const sourceHash = 'c83cd89f47627f13bc44660482f91d415e7e3466ebcdd0f87261211a3f3b5a1c';

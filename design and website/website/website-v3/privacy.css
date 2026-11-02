@@ -1,0 +1,82 @@
+/* Privacy and data-use page (DRAFT). Mobile first. White ground, navy ink, marigold only for the draft notes and one quote bar.
+   Tokens come from website.css (:root). Reading width is about 68ch. */
+
+.privacy-page{background:var(--paper);color:var(--ink);padding:112px var(--gutter) 88px;min-height:80vh}
+.privacy-page__inner{max-width:1120px;margin:0 auto}
+
+.privacy-back{display:inline-flex;align-items:center;gap:8px;min-height:44px;font-size:15px;font-weight:600;text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px}
+.privacy-back:hover{text-decoration-thickness:2px}
+
+/* Head */
+.privacy-head{margin-top:20px;max-width:68ch}
+.privacy-head h1{font-size:clamp(38px,8.4vw,64px);line-height:1.04;max-width:16ch}
+.privacy-banner{display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px;margin:28px 0 24px;padding:14px 18px;background:var(--marigold-100);border:1px solid var(--marigold-300);border-radius:14px;font-size:15px;font-weight:600;line-height:1.45;max-width:68ch}
+.privacy-banner__tag{display:inline-block;padding:3px 10px;border-radius:999px;background:var(--ink);color:#fff;font:500 12px/1.5 var(--font-mono);letter-spacing:.09em;text-transform:uppercase}
+.privacy-lede{font-size:18px;line-height:1.65;max-width:68ch}
+.privacy-lede+.privacy-lede{margin-top:14px}
+
+/* Layout: one column on phones, contents rail on wide screens */
+.privacy-layout{display:grid;gap:8px;margin-top:20px}
+
+.privacy-toc{margin:20px 0 8px;padding:16px 20px 12px;background:#fff;border:1px solid var(--rule);border-radius:14px}
+.privacy-toc__label{margin:0 0 6px;font:500 12px/1.5 var(--font-mono);letter-spacing:.09em;text-transform:uppercase}
+.privacy-toc ol{list-style:none;margin:0;padding:0}
+.privacy-toc a{display:block;padding:9px 0;font-size:15px;line-height:1.35;text-decoration:none;border-top:1px solid var(--rule)}
+.privacy-toc li:first-child a{border-top:0}
+.privacy-toc a:hover{text-decoration:underline;text-underline-offset:5px}
+
+.privacy-body{max-width:68ch;min-width:0}
+
+/* Sections */
+.privacy-section{margin-top:44px;padding-top:32px;border-top:1px solid var(--rule);scroll-margin-top:96px}
+.privacy-section:first-child{margin-top:20px;border-top:0;padding-top:0}
+.privacy-section h2{font-size:clamp(26px,5.4vw,34px);line-height:1.12;margin-bottom:18px}
+.privacy-section p{max-width:68ch;font-size:17px;line-height:1.7}
+.privacy-section p+p{margin-top:14px}
+.privacy-section ol{padding-left:22px}
+
+/* Draft notes (placeholders) */
+.privacy-todo{display:inline;padding:1px 7px;background:var(--marigold-100);color:var(--ink);border:1px dashed var(--marigold-600);border-radius:6px;font-weight:500;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+
+/* Stored fields */
+.privacy-fields{margin:22px 0 0;padding:0;background:#fff;border:1px solid var(--rule);border-radius:18px;overflow:hidden;box-shadow:0 18px 40px -30px rgba(22,39,96,.35)}
+.privacy-fields__row{display:grid;gap:4px;padding:16px 20px;border-top:1px solid var(--rule)}
+.privacy-fields__row:first-child{border-top:0}
+.privacy-fields dt{font-size:15px;font-weight:600;line-height:1.4}
+.privacy-fields dd{margin:0;font-size:15px;line-height:1.6;color:#29375F}
+
+/* Consent quote */
+.privacy-quote{margin:22px 0;padding:20px 22px;background:#fff;border:1px solid var(--rule);border-left:4px solid var(--marigold-500);border-radius:14px}
+.privacy-quote p{font-family:var(--font-display);font-size:clamp(19px,4.6vw,23px);line-height:1.4;letter-spacing:-.01em}
+
+/* Open questions (review aid) */
+.privacy-open{padding:24px 22px 22px;background:var(--marigold-50);border:1px dashed var(--marigold-400);border-radius:18px}
+.privacy-section.privacy-open{margin-top:48px}
+.privacy-open li{margin-top:10px;font-size:15px;line-height:1.6}
+.privacy-open li:first-child{margin-top:16px}
+.privacy-open p{font-size:15px}
+
+.privacy-meta{margin-top:28px;font:500 12px/1.5 var(--font-mono);letter-spacing:.09em;text-transform:uppercase;color:#5B6A86}
+
+.privacy-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.privacy-actions .os-btn{flex:1 1 220px;max-width:320px}
+
+@media(min-width:640px){
+  .privacy-page{padding-top:140px}
+  .privacy-fields__row{grid-template-columns:200px minmax(0,1fr);gap:20px;padding:16px 24px}
+  .privacy-actions .os-btn{flex:0 0 auto}
+}
+
+@media(min-width:1000px){
+  .privacy-page{padding-top:156px;padding-bottom:120px}
+  .privacy-layout{grid-template-columns:240px minmax(0,68ch);gap:0 72px;justify-content:start;align-items:start}
+  .privacy-toc{position:sticky;top:112px;margin:0;padding:18px 0 0;background:none;border:0;border-radius:0}
+  .privacy-toc a{font-size:14px;padding:8px 0}
+  .privacy-body{max-width:none}
+}
+
+@media print{
+  .privacy-back,.privacy-toc,.privacy-actions{display:none}
+  .privacy-page{padding:0}
+  .privacy-fields{box-shadow:none}
+}

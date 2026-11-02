@@ -17,11 +17,11 @@ module.exports = async function handler(req, res) {
   let body = req.body;
   if (typeof body === 'string') { try { body = JSON.parse(body); } catch (e) { body = {}; } }
   if (!body || typeof body !== 'object') body = {};
-  if (body.website) return send(res, 200, { ok: true });                       // honeypot: bots fill it, people do not see it
-  const name = clean(body.name, 120), email = clean(body.email, 200), company = clean(body.company, 160), service = clean(body.service, 80), context = clean(body.context, 4000);
+  if (body.ref_code) return send(res, 200, { ok: true });                      // honeypot: bots fill it, people do not see it (the name avoids browser autofill hints such as "website")
+  const name = clean(body.name, 120), email = clean(body.email, 201), company = clean(body.company, 160), service = clean(body.service, 80), context = clean(body.context, 4000);
   const consent = body.consent === true || body.consent === 'true' || body.consent === 'on';
   if (!name) return send(res, 400, { error: 'Please add your name.' });
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) return send(res, 400, { error: 'Please add a valid email address.' });
+  if (email.length > 200 || !/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(email)) return send(res, 400, { error: 'Please add a valid email address.' });   // over-long input is rejected, never cut into a different address
   if (context.length < 10) return send(res, 400, { error: 'Please tell us a little more about what you are building.' });
   if (!consent) return send(res, 400, { error: 'Please confirm that we may store your details to reply.' });
   const cs = process.env.LEADS_DATABASE_URL;
@@ -34,6 +34,7 @@ module.exports = async function handler(req, res) {
     const rows = await sql(cs, 'insert into leads (name, email, company, service, context, consent, source, user_agent, ip_hash) values ($1,$2,$3,$4,$5,$6,$7,$8,$9) returning id', [name, email, company || null, service || null, context, true, clean(body.source, 80) || null, clean(req.headers['user-agent'], 300) || null, ipHash]);
     return send(res, 200, { ok: true, id: rows[0] && rows[0].id });
   } catch (e) {
+    console.error('lead save failed:', e && e.name);                                // error name only: no message, no connection string
     return send(res, 500, { error: 'The message could not be saved. Please try again in a moment.' });
   }
 };

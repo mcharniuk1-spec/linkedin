@@ -6,6 +6,7 @@ description: Review the logo and icon boards and microphone candidates, present 
 # Logo and icon directions: review, present, rebuild
 
 Selection record: on 31 Oct 2026 the client chose B01 (mark) and D05 (icons); vectors and the site integration are in `design-system/identity-v10/` and `assets/public/assets/identity/v10/` and are still proposed until final acceptance.
+Update 2 Nov 2026 (R13, proposed): the owner set aside the R12 bracket OS and asked for a letter-based OS mark from the Codex `EXTRA-LOGO` concepts. LOGO-03 left (stencil) was rebuilt as vector and applied to site, film and publication cards; LOGO-06 left (smooth) is the alternate in `assets/public/assets/identity/v13-smooth/`. Method, 30-concept panel scores, measurements and limits: `design-system/identity-r13/ADAPTATION-R13.md`. The B01 microphone mark above is the earlier version and stays in the repository. Do not change the mark again without a new owner selection.
 
 Inputs: the OS and OUTSPOKEN logo boards and icon boards named in the handoff, the V5 identity (`assets/public/assets/revisions/v5/identity/`), and the twenty microphone candidates R10 (contact sheet and shortlist under `assets/public/assets/identity/mic-candidates-r10/`; full-size originals are local to the owner). The OS monogram board is **superseded**. The live identity is now B01 (mark) + the V5 outlined wordmark, with D05 icons; the V5 capsule files stay in the repository as history only.
 

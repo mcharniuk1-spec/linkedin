@@ -23,3 +23,36 @@ A `create_deployment` call with `deploymentId` and a partial `files` list produc
 
 ## Lead capture (R12, 2 November 2026)
 The contact form posts to `/api/lead` (`api/lead.js`, a Node function with no dependencies). It validates the fields, checks the origin, drops honeypot submissions, limits each connection to 5 messages per 10 minutes and inserts into the private Neon (Postgres, free plan, AWS us-west-2) project `outspoken-leads`, table `leads` (id, created_at, name, email, company, service, context, consent, source, user_agent, ip_hash, status). The function uses the role `leads_writer`, which can only insert into and select from `leads`; its connection string is the **sensitive** environment variable `LEADS_DATABASE_URL` of the Vercel project (never in the repository). The deployment payload must contain `api/lead.js` and the `vercel.json` of this folder (its rewrite sends everything except `/api/` to `index.html`). Read leads in the Neon console (SQL editor) or through the Neon connector; there is no notification email yet. Leads are personal data: do not export them into the repository.
+
+## Reading leads, tests and notifications
+
+### Reading leads
+Open the Neon console, choose the project `outspoken-leads`, open the SQL editor and run:
+
+```sql
+select * from leads order by created_at desc;
+```
+
+The columns are `id`, `created_at`, `name`, `email`, `company`, `service`, `context`, `consent`, `source`, `user_agent`, `ip_hash` and `status`. The function writes every column except `id`, `created_at` and `status`. It never sets `status`; use it for your own follow-up notes. `ip_hash` is a 24-character SHA-256 hash of the sender's address plus a fixed text, used only for the rate limit; it is not a readable address, but treat it as personal data.
+
+The function's role (`leads_writer`) can only insert and select. To delete a lead on request, run `delete from leads where id = <id>;` in the console with the project owner role, after finding the row by email. Every lead is personal data: look at it in the console, never copy it into the repository, a chat or a screenshot that is committed.
+
+### Running the tests
+```
+cd deploy/vercel
+node --test test/lead.test.mjs
+```
+`node --test` with no argument also finds the file. On Node 22.23.1 the form `node --test test/` fails ("Cannot find module .../test"), because a folder argument is run as a file instead of being searched; name the file or pass no argument. The tests need Node 22 only: they use `node:test` and `node:assert`, no packages, no network and no real database. They load the real `api/lead.js` and replace `fetch` with a small in-memory stand-in for Neon, which also evaluates the 10-minute rate-limit window from the SQL text the function sends.
+
+They cover the method check, body parsing, the origin check, the honeypot field, every required field and its limit, the stored values and the parameterised SQL, the rate limit (the 6th message, other connections, window expiry), database failures, and the `LEADS_DATABASE_URL` variable (read at call time, safe 503 when missing). They do not cover real Postgres behaviour such as column types or role permissions; check those once in the Neon console. One test is marked `todo` on purpose: it records a known defect (a 201-character email is cut to 200 characters and can be stored as a different, valid-looking address; only a hand-made request can trigger it, because the form field is limited to 200). It runs and reports, but it does not fail the suite. Remove `todo` when the function is fixed.
+
+### Notifications (owner decision)
+There is no email when a lead arrives; leads sit in the table until someone looks. Whether to add a notification is the owner's decision. Two simple options, neither built yet:
+
+1. **Resend, one email per lead.** After the insert, `api/lead.js` posts to the Resend HTTPS API with an API key kept as a second sensitive Vercel environment variable. Send only "New enquiry" and the `id`, not the message text, so the mailbox does not become a second copy of the personal data.
+2. **Vercel cron digest.** A small function listed under `crons` in `vercel.json` runs once a day (check the current limits of the plan; the account is a personal scope), counts the rows added since the last run and sends one summary email through the same kind of provider.
+
+Either option adds a company that handles personal data. If one is chosen, add it to the processor list and update the privacy page draft (`website/website-v3/privacy.json`) before it goes live. The contact form stays the single place a visitor's details enter the system.
+
+### No real lead in the repository
+Never commit a real lead: no export, dump, screenshot, fixture or log line with a visitor's name, email, message or hash. The tests use fictional data (`ada@example.com`, `example.invalid` hosts and a dummy connection string); keep it that way. The real connection string lives only in the Vercel project settings.

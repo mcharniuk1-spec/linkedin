@@ -35,7 +35,7 @@ body.dark .cnt{{background:rgba(241,243,246,.1);border-color:rgba(241,243,246,.3
 .btn{{position:absolute;left:72px;display:inline-flex;gap:18px;align-items:center;padding:30px 52px;border-radius:999px;background:#F1F3F6;color:#162760;font:600 42px 'Mona Sans'}}
 .bar{{position:absolute;left:72px;height:62px;border-radius:14px;background:#C8D0DD}}.bar.hi{{background:#EAA93C}}.bl{{position:absolute;left:72px;font-size:34px;font-weight:600}}.bv{{position:absolute;font:500 34px 'Geist Mono'}}
 """
-LOCK = f"file://{ID}/v10/lockup-b01.svg"; LOCKI = f"file://{ID}/v10/lockup-b01-inverse.svg"
+LOCK = f"file://{ID}/v13/lockup-os.svg"; LOCKI = f"file://{ID}/v13/lockup-os-inverse.svg"
 
 def page(body_cls, inner, idx, total):
     lock = LOCKI if body_cls == "dark" else LOCK

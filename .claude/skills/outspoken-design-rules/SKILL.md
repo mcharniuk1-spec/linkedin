@@ -11,6 +11,7 @@ Truth lives in `design and website/design-system/` (`tokens.json`, `type-roles.j
 - **Type (OFL, bundled):** headings Fraunces 400 (-2 % tracking), text Mona Sans 400, buttons 600, labels Geist Mono 500 uppercase +9 %. No italics (roman files only), no arrow glyphs (draw SVG).
 - **Shape:** radii 6 / 10 / 14 px (x2 for film), hairline 1-2 px, one dominant focal object, no standalone service-icon row, no marigold corner arrows, no glossy 3D plates.
 - **Wordmark:** only the supplied outlined SVGs; never re-typeset; keep the first-O notch; no rotation, glow or scale > 6 %; inverse on navy, primary on pearl, never on marigold.
+- **Mark (R13, proposed):** the OS stencil mark with the unchanged V5 wordmark, only in the supplied lockups (`assets/identity/v13/`). Use the solid build below 48 px. On light grounds the S and SPOKEN use Nickel 600 `#666F7F` (4.56:1 on pearl); the old Nickel `#A9AFBA` is 2.2:1 on white and stays for borders and rules only. The marigold slash is an accent. See `design-system/identity-r13/ADAPTATION-R13.md`.
 - **Honesty:** fictional founders, accounts, posts and reviews carry a visible label; no invented statistics, clients, quotes, real people or guarantees; protected copy (hero line, value proposition, "Book an intro call", prices) is not edited without the owner.
 - **Motion:** brand ease `cubic-bezier(0.22,1,0.36,1)`; respect reduced motion on the website; film motion is frame-driven.
 - **Tokens:** change `tokens.json`, run `node scripts/generate-tokens.mjs` in `website/`, never hard-code hex values in components.

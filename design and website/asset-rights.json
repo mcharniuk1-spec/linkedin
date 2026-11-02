@@ -8227,8 +8227,8 @@
     {
       "path": "assets/public/assets/og/og-outspoken-1200x630.png",
       "repository_path": "design and website/assets/public/assets/og/og-outspoken-1200x630.png",
-      "sha256": "4d234d4f7b038f0eb6596fc5c4c9835dfcee8a21999e35d80c439912fb304293",
-      "bytes": 273361,
+      "sha256": "e4aff6f66f970488c9fff32b478dd7151b535ad1dc4de4a3d5620c475ee8124f",
+      "bytes": 280967,
       "source": "Open Graph card composed in HTML from owned assets (graded shadow figure h1-shadow.webp, B01 lockup, Fraunces/Mona Sans/Geist Mono OFL fonts) and rendered by headless Chrome on 2026-11-02; protected hero line unchanged",
       "rights_state": "owned",
       "evidence": [
@@ -9460,8 +9460,8 @@
     {
       "path": "assets/public/assets/publications-r12/p1-method-carousel-01.png",
       "repository_path": "design and website/assets/public/assets/publications-r12/p1-method-carousel-01.png",
-      "sha256": "9e1424f3ad914b37d307300a565329c06e3378dd4ba8ce950ebf4490a02046c3",
-      "bytes": 280323,
+      "sha256": "f82e6350bf8f79d146697fafd58cbc3208268f83b84ac45ed23b96f512565439",
+      "bytes": 279949,
       "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
       "rights_state": "owned",
       "evidence": [
@@ -9477,8 +9477,8 @@
     {
       "path": "assets/public/assets/publications-r12/p1-method-carousel-02.png",
       "repository_path": "design and website/assets/public/assets/publications-r12/p1-method-carousel-02.png",
-      "sha256": "6869acb5379303b7f38abc5f692e8e2cbe5f577ecfabbe60ebe8ecaaca8cb472",
-      "bytes": 328705,
+      "sha256": "4cf522aadbf59e71753c53f236f0214407f1ef81fc12fccdeb9f42c05ef555ee",
+      "bytes": 342159,
       "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
       "rights_state": "owned",
       "evidence": [
@@ -9494,8 +9494,8 @@
     {
       "path": "assets/public/assets/publications-r12/p1-method-carousel-03.png",
       "repository_path": "design and website/assets/public/assets/publications-r12/p1-method-carousel-03.png",
-      "sha256": "8f76c677aa3333638e2ae89683bc2dd3e8430a86ec263be80a6249a64a55c6a2",
-      "bytes": 348955,
+      "sha256": "1e743988131bb56aae36a660b39836de743032dd715669fa4634b0198f8c57c4",
+      "bytes": 349101,
       "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
       "rights_state": "owned",
       "evidence": [
@@ -9511,8 +9511,8 @@
     {
       "path": "assets/public/assets/publications-r12/p1-method-carousel-04.png",
       "repository_path": "design and website/assets/public/assets/publications-r12/p1-method-carousel-04.png",
-      "sha256": "fd302a1a775008cba8dfeede3111c5d5f0eb9ca38c12e8db1fc10f38223aa160",
-      "bytes": 335966,
+      "sha256": "df05d7e2a7054bf2ca909913b92ef8bca838ec7f4982bec712e993ccc38006c4",
+      "bytes": 336357,
       "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
       "rights_state": "owned",
       "evidence": [
@@ -9528,8 +9528,8 @@
     {
       "path": "assets/public/assets/publications-r12/p1-method-carousel-05.png",
       "repository_path": "design and website/assets/public/assets/publications-r12/p1-method-carousel-05.png",
-      "sha256": "174c5be1efeafbfc814c5adf27a62d847231427043c5f833c89634271da952a8",
-      "bytes": 344620,
+      "sha256": "b0d528e3c0f42d514dcde2231c67100613478d9c55f7c4cf06e173ebb31642a9",
+      "bytes": 344771,
       "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
       "rights_state": "owned",
       "evidence": [
@@ -9545,8 +9545,8 @@
     {
       "path": "assets/public/assets/publications-r12/p1-method-carousel-06.png",
       "repository_path": "design and website/assets/public/assets/publications-r12/p1-method-carousel-06.png",
-      "sha256": "4369fffbe269c7bf0443d3e74feee353c6ef66b097c50c548835eefb47e71858",
-      "bytes": 320559,
+      "sha256": "8cf315152f5d4e69694328ab885188ed4d6a80705248ed35b2404975efead3fc",
+      "bytes": 320688,
       "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
       "rights_state": "owned",
       "evidence": [
@@ -9562,8 +9562,8 @@
     {
       "path": "assets/public/assets/publications-r12/p1-method-carousel-07.png",
       "repository_path": "design and website/assets/public/assets/publications-r12/p1-method-carousel-07.png",
-      "sha256": "16e90ba2b3a1ef05f315bf937e4dbf3a5cf2e8635b9d55b2165dacbba3d8c319",
-      "bytes": 276682,
+      "sha256": "10ede063d7e283acdc21b2e0ffb84e9d5efc371736c9be78a587857243eab35e",
+      "bytes": 285884,
       "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
       "rights_state": "owned",
       "evidence": [
@@ -9579,8 +9579,8 @@
     {
       "path": "assets/public/assets/publications-r12/p2-belief-image-01.png",
       "repository_path": "design and website/assets/public/assets/publications-r12/p2-belief-image-01.png",
-      "sha256": "97b33989adbfefcead111621929fb093cdbe64ba233a02ae029f7e56330dbb3e",
-      "bytes": 411101,
+      "sha256": "89882c0425f0e6959130e8ff29c06d1e1eba0f0042ffd4ed2d76ea5b74f3c7bf",
+      "bytes": 411634,
       "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
       "rights_state": "owned",
       "evidence": [
@@ -9596,8 +9596,8 @@
     {
       "path": "assets/public/assets/publications-r12/p3-sample-carousel-01.png",
       "repository_path": "design and website/assets/public/assets/publications-r12/p3-sample-carousel-01.png",
-      "sha256": "e6e3491fcc462fd87b5777aca90173ca3723f6fb3d94a9ea06015441a0e067ef",
-      "bytes": 297049,
+      "sha256": "df7de657eb3e1efde25226d6b420530cb46e457b386e9b66cd30205ad7423746",
+      "bytes": 296632,
       "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
       "rights_state": "owned",
       "evidence": [
@@ -9613,8 +9613,8 @@
     {
       "path": "assets/public/assets/publications-r12/p3-sample-carousel-02.png",
       "repository_path": "design and website/assets/public/assets/publications-r12/p3-sample-carousel-02.png",
-      "sha256": "4b40cf69da410d56a7d23003dbb5bcdf6677789dfc94d7aceb0518769e28d7f8",
-      "bytes": 339664,
+      "sha256": "faa8eb5e2601160fba3ce501e79734ca55dcda4b92dc6398671b2da62f828c65",
+      "bytes": 343181,
       "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
       "rights_state": "owned",
       "evidence": [
@@ -9630,8 +9630,8 @@
     {
       "path": "assets/public/assets/publications-r12/p3-sample-carousel-03.png",
       "repository_path": "design and website/assets/public/assets/publications-r12/p3-sample-carousel-03.png",
-      "sha256": "0d704910ebffc474c7bc0d8dcb86c7e839740bac6d4a526fac123a7136d3f182",
-      "bytes": 364621,
+      "sha256": "8ce803ea4532c597ca033b66f61b10933f8b14f25a8b0fcb540ce60847b7bc5d",
+      "bytes": 364561,
       "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
       "rights_state": "owned",
       "evidence": [
@@ -9647,8 +9647,8 @@
     {
       "path": "assets/public/assets/publications-r12/p3-sample-carousel-04.png",
       "repository_path": "design and website/assets/public/assets/publications-r12/p3-sample-carousel-04.png",
-      "sha256": "fbaf400494f07d712c2d9010adff3ead0ea6d6c88910b06020af3cd2d2e3ddc4",
-      "bytes": 338221,
+      "sha256": "b1515937b0ab15816cfb055c12731a2bfa0d5e263b22cf03ade3392aafceb65a",
+      "bytes": 338237,
       "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
       "rights_state": "owned",
       "evidence": [
@@ -9664,8 +9664,8 @@
     {
       "path": "assets/public/assets/publications-r12/p3-sample-carousel-05.png",
       "repository_path": "design and website/assets/public/assets/publications-r12/p3-sample-carousel-05.png",
-      "sha256": "ea9f8930d3f69399fae51e35ba7dd96347947f9b542f1ee99ce7957a676bcd98",
-      "bytes": 378015,
+      "sha256": "d4b1e4b104d1c859db021b0e1e359d7d21c00986e9a2e1beda9af898e0c9ba99",
+      "bytes": 378038,
       "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
       "rights_state": "owned",
       "evidence": [
@@ -9681,8 +9681,8 @@
     {
       "path": "assets/public/assets/publications-r12/p3-sample-carousel-06.png",
       "repository_path": "design and website/assets/public/assets/publications-r12/p3-sample-carousel-06.png",
-      "sha256": "ba7ad879bb03cda3b590b9a23ff645af1ee5a549942cc7cd0c39b3fccf6a3eb9",
-      "bytes": 258460,
+      "sha256": "1b947341ad4632e78d1f2ddcb41e1e67a8bd46f5405863a244ad675846f89b5b",
+      "bytes": 258108,
       "source": "Rendered from HTML by scripts/make_publications.py with the design-system fonts and brand assets; numbers from reports/20261031/data.json",
       "rights_state": "owned",
       "evidence": [
@@ -9698,8 +9698,8 @@
     {
       "path": "assets/public/assets/publications-r12/p1-method-carousel.pdf",
       "repository_path": "design and website/assets/public/assets/publications-r12/p1-method-carousel.pdf",
-      "sha256": "d9debe9dc05f11dca43472d0604440e84ebac69e53bc681bcb00c632467c1cc8",
-      "bytes": 630669,
+      "sha256": "848290f5196df8e08fdf182a6438a816e48cacbbb42519beef78380808a3b7da",
+      "bytes": 631591,
       "source": "PDF assembled from the rendered publication slides (LinkedIn document format)",
       "rights_state": "owned",
       "evidence": [
@@ -9713,8 +9713,8 @@
     {
       "path": "assets/public/assets/publications-r12/p3-sample-carousel.pdf",
       "repository_path": "design and website/assets/public/assets/publications-r12/p3-sample-carousel.pdf",
-      "sha256": "f17b32a10ca3ce0cc6d999a361ecbdd213906c0fa51f686735e8a189209e28bd",
-      "bytes": 581349,
+      "sha256": "a9ef53049e623e6aad365b1da94418fbb1dd1f988c5da91b0c12309ab3894d60",
+      "bytes": 581257,
       "source": "PDF assembled from the rendered publication slides (LinkedIn document format)",
       "rights_state": "owned",
       "evidence": [
@@ -10002,6 +10002,1177 @@
         "Proposed; the owner chose direction A on 2 November 2026 but has not accepted a new identity.",
         "Companion mark only; does not replace the B01 microphone mark with the V5 wordmark.",
         "SPOKEN in nickel is 1.98:1 on pearl (primary wordmark rule); use the mono lockup for small reading sizes. No 16 px build."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/apple-touch-os-180.png",
+      "repository_path": "design and website/assets/public/assets/identity/v13/apple-touch-os-180.png",
+      "sha256": "4fd7dd12d23dbf64f33934f903a0104bc0187ae3a8b6d8333d8abef516b21bda",
+      "bytes": 4280,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/apple-touch-os.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/apple-touch-os.svg",
+      "sha256": "b486fbf2e290509349cd094824566d5b8339feed9cfff2e1705240f8e5099ca6",
+      "bytes": 4291,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/avatar-os-24.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/avatar-os-24.svg",
+      "sha256": "7e7e56685b0d08c2c1736fbf8df8cd8304771a58adb97404d57b51c2e4e57dd8",
+      "bytes": 3760,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/avatar-os-400.png",
+      "repository_path": "design and website/assets/public/assets/identity/v13/avatar-os-400.png",
+      "sha256": "7e9864c9a7dfddc623853b38053e36c06e2fef2b011062fce036a9784b571b71",
+      "bytes": 9392,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/avatar-os-800.png",
+      "repository_path": "design and website/assets/public/assets/identity/v13/avatar-os-800.png",
+      "sha256": "099b03a55664b7a97d2ec3e8efcdab25da6dc39f897fbb63b649709554a4a00e",
+      "bytes": 20410,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/avatar-os.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/avatar-os.svg",
+      "sha256": "95d0a42ed77899c5e189a90cfd5521ee6c89577e899a1ebf7550ec5dc8b7a00c",
+      "bytes": 4293,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/favicon-os-16-2x.png",
+      "repository_path": "design and website/assets/public/assets/identity/v13/favicon-os-16-2x.png",
+      "sha256": "d6e653973ec857f12977b72495d38b4bd5d1f9a6102698c81169e0571374ec69",
+      "bytes": 1168,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/favicon-os-16.png",
+      "repository_path": "design and website/assets/public/assets/identity/v13/favicon-os-16.png",
+      "sha256": "f6967d86c93647c1188d9b5d80f0bc1eba0d89d2bab2b091c9eb45227f1be317",
+      "bytes": 583,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/favicon-os-16.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/favicon-os-16.svg",
+      "sha256": "ff42245dfc9a2ffedaeee1dbefaa47b57cc36aef35424ac39e02f3976ccf3511",
+      "bytes": 3750,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/favicon-os-32.png",
+      "repository_path": "design and website/assets/public/assets/identity/v13/favicon-os-32.png",
+      "sha256": "04b52f7f353315ff5ccbab5231b8337b1094619ad5668bc9863e3bd5fee423d7",
+      "bytes": 1138,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/favicon-os-48.png",
+      "repository_path": "design and website/assets/public/assets/identity/v13/favicon-os-48.png",
+      "sha256": "90449223cc2e3f9d8650091629d9d70867b96a6116ab2ea39c7bb203b0dacb72",
+      "bytes": 1721,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/favicon-os-64.png",
+      "repository_path": "design and website/assets/public/assets/identity/v13/favicon-os-64.png",
+      "sha256": "668c9c7d5ba95ecc5ce4d898cb80ce272b4b345764bb6d471f20e912eae7ab1b",
+      "bytes": 2247,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/favicon-os.ico",
+      "repository_path": "design and website/assets/public/assets/identity/v13/favicon-os.ico",
+      "sha256": "5827edde91bc0d9ff187a46c764fa23a03d16d66fc507fb5eae585c6e8913488",
+      "bytes": 3496,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/favicon-os.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/favicon-os.svg",
+      "sha256": "3d8c86ce89298a23c4dea4bbe1f7d7697f3ddf095e20c80610e8af90abadeadc",
+      "bytes": 3752,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/lockup-os-3x.png",
+      "repository_path": "design and website/assets/public/assets/identity/v13/lockup-os-3x.png",
+      "sha256": "a612bdbba5bda939766194f5d9d2ece378be4ad450a0186f2854923690c159d5",
+      "bytes": 32311,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/lockup-os-inverse-ground.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/lockup-os-inverse-ground.svg",
+      "sha256": "bb9d5ae9a8d204a2d8aa2f31737803d83535181f03567863dafdd682feac74ca",
+      "bytes": 28678,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/lockup-os-inverse.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/lockup-os-inverse.svg",
+      "sha256": "e5d861fcbaee05e773788f727323098f70265b4772d9c48e4c59e42206282fc3",
+      "bytes": 28630,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/lockup-os-mono.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/lockup-os-mono.svg",
+      "sha256": "aa047ca44ba2273c8476fff2d68f44ce97917af13d2749411dc1920f7de50031",
+      "bytes": 28630,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/lockup-os-stacked-inverse-ground.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/lockup-os-stacked-inverse-ground.svg",
+      "sha256": "e51c68d9289c03f7b5840bbf83f6fce81763a8238aba61ac57eeb1daf8e7fe4b",
+      "bytes": 28696,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/lockup-os-stacked-inverse.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/lockup-os-stacked-inverse.svg",
+      "sha256": "d58359ef61f69071359ff983a5cfbbe5fae034ef35609d1eb1294cc950c67acc",
+      "bytes": 28647,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/lockup-os-stacked-mono.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/lockup-os-stacked-mono.svg",
+      "sha256": "71660fd08fe14b2704c10ebe5c1bf0749296d5d3ee96f9f669804e299109d0ce",
+      "bytes": 28647,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/lockup-os-stacked.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/lockup-os-stacked.svg",
+      "sha256": "0490b48fe6bb41264af73dc1dc9ee0f2f45a904d91f60625ec5ae36d6971b347",
+      "bytes": 28647,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/lockup-os.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/lockup-os.svg",
+      "sha256": "b7ec6f1068772e53d03784110ec87df40d07e674ad6a663e4a9bcd668eadaabf",
+      "bytes": 28630,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/mark-os-1200.png",
+      "repository_path": "design and website/assets/public/assets/identity/v13/mark-os-1200.png",
+      "sha256": "c77bd50803b2b9ca3318c7fb6119a10725f3b0c9edb7180ed764ca70c9af2da2",
+      "bytes": 41952,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/mark-os-animated.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/mark-os-animated.svg",
+      "sha256": "b6a8964f0f8a28c720bd515478f056b9b16a621d3863361efc509f932392522f",
+      "bytes": 4747,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/mark-os-inverse.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/mark-os-inverse.svg",
+      "sha256": "a87c4d8410bc5fd6abd02dd2963952e516bd655737a8d92b13a17ae55ea6ad74",
+      "bytes": 4188,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/mark-os-mono-inverse.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/mark-os-mono-inverse.svg",
+      "sha256": "88b8d760482e4eed80dc32deb97c3081fe0574ad2bb6d873d5b88528a45f5ecb",
+      "bytes": 4193,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/mark-os-mono.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/mark-os-mono.svg",
+      "sha256": "1771c498c374da8c653be434ace01ac60aa0e7221ff807000e3d9ca97873a199",
+      "bytes": 4185,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/mark-os-solid-inverse.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/mark-os-solid-inverse.svg",
+      "sha256": "7416cd927bbe3e38a83820ab3a4d081a6aa57e13570375173a3db0a765751861",
+      "bytes": 3675,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/mark-os-solid-mono-inverse.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/mark-os-solid-mono-inverse.svg",
+      "sha256": "c29761d6d115a0fb3603ba6dd346e81baf4b32eac55c19d97f42d2472505775b",
+      "bytes": 3675,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/mark-os-solid-mono.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/mark-os-solid-mono.svg",
+      "sha256": "47d088deed3d935b1d15a5bbb83b796aa1a8d17d4002acf1819180300604f203",
+      "bytes": 3675,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/mark-os-solid.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/mark-os-solid.svg",
+      "sha256": "bdb4adaa75e41d3c4cdd37a620508a8a67fbc781835fc45214e92d929a325ba1",
+      "bytes": 3675,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/mark-os.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/mark-os.svg",
+      "sha256": "964373e234493a4d4f288608a95b2889971e8c4432e7f116fa212346cf6253c1",
+      "bytes": 4179,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13/wordmark-nickel600.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13/wordmark-nickel600.svg",
+      "sha256": "f1a0789b32f720fb586c749cd9dfec3cf2b93012ffc8dfc965a12a0991f718a1",
+      "bytes": 24539,
+      "source": "Generated by design-system/identity-r13/build_stencil.py from os-stencil-paths.json (Codex concept LOGO-03 left, traced) with the unchanged V5 wordmark outlines; PNG and ICO rendered with headless Chrome.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Nickel 600 (#666F7F) is a proposed token. Use the solid build below 48 px mark height; 16 px reads as a silhouette."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/apple-touch-os-180.png",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/apple-touch-os-180.png",
+      "sha256": "6595c9e5129299036461cbf9423c32443f99e1fa3c1fc22575403240fdf880c0",
+      "bytes": 3288,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/apple-touch-os.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/apple-touch-os.svg",
+      "sha256": "70a88aa9ff3f529ff2f96b9882601ae850bec996c7c5af05d3875efc45f882ba",
+      "bytes": 4728,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/avatar-os-24.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/avatar-os-24.svg",
+      "sha256": "9dc5b39ee7fd10ba822732054ed2d1481e697a667f6630b6849eed28fe8494fb",
+      "bytes": 4730,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/avatar-os-400.png",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/avatar-os-400.png",
+      "sha256": "23747b9bdc64f2349d5a937b65eb681933be0ac42482a3cdeb50641816fa9f8d",
+      "bytes": 7557,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/avatar-os-800.png",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/avatar-os-800.png",
+      "sha256": "e3fdd0f160a15c04f1a8e20dd061b1e93f82ed8ec8e3ddb966c665a2cf6dd2db",
+      "bytes": 16883,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/avatar-os.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/avatar-os.svg",
+      "sha256": "4c04773b6f7b51c1f6dbfffd8f7f13e48001d6ea3b951f3c05ff55d111f28d0b",
+      "bytes": 4730,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/favicon-os-16-2x.png",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/favicon-os-16-2x.png",
+      "sha256": "a6caa152a9fd41693e204209f14fcb79c872f19d635ce7185cb6922ac26927c4",
+      "bytes": 923,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/favicon-os-16.png",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/favicon-os-16.png",
+      "sha256": "083a586b07b5d7ff53d7e21499d4593f343d6332c9408684938ae2a98057d064",
+      "bytes": 493,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/favicon-os-16.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/favicon-os-16.svg",
+      "sha256": "6d053febca63097b94348f4915f5c626a22541a2fe6c1af2762419a067c19db3",
+      "bytes": 4720,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/favicon-os-32.png",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/favicon-os-32.png",
+      "sha256": "307d4bb88c469c2659dc89d618ffe81e4df57b73a2d11b625b3e9f787cb19ebf",
+      "bytes": 910,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/favicon-os-48.png",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/favicon-os-48.png",
+      "sha256": "69e2059bb8eba6294e6aef37d2be61a8eae490f0f5c9919095a01fa656fd04a3",
+      "bytes": 1407,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/favicon-os-64.png",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/favicon-os-64.png",
+      "sha256": "09731659fb7873616bdc593a4aaba247a238702a6e51cb7def851ed4fba258a0",
+      "bytes": 1892,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/favicon-os.ico",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/favicon-os.ico",
+      "sha256": "4c03fbe4f8656c088a9428656e351a7c22d3514b1ffef41b94cb747bc4f3d64d",
+      "bytes": 2864,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/favicon-os.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/favicon-os.svg",
+      "sha256": "19b3b86274697442928983bcacc0bdf3fabcecc93c300aa1b9d122e629794c1f",
+      "bytes": 4722,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/lockup-os-3x.png",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/lockup-os-3x.png",
+      "sha256": "bd29d2eb396c9cf2236ef3da01108363f1637ee9c262f64dcb565997daee87b4",
+      "bytes": 34141,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/lockup-os-inverse-ground.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/lockup-os-inverse-ground.svg",
+      "sha256": "c793746390d43ed8d6b825e6a565a808668d2e891c13feef0da240c1bcf1b480",
+      "bytes": 29115,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/lockup-os-inverse.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/lockup-os-inverse.svg",
+      "sha256": "b7726c69eff8db02a15dc3caafcd1e48860cb8e57199a8e5cb24579b4d33fc33",
+      "bytes": 29067,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/lockup-os-mono.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/lockup-os-mono.svg",
+      "sha256": "9734de8cfd9c6390c2e19230e741a30627e94d4c89466925c19d4ed1c7fae9be",
+      "bytes": 29067,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/lockup-os-stacked-inverse-ground.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/lockup-os-stacked-inverse-ground.svg",
+      "sha256": "8b191e30cc8257178ae1f6d27fb2fc34275d693119341e1328ab597b71d0ced1",
+      "bytes": 29132,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/lockup-os-stacked-inverse.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/lockup-os-stacked-inverse.svg",
+      "sha256": "6acec7c25262af51419812cb32e96e942b07c8d1fe82b47dab639e1bc89b152c",
+      "bytes": 29083,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/lockup-os-stacked-mono.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/lockup-os-stacked-mono.svg",
+      "sha256": "df89173d0ca636573e6757b5e1b7c95a9eab26b660f6e34a055052e1fdf48197",
+      "bytes": 29083,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/lockup-os-stacked.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/lockup-os-stacked.svg",
+      "sha256": "06b25a2bbb55cccc8a73a496b634cda75fe7cb42ee19348cc5e5c293a9e78883",
+      "bytes": 29083,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/lockup-os.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/lockup-os.svg",
+      "sha256": "5eb3c4bef8382eec3965ab418dc25eaaf91a303c256ec3d15614b18658b6653d",
+      "bytes": 29067,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/mark-os-1200.png",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/mark-os-1200.png",
+      "sha256": "ec62bcefac56d04605546cab8b65d0289fe49de46bcd7f6b88fd7c42954ce27a",
+      "bytes": 31639,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/mark-os-animated.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/mark-os-animated.svg",
+      "sha256": "fd67f417e7d93c8e275a824fe5a5450636181888cda24c889b1fdf69b5e65bf1",
+      "bytes": 5185,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/mark-os-inverse.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/mark-os-inverse.svg",
+      "sha256": "218ebe27e62af069d14156fcfc8d681fd45543bd06220c5111649e55317b5007",
+      "bytes": 4635,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/mark-os-mono-inverse.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/mark-os-mono-inverse.svg",
+      "sha256": "5627009a99c74fb69eaa5dacd9531f302e5d1b3816568e47fb3d69a827de3205",
+      "bytes": 4640,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/mark-os-mono.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/mark-os-mono.svg",
+      "sha256": "92f237165e499aa33f6a787b5dfb1989df846e781c776a808ae18894d09a96d0",
+      "bytes": 4632,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/mark-os-solid-inverse.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/mark-os-solid-inverse.svg",
+      "sha256": "3a94988a6f7a353664b7a4cbb1e6c56581bf400f78df5696b4caaad74f770532",
+      "bytes": 4655,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/mark-os-solid-mono-inverse.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/mark-os-solid-mono-inverse.svg",
+      "sha256": "30a881ad9e7f56329f6f69ed9c7bb5e89f08f43e5775553ac1ecc1c1520a2db0",
+      "bytes": 4655,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/mark-os-solid-mono.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/mark-os-solid-mono.svg",
+      "sha256": "39e47af39b24f3f988e44482642ed216d5087835861320d3fb11497fd6883201",
+      "bytes": 4655,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/mark-os-solid.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/mark-os-solid.svg",
+      "sha256": "ea5ab6a80ff236a251d72b086f0455f4d6d08675905b140251232b46633104e5",
+      "bytes": 4655,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/mark-os.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/mark-os.svg",
+      "sha256": "c0cc6b7697cecc2a74f247be517121d1b9e77a010ac9a611f48ec96d82ab1751",
+      "bytes": 4626,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/identity/v13-smooth/wordmark-nickel600.svg",
+      "repository_path": "design and website/assets/public/assets/identity/v13-smooth/wordmark-nickel600.svg",
+      "sha256": "f1a0789b32f720fb586c749cd9dfec3cf2b93012ffc8dfc965a12a0991f718a1",
+      "bytes": 24539,
+      "source": "Generated by design-system/identity-r13/build_stencil.py --variant smooth from os-smooth-paths.json (Codex concept LOGO-06 left, traced) with the unchanged V5 wordmark outlines; alternate for owner choice.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Proposed; the owner set aside the R12 bracket mark on 2 November 2026 and asked for a letter-based OS mark; no new identity is accepted.",
+        "Rebuilt as vector from a Codex concept board; the V5 outlined wordmark paths are unchanged.",
+        "Alternate, not applied to the site; wide mark (2.77:1) is smaller in square tiles."
+      ]
+    },
+    {
+      "path": "assets/public/assets/og/og-outspoken-1200x630-v10.png",
+      "repository_path": "design and website/assets/public/assets/og/og-outspoken-1200x630-v10.png",
+      "sha256": "4d234d4f7b038f0eb6596fc5c4c9835dfcee8a21999e35d80c439912fb304293",
+      "bytes": 273361,
+      "source": "Previous share card (B01 identity), kept as history after the R13 share card replaced it.",
+      "rights_state": "owned",
+      "evidence": [
+        "design-system/identity-r13/ADAPTATION-R13.md"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Superseded by og-outspoken-1200x630.png; earlier identity."
       ]
     }
   ],

@@ -58,3 +58,5 @@
 .plan-art{position:absolute;right:22px;top:20px;width:112px;height:auto;border-radius:16px;box-shadow:0 14px 30px -22px rgba(22,39,96,.6)}
 .price-plan{position:relative}
 .price-plan.is-featured .plan-art{box-shadow:0 14px 30px -18px rgba(0,0,0,.6)}
+/* R13: the plan art tile is absolutely positioned at the top right; keep the title clear of it so a narrow card wraps the title instead of hiding it */
+.price-plan h3{padding-right:128px}@media(max-width:800px){.price-plan .plan-art{width:96px;right:18px;top:18px}.price-plan h3{padding-right:112px}}
