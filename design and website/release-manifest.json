@@ -24,8 +24,8 @@
   "files": [
     {
       "path": "HANDOFF.md",
-      "bytes": 12467,
-      "sha256": "37c6d34e9a95ad846c798fa6948e61c43fd4b0669306fa0483cb4f1bec46e096"
+      "bytes": 12608,
+      "sha256": "5cbd30bb4d988e69bf7fa600617f746cc8ba3d67d29e64e0c4eb88f99e21c25c"
     },
     {
       "path": "README.md",
@@ -3434,8 +3434,8 @@
     },
     {
       "path": "design-system/identity-r13/ADAPTATION-R13.md",
-      "bytes": 8630,
-      "sha256": "d128234af11e3f9ee7e6a977b195cf581ec2c72f1f66267b96bea6dbff093383"
+      "bytes": 8880,
+      "sha256": "ca10152af9b0a9d83d7381aeb35eea9e04167f38abc713eb8b6bb5c87137ecc9"
     },
     {
       "path": "design-system/identity-r13/apple-touch-os.svg",
@@ -4289,8 +4289,8 @@
     },
     {
       "path": "prompts/CLOUD-CLAUDE-R13.md",
-      "bytes": 8314,
-      "sha256": "81f42820d0bc33970287558b9696c97fe6416282e3e8026ae3838aa6cb43af8f"
+      "bytes": 8294,
+      "sha256": "16339304b21e504805db512509a3a61693269473ef39477c61d3f9ec807c79f8"
     },
     {
       "path": "qa/README.md",

@@ -23,6 +23,7 @@ Findings that hold across the panel: seven concepts read as something other than
 
 - **A (primary, built into the site): LOGO-03 left.** The owner attached it and its sibling as the wanted direction; it uses navy, Nickel silver and marigold exactly; it reads OS clearly. The panel ranked it fifth, mainly for stencil bridges at small size. That risk is handled by a gap-closed "solid" build for sizes under 48 px (section 5).
 - **B (alternate, same file structure): LOGO-06 left**, the panel's joint first choice and the smooth sibling of A (no bridges, larger slash). Files: `smooth/` and `assets/public/assets/identity/v13-smooth/`. Trade-off measured: A is compact (1.84 : 1) and fills square avatars and favicons better; B is wide (2.77 : 1) and suits horizontal lockups but gets small in a square tile.
+- **Owner decision, 2 November 2026: keep A (stencil).** B stays in the repository as a documented alternate and is not served by the site. This selects the mark; it does not accept the identity (acceptance is a separate owner step and stays false).
 - To switch the site to B, replace `/assets/identity/v13/` by `/assets/identity/v13-smooth/` in the site, film and publication sources, then rebuild. No other change is needed.
 
 ## 3. Rebuild method and fidelity
