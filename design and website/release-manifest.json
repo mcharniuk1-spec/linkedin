@@ -24,8 +24,8 @@
   "files": [
     {
       "path": "HANDOFF.md",
-      "bytes": 12100,
-      "sha256": "9efac4144d78d3c8a47fa56db5b0a0c9c8260f85df435900e3d1fbfd0579e8be"
+      "bytes": 12467,
+      "sha256": "37c6d34e9a95ad846c798fa6948e61c43fd4b0669306fa0483cb4f1bec46e096"
     },
     {
       "path": "README.md",
@@ -3249,8 +3249,8 @@
     },
     {
       "path": "deploy/vercel/README.md",
-      "bytes": 9318,
-      "sha256": "d2f3d2a6d0cd67fdc9af604c874b0417c301ad5962f81046232912cc3ece09a4"
+      "bytes": 11581,
+      "sha256": "6d320b2d80686544a2665835d6f1625876b15acc44ef5a36830e2da7e0066373"
     },
     {
       "path": "deploy/vercel/api/lead.js",
