@@ -24,13 +24,13 @@
   "files": [
     {
       "path": "HANDOFF.md",
-      "bytes": 16354,
-      "sha256": "547fa273dc76155f1653f9ec7bf0a33cda245094c7b8d7d88b33e66d5ddd49d1"
+      "bytes": 16632,
+      "sha256": "51a4e2f41d56befb6595676b57c2e32d84ce1b777149cfccde341b68ec2612b6"
     },
     {
       "path": "R15-INTEGRATION.md",
-      "bytes": 4215,
-      "sha256": "58af050bd8ccd7066fc5eddd1b0a9bbc3a7eb9ea49439a3e01ddbff412db7e58"
+      "bytes": 4670,
+      "sha256": "629bb65e47a72088511cf29b76f4f7cd30e1a0fd61ca5152bfcdb27d3a63771b"
     },
     {
       "path": "README.md",
@@ -3344,8 +3344,8 @@
     },
     {
       "path": "deploy/vercel/README.md",
-      "bytes": 11691,
-      "sha256": "eb3cc9c8cd5d970831f219fc782788547b6e7a4619b44bbcd7cc93564b8f671a"
+      "bytes": 12172,
+      "sha256": "ccb785d7f1b6c61b1b6d1649330e73908013c6134aa227e7404f7682e58369b8"
     },
     {
       "path": "deploy/vercel/api/lead.js",
@@ -4029,8 +4029,8 @@
     },
     {
       "path": "film/launch-r15/README.md",
-      "bytes": 4524,
-      "sha256": "1b37e5fd74bea999943043858f504ba6f643b5273cf298d49a533edba76b1dc3"
+      "bytes": 4521,
+      "sha256": "b08a4644935de597f1ff2cecdc2ceff5bd787a713c406e6af1356cba5e083f85"
     },
     {
       "path": "film/launch-r15/VOICEOVER.md",
@@ -4081,6 +4081,36 @@
       "path": "film/launch/voiceover.txt",
       "bytes": 687,
       "sha256": "1f1095948cde52e2d670caf894e22bb74a7ead481cd355efd8ca184e5692e0a5"
+    },
+    {
+      "path": "film/motion-os-r15/QA.md",
+      "bytes": 1411,
+      "sha256": "2e6ea7a372707c805c32d1b1f5771ace0a5d8d8bc84658bdb2cc7d30c3c19a36"
+    },
+    {
+      "path": "film/motion-os-r15/README.md",
+      "bytes": 2428,
+      "sha256": "4089036ed63f51b6a76a5f0e7ba1d70ebe5b470e409271f2a84adb54bd742e38"
+    },
+    {
+      "path": "film/motion-os-r15/VOICEOVER.md",
+      "bytes": 964,
+      "sha256": "7fab1e3338d2a94a37e98c37bc0ff4bc75724404a68cdc26bdcd248a63fa9b46"
+    },
+    {
+      "path": "film/motion-os-r15/build.py",
+      "bytes": 21956,
+      "sha256": "933e3953b79c9d053500939f4593f4db09cb95456277015c48f8325bd78780f4"
+    },
+    {
+      "path": "film/motion-os-r15/captions.srt",
+      "bytes": 365,
+      "sha256": "c7fbf8903f66e986bb1b297226893288d98a1c36c6adf45c95f0753433de5167"
+    },
+    {
+      "path": "film/motion-os-r15/voiceover.txt",
+      "bytes": 168,
+      "sha256": "4690581d5e37dc35a258d03ac549e0f64b59c6afa036ff7bb0f88d1a0af958c5"
     },
     {
       "path": "film/motion-os/README.md",
@@ -4519,8 +4549,8 @@
     },
     {
       "path": "prompts/CLOUD-CLAUDE-R15.md",
-      "bytes": 5724,
-      "sha256": "817c3a84cfbdb98b4164961cbe7442e6ac2fe51e1aa7a3ec2e000c689ab4bfea"
+      "bytes": 4791,
+      "sha256": "cfc1c77ae5feefdef8822d573a79d2a8ff19854886d2b5f297ad977b335a159e"
     },
     {
       "path": "qa/README.md",

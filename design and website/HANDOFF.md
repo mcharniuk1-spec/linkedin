@@ -45,5 +45,7 @@ This source snapshot is authorized for repository publication. It is not owner a
 - Site copy: `SITE-COPY-R15.json` applied to `content.json` and `service-details.json`; protected lines and `pricing.json` unchanged (checked byte for byte); FAQ merged to 13 questions, privacy and permission answers kept.
 - Motion: `design-system/motion-tokens.json` (proposed durations, easings, stagger, distances and transition rules).
 - Film: `film/launch-r15/` replaces the presentation-like launch film with one strand that turns into each stage (thought, interview, position, market, plan, create, conversations, packages). 42 s 16:9; check passed; QA PASS; 10 of 10 frames identical across two renders.
-- Deck: `offer-deck-r15/` (11 slides, HTML, PNG, PDF; fonts with OFL notices).
-- Held: the 48 generated images (no rights review; edge and glow flags), the 4:5 launch cut and the rebuilt OS motion film (prompt: `prompts/CLOUD-CLAUDE-R15.md`), Figma verification (Codex built nodes under the owner's account; Claude's seat is view-only and its readback was refused).
+- Film: `film/motion-os-r15/` rebuilds the OS motion film on its six R15 scenes, 28 s 4:5; check passed; QA PASS; deterministic.
+- Deck: `offer-deck-r15/` (11 slides, HTML; renders and fonts under `assets/offer-deck-r15/` with rights entries).
+- Deployed: Vercel production `dpl_4Upo1DvbrxGYxBZawjHmpn7EUzRn` from `26aa01d`; anonymous readback matched.
+- Held: the 48 generated images (no rights review; edge and glow flags), the 4:5 launch cut and the 16:9 OS motion composition (prompt: `prompts/CLOUD-CLAUDE-R15.md`), Figma verification (Codex built nodes under the owner's account; Claude's seat is view-only and its readback was refused).
