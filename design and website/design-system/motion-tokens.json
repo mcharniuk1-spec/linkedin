@@ -1,0 +1,14 @@
+{
+  "$description": "Proposed R15 motion tokens (Codex DESIGN-SYSTEM-REVIEW, 2 November 2026). Working values, not measured or owner-approved. Interactive UI uses them; films may use longer movements. prefers-reduced-motion: finished content visible at once, no parallax, no ongoing movement.",
+  "status": "proposed",
+  "duration": { "instant": "0ms", "micro": "160ms", "reveal": "320ms", "transform": "560ms", "scene": "800ms" },
+  "easing": { "standard": "cubic-bezier(.2,.7,.2,1)", "exit": "cubic-bezier(.4,0,1,1)", "in-out": "cubic-bezier(.45,0,.55,1)" },
+  "stagger": { "step": "60ms", "max-items": 5 },
+  "distance": { "small": "8px", "medium": "24px", "large": "48px", "mobile-max": "24px" },
+  "transitions": {
+    "shared-object": "Keep one parented anchor from source to destination; use a path morph or mask when the topology differs. No one-frame flash at the seam.",
+    "colour-field": "Move a clipped plane across the existing ground; no repeated full-width diagonal wipe. The ground settles fully and keeps tested text contrast.",
+    "card-clip": "Moving cards are clipped by their frame; no visible artificial entry line.",
+    "os-motion": "The selected stencil is the mask; the slash marks a decision and can carry into the next seam. Solid build below 48px; never re-typeset the wordmark."
+  }
+}

@@ -24,8 +24,13 @@
   "files": [
     {
       "path": "HANDOFF.md",
-      "bytes": 15148,
-      "sha256": "630a7543ac9ebe05488cd96045bf08ee6e133772da6d29fa1bda8a4963ae2474"
+      "bytes": 16354,
+      "sha256": "547fa273dc76155f1653f9ec7bf0a33cda245094c7b8d7d88b33e66d5ddd49d1"
+    },
+    {
+      "path": "R15-INTEGRATION.md",
+      "bytes": 4215,
+      "sha256": "58af050bd8ccd7066fc5eddd1b0a9bbc3a7eb9ea49439a3e01ddbff412db7e58"
     },
     {
       "path": "README.md",
@@ -34,13 +39,103 @@
     },
     {
       "path": "asset-rights.json",
-      "bytes": 600699,
-      "sha256": "8f2feccef6c759198e93a4fc914d7ba22a47cfc2c1757b3d754f481466b70315"
+      "bytes": 614983,
+      "sha256": "46d7e369e2b42a7189252361f4ea476beeb2de2fe87570cdcb780620b5f0e83a"
     },
     {
       "path": "assets/README.md",
       "bytes": 1126,
       "sha256": "a90e35385d4ba0cd12d97ed984a40b85b08d4e2c3e651869f932fc135c15f354"
+    },
+    {
+      "path": "assets/offer-deck-r15/fonts/FRAUNCES-OFL.txt",
+      "bytes": 4504,
+      "sha256": "cd3384cafac6f2bddc3955273958a2e029f97027c8037ac539ef5744a77b579e"
+    },
+    {
+      "path": "assets/offer-deck-r15/fonts/GEIST-OFL.txt",
+      "bytes": 4498,
+      "sha256": "cc815ed4fc045f0e991abb10395b7932bd028c6a067deb13316d6002105074e6"
+    },
+    {
+      "path": "assets/offer-deck-r15/fonts/MONA-OFL.txt",
+      "bytes": 4564,
+      "sha256": "41e9911493de5899a20336baf13b6ea6483b5eea34e237f2ffed22c39bdc4a8d"
+    },
+    {
+      "path": "assets/offer-deck-r15/fonts/fraunces-latin-full-normal.woff2",
+      "bytes": 121016,
+      "sha256": "7e744849028e2219e2aa1bc467dc4032980dc4487c9c3da3010081cd72d3b103"
+    },
+    {
+      "path": "assets/offer-deck-r15/fonts/geist-mono-latin-wght-normal.woff2",
+      "bytes": 23128,
+      "sha256": "684ad5b531f81d43c1e8c7038262d5db7cdc1f68006e04d6c7769efa8d33c8cc"
+    },
+    {
+      "path": "assets/offer-deck-r15/fonts/mona-sans-latin-wght-normal.woff2",
+      "bytes": 39788,
+      "sha256": "a59061e38c5e7e6a00aaa6b6645a220c7d9c530991167f058cc0f8575f5d5844"
+    },
+    {
+      "path": "assets/offer-deck-r15/offer-deck.pdf",
+      "bytes": 345670,
+      "sha256": "d5ff19af27848f7921cdab8f7413daf3aafefc7604ff11474ba18b96e9e79e6c"
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/01.png",
+      "bytes": 90237,
+      "sha256": "6992409069aaaa30d30e4f8fbc7db8720e1c16fc87676f2cd81c38a8f69884bd"
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/02.png",
+      "bytes": 85578,
+      "sha256": "2c7499e78a520653d06226672de0fadeb473335d0621df9378a6b5d75361f1e5"
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/03.png",
+      "bytes": 70268,
+      "sha256": "f6adee510af5ad9f75b6acfb14f2170d259968d3cdaa82be7ed167b1ed6d2fe2"
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/04.png",
+      "bytes": 80204,
+      "sha256": "a905f5d31ca2ce203ecbde9515f695d4c6340058c2b615d4dea3c9a7cc9aad50"
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/05.png",
+      "bytes": 74190,
+      "sha256": "4543ca8f52c3140572ca85b7a2fd21d7444d7a2474a846907b3ef0327c15e135"
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/06.png",
+      "bytes": 79678,
+      "sha256": "b7b24a63896ca13fcf12b4c35d8b07c9a67be8e203c555071f6e77c7c19bc358"
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/07.png",
+      "bytes": 89137,
+      "sha256": "8aecd4c407ba6a9aa4aac5034a2ed52ccda8a1faa8e621946fbfed9ca05a783c"
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/08.png",
+      "bytes": 72643,
+      "sha256": "cd326a9e364ce9eb079ec3a6447829a1aadb65bf61d16e2b0b3f468ad9649067"
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/09.png",
+      "bytes": 82339,
+      "sha256": "1c181c3de0c55124d519dd1ae696da3bdff868ea56a5cac33e81c536cca5b08c"
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/10.png",
+      "bytes": 77137,
+      "sha256": "6f322d2d538285a9054ad6d86b9b6500c564591bd7439536eab64a9211de9542"
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/11.png",
+      "bytes": 66271,
+      "sha256": "68c9eb2969b70d65145abd4cfd91a2b0062a0bf66c0d99b81c929975a14605dd"
     },
     {
       "path": "assets/public/assets/film/contact-master.png",
@@ -3289,8 +3384,8 @@
     },
     {
       "path": "design-system/DESIGN.md",
-      "bytes": 28331,
-      "sha256": "df94a2f6b22b0eac418b5e8d929e6d205171e650079f252254efb7b1caf00d0f"
+      "bytes": 29054,
+      "sha256": "eab331944b3e9499f175b523b4218b074acd44c6cf29615b32ed1ed9e826ccf7"
     },
     {
       "path": "design-system/README.md",
@@ -3718,6 +3813,11 @@
       "sha256": "cee22de97568a7749e2201c77d1f0993b6db3bfb4a26ab04db51f27f6afb1a09"
     },
     {
+      "path": "design-system/motion-tokens.json",
+      "bytes": 1318,
+      "sha256": "513ade37596e70bcb59c011fe3175b78632c069ae76effa38635f5fa92886849"
+    },
+    {
       "path": "design-system/requirements.json",
       "bytes": 33009,
       "sha256": "d4835a2208f8c6dd793296869c5199e543ee3062a622431835f4e6555dcbcaa0"
@@ -3926,6 +4026,31 @@
       "path": "film/filmkit.py",
       "bytes": 11893,
       "sha256": "49f40c979a08ea188864af235fa7b6da2a7c05ce3fb4585e75abd7325bf08125"
+    },
+    {
+      "path": "film/launch-r15/README.md",
+      "bytes": 4524,
+      "sha256": "1b37e5fd74bea999943043858f504ba6f643b5273cf298d49a533edba76b1dc3"
+    },
+    {
+      "path": "film/launch-r15/VOICEOVER.md",
+      "bytes": 1174,
+      "sha256": "8468149733cc5a167cbaddb2dfcf79a9fb7dd1798e144342a909430641c19ecc"
+    },
+    {
+      "path": "film/launch-r15/build.py",
+      "bytes": 30968,
+      "sha256": "e882f359a0ca1fc65bef1d4d9665036615e92ccc6949a258b8a160787edb9c10"
+    },
+    {
+      "path": "film/launch-r15/captions.srt",
+      "bytes": 600,
+      "sha256": "78f7bb30a07083e8945f19287081fb96635fdec51115ab6732b8f90ed88999f8"
+    },
+    {
+      "path": "film/launch-r15/voiceover.txt",
+      "bytes": 337,
+      "sha256": "1cef5ce82cb66638f43bdd679cbe88a4797b44ffa6420da0136461dbee6b9d4c"
     },
     {
       "path": "film/launch/README.md",
@@ -4353,6 +4478,31 @@
       "sha256": "2e82f77cfb53e327ac4d1d631b6569ea96765428951988705d49ad5296cbe13a"
     },
     {
+      "path": "offer-deck-r15/README.md",
+      "bytes": 2076,
+      "sha256": "0dd642bf0ebba98fc334c36d23a987bb523303cc711bb4bcc87514ee8c7cd4d4"
+    },
+    {
+      "path": "offer-deck-r15/index.html",
+      "bytes": 6718,
+      "sha256": "17763aeb57a1e88d66b603336303a2c2606def0ad13d271591d884cbcd3772f5"
+    },
+    {
+      "path": "offer-deck-r15/lockup-inverse.svg",
+      "bytes": 28630,
+      "sha256": "e5d861fcbaee05e773788f727323098f70265b4772d9c48e4c59e42206282fc3"
+    },
+    {
+      "path": "offer-deck-r15/lockup.svg",
+      "bytes": 28630,
+      "sha256": "b7ec6f1068772e53d03784110ec87df40d07e674ad6a663e4a9bcd668eadaabf"
+    },
+    {
+      "path": "offer-deck-r15/render.mjs",
+      "bytes": 1219,
+      "sha256": "8e27adc0822eadd8956d2b24a908d419d727709e7677f74de829acecb8218d9d"
+    },
+    {
       "path": "prompts/CLOUD-CLAUDE-R11.md",
       "bytes": 144,
       "sha256": "ae61e87e497c6c56d48bebab542603f18048434fe125479a223a37d5a000bb8b"
@@ -4366,6 +4516,11 @@
       "path": "prompts/CLOUD-CLAUDE-R13.md",
       "bytes": 8824,
       "sha256": "cda55f4298ab9402b69624b575586f91a8ef55247ee137952ae23d075833ffab"
+    },
+    {
+      "path": "prompts/CLOUD-CLAUDE-R15.md",
+      "bytes": 5724,
+      "sha256": "817c3a84cfbdb98b4164961cbe7442e6ac2fe51e1aa7a3ec2e000c689ab4bfea"
     },
     {
       "path": "qa/README.md",
@@ -6659,8 +6814,8 @@
     },
     {
       "path": "website/website-v3/content.json",
-      "bytes": 35088,
-      "sha256": "43c07bc6a0247ee7e1bbc06f55bdbedb9344307aba021f7978f2a673dfbfd754"
+      "bytes": 34589,
+      "sha256": "9d28e374343543e43a021c21fcf17694a33d78ac0939ae726c5d5a11d15e4780"
     },
     {
       "path": "website/website-v3/depth.css",
@@ -6764,8 +6919,8 @@
     },
     {
       "path": "website/website-v3/service-details.json",
-      "bytes": 4533,
-      "sha256": "c9175a8be849155fd6f293fe31669f287c5386637cb6be961418e7197d848d91"
+      "bytes": 3357,
+      "sha256": "ec6b391311c3287f6771d29132be48dc654995ce5e39c670500e00a2db04bb82"
     },
     {
       "path": "website/website-v3/vite.config.ts",
@@ -17488,6 +17643,315 @@
       "source_hash_match": false,
       "conditions": [
         "Superseded by og-outspoken-1200x630.png; earlier identity."
+      ]
+    },
+    {
+      "path": "assets/offer-deck-r15/fonts/fraunces-latin-full-normal.woff2",
+      "repository_path": "design and website/assets/offer-deck-r15/fonts/fraunces-latin-full-normal.woff2",
+      "sha256": "7e744849028e2219e2aa1bc467dc4032980dc4487c9c3da3010081cd72d3b103",
+      "bytes": 121016,
+      "source": "assets/public/assets/identity/font-source/fraunces/fraunces-latin-full-normal.woff2",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/assets/offer-deck-r15/fonts/FRAUNCES-OFL.txt",
+        "design and website/offer-deck-r15/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "SIL Open Font License 1.1; licence text retained beside the file."
+      ]
+    },
+    {
+      "path": "assets/offer-deck-r15/fonts/geist-mono-latin-wght-normal.woff2",
+      "repository_path": "design and website/assets/offer-deck-r15/fonts/geist-mono-latin-wght-normal.woff2",
+      "sha256": "684ad5b531f81d43c1e8c7038262d5db7cdc1f68006e04d6c7769efa8d33c8cc",
+      "bytes": 23128,
+      "source": "assets/public/assets/identity/font-source/geist-mono/geist-mono-latin-wght-normal.woff2",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/assets/offer-deck-r15/fonts/GEIST-OFL.txt",
+        "design and website/offer-deck-r15/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "SIL Open Font License 1.1; licence text retained beside the file."
+      ]
+    },
+    {
+      "path": "assets/offer-deck-r15/fonts/mona-sans-latin-wght-normal.woff2",
+      "repository_path": "design and website/assets/offer-deck-r15/fonts/mona-sans-latin-wght-normal.woff2",
+      "sha256": "a59061e38c5e7e6a00aaa6b6645a220c7d9c530991167f058cc0f8575f5d5844",
+      "bytes": 39788,
+      "source": "assets/public/assets/identity/font-source/mona-sans/mona-sans-latin-wght-normal.woff2",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/assets/offer-deck-r15/fonts/MONA-OFL.txt",
+        "design and website/offer-deck-r15/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "SIL Open Font License 1.1; licence text retained beside the file."
+      ]
+    },
+    {
+      "path": "assets/offer-deck-r15/offer-deck.pdf",
+      "repository_path": "design and website/assets/offer-deck-r15/offer-deck.pdf",
+      "sha256": "d5ff19af27848f7921cdab8f7413daf3aafefc7604ff11474ba18b96e9e79e6c",
+      "bytes": 345670,
+      "source": "Render of design and website/offer-deck-r15/index.html (owned copy, the site's pricing.json and the owner's R13/V5 lockup SVGs) by offer-deck-r15/render.mjs; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/offer-deck-r15/README.md",
+        "design and website/R15-INTEGRATION.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed offer deck; owner acceptance is false.",
+        "Prices are indicative packages, not final terms.",
+        "No client, result or testimonial is shown."
+      ]
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/01.png",
+      "repository_path": "design and website/assets/offer-deck-r15/slides/01.png",
+      "sha256": "6992409069aaaa30d30e4f8fbc7db8720e1c16fc87676f2cd81c38a8f69884bd",
+      "bytes": 90237,
+      "source": "Render of design and website/offer-deck-r15/index.html (owned copy, the site's pricing.json and the owner's R13/V5 lockup SVGs) by offer-deck-r15/render.mjs; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/offer-deck-r15/README.md",
+        "design and website/R15-INTEGRATION.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed offer deck; owner acceptance is false.",
+        "Prices are indicative packages, not final terms.",
+        "No client, result or testimonial is shown."
+      ]
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/02.png",
+      "repository_path": "design and website/assets/offer-deck-r15/slides/02.png",
+      "sha256": "2c7499e78a520653d06226672de0fadeb473335d0621df9378a6b5d75361f1e5",
+      "bytes": 85578,
+      "source": "Render of design and website/offer-deck-r15/index.html (owned copy, the site's pricing.json and the owner's R13/V5 lockup SVGs) by offer-deck-r15/render.mjs; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/offer-deck-r15/README.md",
+        "design and website/R15-INTEGRATION.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed offer deck; owner acceptance is false.",
+        "Prices are indicative packages, not final terms.",
+        "No client, result or testimonial is shown."
+      ]
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/03.png",
+      "repository_path": "design and website/assets/offer-deck-r15/slides/03.png",
+      "sha256": "f6adee510af5ad9f75b6acfb14f2170d259968d3cdaa82be7ed167b1ed6d2fe2",
+      "bytes": 70268,
+      "source": "Render of design and website/offer-deck-r15/index.html (owned copy, the site's pricing.json and the owner's R13/V5 lockup SVGs) by offer-deck-r15/render.mjs; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/offer-deck-r15/README.md",
+        "design and website/R15-INTEGRATION.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed offer deck; owner acceptance is false.",
+        "Prices are indicative packages, not final terms.",
+        "No client, result or testimonial is shown."
+      ]
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/04.png",
+      "repository_path": "design and website/assets/offer-deck-r15/slides/04.png",
+      "sha256": "a905f5d31ca2ce203ecbde9515f695d4c6340058c2b615d4dea3c9a7cc9aad50",
+      "bytes": 80204,
+      "source": "Render of design and website/offer-deck-r15/index.html (owned copy, the site's pricing.json and the owner's R13/V5 lockup SVGs) by offer-deck-r15/render.mjs; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/offer-deck-r15/README.md",
+        "design and website/R15-INTEGRATION.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed offer deck; owner acceptance is false.",
+        "Prices are indicative packages, not final terms.",
+        "No client, result or testimonial is shown."
+      ]
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/05.png",
+      "repository_path": "design and website/assets/offer-deck-r15/slides/05.png",
+      "sha256": "4543ca8f52c3140572ca85b7a2fd21d7444d7a2474a846907b3ef0327c15e135",
+      "bytes": 74190,
+      "source": "Render of design and website/offer-deck-r15/index.html (owned copy, the site's pricing.json and the owner's R13/V5 lockup SVGs) by offer-deck-r15/render.mjs; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/offer-deck-r15/README.md",
+        "design and website/R15-INTEGRATION.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed offer deck; owner acceptance is false.",
+        "Prices are indicative packages, not final terms.",
+        "No client, result or testimonial is shown."
+      ]
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/06.png",
+      "repository_path": "design and website/assets/offer-deck-r15/slides/06.png",
+      "sha256": "b7b24a63896ca13fcf12b4c35d8b07c9a67be8e203c555071f6e77c7c19bc358",
+      "bytes": 79678,
+      "source": "Render of design and website/offer-deck-r15/index.html (owned copy, the site's pricing.json and the owner's R13/V5 lockup SVGs) by offer-deck-r15/render.mjs; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/offer-deck-r15/README.md",
+        "design and website/R15-INTEGRATION.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed offer deck; owner acceptance is false.",
+        "Prices are indicative packages, not final terms.",
+        "No client, result or testimonial is shown."
+      ]
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/07.png",
+      "repository_path": "design and website/assets/offer-deck-r15/slides/07.png",
+      "sha256": "8aecd4c407ba6a9aa4aac5034a2ed52ccda8a1faa8e621946fbfed9ca05a783c",
+      "bytes": 89137,
+      "source": "Render of design and website/offer-deck-r15/index.html (owned copy, the site's pricing.json and the owner's R13/V5 lockup SVGs) by offer-deck-r15/render.mjs; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/offer-deck-r15/README.md",
+        "design and website/R15-INTEGRATION.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed offer deck; owner acceptance is false.",
+        "Prices are indicative packages, not final terms.",
+        "No client, result or testimonial is shown."
+      ]
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/08.png",
+      "repository_path": "design and website/assets/offer-deck-r15/slides/08.png",
+      "sha256": "cd326a9e364ce9eb079ec3a6447829a1aadb65bf61d16e2b0b3f468ad9649067",
+      "bytes": 72643,
+      "source": "Render of design and website/offer-deck-r15/index.html (owned copy, the site's pricing.json and the owner's R13/V5 lockup SVGs) by offer-deck-r15/render.mjs; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/offer-deck-r15/README.md",
+        "design and website/R15-INTEGRATION.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed offer deck; owner acceptance is false.",
+        "Prices are indicative packages, not final terms.",
+        "No client, result or testimonial is shown."
+      ]
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/09.png",
+      "repository_path": "design and website/assets/offer-deck-r15/slides/09.png",
+      "sha256": "1c181c3de0c55124d519dd1ae696da3bdff868ea56a5cac33e81c536cca5b08c",
+      "bytes": 82339,
+      "source": "Render of design and website/offer-deck-r15/index.html (owned copy, the site's pricing.json and the owner's R13/V5 lockup SVGs) by offer-deck-r15/render.mjs; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/offer-deck-r15/README.md",
+        "design and website/R15-INTEGRATION.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed offer deck; owner acceptance is false.",
+        "Prices are indicative packages, not final terms.",
+        "No client, result or testimonial is shown."
+      ]
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/10.png",
+      "repository_path": "design and website/assets/offer-deck-r15/slides/10.png",
+      "sha256": "6f322d2d538285a9054ad6d86b9b6500c564591bd7439536eab64a9211de9542",
+      "bytes": 77137,
+      "source": "Render of design and website/offer-deck-r15/index.html (owned copy, the site's pricing.json and the owner's R13/V5 lockup SVGs) by offer-deck-r15/render.mjs; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/offer-deck-r15/README.md",
+        "design and website/R15-INTEGRATION.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed offer deck; owner acceptance is false.",
+        "Prices are indicative packages, not final terms.",
+        "No client, result or testimonial is shown."
+      ]
+    },
+    {
+      "path": "assets/offer-deck-r15/slides/11.png",
+      "repository_path": "design and website/assets/offer-deck-r15/slides/11.png",
+      "sha256": "68c9eb2969b70d65145abd4cfd91a2b0062a0bf66c0d99b81c929975a14605dd",
+      "bytes": 66271,
+      "source": "Render of design and website/offer-deck-r15/index.html (owned copy, the site's pricing.json and the owner's R13/V5 lockup SVGs) by offer-deck-r15/render.mjs; no third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/offer-deck-r15/README.md",
+        "design and website/R15-INTEGRATION.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed offer deck; owner acceptance is false.",
+        "Prices are indicative packages, not final terms.",
+        "No client, result or testimonial is shown."
+      ]
+    },
+    {
+      "path": "assets/offer-deck-r15/fonts/FRAUNCES-OFL.txt",
+      "repository_path": "design and website/assets/offer-deck-r15/fonts/FRAUNCES-OFL.txt",
+      "sha256": "cd3384cafac6f2bddc3955273958a2e029f97027c8037ac539ef5744a77b579e",
+      "bytes": 4504,
+      "source": "SIL Open Font License 1.1 text shipped with the font family (Codex R15 deck bundle)",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/offer-deck-r15/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Licence text retained beside the font files it covers."
+      ]
+    },
+    {
+      "path": "assets/offer-deck-r15/fonts/GEIST-OFL.txt",
+      "repository_path": "design and website/assets/offer-deck-r15/fonts/GEIST-OFL.txt",
+      "sha256": "cc815ed4fc045f0e991abb10395b7932bd028c6a067deb13316d6002105074e6",
+      "bytes": 4498,
+      "source": "SIL Open Font License 1.1 text shipped with the font family (Codex R15 deck bundle)",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/offer-deck-r15/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Licence text retained beside the font files it covers."
+      ]
+    },
+    {
+      "path": "assets/offer-deck-r15/fonts/MONA-OFL.txt",
+      "repository_path": "design and website/assets/offer-deck-r15/fonts/MONA-OFL.txt",
+      "sha256": "41e9911493de5899a20336baf13b6ea6483b5eea34e237f2ffed22c39bdc4a8d",
+      "bytes": 4564,
+      "source": "SIL Open Font License 1.1 text shipped with the font family (Codex R15 deck bundle)",
+      "rights_state": "licensed",
+      "evidence": [
+        "design and website/offer-deck-r15/README.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Licence text retained beside the font files it covers."
       ]
     }
   ],

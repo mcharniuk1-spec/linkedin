@@ -1,7 +1,7 @@
 {
   "kicker": "The service in detail",
-  "title": "Eight parts of one service. Each with a *reason*.",
-  "intro": "Start with one part or take the whole program. Every part has a clear job, something you can check, and a scope we agree in writing before work begins.",
+  "title": "The work behind your presence.",
+  "intro": "Start with one part or agree a broader programme. Each has a clear output and a review.",
   "indexLabel": "Service parts",
   "whyLabel": "Why it matters",
   "checkLabel": "Check it yourself",
@@ -9,57 +9,57 @@
   "scopeLabel": "Scope and permissions",
   "arguments": {
     "profile": {
-      "headline": "Buyers check your *profile* before they reply.",
-      "why": "After a post, a message or an introduction, buyers open your profile next. Its first screen must say who you help, which problem you solve and why you are credible.",
-      "check": "Ask someone outside the company to read your headline for ten seconds, then say what you do and for whom.",
+      "headline": "Make your profile clear.",
+      "why": "Align your headline, About section and featured work with the buyer and the product.",
+      "check": "Ask a new reader who you help and what you do.",
       "image": "/assets/library-r12/elements/element-02-4.webp"
     },
     "strategy": {
-      "headline": "Every post needs a *reason* to exist.",
-      "why": "Posting often is not a strategy. Start from the questions buyers already ask, then answer with the decisions, evidence and opinions only your company has. Four or five themes beat a long calendar.",
-      "check": "Each theme names a buyer question, the proof behind it and the offer it leads to.",
+      "headline": "Give content a direction.",
+      "why": "Connect buyer questions to product decisions, founder experience and evidence. Turn the themes into a working calendar.",
+      "check": "Each theme has a buyer question and a source.",
       "image": "/assets/library-r12/elements/element-02-1.webp"
     },
     "writing": {
-      "headline": "Your judgment, written so buyers can *read* it.",
-      "why": "Your best material lives in your head, your calls and your product trade-offs. Regular interviews capture it in your words; we keep the meaning exact and the reading easy. You approve every claim.",
-      "check": "Read a draft aloud. If it does not sound like you, it does not go out.",
+      "headline": "Keep the founder’s voice.",
+      "why": "Interviews supply the material. Drafts keep the founder’s judgment and technical meaning open to review.",
+      "check": "Read the draft aloud and check each claim.",
       "image": "/assets/library-r12/elements/element-01-4.webp"
     },
     "design": {
-      "headline": "Make the idea *visible* before the reader scrolls on.",
-      "why": "Complex products are hard to explain in a feed. A clear carousel, diagram or short video shows a decision in seconds and gets saved and shared. Templates keep the look consistent.",
-      "check": "Show a visual for five seconds. If a colleague cannot say what it means, simplify it.",
+      "headline": "Show how the product works.",
+      "why": "Use carousels, diagrams and video to explain the decisions and ideas behind the business.",
+      "check": "A reader can explain the idea after seeing the visual.",
       "image": "/assets/library-r12/elements/element-05-3.webp"
     },
     "automation": {
-      "headline": "A process that keeps *running* when the week gets busy.",
-      "why": "Founder content stops when the calendar fills up. A source library, a short review route and approved scheduling keep it moving. Automation covers administration, never relationships.",
-      "check": "Every step has an owner, and nothing is published without approval.",
+      "headline": "Keep the work moving.",
+      "why": "Organise sources, drafts and approvals in one agreed workflow. Automate repeatable administration where appropriate.",
+      "check": "Every step has an owner and an approval.",
       "image": "/assets/library-r12/elements/element-04-5.webp"
     },
     "marketing": {
-      "headline": "Content opens a conversation. *Follow-up* continues it.",
-      "why": "A strong post helps only if the next step is clear. We align founder posts, company messaging and follow-up copy around one buyer, so every reply has somewhere to go.",
-      "check": "For any post, an interested buyer should see one obvious next step.",
+      "headline": "Prepare the next conversation.",
+      "why": "Align founder and company messages with manual outreach starters and follow-up copy for an agreed buyer.",
+      "check": "Each message has a relevant reason to contact.",
       "image": "/assets/library-r12/elements/element-01-3.webp"
     },
     "advertising": {
-      "headline": "Spend on the message that has *earned* attention.",
-      "why": "Paid distribution multiplies whatever message it gets. We build angles, creative and landing messages for one buyer and one objective, and test small before the budget grows.",
-      "check": "The test plan states the audience, the message and the result that would change the budget.",
+      "headline": "Test the message with paid media.",
+      "why": "Develop an audience, creative and landing-page brief around an agreed objective and test budget.",
+      "check": "The plan names the audience, objective and review point.",
       "image": "/assets/library-r12/elements/element-02-3.webp"
     },
     "measurement": {
-      "headline": "Learn what matters to the *right* people.",
-      "why": "Likes are easy to count and easy to misread. We agree what matters, such as qualified replies, conversations and attributed leads, keep engagement, leads and revenue apart, and use the data to choose the next test.",
-      "check": "Every number supports a decision, or it leaves the report.",
+      "headline": "Use evidence to choose the next test.",
+      "why": "Review authorised engagement, qualified replies and attributed leads separately. Report what the available data can support.",
+      "check": "Each measure has a source, period and decision.",
       "image": "/assets/library-r12/elements/element-03-1.webp"
     }
   },
   "definition": {
     "label": "In short",
     "question": "What is founder-led LinkedIn marketing?",
-    "answer": "Founder-led LinkedIn marketing turns a founder’s experience, product decisions and point of view into LinkedIn content that the right buyers recognize and trust. OUTSPOKEN does this for Europe-based B2B AI SaaS founders, from seed to Series B, with the founder approving every claim."
+    "answer": "Founder-led LinkedIn marketing turns a founder’s experience and product decisions into a clear profile and content for their intended buyers. Outspoken supports the strategy, writing and visual work; the founder reviews the claims."
   }
 }

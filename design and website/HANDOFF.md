@@ -39,3 +39,11 @@ The source hierarchy is selected V5 identity/design rules, cumulative V6/V7 mobi
 Preserve exact protected hero/VP/CTA, current prices, outlined custom-O wordmark and fictional/sample disclosures. One canonical token source produces the shared code. Do not replace the current website with an older brand-plan snapshot. Inspect source-revision-map.json for public-only changes and release-manifest.json for exact exclusions and tests. Copy changes require their own version/source review.
 
 This source snapshot is authorized for repository publication. It is not owner artistic or voice acceptance. Before later changes, keep file claims separate, build/typecheck, validate every file/hash/right, review desktop/mobile/reduced-motion/keyboard behavior and inspect the exact public diff. Git synchronization alone does not authorize deployment, social publication, advertising, Figma changes or recurring research. Never force-push or include private submissions, copied third-party source media, credentials or machine paths.
+
+## R15: offer copy, launch film on the eight-stage story, offer deck (2 November 2026, proposed)
+- Codex R15 review drafts integrated with checks; full record in `R15-INTEGRATION.md`. Owner acceptance false; nothing published.
+- Site copy: `SITE-COPY-R15.json` applied to `content.json` and `service-details.json`; protected lines and `pricing.json` unchanged (checked byte for byte); FAQ merged to 13 questions, privacy and permission answers kept.
+- Motion: `design-system/motion-tokens.json` (proposed durations, easings, stagger, distances and transition rules).
+- Film: `film/launch-r15/` replaces the presentation-like launch film with one strand that turns into each stage (thought, interview, position, market, plan, create, conversations, packages). 42 s 16:9; check passed; QA PASS; 10 of 10 frames identical across two renders.
+- Deck: `offer-deck-r15/` (11 slides, HTML, PNG, PDF; fonts with OFL notices).
+- Held: the 48 generated images (no rights review; edge and glow flags), the 4:5 launch cut and the rebuilt OS motion film (prompt: `prompts/CLOUD-CLAUDE-R15.md`), Figma verification (Codex built nodes under the owner's account; Claude's seat is view-only and its readback was refused).

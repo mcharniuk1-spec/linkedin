@@ -1,5 +1,5 @@
 {
-  "version": "3.1.0-copy-draft",
+  "version": "3.1.0-copy-draft+r15",
   "status": "product_drafted_pending_root_review",
   "observed_date": "2026-10-20",
   "audience": "Europe-based B2B AI SaaS founders; 10–50 people; Seed–Series B",
@@ -10,8 +10,8 @@
   },
   "offer": {
     "category": "Founder-led LinkedIn marketing for B2B AI SaaS",
-    "headline": "Your expertise. A clear position. A consistent presence.",
-    "body": "Bring the product thinking, founder story and customer context together—from profile and content strategy to writing, design, approved workflows and paid campaigns.",
+    "headline": "Product expertise, made clear to buyers.",
+    "body": "Turn interviews and product decisions into a clear position, founder content and company messaging.",
     "differentiation_state": "Proposed positioning; not a proven exclusive market distinction",
     "differentiation": "Make product judgment legible to a specific buyer. Show the decision, its evidence and its consequence before turning it into content."
   },
@@ -27,8 +27,8 @@
     "proofline": "For Europe-based B2B AI SaaS founders. Seed to Series B.",
     "experience": {
       "eyebrow": "From expertise to a clear offer",
-      "title": "Everything you know. Something buyers can understand.",
-      "body": "Your experience, methods, tools, product judgment, evidence and cases hold the substance. We find the connection to the buyer, then shape it into a clear position and content you can stand behind.",
+      "title": "Your experience is the starting point.",
+      "body": "We connect your product decisions, evidence and experience to the questions buyers ask.",
       "inputs": [
         "Experience",
         "Methods",
@@ -60,14 +60,14 @@
     },
     "stack": {
       "eyebrow": "A recognizable point of view",
-      "title": "One strong idea. Many useful ways to tell it.",
-      "body": "Founder posts, stories, carousels, product walkthroughs and visual explanations. Each format has a job; each piece starts with something worth saying.",
+      "title": "One position. Many ways to show it.",
+      "body": "Posts, carousels and video start with an idea your buyers need to understand.",
       "label": "Illustrative work — not published client content"
     },
     "services": {
       "eyebrow": "What we can work on together",
-      "title": "Build the presence around the business.",
-      "body": "Choose the support your next stage needs. Start with a clear position, then connect content, design, operations and distribution.",
+      "title": "Choose the support you need.",
+      "body": "Start with positioning or build an ongoing founder and company presence.",
       "link": "Explore the services"
     },
     "review": {
@@ -78,7 +78,7 @@
     },
     "closing": {
       "title": "Tell us what you’re building.",
-      "body": "Bring the product, the buyer and the part of the story that is hard to explain. We can use the intro conversation to decide what support makes sense."
+      "body": "Bring the product, your buyer and the question you want LinkedIn to answer."
     }
   },
   "services": {
@@ -217,52 +217,52 @@
     "faqTitle": "Clear expectations before the work begins.",
     "faq": [
       {
-        "question": "Can we start with the profile or strategy only?",
-        "answer": "Yes. A focused scope can establish the position, profile or editorial direction before an ongoing program. Deliverables, cadence and commercial terms are agreed for the engagement."
-      },
-      {
-        "question": "What does automation cover?",
-        "answer": "Repeatable administration such as source organization, review routing, approved scheduling and repurposing. Specific tools, subscriptions, integrations and account permissions are agreed separately. It does not mean autonomous publishing or automated relationship activity."
-      },
-      {
-        "question": "Do advertising services include the media budget?",
-        "answer": "Campaign strategy, creative and management scope are agreed separately. Media spend and platform costs are additional. Launch requires the account access, tracking choices and budget you approve."
-      },
-      {
-        "question": "Will the writing still sound like me?",
-        "answer": "Your interviews, examples and feedback shape the draft. You review the voice, factual detail and technical meaning before approval."
-      },
-      {
-        "question": "Can you guarantee leads or sales?",
-        "answer": "No. We agree the objective and measures, then report what the authorized evidence can show. Reach, qualified responses, attributed leads and revenue are different outcomes."
-      },
-      {
-        "question": "Can you help with LinkedIn search and customer conversations?",
-        "answer": "Yes. The scope can include buyer-language research,profile and publication wording,manual outreach copy and customer-response guidance. We agree permissions and review responsibility before any account action. A particular search position,response rate or sales outcome is not guaranteed."
-      },
-      {
         "question": "Who is OUTSPOKEN for?",
-        "answer": "OUTSPOKEN works with Europe-based founders of B2B AI SaaS companies, from seed to Series B, who know their product well and want the right buyers to understand it. It suits founders who will join regular interviews and approve what is published in their name."
+        "answer": "OUTSPOKEN is for Europe-based founders of B2B AI SaaS companies from seed to Series B. The work suits founders who can share their product decisions, join interviews and review the claims published in their name."
       },
       {
         "question": "How does the work start?",
         "answer": "It starts with understanding the business: the product, the buyer, the alternatives and the evidence you already have, and agreeing the job LinkedIn should do. Then we choose the position and set the formats, workflow, permissions and measures before anything is written."
       },
       {
+        "question": "Can we start with positioning only?",
+        "answer": "Yes. The Positioning Sprint covers a founder workshop, profile direction and a 30-day editorial plan. Timing, revisions and final scope are agreed before work begins; ongoing writing is not included."
+      },
+      {
         "question": "How much does it cost?",
         "answer": "Indicative packages start with a €1,500 one-off Positioning Sprint, then €2,500 per month for Founder Presence and €3,900 per month for Founder + Company. Taxes, tools and media spend are extra, and the final scope is agreed together before work starts."
       },
       {
-        "question": "What do you need from the founder?",
-        "answer": "Regular interviews, access to the people and documents that hold the facts, and timely approvals. A typical Founder Presence month uses two 45-minute interviews and a factual review of each draft. You decide what is published; cadence and permissions are agreed before work starts."
+        "question": "How much founder time is needed?",
+        "answer": "Founder Presence proposes two 45-minute interviews per month plus draft review. Founder + Company proposes a weekly 30-minute conversation. Cadence, preparation and approval responsibilities are agreed before the engagement starts."
       },
       {
-        "question": "How soon will we see results?",
-        "answer": "We set measures and a review date at the start, then report what the authorized data shows. Reach, qualified replies, attributed leads and revenue are different outcomes, and none of them is guaranteed."
+        "question": "Will the writing still sound like me?",
+        "answer": "Your interviews, examples and feedback shape the draft. You review the voice, factual detail and technical meaning before approval."
       },
       {
         "question": "Why work on a founder’s profile and not only a company page?",
         "answer": "For an early-stage company, buyers are also judging the people behind it. A founder can explain decisions and trade-offs in a personal voice, which a company page rarely does. We align both so they tell the same story."
+      },
+      {
+        "question": "Can you help with LinkedIn search and customer conversations?",
+        "answer": "Yes. The scope can include buyer-language research, profile and publication wording, manual outreach copy and customer-response guidance. We agree permissions and review responsibility before any account action. A particular search position, response rate or sales outcome is not guaranteed."
+      },
+      {
+        "question": "What does automation cover?",
+        "answer": "Repeatable administration such as source organization, review routing, approved scheduling and repurposing. Specific tools, subscriptions, integrations and account permissions are agreed separately. It does not mean autonomous publishing or automated relationship activity."
+      },
+      {
+        "question": "Does the price include ad spend?",
+        "answer": "No. Media spend, platform costs and paid media buying are separate from the indicative packages. An advertising brief, audience, budget and permissions must be agreed before a campaign can launch."
+      },
+      {
+        "question": "Can you guarantee leads or sales?",
+        "answer": "No. We agree objectives and measures, then review what authorised data can show. Engagement, qualified replies, attributed leads and revenue are separate measures; none is guaranteed by a content programme."
+      },
+      {
+        "question": "How soon will we see results?",
+        "answer": "We set measures and a review date at the start, then report what the authorized data shows. Reach, qualified replies, attributed leads and revenue are different outcomes, and none of them is guaranteed."
       },
       {
         "question": "What happens to the details I send through the form?",

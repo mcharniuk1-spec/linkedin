@@ -141,3 +141,6 @@ Portable packaging is verified separately by `[dated-local-evidence-omitted]` an
 - **Plan titles:** always leave room for the art tile (`.price-plan h3` right padding), so a narrow card wraps the title instead of hiding it.
 - **Motion:** the launch film and the OS motion film (`film/launch/`, `film/motion-os/`) use one designed seam, a slash panel in the next ground colour with a marigold leading edge, and the brand ease.
 
+
+## Motion tokens (R15, proposed)
+`motion-tokens.json` holds the working motion values from the Codex R15 design review: durations instant 0, micro 160, reveal 320, transform 560, scene 800 ms; easings standard `cubic-bezier(.2,.7,.2,1)`, exit `cubic-bezier(.4,0,1,1)`, in-out `cubic-bezier(.45,0,.55,1)`; stagger 60 ms for at most five items; distances 8, 24 and 48 px (24 px at most on mobile). Transitions keep one shared object across a seam, move colour as a clipped field (no repeated diagonal wipe), clip moving cards inside their frame and use the OS stencil as a mask. Films may use longer movements; with `prefers-reduced-motion`, content is visible at once without parallax. Not measured and not owner-approved.
