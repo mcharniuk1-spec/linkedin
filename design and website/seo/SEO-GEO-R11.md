@@ -12,7 +12,8 @@
 |---|---:|---:|---:|---:|
 | Review edition (default, `noindex`), mobile | 97 | 100 | 69 | 75 |
 | Launch variant (`OUTSPOKEN_INDEXABLE=1`), desktop | 100 | 100 | 100 | 75 |
-The only SEO failure of the review edition is the deliberate `noindex`. The only remaining agentic-browsing failure is a missing `ai-catalog.json` (the predecessor of `/.well-known/ard.json`; see open items). Contrast failures found in the first run were fixed (chips, footer note); icon-only index links now have names. After the last fixes the mobile accessibility run was not repeated; the desktop run reached 100 except one mismatch that was then fixed and not re-measured.
+The only SEO failure of the review edition is the deliberate `noindex`. The only remaining agentic-browsing failure is a missing `ai-catalog.json` (the predecessor of `/.well-known/ard.json`; see open items). Contrast failures found in the first run were fixed (chips, footer note); icon-only index links now have names.
+**Live deployment** (`dpl_8d1uND8HfnhAqYDpA4xDfuieorF4`, mobile, default `noindex` build, measured after the last fixes): accessibility 100, best practices 100, SEO 69 (the `noindex` only), agentic browsing 75 (the missing `ai-catalog.json` only).
 
 ## Open items and owner decisions
 1. **Indexing.** The site stays `noindex,nofollow` (a review edition with fictional people). Launch needs the owner: choose the production domain, then build with `SITE_URL=https://<domain> OUTSPOKEN_INDEXABLE=1`.
