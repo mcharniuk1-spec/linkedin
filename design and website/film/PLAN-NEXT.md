@@ -1,5 +1,7 @@
 # Next-step plan: continuing from the repository alone (cloud Claude, optionally with Figma and Vercel)
 
+> **Update 2 November 2026:** the current prompt and task queue are in `../prompts/CLOUD-CLAUDE-R11.md`. The 30-second film (`cut30/`) was built with HyperFrames; the items below about the 80-second Remotion film remain valid for that film.
+
 Written 31 October 2026. Audience: a Claude agent working in the cloud that is connected **only to `github.com/mcharniuk1-spec/linkedin`**, and, where stated, to Figma and Vercel connectors the owner has authorised. Nothing here is owner-accepted; all creative work is proposed.
 
 ## 1. What the repository already contains (verified by building from it)

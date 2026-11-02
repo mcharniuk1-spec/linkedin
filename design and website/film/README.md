@@ -41,3 +41,6 @@ python3 scripts/qa/qa.py out/film.mp4 --report out/qa.json --sheet out/contact.p
 - No real people, clients, quotes or statistics appear. Every fictional founder, account, buyer and post carries an on-screen label.
 - Remotion is source-available; organisations of four or more people need a paid licence (check `https://www.remotion.pro/license` against Outspoken's headcount before a commercial release).
 - Fonts are Fraunces, Mona Sans and Geist Mono (SIL OFL 1.1, texts beside the files). Zodiak is not bundled.
+
+## 30-second film (HyperFrames), 2 November 2026
+`cut30/` holds a second, shorter film for LinkedIn: `SPEC-30S.md` (storyboard and QA gates), `VOICEOVER-30S.md` with `voiceover-30s.txt` and `captions-30s.srt` (voiceover text and timing; the film is built to be voiced afterwards) and `hyperframes/` (the project; see its README to rebuild). The 80-second Remotion film above is unchanged.

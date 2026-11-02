@@ -1,0 +1,83 @@
+<template>
+  <style>
+@font-face{font-family:'Fraunces';src:url('assets/fonts/fraunces.woff2') format('woff2');font-weight:100 900}
+@font-face{font-family:'Mona Sans';src:url('assets/fonts/mona-sans.woff2') format('woff2');font-weight:200 900}
+@font-face{font-family:'Geist Mono';src:url('assets/fonts/geist-mono.woff2') format('woff2');font-weight:100 900}
+#root{position:absolute;inset:0;overflow:hidden;font-family:'Mona Sans',sans-serif;color:#162760}
+#root *{box-sizing:border-box}
+.pearl{position:absolute;inset:0;background:linear-gradient(160deg,#fff 6%,#F1F3F6 58%,#E4EAF0)}
+.deep{position:absolute;inset:0;background:radial-gradient(900px 900px at 80% 10%,rgba(49,87,213,.30),transparent 62%),radial-gradient(760px 760px at 8% 92%,rgba(234,169,60,.13),transparent 60%),#0D1A3B}
+.dots{position:absolute;inset:0;background:radial-gradient(rgba(22,39,96,.15) 2.5px,transparent 3.5px) 0 0/48px 48px}
+.dots.lt{background:radial-gradient(rgba(241,243,246,.13) 2.5px,transparent 3.5px) 0 0/48px 48px}
+.mono{font-family:'Geist Mono',monospace;font-weight:500;letter-spacing:.09em;text-transform:uppercase}
+.disp{font-family:'Fraunces',serif;font-weight:400;letter-spacing:-.02em;line-height:1.03}
+.pill{position:absolute;display:inline-flex;align-items:center;gap:16px;padding:15px 30px 15px 24px;border:2px solid #D9DEE7;border-radius:999px;background:rgba(255,255,255,.94);box-shadow:0 16px 34px -20px rgba(22,39,96,.45);font-size:28px;white-space:nowrap}
+.pill::before{content:"";width:15px;height:15px;border-radius:50%;background:#EAA93C;flex:none}
+.sel{position:relative;display:inline-block;padding:0 .12em;border-radius:10px;color:#162760;background:linear-gradient(#F6D591,#F6D591) left center/0% 100% no-repeat;outline:3px dashed rgba(22,39,96,0);outline-offset:10px}
+.sel i{position:absolute;width:20px;height:20px;background:#fff;border:3px solid #162760;border-radius:3px;opacity:0;transform:scale(.3)}
+.sel i:nth-of-type(1){left:-20px;top:-20px}.sel i:nth-of-type(2){right:-20px;top:-20px}.sel i:nth-of-type(3){left:-20px;bottom:-20px}.sel i:nth-of-type(4){right:-20px;bottom:-20px}
+.ico{overflow:visible;flex:none;--icon-marker:#EAA93C}
+.card{position:absolute;background:#fff;border:2px solid rgba(22,39,96,.12);border-radius:44px;box-shadow:0 44px 80px -46px rgba(22,39,96,.55)}
+.bar{height:24px;border-radius:12px;background:#DDE3EC}
+.bar.m{background:#C8D0DD}
+.tag{font-family:'Geist Mono',monospace;font-weight:500;font-size:28px;letter-spacing:.09em;text-transform:uppercase;color:#475477}
+.w{display:inline-block;will-change:transform,opacity}
+.ln{display:block;white-space:nowrap}
+
+</style>
+  <div id="root" data-composition-id="s4" data-width="1080" data-height="1920">
+
+    <div class="pearl"></div><div class="dots"></div>
+    <div id="s4-head" class="disp" style="position:absolute;left:70px;top:270px;font-size:158px">
+      <span class="ln"><span class="w s4w">In</span> <span class="w s4w">your</span> <span class="w s4w" id="s4-pw"><span class="sel">voice.<i></i><i></i><i></i><i></i></span></span></span>
+    </div>
+    <svg id="s4-wave" width="1080" height="440" viewBox="0 0 1080 440" style="position:absolute;left:0;top:520px"></svg>
+    <div id="s4-card" class="card" style="left:70px;top:700px;width:940px;height:420px;padding:44px 50px;transform-origin:50% 50%">
+      <div style="display:flex;gap:26px;align-items:center"><img src="assets/heroes/h3-avatar-a.webp" alt="" style="width:100px;height:100px;border-radius:50%;object-fit:cover"><div style="display:grid;gap:14px;flex:1"><div class="bar m" style="width:260px"></div><div class="bar" style="width:180px;height:18px"></div></div></div>
+      <div id="s4-type" class="disp" style="font-size:78px;margin-top:34px;height:96px;white-space:nowrap"><span id="s4-txt"></span><span id="s4-caret" style="display:inline-block;width:6px;height:70px;margin-left:6px;background:#EAA93C;vertical-align:-6px"></span></div>
+      <div style="display:grid;gap:16px;margin-top:20px"><div class="bar" style="width:94%"></div><div class="bar" style="width:76%"></div></div>
+    </div>
+    <div id="s4-mark" style="position:absolute;left:840px;top:250px;width:170px;height:225px">
+      <i class="rg" style="position:absolute;left:-20px;top:20px;width:210px;height:210px;border:3px solid #EAA93C;border-radius:50%;opacity:0"></i>
+      <i class="rg" style="position:absolute;left:-20px;top:20px;width:210px;height:210px;border:3px solid #EAA93C;border-radius:50%;opacity:0"></i>
+      <i class="rg" style="position:absolute;left:-20px;top:20px;width:210px;height:210px;border:3px solid #EAA93C;border-radius:50%;opacity:0"></i>
+      <img src="assets/brand/mark-b01.svg" alt="" style="position:absolute;inset:0;width:170px;height:225px">
+    </div>
+  </div>
+  <script>
+  (function(){
+    
+function selIn(tl, el, t){
+  tl.fromTo(el,{backgroundSize:'0% 100%',outlineColor:'rgba(22,39,96,0)'},{backgroundSize:'100% 100%',outlineColor:'rgba(22,39,96,.6)',duration:.7,ease:'power3.out'},t);
+  tl.fromTo(el.querySelectorAll('i'),{opacity:0,scale:.3},{opacity:1,scale:1,duration:.35,ease:'back.out(2.4)',stagger:.06},t+.42);
+}
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+
+    const tl = gsap.timeline({ paused: true });
+
+    const w = document.querySelectorAll('.s4w');
+    tl.fromTo(w,{y:30,opacity:0},{y:0,opacity:1,duration:.35,ease:'power4.out',stagger:.06},0.0);
+    selIn(tl, document.querySelector('#s4-pw .sel'), 0.45);
+    // waveform ribbon: 15 sine lines, a function of time only
+    const svg=document.querySelector('#s4-wave'),N=15,paths=[];
+    for(let i=0;i<N;i++){const p=document.createElementNS('http://www.w3.org/2000/svg','path');p.setAttribute('fill','none');p.setAttribute('stroke',i%5===2?'#3157D5':(i===7?'#EAA93C':'#A9AFBA'));p.setAttribute('stroke-width',i===7?5:(i%5===2?3.4:2.4));p.setAttribute('opacity',i===7?1:(i%5===2?.7:.85));svg.appendChild(p);paths.push(p)}
+    const state={amp:0,t:0};
+    function draw(){
+      const t=state.t,a=state.amp;
+      paths.forEach((p,i)=>{let d='';const ph=i*.42,fr=.0105+i*.00065;for(let x=0;x<=1080;x+=12){const env=Math.exp(-Math.pow((x-540)/330,2));const y=220+Math.sin(x*fr*6.28+ph+t*5.2)*(26+i*6)*env*a+Math.sin(x*.004+i+t*2.1)*14*a;d+=(x?'L':'M')+x+' '+y.toFixed(1)}p.setAttribute('d',d)})
+    }
+    draw();
+    tl.to(state,{amp:1,duration:.5,ease:'power2.out',onUpdate:draw},0.2);
+    tl.to(state,{t:3.2,duration:3.2,ease:'none',onUpdate:draw},0);
+    tl.to(state,{amp:0,duration:.55,ease:'power3.in',onUpdate:draw},1.45);
+    tl.fromTo('#s4-card',{scaleX:.05,scaleY:.5,opacity:0},{scaleX:1,scaleY:1,opacity:1,duration:.6,ease:'power4.out'},1.5);
+    const msg='A decision, explained',txt=document.querySelector('#s4-txt');
+    const typer={n:0};tl.to(typer,{n:msg.length,duration:1.0,ease:'none',onUpdate:()=>{txt.textContent=msg.slice(0,Math.round(typer.n))}},1.95);
+    tl.fromTo('#s4-mark',{y:-40,opacity:0},{y:0,opacity:1,duration:.6,ease:'power4.out'},0.1);
+    document.querySelectorAll('#s4-mark .rg').forEach((r,i)=>tl.fromTo(r,{scale:.7,opacity:.7},{scale:1.9,opacity:0,duration:1.4,ease:'power2.out'},0.25+i*.35));
+    tl.fromTo('#s4-card',{y:0},{y:-14,duration:1.2,ease:'sine.inOut'},1.9);
+
+    window.__timelines["s4"] = tl;
+  })();
+  </script>
+</template>

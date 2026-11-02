@@ -1,0 +1,78 @@
+<template>
+  <style>
+@font-face{font-family:'Fraunces';src:url('assets/fonts/fraunces.woff2') format('woff2');font-weight:100 900}
+@font-face{font-family:'Mona Sans';src:url('assets/fonts/mona-sans.woff2') format('woff2');font-weight:200 900}
+@font-face{font-family:'Geist Mono';src:url('assets/fonts/geist-mono.woff2') format('woff2');font-weight:100 900}
+#root{position:absolute;inset:0;overflow:hidden;font-family:'Mona Sans',sans-serif;color:#162760}
+#root *{box-sizing:border-box}
+.pearl{position:absolute;inset:0;background:linear-gradient(160deg,#fff 6%,#F1F3F6 58%,#E4EAF0)}
+.deep{position:absolute;inset:0;background:radial-gradient(900px 900px at 80% 10%,rgba(49,87,213,.30),transparent 62%),radial-gradient(760px 760px at 8% 92%,rgba(234,169,60,.13),transparent 60%),#0D1A3B}
+.dots{position:absolute;inset:0;background:radial-gradient(rgba(22,39,96,.15) 2.5px,transparent 3.5px) 0 0/48px 48px}
+.dots.lt{background:radial-gradient(rgba(241,243,246,.13) 2.5px,transparent 3.5px) 0 0/48px 48px}
+.mono{font-family:'Geist Mono',monospace;font-weight:500;letter-spacing:.09em;text-transform:uppercase}
+.disp{font-family:'Fraunces',serif;font-weight:400;letter-spacing:-.02em;line-height:1.03}
+.pill{position:absolute;display:inline-flex;align-items:center;gap:16px;padding:15px 30px 15px 24px;border:2px solid #D9DEE7;border-radius:999px;background:rgba(255,255,255,.94);box-shadow:0 16px 34px -20px rgba(22,39,96,.45);font-size:28px;white-space:nowrap}
+.pill::before{content:"";width:15px;height:15px;border-radius:50%;background:#EAA93C;flex:none}
+.sel{position:relative;display:inline-block;padding:0 .12em;border-radius:10px;color:#162760;background:linear-gradient(#F6D591,#F6D591) left center/0% 100% no-repeat;outline:3px dashed rgba(22,39,96,0);outline-offset:10px}
+.sel i{position:absolute;width:20px;height:20px;background:#fff;border:3px solid #162760;border-radius:3px;opacity:0;transform:scale(.3)}
+.sel i:nth-of-type(1){left:-20px;top:-20px}.sel i:nth-of-type(2){right:-20px;top:-20px}.sel i:nth-of-type(3){left:-20px;bottom:-20px}.sel i:nth-of-type(4){right:-20px;bottom:-20px}
+.ico{overflow:visible;flex:none;--icon-marker:#EAA93C}
+.card{position:absolute;background:#fff;border:2px solid rgba(22,39,96,.12);border-radius:44px;box-shadow:0 44px 80px -46px rgba(22,39,96,.55)}
+.bar{height:24px;border-radius:12px;background:#DDE3EC}
+.bar.m{background:#C8D0DD}
+.tag{font-family:'Geist Mono',monospace;font-weight:500;font-size:28px;letter-spacing:.09em;text-transform:uppercase;color:#475477}
+.w{display:inline-block;will-change:transform,opacity}
+.ln{display:block;white-space:nowrap}
+
+.fc{transform-origin:50% 100%}</style>
+  <div id="root" data-composition-id="s5" data-width="1080" data-height="1920">
+
+    <div class="pearl"></div><div class="dots"></div>
+    <div id="s5-head" class="disp" style="position:absolute;left:70px;top:270px;font-size:158px">
+      <span class="ln"><span class="w s5w">Show</span> <span class="w s5w">it</span> <span class="w s5w" id="s5-pw"><span class="sel">clearly.<i></i><i></i><i></i><i></i></span></span></span>
+    </div>
+    <div id="s5-tabs" style="position:absolute;left:70px;top:478px;display:flex;gap:14px;font-family:'Geist Mono',monospace"><div class="tabx mono" id="s5-t0" style="padding:12px 26px;border-radius:999px;font-size:28px;background:rgba(255,255,255,.9);border:2px solid #D9DEE7;color:#475477">Post</div><div class="tabx mono" id="s5-t1" style="padding:12px 26px;border-radius:999px;font-size:28px;background:rgba(255,255,255,.9);border:2px solid #D9DEE7;color:#475477">Story</div><div class="tabx mono" id="s5-t2" style="padding:12px 26px;border-radius:999px;font-size:28px;background:rgba(255,255,255,.9);border:2px solid #D9DEE7;color:#475477">Carousel</div><div class="tabx mono" id="s5-t3" style="padding:12px 26px;border-radius:999px;font-size:28px;background:rgba(255,255,255,.9);border:2px solid #D9DEE7;color:#475477">Video</div></div>
+      <div class="card fc" id="s5-c0" style="left:150px;top:590px;width:780px;height:560px;padding:34px 40px;border-radius:44px">
+        <div class="tag">Post</div><div style="margin-top:22px;display:flex;gap:22px;align-items:center"><img src="assets/heroes/h3-avatar-a.webp" alt="" style="width:84px;height:84px;border-radius:50%;object-fit:cover"><div style="display:grid;gap:12px;flex:1"><div class="bar m" style="width:240px"></div><div class="bar" style="width:170px;height:16px"></div></div></div>
+<div class="disp" style="font-size:84px;margin-top:30px;color:#162760">A decision, explained.</div><div style="display:grid;gap:14px;margin-top:30px"><div class="bar" style="width:92%"></div><div class="bar" style="width:70%"></div></div>
+      </div>
+      <div class="card fc" id="s5-c1" style="left:150px;top:590px;width:780px;height:560px;padding:34px 40px;border-radius:44px">
+        <div class="tag">Story</div><div style="position:absolute;left:250px;top:44px;width:280px;height:470px;border-radius:34px;background:linear-gradient(170deg,#1B2F78,#0D1A3B);overflow:hidden;box-shadow:0 30px 50px -30px rgba(22,39,96,.7)"><div style="position:absolute;left:50%;top:44%;width:170px;height:170px;margin:-85px 0 0 -85px;border:4px solid #EAA93C;border-radius:50%"></div><div style="position:absolute;left:50%;top:44%;width:90px;height:90px;margin:-45px 0 0 -45px;background:#F6D591;border-radius:50%"></div><div style="position:absolute;left:26px;right:26px;bottom:30px;display:grid;gap:12px"><div class="bar" style="background:rgba(241,243,246,.75);width:80%"></div><div class="bar" style="background:rgba(241,243,246,.4);width:55%"></div></div></div>
+      </div>
+      <div class="card fc" id="s5-c2" style="left:150px;top:590px;width:780px;height:560px;padding:34px 40px;border-radius:44px">
+        <div class="tag">Carousel</div><div style="position:absolute;left:150px;top:70px;width:480px;height:400px"><div style="position:absolute;left:120px;top:30px;width:340px;height:360px;border-radius:30px;background:#DDE3EC"></div><div style="position:absolute;left:60px;top:15px;width:340px;height:360px;border-radius:30px;background:#C8D0DD"></div><div style="position:absolute;left:0;top:0;width:340px;height:360px;border-radius:30px;background:#fff;border:2px solid rgba(22,39,96,.14);padding:30px"><div class="disp" style="font-size:64px">Slide 1</div><div style="display:grid;gap:14px;margin-top:26px"><div class="bar" style="width:90%"></div><div class="bar" style="width:62%"></div></div></div></div><div style="position:absolute;left:0;right:0;bottom:30px;display:flex;gap:14px;justify-content:center"><i style="width:20px;height:20px;border-radius:50%;background:#EAA93C"></i><i style="width:20px;height:20px;border-radius:50%;background:#C8D0DD"></i><i style="width:20px;height:20px;border-radius:50%;background:#C8D0DD"></i></div>
+      </div>
+      <div class="card fc" id="s5-c3" style="left:150px;top:590px;width:780px;height:560px;padding:34px 40px;border-radius:44px">
+        <div class="tag">Video</div><div style="margin-top:20px;height:400px;border-radius:30px;position:relative;overflow:hidden"><img src="assets/heroes/h2-founder.webp" alt="" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:60% 30%"><div style="position:absolute;left:50%;top:50%;width:132px;height:132px;margin:-66px 0 0 -66px;border-radius:50%;background:#EAA93C;display:grid;place-items:center"><svg width="48" height="54" viewBox="0 0 46 52"><path d="M6 4l36 22L6 48z" fill="#162760"/></svg></div></div>
+      </div>
+    <div id="s5-cap" class="tag" style="position:absolute;left:150px;top:1160px;color:#475477;font-size:28px">Illustrative formats</div>
+  </div>
+  <script>
+  (function(){
+    
+function selIn(tl, el, t){
+  tl.fromTo(el,{backgroundSize:'0% 100%',outlineColor:'rgba(22,39,96,0)'},{backgroundSize:'100% 100%',outlineColor:'rgba(22,39,96,.6)',duration:.7,ease:'power3.out'},t);
+  tl.fromTo(el.querySelectorAll('i'),{opacity:0,scale:.3},{opacity:1,scale:1,duration:.35,ease:'back.out(2.4)',stagger:.06},t+.42);
+}
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+
+    const tl = gsap.timeline({ paused: true });
+
+    const w = document.querySelectorAll('.s5w');
+    tl.fromTo(w,{y:60,opacity:0,filter:'blur(12px)'},{y:0,opacity:1,filter:'blur(0px)',duration:.5,ease:'power4.out',stagger:.09},0.30);
+    selIn(tl, document.querySelector('#s5-pw .sel'), 0.85);
+    tl.fromTo('#s5-tabs',{opacity:0,y:16},{opacity:1,y:0,duration:.4,ease:'power3.out'},0.65);
+    // one deck slot; the four formats take turns on the spoken words (global times 15.15 / 15.6 / 16.05 / 16.7)
+    const at=[0.80,1.95,2.40,3.00];
+    [0,1,2,3].forEach(i=>{
+      tl.fromTo('#s5-c'+i,{x:i?900:0,y:i?0:90,rotation:i?7:0,opacity:i?0:0,scale:i?.96:.96},{x:0,y:0,rotation:0,opacity:1,scale:1,duration:i?.55:.6,ease:'power4.out'},at[i]);
+      if(i<3) tl.to('#s5-c'+i,{x:-900,rotation:-8,opacity:0,duration:.4,ease:'power3.in'},at[i+1]);
+      tl.to('#s5-t'+i,{backgroundColor:'#162760',color:'#F1F3F6',borderColor:'#162760',duration:.2},at[i]);
+      if(i<3) tl.to('#s5-t'+i,{backgroundColor:'rgba(255,255,255,.9)',color:'#475477',borderColor:'#D9DEE7',duration:.25},at[i+1]);
+    });
+    tl.fromTo('#s5-cap',{opacity:0},{opacity:1,duration:.4},1.2);
+
+    window.__timelines["s5"] = tl;
+  })();
+  </script>
+</template>

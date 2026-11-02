@@ -1,0 +1,79 @@
+<template>
+  <style>
+@font-face{font-family:'Fraunces';src:url('assets/fonts/fraunces.woff2') format('woff2');font-weight:100 900}
+@font-face{font-family:'Mona Sans';src:url('assets/fonts/mona-sans.woff2') format('woff2');font-weight:200 900}
+@font-face{font-family:'Geist Mono';src:url('assets/fonts/geist-mono.woff2') format('woff2');font-weight:100 900}
+#root{position:absolute;inset:0;overflow:hidden;font-family:'Mona Sans',sans-serif;color:#162760}
+#root *{box-sizing:border-box}
+.pearl{position:absolute;inset:0;background:linear-gradient(160deg,#fff 6%,#F1F3F6 58%,#E4EAF0)}
+.deep{position:absolute;inset:0;background:radial-gradient(900px 900px at 80% 10%,rgba(49,87,213,.30),transparent 62%),radial-gradient(760px 760px at 8% 92%,rgba(234,169,60,.13),transparent 60%),#0D1A3B}
+.dots{position:absolute;inset:0;background:radial-gradient(rgba(22,39,96,.15) 2.5px,transparent 3.5px) 0 0/48px 48px}
+.dots.lt{background:radial-gradient(rgba(241,243,246,.13) 2.5px,transparent 3.5px) 0 0/48px 48px}
+.mono{font-family:'Geist Mono',monospace;font-weight:500;letter-spacing:.09em;text-transform:uppercase}
+.disp{font-family:'Fraunces',serif;font-weight:400;letter-spacing:-.02em;line-height:1.03}
+.pill{position:absolute;display:inline-flex;align-items:center;gap:16px;padding:15px 30px 15px 24px;border:2px solid #D9DEE7;border-radius:999px;background:rgba(255,255,255,.94);box-shadow:0 16px 34px -20px rgba(22,39,96,.45);font-size:28px;white-space:nowrap}
+.pill::before{content:"";width:15px;height:15px;border-radius:50%;background:#EAA93C;flex:none}
+.sel{position:relative;display:inline-block;padding:0 .12em;border-radius:10px;color:#162760;background:linear-gradient(#F6D591,#F6D591) left center/0% 100% no-repeat;outline:3px dashed rgba(22,39,96,0);outline-offset:10px}
+.sel i{position:absolute;width:20px;height:20px;background:#fff;border:3px solid #162760;border-radius:3px;opacity:0;transform:scale(.3)}
+.sel i:nth-of-type(1){left:-20px;top:-20px}.sel i:nth-of-type(2){right:-20px;top:-20px}.sel i:nth-of-type(3){left:-20px;bottom:-20px}.sel i:nth-of-type(4){right:-20px;bottom:-20px}
+.ico{overflow:visible;flex:none;--icon-marker:#EAA93C}
+.card{position:absolute;background:#fff;border:2px solid rgba(22,39,96,.12);border-radius:44px;box-shadow:0 44px 80px -46px rgba(22,39,96,.55)}
+.bar{height:24px;border-radius:12px;background:#DDE3EC}
+.bar.m{background:#C8D0DD}
+.tag{font-family:'Geist Mono',monospace;font-weight:500;font-size:28px;letter-spacing:.09em;text-transform:uppercase;color:#475477}
+.w{display:inline-block;will-change:transform,opacity}
+.ln{display:block;white-space:nowrap}
+
+</style>
+  <div id="root" data-composition-id="s6" data-width="1080" data-height="1920">
+
+    <div class="deep"></div><div class="dots lt"></div>
+    <div id="s6-title" class="disp" style="position:absolute;left:70px;top:270px;font-size:136px;color:#F1F3F6">
+      <span class="ln"><span class="w s6w">One</span> <span class="w s6w" id="s6-pw"><span class="sel">connected<i></i><i></i><i></i><i></i></span></span></span>
+      <span class="ln"><span class="w s6w">message.</span></span>
+    </div>
+    <svg width="1080" height="1300" viewBox="0 0 1080 1300" style="position:absolute;left:0;top:0;overflow:visible">
+      <g fill="none" stroke="rgba(169,175,186,.7)" stroke-width="4" stroke-linecap="round">
+        <path id="s6-h0" d="M285 745 L 455 745"/><path id="s6-h1" d="M625 745 L 795 745"/>
+        <path id="s6-v0" d="M190 930 C 190 1010, 540 990, 540 1066"/><path id="s6-v1" d="M540 930 L 540 1066"/><path id="s6-v2" d="M890 930 C 890 1010, 540 990, 540 1066"/>
+      </g>
+      <circle id="s6-ring" cx="540" cy="1080" r="26" fill="none" stroke="#EAA93C" stroke-width="4" opacity="0"/><circle id="s6-dot" cx="540" cy="1080" r="26" fill="#EAA93C"/>
+    </svg>
+    <div class="nd" id="s6-n0" style="position:absolute;left:105px;top:660px;width:170px;height:170px;border-radius:50%;background:rgba(241,243,246,.07);border:3px solid rgba(241,243,246,.35);display:grid;place-items:center;color:#F1F3F6;--icon-marker:#F3C15D"><svg class="ico" width="84" height="84" viewBox="0 0 24 24" aria-hidden="true"><g fill="var(--icon-marker, #EAA93C)" stroke="none"><circle cx="17" cy="6.5" r="4.2"/></g><g fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><rect x="3" y="5" width="18" height="14" rx="2.5"/><circle cx="9" cy="11" r="2.1"/><path d="M5.6 16.2c.7-1.7 2-2.5 3.4-2.5s2.7.8 3.4 2.5M14.5 10h4M14.5 13.5h3"/></g></svg></div>
+    <div class="nl" id="s6-l0" style="position:absolute;left:40px;top:850px;width:300px;text-align:center;font-size:44px;font-weight:600;color:#F1F3F6">Profile</div>
+    <div class="nd" id="s6-n1" style="position:absolute;left:455px;top:660px;width:170px;height:170px;border-radius:50%;background:rgba(241,243,246,.07);border:3px solid rgba(241,243,246,.35);display:grid;place-items:center;color:#F1F3F6;--icon-marker:#F3C15D"><svg class="ico" width="84" height="84" viewBox="0 0 24 24" aria-hidden="true"><g fill="var(--icon-marker, #EAA93C)" stroke="none"><circle cx="17.5" cy="6" r="4"/></g><g fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M4 20l1-4L16.4 4.6a2.1 2.1 0 0 1 3 3L8 19z"/><path d="M14.4 6.6l3 3"/></g></svg></div>
+    <div class="nl" id="s6-l1" style="position:absolute;left:390px;top:850px;width:300px;text-align:center;font-size:44px;font-weight:600;color:#F1F3F6">Content</div>
+    <div class="nd" id="s6-n2" style="position:absolute;left:805px;top:660px;width:170px;height:170px;border-radius:50%;background:rgba(241,243,246,.07);border:3px solid rgba(241,243,246,.35);display:grid;place-items:center;color:#F1F3F6;--icon-marker:#F3C15D"><svg class="ico" width="84" height="84" viewBox="0 0 24 24" aria-hidden="true"><g fill="var(--icon-marker, #EAA93C)" stroke="none"><circle cx="17" cy="6.5" r="4"/></g><g fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><path d="M4 10v4h3l7.5 4V6L7 10z"/><path d="M17.8 9.4a4 4 0 0 1 0 5.2"/></g></svg></div>
+    <div class="nl" id="s6-l2" style="position:absolute;left:740px;top:850px;width:300px;text-align:center;font-size:44px;font-weight:600;color:#F1F3F6">Campaigns</div>
+  </div>
+  <script>
+  (function(){
+    
+function selIn(tl, el, t){
+  tl.fromTo(el,{backgroundSize:'0% 100%',outlineColor:'rgba(22,39,96,0)'},{backgroundSize:'100% 100%',outlineColor:'rgba(22,39,96,.6)',duration:.7,ease:'power3.out'},t);
+  tl.fromTo(el.querySelectorAll('i'),{opacity:0,scale:.3},{opacity:1,scale:1,duration:.35,ease:'back.out(2.4)',stagger:.06},t+.42);
+}
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+
+    const tl = gsap.timeline({ paused: true });
+
+    document.querySelectorAll('svg path').forEach(p=>{const l=p.getTotalLength();p.style.strokeDasharray=l;p.dataset.l=l});
+    const names=['0','1','2'],at=[0.45,1.05,1.55];
+    names.forEach((n,i)=>{
+      tl.fromTo('#s6-n'+n,{scale:.2,opacity:0},{scale:1,opacity:1,duration:.55,ease:'back.out(2)'},at[i]-0.3);
+      tl.fromTo('#s6-l'+n,{y:20,opacity:0},{y:0,opacity:1,duration:.5,ease:'power4.out'},at[i]);
+    });
+    ['#s6-h0','#s6-h1'].forEach((id,i)=>{const p=document.querySelector(id),l=+p.dataset.l;tl.fromTo(p,{strokeDashoffset:l},{strokeDashoffset:0,duration:.5,ease:'power2.inOut'},.9+i*.45)});
+    ['#s6-v0','#s6-v1','#s6-v2'].forEach((id,i)=>{const p=document.querySelector(id),l=+p.dataset.l;tl.fromTo(p,{strokeDashoffset:l},{strokeDashoffset:0,duration:.6,ease:'power2.inOut'},1.6+i*.12)});
+    tl.fromTo('#s6-dot',{scale:0,transformOrigin:'540px 1080px'},{scale:1,duration:.5,ease:'back.out(3)'},2.0);
+    tl.fromTo('.s6w',{y:70,opacity:0,filter:'blur(14px)'},{y:0,opacity:1,filter:'blur(0px)',duration:.6,ease:'power4.out',stagger:.12},2.15);
+    selIn(tl, document.querySelector('#s6-pw .sel'), 2.7);
+    tl.fromTo('.deep',{scale:1},{scale:1.06,duration:4.3,ease:'none'},0);
+    tl.fromTo('.dots',{y:0},{y:-70,duration:4.3,ease:'none'},0);
+    tl.fromTo('.nd',{y:0},{y:-9,duration:1.1,ease:'sine.inOut',yoyo:true,repeat:1,stagger:.12},2.1);
+    [2.6,3.3].forEach(tt=>tl.fromTo('#s6-ring',{scale:1,opacity:.9,transformOrigin:'540px 1080px'},{scale:4.2,opacity:0,duration:.8,ease:'power2.out'},tt));
+
+    window.__timelines["s6"] = tl;
+  })();
+  </script>
+</template>

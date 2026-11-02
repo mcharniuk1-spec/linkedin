@@ -1,0 +1,86 @@
+<template>
+  <style>
+@font-face{font-family:'Fraunces';src:url('assets/fonts/fraunces.woff2') format('woff2');font-weight:100 900}
+@font-face{font-family:'Mona Sans';src:url('assets/fonts/mona-sans.woff2') format('woff2');font-weight:200 900}
+@font-face{font-family:'Geist Mono';src:url('assets/fonts/geist-mono.woff2') format('woff2');font-weight:100 900}
+#root{position:absolute;inset:0;overflow:hidden;font-family:'Mona Sans',sans-serif;color:#162760}
+#root *{box-sizing:border-box}
+.pearl{position:absolute;inset:0;background:linear-gradient(160deg,#fff 6%,#F1F3F6 58%,#E4EAF0)}
+.deep{position:absolute;inset:0;background:radial-gradient(900px 900px at 80% 10%,rgba(49,87,213,.30),transparent 62%),radial-gradient(760px 760px at 8% 92%,rgba(234,169,60,.13),transparent 60%),#0D1A3B}
+.dots{position:absolute;inset:0;background:radial-gradient(rgba(22,39,96,.15) 2.5px,transparent 3.5px) 0 0/48px 48px}
+.dots.lt{background:radial-gradient(rgba(241,243,246,.13) 2.5px,transparent 3.5px) 0 0/48px 48px}
+.mono{font-family:'Geist Mono',monospace;font-weight:500;letter-spacing:.09em;text-transform:uppercase}
+.disp{font-family:'Fraunces',serif;font-weight:400;letter-spacing:-.02em;line-height:1.03}
+.pill{position:absolute;display:inline-flex;align-items:center;gap:16px;padding:15px 30px 15px 24px;border:2px solid #D9DEE7;border-radius:999px;background:rgba(255,255,255,.94);box-shadow:0 16px 34px -20px rgba(22,39,96,.45);font-size:28px;white-space:nowrap}
+.pill::before{content:"";width:15px;height:15px;border-radius:50%;background:#EAA93C;flex:none}
+.sel{position:relative;display:inline-block;padding:0 .12em;border-radius:10px;color:#162760;background:linear-gradient(#F6D591,#F6D591) left center/0% 100% no-repeat;outline:3px dashed rgba(22,39,96,0);outline-offset:10px}
+.sel i{position:absolute;width:20px;height:20px;background:#fff;border:3px solid #162760;border-radius:3px;opacity:0;transform:scale(.3)}
+.sel i:nth-of-type(1){left:-20px;top:-20px}.sel i:nth-of-type(2){right:-20px;top:-20px}.sel i:nth-of-type(3){left:-20px;bottom:-20px}.sel i:nth-of-type(4){right:-20px;bottom:-20px}
+.ico{overflow:visible;flex:none;--icon-marker:#EAA93C}
+.card{position:absolute;background:#fff;border:2px solid rgba(22,39,96,.12);border-radius:44px;box-shadow:0 44px 80px -46px rgba(22,39,96,.55)}
+.bar{height:24px;border-radius:12px;background:#DDE3EC}
+.bar.m{background:#C8D0DD}
+.tag{font-family:'Geist Mono',monospace;font-weight:500;font-size:28px;letter-spacing:.09em;text-transform:uppercase;color:#475477}
+.w{display:inline-block;will-change:transform,opacity}
+.ln{display:block;white-space:nowrap}
+
+</style>
+  <div id="root" data-composition-id="s3" data-width="1080" data-height="1920">
+
+    <div class="pearl"></div><div class="dots"></div>
+    <div id="s3-k1" class="tag" style="position:absolute;left:70px;top:262px">From your experience</div>
+    <div id="s3-k2" class="tag" style="position:absolute;left:70px;top:262px;opacity:0;color:#162760">to the buyer&rsquo;s question</div>
+    
+      <div class="chip" id="s3-chip0" style="position:absolute;left:60px;top:330px;width:490px;height:104px;border-radius:52px;background:#fff;border:2px solid rgba(22,39,96,.14);box-shadow:0 22px 40px -28px rgba(22,39,96,.5);display:flex;align-items:center;gap:20px;padding:0 28px;font-size:36px;font-weight:600;white-space:nowrap"><svg class="ico" width="54" height="54" viewBox="0 0 24 24" aria-hidden="true"><g fill="var(--icon-marker, #EAA93C)" stroke="none"><circle cx="16.5" cy="6.5" r="4.6"/></g><g fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><rect x="8.5" y="2.5" width="7" height="9.5" rx="3.5"/><path d="M5.5 10.5v2a6.5 6.5 0 0 0 13 0v-2M12 19v2.5M8 21.5h8"/></g></svg><span>Experience</span></div>
+      <div class="chip" id="s3-chip1" style="position:absolute;left:60px;top:464px;width:490px;height:104px;border-radius:52px;background:#fff;border:2px solid rgba(22,39,96,.14);box-shadow:0 22px 40px -28px rgba(22,39,96,.5);display:flex;align-items:center;gap:20px;padding:0 28px;font-size:36px;font-weight:600;white-space:nowrap"><svg class="ico" width="54" height="54" viewBox="0 0 24 24" aria-hidden="true"><g fill="var(--icon-marker, #EAA93C)" stroke="none"><circle cx="17" cy="6.5" r="4.2"/></g><g fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><rect x="3.5" y="5" width="17" height="15" rx="2.5"/><path d="M3.5 9.5h17M8 3v4M16 3v4M8 14h.01M12 14h.01M16 14h.01"/></g></svg><span>Methods</span></div>
+      <div class="chip" id="s3-chip2" style="position:absolute;left:60px;top:598px;width:490px;height:104px;border-radius:52px;background:#fff;border:2px solid rgba(22,39,96,.14);box-shadow:0 22px 40px -28px rgba(22,39,96,.5);display:flex;align-items:center;gap:20px;padding:0 28px;font-size:36px;font-weight:600;white-space:nowrap"><svg class="ico" width="54" height="54" viewBox="0 0 24 24" aria-hidden="true"><g fill="var(--icon-marker, #EAA93C)" stroke="none"><circle cx="12" cy="12" r="4.4"/></g><g fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><circle cx="5.5" cy="7" r="2.2"/><circle cx="5.5" cy="17" r="2.2"/><circle cx="18.5" cy="12" r="2.2"/><path d="M7.5 7.8l8.8 3.2M7.5 16.2l8.8-3.2"/></g></svg><span>Tools</span></div>
+      <div class="chip" id="s3-chip3" style="position:absolute;left:60px;top:732px;width:490px;height:104px;border-radius:52px;background:#fff;border:2px solid rgba(22,39,96,.14);box-shadow:0 22px 40px -28px rgba(22,39,96,.5);display:flex;align-items:center;gap:20px;padding:0 28px;font-size:36px;font-weight:600;white-space:nowrap"><svg class="ico" width="54" height="54" viewBox="0 0 24 24" aria-hidden="true"><g fill="var(--icon-marker, #EAA93C)" stroke="none"><circle cx="16.5" cy="7.5" r="4.6"/></g><g fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke="currentColor"><circle cx="12" cy="12" r="8.5"/><path d="M8.2 12.4l2.6 2.6 5-5.6"/></g></svg><span>Product judgment</span></div>
+    <svg id="s3-paths" width="1080" height="1000" viewBox="0 0 1080 1000" style="position:absolute;left:0;top:0;overflow:visible">
+      <g fill="none" stroke="#A9AFBA" stroke-width="4" stroke-linecap="round">
+        <path id="s3-p0" d="M550 382 C 640 382, 600 560, 650 600"/>
+        <path id="s3-p1" d="M550 516 C 640 516, 610 580, 650 600"/>
+        <path id="s3-p2" d="M550 650 C 640 650, 610 620, 650 600"/>
+        <path id="s3-p3" d="M550 784 C 640 784, 600 650, 650 600"/>
+      </g>
+      <circle id="s3-node" cx="650" cy="600" r="30" fill="#EAA93C"/>
+      <circle id="s3-halo" cx="650" cy="600" r="30" fill="none" stroke="#EAA93C" stroke-width="5" opacity="0"/>
+    </svg>
+    <div id="s3-card" class="card" style="left:560px;top:640px;width:470px;height:470px;padding:40px;transform-origin:15% 10%">
+      <div style="display:flex;gap:22px;align-items:center"><img src="assets/heroes/h4-avatar-b.webp" alt="" style="width:92px;height:92px;border-radius:50%;object-fit:cover"><div style="display:grid;gap:14px;flex:1"><div class="bar m" style="width:200px"></div><div class="bar" style="width:140px;height:18px"></div></div></div>
+      <div class="disp" style="font-size:210px;line-height:1;margin:14px 0 0 6px;color:#162760"><span class="sel">?<i></i><i></i><i></i><i></i></span></div>
+      <div style="display:grid;gap:14px;margin-top:8px"><div class="bar" style="width:90%"></div><div class="bar" style="width:68%"></div></div>
+    </div>
+    <div id="s3-cap" class="tag" style="position:absolute;left:560px;top:1130px">Illustrative post</div>
+  </div>
+  <script>
+  (function(){
+    
+function selIn(tl, el, t){
+  tl.fromTo(el,{backgroundSize:'0% 100%',outlineColor:'rgba(22,39,96,0)'},{backgroundSize:'100% 100%',outlineColor:'rgba(22,39,96,.6)',duration:.7,ease:'power3.out'},t);
+  tl.fromTo(el.querySelectorAll('i'),{opacity:0,scale:.3},{opacity:1,scale:1,duration:.35,ease:'back.out(2.4)',stagger:.06},t+.42);
+}
+function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+
+    const tl = gsap.timeline({ paused: true });
+
+    document.querySelectorAll('#s3-paths path').forEach(p=>{const l=p.getTotalLength();p.style.strokeDasharray=l;p.dataset.l=l});
+    tl.fromTo('#s3-k1',{opacity:0,y:16},{opacity:1,y:0,duration:.5,ease:'power4.out'},0.1);
+    [0,1,2,3].forEach(i=>{
+      tl.fromTo('#s3-chip'+i,{x:-620,opacity:0},{x:0,opacity:1,duration:.7,ease:'power4.out'},0.15+i*0.14);
+      const p=document.querySelector('#s3-p'+i),l=+p.dataset.l;
+      tl.fromTo(p,{strokeDashoffset:l},{strokeDashoffset:0,duration:.65,ease:'power2.inOut'},0.95+i*0.12);
+    });
+    tl.fromTo('#s3-node',{scale:0,transformOrigin:'650px 600px'},{scale:1,duration:.5,ease:'back.out(3)'},1.35);
+    tl.fromTo('#s3-halo',{scale:1,opacity:.8,transformOrigin:'650px 600px'},{scale:3.2,opacity:0,duration:.9,ease:'power2.out'},1.9);
+    tl.to('#s3-k1',{opacity:0,y:-14,duration:.3},2.3);
+    tl.fromTo('#s3-k2',{opacity:0,y:16},{opacity:1,y:0,duration:.5,ease:'power4.out'},2.4);
+    tl.fromTo('#s3-card',{scale:.2,opacity:0,rotation:-4},{scale:1,opacity:1,rotation:0,duration:.75,ease:'back.out(1.8)'},2.5);
+    selIn(tl, document.querySelector('#s3-card .sel'), 3.1);
+    tl.fromTo('#s3-cap',{opacity:0},{opacity:1,duration:.4},3.0);
+    tl.fromTo('#s3-paths',{opacity:1},{opacity:.35,duration:.6},3.0);
+    tl.fromTo('#s3-card',{y:0},{y:-18,duration:2.2,ease:'sine.inOut'},3.4);
+
+    window.__timelines["s3"] = tl;
+  })();
+  </script>
+</template>

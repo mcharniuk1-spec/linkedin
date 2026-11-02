@@ -24,8 +24,8 @@
   "files": [
     {
       "path": "HANDOFF.md",
-      "bytes": 5865,
-      "sha256": "a433a4552c11d48d35aba4ab028089736b2e14604ff0f873053d88bad00748ca"
+      "bytes": 7325,
+      "sha256": "1c1d4d97bd222a448881a81535823ac554e48fa989f73540e4b2fba11155d481"
     },
     {
       "path": "README.md",
@@ -34,8 +34,8 @@
     },
     {
       "path": "asset-rights.json",
-      "bytes": 438645,
-      "sha256": "8f162cfb8ef73ba6d4a23e8da5b7827d0a3cf3f7b4bdb759becc3ba3fa1e3f42"
+      "bytes": 439536,
+      "sha256": "b8cd2dd792fe01de904b0739ff72bc40df9a1f20e2cdc42c1ea2f1d695cfca01"
     },
     {
       "path": "assets/README.md",
@@ -301,6 +301,11 @@
       "path": "assets/public/assets/masters/OS-O010-fictional-founder.png",
       "bytes": 1984618,
       "sha256": "2ea2c56148b17f1e007242e51e843bd4b54b71732cac3a3f723f188af1cae514"
+    },
+    {
+      "path": "assets/public/assets/og/og-outspoken-1200x630.png",
+      "bytes": 273361,
+      "sha256": "4d234d4f7b038f0eb6596fc5c4c9835dfcee8a21999e35d80c439912fb304293"
     },
     {
       "path": "assets/public/assets/revisions/v10/people/PROVENANCE.md",
@@ -2358,14 +2363,24 @@
       "sha256": "6924d635d62bdc6b787b9dec2a6b95c767d2d231a315871d90453a94412859ce"
     },
     {
+      "path": "codex-requests/R11-visual-library.md",
+      "bytes": 13026,
+      "sha256": "8824893e1c86390bf75666b2e53187c7f7ac92aa528fc4f8ce21d92f5c136f86"
+    },
+    {
+      "path": "codex-requests/README.md",
+      "bytes": 1205,
+      "sha256": "0ec73b0a06f4d0f1f5126ca619d559de4b1b08eb133e6d5208eecf7271b12691"
+    },
+    {
       "path": "deploy/vercel/README.md",
       "bytes": 3693,
       "sha256": "e83cdd4fe932665d514a49852739bf23bdc453e750cca3f700a1e670bad7a494"
     },
     {
       "path": "deploy/vercel/vercel-build.sh",
-      "bytes": 1459,
-      "sha256": "cea5dd5767f0115661434ff3bbbe53895e09128cf831ac292ad85c6df72b5e8b"
+      "bytes": 1544,
+      "sha256": "d2599bf870b54c59938f4c88609a823ccb525aa18804d6d307337ba8fffc2bd9"
     },
     {
       "path": "deploy/vercel/vercel.json",
@@ -2489,18 +2504,18 @@
     },
     {
       "path": "film/PLAN-NEXT.md",
-      "bytes": 8003,
-      "sha256": "36ff9a9605ed7c377720f905a5290682d4d54eb6a9fe0cd1de451b495edbc70c"
+      "bytes": 8245,
+      "sha256": "a3c8f1ee1f82a4f369f27489917d950096403ba93327843c14747dc6ccddc06e"
     },
     {
       "path": "film/PROMPT-FOR-CLAUDE.md",
-      "bytes": 10648,
-      "sha256": "fba632d247c8b7f6703ac2885ef3724dfedee606a72bada439110db1ef58d34c"
+      "bytes": 10976,
+      "sha256": "852f4bc6a290f01d9735619314e5b05547fa03083efc98968695327f0dee4c12"
     },
     {
       "path": "film/README.md",
-      "bytes": 3596,
-      "sha256": "7d141710135603d7ca02e1d9a5eb1457c37b72cb727825c3427cbc3131920e78"
+      "bytes": 3986,
+      "sha256": "e5c55376b7408c95138ebbdf73b6fe810ceea9a2ea4556c90da2ce675bd3aa38"
     },
     {
       "path": "film/RESEARCH.md",
@@ -2511,6 +2526,131 @@
       "path": "film/SPEC.md",
       "bytes": 18261,
       "sha256": "d190b57d48e5defb588daed756d70ae51cbb6bb954716a0b63680909fde7302d"
+    },
+    {
+      "path": "film/cut30/SPEC-30S.md",
+      "bytes": 11702,
+      "sha256": "f8c4d6478c9ff1663f6ec36ee3b724a8246b6117d20d5e97c2d9fcb4776ca6e9"
+    },
+    {
+      "path": "film/cut30/VOICEOVER-30S.md",
+      "bytes": 2432,
+      "sha256": "701b9b0e10a48e74c58c556664dedadcdd70d5c93153aa61c8beaf5f03b10880"
+    },
+    {
+      "path": "film/cut30/captions-30s.srt",
+      "bytes": 716,
+      "sha256": "0258d187e98a91d263cc5a4896ba29326d28aa38e13a88a62120bf1a6396a65a"
+    },
+    {
+      "path": "film/cut30/hyperframes/.gitignore",
+      "bytes": 45,
+      "sha256": "993d330639c97eea72cdba6d0d6d4abd06fb5d0e39d5e415e6fe7cc48c3500f5"
+    },
+    {
+      "path": "film/cut30/hyperframes/README.md",
+      "bytes": 2382,
+      "sha256": "5bf98ccfe20e26824c36033f700e9368f655381220d48165485e0f18232003d5"
+    },
+    {
+      "path": "film/cut30/hyperframes/build.py",
+      "bytes": 36742,
+      "sha256": "0e839f5fd0820c67a18e715b146d556b71f1cf05115087b8b422d4e57e466a34"
+    },
+    {
+      "path": "film/cut30/hyperframes/compositions/captions.html",
+      "bytes": 22666,
+      "sha256": "528b4237b376468bd8b0199928da1c4eaee1523347e6855f79ef0c8faa7c1b70"
+    },
+    {
+      "path": "film/cut30/hyperframes/compositions/chrome.html",
+      "bytes": 5744,
+      "sha256": "7821cbdc60919a432ad820cf676d3ebc206f3deb37f2624b2ad8411736acf466"
+    },
+    {
+      "path": "film/cut30/hyperframes/compositions/s1.html",
+      "bytes": 4739,
+      "sha256": "d1f6250e82fbf54f31948a05336192c5736d8f8b256ed45f5df0592be41d7584"
+    },
+    {
+      "path": "film/cut30/hyperframes/compositions/s2.html",
+      "bytes": 8405,
+      "sha256": "1679e203e21cc614730b9f940aba600ab7c8128839adc0c1b85d0d9c7b6ac9be"
+    },
+    {
+      "path": "film/cut30/hyperframes/compositions/s3.html",
+      "bytes": 9572,
+      "sha256": "e4bbcd119541f2988ed17e4e751a5d657643bd67cffbe974f194e7e67d0cf62a"
+    },
+    {
+      "path": "film/cut30/hyperframes/compositions/s4.html",
+      "bytes": 7330,
+      "sha256": "0ef86d68194df00dc720fcefb338d003e9d91232d119e32dcf64429be90051f4"
+    },
+    {
+      "path": "film/cut30/hyperframes/compositions/s5.html",
+      "bytes": 9372,
+      "sha256": "a80a8bd7f84d556cb036786aff72cd28d991c4bab2f61978b85ff3c6205bc86d"
+    },
+    {
+      "path": "film/cut30/hyperframes/compositions/s6.html",
+      "bytes": 8400,
+      "sha256": "5f1146f49648526668513cf94a43afe166a5c49d17d22780e993a1d70921e827"
+    },
+    {
+      "path": "film/cut30/hyperframes/compositions/s7.html",
+      "bytes": 8083,
+      "sha256": "cc2f21a03c5b6edfee305743788f9c69d462b9708b6fb20bebfa1e9d76134c5c"
+    },
+    {
+      "path": "film/cut30/hyperframes/hyperframes.json",
+      "bytes": 318,
+      "sha256": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    {
+      "path": "film/cut30/hyperframes/index.html",
+      "bytes": 14573,
+      "sha256": "1e638902de19416c0bc46e0d68d7907f75e5fab56b7c9f791efb853e06526b02"
+    },
+    {
+      "path": "film/cut30/hyperframes/meta.json",
+      "bytes": 81,
+      "sha256": "7c6f18abc0e1c658b5182ce249d9f0bb651a599974377d721aaa79ed05a2a129"
+    },
+    {
+      "path": "film/cut30/hyperframes/package-lock.json",
+      "bytes": 65183,
+      "sha256": "a9e2827c7d756a3310812215890a4ed366910579a24c1cf85369acaa0fd2309e"
+    },
+    {
+      "path": "film/cut30/hyperframes/package.json",
+      "bytes": 661,
+      "sha256": "65908bf4023bb412c62b0238c65230bff5dc8c58ed80b141c49ff39e77540e2c"
+    },
+    {
+      "path": "film/cut30/hyperframes/scripts/make_audio.py",
+      "bytes": 11001,
+      "sha256": "0230b2a4edc856ca04a4d529835f2251991705ae3fed1e27db75f2984608b1ce"
+    },
+    {
+      "path": "film/cut30/hyperframes/scripts/qa.py",
+      "bytes": 4278,
+      "sha256": "97b3728d9ef41e5a7bf5e4ddf51b9f0ca4d0f8604f7a502058ad6fa3d8d1d937"
+    },
+    {
+      "path": "film/cut30/hyperframes/scripts/sync-assets.sh",
+      "bytes": 1206,
+      "sha256": "d08758ada7345b052cdc859c29c4b9b2f42ee6b9618e255ad92d0600de913ae2"
+    },
+    {
+      "path": "film/cut30/hyperframes/src/root.template.txt",
+      "bytes": 12751,
+      "sha256": "9f9384256c45ff742697ff23d65233267c4889a3075bc68fde693c8083dda34d"
+    },
+    {
+      "path": "film/cut30/voiceover-30s.txt",
+      "bytes": 386,
+      "sha256": "274d4e0936afcd8219e4d3adf01975cca74c973fc5090c7f6db569dd53cc33ee"
     },
     {
       "path": "film/package-lock.json",
@@ -2863,6 +3003,11 @@
       "sha256": "2be0cd9c4f3f566ecdc736a9a81fdc01513d44fe3621a5927e62048b64307305"
     },
     {
+      "path": "prompts/CLOUD-CLAUDE-R11.md",
+      "bytes": 12118,
+      "sha256": "68b3801c279ef0f5a2c69ca6f0bdcd38d0c1d7564b79155eb9c857e9c6a924d6"
+    },
+    {
       "path": "qa/README.md",
       "bytes": 1262,
       "sha256": "1d3e8bcdb930a86281f77d6bd8b7f3de6e33be2783200b54cc8f7fb7384e7840"
@@ -2918,9 +3063,19 @@
       "sha256": "71fc0b9f9c7b60bdeb343029040d590a1c8a027c2a4c45221784610d6cb0ccda"
     },
     {
+      "path": "scripts/refresh-manifest.py",
+      "bytes": 1761,
+      "sha256": "94112322cc3e2a68b6f8882100dbd0d48e769464b97d38cf76d45053724df0b5"
+    },
+    {
       "path": "scripts/verify-package.mjs",
       "bytes": 1125,
       "sha256": "a1e68fad524379238e785a038002e0c9ce87b49903fe9d6a77274d57bafac2f7"
+    },
+    {
+      "path": "seo/SEO-GEO-R11.md",
+      "bytes": 3894,
+      "sha256": "4a56634f231e6c8b1fac3c05d1031c6cfd70521f1d0fe409df3ded20abf92484"
     },
     {
       "path": "source-revision-map.json",
@@ -2949,8 +3104,8 @@
     },
     {
       "path": "website/package.json",
-      "bytes": 1490,
-      "sha256": "9da874431b6cf024657e7eb022a9fc4c52713ff89e24e722377b3a92214ede1e"
+      "bytes": 1521,
+      "sha256": "24248cfa1689905ed2c233fbde62133e93dbe5cac2da84f083989523e688d8eb"
     },
     {
       "path": "website/packages/assets/catalog.json",
@@ -5038,19 +5193,24 @@
       "sha256": "6a8a6360f9b3f1c4f1c8d378ff2f027ea88280a3361080572558f734be0f5d25"
     },
     {
+      "path": "website/scripts/seo-static.mjs",
+      "bytes": 8406,
+      "sha256": "5c6100ae2fd16480c8df603fb5088f5ed99b07fa28187e79c6ea41ff7936165c"
+    },
+    {
       "path": "website/tsconfig.json",
       "bytes": 603,
       "sha256": "f107d44bf5fa50da7d062bb8fd29cab2703a556a919a5b1af7bd23274372dc85"
     },
     {
       "path": "website/website-v3/App.tsx",
-      "bytes": 26634,
-      "sha256": "91164e6fb179a95df5b3d0234fda13b30b1f3542e1821199000a899163070fa8"
+      "bytes": 27088,
+      "sha256": "575490da19e89dcba72ea675938adfe8e8520ce1ceacf8ee86288183f93b2b86"
     },
     {
       "path": "website/website-v3/Blocks.stories.tsx",
-      "bytes": 1348,
-      "sha256": "1330dc72f2768f17c96e8e99682fc93507ca1940c156dc725176ee486ab290dd"
+      "bytes": 1381,
+      "sha256": "526a5d6c58d281ffa796ad19fb545d6d76f3d9fbce00f7a1e323c933224aaa77"
     },
     {
       "path": "website/website-v3/Buttons.stories.tsx",
@@ -5083,9 +5243,9 @@
       "sha256": "700b20c6850f180b255aa155062fd0d27b3d7e13c0c5e311926ab4620139e71a"
     },
     {
-      "path": "website/website-v3/ServicesOverview.tsx",
-      "bytes": 2178,
-      "sha256": "8b619cc101cfbd8772a6f4364d0318ef1256f1a279c60e8681492632fb72fbf7"
+      "path": "website/website-v3/ServiceDetails.tsx",
+      "bytes": 5138,
+      "sha256": "a8d67a373175cc630179b804ecb04e69aafa8ccc28ff26d5b89d7a553ef75691"
     },
     {
       "path": "website/website-v3/WhyOutspoken.tsx",
@@ -5103,14 +5263,19 @@
       "sha256": "07233652178b37ab44aff9f1bd27f609295813ae6473d1105f557857c1e3fdb0"
     },
     {
+      "path": "website/website-v3/contact-block.css",
+      "bytes": 2460,
+      "sha256": "cb15a2e953863a8bbc1f3a4766d832b35a24f3128499531d8581932fc08e9dc1"
+    },
+    {
       "path": "website/website-v3/content.json",
-      "bytes": 32642,
-      "sha256": "4edc23632026156934b45b02b9e936efaa23e515d4d56501defaaaefa2355261"
+      "bytes": 34330,
+      "sha256": "1f9ccb1817d18b5724e4b53f27e8e0eae1e630835e1def1b3d30aa32f4577a0f"
     },
     {
       "path": "website/website-v3/experience-story.css",
-      "bytes": 7472,
-      "sha256": "952613fcbed85da0bbf22532e0540348a0062b4037dd959f2f7cfd4526a7b31c"
+      "bytes": 7495,
+      "sha256": "3c55fee3507b581e9a963943d7887180475bab7cffeb2a5e6d9b7cc943d542fc"
     },
     {
       "path": "website/website-v3/founders.json",
@@ -5154,8 +5319,8 @@
     },
     {
       "path": "website/website-v3/mobile/MobileHome.tsx",
-      "bytes": 9261,
-      "sha256": "097164546b435a346968699b873560f86a6ac20aef0e233e37b64032fcd30d90"
+      "bytes": 9270,
+      "sha256": "918a6fd852ef3787f51b9259148b595b86408ab8ae8d862e0c739567063f5045"
     },
     {
       "path": "website/website-v3/mobile/mobile-chapter.css",
@@ -5188,9 +5353,14 @@
       "sha256": "d628b5b53b659993cdf3389d1fe7ded7ce991ea64f516bb789fd0d01a83d0932"
     },
     {
-      "path": "website/website-v3/services-overview.css",
-      "bytes": 4269,
-      "sha256": "2f689106ee03a637521c921ab48acbfa43906839589216293429a3075f27b1d5"
+      "path": "website/website-v3/service-details.css",
+      "bytes": 7518,
+      "sha256": "02fa36e37f4b5251e32b86a8b15a80d5e701980153c8f05cc70df4baa15402d4"
+    },
+    {
+      "path": "website/website-v3/service-details.json",
+      "bytes": 4888,
+      "sha256": "44e9e2cfb497ad8bb011400588192e4c2bb0efa7759c035798079b90094939e2"
     },
     {
       "path": "website/website-v3/vite.config.ts",
@@ -5200,7 +5370,7 @@
     {
       "path": "website/website-v3/website.css",
       "bytes": 44828,
-      "sha256": "6735532361b1263655e9c499904af1a4d3eb23e4c719b3b8787ba8ce953fe434"
+      "sha256": "1b016ef1b78e805b3fed1901ff9d1029da3990c724e855b35b9cfbdb7a412b9c"
     },
     {
       "path": "website/website-v3/why-outspoken.css",
@@ -12962,6 +13132,23 @@
       "conditions": [
         "Preserve fictional/sample disclosures wherever fictional people or feedback are used.",
         "No verified client, endorsement, or artistic acceptance is implied."
+      ]
+    },
+    {
+      "path": "assets/public/assets/og/og-outspoken-1200x630.png",
+      "repository_path": "design and website/assets/public/assets/og/og-outspoken-1200x630.png",
+      "sha256": "4d234d4f7b038f0eb6596fc5c4c9835dfcee8a21999e35d80c439912fb304293",
+      "bytes": 273361,
+      "source": "Open Graph card composed in HTML from owned assets (graded shadow figure h1-shadow.webp, B01 lockup, Fraunces/Mona Sans/Geist Mono OFL fonts) and rendered by headless Chrome on 2026-11-02; protected hero line unchanged",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/website/website-v3/App.tsx",
+        "design and website/website/scripts/seo-static.mjs"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Contains the fictional shadow figure; no real person is depicted.",
+        "Proposed look; owner acceptance pending."
       ]
     }
   ],

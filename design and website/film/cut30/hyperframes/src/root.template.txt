@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en" data-resolution="portrait">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1080, height=1920" />
+    <script src="assets/gsap.min.js"></script>
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      html, body { margin: 0; width: 1080px; height: 1920px; overflow: hidden; background: #F1F3F6; }
+      #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+      #ground { position: absolute; inset: 0; background: #F1F3F6; }
+      #ink { position: absolute; inset: 0; width: 1080px; height: 1920px; z-index: 40; pointer-events: none; }
+      #flash { position: absolute; inset: 0; background: #F1F3F6; opacity: 0; z-index: 41; }
+      #fx { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; z-index: 42; }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="30" data-width="1080" data-height="1920" data-fps="30">
+      <div id="ground"></div>
+@@HOSTS@@
+      <div id="cap" data-composition-id="captions" data-composition-src="compositions/captions.html" data-start="0" data-duration="30" data-track-index="20" data-width="1080" data-height="1920" data-track-kind="captions" style="position:absolute;inset:0;z-index:30"></div>
+      <div id="chrome" data-composition-id="chrome" data-composition-src="compositions/chrome.html" data-start="0" data-duration="30" data-track-index="21" data-width="1080" data-height="1920" data-track-kind="graphics" style="position:absolute;inset:0;z-index:31"></div>
+      <svg id="ink" viewBox="0 0 1080 1920" aria-hidden="true">
+        <defs>
+          <filter id="goo" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="16" result="b" />
+            <feColorMatrix in="b" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 30 -13" />
+          </filter>
+        </defs>
+        <g id="ink-g" filter="url(#goo)" fill="#0D1A3B"></g>
+      </svg>
+      <audio id="mix" src="assets/audio/mix-voice-ready.wav" data-start="0" data-duration="30" data-volume="1"></audio>
+      <div id="flash"></div>
+      <canvas id="fx" width="1080" height="1920"></canvas>
+    </div>
+    <script>
+      window.__timelines = window.__timelines || {};
+      (function () {
+        function mulberry32(a){return function(){a|=0;a=a+0x6D2B79F5|0;let t=Math.imul(a^a>>>15,1|a);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+        const clamp = (x) => Math.min(1, Math.max(0, x));
+        const easeInOut = (p) => (p < .5 ? 4*p*p*p : 1 - Math.pow(-2*p + 2, 3) / 2);
+        const easeIn3 = (p) => p*p*p;
+        const easeOut3 = (p) => 1 - Math.pow(1 - p, 3);
+        const NS = 'http://www.w3.org/2000/svg';
+        const tl = gsap.timeline({ paused: true });
+
+        // ---- T1 ink flood (S1 -> S2): gooey navy blobs burst from the figure and swallow the frame; the ink colour equals the next ground
+        const g = document.getElementById('ink-g'), rnd = mulberry32(7), O1 = [700, 1010];
+        for (let i = 0; i < 22; i++) {
+          const a = rnd() * 6.283, d = rnd() * 280, c = document.createElementNS(NS, 'circle');
+          c.setAttribute('cx', O1[0] + Math.cos(a) * d); c.setAttribute('cy', O1[1] + Math.sin(a) * d); c.setAttribute('r', 0); g.appendChild(c);
+          tl.fromTo(c, { attr: { r: 0 } }, { attr: { r: 1250 + rnd() * 500 }, duration: .5 + rnd() * .12, ease: 'power2.in' }, 2.62 + rnd() * .12);
+        }
+        for (let i = 0; i < 34; i++) {
+          const a = rnd() * 6.283, dist = 330 + rnd() * 820, c = document.createElementNS(NS, 'circle'), t0 = 2.45 + rnd() * .22;
+          c.setAttribute('cx', O1[0]); c.setAttribute('cy', O1[1]); c.setAttribute('r', 0); g.appendChild(c);
+          tl.fromTo(c, { attr: { cx: O1[0], cy: O1[1], r: 12 } }, { attr: { cx: O1[0] + Math.cos(a) * dist, cy: O1[1] + Math.sin(a) * dist, r: 28 + rnd() * 52 }, duration: .46, ease: 'power3.out' }, t0);
+        }
+        tl.fromTo('#ink', { opacity: 1 }, { opacity: 0, duration: .32, ease: 'power1.in' }, 3.33);
+        tl.set('#ink', { opacity: 1 }, 0);
+        tl.set('#ink', { opacity: 0 }, 3.7);
+
+        // ---- T2 spark burst (S2 -> S3): a 3-frame warm flash on the cut; the sparks are drawn in renderFx
+        tl.fromTo('#flash', { opacity: 0 }, { opacity: 1, duration: .05, ease: 'none' }, 5.60);
+        tl.to('#flash', { opacity: 0, duration: .16, ease: 'power2.out' }, 5.72);
+
+        // ---- T4 whip pan (S4 -> S5)
+        tl.fromTo('#s5', { x: 1080 }, { x: 0, duration: .52, ease: 'power3.inOut' }, 13.62);
+        tl.to('#s4', { x: -1080, duration: .52, ease: 'power3.inOut' }, 13.62);
+        tl.fromTo('#s5', { filter: 'blur(0px)' }, { filter: 'blur(28px)', duration: .26, ease: 'power2.in' }, 13.62);
+        tl.to('#s5', { filter: 'blur(0px)', duration: .26, ease: 'power2.out' }, 13.88);
+        tl.fromTo('#s4', { filter: 'blur(0px)' }, { filter: 'blur(28px)', duration: .26, ease: 'power2.in' }, 13.62);
+
+        // T6 (selection expansion, S6 -> S7) is drawn in renderFx
+
+        // ---- canvas and reveal geometry: pure functions of time (hf-seek)
+        const cv = document.getElementById('fx'), ctx = cv.getContext('2d');
+        const s4 = document.getElementById('s4'), s6 = document.getElementById('s6');
+        // sparks (T2)
+        const O2 = [865, 655], sparks = [], r2 = mulberry32(21);
+        for (let i = 0; i < 260; i++) sparks.push({ a: r2() * 6.283, v: 380 + Math.pow(r2(), 1.6) * 1750, life: .45 + r2() * .85, w: 1.6 + r2() * 3.4, tb: 5.60 + r2() * .09, c: r2() < .55 ? '#F3C15D' : (r2() < .5 ? '#FFFFFF' : '#EAA93C'), g: 200 + r2() * 700 });
+        // band + droplets (T3)
+        const r3 = mulberry32(33), drops = [];
+        for (let i = 0; i < 46; i++) drops.push({ u: -1300 + r3() * 2600, d: 40 + r3() * 520, r: 6 + r3() * 20, s: r3() * .12 });
+        const NX = Math.cos(-0.61), NY = Math.sin(-0.61), TX = -NY, TY = NX; // up-right diagonal
+        const BW = 190;
+        const edgeNoise = (u, ph) => Math.sin(u * .0105 + ph) * 46 + Math.sin(u * .027 + ph * 2.1) * 22 + Math.sin(u * .061 + ph * .7) * 9;
+        function edgePoly(e, ph) {
+          const pts = [];
+          for (let u = -2600; u <= 2600; u += 80) {
+            const s = e + edgeNoise(u, ph);
+            pts.push([NX * s + TX * u + 540, NY * s + TY * u + 960]);
+          }
+          return pts;
+        }
+        const E0 = -1450, E1 = 1250;
+        // streaks (T4)
+        const r4 = mulberry32(44), streaks = [];
+        for (let i = 0; i < 40; i++) streaks.push({ y: 180 + r4() * 1500, len: 320 + r4() * 780, w: 3 + r4() * 8, x0: 200 + r4() * 1100, c: r4() < .5 ? '#162760' : '#EAA93C', a: .22 + r4() * .35 });
+
+        function renderFx(t) {
+          ctx.clearRect(0, 0, 1080, 1920);
+          // T2 sparks
+          if (t > 5.55 && t < 6.9) {
+            const tau0 = t - 5.60;
+            // shockwave ring
+            if (tau0 > 0 && tau0 < .7) { const p = tau0 / .7; ctx.save(); ctx.globalAlpha = (1 - p) * .85; ctx.strokeStyle = '#F3C15D'; ctx.lineWidth = 16 * (1 - p) + 2; ctx.beginPath(); ctx.arc(O2[0], O2[1], 40 + easeOut3(p) * 900, 0, 6.283); ctx.stroke(); ctx.restore(); }
+            ctx.save(); ctx.globalCompositeOperation = 'source-over'; ctx.lineCap = 'round';
+            for (const s of sparks) {
+              const tau = t - s.tb; if (tau < 0 || tau > s.life) continue;
+              const k = 2.4, f = (tt) => (1 - Math.exp(-k * tt)) / k;
+              const px = (tt) => O2[0] + Math.cos(s.a) * s.v * f(tt), py = (tt) => O2[1] + Math.sin(s.a) * s.v * f(tt) + .5 * s.g * tt * tt;
+              const a = Math.pow(1 - tau / s.life, 1.4), t2 = Math.max(0, tau - .05);
+              ctx.globalAlpha = a; ctx.strokeStyle = s.c; ctx.lineWidth = s.w * (0.5 + .5 * a);
+              ctx.beginPath(); ctx.moveTo(px(t2), py(t2)); ctx.lineTo(px(tau), py(tau)); ctx.stroke();
+            }
+            ctx.restore();
+          }
+          // T3 paint wipe: S4 is revealed behind the trailing edge; the marigold band covers the edge
+          const p3 = clamp((t - 10.70) / .62), e3 = E0 + easeInOut(p3) * (E1 - E0);
+          if (p3 <= 0) { s4.style.clipPath = 'polygon(0 0,0 0,0 0)'; }
+          else if (p3 >= 1) { s4.style.clipPath = 'none'; }
+          else {
+            const trail = edgePoly(e3 - BW, 1.3);
+            const poly = trail.map(p => p[0].toFixed(1) + 'px ' + p[1].toFixed(1) + 'px');
+            const far = [[-NX * 4000 + TX * 2600 + 540, -NY * 4000 + TY * 2600 + 960], [-NX * 4000 - TX * 2600 + 540, -NY * 4000 - TY * 2600 + 960]];
+            poly.push(far[0][0] + 'px ' + far[0][1] + 'px'); poly.push(far[1][0] + 'px ' + far[1][1] + 'px');
+            s4.style.clipPath = 'polygon(' + poly.join(',') + ')';
+            const lead = edgePoly(e3, 4.1);
+            ctx.save();
+            const grad = ctx.createLinearGradient(540 + NX * (e3 - BW), 960 + NY * (e3 - BW), 540 + NX * e3, 960 + NY * e3);
+            grad.addColorStop(0, '#EAA93C'); grad.addColorStop(1, '#F6D591');
+            ctx.fillStyle = grad; ctx.beginPath();
+            lead.forEach((p, i) => (i ? ctx.lineTo(p[0], p[1]) : ctx.moveTo(p[0], p[1])));
+            for (let i = trail.length - 1; i >= 0; i--) ctx.lineTo(trail[i][0], trail[i][1]);
+            ctx.closePath(); ctx.fill();
+            // droplets thrown ahead of the band
+            for (const d of drops) {
+              const q = clamp((p3 - d.s) / .5); if (q <= 0 || q >= 1) continue;
+              const s = e3 + 20 + d.d * easeOut3(q); const x = NX * s + TX * d.u + 540, y = NY * s + TY * d.u + 960;
+              ctx.globalAlpha = 1 - q; ctx.fillStyle = '#EAA93C'; ctx.beginPath(); ctx.arc(x, y, d.r * (1 - q * .6), 0, 6.283); ctx.fill();
+            }
+            ctx.restore();
+          }
+          // T4 whip streaks
+          if (t > 13.55 && t < 14.2) {
+            const p = clamp((t - 13.58) / .6), amp = Math.sin(p * Math.PI);
+            ctx.save(); ctx.lineCap = 'round';
+            for (const s of streaks) { const x = s.x0 - easeInOut(p) * 2100; ctx.globalAlpha = s.a * amp; ctx.strokeStyle = s.c; ctx.lineWidth = s.w; ctx.beginPath(); ctx.moveTo(x, s.y); ctx.lineTo(x + s.len, s.y); ctx.stroke(); }
+            ctx.restore();
+          }
+          // T5 iris reveal of S6 with a glowing ring
+          const p5 = clamp((t - 17.12) / .62), r5 = easeIn3(p5) * 1750;
+          if (p5 <= 0) s6.style.clipPath = 'circle(0px at 540px 800px)';
+          else if (p5 >= 1) s6.style.clipPath = 'none';
+          else {
+            s6.style.clipPath = 'circle(' + r5.toFixed(1) + 'px at 540px 800px)';
+            ctx.save(); ctx.strokeStyle = '#F3C15D'; ctx.shadowColor = '#EAA93C'; ctx.shadowBlur = 50; ctx.lineWidth = 16; ctx.globalAlpha = 1 - p5 * .5;
+            ctx.beginPath(); ctx.arc(540, 800, r5, 0, 6.283); ctx.stroke(); ctx.restore();
+          }
+          // T6 selection expansion: the website's selection box grows around the dot, fills with marker colour, then retracts downward as a shutter
+          if (t > 20.55 && t < 21.95) {
+            const grow = clamp((t - 20.62) / .55), eg = grow * grow * grow * grow;
+            const x0 = 445, y0 = 985, x1 = 635, y1 = 1175, X0 = -40, Y0 = -40, X1 = 1120, Y1 = 1960;
+            const L = x0 + (X0 - x0) * eg, Tp = y0 + (Y0 - y0) * eg, R = x1 + (X1 - x1) * eg, B = y1 + (Y1 - y1) * eg;
+            const fill = clamp((t - 21.02) / .26), shut = clamp((t - 21.34) / .55), es = shut < .5 ? 4 * shut * shut * shut : 1 - Math.pow(-2 * shut + 2, 3) / 2;
+            ctx.save();
+            if (shut <= 0) {
+              ctx.globalAlpha = clamp((t - 20.62) / .2);
+              ctx.fillStyle = 'rgba(246,213,145,' + fill.toFixed(3) + ')'; ctx.fillRect(L, Tp, R - L, B - Tp);
+              if (fill < 1) {
+                ctx.setLineDash([22, 14]); ctx.lineWidth = 5; ctx.strokeStyle = 'rgba(22,39,96,' + (1 - fill).toFixed(3) + ')'; ctx.strokeRect(L, Tp, R - L, B - Tp); ctx.setLineDash([]);
+                ctx.globalAlpha = 1 - fill;
+                for (const [hx, hy] of [[L, Tp], [R, Tp], [L, B], [R, B]]) { ctx.fillStyle = '#fff'; ctx.strokeStyle = '#162760'; ctx.lineWidth = 5; ctx.fillRect(hx - 17, hy - 17, 34, 34); ctx.strokeRect(hx - 17, hy - 17, 34, 34); }
+              }
+            } else if (shut < 1) {
+              const y = es * 1960; ctx.fillStyle = '#F6D591'; ctx.fillRect(0, y, 1080, 1960 - y);
+              ctx.fillStyle = '#EAA93C'; ctx.fillRect(0, y - 8, 1080, 8);
+            }
+            ctx.restore();
+          }
+        }
+        window.addEventListener('hf-seek', (e) => renderFx(e.detail.time));
+        renderFx(0);
+        window.__timelines['main'] = tl;
+        tl.seek(0);
+      })();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+{
+  "kicker": "The service in detail",
+  "title": "Eight parts of one service. Each with a *reason*.",
+  "intro": "Start with one part or take the whole program. Every part has a clear job, something you can check, and a scope we agree in writing before work begins.",
+  "indexLabel": "Service parts",
+  "whyLabel": "Why it matters",
+  "checkLabel": "Check it yourself",
+  "getLabel": "What you get",
+  "scopeLabel": "Scope and permissions",
+  "arguments": {
+    "profile": {
+      "headline": "Buyers check your *profile* before they reply.",
+      "why": "After a post, a message or an introduction, the profile is usually the next page a buyer, investor or candidate opens. It should answer three questions on the first screen: who you help, which problem you solve and why you are credible. Most founder profiles list a job title instead.",
+      "check": "Ask someone outside your company to read your headline and About section for ten seconds, then say what you do and for whom."
+    },
+    "strategy": {
+      "headline": "Every post needs a *reason* to exist.",
+      "why": "Posting often is not a strategy. A useful editorial direction starts from the questions your buyers already ask and connects them to the decisions, evidence and opinions only your company can offer. Four or five themes you can sustain protect your position better than a long calendar of topics.",
+      "check": "Open the plan: each theme should name a buyer question, the proof behind it and the offer it leads to."
+    },
+    "writing": {
+      "headline": "Your judgment, written so buyers can *read* it.",
+      "why": "The most valuable material in a young company sits in the founder's head, in calls and in product trade-offs. Regular interviews capture it in your own words, and the writing keeps the technical meaning intact while it becomes easier to read. You approve every claim before anything is published.",
+      "check": "Read a draft aloud. If it does not sound like you, or a claim is not one you would defend on a call, it does not go out."
+    },
+    "design": {
+      "headline": "Make the idea *visible* before the reader scrolls on.",
+      "why": "Complex products are hard to explain in a feed. A clear carousel, diagram or short video shows how a decision works in seconds and gives people something to save and send to a colleague. Reusable templates keep the look consistent without a designer on every post.",
+      "check": "Show one visual to a colleague for five seconds and ask what it says. If they cannot answer, simplify it."
+    },
+    "automation": {
+      "headline": "A process that keeps *running* when the week gets busy.",
+      "why": "Founder content usually stops when the calendar fills up. A shared source library, a short review route and approved scheduling keep it moving, while the people responsible still decide what is published. Automation covers administration, not relationships.",
+      "check": "Look at the workflow: every step has an owner, and nothing is published without an approval."
+    },
+    "marketing": {
+      "headline": "Content opens a conversation. *Follow-up* continues it.",
+      "why": "A strong post only helps if the next step is clear. We align founder content, company messaging and manual follow-up copy around one defined buyer, so a reply, a comment or a question has somewhere sensible to go.",
+      "check": "Take any post and ask what an interested buyer would do next. There should be one obvious answer."
+    },
+    "advertising": {
+      "headline": "Spend on the message that has *earned* attention.",
+      "why": "Paid distribution multiplies whatever message it is given. We build campaign angles, creative and landing messages around one buyer and one objective, then plan small tests to learn which message deserves a larger budget before it grows.",
+      "check": "Ask for the test plan: it should state the audience, the message being tested and what result would change the budget."
+    },
+    "measurement": {
+      "headline": "Learn what matters to the *right* people.",
+      "why": "Likes are easy to count and easy to misread. We agree what to measure, such as qualified replies, conversations and attributed leads, report what the authorized data can show and use it to choose the next test. Engagement, leads and revenue stay separate measures.",
+      "check": "Ask which decision each number supports. A number that supports no decision is dropped from the report."
+    }
+  },
+  "definition": {
+    "label": "In short",
+    "question": "What is founder-led LinkedIn marketing?",
+    "answer": "Founder-led LinkedIn marketing turns a founder’s experience, product decisions and point of view into LinkedIn content that the right buyers recognize and trust. OUTSPOKEN does this for Europe-based B2B AI SaaS founders, from seed to Series B, with the founder approving every claim."
+  }
+}

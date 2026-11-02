@@ -2,6 +2,8 @@
 
 The prompts assume the agent starts in a clean checkout of `https://github.com/mcharniuk1-spec/linkedin` and nothing else. Paste one as the first message. Variation A needs no connectors. Variation B adds Figma and Vercel. Variation C continues the website design and code-generated motion work and needs no connector (add Vercel only if you want it deployed).
 
+> **Newest prompt (2 November 2026):** use `../prompts/CLOUD-CLAUDE-R11.md`; it replaces Variations A to C for the remaining tasks (image ingestion, site design pass, the 30-second film in 16:9 and 4:5, SEO and GEO, deployment, Figma) and holds the Git rules. The variations below remain valid for the 80-second Remotion film.
+
 ## Current state (31 October 2026, after commit `acf8655`)
 - **Identity:** the client chose **B01** (matte capsule microphone mark) and **D05** (monoline icons with a marigold marker). Vectors and generator: `design and website/design-system/identity-v10/`. They are live in the header, footer, hero mark, closing panel, experience chips and services.
 - **First screens:** hero photographs are **graded in code** (`design-system/identity-v10/grade-heroes.py`), not generated. Codex is no longer used for images; do not write Codex requests for heroes. The first screens use a dotted ground, a kicker pill, one selected accent word (`Sel`), an illustrative people strip (`HeroPeople`) and a statement beat before the proof beat (`website/website-v3/HeroPeople.tsx`, `hero-v10.css`, `hero-phases.ts`).

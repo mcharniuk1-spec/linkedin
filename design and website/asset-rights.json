@@ -8223,6 +8223,23 @@
         "Preserve fictional/sample disclosures wherever fictional people or feedback are used.",
         "No verified client, endorsement, or artistic acceptance is implied."
       ]
+    },
+    {
+      "path": "assets/public/assets/og/og-outspoken-1200x630.png",
+      "repository_path": "design and website/assets/public/assets/og/og-outspoken-1200x630.png",
+      "sha256": "4d234d4f7b038f0eb6596fc5c4c9835dfcee8a21999e35d80c439912fb304293",
+      "bytes": 273361,
+      "source": "Open Graph card composed in HTML from owned assets (graded shadow figure h1-shadow.webp, B01 lockup, Fraunces/Mona Sans/Geist Mono OFL fonts) and rendered by headless Chrome on 2026-11-02; protected hero line unchanged",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/website/website-v3/App.tsx",
+        "design and website/website/scripts/seo-static.mjs"
+      ],
+      "source_hash_match": false,
+      "conditions": [
+        "Contains the fictional shadow figure; no real person is depicted.",
+        "Proposed look; owner acceptance pending."
+      ]
     }
   ],
   "excluded": [

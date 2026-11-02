@@ -12,7 +12,7 @@ import './mobile-home.css';
 type Parts={
   PostCard:ComponentType<any>; MailCard:ComponentType<any>; CallButton:ComponentType<any>;
   SoundWaves:ComponentType<any>; OpinionReader:ComponentType<any>;
-  story:ReactNode; why:ReactNode; pricing:ReactNode; faq:ReactNode; closing:ReactNode;
+  story:ReactNode; why:ReactNode; pricing:ReactNode; services:ReactNode; contact:ReactNode;
 };
 const ease=[.2,.75,.2,1] as const;
 
@@ -60,14 +60,14 @@ function Opinions({MailCard,OpinionReader,SoundWaves}:Pick<Parts,'MailCard'|'Opi
   return <section className="m-opinions" id="opinions" data-block="mobile-customer-opinion"><div className="m-section-intro"><p className="eyebrow">The human side of the work</p><h2>Customer<br/><span className="highlight">Opinion.</span></h2><p>Six sample conversations about a clearer profile, better stories and a more useful content process. Fictional examples, shown as a design study, not customer testimonials.</p><button type="button" className="text-control" onClick={()=>setReader(0)}>Read all {opinionCount} samples ↗</button></div><MobileChapter className="m-opinion-chapter" pages={4.5} ariaLabel="Sample emails">{(progress,still)=><><div className="m-opinions__waves"><SoundWaves/></div><ReadingDeck progress={progress} still={still} items={emails} kind="opinions" label="Customer Opinion · samples" render={(email,i)=><MailCard email={email} onOpen={()=>setReader(i)}/>}/></>}</MobileChapter>{reader!==null?<OpinionReader index={reader} onIndex={setReader} onClose={()=>setReader(null)}/>:null}</section>;
 }
 
-export function MobileHome({PostCard,MailCard,CallButton,SoundWaves,OpinionReader,story,why,pricing,faq,closing}:Parts){
+export function MobileHome({PostCard,MailCard,CallButton,SoundWaves,OpinionReader,story,why,pricing,services,contact}:Parts){
   const host=useRef<HTMLDivElement>(null),reduced=useReducedMotion();
   useEffect(()=>{
     if(reduced||new URLSearchParams(location.search).has('design'))return;
-    const cards=host.current?.querySelectorAll<HTMLElement>('.service-plate,.process-section li,.price-plan,.faq-section details,.closing-panel>img');
+    const cards=host.current?.querySelectorAll<HTMLElement>('.svc,.process-section li,.price-plan,.faq-section details,.closing-mark>img');
     const animations:Animation[]=[];
     const observer=new IntersectionObserver(entries=>{for(const entry of entries){if(!entry.isIntersecting)continue;const element=entry.target as HTMLElement;observer.unobserve(element);animations.push(element.animate([{opacity:.25,transform:'translateY(32px) rotateX(3deg)'},{opacity:1,transform:'translateY(0) rotateX(0)'}],{duration:650,easing:'cubic-bezier(.2,.75,.2,1)'}));}},{threshold:.12});
     cards?.forEach(card=>observer.observe(card));return()=>{observer.disconnect();animations.forEach(animation=>animation.cancel());};
   },[reduced]);
-  return <div ref={host} className="mobile-home"><MobileChapter className="m-hero" pages={3} ariaLabel="Founder thinking and buyer relevance">{(progress,still)=><HeroScene progress={progress} still={still} CallButton={CallButton} SoundWaves={SoundWaves} PostCard={PostCard}/>}</MobileChapter><div className="m-flow m-flow--story">{story}</div><div className="m-flow m-flow--why">{why}</div><Opinions MailCard={MailCard} OpinionReader={OpinionReader} SoundWaves={SoundWaves}/><div className="m-flow m-flow--pricing">{pricing}</div><div className="m-flow m-flow--faq">{faq}</div><div className="m-flow m-flow--closing">{closing}</div></div>;
+  return <div ref={host} className="mobile-home"><MobileChapter className="m-hero" pages={3} ariaLabel="Founder thinking and buyer relevance">{(progress,still)=><HeroScene progress={progress} still={still} CallButton={CallButton} SoundWaves={SoundWaves} PostCard={PostCard}/>}</MobileChapter><div className="m-flow m-flow--story">{story}</div><div className="m-flow m-flow--why">{why}</div><Opinions MailCard={MailCard} OpinionReader={OpinionReader} SoundWaves={SoundWaves}/><div className="m-flow m-flow--pricing">{pricing}</div><div className="m-flow m-flow--services">{services}</div><div className="m-flow m-flow--contact">{contact}</div></div>;
 }
