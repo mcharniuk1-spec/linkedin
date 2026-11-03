@@ -137,6 +137,8 @@ def make_audio(out_dir, dur, cuts, lines, chords, bpm=92, seed=7, voice="Daniel"
     w = lambda p, x: wavfile.write(out / p, SR, (np.clip(x, -1, 1) * 32767).astype(np.int16))
     w("music.wav", mus); w("sfx.wav", sfx)
     mix = _norm(mus + sfx * .9, -19.0); w("mix-voice-ready.wav", mix)
+    if shutil.which("say") is None:  # the timing-guide voice needs the macOS `say` command; the master carries music and effects only, so skip it elsewhere
+        return {"voice_ready_lufs": round(_lufs(mix), 1), "with_guide_lufs": None, "guide": "skipped: no `say` command on this machine"}
     guide = np.zeros((N, 2))
     with tempfile.TemporaryDirectory() as d:
         for i, (a, b, text) in enumerate(lines):

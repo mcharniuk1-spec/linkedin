@@ -24,13 +24,13 @@
   "files": [
     {
       "path": "HANDOFF.md",
-      "bytes": 16632,
-      "sha256": "51a4e2f41d56befb6595676b57c2e32d84ce1b777149cfccde341b68ec2612b6"
+      "bytes": 17007,
+      "sha256": "a16d2f402260c356d6806383ca0840ba12c86e2452a1d2e14f558fdcdca05dc1"
     },
     {
       "path": "R15-INTEGRATION.md",
-      "bytes": 5120,
-      "sha256": "7826d2c75694b92eba473820b82a243b6bed212f54a3990b53d5c08e24099228"
+      "bytes": 7467,
+      "sha256": "0c28aa5dce8fcbd8cab840fe364691fe09f324810d78962535e9ff6bfbe643e0"
     },
     {
       "path": "README.md",
@@ -39,8 +39,8 @@
     },
     {
       "path": "asset-rights.json",
-      "bytes": 617094,
-      "sha256": "afe1653588286f9573c30a07d8a1844146b2219b4f1ef9978a57e6a3857889f9"
+      "bytes": 619342,
+      "sha256": "86a53fa810c52127166d5a0b1a4b66df321fdf40b3746797ee14094ba64c04eb"
     },
     {
       "path": "assets/README.md",
@@ -51,6 +51,16 @@
       "path": "assets/film-r15/launch-r15-16x9-master.mp4",
       "bytes": 10149238,
       "sha256": "ef30d592893f8825a5a03322ebb8bde720c48b056db676b09c4d31c8eb61a88a"
+    },
+    {
+      "path": "assets/film-r15/launch-r15-4x5-master.mp4",
+      "bytes": 7596445,
+      "sha256": "d221aeb81d06a11c5f633a69ab914857f494a668c954ba2fc5ce0b178ab2aad0"
+    },
+    {
+      "path": "assets/film-r15/os-motion-r15-16x9-master.mp4",
+      "bytes": 6208384,
+      "sha256": "9b550f52a4b333800955e4abf04497161289863d66d21afc3fb3f9eda042a120"
     },
     {
       "path": "assets/film-r15/os-motion-r15-4x5-master.mp4",
@@ -4034,13 +4044,43 @@
     },
     {
       "path": "film/filmkit.py",
-      "bytes": 11893,
-      "sha256": "49f40c979a08ea188864af235fa7b6da2a7c05ce3fb4585e75abd7325bf08125"
+      "bytes": 12187,
+      "sha256": "f61f3c146fa32806a668c2039fc89f840e70f3fd343671b5cf103360a9dcae03"
+    },
+    {
+      "path": "film/launch-r15/4x5/QA.md",
+      "bytes": 6903,
+      "sha256": "4a6ea15c13ca519787076398bf7198c54a6d4e3785daa970f7bf2d59ae497ae0"
+    },
+    {
+      "path": "film/launch-r15/4x5/README.md",
+      "bytes": 9845,
+      "sha256": "56425b838b74ea3f68a64230706bd841f5e41ec2d6ff184c05dfca8de9130943"
+    },
+    {
+      "path": "film/launch-r15/4x5/VOICEOVER.md",
+      "bytes": 1239,
+      "sha256": "c9911808348ba11825b3ff967e69bf6c66cc5d7f08f2991ec1ce87860a9579bf"
+    },
+    {
+      "path": "film/launch-r15/4x5/captions.srt",
+      "bytes": 600,
+      "sha256": "78f7bb30a07083e8945f19287081fb96635fdec51115ab6732b8f90ed88999f8"
+    },
+    {
+      "path": "film/launch-r15/4x5/qa.json",
+      "bytes": 1359,
+      "sha256": "fb413f57ac5c22a9fc366a910f73a029ce69c2c4e84ef09b3ed7fe5747e5c0e4"
+    },
+    {
+      "path": "film/launch-r15/4x5/voiceover.txt",
+      "bytes": 337,
+      "sha256": "1cef5ce82cb66638f43bdd679cbe88a4797b44ffa6420da0136461dbee6b9d4c"
     },
     {
       "path": "film/launch-r15/README.md",
-      "bytes": 4521,
-      "sha256": "b08a4644935de597f1ff2cecdc2ceff5bd787a713c406e6af1356cba5e083f85"
+      "bytes": 4545,
+      "sha256": "bb37a1a4f3b77fd51696477c58f1f11674602f2339c4cf5a7dfdbb970b014da0"
     },
     {
       "path": "film/launch-r15/VOICEOVER.md",
@@ -4051,6 +4091,11 @@
       "path": "film/launch-r15/build.py",
       "bytes": 30968,
       "sha256": "e882f359a0ca1fc65bef1d4d9665036615e92ccc6949a258b8a160787edb9c10"
+    },
+    {
+      "path": "film/launch-r15/build_4x5.py",
+      "bytes": 52284,
+      "sha256": "ecd00f0f16df83ca55c677deef8f6d7f48815ef8fe95964c89de7d84ba36411a"
     },
     {
       "path": "film/launch-r15/captions.srt",
@@ -4093,14 +4138,44 @@
       "sha256": "1f1095948cde52e2d670caf894e22bb74a7ead481cd355efd8ca184e5692e0a5"
     },
     {
+      "path": "film/motion-os-r15/16x9/QA.md",
+      "bytes": 7259,
+      "sha256": "7e4a512b1450428daa8549022c3cb4d1dc1193b3fa91ed1d6826e4430ffce6ff"
+    },
+    {
+      "path": "film/motion-os-r15/16x9/README.md",
+      "bytes": 11765,
+      "sha256": "e1b390989234f8742392f1410dab05213237842c009c06dc3f778c2f2ef804a1"
+    },
+    {
+      "path": "film/motion-os-r15/16x9/VOICEOVER.md",
+      "bytes": 1030,
+      "sha256": "4f246955a5a316718dce3453e66cd6e1f421231d87ca67867d1f24f1c866deb0"
+    },
+    {
+      "path": "film/motion-os-r15/16x9/captions.srt",
+      "bytes": 365,
+      "sha256": "c7fbf8903f66e986bb1b297226893288d98a1c36c6adf45c95f0753433de5167"
+    },
+    {
+      "path": "film/motion-os-r15/16x9/qa.json",
+      "bytes": 1356,
+      "sha256": "59cc96d4489a19af1cfe6328ae2c764f6d1c7ad47acd6cbb5d1d33ffe46cd099"
+    },
+    {
+      "path": "film/motion-os-r15/16x9/voiceover.txt",
+      "bytes": 168,
+      "sha256": "4690581d5e37dc35a258d03ac549e0f64b59c6afa036ff7bb0f88d1a0af958c5"
+    },
+    {
       "path": "film/motion-os-r15/QA.md",
       "bytes": 1411,
       "sha256": "2e6ea7a372707c805c32d1b1f5771ace0a5d8d8bc84658bdb2cc7d30c3c19a36"
     },
     {
       "path": "film/motion-os-r15/README.md",
-      "bytes": 2428,
-      "sha256": "4089036ed63f51b6a76a5f0e7ba1d70ebe5b470e409271f2a84adb54bd742e38"
+      "bytes": 2463,
+      "sha256": "907efd0465ee1de6041cde135029d83d6a4f15dd54fd243a56fc98a63f028979"
     },
     {
       "path": "film/motion-os-r15/VOICEOVER.md",
@@ -4111,6 +4186,11 @@
       "path": "film/motion-os-r15/build.py",
       "bytes": 21956,
       "sha256": "933e3953b79c9d053500939f4593f4db09cb95456277015c48f8325bd78780f4"
+    },
+    {
+      "path": "film/motion-os-r15/build_16x9.py",
+      "bytes": 46557,
+      "sha256": "526faecc404810637475a916b48c88c59138ade717b8f1215c1616db06b0878c"
     },
     {
       "path": "film/motion-os-r15/captions.srt",
@@ -4513,6 +4593,11 @@
       "sha256": "3ecd9f4f5b459382a46eac87cd78bc57821b959a9c545555a5ab15c22a66f170"
     },
     {
+      "path": "linkedin-analysis/PUBLICATIONS-R15.md",
+      "bytes": 10421,
+      "sha256": "321ed6c6cf01978cfe246fdd07a1c0582bdd945045aeaec7d4c679874c44fa1f"
+    },
+    {
       "path": "linkedin-analysis/TOPICS-AND-PUBLICATIONS-R12.md",
       "bytes": 5873,
       "sha256": "2e82f77cfb53e327ac4d1d631b6569ea96765428951988705d49ad5296cbe13a"
@@ -4559,8 +4644,8 @@
     },
     {
       "path": "prompts/CLOUD-CLAUDE-R15.md",
-      "bytes": 4791,
-      "sha256": "cfc1c77ae5feefdef8822d573a79d2a8ff19854886d2b5f297ad977b335a159e"
+      "bytes": 5204,
+      "sha256": "55973ae9ed36868fe167fc2fc888942274ed07f8430aaeef1e4ff83063794ee0"
     },
     {
       "path": "qa/README.md",
@@ -18021,6 +18106,44 @@
       "rights_state": "owned",
       "evidence": [
         "design and website/film/motion-os-r15/QA.md",
+        "design and website/R15-INTEGRATION.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed film master; owner acceptance is false; not published.",
+        "Music and effects only; the owner records the voice from VOICEOVER.md.",
+        "Prices are indicative packages read from pricing.json; no client, result or quote is shown."
+      ]
+    },
+    {
+      "path": "assets/film-r15/launch-r15-4x5-master.mp4",
+      "repository_path": "design and website/assets/film-r15/launch-r15-4x5-master.mp4",
+      "sha256": "d221aeb81d06a11c5f633a69ab914857f494a668c954ba2fc5ce0b178ab2aad0",
+      "bytes": 7596445,
+      "source": "film/launch-r15/build_4x5.py (HyperFrames 0.9.2 render of owned design-system graphics, the R13 OS stencil and the site's JSON copy); music and effects synthesised in code by film/filmkit.py; no voice, faces or third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/film/launch-r15/4x5/README.md",
+        "design and website/film/launch-r15/4x5/QA.md",
+        "design and website/R15-INTEGRATION.md"
+      ],
+      "source_hash_match": true,
+      "conditions": [
+        "Proposed film master; owner acceptance is false; not published.",
+        "Music and effects only; the owner records the voice from VOICEOVER.md.",
+        "Prices are indicative packages read from pricing.json; no client, result or quote is shown."
+      ]
+    },
+    {
+      "path": "assets/film-r15/os-motion-r15-16x9-master.mp4",
+      "repository_path": "design and website/assets/film-r15/os-motion-r15-16x9-master.mp4",
+      "sha256": "9b550f52a4b333800955e4abf04497161289863d66d21afc3fb3f9eda042a120",
+      "bytes": 6208384,
+      "source": "film/motion-os-r15/build_16x9.py (HyperFrames 0.9.2 render of owned design-system graphics, the R13 OS stencil and the site's JSON copy); music and effects synthesised in code by film/filmkit.py; no voice, faces or third-party media",
+      "rights_state": "owned",
+      "evidence": [
+        "design and website/film/motion-os-r15/16x9/README.md",
+        "design and website/film/motion-os-r15/16x9/QA.md",
         "design and website/R15-INTEGRATION.md"
       ],
       "source_hash_match": true,

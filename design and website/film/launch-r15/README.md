@@ -33,5 +33,5 @@ python3 "<repository>/design and website/film/qa_films.py" renders/a.mp4 renders
 - Picture: inspected as a 2-second contact sheet and a 0.25-second strip across the position seam; the first render showed card text under the incoming mark, which was fixed before the final renders. Not yet inspected frame by frame at full resolution; sound checked by measurement only.
 
 ## Not done in R15
-- The independently composed 4:5 version of this film (the OS motion film R15 is in `../motion-os-r15/`; its 16:9 composition is also open). Specified in `../../prompts/CLOUD-CLAUDE-R15.md`.
+- (Done on 3 November 2026: the independently composed 4:5 version of this film is in `4x5/`, with its master in `../../assets/film-r15/`; the 16:9 composition of the OS motion film is in `../motion-os-r15/16x9/`.)
 - The owner's recorded voice; the generated R15 style frames are not used (rights and visual review pending, see `../../R15-INTEGRATION.md`).
