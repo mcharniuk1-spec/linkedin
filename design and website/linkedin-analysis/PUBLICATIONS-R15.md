@@ -112,7 +112,8 @@ Existing file `m7zSeYVpEI88i9qwTrnUQt`, page "Applications" (`2:3`), where the 2
       "firstComment": "The website, with the booking block: <site address>/#contact",
       "master": {
         "file": "design and website/assets/film-r15/launch-r15-4x5-master.mp4",
-        "state": "pending: the master is added to the repository with this round's release"
+        "bytes": 7596445,
+        "sha256": "d221aeb81d06a11c5f633a69ab914857f494a668c954ba2fc5ce0b178ab2aad0"
       },
       "posterFrame": "frame at 0.00 s of the master (the OS mark on navy), exported at 1080x1350",
       "sources": [
@@ -135,7 +136,8 @@ Existing file `m7zSeYVpEI88i9qwTrnUQt`, page "Applications" (`2:3`), where the 2
       "firstComment": "The website, with the booking block: <site address>/#contact",
       "master": {
         "file": "design and website/assets/film-r15/os-motion-r15-16x9-master.mp4",
-        "state": "pending: the master is added to the repository with this round's release"
+        "bytes": 6208384,
+        "sha256": "9b550f52a4b333800955e4abf04497161289863d66d21afc3fb3f9eda042a120"
       },
       "posterFrame": "frame at 0.00 s of the master (the thought field on navy), exported at 1920x1080",
       "sources": [
