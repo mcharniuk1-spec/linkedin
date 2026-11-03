@@ -2,7 +2,7 @@
 
 42.00 s, 4:5 (1080x1350), 30 fps. An independent recomposition of the 16:9 launch film (`../build.py`) for the tall frame, not a crop or a scaled copy: the same eight stages, the same cut times (5, 10, 14, 19, 24, 29, 34 s), the same narration windows and captions (`CUTS`, `LINES` and `SCENES` are copied verbatim, so one voice recording fits both frames) and the same story logic, but every stage is laid out and choreographed again on the vertical axis. One marigold strand carries the founder's material, and each object turns into the next one.
 
-Status: proposed, owner acceptance false, nothing published. Music and effects are synthetic stand-ins (numpy/scipy); there is no voice in the master. The narration in `VOICEOVER.md` is Codex's proposed wording for the owner to record. Renders are not committed.
+Status: proposed, owner acceptance false, nothing published. Music and effects are synthetic stand-ins (numpy/scipy); there is no voice in the master. The narration in `VOICEOVER.md` is Codex's proposed wording for the owner to record. The verified master (music and effects only) is committed as `../../../assets/film-r15/launch-r15-4x5-master.mp4` (hash in `QA.md`).
 
 | Time | Stage | Object and transformation | Transition into the next stage |
 |---|---|---|---|
@@ -13,7 +13,7 @@ Status: proposed, owner acceptance false, nothing published. Music and effects a
 | 19–24 | Plan | A 3D fold opens the calendar (4 columns x 6 rows); cells fill row by row with themes, proof and formats; three cells are outlined in marigold | Three cells lift out |
 | 24–29 | Create | The three cells become a founder profile, a post and a carousel (pages fan out), stacked in one column; the calendar folds back and the strand drops underneath the cards | Navy grows out of the post card as a circle |
 | 29–34 | Conversations | The three pieces iris down to discs and fly up to buyer nodes in a mesh; replies fall as signals to three separate stacked rings (engagement, qualified replies, attributed leads), with no numbers | The three rings fill and open into package cards |
-| 34–42 | Packages | Three package cards in one column with the current names and prices from `pricing.json` and the on-screen note that prices are indicative, then the stacked OS lockup, the protected hero line and "Book an intro call" | Final hold of about 2.3 s |
+| 34–42 | Packages | The rings open into three package cards in one column with the current names, prices and descriptors from `pricing.json`; each card draws its accent bar as part of its build (0.14 s stagger) and all three are complete by 35.1 s. They then hold still for 3.6 s (until 38.65 s) with the on-screen note that prices are indicative visible the whole time. The cards drop away and the stacked OS lockup, the protected hero line (starting at 39.0 s) and "Book an intro call" build in | End card complete by 39.85 s, then a final hold of about 2.2 s |
 
 ## Transition mechanisms (at least five different ones)
 - **Path morph:** the strand is one SVG path with a fixed 64-point count and morphs between a vertical line, a speaking waveform, the outline of the slash, the line through the lens, a single point, the calendar's top edge, an underline and an arc.
@@ -41,12 +41,14 @@ The build script also copies `lockup-os-stacked-inverse.svg` from `assets/public
 - The linter warns when a composition carries about 40 elements with clip-path, blur or radial-gradient styling (black frames in the capture layer): this composition stays well under that count.
 - **No live CSS gradients.** Chrome dithers a gradient again whenever it re-rasters the tiles next to moving content, and that dither differs by a few levels between runs. Two renders then differed by a few pixels in a handful of frames, x264 took a different path from there, and the difference spread across the rest of its group of pictures (250 frames), which failed the two-render determinism check. The soft grounds are therefore bitmaps (`ground-navy.png`, `ground-navy-b.png`, `ground-pearl.png`) that the script draws with the same stops, radii and positions as the CSS it replaced, dithers once with a fixed ordered pattern and writes with the standard library (no Pillow); they match the CSS gradients to within one level. Keep new grounds and glows flat or baked.
 - The renders for this film are deterministic by construction: seeded Python randomness for the layout, no wall clock and no network in the script.
+- **Time budget of the pricing scene (S8).** It carries the densest frame of the film (qualifier, three names, prices and units, three descriptors, caption), so it gets the longest hold: the cards build in about 1.1 s and are complete at 35.1 s, hold still until 38.65 s (3.6 s), and hand off to the end card in 38.65 to 39.85 s (the cards drop away, the lockup and the hero line build in, then the call to action). The hero line is the closing line of the film (11 words), and the craft audit of `hyperframes check` (`line_unread`) wants a closing line readable for about 0.5 s plus 0.3 s a word (2.85 s here) before the film ends, so the hero has to start by about 39.0 s; that bounds how long the cards can hold. To lengthen the hold, shorten the card build or the hand-off, not the hero's time on screen. The `EVENTS` list of the script carries one sound for each of these beats, so move them together.
 
 ## Measured
-See `QA.md` in this folder.
+See `QA.md` and `qa.json` in this folder: check and `check --at-transitions` pass, two byte-identical renders, `qa_films` PASS, two independent verification rounds and an art-direction review that accepted the film, plus the list of open polish items.
 
 ## Not done
 - The owner's recorded voice (the master carries music and effects only; the synthetic music and effects are stand-ins).
 - Owner acceptance of the 4:5 composition, the wording and the identity (acceptance stays false; nothing is published).
 - A human viewing and listening pass in a player; sound is checked by measurement only.
+- The polish items listed in `QA.md` (closing read of about 2.2 s, a motionless pricing scene, faceted waveform, small mono labels, a few blank mid-morph frames).
 - The generated R15 style frames are not used (rights and visual review pending, see `../../../R15-INTEGRATION.md`).

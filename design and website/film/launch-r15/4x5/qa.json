@@ -1,0 +1,52 @@
+{
+  "file": "assets/film-r15/launch-r15-4x5-master.mp4",
+  "checks": {
+    "duration": {
+      "pass": true,
+      "detail": "42.000 s (expected 42.000)"
+    },
+    "frame_size": {
+      "pass": true,
+      "detail": "1080x1350"
+    },
+    "video_codec": {
+      "pass": true,
+      "detail": "h264 yuv420p"
+    },
+    "fps": {
+      "pass": true,
+      "detail": "30/1"
+    },
+    "audio_present": {
+      "pass": true,
+      "detail": "{\"codec_name\": \"aac\", \"codec_type\": \"audio\", \"sample_rate\": \"48000\", \"channels\": 2, \"r_frame_rate\": \"0/0\"}"
+    },
+    "loudness": {
+      "pass": true,
+      "detail": "-19.3 LUFS integrated (voice-ready mix without voice; with the voice the target is about -16)"
+    },
+    "true_peak": {
+      "pass": true,
+      "detail": "-6.8 dBTP"
+    },
+    "frame_count": {
+      "pass": true,
+      "detail": "1260 frames (expected 1260)"
+    },
+    "isolated_spike_frames": {
+      "pass": true,
+      "detail": "0 []"
+    },
+    "flash_rate": {
+      "pass": true,
+      "detail": "luminance jumps > 70 at frames []; max 0 per second"
+    },
+    "determinism_two_renders": {
+      "pass": true,
+      "detail": "10/10 sampled frames identical ([0, 140, 280, 420, 560, 700, 840, 980, 1120, 1259])"
+    }
+  },
+  "frame0_mean_luma": 28.551504135131836,
+  "max_frame_diff": 49.249420166015625,
+  "pass": true
+}

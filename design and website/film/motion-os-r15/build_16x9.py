@@ -13,9 +13,14 @@ for the wide frame and use the horizontal axis throughout (times in seconds):
   S4  12-17  the Position card is the middle panel of a tri-fold; the wings unfold (3D fold) into a 6 x 4 calendar that fills left to right;
              one cell lifts into a post while the wings fold shut; 16.3-17.3 navy grows out of the post as a circle
   S5  17-22  the post shrinks into a node, the strand grows left to right (path morph) and sprouts a buyer network; signals return to three
-             separate, unquantified rings; 20.9-22 each ring flips edge-on (3D fold) and unfolds as a package card
-  S6  22-28  three package cards (public label, names and prices from pricing.json); at 23.3 they sink into one marigold bar that becomes the
-             call to action; lockup, protected hero line and call to action centred; final hold from about 24.6 s with a very slow push-in
+             separate, unquantified rings (the last lands at 20.4 s); 20.4-21.5 each ring flips edge-on (3D fold) and unfolds as a package card
+  S6  22-28  three package cards (public label at 32 px, names, prices and units from pricing.json); each card's text arrives with the card and its
+             accent bar draws as it lands, so the cards are in place by about 21.5 s (the narration "Choose where to start." begins at 21.6 s) and
+             then hold completely still for about 3.3 s, to 24.75 s; the text and the label fade over 0.4 s while the cards sink into one marigold
+             bar that becomes the call to action; the lockup and the hero line sit below the cards and are uncovered as they sink; the end card is
+             complete at about 25.6 s and holds for about 2.4 s (very slow push-in). Budget of the 6.5 s from 21.5 s: 3.3 s cards, 0.85 s exit,
+             2.4 s end card. The hero line (11 words) must be on screen for 0.75 x (0.5 + 0.3 x 11) = 2.85 s before the end (HyperFrames craft
+             audit), so it is shown from 25.04 s; nothing after the card landing moves inside the card band, so the hold is a true hold.
 
 Usage: python3 build_16x9.py <project_dir> <paths_json> [--audio] [--guide]
 Deterministic: seeded random only, no wall clock, no network, no absolute paths. Package names, prices, the public label, the hero line and the
@@ -47,9 +52,9 @@ EVENTS = [("shimmer", .2), ("tick", 1.15, 14, .1), ("swoosh", 1.9), ("pop", 2.55
           ("swoosh", 4.45), ("pop", 4.8), ("tick", 5.25, 11, .18), ("riser", 6.4), ("swoosh", 7.2), ("pop", 8.0), ("pop", 8.15), ("pop", 8.3),  # S2: frame parts, wave, travel, notes land
           ("riser", 9.1), ("thump", 9.95), ("swoosh", 10.0), ("swoosh", 10.4), ("shimmer", 10.8),                                                # S3: the cut, notes leave, curtain, Position
           ("swoosh", 12.05), ("tick", 12.95, 24, .085), ("pop", 15.15), ("riser", 15.55), ("thump", 16.35),                                    # S4: wings open, cells fill, post lifts, navy grows
-          ("swoosh", 17.65), ("pop", 17.78, 12, .085), ("tick", 18.4, 12, .07), ("pop", 18.5, 3, .13), ("tick", 19.2, 9, .12),    # S5: node, sprouts, activation, rings, signals
-          ("pop", 19.9, 9, .12), ("swoosh", 20.95), ("pop", 21.3, 3, .1),                                                                      # S5-S6: ring pulses, rings fold, cards land
-          ("swoosh", 23.3), ("thump", 23.95), ("pop", 24.1), ("shimmer", 24.15)]                                                               # S6: cards sink, call to action
+          ("swoosh", 17.65), ("pop", 17.78, 12, .085), ("tick", 18.4, 12, .07), ("pop", 18.5, 3, .13), ("tick", 18.9, 9, .1),     # S5: node, sprouts, activation, rings, signals
+          ("pop", 19.6, 9, .1), ("swoosh", 20.4), ("pop", 20.64, 3, .08), ("tick", 20.96, 3, .08),                                               # S5-S6: ring pulses, rings fold, cards land, accent bars
+          ("swoosh", 24.86), ("thump", 25.1), ("pop", 25.36), ("shimmer", 25.42)]                                                             # S6: cards sink (24.88), lockup and hero land, call to action
 # ---- stage geometry (px). Safe zone x 64..1856, y 64..1016; the caption pill occupies y 937..1012, so the working band is y 130..920
 CX, CY = 960, 500                       # centre of the working band (a little above the frame centre, which leaves the caption room)
 mk = K.mark_parts(PATHS)                # (width, height, O left half, O right half, S, slash) in viewBox units, 184.16 x 100
@@ -249,16 +254,16 @@ css = """
 .sig{position:absolute;left:0;top:0;width:16px;height:16px;margin:-8px 0 0 -8px;border-radius:50%;background:#F6D591;opacity:0}
 .rg{position:absolute;left:0;top:0;width:140px;height:140px;margin:-70px 0 0 -70px;border-radius:50%;border:5px solid #B9C7DA;opacity:0}
 .rl{position:absolute;left:0;top:0;width:360px;margin-left:-180px;text-align:center;font-size:32px;color:#F2F5FA;opacity:0}
-.pk{position:absolute;border:5px solid #B9C7DA;border-radius:28px;opacity:0;overflow:hidden;transform-origin:0 0;background:rgba(242,245,250,0)}
+.pk{position:absolute;z-index:4;border:5px solid #B9C7DA;border-radius:28px;opacity:0;overflow:hidden;transform-origin:0 0;background:rgba(242,245,250,0)}
 .pk .in{position:absolute;inset:0;padding:44px 40px;opacity:0}
 .pk h3{font-family:'Fraunces',serif;font-weight:400;font-size:52px;line-height:1.05;color:#162760;letter-spacing:-.01em;white-space:nowrap}
 .pk .pr{margin-top:40px;font-family:'Geist Mono',monospace;font-weight:500;font-size:76px;line-height:1.05;color:#162760;letter-spacing:-.04em}
-.pk .pe{margin-top:10px;font-family:'Geist Mono',monospace;font-weight:500;font-size:30px;line-height:1.2;color:#666F7F;letter-spacing:.08em;text-transform:uppercase}
+.pk .pe{margin-top:10px;font-family:'Geist Mono',monospace;font-weight:500;font-size:32px;line-height:1.2;color:#666F7F;letter-spacing:.08em;text-transform:uppercase}
 .pk .ac{position:absolute;left:40px;right:40px;bottom:40px;height:8px;border-radius:4px;background:#EAA93C;transform:scaleX(0);transform-origin:0 50%}
-#pkl{position:absolute;left:0;right:0;top:242px;text-align:center;font-size:30px;opacity:0}
-#lock{position:absolute;left:50%;top:230px;width:780px;margin-left:-390px}
-#hero{position:absolute;left:300px;right:300px;top:430px;text-align:center;font-size:84px;color:#F2F5FA;text-wrap:balance;opacity:0}
-#cta{position:absolute;left:0;top:%CTATOP%px;width:%CTAW%px;height:%CTAH%px;border-radius:999px;background:#EAA93C;color:#0D1A3B;font-size:44px;font-weight:600;display:flex;align-items:center;justify-content:center;white-space:nowrap;opacity:0}
+#pkl{position:absolute;left:0;right:0;top:242px;text-align:center;font-size:32px;color:#F2F5FA;opacity:0}
+#lock{position:absolute;z-index:2;left:50%;top:230px;width:780px;margin-left:-390px}
+#hero{position:absolute;z-index:2;left:300px;right:300px;top:430px;text-align:center;font-size:84px;color:#F2F5FA;text-wrap:balance;opacity:0}
+#cta{position:absolute;z-index:5;left:0;top:%CTATOP%px;width:%CTAW%px;height:%CTAH%px;border-radius:999px;background:#EAA93C;color:#0D1A3B;font-size:44px;font-weight:600;display:flex;align-items:center;justify-content:center;white-space:nowrap;opacity:0}
 #cap{position:absolute;left:0;right:0;bottom:68px;display:flex;justify-content:center;z-index:60}
 #cap span{max-width:1400px;padding:14px 32px;border-radius:16px;background:rgba(13,26,59,.88);color:#F1F3F6;font-size:36px;line-height:1.3;text-align:center;opacity:0}
 """
@@ -288,11 +293,11 @@ net_html = (f'<svg id="nets" viewBox="0 0 {W} {H}" width="{W}" height="{H}">' + 
 )
 rings_html = "".join(f'<div class="rg" id="rg{i}"></div><div class="rl" id="rl{i}">{t}</div>' for i, (x, y, t) in enumerate(RINGS))
 pk_html = "".join(
-    f'<div class="pk" id="pk{i}" style="{rect(PKR[i])}"><div class="in"><h3>{esc(p["name"])}</h3>'
-    f'<div class="pr">{esc(p["display_price"].split(" /")[0])}</div><div class="pe">{"one-off" if p["period"] == "one-off" else "per month"}</div>'
+    f'<div class="pk" id="pk{i}" style="{rect(PKR[i])}"><div class="in"><h3 data-layout-allow-occlusion>{esc(p["name"])}</h3>'
+    f'<div class="pr" data-layout-allow-occlusion>{esc(p["display_price"].split(" /")[0])}</div><div class="pe" data-layout-allow-occlusion>{"one-off" if p["period"] == "one-off" else "per month"}</div>'
     f'</div><div class="ac"></div></div>' for i, p in enumerate(PK))
 body = f"""
-      <div class="g" id="gN"></div>
+      <div class="g" id="gN" data-layout-allow-occlusion></div>
       <div class="mk" id="mkD">{K.mark_svg(mk, "mkDs", o="#F2F5FA", s="#B9C7DA", width=MW)}</div>
       <div class="g pearl" id="gA"></div><div class="g" id="gM"></div><div class="g navy" id="gD"></div>
       <div id="cam">
@@ -313,7 +318,7 @@ body = f"""
           {rings_html}
         </div>
         <div class="sc" id="c6">
-          <div class="mono lt" id="pkl">{esc(PRICING["public_label"])}</div>
+          <div class="mono" id="pkl">{esc(PRICING["public_label"])}</div>
           {pk_html}
           <img id="lock" src="assets/brand/lockup-os-inverse.svg" alt="">
           <div class="disp" id="hero">{esc(PROT["hero"])}</div>
@@ -444,7 +449,7 @@ js = "const CFG = " + json.dumps(CFG) + ";\nconst LINES = " + json.dumps(LINES) 
           tl.fromTo('#rl' + i, {x: r[0], y: r[1] + 106, opacity: 0}, {opacity: 1, duration: .45, ease: SO}, 18.65 + i * .13);
         });
         for (let i = 0; i < 9; i++) {                                                                       // replies return to the three rings; no numbers anywhere
-          const n = CFG.nodes[(i * 5 + 2) % 12], r = CFG.rings[i % 3], t0 = 19.2 + i * .12;
+          const n = CFG.nodes[(i * 5 + 2) % 12], r = CFG.rings[i % 3], t0 = 18.9 + i * .1;               // the last signal lands at 20.4 s, so the rings can fold from 20.4 s
           tl.fromTo('#sg' + i, {x: n.x + drift(t0), y: n.y, opacity: 0}, {opacity: 1, duration: .1}, t0);
           tl.to('#sg' + i, {x: r[0], duration: .7, ease: 'power2.inOut'}, t0);
           tl.to('#sg' + i, {y: r[1], duration: .7, ease: 'power3.in'}, t0);
@@ -452,37 +457,40 @@ js = "const CFG = " + json.dumps(CFG) + ";\nconst LINES = " + json.dumps(LINES) 
           tl.fromTo('#rg' + (i % 3), {borderColor: '#B9C7DA', scale: 1}, {borderColor: '#EAA93C', scale: 1.08, duration: .15, yoyo: true, repeat: 1, immediateRender: false}, t0 + .65);
         }
 
-        // ===== S6 22-28: the rings fold into package cards; the cards sink into the call to action; lockup and hero line
-        tl.to(['#k5', '#net', '#strand', '#post'], {opacity: 0, duration: .3}, 20.9);
-        tl.to('.rl', {opacity: 0, duration: .25}, 20.95);
-        show('#c6', 20.85);
-        tl.fromTo('#pkl', {opacity: 0, y: 12}, {opacity: 1, y: 0, duration: .5, ease: SO}, 20.95);
-        CFG.rings.forEach((r, i) => { const d = CFG.pkr[i], s = 140 / d.w, sy = 140 / d.h;
-          tl.to('#rg' + i, {rotationY: 90, transformPerspective: 1400, duration: .3, ease: 'power2.in'}, 20.95 + i * .1);
-          tl.set('#rg' + i, {opacity: 0}, 21.26 + i * .1);
-          tl.fromTo('#pk' + i, {x: r[0] - 70 - d.x, y: r[1] - 70 - d.y, scaleX: s, scaleY: sy, rotationY: -90, transformPerspective: 1400, borderRadius: '50%', opacity: 0}, {opacity: 1, duration: .01}, 21.2 + i * .1);
-          tl.to('#pk' + i, {rotationY: 0, duration: .55, ease: SO}, 21.2 + i * .1);
-          tl.to('#pk' + i, {x: 0, y: 0, scaleX: 1, scaleY: 1, borderRadius: '28px', duration: .8, ease: SO}, 21.25 + i * .1);
-          tl.to('#pk' + i, {backgroundColor: '#F2F5FA', borderColor: '#F2F5FA', duration: .3, ease: SO}, 21.3 + i * .1);           // the face is solid early, so the unfolding card never reads as a ghost
-          tl.to('#pk' + i + ' .in', {opacity: 1, duration: .4}, 21.6 + i * .1);
-          tl.to('#pk' + i + ' .ac', {scaleX: 1, duration: .5, ease: SO}, 22.1 + i * .1); });
-        hide('#c5', 21.7); hide('#c4', 21.5);
-        // the cards sink into one marigold bar (pill corners) that becomes the call to action
-        tl.to(['#pk0 .in', '#pk1 .in', '#pk2 .in', '#pk0 .ac', '#pk1 .ac', '#pk2 .ac'], {opacity: 0, duration: .22}, 23.2);
-        tl.to('#pkl', {opacity: 0, duration: .25}, 23.3);
+        // ===== S6 22-28: the rings fold into package cards (20.4-21.5 s: the cards are in place when the narration "Choose where to start." begins at 21.6 s),
+        // the cards hold still for about 3.3 s, then the text fades over 0.4 s and the cards sink into the call to action (lockup, hero line and call to action complete by 25.6 s)
+        const RF = 20.4, XS = 24.76;                                                                          // rings start to fold; the exit starts (the text of the cards is fully legible until then)
+        tl.to(['#k5', '#net', '#strand', '#post'], {opacity: 0, duration: .3}, RF);
+        show('#c6', RF - .05);
+        tl.fromTo('#pkl', {opacity: 0, y: 12}, {opacity: 1, y: 0, duration: .5, ease: SO}, RF + .2);       // the qualifier arrives once the network has faded, and stays as long as the prices
+        CFG.rings.forEach((r, i) => { const d = CFG.pkr[i], s = 140 / d.w, sy = 140 / d.h, t = RF + i * .08;
+          tl.to('#rg' + i, {rotationY: 90, transformPerspective: 1400, duration: .28, ease: 'power2.in'}, t);
+          tl.to('#rl' + i, {opacity: 0, duration: .25}, t + .12);                                             // each label leaves with its ring (it sits below the card, never under it)
+          tl.set('#rg' + i, {opacity: 0}, t + .29);
+          tl.fromTo('#pk' + i, {x: r[0] - 70 - d.x, y: r[1] - 70 - d.y, scaleX: s, scaleY: sy, rotationY: -90, transformPerspective: 1400, borderRadius: '50%', opacity: 0}, {opacity: 1, duration: .01}, t + .24);
+          tl.to('#pk' + i, {rotationY: 0, duration: .5, ease: SO}, t + .24);
+          tl.to('#pk' + i, {x: 0, y: 0, scaleX: 1, scaleY: 1, borderRadius: '28px', duration: .66, ease: SO}, t + .28);
+          tl.to('#pk' + i, {backgroundColor: '#F2F5FA', borderColor: '#F2F5FA', duration: .25, ease: SO}, t + .3);           // the face is solid early, so the unfolding card never reads as a ghost
+          tl.fromTo('#pk' + i + ' .in', {opacity: 0}, {opacity: 1, duration: .3}, t + .36);                    // the text arrives with its card (a card is never an empty face) and stays until the exit
+          tl.to('#pk' + i + ' .ac', {scaleX: 1, duration: .4, ease: SO}, t + .56); });                          // the accent bar is part of the build: it draws as the card lands, so nothing moves after the card is in place
+        hide('#c5', 21.0); hide('#c4', 21.0);
+        // exit: the text and the qualifier fade over 0.4 s (before the cards visibly move), then the cards sink into one marigold bar (pill corners) that becomes the call to action
+        tl.to(['#pk0 .in', '#pk1 .in', '#pk2 .in', '#pk0 .ac', '#pk1 .ac', '#pk2 .ac'], {opacity: 0, duration: .4, ease: 'none'}, XS);
+        tl.to('#pkl', {opacity: 0, duration: .4, ease: 'none'}, XS - .1);                                    // the qualifier is gone before the lockup arrives in the same band
         [0, 1, 2].forEach(i => {                                                                              // transform-origin is the top left corner of each card
           const d = CFG.pkr[i], sx = CFG.cta.w / d.w, sy = CFG.cta.h / d.h, rx = (CFG.cta.h / 2) / sx + 'px ' + (CFG.cta.h / 2) / sy + 'px';
-          tl.to('#pk' + i, {x: 960 - CFG.cta.w / 2 - d.x, y: CFG.cta.cy - CFG.cta.h / 2 - d.y, scaleY: sy, scaleX: sx, backgroundColor: '#EAA93C', borderColor: '#EAA93C', duration: .7, ease: SM}, 23.3);
-          tl.to('#pk' + i, {borderTopLeftRadius: rx, borderTopRightRadius: rx, borderBottomLeftRadius: rx, borderBottomRightRadius: rx, duration: .7, ease: SM}, 23.3);
+          tl.set('#pk' + i, {borderTopLeftRadius: '28px 28.01px', borderTopRightRadius: '28px 28.01px', borderBottomLeftRadius: '28px 28.01px', borderBottomRightRadius: '28px 28.01px'}, XS + .1);   // GSAP pads a one-number start radius with 0 when the end value has two numbers, which squared the corners for five frames; start from an explicit pair
+          tl.to('#pk' + i, {x: 960 - CFG.cta.w / 2 - d.x, y: CFG.cta.cy - CFG.cta.h / 2 - d.y, scaleY: sy, scaleX: sx, backgroundColor: '#EAA93C', borderColor: '#EAA93C', duration: .54, ease: SM}, XS + .12);
+          tl.to('#pk' + i, {borderTopLeftRadius: rx, borderTopRightRadius: rx, borderBottomLeftRadius: rx, borderBottomRightRadius: rx, duration: .54, ease: SM}, XS + .12);
         });
-        tl.to(['#pk0', '#pk2'], {opacity: 0, duration: .15}, 23.9);
-        tl.fromTo('#lock', {clipPath: 'inset(0% 100% 0% 0%)', y: 18}, {clipPath: 'inset(0% 0% 0% 0%)', y: 0, duration: .55, ease: SO}, 23.95);
-        show('#hero', 23.99); show('#cta', 24.01);
-        tl.fromTo('#hero', {clipPath: 'inset(-5% -5% 100% -5%)', y: 28}, {clipPath: 'inset(-5% -5% -20% -5%)', y: 0, duration: .6, ease: SO}, 24.0);   // the clip box is taller than the line box so descenders stay whole
-        tl.fromTo('#cta', {clipPath: 'inset(0% 100% 0% 0%)'}, {clipPath: 'inset(0% 0% 0% 0%)', duration: .28, ease: SO}, 24.02);
-        tl.set('#pk1', {opacity: 0}, 24.32);
-        tl.to('#far', {opacity: 0, duration: .5}, 23.95);                                                   // the lockup keeps its clear space
-        tl.fromTo('#c6', {scale: 1}, {scale: 1.025, duration: 3.5, ease: 'none'}, 24.5);                       // a very slow push-in carries the final hold
+        tl.to(['#pk0', '#pk2'], {opacity: 0, duration: .15}, XS + .58);                                       // the three bars have converged
+        tl.fromTo('#lock', {clipPath: 'inset(0% 100% 0% 0%)', y: 18}, {clipPath: 'inset(0% 0% 0% 0%)', y: 0, duration: .46, ease: SO}, XS + .3);
+        show('#hero', XS + .28); show('#cta', XS + .59);                                                       // the hero line and the lockup sit below the cards: the sinking cards uncover them
+        tl.fromTo('#hero', {clipPath: 'inset(-5% -5% 100% -5%)', y: 28}, {clipPath: 'inset(-5% -5% -20% -5%)', y: 0, duration: .5, ease: SO}, XS + .38);   // the clip box is taller than the line box so descenders stay whole
+        tl.fromTo('#cta', {clipPath: 'inset(0% 100% 0% 0%)'}, {clipPath: 'inset(0% 0% 0% 0%)', duration: .24, ease: SO}, XS + .6);
+        tl.set('#pk1', {opacity: 0}, XS + .86);
+        tl.to('#far', {opacity: 0, duration: .5}, XS + .3);                                                  // the lockup keeps its clear space
+        tl.fromTo('#c6', {scale: 1}, {scale: 1.02, duration: 2.8, ease: 'none'}, 25.2);                        // a very slow push-in carries the final hold (0.7 % a second)
 
         // ===== captions: native lower-third type that follows the narration windows (each fades out as its window ends)
         LINES.forEach(([a, b, t]) => {

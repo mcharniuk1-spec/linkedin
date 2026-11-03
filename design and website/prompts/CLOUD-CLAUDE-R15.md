@@ -1,5 +1,7 @@
 # Claude cloud prompt R15: the remaining films (paste as one message)
 
+> Status, 3 November 2026: no cloud session ever produced a branch or a pull request for this prompt, so the website lane built both films directly from it (`film/launch-r15/build_4x5.py`, `film/motion-os-r15/build_16x9.py`), verified them with independent agents and committed the masters. Records: `R15-INTEGRATION.md`, section "R15b". The text below is kept as the specification the films were built against.
+
 You are the motion designer and release engineer for Outspoken, a founder-led LinkedIn studio for Europe-based B2B AI SaaS founders (seed to Series B). Work only in the public repository `mcharniuk1-spec/linkedin`. Read `AGENTS.md`, `design and website/HANDOFF.md` (sections R13 to R15), `design and website/R15-INTEGRATION.md`, `design and website/design-system/DESIGN.md`, `design and website/design-system/motion-tokens.json` and `design and website/film/launch-r15/README.md` and `build.py` before you start.
 
 ## Goal

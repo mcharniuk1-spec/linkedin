@@ -13,7 +13,8 @@ choreographed again on the vertical axis. One marigold strand carries the founde
   S5 a 3D fold opens the calendar (4 columns x 6 rows) | three cells are selected and lift out
   S6 the cells become a founder profile, a post and a carousel (pages fan out), stacked; the strand stays attached underneath | navy grows out of the post card
   S7 the pieces travel up to buyer nodes; replies return as signals to three stacked, unquantified rings | the rings fold into package cards
-  S8 three package cards (names and prices read from pricing.json), then the stacked OS lockup, the protected hero line and the call to action
+  S8 three package cards (names and prices read from pricing.json; complete by 35.1 s, then held still for 3.6 s), then the stacked OS lockup, the
+     protected hero line and the call to action (hand-off 38.65-39.85 s, complete end card held for about 2.2 s)
 Transition mechanisms: path morph (strand), mask and clip reveals (stencil aperture, S reveal, slit, lockup), camera travel with parallax (market
 layers), 3D folds (calendar open and fold back), clipped colour fields (slit, diagonal band, top fold, circle).
 Rules kept: HyperFrames 0.9.2 animates transforms, opacity, colours, clip-path and SVG d only; one fromTo per element, then to tweens; the strand has a
@@ -59,8 +60,8 @@ EVENTS += [("pop", 23.5), ("pop", 23.65), ("pop", 23.8),                        
            ("swoosh", 26.6, 3, .18), ("riser", 27.6), ("swoosh", 28.2), ("thump", 28.5),      # pages fan out, navy grows from the post
            ("swoosh", 29.0, 3, .12), ("tick", 29.4, 12, .05), ("pop", 30.4, 12, .1),          # S7 pieces fly to nodes, nodes appear and light up
            ("pop", 30.6), ("pop", 30.75), ("pop", 30.9), ("tick", 31.5, 9, .12),              # three rings, signals return
-           ("swoosh", 34.0), ("pop", 34.95), ("pop", 35.3), ("pop", 35.65), ("tick", 36.6, 3, .15),  # S8 rings open into cards, content, accent bars
-           ("swoosh", 37.8), ("thump", 38.4), ("shimmer", 38.5), ("pop", 38.7), ("pop", 39.1), ("shimmer", 39.15)]  # lockup, hero line, call to action
+           ("swoosh", 34.0), ("pop", 34.42, 3, .14), ("tick", 34.5, 3, .14),                  # S8 rings open into cards, card content, accent bars (built by 35.08)
+           ("swoosh", 38.65), ("thump", 38.98), ("pop", 39.0), ("shimmer", 39.08), ("pop", 39.4), ("shimmer", 39.45)]  # after the 3.6 s card hold: cards leave, lockup, hero line, call to action
 rnd = random.Random(4545)
 N = 64                      # fixed point count of every strand shape (attr d morphs need equal counts)
 CX = W / 2
@@ -364,9 +365,9 @@ mkt_html = "".join(
 src_html = "".join(
     f'<div class="src" id="sc{i}" data-layout-allow-overlap style="top:{SRC_TOP[i]}px"><div class="ed"></div><b>0{i + 1}</b><p>{SRC_T[i]}</p>'
     f'<svg viewBox="0 0 250 88"><path d="{MINI[i][0]}"/></svg></div>' for i in range(3))
-cell_html = "".join(f'<div class="cell k-{c["t"]}" id="ce{i}" style="{rect(c)}"><i>{c["t"] if c["on"] else ""}</i></div>' for i, c in enumerate(cells))
+cell_html = "".join(f'<div class="cell k-{c["t"]}" id="ce{i}" style="{rect(c)}"><i data-layout-allow-occlusion>{c["t"] if c["on"] else ""}</i></div>' for i, c in enumerate(cells))   # the cell labels sit under the three cards that lift out of the grid (intentional layering)
 pk_html = "".join(
-    f'<div class="pk" id="pk{i}" style="{rect(PKR[i])}"><div class="in"><h3>{esc(p["name"])}</h3><div class="ds">{esc(p["descriptor"])}</div>'
+    f'<div class="pk" id="pk{i}" data-layout-allow-overflow style="{rect(PKR[i])}"><div class="in"><h3>{esc(p["name"])}</h3><div class="ds">{esc(p["descriptor"])}</div>'
     f'<div class="pr">{esc(p["display_price"].split(" /")[0])}<span class="pe">{"one-off" if p["period"] == "one-off" else "per month"}</span></div></div><div class="ac"></div></div>'
     for i, p in enumerate(PK))
 lines_y = [(176, 300), (214, 240), (248, 270)]
@@ -538,23 +539,28 @@ js = "const CFG = " + json.dumps(CFG) + ";\nconst LINES = " + json.dumps(LINES) 
           tl.fromTo('#rg' + (i % 3), {borderColor: '#B9C7DA', scale: 1}, {borderColor: '#EAA93C', scale: 1.08, duration: .15, yoyo: true, repeat: 1, immediateRender: false}, t0 + .72); }
         tl.fromTo('#ins', {opacity: 0}, {opacity: 1, duration: .5}, 31.3);
         tl.to('#cam', {y: -14, duration: 2.6, ease: 'sine.inOut'}, 30.6);
-        // ---- S8 34-42 Packages: the three rings fold into package cards; then the stacked lockup, the hero line and the call to action
+        // ---- S8 34-42 Packages: the three rings fold into package cards; then the stacked lockup, the hero line and the call to action.
+        // Time budget (the pricing scene carries the densest frame of the film, so it gets the longest hold): the cards build in about 1.1 s, with a 0.14 s stagger and
+        // the accent bar drawn as part of the build (every card name, price, descriptor and accent bar is in place by 35.08); all three then hold complete and still
+        // for 3.6 s (35.08 to 38.65) with the qualifier on screen the whole time; the hand-off to the end card runs 38.65-39.85 (cards drop away, lockup and hero line
+        // build in, then the call to action) and the complete end card holds for the last 2.15 s. The hero line starts by 39.0 because it is the closing line
+        // (11 words): `hyperframes check` wants it readable for at least 2.85 s before the film ends.
         tl.to('#cam', {y: 0, duration: .6, ease: SO}, 33.8);
         tl.to(['#k7', '#ins', '.rl', '.rule', '.node', '#nets', '#strand'], {opacity: 0, duration: .35}, 33.8);
         show('#c8', 33.9);
         CFG.rings.forEach((r, i) => { const d = CFG.pkr[i];
           tl.to('#rg' + i, {backgroundColor: 'rgba(242,245,250,1)', borderColor: '#F2F5FA', duration: .25}, 33.85);
           tl.fromTo('#pk' + i, {x: r[0] - (d.x + d.w / 2), y: r[1] - (d.y + d.h / 2), clipPath: 'circle(56px at 476px 134px)', opacity: 0}, {opacity: 1, duration: .2}, 33.95);
-          tl.to('#pk' + i, {x: 0, y: 0, clipPath: 'circle(620px at 476px 134px)', duration: .9, ease: SM}, 34.1 + i * .14);
-          tl.to('#pk' + i + ' .in', {opacity: 1, duration: .45}, 34.95 + i * .35);
-          tl.to('#pk' + i + ' .ac', {scaleX: 1, duration: .5, ease: SO}, 36.6 + i * .15); });
+          tl.to('#pk' + i, {x: 0, y: 0, clipPath: 'circle(620px at 476px 134px)', duration: .72, ease: SM}, 34.0 + i * .09);
+          tl.to('#pk' + i + ' .in', {opacity: 1, duration: .36}, 34.42 + i * .14);
+          tl.to('#pk' + i + ' .ac', {scaleX: 1, duration: .3, ease: SO}, 34.5 + i * .14); });
         tl.to('.rg', {opacity: 0, duration: .15}, 34.15); hide('#c7', 34.4);
-        tl.fromTo('#pkl', {opacity: 0, y: 12}, {opacity: 1, y: 0, duration: .5, ease: SO}, 34.7);
-        tl.to(['#pk0', '#pk1', '#pk2'], {y: 70, opacity: 0, duration: .55, ease: 'power2.in', stagger: .06}, 37.8);
-        tl.to('#pkl', {opacity: 0, duration: .3}, 37.8);
-        tl.fromTo('#lock', {opacity: 0, y: 24, clipPath: 'inset(0% 50% 0% 50%)'}, {opacity: 1, y: 0, clipPath: 'inset(0% 0% 0% 0%)', duration: .8, ease: SO}, 38.4);
-        tl.fromTo('#hero', {opacity: 0, y: 24}, {opacity: 1, y: 0, duration: .8, ease: SO}, 38.7);
-        tl.fromTo('#cta', {opacity: 0, y: 26}, {opacity: 1, y: 0, duration: .6, ease: 'back.out(1.6)'}, 39.1);
+        tl.fromTo('#pkl', {opacity: 0, y: 12}, {opacity: 1, y: 0, duration: .4, ease: SO}, 34.3);
+        tl.to(['#pk0', '#pk1', '#pk2'], {y: 70, opacity: 0, duration: .3, ease: 'power1.in', stagger: .03}, 38.65);
+        tl.to('#pkl', {opacity: 0, duration: .3, ease: 'power1.in'}, 38.72);               // the qualifier is never fainter than the last card
+        tl.fromTo('#lock', {opacity: 0, y: 24, clipPath: 'inset(0% 50% 0% 50%)'}, {opacity: 1, y: 0, clipPath: 'inset(0% 0% 0% 0%)', duration: .58, ease: SO}, 38.98);
+        tl.fromTo('#hero', {opacity: 0, y: 24}, {opacity: 1, y: 0, duration: .53, ease: SO}, 39.0);
+        tl.fromTo('#cta', {opacity: 0, y: 26}, {opacity: 1, y: 0, duration: .45, ease: 'back.out(1.6)'}, 39.4);
         // captions are native lower-third type that follows the narration windows
         LINES.forEach(([a, b, t]) => {
           tl.set('#capt', {textContent: t}, a);

@@ -20,4 +20,4 @@ Same steps as `../launch-r15/README.md`, with this folder's `build.py`, a separa
 See `QA.md` in this folder: check passed; 28.000 s, -19.3 LUFS, -7.2 dBTP, 10 of 10 frames identical across two renders: PASS.
 
 ## Not done in R15
-The independent 16:9 composition of this film (specified in `../../prompts/CLOUD-CLAUDE-R15.md`).
+(Done on 3 November 2026: the independent 16:9 composition of this film is in `16x9/`, with its master in `../../assets/film-r15/`.)
