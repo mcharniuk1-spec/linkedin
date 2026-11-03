@@ -24,13 +24,13 @@
   "files": [
     {
       "path": "HANDOFF.md",
-      "bytes": 17007,
-      "sha256": "a16d2f402260c356d6806383ca0840ba12c86e2452a1d2e14f558fdcdca05dc1"
+      "bytes": 17268,
+      "sha256": "8e5a6ce5ed01ad6648db21ac0ef9042cb2c039cbb1c9df3ba307748e8a9e2794"
     },
     {
       "path": "R15-INTEGRATION.md",
-      "bytes": 7467,
-      "sha256": "0c28aa5dce8fcbd8cab840fe364691fe09f324810d78962535e9ff6bfbe643e0"
+      "bytes": 7717,
+      "sha256": "be81b891d6b6f32d3f2ead579829f221c956b5880e64870264b95765aaffc36d"
     },
     {
       "path": "README.md",
@@ -3364,8 +3364,8 @@
     },
     {
       "path": "deploy/vercel/README.md",
-      "bytes": 12172,
-      "sha256": "ccb785d7f1b6c61b1b6d1649330e73908013c6134aa227e7404f7682e58369b8"
+      "bytes": 15535,
+      "sha256": "3db3216b3192e0bc03efe7cd82c07098a09e174cc06e6256ce5860108ebb73df"
     },
     {
       "path": "deploy/vercel/api/lead.js",
