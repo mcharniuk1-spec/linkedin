@@ -1,0 +1,538 @@
+{
+  "status": "source_snapshot_verified",
+  "publication_authority": "owner_requested_current_source_git_sync",
+  "owner_accepted": false,
+  "scope": "Five carousel drafts and five single-image drafts; no LinkedIn publication.",
+  "files": [
+    {
+      "path": "assets/01-founder-story/caption.txt",
+      "sha256": "a7cb47c1c94120cdc579384106543f17e823f17f7072f5c6e062cdf74fada856",
+      "bytes": 419
+    },
+    {
+      "path": "assets/01-founder-story/carousel.pdf",
+      "sha256": "fa944c1b9560a695dfdc140b29bca803141ed7a78104583910c33adfc622ae5a",
+      "bytes": 512676
+    },
+    {
+      "path": "assets/01-founder-story/slide-01.png",
+      "sha256": "a0df7bd2d1cc1130f40596ccf83639a0e35681f7d191f9a08df5ef1e9e1922c6",
+      "bytes": 307561
+    },
+    {
+      "path": "assets/01-founder-story/slide-02.png",
+      "sha256": "1ca7ea9fdfd5393a4aa9a06b9344ffce34c8d9959bcc63300abfcc46d9900d7e",
+      "bytes": 170730
+    },
+    {
+      "path": "assets/01-founder-story/slide-03.png",
+      "sha256": "0a8d5bb668d9d46fc406b3c6a48ce590452e749c38c3b99b85133ed9ebd7b855",
+      "bytes": 140214
+    },
+    {
+      "path": "assets/01-founder-story/slide-04.png",
+      "sha256": "36a6c7833646437542ab81cf01d46fa264d10597caea1e3a65671f7dbf3d5918",
+      "bytes": 137666
+    },
+    {
+      "path": "assets/01-founder-story/slide-05.png",
+      "sha256": "4889de045abfaeb90072bf2e94d5f755e76f16d600ffc7379d2be350d6c8e513",
+      "bytes": 149951
+    },
+    {
+      "path": "assets/02-positioning/caption.txt",
+      "sha256": "b6e3934cc8f24dda88493381a3c9e2a604e062b2656320fabf18b8c456e246aa",
+      "bytes": 363
+    },
+    {
+      "path": "assets/02-positioning/carousel.pdf",
+      "sha256": "d6a7477cdba088300b96182fdb934a0324a9bec3b207ef9e0a4213973037207f",
+      "bytes": 586299
+    },
+    {
+      "path": "assets/02-positioning/slide-01.png",
+      "sha256": "e890ac32a5a26a23ba86d88f08f1b90f069fc54ca37d1b955381c0a3b932624e",
+      "bytes": 504694
+    },
+    {
+      "path": "assets/02-positioning/slide-02.png",
+      "sha256": "bd8daa489bc8defee04f031a568e017283d939c22acf5b5b5f1cbf80ec9daf9f",
+      "bytes": 148445
+    },
+    {
+      "path": "assets/02-positioning/slide-03.png",
+      "sha256": "4f47c4331ea6c1067450c732f20b1e17902b13a584b88d33b436e3af2cf6d84c",
+      "bytes": 140329
+    },
+    {
+      "path": "assets/02-positioning/slide-04.png",
+      "sha256": "71d2a425a6f39b05fb65e0a56cb17a4c16156473b60acb5ea03925b40c3f0e7f",
+      "bytes": 141618
+    },
+    {
+      "path": "assets/02-positioning/slide-05.png",
+      "sha256": "8fff000e25c4415443ad483b1ac57ffe50186fcd7742e04341f5ebc8ce93a6af",
+      "bytes": 168617
+    },
+    {
+      "path": "assets/03-ai-proof/caption.txt",
+      "sha256": "a36dac8aa5385e942a9405adafccbb8539cb13e4cb7bb528627c77d6ea07be87",
+      "bytes": 388
+    },
+    {
+      "path": "assets/03-ai-proof/carousel.pdf",
+      "sha256": "3da838bf3cf620ea901128a15cbbb970d3984cad2832068b7d346904788076e5",
+      "bytes": 530711
+    },
+    {
+      "path": "assets/03-ai-proof/slide-01.png",
+      "sha256": "d6e7f184f7bcb4c985ee0c4d974e089f345b879cb2fb2af635ac5130e961dfed",
+      "bytes": 179574
+    },
+    {
+      "path": "assets/03-ai-proof/slide-02.png",
+      "sha256": "1cf0420109d717e5e7d40b41ebe6bfd7c6a5dad598494c31d6c0cd0a657d0fb0",
+      "bytes": 90880
+    },
+    {
+      "path": "assets/03-ai-proof/slide-03.png",
+      "sha256": "0c857832de7ff4d801348bd461021cde14d9adfba5319be4471085b22893b09b",
+      "bytes": 113994
+    },
+    {
+      "path": "assets/03-ai-proof/slide-04.png",
+      "sha256": "06e6856b621e561e2206afd3044d35fa3bc76feeaad6b0db41397aba612bb7e3",
+      "bytes": 100246
+    },
+    {
+      "path": "assets/03-ai-proof/slide-05.png",
+      "sha256": "d015885792022f2744c8cc8a8702c74b05e0bc352958469264e8dd9d0559130e",
+      "bytes": 105891
+    },
+    {
+      "path": "assets/04-product-workflow/caption.txt",
+      "sha256": "4c07c0f46122b5740e29232f1c71c9cb84174f5fbca667773a2c910dafafe3fa",
+      "bytes": 374
+    },
+    {
+      "path": "assets/04-product-workflow/carousel.pdf",
+      "sha256": "bcc3adca6eaed5e0f6b8dec3b6d840421a9b54fa1e0e45de69994c1f63fa2863",
+      "bytes": 490595
+    },
+    {
+      "path": "assets/04-product-workflow/slide-01.png",
+      "sha256": "04609bbfe33275df799b9aab41a5a9ec9bbc0cfee15e6f0c52e4933926c9a175",
+      "bytes": 132635
+    },
+    {
+      "path": "assets/04-product-workflow/slide-02.png",
+      "sha256": "8e5a4c562d115b3f7f65d39895e94f9efca45095f9be11154c8a1791f2b10494",
+      "bytes": 50946
+    },
+    {
+      "path": "assets/04-product-workflow/slide-03.png",
+      "sha256": "d1d88e8af59012a4fcf2d81dc037739676a66fd85113521a0ab1fe3dfab0da54",
+      "bytes": 65479
+    },
+    {
+      "path": "assets/04-product-workflow/slide-04.png",
+      "sha256": "e310843ecf240d321330fd4bde1776338407a516310c586b8f3087b155ae48b6",
+      "bytes": 52692
+    },
+    {
+      "path": "assets/04-product-workflow/slide-05.png",
+      "sha256": "10571134e0032cf097572f7c45ed260451ce6c5dc4a1b741a291692c3e3e36dc",
+      "bytes": 61734
+    },
+    {
+      "path": "assets/05-founder-interview/caption.txt",
+      "sha256": "4e96658bf588d79d3118409353b6f68eccd5e9c35b5997db0ab15f200228e7bb",
+      "bytes": 418
+    },
+    {
+      "path": "assets/05-founder-interview/carousel.pdf",
+      "sha256": "92c976e404c768d04e2b9d4c7d46728dac72ee585fac8b8982ac456222264a68",
+      "bytes": 563176
+    },
+    {
+      "path": "assets/05-founder-interview/slide-01.png",
+      "sha256": "be785dd1ab1567ed5ee0e6085fafb9f489310151f2482e039796f43dd656d53d",
+      "bytes": 330671
+    },
+    {
+      "path": "assets/05-founder-interview/slide-02.png",
+      "sha256": "3141a9cb387044ada4c2ff0f08298b983b7a72beea1d79cfd118b31bb0c00e88",
+      "bytes": 257328
+    },
+    {
+      "path": "assets/05-founder-interview/slide-03.png",
+      "sha256": "a4db1ec103633686f63ffaedcc18bb50673ce77c87ab9499685b6772374f913d",
+      "bytes": 180325
+    },
+    {
+      "path": "assets/05-founder-interview/slide-04.png",
+      "sha256": "c7c9c0fc137cacdafd7d9926d7451861b4398ef9c0a95a90619d534de63491fe",
+      "bytes": 263140
+    },
+    {
+      "path": "assets/05-founder-interview/slide-05.png",
+      "sha256": "0d800bc1774a3ba7f89216defe8b65189a6ada20bd1c8952bdaa18a0cb2d23e6",
+      "bytes": 196259
+    },
+    {
+      "path": "assets/06-buyer-checklist/caption.txt",
+      "sha256": "c2c08873e68f2c91482fa807cba73014f912db9a8272fb8fd0e3b829e2d705c4",
+      "bytes": 402
+    },
+    {
+      "path": "assets/06-buyer-checklist/image-01.png",
+      "sha256": "92e13e971a7e08484efd20286d991d3dda4a2b3b74d05e77826858a14b1b1cb6",
+      "bytes": 160734
+    },
+    {
+      "path": "assets/07-founder-company/caption.txt",
+      "sha256": "f823e9d4e7341db2198a15f0d79b025694037a616ade3c9368c958a7ca1c0993",
+      "bytes": 409
+    },
+    {
+      "path": "assets/07-founder-company/image-01.png",
+      "sha256": "a94c4d76722afaab6c492c3837e638b3abc2aa352662d1533eb33a223efd52a0",
+      "bytes": 72993
+    },
+    {
+      "path": "assets/08-editorial-calendar/caption.txt",
+      "sha256": "789a74dcf98f6b26404c87c4c28ecd5e92151c2bee34af38619c2cd05ee9821e",
+      "bytes": 364
+    },
+    {
+      "path": "assets/08-editorial-calendar/image-01.png",
+      "sha256": "137b979eb2562d63d5027a9fda8aad8f09fbd25cea3f23fda10d4207c56b320d",
+      "bytes": 145390
+    },
+    {
+      "path": "assets/09-reading-metrics/caption.txt",
+      "sha256": "70205865ea16d5419a2defc1993313548a8c983643816171a16a6e40cb59d166",
+      "bytes": 569
+    },
+    {
+      "path": "assets/09-reading-metrics/image-01.png",
+      "sha256": "6a089499ce9c5918b47d1723f4b9f3460a57c983dbc0a5ac4df8d13fe45d6bc6",
+      "bytes": 75146
+    },
+    {
+      "path": "assets/10-from-response/caption.txt",
+      "sha256": "ee238edded080869c79cfd6906858e8c0d808605251bec3371bd8f57becb53cb",
+      "bytes": 429
+    },
+    {
+      "path": "assets/10-from-response/image-01.png",
+      "sha256": "4051d08b1bc62c833e7a851e9812878cc844954e826c520812a4028f0a65e1bc",
+      "bytes": 210087
+    },
+    {
+      "path": "assets/index.html",
+      "sha256": "022f377aef0a1b58d28dc8b13f8b8a8303bfde305b88ee16d2ac0a437adfe7df",
+      "bytes": 5410
+    },
+    {
+      "path": "assets/manifest.json",
+      "sha256": "c435e3a04ac65d4ac7221b2e791ac80b66435814057444fba385eeb339b496fe",
+      "bytes": 10474
+    },
+    {
+      "path": "assets/outspoken-publications.zip",
+      "sha256": "40266791182e933fab623c95548cba1ceff25e46008ed53e4ccacf280ce9aec6",
+      "bytes": 6771933
+    }
+  ],
+  "rights_ledger": [
+    {
+      "path": "assets/01-founder-story/caption.txt",
+      "sha256": "a7cb47c1c94120cdc579384106543f17e823f17f7072f5c6e062cdf74fada856",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/01-founder-story/carousel.pdf",
+      "sha256": "fa944c1b9560a695dfdc140b29bca803141ed7a78104583910c33adfc622ae5a",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/01-founder-story/slide-01.png",
+      "sha256": "a0df7bd2d1cc1130f40596ccf83639a0e35681f7d191f9a08df5ef1e9e1922c6",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/01-founder-story/slide-02.png",
+      "sha256": "1ca7ea9fdfd5393a4aa9a06b9344ffce34c8d9959bcc63300abfcc46d9900d7e",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/01-founder-story/slide-03.png",
+      "sha256": "0a8d5bb668d9d46fc406b3c6a48ce590452e749c38c3b99b85133ed9ebd7b855",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/01-founder-story/slide-04.png",
+      "sha256": "36a6c7833646437542ab81cf01d46fa264d10597caea1e3a65671f7dbf3d5918",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/01-founder-story/slide-05.png",
+      "sha256": "4889de045abfaeb90072bf2e94d5f755e76f16d600ffc7379d2be350d6c8e513",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/02-positioning/caption.txt",
+      "sha256": "b6e3934cc8f24dda88493381a3c9e2a604e062b2656320fabf18b8c456e246aa",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/02-positioning/carousel.pdf",
+      "sha256": "d6a7477cdba088300b96182fdb934a0324a9bec3b207ef9e0a4213973037207f",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/02-positioning/slide-01.png",
+      "sha256": "e890ac32a5a26a23ba86d88f08f1b90f069fc54ca37d1b955381c0a3b932624e",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/02-positioning/slide-02.png",
+      "sha256": "bd8daa489bc8defee04f031a568e017283d939c22acf5b5b5f1cbf80ec9daf9f",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/02-positioning/slide-03.png",
+      "sha256": "4f47c4331ea6c1067450c732f20b1e17902b13a584b88d33b436e3af2cf6d84c",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/02-positioning/slide-04.png",
+      "sha256": "71d2a425a6f39b05fb65e0a56cb17a4c16156473b60acb5ea03925b40c3f0e7f",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/02-positioning/slide-05.png",
+      "sha256": "8fff000e25c4415443ad483b1ac57ffe50186fcd7742e04341f5ebc8ce93a6af",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/03-ai-proof/caption.txt",
+      "sha256": "a36dac8aa5385e942a9405adafccbb8539cb13e4cb7bb528627c77d6ea07be87",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/03-ai-proof/carousel.pdf",
+      "sha256": "3da838bf3cf620ea901128a15cbbb970d3984cad2832068b7d346904788076e5",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/03-ai-proof/slide-01.png",
+      "sha256": "d6e7f184f7bcb4c985ee0c4d974e089f345b879cb2fb2af635ac5130e961dfed",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/03-ai-proof/slide-02.png",
+      "sha256": "1cf0420109d717e5e7d40b41ebe6bfd7c6a5dad598494c31d6c0cd0a657d0fb0",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/03-ai-proof/slide-03.png",
+      "sha256": "0c857832de7ff4d801348bd461021cde14d9adfba5319be4471085b22893b09b",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/03-ai-proof/slide-04.png",
+      "sha256": "06e6856b621e561e2206afd3044d35fa3bc76feeaad6b0db41397aba612bb7e3",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/03-ai-proof/slide-05.png",
+      "sha256": "d015885792022f2744c8cc8a8702c74b05e0bc352958469264e8dd9d0559130e",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/04-product-workflow/caption.txt",
+      "sha256": "4c07c0f46122b5740e29232f1c71c9cb84174f5fbca667773a2c910dafafe3fa",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/04-product-workflow/carousel.pdf",
+      "sha256": "bcc3adca6eaed5e0f6b8dec3b6d840421a9b54fa1e0e45de69994c1f63fa2863",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/04-product-workflow/slide-01.png",
+      "sha256": "04609bbfe33275df799b9aab41a5a9ec9bbc0cfee15e6f0c52e4933926c9a175",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/04-product-workflow/slide-02.png",
+      "sha256": "8e5a4c562d115b3f7f65d39895e94f9efca45095f9be11154c8a1791f2b10494",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/04-product-workflow/slide-03.png",
+      "sha256": "d1d88e8af59012a4fcf2d81dc037739676a66fd85113521a0ab1fe3dfab0da54",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/04-product-workflow/slide-04.png",
+      "sha256": "e310843ecf240d321330fd4bde1776338407a516310c586b8f3087b155ae48b6",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/04-product-workflow/slide-05.png",
+      "sha256": "10571134e0032cf097572f7c45ed260451ce6c5dc4a1b741a291692c3e3e36dc",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/05-founder-interview/caption.txt",
+      "sha256": "4e96658bf588d79d3118409353b6f68eccd5e9c35b5997db0ab15f200228e7bb",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/05-founder-interview/carousel.pdf",
+      "sha256": "92c976e404c768d04e2b9d4c7d46728dac72ee585fac8b8982ac456222264a68",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/05-founder-interview/slide-01.png",
+      "sha256": "be785dd1ab1567ed5ee0e6085fafb9f489310151f2482e039796f43dd656d53d",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/05-founder-interview/slide-02.png",
+      "sha256": "3141a9cb387044ada4c2ff0f08298b983b7a72beea1d79cfd118b31bb0c00e88",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/05-founder-interview/slide-03.png",
+      "sha256": "a4db1ec103633686f63ffaedcc18bb50673ce77c87ab9499685b6772374f913d",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/05-founder-interview/slide-04.png",
+      "sha256": "c7c9c0fc137cacdafd7d9926d7451861b4398ef9c0a95a90619d534de63491fe",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/05-founder-interview/slide-05.png",
+      "sha256": "0d800bc1774a3ba7f89216defe8b65189a6ada20bd1c8952bdaa18a0cb2d23e6",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/06-buyer-checklist/caption.txt",
+      "sha256": "c2c08873e68f2c91482fa807cba73014f912db9a8272fb8fd0e3b829e2d705c4",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/06-buyer-checklist/image-01.png",
+      "sha256": "92e13e971a7e08484efd20286d991d3dda4a2b3b74d05e77826858a14b1b1cb6",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/07-founder-company/caption.txt",
+      "sha256": "f823e9d4e7341db2198a15f0d79b025694037a616ade3c9368c958a7ca1c0993",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/07-founder-company/image-01.png",
+      "sha256": "a94c4d76722afaab6c492c3837e638b3abc2aa352662d1533eb33a223efd52a0",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/08-editorial-calendar/caption.txt",
+      "sha256": "789a74dcf98f6b26404c87c4c28ecd5e92151c2bee34af38619c2cd05ee9821e",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/08-editorial-calendar/image-01.png",
+      "sha256": "137b979eb2562d63d5027a9fda8aad8f09fbd25cea3f23fda10d4207c56b320d",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/09-reading-metrics/caption.txt",
+      "sha256": "70205865ea16d5419a2defc1993313548a8c983643816171a16a6e40cb59d166",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/09-reading-metrics/image-01.png",
+      "sha256": "6a089499ce9c5918b47d1723f4b9f3460a57c983dbc0a5ac4df8d13fe45d6bc6",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/10-from-response/caption.txt",
+      "sha256": "ee238edded080869c79cfd6906858e8c0d808605251bec3371bd8f57becb53cb",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/10-from-response/image-01.png",
+      "sha256": "4051d08b1bc62c833e7a851e9812878cc844954e826c520812a4028f0a65e1bc",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/index.html",
+      "sha256": "022f377aef0a1b58d28dc8b13f8b8a8303bfde305b88ee16d2ac0a437adfe7df",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/manifest.json",
+      "sha256": "c435e3a04ac65d4ac7221b2e791ac80b66435814057444fba385eeb339b496fe",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    },
+    {
+      "path": "assets/outspoken-publications.zip",
+      "sha256": "40266791182e933fab623c95548cba1ceff25e46008ed53e4ccacf280ce9aec6",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition with project brand assets, project fonts and one newly generated illustration; draft for review."
+    }
+  ]
+}

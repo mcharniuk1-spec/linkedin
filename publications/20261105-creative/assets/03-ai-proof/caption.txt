@@ -1,0 +1,7 @@
+A buyer does not only need to know what an AI product can do. They need to know when it works, how it is checked and where a human remains responsible.
+
+Use a concrete workflow. Identify the input, the output, the review step and the limits. Add measured results only when the method and denominator are available.
+
+The aim is clarity that a buyer can evaluate.
+
+#AIProduct #B2BMarketing
