@@ -109,7 +109,7 @@
     }
     function renderTargets(rows) {
       if(!rows.length){empty($('targets-list'),'No target companies supplied.');return;}
-      set($('targets-list'),rows.map(p=>{const card=baseCard(p),dl=create('dl');for(const [label,value] of [['Description',p.description],['Country/base',p.country],['Company size',p.employee_count],['Funding',p.funding],['Fit',p.fit_status],['Content opportunity',p.content_opportunity],['Expressed need',p.expressed_need],['Buying interest',p.buying_interest],['Discovered at',p.discovered_at]])row(dl,label,value);card.append(dl);return card;}));
+      set($('targets-list'),rows.map(p=>{const card=baseCard(p),dl=create('dl'),fund=isObject(p.funding)?p.funding:{};for(const [label,value] of [['Description',p.description],['Country/base',p.country],['Company size',p.employee_count],['Funding stage',fund.stage],['Funding date',fund.date],['Source sector',fund.sector],['Attribution',p.attribution],['Licence',p.licence],['Source changes',p.source_changes],['Fit',p.fit_status],['Content opportunity',p.content_opportunity],['Expressed need',p.expressed_need],['Buying interest',p.buying_interest],['Discovered at',p.discovered_at]])row(dl,label,value);card.append(dl);for(const [url,label] of [[fund.source_url,'Open funding source'],[p.licence_url,'Open licence']]){const href=safeUrl(url);if(href){const a=create('a',label);a.href=href;a.target='_blank';a.rel='noopener noreferrer';card.append(a);}}return card;}));
     }
     function render(data) {renderHealth(data.operations,data.generated_at);renderAuthorized(data.authorized_posts);renderReferences(data.reference_candidates);renderExternal(data.external_signals);renderTargets(data.target_companies);}
     const tabs=['authorized','reference','external','targets'];

@@ -189,6 +189,51 @@ class CycleTests(unittest.IsolatedAsyncioTestCase):
         external.assert_awaited_once()
         self.assertIn({'source_id':'exa-search','error_code':'discovery_unavailable'},result['errors'])
 
+    async def test_expired_managed_discovery_survives_manual_packet_and_compaction(self):
+        from datetime import datetime,timedelta,timezone
+        from research.collector.discovery_retention import register
+        self.cfg['sources']=[];self.path.write_text(json.dumps(self.cfg))
+        s=Store(Path(self.tmp.name)/'state');at=(datetime.now(timezone.utc)-timedelta(days=31)).isoformat();digest='a'*64
+        s.db.execute('CREATE TABLE discoveries (id TEXT PRIMARY KEY,payload TEXT NOT NULL)')
+        with s.db:
+            s.db.execute('INSERT INTO raw_objects VALUES (?,?)',(digest,b'fixture'))
+            s.db.execute('INSERT INTO discoveries VALUES (?,?)',('fixture',json.dumps({'source_id':'exa-search','raw_sha256':digest,'collected_at':at})))
+            register(s,'fixture',digest,observed_at=at,created_new_raw=1,registered_at=at)
+        s.close()
+        result=await collect(self.path)
+        self.assertEqual(result['discovery_retention']['expired_raw_objects'],1)
+        self.assertEqual(result['discovery_retention']['compaction'],'completed')
+        packet=update_run(self.path)
+        row=json.loads((Path(packet['output'])/'discovery-observations.ndjson').read_text().strip())
+        self.assertEqual(row['raw_retention']['status'],'expired');self.assertNotIn('raw_path',row)
+
+    async def test_prospect_discovery_is_separate_while_linkedin_is_held(self):
+        from unittest.mock import AsyncMock,patch
+        self.cfg['sources']=[{'source_id':'linkedin-public','access_group':'linkedin-public',
+            'adapter':'http','enabled':True,'urls':[], 'allowed_hosts':['www.linkedin.com'],
+            'permitted_methods':['GET'],'permissions':{'collection':True}}]
+        self.cfg['prospect_discovery']={'enabled':True};self.path.write_text(json.dumps(self.cfg))
+        s=Store(Path(self.tmp.name)/'state');s.suspend('linkedin-public','challenge_page');s.close()
+        response={'source_id':'tech-eu-funding-explorer','status':'ok','requests':1,'successful_requests':1,'new_items':2}
+        with patch('research.collector.tech_eu.collect_tech_eu',new=AsyncMock(return_value=response)) as discover:
+            result=await collect(self.path,transport_factory=lambda *args: self.fail('LinkedIn transport must stay held'))
+        discover.assert_awaited_once();self.assertEqual(result['prospect_discovery']['new_items'],2)
+        self.assertEqual(result['inserted'],0);self.assertEqual(result['status'],'COMPLETE_WITH_SOURCE_HOLDS')
+
+    async def test_retention_failure_stops_exa_but_not_external_sources(self):
+        from unittest.mock import AsyncMock,patch
+        from research.collector.discovery_retention import RetentionError
+        self.cfg['sources']=[];self.cfg['discovery']={'enabled':True};self.cfg['external_discovery']={'enabled':True}
+        self.path.write_text(json.dumps(self.cfg));s=Store(Path(self.tmp.name)/'state')
+        s.db.execute('CREATE TABLE discoveries (id TEXT PRIMARY KEY,payload TEXT NOT NULL)');s.close()
+        def no_exa(*args):self.fail('Exa must stop on retention failure')
+        result_stub={'status':'ok','source_results':[],'observations':[]}
+        with (patch('research.collector.discovery_retention.expire',side_effect=RetentionError('fixture')),
+              patch('research.collector.external_discovery.collect_external',new=AsyncMock(return_value=result_stub)) as external):
+            result=await collect(self.path,discover_fn=no_exa)
+        external.assert_awaited_once()
+        self.assertIn({'source_id':'exa-search','error_code':'discovery_retention_hold'},result['errors'])
+
     async def test_cap_and_discovery_failure_keep_explicit_status(self):
         self.cfg['max_new_records']=1;self.cfg['discovery']={'enabled':True};self.path.write_text(json.dumps(self.cfg))
         def bad(*args):raise AccessSuspended('quota')

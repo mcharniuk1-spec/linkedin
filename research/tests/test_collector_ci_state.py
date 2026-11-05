@@ -351,6 +351,49 @@ raise SystemExit('invalid database was restored')'''
                 ci_state.artifacts(REPOSITORY)
             self.assertEqual(gh.call_count, 10)
 
+    def test_prune_uses_creation_time_and_protects_current_and_previous(self):
+        point=checkpoint(artifact_id=1,revision=4)
+        # Newest ID is lower than both the previous and the older artifacts.
+        available=[
+            {'id':900,'created_at':'2026-10-31T10:00:00Z'},
+            {'id':500,'created_at':'2026-10-31T10:01:00Z'},
+            {'id':1,'created_at':'2026-10-31T10:02:00Z'}]
+        with patch.object(ci_state,'artifacts',return_value=available), \
+             patch.object(ci_state,'pointer',return_value=(point,'blob')), \
+             patch.object(ci_state,'gh') as gh:
+            result=ci_state._prune_old_state_artifacts(REPOSITORY,point,previous_id=500)
+        self.assertEqual(result,{'status':'complete','deleted':1})
+        gh.assert_called_once_with(f'repos/{REPOSITORY}/actions/artifacts/900',method='DELETE',binary=True)
+
+    def test_prune_skips_missing_tied_and_newer_timestamps(self):
+        point=checkpoint(artifact_id=1,revision=4)
+        variants=[
+            [{'id':1,'created_at':'2026-10-31T10:02:00Z'},{'id':2}],
+            [{'id':1,'created_at':'2026-10-31T10:02:00Z'},{'id':2,'created_at':'2026-10-31T10:02:00Z'}],
+            [{'id':1,'created_at':'2026-10-31T10:02:00Z'},{'id':2,'created_at':'2026-10-31T10:03:00Z'}],
+            [{'id':2,'created_at':'2026-10-31T10:00:00Z'}],
+            [{'id':1,'created_at':'2026-10-31T10:01:00Z'},{'id':1,'created_at':'2026-10-31T10:02:00Z'}]]
+        for available in variants:
+            with self.subTest(available=available), \
+                 patch.object(ci_state,'artifacts',return_value=available), \
+                 patch.object(ci_state,'gh') as gh:
+                result=ci_state._prune_old_state_artifacts(REPOSITORY,point)
+            self.assertTrue(result['status'].startswith('skipped_'))
+            self.assertEqual(result['deleted'],0)
+            gh.assert_not_called()
+
+    def test_prune_stops_when_checkpoint_changes(self):
+        point=checkpoint(artifact_id=1,revision=4)
+        available=[{'id':1,'created_at':'2026-10-31T10:03:00Z'},
+                   {'id':2,'created_at':'2026-10-31T10:02:00Z'},
+                   {'id':3,'created_at':'2026-10-31T10:01:00Z'}]
+        with patch.object(ci_state,'artifacts',return_value=available), \
+             patch.object(ci_state,'pointer',return_value=(checkpoint(artifact_id=3,revision=5),'other')), \
+             patch.object(ci_state,'gh') as gh:
+            result=ci_state._prune_old_state_artifacts(REPOSITORY,point,previous_id=2)
+        self.assertEqual(result,{'status':'skipped_checkpoint_changed','deleted':0})
+        gh.assert_not_called()
+
     def test_publish_compare_and_swap_readback_and_conflict(self):
         current = checkpoint(artifact_id=3, revision=3)
         current_blob = "checkpoint-blob-3"

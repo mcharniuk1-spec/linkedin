@@ -22,6 +22,9 @@ def summary(path):
         if source.get('source_id') not in {'hacker-news-top','huggingface-blog-rss'}:continue
         lines.append('- '+source['source_id']+': '+source.get('status','unknown')+', '+str(source.get('successful_requests','unknown'))+'/'+str(source.get('requests','unknown'))+' requests succeeded; '+str(source.get('new_items','unknown'))+' new topic leads.')
     lines.append('- Exa candidate links added: '+str(data.get('discovery_candidates_new','unknown'))+'.')
+    prospect=data.get('prospect_discovery')
+    if isinstance(prospect,dict):
+        lines.append('- Tech.eu Funding Explorer: '+str(prospect.get('new_items','unknown'))+' new unqualified company seeds; '+str(prospect.get('successful_requests','unknown'))+'/'+str(prospect.get('requests','unknown'))+' requests succeeded.')
     lines.append('\nThis summary does not contain source content, credentials or private analytics.\n')
     return '\n'.join(lines)
 

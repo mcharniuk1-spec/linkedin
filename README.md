@@ -1,5 +1,7 @@
 ## Current data and publication update — 5 November 2026
 
+[Checkpoint viewer and funding-based prospect discovery](docs/RECOVERY-AND-PROSPECTS.md) describe the latest local recovery and data boundaries.
+
 [Free-first discovery and owner-export operations](docs/PERMITTED-DISCOVERY.md) explain the independent sources, private viewer, consent and outstanding official API storage work. The LinkedIn challenge hold still blocks LinkedIn collection; external leads do not count toward post goals.
 
 [Read the plain-language performance explanation](reports/20261105/README.md) and [review ten five-slide carousel drafts](publications/20261105/README.md). LinkedIn public collection is currently on a security-verification hold; the [incident and safe collector change](docs/COLLECTOR-ACCESS-HOLD-20261105.md) distinguish the source block from a code failure. The historical sample and earlier source releases are preserved.

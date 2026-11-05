@@ -201,6 +201,45 @@ def _artifact_created_at(artifact):
     return parsed.astimezone(timezone.utc)
 
 
+def _prune_old_state_artifacts(repository, expected_pointer, previous_id=None):
+    """Retain the published checkpoint and one prior checkpoint, or skip.
+
+    GitHub artifact IDs are opaque. Never delete if the list is ambiguous or
+    contains a newer artifact: it may be an orphan that needs recovery. Check
+    the pointer again before every deletion to detect a concurrent update.
+    """
+    available=artifacts(repository)
+    current_id=expected_pointer['artifact_id']
+    ids=[a.get('id') for a in available]
+    if len(ids)!=len(set(ids)) or ids.count(current_id)!=1:
+        return {'status':'skipped_ambiguous_artifacts','deleted':0}
+    try:
+        times={a['id']:_artifact_created_at(a) for a in available}
+    except (ConfigurationError,KeyError,TypeError):
+        return {'status':'skipped_ambiguous_artifacts','deleted':0}
+    if len(set(times.values()))!=len(times):
+        return {'status':'skipped_ambiguous_artifacts','deleted':0}
+    if any(stamp>times[current_id] for aid,stamp in times.items() if aid!=current_id):
+        return {'status':'skipped_newer_artifact','deleted':0}
+    older=sorted((a for a in available if a['id']!=current_id),
+                 key=lambda a:times[a['id']],reverse=True)
+    protected={current_id}
+    if previous_id in times and previous_id!=current_id:
+        protected.add(previous_id)
+    elif older:
+        protected.add(older[0]['id'])
+    deleted=0
+    for a in older:
+        if a['id'] in protected:
+            continue
+        current,_=pointer(repository)
+        if current!=expected_pointer:
+            return {'status':'skipped_checkpoint_changed','deleted':deleted}
+        gh(f'repos/{repository}/actions/artifacts/{a["id"]}',method='DELETE',binary=True)
+        deleted+=1
+    return {'status':'complete','deleted':deleted}
+
+
 def seal(state_dir, output, context):
     if not isinstance(context,dict) or not isinstance(context.get('repository'),str):
         raise ConfigurationError('invalid_state_context')
@@ -444,11 +483,10 @@ def publish(repository, artifact_id, seal_report, context):
     actual,_=pointer(repository)
     if actual!=value:
         raise ConfigurationError('checkpoint_readback_failed')
-    # Delete older ciphertext only after successful CAS and readback; retain two checkpoints.
-    older=sorted(artifacts(repository),key=lambda a:a['id'],reverse=True)
-    for a in older[2:]:
-        gh(f'repos/{repository}/actions/artifacts/{a["id"]}',method='DELETE',binary=True)
-    return {'checkpoint_revision':value['revision'],'artifact_id':value['artifact_id'],'verified':True}
+    # Keep the published pointer and previous state; do not trust opaque IDs as time.
+    retention=_prune_old_state_artifacts(repository,value,current.get('artifact_id') if current else None)
+    return {'checkpoint_revision':value['revision'],'artifact_id':value['artifact_id'],
+            'verified':True,'artifact_retention':retention}
 
 
 def main():

@@ -2,7 +2,7 @@
 from __future__ import annotations
 from datetime import datetime,timezone
 from pathlib import Path
-import argparse,asyncio,csv,hashlib,json,os,shutil,time,uuid
+import argparse,asyncio,csv,hashlib,json,os,shutil,sqlite3,time,uuid
 from .contracts import CollectionError,ConfigurationError,AccessSuspended,utcnow
 from .store import Store
 
@@ -88,6 +88,18 @@ async def collect(config_path, *, discover_fn=None, transport_factory=None, exte
     try:
         with store.lock():
             seed=json.loads(Path(cfg['baseline_seed']).read_text(),object_pairs_hook=unique);store.seed(seed)
+            retention_failed=False
+            if store.db.execute("SELECT 1 FROM sqlite_master WHERE name='discoveries'").fetchone():
+                from .discovery_retention import expire,RetentionError
+                try:
+                    store.db.execute('PRAGMA secure_delete=ON')
+                    with store.db:report['discovery_retention']=expire(store,now=utcnow())
+                    if report['discovery_retention']['expired_raw_objects']:
+                        store.db.execute('VACUUM')
+                        report['discovery_retention']['compaction']='completed'
+                except (RetentionError,sqlite3.Error):
+                    retention_failed=True
+                    report['errors'].append({'source_id':'exa-search','error_code':'discovery_retention_hold'})
             before=store.counts();initial_requests={x[0] for x in store.db.execute('SELECT id FROM requests')}
             candidates=[]
             # Search-index discovery is independent of the held LinkedIn source.
@@ -96,7 +108,7 @@ async def collect(config_path, *, discover_fn=None, transport_factory=None, exte
             discovery_blocked=bool(linkedin_consumers) and all(
                 store.get_suspension(x.get('access_group') or x['source_id']) for x in linkedin_consumers)
             if discovery_blocked:report['linkedin_status']='blocked_by_persistent_access_hold'
-            if cfg.get('discovery',{}).get('enabled') and _capacity(store,cfg):
+            if cfg.get('discovery',{}).get('enabled') and _capacity(store,cfg) and not retention_failed:
                 from .discovery import discover
                 try:
                     candidates=(discover_fn or discover)(cfg['discovery'],store,cfg.get('approved_author_paths',[]))
@@ -111,6 +123,16 @@ async def collect(config_path, *, discover_fn=None, transport_factory=None, exte
                 for outcome in external['source_results']:
                     if outcome['status']!='ok':
                         report['errors'].append({'source_id':outcome['source_id'],'error_code':'external_discovery_'+outcome['status']})
+            if cfg.get('prospect_discovery',{}).get('enabled') and _capacity(store,cfg):
+                if store.db.execute("SELECT 1 FROM metadata WHERE key='tech_eu_seed_done'").fetchone():
+                    from .tech_eu_changes import collect_changes
+                    prospect=await collect_changes(store,transport_factory=external_transport_factory)
+                else:
+                    from .tech_eu import collect_tech_eu
+                    prospect=await collect_tech_eu(store,transport_factory=external_transport_factory)
+                report['prospect_discovery']=prospect
+                if prospect['status'] not in {'ok','already_completed_today','partial'}:
+                    report['errors'].append({'source_id':prospect['source_id'],'error_code':'prospect_discovery_'+prospect['status']})
             from .transport import HttpxTransport,UrllibTransport
             from .adapters import StaticHTTPAdapter,FeedAdapter,GenericAPIAdapter,PlaywrightAdapter,ScrapyAdapter
             adapters={'http':StaticHTTPAdapter,'rss':FeedAdapter,'api':GenericAPIAdapter,
@@ -220,7 +242,7 @@ def update_run(config_path, output=None):
                 discoveries=[json.loads(x[0]) for x in store.db.execute('SELECT payload FROM discoveries')]
             for d in discoveries:
                 h=d.get('raw_sha256')
-                if h:
+                if h and d.get('raw_retention',{}).get('status')!='expired':
                     raw=output/'raw'/f'{h}.bin';raw.parent.mkdir(exist_ok=True,mode=0o700);raw.write_bytes(store.raw_bytes(h));os.chmod(raw,0o600);d['raw_path']=str(raw.relative_to(output))
             discovery_path=output/'discovery-observations.ndjson';discovery_path.write_text(''.join(json.dumps(d)+'\n' for d in discoveries));os.chmod(discovery_path,0o600)
             result['discovery_observations']=len(discoveries)

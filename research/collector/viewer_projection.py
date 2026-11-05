@@ -44,6 +44,12 @@ def build(store, *, authorized=None):
             entry.update(status=result['status'],hold=result['status']=='held',observed_at=run.get('finished_at'))
             entry['attempted_requests']+=result['requests']
             entry['successful_requests']+=result.get('successful_requests',0)
+        prospect=run.get('prospect_discovery')
+        if isinstance(prospect,dict):
+            sid=prospect['source_id'];entry=sources_by_id.setdefault(sid,{'source_id':sid,
+                'attempted_requests':0,'successful_requests':0,'quota_used':None,'quota_limit':None})
+            entry.update(status=prospect['status'],hold=prospect['status']=='held',observed_at=run.get('finished_at'))
+            entry['attempted_requests']+=prospect['requests'];entry['successful_requests']+=prospect['successful_requests']
         metrics=run.get('metrics',{}).get('exa-search')
         if metrics:
             entry=sources_by_id.setdefault('exa-search',{'source_id':'exa-search','attempted_requests':0,

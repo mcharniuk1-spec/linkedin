@@ -106,10 +106,14 @@ def discover(config, store, approved_authors=(), *, client=None, now=None):
             raw=json.dumps(result,sort_keys=True,ensure_ascii=False).encode()
             digest=hashlib.sha256(raw).hexdigest()
             import gzip
+            observed=utcnow()
+            discovery_id=hashlib.sha256((query+'|'+digest+'|'+observed).encode()).hexdigest()
             with store.db:
                 store.db.execute('CREATE TABLE IF NOT EXISTS discoveries (id TEXT PRIMARY KEY,payload TEXT NOT NULL)')
-                store.db.execute('INSERT OR IGNORE INTO raw_objects VALUES (?,?)',(digest,gzip.compress(raw,mtime=0)))
-                store.db.execute('INSERT OR IGNORE INTO discoveries VALUES (?,?)',(hashlib.sha256((query+'|'+digest+'|'+utcnow()).encode()).hexdigest(),json.dumps({'query':query,'collected_at':utcnow(),'raw_sha256':digest,'rank_is_not_performance':True,'source_id':'exa-search','phase':phase})))
+                inserted=store.db.execute('INSERT OR IGNORE INTO raw_objects VALUES (?,?)',(digest,gzip.compress(raw,mtime=0))).rowcount
+                store.db.execute('INSERT INTO discoveries VALUES (?,?)',(discovery_id,json.dumps({'query':query,'collected_at':observed,'raw_sha256':digest,'rank_is_not_performance':True,'source_id':'exa-search','phase':phase})))
+                from .discovery_retention import register
+                register(store,discovery_id,digest,observed_at=observed,created_new_raw=inserted)
             if result.get('isError') or re.search(r'quota|rate.limit|unauthori[sz]ed|too many requests',text,re.I):
                 store.suspend('exa-search','discovery_tool_quota_or_error');raise AccessSuspended('discovery_tool_quota_or_error')
             with store.db:
