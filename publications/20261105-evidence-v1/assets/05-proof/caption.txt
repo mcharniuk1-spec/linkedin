@@ -1,0 +1,9 @@
+A strong claim is easier to trust when the reader can see its edges.
+
+Suppose a product helps a team review incoming requests. Before saying it “automates the work,” I would want to know: which requests, what does the system return, and where does a person still need to check the result? This is a hypothetical example.
+
+Those details do more than make a post precise. They give a buyer something concrete to evaluate.
+
+Our proposed process at Outspoken is to map the claim to its source, write the useful explanation, and return it to the founder for a factual check. If the evidence is not available, we say so or hold the claim.
+
+What is one claim about your product that deserves a clearer boundary?

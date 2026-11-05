@@ -1,5 +1,7 @@
 ## Current data and publication update — 5 November 2026
 
+[Review the ten new draft publications in two visual directions](publications/20261105-evidence-v1/README.md). The package contains five two-version carousels and five two-version single images. Its historical analysis is not the requested 100 newly collected posts.
+
 [Checkpoint viewer and funding-based prospect discovery](docs/RECOVERY-AND-PROSPECTS.md) describe the latest local recovery and data boundaries.
 
 [Free-first discovery and owner-export operations](docs/PERMITTED-DISCOVERY.md) explain the independent sources, private viewer, consent and outstanding official API storage work. The LinkedIn challenge hold still blocks LinkedIn collection; external leads do not count toward post goals.

@@ -1,0 +1,11 @@
+We reviewed a selected set of 279 LinkedIn posts from 61 accounts. The number I would not turn into a target: 107.5.
+
+That was the median reaction count among the 276 posts with an observed reaction count. For comments, the median was 36.5 across 256 posts with an observed comment count. Those are different sets of posts.
+
+A reaction can be a like or another reaction type. It is not a comment, an impression or a sale. We did not have reach or conversion data for this sample.
+
+So I would rather ask what a post explained, what evidence it used, and whether that question matters to our buyer. Outspoken uses research to find ideas worth testing—not a formula for guaranteed results.
+
+The sample was selected; counters were captured 20–22 October 2026. It is not a LinkedIn benchmark.
+
+Source: https://github.com/mcharniuk1-spec/linkedin/tree/main/reports/20261105

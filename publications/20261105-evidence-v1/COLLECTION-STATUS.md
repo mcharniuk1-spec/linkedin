@@ -1,0 +1,9 @@
+# Collection status — 5 November 2026
+
+The current LinkedIn public collector remains on a security-challenge hold. It did not collect 100 new posts today; it collected zero LinkedIn posts in the checked run. Search-index links are unreviewed candidates and do not establish freshness, counters, trends or account quality. Tech.eu funding records are company-discovery signals, not LinkedIn performance.
+
+[Workflow run 42061994394](https://github.com/mcharniuk1-spec/linkedin/actions/runs/42061994394) collected independent discovery candidates, encrypted its state and uploaded it, but checkpoint publication reported a generic GitHub API failure. The owner-authorized operator independently verified the uploaded artifact's encryption, predecessor and SQLite integrity, then advanced the checkpoint using the existing compare-and-swap path. Normal authenticated restore subsequently verified revision 30. The original failing GitHub endpoint and status are unknown; no general outage has been established. Two earlier manual dispatches returned HTTP 500; a later dispatch with explicit boolean inputs was accepted.
+
+Checkpoint GitHub GETs now retry at most twice only after explicit HTTP 5xx responses. Authentication denials, rate limits, ambiguous state, and writes are not retried blindly. A failed write can still leave an orphan and must be reconciled from authenticated lineage; it must never be deleted or overwritten to force progress. This does not solve LinkedIn access or establish sustained automated yield.
+
+The [historical review](HISTORICAL-REVIEW.md) describes 100 older, previously captured posts and their limits. The underlying individual rows, copied text and third-party media are not redistributed in this public projection because reuse rights remain unverified. The new founder-content drafts rely on the established historical report and are not represented as analysis of 100 newly gathered posts.

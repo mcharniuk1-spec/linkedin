@@ -1,0 +1,7 @@
+# Outspoken publication drafts — two directions
+
+Review the [gallery](assets/index.html). Five publications each have a graphic and a people-led five-page carousel; the other five each have two single-image directions. The package contains 60 PNGs, ten five-page PDFs, 60 editable SVG layouts and ten captions. Fictional people are visibly labelled as illustrative; the designs reuse earlier project-generated source assets. Founder, artistic and claim review remain open. Nothing was posted to LinkedIn.
+
+The [copy and evidence map](COPY-AND-EVIDENCE.md) explains the source limits. The [historical excerpt review](HISTORICAL-REVIEW.md) covers 100 older observations; its item-level rows remain private pending rights review. The project did **not** gather the requested 100 new LinkedIn posts. [Collection status](COLLECTION-STATUS.md) and [access and data gaps](API-AND-DATA-GAPS.md) explain the holds and owner steps.
+
+`content.json`, `build.js`, `render.swift`, and `pdf.swift` provide the editable copy and macOS/AppKit rebuild route. Copy this folder outside the repository, run `node build.js`, then `swift render.swift` and `swift pdf.swift`. The code uses the source artwork and OFL-licensed fonts under `assets/`; generated output and verification files are local to the copy. Exported SVGs already include embedded artwork. Do not publish unreviewed copy or imagery merely because the build passes.

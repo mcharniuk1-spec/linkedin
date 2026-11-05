@@ -1,0 +1,698 @@
+[
+  {
+    "id": "01-the-reason",
+    "title": "Make the thinking visible",
+    "format": "carousel",
+    "caption": "A founder can explain a product perfectly and still leave the buyer with one uncomfortable question: why should this matter to me?\n\nI think the missing part is often the reasoning behind the product. The decision to solve one problem first. The alternative the team ruled out. The detail that makes a workflow difficult in practice.\n\nThat is where I want Outspoken to start: with the founder’s thinking and the buyer’s questions. We shape the position, write the story and create the visual. The founder checks the claims before anything is ready to share.\n\nThe result we are aiming for is clearer communication that gives the right people a reason to care. Reach and sales are outcomes to measure, not promises we can make from a draft.\n\nWhat do buyers need to understand before your product makes sense?",
+    "evidence": "Owner-approved Outspoken value proposition and proposed delivery process; editorial viewpoint.",
+    "limitations": "Proposed first-person voice and service workflow require founder review; no customer result is asserted.",
+    "variants": {
+      "graphic": [
+        {
+          "headline": "The product is not the whole story.",
+          "body": "Buyers need the reasoning behind it.",
+          "diagram": [
+            "PRODUCT",
+            "DECISION",
+            "BUYER"
+          ],
+          "layout_intention": "Typographic cover with a product object and a narrow decision path."
+        },
+        {
+          "headline": "Start with a real choice.",
+          "body": "What did you decide to solve first?",
+          "diagram": [
+            "CHOICE",
+            "CONTEXT"
+          ],
+          "layout_intention": "Large decision card against a quiet navy grid."
+        },
+        {
+          "headline": "Show the trade-off.",
+          "body": "What did the team choose not to do?",
+          "diagram": [
+            "OPTION A",
+            "OPTION B"
+          ],
+          "layout_intention": "Split-screen comparison with an asymmetric highlight."
+        },
+        {
+          "headline": "Translate the choice.",
+          "body": "Connect it to a question the buyer already has.",
+          "diagram": [
+            "FOUNDER VIEW",
+            "BUYER QUESTION"
+          ],
+          "layout_intention": "Two linked shapes with one clear connector."
+        },
+        {
+          "headline": "Make the thinking usable.",
+          "body": "Positioning, writing and a visual—reviewed by the founder.",
+          "diagram": [
+            "THINK",
+            "WRITE",
+            "REVIEW"
+          ],
+          "layout_intention": "Three editorial layers arranged as an ascending staircase."
+        }
+      ],
+      "people": [
+        {
+          "headline": "What can a buyer see?",
+          "body": "A product page rarely shows every decision behind it.",
+          "diagram": [
+            "VISIBLE PRODUCT",
+            "HIDDEN THINKING"
+          ],
+          "layout_intention": "Illustrative founder in reflection beside two contrasting text planes."
+        },
+        {
+          "headline": "Ask about the choice.",
+          "body": "Why did this problem deserve attention first?",
+          "diagram": [
+            "PROBLEM",
+            "PRIORITY"
+          ],
+          "layout_intention": "Illustrative interview scene with a single annotated question."
+        },
+        {
+          "headline": "Ask about the alternative.",
+          "body": "A useful story has a decision and a trade-off.",
+          "diagram": [
+            "CONSIDERED",
+            "CHOSEN"
+          ],
+          "layout_intention": "Person at a table with two restrained decision cards."
+        },
+        {
+          "headline": "Find the buyer's question.",
+          "body": "Which part helps someone evaluate the product?",
+          "diagram": [
+            "THEIR QUESTION",
+            "YOUR VIEW"
+          ],
+          "layout_intention": "Two silhouettes separated by an open editorial margin."
+        },
+        {
+          "headline": "Keep the founder in control.",
+          "body": "Draft the story and visual; check facts together.",
+          "diagram": [
+            "DRAFT",
+            "FOUNDER REVIEW"
+          ],
+          "layout_intention": "Illustrative review scene with a small approval checklist."
+        }
+      ]
+    }
+  },
+  {
+    "id": "02-what-we-actually-saw",
+    "title": "What our research can and cannot tell us",
+    "format": "carousel",
+    "caption": "We reviewed a selected set of 279 LinkedIn posts from 61 accounts. The number I would not turn into a target: 107.5.\n\nThat was the median reaction count among the 276 posts with an observed reaction count. For comments, the median was 36.5 across 256 posts with an observed comment count. Those are different sets of posts.\n\nA reaction can be a like or another reaction type. It is not a comment, an impression or a sale. We did not have reach or conversion data for this sample.\n\nSo I would rather ask what a post explained, what evidence it used, and whether that question matters to our buyer. Outspoken uses research to find ideas worth testing—not a formula for guaranteed results.\n\nThe sample was selected; counters were captured 20–22 October 2026. It is not a LinkedIn benchmark.\n\nSource: https://github.com/mcharniuk1-spec/linkedin/tree/main/reports/20261105",
+    "evidence": "Selected historical Outspoken sample: 279 posts/61 accounts; 107.5 median reactions among 276 observed; 36.5 median comments among 256 observed; captures 20–22 Oct 2026.",
+    "limitations": "Selected and differently aged posts, different metric denominators, no reach/conversions, no causality or current-trend claim.",
+    "variants": {
+      "graphic": [
+        {
+          "headline": "279 posts. Better questions.",
+          "body": "Selected sample of 61 accounts; captured 20–22 Oct 2026.",
+          "diagram": [
+            "279 POSTS",
+            "61 ACCOUNTS"
+          ],
+          "layout_intention": "Oversized numerical cover with a small sample label."
+        },
+        {
+          "headline": "107.5 median reactions.",
+          "body": "276 posts with observed reactions; captured 20–22 Oct 2026.",
+          "diagram": [
+            "276 OBSERVED",
+            "MEDIAN 107.5"
+          ],
+          "layout_intention": "Reaction metric as one labelled column, not a performance target."
+        },
+        {
+          "headline": "36.5 median comments.",
+          "body": "256 posts with observed comments; captured 20–22 Oct 2026.",
+          "diagram": [
+            "256 OBSERVED",
+            "MEDIAN 36.5"
+          ],
+          "layout_intention": "Distinct second metric with a visibly different denominator."
+        },
+        {
+          "headline": "What the sample cannot say.",
+          "body": "No observed reach or conversions. No causal comparison.",
+          "diagram": [
+            "REACH ?",
+            "SALES ?"
+          ],
+          "layout_intention": "Two empty data fields and a clear unknown legend."
+        },
+        {
+          "headline": "Use it to ask better questions.",
+          "body": "Check buyer relevance, the argument and the evidence.",
+          "diagram": [
+            "QUESTION",
+            "CLAIM",
+            "PROOF"
+          ],
+          "layout_intention": "Editorial note grid with dated source footer."
+        }
+      ],
+      "people": [
+        {
+          "headline": "What did we actually see?",
+          "body": "Selected sample of 61 accounts; captured 20–22 Oct 2026.",
+          "diagram": [
+            "SELECTED SAMPLE",
+            "NOT A BENCHMARK"
+          ],
+          "layout_intention": "Illustrative researcher reviewing a small evidence board."
+        },
+        {
+          "headline": "A reaction is a signal.",
+          "body": "Median 107.5 across 276 posts; captured 20–22 Oct 2026.",
+          "diagram": [
+            "REACTIONS",
+            "NOT REACH"
+          ],
+          "layout_intention": "Illustrative reader with a labelled reaction card."
+        },
+        {
+          "headline": "Comments are separate.",
+          "body": "Median 36.5 across 256 posts; captured 20–22 Oct 2026.",
+          "diagram": [
+            "COMMENTS",
+            "OWN DENOMINATOR"
+          ],
+          "layout_intention": "Illustrative discussion scene and separate comment card."
+        },
+        {
+          "headline": "The missing part matters.",
+          "body": "Impressions and conversions were not observed.",
+          "diagram": [
+            "IMPRESSION ?",
+            "SALE ?"
+          ],
+          "layout_intention": "Founder silhouette beside intentionally empty measurement fields."
+        },
+        {
+          "headline": "Research informs the next test.",
+          "body": "It cannot promise how a new post will perform.",
+          "diagram": [
+            "OBSERVE",
+            "QUESTION",
+            "TEST"
+          ],
+          "layout_intention": "Illustrative desk scene with an evidence-first closing note."
+        }
+      ]
+    }
+  },
+  {
+    "id": "03-the-interview",
+    "title": "The sentence hiding inside a decision",
+    "format": "carousel",
+    "caption": "The sentence a founder needs for a post may not arrive as a polished line.\n\nIt may appear when you ask: what did you decide, what else did you consider, and what changed your mind?\n\nI would start an Outspoken interview there. Not to manufacture a dramatic origin story, but to understand a decision the founder can explain accurately. Then we connect that decision to a question a buyer faces.\n\nA useful draft needs the trade-off, the evidence that can be shared, and a clear point for the reader. The founder reviews the final wording and decides what remains private.\n\nIf you could explain one decision behind your company to a future buyer, which would it be?",
+    "evidence": "Owner-approved founder-led positioning and proposed interview-to-draft workflow.",
+    "limitations": "Interview described as proposed method, not a documented customer engagement or verbatim founder story.",
+    "variants": {
+      "graphic": [
+        {
+          "headline": "The best sentence starts here.",
+          "body": "Ask about a decision, not a content pillar.",
+          "diagram": [
+            "QUESTION",
+            "DECISION"
+          ],
+          "layout_intention": "Large question mark composed from editorial cards."
+        },
+        {
+          "headline": "What changed?",
+          "body": "Name the situation before the decision.",
+          "diagram": [
+            "BEFORE",
+            "TRIGGER"
+          ],
+          "layout_intention": "Two time planes with a thin timeline."
+        },
+        {
+          "headline": "What else was possible?",
+          "body": "The rejected option makes the trade-off clear.",
+          "diagram": [
+            "OPTION",
+            "ALTERNATIVE"
+          ],
+          "layout_intention": "Two contrasting cards with one marked choice."
+        },
+        {
+          "headline": "Why should a buyer care?",
+          "body": "Translate the decision into a useful question.",
+          "diagram": [
+            "DECISION",
+            "BUYER QUESTION"
+          ],
+          "layout_intention": "Offset circles joined by a single annotated line."
+        },
+        {
+          "headline": "Check before publishing.",
+          "body": "The founder reviews facts and confidential details.",
+          "diagram": [
+            "DRAFT",
+            "CHECK",
+            "APPROVAL"
+          ],
+          "layout_intention": "Three stacked review tickets with generous margins."
+        }
+      ],
+      "people": [
+        {
+          "headline": "Start with a conversation.",
+          "body": "The story may be hiding in a decision.",
+          "diagram": [
+            "FOUNDER",
+            "QUESTION"
+          ],
+          "layout_intention": "Illustrative interview across a table with wide negative space."
+        },
+        {
+          "headline": "Ask what changed.",
+          "body": "Get the context before writing the hook.",
+          "diagram": [
+            "CONTEXT",
+            "DECISION"
+          ],
+          "layout_intention": "Illustrative listening close-up and one large question."
+        },
+        {
+          "headline": "Ask what was rejected.",
+          "body": "Alternatives make the founder's thinking visible.",
+          "diagram": [
+            "CONSIDERED",
+            "CHOSEN"
+          ],
+          "layout_intention": "Silhouette facing two editorial cards."
+        },
+        {
+          "headline": "Make it useful to a buyer.",
+          "body": "Which reader question does this decision answer?",
+          "diagram": [
+            "STORY",
+            "BUYER VALUE"
+          ],
+          "layout_intention": "Illustrative person with a spotlight on a reader question."
+        },
+        {
+          "headline": "Let the founder check it.",
+          "body": "Keep claims accurate and private details private.",
+          "diagram": [
+            "REVIEW",
+            "READY"
+          ],
+          "layout_intention": "Illustrative manuscript review with a clear privacy label."
+        }
+      ]
+    }
+  },
+  {
+    "id": "04-positioning",
+    "title": "If everyone can say it",
+    "format": "carousel",
+    "caption": "If every company in your category can make the same claim, the buyer still has the work of figuring out the difference.\n\nTake a generic line like “AI-powered workflows.” It describes a broad category. It does not tell me which buyer it serves, which job it supports, or why your approach is relevant. This is an illustrative phrase, not a customer quotation.\n\nA more useful starting point is a sequence: name the buyer, describe the job, then explain a difference you can substantiate.\n\nThat is how I want Outspoken to approach positioning before we turn it into LinkedIn copy and visuals. A sharper sentence should make the next conversation easier to understand. Its commercial effect still needs to be measured.\n\nWhich phrase on your page could a competitor use unchanged?",
+    "evidence": "Editorial positioning method grounded in the approved Outspoken value proposition; generic example is illustrative.",
+    "limitations": "No named competitor, customer outcome or validated conversion improvement is asserted.",
+    "variants": {
+      "graphic": [
+        {
+          "headline": "If everyone can say it...",
+          "body": "...buyers still have to find the difference.",
+          "diagram": [
+            "CLAIM",
+            "?"
+          ],
+          "layout_intention": "Large statement interrupted by an open question."
+        },
+        {
+          "headline": "A generic category line",
+          "body": "“AI-powered workflows” could describe many products.",
+          "diagram": [
+            "AI",
+            "WORKFLOW",
+            "CATEGORY"
+          ],
+          "layout_intention": "Illustrative generic phrase in a neutral text box."
+        },
+        {
+          "headline": "Name the buyer.",
+          "body": "Who needs to make the decision?",
+          "diagram": [
+            "CATEGORY",
+            "PERSON"
+          ],
+          "layout_intention": "One highlighted profile among abstract outline shapes."
+        },
+        {
+          "headline": "Name the job.",
+          "body": "What does that person need to get done?",
+          "diagram": [
+            "PERSON",
+            "TASK"
+          ],
+          "layout_intention": "A focused task card beside a simple workflow."
+        },
+        {
+          "headline": "Prove the difference.",
+          "body": "Explain a distinction the founder can substantiate.",
+          "diagram": [
+            "BUYER",
+            "JOB",
+            "PROOF"
+          ],
+          "layout_intention": "Three-part positioning lockup and source note."
+        }
+      ],
+      "people": [
+        {
+          "headline": "The buyer has a problem.",
+          "body": "A generic claim leaves the work of comparison to them.",
+          "diagram": [
+            "PROMISE",
+            "QUESTION"
+          ],
+          "layout_intention": "Illustrative decision-maker comparing two unlabeled cards."
+        },
+        {
+          "headline": "Can anyone say this?",
+          "body": "“AI-powered workflows” is an illustrative category line.",
+          "diagram": [
+            "GENERIC",
+            "UNTESTED"
+          ],
+          "layout_intention": "Two similar silhouettes and one generic phrase, clearly illustrative."
+        },
+        {
+          "headline": "Who is it for?",
+          "body": "Start with the person making the decision.",
+          "diagram": [
+            "BUYER",
+            "CONTEXT"
+          ],
+          "layout_intention": "Illustrative portrait with a role-neutral question label."
+        },
+        {
+          "headline": "What are they trying to do?",
+          "body": "Describe the real job before the feature list.",
+          "diagram": [
+            "TASK",
+            "WORKFLOW"
+          ],
+          "layout_intention": "Person at work beside a short sequence of steps."
+        },
+        {
+          "headline": "Why your approach?",
+          "body": "Use a difference supported by evidence.",
+          "diagram": [
+            "CLAIM",
+            "SUPPORT"
+          ],
+          "layout_intention": "Founder silhouette with a restrained proof annotation."
+        }
+      ]
+    }
+  },
+  {
+    "id": "05-proof",
+    "title": "A bold claim needs a boundary",
+    "format": "carousel",
+    "caption": "A strong claim is easier to trust when the reader can see its edges.\n\nSuppose a product helps a team review incoming requests. Before saying it “automates the work,” I would want to know: which requests, what does the system return, and where does a person still need to check the result? This is a hypothetical example.\n\nThose details do more than make a post precise. They give a buyer something concrete to evaluate.\n\nOur proposed process at Outspoken is to map the claim to its source, write the useful explanation, and return it to the founder for a factual check. If the evidence is not available, we say so or hold the claim.\n\nWhat is one claim about your product that deserves a clearer boundary?",
+    "evidence": "Proposed evidence-led editorial process; example workflow is explicitly hypothetical.",
+    "limitations": "No performance number or product implementation asserted. Founder and factual review required.",
+    "variants": {
+      "graphic": [
+        {
+          "headline": "A bold claim needs a boundary.",
+          "body": "Specificity gives the buyer something to evaluate.",
+          "diagram": [
+            "CLAIM",
+            "BOUNDARY"
+          ],
+          "layout_intention": "Large bordered statement with a small proof tag."
+        },
+        {
+          "headline": "Name the task.",
+          "body": "Which work is the product meant to support?",
+          "diagram": [
+            "PERSON",
+            "TASK"
+          ],
+          "layout_intention": "One task block connected to an empty product slot."
+        },
+        {
+          "headline": "Show the output.",
+          "body": "What does the system actually return?",
+          "diagram": [
+            "INPUT",
+            "OUTPUT"
+          ],
+          "layout_intention": "Input and output cards around a simplified system shape."
+        },
+        {
+          "headline": "Show the human check.",
+          "body": "Where does a person review or decide?",
+          "diagram": [
+            "OUTPUT",
+            "REVIEW"
+          ],
+          "layout_intention": "Flow diagram with a distinctly highlighted review node."
+        },
+        {
+          "headline": "Connect it to evidence.",
+          "body": "No source? Hold or qualify the claim.",
+          "diagram": [
+            "CLAIM",
+            "SOURCE",
+            "REVIEW"
+          ],
+          "layout_intention": "Annotated proof card with an explicit missing-source state."
+        }
+      ],
+      "people": [
+        {
+          "headline": "Trust starts with the details.",
+          "body": "A broad claim needs a clear boundary.",
+          "diagram": [
+            "PROMISE",
+            "PROOF"
+          ],
+          "layout_intention": "Illustrative person studying a product statement."
+        },
+        {
+          "headline": "Who is doing the work?",
+          "body": "Describe the task and the person responsible.",
+          "diagram": [
+            "PERSON",
+            "TASK"
+          ],
+          "layout_intention": "Illustrative working scene with a labelled task card."
+        },
+        {
+          "headline": "What comes back?",
+          "body": "Explain the output in ordinary language.",
+          "diagram": [
+            "INPUT",
+            "RESPONSE"
+          ],
+          "layout_intention": "Illustrative screen reflection with an abstract output tile."
+        },
+        {
+          "headline": "Who checks the result?",
+          "body": "Make the review step visible when it exists.",
+          "diagram": [
+            "OUTPUT",
+            "HUMAN CHECK"
+          ],
+          "layout_intention": "Illustrative reviewer and a simple decision path."
+        },
+        {
+          "headline": "Let the evidence lead.",
+          "body": "The founder checks what can be supported and shared.",
+          "diagram": [
+            "SOURCE",
+            "FOUNDER REVIEW"
+          ],
+          "layout_intention": "Illustrative desk scene with source and review labels."
+        }
+      ]
+    }
+  },
+  {
+    "id": "06-product-to-buyer",
+    "title": "Turn a feature into a decision",
+    "format": "single",
+    "caption": "Here is a writing exercise I would use with an AI founder: explain a feature without starting with the model.\n\nStart with the moment a person needs to act.\n\nWhat triggers the work? What information does the product use? What does it return? Who checks the result—and what can that person do next?\n\nFor example, a workflow diagram could show a request coming in, an AI system suggesting an answer, and a person reviewing it before it reaches a customer. That is an illustration, not a claim about a particular product.\n\nOnce the sequence is clear, we can choose what belongs in a post, a visual or a short script. The founder checks the technical detail and what can be shared.\n\nWhich part of your product is hardest to explain without using its internal terminology?",
+    "evidence": "Editorial recommendation and hypothetical workflow example.",
+    "limitations": "No named product or verified feature claimed; founder must check any real substituted workflow.",
+    "variants": {
+      "graphic": [
+        {
+          "headline": "A model is not a workflow.",
+          "body": "Explain the trigger, the output and the next human decision.",
+          "diagram": [
+            "TRIGGER",
+            "OUTPUT",
+            "DECISION"
+          ],
+          "layout_intention": "Three distinct workflow blocks connected across a wide canvas."
+        }
+      ],
+      "people": [
+        {
+          "headline": "Show the moment of decision.",
+          "body": "What does the person see, check and do next?",
+          "diagram": [
+            "PERSON",
+            "OUTPUT",
+            "ACTION"
+          ],
+          "layout_intention": "Illustrative reviewer at a screen with a restrained three-step overlay."
+        }
+      ]
+    }
+  },
+  {
+    "id": "07-two-voices",
+    "title": "One story, two useful voices",
+    "format": "single",
+    "caption": "A founder and a company page do not need to post the same sentence.\n\nGive each voice a job around the same buyer question. The founder can explain a decision and the trade-off behind it. The company can explain the workflow, show the product context, or share evidence that has been cleared for use.\n\nThat is an editorial approach I would test, not a claim that one kind of account automatically performs better. The right division depends on the founder, the team and the audience they want to reach.\n\nAt Outspoken, we can help shape that shared story and develop separate drafts for each voice.\n\nWhere does your company story need a founder’s judgment—and where does it need a clearer product explanation?",
+    "evidence": "Editorial hypothesis derived from Outspoken's proposed founder/company content service.",
+    "limitations": "No causal or comparative channel-performance claim; proposed workflow requires review.",
+    "variants": {
+      "graphic": [
+        {
+          "headline": "One story. Two useful voices.",
+          "body": "Founder: explain the choice. Company: explain the workflow.",
+          "diagram": [
+            "FOUNDER WHY",
+            "COMPANY HOW"
+          ],
+          "layout_intention": "Two asymmetric vertical editorial columns meeting at a buyer question."
+        }
+      ],
+      "people": [
+        {
+          "headline": "Different voices, shared question.",
+          "body": "A founder's judgment and a clear company explanation can work together.",
+          "diagram": [
+            "FOUNDER",
+            "COMPANY",
+            "BUYER"
+          ],
+          "layout_intention": "Illustrative founder/team silhouettes connected by a single reader question."
+        }
+      ]
+    }
+  },
+  {
+    "id": "08-visuals",
+    "title": "A useful visual answers a question",
+    "format": "single",
+    "caption": "A beautiful visual can still leave me asking: what am I supposed to understand?\n\nBefore designing a LinkedIn image, I would choose one question the reader should be able to answer after seeing it.\n\nIf the post explains a workflow, show the sequence. If it compares two approaches, make the difference visible. If it makes a claim, put the source or limitation close enough to read.\n\nThat is the role we want visuals to play at Outspoken: give a founder’s idea a form a buyer can follow. The design supports the argument; it does not verify the claim for us.\n\nWhat should a reader understand in five seconds from your next visual?",
+    "evidence": "Editorial guidance from approved Outspoken service and design-system contract.",
+    "limitations": "Five seconds is a framing question, not a measured viewing-time claim. Illustrative people are not clients.",
+    "variants": {
+      "graphic": [
+        {
+          "headline": "A visual should answer a question.",
+          "body": "Use the layout to make a relationship or sequence clear.",
+          "diagram": [
+            "QUESTION",
+            "VISIBLE ANSWER"
+          ],
+          "layout_intention": "Single oversized question and a small annotated relationship diagram."
+        }
+      ],
+      "people": [
+        {
+          "headline": "What should the reader see?",
+          "body": "Give the founder's idea a form the buyer can follow.",
+          "diagram": [
+            "IDEA",
+            "VISUAL",
+            "CLARITY"
+          ],
+          "layout_intention": "Illustrative founder reflected in a visual board with three graphic annotations."
+        }
+      ]
+    }
+  },
+  {
+    "id": "09-measure",
+    "title": "A reaction is not a sale",
+    "format": "single",
+    "caption": "A reaction is a signal. It is not a sale.\n\nA reaction count combines likes and other reaction types. Comments are a separate measure. Neither tells us how many people saw the post, visited a website or became a buyer.\n\nWhen we reviewed our selected sample, those distinctions mattered: reactions were observable on 276 of 279 posts and comments on 256. The sample’s counters were captured 20–22 October 2026 and cannot establish conversions or what is trending today.\n\nFor a client, I would start with the question we want the content to answer, record the measures we can actually observe, and keep missing data marked as unknown. Then we can decide what to test next.\n\nWhich question are your current LinkedIn numbers helping you answer?\n\nSource: https://github.com/mcharniuk1-spec/linkedin/tree/main/reports/20261105",
+    "evidence": "Historical selected reference sample: 279 posts; reaction counts observed on 276, comments on 256; captured 20–22 Oct 2026.",
+    "limitations": "No impression, reach, click or conversion evidence from this sample; proposed client practice, not delivered-client result.",
+    "variants": {
+      "graphic": [
+        {
+          "headline": "A reaction is not a sale.",
+          "body": "Separate reactions and comments. Keep missing reach unknown.",
+          "diagram": [
+            "REACTIONS",
+            "COMMENTS",
+            "REACH ?"
+          ],
+          "layout_intention": "Three horizontal metric cells with a visibly unfilled reach field."
+        }
+      ],
+      "people": [
+        {
+          "headline": "What do the numbers answer?",
+          "body": "Measure what you can observe. Do not invent the rest.",
+          "diagram": [
+            "OBSERVE",
+            "QUESTION",
+            "TEST"
+          ],
+          "layout_intention": "Illustrative analyst reviewing a simple dashboard with unknown values."
+        }
+      ]
+    }
+  },
+  {
+    "id": "10-the-delivery",
+    "title": "Your expertise stays yours",
+    "format": "single",
+    "caption": "Your expertise should not disappear behind a content calendar.\n\nThe way I want Outspoken to work is straightforward. We start with the founder’s perspective and the buyer’s questions. We clarify the position. We turn useful decisions and explanations into written and visual drafts. Then the founder checks what is accurate and what can be shared.\n\nAfter publication, available responses can inform the next test. A reaction is useful feedback; it is not proof of a sale.\n\nThe aim is to make your thinking easier for the right people to understand, while keeping your judgment and approval in the process.\n\nBook an intro call",
+    "evidence": "Owner-approved value proposition and proposed Outspoken service workflow; approved CTA preserved exactly.",
+    "limitations": "Proposed service process and first-person voice require founder and delivery-capability review; no client outcomes claimed.",
+    "variants": {
+      "graphic": [
+        {
+          "headline": "Your expertise stays yours.",
+          "body": "We shape the story and visual. You review the claims.",
+          "diagram": [
+            "CONVERSATION",
+            "DRAFT",
+            "REVIEW"
+          ],
+          "layout_intention": "Three offset editorial panels leading to the exact approved CTA."
+        }
+      ],
+      "people": [
+        {
+          "headline": "Build the story together.",
+          "body": "Your judgment leads; every claim stays reviewable.",
+          "diagram": [
+            "FOUNDER",
+            "OUTSPOKEN",
+            "REVIEW"
+          ],
+          "layout_intention": "Illustrative two-person review scene with a subtle sequence and clear CTA."
+        }
+      ]
+    }
+  }
+]

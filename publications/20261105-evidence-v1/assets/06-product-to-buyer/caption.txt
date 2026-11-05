@@ -1,0 +1,11 @@
+Here is a writing exercise I would use with an AI founder: explain a feature without starting with the model.
+
+Start with the moment a person needs to act.
+
+What triggers the work? What information does the product use? What does it return? Who checks the result—and what can that person do next?
+
+For example, a workflow diagram could show a request coming in, an AI system suggesting an answer, and a person reviewing it before it reaches a customer. That is an illustration, not a claim about a particular product.
+
+Once the sequence is clear, we can choose what belongs in a post, a visual or a short script. The founder checks the technical detail and what can be shared.
+
+Which part of your product is hardest to explain without using its internal terminology?

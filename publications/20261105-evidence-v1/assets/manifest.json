@@ -1,0 +1,489 @@
+{
+  "status": "draft_founder_review",
+  "research_note": "No claim of 100 new posts; see evidence and limitations.",
+  "source_assets": [
+    {
+      "id": "graphic-1",
+      "sha256": "fd0afae75b1c083ec7a4e304491d4e9e327804ccbb670654cefa0ff9db34619d",
+      "provenance": "Earlier project-generated illustrative asset, 20261105 Outspoken personal editorial run",
+      "rights_state": "Project-generated; founder and rights review required",
+      "use": "Embedded unchanged in editable SVG; scene images depict fictional people."
+    },
+    {
+      "id": "scene-1",
+      "sha256": "bf29d8abb14710ec59c6f34e9d1060a0562885cf1b3336a5ff3e760658586432",
+      "provenance": "Earlier project-generated illustrative asset, 20261105 Outspoken personal editorial run",
+      "rights_state": "Project-generated; founder and rights review required",
+      "use": "Embedded unchanged in editable SVG; scene images depict fictional people."
+    },
+    {
+      "id": "graphic-2",
+      "sha256": "bc98bf739e2aa5058498cb035455a6cacdd85ccedd4cf799c01ec3319bb6241f",
+      "provenance": "Earlier project-generated illustrative asset, 20261105 Outspoken personal editorial run",
+      "rights_state": "Project-generated; founder and rights review required",
+      "use": "Embedded unchanged in editable SVG; scene images depict fictional people."
+    },
+    {
+      "id": "scene-2",
+      "sha256": "17c0a56875871bd19cec4f1c26929ad0f1eb7618dec7a859c96c5d423007a9f2",
+      "provenance": "Earlier project-generated illustrative asset, 20261105 Outspoken personal editorial run",
+      "rights_state": "Project-generated; founder and rights review required",
+      "use": "Embedded unchanged in editable SVG; scene images depict fictional people."
+    },
+    {
+      "id": "graphic-3",
+      "sha256": "6fbfefc650b76d8e2e5252e2079c35695b240d6d0ab72584ea35f642d28acdc8",
+      "provenance": "Earlier project-generated illustrative asset, 20261105 Outspoken personal editorial run",
+      "rights_state": "Project-generated; founder and rights review required",
+      "use": "Embedded unchanged in editable SVG; scene images depict fictional people."
+    },
+    {
+      "id": "scene-3",
+      "sha256": "d651569c69fc434f2de3303ec8f1c04a56c756acd7c744f30f0f082fd2166a4f",
+      "provenance": "Earlier project-generated illustrative asset, 20261105 Outspoken personal editorial run",
+      "rights_state": "Project-generated; founder and rights review required",
+      "use": "Embedded unchanged in editable SVG; scene images depict fictional people."
+    },
+    {
+      "id": "graphic-4",
+      "sha256": "9df1161db977e1bb62a53f486465ab9dbac9cbae11cb9a2ec21417cd0f6f35fc",
+      "provenance": "Earlier project-generated illustrative asset, 20261105 Outspoken personal editorial run",
+      "rights_state": "Project-generated; founder and rights review required",
+      "use": "Embedded unchanged in editable SVG; scene images depict fictional people."
+    },
+    {
+      "id": "scene-4",
+      "sha256": "2297b995b0aba92c5e720f02ef9ea5985728e180aebba3bce1056f731d109567",
+      "provenance": "Earlier project-generated illustrative asset, 20261105 Outspoken personal editorial run",
+      "rights_state": "Project-generated; founder and rights review required",
+      "use": "Embedded unchanged in editable SVG; scene images depict fictional people."
+    },
+    {
+      "id": "graphic-5",
+      "sha256": "e9563a1d8f6d3e867bef7f30087cfdae5cdf8cfc2353e5a04518f267078e250a",
+      "provenance": "Earlier project-generated illustrative asset, 20261105 Outspoken personal editorial run",
+      "rights_state": "Project-generated; founder and rights review required",
+      "use": "Embedded unchanged in editable SVG; scene images depict fictional people."
+    },
+    {
+      "id": "scene-5",
+      "sha256": "c1ee336710ef6ac9c9a2d1b09a156528f208694fc0890720176122c03bc18c68",
+      "provenance": "Earlier project-generated illustrative asset, 20261105 Outspoken personal editorial run",
+      "rights_state": "Project-generated; founder and rights review required",
+      "use": "Embedded unchanged in editable SVG; scene images depict fictional people."
+    },
+    {
+      "id": "graphic-6",
+      "sha256": "6c6fb6718b693cb5f11c3a79321a0eb97293ac39e348800cffc4dcd4ac254312",
+      "provenance": "Earlier project-generated illustrative asset, 20261105 Outspoken personal editorial run",
+      "rights_state": "Project-generated; founder and rights review required",
+      "use": "Embedded unchanged in editable SVG; scene images depict fictional people."
+    },
+    {
+      "id": "scene-6",
+      "sha256": "d0b482a13402c2e847db3d96a1d2fd415729c4eed661972ad60bb89ac70c9aa3",
+      "provenance": "Earlier project-generated illustrative asset, 20261105 Outspoken personal editorial run",
+      "rights_state": "Project-generated; founder and rights review required",
+      "use": "Embedded unchanged in editable SVG; scene images depict fictional people."
+    },
+    {
+      "id": "graphic-7",
+      "sha256": "f77493c47cc471f966d8082c93a0dfcbd94638fdcd52625ba0d3a8fd0fb9ec7f",
+      "provenance": "Earlier project-generated illustrative asset, 20261105 Outspoken personal editorial run",
+      "rights_state": "Project-generated; founder and rights review required",
+      "use": "Embedded unchanged in editable SVG; scene images depict fictional people."
+    },
+    {
+      "id": "scene-7",
+      "sha256": "fa11c4a2bb541c01ca10ced30b39d20197ffdc85460bfc7a7ba70c397073b4e8",
+      "provenance": "Earlier project-generated illustrative asset, 20261105 Outspoken personal editorial run",
+      "rights_state": "Project-generated; founder and rights review required",
+      "use": "Embedded unchanged in editable SVG; scene images depict fictional people."
+    },
+    {
+      "id": "graphic-8",
+      "sha256": "097ce60961d31a16d4bbfeac5543f3e7c1db45bef09829b1a46456ab1088b1a1",
+      "provenance": "Earlier project-generated illustrative asset, 20261105 Outspoken personal editorial run",
+      "rights_state": "Project-generated; founder and rights review required",
+      "use": "Embedded unchanged in editable SVG; scene images depict fictional people."
+    },
+    {
+      "id": "scene-8",
+      "sha256": "82d6a8a725d388cfe34eec519ff9f876740a8bbbe82f12bf5a2a82d5e7551ca4",
+      "provenance": "Earlier project-generated illustrative asset, 20261105 Outspoken personal editorial run",
+      "rights_state": "Project-generated; founder and rights review required",
+      "use": "Embedded unchanged in editable SVG; scene images depict fictional people."
+    },
+    {
+      "id": "graphic-9",
+      "sha256": "9f5de8a7873fbf9386396e9defa4a74f4b17a3d42b6b10b77117dc0e6ffa9e8f",
+      "provenance": "Earlier project-generated illustrative asset, 20261105 Outspoken personal editorial run",
+      "rights_state": "Project-generated; founder and rights review required",
+      "use": "Embedded unchanged in editable SVG; scene images depict fictional people."
+    },
+    {
+      "id": "scene-9",
+      "sha256": "57ab5782ab53fb6a00837be9e848b3d90538dcb5c03338c6f9bdc9d527091abf",
+      "provenance": "Earlier project-generated illustrative asset, 20261105 Outspoken personal editorial run",
+      "rights_state": "Project-generated; founder and rights review required",
+      "use": "Embedded unchanged in editable SVG; scene images depict fictional people."
+    },
+    {
+      "id": "graphic-10",
+      "sha256": "0f1f033e690a6dd6ddd6b8ff35d391dba3044bf7bc0a79d04c896339f63e44ac",
+      "provenance": "Earlier project-generated illustrative asset, 20261105 Outspoken personal editorial run",
+      "rights_state": "Project-generated; founder and rights review required",
+      "use": "Embedded unchanged in editable SVG; scene images depict fictional people."
+    },
+    {
+      "id": "scene-10",
+      "sha256": "bded0bd2e9bb81ca15f3a2d5aad580b0a657161b3184475a1c6fef0896aef611",
+      "provenance": "Earlier project-generated illustrative asset, 20261105 Outspoken personal editorial run",
+      "rights_state": "Project-generated; founder and rights review required",
+      "use": "Embedded unchanged in editable SVG; scene images depict fictional people."
+    }
+  ],
+  "identity_asset": {
+    "sha256": "a612bdbba5bda939766194f5d9d2ece378be4ad450a0186f2854923690c159d5",
+    "provenance": "Existing project V13 lockup, inherited release; owner review required"
+  },
+  "fonts": [
+    {
+      "path": "source-fonts/fraunces-latin-full-normal.woff2",
+      "sha256": "7e744849028e2219e2aa1bc467dc4032980dc4487c9c3da3010081cd72d3b103",
+      "license": "SIL Open Font License; see adjacent license text"
+    },
+    {
+      "path": "source-fonts/mona-sans-latin-wght-normal.woff2",
+      "sha256": "a59061e38c5e7e6a00aaa6b6645a220c7d9c530991167f058cc0f8575f5d5844",
+      "license": "SIL Open Font License; see adjacent license text"
+    },
+    {
+      "path": "source-fonts/geist-mono-latin-wght-normal.woff2",
+      "sha256": "684ad5b531f81d43c1e8c7038262d5db7cdc1f68006e04d6c7769efa8d33c8cc",
+      "license": "SIL Open Font License; see adjacent license text"
+    }
+  ],
+  "publications": [
+    {
+      "id": "01-the-reason",
+      "title": "Make the thinking visible",
+      "format": "carousel",
+      "files": {
+        "graphic": [
+          "graphic-01.png",
+          "graphic-02.png",
+          "graphic-03.png",
+          "graphic-04.png",
+          "graphic-05.png"
+        ],
+        "people": [
+          "people-01.png",
+          "people-02.png",
+          "people-03.png",
+          "people-04.png",
+          "people-05.png"
+        ]
+      },
+      "source_art": {
+        "graphic": [
+          "graphic-01.png",
+          "graphic-04.png",
+          "graphic-03.png",
+          "graphic-07.png",
+          "graphic-10.png"
+        ],
+        "people": [
+          "scene-01.png",
+          "scene-03.png",
+          "scene-04.png",
+          "scene-06.png",
+          "scene-10.png"
+        ]
+      },
+      "caption": "caption.txt",
+      "evidence": "Owner-approved Outspoken value proposition and proposed delivery process; editorial viewpoint.",
+      "limitations": "Proposed first-person voice and service workflow require founder review; no customer result is asserted."
+    },
+    {
+      "id": "02-what-we-actually-saw",
+      "title": "What our research can and cannot tell us",
+      "format": "carousel",
+      "files": {
+        "graphic": [
+          "graphic-01.png",
+          "graphic-02.png",
+          "graphic-03.png",
+          "graphic-04.png",
+          "graphic-05.png"
+        ],
+        "people": [
+          "people-01.png",
+          "people-02.png",
+          "people-03.png",
+          "people-04.png",
+          "people-05.png"
+        ]
+      },
+      "source_art": {
+        "graphic": [
+          "graphic-02.png",
+          "graphic-09.png",
+          "graphic-08.png",
+          "graphic-04.png",
+          "graphic-01.png"
+        ],
+        "people": [
+          "scene-02.png",
+          "scene-05.png",
+          "scene-07.png",
+          "scene-08.png",
+          "scene-09.png"
+        ]
+      },
+      "caption": "caption.txt",
+      "evidence": "Selected historical Outspoken sample: 279 posts/61 accounts; 107.5 median reactions among 276 observed; 36.5 median comments among 256 observed; captures 20–22 Oct 2026.",
+      "limitations": "Selected and differently aged posts, different metric denominators, no reach/conversions, no causality or current-trend claim."
+    },
+    {
+      "id": "03-the-interview",
+      "title": "The sentence hiding inside a decision",
+      "format": "carousel",
+      "files": {
+        "graphic": [
+          "graphic-01.png",
+          "graphic-02.png",
+          "graphic-03.png",
+          "graphic-04.png",
+          "graphic-05.png"
+        ],
+        "people": [
+          "people-01.png",
+          "people-02.png",
+          "people-03.png",
+          "people-04.png",
+          "people-05.png"
+        ]
+      },
+      "source_art": {
+        "graphic": [
+          "graphic-03.png",
+          "graphic-01.png",
+          "graphic-06.png",
+          "graphic-07.png",
+          "graphic-05.png"
+        ],
+        "people": [
+          "scene-03.png",
+          "scene-01.png",
+          "scene-06.png",
+          "scene-10.png",
+          "scene-05.png"
+        ]
+      },
+      "caption": "caption.txt",
+      "evidence": "Owner-approved founder-led positioning and proposed interview-to-draft workflow.",
+      "limitations": "Interview described as proposed method, not a documented customer engagement or verbatim founder story."
+    },
+    {
+      "id": "04-positioning",
+      "title": "If everyone can say it",
+      "format": "carousel",
+      "files": {
+        "graphic": [
+          "graphic-01.png",
+          "graphic-02.png",
+          "graphic-03.png",
+          "graphic-04.png",
+          "graphic-05.png"
+        ],
+        "people": [
+          "people-01.png",
+          "people-02.png",
+          "people-03.png",
+          "people-04.png",
+          "people-05.png"
+        ]
+      },
+      "source_art": {
+        "graphic": [
+          "graphic-04.png",
+          "graphic-02.png",
+          "graphic-07.png",
+          "graphic-08.png",
+          "graphic-03.png"
+        ],
+        "people": [
+          "scene-04.png",
+          "scene-02.png",
+          "scene-07.png",
+          "scene-08.png",
+          "scene-03.png"
+        ]
+      },
+      "caption": "caption.txt",
+      "evidence": "Editorial positioning method grounded in the approved Outspoken value proposition; generic example is illustrative.",
+      "limitations": "No named competitor, customer outcome or validated conversion improvement is asserted."
+    },
+    {
+      "id": "05-proof",
+      "title": "A bold claim needs a boundary",
+      "format": "carousel",
+      "files": {
+        "graphic": [
+          "graphic-01.png",
+          "graphic-02.png",
+          "graphic-03.png",
+          "graphic-04.png",
+          "graphic-05.png"
+        ],
+        "people": [
+          "people-01.png",
+          "people-02.png",
+          "people-03.png",
+          "people-04.png",
+          "people-05.png"
+        ]
+      },
+      "source_art": {
+        "graphic": [
+          "graphic-05.png",
+          "graphic-04.png",
+          "graphic-02.png",
+          "graphic-06.png",
+          "graphic-10.png"
+        ],
+        "people": [
+          "scene-05.png",
+          "scene-04.png",
+          "scene-02.png",
+          "scene-06.png",
+          "scene-10.png"
+        ]
+      },
+      "caption": "caption.txt",
+      "evidence": "Proposed evidence-led editorial process; example workflow is explicitly hypothetical.",
+      "limitations": "No performance number or product implementation asserted. Founder and factual review required."
+    },
+    {
+      "id": "06-product-to-buyer",
+      "title": "Turn a feature into a decision",
+      "format": "single",
+      "files": {
+        "graphic": [
+          "graphic-01.png"
+        ],
+        "people": [
+          "people-01.png"
+        ]
+      },
+      "source_art": {
+        "graphic": [
+          "graphic-06.png"
+        ],
+        "people": [
+          "scene-06.png"
+        ]
+      },
+      "caption": "caption.txt",
+      "evidence": "Editorial recommendation and hypothetical workflow example.",
+      "limitations": "No named product or verified feature claimed; founder must check any real substituted workflow."
+    },
+    {
+      "id": "07-two-voices",
+      "title": "One story, two useful voices",
+      "format": "single",
+      "files": {
+        "graphic": [
+          "graphic-01.png"
+        ],
+        "people": [
+          "people-01.png"
+        ]
+      },
+      "source_art": {
+        "graphic": [
+          "graphic-07.png"
+        ],
+        "people": [
+          "scene-07.png"
+        ]
+      },
+      "caption": "caption.txt",
+      "evidence": "Editorial hypothesis derived from Outspoken's proposed founder/company content service.",
+      "limitations": "No causal or comparative channel-performance claim; proposed workflow requires review."
+    },
+    {
+      "id": "08-visuals",
+      "title": "A useful visual answers a question",
+      "format": "single",
+      "files": {
+        "graphic": [
+          "graphic-01.png"
+        ],
+        "people": [
+          "people-01.png"
+        ]
+      },
+      "source_art": {
+        "graphic": [
+          "graphic-08.png"
+        ],
+        "people": [
+          "scene-08.png"
+        ]
+      },
+      "caption": "caption.txt",
+      "evidence": "Editorial guidance from approved Outspoken service and design-system contract.",
+      "limitations": "Five seconds is a framing question, not a measured viewing-time claim. Illustrative people are not clients."
+    },
+    {
+      "id": "09-measure",
+      "title": "A reaction is not a sale",
+      "format": "single",
+      "files": {
+        "graphic": [
+          "graphic-01.png"
+        ],
+        "people": [
+          "people-01.png"
+        ]
+      },
+      "source_art": {
+        "graphic": [
+          "graphic-09.png"
+        ],
+        "people": [
+          "scene-09.png"
+        ]
+      },
+      "caption": "caption.txt",
+      "evidence": "Historical selected reference sample: 279 posts; reaction counts observed on 276, comments on 256; captured 20–22 Oct 2026.",
+      "limitations": "No impression, reach, click or conversion evidence from this sample; proposed client practice, not delivered-client result."
+    },
+    {
+      "id": "10-the-delivery",
+      "title": "Your expertise stays yours",
+      "format": "single",
+      "files": {
+        "graphic": [
+          "graphic-01.png"
+        ],
+        "people": [
+          "people-01.png"
+        ]
+      },
+      "source_art": {
+        "graphic": [
+          "graphic-10.png"
+        ],
+        "people": [
+          "scene-10.png"
+        ]
+      },
+      "caption": "caption.txt",
+      "evidence": "Owner-approved value proposition and proposed Outspoken service workflow; approved CTA preserved exactly.",
+      "limitations": "Proposed service process and first-person voice require founder and delivery-capability review; no client outcomes claimed."
+    }
+  ]
+}

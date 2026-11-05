@@ -125,10 +125,20 @@ def gh(path, *, method='GET', body=None, binary=False, missing=False, response_l
     limit=response_limit if response_limit is not None else (MAX_ZIP_DOWNLOAD if binary else MAX_GH_JSON)
     if not isinstance(limit,int) or not 1<=limit<=MAX_ZIP_DOWNLOAD:
         raise ConfigurationError('invalid_github_response_limit')
-    code,stdout,stderr=_bounded_gh_run(cmd,input_bytes,limit)
+    for attempt in range(3):
+        code,stdout,stderr=_bounded_gh_run(cmd,input_bytes,limit)
+        # Retry only safe reads and only explicit server failures. Never retry
+        # writes, auth denials or rate limits without resolving their state.
+        if not code or method!='GET' or not re.search(rb'HTTP 5\d\d\b',stderr) or attempt==2:
+            break
+        time.sleep(1+attempt)
     if code:
         if missing and b'404' in stderr:
             return None
+        if re.search(rb'HTTP 5\d\d\b',stderr):
+            raise ConfigurationError('github_state_api_server_error')
+        if re.search(rb'HTTP (?:401|403|429)\b',stderr):
+            raise ConfigurationError('github_state_api_access_or_quota_hold')
         raise ConfigurationError('github_state_api_failed')
     if binary:return stdout
     try:return json.loads(stdout)

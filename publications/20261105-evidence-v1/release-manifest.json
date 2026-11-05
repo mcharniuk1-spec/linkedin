@@ -1,0 +1,1980 @@
+{
+  "status": "source_snapshot_verified",
+  "publication_authority": "owner_requested_current_source_git_sync",
+  "owner_accepted": false,
+  "scope": "Ten draft posts; five carousels with two five-page versions each and five single posts with two image versions each. No social publication; no raw third-party posts or media.",
+  "source_note": "Artwork reuses project-generated assets and existing Outspoken identity; people are fictional. Historical research has observation and redistribution limits; individual source records remain private.",
+  "files": [
+    {
+      "path": "API-AND-DATA-GAPS.md",
+      "sha256": "9cc926cb7084a21561f8bcae94a5359238841127cd40142e3c4865288262432e",
+      "bytes": 4804
+    },
+    {
+      "path": "COLLECTION-STATUS.md",
+      "sha256": "5fe898fb38c238d0dd796fb65d0d497c09c190904022d3147e52ea377418998d",
+      "bytes": 1927
+    },
+    {
+      "path": "COPY-AND-EVIDENCE.md",
+      "sha256": "cd3ff58494a39cf768a72c4928e609dde45aa75e82dd392381217a0822789ee3",
+      "bytes": 4238
+    },
+    {
+      "path": "HISTORICAL-REVIEW.md",
+      "sha256": "aa366d5e5758946feab9bf73018e03f2a3f894558d688ffa249de63923f10356",
+      "bytes": 5567
+    },
+    {
+      "path": "README.md",
+      "sha256": "2324e5f05305c55a8120252405bf8b07094c59949e6884a285a55b68c60b8491",
+      "bytes": 1413
+    },
+    {
+      "path": "assets/01-the-reason/caption.txt",
+      "sha256": "7f8261a8669c911a60f33fc6e221fcc027347dfde817271b4567078f589067b0",
+      "bytes": 810
+    },
+    {
+      "path": "assets/01-the-reason/graphic-01.png",
+      "sha256": "4e762f3ab20a31450bde5f59889003186d0d86e0ff8a058dec9ab710b1056393",
+      "bytes": 233994
+    },
+    {
+      "path": "assets/01-the-reason/graphic-02.png",
+      "sha256": "c365ef7aab0220f90c2d24fa14ee3672b86cc5061bf29d2e1bb55ce2115049ae",
+      "bytes": 175218
+    },
+    {
+      "path": "assets/01-the-reason/graphic-03.png",
+      "sha256": "3af4bb9fd67593116307e93a2bc25718da8a6a84b064dafc6ce0108bcb6bdba0",
+      "bytes": 188379
+    },
+    {
+      "path": "assets/01-the-reason/graphic-04.png",
+      "sha256": "88ae3c10a4be4246e33773eb5d5b0c1251c867bf104de594ba039027c87d674b",
+      "bytes": 198003
+    },
+    {
+      "path": "assets/01-the-reason/graphic-05.png",
+      "sha256": "e7d7512fb3fd0d9c7634dfb1ec1094ec5d7dbf5e6528a019c5c02d8cfe531fcb",
+      "bytes": 218543
+    },
+    {
+      "path": "assets/01-the-reason/graphic-carousel.pdf",
+      "sha256": "9c2b55f03d4fbb883514d0f26dcc5b20e84b5bc00611e6ab0c1640a5d09a2bd9",
+      "bytes": 697704
+    },
+    {
+      "path": "assets/01-the-reason/people-01.png",
+      "sha256": "3a54f6c8ce18b2914148985428e5371720618262cd48d6a146750c1aeb54b93b",
+      "bytes": 650520
+    },
+    {
+      "path": "assets/01-the-reason/people-02.png",
+      "sha256": "8bfdaca2f69601dbd922d0bc4ef0afcfb4f1b2104f1ddbc12088ed11c8afa6d7",
+      "bytes": 613238
+    },
+    {
+      "path": "assets/01-the-reason/people-03.png",
+      "sha256": "644c4943821a6290feaaf55ca7878e6e9d4f7433879cf29eb29ad745189b9402",
+      "bytes": 635344
+    },
+    {
+      "path": "assets/01-the-reason/people-04.png",
+      "sha256": "11a3df7d1d44bf6ce0f6a7009b5eee7a98d4b0ce425394a95fd89277d7064f14",
+      "bytes": 657765
+    },
+    {
+      "path": "assets/01-the-reason/people-05.png",
+      "sha256": "a7e0f985fc923529c5c15616df1be248a2cfad43258ee1c864345f2b5e412764",
+      "bytes": 667994
+    },
+    {
+      "path": "assets/01-the-reason/people-carousel.pdf",
+      "sha256": "7914d36ca1efe84ed3adb0caabbcf88db35103306ee7e25cd0733dd8a175940e",
+      "bytes": 947577
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/caption.txt",
+      "sha256": "ebda3a2a83d142fcccfb75b22b0725631709ed9cf808eb6d81323e59a8de70f4",
+      "bytes": 872
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-01.png",
+      "sha256": "b079bcf4d42828a85eb6b6e8ae5605cfd7969bdbbf4982da6959923cabdd2635",
+      "bytes": 211142
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-02.png",
+      "sha256": "9cae4e16a45ac7b7f50187746752e4def198c20f095613f4df1a82ef455f1ab9",
+      "bytes": 238833
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-03.png",
+      "sha256": "00738914ea11af39d25457ce7f66d4fe3f190cce9f246fc964a9c9065d80e6e0",
+      "bytes": 251111
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-04.png",
+      "sha256": "ce47d1adf1e10302e2ac68cdf79174e05ec4b103180210d00cca7390201d1665",
+      "bytes": 181143
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-05.png",
+      "sha256": "c5324e183ddb393af39ca42add479fba8327d5e6aea0dfcd134023f2549c1e58",
+      "bytes": 251525
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-carousel.pdf",
+      "sha256": "96f88a201e85a4b93596e30d3e02b9a3cb0b1a58e5a5a66bf0f4b5c01f4e7378",
+      "bytes": 756553
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-01.png",
+      "sha256": "1bc76587fda2393a7adc9289624c4b90c1d30c5e4fb99c0f19fff649ef7b4756",
+      "bytes": 603832
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-02.png",
+      "sha256": "8b2ab8bbcb455b75828c284057886b2c56a683cc986d5efbce044cd37e5e2d80",
+      "bytes": 660425
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-03.png",
+      "sha256": "82bd33e124d5e4a7da618434dc9e0a4f0de6d767433235b11ec6b4fe87d6accb",
+      "bytes": 654423
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-04.png",
+      "sha256": "4f23a1e48f43b62da5519a6e1a0434699b306bc752ec1a662a5729d7fcc8da02",
+      "bytes": 650582
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-05.png",
+      "sha256": "a0b277eaf4f3bd8817d7f9c11efe7ef63afca497b48e02e5296f155eca7d7a7b",
+      "bytes": 653402
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-carousel.pdf",
+      "sha256": "e090f691c00605771050213fac074d678881163f7fca969d711db2f3b856ba38",
+      "bytes": 957563
+    },
+    {
+      "path": "assets/03-the-interview/caption.txt",
+      "sha256": "861390ddd5cdc392a8a6e58907d05d92dd360bd7c36d4733ff332f8f8d17efc6",
+      "bytes": 663
+    },
+    {
+      "path": "assets/03-the-interview/graphic-01.png",
+      "sha256": "c31e8c0ddb59aacac9b8e1c47b0d68ad03293759b5aaeee385a2c40faefda88b",
+      "bytes": 191764
+    },
+    {
+      "path": "assets/03-the-interview/graphic-02.png",
+      "sha256": "44d81df47d112b93bbcdd27bfde93259461e6ef6e759ce7315a77994f2a1ff31",
+      "bytes": 234712
+    },
+    {
+      "path": "assets/03-the-interview/graphic-03.png",
+      "sha256": "f1664dfcbf89a4c1ad4a23a462996c372a221dde8bc56bb0162154d451196848",
+      "bytes": 228933
+    },
+    {
+      "path": "assets/03-the-interview/graphic-04.png",
+      "sha256": "ce93b7c1a30a0f634a3bae889354d4a21db61d0d4ae81428ae14086f90771378",
+      "bytes": 198541
+    },
+    {
+      "path": "assets/03-the-interview/graphic-05.png",
+      "sha256": "d30345558e8b134c4b2b2fdf35e4bd5e06a99f794bddc55c36f367dd798e095a",
+      "bytes": 216214
+    },
+    {
+      "path": "assets/03-the-interview/graphic-carousel.pdf",
+      "sha256": "ba643d270c95de8cee5ed5657ab1f5d01687a49d235587efaa654671eb38acf6",
+      "bytes": 713471
+    },
+    {
+      "path": "assets/03-the-interview/people-01.png",
+      "sha256": "76f3db42bf54ad86422b8a34b1aad1edc4c5323fe031d8c170775916b4f71246",
+      "bytes": 614715
+    },
+    {
+      "path": "assets/03-the-interview/people-02.png",
+      "sha256": "b88d4ad11ab085147dd317b88775a2be83bf0cb7af63bafe6ef2cf7c91b107cf",
+      "bytes": 644439
+    },
+    {
+      "path": "assets/03-the-interview/people-03.png",
+      "sha256": "0bfd392d95b71cd4823a3f38b8f8e82f07c997a92acc41ff2d6400ea7f3c41f2",
+      "bytes": 657677
+    },
+    {
+      "path": "assets/03-the-interview/people-04.png",
+      "sha256": "6316d5f056d8f53ac26fa576826ca15346f5d18fa2b97d1ebf5ce06785be1bad",
+      "bytes": 669091
+    },
+    {
+      "path": "assets/03-the-interview/people-05.png",
+      "sha256": "cbce3eda6ae47a6d98f0310acafba3212fed1035020bfa0c2e2813d1d8f5a323",
+      "bytes": 651498
+    },
+    {
+      "path": "assets/03-the-interview/people-carousel.pdf",
+      "sha256": "49ba31cd6a644a30e5b02552f98079e9bf23eb227eec66cd2295fa4b5b33606d",
+      "bytes": 934133
+    },
+    {
+      "path": "assets/04-positioning/caption.txt",
+      "sha256": "25cc843eda7baa10b9d8e1a36da20728482af8a404f7227a28373e9841456f4e",
+      "bytes": 780
+    },
+    {
+      "path": "assets/04-positioning/graphic-01.png",
+      "sha256": "b109983e5891f7651dec48457c76d2cdd71fd9ac72e5af75ee14c9682ce3d2fc",
+      "bytes": 177735
+    },
+    {
+      "path": "assets/04-positioning/graphic-02.png",
+      "sha256": "f0ac4760b176d78965eb169557fe1358f3214f6b492599d3d432b9aa69f6463e",
+      "bytes": 205633
+    },
+    {
+      "path": "assets/04-positioning/graphic-03.png",
+      "sha256": "1dd7c7ec93585aa17d4bcd1f302ca7efab804ad585907edb151d8cac38996fde",
+      "bytes": 192401
+    },
+    {
+      "path": "assets/04-positioning/graphic-04.png",
+      "sha256": "358b309330093b59c4a067c4cf218ff66c0365f3911ed007aedc6ef62bf9dd91",
+      "bytes": 224480
+    },
+    {
+      "path": "assets/04-positioning/graphic-05.png",
+      "sha256": "38f0395b2103a815969a9a3fa3c2d592d6771232cb286bc6236d7e82878fc2c9",
+      "bytes": 199412
+    },
+    {
+      "path": "assets/04-positioning/graphic-carousel.pdf",
+      "sha256": "d2c55565c07e23a18f35cd73f7b1dd1b2da59fe6327f7e15c6c0bd73834fafa8",
+      "bytes": 663016
+    },
+    {
+      "path": "assets/04-positioning/people-01.png",
+      "sha256": "b4cb86a8c6661ca57778a587b491f003c3f96641a5d9e464cb2b588bc720097a",
+      "bytes": 632476
+    },
+    {
+      "path": "assets/04-positioning/people-02.png",
+      "sha256": "ac0ad5c89b7e4d48b627c0bbcd755a7437a94976ee63303bfc64e0e5a4e49ee8",
+      "bytes": 596541
+    },
+    {
+      "path": "assets/04-positioning/people-03.png",
+      "sha256": "6ac6177c1d1c9508f754e7a4754248773d4509f659227d7ae3486c5aae36ae9e",
+      "bytes": 644972
+    },
+    {
+      "path": "assets/04-positioning/people-04.png",
+      "sha256": "b7984f34eb3e4ec01aeaf6d4a9dabf15dc1e10a1813baf09f7258bb2087ae7bc",
+      "bytes": 650400
+    },
+    {
+      "path": "assets/04-positioning/people-05.png",
+      "sha256": "2570ff450aadb41b12186f872cf468a0f4ffb782a53f5640590a08f6d5a4e935",
+      "bytes": 611618
+    },
+    {
+      "path": "assets/04-positioning/people-carousel.pdf",
+      "sha256": "58459c95c727942dfca39330673f0ba6f8867ddf7320dd6c4c85aa174e9e6769",
+      "bytes": 905998
+    },
+    {
+      "path": "assets/05-proof/caption.txt",
+      "sha256": "df60cf668f31ebf0119e90a6d79c1e5e62e1af4a0c5a346efd1d3675b1535e8b",
+      "bytes": 709
+    },
+    {
+      "path": "assets/05-proof/graphic-01.png",
+      "sha256": "a435637c2d4acebc8808b4b72f9b4bb4a8ac85369c5a4c716aadbc9225a317f6",
+      "bytes": 223790
+    },
+    {
+      "path": "assets/05-proof/graphic-02.png",
+      "sha256": "4b3150d3bd029ddee3fd34e6d23f8a478761cb0ca98a271baf2624d66ef50d74",
+      "bytes": 178915
+    },
+    {
+      "path": "assets/05-proof/graphic-03.png",
+      "sha256": "e709993231ddc4ea4a980d9d4c7186ca384ee70f0fda0a5dbef7c041d80ca7fe",
+      "bytes": 191187
+    },
+    {
+      "path": "assets/05-proof/graphic-04.png",
+      "sha256": "394e47439a9a063d8fafca97ffd334ddc8bdf849c8e38cd87e7fd0b9867728cd",
+      "bytes": 233390
+    },
+    {
+      "path": "assets/05-proof/graphic-05.png",
+      "sha256": "6c22d6da1e16eaaacfcb7856a62e4c932fa1b95311b3b10d03ab056a993ef16e",
+      "bytes": 215838
+    },
+    {
+      "path": "assets/05-proof/graphic-carousel.pdf",
+      "sha256": "7357a7aead4e44c651bae704b4c62c0f0cf8a5c5f79620a22e8b83aeb4769bc9",
+      "bytes": 684959
+    },
+    {
+      "path": "assets/05-proof/people-01.png",
+      "sha256": "8a3621faf193369ca6a629947cb0b22855c1964664dbf4e8be10eabd0de8f5b4",
+      "bytes": 656465
+    },
+    {
+      "path": "assets/05-proof/people-02.png",
+      "sha256": "4ecc7df736ed2898f571769862dfab26c65da7696946efcded6ad19189f279eb",
+      "bytes": 633002
+    },
+    {
+      "path": "assets/05-proof/people-03.png",
+      "sha256": "243d5f6e39492f665a06a6944d21accd99ee816d3eda64964bf1d5689f3013d5",
+      "bytes": 593689
+    },
+    {
+      "path": "assets/05-proof/people-04.png",
+      "sha256": "bc8f6ef1956f810ab3ae1ad95d64489f9d494cb5f8701118eaf19f4bdeac4c83",
+      "bytes": 652959
+    },
+    {
+      "path": "assets/05-proof/people-05.png",
+      "sha256": "c337f11fa64229ed21850cecc4dc3774eb9ed9b29b5d84de9da2ad2fd56cfb41",
+      "bytes": 666453
+    },
+    {
+      "path": "assets/05-proof/people-carousel.pdf",
+      "sha256": "04cefa9a1ccb105fb631825e57a41522b92904360acde6512671295850f882eb",
+      "bytes": 921477
+    },
+    {
+      "path": "assets/06-product-to-buyer/caption.txt",
+      "sha256": "97cb6fcdcad898763fe33c78a28bc249ae0041dbd8638a372528e7e9d315d46d",
+      "bytes": 769
+    },
+    {
+      "path": "assets/06-product-to-buyer/graphic-01.png",
+      "sha256": "207a84bbb0ca8f9bd056d912fafdbb23e367dd83d05d83497b971efe6db9bd02",
+      "bytes": 238579
+    },
+    {
+      "path": "assets/06-product-to-buyer/people-01.png",
+      "sha256": "fadeda39ec2084d825935b2fc9b4abae7e149f520a094fbb18b469ee300efae0",
+      "bytes": 658394
+    },
+    {
+      "path": "assets/07-two-voices/caption.txt",
+      "sha256": "179035464587d2902ec133c9e91a8de48b2817cc90b79ce5f63f6ed8dee4f165",
+      "bytes": 712
+    },
+    {
+      "path": "assets/07-two-voices/graphic-01.png",
+      "sha256": "aa735aca1902c701d9aeabf97e70708e574d6b0fa3aab7d9403921e9e1673a54",
+      "bytes": 193949
+    },
+    {
+      "path": "assets/07-two-voices/people-01.png",
+      "sha256": "dfb6eb0be09ae29deb829e614009321e6d29d848dcf73d697f74fffbc92a4682",
+      "bytes": 669017
+    },
+    {
+      "path": "assets/08-visuals/caption.txt",
+      "sha256": "137bea906c22ec1dc265c7678ffc7c81bce8232e35c511c61b31bd0f55a5986f",
+      "bytes": 632
+    },
+    {
+      "path": "assets/08-visuals/graphic-01.png",
+      "sha256": "4fe97d5b9c7b277b33c0e0b9042c1a814ae936e085f796757e44d5460878c4c6",
+      "bytes": 250564
+    },
+    {
+      "path": "assets/08-visuals/people-01.png",
+      "sha256": "a7a29b034bebd5bfdf6257937d4d37c79024f5c85e7092d76a4dc0fba0fb421d",
+      "bytes": 650782
+    },
+    {
+      "path": "assets/09-measure/caption.txt",
+      "sha256": "cec280382d3565ae7a2d459b1b6b3183fd1c95260c6e8c513f6b9bb8a65db579",
+      "bytes": 824
+    },
+    {
+      "path": "assets/09-measure/graphic-01.png",
+      "sha256": "f7b50263aa4b11110a981f87f0c49ff475c5b0c185672a0069f153d08a175e35",
+      "bytes": 238779
+    },
+    {
+      "path": "assets/09-measure/people-01.png",
+      "sha256": "8e1d376634c6f58244b4afd47c2a3b7db72b2b5de4c4a4e07da69e0f13c896c1",
+      "bytes": 654519
+    },
+    {
+      "path": "assets/10-the-delivery/caption.txt",
+      "sha256": "15637e26efcf9bc703d2e14b62e84c46d1b5996e229ee2fc8de41397ac4423ee",
+      "bytes": 630
+    },
+    {
+      "path": "assets/10-the-delivery/graphic-01.png",
+      "sha256": "4fe96415b5ad7d21cd583abdd06c44f4ded388a119ccbbc2cd35f92bc92bb073",
+      "bytes": 218704
+    },
+    {
+      "path": "assets/10-the-delivery/people-01.png",
+      "sha256": "e6f09c463683c26f3b43e85a7e95c181cdbd91f66c500034f96968334aa8c973",
+      "bytes": 669213
+    },
+    {
+      "path": "assets/CHECKSUMS.sha256",
+      "sha256": "b1da0d3e8af78b6e6c9841a4d9e6138b24738408c789c4051739b4ef6e0ee73d",
+      "bytes": 14461
+    },
+    {
+      "path": "assets/index.html",
+      "sha256": "a6005d0854c52c60bbbb0bfa724e6b765cf452a7fb813195ee8286e932f440c2",
+      "bytes": 28164
+    },
+    {
+      "path": "assets/manifest.json",
+      "sha256": "364c1257cd75fa80f9e987d9f6bccdc205d4e54baed1b3c2c1592876621b6c31",
+      "bytes": 18123
+    },
+    {
+      "path": "assets/source-art/graphic-01.png",
+      "sha256": "fd0afae75b1c083ec7a4e304491d4e9e327804ccbb670654cefa0ff9db34619d",
+      "bytes": 1923623
+    },
+    {
+      "path": "assets/source-art/graphic-02.png",
+      "sha256": "bc98bf739e2aa5058498cb035455a6cacdd85ccedd4cf799c01ec3319bb6241f",
+      "bytes": 1330705
+    },
+    {
+      "path": "assets/source-art/graphic-03.png",
+      "sha256": "6fbfefc650b76d8e2e5252e2079c35695b240d6d0ab72584ea35f642d28acdc8",
+      "bytes": 1166832
+    },
+    {
+      "path": "assets/source-art/graphic-04.png",
+      "sha256": "9df1161db977e1bb62a53f486465ab9dbac9cbae11cb9a2ec21417cd0f6f35fc",
+      "bytes": 982319
+    },
+    {
+      "path": "assets/source-art/graphic-05.png",
+      "sha256": "e9563a1d8f6d3e867bef7f30087cfdae5cdf8cfc2353e5a04518f267078e250a",
+      "bytes": 1555413
+    },
+    {
+      "path": "assets/source-art/graphic-06.png",
+      "sha256": "6c6fb6718b693cb5f11c3a79321a0eb97293ac39e348800cffc4dcd4ac254312",
+      "bytes": 1983629
+    },
+    {
+      "path": "assets/source-art/graphic-07.png",
+      "sha256": "f77493c47cc471f966d8082c93a0dfcbd94638fdcd52625ba0d3a8fd0fb9ec7f",
+      "bytes": 1240850
+    },
+    {
+      "path": "assets/source-art/graphic-08.png",
+      "sha256": "097ce60961d31a16d4bbfeac5543f3e7c1db45bef09829b1a46456ab1088b1a1",
+      "bytes": 1928157
+    },
+    {
+      "path": "assets/source-art/graphic-09.png",
+      "sha256": "9f5de8a7873fbf9386396e9defa4a74f4b17a3d42b6b10b77117dc0e6ffa9e8f",
+      "bytes": 1653610
+    },
+    {
+      "path": "assets/source-art/graphic-10.png",
+      "sha256": "0f1f033e690a6dd6ddd6b8ff35d391dba3044bf7bc0a79d04c896339f63e44ac",
+      "bytes": 1500215
+    },
+    {
+      "path": "assets/source-art/lockup.png",
+      "sha256": "a612bdbba5bda939766194f5d9d2ece378be4ad450a0186f2854923690c159d5",
+      "bytes": 32311
+    },
+    {
+      "path": "assets/source-art/scene-01.png",
+      "sha256": "bf29d8abb14710ec59c6f34e9d1060a0562885cf1b3336a5ff3e760658586432",
+      "bytes": 1938729
+    },
+    {
+      "path": "assets/source-art/scene-02.png",
+      "sha256": "17c0a56875871bd19cec4f1c26929ad0f1eb7618dec7a859c96c5d423007a9f2",
+      "bytes": 1845563
+    },
+    {
+      "path": "assets/source-art/scene-03.png",
+      "sha256": "d651569c69fc434f2de3303ec8f1c04a56c756acd7c744f30f0f082fd2166a4f",
+      "bytes": 2032740
+    },
+    {
+      "path": "assets/source-art/scene-04.png",
+      "sha256": "2297b995b0aba92c5e720f02ef9ea5985728e180aebba3bce1056f731d109567",
+      "bytes": 1854050
+    },
+    {
+      "path": "assets/source-art/scene-05.png",
+      "sha256": "c1ee336710ef6ac9c9a2d1b09a156528f208694fc0890720176122c03bc18c68",
+      "bytes": 2006878
+    },
+    {
+      "path": "assets/source-art/scene-06.png",
+      "sha256": "d0b482a13402c2e847db3d96a1d2fd415729c4eed661972ad60bb89ac70c9aa3",
+      "bytes": 1985658
+    },
+    {
+      "path": "assets/source-art/scene-07.png",
+      "sha256": "fa11c4a2bb541c01ca10ced30b39d20197ffdc85460bfc7a7ba70c397073b4e8",
+      "bytes": 1974574
+    },
+    {
+      "path": "assets/source-art/scene-08.png",
+      "sha256": "82d6a8a725d388cfe34eec519ff9f876740a8bbbe82f12bf5a2a82d5e7551ca4",
+      "bytes": 2008487
+    },
+    {
+      "path": "assets/source-art/scene-09.png",
+      "sha256": "57ab5782ab53fb6a00837be9e848b3d90538dcb5c03338c6f9bdc9d527091abf",
+      "bytes": 2051048
+    },
+    {
+      "path": "assets/source-art/scene-10.png",
+      "sha256": "bded0bd2e9bb81ca15f3a2d5aad580b0a657161b3184475a1c6fef0896aef611",
+      "bytes": 1980723
+    },
+    {
+      "path": "assets/source-fonts/FRAUNCES-OFL.txt",
+      "sha256": "cd3384cafac6f2bddc3955273958a2e029f97027c8037ac539ef5744a77b579e",
+      "bytes": 4504
+    },
+    {
+      "path": "assets/source-fonts/GEIST-OFL.txt",
+      "sha256": "cc815ed4fc045f0e991abb10395b7932bd028c6a067deb13316d6002105074e6",
+      "bytes": 4498
+    },
+    {
+      "path": "assets/source-fonts/MONA-OFL.txt",
+      "sha256": "41e9911493de5899a20336baf13b6ea6483b5eea34e237f2ffed22c39bdc4a8d",
+      "bytes": 4564
+    },
+    {
+      "path": "assets/source-fonts/fraunces-latin-full-normal.woff2",
+      "sha256": "7e744849028e2219e2aa1bc467dc4032980dc4487c9c3da3010081cd72d3b103",
+      "bytes": 121016
+    },
+    {
+      "path": "assets/source-fonts/geist-mono-latin-wght-normal.woff2",
+      "sha256": "684ad5b531f81d43c1e8c7038262d5db7cdc1f68006e04d6c7769efa8d33c8cc",
+      "bytes": 23128
+    },
+    {
+      "path": "assets/source-fonts/mona-sans-latin-wght-normal.woff2",
+      "sha256": "a59061e38c5e7e6a00aaa6b6645a220c7d9c530991167f058cc0f8575f5d5844",
+      "bytes": 39788
+    },
+    {
+      "path": "assets/source-svg/01-graphic-01.svg",
+      "sha256": "df75f599d031c9ac2840f44a5f3a4d3cf247008ec83ffb04299cc845628587c5",
+      "bytes": 2610871
+    },
+    {
+      "path": "assets/source-svg/01-graphic-02.svg",
+      "sha256": "2a9fdf62e2339d5c319107fc946876903ee1a400b16ac0e5797f48d3d394a22c",
+      "bytes": 1355490
+    },
+    {
+      "path": "assets/source-svg/01-graphic-03.svg",
+      "sha256": "8be5efae6847a38ad2ecd664dd0f46ec027414f93898530c0f0556828cfc482e",
+      "bytes": 1601587
+    },
+    {
+      "path": "assets/source-svg/01-graphic-04.svg",
+      "sha256": "5e1d23a5631172696ccab64e309e12073c9f7db9a990973e8737284a4ae104de",
+      "bytes": 1700247
+    },
+    {
+      "path": "assets/source-svg/01-graphic-05.svg",
+      "sha256": "0cc60bc4d23a64bdc1a0320133babfab41a7706b52ff545f53d419a4f6c5e62d",
+      "bytes": 2046335
+    },
+    {
+      "path": "assets/source-svg/01-people-01.svg",
+      "sha256": "561801e5d21756b3d87024a256846e8dc391c5b5e3b5b9dbaa33384a0abdcf9d",
+      "bytes": 2630593
+    },
+    {
+      "path": "assets/source-svg/01-people-02.svg",
+      "sha256": "41386c9565cbfb3149b1f446e4c4dd1c50d6b9bb3f24e2191cc21c99b518f8ed",
+      "bytes": 2756043
+    },
+    {
+      "path": "assets/source-svg/01-people-03.svg",
+      "sha256": "73408eb864a4e3601f7949267d2fc5952f0bf34635dc01753d0a676d763960eb",
+      "bytes": 2517673
+    },
+    {
+      "path": "assets/source-svg/01-people-04.svg",
+      "sha256": "5f22f6b954388dd0e9e80dc9e5425d201e8c06b63002d908970f51dc86dea090",
+      "bytes": 2693280
+    },
+    {
+      "path": "assets/source-svg/01-people-05.svg",
+      "sha256": "96077dba95a6d886ea181c43902a682e6609f4563a3e262afe5411bd4b7847c6",
+      "bytes": 2686582
+    },
+    {
+      "path": "assets/source-svg/02-graphic-01.svg",
+      "sha256": "f23db1abfd935aa3d011dea70cb0bf08048818429085a03153b8d8b2a473a203",
+      "bytes": 1820077
+    },
+    {
+      "path": "assets/source-svg/02-graphic-02.svg",
+      "sha256": "b97ec022bcc2d1f85e100c700dee0fd02a911c4cf77694bdd334db67792cca84",
+      "bytes": 2250710
+    },
+    {
+      "path": "assets/source-svg/02-graphic-03.svg",
+      "sha256": "c069222c8f1e4a2c7d9c93d381fe15a9d172b56bfe7669e089a97d4070f0903c",
+      "bytes": 2616705
+    },
+    {
+      "path": "assets/source-svg/02-graphic-04.svg",
+      "sha256": "3611aa9f5b159a4460cd6e360362e9daf52b81eea79cdbec039f92039f90d703",
+      "bytes": 1355512
+    },
+    {
+      "path": "assets/source-svg/02-graphic-05.svg",
+      "sha256": "ec1b2829a2d553919fe34cb1dc8453441a913ca8a0ab36c6941500a3d619af11",
+      "bytes": 2611054
+    },
+    {
+      "path": "assets/source-svg/02-people-01.svg",
+      "sha256": "7fa6b9c6f5ab6e424657de4811054cc1044ef9f7ccdbab99a32703dd49e48ddb",
+      "bytes": 2506545
+    },
+    {
+      "path": "assets/source-svg/02-people-02.svg",
+      "sha256": "c1d265be6191503c4afa076ef1b0291e83037271815dc0cc5297572a7dd140bb",
+      "bytes": 2721495
+    },
+    {
+      "path": "assets/source-svg/02-people-03.svg",
+      "sha256": "e770043d0a59c1c8671fe275d5625071139f170648ad2987d21e63652caae6ee",
+      "bytes": 2678506
+    },
+    {
+      "path": "assets/source-svg/02-people-04.svg",
+      "sha256": "cc204b5adf90793d79bd4099b0b7b1bd15e3ca65d7bb952679d33929b90b69c4",
+      "bytes": 2723595
+    },
+    {
+      "path": "assets/source-svg/02-people-05.svg",
+      "sha256": "6ed0faf8b05c7adbbd2fc31bc54450e2b8b3a70e2ab8cafe53ef8f7bd9a9a9c7",
+      "bytes": 2780799
+    },
+    {
+      "path": "assets/source-svg/03-graphic-01.svg",
+      "sha256": "54c776b8003cf74baa57aadd73fcccdd171d4c321e563e1db410911bdfd2539e",
+      "bytes": 1601653
+    },
+    {
+      "path": "assets/source-svg/03-graphic-02.svg",
+      "sha256": "f129cb071ef615132250c0e63acb010e813d0d3cbaaeaf887a9b39aa57698f83",
+      "bytes": 2610582
+    },
+    {
+      "path": "assets/source-svg/03-graphic-03.svg",
+      "sha256": "da86d51c46ed8aa306a5b3bfd228aecdbf4b0847e916975b22b98e4a93960351",
+      "bytes": 2690542
+    },
+    {
+      "path": "assets/source-svg/03-graphic-04.svg",
+      "sha256": "c7bf6c1268c279705fe81f75762fdce9740f7f8935e03800e25436f30762bb2a",
+      "bytes": 1700334
+    },
+    {
+      "path": "assets/source-svg/03-graphic-05.svg",
+      "sha256": "af8b786d641607dda959018e6cdbf3916c18938b03b834697df4a39d149b37ef",
+      "bytes": 2119891
+    },
+    {
+      "path": "assets/source-svg/03-people-01.svg",
+      "sha256": "5b31121cfe0c664aed3ae600f25d30737a3a65362d2256279bd53e981d17ee50",
+      "bytes": 2755916
+    },
+    {
+      "path": "assets/source-svg/03-people-02.svg",
+      "sha256": "44a855ca709b6af9e0d054194a9520ad1121d799dc8ef03736a7ff7d13e7796d",
+      "bytes": 2630681
+    },
+    {
+      "path": "assets/source-svg/03-people-03.svg",
+      "sha256": "e3013c0ea552208f70f9f8f5ae057d6a0306158fc811b12dc57c3e9c54a6bb1a",
+      "bytes": 2693157
+    },
+    {
+      "path": "assets/source-svg/03-people-04.svg",
+      "sha256": "8943c4b3418623435582c435721d04c1c53d1f5634431aa1ae58e4adec5f3f6b",
+      "bytes": 2686691
+    },
+    {
+      "path": "assets/source-svg/03-people-05.svg",
+      "sha256": "ff0e9a7361d837881f0a80401b459e0b8c465a10eedabe1f43620e9e8ac8dbe5",
+      "bytes": 2721442
+    },
+    {
+      "path": "assets/source-svg/04-graphic-01.svg",
+      "sha256": "0de0942a0852cbc501673479c6b6f95aceb513e98b7e92424bfc94fa30e8a39f",
+      "bytes": 1355518
+    },
+    {
+      "path": "assets/source-svg/04-graphic-02.svg",
+      "sha256": "a88230a5f08f38eedc0abd6ad96d8c654fafb94a11c46da45c36339b0dad6304",
+      "bytes": 1820279
+    },
+    {
+      "path": "assets/source-svg/04-graphic-03.svg",
+      "sha256": "b57ffe8a6aff2bfd6152ce700f2206e43c74f72176eb38cf13e36e4a27ecd439",
+      "bytes": 1700302
+    },
+    {
+      "path": "assets/source-svg/04-graphic-04.svg",
+      "sha256": "4defa99afc9f0ce841ef55ccecf810c1df1f4088b62753cd33346e5aa0cbae58",
+      "bytes": 2616562
+    },
+    {
+      "path": "assets/source-svg/04-graphic-05.svg",
+      "sha256": "6084477da1bc1c89cdceed2f592a63e56d7d855a53bb2bd22277cae9750323e4",
+      "bytes": 1601836
+    },
+    {
+      "path": "assets/source-svg/04-people-01.svg",
+      "sha256": "1551df6c3b4ef48d39fb9eca953de01cbc359b0b0bfafbabea25d15286e7dfa8",
+      "bytes": 2517798
+    },
+    {
+      "path": "assets/source-svg/04-people-02.svg",
+      "sha256": "2be462bfefb356eec6dddae73e2166b800afc2517c7bce018f09403b406b56ea",
+      "bytes": 2506407
+    },
+    {
+      "path": "assets/source-svg/04-people-03.svg",
+      "sha256": "e25f6003505a8283674ac8f2cc178fdc783233b024ab4458ecfd88e5b86a453f",
+      "bytes": 2678473
+    },
+    {
+      "path": "assets/source-svg/04-people-04.svg",
+      "sha256": "defc1ef5f0b4288524590fd2ef8145258c6d17b9a248373488228f063a04cdb1",
+      "bytes": 2723586
+    },
+    {
+      "path": "assets/source-svg/04-people-05.svg",
+      "sha256": "5e4914a90d055007c92fbeeb8f67bd4724aa4ec08890b235aa29ff81debdb513",
+      "bytes": 2756031
+    },
+    {
+      "path": "assets/source-svg/05-graphic-01.svg",
+      "sha256": "dba3af9981d1f5518108e19b7aaab1d4642764e325dc15f9aa550dea1d448736",
+      "bytes": 2119635
+    },
+    {
+      "path": "assets/source-svg/05-graphic-02.svg",
+      "sha256": "2fc6c4b5ed28e9c9a4035019b9ea102143dc6fca492a2242b4026caf57e86bbd",
+      "bytes": 1355601
+    },
+    {
+      "path": "assets/source-svg/05-graphic-03.svg",
+      "sha256": "a4867504df4144bee3cb7195d07e1e9acfe59c7575eeab9fd962dfbc4e7e4b64",
+      "bytes": 1819964
+    },
+    {
+      "path": "assets/source-svg/05-graphic-04.svg",
+      "sha256": "19d856b13fd30c7d3c8fa93f71fa252cfad9805ea16ab5c69a584ae43734c51f",
+      "bytes": 2690595
+    },
+    {
+      "path": "assets/source-svg/05-graphic-05.svg",
+      "sha256": "717a77bd58bfbb76a5e06f7b77193c83dd9ddbedda71072da18aff774e58301d",
+      "bytes": 2046395
+    },
+    {
+      "path": "assets/source-svg/05-people-01.svg",
+      "sha256": "3072d9e379737b4693c9387558c01d4fae28ae394ff266d838780b8aac696a9a",
+      "bytes": 2721485
+    },
+    {
+      "path": "assets/source-svg/05-people-02.svg",
+      "sha256": "05186914f195e73691484e3e5df5d063c2bb52912c1aaae56ac8f0799cfc256e",
+      "bytes": 2517782
+    },
+    {
+      "path": "assets/source-svg/05-people-03.svg",
+      "sha256": "59581ba9fb4b9a0c7da5035f0313b61684ddf2fc3615a50d190577d872e26874",
+      "bytes": 2506338
+    },
+    {
+      "path": "assets/source-svg/05-people-04.svg",
+      "sha256": "289b029a3594f5f5dedc67a95fa8b8d8a2d30757577992b6968dbfa4dbb0a083",
+      "bytes": 2693269
+    },
+    {
+      "path": "assets/source-svg/05-people-05.svg",
+      "sha256": "0eb716bda31a555c3a6c770856e19c484dd687d773481b69352cf1a02e3705e3",
+      "bytes": 2686575
+    },
+    {
+      "path": "assets/source-svg/06-graphic-01.svg",
+      "sha256": "dd08ff37e8a371b9361f408fb469ea9b1299eb518e1e853a28117574b94398f8",
+      "bytes": 2691061
+    },
+    {
+      "path": "assets/source-svg/06-people-01.svg",
+      "sha256": "57a650d5d4741e40f2162d6b48e56476bf4c0af9dc5483088cd7f1a58aea3a38",
+      "bytes": 2693561
+    },
+    {
+      "path": "assets/source-svg/07-graphic-01.svg",
+      "sha256": "55d24c274cc856fd9ab8e891176cb932681da565352d9d41e7cd810007c0742d",
+      "bytes": 1700240
+    },
+    {
+      "path": "assets/source-svg/07-people-01.svg",
+      "sha256": "44a88ba5fcbe16033b20a1a01faf050b3c7794a5b84fba6289f701db28eeee1b",
+      "bytes": 2678787
+    },
+    {
+      "path": "assets/source-svg/08-graphic-01.svg",
+      "sha256": "1acce0e471fc46a04f34125be020dca74a8fdfa0909a05d77d4f7dc957fa6cbb",
+      "bytes": 2616755
+    },
+    {
+      "path": "assets/source-svg/08-people-01.svg",
+      "sha256": "b563cbd2d016c93b807c39c7b7c90c201337d9893dd9ad353e3f2983a49fe53d",
+      "bytes": 2724018
+    },
+    {
+      "path": "assets/source-svg/09-graphic-01.svg",
+      "sha256": "3290c5d46d113b6ce5ec0c494cac71c7a8ede82a5ec3cc4e9b3862caff397044",
+      "bytes": 2250998
+    },
+    {
+      "path": "assets/source-svg/09-people-01.svg",
+      "sha256": "e2f1d6ec8e9aed91e53add87080628ee79ce0063ae674927b6cc010c7270024b",
+      "bytes": 2780638
+    },
+    {
+      "path": "assets/source-svg/10-graphic-01.svg",
+      "sha256": "1621f39820d1d749078dbeb4d8e48d8c8f3a6528939ad3c845f0458a98170805",
+      "bytes": 2046336
+    },
+    {
+      "path": "assets/source-svg/10-people-01.svg",
+      "sha256": "8683e2ab5c468095dec9c88444ef282ed79687ce51625f175ed1b81c4acf441c",
+      "bytes": 2686988
+    },
+    {
+      "path": "build.js",
+      "sha256": "9590cc74cd84e7ca02970690f1e6ae5cdc3000377bee794f9f3714d0081916b0",
+      "bytes": 15134
+    },
+    {
+      "path": "content.json",
+      "sha256": "e61603da72d7ac429cc99904a25cc9c3a77c621b0a2a546e37197435229ca60b",
+      "bytes": 31132
+    },
+    {
+      "path": "pdf.swift",
+      "sha256": "09d38e6f46bb87255b4939724d55c77b6e87905ecbc3d62026b67c0d7e327d2e",
+      "bytes": 1110
+    },
+    {
+      "path": "render.swift",
+      "sha256": "991088dc2f602b65b09280ed51519375f93e627927bb1b0fb9deaa4b878a5243",
+      "bytes": 1386
+    }
+  ],
+  "rights_ledger": [
+    {
+      "path": "API-AND-DATA-GAPS.md",
+      "sha256": "9cc926cb7084a21561f8bcae94a5359238841127cd40142e3c4865288262432e",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "COLLECTION-STATUS.md",
+      "sha256": "5fe898fb38c238d0dd796fb65d0d497c09c190904022d3147e52ea377418998d",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "COPY-AND-EVIDENCE.md",
+      "sha256": "cd3ff58494a39cf768a72c4928e609dde45aa75e82dd392381217a0822789ee3",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "HISTORICAL-REVIEW.md",
+      "sha256": "aa366d5e5758946feab9bf73018e03f2a3f894558d688ffa249de63923f10356",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "README.md",
+      "sha256": "2324e5f05305c55a8120252405bf8b07094c59949e6884a285a55b68c60b8491",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/01-the-reason/caption.txt",
+      "sha256": "7f8261a8669c911a60f33fc6e221fcc027347dfde817271b4567078f589067b0",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/01-the-reason/graphic-01.png",
+      "sha256": "4e762f3ab20a31450bde5f59889003186d0d86e0ff8a058dec9ab710b1056393",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/01-the-reason/graphic-02.png",
+      "sha256": "c365ef7aab0220f90c2d24fa14ee3672b86cc5061bf29d2e1bb55ce2115049ae",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/01-the-reason/graphic-03.png",
+      "sha256": "3af4bb9fd67593116307e93a2bc25718da8a6a84b064dafc6ce0108bcb6bdba0",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/01-the-reason/graphic-04.png",
+      "sha256": "88ae3c10a4be4246e33773eb5d5b0c1251c867bf104de594ba039027c87d674b",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/01-the-reason/graphic-05.png",
+      "sha256": "e7d7512fb3fd0d9c7634dfb1ec1094ec5d7dbf5e6528a019c5c02d8cfe531fcb",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/01-the-reason/graphic-carousel.pdf",
+      "sha256": "9c2b55f03d4fbb883514d0f26dcc5b20e84b5bc00611e6ab0c1640a5d09a2bd9",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/01-the-reason/people-01.png",
+      "sha256": "3a54f6c8ce18b2914148985428e5371720618262cd48d6a146750c1aeb54b93b",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/01-the-reason/people-02.png",
+      "sha256": "8bfdaca2f69601dbd922d0bc4ef0afcfb4f1b2104f1ddbc12088ed11c8afa6d7",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/01-the-reason/people-03.png",
+      "sha256": "644c4943821a6290feaaf55ca7878e6e9d4f7433879cf29eb29ad745189b9402",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/01-the-reason/people-04.png",
+      "sha256": "11a3df7d1d44bf6ce0f6a7009b5eee7a98d4b0ce425394a95fd89277d7064f14",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/01-the-reason/people-05.png",
+      "sha256": "a7e0f985fc923529c5c15616df1be248a2cfad43258ee1c864345f2b5e412764",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/01-the-reason/people-carousel.pdf",
+      "sha256": "7914d36ca1efe84ed3adb0caabbcf88db35103306ee7e25cd0733dd8a175940e",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/caption.txt",
+      "sha256": "ebda3a2a83d142fcccfb75b22b0725631709ed9cf808eb6d81323e59a8de70f4",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-01.png",
+      "sha256": "b079bcf4d42828a85eb6b6e8ae5605cfd7969bdbbf4982da6959923cabdd2635",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-02.png",
+      "sha256": "9cae4e16a45ac7b7f50187746752e4def198c20f095613f4df1a82ef455f1ab9",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-03.png",
+      "sha256": "00738914ea11af39d25457ce7f66d4fe3f190cce9f246fc964a9c9065d80e6e0",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-04.png",
+      "sha256": "ce47d1adf1e10302e2ac68cdf79174e05ec4b103180210d00cca7390201d1665",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-05.png",
+      "sha256": "c5324e183ddb393af39ca42add479fba8327d5e6aea0dfcd134023f2549c1e58",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-carousel.pdf",
+      "sha256": "96f88a201e85a4b93596e30d3e02b9a3cb0b1a58e5a5a66bf0f4b5c01f4e7378",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-01.png",
+      "sha256": "1bc76587fda2393a7adc9289624c4b90c1d30c5e4fb99c0f19fff649ef7b4756",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-02.png",
+      "sha256": "8b2ab8bbcb455b75828c284057886b2c56a683cc986d5efbce044cd37e5e2d80",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-03.png",
+      "sha256": "82bd33e124d5e4a7da618434dc9e0a4f0de6d767433235b11ec6b4fe87d6accb",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-04.png",
+      "sha256": "4f23a1e48f43b62da5519a6e1a0434699b306bc752ec1a662a5729d7fcc8da02",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-05.png",
+      "sha256": "a0b277eaf4f3bd8817d7f9c11efe7ef63afca497b48e02e5296f155eca7d7a7b",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-carousel.pdf",
+      "sha256": "e090f691c00605771050213fac074d678881163f7fca969d711db2f3b856ba38",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/03-the-interview/caption.txt",
+      "sha256": "861390ddd5cdc392a8a6e58907d05d92dd360bd7c36d4733ff332f8f8d17efc6",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/03-the-interview/graphic-01.png",
+      "sha256": "c31e8c0ddb59aacac9b8e1c47b0d68ad03293759b5aaeee385a2c40faefda88b",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/03-the-interview/graphic-02.png",
+      "sha256": "44d81df47d112b93bbcdd27bfde93259461e6ef6e759ce7315a77994f2a1ff31",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/03-the-interview/graphic-03.png",
+      "sha256": "f1664dfcbf89a4c1ad4a23a462996c372a221dde8bc56bb0162154d451196848",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/03-the-interview/graphic-04.png",
+      "sha256": "ce93b7c1a30a0f634a3bae889354d4a21db61d0d4ae81428ae14086f90771378",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/03-the-interview/graphic-05.png",
+      "sha256": "d30345558e8b134c4b2b2fdf35e4bd5e06a99f794bddc55c36f367dd798e095a",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/03-the-interview/graphic-carousel.pdf",
+      "sha256": "ba643d270c95de8cee5ed5657ab1f5d01687a49d235587efaa654671eb38acf6",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/03-the-interview/people-01.png",
+      "sha256": "76f3db42bf54ad86422b8a34b1aad1edc4c5323fe031d8c170775916b4f71246",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/03-the-interview/people-02.png",
+      "sha256": "b88d4ad11ab085147dd317b88775a2be83bf0cb7af63bafe6ef2cf7c91b107cf",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/03-the-interview/people-03.png",
+      "sha256": "0bfd392d95b71cd4823a3f38b8f8e82f07c997a92acc41ff2d6400ea7f3c41f2",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/03-the-interview/people-04.png",
+      "sha256": "6316d5f056d8f53ac26fa576826ca15346f5d18fa2b97d1ebf5ce06785be1bad",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/03-the-interview/people-05.png",
+      "sha256": "cbce3eda6ae47a6d98f0310acafba3212fed1035020bfa0c2e2813d1d8f5a323",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/03-the-interview/people-carousel.pdf",
+      "sha256": "49ba31cd6a644a30e5b02552f98079e9bf23eb227eec66cd2295fa4b5b33606d",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/04-positioning/caption.txt",
+      "sha256": "25cc843eda7baa10b9d8e1a36da20728482af8a404f7227a28373e9841456f4e",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/04-positioning/graphic-01.png",
+      "sha256": "b109983e5891f7651dec48457c76d2cdd71fd9ac72e5af75ee14c9682ce3d2fc",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/04-positioning/graphic-02.png",
+      "sha256": "f0ac4760b176d78965eb169557fe1358f3214f6b492599d3d432b9aa69f6463e",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/04-positioning/graphic-03.png",
+      "sha256": "1dd7c7ec93585aa17d4bcd1f302ca7efab804ad585907edb151d8cac38996fde",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/04-positioning/graphic-04.png",
+      "sha256": "358b309330093b59c4a067c4cf218ff66c0365f3911ed007aedc6ef62bf9dd91",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/04-positioning/graphic-05.png",
+      "sha256": "38f0395b2103a815969a9a3fa3c2d592d6771232cb286bc6236d7e82878fc2c9",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/04-positioning/graphic-carousel.pdf",
+      "sha256": "d2c55565c07e23a18f35cd73f7b1dd1b2da59fe6327f7e15c6c0bd73834fafa8",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/04-positioning/people-01.png",
+      "sha256": "b4cb86a8c6661ca57778a587b491f003c3f96641a5d9e464cb2b588bc720097a",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/04-positioning/people-02.png",
+      "sha256": "ac0ad5c89b7e4d48b627c0bbcd755a7437a94976ee63303bfc64e0e5a4e49ee8",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/04-positioning/people-03.png",
+      "sha256": "6ac6177c1d1c9508f754e7a4754248773d4509f659227d7ae3486c5aae36ae9e",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/04-positioning/people-04.png",
+      "sha256": "b7984f34eb3e4ec01aeaf6d4a9dabf15dc1e10a1813baf09f7258bb2087ae7bc",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/04-positioning/people-05.png",
+      "sha256": "2570ff450aadb41b12186f872cf468a0f4ffb782a53f5640590a08f6d5a4e935",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/04-positioning/people-carousel.pdf",
+      "sha256": "58459c95c727942dfca39330673f0ba6f8867ddf7320dd6c4c85aa174e9e6769",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/05-proof/caption.txt",
+      "sha256": "df60cf668f31ebf0119e90a6d79c1e5e62e1af4a0c5a346efd1d3675b1535e8b",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/05-proof/graphic-01.png",
+      "sha256": "a435637c2d4acebc8808b4b72f9b4bb4a8ac85369c5a4c716aadbc9225a317f6",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/05-proof/graphic-02.png",
+      "sha256": "4b3150d3bd029ddee3fd34e6d23f8a478761cb0ca98a271baf2624d66ef50d74",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/05-proof/graphic-03.png",
+      "sha256": "e709993231ddc4ea4a980d9d4c7186ca384ee70f0fda0a5dbef7c041d80ca7fe",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/05-proof/graphic-04.png",
+      "sha256": "394e47439a9a063d8fafca97ffd334ddc8bdf849c8e38cd87e7fd0b9867728cd",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/05-proof/graphic-05.png",
+      "sha256": "6c22d6da1e16eaaacfcb7856a62e4c932fa1b95311b3b10d03ab056a993ef16e",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/05-proof/graphic-carousel.pdf",
+      "sha256": "7357a7aead4e44c651bae704b4c62c0f0cf8a5c5f79620a22e8b83aeb4769bc9",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/05-proof/people-01.png",
+      "sha256": "8a3621faf193369ca6a629947cb0b22855c1964664dbf4e8be10eabd0de8f5b4",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/05-proof/people-02.png",
+      "sha256": "4ecc7df736ed2898f571769862dfab26c65da7696946efcded6ad19189f279eb",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/05-proof/people-03.png",
+      "sha256": "243d5f6e39492f665a06a6944d21accd99ee816d3eda64964bf1d5689f3013d5",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/05-proof/people-04.png",
+      "sha256": "bc8f6ef1956f810ab3ae1ad95d64489f9d494cb5f8701118eaf19f4bdeac4c83",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/05-proof/people-05.png",
+      "sha256": "c337f11fa64229ed21850cecc4dc3774eb9ed9b29b5d84de9da2ad2fd56cfb41",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/05-proof/people-carousel.pdf",
+      "sha256": "04cefa9a1ccb105fb631825e57a41522b92904360acde6512671295850f882eb",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/06-product-to-buyer/caption.txt",
+      "sha256": "97cb6fcdcad898763fe33c78a28bc249ae0041dbd8638a372528e7e9d315d46d",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/06-product-to-buyer/graphic-01.png",
+      "sha256": "207a84bbb0ca8f9bd056d912fafdbb23e367dd83d05d83497b971efe6db9bd02",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/06-product-to-buyer/people-01.png",
+      "sha256": "fadeda39ec2084d825935b2fc9b4abae7e149f520a094fbb18b469ee300efae0",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/07-two-voices/caption.txt",
+      "sha256": "179035464587d2902ec133c9e91a8de48b2817cc90b79ce5f63f6ed8dee4f165",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/07-two-voices/graphic-01.png",
+      "sha256": "aa735aca1902c701d9aeabf97e70708e574d6b0fa3aab7d9403921e9e1673a54",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/07-two-voices/people-01.png",
+      "sha256": "dfb6eb0be09ae29deb829e614009321e6d29d848dcf73d697f74fffbc92a4682",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/08-visuals/caption.txt",
+      "sha256": "137bea906c22ec1dc265c7678ffc7c81bce8232e35c511c61b31bd0f55a5986f",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/08-visuals/graphic-01.png",
+      "sha256": "4fe97d5b9c7b277b33c0e0b9042c1a814ae936e085f796757e44d5460878c4c6",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/08-visuals/people-01.png",
+      "sha256": "a7a29b034bebd5bfdf6257937d4d37c79024f5c85e7092d76a4dc0fba0fb421d",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/09-measure/caption.txt",
+      "sha256": "cec280382d3565ae7a2d459b1b6b3183fd1c95260c6e8c513f6b9bb8a65db579",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/09-measure/graphic-01.png",
+      "sha256": "f7b50263aa4b11110a981f87f0c49ff475c5b0c185672a0069f153d08a175e35",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/09-measure/people-01.png",
+      "sha256": "8e1d376634c6f58244b4afd47c2a3b7db72b2b5de4c4a4e07da69e0f13c896c1",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/10-the-delivery/caption.txt",
+      "sha256": "15637e26efcf9bc703d2e14b62e84c46d1b5996e229ee2fc8de41397ac4423ee",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/10-the-delivery/graphic-01.png",
+      "sha256": "4fe96415b5ad7d21cd583abdd06c44f4ded388a119ccbbc2cd35f92bc92bb073",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/10-the-delivery/people-01.png",
+      "sha256": "e6f09c463683c26f3b43e85a7e95c181cdbd91f66c500034f96968334aa8c973",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/CHECKSUMS.sha256",
+      "sha256": "b1da0d3e8af78b6e6c9841a4d9e6138b24738408c789c4051739b4ef6e0ee73d",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/index.html",
+      "sha256": "a6005d0854c52c60bbbb0bfa724e6b765cf452a7fb813195ee8286e932f440c2",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/manifest.json",
+      "sha256": "364c1257cd75fa80f9e987d9f6bccdc205d4e54baed1b3c2c1592876621b6c31",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/graphic-01.png",
+      "sha256": "fd0afae75b1c083ec7a4e304491d4e9e327804ccbb670654cefa0ff9db34619d",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/graphic-02.png",
+      "sha256": "bc98bf739e2aa5058498cb035455a6cacdd85ccedd4cf799c01ec3319bb6241f",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/graphic-03.png",
+      "sha256": "6fbfefc650b76d8e2e5252e2079c35695b240d6d0ab72584ea35f642d28acdc8",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/graphic-04.png",
+      "sha256": "9df1161db977e1bb62a53f486465ab9dbac9cbae11cb9a2ec21417cd0f6f35fc",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/graphic-05.png",
+      "sha256": "e9563a1d8f6d3e867bef7f30087cfdae5cdf8cfc2353e5a04518f267078e250a",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/graphic-06.png",
+      "sha256": "6c6fb6718b693cb5f11c3a79321a0eb97293ac39e348800cffc4dcd4ac254312",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/graphic-07.png",
+      "sha256": "f77493c47cc471f966d8082c93a0dfcbd94638fdcd52625ba0d3a8fd0fb9ec7f",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/graphic-08.png",
+      "sha256": "097ce60961d31a16d4bbfeac5543f3e7c1db45bef09829b1a46456ab1088b1a1",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/graphic-09.png",
+      "sha256": "9f5de8a7873fbf9386396e9defa4a74f4b17a3d42b6b10b77117dc0e6ffa9e8f",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/graphic-10.png",
+      "sha256": "0f1f033e690a6dd6ddd6b8ff35d391dba3044bf7bc0a79d04c896339f63e44ac",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/lockup.png",
+      "sha256": "a612bdbba5bda939766194f5d9d2ece378be4ad450a0186f2854923690c159d5",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/scene-01.png",
+      "sha256": "bf29d8abb14710ec59c6f34e9d1060a0562885cf1b3336a5ff3e760658586432",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/scene-02.png",
+      "sha256": "17c0a56875871bd19cec4f1c26929ad0f1eb7618dec7a859c96c5d423007a9f2",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/scene-03.png",
+      "sha256": "d651569c69fc434f2de3303ec8f1c04a56c756acd7c744f30f0f082fd2166a4f",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/scene-04.png",
+      "sha256": "2297b995b0aba92c5e720f02ef9ea5985728e180aebba3bce1056f731d109567",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/scene-05.png",
+      "sha256": "c1ee336710ef6ac9c9a2d1b09a156528f208694fc0890720176122c03bc18c68",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/scene-06.png",
+      "sha256": "d0b482a13402c2e847db3d96a1d2fd415729c4eed661972ad60bb89ac70c9aa3",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/scene-07.png",
+      "sha256": "fa11c4a2bb541c01ca10ced30b39d20197ffdc85460bfc7a7ba70c397073b4e8",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/scene-08.png",
+      "sha256": "82d6a8a725d388cfe34eec519ff9f876740a8bbbe82f12bf5a2a82d5e7551ca4",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/scene-09.png",
+      "sha256": "57ab5782ab53fb6a00837be9e848b3d90538dcb5c03338c6f9bdc9d527091abf",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-art/scene-10.png",
+      "sha256": "bded0bd2e9bb81ca15f3a2d5aad580b0a657161b3184475a1c6fef0896aef611",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-fonts/FRAUNCES-OFL.txt",
+      "sha256": "cd3384cafac6f2bddc3955273958a2e029f97027c8037ac539ef5744a77b579e",
+      "rights_state": "licensed",
+      "basis": "Bundled font and corresponding OFL license"
+    },
+    {
+      "path": "assets/source-fonts/GEIST-OFL.txt",
+      "sha256": "cc815ed4fc045f0e991abb10395b7932bd028c6a067deb13316d6002105074e6",
+      "rights_state": "licensed",
+      "basis": "Bundled font and corresponding OFL license"
+    },
+    {
+      "path": "assets/source-fonts/MONA-OFL.txt",
+      "sha256": "41e9911493de5899a20336baf13b6ea6483b5eea34e237f2ffed22c39bdc4a8d",
+      "rights_state": "licensed",
+      "basis": "Bundled font and corresponding OFL license"
+    },
+    {
+      "path": "assets/source-fonts/fraunces-latin-full-normal.woff2",
+      "sha256": "7e744849028e2219e2aa1bc467dc4032980dc4487c9c3da3010081cd72d3b103",
+      "rights_state": "licensed",
+      "basis": "Bundled font and corresponding OFL license"
+    },
+    {
+      "path": "assets/source-fonts/geist-mono-latin-wght-normal.woff2",
+      "sha256": "684ad5b531f81d43c1e8c7038262d5db7cdc1f68006e04d6c7769efa8d33c8cc",
+      "rights_state": "licensed",
+      "basis": "Bundled font and corresponding OFL license"
+    },
+    {
+      "path": "assets/source-fonts/mona-sans-latin-wght-normal.woff2",
+      "sha256": "a59061e38c5e7e6a00aaa6b6645a220c7d9c530991167f058cc0f8575f5d5844",
+      "rights_state": "licensed",
+      "basis": "Bundled font and corresponding OFL license"
+    },
+    {
+      "path": "assets/source-svg/01-graphic-01.svg",
+      "sha256": "df75f599d031c9ac2840f44a5f3a4d3cf247008ec83ffb04299cc845628587c5",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/01-graphic-02.svg",
+      "sha256": "2a9fdf62e2339d5c319107fc946876903ee1a400b16ac0e5797f48d3d394a22c",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/01-graphic-03.svg",
+      "sha256": "8be5efae6847a38ad2ecd664dd0f46ec027414f93898530c0f0556828cfc482e",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/01-graphic-04.svg",
+      "sha256": "5e1d23a5631172696ccab64e309e12073c9f7db9a990973e8737284a4ae104de",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/01-graphic-05.svg",
+      "sha256": "0cc60bc4d23a64bdc1a0320133babfab41a7706b52ff545f53d419a4f6c5e62d",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/01-people-01.svg",
+      "sha256": "561801e5d21756b3d87024a256846e8dc391c5b5e3b5b9dbaa33384a0abdcf9d",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/01-people-02.svg",
+      "sha256": "41386c9565cbfb3149b1f446e4c4dd1c50d6b9bb3f24e2191cc21c99b518f8ed",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/01-people-03.svg",
+      "sha256": "73408eb864a4e3601f7949267d2fc5952f0bf34635dc01753d0a676d763960eb",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/01-people-04.svg",
+      "sha256": "5f22f6b954388dd0e9e80dc9e5425d201e8c06b63002d908970f51dc86dea090",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/01-people-05.svg",
+      "sha256": "96077dba95a6d886ea181c43902a682e6609f4563a3e262afe5411bd4b7847c6",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/02-graphic-01.svg",
+      "sha256": "f23db1abfd935aa3d011dea70cb0bf08048818429085a03153b8d8b2a473a203",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/02-graphic-02.svg",
+      "sha256": "b97ec022bcc2d1f85e100c700dee0fd02a911c4cf77694bdd334db67792cca84",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/02-graphic-03.svg",
+      "sha256": "c069222c8f1e4a2c7d9c93d381fe15a9d172b56bfe7669e089a97d4070f0903c",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/02-graphic-04.svg",
+      "sha256": "3611aa9f5b159a4460cd6e360362e9daf52b81eea79cdbec039f92039f90d703",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/02-graphic-05.svg",
+      "sha256": "ec1b2829a2d553919fe34cb1dc8453441a913ca8a0ab36c6941500a3d619af11",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/02-people-01.svg",
+      "sha256": "7fa6b9c6f5ab6e424657de4811054cc1044ef9f7ccdbab99a32703dd49e48ddb",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/02-people-02.svg",
+      "sha256": "c1d265be6191503c4afa076ef1b0291e83037271815dc0cc5297572a7dd140bb",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/02-people-03.svg",
+      "sha256": "e770043d0a59c1c8671fe275d5625071139f170648ad2987d21e63652caae6ee",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/02-people-04.svg",
+      "sha256": "cc204b5adf90793d79bd4099b0b7b1bd15e3ca65d7bb952679d33929b90b69c4",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/02-people-05.svg",
+      "sha256": "6ed0faf8b05c7adbbd2fc31bc54450e2b8b3a70e2ab8cafe53ef8f7bd9a9a9c7",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/03-graphic-01.svg",
+      "sha256": "54c776b8003cf74baa57aadd73fcccdd171d4c321e563e1db410911bdfd2539e",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/03-graphic-02.svg",
+      "sha256": "f129cb071ef615132250c0e63acb010e813d0d3cbaaeaf887a9b39aa57698f83",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/03-graphic-03.svg",
+      "sha256": "da86d51c46ed8aa306a5b3bfd228aecdbf4b0847e916975b22b98e4a93960351",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/03-graphic-04.svg",
+      "sha256": "c7bf6c1268c279705fe81f75762fdce9740f7f8935e03800e25436f30762bb2a",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/03-graphic-05.svg",
+      "sha256": "af8b786d641607dda959018e6cdbf3916c18938b03b834697df4a39d149b37ef",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/03-people-01.svg",
+      "sha256": "5b31121cfe0c664aed3ae600f25d30737a3a65362d2256279bd53e981d17ee50",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/03-people-02.svg",
+      "sha256": "44a855ca709b6af9e0d054194a9520ad1121d799dc8ef03736a7ff7d13e7796d",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/03-people-03.svg",
+      "sha256": "e3013c0ea552208f70f9f8f5ae057d6a0306158fc811b12dc57c3e9c54a6bb1a",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/03-people-04.svg",
+      "sha256": "8943c4b3418623435582c435721d04c1c53d1f5634431aa1ae58e4adec5f3f6b",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/03-people-05.svg",
+      "sha256": "ff0e9a7361d837881f0a80401b459e0b8c465a10eedabe1f43620e9e8ac8dbe5",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/04-graphic-01.svg",
+      "sha256": "0de0942a0852cbc501673479c6b6f95aceb513e98b7e92424bfc94fa30e8a39f",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/04-graphic-02.svg",
+      "sha256": "a88230a5f08f38eedc0abd6ad96d8c654fafb94a11c46da45c36339b0dad6304",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/04-graphic-03.svg",
+      "sha256": "b57ffe8a6aff2bfd6152ce700f2206e43c74f72176eb38cf13e36e4a27ecd439",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/04-graphic-04.svg",
+      "sha256": "4defa99afc9f0ce841ef55ccecf810c1df1f4088b62753cd33346e5aa0cbae58",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/04-graphic-05.svg",
+      "sha256": "6084477da1bc1c89cdceed2f592a63e56d7d855a53bb2bd22277cae9750323e4",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/04-people-01.svg",
+      "sha256": "1551df6c3b4ef48d39fb9eca953de01cbc359b0b0bfafbabea25d15286e7dfa8",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/04-people-02.svg",
+      "sha256": "2be462bfefb356eec6dddae73e2166b800afc2517c7bce018f09403b406b56ea",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/04-people-03.svg",
+      "sha256": "e25f6003505a8283674ac8f2cc178fdc783233b024ab4458ecfd88e5b86a453f",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/04-people-04.svg",
+      "sha256": "defc1ef5f0b4288524590fd2ef8145258c6d17b9a248373488228f063a04cdb1",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/04-people-05.svg",
+      "sha256": "5e4914a90d055007c92fbeeb8f67bd4724aa4ec08890b235aa29ff81debdb513",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/05-graphic-01.svg",
+      "sha256": "dba3af9981d1f5518108e19b7aaab1d4642764e325dc15f9aa550dea1d448736",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/05-graphic-02.svg",
+      "sha256": "2fc6c4b5ed28e9c9a4035019b9ea102143dc6fca492a2242b4026caf57e86bbd",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/05-graphic-03.svg",
+      "sha256": "a4867504df4144bee3cb7195d07e1e9acfe59c7575eeab9fd962dfbc4e7e4b64",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/05-graphic-04.svg",
+      "sha256": "19d856b13fd30c7d3c8fa93f71fa252cfad9805ea16ab5c69a584ae43734c51f",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/05-graphic-05.svg",
+      "sha256": "717a77bd58bfbb76a5e06f7b77193c83dd9ddbedda71072da18aff774e58301d",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/05-people-01.svg",
+      "sha256": "3072d9e379737b4693c9387558c01d4fae28ae394ff266d838780b8aac696a9a",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/05-people-02.svg",
+      "sha256": "05186914f195e73691484e3e5df5d063c2bb52912c1aaae56ac8f0799cfc256e",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/05-people-03.svg",
+      "sha256": "59581ba9fb4b9a0c7da5035f0313b61684ddf2fc3615a50d190577d872e26874",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/05-people-04.svg",
+      "sha256": "289b029a3594f5f5dedc67a95fa8b8d8a2d30757577992b6968dbfa4dbb0a083",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/05-people-05.svg",
+      "sha256": "0eb716bda31a555c3a6c770856e19c484dd687d773481b69352cf1a02e3705e3",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/06-graphic-01.svg",
+      "sha256": "dd08ff37e8a371b9361f408fb469ea9b1299eb518e1e853a28117574b94398f8",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/06-people-01.svg",
+      "sha256": "57a650d5d4741e40f2162d6b48e56476bf4c0af9dc5483088cd7f1a58aea3a38",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/07-graphic-01.svg",
+      "sha256": "55d24c274cc856fd9ab8e891176cb932681da565352d9d41e7cd810007c0742d",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/07-people-01.svg",
+      "sha256": "44a88ba5fcbe16033b20a1a01faf050b3c7794a5b84fba6289f701db28eeee1b",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/08-graphic-01.svg",
+      "sha256": "1acce0e471fc46a04f34125be020dca74a8fdfa0909a05d77d4f7dc957fa6cbb",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/08-people-01.svg",
+      "sha256": "b563cbd2d016c93b807c39c7b7c90c201337d9893dd9ad353e3f2983a49fe53d",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/09-graphic-01.svg",
+      "sha256": "3290c5d46d113b6ce5ec0c494cac71c7a8ede82a5ec3cc4e9b3862caff397044",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/09-people-01.svg",
+      "sha256": "e2f1d6ec8e9aed91e53add87080628ee79ce0063ae674927b6cc010c7270024b",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/10-graphic-01.svg",
+      "sha256": "1621f39820d1d749078dbeb4d8e48d8c8f3a6528939ad3c845f0458a98170805",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "assets/source-svg/10-people-01.svg",
+      "sha256": "8683e2ab5c468095dec9c88444ef282ed79687ce51625f175ed1b81c4acf441c",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "build.js",
+      "sha256": "9590cc74cd84e7ca02970690f1e6ae5cdc3000377bee794f9f3714d0081916b0",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "content.json",
+      "sha256": "e61603da72d7ac429cc99904a25cc9c3a77c621b0a2a546e37197435229ca60b",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "pdf.swift",
+      "sha256": "09d38e6f46bb87255b4939724d55c77b6e87905ecbc3d62026b67c0d7e327d2e",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    },
+    {
+      "path": "render.swift",
+      "sha256": "991088dc2f602b65b09280ed51519375f93e627927bb1b0fb9deaa4b878a5243",
+      "rights_state": "owned",
+      "basis": "Project-authored copy/composition or prior project-generated artwork; draft owner review pending"
+    }
+  ]
+}

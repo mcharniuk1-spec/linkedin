@@ -1,0 +1,11 @@
+A reaction is a signal. It is not a sale.
+
+A reaction count combines likes and other reaction types. Comments are a separate measure. Neither tells us how many people saw the post, visited a website or became a buyer.
+
+When we reviewed our selected sample, those distinctions mattered: reactions were observable on 276 of 279 posts and comments on 256. The sample’s counters were captured 20–22 October 2026 and cannot establish conversions or what is trending today.
+
+For a client, I would start with the question we want the content to answer, record the measures we can actually observe, and keep missing data marked as unknown. Then we can decide what to test next.
+
+Which question are your current LinkedIn numbers helping you answer?
+
+Source: https://github.com/mcharniuk1-spec/linkedin/tree/main/reports/20261105

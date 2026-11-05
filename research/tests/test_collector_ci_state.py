@@ -22,6 +22,19 @@ from research.collector.store import Store
 REPOSITORY = "example/linkedin"
 
 
+class GitHubReadRetryTests(unittest.TestCase):
+    def test_get_retries_only_explicit_server_errors(self):
+        with patch.object(ci_state,'_bounded_gh_run',side_effect=[(1,b'',b'HTTP 500'),(0,b'{"ok":true}',b'')]) as run, patch.object(ci_state.time,'sleep'):
+            self.assertEqual(ci_state.gh('example'),{'ok':True})
+        self.assertEqual(run.call_count,2)
+
+    def test_put_and_rate_limits_never_retry(self):
+        for method,stderr,expected in [('PUT',b'HTTP 500','github_state_api_server_error'),('GET',b'HTTP 429','github_state_api_access_or_quota_hold'),('GET',b'HTTP 403','github_state_api_access_or_quota_hold')]:
+            with self.subTest(method=method,stderr=stderr),patch.object(ci_state,'_bounded_gh_run',return_value=(1,b'',stderr)) as run:
+                with self.assertRaisesRegex(ConfigurationError,expected):ci_state.gh('example',method=method)
+                self.assertEqual(run.call_count,1)
+
+
 def checkpoint(*, artifact_id=7, revision=1, key_id="0123456789ab", encrypted=b"sealed"):
     return {"schema": ci_state.SCHEMA, "repository": REPOSITORY, "revision": revision,
             "artifact_id": artifact_id, "encrypted_sha256": hashlib.sha256(encrypted).hexdigest(),
