@@ -3,11 +3,16 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 import httpx
 from research.collector.store import Store
-from research.collector.discovery import discover,ENDPOINT
+from research.collector.discovery import discover,ENDPOINT,_tool_reported_access_error
 from research.collector.contracts import AccessSuspended,CollectionError
 
 URL='https://www.linkedin.com/posts/fixture_business-activity-7518006369120055296-abcd'
 class DiscoveryTests(unittest.TestCase):
+ def test_error_detection_distinguishes_results_from_provider_errors(self):
+  self.assertFalse(_tool_reported_access_error({},'Title: Sales quota lessons\nURL: https://example.test\nText: rate limit anecdotes'))
+  self.assertTrue(_tool_reported_access_error({'isError':True},'Title: normal result'))
+  self.assertTrue(_tool_reported_access_error({},'Quota exceeded. Try again later.'))
+  self.assertTrue(_tool_reported_access_error({},'Title: ordinary result\nERROR: quota exceeded'))
  def setUp(self):self.t=tempfile.TemporaryDirectory();self.s=Store(self.t.name);self.calls=[]
  def tearDown(self):self.s.close();self.t.cleanup()
  def client(self,deny=False):

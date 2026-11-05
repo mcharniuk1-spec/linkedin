@@ -9,6 +9,10 @@ on:
         description: 'First run only: bootstrap known identity hashes if no checkpoint or artifacts exist'
         type: boolean
         default: false
+      reconcile_exa_false_hold:
+        description: 'One-time manual reconciliation only when stored Exa evidence proves a false positive'
+        type: boolean
+        default: false
 permissions:
   contents: read
 concurrency:
@@ -52,6 +56,9 @@ jobs:
           args=()
           if [[ "$FIRST_BOOTSTRAP" == "true" ]]; then args+=(--bootstrap); fi
           python -m research.collector.ci_state restore "${args[@]}"
+      - name: Reconcile an evidence-proven Exa false-positive hold
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.reconcile_exa_false_hold }}
+        run: python -m research.collector.exa_recovery --config research/collector/config.json
       - name: Discover and collect new records only
         id: capture
         timeout-minutes: 13

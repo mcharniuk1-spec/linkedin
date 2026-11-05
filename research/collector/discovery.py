@@ -13,6 +13,16 @@ OBJECTIVE=('Find public LinkedIn publication permalinks relevant to B2B AI SaaS 
  'search order and indexed dates do not establish publication popularity or freshness.')
 
 
+def _tool_reported_access_error(result, text):
+    """Inspect tool status and preamble, not words inside indexed results."""
+    if result.get('isError'):return True
+    # An explicit denial can appear on a separate line after results.
+    if re.search(r"(?im)^\s*(?:error\s*:|http\s*(?:401|403|429|999)\b|access denied\b|unauthori[sz]ed\b|too many requests\b|quota (?:exceeded|exhausted|reached)\b|rate[ -]limit(?:ed| exceeded| reached)?\b|(?:you(?:'ve| have)|your account)\s+[^\n]{0,80}quota\b)",text):
+        return True
+    preamble=re.split(r'(?im)^(?:title|url):\s*',text,maxsplit=1)[0]
+    return bool(re.search(r'quota|rate.limit|unauthori[sz]ed|too many requests',preamble,re.I))
+
+
 def _message(response, ident):
     response.raise_for_status()
     if 'text/event-stream' in response.headers.get('content-type',''):
@@ -114,7 +124,7 @@ def discover(config, store, approved_authors=(), *, client=None, now=None):
                 store.db.execute('INSERT INTO discoveries VALUES (?,?)',(discovery_id,json.dumps({'query':query,'collected_at':observed,'raw_sha256':digest,'rank_is_not_performance':True,'source_id':'exa-search','phase':phase})))
                 from .discovery_retention import register
                 register(store,discovery_id,digest,observed_at=observed,created_new_raw=inserted)
-            if result.get('isError') or re.search(r'quota|rate.limit|unauthori[sz]ed|too many requests',text,re.I):
+            if _tool_reported_access_error(result,text):
                 store.suspend('exa-search','discovery_tool_quota_or_error');raise AccessSuspended('discovery_tool_quota_or_error')
             with store.db:
                 if phase=='topic':
