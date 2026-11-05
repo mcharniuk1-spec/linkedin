@@ -64,6 +64,13 @@ class TimedTransport:
     async def aclose(self):await self.base.aclose()
 
 
+def _safe_hold_reason(hold):
+    # Never expose arbitrary source content or a URL through Actions logs.
+    reason=hold.get('reason')
+    return reason if isinstance(reason,str) and reason in {'challenge_page','http_401','http_403','http_429','http_999',
+        'retry_after_exceeds_job_wait','repeated_unsupported_layout'} else 'other_access_hold'
+
+
 def _capacity(store,cfg):
     pages=store.db.execute('PRAGMA page_count').fetchone()[0];size=store.db.execute('PRAGMA page_size').fetchone()[0]
     return pages*size+4_000_000<int(cfg.get('max_database_bytes',24*1024*1024))
@@ -79,7 +86,15 @@ async def collect(config_path, *, discover_fn=None, transport_factory=None):
             seed=json.loads(Path(cfg['baseline_seed']).read_text(),object_pairs_hook=unique);store.seed(seed)
             before=store.counts();initial_requests={x[0] for x in store.db.execute('SELECT id FROM requests')}
             candidates=[]
-            if cfg.get('discovery',{}).get('enabled') and _capacity(store,cfg):
+            # Discovery only seeds public LinkedIn URLs. While every configured
+            # LinkedIn consumer is suspended, do not spend a discovery request
+            # that cannot be acted on or probe the blocked source.
+            linkedin_consumers=[x for x in cfg.get('sources',[]) if x.get('enabled')
+                and x.get('adapter')=='http' and 'www.linkedin.com' in x.get('allowed_hosts',[])]
+            discovery_blocked=bool(linkedin_consumers) and all(
+                store.get_suspension(x.get('access_group') or x['source_id']) for x in linkedin_consumers)
+            if discovery_blocked:report['discovery_skipped']='linkedin_source_access_hold'
+            if cfg.get('discovery',{}).get('enabled') and _capacity(store,cfg) and not discovery_blocked:
                 from .discovery import discover
                 try:
                     candidates=(discover_fn or discover)(cfg['discovery'],store,cfg.get('approved_author_paths',[]))
@@ -102,6 +117,11 @@ async def collect(config_path, *, discover_fn=None, transport_factory=None):
                 if report['inserted']>=cfg['max_new_records'] or not _capacity(store,cfg):
                     report['capacity_hold']=True;break
                 kind=spec.get('adapter');source_id=spec['source_id']
+                hold=store.get_suspension(spec.get('access_group') or source_id)
+                if hold:
+                    report['errors'].append({'source_id':source_id,'error_code':'source_access_hold',
+                        'reason':_safe_hold_reason(hold)})
+                    continue
                 if kind=='http' and 'www.linkedin.com' in spec.get('allowed_hosts',[]):
                     spec['urls']=list(dict.fromkeys(spec.get('urls',[])+candidates))[:cfg['max_candidates']]
                 cls=HttpxTransport if kind=='linkedin_api' or cfg.get('default_transport')=='httpx' else UrllibTransport
@@ -137,6 +157,10 @@ async def collect(config_path, *, discover_fn=None, transport_factory=None):
                     else:raise ConfigurationError('unknown_adapter')
                 except LimitReached:
                     report['capacity_hold']=True;break
+                except AccessSuspended:
+                    hold=store.get_suspension(spec.get('access_group') or source_id) or {}
+                    report['errors'].append({'source_id':source_id,'error_code':'source_access_hold',
+                        'reason':_safe_hold_reason(hold)})
                 except (CollectionError,ValueError,OSError,KeyError) as exc:
                     report['errors'].append({'source_id':source_id,'error_code':type(exc).__name__})
                 finally:

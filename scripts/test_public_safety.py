@@ -41,6 +41,17 @@ class PublicBoundary(unittest.TestCase):
     elif change=='wrong_status':m['status']='draft'
     else:m['publication_authority']='unverified'
     self.write('editorial/release-manifest.json',json.dumps(m));self.assertIn('unreviewed_binary',self.reasons())
+ def test_dated_publication_asset_needs_exact_owner_rights_and_hash(self):
+  f=self.write('publications/20261105/assets/slide.png',b'\x89PNG\x00\xff');h=hashlib.sha256(f.read_bytes()).hexdigest()
+  m={'status':'source_snapshot_verified','publication_authority':'owner_requested_current_source_git_sync',
+     'files':[{'path':'assets/slide.png','sha256':h}],
+     'rights_ledger':[{'path':'assets/slide.png','sha256':h,'rights_state':'licensed'}]}
+  self.write('publications/20261105/release-manifest.json',json.dumps(m));self.assertEqual(safety.scan(self.r)['status'],'PASS')
+  m['rights_ledger'][0]['rights_state']='unresolved';self.write('publications/20261105/release-manifest.json',json.dumps(m));self.assertIn('unreviewed_binary',self.reasons())
+  m['rights_ledger'][0]['rights_state']='licensed';f.write_bytes(b'changed binary \xff');self.write('publications/20261105/release-manifest.json',json.dumps(m));self.assertIn('unreviewed_binary',self.reasons())
+ def test_publication_assets_reject_unregistered_or_undated_package(self):
+  self.write('publications/undated/assets/slide.png',b'\x89PNG\x00\xff');self.assertIn('unreviewed_binary',self.reasons())
+
  def test_rejects_directory_and_broken_symlinks(self):
   (self.r/'directory').mkdir();(self.r/'directory-link').symlink_to(self.r/'directory',target_is_directory=True);(self.r/'broken-link').symlink_to(self.r/'missing')
   problems=safety.scan(self.r)['problems'];self.assertEqual({x['file'] for x in problems if x['problem']=='symlink_not_allowed'},{'directory-link','broken-link'})

@@ -1,0 +1,388 @@
+{
+  "schema": "outspoken-carousels/1",
+  "status": "draft_for_owner_review",
+  "post_count": 10,
+  "slide_count": 50,
+  "decks": [
+    {
+      "id": "01-founder-story",
+      "title": "Your story needs a buyer question.",
+      "series": "FOUNDER VOICE",
+      "slide_count": 5,
+      "slides": [
+        {
+          "path": "01-founder-story/slide-01.png",
+          "sha256": "b7bcc7e8bb4864e5ed0d0fcf16a7d8573ee5a3dde097cdbed2029ebc560671d5",
+          "alt": "Cover: Your story needs a buyer question."
+        },
+        {
+          "path": "01-founder-story/slide-02.png",
+          "sha256": "422131b63fd17b6ccd5ac08368be3af82a7e78ad07efde1f565996ca4c53a6fb",
+          "alt": "Choose a question that matters. What is your buyer trying to decide before they can move forward?"
+        },
+        {
+          "path": "01-founder-story/slide-03.png",
+          "sha256": "14d2fce0736af1799c6bbc552320ae02df5166bdf8a159ca8473d37c7856d45e",
+          "alt": "Name a real decision. Pick a choice your team can describe accurately: what changed and why."
+        },
+        {
+          "path": "01-founder-story/slide-04.png",
+          "sha256": "f56f9034345a0cdbb872455254d93d35b07da7044213a0907bee3d6804e4085e",
+          "alt": "Show the trade-off. Explain the alternative you considered and what you gave up."
+        },
+        {
+          "path": "01-founder-story/slide-05.png",
+          "sha256": "f1c520c87866a7b595eb665f6890b61afd4edb79c4342d0ffab844348b198513",
+          "alt": "Give the reader a lesson. Turn that decision into a principle someone else can test."
+        }
+      ],
+      "caption": "01-founder-story/caption.txt",
+      "pdf": "01-founder-story/carousel.pdf",
+      "pdf_sha256": "2f3f845100c3eae2ede65c36388c46cd462422b459ae6709d8562b94919659d5",
+      "status": "proposed; founder review required",
+      "rights": "Original graphic layouts with owner-selected Outspoken lockup and project-licensed fonts."
+    },
+    {
+      "id": "02-positioning",
+      "title": "Make your positioning testable.",
+      "series": "POSITIONING",
+      "slide_count": 5,
+      "slides": [
+        {
+          "path": "02-positioning/slide-01.png",
+          "sha256": "39bcc5e7334b438cabb3358bd6cf79764cb95b938978004944b5a0feaae3eb69",
+          "alt": "Cover: Make your positioning testable."
+        },
+        {
+          "path": "02-positioning/slide-02.png",
+          "sha256": "a9b39a7b1f0d1c4fd8930b7dd666502d20daf1bd1eb730a8c779ab66940253d1",
+          "alt": "Name the team and task. Who uses the product, and what are they trying to get done?"
+        },
+        {
+          "path": "02-positioning/slide-03.png",
+          "sha256": "bbf3416d336639e4d13cd22488ea044823052a25deec7b15e1100fa5cbce28fa",
+          "alt": "Describe the real choice. A spreadsheet, an internal process or another product can all be alternatives."
+        },
+        {
+          "path": "02-positioning/slide-04.png",
+          "sha256": "7899b4a5f80b8d11ba68d0d53a32ee019e5a7d315dbc4cea957a9d9dd77a7baf",
+          "alt": "Explain what changes. State one relevant difference. Support it with a demonstration or evidence."
+        },
+        {
+          "path": "02-positioning/slide-05.png",
+          "sha256": "130921ce30be76d52c390682217a50e890fc2c64fec36eabcab71903b63873fb",
+          "alt": "Ask a buyer to repeat it. Could they explain the product and the relevant alternative in plain words?"
+        }
+      ],
+      "caption": "02-positioning/caption.txt",
+      "pdf": "02-positioning/carousel.pdf",
+      "pdf_sha256": "0acd16e4a36163cfe6e52c9a2bcc9ed72b6df5eb1352ee4888b6b6a80c11ee11",
+      "status": "proposed; founder review required",
+      "rights": "Original graphic layouts with owner-selected Outspoken lockup and project-licensed fonts."
+    },
+    {
+      "id": "03-ai-proof",
+      "title": "An AI claim needs a boundary.",
+      "series": "PROOF AND TRUST",
+      "slide_count": 5,
+      "slides": [
+        {
+          "path": "03-ai-proof/slide-01.png",
+          "sha256": "ab032a7e48bd7f41a2d2236b38f9699539bef48dc5d1a3ea0c20ec0f1403f879",
+          "alt": "Cover: An AI claim needs a boundary."
+        },
+        {
+          "path": "03-ai-proof/slide-02.png",
+          "sha256": "d928e6cf2391c3c2558ccc21c12997df652c6271f1de2be9cb0135d3e99400c3",
+          "alt": "Show the actual workflow. Describe the input, the action and the output a user will see."
+        },
+        {
+          "path": "03-ai-proof/slide-03.png",
+          "sha256": "f05fa5017a226d252cc4dae8d613bc171bbcd1af7d70780cd04be9e9d2c63488",
+          "alt": "Say who verifies the result. Show the review step, escalation path or human decision where relevant."
+        },
+        {
+          "path": "03-ai-proof/slide-04.png",
+          "sha256": "92d9a1fd9dbd9a0c7d64da3c261f6e32c9518e676961633065f51309637840b7",
+          "alt": "Name the limitation. Be specific about conditions, exclusions and uncertainty."
+        },
+        {
+          "path": "03-ai-proof/slide-05.png",
+          "sha256": "765e5426c3cf4059e41494aac214e70b21be16a3cb19f01462f21f7c43315a46",
+          "alt": "Show evidence in context. Use a real example or measured result with its source, period and denominator."
+        }
+      ],
+      "caption": "03-ai-proof/caption.txt",
+      "pdf": "03-ai-proof/carousel.pdf",
+      "pdf_sha256": "c40666c1d287e6c06fbb1da53f471e360137cdfa6d7d85ebd8581fd140835fb7",
+      "status": "proposed; founder review required",
+      "rights": "Original graphic layouts with owner-selected Outspoken lockup and project-licensed fonts."
+    },
+    {
+      "id": "04-product-workflow",
+      "title": "Explain the workflow around the model.",
+      "series": "PRODUCT EDUCATION",
+      "slide_count": 5,
+      "slides": [
+        {
+          "path": "04-product-workflow/slide-01.png",
+          "sha256": "a2c3bbe3a5efa890b17c7b0a8c7a0fdd25b1a828ebbe27d4de89776fd6b837ae",
+          "alt": "Cover: Explain the workflow around the model."
+        },
+        {
+          "path": "04-product-workflow/slide-02.png",
+          "sha256": "8ffc461d30c62e3ec43885e9f8aa8bbcf62e4579d61ce077524f397c97b39aff",
+          "alt": "Begin with the trigger. What event or question starts the work?"
+        },
+        {
+          "path": "04-product-workflow/slide-03.png",
+          "sha256": "1ebeddcdc164d17052f2df4054c48e653e04776cfd9516ecc97a9caf78cf4985",
+          "alt": "Show the system's contribution. Describe what the product returns and where a person can inspect it."
+        },
+        {
+          "path": "04-product-workflow/slide-04.png",
+          "sha256": "800dd6eddb64dd18ae8e6986e7d5ddf72127ace30d48de8b5bcfbc53d27818c7",
+          "alt": "Explain the next decision. What does the team do with the output?"
+        },
+        {
+          "path": "04-product-workflow/slide-05.png",
+          "sha256": "921e9043915c596c21af5860cffa214cec969ddd4ca748b71991aff76a7581fe",
+          "alt": "Draw the path in four steps. Trigger → input → review → action. Label the human decision."
+        }
+      ],
+      "caption": "04-product-workflow/caption.txt",
+      "pdf": "04-product-workflow/carousel.pdf",
+      "pdf_sha256": "a91af89f5b8edadcebd924fcf7cfe171cb4af28fe632906021ef88253bc5e921",
+      "status": "proposed; founder review required",
+      "rights": "Original graphic layouts with owner-selected Outspoken lockup and project-licensed fonts."
+    },
+    {
+      "id": "05-founder-interview",
+      "title": "One interview. Five useful angles.",
+      "series": "CONTENT OPERATIONS",
+      "slide_count": 5,
+      "slides": [
+        {
+          "path": "05-founder-interview/slide-01.png",
+          "sha256": "87692985e2136cccbe2f2b800990df3873f10773e0731456e628fe3d84590840",
+          "alt": "Cover: One interview. Five useful angles."
+        },
+        {
+          "path": "05-founder-interview/slide-02.png",
+          "sha256": "df8f24afc25edaa1700ade80205d0102f92e5d8bb28aac9ccaa56287474d0d20",
+          "alt": "What decision did you make? Ask for the context, the options and the people affected."
+        },
+        {
+          "path": "05-founder-interview/slide-03.png",
+          "sha256": "a0488902233dd8040b49e1251353076a01c98b861c47d42a380598280001f0d3",
+          "alt": "What did you rule out? The alternative and the reason can make the thinking concrete."
+        },
+        {
+          "path": "05-founder-interview/slide-04.png",
+          "sha256": "866ef6f03ff4aea8d85e0fcd93e4ba0ea3be5d7148e35906c22291f65937e7f5",
+          "alt": "What can you show? Identify a safe example, a diagram or evidence the team can share."
+        },
+        {
+          "path": "05-founder-interview/slide-05.png",
+          "sha256": "67f34022dd2c10f644bb873e8bd0d612befb9bd78765dbeada28c841d528d24f",
+          "alt": "Turn the answer into a series. Explain the choice, teach a method, compare options, clarify a limit, or answer an objection."
+        }
+      ],
+      "caption": "05-founder-interview/caption.txt",
+      "pdf": "05-founder-interview/carousel.pdf",
+      "pdf_sha256": "099d6972ada772f488c03a8e7c5107d873f6ff95d4353e5030555e0e4f963247",
+      "status": "proposed; founder review required",
+      "rights": "Original graphic layouts with owner-selected Outspoken lockup and project-licensed fonts."
+    },
+    {
+      "id": "06-buyer-checklist",
+      "title": "Help buyers compare the options.",
+      "series": "BUYER ENABLEMENT",
+      "slide_count": 5,
+      "slides": [
+        {
+          "path": "06-buyer-checklist/slide-01.png",
+          "sha256": "ef36d99e0b4adc6fa2a8de17688a58105f7a355d99f8799e6504f598c9611b71",
+          "alt": "Cover: Help buyers compare the options."
+        },
+        {
+          "path": "06-buyer-checklist/slide-02.png",
+          "sha256": "47bf94c6c52ea773ea5eaba057b80d35752f0f44cf0b5c8cd278a4b82feb9f90",
+          "alt": "Define the job. What must the team complete, and how will they know it is done?"
+        },
+        {
+          "path": "06-buyer-checklist/slide-03.png",
+          "sha256": "c9ac215b057306e865b36f05ea25b3063e072584c5f4cce99ec02d4aba36bd85",
+          "alt": "Check the operating conditions. Consider inputs, security, implementation and the people involved."
+        },
+        {
+          "path": "06-buyer-checklist/slide-04.png",
+          "sha256": "bc2ed53461e3258fdf5e1d76f5f54c48834ba3992469f772a2ac9911152528a5",
+          "alt": "Compare trade-offs. Show where each option fits and where it may not."
+        },
+        {
+          "path": "06-buyer-checklist/slide-05.png",
+          "sha256": "f5f8596782a97c287a6b8404588de2bcd5313b2e2232ac8269fbcb8563bb944c",
+          "alt": "Make the decision visible. Give the buyer questions to take into their own evaluation."
+        }
+      ],
+      "caption": "06-buyer-checklist/caption.txt",
+      "pdf": "06-buyer-checklist/carousel.pdf",
+      "pdf_sha256": "ff639e9d037fe72fa4d9411405c12fd06974663d9d35f68e32eb4407a56077ab",
+      "status": "proposed; founder review required",
+      "rights": "Original graphic layouts with owner-selected Outspoken lockup and project-licensed fonts."
+    },
+    {
+      "id": "07-founder-company",
+      "title": "Two voices. One clear story.",
+      "series": "CHANNEL ROLES",
+      "slide_count": 5,
+      "slides": [
+        {
+          "path": "07-founder-company/slide-01.png",
+          "sha256": "0bef1a408be34a17343163d99d03940dbdf7c8a4a93534800042b9f6b630f577",
+          "alt": "Cover: Two voices. One clear story."
+        },
+        {
+          "path": "07-founder-company/slide-02.png",
+          "sha256": "74f58ec231a2b7d65a065958de0db60fb67487adecf05df37133456008dae15c",
+          "alt": "Share the judgment. Explain why a choice mattered and what the team learned."
+        },
+        {
+          "path": "07-founder-company/slide-03.png",
+          "sha256": "2d7cb0b2d2cbefe23175cf7238d39df993bd8ef81996186877d3b072b08e995b",
+          "alt": "Keep the facts accessible. Document the product workflow, updates, limitations and approved proof."
+        },
+        {
+          "path": "07-founder-company/slide-04.png",
+          "sha256": "01502fb92495fae1ff24a3ab83d9ef1fd407add20d3d4cc30f7d68a59688bb49",
+          "alt": "Answer the same buyer question. The founder's perspective and the company's explanation should reinforce each other."
+        },
+        {
+          "path": "07-founder-company/slide-05.png",
+          "sha256": "8428f931f36c47c86713febdf815cbb4f0c817ae4a23e78d288467069bc8881e",
+          "alt": "Compare like with like. Use the same account, similar post age and the metrics actually available."
+        }
+      ],
+      "caption": "07-founder-company/caption.txt",
+      "pdf": "07-founder-company/carousel.pdf",
+      "pdf_sha256": "3043a7b5ce892d5b97a387ac08a685314312c9cb91937900c3c08900a24e5078",
+      "status": "proposed; founder review required",
+      "rights": "Original graphic layouts with owner-selected Outspoken lockup and project-licensed fonts."
+    },
+    {
+      "id": "08-editorial-calendar",
+      "title": "Build a calendar around decisions.",
+      "series": "CONTENT SYSTEM",
+      "slide_count": 5,
+      "slides": [
+        {
+          "path": "08-editorial-calendar/slide-01.png",
+          "sha256": "c963a703505a4c171b2b1be3970f62c7a3453a377ee3a4dece29afbb88aae3b4",
+          "alt": "Cover: Build a calendar around decisions."
+        },
+        {
+          "path": "08-editorial-calendar/slide-02.png",
+          "sha256": "b7fac4cc139d8fab941a0a82f34082029e0bc8872828bf13d262c872247ea3fe",
+          "alt": "Collect buyer questions. Use real sales, product and customer conversations where the team has permission."
+        },
+        {
+          "path": "08-editorial-calendar/slide-03.png",
+          "sha256": "e27b7ecb392925341ba8c23348e3458cf7eb8217b59cb90d4a193b6af69952b4",
+          "alt": "Match each question to a voice. Choose the person or company source that can answer it accurately."
+        },
+        {
+          "path": "08-editorial-calendar/slide-04.png",
+          "sha256": "7802694041cf4f870554b27a539c2f0864e2b1f9c7adf6d514d556c9ace14b3f",
+          "alt": "Add evidence and a format. Select a diagram, text, document or video for the explanation it enables."
+        },
+        {
+          "path": "08-editorial-calendar/slide-05.png",
+          "sha256": "69ef5b03351d59121909c2b8ed276f77ea44aea38b17b5edf3196afca921a523",
+          "alt": "Check the response. Compare similar posts over the same time window; record questions and limitations."
+        }
+      ],
+      "caption": "08-editorial-calendar/caption.txt",
+      "pdf": "08-editorial-calendar/carousel.pdf",
+      "pdf_sha256": "67630809e6578fab73a8da1c2dbf79b3b320517b26a3becfaa0598eb2cab469b",
+      "status": "proposed; founder review required",
+      "rights": "Original graphic layouts with owner-selected Outspoken lockup and project-licensed fonts."
+    },
+    {
+      "id": "09-reading-metrics",
+      "title": "What do LinkedIn reactions tell you?",
+      "series": "MEASUREMENT",
+      "slide_count": 5,
+      "slides": [
+        {
+          "path": "09-reading-metrics/slide-01.png",
+          "sha256": "43fb3bad906925a92a12b576f07d7f49354fb34e57b096fbc519c8e47bb1a5a0",
+          "alt": "Cover: What do LinkedIn reactions tell you?"
+        },
+        {
+          "path": "09-reading-metrics/slide-02.png",
+          "sha256": "d4354c874ad945a3fe3a6188676ae132c5acf76de5188e73248630736b944a5a",
+          "alt": "Likes are one reaction type. The reaction total combines available reaction types. It does not include comments."
+        },
+        {
+          "path": "09-reading-metrics/slide-03.png",
+          "sha256": "981bf0f80fa29b73186bc2b2bc36c03ef26ca59aac7ca56fdc45b91e18fc8f78",
+          "alt": "Replies are counted separately. A comment total is not unique people, qualified buyers or sales."
+        },
+        {
+          "path": "09-reading-metrics/slide-04.png",
+          "sha256": "93e2305e37eb2a8c23785b922d2d5d1f78fec48aebffe42f4ae1de71eea6d917",
+          "alt": "107.5 reactions. 36.5 comments. Medians: 276 observed reaction counts; 256 observed comment counts. 279 posts in the selected sample."
+        },
+        {
+          "path": "09-reading-metrics/slide-05.png",
+          "sha256": "b6be3caaa8d3c4d29fbbdc4ada4c994a76cd349adc1c7c7ad63be5e37fe50e3a",
+          "alt": "No reach. No conversion rate. We did not observe impressions, reach, clicks or sales. Reactions are not proof of buying intent."
+        }
+      ],
+      "caption": "09-reading-metrics/caption.txt",
+      "pdf": "09-reading-metrics/carousel.pdf",
+      "pdf_sha256": "b1d07fd8eeaaf444f625851669e1840282dbc224d7a2acc74e29848903137766",
+      "status": "proposed; founder review required",
+      "rights": "Original graphic layouts with owner-selected Outspoken lockup and project-licensed fonts."
+    },
+    {
+      "id": "10-from-response",
+      "title": "Turn a response into a better question.",
+      "series": "LEARNING LOOP",
+      "slide_count": 5,
+      "slides": [
+        {
+          "path": "10-from-response/slide-01.png",
+          "sha256": "4fd1ed570aa80896d7bf25ca17aa32ec430e8a9ae33a9d900e4fe0d4bf3b98f8",
+          "alt": "Cover: Turn a response into a better question."
+        },
+        {
+          "path": "10-from-response/slide-02.png",
+          "sha256": "69a8b59a5c0310eaa9089c2b6cd42496409ac7264f9ace9e1cd05f55ca9bb175",
+          "alt": "Record what is visible. Keep reactions, comments and actual buyer conversations as separate measures."
+        },
+        {
+          "path": "10-from-response/slide-03.png",
+          "sha256": "daa4108b4119d76b55ac3093f130f1dc4d92a6252115026ca84121e67e3e56aa",
+          "alt": "Notice the question. Identify recurring confusion or objections without assigning intent to a reaction."
+        },
+        {
+          "path": "10-from-response/slide-04.png",
+          "sha256": "aee8511d280abf68f0f15fdd60eb5257dcb92e1f1d596dc06b4d1b98a8d38b3e",
+          "alt": "Bring it to the right expert. Ask the founder or product team for an accurate answer and source."
+        },
+        {
+          "path": "10-from-response/slide-05.png",
+          "sha256": "7719a21cae6d22bad8b4036ac66c50216a649ad75c8ece9089d2c59d9285aee2",
+          "alt": "Make the next post clearer. Explain the answer, show relevant proof and retain the limits."
+        }
+      ],
+      "caption": "10-from-response/caption.txt",
+      "pdf": "10-from-response/carousel.pdf",
+      "pdf_sha256": "30ac7553412680900c5ce2933ad94c36c5a7b3381a2a61b2ae5af072b2886d82",
+      "status": "proposed; founder review required",
+      "rights": "Original graphic layouts with owner-selected Outspoken lockup and project-licensed fonts."
+    }
+  ]
+}

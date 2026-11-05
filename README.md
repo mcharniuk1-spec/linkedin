@@ -1,3 +1,7 @@
+## Current data and publication update — 5 November 2026
+
+[Read the plain-language performance explanation](reports/20261105/README.md) and [review ten five-slide carousel drafts](publications/20261105/README.md). LinkedIn public collection is currently on a security-verification hold; the [incident and safe collector change](docs/COLLECTOR-ACCESS-HOLD-20261105.md) distinguish the source block from a code failure. The historical sample and earlier source releases are preserved.
+
 # LinkedIn founder-content research and services
 
 A public-safe research/runtime and service-method repository for Europe-based B2B AI SaaS founder-led LinkedIn work.

@@ -186,6 +186,10 @@ class TransportTests(unittest.IsolatedAsyncioTestCase):
             sleeps.append(delay)
         t = StubHTTPX(spec(), state, responses=[(503, {"retry-after": "2"}, b"", "https://example.test/"),
                                                (200, {}, b"ok", "https://example.test/")], sleep=sleep)
+        # This test isolates Retry-After from the separate per-host pacing delay.
+        # A real monotonic clock can otherwise add a tiny pacing sleep.
+        async def no_pacing(_host):pass
+        t._pace=no_pacing
         result = await t.fetch("https://example.test/")
         self.assertEqual(result.body, b"ok")
         self.assertEqual(len(t.calls), 2)

@@ -95,6 +95,38 @@ class CycleTests(unittest.IsolatedAsyncioTestCase):
         result=await collect(self.path,transport_factory=factory)
         self.assertEqual(result['inserted'],1);self.assertEqual(result['status'],'COMPLETE_WITH_SOURCE_HOLDS')
         s=Store(Path(self.tmp.name)/'state');self.assertEqual(s.counts()['records'],1);s.close()
+    async def test_suspended_linkedin_source_skips_discovery_and_all_requests(self):
+        self.cfg['discovery']={'enabled':True}
+        self.cfg['sources']=[{'source_id':'linkedin-public','access_group':'linkedin-public',
+            'adapter':'http','enabled':True,'urls':['https://www.linkedin.com/posts/x'],
+            'allowed_hosts':['www.linkedin.com'],'permitted_methods':['GET'],
+            'permissions':{'collection':True}}]
+        self.path.write_text(json.dumps(self.cfg));s=Store(Path(self.tmp.name)/'state')
+        s.suspend('linkedin-public','challenge_page');s.close()
+        def should_not_discover(*args):raise AssertionError('discovery must not run')
+        def should_not_fetch(*args):raise AssertionError('transport must not run')
+        result=await collect(self.path,discover_fn=should_not_discover,transport_factory=should_not_fetch)
+        self.assertEqual(result['status'],'COMPLETE_WITH_SOURCE_HOLDS')
+        self.assertEqual(result['discovery_skipped'],'linkedin_source_access_hold')
+        self.assertEqual(result['errors'],[{'source_id':'linkedin-public','error_code':'source_access_hold','reason':'challenge_page'}])
+        self.assertEqual(result['metrics'],{});self.assertEqual(result['inserted'],0)
+        s=Store(Path(self.tmp.name)/'state');self.assertIsNotNone(s.get_suspension('linkedin-public'));s.close()
+
+    async def test_held_linkedin_source_does_not_block_independent_configured_source(self):
+        self.cfg['discovery']={'enabled':True}
+        self.cfg['sources'].insert(0,{'source_id':'linkedin-public','access_group':'linkedin-public',
+            'adapter':'http','enabled':True,'urls':['https://www.linkedin.com/posts/x'],
+            'allowed_hosts':['www.linkedin.com'],'permitted_methods':['GET'],
+            'permissions':{'collection':True}})
+        self.path.write_text(json.dumps(self.cfg));s=Store(Path(self.tmp.name)/'state')
+        s.suspend('linkedin-public','challenge_page');s.close()
+        def should_not_discover(*args):raise AssertionError('discovery must not run')
+        result=await collect(self.path,discover_fn=should_not_discover,transport_factory=self.factory)
+        self.assertEqual(result['inserted'],2)
+        self.assertEqual(result['status'],'COMPLETE_WITH_SOURCE_HOLDS')
+        self.assertEqual(len(self.calls),2)
+        self.assertTrue(all(url.startswith('https://example.test/') for url in self.calls))
+
     async def test_cap_and_discovery_failure_keep_explicit_status(self):
         self.cfg['max_new_records']=1;self.cfg['discovery']={'enabled':True};self.path.write_text(json.dumps(self.cfg))
         def bad(*args):raise AccessSuspended('quota')

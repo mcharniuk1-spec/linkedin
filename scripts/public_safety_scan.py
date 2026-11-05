@@ -22,19 +22,29 @@ def text_problems(text):
  if any(p.search(text) for p in SECRETS):out.append('credential_or_private_key_pattern')
  return out
 
+def p_relative(rel,package):
+ try:return rel.relative_to(package).as_posix()
+ except ValueError:return ''
+
 def approved_asset(root,rel,digest):
  # A Git source snapshot has its own publication authority. It does not imply
  # artistic acceptance. Both states still require exact per-file rights/hash.
- if not rel.parts or rel.parts[0] not in {'design and website','editorial'}:return False
- package=root/rel.parts[0]
- if len(rel.parts)<3 or rel.parts[1]!='assets':return False
+ if not rel.parts:return False
+ if rel.parts[0] in {'design and website','editorial'}:
+  package=root/rel.parts[0]
+  if len(rel.parts)<3 or rel.parts[1]!='assets':return False
+ elif rel.parts[0]=='publications':
+  # A dated publication pack has an independent, exact rights ledger.
+  if len(rel.parts)<4 or not re.fullmatch(r'20[0-9]{6}(?:-[a-z0-9]+)*',rel.parts[1]) or rel.parts[2]!='assets':return False
+  package=root/rel.parts[0]/rel.parts[1]
+ else:return False
  manifest=package/'release-manifest.json'
  if not manifest.is_file():return False
  try:m=json.loads(manifest.read_text(),object_pairs_hook=pairs)
  except (ValueError,OSError):return False
  if m.get('status') not in {'finalized','source_snapshot_verified'}:return False
  if m.get('status')=='source_snapshot_verified' and m.get('publication_authority')!='owner_requested_current_source_git_sync':return False
- candidates={rel.as_posix(),Path(*rel.parts[1:]).as_posix()}
+ candidates={rel.as_posix(),p_relative(rel,package.relative_to(root))}
  files=[x for x in m.get('files',[]) if x.get('path') in candidates]
  rights=[x for x in m.get('rights_ledger',[]) if x.get('path') in candidates]
  return len(files)==len(rights)==1 and files[0].get('sha256')==digest and rights[0].get('sha256')==digest and rights[0].get('rights_state') in {'owned','licensed','permission_verified'}
