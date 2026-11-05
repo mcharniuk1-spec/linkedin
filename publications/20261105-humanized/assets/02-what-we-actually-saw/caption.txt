@@ -1,0 +1,11 @@
+We built a reference set of 279 LinkedIn posts from 61 accounts. One result made the research more useful: the median reaction count was 107.5 across the 276 posts where a reaction count was available.
+
+That number is a starting point, not a target. The accounts, topics and post ages differ. We did not observe reach, clicks or sales, so the sample cannot tell us which format caused a business result.
+
+What it can do is sharpen the questions we ask: Is the post explaining a decision? Is the claim supported? Would the right buyer learn something useful?
+
+That is how we want to use research at Outspoken: identify patterns, check their limits and turn them into hypotheses to test with each client.
+
+Reactions combine LinkedIn’s reaction types; comments are separate. Captures: 20–22 October 2026.
+
+Research and limitations: https://github.com/mcharniuk1-spec/linkedin/tree/main/reports/20261105

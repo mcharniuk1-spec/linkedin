@@ -1,0 +1,9 @@
+When a founder explains an AI feature, I want to know what happens just before—and just after—the model is used.
+
+What triggers the work? What information goes in? What does the product suggest? Who checks it, and what happens next?
+
+Those details are often more useful to a buyer than another model name. They reveal how the product fits a real process and where responsibility stays with a person.
+
+We help turn that explanation into a post, a diagram or a short script. The format follows the explanation; the founder checks the technical detail before release.
+
+Try this with one feature: draw its path from trigger to human decision. Where would a new buyer still have a question?

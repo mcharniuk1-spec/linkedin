@@ -1,0 +1,205 @@
+{
+  "status": "draft_owner_review_required",
+  "posts": [
+    {
+      "id": "01-the-reason",
+      "title": "A founder's thinking is a business asset.",
+      "caption": "01-the-reason/caption.txt",
+      "evidence": "Approved Outspoken value proposition and service narrative; positioning statement, not a claim of client results.",
+      "variants": [
+        {
+          "name": "graphic",
+          "path": "01-the-reason/graphic.png",
+          "sha256": "f252befd2d05e6a17f9bfd971e511d2a71eca8af3f7323247b377b2a34e228ae",
+          "alt": "Original Outspoken graphic. A founder's thinking is a business asset. Make the reasoning behind your product visible to the people who need it."
+        },
+        {
+          "name": "people",
+          "path": "01-the-reason/people.png",
+          "sha256": "564aef4527a152d94487d5230298dc2f710d5966f6be09d229b65481329757a3",
+          "alt": "Illustrative AI-generated people scene. A founder's thinking is a business asset. Make the reasoning behind your product visible to the people who need it."
+        }
+      ]
+    },
+    {
+      "id": "02-what-we-actually-saw",
+      "title": "279 posts changed the questions we ask.",
+      "caption": "02-what-we-actually-saw/caption.txt",
+      "evidence": "Outspoken assessed research sample; 279 posts/61 accounts; 276 observed reaction counts; 107.5 median. Descriptive, selected sample.",
+      "variants": [
+        {
+          "name": "graphic",
+          "path": "02-what-we-actually-saw/graphic.png",
+          "sha256": "0fa793c1ad59b025edd61a60284375e24c3694adb20da70bce93f17a6454563b",
+          "alt": "Original Outspoken graphic. 279 posts changed the questions we ask. We studied a selected reference sample to find ideas worth testing—not a formula for virality."
+        },
+        {
+          "name": "people",
+          "path": "02-what-we-actually-saw/people.png",
+          "sha256": "72d3bc40824ebe1717fc71f2961bbd24e0205ae61f34af250ac1f82199929cee",
+          "alt": "Illustrative AI-generated people scene. 279 posts changed the questions we ask. We studied a selected reference sample to find ideas worth testing—not a formula for virality."
+        }
+      ]
+    },
+    {
+      "id": "03-the-interview",
+      "title": "The best sentence may be buried in a decision.",
+      "caption": "03-the-interview/caption.txt",
+      "evidence": "Proposed service process from the approved Outspoken narrative. No specific client interview or outcome is claimed.",
+      "variants": [
+        {
+          "name": "graphic",
+          "path": "03-the-interview/graphic.png",
+          "sha256": "29b8beb74bd3b4bb4b3b0377bb928e82858d619cfa6636e8565018e7d296dbe7",
+          "alt": "Original Outspoken graphic. The best sentence may be buried in a decision. We ask for the choice, the alternative and the trade-off—then help shape the answer."
+        },
+        {
+          "name": "people",
+          "path": "03-the-interview/people.png",
+          "sha256": "4b20a6c5c16e2607198a383f7a041851664b33349b5a055769d34acb93d4a05d",
+          "alt": "Illustrative AI-generated people scene. The best sentence may be buried in a decision. We ask for the choice, the alternative and the trade-off—then help shape the answer."
+        }
+      ]
+    },
+    {
+      "id": "04-positioning",
+      "title": "If everyone can say it, buyers can't use it.",
+      "caption": "04-positioning/caption.txt",
+      "evidence": "Editorial viewpoint and proposed positioning method. The generic phrase is an illustrative example, not a quotation from a client.",
+      "variants": [
+        {
+          "name": "graphic",
+          "path": "04-positioning/graphic.png",
+          "sha256": "4487c79a606ffcb3fc34b3a23087c7e2eac18e52a4aecc920450f7848d850351",
+          "alt": "Original Outspoken graphic. If everyone can say it, buyers can't use it. We make the category, customer and meaningful alternative explicit."
+        },
+        {
+          "name": "people",
+          "path": "04-positioning/people.png",
+          "sha256": "c69637eaed9e3e743b14801bbd39d4f022c170ed59514d7eaecc4ae1309022a6",
+          "alt": "Illustrative AI-generated people scene. If everyone can say it, buyers can't use it. We make the category, customer and meaningful alternative explicit."
+        }
+      ]
+    },
+    {
+      "id": "05-proof",
+      "title": "A bold claim needs a boundary.",
+      "caption": "05-proof/caption.txt",
+      "evidence": "Edelman–LinkedIn 2024 thought-leadership survey, as reported by LinkedIn. Survey response; not a causal or client outcome claim.",
+      "variants": [
+        {
+          "name": "graphic",
+          "path": "05-proof/graphic.png",
+          "sha256": "e50c87ee53e0230b522eaac14f4da0c73d30640e5061777192b1f55af2922df5",
+          "alt": "Original Outspoken graphic. A bold claim needs a boundary. Show the task, the evidence and the limits a buyer can assess."
+        },
+        {
+          "name": "people",
+          "path": "05-proof/people.png",
+          "sha256": "66269cc4e730e0a73af3c566ec46eba3d6ca1ea0d40e8f660e394c74e74e69ec",
+          "alt": "Illustrative AI-generated people scene. A bold claim needs a boundary. Show the task, the evidence and the limits a buyer can assess."
+        }
+      ]
+    },
+    {
+      "id": "06-product-to-buyer",
+      "title": "A model name isn't a buyer's workflow.",
+      "caption": "06-product-to-buyer/caption.txt",
+      "evidence": "Editorial recommendation and proposed service workflow; no feature or implementation is asserted for a named product.",
+      "variants": [
+        {
+          "name": "graphic",
+          "path": "06-product-to-buyer/graphic.png",
+          "sha256": "48f3df8c246f232bbc393e1c96c6ccde8069a9e84c74b9dec494474c96032b43",
+          "alt": "Original Outspoken graphic. A model name isn't a buyer's workflow. Turn a technical feature into a sequence a buyer can follow."
+        },
+        {
+          "name": "people",
+          "path": "06-product-to-buyer/people.png",
+          "sha256": "fa956dbaefdf2aa01ce67250d9e7ef5742609faa6f5b7cc6bda7d301c12099eb",
+          "alt": "Illustrative AI-generated people scene. A model name isn't a buyer's workflow. Turn a technical feature into a sequence a buyer can follow."
+        }
+      ]
+    },
+    {
+      "id": "07-two-voices",
+      "title": "One story can have two useful voices.",
+      "caption": "07-two-voices/caption.txt",
+      "evidence": "Editorial hypothesis; the current reference sample cannot isolate causal account-type performance.",
+      "variants": [
+        {
+          "name": "graphic",
+          "path": "07-two-voices/graphic.png",
+          "sha256": "ebc4e3b0b1f8df231ec270b14da4ae703e4c3f1bc30272f8da438c6336f6d592",
+          "alt": "Original Outspoken graphic. One story can have two useful voices. The founder explains the judgment. The company makes the facts accessible."
+        },
+        {
+          "name": "people",
+          "path": "07-two-voices/people.png",
+          "sha256": "916b6b88b61ec7b349d65c53fc61a7bedff1b0ec1f2a59bdbecf0e162f31282b",
+          "alt": "Illustrative AI-generated people scene. One story can have two useful voices. The founder explains the judgment. The company makes the facts accessible."
+        }
+      ]
+    },
+    {
+      "id": "08-visuals",
+      "title": "A good graphic answers a question.",
+      "caption": "08-visuals/caption.txt",
+      "evidence": "Editorial guidance and proposed workflow. Illustrative people in draft artwork are not real client references.",
+      "variants": [
+        {
+          "name": "graphic",
+          "path": "08-visuals/graphic.png",
+          "sha256": "730315752628d8ba54d9d13e2d30172a2213e66a463990ce9ace7edf347031d3",
+          "alt": "Original Outspoken graphic. A good graphic answers a question. Use a diagram to reveal a relationship, not to decorate an empty claim."
+        },
+        {
+          "name": "people",
+          "path": "08-visuals/people.png",
+          "sha256": "c423bfcc476d0aa926ca76312d154dbfecb0c4b789d1b8705105ecb7c68c1991",
+          "alt": "Illustrative AI-generated people scene. A good graphic answers a question. Use a diagram to reveal a relationship, not to decorate an empty claim."
+        }
+      ]
+    },
+    {
+      "id": "09-measure",
+      "title": "A reaction is a signal. It isn't a sale.",
+      "caption": "09-measure/caption.txt",
+      "evidence": "Selected 279-post reference sample, 20–22 Oct 2026. Different denominators and no reach/conversion; descriptive only.",
+      "variants": [
+        {
+          "name": "graphic",
+          "path": "09-measure/graphic.png",
+          "sha256": "0a4f6ef97cb2fad0fd2cd1943dfab5ec1a87b7b8a696ce90cc6713754e76a789",
+          "alt": "Original Outspoken graphic. A reaction is a signal. It isn't a sale. Count reactions and comments separately; add business outcomes only when observed."
+        },
+        {
+          "name": "people",
+          "path": "09-measure/people.png",
+          "sha256": "4583dad5724286e04d046dbd29056e2d9a7f05b7dca9002bf6d0167e49be4ddc",
+          "alt": "Illustrative AI-generated people scene. A reaction is a signal. It isn't a sale. Count reactions and comments separately; add business outcomes only when observed."
+        }
+      ]
+    },
+    {
+      "id": "10-the-delivery",
+      "title": "Your expertise stays yours. We make it usable.",
+      "caption": "10-the-delivery/caption.txt",
+      "evidence": "Approved proposed Outspoken service narrative and CTA. Founder voice and delivery specifics remain subject to owner review.",
+      "variants": [
+        {
+          "name": "graphic",
+          "path": "10-the-delivery/graphic.png",
+          "sha256": "026b5eca9b164e7875ef455395e2d036641f23abff0d632ec2b5f423575c5b18",
+          "alt": "Original Outspoken graphic. Your expertise stays yours. We make it usable. A clear route from founder conversation to reviewed content."
+        },
+        {
+          "name": "people",
+          "path": "10-the-delivery/people.png",
+          "sha256": "0a19a1adba6a074a13fbd495539e8cabc20b499ccc4c10706f99826f82da2a42",
+          "alt": "Illustrative AI-generated people scene. Your expertise stays yours. We make it usable. A clear route from founder conversation to reviewed content."
+        }
+      ]
+    }
+  ]
+}

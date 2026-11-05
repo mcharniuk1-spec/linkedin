@@ -1,0 +1,72 @@
+[
+  {
+    "id":"01-the-reason", "series":"WHY OUTSPOKEN", "headline":"A founder's thinking is a business asset.",
+    "subhead":"Make the reasoning behind your product visible to the people who need it.", "diagram":["Your decision","Buyer question","Useful post"],
+    "proof":"A practical editorial process, not a promise of reach.",
+    "caption":"I want Outspoken to solve a specific problem: a founder has spent years building expertise, but a buyer can only see a short product description.\n\nThe useful part is often the thinking behind the product. Why was this problem worth solving? What did the team choose not to build? What should a buyer understand before comparing options?\n\nOur starting point is a conversation with the founder. We turn the decisions, trade-offs and explanations they can substantiate into a positioning and content plan. Then we write and design posts for the founder to review.\n\nThe aim is to make the right buyers care about you and what you’re building. What do you wish a buyer understood before the first sales call?",
+    "evidence":"Approved Outspoken value proposition and service narrative; positioning statement, not a claim of client results."
+  },
+  {
+    "id":"02-what-we-actually-saw", "series":"FROM OUR RESEARCH", "headline":"279 posts changed the questions we ask.",
+    "subhead":"We studied a selected reference sample to find ideas worth testing—not a formula for virality.", "diagram":["279 posts","61 accounts","Questions to test"],
+    "proof":"Selected sample. Counts captured 20–22 Oct 2026.",
+    "caption":"We built a reference set of 279 LinkedIn posts from 61 accounts. One result made the research more useful: the median reaction count was 107.5 across the 276 posts where a reaction count was available.\n\nThat number is a starting point, not a target. The accounts, topics and post ages differ. We did not observe reach, clicks or sales, so the sample cannot tell us which format caused a business result.\n\nWhat it can do is sharpen the questions we ask: Is the post explaining a decision? Is the claim supported? Would the right buyer learn something useful?\n\nThat is how we want to use research at Outspoken: identify patterns, check their limits and turn them into hypotheses to test with each client.\n\nReactions combine LinkedIn’s reaction types; comments are separate. Captures: 20–22 October 2026.\n\nResearch and limitations: https://github.com/mcharniuk1-spec/linkedin/tree/main/reports/20261105",
+    "evidence":"Outspoken assessed research sample; 279 posts/61 accounts; 276 observed reaction counts; 107.5 median. Descriptive, selected sample."
+  },
+  {
+    "id":"03-the-interview", "series":"THE INTERVIEW", "headline":"The best sentence may be buried in a decision.",
+    "subhead":"We ask for the choice, the alternative and the trade-off—then help shape the answer.", "diagram":["What changed?","What else?","Why this choice?"],
+    "proof":"A three-question starting point for founder interviews.",
+    "caption":"A founder does not need to arrive with a polished LinkedIn post.\n\nI would rather start with a decision: What did you change? What else did you consider? Why did you choose this route?\n\nThose questions give an editor something a generic prompt cannot supply: the founder’s actual reasoning. From there, we can identify a buyer question, draft an angle and check which details can be shared.\n\nThe founder reviews the copy before anything is ready to post. If a detail is confidential or a result cannot be verified, it stays out.\n\nA good interview should leave the founder with less pressure to perform and the reader with a clearer idea of how the company thinks.",
+    "evidence":"Proposed service process from the approved Outspoken narrative. No specific client interview or outcome is claimed."
+  },
+  {
+    "id":"04-positioning", "series":"POSITIONING", "headline":"If everyone can say it, buyers can't use it.",
+    "subhead":"We make the category, customer and meaningful alternative explicit.", "diagram":["Who it's for","Job to do","What changes"],
+    "proof":"A positioning test: can a buyer explain the difference?",
+    "caption":"“We use AI to transform workflows” leaves me with a question: whose workflow, and what changes?\n\nA positioning exercise should make that answer easier to give. At Outspoken, our approach starts with the customer’s task, the alternatives they already use and the difference the product can support with evidence.\n\nThen we test the language against a simple standard: could a buyer explain it back without using our internal vocabulary?\n\nThat becomes the foundation for a founder’s profile and content—not just a line in a brand document.\n\nThe aim is not to make a company sound bigger. It is to make the reason it matters easier to understand.",
+    "evidence":"Editorial viewpoint and proposed positioning method. The generic phrase is an illustrative example, not a quotation from a client."
+  },
+  {
+    "id":"05-proof", "series":"EARN TRUST", "headline":"A bold claim needs a boundary.",
+    "subhead":"Show the task, the evidence and the limits a buyer can assess.", "diagram":["Claim","Evidence","Limit"],
+    "proof":"73% of decision-makers in the 2024 Edelman–LinkedIn survey trusted thought leadership more than marketing materials when assessing capabilities.",
+    "caption":"“Our AI changes everything” is a hard claim for a buyer to evaluate.\n\nI would rather show the task it performs, what goes in, what comes out and where a person checks the result. If we quote a number, the period, method and denominator should travel with it.\n\nThere is a reason to take that work seriously. In the 2024 Edelman–LinkedIn thought-leadership survey, 73% of decision-makers said an organisation’s thought leadership was a more trustworthy basis for assessing its capabilities than its marketing materials and product sheets. That is a survey response, not evidence that one LinkedIn post will win a deal.\n\nOur job is to help founders turn the evidence they can actually share into clear content, with the important limits intact.\n\nSource: https://www.linkedin.com/business/marketing/blog/trends-tips/this-week-in-marketing-make-an-impact-with-thought-leadership",
+    "evidence":"Edelman–LinkedIn 2024 thought-leadership survey, as reported by LinkedIn. Survey response; not a causal or client outcome claim."
+  },
+  {
+    "id":"06-product-to-buyer", "series":"PRODUCT EDUCATION", "headline":"A model name isn't a buyer's workflow.",
+    "subhead":"Turn a technical feature into a sequence a buyer can follow.", "diagram":["Trigger","Review","Next action"],
+    "proof":"Show the human decision, not just the model output.",
+    "caption":"When a founder explains an AI feature, I want to know what happens just before—and just after—the model is used.\n\nWhat triggers the work? What information goes in? What does the product suggest? Who checks it, and what happens next?\n\nThose details are often more useful to a buyer than another model name. They reveal how the product fits a real process and where responsibility stays with a person.\n\nWe help turn that explanation into a post, a diagram or a short script. The format follows the explanation; the founder checks the technical detail before release.\n\nTry this with one feature: draw its path from trigger to human decision. Where would a new buyer still have a question?",
+    "evidence":"Editorial recommendation and proposed service workflow; no feature or implementation is asserted for a named product."
+  },
+  {
+    "id":"07-two-voices", "series":"FOUNDER + COMPANY", "headline":"One story can have two useful voices.",
+    "subhead":"The founder explains the judgment. The company makes the facts accessible.", "diagram":["Founder: why","Company: how","Buyer: clarity"],
+    "proof":"An editorial model to test, not a claim about account performance.",
+    "caption":"I do not think a founder profile and a company page need to repeat each other.\n\nThe founder can explain the thinking: the decision, the trade-off and what changed their view. The company can make the supporting material easy to find: a product walkthrough, an approved example or a clear explanation of a limitation.\n\nBoth should answer questions the same buyer actually has. Otherwise the founder sounds personal while the company sounds like a different business.\n\nThat is how we would plan the two channels at Outspoken. We would also check the responses separately: our selected reference sample does not prove that a founder profile causes better results than a company page.\n\nWhich part of your company’s story is easier for the founder to explain?",
+    "evidence":"Editorial hypothesis; the current reference sample cannot isolate causal account-type performance."
+  },
+  {
+    "id":"08-visuals", "series":"THE VISUAL", "headline":"A good graphic answers a question.",
+    "subhead":"Use a diagram to reveal a relationship, not to decorate an empty claim.", "diagram":["Buyer question","Visible steps","One takeaway"],
+    "proof":"A visual brief should explain what the reader will understand.",
+    "caption":"Before designing a LinkedIn image, I want to know what the image makes easier to understand.\n\nA simple workflow can show where an AI system stops and human review begins. A comparison can show the trade-off between two approaches. A founder photograph can put a person behind a point of view.\n\nIf a graphic cannot make its relationship clear without a long explanation, it probably needs another edit.\n\nOur process pairs the written argument with the visual brief, then keeps the founder’s review in the loop. We do not treat a polished image as evidence that the underlying claim is true.\n\nWhat is the one thing your next visual should help a buyer see?",
+    "evidence":"Editorial guidance and proposed workflow. Illustrative people in draft artwork are not real client references."
+  },
+  {
+    "id":"09-measure", "series":"MEASUREMENT", "headline":"A reaction is a signal. It isn't a sale.",
+    "subhead":"Count reactions and comments separately; add business outcomes only when observed.", "diagram":["Reactions","Comments","Conversations"],
+    "proof":"Selected sample: 107.5 median reactions (n=276); 36.5 median comments (n=256).",
+    "caption":"In our selected sample of 279 LinkedIn posts, the median was 107.5 reactions among the 276 posts with an observed reaction count. The median was 36.5 comments among the 256 with an observed comment count.\n\nA reaction combines LinkedIn reaction types. It is not a comment, an impression, a qualified buyer or a sale. The two medians also use different sets of posts.\n\nI find those distinctions useful because they change what we do next. A comment may contain a question worth answering. A reaction tells us only that someone reacted. A real buyer conversation gives us a different kind of evidence.\n\nWe use the numbers to decide what to investigate, with similar posts and observation windows where possible. The sample was captured 20–22 October 2026 and is not a platform benchmark. We did not observe reach or conversions.\n\nResearch and limitations: https://github.com/mcharniuk1-spec/linkedin/tree/main/reports/20261105",
+    "evidence":"Selected 279-post reference sample, 20–22 Oct 2026. Different denominators and no reach/conversion; descriptive only."
+  },
+  {
+    "id":"10-the-delivery", "series":"HOW WE WORK", "headline":"Your expertise stays yours. We make it usable.",
+    "subhead":"A clear route from founder conversation to reviewed content.", "diagram":["Interview","Write + design","Founder review"],
+    "proof":"The founder approves the wording and evidence before a post is ready.",
+    "caption":"A founder should not have to choose between doing the work and explaining it.\n\nThat is the service I am building at Outspoken. We start by understanding the founder, the company and the buyer. We agree on the position and the questions worth answering. Then we turn the material into written and visual drafts.\n\nThe founder reviews the detail, the voice and what can be shared. Only then is the content ready to post. The review matters: we cannot know the product or the customer better than the people building it.\n\nAfter publication, the useful questions and available measures inform the next iteration. There is no promise that every post will take off. The aim is to make a founder’s expertise clearer and more useful to the right buyers over time.\n\nBook an intro call",
+    "evidence":"Approved proposed Outspoken service narrative and CTA. Founder voice and delivery specifics remain subject to owner review."
+  }
+]

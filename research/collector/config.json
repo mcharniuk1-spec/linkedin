@@ -5,6 +5,10 @@
   "default_transport": "httpx",
   "max_new_records": 20,
   "max_candidates": 10,
+  "daily_goals": {
+    "new_unique_posts": 100,
+    "distinct_observed_accounts": 10
+  },
   "max_database_bytes": 25165824,
   "automatic_media_bytes": false,
   "approved_author_paths": [

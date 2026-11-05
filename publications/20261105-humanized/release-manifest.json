@@ -1,0 +1,373 @@
+{
+  "status": "source_snapshot_verified",
+  "publication_authority": "owner_requested_current_source_git_sync",
+  "owner_accepted": false,
+  "scope": "Ten founder-led draft captions, ten graphic variants and ten illustrative people-led variants. No social publishing.",
+  "files": [
+    {
+      "path": "assets/01-the-reason/caption.txt",
+      "sha256": "2e9b02a36b7a134fa5266937a99d5617101001682cfd8ba310edee87986eac4d",
+      "bytes": 706
+    },
+    {
+      "path": "assets/01-the-reason/graphic.png",
+      "sha256": "f252befd2d05e6a17f9bfd971e511d2a71eca8af3f7323247b377b2a34e228ae",
+      "bytes": 315171
+    },
+    {
+      "path": "assets/01-the-reason/people.png",
+      "sha256": "564aef4527a152d94487d5230298dc2f710d5966f6be09d229b65481329757a3",
+      "bytes": 744910
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/caption.txt",
+      "sha256": "9256cba03199961a45b148cc3fc0c2d97b821af42ad3765cf89fb61c69435d7b",
+      "bytes": 904
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic.png",
+      "sha256": "0fa793c1ad59b025edd61a60284375e24c3694adb20da70bce93f17a6454563b",
+      "bytes": 269588
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people.png",
+      "sha256": "72d3bc40824ebe1717fc71f2961bbd24e0205ae61f34af250ac1f82199929cee",
+      "bytes": 696794
+    },
+    {
+      "path": "assets/03-the-interview/caption.txt",
+      "sha256": "39d248290faf2b27972b2644ece5bc1fad8d9188b18f4a395ea438466fd2dcd2",
+      "bytes": 665
+    },
+    {
+      "path": "assets/03-the-interview/graphic.png",
+      "sha256": "29b8beb74bd3b4bb4b3b0377bb928e82858d619cfa6636e8565018e7d296dbe7",
+      "bytes": 243780
+    },
+    {
+      "path": "assets/03-the-interview/people.png",
+      "sha256": "4b20a6c5c16e2607198a383f7a041851664b33349b5a055769d34acb93d4a05d",
+      "bytes": 734073
+    },
+    {
+      "path": "assets/04-positioning/caption.txt",
+      "sha256": "878df0818500b74d476c27c2c3542c58b545a33669e9d5de969ba0abde0c5d1f",
+      "bytes": 653
+    },
+    {
+      "path": "assets/04-positioning/graphic.png",
+      "sha256": "4487c79a606ffcb3fc34b3a23087c7e2eac18e52a4aecc920450f7848d850351",
+      "bytes": 242691
+    },
+    {
+      "path": "assets/04-positioning/people.png",
+      "sha256": "c69637eaed9e3e743b14801bbd39d4f022c170ed59514d7eaecc4ae1309022a6",
+      "bytes": 737713
+    },
+    {
+      "path": "assets/05-proof/caption.txt",
+      "sha256": "b4998db1106b3e18a55d1eb2e6046ef156c99c9c7021be6f75cba894c9354c8c",
+      "bytes": 882
+    },
+    {
+      "path": "assets/05-proof/graphic.png",
+      "sha256": "e50c87ee53e0230b522eaac14f4da0c73d30640e5061777192b1f55af2922df5",
+      "bytes": 284520
+    },
+    {
+      "path": "assets/05-proof/people.png",
+      "sha256": "66269cc4e730e0a73af3c566ec46eba3d6ca1ea0d40e8f660e394c74e74e69ec",
+      "bytes": 766341
+    },
+    {
+      "path": "assets/06-product-to-buyer/caption.txt",
+      "sha256": "9e0d13fd2eb36ef89157a6d4bfe897d444fb001bcd7259c04b48a2f398719e3e",
+      "bytes": 690
+    },
+    {
+      "path": "assets/06-product-to-buyer/graphic.png",
+      "sha256": "48f3df8c246f232bbc393e1c96c6ccde8069a9e84c74b9dec494474c96032b43",
+      "bytes": 293318
+    },
+    {
+      "path": "assets/06-product-to-buyer/people.png",
+      "sha256": "fa956dbaefdf2aa01ce67250d9e7ef5742609faa6f5b7cc6bda7d301c12099eb",
+      "bytes": 756645
+    },
+    {
+      "path": "assets/07-two-voices/caption.txt",
+      "sha256": "2dc1c7648a7990a660c7ad9eb049e96004c0a8e55768047395e29dc6052c2589",
+      "bytes": 757
+    },
+    {
+      "path": "assets/07-two-voices/graphic.png",
+      "sha256": "ebc4e3b0b1f8df231ec270b14da4ae703e4c3f1bc30272f8da438c6336f6d592",
+      "bytes": 259339
+    },
+    {
+      "path": "assets/07-two-voices/people.png",
+      "sha256": "916b6b88b61ec7b349d65c53fc61a7bedff1b0ec1f2a59bdbecf0e162f31282b",
+      "bytes": 770981
+    },
+    {
+      "path": "assets/08-visuals/caption.txt",
+      "sha256": "4ca620d42953b4f49a55c569214348070eb0e724bbbaa30d79069cf945ae68bf",
+      "bytes": 657
+    },
+    {
+      "path": "assets/08-visuals/graphic.png",
+      "sha256": "730315752628d8ba54d9d13e2d30172a2213e66a463990ce9ace7edf347031d3",
+      "bytes": 307902
+    },
+    {
+      "path": "assets/08-visuals/people.png",
+      "sha256": "c423bfcc476d0aa926ca76312d154dbfecb0c4b789d1b8705105ecb7c68c1991",
+      "bytes": 766975
+    },
+    {
+      "path": "assets/09-measure/caption.txt",
+      "sha256": "39e85bcd1551db8f5f5490e24d38a1524be3cfe554bd56d4410ec6720debb8d7",
+      "bytes": 926
+    },
+    {
+      "path": "assets/09-measure/graphic.png",
+      "sha256": "0a4f6ef97cb2fad0fd2cd1943dfab5ec1a87b7b8a696ce90cc6713754e76a789",
+      "bytes": 300090
+    },
+    {
+      "path": "assets/09-measure/people.png",
+      "sha256": "4583dad5724286e04d046dbd29056e2d9a7f05b7dca9002bf6d0167e49be4ddc",
+      "bytes": 757850
+    },
+    {
+      "path": "assets/10-the-delivery/caption.txt",
+      "sha256": "ca95a40fddca50f2f404877296b678fe4a53fc5a49494c123285eddb6c6917b7",
+      "bytes": 777
+    },
+    {
+      "path": "assets/10-the-delivery/graphic.png",
+      "sha256": "026b5eca9b164e7875ef455395e2d036641f23abff0d632ec2b5f423575c5b18",
+      "bytes": 298452
+    },
+    {
+      "path": "assets/10-the-delivery/people.png",
+      "sha256": "0a19a1adba6a074a13fbd495539e8cabc20b499ccc4c10706f99826f82da2a42",
+      "bytes": 786764
+    },
+    {
+      "path": "assets/index.html",
+      "sha256": "7666afd561b1840a65c2c7aa00e9985f96708808fe84f634722ddd4cbbdd07d6",
+      "bytes": 21188
+    },
+    {
+      "path": "assets/manifest.json",
+      "sha256": "bc2fb17901aedd177559c95fd2ca20e621125e809982d2d61130b5a9f2da32c8",
+      "bytes": 10281
+    },
+    {
+      "path": "assets/outspoken-personal-editorial.zip",
+      "sha256": "091565f4e5ca1ec587061ed904bd3db408c28244dcf25bf0f24b8d69bff2271d",
+      "bytes": 9999209
+    }
+  ],
+  "rights_ledger": [
+    {
+      "path": "assets/01-the-reason/caption.txt",
+      "sha256": "2e9b02a36b7a134fa5266937a99d5617101001682cfd8ba310edee87986eac4d",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/01-the-reason/graphic.png",
+      "sha256": "f252befd2d05e6a17f9bfd971e511d2a71eca8af3f7323247b377b2a34e228ae",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/01-the-reason/people.png",
+      "sha256": "564aef4527a152d94487d5230298dc2f710d5966f6be09d229b65481329757a3",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/caption.txt",
+      "sha256": "9256cba03199961a45b148cc3fc0c2d97b821af42ad3765cf89fb61c69435d7b",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic.png",
+      "sha256": "0fa793c1ad59b025edd61a60284375e24c3694adb20da70bce93f17a6454563b",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people.png",
+      "sha256": "72d3bc40824ebe1717fc71f2961bbd24e0205ae61f34af250ac1f82199929cee",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/03-the-interview/caption.txt",
+      "sha256": "39d248290faf2b27972b2644ece5bc1fad8d9188b18f4a395ea438466fd2dcd2",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/03-the-interview/graphic.png",
+      "sha256": "29b8beb74bd3b4bb4b3b0377bb928e82858d619cfa6636e8565018e7d296dbe7",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/03-the-interview/people.png",
+      "sha256": "4b20a6c5c16e2607198a383f7a041851664b33349b5a055769d34acb93d4a05d",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/04-positioning/caption.txt",
+      "sha256": "878df0818500b74d476c27c2c3542c58b545a33669e9d5de969ba0abde0c5d1f",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/04-positioning/graphic.png",
+      "sha256": "4487c79a606ffcb3fc34b3a23087c7e2eac18e52a4aecc920450f7848d850351",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/04-positioning/people.png",
+      "sha256": "c69637eaed9e3e743b14801bbd39d4f022c170ed59514d7eaecc4ae1309022a6",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/05-proof/caption.txt",
+      "sha256": "b4998db1106b3e18a55d1eb2e6046ef156c99c9c7021be6f75cba894c9354c8c",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/05-proof/graphic.png",
+      "sha256": "e50c87ee53e0230b522eaac14f4da0c73d30640e5061777192b1f55af2922df5",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/05-proof/people.png",
+      "sha256": "66269cc4e730e0a73af3c566ec46eba3d6ca1ea0d40e8f660e394c74e74e69ec",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/06-product-to-buyer/caption.txt",
+      "sha256": "9e0d13fd2eb36ef89157a6d4bfe897d444fb001bcd7259c04b48a2f398719e3e",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/06-product-to-buyer/graphic.png",
+      "sha256": "48f3df8c246f232bbc393e1c96c6ccde8069a9e84c74b9dec494474c96032b43",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/06-product-to-buyer/people.png",
+      "sha256": "fa956dbaefdf2aa01ce67250d9e7ef5742609faa6f5b7cc6bda7d301c12099eb",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/07-two-voices/caption.txt",
+      "sha256": "2dc1c7648a7990a660c7ad9eb049e96004c0a8e55768047395e29dc6052c2589",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/07-two-voices/graphic.png",
+      "sha256": "ebc4e3b0b1f8df231ec270b14da4ae703e4c3f1bc30272f8da438c6336f6d592",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/07-two-voices/people.png",
+      "sha256": "916b6b88b61ec7b349d65c53fc61a7bedff1b0ec1f2a59bdbecf0e162f31282b",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/08-visuals/caption.txt",
+      "sha256": "4ca620d42953b4f49a55c569214348070eb0e724bbbaa30d79069cf945ae68bf",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/08-visuals/graphic.png",
+      "sha256": "730315752628d8ba54d9d13e2d30172a2213e66a463990ce9ace7edf347031d3",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/08-visuals/people.png",
+      "sha256": "c423bfcc476d0aa926ca76312d154dbfecb0c4b789d1b8705105ecb7c68c1991",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/09-measure/caption.txt",
+      "sha256": "39e85bcd1551db8f5f5490e24d38a1524be3cfe554bd56d4410ec6720debb8d7",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/09-measure/graphic.png",
+      "sha256": "0a4f6ef97cb2fad0fd2cd1943dfab5ec1a87b7b8a696ce90cc6713754e76a789",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/09-measure/people.png",
+      "sha256": "4583dad5724286e04d046dbd29056e2d9a7f05b7dca9002bf6d0167e49be4ddc",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/10-the-delivery/caption.txt",
+      "sha256": "ca95a40fddca50f2f404877296b678fe4a53fc5a49494c123285eddb6c6917b7",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/10-the-delivery/graphic.png",
+      "sha256": "026b5eca9b164e7875ef455395e2d036641f23abff0d632ec2b5f423575c5b18",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/10-the-delivery/people.png",
+      "sha256": "0a19a1adba6a074a13fbd495539e8cabc20b499ccc4c10706f99826f82da2a42",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/index.html",
+      "sha256": "7666afd561b1840a65c2c7aa00e9985f96708808fe84f634722ddd4cbbdd07d6",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/manifest.json",
+      "sha256": "bc2fb17901aedd177559c95fd2ca20e621125e809982d2d61130b5a9f2da32c8",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    },
+    {
+      "path": "assets/outspoken-personal-editorial.zip",
+      "sha256": "091565f4e5ca1ec587061ed904bd3db408c28244dcf25bf0f24b8d69bff2271d",
+      "rights_state": "licensed",
+      "basis": "Original Outspoken composition, project visual assets and licensed fonts; fictional AI-generated scenes for editorial review."
+    }
+  ]
+}

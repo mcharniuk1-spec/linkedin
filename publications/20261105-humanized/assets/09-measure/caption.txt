@@ -1,0 +1,9 @@
+In our selected sample of 279 LinkedIn posts, the median was 107.5 reactions among the 276 posts with an observed reaction count. The median was 36.5 comments among the 256 with an observed comment count.
+
+A reaction combines LinkedIn reaction types. It is not a comment, an impression, a qualified buyer or a sale. The two medians also use different sets of posts.
+
+I find those distinctions useful because they change what we do next. A comment may contain a question worth answering. A reaction tells us only that someone reacted. A real buyer conversation gives us a different kind of evidence.
+
+We use the numbers to decide what to investigate, with similar posts and observation windows where possible. The sample was captured 20–22 October 2026 and is not a platform benchmark. We did not observe reach or conversions.
+
+Research and limitations: https://github.com/mcharniuk1-spec/linkedin/tree/main/reports/20261105

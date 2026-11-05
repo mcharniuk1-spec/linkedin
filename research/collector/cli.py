@@ -23,6 +23,10 @@ def load_config(path):
         cfg[name]=str((path.parent/cfg[name]).resolve())
     if not 1<=int(cfg.get('max_new_records',20))<=100:raise ConfigurationError('record_limit_out_of_range')
     if not 1<=int(cfg.get('max_candidates',40))<=160:raise ConfigurationError('candidate_limit_out_of_range')
+    goals=cfg.get('daily_goals',{})
+    if not isinstance(goals,dict) or any(type(goals.get(k,default)) is not int or not 1<=goals.get(k,default)<=10000
+        for k,default in (('new_unique_posts',100),('distinct_observed_accounts',10))):
+        raise ConfigurationError('daily_goal_out_of_range')
     return cfg
 
 
@@ -177,6 +181,10 @@ async def collect(config_path, *, discover_fn=None, transport_factory=None):
             for m in metrics.values():
                 lat=m.pop('fetch_latency_ms');m['mean_fetch_latency_ms']=sum(lat)/len(lat) if lat else None
                 m['latency_definition']='End-to-end fetch call including configured pacing/retry delay.'
+            from .coverage import daily_progress
+            goals=cfg.get('daily_goals',{})
+            report['daily_progress']=daily_progress(store,posts_goal=goals.get('new_unique_posts',100),
+                accounts_goal=goals.get('distinct_observed_accounts',10))
             report.update(metrics=metrics,elapsed_seconds=time.perf_counter()-start,
                 status='STORAGE_CAPACITY_HOLD' if not _capacity(store,cfg) else ('COMPLETE' if not report['errors'] and not after['suspensions'] else 'COMPLETE_WITH_SOURCE_HOLDS'),finished_at=utcnow())
             with store.db:store.db.execute('INSERT INTO runs VALUES (?,?)',(report['run_id'],json.dumps(report,sort_keys=True)))
@@ -211,12 +219,21 @@ def update_run(config_path, output=None):
             with (output/'insights.csv').open('w',newline='') as f:
                 writer=csv.DictWriter(f,fieldnames=fields);writer.writeheader()
                 for row in store.pending():writer.writerow({**{k:row.get(k,'') for k in fields},'review_status':'pending_actual_source_review'})
+            from .review_priority import prioritize
+            priorities=prioritize(store.pending())
+            priority_fields=['priority','record_id','source_id','external_id','source_url','published_at','collected_at',
+                'age_bucket','reactions','comments','qualification','trend_status','review_status']
+            with (output/'review-priority.csv').open('w',newline='') as f:
+                writer=csv.DictWriter(f,fieldnames=priority_fields);writer.writeheader();writer.writerows(priorities)
+            os.chmod(output/'review-priority.csv',0o600)
             from .writing_graph import build_writing_graph
             graph=build_writing_graph(_repo())
             packet={'schema':'linkedin-manual-update/1','created_at':utcnow(),**result,'insights_table':'insights.csv',
                 'graph':graph,'tool_readiness':{'ffmpeg':bool(shutil.which('ffmpeg')),'ffprobe':bool(shutil.which('ffprobe')),
                 'cached_whisper_model':(Path.home()/'.cache/whisper/large-v3-turbo.pt').is_file()},
-                'automatic_stages_executed':[],
+                'review_priority_table':'review-priority.csv',
+                'automatic_stages_executed':['deterministic_review_priority'],
+                'review_priority_limit':'Single fresh snapshot, sorted within age bands by reactions then comments; not velocity or audience-normalized performance.',
                 'next_steps':['Read original source facts and exact hashes; qualify author/business fit before media.',
                     'Use existing permitted media/cached Whisper/frame preparation only for explicitly requested stages.',
                     'Actually inspect each image and source-bound video evidence; distinguish frame sampling, continuous watching and listening.',
@@ -273,7 +290,11 @@ def main(argv=None):
             store=Store(cfg['state_dir'])
             try:
                 if args.command=='resume-source':store.resume(args.access_group or '',args.reason or '')
-                result={'counts':store.counts(),'outbound_requests':0}
+                from .coverage import daily_progress
+                goals=cfg.get('daily_goals',{})
+                result={'counts':store.counts(),'outbound_requests':0,
+                    'daily_progress':daily_progress(store,posts_goal=goals.get('new_unique_posts',100),
+                        accounts_goal=goals.get('distinct_observed_accounts',10))}
             finally:store.close()
         print(json.dumps(result,indent=2));return 2 if args.command=='collect' and result.get('status')!='COMPLETE' else 0
     except (CollectionError,ValueError,OSError,KeyError) as exc:

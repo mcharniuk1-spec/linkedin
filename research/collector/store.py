@@ -139,9 +139,21 @@ class Store:
         normalized['raw_sha256'] = hashlib.sha256(raw).hexdigest() if raw is not None else value.get('raw_sha256')
         owner = hashlib.sha256((value['source_id']+'|'+value['external_id']).encode()).hexdigest()
         with self.db:
-            existing = next((row for a in aliases if (row:=self.db.execute('SELECT record_id FROM aliases WHERE alias=?',(a,)).fetchone())),None)
-            if existing:
-                return {'inserted':False,'duplicate_of':existing[0]}
+            matches = {a: row[0] for a in aliases if (row:=self.db.execute(
+                'SELECT record_id FROM aliases WHERE alias=?',(a,)).fetchone())}
+            owners = set(matches.values())
+            if len(owners) > 1:
+                # Never guess when aliases point to different existing records.
+                raise ConfigurationError('identity_alias_conflict')
+            if owners:
+                existing = next(iter(owners))
+                # Only source identity evidence can extend identity aliases.
+                # Matching text alone is too weak to promote a new URL/ID.
+                if any(a.startswith(('id:','url:','activity:')) for a in matches):
+                    for alias in aliases:
+                        if alias.startswith(('id:','url:','activity:')):
+                            self.db.execute('INSERT OR IGNORE INTO aliases VALUES (?,?)',(alias,existing))
+                return {'inserted':False,'duplicate_of':existing}
             self.db.execute('INSERT INTO records VALUES (?,?,?,?,?,?,?)',
                 (owner,value['source_id'],value['external_id'],url,value['collected_at'],expected,json.dumps(normalized,sort_keys=True,ensure_ascii=False)))
             for alias in aliases:

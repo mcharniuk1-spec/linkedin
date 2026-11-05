@@ -34,6 +34,27 @@ class StoreTests(unittest.TestCase):
         self.assertEqual(self.store.seed(seed),1);self.assertEqual(self.store.seed(seed),0)
         self.assertTrue(self.store.known_url('https://www.linkedin.com/posts/changed_activity-123?tracking=yes'))
         self.assertEqual(self.store.counts()['records'],0);self.assertEqual(self.store.counts()['profiles'],1)
+    def test_duplicate_observation_adds_proven_identity_aliases(self):
+        first=self.store.ingest(item('one',text='short',identity_aliases=['id:share:1']))
+        second=self.store.ingest(item('two',text='different',identity_aliases=['id:share:1','id:share:2']))
+        third=self.store.ingest(item('three',text='also different',identity_aliases=['id:share:2']))
+        self.assertFalse(second['inserted']);self.assertFalse(third['inserted'])
+        self.assertEqual(second['duplicate_of'],first['record_id'])
+        self.assertEqual(third['duplicate_of'],first['record_id'])
+        self.assertEqual(self.store.counts()['records'],1)
+    def test_text_only_match_does_not_promote_identity_aliases(self):
+        text='A sufficiently long sentence repeated as fixture content to trigger text matching.'
+        self.store.ingest(item('one',text=text))
+        self.assertFalse(self.store.ingest(item('two',text=text)).get('inserted'))
+        self.assertIsNone(self.store.db.execute('SELECT record_id FROM aliases WHERE alias=?',('id:two',)).fetchone())
+    def test_conflicting_alias_owners_stop_without_changes(self):
+        self.store.ingest(item('one',text='first',identity_aliases=['id:share:1']))
+        self.store.ingest(item('two',text='second',identity_aliases=['id:share:2']))
+        before=self.store.db.execute('SELECT alias,record_id FROM aliases ORDER BY alias').fetchall()
+        with self.assertRaisesRegex(ConfigurationError,'identity_alias_conflict'):
+            self.store.ingest(item('three',text='third',identity_aliases=['id:share:1','id:share:2']))
+        self.assertEqual(before,self.store.db.execute('SELECT alias,record_id FROM aliases ORDER BY alias').fetchall())
+        self.assertEqual(self.store.counts()['records'],2)
     def test_source_dates_stay_holds_and_no_date_invention(self):
         for i,pub in enumerate((None,'bad','2099-01-01T00:00:00Z','2026-01-01T00:00:00Z')):
             self.store.ingest(item(str(i),published_at=pub))
@@ -82,8 +103,9 @@ class CycleTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(second['inserted'],0);self.assertEqual(len(self.calls),2)
         with patch('research.collector.writing_graph.build_writing_graph',return_value={'status':'fixture'}):
             packet=update_run(self.path)
-        self.assertEqual(packet['pending_records'],2);self.assertEqual(packet['automatic_stages_executed'],[])
+        self.assertEqual(packet['pending_records'],2);self.assertEqual(packet['automatic_stages_executed'],['deterministic_review_priority'])
         self.assertTrue((Path(packet['output'])/'insights.csv').is_file())
+        self.assertTrue((Path(packet['output'])/'review-priority.csv').is_file())
     async def test_partial_success_saved_before_access_stop(self):
         base=self.factory
         def factory(spec,store):
