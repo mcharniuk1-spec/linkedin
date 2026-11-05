@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "source_id": "hacker-news-top",
+      "kind": "hn_top",
+      "url": "https://hacker-news.firebaseio.com/v0/topstories.json",
+      "allowed_hosts": [
+        "hacker-news.firebaseio.com"
+      ],
+      "terms_url": "https://github.com/HackerNews/API",
+      "robots_url": "https://hacker-news.firebaseio.com/robots.txt",
+      "rights": "metadata_for_internal_review_reuse_unverified",
+      "max_items": 20
+    },
+    {
+      "source_id": "huggingface-blog-rss",
+      "kind": "rss",
+      "url": "https://huggingface.co/blog/feed.xml",
+      "allowed_hosts": [
+        "huggingface.co"
+      ],
+      "terms_url": "https://huggingface.co/terms-of-service",
+      "robots_url": "https://huggingface.co/robots.txt",
+      "rights": "metadata_for_internal_review_reuse_unverified",
+      "max_items": 20
+    }
+  ]
+}

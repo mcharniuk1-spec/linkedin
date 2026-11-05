@@ -56,6 +56,9 @@ jobs:
         id: capture
         timeout-minutes: 13
         run: python -m research.collector.cli collect --config research/collector/config.json
+      - name: Summarize source status and daily goals
+        if: always() && steps.restore.outcome == 'success'
+        run: python -m research.collector.job_summary
       - name: Seal state including partial work and suspensions
         id: seal
         if: always() && steps.restore.outcome == 'success'

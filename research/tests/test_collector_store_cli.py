@@ -117,7 +117,7 @@ class CycleTests(unittest.IsolatedAsyncioTestCase):
         result=await collect(self.path,transport_factory=factory)
         self.assertEqual(result['inserted'],1);self.assertEqual(result['status'],'COMPLETE_WITH_SOURCE_HOLDS')
         s=Store(Path(self.tmp.name)/'state');self.assertEqual(s.counts()['records'],1);s.close()
-    async def test_suspended_linkedin_source_skips_discovery_and_all_requests(self):
+    async def test_suspended_linkedin_source_allows_independent_discovery_without_fetch(self):
         self.cfg['discovery']={'enabled':True}
         self.cfg['sources']=[{'source_id':'linkedin-public','access_group':'linkedin-public',
             'adapter':'http','enabled':True,'urls':['https://www.linkedin.com/posts/x'],
@@ -125,11 +125,12 @@ class CycleTests(unittest.IsolatedAsyncioTestCase):
             'permissions':{'collection':True}}]
         self.path.write_text(json.dumps(self.cfg));s=Store(Path(self.tmp.name)/'state')
         s.suspend('linkedin-public','challenge_page');s.close()
-        def should_not_discover(*args):raise AssertionError('discovery must not run')
+        def discover(*args):return ['https://www.linkedin.com/posts/test_activity-1234567890123456789']
         def should_not_fetch(*args):raise AssertionError('transport must not run')
-        result=await collect(self.path,discover_fn=should_not_discover,transport_factory=should_not_fetch)
+        result=await collect(self.path,discover_fn=discover,transport_factory=should_not_fetch)
         self.assertEqual(result['status'],'COMPLETE_WITH_SOURCE_HOLDS')
-        self.assertEqual(result['discovery_skipped'],'linkedin_source_access_hold')
+        self.assertEqual(result['linkedin_status'],'blocked_by_persistent_access_hold')
+        self.assertEqual(result['discovery_candidates_new'],1)
         self.assertEqual(result['errors'],[{'source_id':'linkedin-public','error_code':'source_access_hold','reason':'challenge_page'}])
         self.assertEqual(result['metrics'],{});self.assertEqual(result['inserted'],0)
         s=Store(Path(self.tmp.name)/'state');self.assertIsNotNone(s.get_suspension('linkedin-public'));s.close()
@@ -142,12 +143,39 @@ class CycleTests(unittest.IsolatedAsyncioTestCase):
             'permissions':{'collection':True}})
         self.path.write_text(json.dumps(self.cfg));s=Store(Path(self.tmp.name)/'state')
         s.suspend('linkedin-public','challenge_page');s.close()
-        def should_not_discover(*args):raise AssertionError('discovery must not run')
-        result=await collect(self.path,discover_fn=should_not_discover,transport_factory=self.factory)
+        def discover(*args):return []
+        result=await collect(self.path,discover_fn=discover,transport_factory=self.factory)
         self.assertEqual(result['inserted'],2)
         self.assertEqual(result['status'],'COMPLETE_WITH_SOURCE_HOLDS')
         self.assertEqual(len(self.calls),2)
         self.assertTrue(all(url.startswith('https://example.test/') for url in self.calls))
+
+    async def test_external_discovery_operates_during_linkedin_challenge(self):
+        from unittest.mock import AsyncMock,patch
+        self.cfg['discovery']={'enabled':True};self.cfg['external_discovery']={'enabled':True}
+        self.cfg['sources']=[{'source_id':'linkedin-public','access_group':'linkedin-public',
+            'adapter':'http','enabled':True,'urls':['https://www.linkedin.com/posts/x'],
+            'allowed_hosts':['www.linkedin.com'],'permitted_methods':['GET'],
+            'permissions':{'collection':True}}]
+        self.path.write_text(json.dumps(self.cfg));s=Store(Path(self.tmp.name)/'state')
+        s.suspend('linkedin-public','challenge_page');s.close()
+        response={'status':'ok','source_results':[{'source_id':'hn','status':'ok'}],
+                  'observations':[{'source_id':'hn'}],'linkedin_posts_collected':0}
+        def no_linkedin(*args):raise AssertionError('held LinkedIn source must not create transport')
+        with patch('research.collector.external_discovery.collect_external',new=AsyncMock(return_value=response)) as external:
+            result=await collect(self.path,discover_fn=lambda *args: [],transport_factory=no_linkedin)
+        external.assert_awaited_once()
+        self.assertEqual(result['status'],'COMPLETE_WITH_SOURCE_HOLDS')
+        self.assertEqual(result['external_discovery']['status'],'ok')
+        self.assertNotIn('observations',result['external_discovery'])
+        self.assertEqual(result['inserted'],0)
+
+    async def test_enabled_official_api_cannot_write_to_legacy_store(self):
+        self.cfg['sources']=[{'source_id':'linkedin-official','adapter':'linkedin_api','enabled':True}]
+        self.path.write_text(json.dumps(self.cfg))
+        def no_api(*args):raise AssertionError('API transport must not be created')
+        result=await collect(self.path,transport_factory=no_api)
+        self.assertIn({'source_id':'linkedin-official','error_code':'authorized_api_separate_store_not_implemented'},result['errors'])
 
     async def test_cap_and_discovery_failure_keep_explicit_status(self):
         self.cfg['max_new_records']=1;self.cfg['discovery']={'enabled':True};self.path.write_text(json.dumps(self.cfg))

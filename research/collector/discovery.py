@@ -81,7 +81,14 @@ def discover(config, store, approved_authors=(), *, client=None, now=None):
         response,init=request(1,'initialize',{'protocolVersion':'2025-03-26','capabilities':{},'clientInfo':{'name':'linkedin-bounded-collector','version':'1'}})
         if response.headers.get('mcp-session-id'):
             headers['Mcp-Session-Id']=response.headers['mcp-session-id']
-        c.post(ENDPOINT,headers=headers,json={'jsonrpc':'2.0','method':'notifications/initialized'})
+        started=time.monotonic()
+        response=c.post(ENDPOINT,headers=headers,json={'jsonrpc':'2.0','method':'notifications/initialized'})
+        store.log_request('exa-search',{'status_code':response.status_code,'latency_ms':(time.monotonic()-started)*1000,
+            'bytes':len(response.content),'kind':'discovery','collected_at':utcnow()})
+        if response.status_code in (401,403,429,999):
+            store.suspend('exa-search','discovery_access_or_quota_stop');raise AccessSuspended('discovery_access_or_quota_stop')
+        if not 200 <= response.status_code < 300:
+            raise CollectionError('discovery_notification_failure')
         _,listing=request(2,'tools/list',{})
         tool=next((x for x in listing.get('tools',[]) if x.get('name')=='web_search_exa'),None)
         if not tool:

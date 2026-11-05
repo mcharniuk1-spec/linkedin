@@ -1,0 +1,18 @@
+{
+  "schema": "outspoken-research-viewer/1",
+  "generated_at": "2026-11-05T12:00:00Z",
+  "operations": {
+    "linkedin_status": "BLOCKED — synthetic example",
+    "daily_progress": {"new_unique_posts": 1, "distinct_observed_accounts": 1, "goals": {"new_unique_posts": 100, "distinct_observed_accounts": 10}},
+    "duplicates": 0,
+    "missed_or_delayed_runs": null,
+    "sources": [{"source_id":"synthetic-linkedin", "status":"blocked", "attempted_requests":0, "successful_requests":0, "hold":"Synthetic access hold", "quota_used":null, "quota_limit":null, "observed_at":"2026-11-05T12:00:00Z"}]
+  },
+  "authorized_posts": [{
+    "title":"Synthetic authorized example", "source_id":"synthetic-owner-export", "source_url":"https://example.test/post/1", "author":"Example founder", "published_at":"2026-11-04T09:00:00Z", "publication_date_status":"verified_source_date", "observed_at":"2026-11-04T18:00:00Z", "permission_state":"synthetic", "review_status":"synthetic", "metrics":{"reactions":22,"comments":3,"reposts":null,"impressions":null},
+    "snapshots":[{"source_id":"synthetic-owner-export","parser_version":"fixture-1","observed_at":"2026-11-04T10:00:00Z","metrics":{"reactions":10,"comments":2}},{"source_id":"synthetic-owner-export","parser_version":"fixture-1","observed_at":"2026-11-04T18:00:00Z","metrics":{"reactions":22,"comments":3}}]
+  }],
+  "reference_candidates": [{"title":"Synthetic reference candidate", "source_id":"synthetic-search", "source_url":"https://example.test/reference", "topic":"Founder positioning", "author_fit":"For review", "discovered_at":"2026-11-05T10:00:00Z", "permission_state":"unknown", "review_status":"unverified", "performance_evidence":null}],
+  "external_signals": [{"title":"Synthetic external topic", "source_id":"synthetic-hn", "source_type":"external API", "source_url":"https://example.test/topic", "topic":"B2B software", "metrics":{"score":5,"comments":2}, "discovered_at":"2026-11-05T10:00:00Z", "permission_state":"synthetic", "review_status":"synthetic"}],
+  "target_companies": [{"name":"Synthetic company", "source_id":"synthetic-search", "source_url":"https://example.test/company", "description":"Fictional illustration only.", "country":"Unknown", "employee_count":null, "funding":null, "fit_status":"unverified", "content_opportunity":"Hypothesis; needs review", "expressed_need":null, "buying_interest":null, "permission_state":"synthetic", "review_status":"unverified"}]
+}

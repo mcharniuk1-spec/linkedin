@@ -80,7 +80,7 @@ def _capacity(store,cfg):
     return pages*size+4_000_000<int(cfg.get('max_database_bytes',24*1024*1024))
 
 
-async def collect(config_path, *, discover_fn=None, transport_factory=None):
+async def collect(config_path, *, discover_fn=None, transport_factory=None, external_transport_factory=None):
     cfg=load_config(config_path);store=Store(cfg['state_dir']);report={'run_id':uuid.uuid4().hex,'started_at':utcnow(),
         'mode':'collection_only_new_records','inserted':0,'duplicates':0,'new_profiles':0,'errors':[],
         'analysis_executed':False,'refresh_executed':False,'automatic_media_bytes':False}
@@ -90,20 +90,27 @@ async def collect(config_path, *, discover_fn=None, transport_factory=None):
             seed=json.loads(Path(cfg['baseline_seed']).read_text(),object_pairs_hook=unique);store.seed(seed)
             before=store.counts();initial_requests={x[0] for x in store.db.execute('SELECT id FROM requests')}
             candidates=[]
-            # Discovery only seeds public LinkedIn URLs. While every configured
-            # LinkedIn consumer is suspended, do not spend a discovery request
-            # that cannot be acted on or probe the blocked source.
+            # Search-index discovery is independent of the held LinkedIn source.
             linkedin_consumers=[x for x in cfg.get('sources',[]) if x.get('enabled')
                 and x.get('adapter')=='http' and 'www.linkedin.com' in x.get('allowed_hosts',[])]
             discovery_blocked=bool(linkedin_consumers) and all(
                 store.get_suspension(x.get('access_group') or x['source_id']) for x in linkedin_consumers)
-            if discovery_blocked:report['discovery_skipped']='linkedin_source_access_hold'
-            if cfg.get('discovery',{}).get('enabled') and _capacity(store,cfg) and not discovery_blocked:
+            if discovery_blocked:report['linkedin_status']='blocked_by_persistent_access_hold'
+            if cfg.get('discovery',{}).get('enabled') and _capacity(store,cfg):
                 from .discovery import discover
                 try:
                     candidates=(discover_fn or discover)(cfg['discovery'],store,cfg.get('approved_author_paths',[]))
+                    from .candidate_queue import enqueue
+                    report['discovery_candidates_new']=sum(enqueue(store,'publication',u,'exa-search') for u in candidates)
                 except (CollectionError,ValueError,KeyError):
                     report['errors'].append({'source_id':'exa-search','error_code':'discovery_unavailable'})
+            if cfg.get('external_discovery',{}).get('enabled') and _capacity(store,cfg):
+                from .external_discovery import collect_external
+                external=await collect_external(store,transport_factory=external_transport_factory)
+                report['external_discovery']={k:v for k,v in external.items() if k!='observations'}
+                for outcome in external['source_results']:
+                    if outcome['status']!='ok':
+                        report['errors'].append({'source_id':outcome['source_id'],'error_code':'external_discovery_'+outcome['status']})
             from .transport import HttpxTransport,UrllibTransport
             from .adapters import StaticHTTPAdapter,FeedAdapter,GenericAPIAdapter,PlaywrightAdapter,ScrapyAdapter
             adapters={'http':StaticHTTPAdapter,'rss':FeedAdapter,'api':GenericAPIAdapter,
@@ -121,6 +128,10 @@ async def collect(config_path, *, discover_fn=None, transport_factory=None):
                 if report['inserted']>=cfg['max_new_records'] or not _capacity(store,cfg):
                     report['capacity_hold']=True;break
                 kind=spec.get('adapter');source_id=spec['source_id']
+                if kind=='linkedin_api':
+                    # API data must never enter this legacy research store.
+                    report['errors'].append({'source_id':source_id,'error_code':'authorized_api_separate_store_not_implemented'})
+                    continue
                 hold=store.get_suspension(spec.get('access_group') or source_id)
                 if hold:
                     report['errors'].append({'source_id':source_id,'error_code':'source_access_hold',
@@ -173,8 +184,11 @@ async def collect(config_path, *, discover_fn=None, transport_factory=None):
             events=[(sid,json.loads(payload)) for k,sid,payload in store.db.execute('SELECT id,source_id,payload FROM requests') if k not in initial_requests]
             metrics={}
             for sid,e in events:
-                m=metrics.setdefault(sid,{'request_events':0,'fetch_latency_ms':[],'access_or_rate_responses':0,'error_events':0})
+                m=metrics.setdefault(sid,{'request_events':0,'http_responses':0,'successful_http_responses':0,'fetch_latency_ms':[],'access_or_rate_responses':0,'error_events':0})
                 m['request_events']+=1
+                if type(e.get('status_code')) is int:
+                    m['http_responses']+=1
+                    if 200<=e['status_code']<300:m['successful_http_responses']+=1
                 if e.get('kind')=='fetch_call':m['fetch_latency_ms'].append(e['latency_ms'])
                 if e.get('status_code') in (401,403,429,999):m['access_or_rate_responses']+=1
                 if e.get('error_code'):m['error_events']+=1
@@ -277,8 +291,9 @@ def oauth_finish(cfg):
 
 
 def main(argv=None):
-    ap=argparse.ArgumentParser();ap.add_argument('command',choices=['collect','status','update-run','oauth-preflight','oauth-start','oauth-finish','resume-source'])
-    ap.add_argument('--config',default=str(Path(__file__).with_name('config.json')));ap.add_argument('--output');ap.add_argument('--access-group');ap.add_argument('--reason');ap.add_argument('--allow-loopback-http',action='store_true');args=ap.parse_args(argv)
+    ap=argparse.ArgumentParser();ap.add_argument('command',choices=['collect','status','update-run','oauth-preflight','oauth-start','oauth-finish','resume-source','queue-candidate'])
+    ap.add_argument('--config',default=str(Path(__file__).with_name('config.json')));ap.add_argument('--output');ap.add_argument('--access-group');ap.add_argument('--reason');ap.add_argument('--allow-loopback-http',action='store_true')
+    ap.add_argument('--category',choices=['publication','reference_account','target_company']);ap.add_argument('--url');ap.add_argument('--source-id');ap.add_argument('--topic');args=ap.parse_args(argv)
     try:
         cfg=load_config(args.config)
         if args.command=='collect':result=asyncio.run(asyncio.wait_for(collect(args.config),timeout=min(1200,int(cfg.get('max_run_seconds',600)))))
@@ -286,6 +301,14 @@ def main(argv=None):
         elif args.command=='oauth-preflight':result=preflight(cfg)
         elif args.command=='oauth-start':result=oauth_start(cfg,args.allow_loopback_http)
         elif args.command=='oauth-finish':result=oauth_finish(cfg)
+        elif args.command=='queue-candidate':
+            from .candidate_queue import enqueue
+            store=Store(cfg['state_dir'])
+            try:
+                with store.lock():
+                    result={'added':bool(enqueue(store,args.category,args.url,args.source_id,topic=args.topic)),
+                            'status':'pending_review','linkedin_requests':0}
+            finally:store.close()
         else:
             store=Store(cfg['state_dir'])
             try:

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'none'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Outspoken — source-separated research</title>
+  <link rel="stylesheet" href="viewer.css">
+  <script src="viewer.js" defer></script>
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <p class="kicker">OUTSPOKEN / RESEARCH OPERATIONS</p>
+      <h1>Sources, signals and collection health</h1>
+      <p>Open an explicitly prepared private snapshot to review it on this device. The viewer does not upload it or request data from any source.</p>
+      <div class="notice"><strong>Keep source boundaries.</strong> Account-authorized LinkedIn data, reference candidates, external topic signals, and prospective clients are distinct. A search result is not a captured LinkedIn post.</div>
+      <label for="snapshot">Choose a viewer snapshot (.json)</label>
+      <input id="snapshot" type="file" accept=".json,application/json" aria-describedby="snapshot-help">
+      <p id="snapshot-help" class="muted">Loaded in memory only; refresh the page to clear it. Use the synthetic fixture to try the viewer.</p>
+      <p id="load-status" role="status" aria-live="polite">No snapshot selected.</p>
+    </header>
+    <section aria-labelledby="health-title">
+      <div class="section-heading"><div><p class="kicker">COLLECTION</p><h2 id="health-title">Daily health</h2></div><p id="generated" class="muted"></p></div>
+      <div id="health" class="metrics"><p class="muted">Select a snapshot to view collection status and goals.</p></div>
+      <p id="status-notes" class="muted"></p>
+      <div id="source-status"></div>
+    </section>
+    <section aria-labelledby="datasets-title">
+      <p class="kicker">RESEARCH DATA</p><h2 id="datasets-title">Source-separated views</h2>
+      <div class="tabs" role="tablist" aria-label="Research views">
+        <button id="tab-authorized" role="tab" aria-selected="true" aria-controls="pane-authorized" tabindex="0">LinkedIn authorized data</button>
+        <button id="tab-reference" role="tab" aria-selected="false" aria-controls="pane-reference" tabindex="-1">Reference candidates</button>
+        <button id="tab-external" role="tab" aria-selected="false" aria-controls="pane-external" tabindex="-1">External topic signals</button>
+        <button id="tab-targets" role="tab" aria-selected="false" aria-controls="pane-targets" tabindex="-1">Target companies</button>
+      </div>
+      <section id="pane-authorized" role="tabpanel" aria-labelledby="tab-authorized" tabindex="0"><h3>LinkedIn authorized data</h3><p>Data supplied by a consenting account owner or a granted official source. Reactions, comments and other measures remain separate.</p><div id="authorized-list"></div></section>
+      <section id="pane-reference" role="tabpanel" aria-labelledby="tab-reference" tabindex="0" hidden><h3>Reference candidates</h3><p>Search candidates are unverified until source, fit, rights and editorial review are complete. Search order is not performance.</p><div id="reference-list"></div></section>
+      <section id="pane-external" role="tabpanel" aria-labelledby="tab-external" tabindex="0" hidden><h3>External topic signals</h3><p>External scores and comment counts describe their own sources. They do not measure LinkedIn reach or popularity.</p><div id="external-list"></div></section>
+      <section id="pane-targets" role="tabpanel" aria-labelledby="tab-targets" tabindex="0" hidden><h3>Target companies</h3><p>Fit and content opportunities are hypotheses. They do not establish expressed need or buying intent.</p><div id="targets-list"></div></section>
+    </section>
+    <footer><p>Live collection, permission, retention, and access remain governed by each source and the separate collector. A visible item is not proof of reuse rights.</p></footer>
+  </main>
+</body>
+</html>

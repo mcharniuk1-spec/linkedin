@@ -11,6 +11,7 @@
   },
   "max_database_bytes": 25165824,
   "automatic_media_bytes": false,
+  "external_discovery": {"enabled": true},
   "approved_author_paths": [
     "/company/ai-for-strategy",
     "/company/content-revops",
