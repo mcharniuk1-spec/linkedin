@@ -56,6 +56,13 @@ class DiscoveryTests(unittest.TestCase):
   with self.client() as c:
    with self.assertRaises(AccessSuspended):discover(self.config(),self.s,client=c)
   self.assertEqual(len(self.calls),count);self.assertFalse(self.s.get_suspension('exa-search')['automatic_resume'])
+ def test_notification_network_failure_is_source_error(self):
+  def handle(request):
+   body=json.loads(request.content)
+   if body['method']=='notifications/initialized':raise httpx.ConnectError('synthetic failure')
+   return httpx.Response(200,json={'jsonrpc':'2.0','id':body['id'],'result':{}})
+  with httpx.Client(transport=httpx.MockTransport(handle)) as c:
+   with self.assertRaises(CollectionError):discover(self.config(),self.s,client=c)
  def test_known_post_excluded_and_other_backend_refused(self):
   self.s.seed({'publications':[{'external_id':'urn:li:activity:7518006369120055296','aliases':['id:urn:li:activity:7518006369120055296']} ]})
   with self.client() as c:self.assertEqual(discover(self.config(),self.s,client=c),[])

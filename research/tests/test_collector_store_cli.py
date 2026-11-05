@@ -177,6 +177,18 @@ class CycleTests(unittest.IsolatedAsyncioTestCase):
         result=await collect(self.path,transport_factory=no_api)
         self.assertIn({'source_id':'linkedin-official','error_code':'authorized_api_separate_store_not_implemented'},result['errors'])
 
+    async def test_external_discovery_continues_after_exa_failure(self):
+        from unittest.mock import AsyncMock,patch
+        from research.collector.contracts import CollectionError
+        self.cfg['discovery']={'enabled':True};self.cfg['external_discovery']={'enabled':True}
+        self.cfg['sources']=[];self.path.write_text(json.dumps(self.cfg))
+        def broken(*args):raise CollectionError('search_failed')
+        external_result={'status':'ok','source_results':[],'observations':[]}
+        with patch('research.collector.external_discovery.collect_external',new=AsyncMock(return_value=external_result)) as external:
+            result=await collect(self.path,discover_fn=broken)
+        external.assert_awaited_once()
+        self.assertIn({'source_id':'exa-search','error_code':'discovery_unavailable'},result['errors'])
+
     async def test_cap_and_discovery_failure_keep_explicit_status(self):
         self.cfg['max_new_records']=1;self.cfg['discovery']={'enabled':True};self.path.write_text(json.dumps(self.cfg))
         def bad(*args):raise AccessSuspended('quota')

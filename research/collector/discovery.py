@@ -82,7 +82,10 @@ def discover(config, store, approved_authors=(), *, client=None, now=None):
         if response.headers.get('mcp-session-id'):
             headers['Mcp-Session-Id']=response.headers['mcp-session-id']
         started=time.monotonic()
-        response=c.post(ENDPOINT,headers=headers,json={'jsonrpc':'2.0','method':'notifications/initialized'})
+        try:
+            response=c.post(ENDPOINT,headers=headers,json={'jsonrpc':'2.0','method':'notifications/initialized'})
+        except httpx.HTTPError:
+            raise CollectionError('discovery_transport_failure') from None
         store.log_request('exa-search',{'status_code':response.status_code,'latency_ms':(time.monotonic()-started)*1000,
             'bytes':len(response.content),'kind':'discovery','collected_at':utcnow()})
         if response.status_code in (401,403,429,999):
