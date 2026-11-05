@@ -38,7 +38,7 @@
       ],
       "caption": "01-founder-story/caption.txt",
       "pdf": "01-founder-story/carousel.pdf",
-      "pdf_sha256": "2f3f845100c3eae2ede65c36388c46cd462422b459ae6709d8562b94919659d5",
+      "pdf_sha256": "55fae52ab98b8b7060c64db641a345fcc6410823d7d2c06e65087b40e5414591",
       "status": "proposed; founder review required",
       "rights": "Original graphic layouts with owner-selected Outspoken lockup and project-licensed fonts."
     },
@@ -76,7 +76,7 @@
       ],
       "caption": "02-positioning/caption.txt",
       "pdf": "02-positioning/carousel.pdf",
-      "pdf_sha256": "0acd16e4a36163cfe6e52c9a2bcc9ed72b6df5eb1352ee4888b6b6a80c11ee11",
+      "pdf_sha256": "ba0a753ffe6db07a3742c2a72c241db2ad0e0b390d9108c17bfcca5efcd6e133",
       "status": "proposed; founder review required",
       "rights": "Original graphic layouts with owner-selected Outspoken lockup and project-licensed fonts."
     },
@@ -114,7 +114,7 @@
       ],
       "caption": "03-ai-proof/caption.txt",
       "pdf": "03-ai-proof/carousel.pdf",
-      "pdf_sha256": "c40666c1d287e6c06fbb1da53f471e360137cdfa6d7d85ebd8581fd140835fb7",
+      "pdf_sha256": "3f7cd04e848391549171f20d6d73d27e475ce204c15979a66531481877755223",
       "status": "proposed; founder review required",
       "rights": "Original graphic layouts with owner-selected Outspoken lockup and project-licensed fonts."
     },
@@ -146,13 +146,13 @@
         },
         {
           "path": "04-product-workflow/slide-05.png",
-          "sha256": "921e9043915c596c21af5860cffa214cec969ddd4ca748b71991aff76a7581fe",
-          "alt": "Draw the path in four steps. Trigger → input → review → action. Label the human decision."
+          "sha256": "72c04d0e63ccbe667bc4c272c455a65716ca1d502de93d60164b73fbff4c7e02",
+          "alt": "Draw the path in four steps. Trigger, input, review, action. Label the human decision."
         }
       ],
       "caption": "04-product-workflow/caption.txt",
       "pdf": "04-product-workflow/carousel.pdf",
-      "pdf_sha256": "a91af89f5b8edadcebd924fcf7cfe171cb4af28fe632906021ef88253bc5e921",
+      "pdf_sha256": "8a72e77bef8c6477650d7300e6ae0d46047a4640ac698dcdeea98af34d6a2e50",
       "status": "proposed; founder review required",
       "rights": "Original graphic layouts with owner-selected Outspoken lockup and project-licensed fonts."
     },
@@ -190,7 +190,7 @@
       ],
       "caption": "05-founder-interview/caption.txt",
       "pdf": "05-founder-interview/carousel.pdf",
-      "pdf_sha256": "099d6972ada772f488c03a8e7c5107d873f6ff95d4353e5030555e0e4f963247",
+      "pdf_sha256": "3af41ff3df23256862c1941c13f10774eea8873e56b447dd3268c3c7f29441f3",
       "status": "proposed; founder review required",
       "rights": "Original graphic layouts with owner-selected Outspoken lockup and project-licensed fonts."
     },
@@ -228,7 +228,7 @@
       ],
       "caption": "06-buyer-checklist/caption.txt",
       "pdf": "06-buyer-checklist/carousel.pdf",
-      "pdf_sha256": "ff639e9d037fe72fa4d9411405c12fd06974663d9d35f68e32eb4407a56077ab",
+      "pdf_sha256": "326cd1c2540821006da83d35484b366c29693f4f04740d6ffc5683a56548b4b4",
       "status": "proposed; founder review required",
       "rights": "Original graphic layouts with owner-selected Outspoken lockup and project-licensed fonts."
     },
@@ -266,7 +266,7 @@
       ],
       "caption": "07-founder-company/caption.txt",
       "pdf": "07-founder-company/carousel.pdf",
-      "pdf_sha256": "3043a7b5ce892d5b97a387ac08a685314312c9cb91937900c3c08900a24e5078",
+      "pdf_sha256": "eb5c3076964d10dcf2ebc48cdddee472053738c363d1b1c078514090c34f7fff",
       "status": "proposed; founder review required",
       "rights": "Original graphic layouts with owner-selected Outspoken lockup and project-licensed fonts."
     },
@@ -304,7 +304,7 @@
       ],
       "caption": "08-editorial-calendar/caption.txt",
       "pdf": "08-editorial-calendar/carousel.pdf",
-      "pdf_sha256": "67630809e6578fab73a8da1c2dbf79b3b320517b26a3becfaa0598eb2cab469b",
+      "pdf_sha256": "3fc7936fa0736221020007abe2b2fe9609b806062d0c5617d8ed3b0cd1a635e9",
       "status": "proposed; founder review required",
       "rights": "Original graphic layouts with owner-selected Outspoken lockup and project-licensed fonts."
     },
@@ -342,7 +342,7 @@
       ],
       "caption": "09-reading-metrics/caption.txt",
       "pdf": "09-reading-metrics/carousel.pdf",
-      "pdf_sha256": "b1d07fd8eeaaf444f625851669e1840282dbc224d7a2acc74e29848903137766",
+      "pdf_sha256": "84d5173a2b3197415e33da7eeabccf58e41f5f63df18051446ea465b86cf5026",
       "status": "proposed; founder review required",
       "rights": "Original graphic layouts with owner-selected Outspoken lockup and project-licensed fonts."
     },
@@ -380,7 +380,7 @@
       ],
       "caption": "10-from-response/caption.txt",
       "pdf": "10-from-response/carousel.pdf",
-      "pdf_sha256": "30ac7553412680900c5ce2933ad94c36c5a7b3381a2a61b2ae5af072b2886d82",
+      "pdf_sha256": "03e33bb3fef654e214303a75a62d2824d262b2750d2469a18cfe5952c2925214",
       "status": "proposed; founder review required",
       "rights": "Original graphic layouts with owner-selected Outspoken lockup and project-licensed fonts."
     }
