@@ -11,6 +11,18 @@ from research.collector.job_summary import summary
 
 
 class QueueAndViewerTests(unittest.TestCase):
+    def test_viewer_preserves_exa_hold_when_prior_run_error_was_generic(self):
+        from datetime import datetime,timezone
+        with tempfile.TemporaryDirectory() as directory:
+            store=Store(directory)
+            try:
+                store.suspend('exa-search','discovery_tool_quota_or_error')
+                run={'started_at':datetime.now(timezone.utc).isoformat(),'duplicates':0,
+                     'errors':[{'source_id':'exa-search','error_code':'discovery_unavailable'}]}
+                with store.db:store.db.execute('INSERT INTO runs VALUES (?,?)',('run',json.dumps(run)))
+                sources=build(store)['operations']['sources']
+                self.assertTrue(next(s for s in sources if s['source_id']=='exa-search')['hold'])
+            finally:store.close()
     def test_actions_summary_is_honest_about_holds_and_missing_counts(self):
         with tempfile.TemporaryDirectory() as directory:
             path=Path(directory)/'run.json'

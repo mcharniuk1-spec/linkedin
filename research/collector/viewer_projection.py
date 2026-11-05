@@ -59,7 +59,7 @@ def build(store, *, authorized=None):
             entry['successful_requests']+=metrics.get('successful_http_responses',0)
     for error in last.get('errors',[]):
         sid=error.get('source_id');entry=sources_by_id.setdefault(sid,{'source_id':sid})
-        entry.update(status=error.get('error_code'),hold=error.get('error_code')=='source_access_hold')
+        entry.update(status=error.get('error_code'),hold=error.get('error_code')=='source_access_hold' or bool(sid and store.get_suspension(sid)))
     sources=list(sources_by_id.values())
     posts_by_id={}
     for row in authorized or []:

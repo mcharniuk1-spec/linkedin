@@ -239,6 +239,7 @@ class CycleTests(unittest.IsolatedAsyncioTestCase):
         def bad(*args):raise AccessSuspended('quota')
         result=await collect(self.path,discover_fn=bad,transport_factory=self.factory)
         self.assertEqual(result['inserted'],1);self.assertTrue(result['errors']);self.assertEqual(len(self.calls),1)
+        self.assertIn({'source_id':'exa-search','error_code':'source_access_hold','reason':'other_access_hold'},result['errors'])
     def test_duplicate_config_keys_rejected(self):
         self.path.write_text('{"schema":"linkedin-hybrid-config/1","schema":"bad"}')
         with self.assertRaises(ConfigurationError):load_config(self.path)

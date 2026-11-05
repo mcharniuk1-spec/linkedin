@@ -114,6 +114,9 @@ async def collect(config_path, *, discover_fn=None, transport_factory=None, exte
                     candidates=(discover_fn or discover)(cfg['discovery'],store,cfg.get('approved_author_paths',[]))
                     from .candidate_queue import enqueue
                     report['discovery_candidates_new']=sum(enqueue(store,'publication',u,'exa-search') for u in candidates)
+                except AccessSuspended:
+                    report['errors'].append({'source_id':'exa-search','error_code':'source_access_hold',
+                        'reason':_safe_hold_reason(store.get_suspension('exa-search') or {})})
                 except (CollectionError,ValueError,KeyError):
                     report['errors'].append({'source_id':'exa-search','error_code':'discovery_unavailable'})
             if cfg.get('external_discovery',{}).get('enabled') and _capacity(store,cfg):
