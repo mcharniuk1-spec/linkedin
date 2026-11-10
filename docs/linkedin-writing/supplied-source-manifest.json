@@ -1,0 +1,93 @@
+[
+  {
+    "source_id": "WM-01",
+    "relative_file": "README.md",
+    "bytes": 8344,
+    "sha256": "23573d361976900a5ce0e71bca1531350ca3350b3bac81c6949a0f0c80734dec",
+    "rights_state": "user_supplied_research_only_no_redistribution_assumed"
+  },
+  {
+    "source_id": "WM-02",
+    "relative_file": "parts/01_foundations.md",
+    "bytes": 31467,
+    "sha256": "7645b92f58d4f627dde0a83e87649bd799479bce4f24a26dc4c58c7259273702",
+    "rights_state": "user_supplied_research_only_no_redistribution_assumed"
+  },
+  {
+    "source_id": "WM-03",
+    "relative_file": "parts/02_genres.md",
+    "bytes": 36117,
+    "sha256": "9f1c005259363d15b76ad1beeaf084ceb69113f29545531fb3a8a02e006ccc9d",
+    "rights_state": "user_supplied_research_only_no_redistribution_assumed"
+  },
+  {
+    "source_id": "WM-04",
+    "relative_file": "parts/03_narrative_workflows.md",
+    "bytes": 33678,
+    "sha256": "9112cef6c0886ef9ad7c7768898adb0435f09343b38f00641ea3927fb13fd493",
+    "rights_state": "user_supplied_research_only_no_redistribution_assumed"
+  },
+  {
+    "source_id": "WM-05",
+    "relative_file": "parts/04_agents.md",
+    "bytes": 28946,
+    "sha256": "09606dc99082401070113e6393886ae59ee5ff1c743ad20f67993281b9adec19",
+    "rights_state": "user_supplied_research_only_no_redistribution_assumed"
+  },
+  {
+    "source_id": "WM-06",
+    "relative_file": "parts/14_linkedin.md",
+    "bytes": 26477,
+    "sha256": "85e7c9830417b29858a810ddeff043642b29c8acfc0f19b78587e6692e3abd2b",
+    "rights_state": "user_supplied_research_only_no_redistribution_assumed"
+  },
+  {
+    "source_id": "WM-07",
+    "relative_file": "templates/editorial_brief.yaml",
+    "bytes": 4541,
+    "sha256": "37a66ce35f8d4d74cd26f305c259761fa8e0756f2b13701eb30f4ebb7999ccdc",
+    "rights_state": "user_supplied_research_only_no_redistribution_assumed"
+  },
+  {
+    "source_id": "WM-08",
+    "relative_file": "templates/paragraph_map.csv",
+    "bytes": 1929,
+    "sha256": "fa7aee526dabba402ce09b3dd559c7bbeac8f2172e4ea4f2ad7b8cfedc409c39",
+    "rights_state": "user_supplied_research_only_no_redistribution_assumed"
+  },
+  {
+    "source_id": "WM-09",
+    "relative_file": "templates/claims_template.csv",
+    "bytes": 1325,
+    "sha256": "30739e59a9c279f7f2a04f48712f6df620d04337501b2a3b0727223c15bc77cd",
+    "rights_state": "user_supplied_research_only_no_redistribution_assumed"
+  },
+  {
+    "source_id": "WM-10",
+    "relative_file": "templates/review_rubric.csv",
+    "bytes": 7140,
+    "sha256": "3b09dfeaa0339ad2a79cefb3ca138eba75be509d432e970a81ff81b30e5de860",
+    "rights_state": "user_supplied_research_only_no_redistribution_assumed"
+  },
+  {
+    "source_id": "WM-11",
+    "relative_file": "templates/genre_router.md",
+    "bytes": 4639,
+    "sha256": "42b75bc320e44f382e30785bad68c0126fd5178d6f4738e775b8fb37526b996c",
+    "rights_state": "user_supplied_research_only_no_redistribution_assumed"
+  },
+  {
+    "source_id": "WM-12",
+    "relative_file": "templates/evaluation_cases.md",
+    "bytes": 16429,
+    "sha256": "384845d50d6c33009c0ef585ffb54e065d18745c573813755b02a5eebbc6b6c3",
+    "rights_state": "user_supplied_research_only_no_redistribution_assumed"
+  },
+  {
+    "source_id": "WM-13",
+    "relative_file": "templates/agent_brief.md",
+    "bytes": 5718,
+    "sha256": "bb21565e3030e753cf55634557b92c3d2333785db6207db51f1956e337be493d",
+    "rights_state": "user_supplied_research_only_no_redistribution_assumed"
+  }
+]

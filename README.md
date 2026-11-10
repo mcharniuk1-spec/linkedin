@@ -2,7 +2,9 @@
 
 [Writing architecture v2](docs/LINKEDIN-WRITING-ARCHITECTURE.md) now defines fourteen publication patterns, hook-to-payoff design, claim-level evidence and reasoning, paragraph roles, endings and optional humor. [Reusable templates](docs/linkedin-writing/templates/README.md) and an [agent workflow](docs/linkedin-writing/AGENT-ROUTING.md) make the method actionable.
 
-[The ten current post structures](publications/20261110-writing-architecture/README.md) cover both November 5 draft variants, with preserved source hashes and a filled research-post example. This is a structure update for founder review. [Research, competitor coverage and limits](docs/linkedin-writing/RESEARCH-AND-REVIEW.md) distinguish official guidance, published research, the 61-account reference corpus and the three identified agencies. See the [dated execution record](reports/20261110-writing-methodology/README.md) for checks and remaining inputs.
+[The ten current post structures](publications/20261110-writing-architecture/README.md) cover both November 5 draft variants, with preserved source hashes and a filled research-post example. This is a structure update for founder review. [Research, competitor coverage and limits](docs/linkedin-writing/RESEARCH-AND-REVIEW.md) distinguish official guidance, published research, the 61-account reference corpus and the [recovered fifteen-company cohort plus two plan additions](docs/linkedin-writing/COMPETITOR-WRITING-AUDIT.md). See the [dated execution record](reports/20261110-writing-methodology/README.md) for checks and remaining inputs.
+
+[Methodology integration and skill requirements](docs/linkedin-writing/METHOD-INTEGRATION.md) · [current-post review](publications/20261110-writing-architecture/STRUCTURE-REVIEW.md) · [follow-up checks and limits](reports/20261110-writing-methodology-followup/README.md). Collectors and automations remain stopped under the owner’s 6 November instruction.
 
 ## Current data and publication update — 5 November 2026
 

@@ -1,0 +1,966 @@
+{
+  "schema": "outspoken.competitor-writing-audit.v1",
+  "verified_on": "2026-11-10",
+  "purpose": "Complete company identity/coverage and bounded editorial-method comparison; not a social performance ranking.",
+  "workbook_identity": {
+    "title": "M2 LinkedIn competitor workbook — English knowledge edition",
+    "sha256": "906da6a25a0b57e6aa1d2f544178700040bb5922f854a9cd9665875a8634e5a8",
+    "source_checked_date": "2026-10-17",
+    "translation_date": "2026-10-19",
+    "sheet_count": 21,
+    "company_sheet_count": 15,
+    "comparison_rows": 15,
+    "materials_rows": 54,
+    "pricing_rows": 47,
+    "social_locator_rows": 42,
+    "source_rows": 192,
+    "non_company_sheet_count": 6,
+    "readme_sheet_count": 1,
+    "auxiliary_data_table_count": 5,
+    "total_data_table_count_excluding_readme": 20,
+    "counting_note": "21 worksheets:15 company sheets,5 auxiliary data tables and1 Read me sheet. The20-table description excludes Read me.",
+    "xml_row_verification": {
+      "Social": {
+        "xml_row_count": 45,
+        "header_rows": [
+          1,
+          2,
+          3
+        ],
+        "data_rows": 42,
+        "data_xml_first_row": 4,
+        "data_xml_last_row": 45,
+        "unique_row_identifiers": 42,
+        "nonempty_urls": 42,
+        "unique_urls": 42
+      },
+      "Sources": {
+        "xml_row_count": 195,
+        "header_rows": [
+          1,
+          2,
+          3
+        ],
+        "data_rows": 192,
+        "data_xml_first_row": 4,
+        "data_xml_last_row": 195,
+        "unique_row_identifiers": 192,
+        "nonempty_urls": 192,
+        "unique_urls": 192
+      }
+    }
+  },
+  "expected_original_companies": [
+    "Notus",
+    "Inkiro",
+    "Hat Tip",
+    "Windmill Growth",
+    "Stop The Scroll",
+    "Kurogo",
+    "storyarb",
+    "Understory",
+    "Rallyup",
+    "Concurate",
+    "Linkedist",
+    "Compound Content Studio",
+    "Shake Content",
+    "Contender Creative",
+    "Hivemind Marketing"
+  ],
+  "plan_only_additions": [
+    "Cleverly",
+    "Belkins"
+  ],
+  "supplemental_baseline_company": {
+    "company": "SalesBread",
+    "status": "Separate supplemental source in the baseline method; not a member of the original15 and not re-opened in this bounded pass.",
+    "url": "https://salesbread.com/"
+  },
+  "current_review_counts": {
+    "companies": 17,
+    "official_page_opens": 18,
+    "new_linkedin_post_reads": 0
+  },
+  "source_access_gaps": [
+    "The three older JSON source files were marked compressed,dataless and exceeded a bounded5-second read each. The resident English workbook provided complete identity/table recovery.",
+    "Current review uses selected extracted official-page passages; some resources, images, videos and page sections remain uninspected.",
+    "Saved workbook social locators are historical, not proof of current identity or live access."
+  ],
+  "rows": [
+    {
+      "id": "CW-01",
+      "company": "Notus",
+      "cohort": "original_workbook_15",
+      "cohort_source": "English competitor workbook, Comparison and company sheets",
+      "original_comparison_row": "6",
+      "historical_observation_date": "2026-10-17",
+      "historical_english_edition_date": "2026-10-19",
+      "official_website": "https://www.notus.xyz/",
+      "accessed_on": "2026-11-10",
+      "current_access_status": "selected_official_page_text_inspected",
+      "current_sources": [
+        {
+          "url": "https://www.notus.xyz/",
+          "publisher": "Notus",
+          "source_type": "official_homepage",
+          "access_scope": "selected extracted text; not a full website or social-post audit",
+          "accessed_on": "2026-11-10",
+          "publication_date": "not_established"
+        }
+      ],
+      "historical_method_source_records": [
+        {
+          "id": "S005",
+          "url": "https://www.notus.xyz/service",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        }
+      ],
+      "company_linkedin_locators": [
+        "https://www.linkedin.com/company/notusxyz"
+      ],
+      "social_locator_status": "historical_workbook_locator_not_currently_revalidated",
+      "actual_social_posts_newly_read": 0,
+      "evidence_level": "first_party_marketing_or_process_description; historical_translated_workbook_context; no_new_social_post_close_reading",
+      "message_angle": "Stories and expertise for B2B founders and executives.",
+      "hook_structure": "Aspirational story promise, then audience and business purpose.",
+      "argument_story_structure": "Expertise → personal-brand narrative → offered content/community program.",
+      "proof_presentation": "Client testimonials and attributed outcome cards; not independently audited.",
+      "cta": "Work with us.",
+      "reusable_editorial_lesson": "Connect each story to a reader and a professional purpose.",
+      "do_not_infer": "Promotional attention-to-demand language does not prove a writing structure causes sales.",
+      "open_gaps": [
+        "No newly inspected original LinkedIn posts or media.",
+        "No independent causal or representative client-outcome validation."
+      ]
+    },
+    {
+      "id": "CW-02",
+      "company": "Inkiro",
+      "cohort": "original_workbook_15",
+      "cohort_source": "English competitor workbook, Comparison and company sheets",
+      "original_comparison_row": "7",
+      "historical_observation_date": "2026-10-17",
+      "historical_english_edition_date": "2026-10-19",
+      "official_website": "https://www.inkiro.com/",
+      "accessed_on": "2026-11-10",
+      "current_access_status": "selected_official_page_text_inspected",
+      "current_sources": [
+        {
+          "url": "https://www.inkiro.com/",
+          "publisher": "Inkiro",
+          "source_type": "official_homepage",
+          "access_scope": "selected extracted text; not a full website or social-post audit",
+          "accessed_on": "2026-11-10",
+          "publication_date": "not_established"
+        }
+      ],
+      "historical_method_source_records": [
+        {
+          "id": "S019",
+          "url": "https://www.inkiro.com/",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        }
+      ],
+      "company_linkedin_locators": [
+        "https://www.linkedin.com/company/inkiro"
+      ],
+      "social_locator_status": "historical_workbook_locator_not_currently_revalidated",
+      "actual_social_posts_newly_read": 0,
+      "evidence_level": "first_party_marketing_or_process_description; historical_translated_workbook_context; no_new_social_post_close_reading",
+      "message_angle": "Founder journey, experience and audience-first content.",
+      "hook_structure": "An inclusive founder-story premise leads into a specific collaboration model.",
+      "argument_story_structure": "Founder source material and team context → audience perspective → content production/review.",
+      "proof_presentation": "Testimonials, selected client stories and analytics excerpts.",
+      "cta": "Work with us.",
+      "reusable_editorial_lesson": "Separate the founder’s raw thinking from the buyer-facing interpretation; retain source confirmation.",
+      "do_not_infer": "Selected cases and displayed analytics cannot establish typical, causal or repeatable performance.",
+      "open_gaps": [
+        "No newly inspected original LinkedIn posts or media.",
+        "No independent causal or representative client-outcome validation."
+      ]
+    },
+    {
+      "id": "CW-03",
+      "company": "Hat Tip",
+      "cohort": "original_workbook_15",
+      "cohort_source": "English competitor workbook, Comparison and company sheets",
+      "original_comparison_row": "8",
+      "historical_observation_date": "2026-10-17",
+      "historical_english_edition_date": "2026-10-19",
+      "official_website": "https://tryhattip.com/",
+      "accessed_on": "2026-11-10",
+      "current_access_status": "selected_official_page_text_inspected",
+      "current_sources": [
+        {
+          "url": "https://tryhattip.com/",
+          "publisher": "Hat Tip",
+          "source_type": "official_homepage",
+          "access_scope": "selected extracted text; not a full website or social-post audit",
+          "accessed_on": "2026-11-10",
+          "publication_date": "not_established"
+        },
+        {
+          "url": "https://tryhattip.com/cases/ammo",
+          "publisher": "Hat Tip",
+          "source_type": "provider_authored_case",
+          "access_scope": "selected extracted text; not a full website or social-post audit",
+          "accessed_on": "2026-11-10",
+          "publication_date": "not_established"
+        }
+      ],
+      "historical_method_source_records": [
+        {
+          "id": "S034",
+          "url": "https://tryhattip.com/cases/teamble.html",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        }
+      ],
+      "company_linkedin_locators": [
+        "https://www.linkedin.com/company/hat-tip-social"
+      ],
+      "social_locator_status": "historical_workbook_locator_not_currently_revalidated",
+      "actual_social_posts_newly_read": 0,
+      "evidence_level": "first_party_marketing_or_process_description; historical_translated_workbook_context; no_new_social_post_close_reading",
+      "message_angle": "Founder brand and a transparent content partnership.",
+      "hook_structure": "Case narrative starts with a founder’s inactive channel and stated need.",
+      "argument_story_structure": "Content buckets → custom prompts/interview transcript → draft → weekly founder review.",
+      "proof_presentation": "Provider-authored Ammo case combines outcome figures with publishing and network activity.",
+      "cta": "Book a call.",
+      "reusable_editorial_lesson": "Use distinct reader jobs as interview buckets; preserve an explicit author-approval checkpoint.",
+      "do_not_infer": "Reported case results cannot isolate the writing method from distribution and connection activity.",
+      "open_gaps": [
+        "No newly inspected original LinkedIn posts or media.",
+        "No independent causal or representative client-outcome validation."
+      ]
+    },
+    {
+      "id": "CW-04",
+      "company": "Windmill Growth",
+      "cohort": "original_workbook_15",
+      "cohort_source": "English competitor workbook, Comparison and company sheets",
+      "original_comparison_row": "9",
+      "historical_observation_date": "2026-10-17",
+      "historical_english_edition_date": "2026-10-19",
+      "official_website": "https://windmillgrowth.com/",
+      "accessed_on": "2026-11-10",
+      "current_access_status": "selected_official_page_text_inspected",
+      "current_sources": [
+        {
+          "url": "https://windmillgrowth.com/",
+          "publisher": "Windmill Growth",
+          "source_type": "official_homepage",
+          "access_scope": "selected extracted text; not a full website or social-post audit",
+          "accessed_on": "2026-11-10",
+          "publication_date": "not_established"
+        }
+      ],
+      "historical_method_source_records": [
+        {
+          "id": "S047",
+          "url": "https://windmillgrowth.com/founder-os",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        }
+      ],
+      "company_linkedin_locators": [
+        "https://www.linkedin.com/company/windmill-growth/"
+      ],
+      "social_locator_status": "historical_workbook_locator_not_currently_revalidated",
+      "actual_social_posts_newly_read": 0,
+      "evidence_level": "first_party_marketing_or_process_description; historical_translated_workbook_context; no_new_social_post_close_reading",
+      "message_angle": "Founder voice and a managed LinkedIn program.",
+      "hook_structure": "Recognisable generic-writing parody creates contrast with voice-specific work.",
+      "argument_story_structure": "Founder input → writer/market context → content and broader channel service.",
+      "proof_presentation": "Selected client cases, attributed results and social-proof cards.",
+      "cta": "Book a strategy call.",
+      "reusable_editorial_lesson": "Use the founder’s actual decisions and vocabulary to produce original writing; an illustrative parody must stay labelled.",
+      "do_not_infer": "Claims about AI detection, revenue or filled calendars are marketing, not validated editorial rules.",
+      "open_gaps": [
+        "No newly inspected original LinkedIn posts or media.",
+        "No independent causal or representative client-outcome validation."
+      ]
+    },
+    {
+      "id": "CW-05",
+      "company": "Stop The Scroll",
+      "cohort": "original_workbook_15",
+      "cohort_source": "English competitor workbook, Comparison and company sheets",
+      "original_comparison_row": "10",
+      "historical_observation_date": "2026-10-17",
+      "historical_english_edition_date": "2026-10-19",
+      "official_website": "https://www.stopthescroll.io/",
+      "accessed_on": "2026-11-10",
+      "current_access_status": "selected_official_page_text_inspected",
+      "current_sources": [
+        {
+          "url": "https://www.stopthescroll.io/",
+          "publisher": "Stop The Scroll",
+          "source_type": "official_homepage",
+          "access_scope": "selected extracted text; not a full website or social-post audit",
+          "accessed_on": "2026-11-10",
+          "publication_date": "not_established"
+        }
+      ],
+      "historical_method_source_records": [
+        {
+          "id": "S063",
+          "url": "https://www.stopthescroll.io/process",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        }
+      ],
+      "company_linkedin_locators": [
+        "https://www.linkedin.com/company/stopthescroll-io/"
+      ],
+      "social_locator_status": "historical_workbook_locator_not_currently_revalidated",
+      "actual_social_posts_newly_read": 0,
+      "evidence_level": "first_party_marketing_or_process_description; historical_translated_workbook_context; no_new_social_post_close_reading",
+      "message_angle": "LinkedIn strategy and execution for B2B founders and executives.",
+      "hook_structure": "A clear service category is followed by familiar constraints and a named process.",
+      "argument_story_structure": "Onboard/voice calibration → draft → approve → distribute.",
+      "proof_presentation": "Anonymised examples and provider-reported results; demonstration posts are not independently authenticated here.",
+      "cta": "Book an intro call or inspect pricing.",
+      "reusable_editorial_lesson": "Map each post to a buyer problem and make caption/panel proof and review responsibilities explicit.",
+      "do_not_infer": "Website examples and paid amplification cannot establish organic writing causality or validated buyer response.",
+      "open_gaps": [
+        "No newly inspected original LinkedIn posts or media.",
+        "No independent causal or representative client-outcome validation."
+      ]
+    },
+    {
+      "id": "CW-06",
+      "company": "Kurogo",
+      "cohort": "original_workbook_15",
+      "cohort_source": "English competitor workbook, Comparison and company sheets",
+      "original_comparison_row": "11",
+      "historical_observation_date": "2026-10-17",
+      "historical_english_edition_date": "2026-10-19",
+      "official_website": "https://www.kurogo.co.uk/",
+      "accessed_on": "2026-11-10",
+      "current_access_status": "selected_official_page_text_inspected",
+      "current_sources": [
+        {
+          "url": "https://www.kurogo.co.uk/",
+          "publisher": "Kurogo",
+          "source_type": "official_homepage",
+          "access_scope": "selected extracted text; not a full website or social-post audit",
+          "accessed_on": "2026-11-10",
+          "publication_date": "not_established"
+        }
+      ],
+      "historical_method_source_records": [
+        {
+          "id": "S074",
+          "url": "https://www.kurogo.co.uk/our-process",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        }
+      ],
+      "company_linkedin_locators": [
+        "https://www.linkedin.com/company/kurogo-personal-branding/"
+      ],
+      "social_locator_status": "historical_workbook_locator_not_currently_revalidated",
+      "actual_social_posts_newly_read": 0,
+      "evidence_level": "first_party_marketing_or_process_description; historical_translated_workbook_context; no_new_social_post_close_reading",
+      "message_angle": "Expertise, authority and business opportunity.",
+      "hook_structure": "Authority proposition followed by assessment and consultation choices.",
+      "argument_story_structure": "Identify audience and positioning → communicate expertise → consider opportunity.",
+      "proof_presentation": "Client result cards, testimonials and broad promotional statistics.",
+      "cta": "Take an authority assessment or talk to the team.",
+      "reusable_editorial_lesson": "Write the intended reader and positioning before selecting a post angle.",
+      "do_not_infer": "Authority, reach and opportunity are distinct; broad statistics and selected cases are not a causal content formula.",
+      "open_gaps": [
+        "No newly inspected original LinkedIn posts or media.",
+        "No independent causal or representative client-outcome validation."
+      ]
+    },
+    {
+      "id": "CW-07",
+      "company": "storyarb",
+      "cohort": "original_workbook_15",
+      "cohort_source": "English competitor workbook, Comparison and company sheets",
+      "original_comparison_row": "12",
+      "historical_observation_date": "2026-10-17",
+      "historical_english_edition_date": "2026-10-19",
+      "official_website": "https://www.storyarb.com/",
+      "accessed_on": "2026-11-10",
+      "current_access_status": "selected_official_page_text_inspected",
+      "current_sources": [
+        {
+          "url": "https://www.storyarb.com/",
+          "publisher": "storyarb",
+          "source_type": "official_homepage",
+          "access_scope": "selected extracted text; not a full website or social-post audit",
+          "accessed_on": "2026-11-10",
+          "publication_date": "not_established"
+        }
+      ],
+      "historical_method_source_records": [
+        {
+          "id": "S083",
+          "url": "https://www.storyarb.com/",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        },
+        {
+          "id": "S086",
+          "url": "https://www.storyarb.com/how-it-works",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        }
+      ],
+      "company_linkedin_locators": [
+        "https://www.linkedin.com/company/storyarb"
+      ],
+      "social_locator_status": "historical_workbook_locator_not_currently_revalidated",
+      "actual_social_posts_newly_read": 0,
+      "evidence_level": "first_party_marketing_or_process_description; historical_translated_workbook_context; no_new_social_post_close_reading",
+      "message_angle": "Expert-led B2B stories and connected content.",
+      "hook_structure": "Story/trust promise moves to specific marketing-team pains.",
+      "argument_story_structure": "SME knowledge → buyer-focused insight → connected original story/content treatment.",
+      "proof_presentation": "Provider-authored cases and client testimonials, including pipeline-oriented claims.",
+      "cta": "Work with us; separate subscription path.",
+      "reusable_editorial_lesson": "Interview the expert for the actual insight; adapt a source idea to a channel’s reader job without copying source prose.",
+      "do_not_infer": "Connected channels and pipeline claims do not prove any hook or story structure works on LinkedIn.",
+      "open_gaps": [
+        "No newly inspected original LinkedIn posts or media.",
+        "No independent causal or representative client-outcome validation."
+      ]
+    },
+    {
+      "id": "CW-08",
+      "company": "Understory",
+      "cohort": "original_workbook_15",
+      "cohort_source": "English competitor workbook, Comparison and company sheets",
+      "original_comparison_row": "13",
+      "historical_observation_date": "2026-10-17",
+      "historical_english_edition_date": "2026-10-19",
+      "official_website": "https://www.understoryagency.com/",
+      "accessed_on": "2026-11-10",
+      "current_access_status": "selected_official_page_text_inspected",
+      "current_sources": [
+        {
+          "url": "https://www.understoryagency.com/",
+          "publisher": "Understory",
+          "source_type": "official_homepage",
+          "access_scope": "selected extracted text; not a full website or social-post audit",
+          "accessed_on": "2026-11-10",
+          "publication_date": "not_established"
+        }
+      ],
+      "historical_method_source_records": [
+        {
+          "id": "S100",
+          "url": "https://www.understoryagency.com/",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        },
+        {
+          "id": "S097",
+          "url": "https://www.understoryagency.com/linkedin-content",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        },
+        {
+          "id": "S101",
+          "url": "https://www.understoryagency.com/blog/train-claude-code-agent-client-historical-data",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        }
+      ],
+      "company_linkedin_locators": [
+        "https://www.linkedin.com/company/understory-agency/"
+      ],
+      "social_locator_status": "historical_workbook_locator_not_currently_revalidated",
+      "actual_social_posts_newly_read": 0,
+      "evidence_level": "first_party_marketing_or_process_description; historical_translated_workbook_context; no_new_social_post_close_reading",
+      "message_angle": "Allbound growth for B2B SaaS, with executive LinkedIn as one service.",
+      "hook_structure": "Broad growth category narrows through service and case navigation.",
+      "argument_story_structure": "Shared ICP/message across content and other GTM work; homepage points to playbooks and founder-post resources.",
+      "proof_presentation": "Multi-channel cases, testimonials and selected operational numbers.",
+      "cta": "Book a call.",
+      "reusable_editorial_lesson": "Keep a consistent buyer question and terminology across related content; show the steps behind a claim.",
+      "do_not_infer": "Allbound case results cannot be attributed solely to organic founder posts; linked post resources were not opened.",
+      "open_gaps": [
+        "No newly inspected original LinkedIn posts or media.",
+        "No independent causal or representative client-outcome validation."
+      ]
+    },
+    {
+      "id": "CW-09",
+      "company": "Rallyup",
+      "cohort": "original_workbook_15",
+      "cohort_source": "English competitor workbook, Comparison and company sheets",
+      "original_comparison_row": "14",
+      "historical_observation_date": "2026-10-17",
+      "historical_english_edition_date": "2026-10-19",
+      "official_website": "https://www.rallyup.team/",
+      "accessed_on": "2026-11-10",
+      "current_access_status": "selected_official_page_text_inspected",
+      "current_sources": [
+        {
+          "url": "https://www.rallyup.team/",
+          "publisher": "Rallyup",
+          "source_type": "official_homepage",
+          "access_scope": "selected extracted text; not a full website or social-post audit",
+          "accessed_on": "2026-11-10",
+          "publication_date": "not_established"
+        }
+      ],
+      "historical_method_source_records": [
+        {
+          "id": "S108",
+          "url": "https://www.rallyup.team/",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        }
+      ],
+      "company_linkedin_locators": [
+        "https://www.linkedin.com/company/rallyupinc"
+      ],
+      "social_locator_status": "historical_workbook_locator_not_currently_revalidated",
+      "actual_social_posts_newly_read": 0,
+      "evidence_level": "first_party_marketing_or_process_description; historical_translated_workbook_context; no_new_social_post_close_reading",
+      "message_angle": "Executive audience building using lived experience and a real voice.",
+      "hook_structure": "Executive absence/time constraints lead into an end-to-end audience proposition.",
+      "argument_story_structure": "Executive/company/market source review → niche study → draft → weekly approval → review results.",
+      "proof_presentation": "Attributed first-post stories and promotional performance promises.",
+      "cta": "See if you qualify.",
+      "reusable_editorial_lesson": "Build a bounded source/voice brief and require author control over each draft.",
+      "do_not_infer": "Pre-validated hooks, algorithm rewards and performance promises are provider assertions, not independently established writing rules.",
+      "open_gaps": [
+        "No newly inspected original LinkedIn posts or media.",
+        "No independent causal or representative client-outcome validation."
+      ]
+    },
+    {
+      "id": "CW-10",
+      "company": "Concurate",
+      "cohort": "original_workbook_15",
+      "cohort_source": "English competitor workbook, Comparison and company sheets",
+      "original_comparison_row": "15",
+      "historical_observation_date": "2026-10-17",
+      "historical_english_edition_date": "2026-10-19",
+      "official_website": "https://concurate.com/",
+      "accessed_on": "2026-11-10",
+      "current_access_status": "selected_official_page_text_inspected",
+      "current_sources": [
+        {
+          "url": "https://concurate.com/",
+          "publisher": "Concurate",
+          "source_type": "official_homepage",
+          "access_scope": "selected extracted text; not a full website or social-post audit",
+          "accessed_on": "2026-11-10",
+          "publication_date": "not_established"
+        }
+      ],
+      "historical_method_source_records": [
+        {
+          "id": "S117",
+          "url": "https://concurate.com/",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        },
+        {
+          "id": "S125",
+          "url": "https://www.linkedin.com/posts/aditi-syal-copywriter_geo-theperfectmatch-concurate-activity-7459783394663510016-0UKk",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        }
+      ],
+      "company_linkedin_locators": [
+        "https://in.linkedin.com/company/concurate"
+      ],
+      "social_locator_status": "historical_workbook_locator_not_currently_revalidated",
+      "actual_social_posts_newly_read": 0,
+      "evidence_level": "first_party_marketing_or_process_description; historical_translated_workbook_context; no_new_social_post_close_reading",
+      "message_angle": "B2B SaaS content spanning search, AI discovery and founder writing.",
+      "hook_structure": "A clear discovery outcome leads into sector relevance, cases and services.",
+      "argument_story_structure": "Business/source understanding and research → contextual expert narrative → channel-specific content.",
+      "proof_presentation": "Client testimonials and case cards across several marketing channels.",
+      "cta": "Book a call or read cases.",
+      "reusable_editorial_lesson": "Use buyer questions and product context to choose what an expert story must explain.",
+      "do_not_infer": "Search rankings, SaaS outcomes and cross-channel testimonials do not establish LinkedIn post effectiveness.",
+      "open_gaps": [
+        "No newly inspected original LinkedIn posts or media.",
+        "No independent causal or representative client-outcome validation."
+      ]
+    },
+    {
+      "id": "CW-11",
+      "company": "Linkedist",
+      "cohort": "original_workbook_15",
+      "cohort_source": "English competitor workbook, Comparison and company sheets",
+      "original_comparison_row": "16",
+      "historical_observation_date": "2026-10-17",
+      "historical_english_edition_date": "2026-10-19",
+      "official_website": "https://www.linkedist.com/",
+      "accessed_on": "2026-11-10",
+      "current_access_status": "selected_official_page_text_inspected",
+      "current_sources": [
+        {
+          "url": "https://www.linkedist.com/",
+          "publisher": "Linkedist",
+          "source_type": "official_homepage",
+          "access_scope": "selected extracted text; not a full website or social-post audit",
+          "accessed_on": "2026-11-10",
+          "publication_date": "not_established"
+        }
+      ],
+      "historical_method_source_records": [
+        {
+          "id": "S132",
+          "url": "https://www.linkedist.com/services/personal-branding",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        },
+        {
+          "id": "S137",
+          "url": "https://www.linkedist.com/blog/who-should-optimize-your-linkedin-profile-a-decision-framework-for-2026",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        },
+        {
+          "id": "S139",
+          "url": "https://www.linkedist.com/linkedin-review",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        }
+      ],
+      "company_linkedin_locators": [
+        "https://www.linkedin.com/company/linkedist/"
+      ],
+      "social_locator_status": "historical_workbook_locator_not_currently_revalidated",
+      "actual_social_posts_newly_read": 0,
+      "evidence_level": "first_party_marketing_or_process_description; historical_translated_workbook_context; no_new_social_post_close_reading",
+      "message_angle": "LinkedIn marketing plus AI-search services for brands.",
+      "hook_structure": "A category/visibility proposition leads to a menu of distinct services.",
+      "argument_story_structure": "Content creation, personal branding, audit, employee advocacy and paid activity are separate options.",
+      "proof_presentation": "Brand logos and selected growth-case navigation.",
+      "cta": "Contact us; profile-tool path.",
+      "reusable_editorial_lesson": "Align the individual post with the author’s profile positioning while distinguishing content, profile and paid jobs.",
+      "do_not_infer": "Broad visibility/engagement claims do not verify a caption formula, AI-search outcome or founder-content effect.",
+      "open_gaps": [
+        "No newly inspected original LinkedIn posts or media.",
+        "No independent causal or representative client-outcome validation."
+      ]
+    },
+    {
+      "id": "CW-12",
+      "company": "Compound Content Studio",
+      "cohort": "original_workbook_15",
+      "cohort_source": "English competitor workbook, Comparison and company sheets",
+      "original_comparison_row": "17",
+      "historical_observation_date": "2026-10-17",
+      "historical_english_edition_date": "2026-10-19",
+      "official_website": "https://www.compoundcontentstudio.com/",
+      "accessed_on": "2026-11-10",
+      "current_access_status": "selected_official_page_text_inspected",
+      "current_sources": [
+        {
+          "url": "https://www.compoundcontentstudio.com/",
+          "publisher": "Compound Content Studio",
+          "source_type": "official_homepage",
+          "access_scope": "selected extracted text; not a full website or social-post audit",
+          "accessed_on": "2026-11-10",
+          "publication_date": "not_established"
+        }
+      ],
+      "historical_method_source_records": [
+        {
+          "id": "S144",
+          "url": "https://www.compoundcontentstudio.com/",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        },
+        {
+          "id": "S145",
+          "url": "https://www.readsocialfiles.com/p/the-ceo-content-engine",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        }
+      ],
+      "company_linkedin_locators": [
+        "https://www.linkedin.com/company/compoundcontent"
+      ],
+      "social_locator_status": "historical_workbook_locator_not_currently_revalidated",
+      "actual_social_posts_newly_read": 0,
+      "evidence_level": "first_party_marketing_or_process_description; historical_translated_workbook_context; no_new_social_post_close_reading",
+      "message_angle": "Founder-led and social-first B2B demand generation.",
+      "hook_structure": "An old/new comparison creates a case for a dedicated content team.",
+      "argument_story_structure": "Strategy/audit → interview → production across founder/company/employee accounts → reporting.",
+      "proof_presentation": "Client testimonials and described service scope.",
+      "cta": "Join the waitlist or contact the team.",
+      "reusable_editorial_lesson": "Assign each account a distinct author/purpose; source founder insights before repurposing.",
+      "do_not_infer": "Dated 2024/2025 language is visible; neither current capacity nor algorithm claims are independently confirmed.",
+      "open_gaps": [
+        "No newly inspected original LinkedIn posts or media.",
+        "No independent causal or representative client-outcome validation."
+      ]
+    },
+    {
+      "id": "CW-13",
+      "company": "Shake Content",
+      "cohort": "original_workbook_15",
+      "cohort_source": "English competitor workbook, Comparison and company sheets",
+      "original_comparison_row": "18",
+      "historical_observation_date": "2026-10-17",
+      "historical_english_edition_date": "2026-10-19",
+      "official_website": "https://www.shakecontent.com/",
+      "accessed_on": "2026-11-10",
+      "current_access_status": "selected_official_page_text_inspected",
+      "current_sources": [
+        {
+          "url": "https://www.shakecontent.com/",
+          "publisher": "Shake Content",
+          "source_type": "official_homepage",
+          "access_scope": "selected extracted text; not a full website or social-post audit",
+          "accessed_on": "2026-11-10",
+          "publication_date": "not_established"
+        }
+      ],
+      "historical_method_source_records": [
+        {
+          "id": "S160",
+          "url": "https://www.shakecontent.com/insights/the-crit-method-building-a-linkedin-content-engine-for-b2b-founders",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        },
+        {
+          "id": "S154",
+          "url": "https://www.shakecontent.com/frequently-asked-questions-shake-content",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        },
+        {
+          "id": "S161",
+          "url": "https://www.shakecontent.com/blog-home-page-shake-content",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        }
+      ],
+      "company_linkedin_locators": [
+        "https://uk.linkedin.com/company/shake-content"
+      ],
+      "social_locator_status": "historical_workbook_locator_not_currently_revalidated",
+      "actual_social_posts_newly_read": 0,
+      "evidence_level": "first_party_marketing_or_process_description; historical_translated_workbook_context; no_new_social_post_close_reading",
+      "message_angle": "Story-led LinkedIn strategy, creative and commercial relevance.",
+      "hook_structure": "Category claim gives way to cases, service roles and contextual writing.",
+      "argument_story_structure": "Audience insight → purposeful story/copy → creative/channel treatment → test-and-learn proposition.",
+      "proof_presentation": "Provider case metrics and client testimonials.",
+      "cta": "Get in touch.",
+      "reusable_editorial_lesson": "Require context, raw source material, the author’s insight and a useful reader implication; treat the older named CRIT method as historical.",
+      "do_not_infer": "The CRIT label was not found in the selected current homepage passages; outcome and video-attention claims remain promotional.",
+      "open_gaps": [
+        "No newly inspected original LinkedIn posts or media.",
+        "No independent causal or representative client-outcome validation."
+      ]
+    },
+    {
+      "id": "CW-14",
+      "company": "Contender Creative",
+      "cohort": "original_workbook_15",
+      "cohort_source": "English competitor workbook, Comparison and company sheets",
+      "original_comparison_row": "19",
+      "historical_observation_date": "2026-10-17",
+      "historical_english_edition_date": "2026-10-19",
+      "official_website": "https://www.contendercreative.com/",
+      "accessed_on": "2026-11-10",
+      "current_access_status": "selected_official_page_text_inspected",
+      "current_sources": [
+        {
+          "url": "https://www.contendercreative.com/",
+          "publisher": "Contender Creative",
+          "source_type": "official_homepage",
+          "access_scope": "selected extracted text; not a full website or social-post audit",
+          "accessed_on": "2026-11-10",
+          "publication_date": "not_established"
+        }
+      ],
+      "historical_method_source_records": [
+        {
+          "id": "S176",
+          "url": "https://www.contendercreative.com/services/ghostwriting",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        },
+        {
+          "id": "S171",
+          "url": "https://www.contendercreative.com/",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        },
+        {
+          "id": "S173",
+          "url": "https://blusharkdigital.com/building-a-magnetic-legal-brand-on-linkedin",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        }
+      ],
+      "company_linkedin_locators": [
+        "https://www.linkedin.com/company/contendercreativellc/"
+      ],
+      "social_locator_status": "historical_workbook_locator_not_currently_revalidated",
+      "actual_social_posts_newly_read": 0,
+      "evidence_level": "first_party_marketing_or_process_description; historical_translated_workbook_context; no_new_social_post_close_reading",
+      "message_angle": "LinkedIn presence for legal professionals and firms.",
+      "hook_structure": "Niche-specific competitive tension leads into expertise and stories.",
+      "argument_story_structure": "Personal branding → positioning → posting; an interview and draft-review service is described.",
+      "proof_presentation": "A named client testimonial and before/after service comparison.",
+      "cta": "Apply now; newsletter for readers not ready to hire.",
+      "reusable_editorial_lesson": "State who the author serves and turn actual expertise into a relevant, bounded story.",
+      "do_not_infer": "Legal-industry experience and overnight-traction language do not transfer as validated AI-SaaS buyer effects.",
+      "open_gaps": [
+        "No newly inspected original LinkedIn posts or media.",
+        "No independent causal or representative client-outcome validation."
+      ]
+    },
+    {
+      "id": "CW-15",
+      "company": "Hivemind Marketing",
+      "cohort": "original_workbook_15",
+      "cohort_source": "English competitor workbook, Comparison and company sheets",
+      "original_comparison_row": "20",
+      "historical_observation_date": "2026-10-17",
+      "historical_english_edition_date": "2026-10-19",
+      "official_website": "https://hivemind.marketing/",
+      "accessed_on": "2026-11-10",
+      "current_access_status": "selected_official_page_text_inspected",
+      "current_sources": [
+        {
+          "url": "https://hivemind.marketing/",
+          "publisher": "Hivemind Marketing",
+          "source_type": "official_homepage",
+          "access_scope": "selected extracted text; not a full website or social-post audit",
+          "accessed_on": "2026-11-10",
+          "publication_date": "not_established"
+        }
+      ],
+      "historical_method_source_records": [
+        {
+          "id": "S182",
+          "url": "https://hivemind.marketing/",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        },
+        {
+          "id": "S185",
+          "url": "https://www.linkedin.com/posts/hphokou_treat-linkedin-like-radio-to-win-activity-7434870343120502784-ywfw",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        },
+        {
+          "id": "S184",
+          "url": "https://www.linkedin.com/company/hivemind-marketing",
+          "status": "workbook_recorded_not_reopened_in_this_pass",
+          "recorded_checked_date": "2026-10-17"
+        }
+      ],
+      "company_linkedin_locators": [
+        "https://www.linkedin.com/company/hivemind-marketing"
+      ],
+      "social_locator_status": "historical_workbook_locator_not_currently_revalidated",
+      "actual_social_posts_newly_read": 0,
+      "evidence_level": "first_party_marketing_or_process_description; historical_translated_workbook_context; no_new_social_post_close_reading",
+      "message_angle": "LinkedIn and conversations for founder-led B2B games companies.",
+      "hook_structure": "A niche-specific deal-flow promise is followed by fit/non-fit criteria and a self-interview resource.",
+      "argument_story_structure": "Source input and self-interview proposition → content program → broader conference/outbound ecosystem.",
+      "proof_presentation": "Provider-written success story and attributed testimonial/result presentation.",
+      "cta": "Request a growth audit or self-interview resource.",
+      "reusable_editorial_lesson": "Use source interview questions and explicit fit conditions; distinguish trust-building content from an offer.",
+      "do_not_infer": "Historical 70/20/10 allocation is not causal evidence or a required mix; animated zero counters are not usable metrics.",
+      "open_gaps": [
+        "No newly inspected original LinkedIn posts or media.",
+        "No independent causal or representative client-outcome validation."
+      ]
+    },
+    {
+      "id": "CW-16",
+      "company": "Cleverly",
+      "cohort": "plan_only_addition",
+      "cohort_source": "10 November launch artifact and Plane A1/OUTSP-9",
+      "original_comparison_row": null,
+      "historical_observation_date": null,
+      "historical_english_edition_date": null,
+      "official_website": "https://www.cleverly.co/",
+      "accessed_on": "2026-11-10",
+      "current_access_status": "selected_official_page_text_inspected",
+      "current_sources": [
+        {
+          "url": "https://www.cleverly.co/",
+          "publisher": "Cleverly",
+          "source_type": "official_homepage",
+          "access_scope": "selected extracted text; not a full website or social-post audit",
+          "accessed_on": "2026-11-10",
+          "publication_date": "not_established"
+        }
+      ],
+      "historical_method_source_records": [],
+      "company_linkedin_locators": [],
+      "social_locator_status": "not_recovered_in_this_scope",
+      "actual_social_posts_newly_read": 0,
+      "evidence_level": "first_party_marketing_or_process_description; historical_translated_workbook_context; no_new_social_post_close_reading",
+      "message_angle": "Omnichannel B2B lead generation, an adjacent service.",
+      "hook_structure": "Lead-generation category and stated commercial outcomes lead into proof and consultation.",
+      "argument_story_structure": "Targeting/research → personalised outreach copy → lead-generation service.",
+      "proof_presentation": "Provider-authored case descriptions, testimonial/review material and promotional totals.",
+      "cta": "Free consultation.",
+      "reusable_editorial_lesson": "Transfer reader-specific research and concrete problem framing only.",
+      "do_not_infer": "Outreach results do not establish organic founder-content effectiveness; do not import account-operation practices.",
+      "open_gaps": [
+        "No newly inspected original LinkedIn posts or media.",
+        "No independent causal or representative client-outcome validation."
+      ]
+    },
+    {
+      "id": "CW-17",
+      "company": "Belkins",
+      "cohort": "plan_only_addition",
+      "cohort_source": "10 November launch artifact and Plane A1/OUTSP-9",
+      "original_comparison_row": null,
+      "historical_observation_date": null,
+      "historical_english_edition_date": null,
+      "official_website": "https://belkins.io/",
+      "accessed_on": "2026-11-10",
+      "current_access_status": "selected_official_page_text_inspected",
+      "current_sources": [
+        {
+          "url": "https://belkins.io/",
+          "publisher": "Belkins",
+          "source_type": "official_homepage",
+          "access_scope": "selected extracted text; not a full website or social-post audit",
+          "accessed_on": "2026-11-10",
+          "publication_date": "not_established"
+        }
+      ],
+      "historical_method_source_records": [],
+      "company_linkedin_locators": [],
+      "social_locator_status": "not_recovered_in_this_scope",
+      "actual_social_posts_newly_read": 0,
+      "evidence_level": "first_party_marketing_or_process_description; historical_translated_workbook_context; no_new_social_post_close_reading",
+      "message_angle": "Omnichannel B2B appointments and pipeline, an adjacent service.",
+      "hook_structure": "Commercial promise is followed by explicit sales-team problems and service choices.",
+      "argument_story_structure": "Segment a business problem → describe service mechanism → present case/consultation.",
+      "proof_presentation": "Client logos, case navigation and provider-reported commercial claims.",
+      "cta": "Get a quote or book a call.",
+      "reusable_editorial_lesson": "Use a specific buyer problem and keep the evidence for an offer separate from its aspiration.",
+      "do_not_infer": "Omnichannel appointments and pipeline are not evidence for a LinkedIn writing technique.",
+      "open_gaps": [
+        "No newly inspected original LinkedIn posts or media.",
+        "No independent causal or representative client-outcome validation."
+      ]
+    }
+  ],
+  "checks": {
+    "original_company_names_unique": true,
+    "all_original_companies_accounted_for": true,
+    "all_plan_additions_accounted_for": true,
+    "rows_unique": true,
+    "every_row_has_source_status": true,
+    "no_new_linkedin_requests": true
+  }
+}

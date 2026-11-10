@@ -57,3 +57,11 @@ The public reference corpus currently supplies derived interpretations and sourc
 A useful review names the passage, problem, source and correction. A critical factual failure blocks readiness even if the prose is engaging. Subjective qualities such as rhythm or humor should receive reasons and alternatives; a numerical score should never be presented as a probability of success.
 
 The [review template](templates/review.yaml) distinguishes evidence gates from editorial judgment. For hard gates, record `pending`, `pass`, `fail` or `not_applicable` with a reason; for editorial judgments, use `pending`, `adequate`, `revise` or `not_applicable`. Founder voice and private-detail permission can remain unresolved while a general structure is complete. Report that state rather than inventing a biography or silently marking approval.
+
+## Source integration and reuse checkpoint — OUTSP-46
+
+The [supplied-method adoption matrix](METHOD-INTEGRATION.md) records which theory, genre, narrative and agent approaches transfer to this method. The [competitor audit](COMPETITOR-WRITING-AUDIT.md) resolves the original fifteen-company cohort, keeps the two plan additions separate and identifies actual access limits. See [skill specifications](SKILL-SPECIFICATIONS.md) for the two proposed reusable capabilities and fixed evaluation cases; no new skill bundle is activated.
+
+For a substantial draft, an optional reader can see only the draft and restate its point, support, limit and next action. Compare that reading with the brief and repair a concrete mismatch. Record the actual reader and scope; this is an editorial comprehension check, not representative buyer validation.
+
+For a batch, compare the reader questions and new contributions. Distinguish a repeated topic with a new decision from a duplicate post. Merge, narrow or defer overlapping material instead of manufacturing another anecdote, metric or joke. The current ten-post review makes the research observation in post02 distinct from the measurement diagnostic in post09; there is no mandatory pattern ratio.

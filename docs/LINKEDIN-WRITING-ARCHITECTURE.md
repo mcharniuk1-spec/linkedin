@@ -13,6 +13,7 @@ The agency audience is Europe-based B2B AI SaaS founders, 10â€“50 people, Seedâ€
 - [Humor and interest](linkedin-writing/HUMOR-AND-INTEREST.md): optional techniques with credibility boundaries.
 - [Research and review](linkedin-writing/RESEARCH-AND-REVIEW.md): charter, sources, findings, applicability filters and unresolved coverage.
 - [Agent workflow](linkedin-writing/AGENT-ROUTING.md): roles, selected skill approaches, source handling and review handoffs.
+- [Supplied-method integration](linkedin-writing/METHOD-INTEGRATION.md), [complete competitor cohort](linkedin-writing/COMPETITOR-WRITING-AUDIT.md) and [future skill specifications](linkedin-writing/SKILL-SPECIFICATIONS.md): verified follow-up to this architecture.
 - [Templates](linkedin-writing/templates/README.md): a brief, a story skeleton, a claim ledger and an agent task.
 - [Current draft migration](../publications/20261110-writing-architecture/README.md): structure updates for all ten current concepts across the two November 5 draft variants.
 

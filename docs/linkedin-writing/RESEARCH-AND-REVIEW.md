@@ -90,9 +90,9 @@ Seven of ten evidence-v1 captions end with a question; four of ten humanized cap
 
 Windmill describes founder conversations about decisions and lessons, voice-based drafting and review. Hat Tip's Ammo account describes content buckets, biweekly interviews, drafting and weekly client review. These are first-party process descriptions. Hat Tip's outcome figures are promotional self-reports with concurrent distribution activity, not causal evidence for the writing method. Transfer the interview and approval design; do not import outreach or account-operation practices. **B/M/E:** L2-B01, L2-B02.
 
-### LWR-F15 — Commercial comparison coverage is incomplete
+### LWR-F15 — Commercial cohort recovered; social coverage remains limited
 
-SalesBread's page primarily describes personalized LinkedIn/email outbound. Reader-specific research is relevant to a writing brief; its lead-generation claims do not establish organic-content effectiveness. Only these three agencies are identified from the separate 15-agency study context; the remaining twelve are unresolved in this review. The 61 reference accounts are a different population. **B/E:** L2-B03; project coverage boundary.
+SalesBread's page primarily describes personalized LinkedIn/email outbound. It is a supplemental reference, not a member of the original fifteen-company workbook cohort. Reader-specific research is relevant to a writing brief; lead-generation claims do not establish organic-content effectiveness. The [follow-up competitor audit](COMPETITOR-WRITING-AUDIT.md) recovers all fifteen original identities and adds Cleverly and Belkins from the launch plan. It inspects selected text from seventeen official homepages plus one Hat Tip case. Historical social locators remain unrevalidated; no current competitor social posts were read. The 61 reference accounts are a different population. **B/E/L:** L2-B03, L3-R01; provider evidence is self-description, not validated effectiveness.
 
 ### LWR-F16 — Architecture is a reviewable synthesis
 
@@ -152,4 +152,4 @@ Use the architecture and pattern library on the current concepts, recording miss
 
 A future authorized four-to-six-week observational pilot may help discover useful audience questions and workflow problems. That duration is a planning heuristic, not an A/B design, a minimum statistically sufficient sample or proof of a distribution effect. Define the reader job, available measures and confounders first. Preserve negative and ambiguous observations alongside successes.
 
-Remaining risks are changing platform documentation, partial scholarly access, absent original post bodies, selected examples, self-reported provider outcomes and twelve unresolved agencies. Refresh only the relevant evidence when authorized; do not close these gaps by relabeling interpretations as observations.
+Remaining risks are changing platform documentation, partial scholarly access, absent original post bodies, selected examples, self-reported provider outcomes and unreviewed current competitor social posts. The original fifteen-company identity gap is resolved; the separate 26-agency service review mentioned in the planning artifact is not fully available in this packet. Refresh only the relevant evidence when authorized; do not close these gaps by relabeling interpretations as observations.

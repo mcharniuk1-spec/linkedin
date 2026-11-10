@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "files_checked": 17,
+  "json_files_checked": 6,
+  "sqlite_files_checked": 0,
+  "problems": [],
+  "tree_sha256": "ad25a78f0b90a6ce1f34736fc36a6b0383ee5e22acd53082a89b947deddb041b",
+  "limits": "Static boundary checks; source rights, factual accuracy, owner acceptance and actual runtime integrations require their separate evidence.",
+  "scope_note": "All 17 materialized changed files scanned before serializing this report. Its own tree-hash contribution refers to the preceding report bytes, not a self-referential final hash. The final exact payload is separately bound by Git blob SHA readback."
+}

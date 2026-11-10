@@ -20,8 +20,8 @@
     "canonical_theory": 9,
     "provider_pages": 3,
     "preserved_corpus_interpretations": 8,
-    "local_project_records": 4,
-    "total": 44
+    "local_project_records": 6,
+    "total": 46
   },
   "sources": [
     {
@@ -1608,6 +1608,43 @@
         "This writing-methodology work does not recover access, reclassify queued records or authorize another acquisition route.",
         "An official documentation lookup does not supersede the project's creator-resource hold."
       ]
+    },
+    {
+      "id": "L3-R01",
+      "title": "Recovered commercial competitor cohort and official-site review",
+      "url": "competitor-writing-audit.json",
+      "type": "L",
+      "claim_types": [
+        "L",
+        "B",
+        "E"
+      ],
+      "access": "Resident English workbook identity/tables mechanically reconciled; selected extracted passages from 17 official homepages and one Hat Tip case reviewed by bounded source worker. Root independently verified workbook identity/sheet set and reviewed synthesis.",
+      "verified_on": "2026-11-10",
+      "finding": "Fifteen original company identities recovered, Cleverly/Belkins recorded as two plan additions; SalesBread supplementary. Provider processes support candidate editorial practices, not performance rankings.",
+      "limitations": [
+        "No new LinkedIn posts, source media or linked videos read.",
+        "Official-site marketing and historical social locators are not independent outcome evidence.",
+        "The artifact mentions a separate 26-agency service review; its complete cohort is unavailable here."
+      ]
+    },
+    {
+      "id": "L3-R02",
+      "title": "Supplied writing methodology adoption and source identity manifest",
+      "url": "supplied-source-manifest.json",
+      "type": "L",
+      "claim_types": [
+        "L",
+        "E"
+      ],
+      "access": "Task-relevant Markdown sections and templates read; hashes recorded for 13 explicitly supplied files, including intake README.",
+      "verified_on": "2026-11-10",
+      "finding": "Argument, genre, narrative, paragraph and agent-workflow approaches are mapped to the existing LinkedIn architecture in METHOD-INTEGRATION.md.",
+      "limitations": [
+        "Original supplied text and DOCX/PDF are not redistributed.",
+        "No claim of full-text inspection of every cited book, study or upstream skill.",
+        "Specifications and evaluation fixtures are not installed or behaviorally validated skills."
+      ]
     }
   ],
   "exclusions": [
@@ -1628,16 +1665,37 @@
   ],
   "coverage_limits": {
     "competitor_study_named_total": 15,
-    "identified_provider_pages_in_this_review": 3,
-    "remaining_competitors_unresolved": 12,
+    "identified_provider_pages_in_this_review": 17,
+    "remaining_competitors_unresolved": 0,
     "reference_accounts_distinct_from_competitors": 61,
     "preserved_examples_are_purposive": true,
     "new_close_reading_of_creator_posts_claimed": false,
-    "collector_hold_changed": false
+    "collector_hold_changed": false,
+    "original_competitor_identities_recovered": 15,
+    "plan_only_company_additions": 2,
+    "supplemental_baseline_providers": 1,
+    "official_pages_in_followup": 18,
+    "current_competitor_social_posts_reviewed": 0,
+    "historical_social_locator_rows": 42,
+    "artifact_26_agency_cohort_fully_available": false
   },
   "editorial_synthesis": {
     "classification": "E",
     "location": "RESEARCH-AND-REVIEW.md#lwr-f16--architecture-is-a-reviewable-synthesis",
     "claim": "The architecture and patterns are reviewable editorial proposals rather than empirically validated reach or sales formulas."
-  }
+  },
+  "prior_coverage_at_base_commit": {
+    "commit": "23b8a1ab076fccdaebd4c0394b9afd015707528e",
+    "recorded_limits": {
+      "competitor_study_named_total": 15,
+      "identified_provider_pages_in_this_review": 3,
+      "remaining_competitors_unresolved": 12,
+      "reference_accounts_distinct_from_competitors": 61,
+      "preserved_examples_are_purposive": true,
+      "new_close_reading_of_creator_posts_claimed": false,
+      "collector_hold_changed": false
+    },
+    "correction": "The baseline three agency references included SalesBread, which is supplementary rather than part of the original 15. Current cohort membership is defined by the recovered workbook."
+  },
+  "extension_note": "The original 44 source records retain their dated access statements. Two local annex records provide the new methodology/cohort lineage; the competitor annex contains its 17 company source rows. Neither older external accesses nor current account readiness were re-certified wholesale."
 }

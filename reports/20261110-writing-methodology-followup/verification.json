@@ -1,0 +1,340 @@
+{
+  "schema": "linkedin-writing-followup-verification/1",
+  "base_commit": "23b8a1ab076fccdaebd4c0394b9afd015707528e",
+  "status": "PASS",
+  "check_count": 53,
+  "checks": [
+    {
+      "check": "All fifteen expected payload files exist",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact isolated projection scope",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "Every changed JSON parsed with duplicate-key detection",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Original fifteen identities match authoritative expected cohort",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exactly Cleverly and Belkins are plan additions",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Seventeen unique company IDs, names and official domains",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Every company has complete evidence and limitation fields",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All new social-post review counts remain zero",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Company sources are explicit HTTPS with current review dates",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "SalesBread stays supplemental",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Workbook identity and complete table counts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Eighteen source pages across seventeen companies",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All thirteen expected supplied-file identities present",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Supplied identities retain hashes, bytes and research-only use",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Forty-six unique sources with both new annex identities",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source categories reconcile",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Coverage correction keeps identity and social-read states separate",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact ten nonempty synthetic fixtures",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Prepared cases do not assert skill-runtime execution",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Fourteen preserved publication pattern IDs",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact ten current structure IDs",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Every structure retains its full reader/evidence/reasoning contract",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Twenty unique source-variant references",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact unchanged bundle bytes: publications/20261105-evidence-v1/content.json",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact unchanged bundle bytes: publications/20261105-humanized/content.json",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact source row: 01-the-reason:20261105-evidence-v1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact source row: 01-the-reason:20261105-humanized",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact source row: 02-what-we-actually-saw:20261105-evidence-v1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact source row: 02-what-we-actually-saw:20261105-humanized",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact source row: 03-the-interview:20261105-evidence-v1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact source row: 03-the-interview:20261105-humanized",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact source row: 04-positioning:20261105-evidence-v1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact source row: 04-positioning:20261105-humanized",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact source row: 05-proof:20261105-evidence-v1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact source row: 05-proof:20261105-humanized",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact source row: 06-product-to-buyer:20261105-evidence-v1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact source row: 06-product-to-buyer:20261105-humanized",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact source row: 07-two-voices:20261105-evidence-v1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact source row: 07-two-voices:20261105-humanized",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact source row: 08-visuals:20261105-evidence-v1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact source row: 08-visuals:20261105-humanized",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact source row: 09-measure:20261105-evidence-v1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact source row: 09-measure:20261105-humanized",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact source row: 10-the-delivery:20261105-evidence-v1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact source row: 10-the-delivery:20261105-humanized",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All shared evidence bytes match migration ledger",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact approved offer CTA preserved",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Distinct reader questions in the ten supplied structures",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Ending mix remains job-dependent",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Historical sample and observation denominators recompute",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Every changed Markdown local link resolves in full repository inventory",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "Every literal source ID in changed guides resolves",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "No activated skill, binary, runtime or private source path is in change scope",
+      "status": "PASS",
+      "detail": null
+    }
+  ],
+  "payload_files": [
+    {
+      "path": "README.md",
+      "sha256": "3575b5a8507dd96fe3e11f9ecd55caf04993229c24b738e8ec04f191e306f732"
+    },
+    {
+      "path": "CURRENT-STATE.md",
+      "sha256": "23076d5e632923bf4f6b26d8e03df512eb360103a8db4c15d1417c82c08212bc"
+    },
+    {
+      "path": "docs/LINKEDIN-WRITING-ARCHITECTURE.md",
+      "sha256": "c7ad00bacc0973e0bf4431912747b6f678e6416897ca32ad37103dcdc459fd40"
+    },
+    {
+      "path": "docs/linkedin-writing/AGENT-ROUTING.md",
+      "sha256": "b74d3cc3899af8a43cff2d5a46d3d5281a41d8cc087466fe846561c41d3286c6"
+    },
+    {
+      "path": "docs/linkedin-writing/RESEARCH-AND-REVIEW.md",
+      "sha256": "1f40a4d00162db7566bf05b9e5cdc186ec4ceb65f2436207d9ecf7e234706c53"
+    },
+    {
+      "path": "docs/linkedin-writing/source-registry.json",
+      "sha256": "7d90ac0dc4bb9128ede950c2f2b7d6d18d6d5b66f6cf33c03ccf41325a6e032e"
+    },
+    {
+      "path": "docs/linkedin-writing/COMPETITOR-WRITING-AUDIT.md",
+      "sha256": "40876eba401aed3ca754753553f4e7257fc23ea9b16447dea833ae8c5055facd"
+    },
+    {
+      "path": "docs/linkedin-writing/competitor-writing-audit.json",
+      "sha256": "fd0af96419e5f2885ad1d32536d26b620b44b0971abfeed78725c0223ee0ec79"
+    },
+    {
+      "path": "docs/linkedin-writing/METHOD-INTEGRATION.md",
+      "sha256": "0ebd0113ab97240f4882ba208c341aba050381844f0d83fc568a656540cb9d53"
+    },
+    {
+      "path": "docs/linkedin-writing/supplied-source-manifest.json",
+      "sha256": "428d1b9313745bad0701683c4b8c0a11334907075d3623987e67893f99c05013"
+    },
+    {
+      "path": "docs/linkedin-writing/SKILL-SPECIFICATIONS.md",
+      "sha256": "e031b03433aae1ccd4ec2ff48840263eed8567f76b288fa64b28efaf86cea0e2"
+    },
+    {
+      "path": "docs/linkedin-writing/skill-evaluation-cases.json",
+      "sha256": "757a01702765936ac57d478abea459bc189e35c5871444e766a3cafe8581a3d0"
+    },
+    {
+      "path": "publications/20261110-writing-architecture/STRUCTURE-REVIEW.md",
+      "sha256": "306ebdfacb1eb3215a02a32a9ff77c7eabf353b36881f7a00234f9d39cbcd8a2"
+    },
+    {
+      "path": "reports/20261110-writing-methodology-followup/README.md",
+      "sha256": "a7efc69a7fe342c92713d13adf40addc7b48df8f1953811b0b314e2ce8a6ff7c"
+    },
+    {
+      "path": "reports/20261110-writing-methodology-followup/verify.py",
+      "sha256": "90fb010b491ad4957c5cbfb88f9a77e89bcb36ccb7bd68ecabf42bdaffe9dcd1"
+    }
+  ],
+  "limits": [
+    "Structural/provenance checks are not source truth, editorial quality, skill-runtime evaluation or founder approval.",
+    "This projection excludes unchanged repository assets and raw source material.",
+    "Social locators are historical; no current competitor social posts are certified."
+  ]
+}
