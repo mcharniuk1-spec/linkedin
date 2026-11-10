@@ -1,0 +1,94 @@
+{
+  "schema": "outspoken-discovery-mini-audit/1",
+  "record_mode": "template",
+  "record_id": "",
+  "provenance": {
+    "owner": "Outspoken project",
+    "source_type": "owned_template",
+    "rights_state": "owned",
+    "created_on": "2026-11-10",
+    "use_limit": "Preparation only. No real prospect records or source-post bodies are supplied."
+  },
+  "source_records": [],
+  "permissions": {
+    "source_use": "pending",
+    "relationship_context_use": "pending",
+    "third_party_name_use": "pending",
+    "channel_and_legal_review": "pending"
+  },
+  "stop": {
+    "recipient_declined": "unchecked",
+    "asked_to_stop": "unchecked",
+    "wrong_recipient": "unchecked",
+    "permission_unresolved": "unchecked",
+    "source_uncertain": "unchecked",
+    "prior_reply_needs_review": "unchecked",
+    "status": "unchecked",
+    "reason": ""
+  },
+  "send_authorization": "not_authorized",
+  "review_state": "pending_founder_review",
+  "company_record_id": "",
+  "session_scope": "not_selected",
+  "note_or_recording_permission": "pending",
+  "founder_questions": [
+    {
+      "id": "D01",
+      "question": "What business or communication decision would you like this work to support?",
+      "answer": "",
+      "source_note_id": ""
+    },
+    {
+      "id": "D02",
+      "question": "Who is the intended buyer, in what situation, and what would they use or do instead?",
+      "answer": "",
+      "source_note_id": ""
+    },
+    {
+      "id": "D03",
+      "question": "Describe one actual product decision: goal, constraint, plausible alternatives, choice and reason at the time.",
+      "answer": "",
+      "source_note_id": ""
+    },
+    {
+      "id": "D04",
+      "question": "What happened afterward, and which parts are observation versus your present interpretation?",
+      "answer": "",
+      "source_note_id": ""
+    },
+    {
+      "id": "D05",
+      "question": "What current capability, example or outcome can we verify, and which details must remain private?",
+      "answer": "",
+      "source_note_id": ""
+    },
+    {
+      "id": "D06",
+      "question": "Who would confirm product facts and approve voice, claims, visuals and final wording?",
+      "answer": "",
+      "source_note_id": ""
+    },
+    {
+      "id": "D07",
+      "question": "What time, budget, approval or access limits should the proposed scope respect?",
+      "answer": "",
+      "source_note_id": ""
+    },
+    {
+      "id": "D08",
+      "question": "Is a next step actually useful? If so, what did we agree and who owns it?",
+      "answer": "",
+      "source_note_id": ""
+    }
+  ],
+  "mini_audit": {
+    "exact_surfaces_reviewed": [],
+    "observations": [],
+    "interpretations": [],
+    "proposed_changes": [],
+    "unreviewed_surfaces": [],
+    "confidence_limit": "A source-bounded clarity review is not an audit of all posts, account access, buyer demand, legal compliance or commercial performance."
+  },
+  "scope_and_price_decisions": "Pending founder agreement; this kit does not decide Plan1/Plan2, discounts, guarantees or access terms.",
+  "claims": []
+}

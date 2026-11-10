@@ -1,0 +1,11 @@
+If your product statement could describe twenty companies, inspect what it leaves out.
+
+Start with four questions.
+
+Who is the buyer, and in what situation are they deciding? What task are they trying to complete? What would they do instead? What supported difference would change that choice?
+
+A hypothetical example: "AI for better operations" leaves the work undefined. "Flag requests for a human reviewer against a stated rule" names an action and a review boundary. It still needs a buyer, a real alternative and evidence before it becomes a complete product claim.
+
+The point is to make the decision assessable. A clearer sentence does not, by itself, prove a sales improvement.
+
+Which question does your first sentence leave unanswered: buyer, task, alternative or evidence?

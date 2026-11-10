@@ -1,0 +1,9 @@
+What happens immediately before and after the feature is used?
+
+That question can reveal the gap in a product explanation.
+
+A useful walkthrough names the trigger, input, output, reviewer and next decision. Keep the technical detail that changes how the buyer should assess the workflow. Explain the terms they need rather than stripping the mechanism away.
+
+If the example is proposed, say so. If it describes a real implementation, confirm it with the technical owner and the relevant version. An attractive diagram is not verification that the product works that way.
+
+Take one feature and sketch the path from the trigger to the next human decision. Fill the first gap a new reader would encounter.

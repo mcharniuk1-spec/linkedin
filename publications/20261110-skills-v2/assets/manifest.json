@@ -1,0 +1,1385 @@
+{
+  "schema": "outspoken-publication-layout/2",
+  "status": "draft_founder_review",
+  "canvas": {
+    "width": 1080,
+    "height": 1350
+  },
+  "source_content_sha256": "4bd1ff7edeb4b750df3c4ba3bf4a0f5104184d6821b7b0f5a58a7deda3b46ce0",
+  "shared_asset_root": "../20261105-evidence-v1/assets",
+  "source_assets": [
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/graphic-01.png",
+      "sha256": "fd0afae75b1c083ec7a4e304491d4e9e327804ccbb670654cefa0ff9db34619d",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/lockup.png",
+      "sha256": "a612bdbba5bda939766194f5d9d2ece378be4ad450a0186f2854923690c159d5",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/graphic-04.png",
+      "sha256": "9df1161db977e1bb62a53f486465ab9dbac9cbae11cb9a2ec21417cd0f6f35fc",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/graphic-03.png",
+      "sha256": "6fbfefc650b76d8e2e5252e2079c35695b240d6d0ab72584ea35f642d28acdc8",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/graphic-07.png",
+      "sha256": "f77493c47cc471f966d8082c93a0dfcbd94638fdcd52625ba0d3a8fd0fb9ec7f",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/graphic-10.png",
+      "sha256": "0f1f033e690a6dd6ddd6b8ff35d391dba3044bf7bc0a79d04c896339f63e44ac",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/scene-01.png",
+      "sha256": "bf29d8abb14710ec59c6f34e9d1060a0562885cf1b3336a5ff3e760658586432",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/scene-03.png",
+      "sha256": "d651569c69fc434f2de3303ec8f1c04a56c756acd7c744f30f0f082fd2166a4f",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/scene-04.png",
+      "sha256": "2297b995b0aba92c5e720f02ef9ea5985728e180aebba3bce1056f731d109567",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/scene-06.png",
+      "sha256": "d0b482a13402c2e847db3d96a1d2fd415729c4eed661972ad60bb89ac70c9aa3",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/scene-10.png",
+      "sha256": "bded0bd2e9bb81ca15f3a2d5aad580b0a657161b3184475a1c6fef0896aef611",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/graphic-02.png",
+      "sha256": "bc98bf739e2aa5058498cb035455a6cacdd85ccedd4cf799c01ec3319bb6241f",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/graphic-09.png",
+      "sha256": "9f5de8a7873fbf9386396e9defa4a74f4b17a3d42b6b10b77117dc0e6ffa9e8f",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/graphic-08.png",
+      "sha256": "097ce60961d31a16d4bbfeac5543f3e7c1db45bef09829b1a46456ab1088b1a1",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/scene-02.png",
+      "sha256": "17c0a56875871bd19cec4f1c26929ad0f1eb7618dec7a859c96c5d423007a9f2",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/scene-05.png",
+      "sha256": "c1ee336710ef6ac9c9a2d1b09a156528f208694fc0890720176122c03bc18c68",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/scene-07.png",
+      "sha256": "fa11c4a2bb541c01ca10ced30b39d20197ffdc85460bfc7a7ba70c397073b4e8",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/scene-08.png",
+      "sha256": "82d6a8a725d388cfe34eec519ff9f876740a8bbbe82f12bf5a2a82d5e7551ca4",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/scene-09.png",
+      "sha256": "57ab5782ab53fb6a00837be9e848b3d90538dcb5c03338c6f9bdc9d527091abf",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/graphic-06.png",
+      "sha256": "6c6fb6718b693cb5f11c3a79321a0eb97293ac39e348800cffc4dcd4ac254312",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-art/graphic-05.png",
+      "sha256": "e9563a1d8f6d3e867bef7f30087cfdae5cdf8cfc2353e5a04518f267078e250a",
+      "reuse": "Unchanged earlier project-owned pixels; prior release ledger controls rights."
+    }
+  ],
+  "fonts": [
+    {
+      "path": "../20261105-evidence-v1/assets/source-fonts/fraunces-latin-full-normal.woff2",
+      "sha256": "7e744849028e2219e2aa1bc467dc4032980dc4487c9c3da3010081cd72d3b103"
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-fonts/mona-sans-latin-wght-normal.woff2",
+      "sha256": "a59061e38c5e7e6a00aaa6b6645a220c7d9c530991167f058cc0f8575f5d5844"
+    },
+    {
+      "path": "../20261105-evidence-v1/assets/source-fonts/geist-mono-latin-wght-normal.woff2",
+      "sha256": "684ad5b531f81d43c1e8c7038262d5db7cdc1f68006e04d6c7769efa8d33c8cc"
+    }
+  ],
+  "publications": [
+    {
+      "id": "01-the-reason",
+      "title": "Show the decision behind the product",
+      "format": "carousel",
+      "caption": "01-the-reason/caption.txt",
+      "variants": {
+        "graphic": [
+          {
+            "image": "01-the-reason/graphic-01.png",
+            "svg": "source-svg/01-graphic-01.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-01.png",
+            "headline": "The feature list leaves something out.",
+            "body": "Why did the team choose to build it this way?",
+            "diagram": [
+              "PRODUCT",
+              "DECISION",
+              "BUYER"
+            ],
+            "diagram_type": "sequence",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          },
+          {
+            "image": "01-the-reason/graphic-02.png",
+            "svg": "source-svg/01-graphic-02.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-04.png",
+            "headline": "Start with a real choice.",
+            "body": "Which problem did the team choose to solve first?",
+            "diagram": [
+              "GOAL",
+              "CHOICE",
+              "REASON"
+            ],
+            "diagram_type": "sequence",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          },
+          {
+            "image": "01-the-reason/graphic-03.png",
+            "svg": "source-svg/01-graphic-03.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-03.png",
+            "headline": "Keep the trade-off.",
+            "body": "What was the plausible alternative—and why was it rejected?",
+            "diagram": [
+              "OPTION A",
+              "OPTION B"
+            ],
+            "diagram_type": "comparison",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          },
+          {
+            "image": "01-the-reason/graphic-04.png",
+            "svg": "source-svg/01-graphic-04.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-07.png",
+            "headline": "Connect it to a buyer question.",
+            "body": "Explain what the choice changes for the person evaluating the product.",
+            "diagram": [
+              "CHOICE",
+              "MEANING",
+              "BUYER"
+            ],
+            "diagram_type": "sequence",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          },
+          {
+            "image": "01-the-reason/graphic-05.png",
+            "svg": "source-svg/01-graphic-05.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-10.png",
+            "headline": "Make the reasoning visible.",
+            "body": "A clearer explanation is the deliverable. Business outcomes need observation.",
+            "diagram": [
+              "SOURCE",
+              "DRAFT",
+              "REVIEW"
+            ],
+            "diagram_type": "sequence",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          }
+        ],
+        "people": [
+          {
+            "image": "01-the-reason/people-01.png",
+            "svg": "source-svg/01-people-01.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-01.png",
+            "headline": "The feature list leaves something out.",
+            "body": "Why did the team choose to build it this way?",
+            "diagram": [
+              "PRODUCT",
+              "DECISION",
+              "BUYER"
+            ],
+            "diagram_type": "sequence",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          },
+          {
+            "image": "01-the-reason/people-02.png",
+            "svg": "source-svg/01-people-02.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-03.png",
+            "headline": "Start with a real choice.",
+            "body": "Which problem did the team choose to solve first?",
+            "diagram": [
+              "GOAL",
+              "CHOICE",
+              "REASON"
+            ],
+            "diagram_type": "sequence",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          },
+          {
+            "image": "01-the-reason/people-03.png",
+            "svg": "source-svg/01-people-03.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-04.png",
+            "headline": "Keep the trade-off.",
+            "body": "What was the plausible alternative—and why was it rejected?",
+            "diagram": [
+              "OPTION A",
+              "OPTION B"
+            ],
+            "diagram_type": "comparison",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          },
+          {
+            "image": "01-the-reason/people-04.png",
+            "svg": "source-svg/01-people-04.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-06.png",
+            "headline": "Connect it to a buyer question.",
+            "body": "Explain what the choice changes for the person evaluating the product.",
+            "diagram": [
+              "CHOICE",
+              "MEANING",
+              "BUYER"
+            ],
+            "diagram_type": "sequence",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          },
+          {
+            "image": "01-the-reason/people-05.png",
+            "svg": "source-svg/01-people-05.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-10.png",
+            "headline": "Make the reasoning visible.",
+            "body": "A clearer explanation is the deliverable. Business outcomes need observation.",
+            "diagram": [
+              "SOURCE",
+              "DRAFT",
+              "REVIEW"
+            ],
+            "diagram_type": "sequence",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "id": "C01",
+          "claim": "Outspoken’s approved service positioning starts from founders and the business they are building.",
+          "claim_type": "approved_project_position",
+          "evidence_source": "docs/APPROVED-POSITIONING.json",
+          "boundary": "The positioning is an aim, not delivered customer performance.",
+          "status": "source_confirmed"
+        },
+        {
+          "id": "C02",
+          "claim": "A particular founder made the example decision.",
+          "claim_type": "personal_history",
+          "evidence_source": "Founder interview or decision record required",
+          "boundary": "No actual founder story is supplied; retain the example as illustrative.",
+          "status": "not_available_do_not_assert"
+        }
+      ],
+      "limitations": [
+        "Draft for founder voice and capability review; no publication approval.",
+        "Existing graphic art and fictional scenes are reused illustrations, not customer proof."
+      ]
+    },
+    {
+      "id": "02-what-we-actually-saw",
+      "title": "A median is not a posting target",
+      "format": "carousel",
+      "caption": "02-what-we-actually-saw/caption.txt",
+      "variants": {
+        "graphic": [
+          {
+            "image": "02-what-we-actually-saw/graphic-01.png",
+            "svg": "source-svg/02-graphic-01.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-02.png",
+            "headline": "A median is not a target.",
+            "body": "279 selected posts. What can they actually tell us?",
+            "diagram": [
+              "279 POSTS",
+              "61 ACCOUNTS"
+            ],
+            "diagram_type": "comparison",
+            "context": "Selected sample • counters recorded 22 Oct 2026",
+            "cta": null
+          },
+          {
+            "image": "02-what-we-actually-saw/graphic-02.png",
+            "svg": "source-svg/02-graphic-02.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-09.png",
+            "headline": "107.5 reactions.",
+            "body": "Median of 276 observed counts. Three posts had no observed count.",
+            "diagram": [
+              "276 COUNTS",
+              "107.5 MEDIAN"
+            ],
+            "diagram_type": "comparison",
+            "context": "Selected sample • counters recorded 22 Oct 2026",
+            "cta": null
+          },
+          {
+            "image": "02-what-we-actually-saw/graphic-03.png",
+            "svg": "source-svg/02-graphic-03.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-08.png",
+            "headline": "36.5 comments.",
+            "body": "Median of 256 observed counts. Twenty-three were missing.",
+            "diagram": [
+              "256 COUNTS",
+              "36.5 MEDIAN"
+            ],
+            "diagram_type": "comparison",
+            "context": "Selected sample • counters recorded 22 Oct 2026",
+            "cta": null
+          },
+          {
+            "image": "02-what-we-actually-saw/graphic-04.png",
+            "svg": "source-svg/02-graphic-04.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-04.png",
+            "headline": "Interactions are not reach.",
+            "body": "Impressions, buyer intent and sales were not measured.",
+            "diagram": [
+              "INTERACTIONS",
+              "OBSERVED",
+              "REACH UNKNOWN"
+            ],
+            "diagram_type": "unknown",
+            "context": "Selected sample • counters recorded 22 Oct 2026",
+            "cta": null
+          },
+          {
+            "image": "02-what-we-actually-saw/graphic-05.png",
+            "svg": "source-svg/02-graphic-05.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-01.png",
+            "headline": "Choose a question, then a test.",
+            "body": "Compare like with like. Keep the evidence and the limits together.",
+            "diagram": [
+              "QUESTION",
+              "EVIDENCE",
+              "NEXT CHECK"
+            ],
+            "diagram_type": "sequence",
+            "context": "Selected sample • counters recorded 22 Oct 2026",
+            "cta": null
+          }
+        ],
+        "people": [
+          {
+            "image": "02-what-we-actually-saw/people-01.png",
+            "svg": "source-svg/02-people-01.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-02.png",
+            "headline": "A median is not a target.",
+            "body": "279 selected posts. What can they actually tell us?",
+            "diagram": [
+              "279 POSTS",
+              "61 ACCOUNTS"
+            ],
+            "diagram_type": "comparison",
+            "context": "Selected sample • counters recorded 22 Oct 2026",
+            "cta": null
+          },
+          {
+            "image": "02-what-we-actually-saw/people-02.png",
+            "svg": "source-svg/02-people-02.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-05.png",
+            "headline": "107.5 reactions.",
+            "body": "Median of 276 observed counts. Three posts had no observed count.",
+            "diagram": [
+              "276 COUNTS",
+              "107.5 MEDIAN"
+            ],
+            "diagram_type": "comparison",
+            "context": "Selected sample • counters recorded 22 Oct 2026",
+            "cta": null
+          },
+          {
+            "image": "02-what-we-actually-saw/people-03.png",
+            "svg": "source-svg/02-people-03.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-07.png",
+            "headline": "36.5 comments.",
+            "body": "Median of 256 observed counts. Twenty-three were missing.",
+            "diagram": [
+              "256 COUNTS",
+              "36.5 MEDIAN"
+            ],
+            "diagram_type": "comparison",
+            "context": "Selected sample • counters recorded 22 Oct 2026",
+            "cta": null
+          },
+          {
+            "image": "02-what-we-actually-saw/people-04.png",
+            "svg": "source-svg/02-people-04.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-08.png",
+            "headline": "Interactions are not reach.",
+            "body": "Impressions, buyer intent and sales were not measured.",
+            "diagram": [
+              "INTERACTIONS",
+              "OBSERVED",
+              "REACH UNKNOWN"
+            ],
+            "diagram_type": "unknown",
+            "context": "Selected sample • counters recorded 22 Oct 2026",
+            "cta": null
+          },
+          {
+            "image": "02-what-we-actually-saw/people-05.png",
+            "svg": "source-svg/02-people-05.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-09.png",
+            "headline": "Choose a question, then a test.",
+            "body": "Compare like with like. Keep the evidence and the limits together.",
+            "diagram": [
+              "QUESTION",
+              "EVIDENCE",
+              "NEXT CHECK"
+            ],
+            "diagram_type": "sequence",
+            "context": "Selected sample • counters recorded 22 Oct 2026",
+            "cta": null
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "id": "C01",
+          "claim": "The preserved sample contains 279 posts and 61 accounts.",
+          "claim_type": "descriptive_count",
+          "evidence_source": "reports/20261105/data.json",
+          "boundary": "Selected historical corpus; no claim of full LinkedIn coverage.",
+          "status": "recomputed"
+        },
+        {
+          "id": "C02",
+          "claim": "Median reactions are 107.5 among 276 observed counts; median comments are 36.5 among 256.",
+          "claim_type": "descriptive_statistic",
+          "evidence_source": "reports/20261105/data.json",
+          "boundary": "Different observed subsets; metrics in this report are timestamped 22 October 2026; the wider historical collection ran 20–22 October.",
+          "status": "recomputed"
+        },
+        {
+          "id": "C03",
+          "claim": "A format caused higher reach or sales.",
+          "claim_type": "causal_result",
+          "evidence_source": "No identifying design or reach/conversion data",
+          "boundary": "Do not assert this claim or imply it from rankings.",
+          "status": "unsupported_do_not_assert"
+        }
+      ],
+      "limitations": [
+        "Draft for founder voice and capability review; no publication approval.",
+        "Existing graphic art and fictional scenes are reused illustrations, not customer proof."
+      ]
+    },
+    {
+      "id": "03-the-interview",
+      "title": "Find the decision in the interview",
+      "format": "carousel",
+      "caption": "03-the-interview/caption.txt",
+      "variants": {
+        "graphic": [
+          {
+            "image": "03-the-interview/graphic-01.png",
+            "svg": "source-svg/03-graphic-01.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-03.png",
+            "headline": "Lose the topic list. Find the decision.",
+            "body": "A proposed interview method for surfacing real judgment.",
+            "diagram": [
+              "QUESTION",
+              "SOURCE",
+              "DRAFT"
+            ],
+            "diagram_type": "sequence",
+            "context": "Proposed interview method",
+            "cta": null
+          },
+          {
+            "image": "03-the-interview/graphic-02.png",
+            "svg": "source-svg/03-graphic-02.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-01.png",
+            "headline": "What was the goal?",
+            "body": "What had to work—and what could not change?",
+            "diagram": [
+              "GOAL",
+              "CONSTRAINT"
+            ],
+            "diagram_type": "comparison",
+            "context": "Proposed interview method",
+            "cta": null
+          },
+          {
+            "image": "03-the-interview/graphic-03.png",
+            "svg": "source-svg/03-graphic-03.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-06.png",
+            "headline": "Why was the other option plausible?",
+            "body": "Record real alternatives, not a convenient villain.",
+            "diagram": [
+              "OPTION A",
+              "OPTION B"
+            ],
+            "diagram_type": "comparison",
+            "context": "Proposed interview method",
+            "cta": null
+          },
+          {
+            "image": "03-the-interview/graphic-04.png",
+            "svg": "source-svg/03-graphic-04.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-07.png",
+            "headline": "What happened afterward?",
+            "body": "Separate the observed consequence from the explanation.",
+            "diagram": [
+              "CHOICE",
+              "OUTCOME",
+              "EXPLANATION"
+            ],
+            "diagram_type": "sequence",
+            "context": "Proposed interview method",
+            "cta": null
+          },
+          {
+            "image": "03-the-interview/graphic-05.png",
+            "svg": "source-svg/03-graphic-05.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-05.png",
+            "headline": "What changed in the next decision?",
+            "body": "Confirm the detail, the lesson and permission to share.",
+            "diagram": [
+              "DETAIL",
+              "CONFIRM",
+              "PERMISSION"
+            ],
+            "diagram_type": "sequence",
+            "context": "Proposed interview method",
+            "cta": null
+          }
+        ],
+        "people": [
+          {
+            "image": "03-the-interview/people-01.png",
+            "svg": "source-svg/03-people-01.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-03.png",
+            "headline": "Lose the topic list. Find the decision.",
+            "body": "A proposed interview method for surfacing real judgment.",
+            "diagram": [
+              "QUESTION",
+              "SOURCE",
+              "DRAFT"
+            ],
+            "diagram_type": "sequence",
+            "context": "Proposed interview method",
+            "cta": null
+          },
+          {
+            "image": "03-the-interview/people-02.png",
+            "svg": "source-svg/03-people-02.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-01.png",
+            "headline": "What was the goal?",
+            "body": "What had to work—and what could not change?",
+            "diagram": [
+              "GOAL",
+              "CONSTRAINT"
+            ],
+            "diagram_type": "comparison",
+            "context": "Proposed interview method",
+            "cta": null
+          },
+          {
+            "image": "03-the-interview/people-03.png",
+            "svg": "source-svg/03-people-03.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-06.png",
+            "headline": "Why was the other option plausible?",
+            "body": "Record real alternatives, not a convenient villain.",
+            "diagram": [
+              "OPTION A",
+              "OPTION B"
+            ],
+            "diagram_type": "comparison",
+            "context": "Proposed interview method",
+            "cta": null
+          },
+          {
+            "image": "03-the-interview/people-04.png",
+            "svg": "source-svg/03-people-04.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-10.png",
+            "headline": "What happened afterward?",
+            "body": "Separate the observed consequence from the explanation.",
+            "diagram": [
+              "CHOICE",
+              "OUTCOME",
+              "EXPLANATION"
+            ],
+            "diagram_type": "sequence",
+            "context": "Proposed interview method",
+            "cta": null
+          },
+          {
+            "image": "03-the-interview/people-05.png",
+            "svg": "source-svg/03-people-05.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-05.png",
+            "headline": "What changed in the next decision?",
+            "body": "Confirm the detail, the lesson and permission to share.",
+            "diagram": [
+              "DETAIL",
+              "CONFIRM",
+              "PERMISSION"
+            ],
+            "diagram_type": "sequence",
+            "context": "Proposed interview method",
+            "cta": null
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "id": "C01",
+          "claim": "This is the proposed Outspoken interview workflow.",
+          "claim_type": "proposed_process",
+          "evidence_source": "docs/SERVICES-AND-WRITING.md",
+          "boundary": "Not a report of an interview already delivered to a client.",
+          "status": "proposal_for_review"
+        },
+        {
+          "id": "C02",
+          "claim": "An actual founder chose X because Y and then observed Z.",
+          "claim_type": "personal_history",
+          "evidence_source": "Permissioned interview and supporting record required",
+          "boundary": "No dialogue, motive, date or outcome may be invented.",
+          "status": "not_available_do_not_assert"
+        }
+      ],
+      "limitations": [
+        "Draft for founder voice and capability review; no publication approval.",
+        "Existing graphic art and fictional scenes are reused illustrations, not customer proof."
+      ]
+    },
+    {
+      "id": "04-positioning",
+      "title": "Four checks for a useful product statement",
+      "format": "carousel",
+      "caption": "04-positioning/caption.txt",
+      "variants": {
+        "graphic": [
+          {
+            "image": "04-positioning/graphic-01.png",
+            "svg": "source-svg/04-graphic-01.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-04.png",
+            "headline": "Could this describe anyone?",
+            "body": "Four checks for a clearer product statement.",
+            "diagram": [
+              "BUYER",
+              "TASK",
+              "ALTERNATIVE",
+              "EVIDENCE"
+            ],
+            "diagram_type": "checklist",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          },
+          {
+            "image": "04-positioning/graphic-02.png",
+            "svg": "source-svg/04-graphic-02.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-02.png",
+            "headline": "Name the buyer.",
+            "body": "Who is making the decision—and in what situation?",
+            "diagram": [
+              "PERSON",
+              "SITUATION"
+            ],
+            "diagram_type": "comparison",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          },
+          {
+            "image": "04-positioning/graphic-03.png",
+            "svg": "source-svg/04-graphic-03.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-07.png",
+            "headline": "Name the task.",
+            "body": "What are they trying to get done?",
+            "diagram": [
+              "TRIGGER",
+              "TASK",
+              "NEXT STEP"
+            ],
+            "diagram_type": "sequence",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          },
+          {
+            "image": "04-positioning/graphic-04.png",
+            "svg": "source-svg/04-graphic-04.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-08.png",
+            "headline": "Name the alternative.",
+            "body": "What would they use or do instead?",
+            "diagram": [
+              "CURRENT WAY",
+              "ALTERNATIVE"
+            ],
+            "diagram_type": "comparison",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          },
+          {
+            "image": "04-positioning/graphic-05.png",
+            "svg": "source-svg/04-graphic-05.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-03.png",
+            "headline": "Name the supported difference.",
+            "body": "What can you actually show that changes that choice?",
+            "diagram": [
+              "CLAIM",
+              "EVIDENCE",
+              "LIMIT"
+            ],
+            "diagram_type": "sequence",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          }
+        ],
+        "people": [
+          {
+            "image": "04-positioning/people-01.png",
+            "svg": "source-svg/04-people-01.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-04.png",
+            "headline": "Could this describe anyone?",
+            "body": "Four checks for a clearer product statement.",
+            "diagram": [
+              "BUYER",
+              "TASK",
+              "ALTERNATIVE",
+              "EVIDENCE"
+            ],
+            "diagram_type": "checklist",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          },
+          {
+            "image": "04-positioning/people-02.png",
+            "svg": "source-svg/04-people-02.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-02.png",
+            "headline": "Name the buyer.",
+            "body": "Who is making the decision—and in what situation?",
+            "diagram": [
+              "PERSON",
+              "SITUATION"
+            ],
+            "diagram_type": "comparison",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          },
+          {
+            "image": "04-positioning/people-03.png",
+            "svg": "source-svg/04-people-03.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-07.png",
+            "headline": "Name the task.",
+            "body": "What are they trying to get done?",
+            "diagram": [
+              "TRIGGER",
+              "TASK",
+              "NEXT STEP"
+            ],
+            "diagram_type": "sequence",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          },
+          {
+            "image": "04-positioning/people-04.png",
+            "svg": "source-svg/04-people-04.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-08.png",
+            "headline": "Name the alternative.",
+            "body": "What would they use or do instead?",
+            "diagram": [
+              "CURRENT WAY",
+              "ALTERNATIVE"
+            ],
+            "diagram_type": "comparison",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          },
+          {
+            "image": "04-positioning/people-05.png",
+            "svg": "source-svg/04-people-05.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-03.png",
+            "headline": "Name the supported difference.",
+            "body": "What can you actually show that changes that choice?",
+            "diagram": [
+              "CLAIM",
+              "EVIDENCE",
+              "LIMIT"
+            ],
+            "diagram_type": "sequence",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "id": "C01",
+          "claim": "The generic phrase and request-review example are illustrative.",
+          "claim_type": "synthetic_example",
+          "evidence_source": "Original editorial example",
+          "boundary": "No named product, real customer or competitor quotation.",
+          "status": "explicitly_illustrative"
+        },
+        {
+          "id": "C02",
+          "claim": "Clearer positioning causes a specific sales improvement.",
+          "claim_type": "causal_result",
+          "evidence_source": "No study or measured client result in this post",
+          "boundary": "Do not assert an uplift.",
+          "status": "unsupported_do_not_assert"
+        }
+      ],
+      "limitations": [
+        "Draft for founder voice and capability review; no publication approval.",
+        "Existing graphic art and fictional scenes are reused illustrations, not customer proof."
+      ]
+    },
+    {
+      "id": "05-proof",
+      "title": "A demonstration is not a benchmark",
+      "format": "carousel",
+      "caption": "05-proof/caption.txt",
+      "variants": {
+        "graphic": [
+          {
+            "image": "05-proof/graphic-01.png",
+            "svg": "source-svg/05-graphic-01.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-05.png",
+            "headline": "A screenshot is not a saving.",
+            "body": "A hypothetical request-review example.",
+            "diagram": [
+              "CLAIM",
+              "DEMONSTRATION",
+              "TEST"
+            ],
+            "diagram_type": "sequence",
+            "context": "Hypothetical example • no product test reported",
+            "cta": null
+          },
+          {
+            "image": "05-proof/graphic-02.png",
+            "svg": "source-svg/05-graphic-02.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-04.png",
+            "headline": "Show one defined task.",
+            "body": "Three sample requests. One stated review rule.",
+            "diagram": [
+              "REQUESTS",
+              "RULE",
+              "FLAGS"
+            ],
+            "diagram_type": "sequence",
+            "context": "Hypothetical example • no product test reported",
+            "cta": null
+          },
+          {
+            "image": "05-proof/graphic-03.png",
+            "svg": "source-svg/05-graphic-03.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-02.png",
+            "headline": "Name the human check.",
+            "body": "A reviewer checks proposed flags before any next action.",
+            "diagram": [
+              "FLAGS",
+              "REVIEWER",
+              "NEXT ACTION"
+            ],
+            "diagram_type": "sequence",
+            "context": "Hypothetical example • no product test reported",
+            "cta": null
+          },
+          {
+            "image": "05-proof/graphic-04.png",
+            "svg": "source-svg/05-graphic-04.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-06.png",
+            "headline": "State what remains untested.",
+            "body": "Error rates, repeated speed and live reliability are still unknown.",
+            "diagram": [
+              "ERROR RATE",
+              "SPEED",
+              "UNKNOWN"
+            ],
+            "diagram_type": "unknown",
+            "context": "Hypothetical example • no product test reported",
+            "cta": null
+          },
+          {
+            "image": "05-proof/graphic-05.png",
+            "svg": "source-svg/05-graphic-05.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-10.png",
+            "headline": "Keep the claim within the proof.",
+            "body": "A demonstration can show a step. Savings need a comparable test.",
+            "diagram": [
+              "DEMO",
+              "OBSERVATION",
+              "LIMIT"
+            ],
+            "diagram_type": "sequence",
+            "context": "Hypothetical example • no product test reported",
+            "cta": null
+          }
+        ],
+        "people": [
+          {
+            "image": "05-proof/people-01.png",
+            "svg": "source-svg/05-people-01.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-05.png",
+            "headline": "A screenshot is not a saving.",
+            "body": "A hypothetical request-review example.",
+            "diagram": [
+              "CLAIM",
+              "DEMONSTRATION",
+              "TEST"
+            ],
+            "diagram_type": "sequence",
+            "context": "Hypothetical example • no product test reported",
+            "cta": null
+          },
+          {
+            "image": "05-proof/people-02.png",
+            "svg": "source-svg/05-people-02.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-04.png",
+            "headline": "Show one defined task.",
+            "body": "Three sample requests. One stated review rule.",
+            "diagram": [
+              "REQUESTS",
+              "RULE",
+              "FLAGS"
+            ],
+            "diagram_type": "sequence",
+            "context": "Hypothetical example • no product test reported",
+            "cta": null
+          },
+          {
+            "image": "05-proof/people-03.png",
+            "svg": "source-svg/05-people-03.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-02.png",
+            "headline": "Name the human check.",
+            "body": "A reviewer checks proposed flags before any next action.",
+            "diagram": [
+              "FLAGS",
+              "REVIEWER",
+              "NEXT ACTION"
+            ],
+            "diagram_type": "sequence",
+            "context": "Hypothetical example • no product test reported",
+            "cta": null
+          },
+          {
+            "image": "05-proof/people-04.png",
+            "svg": "source-svg/05-people-04.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-06.png",
+            "headline": "State what remains untested.",
+            "body": "Error rates, repeated speed and live reliability are still unknown.",
+            "diagram": [
+              "ERROR RATE",
+              "SPEED",
+              "UNKNOWN"
+            ],
+            "diagram_type": "unknown",
+            "context": "Hypothetical example • no product test reported",
+            "cta": null
+          },
+          {
+            "image": "05-proof/people-05.png",
+            "svg": "source-svg/05-people-05.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-10.png",
+            "headline": "Keep the claim within the proof.",
+            "body": "A demonstration can show a step. Savings need a comparable test.",
+            "diagram": [
+              "DEMO",
+              "OBSERVATION",
+              "LIMIT"
+            ],
+            "diagram_type": "sequence",
+            "context": "Hypothetical example • no product test reported",
+            "cta": null
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "id": "C01",
+          "claim": "The proposed request-review sequence is an example.",
+          "claim_type": "synthetic_example",
+          "evidence_source": "Original editorial example",
+          "boundary": "No product execution, benchmark or customer result was observed.",
+          "status": "explicitly_illustrative"
+        },
+        {
+          "id": "C02",
+          "claim": "Candidate carry-forward of the 73% survey statistic; applicability to this argument is unverified.",
+          "claim_type": "reported_survey",
+          "evidence_source": "Original report and question would require separate verification",
+          "boundary": "Omitted from this structure; the old draft remains a historical variant.",
+          "status": "not_carried_forward"
+        },
+        {
+          "id": "C03",
+          "claim": "A particular system reliably saves a stated amount of time.",
+          "claim_type": "performance_result",
+          "evidence_source": "Defined test, baseline, sample, period and measurement needed",
+          "boundary": "Do not infer reliability or savings from one screenshot.",
+          "status": "not_available_do_not_assert"
+        }
+      ],
+      "limitations": [
+        "Draft for founder voice and capability review; no publication approval.",
+        "Existing graphic art and fictional scenes are reused illustrations, not customer proof."
+      ]
+    },
+    {
+      "id": "06-product-to-buyer",
+      "title": "Follow the feature through the work",
+      "format": "single",
+      "caption": "06-product-to-buyer/caption.txt",
+      "variants": {
+        "graphic": [
+          {
+            "image": "06-product-to-buyer/graphic-01.png",
+            "svg": "source-svg/06-graphic-01.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-06.png",
+            "headline": "Make the workflow visible.",
+            "body": "Trigger → input → output → reviewer → next decision.",
+            "diagram": [
+              "INPUT",
+              "OUTPUT",
+              "HUMAN CHECK"
+            ],
+            "diagram_type": "sequence",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          }
+        ],
+        "people": [
+          {
+            "image": "06-product-to-buyer/people-01.png",
+            "svg": "source-svg/06-people-01.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-06.png",
+            "headline": "Make the workflow visible.",
+            "body": "Trigger → input → output → reviewer → next decision.",
+            "diagram": [
+              "INPUT",
+              "OUTPUT",
+              "HUMAN CHECK"
+            ],
+            "diagram_type": "sequence",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "id": "C01",
+          "claim": "The workflow sequence is a proposed explanatory method.",
+          "claim_type": "editorial_recommendation",
+          "evidence_source": "docs/SERVICES-AND-WRITING.md",
+          "boundary": "Editorial usefulness is a reasoned hypothesis; no conversion outcome established.",
+          "status": "proposal_for_review"
+        },
+        {
+          "id": "C02",
+          "claim": "The example describes the client’s actual implementation.",
+          "claim_type": "product_fact",
+          "evidence_source": "Technical owner and product documentation required",
+          "boundary": "Until verified, label the example hypothetical.",
+          "status": "not_available_do_not_assert"
+        }
+      ],
+      "limitations": [
+        "Draft for founder voice and capability review; no publication approval.",
+        "Existing graphic art and fictional scenes are reused illustrations, not customer proof."
+      ]
+    },
+    {
+      "id": "07-two-voices",
+      "title": "Two accounts need two contributions",
+      "format": "single",
+      "caption": "07-two-voices/caption.txt",
+      "variants": {
+        "graphic": [
+          {
+            "image": "07-two-voices/graphic-01.png",
+            "svg": "source-svg/07-graphic-01.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-07.png",
+            "headline": "One question. Two useful contributions.",
+            "body": "Founder: why this choice. Company: what supports it.",
+            "diagram": [
+              "FOUNDER: WHY",
+              "COMPANY: EVIDENCE"
+            ],
+            "diagram_type": "comparison",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          }
+        ],
+        "people": [
+          {
+            "image": "07-two-voices/people-01.png",
+            "svg": "source-svg/07-people-01.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-07.png",
+            "headline": "One question. Two useful contributions.",
+            "body": "Founder: why this choice. Company: what supports it.",
+            "diagram": [
+              "FOUNDER: WHY",
+              "COMPANY: EVIDENCE"
+            ],
+            "diagram_type": "comparison",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "id": "C01",
+          "claim": "This division of content is an editorial proposal.",
+          "claim_type": "editorial_hypothesis",
+          "evidence_source": "docs/SERVICES-AND-WRITING.md",
+          "boundary": "No claim that one account type causes better reach or leads.",
+          "status": "proposal_for_review"
+        },
+        {
+          "id": "C02",
+          "claim": "Founder accounts outperform company accounts causally.",
+          "claim_type": "causal_comparison",
+          "evidence_source": "Historical corpus does not identify this effect",
+          "boundary": "Do not promote descriptive account medians to causal advice.",
+          "status": "unsupported_do_not_assert"
+        }
+      ],
+      "limitations": [
+        "Draft for founder voice and capability review; no publication approval.",
+        "Existing graphic art and fictional scenes are reused illustrations, not customer proof."
+      ]
+    },
+    {
+      "id": "08-visuals",
+      "title": "Give the image a useful question",
+      "format": "single",
+      "caption": "08-visuals/caption.txt",
+      "variants": {
+        "graphic": [
+          {
+            "image": "08-visuals/graphic-01.png",
+            "svg": "source-svg/08-graphic-01.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-08.png",
+            "headline": "Give the image a question.",
+            "body": "Order matters? Show a path. Differences matter? Show a comparison.",
+            "diagram": [
+              "ORDER → PATH",
+              "DIFFERENCE → COMPARISON"
+            ],
+            "diagram_type": "mapping",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          }
+        ],
+        "people": [
+          {
+            "image": "08-visuals/people-01.png",
+            "svg": "source-svg/08-people-01.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-08.png",
+            "headline": "Give the image a question.",
+            "body": "Order matters? Show a path. Differences matter? Show a comparison.",
+            "diagram": [
+              "ORDER → PATH",
+              "DIFFERENCE → COMPARISON"
+            ],
+            "diagram_type": "mapping",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "id": "C01",
+          "claim": "The visual-function mapping is editorial guidance.",
+          "claim_type": "editorial_recommendation",
+          "evidence_source": "docs/SERVICES-AND-WRITING.md",
+          "boundary": "No measured viewing-time, accessibility or engagement advantage is claimed.",
+          "status": "proposal_for_review"
+        },
+        {
+          "id": "C02",
+          "claim": "Illustrative people in the current artwork are real clients.",
+          "claim_type": "identity_claim",
+          "evidence_source": "Existing publication release records identify them as fictional",
+          "boundary": "Keep the illustrative label; do not imply a testimonial.",
+          "status": "false_do_not_assert"
+        }
+      ],
+      "limitations": [
+        "Draft for founder voice and capability review; no publication approval.",
+        "Existing graphic art and fictional scenes are reused illustrations, not customer proof."
+      ]
+    },
+    {
+      "id": "09-measure",
+      "title": "Choose the question before the metric",
+      "format": "single",
+      "caption": "09-measure/caption.txt",
+      "variants": {
+        "graphic": [
+          {
+            "image": "09-measure/graphic-01.png",
+            "svg": "source-svg/09-graphic-01.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-09.png",
+            "headline": "Choose the question before the metric.",
+            "body": "Reactions show interactions. Buying intent needs more evidence.",
+            "diagram": [
+              "INTERACTIONS → COUNT",
+              "BUYING INTENT → UNKNOWN"
+            ],
+            "diagram_type": "mapping",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          }
+        ],
+        "people": [
+          {
+            "image": "09-measure/people-01.png",
+            "svg": "source-svg/09-people-01.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-09.png",
+            "headline": "Choose the question before the metric.",
+            "body": "Reactions show interactions. Buying intent needs more evidence.",
+            "diagram": [
+              "INTERACTIONS → COUNT",
+              "BUYING INTENT → UNKNOWN"
+            ],
+            "diagram_type": "mapping",
+            "context": "Editorial guidance • founder review draft",
+            "cta": null
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "id": "C01",
+          "claim": "Observed reaction and comment counts cover 276 and 256 of the 279 posts.",
+          "claim_type": "descriptive_count",
+          "evidence_source": "reports/20261105/data.json",
+          "boundary": "Different observed subsets; metrics in this report are timestamped 22 October 2026.",
+          "status": "recomputed"
+        },
+        {
+          "id": "C02",
+          "claim": "A reaction establishes buyer intent or a sale.",
+          "claim_type": "commercial_inference",
+          "evidence_source": "No buyer-intent or outcome record",
+          "boundary": "The inference is unsupported.",
+          "status": "unsupported_do_not_assert"
+        },
+        {
+          "id": "C03",
+          "claim": "A comment may contain a useful question.",
+          "claim_type": "possibility",
+          "evidence_source": "Review of the actual comment would be required",
+          "boundary": "Do not claim a substantive question merely from the comment count.",
+          "status": "conditional"
+        }
+      ],
+      "limitations": [
+        "Draft for founder voice and capability review; no publication approval.",
+        "Existing graphic art and fictional scenes are reused illustrations, not customer proof."
+      ]
+    },
+    {
+      "id": "10-the-delivery",
+      "title": "A reviewable founder-content workflow",
+      "format": "single",
+      "caption": "10-the-delivery/caption.txt",
+      "variants": {
+        "graphic": [
+          {
+            "image": "10-the-delivery/graphic-01.png",
+            "svg": "source-svg/10-graphic-01.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/graphic-10.png",
+            "headline": "Make the thinking visible.",
+            "body": "For Europe-based B2B AI SaaS founders.",
+            "diagram": [
+              "FOUNDER INPUT",
+              "ORIGINAL CONTENT",
+              "REVIEW"
+            ],
+            "diagram_type": "sequence",
+            "context": "Proposed service workflow",
+            "cta": "Book an intro call"
+          }
+        ],
+        "people": [
+          {
+            "image": "10-the-delivery/people-01.png",
+            "svg": "source-svg/10-people-01.svg",
+            "source_art": "../20261105-evidence-v1/assets/source-art/scene-10.png",
+            "headline": "Make the thinking visible.",
+            "body": "For Europe-based B2B AI SaaS founders.",
+            "diagram": [
+              "FOUNDER INPUT",
+              "ORIGINAL CONTENT",
+              "REVIEW"
+            ],
+            "diagram_type": "sequence",
+            "context": "Proposed service workflow",
+            "cta": "Book an intro call"
+          }
+        ]
+      },
+      "evidence": [
+        {
+          "id": "C01",
+          "claim": "The agency audience and CTA are approved.",
+          "claim_type": "approved_project_position",
+          "evidence_source": "docs/APPROVED-POSITIONING.json",
+          "boundary": "Approval of positioning does not establish customer demand or results.",
+          "status": "source_confirmed"
+        },
+        {
+          "id": "C02",
+          "claim": "The proposed workflow can be delivered as described.",
+          "claim_type": "service_capability",
+          "evidence_source": "docs/SERVICES-AND-WRITING.md",
+          "boundary": "Operational specifics still require founder/delivery review.",
+          "status": "proposal_for_review"
+        },
+        {
+          "id": "C03",
+          "claim": "The service guarantees reach, leads or sales.",
+          "claim_type": "commercial_guarantee",
+          "evidence_source": "No substantiating result or guarantee terms",
+          "boundary": "Do not add this promise.",
+          "status": "unsupported_do_not_assert"
+        }
+      ],
+      "limitations": [
+        "Draft for founder voice and capability review; no publication approval.",
+        "Existing graphic art and fictional scenes are reused illustrations, not customer proof."
+      ]
+    }
+  ]
+}

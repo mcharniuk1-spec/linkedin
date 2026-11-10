@@ -1,0 +1,469 @@
+{
+  "schema": "linkedin-skill-applications/1",
+  "date": "2026-11-10",
+  "scope": "ten current post concepts, both visual directions",
+  "posts": [
+    {
+      "id": "01-the-reason",
+      "pattern_id": "P13",
+      "skills_applied": [
+        "linkedin-publication-architecture",
+        "linkedin-reference-pattern-review"
+      ],
+      "reader_job": "Understand what the proposed Outspoken service makes easier to explain.",
+      "hook_options": [
+        "A feature list tells a buyer what exists. A decision can explain why it exists that way.",
+        "A product description can tell a buyer what exists. The decision behind it can explain why it was built that way."
+      ],
+      "selected_hook": "A feature list tells a buyer what exists. A decision can explain why it exists that way.",
+      "hook_payoff": "Name one decision that belongs in a source interview, and show how it connects to a buyer’s evaluation.",
+      "claim_plan": [
+        {
+          "id": "C01",
+          "claim": "Outspoken’s approved service positioning starts from founders and the business they are building.",
+          "claim_type": "approved_project_position",
+          "evidence_source": "docs/APPROVED-POSITIONING.json",
+          "boundary": "The positioning is an aim, not delivered customer performance.",
+          "status": "source_confirmed"
+        },
+        {
+          "id": "C02",
+          "claim": "A particular founder made the example decision.",
+          "claim_type": "personal_history",
+          "evidence_source": "Founder interview or decision record required",
+          "boundary": "No actual founder story is supplied; retain the example as illustrative.",
+          "status": "not_available_do_not_assert"
+        }
+      ],
+      "evidence_review": "Complete saved279recordidentity/counterreanalysis and17prior semanticinterpretations; zero new originalpostreading.",
+      "caption_sha256": "53a94aa2846abcad0a4589ee1c268bd03b24f6f92e947d80414b0f76d92ceca3",
+      "panel_count_per_direction": 5,
+      "visual_change": "Larger mobile type and disclosures, literal context, native explanatory diagrams; unchanged prior art.",
+      "status": "draft_ready_for_author_review",
+      "remaining_holds": [
+        "Confirm the author’s stance on decision-led content.",
+        "Supply one publishable decision if converting this observation into P02.",
+        "Author acceptance of exact caption/panel revision."
+      ]
+    },
+    {
+      "id": "02-what-we-actually-saw",
+      "pattern_id": "P01",
+      "skills_applied": [
+        "linkedin-publication-architecture",
+        "linkedin-reference-pattern-review"
+      ],
+      "reader_job": "Understand what a selected LinkedIn reference sample can support.",
+      "hook_options": [
+        "107.5 reactions is a number. It is not a posting target.",
+        "Our reference sample has a median of 107.5 reactions. What can we actually learn from it?"
+      ],
+      "selected_hook": "107.5 reactions is a number. It is not a posting target.",
+      "hook_payoff": "Explain the median’s denominator, why the sample is not a benchmark, and which writing questions the research can help generate.",
+      "claim_plan": [
+        {
+          "id": "C01",
+          "claim": "The preserved sample contains 279 posts and 61 accounts.",
+          "claim_type": "descriptive_count",
+          "evidence_source": "reports/20261105/data.json",
+          "boundary": "Selected historical corpus; no claim of full LinkedIn coverage.",
+          "status": "recomputed"
+        },
+        {
+          "id": "C02",
+          "claim": "Median reactions are 107.5 among 276 observed counts; median comments are 36.5 among 256.",
+          "claim_type": "descriptive_statistic",
+          "evidence_source": "reports/20261105/data.json",
+          "boundary": "Different observed subsets; metrics in this report are timestamped 22 October 2026; the wider historical collection ran 20–22 October.",
+          "status": "recomputed"
+        },
+        {
+          "id": "C03",
+          "claim": "A format caused higher reach or sales.",
+          "claim_type": "causal_result",
+          "evidence_source": "No identifying design or reach/conversion data",
+          "boundary": "Do not assert this claim or imply it from rankings.",
+          "status": "unsupported_do_not_assert"
+        }
+      ],
+      "evidence_review": "Complete saved279recordidentity/counterreanalysis and17prior semanticinterpretations; zero new originalpostreading.",
+      "caption_sha256": "502e662301cd7e9372f4af917d73771ca10fa999b712bf09c91db48dd57e4dee",
+      "panel_count_per_direction": 5,
+      "visual_change": "Larger mobile type and disclosures, literal context, native explanatory diagrams; unchanged prior art.",
+      "status": "draft_ready_for_author_review",
+      "remaining_holds": [
+        "Approve the proposed interpretation in the agency voice.",
+        "Confirm whether to include both metrics or retain only reactions for focus.",
+        "Author acceptance of exact caption/panel revision."
+      ]
+    },
+    {
+      "id": "03-the-interview",
+      "pattern_id": "P04",
+      "skills_applied": [
+        "linkedin-publication-architecture",
+        "linkedin-reference-pattern-review"
+      ],
+      "reader_job": "See how an interview can supply the material for an authentic professional story.",
+      "hook_options": [
+        "A useful founder interview starts with a choice, not a topic list.",
+        "Before writing a founder’s story, ask which decision the story needs to explain."
+      ],
+      "selected_hook": "A useful founder interview starts with a choice, not a topic list.",
+      "hook_payoff": "Show how to turn interview answers into a supported decision sequence, including rejected alternatives and uncertainty.",
+      "claim_plan": [
+        {
+          "id": "C01",
+          "claim": "This is the proposed Outspoken interview workflow.",
+          "claim_type": "proposed_process",
+          "evidence_source": "docs/SERVICES-AND-WRITING.md",
+          "boundary": "Not a report of an interview already delivered to a client.",
+          "status": "proposal_for_review"
+        },
+        {
+          "id": "C02",
+          "claim": "An actual founder chose X because Y and then observed Z.",
+          "claim_type": "personal_history",
+          "evidence_source": "Permissioned interview and supporting record required",
+          "boundary": "No dialogue, motive, date or outcome may be invented.",
+          "status": "not_available_do_not_assert"
+        }
+      ],
+      "evidence_review": "Complete saved279recordidentity/counterreanalysis and17prior semanticinterpretations; zero new originalpostreading.",
+      "caption_sha256": "5c04a33cf1989fd7d7740433fd149492881bcca339fd6d7590fcd3a8f4dddcfa",
+      "panel_count_per_direction": 5,
+      "visual_change": "Larger mobile type and disclosures, literal context, native explanatory diagrams; unchanged prior art.",
+      "status": "draft_ready_for_author_review",
+      "remaining_holds": [
+        "Confirm the proposed interview and review process.",
+        "For a story version, supply one decision, alternatives, consequence and permission to use the details.",
+        "Author acceptance of exact caption/panel revision."
+      ]
+    },
+    {
+      "id": "04-positioning",
+      "pattern_id": "P05",
+      "skills_applied": [
+        "linkedin-publication-architecture",
+        "linkedin-reference-pattern-review"
+      ],
+      "reader_job": "Diagnose a vague product statement before rewriting it.",
+      "hook_options": [
+        "If your product statement could describe twenty companies, inspect what it leaves out.",
+        "“AI-powered workflows” leaves four buyer questions unanswered."
+      ],
+      "selected_hook": "If your product statement could describe twenty companies, inspect what it leaves out.",
+      "hook_payoff": "Identify the missing buyer, task and substantiated difference; do not stop at criticising a generic phrase.",
+      "claim_plan": [
+        {
+          "id": "C01",
+          "claim": "The generic phrase and request-review example are illustrative.",
+          "claim_type": "synthetic_example",
+          "evidence_source": "Original editorial example",
+          "boundary": "No named product, real customer or competitor quotation.",
+          "status": "explicitly_illustrative"
+        },
+        {
+          "id": "C02",
+          "claim": "Clearer positioning causes a specific sales improvement.",
+          "claim_type": "causal_result",
+          "evidence_source": "No study or measured client result in this post",
+          "boundary": "Do not assert an uplift.",
+          "status": "unsupported_do_not_assert"
+        }
+      ],
+      "evidence_review": "Complete saved279recordidentity/counterreanalysis and17prior semanticinterpretations; zero new originalpostreading.",
+      "caption_sha256": "38e7b17b57ccfefabdc9dfa677ce0b2c89c1497056c08ce7571d9cfee633c35b",
+      "panel_count_per_direction": 5,
+      "visual_change": "Larger mobile type and disclosures, literal context, native explanatory diagrams; unchanged prior art.",
+      "status": "draft_ready_for_author_review",
+      "remaining_holds": [
+        "Confirm that the diagnostic fits the agency’s positioning process.",
+        "Replace the hypothetical example only with an approved product account.",
+        "Author acceptance of exact caption/panel revision."
+      ]
+    },
+    {
+      "id": "05-proof",
+      "pattern_id": "P04",
+      "skills_applied": [
+        "linkedin-publication-architecture",
+        "linkedin-reference-pattern-review"
+      ],
+      "reader_job": "Turn a broad AI claim into an evaluable explanation.",
+      "hook_options": [
+        "A screenshot is not a time-saving claim.",
+        "Before calling a workflow automated, show where a person still has to decide."
+      ],
+      "selected_hook": "A screenshot is not a time-saving claim.",
+      "hook_payoff": "Give the reader a practical way to identify what the system does, what a person does and what the evidence actually demonstrates.",
+      "claim_plan": [
+        {
+          "id": "C01",
+          "claim": "The proposed request-review sequence is an example.",
+          "claim_type": "synthetic_example",
+          "evidence_source": "Original editorial example",
+          "boundary": "No product execution, benchmark or customer result was observed.",
+          "status": "explicitly_illustrative"
+        },
+        {
+          "id": "C02",
+          "claim": "Candidate carry-forward of the 73% survey statistic; applicability to this argument is unverified.",
+          "claim_type": "reported_survey",
+          "evidence_source": "Original report and question would require separate verification",
+          "boundary": "Omitted from this structure; the old draft remains a historical variant.",
+          "status": "not_carried_forward"
+        },
+        {
+          "id": "C03",
+          "claim": "A particular system reliably saves a stated amount of time.",
+          "claim_type": "performance_result",
+          "evidence_source": "Defined test, baseline, sample, period and measurement needed",
+          "boundary": "Do not infer reliability or savings from one screenshot.",
+          "status": "not_available_do_not_assert"
+        }
+      ],
+      "evidence_review": "Complete saved279recordidentity/counterreanalysis and17prior semanticinterpretations; zero new originalpostreading.",
+      "caption_sha256": "11818479e22dc03a02339eaf355c6649b530cedb87c864d5bbc3b65b1971059c",
+      "panel_count_per_direction": 5,
+      "visual_change": "Larger mobile type and disclosures, literal context, native explanatory diagrams; unchanged prior art.",
+      "status": "draft_ready_for_author_review",
+      "remaining_holds": [
+        "Confirm the proposed claim-review workflow.",
+        "Provide actual product demonstration material before turning the hypothetical into a case.",
+        "Author acceptance of exact caption/panel revision."
+      ]
+    },
+    {
+      "id": "06-product-to-buyer",
+      "pattern_id": "P04",
+      "skills_applied": [
+        "linkedin-publication-architecture",
+        "linkedin-reference-pattern-review"
+      ],
+      "reader_job": "Translate technical product language into an understandable user decision.",
+      "hook_options": [
+        "What happens immediately before and after the feature is used?",
+        "To explain an AI feature, start with the moment someone needs to act."
+      ],
+      "selected_hook": "What happens immediately before and after the feature is used?",
+      "hook_payoff": "Provide a usable workflow map and the questions needed to fill it accurately.",
+      "claim_plan": [
+        {
+          "id": "C01",
+          "claim": "The workflow sequence is a proposed explanatory method.",
+          "claim_type": "editorial_recommendation",
+          "evidence_source": "docs/SERVICES-AND-WRITING.md",
+          "boundary": "Editorial usefulness is a reasoned hypothesis; no conversion outcome established.",
+          "status": "proposal_for_review"
+        },
+        {
+          "id": "C02",
+          "claim": "The example describes the client’s actual implementation.",
+          "claim_type": "product_fact",
+          "evidence_source": "Technical owner and product documentation required",
+          "boundary": "Until verified, label the example hypothetical.",
+          "status": "not_available_do_not_assert"
+        }
+      ],
+      "evidence_review": "Complete saved279recordidentity/counterreanalysis and17prior semanticinterpretations; zero new originalpostreading.",
+      "caption_sha256": "2bd680b17c32da0ee1e12ed438fe41773c4078c5e9454c673835e66a83a1631b",
+      "panel_count_per_direction": 1,
+      "visual_change": "Larger mobile type and disclosures, literal context, native explanatory diagrams; unchanged prior art.",
+      "status": "draft_ready_for_author_review",
+      "remaining_holds": [
+        "Approve any real substituted workflow with its technical owner.",
+        "Choose one detail the intended buyer actually needs to assess.",
+        "Author acceptance of exact caption/panel revision."
+      ]
+    },
+    {
+      "id": "07-two-voices",
+      "pattern_id": "P10",
+      "skills_applied": [
+        "linkedin-publication-architecture",
+        "linkedin-reference-pattern-review"
+      ],
+      "reader_job": "Decide which parts of one subject belong in a founder post and a company explanation.",
+      "hook_options": [
+        "Two accounts can answer one buyer question without publishing the same answer twice.",
+        "One buyer question can need a founder’s judgment and a product team’s explanation."
+      ],
+      "selected_hook": "Two accounts can answer one buyer question without publishing the same answer twice.",
+      "hook_payoff": "Show a division of information around the same buyer question, with a reason for assigning each part.",
+      "claim_plan": [
+        {
+          "id": "C01",
+          "claim": "This division of content is an editorial proposal.",
+          "claim_type": "editorial_hypothesis",
+          "evidence_source": "docs/SERVICES-AND-WRITING.md",
+          "boundary": "No claim that one account type causes better reach or leads.",
+          "status": "proposal_for_review"
+        },
+        {
+          "id": "C02",
+          "claim": "Founder accounts outperform company accounts causally.",
+          "claim_type": "causal_comparison",
+          "evidence_source": "Historical corpus does not identify this effect",
+          "boundary": "Do not promote descriptive account medians to causal advice.",
+          "status": "unsupported_do_not_assert"
+        }
+      ],
+      "evidence_review": "Complete saved279recordidentity/counterreanalysis and17prior semanticinterpretations; zero new originalpostreading.",
+      "caption_sha256": "9b10d1f3a5f1d141601aa52688e82e7a6dfd4bcaea52b3f2269b1b5acf8dd57a",
+      "panel_count_per_direction": 1,
+      "visual_change": "Larger mobile type and disclosures, literal context, native explanatory diagrams; unchanged prior art.",
+      "status": "draft_ready_for_author_review",
+      "remaining_holds": [
+        "Confirm the account roles and source ownership.",
+        "Supply a real shared buyer question if moving beyond an illustrative comparison.",
+        "Author acceptance of exact caption/panel revision."
+      ]
+    },
+    {
+      "id": "08-visuals",
+      "pattern_id": "P05",
+      "skills_applied": [
+        "linkedin-publication-architecture",
+        "linkedin-reference-pattern-review"
+      ],
+      "reader_job": "Evaluate whether a proposed image adds explanatory value.",
+      "hook_options": [
+        "Give the image a question before you give it a style.",
+        "Before choosing a LinkedIn image, write the question it must answer."
+      ],
+      "selected_hook": "Give the image a question before you give it a style.",
+      "hook_payoff": "Help the reader choose a representation and check whether it actually carries the intended relationship.",
+      "claim_plan": [
+        {
+          "id": "C01",
+          "claim": "The visual-function mapping is editorial guidance.",
+          "claim_type": "editorial_recommendation",
+          "evidence_source": "docs/SERVICES-AND-WRITING.md",
+          "boundary": "No measured viewing-time, accessibility or engagement advantage is claimed.",
+          "status": "proposal_for_review"
+        },
+        {
+          "id": "C02",
+          "claim": "Illustrative people in the current artwork are real clients.",
+          "claim_type": "identity_claim",
+          "evidence_source": "Existing publication release records identify them as fictional",
+          "boundary": "Keep the illustrative label; do not imply a testimonial.",
+          "status": "false_do_not_assert"
+        }
+      ],
+      "evidence_review": "Complete saved279recordidentity/counterreanalysis and17prior semanticinterpretations; zero new originalpostreading.",
+      "caption_sha256": "26fb16ce4096aa8ed85f3dc6323809a3d84561a5055e1bcddfea5646b2d546e4",
+      "panel_count_per_direction": 1,
+      "visual_change": "Larger mobile type and disclosures, literal context, native explanatory diagrams; unchanged prior art.",
+      "status": "draft_ready_for_author_review",
+      "remaining_holds": [
+        "Confirm the intended visual job.",
+        "Provide cleared source material if the image is meant to demonstrate a real product or result.",
+        "Author acceptance of exact caption/panel revision."
+      ]
+    },
+    {
+      "id": "09-measure",
+      "pattern_id": "P05",
+      "skills_applied": [
+        "linkedin-publication-architecture",
+        "linkedin-reference-pattern-review"
+      ],
+      "reader_job": "Decide what an available content metric can answer and what remains unknown.",
+      "hook_options": [
+        "Choose the question before you choose the metric.",
+        "Before choosing a LinkedIn metric, write the question you need it to answer."
+      ],
+      "selected_hook": "Choose the question before you choose the metric.",
+      "hook_payoff": "Distinguish observed reactions, substantive questions, exposure and commercial outcomes without claiming that one metric substitutes for another.",
+      "claim_plan": [
+        {
+          "id": "C01",
+          "claim": "Observed reaction and comment counts cover 276 and 256 of the 279 posts.",
+          "claim_type": "descriptive_count",
+          "evidence_source": "reports/20261105/data.json",
+          "boundary": "Different observed subsets; metrics in this report are timestamped 22 October 2026.",
+          "status": "recomputed"
+        },
+        {
+          "id": "C02",
+          "claim": "A reaction establishes buyer intent or a sale.",
+          "claim_type": "commercial_inference",
+          "evidence_source": "No buyer-intent or outcome record",
+          "boundary": "The inference is unsupported.",
+          "status": "unsupported_do_not_assert"
+        },
+        {
+          "id": "C03",
+          "claim": "A comment may contain a useful question.",
+          "claim_type": "possibility",
+          "evidence_source": "Review of the actual comment would be required",
+          "boundary": "Do not claim a substantive question merely from the comment count.",
+          "status": "conditional"
+        }
+      ],
+      "evidence_review": "Complete saved279recordidentity/counterreanalysis and17prior semanticinterpretations; zero new originalpostreading.",
+      "caption_sha256": "ebd9492beb7b55202bf08a1a0785428fce6ae2284ffd3dff30d0700ab9fb6de8",
+      "panel_count_per_direction": 1,
+      "visual_change": "Larger mobile type and disclosures, literal context, native explanatory diagrams; unchanged prior art.",
+      "status": "draft_ready_for_author_review",
+      "remaining_holds": [
+        "Confirm which measurement questions the proposed service can actually support.",
+        "Any client result needs separately authorized analytics and its own measurement definition.",
+        "Author acceptance of exact caption/panel revision."
+      ]
+    },
+    {
+      "id": "10-the-delivery",
+      "pattern_id": "P12",
+      "skills_applied": [
+        "linkedin-publication-architecture",
+        "linkedin-reference-pattern-review"
+      ],
+      "reader_job": "Assess whether the proposed founder-content service fits the reader’s need.",
+      "hook_options": [
+        "For Europe-based B2B AI SaaS founders, the proposed Outspoken workflow starts with the reasoning behind the product.",
+        "For a founder who has useful expertise to share, the next step can be a clearer way to turn it into content."
+      ],
+      "selected_hook": "For Europe-based B2B AI SaaS founders, the proposed Outspoken workflow starts with the reasoning behind the product.",
+      "hook_payoff": "Describe the proposed input, deliverable and approval process sufficiently for the reader to assess relevance.",
+      "claim_plan": [
+        {
+          "id": "C01",
+          "claim": "The agency audience and CTA are approved.",
+          "claim_type": "approved_project_position",
+          "evidence_source": "docs/APPROVED-POSITIONING.json",
+          "boundary": "Approval of positioning does not establish customer demand or results.",
+          "status": "source_confirmed"
+        },
+        {
+          "id": "C02",
+          "claim": "The proposed workflow can be delivered as described.",
+          "claim_type": "service_capability",
+          "evidence_source": "docs/SERVICES-AND-WRITING.md",
+          "boundary": "Operational specifics still require founder/delivery review.",
+          "status": "proposal_for_review"
+        },
+        {
+          "id": "C03",
+          "claim": "The service guarantees reach, leads or sales.",
+          "claim_type": "commercial_guarantee",
+          "evidence_source": "No substantiating result or guarantee terms",
+          "boundary": "Do not add this promise.",
+          "status": "unsupported_do_not_assert"
+        }
+      ],
+      "evidence_review": "Complete saved279recordidentity/counterreanalysis and17prior semanticinterpretations; zero new originalpostreading.",
+      "caption_sha256": "0ee2de087c40d1bc2ae4662d99f9cbaec8d54538c28f8b60435303daa9592516",
+      "panel_count_per_direction": 1,
+      "visual_change": "Larger mobile type and disclosures, literal context, native explanatory diagrams; unchanged prior art.",
+      "status": "draft_ready_for_author_review",
+      "remaining_holds": [
+        "Confirm the proposed delivery scope and capability.",
+        "Approve first-person agency voice before publication.",
+        "Author acceptance of exact caption/panel revision."
+      ]
+    }
+  ]
+}

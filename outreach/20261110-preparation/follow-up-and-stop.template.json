@@ -1,0 +1,44 @@
+{
+  "schema": "outspoken-follow-up/1",
+  "record_mode": "template",
+  "record_id": "",
+  "provenance": {
+    "owner": "Outspoken project",
+    "source_type": "owned_template",
+    "rights_state": "owned",
+    "created_on": "2026-11-10",
+    "use_limit": "Preparation only. No real prospect records or source-post bodies are supplied."
+  },
+  "source_records": [],
+  "permissions": {
+    "source_use": "pending",
+    "relationship_context_use": "pending",
+    "third_party_name_use": "pending",
+    "channel_and_legal_review": "pending"
+  },
+  "stop": {
+    "recipient_declined": "unchecked",
+    "asked_to_stop": "unchecked",
+    "wrong_recipient": "unchecked",
+    "permission_unresolved": "unchecked",
+    "source_uncertain": "unchecked",
+    "prior_reply_needs_review": "unchecked",
+    "status": "unchecked",
+    "reason": ""
+  },
+  "send_authorization": "not_authorized",
+  "review_state": "pending_founder_review",
+  "company_record_id": "",
+  "first_message_record_id": "",
+  "first_message_actually_sent": false,
+  "first_message_source_note_id": "",
+  "prior_reply_state": "not_checked",
+  "follow_up_limit": 1,
+  "follow_ups_actually_sent": 0,
+  "manual_eligibility": "hold",
+  "follow_up_draft": "",
+  "decline_acknowledgment_draft": "",
+  "stop_action": "Do not contact again or switch channels to bypass a decline. Record the stop and route any later ambiguity to the owner.",
+  "no_reply_action": "After at most one individually reviewed follow-up, leave the thread. Silence is not expressed need or buying interest.",
+  "claims": []
+}

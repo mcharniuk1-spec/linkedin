@@ -1,0 +1,13 @@
+# Interest, humor and format
+
+Interest can come from a recognizable decision, a useful distinction, a documented surprise, a specific detail, an inspectable example or a meaningful consequence. Prefer details that change understanding. A hook is a truthful promise of that contribution; withholding basic context is not automatically useful curiosity.
+
+Humor is optional. Start from the author's established voice and a recognizable work tension. A small reversal, understatement, comparison or self-directed observation may work. Keep evidence, capabilities, source attribution and limitations literal. If a joke makes an important disclosure ambiguous, separate, rewrite or remove it. Do not invent vulnerability, a failed client, dialogue or an embarrassing episode to make a post feel human. Do not mock a customer or conceal a capability gap inside a joke. No general humor-to-trust or humor-to-reach effect is assumed.
+
+For text, preserve a coherent thought across readable paragraphs. One sentence per paragraph is an option, not a rule. For a document, each panel should add a function; keep essential denominators and limitations legible. For an image, decide whether it demonstrates, explains, compares or merely illustrates. A fictional person cannot supply testimonial proof. Give accessible text the essential meaning; a decorative image does not replace it. For video, spoken claims must match visible evidence and captions; sampled frames are not continuous viewing.
+
+When authorizing only a structure or copy revision, identify visual repairs without implying artwork has been rebuilt. If design work is requested, preserve the selected style and source identity, then check actual rendered desktop/mobile or export states appropriate to the task. A structural count or fit calculation is not artistic acceptance.
+
+Saved reactions and comments are observations of interactions. They are not impressions, reach, trust, buying intent or sales. Relative standouts depend on their comparison cohort and observation window; they are not a universal viral threshold. Different authors, audiences, topics and publication ages can confound format comparisons. Treat useful mechanisms as hypotheses to examine, not guaranteed distribution recipes. Do not infer an algorithm penalty from a competitor's claim about it.
+
+No fixed cadence, hashtag count, mandatory question, external-link position, document length or format-superiority rule follows from this method. Verify changing platform facts against current official guidance when the task needs them. Existing local source/access stops remain in effect; writing work never resumes collection or account activity.

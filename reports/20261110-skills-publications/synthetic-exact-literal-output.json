@@ -1,0 +1,15 @@
+{
+  "id": "E07b",
+  "skill_used": "linkedin-publication-architecture",
+  "cta": "Book an intro call",
+  "final_ending": "Book an intro call",
+  "disposition": "draft_ready_for_author_review_for_ending_only",
+  "files_read": [
+    "synthetic-inputs/exact-literal-input.json",
+    "skills/linkedin-publication-architecture/SKILL.md",
+    "skills/linkedin-publication-architecture/references/composition-contract.md",
+    "skills/linkedin-publication-architecture/references/interest-and-format.md"
+  ],
+  "execution_note": "Applied the explicitly supplied installed skill to an ending-only request. Replaced Want to learn more? with the protected CTA without adding punctuation or service claims. This does not establish automated skill discovery or authorize publication.",
+  "public_projection_note": "Local source locators normalized to portable labels; output fields and exact CTA bytes preserved."
+}

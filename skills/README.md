@@ -1,3 +1,10 @@
+# Owned LinkedIn writing skills — 10 November 2026
+
+- [linkedin-publication-architecture](linkedin-publication-architecture/SKILL.md): reader job, truthful story/argument, proof, hook payoff, voice and caption/panel handoff.
+- [linkedin-reference-pattern-review](linkedin-reference-pattern-review/SKILL.md): bounded source evidence, actual review modality, construction analysis and qualified pattern transfer.
+
+These original script-free bundles include their own references and require no provider or account. [Executed tests and limits](../reports/20261110-skills-publications/README.md) record static scanning, installed-copy readback, explicit use and behavioral cases. Availability in a fresh turn and actual publishing/account authority are separate.
+
 # Skills for agents working in this repository
 
 Owned skills (plain Markdown, no scripts, written for this repository; Claude Code reads them from `.claude/skills/`):
@@ -28,3 +35,4 @@ Remotion agent skills `remotion-dev/skills` (commit 30d4553ecd46fbc5212fd0ff006a
 
 ## Not available to a cloud agent
 Skills installed on the owner's own machine (personal or global) are not in this repository and cannot be assumed. If a task needs one, say so; the owned skills above are written to cover the film, design, deployment and logo work without them.
+

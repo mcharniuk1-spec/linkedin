@@ -1,0 +1,458 @@
+{
+  "status": "PASS",
+  "pages": 50,
+  "pdfs": 10,
+  "comparison": "All50actualPDFpages rasterized and compared with all5candidatePNGpagesperPDF at216x270; correct nearest identity and MAE<1.5required.",
+  "results": [
+    {
+      "pdf": "01-the-reason/graphic",
+      "page": 1,
+      "expected": "assets/01-the-reason/graphic-01.png",
+      "nearest": "assets/01-the-reason/graphic-01.png",
+      "mean_absolute_error": 0.13127,
+      "runner_up_error": 9.520182,
+      "pass": true
+    },
+    {
+      "pdf": "01-the-reason/graphic",
+      "page": 2,
+      "expected": "assets/01-the-reason/graphic-02.png",
+      "nearest": "assets/01-the-reason/graphic-02.png",
+      "mean_absolute_error": 0.314398,
+      "runner_up_error": 13.166284,
+      "pass": true
+    },
+    {
+      "pdf": "01-the-reason/graphic",
+      "page": 3,
+      "expected": "assets/01-the-reason/graphic-03.png",
+      "nearest": "assets/01-the-reason/graphic-03.png",
+      "mean_absolute_error": 0.097165,
+      "runner_up_error": 9.874314,
+      "pass": true
+    },
+    {
+      "pdf": "01-the-reason/graphic",
+      "page": 4,
+      "expected": "assets/01-the-reason/graphic-04.png",
+      "nearest": "assets/01-the-reason/graphic-04.png",
+      "mean_absolute_error": 0.466958,
+      "runner_up_error": 178.344536,
+      "pass": true
+    },
+    {
+      "pdf": "01-the-reason/graphic",
+      "page": 5,
+      "expected": "assets/01-the-reason/graphic-05.png",
+      "nearest": "assets/01-the-reason/graphic-05.png",
+      "mean_absolute_error": 0.134145,
+      "runner_up_error": 9.512883,
+      "pass": true
+    },
+    {
+      "pdf": "01-the-reason/people",
+      "page": 1,
+      "expected": "assets/01-the-reason/people-01.png",
+      "nearest": "assets/01-the-reason/people-01.png",
+      "mean_absolute_error": 0.192387,
+      "runner_up_error": 21.465552,
+      "pass": true
+    },
+    {
+      "pdf": "01-the-reason/people",
+      "page": 2,
+      "expected": "assets/01-the-reason/people-02.png",
+      "nearest": "assets/01-the-reason/people-02.png",
+      "mean_absolute_error": 0.380418,
+      "runner_up_error": 20.205304,
+      "pass": true
+    },
+    {
+      "pdf": "01-the-reason/people",
+      "page": 3,
+      "expected": "assets/01-the-reason/people-03.png",
+      "nearest": "assets/01-the-reason/people-03.png",
+      "mean_absolute_error": 0.168696,
+      "runner_up_error": 21.365283,
+      "pass": true
+    },
+    {
+      "pdf": "01-the-reason/people",
+      "page": 4,
+      "expected": "assets/01-the-reason/people-04.png",
+      "nearest": "assets/01-the-reason/people-04.png",
+      "mean_absolute_error": 0.389049,
+      "runner_up_error": 20.190569,
+      "pass": true
+    },
+    {
+      "pdf": "01-the-reason/people",
+      "page": 5,
+      "expected": "assets/01-the-reason/people-05.png",
+      "nearest": "assets/01-the-reason/people-05.png",
+      "mean_absolute_error": 0.199686,
+      "runner_up_error": 21.379744,
+      "pass": true
+    },
+    {
+      "pdf": "02-what-we-actually-saw/graphic",
+      "page": 1,
+      "expected": "assets/02-what-we-actually-saw/graphic-01.png",
+      "nearest": "assets/02-what-we-actually-saw/graphic-01.png",
+      "mean_absolute_error": 0.305773,
+      "runner_up_error": 11.051829,
+      "pass": true
+    },
+    {
+      "pdf": "02-what-we-actually-saw/graphic",
+      "page": 2,
+      "expected": "assets/02-what-we-actually-saw/graphic-02.png",
+      "nearest": "assets/02-what-we-actually-saw/graphic-02.png",
+      "mean_absolute_error": 0.108756,
+      "runner_up_error": 11.59784,
+      "pass": true
+    },
+    {
+      "pdf": "02-what-we-actually-saw/graphic",
+      "page": 3,
+      "expected": "assets/02-what-we-actually-saw/graphic-03.png",
+      "nearest": "assets/02-what-we-actually-saw/graphic-03.png",
+      "mean_absolute_error": 0.449297,
+      "runner_up_error": 179.270513,
+      "pass": true
+    },
+    {
+      "pdf": "02-what-we-actually-saw/graphic",
+      "page": 4,
+      "expected": "assets/02-what-we-actually-saw/graphic-04.png",
+      "nearest": "assets/02-what-we-actually-saw/graphic-04.png",
+      "mean_absolute_error": 0.136031,
+      "runner_up_error": 11.632042,
+      "pass": true
+    },
+    {
+      "pdf": "02-what-we-actually-saw/graphic",
+      "page": 5,
+      "expected": "assets/02-what-we-actually-saw/graphic-05.png",
+      "nearest": "assets/02-what-we-actually-saw/graphic-05.png",
+      "mean_absolute_error": 0.333631,
+      "runner_up_error": 11.072988,
+      "pass": true
+    },
+    {
+      "pdf": "02-what-we-actually-saw/people",
+      "page": 1,
+      "expected": "assets/02-what-we-actually-saw/people-01.png",
+      "nearest": "assets/02-what-we-actually-saw/people-01.png",
+      "mean_absolute_error": 0.365283,
+      "runner_up_error": 18.365152,
+      "pass": true
+    },
+    {
+      "pdf": "02-what-we-actually-saw/people",
+      "page": 2,
+      "expected": "assets/02-what-we-actually-saw/people-02.png",
+      "nearest": "assets/02-what-we-actually-saw/people-02.png",
+      "mean_absolute_error": 0.174811,
+      "runner_up_error": 17.067655,
+      "pass": true
+    },
+    {
+      "pdf": "02-what-we-actually-saw/people",
+      "page": 3,
+      "expected": "assets/02-what-we-actually-saw/people-03.png",
+      "nearest": "assets/02-what-we-actually-saw/people-03.png",
+      "mean_absolute_error": 0.367615,
+      "runner_up_error": 18.357093,
+      "pass": true
+    },
+    {
+      "pdf": "02-what-we-actually-saw/people",
+      "page": 4,
+      "expected": "assets/02-what-we-actually-saw/people-04.png",
+      "nearest": "assets/02-what-we-actually-saw/people-04.png",
+      "mean_absolute_error": 0.214398,
+      "runner_up_error": 17.099686,
+      "pass": true
+    },
+    {
+      "pdf": "02-what-we-actually-saw/people",
+      "page": 5,
+      "expected": "assets/02-what-we-actually-saw/people-05.png",
+      "nearest": "assets/02-what-we-actually-saw/people-05.png",
+      "mean_absolute_error": 0.394907,
+      "runner_up_error": 19.862369,
+      "pass": true
+    },
+    {
+      "pdf": "03-the-interview/graphic",
+      "page": 1,
+      "expected": "assets/03-the-interview/graphic-01.png",
+      "nearest": "assets/03-the-interview/graphic-01.png",
+      "mean_absolute_error": 0.126675,
+      "runner_up_error": 10.738472,
+      "pass": true
+    },
+    {
+      "pdf": "03-the-interview/graphic",
+      "page": 2,
+      "expected": "assets/03-the-interview/graphic-02.png",
+      "nearest": "assets/03-the-interview/graphic-02.png",
+      "mean_absolute_error": 0.443999,
+      "runner_up_error": 14.607682,
+      "pass": true
+    },
+    {
+      "pdf": "03-the-interview/graphic",
+      "page": 3,
+      "expected": "assets/03-the-interview/graphic-03.png",
+      "nearest": "assets/03-the-interview/graphic-03.png",
+      "mean_absolute_error": 0.116684,
+      "runner_up_error": 10.721542,
+      "pass": true
+    },
+    {
+      "pdf": "03-the-interview/graphic",
+      "page": 4,
+      "expected": "assets/03-the-interview/graphic-04.png",
+      "nearest": "assets/03-the-interview/graphic-04.png",
+      "mean_absolute_error": 0.324823,
+      "runner_up_error": 13.895325,
+      "pass": true
+    },
+    {
+      "pdf": "03-the-interview/graphic",
+      "page": 5,
+      "expected": "assets/03-the-interview/graphic-05.png",
+      "nearest": "assets/03-the-interview/graphic-05.png",
+      "mean_absolute_error": 0.461025,
+      "runner_up_error": 14.603664,
+      "pass": true
+    },
+    {
+      "pdf": "03-the-interview/people",
+      "page": 1,
+      "expected": "assets/03-the-interview/people-01.png",
+      "nearest": "assets/03-the-interview/people-01.png",
+      "mean_absolute_error": 0.195416,
+      "runner_up_error": 17.108865,
+      "pass": true
+    },
+    {
+      "pdf": "03-the-interview/people",
+      "page": 2,
+      "expected": "assets/03-the-interview/people-02.png",
+      "nearest": "assets/03-the-interview/people-02.png",
+      "mean_absolute_error": 0.356327,
+      "runner_up_error": 20.987369,
+      "pass": true
+    },
+    {
+      "pdf": "03-the-interview/people",
+      "page": 3,
+      "expected": "assets/03-the-interview/people-03.png",
+      "nearest": "assets/03-the-interview/people-03.png",
+      "mean_absolute_error": 0.174508,
+      "runner_up_error": 20.651915,
+      "pass": true
+    },
+    {
+      "pdf": "03-the-interview/people",
+      "page": 4,
+      "expected": "assets/03-the-interview/people-04.png",
+      "nearest": "assets/03-the-interview/people-04.png",
+      "mean_absolute_error": 0.393284,
+      "runner_up_error": 21.01174,
+      "pass": true
+    },
+    {
+      "pdf": "03-the-interview/people",
+      "page": 5,
+      "expected": "assets/03-the-interview/people-05.png",
+      "nearest": "assets/03-the-interview/people-05.png",
+      "mean_absolute_error": 0.204298,
+      "runner_up_error": 17.097742,
+      "pass": true
+    },
+    {
+      "pdf": "04-positioning/graphic",
+      "page": 1,
+      "expected": "assets/04-positioning/graphic-01.png",
+      "nearest": "assets/04-positioning/graphic-01.png",
+      "mean_absolute_error": 0.301669,
+      "runner_up_error": 9.469084,
+      "pass": true
+    },
+    {
+      "pdf": "04-positioning/graphic",
+      "page": 2,
+      "expected": "assets/04-positioning/graphic-02.png",
+      "nearest": "assets/04-positioning/graphic-02.png",
+      "mean_absolute_error": 0.10004,
+      "runner_up_error": 13.906984,
+      "pass": true
+    },
+    {
+      "pdf": "04-positioning/graphic",
+      "page": 3,
+      "expected": "assets/04-positioning/graphic-03.png",
+      "nearest": "assets/04-positioning/graphic-03.png",
+      "mean_absolute_error": 0.314821,
+      "runner_up_error": 7.55116,
+      "pass": true
+    },
+    {
+      "pdf": "04-positioning/graphic",
+      "page": 4,
+      "expected": "assets/04-positioning/graphic-04.png",
+      "nearest": "assets/04-positioning/graphic-04.png",
+      "mean_absolute_error": 0.445953,
+      "runner_up_error": 185.917695,
+      "pass": true
+    },
+    {
+      "pdf": "04-positioning/graphic",
+      "page": 5,
+      "expected": "assets/04-positioning/graphic-05.png",
+      "nearest": "assets/04-positioning/graphic-05.png",
+      "mean_absolute_error": 0.322559,
+      "runner_up_error": 7.558042,
+      "pass": true
+    },
+    {
+      "pdf": "04-positioning/people",
+      "page": 1,
+      "expected": "assets/04-positioning/people-01.png",
+      "nearest": "assets/04-positioning/people-01.png",
+      "mean_absolute_error": 0.372085,
+      "runner_up_error": 19.841798,
+      "pass": true
+    },
+    {
+      "pdf": "04-positioning/people",
+      "page": 2,
+      "expected": "assets/04-positioning/people-02.png",
+      "nearest": "assets/04-positioning/people-02.png",
+      "mean_absolute_error": 0.159225,
+      "runner_up_error": 17.250852,
+      "pass": true
+    },
+    {
+      "pdf": "04-positioning/people",
+      "page": 3,
+      "expected": "assets/04-positioning/people-03.png",
+      "nearest": "assets/04-positioning/people-03.png",
+      "mean_absolute_error": 0.379567,
+      "runner_up_error": 18.315689,
+      "pass": true
+    },
+    {
+      "pdf": "04-positioning/people",
+      "page": 4,
+      "expected": "assets/04-positioning/people-04.png",
+      "nearest": "assets/04-positioning/people-04.png",
+      "mean_absolute_error": 0.173903,
+      "runner_up_error": 17.260397,
+      "pass": true
+    },
+    {
+      "pdf": "04-positioning/people",
+      "page": 5,
+      "expected": "assets/04-positioning/people-05.png",
+      "nearest": "assets/04-positioning/people-05.png",
+      "mean_absolute_error": 0.38634,
+      "runner_up_error": 18.331973,
+      "pass": true
+    },
+    {
+      "pdf": "05-proof/graphic",
+      "page": 1,
+      "expected": "assets/05-proof/graphic-01.png",
+      "nearest": "assets/05-proof/graphic-01.png",
+      "mean_absolute_error": 0.126143,
+      "runner_up_error": 9.072731,
+      "pass": true
+    },
+    {
+      "pdf": "05-proof/graphic",
+      "page": 2,
+      "expected": "assets/05-proof/graphic-02.png",
+      "nearest": "assets/05-proof/graphic-02.png",
+      "mean_absolute_error": 0.315032,
+      "runner_up_error": 10.275051,
+      "pass": true
+    },
+    {
+      "pdf": "05-proof/graphic",
+      "page": 3,
+      "expected": "assets/05-proof/graphic-03.png",
+      "nearest": "assets/05-proof/graphic-03.png",
+      "mean_absolute_error": 0.462254,
+      "runner_up_error": 180.518376,
+      "pass": true
+    },
+    {
+      "pdf": "05-proof/graphic",
+      "page": 4,
+      "expected": "assets/05-proof/graphic-04.png",
+      "nearest": "assets/05-proof/graphic-04.png",
+      "mean_absolute_error": 0.34441,
+      "runner_up_error": 10.284436,
+      "pass": true
+    },
+    {
+      "pdf": "05-proof/graphic",
+      "page": 5,
+      "expected": "assets/05-proof/graphic-05.png",
+      "nearest": "assets/05-proof/graphic-05.png",
+      "mean_absolute_error": 0.141398,
+      "runner_up_error": 9.0746,
+      "pass": true
+    },
+    {
+      "pdf": "05-proof/people",
+      "page": 1,
+      "expected": "assets/05-proof/people-01.png",
+      "nearest": "assets/05-proof/people-01.png",
+      "mean_absolute_error": 0.195085,
+      "runner_up_error": 19.810071,
+      "pass": true
+    },
+    {
+      "pdf": "05-proof/people",
+      "page": 2,
+      "expected": "assets/05-proof/people-02.png",
+      "nearest": "assets/05-proof/people-02.png",
+      "mean_absolute_error": 0.384179,
+      "runner_up_error": 18.308551,
+      "pass": true
+    },
+    {
+      "pdf": "05-proof/people",
+      "page": 3,
+      "expected": "assets/05-proof/people-03.png",
+      "nearest": "assets/05-proof/people-03.png",
+      "mean_absolute_error": 0.187494,
+      "runner_up_error": 17.844422,
+      "pass": true
+    },
+    {
+      "pdf": "05-proof/people",
+      "page": 4,
+      "expected": "assets/05-proof/people-04.png",
+      "nearest": "assets/05-proof/people-04.png",
+      "mean_absolute_error": 0.398257,
+      "runner_up_error": 21.30791,
+      "pass": true
+    },
+    {
+      "pdf": "05-proof/people",
+      "page": 5,
+      "expected": "assets/05-proof/people-05.png",
+      "nearest": "assets/05-proof/people-05.png",
+      "mean_absolute_error": 0.206316,
+      "runner_up_error": 17.843787,
+      "pass": true
+    }
+  ]
+}

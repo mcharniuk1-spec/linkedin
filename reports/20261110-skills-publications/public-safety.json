@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "files_checked": 224,
+  "json_files_checked": 28,
+  "sqlite_files_checked": 0,
+  "problems": [],
+  "tree_sha256": "392b4813953d05bea2d8018c827016942651af73663dc2aca30d6d2cc56886c9",
+  "limits": "Static boundary checks; source rights, factual accuracy, owner acceptance and actual runtime integrations require their separate evidence.",
+  "record_scope": "All staged public files excluding this self-referential result file. Final exact Git tree is verified separately."
+}

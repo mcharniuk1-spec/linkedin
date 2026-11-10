@@ -1,0 +1,11 @@
+A screenshot is not a time-saving claim.
+
+Imagine a request-review tool. A hypothetical demonstration could show three sample requests, a stated review rule and the flags the tool would suggest. A person would check those suggestions before any next action.
+
+That would make one part of the proposed workflow inspectable. It would not establish a typical error rate, repeated speed or a reliable customer saving.
+
+For a performance claim, define the task, the comparison, the sample, the measurement period and the human work included. Then report what was actually observed, with its operating conditions.
+
+The example here is illustrative. No product execution, benchmark or customer result is being reported.
+
+Write the claim at the level the evidence can support. A demonstration can show a step. A saving needs a comparable test.

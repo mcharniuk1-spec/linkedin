@@ -1,0 +1,57 @@
+{
+  "schema": "outspoken-gallery-browser-review/1",
+  "date": "2026-11-10",
+  "status": "PASS_scoped_desktop_mobile_gallery",
+  "surface": "local HTTP gallery of the exact source package",
+  "method": "in-app browser, actual DOM state and mobile screenshot",
+  "mobile": {
+    "viewport": [
+      390,
+      844
+    ],
+    "body_width": 375,
+    "page_scroll_width": 375,
+    "articles": 10,
+    "image_elements": 60,
+    "initial_lazy_loaded_images": 12,
+    "pdf_links": 10,
+    "first_caption_source_disclosure": "opened and readable",
+    "horizontal_image_rows": "intentional overflow:auto",
+    "card_width": 351,
+    "image_width": 287,
+    "object_serialization_artifacts": false
+  },
+  "desktop": {
+    "viewport_width": 1280,
+    "body_width": 1265,
+    "page_scroll_width": 1265,
+    "articles": 10,
+    "image_elements": 60,
+    "pdf_links": 10,
+    "object_serialization_artifacts": false
+  },
+  "viewport_override_reset": true,
+  "limits": [
+    "No physical-device or native LinkedIn preview.",
+    "Browser element count does not establish all lazy images loaded; separate native rendering and exact asset checks cover all sixty exports."
+  ],
+  "accessibility_followup": {
+    "gallery_image_descriptions": 60,
+    "concept_transcript_links": 10,
+    "keyboard_enter_gallery_link": "opened exact first concept transcript fragment",
+    "keyboard_enter_transcript_navigation": "opened second concept fragment",
+    "transcript_concept_sections": 10,
+    "transcript_panel_articles": 60,
+    "main_landmarks": 1,
+    "language": "en",
+    "mobile_viewport": [
+      390,
+      844
+    ],
+    "mobile_scroll_width": 375,
+    "mobile_main_width": 327,
+    "mobile_readability": "research caption visually inspected; no horizontal page overflow",
+    "viewport_reset": true,
+    "limits": "No screen-reader, tagged-PDF, native LinkedIn or physical-device validation."
+  }
+}

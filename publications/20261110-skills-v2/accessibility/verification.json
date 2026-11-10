@@ -1,0 +1,68 @@
+{
+  "schema": "outspoken-text-alternative-verification/1",
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "Exact sixty expected identities, order and no duplicates",
+      "status": "PASS"
+    },
+    {
+      "check": "Current canonical content identity",
+      "status": "PASS"
+    },
+    {
+      "check": "Every and only current PNG has a description",
+      "status": "PASS"
+    },
+    {
+      "check": "All sixty exact source and image hashes",
+      "status": "PASS"
+    },
+    {
+      "check": "Descriptions are concise, meaningful and distinct",
+      "status": "PASS"
+    },
+    {
+      "check": "All sixty important panel messages and exact literals preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "Diagram meaning preserves parallel versus sequential relationships",
+      "status": "PASS"
+    },
+    {
+      "check": "Thirty actual people descriptions disclose fiction",
+      "status": "PASS"
+    },
+    {
+      "check": "Every proof image preserves hypothetical/no-test context",
+      "status": "PASS"
+    },
+    {
+      "check": "Gallery uses every exact description",
+      "status": "PASS"
+    },
+    {
+      "check": "Ten direct concept transcript links",
+      "status": "PASS"
+    },
+    {
+      "check": "All ten concepts and sixty unique transcript anchors",
+      "status": "PASS"
+    },
+    {
+      "check": "All captions, panel fields and diagram equivalents in text copies",
+      "status": "PASS"
+    },
+    {
+      "check": "Both offer descriptions retain the exact CTA",
+      "status": "PASS"
+    }
+  ],
+  "check_count": 14,
+  "alt_text_records": 60,
+  "concept_transcripts": 10,
+  "limits": [
+    "Structural/source equivalence only; no screen-reader, native LinkedIn, tagged-PDF or WCAG conformance assertion."
+  ]
+}

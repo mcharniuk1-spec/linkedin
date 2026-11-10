@@ -1,0 +1,1066 @@
+[
+  {
+    "id": "01-the-reason",
+    "title": "Show the decision behind the product",
+    "format": "carousel",
+    "caption": "A feature list tells a buyer what exists. A decision can explain why it exists that way.\n\nWhich problem did the team choose to solve first? What did it rule out? Where did it keep a person in the loop?\n\nThose details reveal priorities and trade-offs. They give a reader something more useful to assess than a list of capabilities.\n\nThat is the starting point of the content workflow we are proposing at Outspoken: recover a real decision, connect it to a buyer question, check the facts, then write an original account of the reasoning.\n\nThe immediate aim is clearer communication. Whether that earns attention, qualified conversations or sales is something to observe separately.\n\nStart the brief with the decision a buyer needs to understand.",
+    "pattern_id": "P13",
+    "reader_job": "Understand what the proposed Outspoken service makes easier to explain.",
+    "evidence": [
+      {
+        "id": "C01",
+        "claim": "Outspoken’s approved service positioning starts from founders and the business they are building.",
+        "claim_type": "approved_project_position",
+        "evidence_source": "docs/APPROVED-POSITIONING.json",
+        "boundary": "The positioning is an aim, not delivered customer performance.",
+        "status": "source_confirmed"
+      },
+      {
+        "id": "C02",
+        "claim": "A particular founder made the example decision.",
+        "claim_type": "personal_history",
+        "evidence_source": "Founder interview or decision record required",
+        "boundary": "No actual founder story is supplied; retain the example as illustrative.",
+        "status": "not_available_do_not_assert"
+      }
+    ],
+    "limitations": [
+      "Draft for founder voice and capability review; no publication approval.",
+      "Existing graphic art and fictional scenes are reused illustrations, not customer proof."
+    ],
+    "variants": {
+      "graphic": [
+        {
+          "headline": "The feature list leaves something out.",
+          "body": "Why did the team choose to build it this way?",
+          "diagram": [
+            "PRODUCT",
+            "DECISION",
+            "BUYER"
+          ],
+          "diagram_type": "sequence",
+          "context": "Editorial guidance • founder review draft"
+        },
+        {
+          "headline": "Start with a real choice.",
+          "body": "Which problem did the team choose to solve first?",
+          "diagram": [
+            "GOAL",
+            "CHOICE",
+            "REASON"
+          ],
+          "diagram_type": "sequence",
+          "context": "Editorial guidance • founder review draft"
+        },
+        {
+          "headline": "Keep the trade-off.",
+          "body": "What was the plausible alternative—and why was it rejected?",
+          "diagram": [
+            "OPTION A",
+            "OPTION B"
+          ],
+          "diagram_type": "comparison",
+          "context": "Editorial guidance • founder review draft"
+        },
+        {
+          "headline": "Connect it to a buyer question.",
+          "body": "Explain what the choice changes for the person evaluating the product.",
+          "diagram": [
+            "CHOICE",
+            "MEANING",
+            "BUYER"
+          ],
+          "diagram_type": "sequence",
+          "context": "Editorial guidance • founder review draft"
+        },
+        {
+          "headline": "Make the reasoning visible.",
+          "body": "A clearer explanation is the deliverable. Business outcomes need observation.",
+          "diagram": [
+            "SOURCE",
+            "DRAFT",
+            "REVIEW"
+          ],
+          "diagram_type": "sequence",
+          "context": "Editorial guidance • founder review draft"
+        }
+      ],
+      "people": [
+        {
+          "headline": "The feature list leaves something out.",
+          "body": "Why did the team choose to build it this way?",
+          "diagram": [
+            "PRODUCT",
+            "DECISION",
+            "BUYER"
+          ],
+          "diagram_type": "sequence",
+          "context": "Editorial guidance • founder review draft"
+        },
+        {
+          "headline": "Start with a real choice.",
+          "body": "Which problem did the team choose to solve first?",
+          "diagram": [
+            "GOAL",
+            "CHOICE",
+            "REASON"
+          ],
+          "diagram_type": "sequence",
+          "context": "Editorial guidance • founder review draft"
+        },
+        {
+          "headline": "Keep the trade-off.",
+          "body": "What was the plausible alternative—and why was it rejected?",
+          "diagram": [
+            "OPTION A",
+            "OPTION B"
+          ],
+          "diagram_type": "comparison",
+          "context": "Editorial guidance • founder review draft"
+        },
+        {
+          "headline": "Connect it to a buyer question.",
+          "body": "Explain what the choice changes for the person evaluating the product.",
+          "diagram": [
+            "CHOICE",
+            "MEANING",
+            "BUYER"
+          ],
+          "diagram_type": "sequence",
+          "context": "Editorial guidance • founder review draft"
+        },
+        {
+          "headline": "Make the reasoning visible.",
+          "body": "A clearer explanation is the deliverable. Business outcomes need observation.",
+          "diagram": [
+            "SOURCE",
+            "DRAFT",
+            "REVIEW"
+          ],
+          "diagram_type": "sequence",
+          "context": "Editorial guidance • founder review draft"
+        }
+      ]
+    },
+    "source_structure_revision": "23b8a1ab076fccdaebd4c0394b9afd015707528e",
+    "status": "draft_ready_for_author_review",
+    "illustrative_people": true
+  },
+  {
+    "id": "02-what-we-actually-saw",
+    "title": "A median is not a posting target",
+    "format": "carousel",
+    "caption": "107.5 reactions is a number. It is not a posting target.\n\nOur saved reference sample contains 279 selected posts from 61 accounts. Reaction counts were available for 276 posts; their median was 107.5. Comment counts were available for 256; their median was 36.5.\n\nThese counters were recorded on 22 October 2026. The sample spans different authors, audiences, topics and publication ages. It is not a picture of everything happening on LinkedIn now.\n\nThe numbers describe observed interactions. They do not tell us how many people saw the posts, whether the right buyers cared, or whether anyone bought.\n\nUse the sample to find a question worth testing. Compare similar conditions, keep the denominator, and leave the unsupported conclusion open.\n\nA number is more useful when its limits travel with it.",
+    "pattern_id": "P01",
+    "reader_job": "Understand what a selected LinkedIn reference sample can support.",
+    "evidence": [
+      {
+        "id": "C01",
+        "claim": "The preserved sample contains 279 posts and 61 accounts.",
+        "claim_type": "descriptive_count",
+        "evidence_source": "reports/20261105/data.json",
+        "boundary": "Selected historical corpus; no claim of full LinkedIn coverage.",
+        "status": "recomputed"
+      },
+      {
+        "id": "C02",
+        "claim": "Median reactions are 107.5 among 276 observed counts; median comments are 36.5 among 256.",
+        "claim_type": "descriptive_statistic",
+        "evidence_source": "reports/20261105/data.json",
+        "boundary": "Different observed subsets; metrics in this report are timestamped 22 October 2026; the wider historical collection ran 20–22 October.",
+        "status": "recomputed"
+      },
+      {
+        "id": "C03",
+        "claim": "A format caused higher reach or sales.",
+        "claim_type": "causal_result",
+        "evidence_source": "No identifying design or reach/conversion data",
+        "boundary": "Do not assert this claim or imply it from rankings.",
+        "status": "unsupported_do_not_assert"
+      }
+    ],
+    "limitations": [
+      "Draft for founder voice and capability review; no publication approval.",
+      "Existing graphic art and fictional scenes are reused illustrations, not customer proof."
+    ],
+    "variants": {
+      "graphic": [
+        {
+          "headline": "A median is not a target.",
+          "body": "279 selected posts. What can they actually tell us?",
+          "diagram": [
+            "279 POSTS",
+            "61 ACCOUNTS"
+          ],
+          "diagram_type": "comparison",
+          "context": "Selected sample • counters recorded 22 Oct 2026"
+        },
+        {
+          "headline": "107.5 reactions.",
+          "body": "Median of 276 observed counts. Three posts had no observed count.",
+          "diagram": [
+            "276 COUNTS",
+            "107.5 MEDIAN"
+          ],
+          "diagram_type": "comparison",
+          "context": "Selected sample • counters recorded 22 Oct 2026"
+        },
+        {
+          "headline": "36.5 comments.",
+          "body": "Median of 256 observed counts. Twenty-three were missing.",
+          "diagram": [
+            "256 COUNTS",
+            "36.5 MEDIAN"
+          ],
+          "diagram_type": "comparison",
+          "context": "Selected sample • counters recorded 22 Oct 2026"
+        },
+        {
+          "headline": "Interactions are not reach.",
+          "body": "Impressions, buyer intent and sales were not measured.",
+          "diagram": [
+            "INTERACTIONS",
+            "OBSERVED",
+            "REACH UNKNOWN"
+          ],
+          "diagram_type": "unknown",
+          "context": "Selected sample • counters recorded 22 Oct 2026"
+        },
+        {
+          "headline": "Choose a question, then a test.",
+          "body": "Compare like with like. Keep the evidence and the limits together.",
+          "diagram": [
+            "QUESTION",
+            "EVIDENCE",
+            "NEXT CHECK"
+          ],
+          "diagram_type": "sequence",
+          "context": "Selected sample • counters recorded 22 Oct 2026"
+        }
+      ],
+      "people": [
+        {
+          "headline": "A median is not a target.",
+          "body": "279 selected posts. What can they actually tell us?",
+          "diagram": [
+            "279 POSTS",
+            "61 ACCOUNTS"
+          ],
+          "diagram_type": "comparison",
+          "context": "Selected sample • counters recorded 22 Oct 2026"
+        },
+        {
+          "headline": "107.5 reactions.",
+          "body": "Median of 276 observed counts. Three posts had no observed count.",
+          "diagram": [
+            "276 COUNTS",
+            "107.5 MEDIAN"
+          ],
+          "diagram_type": "comparison",
+          "context": "Selected sample • counters recorded 22 Oct 2026"
+        },
+        {
+          "headline": "36.5 comments.",
+          "body": "Median of 256 observed counts. Twenty-three were missing.",
+          "diagram": [
+            "256 COUNTS",
+            "36.5 MEDIAN"
+          ],
+          "diagram_type": "comparison",
+          "context": "Selected sample • counters recorded 22 Oct 2026"
+        },
+        {
+          "headline": "Interactions are not reach.",
+          "body": "Impressions, buyer intent and sales were not measured.",
+          "diagram": [
+            "INTERACTIONS",
+            "OBSERVED",
+            "REACH UNKNOWN"
+          ],
+          "diagram_type": "unknown",
+          "context": "Selected sample • counters recorded 22 Oct 2026"
+        },
+        {
+          "headline": "Choose a question, then a test.",
+          "body": "Compare like with like. Keep the evidence and the limits together.",
+          "diagram": [
+            "QUESTION",
+            "EVIDENCE",
+            "NEXT CHECK"
+          ],
+          "diagram_type": "sequence",
+          "context": "Selected sample • counters recorded 22 Oct 2026"
+        }
+      ]
+    },
+    "source_structure_revision": "23b8a1ab076fccdaebd4c0394b9afd015707528e",
+    "status": "draft_ready_for_author_review",
+    "illustrative_people": true
+  },
+  {
+    "id": "03-the-interview",
+    "title": "Find the decision in the interview",
+    "format": "carousel",
+    "caption": "A useful founder interview starts with a choice, not a topic list.\n\nAsk what the person was trying to achieve, what constrained the decision and which other option looked reasonable at the time.\n\nThe rejected option should be a real alternative, not the villain hired for the story.\n\nThen separate three things: what the founder chose, what happened afterward, and how they explain it now. Those are related, but they are not interchangeable.\n\nThis is a proposed interview method, not a story about a client engagement already delivered. A real post still needs the author's confirmed details and permission to share them.\n\nFor the next interview, choose one decision and record the goal, alternatives and information available at the time.",
+    "pattern_id": "P04",
+    "reader_job": "See how an interview can supply the material for an authentic professional story.",
+    "evidence": [
+      {
+        "id": "C01",
+        "claim": "This is the proposed Outspoken interview workflow.",
+        "claim_type": "proposed_process",
+        "evidence_source": "docs/SERVICES-AND-WRITING.md",
+        "boundary": "Not a report of an interview already delivered to a client.",
+        "status": "proposal_for_review"
+      },
+      {
+        "id": "C02",
+        "claim": "An actual founder chose X because Y and then observed Z.",
+        "claim_type": "personal_history",
+        "evidence_source": "Permissioned interview and supporting record required",
+        "boundary": "No dialogue, motive, date or outcome may be invented.",
+        "status": "not_available_do_not_assert"
+      }
+    ],
+    "limitations": [
+      "Draft for founder voice and capability review; no publication approval.",
+      "Existing graphic art and fictional scenes are reused illustrations, not customer proof."
+    ],
+    "variants": {
+      "graphic": [
+        {
+          "headline": "Lose the topic list. Find the decision.",
+          "body": "A proposed interview method for surfacing real judgment.",
+          "diagram": [
+            "QUESTION",
+            "SOURCE",
+            "DRAFT"
+          ],
+          "diagram_type": "sequence",
+          "context": "Proposed interview method"
+        },
+        {
+          "headline": "What was the goal?",
+          "body": "What had to work—and what could not change?",
+          "diagram": [
+            "GOAL",
+            "CONSTRAINT"
+          ],
+          "diagram_type": "comparison",
+          "context": "Proposed interview method"
+        },
+        {
+          "headline": "Why was the other option plausible?",
+          "body": "Record real alternatives, not a convenient villain.",
+          "diagram": [
+            "OPTION A",
+            "OPTION B"
+          ],
+          "diagram_type": "comparison",
+          "context": "Proposed interview method"
+        },
+        {
+          "headline": "What happened afterward?",
+          "body": "Separate the observed consequence from the explanation.",
+          "diagram": [
+            "CHOICE",
+            "OUTCOME",
+            "EXPLANATION"
+          ],
+          "diagram_type": "sequence",
+          "context": "Proposed interview method"
+        },
+        {
+          "headline": "What changed in the next decision?",
+          "body": "Confirm the detail, the lesson and permission to share.",
+          "diagram": [
+            "DETAIL",
+            "CONFIRM",
+            "PERMISSION"
+          ],
+          "diagram_type": "sequence",
+          "context": "Proposed interview method"
+        }
+      ],
+      "people": [
+        {
+          "headline": "Lose the topic list. Find the decision.",
+          "body": "A proposed interview method for surfacing real judgment.",
+          "diagram": [
+            "QUESTION",
+            "SOURCE",
+            "DRAFT"
+          ],
+          "diagram_type": "sequence",
+          "context": "Proposed interview method"
+        },
+        {
+          "headline": "What was the goal?",
+          "body": "What had to work—and what could not change?",
+          "diagram": [
+            "GOAL",
+            "CONSTRAINT"
+          ],
+          "diagram_type": "comparison",
+          "context": "Proposed interview method"
+        },
+        {
+          "headline": "Why was the other option plausible?",
+          "body": "Record real alternatives, not a convenient villain.",
+          "diagram": [
+            "OPTION A",
+            "OPTION B"
+          ],
+          "diagram_type": "comparison",
+          "context": "Proposed interview method"
+        },
+        {
+          "headline": "What happened afterward?",
+          "body": "Separate the observed consequence from the explanation.",
+          "diagram": [
+            "CHOICE",
+            "OUTCOME",
+            "EXPLANATION"
+          ],
+          "diagram_type": "sequence",
+          "context": "Proposed interview method"
+        },
+        {
+          "headline": "What changed in the next decision?",
+          "body": "Confirm the detail, the lesson and permission to share.",
+          "diagram": [
+            "DETAIL",
+            "CONFIRM",
+            "PERMISSION"
+          ],
+          "diagram_type": "sequence",
+          "context": "Proposed interview method"
+        }
+      ]
+    },
+    "source_structure_revision": "23b8a1ab076fccdaebd4c0394b9afd015707528e",
+    "status": "draft_ready_for_author_review",
+    "illustrative_people": true
+  },
+  {
+    "id": "04-positioning",
+    "title": "Four checks for a useful product statement",
+    "format": "carousel",
+    "caption": "If your product statement could describe twenty companies, inspect what it leaves out.\n\nStart with four questions.\n\nWho is the buyer, and in what situation are they deciding? What task are they trying to complete? What would they do instead? What supported difference would change that choice?\n\nA hypothetical example: \"AI for better operations\" leaves the work undefined. \"Flag requests for a human reviewer against a stated rule\" names an action and a review boundary. It still needs a buyer, a real alternative and evidence before it becomes a complete product claim.\n\nThe point is to make the decision assessable. A clearer sentence does not, by itself, prove a sales improvement.\n\nWhich question does your first sentence leave unanswered: buyer, task, alternative or evidence?",
+    "pattern_id": "P05",
+    "reader_job": "Diagnose a vague product statement before rewriting it.",
+    "evidence": [
+      {
+        "id": "C01",
+        "claim": "The generic phrase and request-review example are illustrative.",
+        "claim_type": "synthetic_example",
+        "evidence_source": "Original editorial example",
+        "boundary": "No named product, real customer or competitor quotation.",
+        "status": "explicitly_illustrative"
+      },
+      {
+        "id": "C02",
+        "claim": "Clearer positioning causes a specific sales improvement.",
+        "claim_type": "causal_result",
+        "evidence_source": "No study or measured client result in this post",
+        "boundary": "Do not assert an uplift.",
+        "status": "unsupported_do_not_assert"
+      }
+    ],
+    "limitations": [
+      "Draft for founder voice and capability review; no publication approval.",
+      "Existing graphic art and fictional scenes are reused illustrations, not customer proof."
+    ],
+    "variants": {
+      "graphic": [
+        {
+          "headline": "Could this describe anyone?",
+          "body": "Four checks for a clearer product statement.",
+          "diagram": [
+            "BUYER",
+            "TASK",
+            "ALTERNATIVE",
+            "EVIDENCE"
+          ],
+          "diagram_type": "checklist",
+          "context": "Editorial guidance • founder review draft"
+        },
+        {
+          "headline": "Name the buyer.",
+          "body": "Who is making the decision—and in what situation?",
+          "diagram": [
+            "PERSON",
+            "SITUATION"
+          ],
+          "diagram_type": "comparison",
+          "context": "Editorial guidance • founder review draft"
+        },
+        {
+          "headline": "Name the task.",
+          "body": "What are they trying to get done?",
+          "diagram": [
+            "TRIGGER",
+            "TASK",
+            "NEXT STEP"
+          ],
+          "diagram_type": "sequence",
+          "context": "Editorial guidance • founder review draft"
+        },
+        {
+          "headline": "Name the alternative.",
+          "body": "What would they use or do instead?",
+          "diagram": [
+            "CURRENT WAY",
+            "ALTERNATIVE"
+          ],
+          "diagram_type": "comparison",
+          "context": "Editorial guidance • founder review draft"
+        },
+        {
+          "headline": "Name the supported difference.",
+          "body": "What can you actually show that changes that choice?",
+          "diagram": [
+            "CLAIM",
+            "EVIDENCE",
+            "LIMIT"
+          ],
+          "diagram_type": "sequence",
+          "context": "Editorial guidance • founder review draft"
+        }
+      ],
+      "people": [
+        {
+          "headline": "Could this describe anyone?",
+          "body": "Four checks for a clearer product statement.",
+          "diagram": [
+            "BUYER",
+            "TASK",
+            "ALTERNATIVE",
+            "EVIDENCE"
+          ],
+          "diagram_type": "checklist",
+          "context": "Editorial guidance • founder review draft"
+        },
+        {
+          "headline": "Name the buyer.",
+          "body": "Who is making the decision—and in what situation?",
+          "diagram": [
+            "PERSON",
+            "SITUATION"
+          ],
+          "diagram_type": "comparison",
+          "context": "Editorial guidance • founder review draft"
+        },
+        {
+          "headline": "Name the task.",
+          "body": "What are they trying to get done?",
+          "diagram": [
+            "TRIGGER",
+            "TASK",
+            "NEXT STEP"
+          ],
+          "diagram_type": "sequence",
+          "context": "Editorial guidance • founder review draft"
+        },
+        {
+          "headline": "Name the alternative.",
+          "body": "What would they use or do instead?",
+          "diagram": [
+            "CURRENT WAY",
+            "ALTERNATIVE"
+          ],
+          "diagram_type": "comparison",
+          "context": "Editorial guidance • founder review draft"
+        },
+        {
+          "headline": "Name the supported difference.",
+          "body": "What can you actually show that changes that choice?",
+          "diagram": [
+            "CLAIM",
+            "EVIDENCE",
+            "LIMIT"
+          ],
+          "diagram_type": "sequence",
+          "context": "Editorial guidance • founder review draft"
+        }
+      ]
+    },
+    "source_structure_revision": "23b8a1ab076fccdaebd4c0394b9afd015707528e",
+    "status": "draft_ready_for_author_review",
+    "illustrative_people": true
+  },
+  {
+    "id": "05-proof",
+    "title": "A demonstration is not a benchmark",
+    "format": "carousel",
+    "caption": "A screenshot is not a time-saving claim.\n\nImagine a request-review tool. A hypothetical demonstration could show three sample requests, a stated review rule and the flags the tool would suggest. A person would check those suggestions before any next action.\n\nThat would make one part of the proposed workflow inspectable. It would not establish a typical error rate, repeated speed or a reliable customer saving.\n\nFor a performance claim, define the task, the comparison, the sample, the measurement period and the human work included. Then report what was actually observed, with its operating conditions.\n\nThe example here is illustrative. No product execution, benchmark or customer result is being reported.\n\nWrite the claim at the level the evidence can support. A demonstration can show a step. A saving needs a comparable test.",
+    "pattern_id": "P04",
+    "reader_job": "Turn a broad AI claim into an evaluable explanation.",
+    "evidence": [
+      {
+        "id": "C01",
+        "claim": "The proposed request-review sequence is an example.",
+        "claim_type": "synthetic_example",
+        "evidence_source": "Original editorial example",
+        "boundary": "No product execution, benchmark or customer result was observed.",
+        "status": "explicitly_illustrative"
+      },
+      {
+        "id": "C02",
+        "claim": "Candidate carry-forward of the 73% survey statistic; applicability to this argument is unverified.",
+        "claim_type": "reported_survey",
+        "evidence_source": "Original report and question would require separate verification",
+        "boundary": "Omitted from this structure; the old draft remains a historical variant.",
+        "status": "not_carried_forward"
+      },
+      {
+        "id": "C03",
+        "claim": "A particular system reliably saves a stated amount of time.",
+        "claim_type": "performance_result",
+        "evidence_source": "Defined test, baseline, sample, period and measurement needed",
+        "boundary": "Do not infer reliability or savings from one screenshot.",
+        "status": "not_available_do_not_assert"
+      }
+    ],
+    "limitations": [
+      "Draft for founder voice and capability review; no publication approval.",
+      "Existing graphic art and fictional scenes are reused illustrations, not customer proof."
+    ],
+    "variants": {
+      "graphic": [
+        {
+          "headline": "A screenshot is not a saving.",
+          "body": "A hypothetical request-review example.",
+          "diagram": [
+            "CLAIM",
+            "DEMONSTRATION",
+            "TEST"
+          ],
+          "diagram_type": "sequence",
+          "context": "Hypothetical example • no product test reported"
+        },
+        {
+          "headline": "Show one defined task.",
+          "body": "Three sample requests. One stated review rule.",
+          "diagram": [
+            "REQUESTS",
+            "RULE",
+            "FLAGS"
+          ],
+          "diagram_type": "sequence",
+          "context": "Hypothetical example • no product test reported"
+        },
+        {
+          "headline": "Name the human check.",
+          "body": "A reviewer checks proposed flags before any next action.",
+          "diagram": [
+            "FLAGS",
+            "REVIEWER",
+            "NEXT ACTION"
+          ],
+          "diagram_type": "sequence",
+          "context": "Hypothetical example • no product test reported"
+        },
+        {
+          "headline": "State what remains untested.",
+          "body": "Error rates, repeated speed and live reliability are still unknown.",
+          "diagram": [
+            "ERROR RATE",
+            "SPEED",
+            "UNKNOWN"
+          ],
+          "diagram_type": "unknown",
+          "context": "Hypothetical example • no product test reported"
+        },
+        {
+          "headline": "Keep the claim within the proof.",
+          "body": "A demonstration can show a step. Savings need a comparable test.",
+          "diagram": [
+            "DEMO",
+            "OBSERVATION",
+            "LIMIT"
+          ],
+          "diagram_type": "sequence",
+          "context": "Hypothetical example • no product test reported"
+        }
+      ],
+      "people": [
+        {
+          "headline": "A screenshot is not a saving.",
+          "body": "A hypothetical request-review example.",
+          "diagram": [
+            "CLAIM",
+            "DEMONSTRATION",
+            "TEST"
+          ],
+          "diagram_type": "sequence",
+          "context": "Hypothetical example • no product test reported"
+        },
+        {
+          "headline": "Show one defined task.",
+          "body": "Three sample requests. One stated review rule.",
+          "diagram": [
+            "REQUESTS",
+            "RULE",
+            "FLAGS"
+          ],
+          "diagram_type": "sequence",
+          "context": "Hypothetical example • no product test reported"
+        },
+        {
+          "headline": "Name the human check.",
+          "body": "A reviewer checks proposed flags before any next action.",
+          "diagram": [
+            "FLAGS",
+            "REVIEWER",
+            "NEXT ACTION"
+          ],
+          "diagram_type": "sequence",
+          "context": "Hypothetical example • no product test reported"
+        },
+        {
+          "headline": "State what remains untested.",
+          "body": "Error rates, repeated speed and live reliability are still unknown.",
+          "diagram": [
+            "ERROR RATE",
+            "SPEED",
+            "UNKNOWN"
+          ],
+          "diagram_type": "unknown",
+          "context": "Hypothetical example • no product test reported"
+        },
+        {
+          "headline": "Keep the claim within the proof.",
+          "body": "A demonstration can show a step. Savings need a comparable test.",
+          "diagram": [
+            "DEMO",
+            "OBSERVATION",
+            "LIMIT"
+          ],
+          "diagram_type": "sequence",
+          "context": "Hypothetical example • no product test reported"
+        }
+      ]
+    },
+    "source_structure_revision": "23b8a1ab076fccdaebd4c0394b9afd015707528e",
+    "status": "draft_ready_for_author_review",
+    "illustrative_people": true
+  },
+  {
+    "id": "06-product-to-buyer",
+    "title": "Follow the feature through the work",
+    "format": "single",
+    "caption": "What happens immediately before and after the feature is used?\n\nThat question can reveal the gap in a product explanation.\n\nA useful walkthrough names the trigger, input, output, reviewer and next decision. Keep the technical detail that changes how the buyer should assess the workflow. Explain the terms they need rather than stripping the mechanism away.\n\nIf the example is proposed, say so. If it describes a real implementation, confirm it with the technical owner and the relevant version. An attractive diagram is not verification that the product works that way.\n\nTake one feature and sketch the path from the trigger to the next human decision. Fill the first gap a new reader would encounter.",
+    "pattern_id": "P04",
+    "reader_job": "Translate technical product language into an understandable user decision.",
+    "evidence": [
+      {
+        "id": "C01",
+        "claim": "The workflow sequence is a proposed explanatory method.",
+        "claim_type": "editorial_recommendation",
+        "evidence_source": "docs/SERVICES-AND-WRITING.md",
+        "boundary": "Editorial usefulness is a reasoned hypothesis; no conversion outcome established.",
+        "status": "proposal_for_review"
+      },
+      {
+        "id": "C02",
+        "claim": "The example describes the client’s actual implementation.",
+        "claim_type": "product_fact",
+        "evidence_source": "Technical owner and product documentation required",
+        "boundary": "Until verified, label the example hypothetical.",
+        "status": "not_available_do_not_assert"
+      }
+    ],
+    "limitations": [
+      "Draft for founder voice and capability review; no publication approval.",
+      "Existing graphic art and fictional scenes are reused illustrations, not customer proof."
+    ],
+    "variants": {
+      "graphic": [
+        {
+          "headline": "Make the workflow visible.",
+          "body": "Trigger → input → output → reviewer → next decision.",
+          "diagram": [
+            "INPUT",
+            "OUTPUT",
+            "HUMAN CHECK"
+          ],
+          "diagram_type": "sequence",
+          "context": "Editorial guidance • founder review draft"
+        }
+      ],
+      "people": [
+        {
+          "headline": "Make the workflow visible.",
+          "body": "Trigger → input → output → reviewer → next decision.",
+          "diagram": [
+            "INPUT",
+            "OUTPUT",
+            "HUMAN CHECK"
+          ],
+          "diagram_type": "sequence",
+          "context": "Editorial guidance • founder review draft"
+        }
+      ]
+    },
+    "source_structure_revision": "23b8a1ab076fccdaebd4c0394b9afd015707528e",
+    "status": "draft_ready_for_author_review",
+    "illustrative_people": true
+  },
+  {
+    "id": "07-two-voices",
+    "title": "Two accounts need two contributions",
+    "format": "single",
+    "caption": "Two accounts can answer one buyer question without publishing the same answer twice.\n\nA founder can explain why a decision was made: the constraint, the alternative and the trade-off. A company account can add the product detail, source material or demonstration that helps a reader assess it.\n\nThat division is an editorial proposal. It is not a claim that founder accounts always earn more reach or leads.\n\nStart with the shared question. Then ask what distinct evidence or explanation each account can contribute. If the second post adds nothing, a different logo is not enough reason to repeat it.\n\nGive the second publication a useful job of its own.",
+    "pattern_id": "P10",
+    "reader_job": "Decide which parts of one subject belong in a founder post and a company explanation.",
+    "evidence": [
+      {
+        "id": "C01",
+        "claim": "This division of content is an editorial proposal.",
+        "claim_type": "editorial_hypothesis",
+        "evidence_source": "docs/SERVICES-AND-WRITING.md",
+        "boundary": "No claim that one account type causes better reach or leads.",
+        "status": "proposal_for_review"
+      },
+      {
+        "id": "C02",
+        "claim": "Founder accounts outperform company accounts causally.",
+        "claim_type": "causal_comparison",
+        "evidence_source": "Historical corpus does not identify this effect",
+        "boundary": "Do not promote descriptive account medians to causal advice.",
+        "status": "unsupported_do_not_assert"
+      }
+    ],
+    "limitations": [
+      "Draft for founder voice and capability review; no publication approval.",
+      "Existing graphic art and fictional scenes are reused illustrations, not customer proof."
+    ],
+    "variants": {
+      "graphic": [
+        {
+          "headline": "One question. Two useful contributions.",
+          "body": "Founder: why this choice. Company: what supports it.",
+          "diagram": [
+            "FOUNDER: WHY",
+            "COMPANY: EVIDENCE"
+          ],
+          "diagram_type": "comparison",
+          "context": "Editorial guidance • founder review draft"
+        }
+      ],
+      "people": [
+        {
+          "headline": "One question. Two useful contributions.",
+          "body": "Founder: why this choice. Company: what supports it.",
+          "diagram": [
+            "FOUNDER: WHY",
+            "COMPANY: EVIDENCE"
+          ],
+          "diagram_type": "comparison",
+          "context": "Editorial guidance • founder review draft"
+        }
+      ]
+    },
+    "source_structure_revision": "23b8a1ab076fccdaebd4c0394b9afd015707528e",
+    "status": "draft_ready_for_author_review",
+    "illustrative_people": true
+  },
+  {
+    "id": "08-visuals",
+    "title": "Give the image a useful question",
+    "format": "single",
+    "caption": "Give the image a question before you give it a style.\n\nDoes order matter? Show a sequence. Do differences matter? Show a comparison. Does the claim depend on an observed result? Show the result with the conditions needed to interpret it.\n\nAn image can also supply atmosphere. That is a legitimate job; it should not be mistaken for a product demonstration or customer proof.\n\nThe fictional people in these draft designs are illustrations. They do not represent customers, employees or founders.\n\nName the one relationship your next image needs to show. Choose the representation that makes it easier to inspect, and keep the essential explanation in accessible text too.",
+    "pattern_id": "P05",
+    "reader_job": "Evaluate whether a proposed image adds explanatory value.",
+    "evidence": [
+      {
+        "id": "C01",
+        "claim": "The visual-function mapping is editorial guidance.",
+        "claim_type": "editorial_recommendation",
+        "evidence_source": "docs/SERVICES-AND-WRITING.md",
+        "boundary": "No measured viewing-time, accessibility or engagement advantage is claimed.",
+        "status": "proposal_for_review"
+      },
+      {
+        "id": "C02",
+        "claim": "Illustrative people in the current artwork are real clients.",
+        "claim_type": "identity_claim",
+        "evidence_source": "Existing publication release records identify them as fictional",
+        "boundary": "Keep the illustrative label; do not imply a testimonial.",
+        "status": "false_do_not_assert"
+      }
+    ],
+    "limitations": [
+      "Draft for founder voice and capability review; no publication approval.",
+      "Existing graphic art and fictional scenes are reused illustrations, not customer proof."
+    ],
+    "variants": {
+      "graphic": [
+        {
+          "headline": "Give the image a question.",
+          "body": "Order matters? Show a path. Differences matter? Show a comparison.",
+          "diagram": [
+            "ORDER → PATH",
+            "DIFFERENCE → COMPARISON"
+          ],
+          "diagram_type": "mapping",
+          "context": "Editorial guidance • founder review draft"
+        }
+      ],
+      "people": [
+        {
+          "headline": "Give the image a question.",
+          "body": "Order matters? Show a path. Differences matter? Show a comparison.",
+          "diagram": [
+            "ORDER → PATH",
+            "DIFFERENCE → COMPARISON"
+          ],
+          "diagram_type": "mapping",
+          "context": "Editorial guidance • founder review draft"
+        }
+      ]
+    },
+    "source_structure_revision": "23b8a1ab076fccdaebd4c0394b9afd015707528e",
+    "status": "draft_ready_for_author_review",
+    "illustrative_people": true
+  },
+  {
+    "id": "09-measure",
+    "title": "Choose the question before the metric",
+    "format": "single",
+    "caption": "Choose the question before you choose the metric.\n\nA reaction count can describe visible interactions. It cannot, on its own, tell you whether a buyer understood the product or wants to buy.\n\nFor understanding, read the actual replies and questions. For commercial interest, look for an explicit problem and an agreed next step. Those are different observations, not meanings to assign to every comment.\n\nIn the preserved 279-post sample, reaction counts were available for 276 posts and comments for 256. Missing impressions and buyer-outcome records stayed missing.\n\nKeep a simple map: the decision you need to make, the evidence you have, and the answer that remains unknown.\n\nWhich decision are your current content metrics unable to support?",
+    "pattern_id": "P05",
+    "reader_job": "Decide what an available content metric can answer and what remains unknown.",
+    "evidence": [
+      {
+        "id": "C01",
+        "claim": "Observed reaction and comment counts cover 276 and 256 of the 279 posts.",
+        "claim_type": "descriptive_count",
+        "evidence_source": "reports/20261105/data.json",
+        "boundary": "Different observed subsets; metrics in this report are timestamped 22 October 2026.",
+        "status": "recomputed"
+      },
+      {
+        "id": "C02",
+        "claim": "A reaction establishes buyer intent or a sale.",
+        "claim_type": "commercial_inference",
+        "evidence_source": "No buyer-intent or outcome record",
+        "boundary": "The inference is unsupported.",
+        "status": "unsupported_do_not_assert"
+      },
+      {
+        "id": "C03",
+        "claim": "A comment may contain a useful question.",
+        "claim_type": "possibility",
+        "evidence_source": "Review of the actual comment would be required",
+        "boundary": "Do not claim a substantive question merely from the comment count.",
+        "status": "conditional"
+      }
+    ],
+    "limitations": [
+      "Draft for founder voice and capability review; no publication approval.",
+      "Existing graphic art and fictional scenes are reused illustrations, not customer proof."
+    ],
+    "variants": {
+      "graphic": [
+        {
+          "headline": "Choose the question before the metric.",
+          "body": "Reactions show interactions. Buying intent needs more evidence.",
+          "diagram": [
+            "INTERACTIONS → COUNT",
+            "BUYING INTENT → UNKNOWN"
+          ],
+          "diagram_type": "mapping",
+          "context": "Editorial guidance • founder review draft"
+        }
+      ],
+      "people": [
+        {
+          "headline": "Choose the question before the metric.",
+          "body": "Reactions show interactions. Buying intent needs more evidence.",
+          "diagram": [
+            "INTERACTIONS → COUNT",
+            "BUYING INTENT → UNKNOWN"
+          ],
+          "diagram_type": "mapping",
+          "context": "Editorial guidance • founder review draft"
+        }
+      ]
+    },
+    "source_structure_revision": "23b8a1ab076fccdaebd4c0394b9afd015707528e",
+    "status": "draft_ready_for_author_review",
+    "illustrative_people": true
+  },
+  {
+    "id": "10-the-delivery",
+    "title": "A reviewable founder-content workflow",
+    "format": "single",
+    "caption": "For Europe-based B2B AI SaaS founders, the proposed Outspoken workflow starts with the reasoning behind the product.\n\nThe founder supplies the decisions, context and product truth. The editorial work turns that material into a focused buyer question, an original draft and a suitable visual. The founder reviews the facts, stance and final wording.\n\nThe scope and working arrangement need agreement before delivery. This is an invitation to discuss fit, not a promise of reach, leads or sales.\n\nIf that is the kind of help you need:\n\nBook an intro call",
+    "pattern_id": "P12",
+    "reader_job": "Assess whether the proposed founder-content service fits the reader’s need.",
+    "evidence": [
+      {
+        "id": "C01",
+        "claim": "The agency audience and CTA are approved.",
+        "claim_type": "approved_project_position",
+        "evidence_source": "docs/APPROVED-POSITIONING.json",
+        "boundary": "Approval of positioning does not establish customer demand or results.",
+        "status": "source_confirmed"
+      },
+      {
+        "id": "C02",
+        "claim": "The proposed workflow can be delivered as described.",
+        "claim_type": "service_capability",
+        "evidence_source": "docs/SERVICES-AND-WRITING.md",
+        "boundary": "Operational specifics still require founder/delivery review.",
+        "status": "proposal_for_review"
+      },
+      {
+        "id": "C03",
+        "claim": "The service guarantees reach, leads or sales.",
+        "claim_type": "commercial_guarantee",
+        "evidence_source": "No substantiating result or guarantee terms",
+        "boundary": "Do not add this promise.",
+        "status": "unsupported_do_not_assert"
+      }
+    ],
+    "limitations": [
+      "Draft for founder voice and capability review; no publication approval.",
+      "Existing graphic art and fictional scenes are reused illustrations, not customer proof."
+    ],
+    "variants": {
+      "graphic": [
+        {
+          "headline": "Make the thinking visible.",
+          "body": "For Europe-based B2B AI SaaS founders.",
+          "diagram": [
+            "FOUNDER INPUT",
+            "ORIGINAL CONTENT",
+            "REVIEW"
+          ],
+          "diagram_type": "sequence",
+          "context": "Proposed service workflow",
+          "cta": "Book an intro call"
+        }
+      ],
+      "people": [
+        {
+          "headline": "Make the thinking visible.",
+          "body": "For Europe-based B2B AI SaaS founders.",
+          "diagram": [
+            "FOUNDER INPUT",
+            "ORIGINAL CONTENT",
+            "REVIEW"
+          ],
+          "diagram_type": "sequence",
+          "context": "Proposed service workflow",
+          "cta": "Book an intro call"
+        }
+      ]
+    },
+    "source_structure_revision": "23b8a1ab076fccdaebd4c0394b9afd015707528e",
+    "status": "draft_ready_for_author_review",
+    "illustrative_people": true
+  }
+]

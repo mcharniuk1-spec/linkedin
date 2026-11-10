@@ -1,0 +1,11 @@
+{
+  "schema": "outspoken-publication-build/1",
+  "canvas": {"width": 1080, "height": 1350},
+  "shared_asset_root": "../20261105-evidence-v1/assets",
+  "output": "assets",
+  "review_output": "generated-review",
+  "fonts": {"headline": 70, "body": 42, "diagram": 32, "context": 32, "disclosure": 30, "metadata": 24},
+  "palette": {"navy": "#162760", "deep": "#101D42", "paper": "#F6F7F9", "warm": "#FFFDFC", "white": "#FFFFFF", "body": "#34466A", "marigold": "#EAA93C", "pale": "#F6D591", "line": "#C8D1DF"},
+  "runtime": "Node.js plus macOS Swift/AppKit/CoreText/PDFKit; no downloaded dependency",
+  "status": "draft_for_founder_review"
+}

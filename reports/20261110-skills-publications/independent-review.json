@@ -1,0 +1,70 @@
+{
+  "schema": "outspoken-final-independent-review/1",
+  "date": "2026-11-10",
+  "source_base": "db5412d04d2fade46a674f20b904bee0cb36e9ee",
+  "disposition": "PASS_scoped_source_and_rendered_review",
+  "blocking_findings": [],
+  "resolved_nits": [
+    {
+      "file": "reports/20261110-skills-publications/EVIDENCE-REANALYSIS.md",
+      "lines": [
+        9,
+        174
+      ],
+      "issue": "Wrong delivered checks filename",
+      "resolution": "Root changed checks.json to evidence-checks.json; reviewer readback confirmed."
+    }
+  ],
+  "coverage": {
+    "public_allowlist_files": 173,
+    "public_text_files": 103,
+    "viewed_contact_pngs": 60,
+    "viewed_mobile_derivatives": 10,
+    "viewed_actual_1080_pngs": 5,
+    "checked_asset_manifest_files": 142,
+    "checked_native_svgs": 60,
+    "checked_people_disclosures": 30,
+    "checked_hypothetical_contexts": 10,
+    "unchanged_art_hashes": 21,
+    "unchanged_font_hashes": 3,
+    "independent_existing_pdf_raster_comparisons": 50,
+    "maximum_independent_raster_mae": 0.8200608139003199,
+    "posts_recomputed": 279,
+    "authors_recomputed": 61,
+    "behavior_original_pass": 9,
+    "behavior_original_inconclusive": 1,
+    "behavior_focused_pass": 2
+  },
+  "skill_source_sha256": {
+    "skills/linkedin-publication-architecture/SKILL.md": "65ea0b7efd9d19934a3196e169626dbaa45a6ec50aa31009b31c99bde3ae0877",
+    "skills/linkedin-publication-architecture/references/interest-and-format.md": "52d1b3c4cb41cb954abfea3c8fd7708554cbedf48af258ea85cff2e12805667a",
+    "skills/linkedin-publication-architecture/references/composition-contract.md": "5efe8a33ce4641b44229ba77ccab82e7bba23750faf553674ee227a420e05ac1",
+    "skills/linkedin-reference-pattern-review/SKILL.md": "737ef1c0dda8739c5f910d0c38b6f5d3abedca0d8fc7b9256ede11b7a4ec6130",
+    "skills/linkedin-reference-pattern-review/references/evidence-contract.md": "8c55fa778ebe565608b3c8a5f8e8e09f2e1b127d11e7209c27c4f0e903124502"
+  },
+  "limits": [
+    "No new installation/scanning/forward execution",
+    "No browser check performed by this reviewer",
+    "No new PDF export or rasterization",
+    "No remote Git or Plane write",
+    "No fresh LinkedIn source review",
+    "Founder/artistic acceptance and performance outcomes unestablished"
+  ],
+  "root_reported_browser_qa": {
+    "status": "completed_as_reported_by_root",
+    "viewports": [
+      "390x844",
+      "1280 desktop"
+    ],
+    "articles": 10,
+    "image_elements": 60,
+    "pdf_links": 10,
+    "horizontal_page_overflow": false,
+    "mobile_image_row_overflow": "intentional horizontal scrolling",
+    "mobile_image_width_approx_px": 287,
+    "native_linkedin_preview": false,
+    "physical_device_validation": false,
+    "independently_repeated_by_this_reviewer": false
+  },
+  "scope_note": "Independent review covered the then-current173-file public allowlist. Final record additions are deterministic summaries of completed checks."
+}

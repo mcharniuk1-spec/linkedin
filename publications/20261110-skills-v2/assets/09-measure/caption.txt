@@ -1,0 +1,11 @@
+Choose the question before you choose the metric.
+
+A reaction count can describe visible interactions. It cannot, on its own, tell you whether a buyer understood the product or wants to buy.
+
+For understanding, read the actual replies and questions. For commercial interest, look for an explicit problem and an agreed next step. Those are different observations, not meanings to assign to every comment.
+
+In the preserved 279-post sample, reaction counts were available for 276 posts and comments for 256. Missing impressions and buyer-outcome records stayed missing.
+
+Keep a simple map: the decision you need to make, the evidence you have, and the answer that remains unknown.
+
+Which decision are your current content metrics unable to support?

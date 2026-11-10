@@ -1,0 +1,11 @@
+107.5 reactions is a number. It is not a posting target.
+
+Our saved reference sample contains 279 selected posts from 61 accounts. Reaction counts were available for 276 posts; their median was 107.5. Comment counts were available for 256; their median was 36.5.
+
+These counters were recorded on 22 October 2026. The sample spans different authors, audiences, topics and publication ages. It is not a picture of everything happening on LinkedIn now.
+
+The numbers describe observed interactions. They do not tell us how many people saw the posts, whether the right buyers cared, or whether anyone bought.
+
+Use the sample to find a question worth testing. Compare similar conditions, keep the denominator, and leave the unsupported conclusion open.
+
+A number is more useful when its limits travel with it.

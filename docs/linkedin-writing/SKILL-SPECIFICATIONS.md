@@ -1,3 +1,5 @@
+Implementation update, 10 November 2026: the two specifications below are now implemented as owned 1.0.0 skill bundles and explicitly tested/applied. Read the [current evidence and limitations](../../reports/20261110-skills-publications/README.md) for actual readiness. The specification text below is preserved as the earlier design record; its proposed/not-activated wording describes that checkpoint.
+
 # Writing skill requirements
 
 10 November 2026 · OUTSP-46 · specifications delivered for review.
@@ -60,3 +62,4 @@ The fixtures cover fabricated experience, numerical provenance, causal overreach
 ## Current execution evidence
 
 This local review read the installed instructions for `founder-content-writing`, `brand-system-delivery`, `content-strategy`, `copy-editing`, `humanize-writing`, `human-like-rewrite-with-fact-preservation` and `skill-creator`. They supplied workflow guidance; no remote humanizer, model training or skill installation was used. The earlier architecture's cloud-skill receipt remains its dated execution record. Available instructions, actual invocation, behavioral verification and account access are different states.
+

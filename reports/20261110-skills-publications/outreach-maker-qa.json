@@ -1,0 +1,152 @@
+{
+  "schema": "outspoken-outreach-preparation-maker-qa/1",
+  "task": "OUTSP-50",
+  "date": "2026-11-10",
+  "status": "PASS",
+  "review_type": "Maker source and mechanical QA; root independent integration review remains separate.",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 10704,
+      "sha256": "7f924232ff63f2ceee75b004843ce17bdc734c158d75391c54dbe9b1584d9175"
+    },
+    {
+      "path": "conversation-log.csv",
+      "bytes": 464,
+      "sha256": "79357d3de53c49a25bc2ef05f2e837daaa4a9afc3e4a6c4945741678b2d0cbe5"
+    },
+    {
+      "path": "discovery-and-mini-audit.template.json",
+      "bytes": 3057,
+      "sha256": "4ebb7d8f2cb7936b222b59bad23a61c23a3a24c97cec49a3d00bfa32a09f4e21"
+    },
+    {
+      "path": "first-message.template.json",
+      "bytes": 1455,
+      "sha256": "8eeb5b359f735d75db01024767964a1d18397ca7e3a55b85440e11c8867958ea"
+    },
+    {
+      "path": "fit-source-verification.csv",
+      "bytes": 351,
+      "sha256": "8533940614a1488a68d154894ea29aacfb9867b85c365d580e9ecc0df8240a8e"
+    },
+    {
+      "path": "follow-up-and-stop.template.json",
+      "bytes": 1550,
+      "sha256": "4f558dca2992404f49e7f9bb5cee7147dc9ca7296150dd475abb39cc6564e8f1"
+    },
+    {
+      "path": "synthetic-example.json",
+      "bytes": 5750,
+      "sha256": "57cc624532cc3798e01e96655d1b928b612f1e2e2d4d44c6856748bd20046d32"
+    },
+    {
+      "path": "test_validate.py",
+      "bytes": 6746,
+      "sha256": "658ca168789684e4d63dffe46a2dd0deafa113776098a1c4dc6447e4e9acf299"
+    },
+    {
+      "path": "validate.py",
+      "bytes": 18926,
+      "sha256": "a02ba9f4254aef4c88f36c527b591d1ebef56eda568a142d4ec0d224a863a661"
+    },
+    {
+      "path": "warm-intro-context.template.json",
+      "bytes": 1480,
+      "sha256": "56c94c83b6a9035717c7e5c3991205a7ba024e7b4dd01c4630fa6567962a2669"
+    }
+  ],
+  "validator": {
+    "status": "PASS",
+    "expected_files": 10,
+    "json_templates_and_examples": 5,
+    "csv_templates": 2,
+    "errors": [],
+    "limits": "Preparation structure and narrow unsupported-claim checks only. No truth, permission, law, real prospect, message approval, outcome or send readiness certification."
+  },
+  "unit_tests": {
+    "run": 23,
+    "passed": 23,
+    "failed": 0,
+    "executed": true,
+    "scope": [
+      "empty template/synthetic example acceptance",
+      "unsupported result/guarantee and unmapped numeric claim rejection",
+      "missing source/permission/stop fields",
+      "unknown source and unlabelled synthetic input rejection",
+      "one-follow-up limit and decline/eligibility holds",
+      "no-send authority boundary",
+      "malformed claim/CSV and duplicate JSON key rejection",
+      "filename/schema/mode binding, malformed permission/stop containers and exact integer follow-up limit"
+    ]
+  },
+  "csv_templates": {
+    "conversation-log.csv": {
+      "headers": 27,
+      "data_rows": 0
+    },
+    "fit-source-verification.csv": {
+      "headers": 21,
+      "data_rows": 0
+    }
+  },
+  "source_and_rights": {
+    "templates_and_code": "original_owned_project_work",
+    "synthetic_example": "owned;fictionalcompanyandproductnote;example.invalidonly;no real personal data or contact event",
+    "upstream_guidance": "Relevant founder/source discipline applied as original task guidance, not copied installed skill files. Email automation/cadence prescriptions were not adopted."
+  },
+  "imports_reviewed": {
+    "validate.py": [
+      "argparse",
+      "csv",
+      "datetime",
+      "json",
+      "pathlib",
+      "re",
+      "sys",
+      "urllib.parse"
+    ],
+    "test_validate.py": [
+      "csv",
+      "json",
+      "pathlib",
+      "shutil",
+      "tempfile",
+      "unittest",
+      "validate"
+    ]
+  },
+  "sending_capability": "none; no networking/send integrations, credentials, executable message dispatch or schedule",
+  "public_boundary": {
+    "status": "PASS",
+    "files_checked": 10,
+    "json_files_checked": 5,
+    "sqlite_files_checked": 0,
+    "problems": [],
+    "tree_sha256": "2c1f8eb2d29c6e4fb88f7c68171144ba6ddaf7c78c6c9994ed6761f994112c7c",
+    "limits": "Static boundary checks; source rights, factual accuracy, owner acceptance and actual runtime integrations require their separate evidence."
+  },
+  "generated_bytecode_removed": true,
+  "new_external_actions": 0,
+  "limits": [
+    "Source assertions and permission/approval fields can be false; the validator cannot prove their truth.",
+    "Narrow result-pattern lint is not exhaustive semantic claim verification.",
+    "Legal/channel suitability, founder package/prices, verified prospects, real warm relationships and sending authorization remain unestablished.",
+    "No existing launch task requiring real decisions, publication, prospects, contact or conversations is completed by template completeness.",
+    "No real message was sent, call booked, recipient contacted or account accessed."
+  ],
+  "root_review_findings_resolved": [
+    {
+      "issue": "A valid first-message document could occupy a different template filename.",
+      "correction": "Every JSON filename is now bound to its exact schema and required record_mode. Swapped-schema and wrong-mode tests pass."
+    },
+    {
+      "issue": "Non-object permission/stop containers could reach later .get calls.",
+      "correction": "Malformed containers now record errors and normalize to empty objects. Two direct validator failure cases pass without crashing."
+    },
+    {
+      "issue": "Boolean True compared equal to follow-up integer1.",
+      "correction": "follow_up_limit now requires exact int type and value1. Boolean rejection test passes."
+    }
+  ]
+}

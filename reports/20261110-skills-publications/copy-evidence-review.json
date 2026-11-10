@@ -1,0 +1,1150 @@
+{
+  "schema": "outspoken-copy-evidence-review/1",
+  "reviewed_on": "2026-11-10",
+  "reviewer_role": "Separate native source/logic reviewer; not the revised-copy author or positive-fixture executor.",
+  "disposition": "PASS_FOR_AUTHOR_REVIEW_WITH_RENDER_AND_SOURCE_LIMITS",
+  "content_sha256": "4bd1ff7edeb4b750df3c4ba3bf4a0f5104184d6821b7b0f5a58a7deda3b46ce0",
+  "expected_publication_ids": [
+    "01-the-reason",
+    "02-what-we-actually-saw",
+    "03-the-interview",
+    "04-positioning",
+    "05-proof",
+    "06-product-to-buyer",
+    "07-two-voices",
+    "08-visuals",
+    "09-measure",
+    "10-the-delivery"
+  ],
+  "actual_publications": 10,
+  "actual_panel_text_records": 60,
+  "unique_panel_text_records": 30,
+  "both_directions_have_identical_text_per_panel": true,
+  "all_captions_and_panel_text_records_reviewed": true,
+  "empirical_facts_recomputed": {
+    "posts": 279,
+    "accounts": 61,
+    "reaction_n": 276,
+    "reaction_median": 107.5,
+    "reaction_missing": 3,
+    "comment_n": 256,
+    "comment_median": 36.5,
+    "comment_missing": 23,
+    "dates": [
+      "2026-10-22"
+    ]
+  },
+  "runtime_report_snapshot_comparison": {
+    "runtime_bytes": 475019,
+    "original_bytes": 475018,
+    "runtime_sha256": "41eaeffcf05b09e178f5d3518cf76e79fd4371c97334a70baee59745b2d5adad",
+    "original_sha256": "de853eb07d3971c28151dbe0f954dd7ea8c8faac946c34171b04b5896e691382",
+    "byte_equal": false,
+    "parsed_json_equal": true,
+    "runtime_only_one_extra_LF": true
+  },
+  "numeric_token_inventory_captions": [
+    {
+      "publication_id": "02-what-we-actually-saw",
+      "caption_token": "107.5"
+    },
+    {
+      "publication_id": "02-what-we-actually-saw",
+      "caption_token": "279"
+    },
+    {
+      "publication_id": "02-what-we-actually-saw",
+      "caption_token": "61"
+    },
+    {
+      "publication_id": "02-what-we-actually-saw",
+      "caption_token": "276"
+    },
+    {
+      "publication_id": "02-what-we-actually-saw",
+      "caption_token": "107.5"
+    },
+    {
+      "publication_id": "02-what-we-actually-saw",
+      "caption_token": "256"
+    },
+    {
+      "publication_id": "02-what-we-actually-saw",
+      "caption_token": "36.5"
+    },
+    {
+      "publication_id": "02-what-we-actually-saw",
+      "caption_token": "22"
+    },
+    {
+      "publication_id": "02-what-we-actually-saw",
+      "caption_token": "2026"
+    },
+    {
+      "publication_id": "09-measure",
+      "caption_token": "279"
+    },
+    {
+      "publication_id": "09-measure",
+      "caption_token": "276"
+    },
+    {
+      "publication_id": "09-measure",
+      "caption_token": "256"
+    }
+  ],
+  "number_word_assessment": {
+    "post03_three_things": "choice, subsequent consequence and present interpretation are actually enumerated",
+    "post04_four_checks": "buyer/situation, task, alternative and supported difference/evidence are delivered",
+    "post04_twenty_companies": "conditional rhetorical example, not an observed market count",
+    "post05_three_requests_one_rule": "explicit components of a hypothetical example; no real measured task asserted",
+    "post07_two_accounts": "the proposed founder/company allocation, not a population estimate"
+  },
+  "approved_cta": {
+    "expected": "Book an intro call",
+    "actual_final_caption_unit": "Book an intro call",
+    "utf8_bytes": 18,
+    "exact_match": true
+  },
+  "publication_reviews": [
+    {
+      "publication_id": "01-the-reason",
+      "caption_sha256": "53a94aa2846abcad0a4589ee1c268bd03b24f6f92e947d80414b0f76d92ceca3",
+      "pattern_id": "P13",
+      "status": "PASS",
+      "assessment": "PASS: bounded professional observation and explicitly proposed Outspoken process. No actual founder decision or measured commercial result is invented. The ending fulfills the decision-behind-product promise.",
+      "reader_job": "Understand what the proposed Outspoken service makes easier to explain.",
+      "panel_record_count": 10,
+      "author_acceptance": "pending",
+      "rendered_caption_media_consistency": "requires_the_actual_render_review"
+    },
+    {
+      "publication_id": "02-what-we-actually-saw",
+      "caption_sha256": "502e662301cd7e9372f4af917d73771ca10fa999b712bf09c91db48dd57e4dee",
+      "pattern_id": "P01",
+      "status": "PASS",
+      "assessment": "PASS: every empirical number/date agrees with the frozen report. Selected scope and missing reach/buyer/sales outcomes remain explicit; each panel carries22Oct2026context. Three missing reaction counts and twenty-three missing comment counts reconcile.",
+      "reader_job": "Understand what a selected LinkedIn reference sample can support.",
+      "panel_record_count": 10,
+      "author_acceptance": "pending",
+      "rendered_caption_media_consistency": "requires_the_actual_render_review"
+    },
+    {
+      "publication_id": "03-the-interview",
+      "caption_sha256": "5c04a33cf1989fd7d7740433fd149492881bcca339fd6d7590fcd3a8f4dddcfa",
+      "pattern_id": "P04",
+      "status": "PASS",
+      "assessment": "PASS: proposed method is explicit in caption and all panels; three items are actually distinguished (choice, subsequent consequence, present interpretation). The small villain metaphor does not claim an actual episode.",
+      "reader_job": "See how an interview can supply the material for an authentic professional story.",
+      "panel_record_count": 10,
+      "author_acceptance": "pending",
+      "rendered_caption_media_consistency": "requires_the_actual_render_review"
+    },
+    {
+      "publication_id": "04-positioning",
+      "caption_sha256": "38e7b17b57ccfefabdc9dfa677ce0b2c89c1497056c08ce7571d9cfee633c35b",
+      "pattern_id": "P05",
+      "status": "PASS",
+      "assessment": "PASS: four substantive checks are delivered (buyer/situation, task, alternative, supported difference/evidence). Conditional twenty-companies wording is rhetorical, not a measured cohort claim. Hypothetical rewrite stays labelled; no sales uplift is asserted.",
+      "reader_job": "Diagnose a vague product statement before rewriting it.",
+      "panel_record_count": 10,
+      "author_acceptance": "pending",
+      "rendered_caption_media_consistency": "requires_the_actual_render_review"
+    },
+    {
+      "publication_id": "05-proof",
+      "caption_sha256": "11818479e22dc03a02339eaf355c6649b530cedb87c864d5bbc3b65b1971059c",
+      "pattern_id": "P04",
+      "status": "PASS",
+      "assessment": "PASS: all ten panel records explicitly say hypothetical/no product test. Three sample requests and one rule are components of the hypothetical illustration, not measured observations. No73percentclaim or actual execution/savings promise remains in visible copy.",
+      "reader_job": "Turn a broad AI claim into an evaluable explanation.",
+      "panel_record_count": 10,
+      "author_acceptance": "pending",
+      "rendered_caption_media_consistency": "requires_the_actual_render_review"
+    },
+    {
+      "publication_id": "06-product-to-buyer",
+      "caption_sha256": "2bd680b17c32da0ee1e12ed438fe41773c4078c5e9454c673835e66a83a1631b",
+      "pattern_id": "P04",
+      "status": "PASS",
+      "assessment": "PASS: general walkthrough guidance keeps actual implementation conditional on technical-owner/version confirmation. The five-step body and three-node shorthand diagram do not assert product execution.",
+      "reader_job": "Translate technical product language into an understandable user decision.",
+      "panel_record_count": 2,
+      "author_acceptance": "pending",
+      "rendered_caption_media_consistency": "requires_the_actual_render_review"
+    },
+    {
+      "publication_id": "07-two-voices",
+      "caption_sha256": "9b10d1f3a5f1d141601aa52688e82e7a6dfd4bcaea52b3f2269b1b5acf8dd57a",
+      "pattern_id": "P10",
+      "status": "PASS",
+      "assessment": "PASS: founder/company allocation is an editorial proposal, not a causal account-performance claim. The second account must add evidence/explanation, so the reader job is distinct.",
+      "reader_job": "Decide which parts of one subject belong in a founder post and a company explanation.",
+      "panel_record_count": 2,
+      "author_acceptance": "pending",
+      "rendered_caption_media_consistency": "requires_the_actual_render_review"
+    },
+    {
+      "publication_id": "08-visuals",
+      "caption_sha256": "26fb16ce4096aa8ed85f3dc6323809a3d84561a5055e1bcddfea5646b2d546e4",
+      "pattern_id": "P05",
+      "status": "PASS",
+      "assessment": "PASS: explains representation by function and explicitly states the people are fictional, not customers/employees/founders. No demonstration or testimonial claim is derived from illustration.",
+      "reader_job": "Evaluate whether a proposed image adds explanatory value.",
+      "panel_record_count": 2,
+      "author_acceptance": "pending",
+      "rendered_caption_media_consistency": "requires_the_actual_render_review"
+    },
+    {
+      "publication_id": "09-measure",
+      "caption_sha256": "ebd9492beb7b55202bf08a1a0785428fce6ae2284ffd3dff30d0700ab9fb6de8",
+      "pattern_id": "P05",
+      "status": "PASS",
+      "assessment": "PASS: question-to-measure diagnosis is distinct from02sampledescription. Repeated279/276/256coveragecounts are accurate support, not its thesis. Actual replies or an explicit problem/nextstep are suggested as further evidence, not assigned to every comment.",
+      "reader_job": "Decide what an available content metric can answer and what remains unknown.",
+      "panel_record_count": 2,
+      "author_acceptance": "pending",
+      "rendered_caption_media_consistency": "requires_the_actual_render_review"
+    },
+    {
+      "publication_id": "10-the-delivery",
+      "caption_sha256": "0ee2de087c40d1bc2ae4662d99f9cbaec8d54538c28f8b60435303daa9592516",
+      "pattern_id": "P12",
+      "status": "PASS",
+      "assessment": "PASS: target fit, founder input, proposed service scope and final review responsibility are clear. No reach/lead/sales guarantee; standalone final CTA is exact approved18bytefield.",
+      "reader_job": "Assess whether the proposed founder-content service fits the reader’s need.",
+      "panel_record_count": 2,
+      "author_acceptance": "pending",
+      "rendered_caption_media_consistency": "requires_the_actual_render_review"
+    }
+  ],
+  "panel_text_reviews": [
+    {
+      "publication_id": "01-the-reason",
+      "variant": "graphic",
+      "panel": 1,
+      "record_sha256": "fdc50d45887df73174cfe027850456febd7a6f0b78619653749ce11869e49122",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "01-the-reason",
+      "variant": "graphic",
+      "panel": 2,
+      "record_sha256": "757a7fb852420745656a9d56463dc20d402d8938d52db28b8bdfe2e2355538d4",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "01-the-reason",
+      "variant": "graphic",
+      "panel": 3,
+      "record_sha256": "f694f8b5c554b092ca59421dc373ee0f717f4fce1e712b3fffafd4b8dcb44d7c",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "01-the-reason",
+      "variant": "graphic",
+      "panel": 4,
+      "record_sha256": "824c3850abca76078054356765d3f0aabeb3f2456413e482fe73188605b94fda",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "01-the-reason",
+      "variant": "graphic",
+      "panel": 5,
+      "record_sha256": "00e0e6a60f6d12dc3f7436a0bb5ccfd109fa6d7a9576b91364b2d37ecd475cfd",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "01-the-reason",
+      "variant": "people",
+      "panel": 1,
+      "record_sha256": "fdc50d45887df73174cfe027850456febd7a6f0b78619653749ce11869e49122",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "01-the-reason",
+      "variant": "people",
+      "panel": 2,
+      "record_sha256": "757a7fb852420745656a9d56463dc20d402d8938d52db28b8bdfe2e2355538d4",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "01-the-reason",
+      "variant": "people",
+      "panel": 3,
+      "record_sha256": "f694f8b5c554b092ca59421dc373ee0f717f4fce1e712b3fffafd4b8dcb44d7c",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "01-the-reason",
+      "variant": "people",
+      "panel": 4,
+      "record_sha256": "824c3850abca76078054356765d3f0aabeb3f2456413e482fe73188605b94fda",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "01-the-reason",
+      "variant": "people",
+      "panel": 5,
+      "record_sha256": "00e0e6a60f6d12dc3f7436a0bb5ccfd109fa6d7a9576b91364b2d37ecd475cfd",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "02-what-we-actually-saw",
+      "variant": "graphic",
+      "panel": 1,
+      "record_sha256": "fa9cb19904f9326cb42b113f829f7898347d1ab0223ecbf3ace042b4b6bd1e23",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [
+        {
+          "field": "body",
+          "token": "279"
+        },
+        {
+          "field": "diagram",
+          "token": "279"
+        },
+        {
+          "field": "diagram",
+          "token": "61"
+        },
+        {
+          "field": "context",
+          "token": "22"
+        },
+        {
+          "field": "context",
+          "token": "2026"
+        }
+      ],
+      "claim_context": "dated_selected_sample",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "02-what-we-actually-saw",
+      "variant": "graphic",
+      "panel": 2,
+      "record_sha256": "104541340cadab73977b9d713fe0481c19922c40f05f232e16a75ea9027577bd",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [
+        {
+          "field": "headline",
+          "token": "107.5"
+        },
+        {
+          "field": "body",
+          "token": "276"
+        },
+        {
+          "field": "diagram",
+          "token": "276"
+        },
+        {
+          "field": "diagram",
+          "token": "107.5"
+        },
+        {
+          "field": "context",
+          "token": "22"
+        },
+        {
+          "field": "context",
+          "token": "2026"
+        }
+      ],
+      "claim_context": "dated_selected_sample",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "02-what-we-actually-saw",
+      "variant": "graphic",
+      "panel": 3,
+      "record_sha256": "f7148d1d8d65276194c4c37eb9d1c71ca698a50b463487ee46f0ab4895da613f",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [
+        {
+          "field": "headline",
+          "token": "36.5"
+        },
+        {
+          "field": "body",
+          "token": "256"
+        },
+        {
+          "field": "diagram",
+          "token": "256"
+        },
+        {
+          "field": "diagram",
+          "token": "36.5"
+        },
+        {
+          "field": "context",
+          "token": "22"
+        },
+        {
+          "field": "context",
+          "token": "2026"
+        }
+      ],
+      "claim_context": "dated_selected_sample",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "02-what-we-actually-saw",
+      "variant": "graphic",
+      "panel": 4,
+      "record_sha256": "6f935e51974d6e0c277008df0b58b042c47b956eba6893835605478550c4df7f",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [
+        {
+          "field": "context",
+          "token": "22"
+        },
+        {
+          "field": "context",
+          "token": "2026"
+        }
+      ],
+      "claim_context": "dated_selected_sample",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "02-what-we-actually-saw",
+      "variant": "graphic",
+      "panel": 5,
+      "record_sha256": "a6bc935ea35743fb4a4bda0d1c00082a6434497bac65cd643c1cf63eeb66f048",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [
+        {
+          "field": "context",
+          "token": "22"
+        },
+        {
+          "field": "context",
+          "token": "2026"
+        }
+      ],
+      "claim_context": "dated_selected_sample",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "02-what-we-actually-saw",
+      "variant": "people",
+      "panel": 1,
+      "record_sha256": "fa9cb19904f9326cb42b113f829f7898347d1ab0223ecbf3ace042b4b6bd1e23",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [
+        {
+          "field": "body",
+          "token": "279"
+        },
+        {
+          "field": "diagram",
+          "token": "279"
+        },
+        {
+          "field": "diagram",
+          "token": "61"
+        },
+        {
+          "field": "context",
+          "token": "22"
+        },
+        {
+          "field": "context",
+          "token": "2026"
+        }
+      ],
+      "claim_context": "dated_selected_sample",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "02-what-we-actually-saw",
+      "variant": "people",
+      "panel": 2,
+      "record_sha256": "104541340cadab73977b9d713fe0481c19922c40f05f232e16a75ea9027577bd",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [
+        {
+          "field": "headline",
+          "token": "107.5"
+        },
+        {
+          "field": "body",
+          "token": "276"
+        },
+        {
+          "field": "diagram",
+          "token": "276"
+        },
+        {
+          "field": "diagram",
+          "token": "107.5"
+        },
+        {
+          "field": "context",
+          "token": "22"
+        },
+        {
+          "field": "context",
+          "token": "2026"
+        }
+      ],
+      "claim_context": "dated_selected_sample",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "02-what-we-actually-saw",
+      "variant": "people",
+      "panel": 3,
+      "record_sha256": "f7148d1d8d65276194c4c37eb9d1c71ca698a50b463487ee46f0ab4895da613f",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [
+        {
+          "field": "headline",
+          "token": "36.5"
+        },
+        {
+          "field": "body",
+          "token": "256"
+        },
+        {
+          "field": "diagram",
+          "token": "256"
+        },
+        {
+          "field": "diagram",
+          "token": "36.5"
+        },
+        {
+          "field": "context",
+          "token": "22"
+        },
+        {
+          "field": "context",
+          "token": "2026"
+        }
+      ],
+      "claim_context": "dated_selected_sample",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "02-what-we-actually-saw",
+      "variant": "people",
+      "panel": 4,
+      "record_sha256": "6f935e51974d6e0c277008df0b58b042c47b956eba6893835605478550c4df7f",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [
+        {
+          "field": "context",
+          "token": "22"
+        },
+        {
+          "field": "context",
+          "token": "2026"
+        }
+      ],
+      "claim_context": "dated_selected_sample",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "02-what-we-actually-saw",
+      "variant": "people",
+      "panel": 5,
+      "record_sha256": "a6bc935ea35743fb4a4bda0d1c00082a6434497bac65cd643c1cf63eeb66f048",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [
+        {
+          "field": "context",
+          "token": "22"
+        },
+        {
+          "field": "context",
+          "token": "2026"
+        }
+      ],
+      "claim_context": "dated_selected_sample",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "03-the-interview",
+      "variant": "graphic",
+      "panel": 1,
+      "record_sha256": "119e9b8229c10fed3aa9ce72412f6b27ba1cbeaa68d579deb819430d9b5d11fa",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "03-the-interview",
+      "variant": "graphic",
+      "panel": 2,
+      "record_sha256": "d689247171ed3fca57a9d5cfd4f0fdb9927889e54f910bbe8e4e8279cf1b4432",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "03-the-interview",
+      "variant": "graphic",
+      "panel": 3,
+      "record_sha256": "24e64d898519a47a869e720f5f121f20271991e5fc7d0c5a03a151752b8ccd05",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "03-the-interview",
+      "variant": "graphic",
+      "panel": 4,
+      "record_sha256": "f4279df140257a1f611a02e696479e857a0a51f77b4988be0ae66a7d8dfa26a0",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "03-the-interview",
+      "variant": "graphic",
+      "panel": 5,
+      "record_sha256": "98a39b2ace29cef4841094d7830c5c37a8640b3523564281d29ee6bad1053b75",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "03-the-interview",
+      "variant": "people",
+      "panel": 1,
+      "record_sha256": "119e9b8229c10fed3aa9ce72412f6b27ba1cbeaa68d579deb819430d9b5d11fa",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "03-the-interview",
+      "variant": "people",
+      "panel": 2,
+      "record_sha256": "d689247171ed3fca57a9d5cfd4f0fdb9927889e54f910bbe8e4e8279cf1b4432",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "03-the-interview",
+      "variant": "people",
+      "panel": 3,
+      "record_sha256": "24e64d898519a47a869e720f5f121f20271991e5fc7d0c5a03a151752b8ccd05",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "03-the-interview",
+      "variant": "people",
+      "panel": 4,
+      "record_sha256": "f4279df140257a1f611a02e696479e857a0a51f77b4988be0ae66a7d8dfa26a0",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "03-the-interview",
+      "variant": "people",
+      "panel": 5,
+      "record_sha256": "98a39b2ace29cef4841094d7830c5c37a8640b3523564281d29ee6bad1053b75",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "04-positioning",
+      "variant": "graphic",
+      "panel": 1,
+      "record_sha256": "20bfec4525859ef639b8ba4f8d4c51632e16ad5188a7b5c681db5cbb73191747",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "04-positioning",
+      "variant": "graphic",
+      "panel": 2,
+      "record_sha256": "1d8ac23ca15d3a658d816f410ae36f2beea63d3188e6b28f1a50350977267802",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "04-positioning",
+      "variant": "graphic",
+      "panel": 3,
+      "record_sha256": "bc7db3c70f231cf870f22635f8c97f8c5ad250c05395671dd601ff24052f4a4a",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "04-positioning",
+      "variant": "graphic",
+      "panel": 4,
+      "record_sha256": "6905105674cd98d8d3e98d44238cff764f6d77d3d98e62463442042aebd9fa7f",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "04-positioning",
+      "variant": "graphic",
+      "panel": 5,
+      "record_sha256": "bfa713be1cc223d9c9984da449523dd6eaa36190c33f020e76b38cb3a450b735",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "04-positioning",
+      "variant": "people",
+      "panel": 1,
+      "record_sha256": "20bfec4525859ef639b8ba4f8d4c51632e16ad5188a7b5c681db5cbb73191747",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "04-positioning",
+      "variant": "people",
+      "panel": 2,
+      "record_sha256": "1d8ac23ca15d3a658d816f410ae36f2beea63d3188e6b28f1a50350977267802",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "04-positioning",
+      "variant": "people",
+      "panel": 3,
+      "record_sha256": "bc7db3c70f231cf870f22635f8c97f8c5ad250c05395671dd601ff24052f4a4a",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "04-positioning",
+      "variant": "people",
+      "panel": 4,
+      "record_sha256": "6905105674cd98d8d3e98d44238cff764f6d77d3d98e62463442042aebd9fa7f",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "04-positioning",
+      "variant": "people",
+      "panel": 5,
+      "record_sha256": "bfa713be1cc223d9c9984da449523dd6eaa36190c33f020e76b38cb3a450b735",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "05-proof",
+      "variant": "graphic",
+      "panel": 1,
+      "record_sha256": "8f5cb29946894f1f847b448024d6a6083ce903b4beb18ccbc26d339195eb8abb",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "explicitly_hypothetical_no_test",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "05-proof",
+      "variant": "graphic",
+      "panel": 2,
+      "record_sha256": "7e04bb3d2214745bb32bdbeb7dfd3d422521570763883c8ceaf65634ba9daa32",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "explicitly_hypothetical_no_test",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "05-proof",
+      "variant": "graphic",
+      "panel": 3,
+      "record_sha256": "1b2c7597d91ce42321295c0bacd42c733445b38e3dab4ef2b020dad35052a714",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "explicitly_hypothetical_no_test",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "05-proof",
+      "variant": "graphic",
+      "panel": 4,
+      "record_sha256": "43ee6a4b1d6e1476f34ddc5d53bde4823024a952df16675398748f767dbf9de7",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "explicitly_hypothetical_no_test",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "05-proof",
+      "variant": "graphic",
+      "panel": 5,
+      "record_sha256": "03bf1ad241bca21736453591975efcb8e73f577bbc2d403d0a5051f160176fc7",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "explicitly_hypothetical_no_test",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "05-proof",
+      "variant": "people",
+      "panel": 1,
+      "record_sha256": "8f5cb29946894f1f847b448024d6a6083ce903b4beb18ccbc26d339195eb8abb",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "explicitly_hypothetical_no_test",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "05-proof",
+      "variant": "people",
+      "panel": 2,
+      "record_sha256": "7e04bb3d2214745bb32bdbeb7dfd3d422521570763883c8ceaf65634ba9daa32",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "explicitly_hypothetical_no_test",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "05-proof",
+      "variant": "people",
+      "panel": 3,
+      "record_sha256": "1b2c7597d91ce42321295c0bacd42c733445b38e3dab4ef2b020dad35052a714",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "explicitly_hypothetical_no_test",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "05-proof",
+      "variant": "people",
+      "panel": 4,
+      "record_sha256": "43ee6a4b1d6e1476f34ddc5d53bde4823024a952df16675398748f767dbf9de7",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "explicitly_hypothetical_no_test",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "05-proof",
+      "variant": "people",
+      "panel": 5,
+      "record_sha256": "03bf1ad241bca21736453591975efcb8e73f577bbc2d403d0a5051f160176fc7",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "explicitly_hypothetical_no_test",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "06-product-to-buyer",
+      "variant": "graphic",
+      "panel": 1,
+      "record_sha256": "dfe95906946b7480bd405626a122de16b8f5741af37875f7fbdac67986983cb7",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "06-product-to-buyer",
+      "variant": "people",
+      "panel": 1,
+      "record_sha256": "dfe95906946b7480bd405626a122de16b8f5741af37875f7fbdac67986983cb7",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "07-two-voices",
+      "variant": "graphic",
+      "panel": 1,
+      "record_sha256": "fac8a8fff06ca7c0b14ece1f6db82227aa9e25bb1060cf9b4548e4cd5b8a6cea",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "07-two-voices",
+      "variant": "people",
+      "panel": 1,
+      "record_sha256": "fac8a8fff06ca7c0b14ece1f6db82227aa9e25bb1060cf9b4548e4cd5b8a6cea",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "08-visuals",
+      "variant": "graphic",
+      "panel": 1,
+      "record_sha256": "4859e2e6c8741741b5ca755359c2243858bd1ecc0a746132cdf4046da2509518",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "08-visuals",
+      "variant": "people",
+      "panel": 1,
+      "record_sha256": "4859e2e6c8741741b5ca755359c2243858bd1ecc0a746132cdf4046da2509518",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "09-measure",
+      "variant": "graphic",
+      "panel": 1,
+      "record_sha256": "064a359c12500423a7325ef3e6b7e96b45ad87ec0e9f34da9b26afc618a08851",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "09-measure",
+      "variant": "people",
+      "panel": 1,
+      "record_sha256": "064a359c12500423a7325ef3e6b7e96b45ad87ec0e9f34da9b26afc618a08851",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "10-the-delivery",
+      "variant": "graphic",
+      "panel": 1,
+      "record_sha256": "fa7d40fe154bb3a64b19f376691dd47bf765fc1faf35b89c001fbdc7f0dd442c",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    },
+    {
+      "publication_id": "10-the-delivery",
+      "variant": "people",
+      "panel": 1,
+      "record_sha256": "fa7d40fe154bb3a64b19f376691dd47bf765fc1faf35b89c001fbdc7f0dd442c",
+      "text_record_status": "PASS",
+      "all_four_visible_fields_reviewed": true,
+      "empirical_numeric_tokens": [],
+      "claim_context": "editorial_guidance_or_proposed_service",
+      "rendered_visual_acceptance": "outside_this_copy_review"
+    }
+  ],
+  "blocking_findings": [],
+  "source_snapshot_note": "The runtime report has one extra trailing LF compared with the original pinned baseline; parsed objects are identical. The statistics are unchanged. Root was informed to normalize bytes before exact provenance checks.",
+  "positive_reference_fixture": {
+    "id": "E12",
+    "status": "PASS",
+    "input_sha256": "9250e0373b55eccd76b8b83fe764c441bdf9d6ae9acb4d74b1fd1f48faa754ca",
+    "frozen_expected_sha256": "5d72045d8bc96dafc5a5246e9feb4cff6c501a0c52a1d9963def25c70a5b45e1",
+    "output_sha256": "d517d7635ff93e000cdc919cfeaf29c951231ef4e6dce2521b64019f5d86dd77",
+    "expected_ids": [
+      "synthetic:reference:A",
+      "synthetic:reference:B"
+    ],
+    "actual_ids": [
+      "synthetic:reference:A",
+      "synthetic:reference:B"
+    ],
+    "missing": [],
+    "extra": [],
+    "duplicates": [],
+    "source_observations": {
+      "synthetic:reference:A": [
+        {
+          "criterion": "opening concerns a human decision",
+          "status": "PASS",
+          "output_evidence": "opening_exact: A request can look complete and still need a human decision.; reader job retains the human judgment boundary"
+        },
+        {
+          "criterion": "fictional workflow and reviewer boundary",
+          "status": "PASS",
+          "output_evidence": "p2 progression explicitly names fictional flag proposal followed by reviewer checking before further action"
+        },
+        {
+          "criterion": "error rate/time saving remain unknown",
+          "status": "PASS",
+          "output_evidence": "p3 progression and evidence_reasoning_limit explicitly withhold error rate/time saving outcomes"
+        },
+        {
+          "criterion": "application ending",
+          "status": "PASS",
+          "output_evidence": "ending is direct application: name the retained reviewer decision"
+        }
+      ],
+      "synthetic:reference:B": [
+        {
+          "criterion": "opening promises3checks",
+          "status": "PASS",
+          "output_evidence": "opening_exact: Here are three checks before using an AI-generated summary."
+        },
+        {
+          "criterion": "all3checks recognized",
+          "status": "PASS",
+          "output_evidence": "enumerated_checks contains exactly Name the source.; Check the quoted figures.; Keep unresolved points visible."
+        },
+        {
+          "criterion": "polish is distinct from source checking",
+          "status": "PASS",
+          "output_evidence": "p3/central_claim distinguish a polished paragraph from verified source checking"
+        },
+        {
+          "criterion": "specific discussion ending",
+          "status": "PASS",
+          "output_evidence": "ending identifies the specific manual-review question as a discussion invitation tied to the checklist"
+        }
+      ]
+    },
+    "source_hashes_and_exact_openings_match": true,
+    "all_four_paragraph_functions_per_source_match": true,
+    "synthetic_counters_preserved": true,
+    "bounded_transfer_assessment": "PASS: transfers responsibility, exact checklist actions, explicit limits and practical application into a newly illustrative project-date review route. The new draft labels itself illustrative and withholds error/time outcomes. No distinctive story, real customer event, visual detail or causal popularity claim is invented.",
+    "critical_failure_assessment": {
+      "invented_missing_visual_details": "not_found; both rows explicitly mark media not observable",
+      "reaction_difference_as_causal_or_viral": "not_found;31/4and12/2areexplicitlysynthetic andcannotestablishrealworldeffect",
+      "fiction_as_real_founder_or_customer": "not_found; originals and transfer stay visibly synthetic/illustrative",
+      "source_id_missing_or_duplicate": "not_found; exact two-ID set reconciles",
+      "new_collection_or_account_action": "noneclaimed; actual side-effect absence is not independently proven from output text alone"
+    },
+    "limits": [
+      "Two simple synthetic originals; not a representative real-post validation.",
+      "No source image/audio/video, current platform access, audience comprehension or causal outcomes tested.",
+      "Review checks written output and source bytes, not the complete executor tool-call trace or automatic skill discovery."
+    ]
+  },
+  "remaining_holds": [
+    "Founder voice/stance and operational capability approval remain pending.",
+    "Actual rendered text, crops, contrast, source labels, mobile readability and fictional-person disclosures require the separate render/visual review.",
+    "A content JSON boolean or proposed label does not prove that every final image displays it.",
+    "Neither this copy review nor the synthetic skill exercise validates viral reach, trust, buyer fit, leads, conversion, representative outcomes or legal reuse rights.",
+    "No unverified founder episode, percentage uplift, real product execution or customer result was introduced in the reviewed copy."
+  ]
+}

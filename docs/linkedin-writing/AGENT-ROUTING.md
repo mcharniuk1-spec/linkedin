@@ -65,3 +65,8 @@ The [supplied-method adoption matrix](METHOD-INTEGRATION.md) records which theor
 For a substantial draft, an optional reader can see only the draft and restate its point, support, limit and next action. Compare that reading with the brief and repair a concrete mismatch. Record the actual reader and scope; this is an editorial comprehension check, not representative buyer validation.
 
 For a batch, compare the reader questions and new contributions. Distinguish a repeated topic with a new decision from a duplicate post. Merge, narrow or defer overlapping material instead of manufacturing another anecdote, metric or joke. The current ten-post review makes the research observation in post02 distinct from the measurement diagnostic in post09; there is no mandatory pattern ratio.
+
+## Implemented skills — OUTSP-47/48
+
+The owned [publication architecture](../../skills/linkedin-publication-architecture/SKILL.md) and [reference pattern review](../../skills/linkedin-reference-pattern-review/SKILL.md) bundles now implement the specified routes. Use their self-contained references or the current project method; do not copy installed third-party bundles. [Actual installation and behavioral coverage](../../reports/20261110-skills-publications/README.md) distinguishes exact static scan/readback, explicit skill use, ambiguous fixtures and untested patterns. The [current ten-post application ledger](../../publications/20261110-skills-v2/skill-applications.json) retains author holds and source links. No account or collection operation follows from using these skills.
+

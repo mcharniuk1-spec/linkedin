@@ -1,0 +1,313 @@
+{
+  "schema": "outspoken-skills-publications-verification/1",
+  "status": "PASS",
+  "check_count": 58,
+  "checks": [
+    {
+      "check": "Exact ten concept identities",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "First five carousels and five singles",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All ten complete skill application records",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All ten caption hashes match applied revision",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Required exact CTA in both offer directions",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "No first-person client or benchmark invented in proof caption",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All ten proof panels preserve hypothetical no-test context",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Unsupported old survey figure absent from caption/panels",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Research sample and current metric date literal",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Positioning four-check promise paid off",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Two visual directions have identical claim text",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Caption lengths remain below documented post maximum",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete panel copy: 01-the-reason:graphic",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete panel copy: 01-the-reason:people",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete panel copy: 02-what-we-actually-saw:graphic",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete panel copy: 02-what-we-actually-saw:people",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete panel copy: 03-the-interview:graphic",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete panel copy: 03-the-interview:people",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete panel copy: 04-positioning:graphic",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete panel copy: 04-positioning:people",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete panel copy: 05-proof:graphic",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete panel copy: 05-proof:people",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete panel copy: 06-product-to-buyer:graphic",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete panel copy: 06-product-to-buyer:people",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete panel copy: 07-two-voices:graphic",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete panel copy: 07-two-voices:people",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete panel copy: 08-visuals:graphic",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete panel copy: 08-visuals:people",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete panel copy: 09-measure:graphic",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete panel copy: 09-measure:people",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete panel copy: 10-the-delivery:graphic",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete panel copy: 10-the-delivery:people",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact sixty PNG export set",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact sixty native SVG source set",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact ten PDF set",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Every PNG is native 1080x1350",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Sixty distinct rendered PNGs",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Every PDF has expected binary header",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact ten caption text copies",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Stacked mapping rows: 08-graphic-01.svg",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Stacked mapping rows: 08-people-01.svg",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Stacked mapping rows: 09-graphic-01.svg",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Stacked mapping rows: 09-people-01.svg",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Every SVG parses with exact canvas",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "All thirty people SVGs disclose illustration",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Shared image references stay portable and confined",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "Gallery avoids object serialization artifacts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Layout content identity matches canonical copy",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Release file and rights ledgers cover every exact asset",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Every asset hash and rights assertion reconciles",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source Git authority is distinct from author/social approval",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact owned skill file set: linkedin-publication-architecture",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Skill frontmatter and internal references: linkedin-publication-architecture",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact owned skill file set: linkedin-reference-pattern-review",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Skill frontmatter and internal references: linkedin-reference-pattern-review",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Both project roots have exact static scan readback receipts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All fifty actual PDF page identities/order passed",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Saved-evidence deterministic checks passed",
+      "status": "PASS",
+      "detail": null
+    }
+  ],
+  "counts": {
+    "posts": 10,
+    "directions": 20,
+    "pngs": 60,
+    "svgs": 60,
+    "pdfs": 10,
+    "pdf_pages": 50,
+    "captions": 10,
+    "skills": 2,
+    "skill_source_files": 5
+  },
+  "limits": [
+    "Finite structural/provenance/export checks do not establish founder approval, writing quality or audience outcomes.",
+    "Behavioral test accounting and independent source/visual review are separate records.",
+    "Platform maximum is not an optimal caption length."
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "receipts": [
+    {
+      "skill": "linkedin-publication-architecture",
+      "agent_root": ".agents",
+      "content_sha256": "6d1f983fc72ac5e051a5671dbf874605288ada4021ee54ddb8a5b268089b2ddb",
+      "scanner_version": "2.9.6",
+      "recommendation": "SAFE",
+      "exact_files": [
+        "SKILL.md",
+        "references/composition-contract.md",
+        "references/interest-and-format.md"
+      ],
+      "coverage_percent": 100.0,
+      "llm_scan": false,
+      "semantic_limitations": [
+        "Analyzer was disabled by the requested configuration.",
+        "Analyzer was disabled by the requested configuration.",
+        "Analyzer was disabled by the requested configuration."
+      ]
+    },
+    {
+      "skill": "linkedin-publication-architecture",
+      "agent_root": ".claude",
+      "content_sha256": "6d1f983fc72ac5e051a5671dbf874605288ada4021ee54ddb8a5b268089b2ddb",
+      "scanner_version": "2.9.6",
+      "recommendation": "SAFE",
+      "exact_files": [
+        "SKILL.md",
+        "references/composition-contract.md",
+        "references/interest-and-format.md"
+      ],
+      "coverage_percent": 100.0,
+      "llm_scan": false,
+      "semantic_limitations": [
+        "Analyzer was disabled by the requested configuration.",
+        "Analyzer was disabled by the requested configuration.",
+        "Analyzer was disabled by the requested configuration."
+      ]
+    },
+    {
+      "skill": "linkedin-reference-pattern-review",
+      "agent_root": ".agents",
+      "content_sha256": "4ea82d1546d35e2621bd6e053d812fe650c353d77c7a1cc732c30d3438de15dd",
+      "scanner_version": "2.9.6",
+      "recommendation": "SAFE",
+      "exact_files": [
+        "SKILL.md",
+        "references/evidence-contract.md"
+      ],
+      "coverage_percent": 100.0,
+      "llm_scan": false,
+      "semantic_limitations": [
+        "Analyzer was disabled by the requested configuration.",
+        "Analyzer was disabled by the requested configuration.",
+        "Analyzer was disabled by the requested configuration."
+      ]
+    },
+    {
+      "skill": "linkedin-reference-pattern-review",
+      "agent_root": ".claude",
+      "content_sha256": "4ea82d1546d35e2621bd6e053d812fe650c353d77c7a1cc732c30d3438de15dd",
+      "scanner_version": "2.9.6",
+      "recommendation": "SAFE",
+      "exact_files": [
+        "SKILL.md",
+        "references/evidence-contract.md"
+      ],
+      "coverage_percent": 100.0,
+      "llm_scan": false,
+      "semantic_limitations": [
+        "Analyzer was disabled by the requested configuration.",
+        "Analyzer was disabled by the requested configuration.",
+        "Analyzer was disabled by the requested configuration."
+      ]
+    }
+  ]
+}

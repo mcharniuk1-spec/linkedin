@@ -1,0 +1,45 @@
+{
+  "schema": "outspoken-first-message/1",
+  "record_mode": "template",
+  "record_id": "",
+  "provenance": {
+    "owner": "Outspoken project",
+    "source_type": "owned_template",
+    "rights_state": "owned",
+    "created_on": "2026-11-10",
+    "use_limit": "Preparation only. No real prospect records or source-post bodies are supplied."
+  },
+  "source_records": [],
+  "permissions": {
+    "source_use": "pending",
+    "relationship_context_use": "pending",
+    "third_party_name_use": "pending",
+    "channel_and_legal_review": "pending"
+  },
+  "stop": {
+    "recipient_declined": "unchecked",
+    "asked_to_stop": "unchecked",
+    "wrong_recipient": "unchecked",
+    "permission_unresolved": "unchecked",
+    "source_uncertain": "unchecked",
+    "prior_reply_needs_review": "unchecked",
+    "status": "unchecked",
+    "reason": ""
+  },
+  "send_authorization": "not_authorized",
+  "review_state": "pending_founder_review",
+  "company_record_id": "",
+  "recipient_role": "",
+  "channel": "not_selected",
+  "firmographic_fit_state": "not_established",
+  "expressed_need_state": "not_established",
+  "buying_interest_state": "not_established",
+  "message": {
+    "subject_optional": "",
+    "opening": "",
+    "body": "",
+    "closing_question_or_next_step": ""
+  },
+  "claims": [],
+  "preparation_rule": "One source-specific observation, a bounded reason it may be relevant, and one proportionate question. Do not assume need or fabricate familiarity."
+}

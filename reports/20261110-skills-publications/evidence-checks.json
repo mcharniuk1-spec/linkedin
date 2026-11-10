@@ -1,0 +1,1097 @@
+{
+  "schema": "outspoken-saved-evidence-checks/1",
+  "verified_on": "2026-11-10",
+  "source_snapshot": "db5412d04d2fade46a674f20b904bee0cb36e9ee",
+  "inputs": {
+    "datasets/current/dataset.json": {
+      "bytes": 2371469,
+      "sha256": "f8fff0ab3ee47f6d96ab6c4968c4864b78073bc25f75e8177a4f021b80a460b1",
+      "git_blob_sha": "9238d20f91d16f5888625f78b9f08ebe4538be6b"
+    },
+    "reports/20261105/data.json": {
+      "bytes": 475018,
+      "sha256": "de853eb07d3971c28151dbe0f954dd7ea8c8faac946c34171b04b5896e691382",
+      "git_blob_sha": "e213f6516ffaaa972e2ece474edd53c7ceacd18e"
+    },
+    "publications/20261110-writing-architecture/post-structures.json": {
+      "bytes": 56805,
+      "sha256": "6a25988f382b9aef5d5ba0e8c7d78c42a1144ebc442500b8a1286e00daee4b67",
+      "git_blob_sha": "27a71a2a6991d2cbc989934af7c6f0481bd9567b"
+    }
+  },
+  "scope": "Historical selected reference corpus, as of 22 October 2026; no new LinkedIn access or source truth recertification.",
+  "expected_counts": {
+    "posts": 279,
+    "accounts": 61,
+    "snapshots": 477,
+    "media": 207,
+    "author_decisions": 38,
+    "prospects": 20
+  },
+  "observed_metrics": {
+    "reactions": {
+      "observed": 276,
+      "missing": 3,
+      "zero": 0,
+      "median": 107.5,
+      "sum": 115216,
+      "max": 5518
+    },
+    "comments": {
+      "observed": 256,
+      "missing": 23,
+      "zero": 0,
+      "median": 36.5,
+      "sum": 39930,
+      "max": 3487
+    },
+    "reposts": {
+      "observed": 8,
+      "missing": 271,
+      "zero": 0,
+      "median": 2.5,
+      "sum": 31,
+      "max": 9
+    }
+  },
+  "grouped_descriptive_statistics": {
+    "format": {
+      "document": {
+        "posts": 9,
+        "reaction_n": 9,
+        "missing_reactions": 0,
+        "reaction_median": 178,
+        "reaction_mean": 178.444,
+        "reaction_q25": 40.0,
+        "reaction_q75": 247.0,
+        "comment_n": 9,
+        "comment_median": 14
+      },
+      "image": {
+        "posts": 111,
+        "reaction_n": 110,
+        "missing_reactions": 1,
+        "reaction_median": 186.5,
+        "reaction_mean": 792.491,
+        "reaction_q25": 55.5,
+        "reaction_q75": 842.75,
+        "comment_n": 106,
+        "comment_median": 57.0
+      },
+      "text": {
+        "posts": 135,
+        "reaction_n": 133,
+        "missing_reactions": 2,
+        "reaction_median": 94,
+        "reaction_mean": 187.932,
+        "reaction_q25": 29.0,
+        "reaction_q75": 215.0,
+        "comment_n": 123,
+        "comment_median": 31
+      },
+      "video": {
+        "posts": 24,
+        "reaction_n": 24,
+        "missing_reactions": 0,
+        "reaction_median": 30.0,
+        "reaction_mean": 60.042,
+        "reaction_q25": 19.25,
+        "reaction_q75": 66.0,
+        "comment_n": 18,
+        "comment_median": 20.0
+      }
+    },
+    "topic": {
+      "adjacent_humor": {
+        "posts": 6,
+        "reaction_n": 6,
+        "missing_reactions": 0,
+        "reaction_median": 58.5,
+        "reaction_mean": 77.667,
+        "reaction_q25": 28.0,
+        "reaction_q75": 128.75,
+        "comment_n": 6,
+        "comment_median": 25.0
+      },
+      "ai_product_education": {
+        "posts": 34,
+        "reaction_n": 34,
+        "missing_reactions": 0,
+        "reaction_median": 74.5,
+        "reaction_mean": 263.824,
+        "reaction_q25": 23.25,
+        "reaction_q75": 161.25,
+        "comment_n": 29,
+        "comment_median": 32
+      },
+      "buyer_research": {
+        "posts": 21,
+        "reaction_n": 21,
+        "missing_reactions": 0,
+        "reaction_median": 123,
+        "reaction_mean": 252,
+        "reaction_q25": 57.0,
+        "reaction_q75": 278.0,
+        "comment_n": 20,
+        "comment_median": 43.0
+      },
+      "career_general": {
+        "posts": 5,
+        "reaction_n": 5,
+        "missing_reactions": 0,
+        "reaction_median": 29,
+        "reaction_mean": 607.2,
+        "reaction_q25": 22.0,
+        "reaction_q75": 73.0,
+        "comment_n": 5,
+        "comment_median": 12
+      },
+      "content_personal_brand": {
+        "posts": 53,
+        "reaction_n": 53,
+        "missing_reactions": 0,
+        "reaction_median": 258,
+        "reaction_mean": 976.585,
+        "reaction_q25": 155.0,
+        "reaction_q75": 1904.0,
+        "comment_n": 52,
+        "comment_median": 93.0
+      },
+      "customer_proof": {
+        "posts": 3,
+        "reaction_n": 3,
+        "missing_reactions": 0,
+        "reaction_median": 30,
+        "reaction_mean": 454.333,
+        "reaction_q25": 26.0,
+        "reaction_q75": 670.5,
+        "comment_n": 3,
+        "comment_median": 4
+      },
+      "demand_generation": {
+        "posts": 27,
+        "reaction_n": 27,
+        "missing_reactions": 0,
+        "reaction_median": 26,
+        "reaction_mean": 78.407,
+        "reaction_q25": 9.0,
+        "reaction_q75": 62.0,
+        "comment_n": 19,
+        "comment_median": 8
+      },
+      "events_community": {
+        "posts": 13,
+        "reaction_n": 13,
+        "missing_reactions": 0,
+        "reaction_median": 126,
+        "reaction_mean": 465.077,
+        "reaction_q25": 75.0,
+        "reaction_q75": 173.0,
+        "comment_n": 13,
+        "comment_median": 30
+      },
+      "founder_building": {
+        "posts": 23,
+        "reaction_n": 22,
+        "missing_reactions": 1,
+        "reaction_median": 203.5,
+        "reaction_mean": 630.818,
+        "reaction_q25": 131.25,
+        "reaction_q75": 300.75,
+        "comment_n": 21,
+        "comment_median": 57
+      },
+      "leadership_team": {
+        "posts": 14,
+        "reaction_n": 14,
+        "missing_reactions": 0,
+        "reaction_median": 223.5,
+        "reaction_mean": 408.357,
+        "reaction_q25": 87.0,
+        "reaction_q75": 389.75,
+        "comment_n": 14,
+        "comment_median": 31.5
+      },
+      "positioning_messaging": {
+        "posts": 41,
+        "reaction_n": 39,
+        "missing_reactions": 2,
+        "reaction_median": 179,
+        "reaction_mean": 281.897,
+        "reaction_q25": 44.5,
+        "reaction_q75": 428.0,
+        "comment_n": 38,
+        "comment_median": 49.0
+      },
+      "sales_outbound": {
+        "posts": 39,
+        "reaction_n": 39,
+        "missing_reactions": 0,
+        "reaction_median": 48,
+        "reaction_mean": 143.026,
+        "reaction_q25": 33.0,
+        "reaction_q75": 74.0,
+        "comment_n": 36,
+        "comment_median": 14.0
+      }
+    },
+    "editorial_job": {
+      "announce_offer": {
+        "posts": 63,
+        "reaction_n": 62,
+        "missing_reactions": 1,
+        "reaction_median": 67.0,
+        "reaction_mean": 152.935,
+        "reaction_q25": 23.25,
+        "reaction_q75": 171.5,
+        "comment_n": 49,
+        "comment_median": 29
+      },
+      "build_in_public": {
+        "posts": 8,
+        "reaction_n": 7,
+        "missing_reactions": 1,
+        "reaction_median": 162,
+        "reaction_mean": 151.857,
+        "reaction_q25": 37.5,
+        "reaction_q75": 204.5,
+        "comment_n": 7,
+        "comment_median": 24
+      },
+      "challenge_belief": {
+        "posts": 46,
+        "reaction_n": 45,
+        "missing_reactions": 1,
+        "reaction_median": 108,
+        "reaction_mean": 586.911,
+        "reaction_q25": 55.0,
+        "reaction_q75": 569.0,
+        "comment_n": 44,
+        "comment_median": 43.0
+      },
+      "entertain": {
+        "posts": 6,
+        "reaction_n": 6,
+        "missing_reactions": 0,
+        "reaction_median": 134.5,
+        "reaction_mean": 123.667,
+        "reaction_q25": 96.0,
+        "reaction_q75": 157.25,
+        "comment_n": 6,
+        "comment_median": 39.5
+      },
+      "show_proof": {
+        "posts": 23,
+        "reaction_n": 23,
+        "missing_reactions": 0,
+        "reaction_median": 107,
+        "reaction_mean": 288.391,
+        "reaction_q25": 50.0,
+        "reaction_q75": 170.5,
+        "comment_n": 21,
+        "comment_median": 37
+      },
+      "start_discussion": {
+        "posts": 6,
+        "reaction_n": 6,
+        "missing_reactions": 0,
+        "reaction_median": 33.5,
+        "reaction_mean": 115.167,
+        "reaction_q25": 27.25,
+        "reaction_q75": 104.25,
+        "comment_n": 4,
+        "comment_median": 76.0
+      },
+      "teach_method": {
+        "posts": 91,
+        "reaction_n": 91,
+        "missing_reactions": 0,
+        "reaction_median": 106,
+        "reaction_mean": 315.286,
+        "reaction_q25": 34.5,
+        "reaction_q75": 322.0,
+        "comment_n": 89,
+        "comment_median": 26
+      },
+      "tell_story": {
+        "posts": 36,
+        "reaction_n": 36,
+        "missing_reactions": 0,
+        "reaction_median": 267.0,
+        "reaction_mean": 1152.861,
+        "reaction_q25": 118.0,
+        "reaction_q75": 2577.5,
+        "comment_n": 36,
+        "comment_median": 55.0
+      }
+    },
+    "author_type": {
+      "organization": {
+        "posts": 36,
+        "reaction_n": 36,
+        "missing_reactions": 0,
+        "reaction_median": 25.5,
+        "reaction_mean": 95.972,
+        "reaction_q25": 12.0,
+        "reaction_q75": 66.0,
+        "comment_n": 22,
+        "comment_median": 3.5
+      },
+      "person": {
+        "posts": 238,
+        "reaction_n": 235,
+        "missing_reactions": 3,
+        "reaction_median": 132,
+        "reaction_mean": 473.626,
+        "reaction_q25": 50.5,
+        "reaction_q75": 331.0,
+        "comment_n": 231,
+        "comment_median": 43
+      },
+      "unknown": {
+        "posts": 5,
+        "reaction_n": 5,
+        "missing_reactions": 0,
+        "reaction_median": 17,
+        "reaction_mean": 91.8,
+        "reaction_q25": 3.0,
+        "reaction_q75": 189.0,
+        "comment_n": 3,
+        "comment_median": 16
+      }
+    }
+  },
+  "age_distribution": [
+    {
+      "age_days_at_22_oct": "0-30",
+      "posts": 83,
+      "reaction_n": 81,
+      "reaction_median": 75
+    },
+    {
+      "age_days_at_22_oct": "31-90",
+      "posts": 64,
+      "reaction_n": 63,
+      "reaction_median": 73
+    },
+    {
+      "age_days_at_22_oct": "366+",
+      "posts": 49,
+      "reaction_n": 49,
+      "reaction_median": 234
+    },
+    {
+      "age_days_at_22_oct": "91-365",
+      "posts": 78,
+      "reaction_n": 78,
+      "reaction_median": 128
+    },
+    {
+      "age_days_at_22_oct": "missing",
+      "posts": 5,
+      "reaction_n": 5,
+      "reaction_median": 17
+    }
+  ],
+  "age_format_strata": [
+    {
+      "stratum": "age_gt_90d | document",
+      "posts": 4,
+      "reaction_n": 4,
+      "reaction_median": 174
+    },
+    {
+      "stratum": "age_gt_90d | image",
+      "posts": 50,
+      "reaction_n": 50,
+      "reaction_median": 270
+    },
+    {
+      "stratum": "age_gt_90d | text",
+      "posts": 61,
+      "reaction_n": 61,
+      "reaction_median": 136
+    },
+    {
+      "stratum": "age_gt_90d | video",
+      "posts": 12,
+      "reaction_n": 12,
+      "reaction_median": 26
+    },
+    {
+      "stratum": "age_le_90d | document",
+      "posts": 4,
+      "reaction_n": 4,
+      "reaction_median": 109
+    },
+    {
+      "stratum": "age_le_90d | image",
+      "posts": 59,
+      "reaction_n": 58,
+      "reaction_median": 113.5
+    },
+    {
+      "stratum": "age_le_90d | text",
+      "posts": 72,
+      "reaction_n": 70,
+      "reaction_median": 55.5
+    },
+    {
+      "stratum": "age_le_90d | video",
+      "posts": 12,
+      "reaction_n": 12,
+      "reaction_median": 49.5
+    },
+    {
+      "stratum": "missing | document",
+      "posts": 1,
+      "reaction_n": 1,
+      "reaction_median": 247
+    },
+    {
+      "stratum": "missing | image",
+      "posts": 2,
+      "reaction_n": 2,
+      "reaction_median": 96
+    },
+    {
+      "stratum": "missing | text",
+      "posts": 2,
+      "reaction_n": 2,
+      "reaction_median": 10
+    }
+  ],
+  "age_clock_note": "Report age tables use 2026-10-22T00:00:00 UTC. Performance cohorts use each actual metric capture and preserve date-conflict holds; three records cross the 90-day boundary after fixed midnight. These denominators are not interchangeable.",
+  "within_author_image_text": [
+    {
+      "author": "Adam Robinson",
+      "image_n": 3,
+      "text_n": 8,
+      "image_median": 107,
+      "text_median": 235.0,
+      "difference": -128.0
+    },
+    {
+      "author": "Alex Lieberman",
+      "image_n": 2,
+      "text_n": 19,
+      "image_median": 274.5,
+      "text_median": 140,
+      "difference": 134.5
+    },
+    {
+      "author": "Amanda Natividad",
+      "image_n": 2,
+      "text_n": 8,
+      "image_median": 570.0,
+      "text_median": 218.5,
+      "difference": 351.5
+    },
+    {
+      "author": "April Dunford",
+      "image_n": 5,
+      "text_n": 4,
+      "image_median": 560,
+      "text_median": 738.0,
+      "difference": -178.0
+    },
+    {
+      "author": "Armand Farrokh",
+      "image_n": 11,
+      "text_n": 3,
+      "image_median": 61,
+      "text_median": 266,
+      "difference": -205
+    },
+    {
+      "author": "Chris Orlob",
+      "image_n": 2,
+      "text_n": 16,
+      "image_median": 32.5,
+      "text_median": 41.5,
+      "difference": -9.0
+    },
+    {
+      "author": "Dave Gerhardt",
+      "image_n": 2,
+      "text_n": 7,
+      "image_median": 178.5,
+      "text_median": 148,
+      "difference": 30.5
+    },
+    {
+      "author": "Gong",
+      "image_n": 5,
+      "text_n": 2,
+      "image_median": 41,
+      "text_median": 14.5,
+      "difference": 26.5
+    },
+    {
+      "author": "Katelyn Bourgoin",
+      "image_n": 3,
+      "text_n": 4,
+      "image_median": 162,
+      "text_median": 110.0,
+      "difference": 52.0
+    },
+    {
+      "author": "Peep Laja",
+      "image_n": 2,
+      "text_n": 7,
+      "image_median": 50.0,
+      "text_median": 146,
+      "difference": -96.0
+    },
+    {
+      "author": "Refine Labs",
+      "image_n": 4,
+      "text_n": 2,
+      "image_median": 103.0,
+      "text_median": 14.0,
+      "difference": 89.0
+    }
+  ],
+  "comparable_cohorts": [
+    {
+      "cohort": "/in/alex-lieberman|text_or_external_link|up_to_90d|English",
+      "all_records": 10,
+      "eligible_pattern_representatives": 9,
+      "median_reactions": 164,
+      "strong": 2,
+      "ordinary": 7
+    },
+    {
+      "cohort": "/in/chrisorlob|text_or_external_link|up_to_180d|English",
+      "all_records": 9,
+      "eligible_pattern_representatives": 9,
+      "median_reactions": 45,
+      "strong": 2,
+      "ordinary": 7
+    },
+    {
+      "cohort": "/in/josh-braun|text_or_external_link|up_to_7d|English",
+      "all_records": 8,
+      "eligible_pattern_representatives": 8,
+      "median_reactions": 21.5,
+      "strong": 2,
+      "ordinary": 6
+    },
+    {
+      "cohort": "/in/justinwelsh|image|over_180d|English",
+      "all_records": 8,
+      "eligible_pattern_representatives": 8,
+      "median_reactions": 3025.0,
+      "strong": 2,
+      "ordinary": 6
+    }
+  ],
+  "relative_performance_status_counts": {
+    "insufficient_comparable_sample": 245,
+    "strong_sample_reference": 8,
+    "ordinary_sample_reference": 26
+  },
+  "trend_status_counts": {
+    "flat_observed_window": 176,
+    "growth_observed_not_trend": 21,
+    "counter_decrease_review": 1,
+    "not_established": 81
+  },
+  "same_parser_windows": {
+    "count": 198,
+    "minimum_hours": 6.031613702222222,
+    "maximum_hours": 41.71110422611111
+  },
+  "prior_review_coverage": [
+    {
+      "evidence": "Posts with visual review",
+      "posts": 119
+    },
+    {
+      "evidence": "Posts with sampled-video review",
+      "posts": 24
+    },
+    {
+      "evidence": "Videos continuously watched/listened",
+      "posts": 0
+    }
+  ],
+  "purposive_example_access": [
+    {
+      "post_id": "urn:li:activity:7416823425274388480",
+      "url": "https://www.linkedin.com/posts/justinwelsh_i-overthought-my-first-100-posts-edited-activity-7416823425274388480-y_Ux",
+      "author_as_recorded": "Justin Welsh",
+      "source_sha256": "ad3738a762d53ad93e5fb2dec12584eb491091631d7db4359a01700177d91ef6",
+      "text_sha256": "8995d58c3ba10e75238c418b04bd155d1da544ae6ab80752c96e7b98c448747e",
+      "published_at": "2026-01-13T12:48:22.484Z",
+      "metric_captured_at": "2026-10-22T10:06:55.454256+00:00",
+      "reactions": 5518,
+      "comments": 1462,
+      "relative_status": "strong_sample_reference",
+      "comparison_n": 8,
+      "age_days": 281.8879,
+      "evidence_access": "Saved derived semantic assessment reread; original post text and source media not reacquired.",
+      "interpretation_status": "Prior interpretation, not independently recertified source truth."
+    },
+    {
+      "post_id": "urn:li:activity:7417548201823686656",
+      "url": "https://www.linkedin.com/posts/justinwelsh_i-spent-16-years-becoming-a-cro-and-then-activity-7417548201823686656-nvWx",
+      "author_as_recorded": "Justin Welsh",
+      "source_sha256": "ca26ae0479b8c9dca4a61b15b71c84aa4c10e2c823c1b8b68afbbcb315d503dc",
+      "text_sha256": "4d9fbba11a14eb6fda3eb65d208d82e762cc37884ff11f266bdec78942690fb2",
+      "published_at": "2026-01-15T12:48:22.670Z",
+      "metric_captured_at": "2026-10-22T10:06:52.822330+00:00",
+      "reactions": 4149,
+      "comments": 1053,
+      "relative_status": "strong_sample_reference",
+      "comparison_n": 8,
+      "age_days": 279.8878,
+      "evidence_access": "Saved derived semantic assessment reread; original post text and source media not reacquired.",
+      "interpretation_status": "Prior interpretation, not independently recertified source truth."
+    },
+    {
+      "post_id": "urn:li:activity:7472663804993110016",
+      "url": "https://www.linkedin.com/posts/chrisorlob_the-fastest-way-to-lose-a-deal-in-2026-is-activity-7472663804993110016-uVjc",
+      "author_as_recorded": "Chris Orlob",
+      "source_sha256": "a1cba83aaa40cc7b4b134fc4a46d19f2c2ed2b9a0a3405d67044be708257e088",
+      "text_sha256": "34773bfe87daca5c237805868dcf6dc27e62e07d02e15f675fac939092248c62",
+      "published_at": "2026-06-16T14:58:06.472Z",
+      "metric_captured_at": "2026-10-22T14:40:30.413378+00:00",
+      "reactions": 53,
+      "comments": 18,
+      "relative_status": "strong_sample_reference",
+      "comparison_n": 9,
+      "age_days": 127.9878,
+      "evidence_access": "Saved derived semantic assessment reread; original post text and source media not reacquired.",
+      "interpretation_status": "Prior interpretation, not independently recertified source truth."
+    },
+    {
+      "post_id": "urn:li:activity:7488605427002171392",
+      "url": "https://www.linkedin.com/posts/alex-lieberman_im-either-going-to-look-like-an-absolute-activity-7488605427002171392-GFX2",
+      "author_as_recorded": "Alex Lieberman",
+      "source_sha256": "1812dcc6933c6cf1ca1e59cb22314c3b58de8e4a6cb331803b7bb19954fae446",
+      "text_sha256": "4224325a479f02db436124b252f5ea45c1d54badce62ddc9843f0bb45fe14436",
+      "published_at": "2026-07-30T14:44:25.340Z",
+      "metric_captured_at": "2026-10-22T14:40:00.370031+00:00",
+      "reactions": 405,
+      "comments": 96,
+      "relative_status": "strong_sample_reference",
+      "comparison_n": 9,
+      "age_days": 83.9969,
+      "evidence_access": "Saved derived semantic assessment reread; original post text and source media not reacquired.",
+      "interpretation_status": "Prior interpretation, not independently recertified source truth."
+    },
+    {
+      "post_id": "urn:li:activity:7518729877647343618",
+      "url": "https://www.linkedin.com/posts/josh-braun_got-a-cold-call-rep-said-they-book-meetings-activity-7518729877647343618-dKXV",
+      "author_as_recorded": "Josh Braun",
+      "source_sha256": "f6904a3d53cd3e48ca8ff4bbca9ca4561f102e79dd518dd90db5424e1a067a69",
+      "text_sha256": "7f3a6d5dbbadac011e24352246f24381b6c4709ed8ec87ac99018049e1b6f423",
+      "published_at": "2026-10-21T17:48:14.076Z",
+      "metric_captured_at": "2026-10-22T14:41:47.689935+00:00",
+      "reactions": 78,
+      "comments": 16,
+      "relative_status": "strong_sample_reference",
+      "comparison_n": 8,
+      "age_days": 0.8705,
+      "evidence_access": "Saved derived semantic assessment reread; original post text and source media not reacquired.",
+      "interpretation_status": "Prior interpretation, not independently recertified source truth."
+    },
+    {
+      "post_id": "urn:li:activity:7518847793139134464",
+      "url": "https://www.linkedin.com/posts/josh-braun_someone-analyzed-my-last-50-linkedin-posts-activity-7518847793139134464-re1b",
+      "author_as_recorded": "Josh Braun",
+      "source_sha256": "9905765626395699e788d0b3593f75057e9e5a564dde2ebe2ed1416ef31f4360",
+      "text_sha256": "1e65d374f2b3fec756864e2539a6043764eaf82dc701230c1c3819953e1c67b5",
+      "published_at": "2026-10-22T01:36:47.320Z",
+      "metric_captured_at": "2026-10-22T14:41:07.085275+00:00",
+      "reactions": 64,
+      "comments": 27,
+      "relative_status": "strong_sample_reference",
+      "comparison_n": 8,
+      "age_days": 0.5447,
+      "evidence_access": "Saved derived semantic assessment reread; original post text and source media not reacquired.",
+      "interpretation_status": "Prior interpretation, not independently recertified source truth."
+    },
+    {
+      "post_id": "urn:li:activity:7484351294439321600",
+      "url": "https://www.linkedin.com/posts/chrisorlob_most-sales-calls-are-lost-in-the-first-five-activity-7484351294439321600-x0bD",
+      "author_as_recorded": "Chris Orlob",
+      "source_sha256": "9313ff5b45ad17e722813bd241b08aa623bba30a67a8ce221158336aff7e442d",
+      "text_sha256": "615077b5983f09c4e0078c9ad872b7726c7ab5ea8372382734ad65313ce38598",
+      "published_at": "2026-07-18T21:00:01.098Z",
+      "metric_captured_at": "2026-10-22T10:09:24.016186+00:00",
+      "reactions": 58,
+      "comments": 8,
+      "relative_status": "strong_sample_reference",
+      "comparison_n": 9,
+      "age_days": 95.5482,
+      "evidence_access": "Saved derived semantic assessment reread; original post text and source media not reacquired.",
+      "interpretation_status": "Prior interpretation, not independently recertified source truth."
+    },
+    {
+      "post_id": "urn:li:activity:7503966729509883904",
+      "url": "https://www.linkedin.com/posts/alex-lieberman_just-had-lunch-with-a-strategy-exec-at-a-activity-7503966729509883904-LPRA",
+      "author_as_recorded": "Alex Lieberman",
+      "source_sha256": "bd30a0f552a02ec00e787521a9bc88531c560ada6dd00dfce8473e57bbebaf85",
+      "text_sha256": "3c94d5c8c4985bcf9cee5e480e5edfae0acce1e7048b388ea2256c619e887656",
+      "published_at": "2026-09-11T00:04:45.256Z",
+      "metric_captured_at": "2026-10-22T10:08:45.727718+00:00",
+      "reactions": 267,
+      "comments": 80,
+      "relative_status": "strong_sample_reference",
+      "comparison_n": 9,
+      "age_days": 41.4194,
+      "evidence_access": "Saved derived semantic assessment reread; original post text and source media not reacquired.",
+      "interpretation_status": "Prior interpretation, not independently recertified source truth."
+    },
+    {
+      "post_id": "urn:li:activity:7415601120288706560",
+      "url": "https://www.linkedin.com/posts/justinwelsh_ive-been-writing-online-for-6-years-and-activity-7415601120288706560-3qYE",
+      "author_as_recorded": "Justin Welsh",
+      "source_sha256": "916cc98f8b8989d02653ba4aeb6993afacbd9db95dab9b28508cfd2b157260af",
+      "text_sha256": "529a0cbf0539784355b98a675dbd3b3e66586f82b62ec15acf54716b4dc561b6",
+      "published_at": "2026-01-10T03:51:22.257Z",
+      "metric_captured_at": "2026-10-22T10:06:58.147012+00:00",
+      "reactions": 1904,
+      "comments": 608,
+      "relative_status": "ordinary_sample_reference",
+      "comparison_n": 8,
+      "age_days": 285.2608,
+      "evidence_access": "Saved derived semantic assessment reread; original post text and source media not reacquired.",
+      "interpretation_status": "Prior interpretation, not independently recertified source truth."
+    },
+    {
+      "post_id": "urn:li:activity:7484170100879609856",
+      "url": "https://www.linkedin.com/posts/chrisorlob_customers-buy-more-from-feeling-understood-activity-7484170100879609856-IxRB",
+      "author_as_recorded": "Chris Orlob",
+      "source_sha256": "112c1707c79869def50149a6526dc1ae01f37a83a8ee8965a52716d7d600d13f",
+      "text_sha256": "1c5f2c69ec0364f113ffb414217f3a607649ad94468cd24d03a1e0918e916ca3",
+      "published_at": "2026-07-18T09:00:01.184Z",
+      "metric_captured_at": "2026-10-22T10:09:26.748620+00:00",
+      "reactions": 25,
+      "comments": 4,
+      "relative_status": "ordinary_sample_reference",
+      "comparison_n": 9,
+      "age_days": 96.0482,
+      "evidence_access": "Saved derived semantic assessment reread; original post text and source media not reacquired.",
+      "interpretation_status": "Prior interpretation, not independently recertified source truth."
+    },
+    {
+      "post_id": "urn:li:activity:7497769456589537281",
+      "url": "https://www.linkedin.com/posts/alex-lieberman_agent-harness-harness-engineering-will-activity-7497769456589537281-sl3Y",
+      "author_as_recorded": "Alex Lieberman",
+      "source_sha256": "c75eb0334f2cdd62bc454c29ebfa4a41253d86dc55dd930eee28aee15aea342e",
+      "text_sha256": "ae3aaffa6b212598147bf2548f46f72050e9155d6b61f5c96e98bd2fd4a48aeb",
+      "published_at": "2026-08-24T21:39:00.254Z",
+      "metric_captured_at": "2026-10-22T10:08:48.374606+00:00",
+      "reactions": 67,
+      "comments": 25,
+      "relative_status": "ordinary_sample_reference",
+      "comparison_n": 9,
+      "age_days": 58.5207,
+      "evidence_access": "Saved derived semantic assessment reread; original post text and source media not reacquired.",
+      "interpretation_status": "Prior interpretation, not independently recertified source truth."
+    },
+    {
+      "post_id": "urn:li:activity:7518720533476245504",
+      "url": "https://www.linkedin.com/posts/josh-braun_this-skill-is-a-sales-superpower-had-my-activity-7518720533476245504-6yRX",
+      "author_as_recorded": "Josh Braun",
+      "source_sha256": "c095e0920734327134ef5edc138ab330bf10488e24df3ccd412e546748b5ba12",
+      "text_sha256": "5442daca0a6619441ec6021ef6521cefd08c0c2a76577dcba1ba87d4bebe0baf",
+      "published_at": "2026-10-21T17:11:06.251Z",
+      "metric_captured_at": "2026-10-22T14:41:47.690086+00:00",
+      "reactions": 12,
+      "comments": 5,
+      "relative_status": "ordinary_sample_reference",
+      "comparison_n": 8,
+      "age_days": 0.8963,
+      "evidence_access": "Saved derived semantic assessment reread; original post text and source media not reacquired.",
+      "interpretation_status": "Prior interpretation, not independently recertified source truth."
+    },
+    {
+      "post_id": "urn:li:activity:7422666982032056322",
+      "url": "https://www.linkedin.com/posts/aprildunford_you-dont-want-to-start-any-positioning-work-activity-7422666982032056322-QbQr",
+      "author_as_recorded": "April Dunford",
+      "source_sha256": "ab6971cae5d37bb07cf547685b55f7fd8d0f378a02c137314a0de71d00532a0c",
+      "text_sha256": "74f73197a39bf47fc316c0558ba1a64d31d17171d24d93e1741405a14f658cff",
+      "published_at": "2026-01-29T15:48:34.980Z",
+      "metric_captured_at": "2026-10-22T10:06:21.422643+00:00",
+      "reactions": 661,
+      "comments": 115,
+      "relative_status": "insufficient_comparable_sample",
+      "comparison_n": 4,
+      "age_days": 265.7623,
+      "evidence_access": "Saved derived semantic assessment reread; original post text and source media not reacquired.",
+      "interpretation_status": "Prior interpretation, not independently recertified source truth."
+    },
+    {
+      "post_id": "urn:li:activity:7242555636188676097",
+      "url": "https://www.linkedin.com/posts/aprildunford_one-of-the-most-common-questions-i-get-is-activity-7242555636188676097-b937",
+      "author_as_recorded": "April Dunford",
+      "source_sha256": "5e66b2144117722bdf62decd5046f45b5517f9b00012f41fabee631053407af6",
+      "text_sha256": "e1878d1396ce90571e30855f1e3e394e7058d4a867ae31823892949ce73e3a7e",
+      "published_at": "2024-09-19T15:30:23.815Z",
+      "metric_captured_at": "2026-10-22T10:06:11.400031+00:00",
+      "reactions": 1139,
+      "comments": 121,
+      "relative_status": "insufficient_comparable_sample",
+      "comparison_n": 5,
+      "age_days": 762.7749,
+      "evidence_access": "Saved derived semantic assessment reread; original post text and source media not reacquired.",
+      "interpretation_status": "Prior interpretation, not independently recertified source truth."
+    },
+    {
+      "post_id": "urn:li:activity:7259580222310645760",
+      "url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+      "author_as_recorded": "Anthony Pierri",
+      "source_sha256": "b34bea346b2bcb36d791e41a9b1575fae5d1b01563dae04beecb9b9129d40ea1",
+      "text_sha256": "a0ccdcdf00eea96805df1db321e82f9b4e477ea7a7e9a9b92f528355fe645137",
+      "published_at": "2024-11-05T15:00:01.450Z",
+      "metric_captured_at": "2026-10-22T10:05:43.554254+00:00",
+      "reactions": 504,
+      "comments": 70,
+      "relative_status": "insufficient_comparable_sample",
+      "comparison_n": 7,
+      "age_days": 715.7956,
+      "evidence_access": "Saved derived semantic assessment reread; original post text and source media not reacquired.",
+      "interpretation_status": "Prior interpretation, not independently recertified source truth."
+    },
+    {
+      "post_id": "urn:li:activity:7284585014342643712",
+      "url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-b2b-activity-7284585014342643712-KBvq",
+      "author_as_recorded": "Anthony Pierri",
+      "source_sha256": "c24a66e48bf6c1c899513a479f1eb436c726cb38a68cdc2805ff923c1418091e",
+      "text_sha256": "b85c6e1619493be635a9e7ce50922ed2d307108ef4c00a57a87fa7255450433d",
+      "published_at": "2025-01-13T15:00:08.436Z",
+      "metric_captured_at": "2026-10-22T10:05:38.188896+00:00",
+      "reactions": 785,
+      "comments": 102,
+      "relative_status": "insufficient_comparable_sample",
+      "comparison_n": 7,
+      "age_days": 646.7955,
+      "evidence_access": "Saved derived semantic assessment reread; original post text and source media not reacquired.",
+      "interpretation_status": "Prior interpretation, not independently recertified source truth."
+    },
+    {
+      "post_id": "urn:li:activity:7467168126963732480",
+      "url": "https://www.linkedin.com/posts/davegerhardt_so-dave-what-do-you-do-for-work-i-worked-activity-7467168126963732480-buHo",
+      "author_as_recorded": "Dave Gerhardt",
+      "source_sha256": "3bfd887c57d2bbec046f9298c77f45e8b0f18730f52f54b600e9f4f3a81cad3b",
+      "text_sha256": "e587b85cdcfb77c8e9c4d0fadd78c5c017de2c90e881394c5eac1814b8017348",
+      "published_at": "2026-06-01T11:00:14.725Z",
+      "metric_captured_at": "2026-10-22T10:06:47.750873+00:00",
+      "reactions": 162,
+      "comments": 57,
+      "relative_status": "insufficient_comparable_sample",
+      "comparison_n": 4,
+      "age_days": 142.9629,
+      "evidence_access": "Saved derived semantic assessment reread; original post text and source media not reacquired.",
+      "interpretation_status": "Prior interpretation, not independently recertified source truth."
+    }
+  ],
+  "checks": [
+    {
+      "check": "Source dataset exact pinned Git blob",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All JSON sources parsed with duplicate-key rejection",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Declared and enumerated corpus counts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Complete unique post identities join report",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Report metric values agree with each dataset row",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Every source row retains identity, dates, source/text hashes and caveats",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All current report metrics captured on 22 October",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Metric missingness and medians recompute",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Missing counters never relabelled zero",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Availability remains missing: impressions",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Availability remains missing: reach",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Availability remains missing: views",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Availability remains missing: clicks",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Availability remains missing: saves",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "No causal or sales effect supplied",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All category identities/counts match report: format",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All category descriptive statistics match report: format",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All category identities/counts match report: topic",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All category descriptive statistics match report: topic",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All category identities/counts match report: editorial_job",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All category descriptive statistics match report: editorial_job",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All category identities/counts match report: author_type",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All category descriptive statistics match report: author_type",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All fixed-midnight age categories recompute",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All eleven fixed-midnight age-format strata recompute",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All eleven within-author image/text contrasts recompute",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Contrast directions are mixed",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Relative cohort denominator/median: /in/alex-lieberman|text_or_external_link|up_to_90d|English",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Relative cohort denominator/median: /in/chrisorlob|text_or_external_link|up_to_180d|English",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Relative cohort denominator/median: /in/josh-braun|text_or_external_link|up_to_7d|English",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Relative cohort denominator/median: /in/justinwelsh|image|over_180d|English",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Relative performance coverage exactly 34 from four cohorts",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Eight relative references from exactly four authors",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exactly 198 compatible at-least-six-hour windows",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "No orphan snapshot IDs",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Trend statuses remain nonviral descriptive states",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All messenger/experience/origin coding is explicitly absent",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "All 279 text completeness states remain unverified",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Purposive contrasts exactly 17 unique sources",
+      "status": "PASS",
+      "detail": null
+    }
+  ],
+  "status": "PASS",
+  "limits": [
+    "Statistics describe a selected historical corpus, not all LinkedIn.",
+    "Categories and content summaries are previous interpretations. No full original text, image, frame, video or audio was newly inspected in this analysis.",
+    "Neither comments nor reactions establish impressions, buyer intent, lead quality, revenue or causality.",
+    "The previously reaction-selected100fallback is not added to this279postcorpus."
+  ]
+}

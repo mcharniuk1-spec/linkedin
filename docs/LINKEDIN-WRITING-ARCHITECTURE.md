@@ -8,6 +8,7 @@ This is the current composition method for LinkedIn publications in this project
 
 The agency audience is Europe-based B2B AI SaaS founders, 10–50 people, Seed–Series B. A client publication must use that client's own reader, product, evidence and voice brief; it must not automatically inherit the agency audience. Preserve the approved positioning and CTA in [APPROVED-POSITIONING.json](APPROVED-POSITIONING.json).
 
+- [Tested skills and applied publication edition](../reports/20261110-skills-publications/README.md): current implementation, actual behavior coverage and revised caption/design exports.
 - [Pattern library](linkedin-writing/PATTERN-LIBRARY.md): fourteen publication types with different evidence burdens and sequences.
 - [Hooks, proof and endings](linkedin-writing/HOOKS-PROOF-ENDINGS.md): sentence and paragraph decisions, original examples and checks.
 - [Humor and interest](linkedin-writing/HUMOR-AND-INTEREST.md): optional techniques with credibility boundaries.
@@ -148,3 +149,4 @@ The current reference corpus has 279 posts and 61 accounts. It is distinct from 
 A draft structure is ready for author review when the reader job and pattern are explicit; the central claim has a matching evidence plan; each paragraph has a contribution; the reasoning connects evidence to conclusion; meaningful limits remain visible; the hook is fulfilled; the ending serves the job; and any first-person memory, joke, quote or product claim has the appropriate source and review status.
 
 The structure can be complete while a publishable post remains blocked by missing founder material. Record that state honestly. The present task delivers methodology and current-post skeleton updates for review. It makes no live publication, client-performance or audience-validation claim.
+

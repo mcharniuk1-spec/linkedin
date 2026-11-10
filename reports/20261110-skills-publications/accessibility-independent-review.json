@@ -1,0 +1,56 @@
+{
+  "schema": "outspoken-accessibility-independent-review/1",
+  "date": "2026-11-10",
+  "task": "OUTSP-51",
+  "disposition": "PASS_source_bound_accessibility_preparation",
+  "blocking_findings": [],
+  "resolved_findings": [
+    {
+      "file": "publications/20261110-skills-v2/build.js",
+      "line": 142,
+      "issue": "Content hash alone did not guard artwork-only changes",
+      "resolution": "Root added exact record count and all PNG/SVG existence/hash checks; reviewer readback confirmed."
+    }
+  ],
+  "coverage": {
+    "independent_conditions": 430,
+    "failures": 0,
+    "alt_records": 60,
+    "unique_messages_reviewed": 30,
+    "people_disclosures": 30,
+    "hypothetical_contexts": 10,
+    "exact_offer_CTA": 2,
+    "concept_transcripts": 10,
+    "HTML_and_MD_per_panel_scope_checks": 60,
+    "gallery_images": 60,
+    "gallery_concept_links": 10,
+    "max_alt_characters": 312,
+    "protected_PNG_unchanged": 60,
+    "protected_PDF_unchanged": 10,
+    "protected_SVG_unchanged": 60,
+    "delta_text_files_scanned": 8
+  },
+  "source_sha256": {
+    "build-accessibility.py": "4966c6cd1f4575d5c7e037dc2765736a4c1436a251718ca311a1616acfbcc3e2",
+    "build.js": "6f8f74fc988a7dec51df3197098d2569f095596bdbe2103fade5df6fa9580429",
+    "accessibility/README.md": "c8f78f5360b984107de133f526f1ef1790e8f64a81987acf745da377b040f459",
+    "accessibility/transcripts.md": "a53f6e1ef0931c75100fc72d9d072cbdd3be6cb62cbfcf4f30a6e3eb08709ffc",
+    "accessibility/transcripts.html": "9f67991a3bef221a85754bda4cafdbb5b19bfa9eeafab4ba5370325342fd6180",
+    "accessibility/verification.json": "e851efe3bfe5e99571d57f8e07d2fa8aecec1e50543b28d4c69ed96a99e9b4d8",
+    "accessibility/verify.py": "cfd754dc6960d576f865b9a33236c50d04eabb5021267f3242dc19a0a603a117",
+    "accessibility/alt-text.json": "00211be44ff7bc75590ffd58751757ec251a181c65906d7c1a9c05ab83044839"
+  },
+  "browser_evidence": "Root performed; not independently repeated by this reviewer",
+  "guidance_sources": [
+    "https://www.linkedin.com/help/linkedin/answer/a519856/adding-alternative-text-to-images-for-accessibility?lang=en",
+    "https://www.w3.org/WAI/tutorials/images/complex/"
+  ],
+  "limits": [
+    "No WCAG conformance claim",
+    "No tagged-PDF audit",
+    "No screen-reader test",
+    "No native LinkedIn preview",
+    "No physical-device validation",
+    "No live Git or Plane review/write"
+  ]
+}

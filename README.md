@@ -1,3 +1,7 @@
+## Tested writing skills and revised publications — 10 November 2026
+
+[Current ten-publication gallery](publications/20261110-skills-v2/assets/index.html) · [Skills, behavioral tests and evidence review](reports/20261110-skills-publications/README.md). Two owned writing skills are created, scanned and explicitly exercised. The revised R13-style package contains 60 PNGs, ten five-page PDFs, 60 editable SVGs and ten captions for founder review. Reactions remain distinct from reach and sales. Prior releases are preserved; no social publication or collector restart occurred.
+
 ## LinkedIn writing methodology — 10 November 2026
 
 [Writing architecture v2](docs/LINKEDIN-WRITING-ARCHITECTURE.md) now defines fourteen publication patterns, hook-to-payoff design, claim-level evidence and reasoning, paragraph roles, endings and optional humor. [Reusable templates](docs/linkedin-writing/templates/README.md) and an [agent workflow](docs/linkedin-writing/AGENT-ROUTING.md) make the method actionable.
@@ -69,3 +73,8 @@ This repository does not activate login/cookie import, paid providers, outreach,
 ## Rights and provenance
 
 Owned methods/code and independently generated synthetic fixtures are exported with source/provenance notes. Third-party dependencies retain their own licenses. No blanket rights are claimed over source posts, media, brands, fonts or proprietary candidate tools. See [research provenance](research/SOURCE-PROVENANCE.json), [public export provenance](datasets/current/provenance.json) and the current gaps.
+
+
+## Publication and outreach text handoff
+
+The [current publication package](publications/20261110-skills-v2/README.md) includes sixty asset-specific image descriptions and all ten concept transcripts. The [outreach preparation kit](outreach/20261110-preparation/README.md) supplies empty source/fit/conversation records, individualized message and interview/audit templates, and one labelled synthetic example. No source record is promoted to buying interest and no message is sent by these tools.

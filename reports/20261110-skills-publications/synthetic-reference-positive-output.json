@@ -1,0 +1,264 @@
+{
+  "id": "E12",
+  "skill_used": "linkedin-reference-pattern-review",
+  "case_type": "synthetic_reference_analysis_and_original_illustrative_transfer",
+  "scope_reconciliation": {
+    "inclusion_rule": "Only the two IDs explicitly listed in expected_source_ids; complete supplied synthetic text records, without media or external acquisition.",
+    "expected_source_ids": [
+      "synthetic:reference:A",
+      "synthetic:reference:B"
+    ],
+    "supplied_source_ids": [
+      "synthetic:reference:A",
+      "synthetic:reference:B"
+    ],
+    "reviewed_source_ids": [
+      "synthetic:reference:A",
+      "synthetic:reference:B"
+    ],
+    "expected_records": 2,
+    "supplied_records": 2,
+    "fully_read_text_records": 2,
+    "missing_source_ids": [],
+    "extra_source_ids": [],
+    "duplicate_source_ids": [],
+    "excluded_source_ids": [],
+    "unreadable_source_ids": [],
+    "media_reviewed": 0,
+    "media_not_supplied_records": 2,
+    "counter_coverage": {
+      "reactions": "2 of 2 synthetic records",
+      "comments": "2 of 2 synthetic records",
+      "reposts": "not supplied for either record"
+    },
+    "population_boundary": "This is a two-record synthetic test set. It is not a real reference-account cohort, commercial competitor sample or prospect dataset."
+  },
+  "rows": [
+    {
+      "source_id": "synthetic:reference:A",
+      "author": "Example Founder A",
+      "locator": "https://example.com/synthetic-reference-a",
+      "published_at": "2026-10-01T09:00:00Z",
+      "captured_at": "2026-10-02T09:00:00Z",
+      "text_sha256": "4cc67c739a4eaf944a8147c1d4444b504ee2d1e7a3a7329a9eafbcd20498ddbc",
+      "calculated_text_sha256": "4cc67c739a4eaf944a8147c1d4444b504ee2d1e7a3a7329a9eafbcd20498ddbc",
+      "text_hash_matches": true,
+      "rights_state_as_supplied": "owned_synthetic_test_text",
+      "media_status": "not_supplied",
+      "evidence_tier": "complete_synthetic_original_text_supplied",
+      "actual_review_modality": "Read the complete four-paragraph synthetic original text supplied in the test JSON; no URL access, image, video, transcript or audio review.",
+      "reader_situation_and_job": "A professional defining an AI-assisted review workflow needs to decide which judgment remains with a human reviewer before the next action.",
+      "hook_and_payoff": {
+        "opening_exact": "A request can look complete and still need a human decision.",
+        "promise": "Explain the difference between apparent completeness and a decision that still requires human responsibility.",
+        "delivered_payoff": "Paragraph 2 names a fictional flag-proposal step followed by reviewer checking; paragraph 4 directs the reader to identify the retained decision.",
+        "support_units": [
+          "synthetic:reference:A:p1",
+          "synthetic:reference:A:p2",
+          "synthetic:reference:A:p4"
+        ]
+      },
+      "central_claim": "In the illustrated workflow, making the review step visible does not establish the error rate or time saved.",
+      "argument_progression": [
+        {
+          "unit": "synthetic:reference:A:p1",
+          "function": "Introduces a distinction between a complete-looking request and a remaining human decision."
+        },
+        {
+          "unit": "synthetic:reference:A:p2",
+          "function": "Supplies an explicitly fictional mechanism: rule-based proposed flags, then reviewer checking before further action."
+        },
+        {
+          "unit": "synthetic:reference:A:p3",
+          "function": "Names what the example explains and explicitly withholds two unmeasured outcomes: error rate and time saved."
+        },
+        {
+          "unit": "synthetic:reference:A:p4",
+          "function": "Converts the distinction into a practical task: specify the reviewer decision."
+        }
+      ],
+      "evidence_reasoning_limit": {
+        "evidence": "An explicitly fictional workflow in paragraph 2; no real implementation or measured case is presented.",
+        "reasoning": "Separating proposed flags from reviewer checking identifies a decision boundary and supports the practical instruction to name it.",
+        "limit": "The example can illustrate a workflow function. It cannot establish reliable flagging, error reduction, time savings, a founder event or a customer result.",
+        "support_units": [
+          "synthetic:reference:A:p2",
+          "synthetic:reference:A:p3"
+        ]
+      },
+      "ending": {
+        "function": "Direct application, asking the reader to name the retained reviewer decision.",
+        "support_unit": "synthetic:reference:A:p4",
+        "engagement_or_offer": "No engagement request, service promise or offer appears."
+      },
+      "visual_role": "not_observable: media not supplied; text analysis does not imply the post had no media.",
+      "synthetic_counters": {
+        "reactions": 31,
+        "comments": 4,
+        "reposts": null,
+        "interpretation": "Values supplied by the synthetic fixture at its stated capture time; not evidence of real-world interactions or effectiveness."
+      },
+      "bounded_lesson": "Use an illustrative mechanism to make responsibility concrete, then state exactly which outcomes remain unmeasured.",
+      "applicability": "Adapt this function when a reader needs to assign responsibility in a proposed review workflow. Confirm any real capability separately.",
+      "gaps": [
+        "No media supplied",
+        "No real outcome measurements",
+        "No audience, impressions, reach, paid exposure, buyer fit or expressed need evidence",
+        "Only one supplied observation per synthetic record; no measured velocity"
+      ]
+    },
+    {
+      "source_id": "synthetic:reference:B",
+      "author": "Example Founder B",
+      "locator": "https://example.com/synthetic-reference-b",
+      "published_at": "2026-10-01T09:00:00Z",
+      "captured_at": "2026-10-02T09:00:00Z",
+      "text_sha256": "6022ee80eb0f1022fa76187956f3bd7e27211002eb4dcf9e778b343663d99213",
+      "calculated_text_sha256": "6022ee80eb0f1022fa76187956f3bd7e27211002eb4dcf9e778b343663d99213",
+      "text_hash_matches": true,
+      "rights_state_as_supplied": "owned_synthetic_test_text",
+      "media_status": "not_supplied",
+      "evidence_tier": "complete_synthetic_original_text_supplied",
+      "actual_review_modality": "Read the complete four-paragraph synthetic original text supplied in the test JSON; no URL access, image, video, transcript or audio review.",
+      "reader_situation_and_job": "A professional deciding whether to rely on an AI-generated summary needs a short review routine for its sources, quoted figures and unresolved points.",
+      "hook_and_payoff": {
+        "opening_exact": "Here are three checks before using an AI-generated summary.",
+        "promise": "Provide exactly three checks for reviewing a summary before use.",
+        "delivered_payoff": "Paragraph 2 supplies all three: identify the source, verify the quoted figures and retain unresolved points.",
+        "enumerated_checks": [
+          "Name the source.",
+          "Check the quoted figures.",
+          "Keep unresolved points visible."
+        ],
+        "count_check": "Promised 3; delivered 3; no missing or extra check.",
+        "support_units": [
+          "synthetic:reference:B:p1",
+          "synthetic:reference:B:p2"
+        ]
+      },
+      "central_claim": "A polished paragraph does not itself establish that its source has been checked.",
+      "argument_progression": [
+        {
+          "unit": "synthetic:reference:B:p1",
+          "function": "Promises a bounded three-check routine."
+        },
+        {
+          "unit": "synthetic:reference:B:p2",
+          "function": "Delivers the three concrete review actions."
+        },
+        {
+          "unit": "synthetic:reference:B:p3",
+          "function": "Explains the distinction behind the checklist: presentation quality does not substitute for source verification."
+        },
+        {
+          "unit": "synthetic:reference:B:p4",
+          "function": "Invites the reader to identify which part they review manually."
+        }
+      ],
+      "evidence_reasoning_limit": {
+        "evidence": "A proposed three-action checklist and a conceptual distinction; no study, measured example or customer case is supplied.",
+        "reasoning": "The three actions inspect provenance, numerical fidelity and unresolved uncertainty. These functions bear on review more directly than prose polish alone.",
+        "limit": "The text does not demonstrate that the routine catches every error, produces accurate summaries or improves engagement. Any replies would be self-selected, not representative demand evidence.",
+        "support_units": [
+          "synthetic:reference:B:p2",
+          "synthetic:reference:B:p3",
+          "synthetic:reference:B:p4"
+        ]
+      },
+      "ending": {
+        "function": "A relevant open question about the reader's current manual review, tied to the checklist.",
+        "support_unit": "synthetic:reference:B:p4",
+        "engagement_or_offer": "Discussion invitation; no service offer or guaranteed outcome."
+      },
+      "visual_role": "not_observable: media not supplied; no visual explanation or layout was inspected.",
+      "synthetic_counters": {
+        "reactions": 12,
+        "comments": 2,
+        "reposts": null,
+        "interpretation": "Values supplied by the synthetic fixture at its stated capture time; not evidence of real-world interactions or effectiveness."
+      },
+      "bounded_lesson": "Match a numbered promise to an inspectable set of actions and explain the distinction that makes those actions relevant.",
+      "applicability": "Adapt the checklist function when the reader needs an executable review routine. A closing question is useful only when the author actually wants that discussion.",
+      "gaps": [
+        "No media supplied",
+        "No measured checklist outcomes",
+        "No actual replies or audience research supplied",
+        "No impressions, reach, paid exposure, buyer relevance or conversion evidence",
+        "No repeat observations for velocity"
+      ]
+    }
+  ],
+  "comparison_synthesis": "Both synthetic texts deliver a bounded reader task. A explains a fictional workflow and makes its unmeasured outcomes explicit; B delivers an exact three-check promise, explains why polish is insufficient and ends with a relevant discussion question. These are observable editorial functions. The fixture gives A 31 reactions and 4 comments, and B 12 reactions and 2 comments, at matching supplied publication and capture timestamps. Those invented counts establish no real-world standout, causal mechanism or performance rule. A has no measured workflow evidence; B has no measured checklist evidence. No contrary original beyond these two records was supplied.",
+  "bounded_transfer": {
+    "status": "proposed_original_synthetic_illustration_for_author_review",
+    "intended_reader_and_job": "A project lead setting the approval route for an AI-drafted client update, especially when dates conflict.",
+    "source_links": [
+      {
+        "source_id": "synthetic:reference:A",
+        "actual_evidence_tier": "complete_synthetic_original_text_supplied",
+        "observed_function": "Fictional workflow makes a reviewer responsibility visible, then limits the outcome claim.",
+        "candidate_explanation": "A named decision owner and an explicit limit may help a reader understand what a proposed workflow does and what remains unknown.",
+        "alternative": "The usefulness may depend on the reader's existing workflow knowledge; this text supplies no comprehension or outcome measurement.",
+        "original_structure_change": "Give a fictional project owner responsibility for resolving conflicting dates and state that error/time outcomes remain unmeasured.",
+        "support_units": [
+          "synthetic:reference:A:p2",
+          "synthetic:reference:A:p3",
+          "synthetic:reference:A:p4"
+        ],
+        "decision": "adapt as an editorial hypothesis"
+      },
+      {
+        "source_id": "synthetic:reference:B",
+        "actual_evidence_tier": "complete_synthetic_original_text_supplied",
+        "observed_function": "A bounded promise is fulfilled by distinct review actions, with a reason for checking underlying material.",
+        "candidate_explanation": "Concrete actions may make the proposed review route easier to apply than a broad instruction to check the draft.",
+        "alternative": "A routine may still be incomplete or unsuitable for a particular project; no effectiveness test was supplied.",
+        "original_structure_change": "Use three actions specific to the new illustrative situation: compare the draft date with the project record, identify conflicts and route them to the project owner.",
+        "support_units": [
+          "synthetic:reference:B:p1",
+          "synthetic:reference:B:p2",
+          "synthetic:reference:B:p3"
+        ],
+        "decision": "adapt the function; do not copy the original wording or add a mandatory closing question"
+      }
+    ],
+    "new_professional_post": "Before an AI-drafted project update is approved, give one person responsibility for unresolved dates.\n\nIllustrative workflow: the draft reports a delivery date. The reviewer compares it with the project record, identifies any conflicting date and routes the conflict to the project owner.\n\nThis describes a review route. It gives no measured error rate or time saving.\n\nAdd the owner and escalation rule to the review instructions.",
+    "source_to_output_lineage": [
+      {
+        "output_units": [
+          "opening",
+          "workflow example",
+          "limit",
+          "ending"
+        ],
+        "source_ids": [
+          "synthetic:reference:A"
+        ],
+        "transferred_function": "Responsibility boundary, explicit illustration, bounded outcome claim and practical application."
+      },
+      {
+        "output_units": [
+          "workflow example"
+        ],
+        "source_ids": [
+          "synthetic:reference:B"
+        ],
+        "transferred_function": "Distinct source-checking and uncertainty-handling actions; project-date details are newly invented and explicitly illustrative."
+      }
+    ],
+    "required_facts_and_rights": "The input declares both originals owned_synthetic_test_text. The new date-conflict scenario is explicitly illustrative, uses no customer identity and asserts no actual product capability. Replacing it with a real project would require source support and permission for the actual details.",
+    "unverified": [
+      "Whether this is the author's chosen stance and reader job",
+      "Whether the proposed route fits a real team's responsibility and escalation policy",
+      "Comprehension, error rate, time savings, reach, trust, demand and sales outcomes",
+      "Any media or rendered design"
+    ],
+    "disposition": "Original illustrative draft ready for author review within the synthetic exercise; no publication or account action authorized."
+  },
+  "limitations": [
+    "Synthetic originals and synthetic counters only; no real people, measured outcomes or live-platform observations.",
+    "No browsing, media review, additional source acquisition or account action.",
+    "Both records were supplied explicitly; this does not establish automated skill discovery or installation readiness.",
+    "The installed skill metadata states version 1.0.0; no exact serving-model identity was exposed."
+  ]
+}

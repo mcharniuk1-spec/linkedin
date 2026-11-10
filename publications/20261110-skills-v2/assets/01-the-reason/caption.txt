@@ -1,0 +1,11 @@
+A feature list tells a buyer what exists. A decision can explain why it exists that way.
+
+Which problem did the team choose to solve first? What did it rule out? Where did it keep a person in the loop?
+
+Those details reveal priorities and trade-offs. They give a reader something more useful to assess than a list of capabilities.
+
+That is the starting point of the content workflow we are proposing at Outspoken: recover a real decision, connect it to a buyer question, check the facts, then write an original account of the reasoning.
+
+The immediate aim is clearer communication. Whether that earns attention, qualified conversations or sales is something to observe separately.
+
+Start the brief with the decision a buyer needs to understand.

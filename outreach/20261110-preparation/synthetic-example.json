@@ -1,0 +1,126 @@
+{
+  "schema": "outspoken-outreach-worked-example/1",
+  "record_mode": "synthetic",
+  "record_id": "SYN-EXAMPLE-01",
+  "provenance": {
+    "owner": "Outspoken project",
+    "source_type": "owned_synthetic_example",
+    "rights_state": "owned",
+    "created_on": "2026-11-10",
+    "use_limit": "Explicitly fictional example. Not a real company, relationship, conversation, product test or outreach event."
+  },
+  "source_records": [
+    {
+      "source_id": "SYN-01",
+      "url": "https://example.invalid/product",
+      "checked_at": "2026-11-10",
+      "observation": "The fictional product note describes a system proposing request flags against a stated rule, followed by a human review before a next action.",
+      "evidence_status": "synthetic",
+      "rights_state": "owned_synthetic_example",
+      "permission_state": "synthetic_only"
+    }
+  ],
+  "permissions": {
+    "source_use": "synthetic_only",
+    "relationship_context_use": "not_applicable",
+    "third_party_name_use": "not_applicable",
+    "channel_and_legal_review": "pending"
+  },
+  "stop": {
+    "recipient_declined": "unchecked",
+    "asked_to_stop": "unchecked",
+    "wrong_recipient": "unchecked",
+    "permission_unresolved": "unchecked",
+    "source_uncertain": "unchecked",
+    "prior_reply_needs_review": "unchecked",
+    "status": "unchecked",
+    "reason": "No real recipient, contact history, channel or permission has been checked. This fictional example remains preparation only."
+  },
+  "send_authorization": "not_authorized",
+  "review_state": "pending_founder_review",
+  "fit_record": {
+    "company_name": "Example Workflow (fictional)",
+    "company_url": "https://example.invalid/",
+    "recipient_role": "Founder role, not a named person",
+    "firmographic_fit_state": "hypothesis",
+    "topic_fit_state": "hypothesis",
+    "expressed_need_state": "not_established",
+    "buying_interest_state": "not_established",
+    "basis": "The fictional source concerns an AI-assisted request-review workflow. Geography, headcount, stage and actual willingness to buy remain unknown.",
+    "exclusions_or_unknowns": [
+      "No real company identity or firmographics verified",
+      "No expressed need, budget or interest",
+      "No real sender/recipient permission or sending authority"
+    ]
+  },
+  "warm_context": {
+    "relationship_state": "not_established",
+    "shared_context": "No relationship or connector is supplied. Do not describe this as a warm introduction.",
+    "intro_disposition": "hold; use a warm route only after actual context and permissions exist"
+  },
+  "first_message": {
+    "opening": "Your product note describes request flags followed by a human review.",
+    "body": "The decision behind that review boundary could be a useful founder-post topic. We are developing Outspoken’s LinkedIn writing service around real product decisions and founder fact checks.",
+    "closing_question_or_next_step": "Is explaining that decision a current priority?",
+    "claims": [
+      {
+        "text": "Your product note describes request flags followed by a human review.",
+        "kind": "public_observation",
+        "support_state": "synthetic",
+        "source_ids": [
+          "SYN-01"
+        ]
+      },
+      {
+        "text": "We are developing Outspoken’s LinkedIn writing service around real product decisions and founder fact checks.",
+        "kind": "proposed_service",
+        "support_state": "proposed",
+        "source_ids": []
+      }
+    ],
+    "disposition": "A fictional preparation example only. The question does not establish a real need."
+  },
+  "follow_up": {
+    "first_message_actually_sent": false,
+    "follow_ups_actually_sent": 0,
+    "follow_up_limit": 1,
+    "manual_eligibility": "hold_first_message_not_sent",
+    "draft": "One follow-up on the review-boundary idea. If it is relevant, would an outline of the decision behind that review step be useful? If it is not a priority, no reply is needed; I will leave it here.",
+    "decline_acknowledgment_draft": "Thanks for the clear answer. I will not follow up.",
+    "decline_action": "Mark stop, retain the minimum stop record, and do not switch channels or contact another account to evade it."
+  },
+  "discovery_example": {
+    "question": "Which decision does the reviewer retain in the workflow?",
+    "answer": "Not supplied; ask the founder rather than invent an implementation.",
+    "scope_question": "Which factual and voice review would the founder approve?",
+    "next_step_state": "not_agreed",
+    "budget_state": "not_established",
+    "note_permission": "pending"
+  },
+  "mini_audit_example": {
+    "surface": "SYN-01 fictional product note only",
+    "observation": "The note names flag proposal and a human review, but does not identify the exact retained decision.",
+    "interpretation": "A reader may need that decision boundary to assess the proposed workflow. This is an editorial hypothesis.",
+    "proposed_change": "If accurate, name the reviewer’s actual decision and one operating limit. Confirm both with the technical owner before writing a factual post.",
+    "source_ids": [
+      "SYN-01"
+    ],
+    "unreviewed": [
+      "Profile, posts, product operation, outcomes, audience and analytics"
+    ]
+  },
+  "conversation_log_example": {
+    "record_status": "not_started",
+    "stated_problem": "not_supplied",
+    "expressed_need_state": "not_established",
+    "buying_interest_state": "not_established",
+    "budget_state": "not_established",
+    "objection": "not_supplied",
+    "response_used": "not_sent",
+    "next_step_state": "not_agreed",
+    "counts_as_qualifying_conversation": "no",
+    "offer_yes": "not_established",
+    "learning_trigger_review": "not_applicable_no_real_conversation"
+  },
+  "claims": []
+}

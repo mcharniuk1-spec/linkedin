@@ -1,3 +1,7 @@
+# Writing skills and publication review — 10 November 2026
+
+[Current delivery](reports/20261110-skills-publications/README.md): two owned script-free writing skills, explicit synthetic behavioral tests, full saved-evidence reanalysis and ten revised publication concepts. The [rendered package](publications/20261110-skills-v2/README.md) retains R13 identity/art while improving type, disclosures, evidence and explanatory diagrams. All 60 PNGs and ten PDFs were rebuilt; source/visual checks and author approval are separate states. Max joined the project; ten requested owner assignments and the additive OUTSP-46 assignment now pass current readback. The additional preparation includes sixty image descriptions, ten text transcripts and a reusable outreach kit. Collectors and automations remain stopped. Earlier sections are dated checkpoints.
+
 # LinkedIn writing architecture — 10 November 2026
 
 [Method integration, skill specifications and verification supplement](reports/20261110-writing-methodology-followup/README.md) extends the current architecture under OUTSP-46. The 6 November owner stop of collectors and automations remains binding. This methodology work does not resume them; historical cadence sections below are dated source history.
@@ -32,3 +36,4 @@ Read each package's release manifest and QA. The current website build,155resear
 Uncleared reference/source assets, historical books/PDFs containing those pixels, private enquiry files, copied research post/transcript/media bytes and local operational records remain outside the public repository. The public preview's cleared substitutions are documented in the design source map. Local originals and earlier releases remain preserved.
 
 Research retains its source/audio/date/coverage gaps. Editorial retains author, attribution and capability review items. Historical22October state: no recurring collection was scheduled then. The31October update above is current; outreach, advertising and social publication remain unactivated. A passing technical check does not establish artistic acceptance, verified customer proof or sales performance.
+

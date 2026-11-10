@@ -1,0 +1,1730 @@
+{
+  "schema": "outspoken-publication-release/2",
+  "date": "2026-11-10",
+  "status": "source_snapshot_verified",
+  "publication_authority": "owner_requested_current_source_git_sync",
+  "owner_accepted": false,
+  "social_published": false,
+  "content_sha256": "4bd1ff7edeb4b750df3c4ba3bf4a0f5104184d6821b7b0f5a58a7deda3b46ce0",
+  "files": [
+    {
+      "path": "assets/01-the-reason/caption.txt",
+      "sha256": "998c3f996efd123681f9f928b958a54d705d1a0c57884379e74616094341960a",
+      "bytes": 745
+    },
+    {
+      "path": "assets/01-the-reason/graphic-01.png",
+      "sha256": "61c230e2d7414a73f18643c9defcca03112d1885f12bd87fb315d3d7a404a1d3",
+      "bytes": 250712
+    },
+    {
+      "path": "assets/01-the-reason/graphic-02.png",
+      "sha256": "73bb470c3dccb2f4c2785d9285c84055476b70f43061336ef35831070be93fad",
+      "bytes": 191464
+    },
+    {
+      "path": "assets/01-the-reason/graphic-03.png",
+      "sha256": "187bdab745d6eb52d146965ba8c39fe74307cb7c7471d49989a22b5398e3a56d",
+      "bytes": 200396
+    },
+    {
+      "path": "assets/01-the-reason/graphic-04.png",
+      "sha256": "eee8f3863ce1c44b03c25974c7e5db80c90ee1de8667baa8a811d72ebbb06f18",
+      "bytes": 217807
+    },
+    {
+      "path": "assets/01-the-reason/graphic-05.png",
+      "sha256": "a89243fdb32fe8351dd73f5e4b06405dbc2b38c73497cf8cabb979f7bd85f888",
+      "bytes": 240066
+    },
+    {
+      "path": "assets/01-the-reason/graphic-carousel.pdf",
+      "sha256": "bf7cd5504465a6348bbf733ea260db17e6069e0c68f249a0e59cd1b677ea205a",
+      "bytes": 851287
+    },
+    {
+      "path": "assets/01-the-reason/people-01.png",
+      "sha256": "f561f141c424d347f14244090a5db5f6b111824797c3a28ae40dfd31187d11e7",
+      "bytes": 647909
+    },
+    {
+      "path": "assets/01-the-reason/people-02.png",
+      "sha256": "439f2215db173af98d6605d27a37199f3e9f282da65597ac06fb969cd6ac7c49",
+      "bytes": 615945
+    },
+    {
+      "path": "assets/01-the-reason/people-03.png",
+      "sha256": "d17bf95c249c040291c90e26a9960689f3a334aef624cc28bf55b26376dd67d9",
+      "bytes": 626109
+    },
+    {
+      "path": "assets/01-the-reason/people-04.png",
+      "sha256": "1a5188f7d80c0d19316973f21b772b075bcbacc3d05895301724360a276bfbd8",
+      "bytes": 656230
+    },
+    {
+      "path": "assets/01-the-reason/people-05.png",
+      "sha256": "404e254348ba39f1e0ba3fb0e0c60b473a749ff28dafa8f93663012b0ab9347e",
+      "bytes": 670086
+    },
+    {
+      "path": "assets/01-the-reason/people-carousel.pdf",
+      "sha256": "f63ee6f3dbcf8cb6458581b41563c4edda6f9b8238b6f71b97ce5d516fb466a8",
+      "bytes": 1088262
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/caption.txt",
+      "sha256": "5dabb341ba3665fc8ff03fcab5f6d1f3fdc2dfe170fcb339d76e72cefecf2751",
+      "bytes": 804
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-01.png",
+      "sha256": "42f471839aa5472dbb57ac93a37bb6db029120908722d9a92f7d93a4fdf09b75",
+      "bytes": 220648
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-02.png",
+      "sha256": "42f7e2cb1d7061923e6d2df319aaee60fabc3746ab74a9677d8bea0a7dfa8193",
+      "bytes": 252458
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-03.png",
+      "sha256": "b4db604ec2abf3626f73fb9e9ea5c23b489c53e80ec3fa5b9c1315875739e48c",
+      "bytes": 262585
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-04.png",
+      "sha256": "bc92e309a2c103ebcf1a6e21fea7debf4cf2837b97c600abd7be4ce7b0f316ad",
+      "bytes": 201271
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-05.png",
+      "sha256": "fcc088436330f18537fb027f03f13cb214a44d9922dfc0cd24daae3ab0331a42",
+      "bytes": 259090
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-carousel.pdf",
+      "sha256": "a07adb97e303fabb2f1fd5595b0c4cca6741f0f89ea2c25f582e8b0902514a69",
+      "bytes": 867543
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-01.png",
+      "sha256": "17e40ba79b180c0b7368e689fb6acb412fa5c0439dfe84e4472085c78c7ae1ec",
+      "bytes": 599600
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-02.png",
+      "sha256": "cf706eaa15b4122028998a87a3934b3259afe807eb299d3a24939e08b1da466b",
+      "bytes": 660028
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-03.png",
+      "sha256": "7dbdc46dd6629191668c859ea9840c1eafca86d321cff6f56a61f1bad0dc3e1a",
+      "bytes": 655762
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-04.png",
+      "sha256": "5a1c8922c0f96d1a16db8eefa6bec64120058b3f01b1a380448e1208cefc5f0f",
+      "bytes": 653886
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-05.png",
+      "sha256": "5a7c03c7441459b33210787beba64937a701b62143695b94cccf100c74012446",
+      "bytes": 653205
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-carousel.pdf",
+      "sha256": "d402373062309bbba091653d6c5435dca747a13fc2bbce526a784b5707c9b90e",
+      "bytes": 1089906
+    },
+    {
+      "path": "assets/03-the-interview/caption.txt",
+      "sha256": "83d8cff6d662a17a88c4323a64a657472097d2579045078c9348f522cd303ad2",
+      "bytes": 741
+    },
+    {
+      "path": "assets/03-the-interview/graphic-01.png",
+      "sha256": "5f00f1a4cfa6605ca49e742865a1dd101da06e2f8bbd60010494077bffb92a41",
+      "bytes": 214742
+    },
+    {
+      "path": "assets/03-the-interview/graphic-02.png",
+      "sha256": "5d562a3f7822d2552deb3f8f693cf5ae92e8023fa4c5ba31541afa547765251a",
+      "bytes": 253134
+    },
+    {
+      "path": "assets/03-the-interview/graphic-03.png",
+      "sha256": "b114fc2c5ab1c90ca65400d4d4481891bf27a46bbd6a3bf5faf535bb695b6bd0",
+      "bytes": 245811
+    },
+    {
+      "path": "assets/03-the-interview/graphic-04.png",
+      "sha256": "3a36e85e9dfab6c9542ecd6ef773b270ab90e7b1baa0898e2163b88e514ff678",
+      "bytes": 210864
+    },
+    {
+      "path": "assets/03-the-interview/graphic-05.png",
+      "sha256": "20bac65abc9e75a58e9cb578c72af67ecadb0d467d339a3c1b20cc1a866c2a43",
+      "bytes": 238384
+    },
+    {
+      "path": "assets/03-the-interview/graphic-carousel.pdf",
+      "sha256": "a4a0959318a57235d205410c218ccfde416cf634e8bb53a20be5f2b2c85a48fa",
+      "bytes": 854099
+    },
+    {
+      "path": "assets/03-the-interview/people-01.png",
+      "sha256": "842da3c41adb952e7587640943bdc9ecbe852cb965e9dc564561967b389c7cdb",
+      "bytes": 626976
+    },
+    {
+      "path": "assets/03-the-interview/people-02.png",
+      "sha256": "fe6059fdafe19c624324a9c799af19f6bec01946185379acd215689075d6af3f",
+      "bytes": 635295
+    },
+    {
+      "path": "assets/03-the-interview/people-03.png",
+      "sha256": "f14a340585d1ed131ebc9616feb403f9e66e282d46a869df30f03c11fb32bad4",
+      "bytes": 648142
+    },
+    {
+      "path": "assets/03-the-interview/people-04.png",
+      "sha256": "5689eb2727cf9e0ea089008bb87880ddffa6e0c3cd23b9b28cc61002dbfa9abc",
+      "bytes": 664881
+    },
+    {
+      "path": "assets/03-the-interview/people-05.png",
+      "sha256": "68eeceb409a95b1f42b6e5422c0e957bb62c54677c059042b649c7273dffeab6",
+      "bytes": 660037
+    },
+    {
+      "path": "assets/03-the-interview/people-carousel.pdf",
+      "sha256": "d4b146cdcd0ccd832bddfb76c0563c66288ba159a8fee456337cc1ea293b9182",
+      "bytes": 1078994
+    },
+    {
+      "path": "assets/04-positioning/caption.txt",
+      "sha256": "3439719c646c8f589384fd32b1bdf05a9baefd20daeacbb5ea8e47560d52f0a1",
+      "bytes": 782
+    },
+    {
+      "path": "assets/04-positioning/graphic-01.png",
+      "sha256": "b10bb124d81cdfba9525acf6f38baa07c4fdb547430d147ca0b76ba3fe51ad2e",
+      "bytes": 192604
+    },
+    {
+      "path": "assets/04-positioning/graphic-02.png",
+      "sha256": "23896af7e70d9071e84beb2778e88c8305d08c39c2c07661f828f6c2c720a409",
+      "bytes": 213764
+    },
+    {
+      "path": "assets/04-positioning/graphic-03.png",
+      "sha256": "effed2b6ede747eead13430765e87bdb7f3bbbd674f9d637e93f9c6b56ca22d3",
+      "bytes": 197111
+    },
+    {
+      "path": "assets/04-positioning/graphic-04.png",
+      "sha256": "c660ec2dff7a5b07319afcab1d95c698e3fb184e42881c096d84812621e214dd",
+      "bytes": 241007
+    },
+    {
+      "path": "assets/04-positioning/graphic-05.png",
+      "sha256": "e4bcbd239bac7d8df6d57923a6500288e47b5ae82af79d17ac9343c16c5c4a1f",
+      "bytes": 213483
+    },
+    {
+      "path": "assets/04-positioning/graphic-carousel.pdf",
+      "sha256": "10bd7619080391f9a680ea5c693cc95773fb5e2c73d0636c10b7871844615445",
+      "bytes": 784895
+    },
+    {
+      "path": "assets/04-positioning/people-01.png",
+      "sha256": "f1de239b72c42830512ad941b72b3c7b1d5c09fe929d02e09a6fbbb44c8b78db",
+      "bytes": 631042
+    },
+    {
+      "path": "assets/04-positioning/people-02.png",
+      "sha256": "3b26f0981b2bc8e8d7326315d31736510d040a5db2174a33487df20e12b0cce4",
+      "bytes": 591582
+    },
+    {
+      "path": "assets/04-positioning/people-03.png",
+      "sha256": "c92078cc9578ba8c08dd64458e0c67208cbb67fc064a2d9c91a6be1e46fea32c",
+      "bytes": 637740
+    },
+    {
+      "path": "assets/04-positioning/people-04.png",
+      "sha256": "605c38db8d0a0a7a4b9552b21336cb783cca686aa7b8e6394b39f1179af02301",
+      "bytes": 634992
+    },
+    {
+      "path": "assets/04-positioning/people-05.png",
+      "sha256": "9ae208e77c10324d084ad82b798e8c552fcc72faca0554ac944396a13fe64e85",
+      "bytes": 623537
+    },
+    {
+      "path": "assets/04-positioning/people-carousel.pdf",
+      "sha256": "9343136fe346b2523d837037b49fbed1bffd9ab7d2216ad1e089b0cc31e488a2",
+      "bytes": 1013628
+    },
+    {
+      "path": "assets/05-proof/caption.txt",
+      "sha256": "2b934b3f06607db0a1639cb0a95a1ae732852a20219cb36a7d0c3ce0bf57a1a2",
+      "bytes": 835
+    },
+    {
+      "path": "assets/05-proof/graphic-01.png",
+      "sha256": "6b8e1e716f86bb7a8a1fe1998032020218ec8aaf9f87ab667ae9b6e3d73bd706",
+      "bytes": 234361
+    },
+    {
+      "path": "assets/05-proof/graphic-02.png",
+      "sha256": "ec8fb40d3027362f60a43010096d90d1dcfdde82d053b92f480a52bc52adac02",
+      "bytes": 193181
+    },
+    {
+      "path": "assets/05-proof/graphic-03.png",
+      "sha256": "1ae33f03db00d35732031a4025a8e1bdfa69bc84bbda28905a34c8fda38b719e",
+      "bytes": 224347
+    },
+    {
+      "path": "assets/05-proof/graphic-04.png",
+      "sha256": "9df7c519351f9022b9a94b41066b6b589cc5a9dd74af671f93cf0f2938a032f6",
+      "bytes": 257118
+    },
+    {
+      "path": "assets/05-proof/graphic-05.png",
+      "sha256": "d3c8ce962932347b531ebc72652eb587a032ca22223928588c43f89dd6a38e15",
+      "bytes": 241235
+    },
+    {
+      "path": "assets/05-proof/graphic-carousel.pdf",
+      "sha256": "c5c6bb2d4db238ae99d4dbcb18eb5022538b0bbc26f57de50831e626abeae254",
+      "bytes": 881846
+    },
+    {
+      "path": "assets/05-proof/people-01.png",
+      "sha256": "172986510cbb8b9fb2389d754f615de5b9bf7df380b30bb6cf2304358a72966d",
+      "bytes": 657937
+    },
+    {
+      "path": "assets/05-proof/people-02.png",
+      "sha256": "a74dda29aa9ec11ef75c6523986aacd6816f4533dfff05f30861d825502d3004",
+      "bytes": 630225
+    },
+    {
+      "path": "assets/05-proof/people-03.png",
+      "sha256": "a23d9d5c4cae1f96879e2ff179e03308666acd2479cb8a405dfb8c465c4c0de7",
+      "bytes": 599625
+    },
+    {
+      "path": "assets/05-proof/people-04.png",
+      "sha256": "a1de6682f7836d4990763bb305dc9268603b5839ebe7fdaeced16a2f76dcd079",
+      "bytes": 657045
+    },
+    {
+      "path": "assets/05-proof/people-05.png",
+      "sha256": "c3573454cef4bfba358da0f748d0cdb7edc665f923a727d6e665c5814d0009a6",
+      "bytes": 671125
+    },
+    {
+      "path": "assets/05-proof/people-carousel.pdf",
+      "sha256": "14c34f328044ee4b3269ba9bd5b62b92a8274ae4cd0b8ff5350ddf3875ecea35",
+      "bytes": 1107135
+    },
+    {
+      "path": "assets/06-product-to-buyer/caption.txt",
+      "sha256": "c18726cdcea797c3bf5ff1a8f5fc99348a173faa11da1f62b1fa2ea95d1027f8",
+      "bytes": 703
+    },
+    {
+      "path": "assets/06-product-to-buyer/graphic-01.png",
+      "sha256": "d780e4a38acb5a13327f7e4924f29e3a5a8a31e9b6f3b952e3f028da28fa071c",
+      "bytes": 247386
+    },
+    {
+      "path": "assets/06-product-to-buyer/people-01.png",
+      "sha256": "184f85c16fb2e650cbe6ea57249784ffb31e4cdceab8f81a4434056cca257c8c",
+      "bytes": 648032
+    },
+    {
+      "path": "assets/07-two-voices/caption.txt",
+      "sha256": "9e669dbcc591bd1f4ba9200d151bae3252b7a5b317b23e86d24a61054532ebeb",
+      "bytes": 656
+    },
+    {
+      "path": "assets/07-two-voices/graphic-01.png",
+      "sha256": "a7e48576e8c417511562a7a0861cba6b8c9a80412b1e1a75fac8461b1b269533",
+      "bytes": 213948
+    },
+    {
+      "path": "assets/07-two-voices/people-01.png",
+      "sha256": "91e5e52039b6148ebfdeb31a01679169ef42adac6b4375410659da1ec5b87c8d",
+      "bytes": 658991
+    },
+    {
+      "path": "assets/08-visuals/caption.txt",
+      "sha256": "f179f79c267e82847e847fc35760b876b8dcabe0d7bbd349c8c75f50839006f1",
+      "bytes": 671
+    },
+    {
+      "path": "assets/08-visuals/graphic-01.png",
+      "sha256": "0bdbbddf3b028fda41e7234efdc42a5f5b78a4f0ac0234ba55269363a7dad8d2",
+      "bytes": 264871
+    },
+    {
+      "path": "assets/08-visuals/people-01.png",
+      "sha256": "b58b9710e801d52cf588c073d47cc741856ec9e1765f15e95ea1fd26af2b3534",
+      "bytes": 657315
+    },
+    {
+      "path": "assets/09-measure/caption.txt",
+      "sha256": "e32b31908048606e84668ff1b51b1187142a53661bfa02d03be98cf5d5318b00",
+      "bytes": 747
+    },
+    {
+      "path": "assets/09-measure/graphic-01.png",
+      "sha256": "0420342dd49696f43c4056af700955fce29e8dd4a2387434289ce20fe0d0d131",
+      "bytes": 259756
+    },
+    {
+      "path": "assets/09-measure/people-01.png",
+      "sha256": "8bfc675667e126f9e8d37b876bcaa9bd5dd5707217ee01cc4f1e3c9408ac817b",
+      "bytes": 658890
+    },
+    {
+      "path": "assets/10-the-delivery/caption.txt",
+      "sha256": "a5783d664a47a21ebf7c895c978a05a2d01b276788a739542c4745085d801c8c",
+      "bytes": 553
+    },
+    {
+      "path": "assets/10-the-delivery/graphic-01.png",
+      "sha256": "efd4d098366f4460a96fac825b3bee202fe8cc9184471861cb1faa8d24237e75",
+      "bytes": 237238
+    },
+    {
+      "path": "assets/10-the-delivery/people-01.png",
+      "sha256": "527dad31ffc6ea31694b425f0346dd6f418f71ac4585c17755d00a73ca068374",
+      "bytes": 667555
+    },
+    {
+      "path": "assets/index.html",
+      "sha256": "d28ecaac64ad9e3445b3936445326235c3e017650a34f176e1781e831ae2ebc1",
+      "bytes": 50179
+    },
+    {
+      "path": "assets/manifest.json",
+      "sha256": "ea519ba6b4aec7383f4bed46eec09d6c1ccb6f8225589188780bf52d2d2ba2cc",
+      "bytes": 55879
+    },
+    {
+      "path": "assets/source-svg/01-graphic-01.svg",
+      "sha256": "49efb7d2519090a1d7f8dea29b41c39a034a29ff653329bd4aa9645885a99365",
+      "bytes": 4183
+    },
+    {
+      "path": "assets/source-svg/01-graphic-02.svg",
+      "sha256": "cbd17a1081a1f3a7e31406742117a73b2e22faca46b7df462fbff557adc3c8c5",
+      "bytes": 4165
+    },
+    {
+      "path": "assets/source-svg/01-graphic-03.svg",
+      "sha256": "d63069addbcf376b925ec8b3d31c1d8003bbb67a0c04292335571f9c10f4b306",
+      "bytes": 3430
+    },
+    {
+      "path": "assets/source-svg/01-graphic-04.svg",
+      "sha256": "e9465b9702ddca95e514e6b781707cbca0a091f08189f1044f109f9e866f76fe",
+      "bytes": 4407
+    },
+    {
+      "path": "assets/source-svg/01-graphic-05.svg",
+      "sha256": "4eab28fcfb4a7454367c0315b658ccb2fae8f8a0dc64bdc40c7ed58c8fa56327",
+      "bytes": 4225
+    },
+    {
+      "path": "assets/source-svg/01-people-01.svg",
+      "sha256": "ed39633d52cb00b088823f0588286552a74d65d2994ec522ba71eb9d8c2c4119",
+      "bytes": 4112
+    },
+    {
+      "path": "assets/source-svg/01-people-02.svg",
+      "sha256": "eeff006b600ee74dcf16320eea54e51fa77594838ce4a3774f0abdd1afeab503",
+      "bytes": 4091
+    },
+    {
+      "path": "assets/source-svg/01-people-03.svg",
+      "sha256": "8303f1a28fb6ac660b2f75a390c0e718c0e0cda2b9b94f6dbf93d249feb047fc",
+      "bytes": 3357
+    },
+    {
+      "path": "assets/source-svg/01-people-04.svg",
+      "sha256": "6ad93a2504849ee7e1797e94a431aa3271eb0fe1a1f6130d6212171ada88dc11",
+      "bytes": 4265
+    },
+    {
+      "path": "assets/source-svg/01-people-05.svg",
+      "sha256": "2d72fc572c4a88071578ca610df98ec6f6d2e24f6eb72008ed6ac16e3167eaac",
+      "bytes": 4152
+    },
+    {
+      "path": "assets/source-svg/02-graphic-01.svg",
+      "sha256": "222299acfc971c46037454012f8982ac4bb08df9cf24ac37dfd8c38fd5a852d5",
+      "bytes": 3433
+    },
+    {
+      "path": "assets/source-svg/02-graphic-02.svg",
+      "sha256": "635233652dd73bb7bf3c8699ec6e9250afa0824e89ac03c9f03d20610641152f",
+      "bytes": 3446
+    },
+    {
+      "path": "assets/source-svg/02-graphic-03.svg",
+      "sha256": "6667bd172a8d172607e55aac002ca831e31f70a5d7baf92d510b520dd9b0c54e",
+      "bytes": 3494
+    },
+    {
+      "path": "assets/source-svg/02-graphic-04.svg",
+      "sha256": "e8fec1fe66963797a5f7c761b0ddfa0a2a37a22720c939df4a9f3dd1b0e33e17",
+      "bytes": 3704
+    },
+    {
+      "path": "assets/source-svg/02-graphic-05.svg",
+      "sha256": "2e52c2967be0c6c5c94ce6aeddfa24dc7f1bc980b7f816fc268308572f66bc23",
+      "bytes": 4347
+    },
+    {
+      "path": "assets/source-svg/02-people-01.svg",
+      "sha256": "d6126d536120db889a79b35f0b9cca816ea4f44bdbe13eef2d71da3ec85db637",
+      "bytes": 3361
+    },
+    {
+      "path": "assets/source-svg/02-people-02.svg",
+      "sha256": "5d01bc86f50e3869facfbf8a848dac7f8473561211cb7913b074bb7841741ca8",
+      "bytes": 3373
+    },
+    {
+      "path": "assets/source-svg/02-people-03.svg",
+      "sha256": "2a5089e4a70c553b87cd80cb93b74f6f187411e1a6480f9ebc69778a220543f0",
+      "bytes": 3352
+    },
+    {
+      "path": "assets/source-svg/02-people-04.svg",
+      "sha256": "0ecf244006294f9b6514be4954256c2ef3baa6c6552df7d750f55374542f9a02",
+      "bytes": 3631
+    },
+    {
+      "path": "assets/source-svg/02-people-05.svg",
+      "sha256": "7e13da7e9f41a8d3240ce86ded0a368ae64530f3e64cab14153f50cf027ace2b",
+      "bytes": 4273
+    },
+    {
+      "path": "assets/source-svg/03-graphic-01.svg",
+      "sha256": "79c94f98f58f4d17136fd977fc3f06a8af436cbb05cd95f43393ae6d5a265178",
+      "bytes": 4287
+    },
+    {
+      "path": "assets/source-svg/03-graphic-02.svg",
+      "sha256": "0361cc697c4771d0683bfde414db37d9a151325c371a5ccc629ed3c1e40d22ef",
+      "bytes": 3306
+    },
+    {
+      "path": "assets/source-svg/03-graphic-03.svg",
+      "sha256": "a8967aa8b8babe127bb6e834d61e7c77eb118cb725458fdc6f05009115da6a6c",
+      "bytes": 3522
+    },
+    {
+      "path": "assets/source-svg/03-graphic-04.svg",
+      "sha256": "e9952dc4f9e0928f2b474c84f5785b5498289f5ff6c77d5e01ac48e462aa2f21",
+      "bytes": 4145
+    },
+    {
+      "path": "assets/source-svg/03-graphic-05.svg",
+      "sha256": "0c90cff6e41e5f955fec9295f2c5833abb3639dc4dec4fd44d6fcc486b2474ac",
+      "bytes": 4349
+    },
+    {
+      "path": "assets/source-svg/03-people-01.svg",
+      "sha256": "12d19467af3f9446e6a1d690a4098fe705d1da10ad650b668c28c694d4604820",
+      "bytes": 4216
+    },
+    {
+      "path": "assets/source-svg/03-people-02.svg",
+      "sha256": "7487c3564d5c0bc90dd6a9b9d7702130ccd8edd5698004f67284abae43266dcf",
+      "bytes": 3164
+    },
+    {
+      "path": "assets/source-svg/03-people-03.svg",
+      "sha256": "2d44882c891f0eeb10c975c3494221732c38bc645423b9229fe9efd292e464ef",
+      "bytes": 3449
+    },
+    {
+      "path": "assets/source-svg/03-people-04.svg",
+      "sha256": "085d3a25c6142c70f25d847c80f101440135e542f33aab1222df9631fc105713",
+      "bytes": 4071
+    },
+    {
+      "path": "assets/source-svg/03-people-05.svg",
+      "sha256": "e7e75794c48e418709003a6c97a754625961e26acd51f2d9333a3c0b6cd5164b",
+      "bytes": 4208
+    },
+    {
+      "path": "assets/source-svg/04-graphic-01.svg",
+      "sha256": "3109cda8db950d68a9b31b7150f375f2203ed164e0c3404740ffa77b1a1d6d16",
+      "bytes": 3955
+    },
+    {
+      "path": "assets/source-svg/04-graphic-02.svg",
+      "sha256": "6230941aa344836af1b7a7059ae7b8f87efe057b8909686f506b4bf828ea3160",
+      "bytes": 3407
+    },
+    {
+      "path": "assets/source-svg/04-graphic-03.svg",
+      "sha256": "660d6bb572301a235d2d62649c5a70ebdd3ae79d842958dbb32bba9c708004bf",
+      "bytes": 4002
+    },
+    {
+      "path": "assets/source-svg/04-graphic-04.svg",
+      "sha256": "4050ad68f4b9b237749387f16f61734ac50cbfdeb26f74194fa08380af548fa9",
+      "bytes": 3341
+    },
+    {
+      "path": "assets/source-svg/04-graphic-05.svg",
+      "sha256": "e18c62d5902ad3f6f9f5703496c5ff6561accbcd437e8e811deab7da59c364b2",
+      "bytes": 4307
+    },
+    {
+      "path": "assets/source-svg/04-people-01.svg",
+      "sha256": "ff7a2a1a836d9b03d11d2a00cd6dab2de0317b8eed7948145297f63cf6022c5f",
+      "bytes": 3883
+    },
+    {
+      "path": "assets/source-svg/04-people-02.svg",
+      "sha256": "b46839a890de515115e6dc499526fe0dc7fabf6fa66aced04c8b074bdb81abb6",
+      "bytes": 3334
+    },
+    {
+      "path": "assets/source-svg/04-people-03.svg",
+      "sha256": "ff7e6461f0f18b61d5c107af79a32bd32c3ac3afb0d452952faf07e100bf1aa2",
+      "bytes": 3928
+    },
+    {
+      "path": "assets/source-svg/04-people-04.svg",
+      "sha256": "02f2c65977b45e4e95da15853a2e19faad924368cd38f096a8c53db086392a9a",
+      "bytes": 3200
+    },
+    {
+      "path": "assets/source-svg/04-people-05.svg",
+      "sha256": "b35b5984216af7d17cc955f5d1d8863a8e173adeca25c32fb2ad0920bac0548a",
+      "bytes": 4233
+    },
+    {
+      "path": "assets/source-svg/05-graphic-01.svg",
+      "sha256": "223a594081c417f7cf23af3840dc6ea0c801f3037482b503d1a059f91c19fc42",
+      "bytes": 4163
+    },
+    {
+      "path": "assets/source-svg/05-graphic-02.svg",
+      "sha256": "f53a4bdc377eafa7b49cba0390db8ff0b9613079592b35560d7b043e73b2048c",
+      "bytes": 4045
+    },
+    {
+      "path": "assets/source-svg/05-graphic-03.svg",
+      "sha256": "82a7bf7cb7e7db41b683c13e3e196aac42582dde3fe535572ce10a5b279a5ffa",
+      "bytes": 4256
+    },
+    {
+      "path": "assets/source-svg/05-graphic-04.svg",
+      "sha256": "0be78e3d05209566510ae4eb5b639e9cf2f77cfbefae5bbed6113e471656b395",
+      "bytes": 3842
+    },
+    {
+      "path": "assets/source-svg/05-graphic-05.svg",
+      "sha256": "0f985ac1af2935e4538cc3ffd0b30e2d4bf77ed5f6f3e60e48a5e7f7eb596b34",
+      "bytes": 4340
+    },
+    {
+      "path": "assets/source-svg/05-people-01.svg",
+      "sha256": "1673b8e612380f364bdc5b8d5c4271078e0de7a8e62b90b9a8e0039dbea3dd92",
+      "bytes": 4092
+    },
+    {
+      "path": "assets/source-svg/05-people-02.svg",
+      "sha256": "fe7b4d2ae32ed5933f6b2c01f1feb62070a0cac41ef1818486134362b507d6f5",
+      "bytes": 3971
+    },
+    {
+      "path": "assets/source-svg/05-people-03.svg",
+      "sha256": "a3440520938af96e4e16f21a69c22a08104733ad0863450502bef3afa100c68b",
+      "bytes": 4115
+    },
+    {
+      "path": "assets/source-svg/05-people-04.svg",
+      "sha256": "15126fc51c81349f5b23dd9ef0c8977f96993b837862adafafcbdaeb8fea1c79",
+      "bytes": 3768
+    },
+    {
+      "path": "assets/source-svg/05-people-05.svg",
+      "sha256": "5bbca1931e991b3c53e61d20102ab0fdfff4dcf4b82bf77d17be8ae5b29e700e",
+      "bytes": 4267
+    },
+    {
+      "path": "assets/source-svg/06-graphic-01.svg",
+      "sha256": "259149a200fd1e657659748a2c8205a1cbd197350f476f6c8581a37d3ef02461",
+      "bytes": 4192
+    },
+    {
+      "path": "assets/source-svg/06-people-01.svg",
+      "sha256": "9da9b73cf38593d62140cc0cd1e37889fa3acfcd2e3f3e514cd0477b05e0e208",
+      "bytes": 4120
+    },
+    {
+      "path": "assets/source-svg/07-graphic-01.svg",
+      "sha256": "01943d882d0b32a36fa47b4f4a5fe7dc42c800d2d8eff7ceb53b1d2f150985b8",
+      "bytes": 3580
+    },
+    {
+      "path": "assets/source-svg/07-people-01.svg",
+      "sha256": "f022475846b9fe8940957a81ed1aba0a68506af852384d96a8caaddae89e27f4",
+      "bytes": 3509
+    },
+    {
+      "path": "assets/source-svg/08-graphic-01.svg",
+      "sha256": "cf0d13c3259a7012c4a8250f742542220b7f3167c49f4c8278fea7f2260ff025",
+      "bytes": 4205
+    },
+    {
+      "path": "assets/source-svg/08-people-01.svg",
+      "sha256": "c4174d304c17d74628d3706d57b3b47776cb5da92d3ac3877edde358040988ca",
+      "bytes": 4133
+    },
+    {
+      "path": "assets/source-svg/09-graphic-01.svg",
+      "sha256": "c14a0ff3687190ea2f77494d718c991489ae76dfb73a4df8c011fa024f2d351a",
+      "bytes": 4379
+    },
+    {
+      "path": "assets/source-svg/09-people-01.svg",
+      "sha256": "72d81f6a1ff2d412a80b4156c4194c76023a177ce56fab0772c82dbcd876bfa8",
+      "bytes": 4308
+    },
+    {
+      "path": "assets/source-svg/10-graphic-01.svg",
+      "sha256": "b3a18c825a70ccac91fc10d30f50f89e962ca08db258684d030001169990feea",
+      "bytes": 4269
+    },
+    {
+      "path": "assets/source-svg/10-people-01.svg",
+      "sha256": "3a73238198f9f31d76ccd1095a170162c656e599344916f7682ba2d5469e0870",
+      "bytes": 4197
+    }
+  ],
+  "rights_ledger": [
+    {
+      "path": "assets/01-the-reason/caption.txt",
+      "sha256": "998c3f996efd123681f9f928b958a54d705d1a0c57884379e74616094341960a",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/01-the-reason/graphic-01.png",
+      "sha256": "61c230e2d7414a73f18643c9defcca03112d1885f12bd87fb315d3d7a404a1d3",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/01-the-reason/graphic-02.png",
+      "sha256": "73bb470c3dccb2f4c2785d9285c84055476b70f43061336ef35831070be93fad",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/01-the-reason/graphic-03.png",
+      "sha256": "187bdab745d6eb52d146965ba8c39fe74307cb7c7471d49989a22b5398e3a56d",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/01-the-reason/graphic-04.png",
+      "sha256": "eee8f3863ce1c44b03c25974c7e5db80c90ee1de8667baa8a811d72ebbb06f18",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/01-the-reason/graphic-05.png",
+      "sha256": "a89243fdb32fe8351dd73f5e4b06405dbc2b38c73497cf8cabb979f7bd85f888",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/01-the-reason/graphic-carousel.pdf",
+      "sha256": "bf7cd5504465a6348bbf733ea260db17e6069e0c68f249a0e59cd1b677ea205a",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/01-the-reason/people-01.png",
+      "sha256": "f561f141c424d347f14244090a5db5f6b111824797c3a28ae40dfd31187d11e7",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/01-the-reason/people-02.png",
+      "sha256": "439f2215db173af98d6605d27a37199f3e9f282da65597ac06fb969cd6ac7c49",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/01-the-reason/people-03.png",
+      "sha256": "d17bf95c249c040291c90e26a9960689f3a334aef624cc28bf55b26376dd67d9",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/01-the-reason/people-04.png",
+      "sha256": "1a5188f7d80c0d19316973f21b772b075bcbacc3d05895301724360a276bfbd8",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/01-the-reason/people-05.png",
+      "sha256": "404e254348ba39f1e0ba3fb0e0c60b473a749ff28dafa8f93663012b0ab9347e",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/01-the-reason/people-carousel.pdf",
+      "sha256": "f63ee6f3dbcf8cb6458581b41563c4edda6f9b8238b6f71b97ce5d516fb466a8",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/caption.txt",
+      "sha256": "5dabb341ba3665fc8ff03fcab5f6d1f3fdc2dfe170fcb339d76e72cefecf2751",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-01.png",
+      "sha256": "42f471839aa5472dbb57ac93a37bb6db029120908722d9a92f7d93a4fdf09b75",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-02.png",
+      "sha256": "42f7e2cb1d7061923e6d2df319aaee60fabc3746ab74a9677d8bea0a7dfa8193",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-03.png",
+      "sha256": "b4db604ec2abf3626f73fb9e9ea5c23b489c53e80ec3fa5b9c1315875739e48c",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-04.png",
+      "sha256": "bc92e309a2c103ebcf1a6e21fea7debf4cf2837b97c600abd7be4ce7b0f316ad",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-05.png",
+      "sha256": "fcc088436330f18537fb027f03f13cb214a44d9922dfc0cd24daae3ab0331a42",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/graphic-carousel.pdf",
+      "sha256": "a07adb97e303fabb2f1fd5595b0c4cca6741f0f89ea2c25f582e8b0902514a69",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-01.png",
+      "sha256": "17e40ba79b180c0b7368e689fb6acb412fa5c0439dfe84e4472085c78c7ae1ec",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-02.png",
+      "sha256": "cf706eaa15b4122028998a87a3934b3259afe807eb299d3a24939e08b1da466b",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-03.png",
+      "sha256": "7dbdc46dd6629191668c859ea9840c1eafca86d321cff6f56a61f1bad0dc3e1a",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-04.png",
+      "sha256": "5a1c8922c0f96d1a16db8eefa6bec64120058b3f01b1a380448e1208cefc5f0f",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-05.png",
+      "sha256": "5a7c03c7441459b33210787beba64937a701b62143695b94cccf100c74012446",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/people-carousel.pdf",
+      "sha256": "d402373062309bbba091653d6c5435dca747a13fc2bbce526a784b5707c9b90e",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/03-the-interview/caption.txt",
+      "sha256": "83d8cff6d662a17a88c4323a64a657472097d2579045078c9348f522cd303ad2",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/03-the-interview/graphic-01.png",
+      "sha256": "5f00f1a4cfa6605ca49e742865a1dd101da06e2f8bbd60010494077bffb92a41",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/03-the-interview/graphic-02.png",
+      "sha256": "5d562a3f7822d2552deb3f8f693cf5ae92e8023fa4c5ba31541afa547765251a",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/03-the-interview/graphic-03.png",
+      "sha256": "b114fc2c5ab1c90ca65400d4d4481891bf27a46bbd6a3bf5faf535bb695b6bd0",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/03-the-interview/graphic-04.png",
+      "sha256": "3a36e85e9dfab6c9542ecd6ef773b270ab90e7b1baa0898e2163b88e514ff678",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/03-the-interview/graphic-05.png",
+      "sha256": "20bac65abc9e75a58e9cb578c72af67ecadb0d467d339a3c1b20cc1a866c2a43",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/03-the-interview/graphic-carousel.pdf",
+      "sha256": "a4a0959318a57235d205410c218ccfde416cf634e8bb53a20be5f2b2c85a48fa",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/03-the-interview/people-01.png",
+      "sha256": "842da3c41adb952e7587640943bdc9ecbe852cb965e9dc564561967b389c7cdb",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/03-the-interview/people-02.png",
+      "sha256": "fe6059fdafe19c624324a9c799af19f6bec01946185379acd215689075d6af3f",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/03-the-interview/people-03.png",
+      "sha256": "f14a340585d1ed131ebc9616feb403f9e66e282d46a869df30f03c11fb32bad4",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/03-the-interview/people-04.png",
+      "sha256": "5689eb2727cf9e0ea089008bb87880ddffa6e0c3cd23b9b28cc61002dbfa9abc",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/03-the-interview/people-05.png",
+      "sha256": "68eeceb409a95b1f42b6e5422c0e957bb62c54677c059042b649c7273dffeab6",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/03-the-interview/people-carousel.pdf",
+      "sha256": "d4b146cdcd0ccd832bddfb76c0563c66288ba159a8fee456337cc1ea293b9182",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/04-positioning/caption.txt",
+      "sha256": "3439719c646c8f589384fd32b1bdf05a9baefd20daeacbb5ea8e47560d52f0a1",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/04-positioning/graphic-01.png",
+      "sha256": "b10bb124d81cdfba9525acf6f38baa07c4fdb547430d147ca0b76ba3fe51ad2e",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/04-positioning/graphic-02.png",
+      "sha256": "23896af7e70d9071e84beb2778e88c8305d08c39c2c07661f828f6c2c720a409",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/04-positioning/graphic-03.png",
+      "sha256": "effed2b6ede747eead13430765e87bdb7f3bbbd674f9d637e93f9c6b56ca22d3",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/04-positioning/graphic-04.png",
+      "sha256": "c660ec2dff7a5b07319afcab1d95c698e3fb184e42881c096d84812621e214dd",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/04-positioning/graphic-05.png",
+      "sha256": "e4bcbd239bac7d8df6d57923a6500288e47b5ae82af79d17ac9343c16c5c4a1f",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/04-positioning/graphic-carousel.pdf",
+      "sha256": "10bd7619080391f9a680ea5c693cc95773fb5e2c73d0636c10b7871844615445",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/04-positioning/people-01.png",
+      "sha256": "f1de239b72c42830512ad941b72b3c7b1d5c09fe929d02e09a6fbbb44c8b78db",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/04-positioning/people-02.png",
+      "sha256": "3b26f0981b2bc8e8d7326315d31736510d040a5db2174a33487df20e12b0cce4",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/04-positioning/people-03.png",
+      "sha256": "c92078cc9578ba8c08dd64458e0c67208cbb67fc064a2d9c91a6be1e46fea32c",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/04-positioning/people-04.png",
+      "sha256": "605c38db8d0a0a7a4b9552b21336cb783cca686aa7b8e6394b39f1179af02301",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/04-positioning/people-05.png",
+      "sha256": "9ae208e77c10324d084ad82b798e8c552fcc72faca0554ac944396a13fe64e85",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/04-positioning/people-carousel.pdf",
+      "sha256": "9343136fe346b2523d837037b49fbed1bffd9ab7d2216ad1e089b0cc31e488a2",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/05-proof/caption.txt",
+      "sha256": "2b934b3f06607db0a1639cb0a95a1ae732852a20219cb36a7d0c3ce0bf57a1a2",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/05-proof/graphic-01.png",
+      "sha256": "6b8e1e716f86bb7a8a1fe1998032020218ec8aaf9f87ab667ae9b6e3d73bd706",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/05-proof/graphic-02.png",
+      "sha256": "ec8fb40d3027362f60a43010096d90d1dcfdde82d053b92f480a52bc52adac02",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/05-proof/graphic-03.png",
+      "sha256": "1ae33f03db00d35732031a4025a8e1bdfa69bc84bbda28905a34c8fda38b719e",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/05-proof/graphic-04.png",
+      "sha256": "9df7c519351f9022b9a94b41066b6b589cc5a9dd74af671f93cf0f2938a032f6",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/05-proof/graphic-05.png",
+      "sha256": "d3c8ce962932347b531ebc72652eb587a032ca22223928588c43f89dd6a38e15",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/05-proof/graphic-carousel.pdf",
+      "sha256": "c5c6bb2d4db238ae99d4dbcb18eb5022538b0bbc26f57de50831e626abeae254",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/05-proof/people-01.png",
+      "sha256": "172986510cbb8b9fb2389d754f615de5b9bf7df380b30bb6cf2304358a72966d",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/05-proof/people-02.png",
+      "sha256": "a74dda29aa9ec11ef75c6523986aacd6816f4533dfff05f30861d825502d3004",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/05-proof/people-03.png",
+      "sha256": "a23d9d5c4cae1f96879e2ff179e03308666acd2479cb8a405dfb8c465c4c0de7",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/05-proof/people-04.png",
+      "sha256": "a1de6682f7836d4990763bb305dc9268603b5839ebe7fdaeced16a2f76dcd079",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/05-proof/people-05.png",
+      "sha256": "c3573454cef4bfba358da0f748d0cdb7edc665f923a727d6e665c5814d0009a6",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/05-proof/people-carousel.pdf",
+      "sha256": "14c34f328044ee4b3269ba9bd5b62b92a8274ae4cd0b8ff5350ddf3875ecea35",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/06-product-to-buyer/caption.txt",
+      "sha256": "c18726cdcea797c3bf5ff1a8f5fc99348a173faa11da1f62b1fa2ea95d1027f8",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/06-product-to-buyer/graphic-01.png",
+      "sha256": "d780e4a38acb5a13327f7e4924f29e3a5a8a31e9b6f3b952e3f028da28fa071c",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/06-product-to-buyer/people-01.png",
+      "sha256": "184f85c16fb2e650cbe6ea57249784ffb31e4cdceab8f81a4434056cca257c8c",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/07-two-voices/caption.txt",
+      "sha256": "9e669dbcc591bd1f4ba9200d151bae3252b7a5b317b23e86d24a61054532ebeb",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/07-two-voices/graphic-01.png",
+      "sha256": "a7e48576e8c417511562a7a0861cba6b8c9a80412b1e1a75fac8461b1b269533",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/07-two-voices/people-01.png",
+      "sha256": "91e5e52039b6148ebfdeb31a01679169ef42adac6b4375410659da1ec5b87c8d",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/08-visuals/caption.txt",
+      "sha256": "f179f79c267e82847e847fc35760b876b8dcabe0d7bbd349c8c75f50839006f1",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/08-visuals/graphic-01.png",
+      "sha256": "0bdbbddf3b028fda41e7234efdc42a5f5b78a4f0ac0234ba55269363a7dad8d2",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/08-visuals/people-01.png",
+      "sha256": "b58b9710e801d52cf588c073d47cc741856ec9e1765f15e95ea1fd26af2b3534",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/09-measure/caption.txt",
+      "sha256": "e32b31908048606e84668ff1b51b1187142a53661bfa02d03be98cf5d5318b00",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/09-measure/graphic-01.png",
+      "sha256": "0420342dd49696f43c4056af700955fce29e8dd4a2387434289ce20fe0d0d131",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/09-measure/people-01.png",
+      "sha256": "8bfc675667e126f9e8d37b876bcaa9bd5dd5707217ee01cc4f1e3c9408ac817b",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/10-the-delivery/caption.txt",
+      "sha256": "a5783d664a47a21ebf7c895c978a05a2d01b276788a739542c4745085d801c8c",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/10-the-delivery/graphic-01.png",
+      "sha256": "efd4d098366f4460a96fac825b3bee202fe8cc9184471861cb1faa8d24237e75",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/10-the-delivery/people-01.png",
+      "sha256": "527dad31ffc6ea31694b425f0346dd6f418f71ac4585c17755d00a73ca068374",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/index.html",
+      "sha256": "d28ecaac64ad9e3445b3936445326235c3e017650a34f176e1781e831ae2ebc1",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/manifest.json",
+      "sha256": "ea519ba6b4aec7383f4bed46eec09d6c1ccb6f8225589188780bf52d2d2ba2cc",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/01-graphic-01.svg",
+      "sha256": "49efb7d2519090a1d7f8dea29b41c39a034a29ff653329bd4aa9645885a99365",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/01-graphic-02.svg",
+      "sha256": "cbd17a1081a1f3a7e31406742117a73b2e22faca46b7df462fbff557adc3c8c5",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/01-graphic-03.svg",
+      "sha256": "d63069addbcf376b925ec8b3d31c1d8003bbb67a0c04292335571f9c10f4b306",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/01-graphic-04.svg",
+      "sha256": "e9465b9702ddca95e514e6b781707cbca0a091f08189f1044f109f9e866f76fe",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/01-graphic-05.svg",
+      "sha256": "4eab28fcfb4a7454367c0315b658ccb2fae8f8a0dc64bdc40c7ed58c8fa56327",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/01-people-01.svg",
+      "sha256": "ed39633d52cb00b088823f0588286552a74d65d2994ec522ba71eb9d8c2c4119",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/01-people-02.svg",
+      "sha256": "eeff006b600ee74dcf16320eea54e51fa77594838ce4a3774f0abdd1afeab503",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/01-people-03.svg",
+      "sha256": "8303f1a28fb6ac660b2f75a390c0e718c0e0cda2b9b94f6dbf93d249feb047fc",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/01-people-04.svg",
+      "sha256": "6ad93a2504849ee7e1797e94a431aa3271eb0fe1a1f6130d6212171ada88dc11",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/01-people-05.svg",
+      "sha256": "2d72fc572c4a88071578ca610df98ec6f6d2e24f6eb72008ed6ac16e3167eaac",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/02-graphic-01.svg",
+      "sha256": "222299acfc971c46037454012f8982ac4bb08df9cf24ac37dfd8c38fd5a852d5",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/02-graphic-02.svg",
+      "sha256": "635233652dd73bb7bf3c8699ec6e9250afa0824e89ac03c9f03d20610641152f",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/02-graphic-03.svg",
+      "sha256": "6667bd172a8d172607e55aac002ca831e31f70a5d7baf92d510b520dd9b0c54e",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/02-graphic-04.svg",
+      "sha256": "e8fec1fe66963797a5f7c761b0ddfa0a2a37a22720c939df4a9f3dd1b0e33e17",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/02-graphic-05.svg",
+      "sha256": "2e52c2967be0c6c5c94ce6aeddfa24dc7f1bc980b7f816fc268308572f66bc23",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/02-people-01.svg",
+      "sha256": "d6126d536120db889a79b35f0b9cca816ea4f44bdbe13eef2d71da3ec85db637",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/02-people-02.svg",
+      "sha256": "5d01bc86f50e3869facfbf8a848dac7f8473561211cb7913b074bb7841741ca8",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/02-people-03.svg",
+      "sha256": "2a5089e4a70c553b87cd80cb93b74f6f187411e1a6480f9ebc69778a220543f0",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/02-people-04.svg",
+      "sha256": "0ecf244006294f9b6514be4954256c2ef3baa6c6552df7d750f55374542f9a02",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/02-people-05.svg",
+      "sha256": "7e13da7e9f41a8d3240ce86ded0a368ae64530f3e64cab14153f50cf027ace2b",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/03-graphic-01.svg",
+      "sha256": "79c94f98f58f4d17136fd977fc3f06a8af436cbb05cd95f43393ae6d5a265178",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/03-graphic-02.svg",
+      "sha256": "0361cc697c4771d0683bfde414db37d9a151325c371a5ccc629ed3c1e40d22ef",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/03-graphic-03.svg",
+      "sha256": "a8967aa8b8babe127bb6e834d61e7c77eb118cb725458fdc6f05009115da6a6c",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/03-graphic-04.svg",
+      "sha256": "e9952dc4f9e0928f2b474c84f5785b5498289f5ff6c77d5e01ac48e462aa2f21",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/03-graphic-05.svg",
+      "sha256": "0c90cff6e41e5f955fec9295f2c5833abb3639dc4dec4fd44d6fcc486b2474ac",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/03-people-01.svg",
+      "sha256": "12d19467af3f9446e6a1d690a4098fe705d1da10ad650b668c28c694d4604820",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/03-people-02.svg",
+      "sha256": "7487c3564d5c0bc90dd6a9b9d7702130ccd8edd5698004f67284abae43266dcf",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/03-people-03.svg",
+      "sha256": "2d44882c891f0eeb10c975c3494221732c38bc645423b9229fe9efd292e464ef",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/03-people-04.svg",
+      "sha256": "085d3a25c6142c70f25d847c80f101440135e542f33aab1222df9631fc105713",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/03-people-05.svg",
+      "sha256": "e7e75794c48e418709003a6c97a754625961e26acd51f2d9333a3c0b6cd5164b",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/04-graphic-01.svg",
+      "sha256": "3109cda8db950d68a9b31b7150f375f2203ed164e0c3404740ffa77b1a1d6d16",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/04-graphic-02.svg",
+      "sha256": "6230941aa344836af1b7a7059ae7b8f87efe057b8909686f506b4bf828ea3160",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/04-graphic-03.svg",
+      "sha256": "660d6bb572301a235d2d62649c5a70ebdd3ae79d842958dbb32bba9c708004bf",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/04-graphic-04.svg",
+      "sha256": "4050ad68f4b9b237749387f16f61734ac50cbfdeb26f74194fa08380af548fa9",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/04-graphic-05.svg",
+      "sha256": "e18c62d5902ad3f6f9f5703496c5ff6561accbcd437e8e811deab7da59c364b2",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/04-people-01.svg",
+      "sha256": "ff7a2a1a836d9b03d11d2a00cd6dab2de0317b8eed7948145297f63cf6022c5f",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/04-people-02.svg",
+      "sha256": "b46839a890de515115e6dc499526fe0dc7fabf6fa66aced04c8b074bdb81abb6",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/04-people-03.svg",
+      "sha256": "ff7e6461f0f18b61d5c107af79a32bd32c3ac3afb0d452952faf07e100bf1aa2",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/04-people-04.svg",
+      "sha256": "02f2c65977b45e4e95da15853a2e19faad924368cd38f096a8c53db086392a9a",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/04-people-05.svg",
+      "sha256": "b35b5984216af7d17cc955f5d1d8863a8e173adeca25c32fb2ad0920bac0548a",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/05-graphic-01.svg",
+      "sha256": "223a594081c417f7cf23af3840dc6ea0c801f3037482b503d1a059f91c19fc42",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/05-graphic-02.svg",
+      "sha256": "f53a4bdc377eafa7b49cba0390db8ff0b9613079592b35560d7b043e73b2048c",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/05-graphic-03.svg",
+      "sha256": "82a7bf7cb7e7db41b683c13e3e196aac42582dde3fe535572ce10a5b279a5ffa",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/05-graphic-04.svg",
+      "sha256": "0be78e3d05209566510ae4eb5b639e9cf2f77cfbefae5bbed6113e471656b395",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/05-graphic-05.svg",
+      "sha256": "0f985ac1af2935e4538cc3ffd0b30e2d4bf77ed5f6f3e60e48a5e7f7eb596b34",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/05-people-01.svg",
+      "sha256": "1673b8e612380f364bdc5b8d5c4271078e0de7a8e62b90b9a8e0039dbea3dd92",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/05-people-02.svg",
+      "sha256": "fe7b4d2ae32ed5933f6b2c01f1feb62070a0cac41ef1818486134362b507d6f5",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/05-people-03.svg",
+      "sha256": "a3440520938af96e4e16f21a69c22a08104733ad0863450502bef3afa100c68b",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/05-people-04.svg",
+      "sha256": "15126fc51c81349f5b23dd9ef0c8977f96993b837862adafafcbdaeb8fea1c79",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/05-people-05.svg",
+      "sha256": "5bbca1931e991b3c53e61d20102ab0fdfff4dcf4b82bf77d17be8ae5b29e700e",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/06-graphic-01.svg",
+      "sha256": "259149a200fd1e657659748a2c8205a1cbd197350f476f6c8581a37d3ef02461",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/06-people-01.svg",
+      "sha256": "9da9b73cf38593d62140cc0cd1e37889fa3acfcd2e3f3e514cd0477b05e0e208",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/07-graphic-01.svg",
+      "sha256": "01943d882d0b32a36fa47b4f4a5fe7dc42c800d2d8eff7ceb53b1d2f150985b8",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/07-people-01.svg",
+      "sha256": "f022475846b9fe8940957a81ed1aba0a68506af852384d96a8caaddae89e27f4",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/08-graphic-01.svg",
+      "sha256": "cf0d13c3259a7012c4a8250f742542220b7f3167c49f4c8278fea7f2260ff025",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/08-people-01.svg",
+      "sha256": "c4174d304c17d74628d3706d57b3b47776cb5da92d3ac3877edde358040988ca",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/09-graphic-01.svg",
+      "sha256": "c14a0ff3687190ea2f77494d718c991489ae76dfb73a4df8c011fa024f2d351a",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/09-people-01.svg",
+      "sha256": "72d81f6a1ff2d412a80b4156c4194c76023a177ce56fab0772c82dbcd876bfa8",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/10-graphic-01.svg",
+      "sha256": "b3a18c825a70ccac91fc10d30f50f89e962ca08db258684d030001169990feea",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    },
+    {
+      "path": "assets/source-svg/10-people-01.svg",
+      "sha256": "3a73238198f9f31d76ccd1095a170162c656e599344916f7682ba2d5469e0870",
+      "rights_state": "owned",
+      "provenance": "Original current native text/vector composition or deterministic export. Unchanged project-generated imagery and licensed font dependencies use the preserved 20261105-evidence-v1 source/right ledgers.",
+      "limits": "Founder approval pending; fictional people are illustrative; no client outcome or media-rights transfer is implied."
+    }
+  ],
+  "shared_dependencies": "../20261105-evidence-v1/assets/source-art and source-fonts; unchanged prior public assets with exact hash lineage",
+  "verification": "All 60 PNG exports, ten five-page PDFs, 60 native SVGs and ten captions; source, evidence, PDF order and actual render QA are recorded separately. Text alternatives add sixty source-bound descriptions and all ten concept transcripts.",
+  "limits": [
+    "Skills do not predict virality.",
+    "Author, capability and final exact revision remain for founder review.",
+    "No new image generation, third-party media acquisition, collection, outreach sends or social posting."
+  ],
+  "accessibility_handoff": {
+    "alt_text_records": 60,
+    "concept_transcripts": 10,
+    "entry": "accessibility/README.md",
+    "limits": "Preparation only; no tagged-PDF, native LinkedIn or screen-reader compliance claim."
+  }
+}
