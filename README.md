@@ -1,3 +1,9 @@
+## LinkedIn writing methodology — 10 November 2026
+
+[Writing architecture v2](docs/LINKEDIN-WRITING-ARCHITECTURE.md) now defines fourteen publication patterns, hook-to-payoff design, claim-level evidence and reasoning, paragraph roles, endings and optional humor. [Reusable templates](docs/linkedin-writing/templates/README.md) and an [agent workflow](docs/linkedin-writing/AGENT-ROUTING.md) make the method actionable.
+
+[The ten current post structures](publications/20261110-writing-architecture/README.md) cover both November 5 draft variants, with preserved source hashes and a filled research-post example. This is a structure update for founder review. [Research, competitor coverage and limits](docs/linkedin-writing/RESEARCH-AND-REVIEW.md) distinguish official guidance, published research, the 61-account reference corpus and the three identified agencies. See the [dated execution record](reports/20261110-writing-methodology/README.md) for checks and remaining inputs.
+
 ## Current data and publication update — 5 November 2026
 
 [Review the ten new draft publications in two visual directions](publications/20261105-evidence-v1/README.md). The package contains five two-version carousels and five two-version single images. Its historical analysis is not the requested 100 newly collected posts.

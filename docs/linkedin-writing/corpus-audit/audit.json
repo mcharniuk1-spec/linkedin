@@ -1,0 +1,546 @@
+{
+  "schema": "linkedin-writing-corpus-coverage/2",
+  "audit_date": "2026-11-10",
+  "source_snapshot_commit": "9d54e58e85b5c90a8bc674c73b5e87d68baeb0a5",
+  "scope": "All 61 reference accounts and all 279 records in the selected historical public projection; structural coverage, missingness, topic, editorial job and media only.",
+  "input_files": {
+    "report": {
+      "path": "reports/20261105/data.json",
+      "bytes": 475018,
+      "sha256": "de853eb07d3971c28151dbe0f954dd7ea8c8faac946c34171b04b5896e691382",
+      "git_blob_sha1": "e213f6516ffaaa972e2ece474edd53c7ceacd18e",
+      "source_url": "https://github.com/mcharniuk1-spec/linkedin/blob/9d54e58e85b5c90a8bc674c73b5e87d68baeb0a5/reports/20261105/data.json"
+    },
+    "dataset": {
+      "path": "datasets/current/dataset.json",
+      "bytes": 2371469,
+      "sha256": "f8fff0ab3ee47f6d96ab6c4968c4864b78073bc25f75e8177a4f021b80a460b1",
+      "git_blob_sha1": "9238d20f91d16f5888625f78b9f08ebe4538be6b",
+      "source_url": "https://github.com/mcharniuk1-spec/linkedin/blob/9d54e58e85b5c90a8bc674c73b5e87d68baeb0a5/datasets/current/dataset.json"
+    },
+    "editorial_methods": {
+      "path": "editorial/sources/editorial-methods.json",
+      "bytes": 12740,
+      "sha256": "9bc69d9e0227d87480c60e13882fd5668f5391095e6fe3c2623706b9cf7de06b",
+      "git_blob_sha1": "ec37be9fa5b7153e5ffa9ef5554aea792644fcf4",
+      "source_url": "https://github.com/mcharniuk1-spec/linkedin/blob/9d54e58e85b5c90a8bc674c73b5e87d68baeb0a5/editorial/sources/editorial-methods.json"
+    },
+    "editorial_references": {
+      "path": "editorial/sources/references.json",
+      "bytes": 16942,
+      "sha256": "8fdf22242fd9e6ace516c9c01f165e03b5c634e6f70d8c62ed60c30fc9f1f028",
+      "git_blob_sha1": "8a4de6a5cfd565bd1c67ebbabd26a6b5b5ff62b0",
+      "source_url": "https://github.com/mcharniuk1-spec/linkedin/blob/9d54e58e85b5c90a8bc674c73b5e87d68baeb0a5/editorial/sources/references.json"
+    }
+  },
+  "source_context": {
+    "source_run_id": "20261022-linkedin-pipeline-v6",
+    "source_dataset_as_of": "2026-10-22",
+    "original_source_dataset_sha256": "a91235e87579ae4fd85656bca35e9e2297a10e9dd2ab70d235b28fc7f06f4d22",
+    "projection_boundary": "Field-allowlisted derived research. Original posts, raw captures, media bytes, full transcripts, device paths and private contacts are excluded. Hashes are source identities, not redistributed source bytes.",
+    "observations_are_historical": true,
+    "original_source_acquisition_in_this_audit": false,
+    "input_bytes_match_pinned_audit": true
+  },
+  "counts": {
+    "report_post_rows": 279,
+    "dataset_post_rows": 279,
+    "report_author_rows": 61,
+    "report_unique_author_keys": 61,
+    "dataset_unique_author_keys": 61,
+    "declared_author_post_total": 279,
+    "snapshot_metadata_rows": 477,
+    "asset_metadata_rows": 207,
+    "posts_with_asset_metadata": 143,
+    "nontext_posts_without_asset_metadata": 1,
+    "author_decision_rows": 38,
+    "accounts_with_author_decision": 38,
+    "accounts_without_author_decision": 23,
+    "author_type_missing_posts": 5,
+    "accounts_with_any_author_type_missing_posts": 5,
+    "original_post_bodies_available_in_projection": 0,
+    "full_source_close_readings_performed": 0,
+    "derived_claim_assessments_present": 279,
+    "derived_claim_caveats_present": 279,
+    "transcript_metadata_rows": 24,
+    "full_transcript_texts_available_in_projection": 0,
+    "original_media_files_available_in_projection": 0,
+    "prior_media_review_status_reviewed": 169,
+    "prior_media_review_status_absent": 38
+  },
+  "join_rules": {
+    "author_key_rule": "LinkedIn host verified; join on lower-case /in/<slug> or /company/<slug> pathname, removing trailing slash; original URLs retained.",
+    "post_key_rule": "Exact post ID; no approximate or fuzzy matching."
+  },
+  "structural_check_error_counts": {
+    "duplicate_dataset_post_ids": 0,
+    "duplicate_report_post_ids": 0,
+    "missing_dataset_post_id_rows": 0,
+    "missing_report_post_id_rows": 0,
+    "duplicate_report_author_keys": 0,
+    "dataset_ids_absent_from_report": 0,
+    "report_ids_absent_from_dataset": 0,
+    "report_author_key_missing_rows": 0,
+    "dataset_author_key_missing_rows": 0,
+    "report_author_join_orphans": 0,
+    "dataset_author_join_orphans": 0,
+    "author_post_count_mismatches": 0,
+    "cross_file_author_key_mismatches": 0,
+    "cross_file_author_name_mismatches": 0,
+    "cross_file_post_url_mismatches": 0,
+    "cross_file_topic_mismatches": 0,
+    "cross_file_editorial_job_mismatches": 0,
+    "report_media_class_vs_format_mismatches": 0,
+    "orphan_media_post_ids": 0,
+    "orphan_snapshot_post_ids": 0,
+    "author_decision_orphan_keys": 0,
+    "author_decision_source_post_orphans": 0
+  },
+  "field_coverage": {
+    "report": {
+      "post_id": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "url": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "author_name": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "author_url": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "author_type": {
+        "rows": 279,
+        "present_nonempty": 274,
+        "null_or_absent": 5,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 5
+      },
+      "topic": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "editorial_job": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "media_class": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "format": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "hook_pattern": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "text_status": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "messenger_role": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 279,
+        "semantic_missing": 279
+      },
+      "experience": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 279,
+        "semantic_missing": 279
+      },
+      "message_origin": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 279,
+        "semantic_missing": 279
+      }
+    },
+    "dataset_interpretation": {
+      "text_sha256": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "content_language": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "primary_topic": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "editorial_job": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "intended_reader": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "content_summary": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "hook_pattern": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "central_claim": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "reference_value": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "qualification_reason": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "media_role": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "media_evidence_basis": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "claim_caveat": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "adaptation_pattern": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      }
+    },
+    "dataset_post": {
+      "source_sha256": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      },
+      "original_post_distribution": {
+        "rows": 279,
+        "present_nonempty": 279,
+        "null_or_absent": 0,
+        "blank_or_empty_collection": 0,
+        "unknown_marker": 0,
+        "semantic_missing": 0
+      }
+    }
+  },
+  "prior_category_counts": {
+    "topic": {
+      "adjacent_humor": 6,
+      "ai_product_education": 34,
+      "buyer_research": 21,
+      "career_general": 5,
+      "content_personal_brand": 53,
+      "customer_proof": 3,
+      "demand_generation": 27,
+      "events_community": 13,
+      "founder_building": 23,
+      "leadership_team": 14,
+      "positioning_messaging": 41,
+      "sales_outbound": 39
+    },
+    "editorial_job": {
+      "announce_offer": 63,
+      "build_in_public": 8,
+      "challenge_belief": 46,
+      "entertain": 6,
+      "show_proof": 23,
+      "start_discussion": 6,
+      "teach_method": 91,
+      "tell_story": 36
+    },
+    "media_class": {
+      "document": 9,
+      "image": 111,
+      "text": 135,
+      "video": 24
+    },
+    "author_type": {
+      "__missing__": 5,
+      "Organization": 36,
+      "Person": 238
+    },
+    "source_text_status": {
+      "captured_dom_completeness_unverified": 279
+    },
+    "original_post_distribution": {
+      "full_text_retained_locally": 279
+    },
+    "media_evidence_basis": {
+      "absent": 135,
+      "existing_review": 121,
+      "unavailable_when_held": 1,
+      "v5_direct_asset_review_or_sampled_video_with_captions": 17,
+      "v6_direct_full_image_review": 5
+    },
+    "asset_kind": {
+      "captions": 14,
+      "document_preview": 27,
+      "image": 118,
+      "poster": 24,
+      "video": 24
+    },
+    "media_distribution": {
+      "original_bytes_retained_locally": 207
+    },
+    "transcript_distribution": {
+      "retained_locally_not_published": 24
+    },
+    "author_decision": {
+      "approve_reference": 36,
+      "exclude": 1,
+      "hold": 1
+    }
+  },
+  "public_schema": {
+    "post_keys": [
+      "attributed_urn",
+      "author",
+      "captured_at",
+      "cycle",
+      "id",
+      "interpretation",
+      "original_post_distribution",
+      "performance",
+      "published_at",
+      "source_sha256",
+      "url"
+    ],
+    "interpretation_keys": [
+      "adaptation_pattern",
+      "central_claim",
+      "claim_caveat",
+      "content_language",
+      "content_summary",
+      "editorial_job",
+      "hook_pattern",
+      "intended_reader",
+      "media_evidence_basis",
+      "media_role",
+      "pattern_representative",
+      "primary_topic",
+      "qualification_reason",
+      "reference_value",
+      "secondary_topics",
+      "text_sha256",
+      "variant_group_id"
+    ],
+    "original_body_fields_detected": false
+  },
+  "historical_reference_resolution": {
+    "requested": 12,
+    "reference_entries": 34,
+    "resolved": 5,
+    "unresolved_count": 7,
+    "unresolved": [
+      "LI-FEED-2026",
+      "LI-NEWSLETTER-FAQ",
+      "LI-B2B-CONTENT-STUDY",
+      "LI-INDIVIDUAL-V-CORP",
+      "LI-FEED-SR-PAPER",
+      "LI-ENGAGEMENT-PREDICTORS-2025",
+      "SOCIALINSIDER-2026"
+    ]
+  },
+  "metadata_availability_gaps": [
+    {
+      "post_id": "urn:li:activity:7488486895841136641",
+      "author_name": "Grameen HealthTech Limited",
+      "post_url": "https://www.linkedin.com/posts/grameen-healthtech-limited_were-hiring-kam-sales-operations-department-activity-7488486895841136641-98n9",
+      "media_class": "image",
+      "media_evidence_basis": "unavailable_when_held",
+      "reason": "Non-text format label is present, but the public dataset has no acquired asset metadata for this post."
+    }
+  ],
+  "authority_boundaries": [
+    "This audit covers the existing selected frozen V6 public projection only, not all LinkedIn accounts, posts, or current practice.",
+    "Source run 20261022-linkedin-pipeline-v6; source observations were recorded 20–22 October 2026. Report generation on 5 November does not change observation dates.",
+    "A report row or prior derived assessment is not proof that the current auditor read the original post.",
+    "All public post text statuses are captured_dom_completeness_unverified; a text hash is identity metadata, not available source text or verified completeness.",
+    "A central_claim value is a prior editorial assessment; its presence does not establish the author's claim is true or causally supported.",
+    "169 reviewed media statuses describe historical metadata. The present audit did not view media, listen to audio, or review full transcripts.",
+    "Reference-account fit is separate from competitor identity, prospect fit, expressed need, buying interest, and verified expertise.",
+    "No reaction, comment, follower, rank, reach, conversion, or performance effect is calculated, exported, or inferred in this audit.",
+    "The old seven unresolved IDs are a local mapping gap, not proof that the corresponding external works do not exist.",
+    "The historical input files are unchanged. This package adds derived coverage outputs only.",
+    "No LinkedIn source acquisition, private workbook inspection, collector change, skill installation or social publication is part of this package.",
+    "Only existing public source URLs and prior derived availability fields appear in the row exports; no post bodies or claim-summary text are reproduced."
+  ],
+  "migration_recommendations": [
+    {
+      "id": "M1",
+      "recommendation": "Preserve original corpus, post IDs, author URLs, hashes, observation dates and uncertainty labels. Store new annotations in a versioned sidecar keyed by post_id.",
+      "reason": "A new writing methodology must not rewrite historical source or inherit fresh-review authority."
+    },
+    {
+      "id": "M2",
+      "recommendation": "Carry topic, editorial_job and media_class as prior source-coded categories. Add separate pattern_id, moves/paragraph roles, warrant, evidence role, scope and narrative perspective only when reviewed source supports them.",
+      "reason": "Topic, job, medium, structure and author perspective are different dimensions."
+    },
+    {
+      "id": "M3",
+      "recommendation": "Keep messenger_role, experience and message_origin explicitly unknown for all 279 until new bounded source review. Do not impute these labels from teach_method/tell_story or account type.",
+      "reason": "Every report row contains not_coded_in_source for these fields."
+    },
+    {
+      "id": "M4",
+      "recommendation": "Require source_text_available, completeness_status, reviewer, reviewed_at, source_hash, evidence_locator and review_scope for any future close-reading annotation.",
+      "reason": "All 279 public original bodies are withheld and DOM completeness is unverified."
+    },
+    {
+      "id": "M5",
+      "recommendation": "Reuse existing claim summaries and adaptation patterns as hypotheses or navigation aids. Distinguish derived description, author claim, checked fact, inference and original example.",
+      "reason": "A complete assessment column is not independently verified evidence."
+    },
+    {
+      "id": "M6",
+      "recommendation": "Resolve or remove the seven old unresolved source IDs in a new canon provenance map; preserve the original dated record.",
+      "reason": "12 IDs are requested, but only 5 resolve in the sibling 34-entry references file."
+    },
+    {
+      "id": "M7",
+      "recommendation": "Maintain separate registers for the 61 reference accounts, the 15 commercial competitors awaiting their source register, and the 20 prospects. Do not repurpose author_decisions as competitor proof.",
+      "reason": "The three populations answer different questions."
+    },
+    {
+      "id": "M8",
+      "recommendation": "Compare new patterns by source fitness and writing quality. Use distributions here only for coverage planning; no recommended format mix or success ranking follows.",
+      "reason": "Counts describe the selected corpus and are not experiments or market coverage."
+    }
+  ],
+  "record_exports": {
+    "accounts": {
+      "path": "docs/linkedin-writing/corpus-audit/accounts.csv",
+      "rows": 61,
+      "grain": "one reference account"
+    },
+    "posts": {
+      "path": "docs/linkedin-writing/corpus-audit/posts.csv",
+      "rows": 279,
+      "grain": "one post ID"
+    },
+    "gap_reason_definition": {
+      "original_text_not_distributed__dom_completeness_unverified": "Only prior derived assessment and source identity metadata are available; original post text is retained outside the public projection and DOM completeness remains unverified."
+    }
+  }
+}

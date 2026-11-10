@@ -1,0 +1,132 @@
+schema: linkedin-publication-brief/2
+method:
+  version: "2.0"
+  architecture: docs/LINKEDIN-WRITING-ARCHITECTURE.md
+  pattern_registry: docs/linkedin-writing/patterns.json
+
+publication:
+  id: ""
+  revision: ""
+  working_title: ""
+  status: architecture_draft
+  context: "" # agency | client
+  language: ""
+  proposed_author: ""
+  editor: ""
+  requested_output: "" # skeleton | draft | revision
+  allowed_output_paths: [] # repository-relative; define before delegation
+
+scope:
+  task_objective: ""
+  in_scope: []
+  excluded_actions:
+    - social_posting
+    - scheduling
+    - outreach
+    - ads
+  new_source_acquisition_authorized: false
+  source_access_constraints: ""
+  public_export: false
+
+reader:
+  role_and_situation: ""
+  prior_knowledge: ""
+  concrete_question: ""
+  reader_job: "" # what the reader should understand, evaluate, decide or attempt
+  practical_stakes: ""
+  commercial_role: "" # optional; awareness | consideration | qualification | offer
+
+composition:
+  topic: ""
+  editorial_job: "" # teach_method | challenge_belief | show_proof | build_in_public | tell_story | announce_offer | start_discussion | entertain
+  pattern_id: "" # choose exactly one dominant P01–P14 from the registry
+  pattern_selection_reason: ""
+  evidence_burden_met: false
+  lower_burden_alternative_if_needed: ""
+  central_point_in_plain_language: ""
+  central_point_type: "" # observation | inference | recommendation | forecast | recollection | question
+  meaningful_boundary: ""
+  hook_promise: ""
+  promised_payoff: ""
+  ending_job: "" # conclusion | decision_rule | application | uncertainty | discussion | offer
+
+media:
+  format: "" # text | single_image | document_carousel | short_video | article | newsletter | poll
+  role: "" # explain | demonstrate | compare | illustrate | none
+  caption_and_media_relationship: ""
+  essential_information_in_accessible_text: ""
+  format_constraints:
+    checked_at: null
+    source_locator: ""
+    actual_preview_status: not_performed
+  required_assets: []
+  panel_or_scene_functions: [] # functions, not a mandatory number of panels
+
+voice:
+  source_examples: [] # approved author material; use locators
+  stance_and_point_of_view: ""
+  characteristic_vocabulary: []
+  sentence_and_paragraph_rhythm: ""
+  technical_detail_level: ""
+  uncertainty_style: ""
+  phrases_to_preserve: []
+  phrases_to_avoid: []
+  protected_copy_source: ""
+  first_person_wording_requires_confirmation: true
+  optional_humor:
+    enabled: false
+    purpose: ""
+    author_fit_evidence: ""
+    target_and_boundary: ""
+    fictional_scene_disclosure: ""
+
+source_packet:
+  packet_id: ""
+  version_or_hash: ""
+  source_ids: []
+  access_summary: ""
+  known_gaps: []
+  originals_retained_in_approved_store: false
+
+source_claim_needs:
+  - claim_id: ""
+    proposed_claim: ""
+    claim_type: ""
+    minimum_evidence: ""
+    source_ids: []
+    source_access: not_accessed
+    support_status: unverified
+    warrant_to_explain: ""
+    boundary_or_alternative: ""
+    permission_status: pending
+    disposition: hold
+
+founder_story:
+  required_for_selected_pattern: false
+  confirmation_status: not_requested
+  confirming_author: ""
+  confirmed_at: null
+  evidence_locator: ""
+  situation_and_date: ""
+  goal_and_constraint_then: ""
+  actual_alternatives: []
+  actual_decision: ""
+  reason_with_information_available_then: ""
+  observed_consequence: ""
+  present_interpretation: ""
+  details_withheld_or_unconfirmed: []
+  permission_for_shared_details: pending
+
+audience_response:
+  needed: false
+  purpose: ""
+  question_or_action: ""
+  why_a_response_would_help: ""
+  approved_offer_or_cta_source: ""
+
+handoff:
+  required_files: []
+  unresolved_items_and_owner: []
+  author_review_status: pending
+  editor_review_status: pending
+  publication_authorization: outside_this_task

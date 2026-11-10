@@ -1,3 +1,9 @@
+# LinkedIn writing architecture — 10 November 2026
+
+[Methodology v2](docs/LINKEDIN-WRITING-ARCHITECTURE.md), fourteen publication patterns, reusable templates and [ten current structure updates](publications/20261110-writing-architecture/README.md) are prepared for founder review under OUTSP-45. The update covers composition, evidence, reasoning, hooks, endings and humor. It preserves the original November 5 caption/media packages. The 279-post/61-account corpus is historical; three agency sources were reviewed and the remaining twelve identities from the earlier fifteen-agency study remain unresolved. [Execution and verification](reports/20261110-writing-methodology/README.md).
+
+The latest collection status remains the [5 November security-verification hold](docs/COLLECTOR-ACCESS-HOLD-20261105.md). The historical activation records below do not override that hold.
+
 # Collection/report update —31October2026
 
 Current authority is collection every30minutes. Source/readiness and actual activation are separate: see [dated activation evidence](reports/20261031/ACTIVATION.md). The [visual sample report](reports/20261031/index.html) and [short explanation](reports/20261031/README.md) cover279assessed posts/61accounts using counters captured20–22October. New collection is a private pending queue. Official LinkedIn post reads lack approved scopes. No automatic media/semantic analysis or social publishing.

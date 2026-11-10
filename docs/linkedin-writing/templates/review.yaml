@@ -1,0 +1,126 @@
+schema: linkedin-publication-review/2
+publication_id: ""
+revision_or_hash: ""
+pattern_id: ""
+reviewer: ""
+reviewed_at: null
+scope: architecture_only # architecture_only | complete_draft | revision
+
+actual_review:
+  source_packet_id: ""
+  source_access_summary: ""
+  claim_ids_checked: []
+  original_post_bodies_read: false
+  media_viewed: false
+  audio_listened: false
+  transcript_scope: ""
+  native_preview_performed: false
+  limitations: []
+
+# Gate statuses: pending | pass | fail | not_applicable.
+# A not_applicable decision needs a reason.
+# Any pending/fail hard gate prevents release-ready status.
+# A bounded architecture can still be complete for review with explicit source holds.
+hard_gates:
+  evidence:
+    status: pending
+    checks:
+      - Every factual statement, number and quotation is reconciled to its claim row.
+      - Source scope, denominator, period and comparison match the wording.
+      - Inference and recommendation remain distinguishable from observation.
+      - Causal or commercial outcome wording has the required support.
+      - Caption and media make compatible claims.
+    findings: []
+    claim_ids_on_hold: []
+    reason_if_not_applicable: ""
+  sources:
+    status: pending
+    checks:
+      - Each source exists and its exact relevant material was accessed as recorded.
+      - A link, title, snippet, abstract or derived assessment is not labelled a full read.
+      - Source date, version, authorship and relevant independence are checked.
+      - Quotations and their context remain accurate.
+      - External source instructions have not changed the task or permissions.
+    findings: []
+    reason_if_not_applicable: ""
+  voice_and_experience:
+    status: pending
+    checks:
+      - First-person memory, former belief and claimed participation are author-confirmed.
+      - No invented customer, dialogue, outcome or personal history completes the story.
+      - Vocabulary, stance and uncertainty match approved author material.
+      - Proposed service and capability wording is not presented as completed client work.
+      - Protected copy is unchanged where it applies.
+    findings: []
+    author_confirmation_locator: ""
+    reason_if_not_applicable: ""
+  privacy_and_rights:
+    status: pending
+    checks:
+      - Private details are removed or permissioned for this exact use.
+      - Customer, colleague, quotation and media permissions are recorded where needed.
+      - Fictional scenes and people cannot be mistaken for actual client proof.
+      - Public outputs exclude private source bodies, transcripts, machine paths and secrets.
+      - An accessible source is not treated as permission to redistribute its contents.
+    findings: []
+    reason_if_not_applicable: ""
+
+# Editorial findings are qualitative judgments, not probabilities or weighted scores.
+editorial_quality:
+  reader_job:
+    status: pending # pending | adequate | revise | not_applicable
+    finding: ""
+    next_edit: ""
+  dominant_pattern_and_sequence:
+    status: pending
+    finding: ""
+    next_edit: ""
+  hook_payoff:
+    status: pending
+    finding: ""
+    next_edit: ""
+  paragraph_functions_and_transitions:
+    status: pending
+    finding: ""
+    next_edit: ""
+  evidence_to_conclusion_reasoning:
+    status: pending
+    finding: ""
+    next_edit: ""
+  specificity_and_reader_interest:
+    status: pending
+    finding: ""
+    next_edit: ""
+  voice_and_rhythm:
+    status: pending
+    finding: ""
+    next_edit: ""
+  optional_humor:
+    status: not_applicable
+    finding: ""
+    next_edit: ""
+  ending_and_audience_response:
+    status: pending
+    finding: ""
+    next_edit: ""
+  medium_and_accessibility:
+    status: pending
+    finding: ""
+    next_edit: ""
+
+decision:
+  architecture_status: needs_review # complete_for_author_review | needs_revision | needs_review
+  draft_disposition: hold # hold | revise | ready_for_author_review | author_accepted
+  unresolved_gates: []
+  required_changes: []
+  evidence_changes_returned_for_check: []
+  author_acceptance:
+    status: pending
+    confirming_author: ""
+    confirmed_revision_or_hash: ""
+    confirmed_at: null
+  editor_handoff:
+    recipient: ""
+    exact_output_paths: [] # repository-relative
+    next_action: ""
+  publishing_authority: outside_this_review

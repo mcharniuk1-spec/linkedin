@@ -2,6 +2,8 @@
 
 # A practical category system for founder-led publications
 
+Composition extension, 10 November 2026: use [writing architecture v2](LINKEDIN-WRITING-ARCHITECTURE.md) to choose a **publication pattern** separately from the topic, editorial job, medium and voice. The [pattern library](linkedin-writing/PATTERN-LIBRARY.md) defines the sequence and evidence burden for fourteen types. The dated category observations below remain preserved.
+
 Use separate labels for **subject**, **editorial job** and **format**. A video is a format, not a topic. A founder story can teach a positioning lesson; its main topic is the decision the reader should understand. Assign one primary topic and only useful secondary topics.
 
 | Primary topic | Include when the main point is… | A useful original founder publication |

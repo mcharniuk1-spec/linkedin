@@ -28,6 +28,8 @@ See [SERVICE-CATALOGUE.md](SERVICE-CATALOGUE.md) for the dated proposed operatio
 
 ## Writing workflow
 
+For LinkedIn composition, use the current [writing architecture v2](LINKEDIN-WRITING-ARCHITECTURE.md), [fourteen publication patterns](linkedin-writing/PATTERN-LIBRARY.md) and [ready-to-copy templates](linkedin-writing/templates/README.md). They extend this service workflow with paragraph roles, hook/payoff design, claim-level proof, reasoning, endings and optional humor. The [agent workflow](linkedin-writing/AGENT-ROUTING.md) distinguishes used instructions from historical skill references.
+
 1. Define the reader, buying situation, decision and post/page job. Use evidence and actual buyer language; do not infer buying interest from low LinkedIn activity.
 2. Assemble an approved source pack: source IDs/dates/rights, exact facts and quotes, founder point of view, product limitations, proof strength and unresolved claims. Preserve source originals.
 3. Prepare a voice brief before drafting: vocabulary, sentence rhythm, viewpoint, degree of detail, opinions, examples, exclusions and exact protected wording. Use permissioned founder examples rather than imitating another creator.

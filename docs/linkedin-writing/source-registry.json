@@ -1,0 +1,1643 @@
+{
+  "schema": "linkedin-writing-source-registry/2.0",
+  "title": "LinkedIn writing architecture — source registry",
+  "verified_on": "2026-11-10",
+  "scope": "Reusable writing patterns and composition architecture; no publication, outreach, collector recovery or new creator-post acquisition.",
+  "verification_scope": "Verified_on records this review and its stated access level. It does not assert full-text inspection where access was partial, independent replication or current operational access.",
+  "type_key": {
+    "P": "Policy or rule; scope-bound normative documentation.",
+    "D": "Platform self-description, including documented system behavior, features and metric definitions.",
+    "G": "Editorial guidance; not automatically a causal finding.",
+    "M": "Promotional quantitative claim; methodology and independence must be assessed.",
+    "E": "Original editorial synthesis; a proposed method, not an empirically validated distribution formula.",
+    "T": "Primary scholarly research or theoretical account; context and access limits retained.",
+    "B": "Provider first-party description of its own service or case.",
+    "C": "Preserved derived corpus interpretation, not a newly inspected original post.",
+    "L": "Local project record or deterministic descriptive measurement."
+  },
+  "source_counts": {
+    "canonical_platform": 20,
+    "canonical_theory": 9,
+    "provider_pages": 3,
+    "preserved_corpus_interpretations": 8,
+    "local_project_records": 4,
+    "total": 44
+  },
+  "sources": [
+    {
+      "id": "L2-O01",
+      "title": "LinkedIn Professional Community Policies",
+      "url": "https://www.linkedin.com/legal/professional-community-policies",
+      "type": "P",
+      "claim_types": [
+        "P"
+      ],
+      "publisher": "LinkedIn",
+      "access": "opened_official_primary",
+      "verified_on": "2026-11-10",
+      "publication_date": null,
+      "finding": "LinkedIn documents expectations for professional expression, authentic identity, misleading material and artificial engagement.",
+      "finding_ids": [
+        "LWR-F01"
+      ],
+      "limitations": [
+        "Policy scope does not supply a formula for effective composition or prove a content-performance effect."
+      ],
+      "date_note": "Only explicitly displayed absolute publication dates are recorded; relative Help update labels were not converted into dates."
+    },
+    {
+      "id": "L2-O02",
+      "title": "Best practices for content created with the help of AI",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a1481496",
+      "type": "G",
+      "claim_types": [
+        "G",
+        "P"
+      ],
+      "publisher": "LinkedIn",
+      "access": "opened_official_primary",
+      "verified_on": "2026-11-10",
+      "publication_date": null,
+      "finding": "LinkedIn permits AI writing assistance while expecting genuine perspective, member review and responsibility; it recommends disclosure of substantial AI assistance when that involvement is not obvious.",
+      "finding_ids": [
+        "LWR-F01"
+      ],
+      "limitations": [
+        "A recommendation to disclose is not represented here as a universal disclosure mandate.",
+        "An analytics tip or stylistic suspicion is not by itself a policy determination."
+      ],
+      "date_note": "Only explicitly displayed absolute publication dates are recorded; relative Help update labels were not converted into dates."
+    },
+    {
+      "id": "L2-O03",
+      "title": "How LinkedIn Is Improving the Feed to Show More Relevant, Authentic Professional Content",
+      "url": "https://news.linkedin.com/2026/ImprovingTheFeed",
+      "type": "D",
+      "claim_types": [
+        "D"
+      ],
+      "publisher": "LinkedIn",
+      "access": "opened_official_primary",
+      "verified_on": "2026-11-10",
+      "publication_date": "2026-03-12",
+      "finding": "LinkedIn describes personalized professional relevance and efforts to reduce generic repetition and engagement bait.",
+      "finding_ids": [
+        "LWR-F02",
+        "LWR-F10"
+      ],
+      "limitations": [
+        "A first-party product announcement does not disclose all ranking weights or guarantee distribution for a writing pattern."
+      ],
+      "date_note": "Only explicitly displayed absolute publication dates are recorded; relative Help update labels were not converted into dates."
+    },
+    {
+      "id": "L2-O04",
+      "title": "Engineering the next generation of LinkedIn’s Feed",
+      "url": "https://www.linkedin.com/blog/engineering/feed/engineering-the-next-generation-of-linkedins-feed",
+      "type": "D",
+      "claim_types": [
+        "D"
+      ],
+      "publisher": "LinkedIn",
+      "access": "opened_official_primary",
+      "verified_on": "2026-11-10",
+      "publication_date": "2026-03-12",
+      "finding": "LinkedIn describes semantic retrieval and sequential ranking using professional identity, interaction history and other signals; popularity inputs remain part of the account.",
+      "finding_ids": [
+        "LWR-F02"
+      ],
+      "limitations": [
+        "Exact production weights, stability and individual-post outcomes are not established by this technical description."
+      ],
+      "date_note": "Only explicitly displayed absolute publication dates are recorded; relative Help update labels were not converted into dates."
+    },
+    {
+      "id": "L2-O05",
+      "title": "How LinkedIn is Continuing to Tackle AI Slop",
+      "url": "https://news.linkedin.com/2026/how-linkedin-is-tackling-ai-slop",
+      "type": "D",
+      "claim_types": [
+        "D",
+        "M"
+      ],
+      "publisher": "LinkedIn",
+      "access": "opened_official_primary",
+      "verified_on": "2026-11-10",
+      "publication_date": "2026-09-15",
+      "finding": "LinkedIn describes generic-content classifiers, user feedback and proofreading-oriented tooling, alongside its own reported reduction in views of classified content.",
+      "finding_ids": [
+        "LWR-F02"
+      ],
+      "limitations": [
+        "Effectiveness figures are platform self-reports, not independent validation or a prediction for an individual author."
+      ],
+      "date_note": "Only explicitly displayed absolute publication dates are recorded; relative Help update labels were not converted into dates."
+    },
+    {
+      "id": "L2-O06",
+      "title": "The Technology Behind LinkedIn’s Fight Against AI Slop",
+      "url": "https://www.linkedin.com/pulse/technology-behind-linkedins-fight-against-ai-slop-tim-jurka-7ojbc",
+      "type": "D",
+      "claim_types": [
+        "D",
+        "M"
+      ],
+      "publisher": "LinkedIn",
+      "access": "opened_before_hold_notice_official_linked_article",
+      "verified_on": "2026-11-10",
+      "publication_date": "2026-10-08",
+      "finding": "The LinkedIn-linked technical article describes teacher/student classifiers, human-review feedback and claimed coverage and precision in detecting low-value AI content.",
+      "finding_ids": [
+        "LWR-F02"
+      ],
+      "limitations": [
+        "Opened before the project hold notice as an official linked technical source; creator-post acquisition was subsequently stopped.",
+        "Reported precision is not the probability that any particular post is correctly labeled; recall and target-audience validity are separate questions.",
+        "The effectiveness figures are first-party reports."
+      ],
+      "date_note": "Only explicitly displayed absolute publication dates are recorded; relative Help update labels were not converted into dates."
+    },
+    {
+      "id": "L2-O07",
+      "title": "CREATE — A guide to creating engaging LinkedIn posts",
+      "url": "https://members.linkedin.com/create-start",
+      "type": "G",
+      "claim_types": [
+        "G"
+      ],
+      "publisher": "LinkedIn",
+      "access": "opened_partial_text_extraction",
+      "verified_on": "2026-11-10",
+      "publication_date": null,
+      "finding": "Extracted creator guidance names an engaging opening and several topic families including expertise, career lessons and professional experiences.",
+      "finding_ids": [
+        "LWR-F03"
+      ],
+      "limitations": [
+        "Partial text extraction only; carousel or video material was not fully inspected.",
+        "No optimal opening-character count or causal distribution formula is established."
+      ],
+      "date_note": "Only explicitly displayed absolute publication dates are recorded; relative Help update labels were not converted into dates."
+    },
+    {
+      "id": "L2-O08",
+      "title": "Build your voice by sharing content on LinkedIn FAQ",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a7134086",
+      "type": "G",
+      "claim_types": [
+        "G",
+        "M"
+      ],
+      "publisher": "LinkedIn",
+      "access": "opened_official_primary",
+      "verified_on": "2026-11-10",
+      "publication_date": null,
+      "finding": "LinkedIn recommends useful takeaways and a distinctive professional perspective, and promotes a twice-weekly posting/profile-view association.",
+      "finding_ids": [
+        "LWR-F03",
+        "LWR-F09"
+      ],
+      "limitations": [
+        "The promotional frequency statement lacks a disclosed causal design and is not an optimum for this project.",
+        "Format suggestions do not establish a universal best-performing medium."
+      ],
+      "date_note": "Only explicitly displayed absolute publication dates are recorded; relative Help update labels were not converted into dates."
+    },
+    {
+      "id": "L2-O09",
+      "title": "Tips for writing articles on LinkedIn",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a516913/",
+      "type": "G",
+      "claim_types": [
+        "G"
+      ],
+      "publisher": "LinkedIn",
+      "access": "opened_official_primary",
+      "verified_on": "2026-11-10",
+      "publication_date": null,
+      "finding": "LinkedIn recommends focused expertise, concrete examples and draft feedback for articles.",
+      "finding_ids": [
+        "LWR-F04"
+      ],
+      "limitations": [
+        "Generic claims about successful articles do not establish causality.",
+        "Older word-count language is not used as a current technical limit."
+      ],
+      "date_note": "Only explicitly displayed absolute publication dates are recorded; relative Help update labels were not converted into dates."
+    },
+    {
+      "id": "L2-O10",
+      "title": "Post and share updates",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a527226?hcppcid=search",
+      "type": "D",
+      "claim_types": [
+        "D"
+      ],
+      "publisher": "LinkedIn",
+      "access": "opened_official_primary",
+      "verified_on": "2026-11-10",
+      "publication_date": null,
+      "finding": "The post composer documentation covers a 3,000-character limit, drafts, native scheduling and audience/comment controls.",
+      "finding_ids": [
+        "LWR-F07"
+      ],
+      "limitations": [
+        "A maximum length is not an optimal length.",
+        "Availability and variable posting restrictions should be rechecked for the account at publication time."
+      ],
+      "date_note": "Only explicitly displayed absolute publication dates are recorded; relative Help update labels were not converted into dates."
+    },
+    {
+      "id": "L2-O11",
+      "title": "Post analytics for your content",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a6538517",
+      "type": "D",
+      "claim_types": [
+        "D"
+      ],
+      "publisher": "LinkedIn",
+      "access": "opened_official_primary",
+      "verified_on": "2026-11-10",
+      "publication_date": null,
+      "finding": "LinkedIn defines approximate impressions, distinct members reached, profile and engagement actions, and link metrics, with counting and privacy qualifications.",
+      "finding_ids": [
+        "LWR-F08"
+      ],
+      "limitations": [
+        "Own actions and repeat actions can affect some measures.",
+        "Views and engagement do not independently measure comprehension, trust, buyer fit, sales or causal contribution."
+      ],
+      "date_note": "Only explicitly displayed absolute publication dates are recorded; relative Help update labels were not converted into dates."
+    },
+    {
+      "id": "L2-O12",
+      "title": "Write and publish articles on LinkedIn",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a522427",
+      "type": "D",
+      "claim_types": [
+        "D"
+      ],
+      "publisher": "LinkedIn",
+      "access": "opened_official_primary",
+      "verified_on": "2026-11-10",
+      "publication_date": null,
+      "finding": "Article authoring supports structured long-form content, formatting, links, media, previews, draft sharing and native scheduling.",
+      "finding_ids": [
+        "LWR-F07"
+      ],
+      "limitations": [
+        "Documented feature availability is not evidence that articles outperform posts.",
+        "Authoring-device availability is product-specific and may change."
+      ],
+      "date_note": "Only explicitly displayed absolute publication dates are recorded; relative Help update labels were not converted into dates."
+    },
+    {
+      "id": "L2-O13",
+      "title": "Newsletters on LinkedIn FAQ",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a517914/newsletters-on-linkedin-faq?lang=en",
+      "type": "D",
+      "claim_types": [
+        "D"
+      ],
+      "publisher": "LinkedIn",
+      "access": "opened_official_primary",
+      "verified_on": "2026-11-10",
+      "publication_date": null,
+      "finding": "Personal newsletters organize a recurring article series; following and subscribing are different actions, and notification channels have qualifications.",
+      "finding_ids": [
+        "LWR-F07"
+      ],
+      "limitations": [
+        "Personal-member and Page rules differ.",
+        "Notification behavior is not guaranteed delivery or readership."
+      ],
+      "date_note": "Only explicitly displayed absolute publication dates are recorded; relative Help update labels were not converted into dates."
+    },
+    {
+      "id": "L2-O14",
+      "title": "Upload and share documents on LinkedIn",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a518909",
+      "type": "D",
+      "claim_types": [
+        "D"
+      ],
+      "publisher": "LinkedIn",
+      "access": "opened_official_primary",
+      "verified_on": "2026-11-10",
+      "publication_date": null,
+      "finding": "Document guidance lists supported formats, size/page limits, PDF downloadability and limitations on replacing an uploaded file.",
+      "finding_ids": [
+        "LWR-F07"
+      ],
+      "limitations": [
+        "A document can improve explanation without receiving a guaranteed distribution advantage.",
+        "A visible preview is not evidence that the whole document was read."
+      ],
+      "date_note": "Only explicitly displayed absolute publication dates are recorded; relative Help update labels were not converted into dates."
+    },
+    {
+      "id": "L2-O15",
+      "title": "Visibility of shared posts",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a523141",
+      "type": "D",
+      "claim_types": [
+        "D"
+      ],
+      "publisher": "LinkedIn",
+      "access": "opened_official_primary",
+      "verified_on": "2026-11-10",
+      "publication_date": null,
+      "finding": "Audience settings can make shared posts available to anyone, including people outside LinkedIn; visibility choices have editing restrictions.",
+      "finding_ids": [
+        "LWR-F08"
+      ],
+      "limitations": [
+        "Availability is not an impression, a distinct reader or evidence of audience relevance."
+      ],
+      "date_note": "Only explicitly displayed absolute publication dates are recorded; relative Help update labels were not converted into dates."
+    },
+    {
+      "id": "L2-O16",
+      "title": "Prohibited software and extensions",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a1341387/",
+      "type": "P",
+      "claim_types": [
+        "P"
+      ],
+      "publisher": "LinkedIn",
+      "access": "opened_official_primary",
+      "verified_on": "2026-11-10",
+      "publication_date": null,
+      "finding": "LinkedIn restricts unauthorized scraping, automated activity, prohibited extensions and attempts to bypass access controls.",
+      "finding_ids": [
+        "LWR-F11"
+      ],
+      "limitations": [
+        "Native product functions and separately authorized interfaces must be distinguished from unauthorized automation.",
+        "This research does not authorize new collection or change the project hold."
+      ],
+      "date_note": "Only explicitly displayed absolute publication dates are recorded; relative Help update labels were not converted into dates."
+    },
+    {
+      "id": "L2-O17",
+      "title": "Publishing platform guidelines",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a519782/",
+      "type": "G",
+      "claim_types": [
+        "G",
+        "P"
+      ],
+      "publisher": "LinkedIn",
+      "access": "opened_official_primary_redirect",
+      "verified_on": "2026-11-10",
+      "publication_date": null,
+      "finding": "Publishing-platform guidance addresses article suitability, public distribution, author responsibility and source rights.",
+      "finding_ids": [
+        "LWR-F07"
+      ],
+      "limitations": [
+        "Article-specific restrictions must not be generalized to every post format.",
+        "The accessed official URL followed a redirect."
+      ],
+      "date_note": "Only explicitly displayed absolute publication dates are recorded; relative Help update labels were not converted into dates."
+    },
+    {
+      "id": "L2-O18",
+      "title": "What We’re Doing to Support Authentic Content and Conversations on LinkedIn",
+      "url": "https://news.linkedin.com/2026/authentic-content-and-conversations",
+      "type": "P",
+      "claim_types": [
+        "P",
+        "D"
+      ],
+      "publisher": "LinkedIn",
+      "access": "opened_official_primary",
+      "verified_on": "2026-11-10",
+      "publication_date": "2026-03-13",
+      "finding": "LinkedIn states that engagement pods and automated comments are disallowed and describes distribution or account enforcement.",
+      "finding_ids": [
+        "LWR-F10",
+        "LWR-F11"
+      ],
+      "limitations": [
+        "This establishes a documented boundary, not a quantified forecast of enforcement on a particular post or account."
+      ],
+      "date_note": "Only explicitly displayed absolute publication dates are recorded; relative Help update labels were not converted into dates."
+    },
+    {
+      "id": "L2-O19",
+      "title": "INSIGHTS — A curated look at trending topics and guidance for shaping conversation",
+      "url": "https://members.linkedin.com/create-insights",
+      "type": "G",
+      "claim_types": [
+        "G"
+      ],
+      "publisher": "LinkedIn",
+      "access": "opened_partial_text_extraction_linked_post_resources_not_opened",
+      "verified_on": "2026-11-10",
+      "publication_date": null,
+      "finding": "The official resource hub exposes titles for guidance on formats, links and related creator questions.",
+      "finding_ids": [
+        "LWR-F09"
+      ],
+      "limitations": [
+        "Partial extraction only; the linked videos and post resources were not opened.",
+        "Titles alone are not evidence of the advice or its effectiveness."
+      ],
+      "date_note": "Only explicitly displayed absolute publication dates are recorded; relative Help update labels were not converted into dates."
+    },
+    {
+      "id": "L2-O20",
+      "title": "Best practices for sharing content on LinkedIn",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a523414",
+      "type": "G",
+      "claim_types": [
+        "G"
+      ],
+      "publisher": "LinkedIn",
+      "access": "opened_official_primary",
+      "verified_on": "2026-11-10",
+      "publication_date": null,
+      "finding": "The Help page points members to the official Create on LinkedIn guidance.",
+      "finding_ids": [
+        "LWR-F09"
+      ],
+      "limitations": [
+        "A resource pointer establishes provenance, not an independent performance result."
+      ],
+      "date_note": "Only explicitly displayed absolute publication dates are recorded; relative Help update labels were not converted into dates."
+    },
+    {
+      "id": "LWT01",
+      "title": "The Psychology of Curiosity: A Review and Reinterpretation",
+      "url": "https://www.cmu.edu/dietrich/sds/docs/loewenstein/PsychofCuriosity.pdf",
+      "type": "T",
+      "claim_types": [
+        "T"
+      ],
+      "authors": [
+        "George Loewenstein"
+      ],
+      "year": 1994,
+      "venue": "Psychological Bulletin, 116(1), 75–98",
+      "doi": "10.1037/0033-2909.116.1.75",
+      "access": "Selected scanned pages inspected; full scan available, not a cover-to-cover reading.",
+      "verified_on": "2026-11-10",
+      "finding": "The information-gap account describes curiosity in relation to a perceived difference between present and desired knowledge.",
+      "finding_ids": [
+        "LWR-F03"
+      ],
+      "limitations": [
+        "A theoretical synthesis rather than one empirical LinkedIn test.",
+        "Does not prescribe an optimal hook length or amount of withheld information.",
+        "Application to the project is editorial synthesis, not direct causal evidence for LinkedIn writing.",
+        "No separate comprehensive corrections, retractions or replication audit was performed."
+      ]
+    },
+    {
+      "id": "LWT02",
+      "title": "The Wick in the Candle of Learning: Epistemic Curiosity Activates Reward Circuitry and Enhances Memory",
+      "url": "https://authors.library.caltech.edu/records/9f1n0-x0z52",
+      "type": "T",
+      "claim_types": [
+        "T"
+      ],
+      "authors": [
+        "Min Jeong Kang",
+        "Ming Hsu",
+        "Ian M. Krajbich",
+        "George Loewenstein",
+        "Samuel M. McClure",
+        "Joseph Tao-yi Wang",
+        "Colin F. Camerer"
+      ],
+      "year": 2009,
+      "venue": "Psychological Science, 20(8), 963–973",
+      "doi": "10.1111/j.1467-9280.2009.02402.x",
+      "access": "Full author proof available; relevant methods, findings and discussion inspected.",
+      "verified_on": "2026-11-10",
+      "finding": "Laboratory trivia studies relate stated curiosity to willingness to obtain answers and later recall of initially unknown answers.",
+      "finding_ids": [
+        "LWR-F03"
+      ],
+      "limitations": [
+        "Small student samples and important correlational relationships.",
+        "Not a test of professional-post openings, long-term trust or LinkedIn outcomes.",
+        "Application to the project is editorial synthesis, not direct causal evidence for LinkedIn writing.",
+        "No separate comprehensive corrections, retractions or replication audit was performed."
+      ],
+      "full_text_url": "https://neuroecon.berkeley.edu/public/papers/Psychol%20Sci%202009%20Kang.pdf"
+    },
+    {
+      "id": "LWT03",
+      "title": "When curiosity gaps backfire: effects of headline concreteness on information selection decisions",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11704130/",
+      "type": "T",
+      "claim_types": [
+        "T"
+      ],
+      "authors": [
+        "Marianne Aubin Le Quéré",
+        "J. Nathan Matias"
+      ],
+      "year": 2025,
+      "venue": "Scientific Reports, 15, 994",
+      "doi": "10.1038/s41598-024-81575-9",
+      "access": "Open full text; design, confirmatory findings and limitations inspected.",
+      "verified_on": "2026-11-10",
+      "finding": "A registered analysis of 8,977 Upworthy tests finds that the relationship between headline concreteness and selection varies with the comparison headlines' average concreteness.",
+      "finding_ids": [
+        "LWR-F03"
+      ],
+      "limitations": [
+        "Headline variants were tested, but concreteness was measured rather than independently randomized as an isolated property.",
+        "One publisher, largely US English-language audience and historical 2013–2015 context.",
+        "Click-through is not trust, sales or LinkedIn engagement; do not transfer numerical scale thresholds.",
+        "Application to the project is editorial synthesis, not direct causal evidence for LinkedIn writing.",
+        "No separate comprehensive corrections, retractions or replication audit was performed."
+      ]
+    },
+    {
+      "id": "LWT04",
+      "title": "How Concrete Language Shapes Customer Satisfaction",
+      "url": "https://schulich.yorku.ca/faculty/grant-packard/",
+      "type": "T",
+      "claim_types": [
+        "T"
+      ],
+      "authors": [
+        "Grant Packard",
+        "Jonah Berger"
+      ],
+      "year": 2021,
+      "venue": "Journal of Consumer Research, 47(5), 787–806",
+      "doi": "10.1093/jcr/ucaa038",
+      "access": "Author abstract on the official York University page inspected; full publisher text unavailable.",
+      "verified_on": "2026-11-10",
+      "finding": "The authors report that concrete language in customer-service interactions can affect perceived attentiveness, satisfaction and purchasing.",
+      "finding_ids": [
+        "LWR-F04"
+      ],
+      "limitations": [
+        "Abstract-level access; full procedures and all sample details were not independently audited.",
+        "Customer service differs from a public professional post; no sales-lift promise follows.",
+        "Application to the project is editorial synthesis, not direct causal evidence for LinkedIn writing.",
+        "No separate comprehensive corrections, retractions or replication audit was performed."
+      ],
+      "publisher_url": "https://academic.oup.com/jcr/article/47/5/787/5873524"
+    },
+    {
+      "id": "LWT05",
+      "title": "Truth From Language and Truth From Fit: The Impact of Linguistic Concreteness and Level of Construal on Subjective Truth",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20947772/",
+      "type": "T",
+      "claim_types": [
+        "T"
+      ],
+      "authors": [
+        "Jochim Hansen",
+        "Michaela Wänke"
+      ],
+      "year": 2010,
+      "venue": "Personality and Social Psychology Bulletin, 36(11), 1576–1588",
+      "doi": "10.1177/0146167210386238",
+      "access": "PubMed author abstract inspected; full text unavailable.",
+      "verified_on": "2026-11-10",
+      "finding": "The abstract reports that concrete versions of equivalent statements were judged more likely to be true, with additional construal-fit effects.",
+      "finding_ids": [
+        "LWR-F04"
+      ],
+      "limitations": [
+        "Abstract-level access; complete methods and sample selection were not inspected.",
+        "Subjective truth judgments do not establish factual truth.",
+        "Application to the project is editorial synthesis, not direct causal evidence for LinkedIn writing.",
+        "No separate comprehensive corrections, retractions or replication audit was performed."
+      ]
+    },
+    {
+      "id": "LWT06",
+      "title": "Language Abstraction in Word of Mouth",
+      "url": "https://repub.eur.nl/pub/20390",
+      "type": "T",
+      "claim_types": [
+        "T"
+      ],
+      "authors": [
+        "Gaby A. C. Schellekens",
+        "Peeter W. J. Verlegh",
+        "Ale Smidts"
+      ],
+      "year": 2010,
+      "venue": "Journal of Consumer Research, 37(2), 207–223",
+      "doi": "10.1086/651240",
+      "access": "Author abstract in the university repository inspected; linked publisher full text unavailable.",
+      "verified_on": "2026-11-10",
+      "finding": "The abstract reports that abstraction in positive and negative word-of-mouth recommendations influenced inferred attitudes and purchase intention.",
+      "finding_ids": [
+        "LWR-F04"
+      ],
+      "limitations": [
+        "Abstract-level access; full procedures and sample sizes not inspected.",
+        "Purchase intention is not an observed purchase; abstract language is not uniformly inferior.",
+        "Application to the project is editorial synthesis, not direct causal evidence for LinkedIn writing.",
+        "No separate comprehensive corrections, retractions or replication audit was performed."
+      ]
+    },
+    {
+      "id": "LWT07",
+      "title": "The Role of Transportation in the Persuasiveness of Public Narratives",
+      "url": "https://researchconnect.buffalo.edu/en/publications/the-role-of-transportation-in-the-persuasiveness-of-public-narrat/",
+      "type": "T",
+      "claim_types": [
+        "T"
+      ],
+      "authors": [
+        "Melanie C. Green",
+        "Timothy C. Brock"
+      ],
+      "year": 2000,
+      "venue": "Journal of Personality and Social Psychology, 79(5), 701–721",
+      "doi": "10.1037/0022-3514.79.5.701",
+      "access": "Full journal article in a public third-party copy; bibliography checked against an institutional record; relevant methods, findings and discussion inspected.",
+      "verified_on": "2026-11-10",
+      "finding": "Narrative transportation was associated with story-consistent beliefs and character evaluations; a successful instruction manipulation in one experiment reduced these outcomes.",
+      "finding_ids": [
+        "LWR-F05"
+      ],
+      "limitations": [
+        "A limited set of narratives and student samples.",
+        "Not a direct stories-versus-data test or LinkedIn experiment.",
+        "Persuasiveness does not validate the story's factual or general causal claim.",
+        "Application to the project is editorial synthesis, not direct causal evidence for LinkedIn writing.",
+        "No separate comprehensive corrections, retractions or replication audit was performed."
+      ],
+      "full_text_url": "https://weatherhypepodcast.com/uploads/1/0/8/8/10887248/the_role_of_transportation_in_the_persuasiveness_of_public_narratives.pdf"
+    },
+    {
+      "id": "LWT08",
+      "title": "Risky Business: When Humor Increases and Decreases Status",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27831701/",
+      "type": "T",
+      "claim_types": [
+        "T"
+      ],
+      "authors": [
+        "T. Bradford Bitterly",
+        "Alison Wood Brooks",
+        "Maurice E. Schweitzer"
+      ],
+      "year": 2017,
+      "venue": "Journal of Personality and Social Psychology, 112(3), 431–455",
+      "doi": "10.1037/pspi0000079",
+      "access": "Full online-first article in a public third-party copy; bibliography checked against PubMed; relevant methods, results and future-directions sections inspected.",
+      "verified_on": "2026-11-10",
+      "finding": "Appropriate successful humor could improve status; inappropriate humor could create costs. Failed humor did not produce a statistically significant negative effect in every comparison.",
+      "finding_ids": [
+        "LWR-F06"
+      ],
+      "limitations": [
+        "Short jokes, recalled experiences and controlled scenarios do not establish an effect for this audience or writing format.",
+        "The method does not interpret every failed joke as a proven loss of credibility.",
+        "Application to the project is editorial synthesis, not direct causal evidence for LinkedIn writing.",
+        "No separate comprehensive corrections, retractions or replication audit was performed."
+      ],
+      "full_text_url": "https://content.lesaffaires.com/LAF/lacom/Risky_Business_Joke.pdf"
+    },
+    {
+      "id": "LWT09",
+      "title": "The impression management benefits of humorous self-disclosures: How humor influences perceptions of veracity",
+      "url": "https://faculty.wharton.upenn.edu/wp-content/uploads/2020/02/The-impression-management-benefits-of-humorous-self-disclosures-How-humor-influences-perceptions-of-veracity..pdf",
+      "type": "T",
+      "claim_types": [
+        "T"
+      ],
+      "authors": [
+        "T. Bradford Bitterly",
+        "Maurice E. Schweitzer"
+      ],
+      "year": 2019,
+      "venue": "Organizational Behavior and Human Decision Processes, 151, 73–89",
+      "doi": "10.1016/j.obhdp.2019.01.005",
+      "access": "Full author-hosted PDF; relevant methods, results and limitations inspected.",
+      "verified_on": "2026-11-10",
+      "finding": "Humorous negative self-disclosure could improve perceived warmth or competence while reducing perceived truthfulness of nearby negative disclosures.",
+      "finding_ids": [
+        "LWR-F06"
+      ],
+      "limitations": [
+        "The studies do not establish the same effect for all positive claims, distant paragraphs or unsuccessful humor.",
+        "No general trust or LinkedIn-distribution increase is inferred.",
+        "Application to the project is editorial synthesis, not direct causal evidence for LinkedIn writing.",
+        "No separate comprehensive corrections, retractions or replication audit was performed."
+      ]
+    },
+    {
+      "id": "L2-B01",
+      "title": "About Windmill Growth",
+      "url": "https://windmillgrowth.com/about",
+      "type": "B",
+      "claim_types": [
+        "B"
+      ],
+      "publisher": "Windmill Growth",
+      "access": "Official company page opened; process sections inspected.",
+      "verified_on": "2026-11-10",
+      "finding": "The company describes founder interviews about decisions, lessons and opinions, followed by voice-based drafting and client review.",
+      "finding_ids": [
+        "LWR-F14"
+      ],
+      "limitations": [
+        "First-party service description, not independent evidence of effectiveness.",
+        "Only the interview, writing and review architecture is transferred; outreach and account operations are outside this review."
+      ]
+    },
+    {
+      "id": "L2-B02",
+      "title": "Hat Tip — Ammo Studio case study",
+      "url": "https://tryhattip.com/cases/ammo",
+      "type": "B",
+      "claim_types": [
+        "B",
+        "M"
+      ],
+      "publisher": "Hat Tip",
+      "access": "Official case-study page opened; workflow and outcome claims inspected.",
+      "verified_on": "2026-11-10",
+      "finding": "The provider describes content buckets, biweekly interviews, content production and weekly client review, alongside reported social results.",
+      "finding_ids": [
+        "LWR-F14"
+      ],
+      "limitations": [
+        "A provider-written case with self-reported outcomes and concurrent distribution activity.",
+        "No controlled comparison or independent attribution audit establishes an effect of the writing method.",
+        "Publishing, engagement and outreach practices are not imported as approved operating instructions."
+      ]
+    },
+    {
+      "id": "L2-B03",
+      "title": "SalesBread — LinkedIn lead generation agency",
+      "url": "https://salesbread.com/",
+      "type": "B",
+      "claim_types": [
+        "B",
+        "M"
+      ],
+      "publisher": "SalesBread",
+      "access": "Official company homepage opened; service, process and research descriptions inspected.",
+      "verified_on": "2026-11-10",
+      "finding": "The page primarily describes personalized LinkedIn and email outbound, including sales research and manual prospect-specific copy.",
+      "finding_ids": [
+        "LWR-F15"
+      ],
+      "limitations": [
+        "Adjacent outbound service, not evidence of an organic founder-content competitor's effectiveness.",
+        "Reader-specific research is the bounded methodological transfer; lead promises and operating practices are not adopted.",
+        "Presence of an additional content service does not make the homepage outcomes organic-content attribution evidence."
+      ]
+    },
+    {
+      "id": "L2-C01",
+      "title": "April Dunford — preserved diagnostic prework checklist interpretation",
+      "url": "https://www.linkedin.com/posts/aprildunford_you-dont-want-to-start-any-positioning-work-activity-7422666982032056322-QbQr",
+      "type": "C",
+      "claim_types": [
+        "C",
+        "E"
+      ],
+      "access": "Preserved derived assessment inspected locally; original LinkedIn resource not reacquired.",
+      "verified_on": "2026-11-10",
+      "finding": "Four decisions should precede a positioning workshop: readiness, intended audience, product scope and buying persona.",
+      "finding_ids": [
+        "LWR-F12"
+      ],
+      "limitations": [
+        "No copied post body is present in the checkout.",
+        "Semantic fields are previous interpretations, not newly verified source facts.",
+        "No exact paragraph sequence, quotation or comedic timing is certified.",
+        "Not representative or a performance ranking.",
+        "The prior interpretation below is preserved as a historical assessment rather than certified as a fresh source observation."
+      ],
+      "recorded_post_id": "urn:li:activity:7422666982032056322",
+      "author_name_as_recorded": "April Dunford",
+      "preserved_record_path": "datasets/current/dataset.json",
+      "preserved_record_selector": "posts[id=urn:li:activity:7422666982032056322]",
+      "recorded_publication_time": "2026-01-29T15:48:34.980Z",
+      "recorded_capture_time": "2026-10-20T18:00:06.892429+00:00",
+      "source_sha256": "ab6971cae5d37bb07cf547685b55f7fd8d0f378a02c137314a0de71d00532a0c",
+      "text_sha256": "74f73197a39bf47fc316c0558ba1a64d31d17171d24d93e1741405a14f658cff",
+      "source_original_status_as_recorded": "full_text_retained_locally",
+      "prior_interpretation": {
+        "text_sha256": "74f73197a39bf47fc316c0558ba1a64d31d17171d24d93e1741405a14f658cff",
+        "content_language": "English",
+        "primary_topic": "positioning_messaging",
+        "secondary_topics": [],
+        "editorial_job": "teach_method",
+        "intended_reader": "B2B founders and go-to-market leaders",
+        "content_summary": "Four decisions should precede a positioning workshop: readiness, intended audience, product scope and buying persona.",
+        "hook_pattern": "Preventive warning followed by four diagnostic questions.",
+        "central_claim": "A team should agree the job and scope before crafting its positioning.",
+        "reference_value": "core",
+        "qualification_reason": "Directly relevant to small AI SaaS teams whose founder, product and sales narratives can conflict. The questions provide a usable preparation checklist.",
+        "media_role": "No acquired visual; the numbered questions carry the structure.",
+        "media_evidence_basis": "absent",
+        "claim_caveat": "This is practitioner guidance; the claimed consequences and experience are not a controlled outcome study.",
+        "adaptation_pattern": "Turn a real positioning decision into a founder checklist. Explain one disagreement, the evidence used and the decision before proposing polished wording.",
+        "variant_group_id": null,
+        "pattern_representative": true
+      },
+      "new_editorial_pattern_hypothesis": "diagnostic_prework_checklist",
+      "proposed_pattern_ids": [
+        "P05"
+      ],
+      "performance_status_as_recorded": "insufficient_comparable_sample",
+      "publication_date_conflict_as_recorded": false,
+      "parser_receipts": [
+        {
+          "snapshot_id": "364af176800b87375b68f5df8c1c9738281c9f19a48f8662f33be4a37bd7842e",
+          "captured_at": "2026-10-20T18:00:06.892429+00:00",
+          "capture_kind": "baseline_import",
+          "parser_version": "0.3.0",
+          "parser_sha256": "8e49f97c8274a8b47d74907e7221f88e4e9f79361683fdbf5b7ca91a8318f330",
+          "raw_sha256": "ab6971cae5d37bb07cf547685b55f7fd8d0f378a02c137314a0de71d00532a0c",
+          "date_status": "verified_source_date",
+          "normalization_provenance": {
+            "kind": "derived_reparse_not_new_observation",
+            "source_run": "20261020-linkedin-100-post-pilot-v2",
+            "source_parser_version": "0.2.1",
+            "original_observed_at": "2026-10-20T18:00:06.892429+00:00",
+            "raw_sha256": "ab6971cae5d37bb07cf547685b55f7fd8d0f378a02c137314a0de71d00532a0c"
+          }
+        },
+        {
+          "snapshot_id": "70147bc6d8222d44194d298975f521704d177d62fe07bebaccab25dfce98e9a3",
+          "captured_at": "2026-10-22T10:06:21.422643+00:00",
+          "capture_kind": "reobservation",
+          "parser_version": "0.3.0",
+          "parser_sha256": "8e49f97c8274a8b47d74907e7221f88e4e9f79361683fdbf5b7ca91a8318f330",
+          "raw_sha256": "09d53228412dbfd1257617854eaa4d7578393a73118e67bb811bc706787d45fa",
+          "date_status": "verified_source_date",
+          "normalization_provenance": {
+            "kind": "derived_reparse_not_new_observation",
+            "source_run": "20261022-linkedin-pipeline-v4",
+            "source_parser_version": "0.3.0",
+            "original_observed_at": "2026-10-22T10:06:21.422643+00:00",
+            "raw_sha256": "09d53228412dbfd1257617854eaa4d7578393a73118e67bb811bc706787d45fa"
+          }
+        }
+      ]
+    },
+    {
+      "id": "L2-C02",
+      "title": "April Dunford — preserved two branch diagnosis interpretation",
+      "url": "https://www.linkedin.com/posts/aprildunford_one-of-the-most-common-questions-i-get-is-activity-7242555636188676097-b937",
+      "type": "C",
+      "claim_types": [
+        "C",
+        "E"
+      ],
+      "access": "Preserved derived assessment inspected locally; original LinkedIn resource not reacquired.",
+      "verified_on": "2026-11-10",
+      "finding": "A differentiation question becomes a diagnosis of genuine sameness versus internal failure to understand value customers already perceive.",
+      "finding_ids": [
+        "LWR-F12"
+      ],
+      "limitations": [
+        "No copied post body is present in the checkout.",
+        "Semantic fields are previous interpretations, not newly verified source facts.",
+        "No exact paragraph sequence, quotation or comedic timing is certified.",
+        "Not representative or a performance ranking.",
+        "The prior interpretation below is preserved as a historical assessment rather than certified as a fresh source observation."
+      ],
+      "recorded_post_id": "urn:li:activity:7242555636188676097",
+      "author_name_as_recorded": "April Dunford",
+      "preserved_record_path": "datasets/current/dataset.json",
+      "preserved_record_selector": "posts[id=urn:li:activity:7242555636188676097]",
+      "recorded_publication_time": "2024-09-19T15:30:23.815Z",
+      "recorded_capture_time": "2026-10-20T18:00:04.365837+00:00",
+      "source_sha256": "5e66b2144117722bdf62decd5046f45b5517f9b00012f41fabee631053407af6",
+      "text_sha256": "e1878d1396ce90571e30855f1e3e394e7058d4a867ae31823892949ce73e3a7e",
+      "source_original_status_as_recorded": "full_text_retained_locally",
+      "prior_interpretation": {
+        "text_sha256": "e1878d1396ce90571e30855f1e3e394e7058d4a867ae31823892949ce73e3a7e",
+        "content_language": "English",
+        "primary_topic": "positioning_messaging",
+        "secondary_topics": [],
+        "editorial_job": "teach_method",
+        "intended_reader": "B2B founders and product-marketing teams",
+        "content_summary": "A differentiation question becomes a diagnosis of genuine sameness versus internal failure to understand value customers already perceive.",
+        "hook_pattern": "Common client question followed by a two-branch diagnosis.",
+        "central_claim": "Positioning cannot invent value, but cross-functional evidence can expose differentiation a team has overlooked.",
+        "reference_value": "core",
+        "qualification_reason": "Directly applicable to AI SaaS messaging and workshop preparation. The failure-mode list makes a broad positioning problem actionable.",
+        "media_role": "Prior-reviewed diagnostic table organizes problems, descriptions and remedies; dense cell wording was not fully audited.",
+        "media_evidence_basis": "existing_review",
+        "claim_caveat": "The framework reflects practitioner experience, not proof of prevalence. Customer preference must be verified rather than inferred from the table.",
+        "adaptation_pattern": "Document one won deal and its real alternatives, then connect the winning capability to buyer value. Use a compact diagnostic grid only when each row adds a distinct decision.",
+        "variant_group_id": null,
+        "pattern_representative": true
+      },
+      "new_editorial_pattern_hypothesis": "two_branch_diagnosis",
+      "proposed_pattern_ids": [
+        "P05",
+        "P07"
+      ],
+      "performance_status_as_recorded": "insufficient_comparable_sample",
+      "publication_date_conflict_as_recorded": false,
+      "parser_receipts": [
+        {
+          "snapshot_id": "d6530e8eb889b2a3636d45fdd746fcc9112c3d868ae893a19395278c48630042",
+          "captured_at": "2026-10-20T18:00:04.365837+00:00",
+          "capture_kind": "baseline_import",
+          "parser_version": "0.3.0",
+          "parser_sha256": "8e49f97c8274a8b47d74907e7221f88e4e9f79361683fdbf5b7ca91a8318f330",
+          "raw_sha256": "5e66b2144117722bdf62decd5046f45b5517f9b00012f41fabee631053407af6",
+          "date_status": "verified_source_date",
+          "normalization_provenance": {
+            "kind": "derived_reparse_not_new_observation",
+            "source_run": "20261020-linkedin-100-post-pilot-v2",
+            "source_parser_version": "0.2.1",
+            "original_observed_at": "2026-10-20T18:00:04.365837+00:00",
+            "raw_sha256": "5e66b2144117722bdf62decd5046f45b5517f9b00012f41fabee631053407af6"
+          }
+        },
+        {
+          "snapshot_id": "95dfded82d4df9f5e697c222aebd845bdf9e21878623ad88d94bc660315c4a30",
+          "captured_at": "2026-10-22T10:06:11.400031+00:00",
+          "capture_kind": "reobservation",
+          "parser_version": "0.3.0",
+          "parser_sha256": "8e49f97c8274a8b47d74907e7221f88e4e9f79361683fdbf5b7ca91a8318f330",
+          "raw_sha256": "7659dd0ffe9fe09971d8b10958b5d86119f24d99cd16ce67873130482dc1fa5a",
+          "date_status": "verified_source_date",
+          "normalization_provenance": {
+            "kind": "derived_reparse_not_new_observation",
+            "source_run": "20261022-linkedin-pipeline-v4",
+            "source_parser_version": "0.3.0",
+            "original_observed_at": "2026-10-22T10:06:11.400031+00:00",
+            "raw_sha256": "7659dd0ffe9fe09971d8b10958b5d86119f24d99cd16ce67873130482dc1fa5a"
+          }
+        }
+      ]
+    },
+    {
+      "id": "L2-C03",
+      "title": "Amanda Natividad — preserved learning story interpretation",
+      "url": "https://www.linkedin.com/posts/amandanat_the-inflection-point-that-started-my-zero-activity-7477430092319584256-a1R5",
+      "type": "C",
+      "claim_types": [
+        "C",
+        "E"
+      ],
+      "access": "Preserved derived assessment inspected locally; original LinkedIn resource not reacquired.",
+      "verified_on": "2026-11-10",
+      "finding": "An early corporate-wellness marketing experience explains why informed buyers need different content from beginners searching high-volume definitions.",
+      "finding_ids": [
+        "LWR-F12"
+      ],
+      "limitations": [
+        "No copied post body is present in the checkout.",
+        "Semantic fields are previous interpretations, not newly verified source facts.",
+        "No exact paragraph sequence, quotation or comedic timing is certified.",
+        "Not representative or a performance ranking.",
+        "The prior interpretation below is preserved as a historical assessment rather than certified as a fresh source observation."
+      ],
+      "recorded_post_id": "urn:li:activity:7477430092319584256",
+      "author_name_as_recorded": "Amanda Natividad",
+      "preserved_record_path": "datasets/current/dataset.json",
+      "preserved_record_selector": "posts[id=urn:li:activity:7477430092319584256]",
+      "recorded_publication_time": "2026-06-29T18:37:37.921Z",
+      "recorded_capture_time": "2026-10-20T18:00:52.702559+00:00",
+      "source_sha256": "e429ea79b2cec66e8686ede99b696417bf126be1dde24f2d6687e4bd2db30850",
+      "text_sha256": "9b5c2ff77efc6f75c05e7da46bad50d55e8b4d4bf219537787b0f74e89413e64",
+      "source_original_status_as_recorded": "full_text_retained_locally",
+      "prior_interpretation": {
+        "text_sha256": "9b5c2ff77efc6f75c05e7da46bad50d55e8b4d4bf219537787b0f74e89413e64",
+        "content_language": "English",
+        "primary_topic": "buyer_research",
+        "secondary_topics": [],
+        "editorial_job": "tell_story",
+        "intended_reader": "B2B founders and content strategists",
+        "content_summary": "An early corporate-wellness marketing experience explains why informed buyers need different content from beginners searching high-volume definitions.",
+        "hook_pattern": "Career origin story reveals the flaw in an obvious SEO plan.",
+        "central_claim": "Useful content starts with the audience’s existing knowledge and buying constraints, not only search volume.",
+        "reference_value": "core",
+        "qualification_reason": "Directly useful for AI SaaS founder content because knowledgeable evaluators need implementation, risk and internal-buying answers rather than generic definitions.",
+        "media_role": "Text-only; the contrast between a keyword plan and buyer realities gives the structure.",
+        "media_evidence_basis": "absent",
+        "claim_caveat": "The story supports a strategic hypothesis, not evidence that beginner search content never converts or that zero-click content guarantees demand.",
+        "adaptation_pattern": "Interview buyers about the questions they face after understanding the category. Turn one implementation or approval obstacle into a specific post with an evidence-based answer.",
+        "variant_group_id": null,
+        "pattern_representative": true
+      },
+      "new_editorial_pattern_hypothesis": "learning_story",
+      "proposed_pattern_ids": [
+        "P03"
+      ],
+      "performance_status_as_recorded": "insufficient_comparable_sample",
+      "publication_date_conflict_as_recorded": false,
+      "parser_receipts": [
+        {
+          "snapshot_id": "de7b99f2c0aaa2fa3c8e3054ee1bcbafeabbc43e869cd3ea6f03ff9945e04c86",
+          "captured_at": "2026-10-20T18:00:52.702559+00:00",
+          "capture_kind": "baseline_import",
+          "parser_version": "0.3.0",
+          "parser_sha256": "8e49f97c8274a8b47d74907e7221f88e4e9f79361683fdbf5b7ca91a8318f330",
+          "raw_sha256": "e429ea79b2cec66e8686ede99b696417bf126be1dde24f2d6687e4bd2db30850",
+          "date_status": "verified_source_date",
+          "normalization_provenance": {
+            "kind": "derived_reparse_not_new_observation",
+            "source_run": "20261020-linkedin-100-post-pilot-v2",
+            "source_parser_version": "0.2.1",
+            "original_observed_at": "2026-10-20T18:00:52.702559+00:00",
+            "raw_sha256": "e429ea79b2cec66e8686ede99b696417bf126be1dde24f2d6687e4bd2db30850"
+          }
+        },
+        {
+          "snapshot_id": "21056dd29991ddad5bb3155a744a156b2c312574ce65caf3357d358f87fe7ac3",
+          "captured_at": "2026-10-22T10:06:32.046659+00:00",
+          "capture_kind": "reobservation",
+          "parser_version": "0.3.0",
+          "parser_sha256": "8e49f97c8274a8b47d74907e7221f88e4e9f79361683fdbf5b7ca91a8318f330",
+          "raw_sha256": "a0f31d8cdbfec8d95b5ed1ab2fe3a5c1ac7e3244ff00e8ff4aeb799f28e3a291",
+          "date_status": "verified_source_date",
+          "normalization_provenance": {
+            "kind": "derived_reparse_not_new_observation",
+            "source_run": "20261022-linkedin-pipeline-v4",
+            "source_parser_version": "0.3.0",
+            "original_observed_at": "2026-10-22T10:06:32.046659+00:00",
+            "raw_sha256": "a0f31d8cdbfec8d95b5ed1ab2fe3a5c1ac7e3244ff00e8ff4aeb799f28e3a291"
+          }
+        }
+      ]
+    },
+    {
+      "id": "L2-C04",
+      "title": "Peep Laja — preserved survey led argument interpretation",
+      "url": "https://www.linkedin.com/posts/peeplaja_youre-pitching-to-the-wrong-person-we-activity-7425146200825159681-3Zqx",
+      "type": "C",
+      "claim_types": [
+        "C",
+        "E"
+      ],
+      "access": "Preserved derived assessment inspected locally; original LinkedIn resource not reacquired.",
+      "verified_on": "2026-11-10",
+      "finding": "A survey-based argument says many CMOs join vendor selection late, so messaging should also serve the team building the shortlist.",
+      "finding_ids": [
+        "LWR-F12"
+      ],
+      "limitations": [
+        "No copied post body is present in the checkout.",
+        "Semantic fields are previous interpretations, not newly verified source facts.",
+        "No exact paragraph sequence, quotation or comedic timing is certified.",
+        "Not representative or a performance ranking.",
+        "The prior interpretation below is preserved as a historical assessment rather than certified as a fresh source observation."
+      ],
+      "recorded_post_id": "urn:li:activity:7425146200825159681",
+      "author_name_as_recorded": "Peep Laja",
+      "preserved_record_path": "datasets/current/dataset.json",
+      "preserved_record_selector": "posts[id=urn:li:activity:7425146200825159681]",
+      "recorded_publication_time": "2026-02-05T12:00:06.803Z",
+      "recorded_capture_time": "2026-10-20T17:59:43.281718+00:00",
+      "source_sha256": "920d05f99213fc2111afe8f933716c69d77fa10cfa0580cc8ccc93f13e95cec6",
+      "text_sha256": "6904a10ac20ef8f12d48e16f95f14f0c9a8f7ef6ccabac5ba4129d9fbd9a2de9",
+      "source_original_status_as_recorded": "full_text_retained_locally",
+      "prior_interpretation": {
+        "text_sha256": "6904a10ac20ef8f12d48e16f95f14f0c9a8f7ef6ccabac5ba4129d9fbd9a2de9",
+        "content_language": "English",
+        "primary_topic": "buyer_research",
+        "secondary_topics": [],
+        "editorial_job": "show_proof",
+        "intended_reader": "B2B SaaS marketers and sellers targeting executive buyers",
+        "content_summary": "A survey-based argument says many CMOs join vendor selection late, so messaging should also serve the team building the shortlist.",
+        "hook_pattern": "Direct accusation followed by sample size and surprising percentages.",
+        "central_claim": "Influencing researchers and users can matter before an executive validates the final options.",
+        "reference_value": "core",
+        "qualification_reason": "Strongly relevant to defining the audience for founder content: users, champions and decision makers have different information needs.",
+        "media_role": "Text-only; percentages, a respondent quotation and buying-process detail act as evidence cues.",
+        "media_evidence_basis": "absent",
+        "claim_caveat": "The survey methodology, representativeness and causal impact of retargeting are not validated in this record; do not repeat percentages as universal facts.",
+        "adaptation_pattern": "Use your own buyer interviews to map who discovers, evaluates and approves. Build posts answering a specific champion question and link to the evidence.",
+        "variant_group_id": null,
+        "pattern_representative": true
+      },
+      "new_editorial_pattern_hypothesis": "survey_led_argument",
+      "proposed_pattern_ids": [
+        "P06"
+      ],
+      "performance_status_as_recorded": "insufficient_comparable_sample",
+      "publication_date_conflict_as_recorded": false,
+      "parser_receipts": [
+        {
+          "snapshot_id": "29a4ea3b5edfc349c0b32b83c89c3e3bfd26584cf50ce0944ca03d84abd18157",
+          "captured_at": "2026-10-20T17:59:43.281718+00:00",
+          "capture_kind": "baseline_import",
+          "parser_version": "0.3.0",
+          "parser_sha256": "8e49f97c8274a8b47d74907e7221f88e4e9f79361683fdbf5b7ca91a8318f330",
+          "raw_sha256": "920d05f99213fc2111afe8f933716c69d77fa10cfa0580cc8ccc93f13e95cec6",
+          "date_status": "verified_source_date",
+          "normalization_provenance": {
+            "kind": "derived_reparse_not_new_observation",
+            "source_run": "20261020-linkedin-100-post-pilot-v2",
+            "source_parser_version": "0.2.1",
+            "original_observed_at": "2026-10-20T17:59:43.281718+00:00",
+            "raw_sha256": "920d05f99213fc2111afe8f933716c69d77fa10cfa0580cc8ccc93f13e95cec6"
+          }
+        },
+        {
+          "snapshot_id": "053aa8d78f2ce0a35ddd021fc07d60abcdbab661b6e1ae26725e17c95c416c1e",
+          "captured_at": "2026-10-22T10:05:27.485522+00:00",
+          "capture_kind": "reobservation",
+          "parser_version": "0.3.0",
+          "parser_sha256": "8e49f97c8274a8b47d74907e7221f88e4e9f79361683fdbf5b7ca91a8318f330",
+          "raw_sha256": "9d6dd3332f21a614e85a71034b8a11fcd52e266379a74c110ce6492e36a5f4cf",
+          "date_status": "verified_source_date",
+          "normalization_provenance": {
+            "kind": "derived_reparse_not_new_observation",
+            "source_run": "20261022-linkedin-pipeline-v4",
+            "source_parser_version": "0.3.0",
+            "original_observed_at": "2026-10-22T10:05:27.485522+00:00",
+            "raw_sha256": "9d6dd3332f21a614e85a71034b8a11fcd52e266379a74c110ce6492e36a5f4cf"
+          }
+        }
+      ]
+    },
+    {
+      "id": "L2-C05",
+      "title": "Will Aitken — preserved bounded work log interpretation",
+      "url": "https://www.linkedin.com/posts/justwillaitken_a-seller-crawling-in-confusion-moves-further-activity-7511754411224784896-FQk7",
+      "type": "C",
+      "claim_types": [
+        "C",
+        "E"
+      ],
+      "access": "Preserved derived assessment inspected locally; original LinkedIn resource not reacquired.",
+      "verified_on": "2026-11-10",
+      "finding": "Reports a first calling session with a funnel of dials, connects, conversations and meetings plus two deal anecdotes.",
+      "finding_ids": [
+        "LWR-F12"
+      ],
+      "limitations": [
+        "No copied post body is present in the checkout.",
+        "Semantic fields are previous interpretations, not newly verified source facts.",
+        "No exact paragraph sequence, quotation or comedic timing is certified.",
+        "Not representative or a performance ranking.",
+        "The prior interpretation below is preserved as a historical assessment rather than certified as a fresh source observation."
+      ],
+      "recorded_post_id": "urn:li:activity:7511754411224784896",
+      "author_name_as_recorded": "Will Aitken",
+      "preserved_record_path": "datasets/current/dataset.json",
+      "preserved_record_selector": "posts[id=urn:li:activity:7511754411224784896]",
+      "recorded_publication_time": "2026-10-02T11:50:13.283Z",
+      "recorded_capture_time": "2026-10-22T08:39:19.107038+00:00",
+      "source_sha256": "8417b0590d84473f70b7f0b7a79367368e4a355d1f4611a339bacfc7e67a976b",
+      "text_sha256": "1bf4ab6d2f950adbc27c0fb9854132a919e86a32c3e7555af1a8a8c304c93a01",
+      "source_original_status_as_recorded": "full_text_retained_locally",
+      "prior_interpretation": {
+        "text_sha256": "1bf4ab6d2f950adbc27c0fb9854132a919e86a32c3e7555af1a8a8c304c93a01",
+        "content_language": "English",
+        "primary_topic": "sales_outbound",
+        "secondary_topics": [],
+        "editorial_job": "build_in_public",
+        "intended_reader": "Sales practitioners and founder-sellers",
+        "content_summary": "Reports a first calling session with a funnel of dials, connects, conversations and meetings plus two deal anecdotes.",
+        "hook_pattern": "Encouraging maxim leads into an unusually specific work log.",
+        "central_claim": "Taking imperfect action can produce learning and initial meetings.",
+        "reference_value": "core",
+        "qualification_reason": "Concrete activity reporting and a transparent funnel are transferable to founder-led sales learning posts.",
+        "media_role": "Prior review describes a plain calling dashboard scorecard; it supports process specificity while remaining self-reported evidence.",
+        "media_evidence_basis": "existing_review",
+        "claim_caveat": "The screenshot and self-report do not establish meeting quality, attribution or repeatable conversion.",
+        "adaptation_pattern": "Publish a bounded experiment with inputs, outcomes, one successful conversation and the next adjustment.",
+        "variant_group_id": null,
+        "pattern_representative": true
+      },
+      "new_editorial_pattern_hypothesis": "bounded_work_log",
+      "proposed_pattern_ids": [
+        "P01"
+      ],
+      "performance_status_as_recorded": "insufficient_comparable_sample",
+      "publication_date_conflict_as_recorded": false,
+      "parser_receipts": [
+        {
+          "snapshot_id": "7fa6144f1ab15cc2660758d91834de5dae03eecd86419f17e136b65abfcba819",
+          "captured_at": "2026-10-22T08:39:19.107038+00:00",
+          "capture_kind": "baseline_import",
+          "parser_version": "0.3.0",
+          "parser_sha256": "8e49f97c8274a8b47d74907e7221f88e4e9f79361683fdbf5b7ca91a8318f330",
+          "raw_sha256": "8417b0590d84473f70b7f0b7a79367368e4a355d1f4611a339bacfc7e67a976b",
+          "date_status": "verified_source_date",
+          "normalization_provenance": {
+            "kind": "derived_reparse_not_new_observation",
+            "source_run": "20261022-linkedin-discovery-cycle-v3",
+            "source_parser_version": "0.2.1",
+            "original_observed_at": "2026-10-22T08:39:19.107038+00:00",
+            "raw_sha256": "8417b0590d84473f70b7f0b7a79367368e4a355d1f4611a339bacfc7e67a976b"
+          }
+        },
+        {
+          "snapshot_id": "00855a6490b0141ec6d33c156b103fd6c664f32a4f32e8f6e901d964d49e1b29",
+          "captured_at": "2026-10-22T14:41:34.408504+00:00",
+          "capture_kind": "reobservation",
+          "parser_version": "0.3.0",
+          "parser_sha256": "8e49f97c8274a8b47d74907e7221f88e4e9f79361683fdbf5b7ca91a8318f330",
+          "raw_sha256": "99bf9abd0d330c40be514e8a73349c2b945f01de719f3370ed897973f58b2ed9",
+          "date_status": "verified_source_date",
+          "normalization_provenance": {}
+        }
+      ]
+    },
+    {
+      "id": "L2-C06",
+      "title": "Rob Gough — preserved bounded offer interpretation",
+      "url": "https://www.linkedin.com/posts/robertjohngough_im-taking-on-founding-customers-for-stayupfront-activity-7486056038190854148-oIOZ",
+      "type": "C",
+      "claim_types": [
+        "C",
+        "E"
+      ],
+      "access": "Preserved derived assessment inspected locally; original LinkedIn resource not reacquired.",
+      "verified_on": "2026-11-10",
+      "finding": "Offers founding-customer access to a combined support, incident, monitoring and status platform with founder onboarding.",
+      "finding_ids": [
+        "LWR-F12"
+      ],
+      "limitations": [
+        "No copied post body is present in the checkout.",
+        "Semantic fields are previous interpretations, not newly verified source facts.",
+        "No exact paragraph sequence, quotation or comedic timing is certified.",
+        "Not representative or a performance ranking.",
+        "The prior interpretation below is preserved as a historical assessment rather than certified as a fresh source observation."
+      ],
+      "recorded_post_id": "urn:li:activity:7486056038190854148",
+      "author_name_as_recorded": "Rob Gough",
+      "preserved_record_path": "datasets/current/dataset.json",
+      "preserved_record_selector": "posts[id=urn:li:activity:7486056038190854148]",
+      "recorded_publication_time": "2026-07-23T13:54:03.678Z",
+      "recorded_capture_time": "2026-10-22T09:41:43.502656+00:00",
+      "source_sha256": "d741fe51163b1dfe6936c44e35601b97e192cb94fe240943ad9f2d43e1627dae",
+      "text_sha256": "68bf299df399ff650032bbd64c275d309d5024dfa403ed9041c86263fc9747ea",
+      "source_original_status_as_recorded": "full_text_retained_locally",
+      "prior_interpretation": {
+        "text_sha256": "68bf299df399ff650032bbd64c275d309d5024dfa403ed9041c86263fc9747ea",
+        "content_language": "English",
+        "primary_topic": "positioning_messaging",
+        "secondary_topics": [
+          "founder_building"
+        ],
+        "editorial_job": "announce_offer",
+        "intended_reader": "Small B2B SaaS founders handling customer operations",
+        "content_summary": "Offers founding-customer access to a combined support, incident, monitoring and status platform with founder onboarding.",
+        "hook_pattern": "A direct founding-customer invitation immediately states fit and terms.",
+        "central_claim": "An early product can be sold through a clear bundled job, transparent limits and direct access to its builder.",
+        "reference_value": "core",
+        "qualification_reason": "Highly relevant founder-led SaaS offer example: narrow segment, concrete workflow, early-stage caveat and accessible next step.",
+        "media_role": "Makes the founder’s unified support/status offer concrete by showing one proposed customer-facing portal view. Complements the status view by showing how customers would request and track help within the same branded portal.",
+        "media_evidence_basis": "v5_direct_asset_review_or_sampled_video_with_captions",
+        "claim_caveat": "Pricing, product readiness and capabilities are source claims; exposed images remain unavailable during author qualification. Media check: Displayed uptime and operational labels are screenshot values, not verified historical monitoring. A tenant name and user label do not prove a real customer or live deployment. No interaction is demonstrated by a still. Ticket content, customer identity, response times and actual support availability are unverified. The screenshot does not validate the product’s complete feature set.",
+        "adaptation_pattern": "Name a specific buyer and combined task, explain the offer and rough edges, and invite a clearly bounded pilot.",
+        "variant_group_id": null,
+        "pattern_representative": true
+      },
+      "new_editorial_pattern_hypothesis": "bounded_offer",
+      "proposed_pattern_ids": [
+        "P12"
+      ],
+      "performance_status_as_recorded": "insufficient_comparable_sample",
+      "publication_date_conflict_as_recorded": false,
+      "parser_receipts": [
+        {
+          "snapshot_id": "e199b667fff63c5f484147b922d8e5a43f9b787d7676a5a7ae6df86fd75ad6e4",
+          "captured_at": "2026-10-22T09:41:43.502656+00:00",
+          "capture_kind": "baseline_import",
+          "parser_version": "0.3.0",
+          "parser_sha256": "8e49f97c8274a8b47d74907e7221f88e4e9f79361683fdbf5b7ca91a8318f330",
+          "raw_sha256": "d741fe51163b1dfe6936c44e35601b97e192cb94fe240943ad9f2d43e1627dae",
+          "date_status": "verified_source_date",
+          "normalization_provenance": {
+            "kind": "derived_reparse_not_new_observation",
+            "source_run": "20261022-linkedin-pipeline-v4",
+            "source_parser_version": "0.2.1",
+            "original_observed_at": "2026-10-22T09:41:43.502656+00:00",
+            "raw_sha256": "d741fe51163b1dfe6936c44e35601b97e192cb94fe240943ad9f2d43e1627dae"
+          }
+        }
+      ]
+    },
+    {
+      "id": "L2-C07",
+      "title": "Dave Gerhardt — preserved dialogue humor interpretation",
+      "url": "https://www.linkedin.com/posts/davegerhardt_so-dave-what-do-you-do-for-work-i-worked-activity-7467168126963732480-buHo",
+      "type": "C",
+      "claim_types": [
+        "C",
+        "E"
+      ],
+      "access": "Preserved derived assessment inspected locally; original LinkedIn resource not reacquired.",
+      "verified_on": "2026-11-10",
+      "finding": "A short imagined conversation depicts outsiders failing to understand software marketing and the author’s professional community business.",
+      "finding_ids": [
+        "LWR-F12"
+      ],
+      "limitations": [
+        "No copied post body is present in the checkout.",
+        "Semantic fields are previous interpretations, not newly verified source facts.",
+        "No exact paragraph sequence, quotation or comedic timing is certified.",
+        "Not representative or a performance ranking.",
+        "The prior interpretation below is preserved as a historical assessment rather than certified as a fresh source observation."
+      ],
+      "recorded_post_id": "urn:li:activity:7467168126963732480",
+      "author_name_as_recorded": "Dave Gerhardt",
+      "preserved_record_path": "datasets/current/dataset.json",
+      "preserved_record_selector": "posts[id=urn:li:activity:7467168126963732480]",
+      "recorded_publication_time": "2026-06-01T11:00:14.725Z",
+      "recorded_capture_time": "2026-10-20T18:01:57.187224+00:00",
+      "source_sha256": "3bfd887c57d2bbec046f9298c77f45e8b0f18730f52f54b600e9f4f3a81cad3b",
+      "text_sha256": "e587b85cdcfb77c8e9c4d0fadd78c5c017de2c90e881394c5eac1814b8017348",
+      "source_original_status_as_recorded": "full_text_retained_locally",
+      "prior_interpretation": {
+        "text_sha256": "e587b85cdcfb77c8e9c4d0fadd78c5c017de2c90e881394c5eac1814b8017348",
+        "content_language": "English",
+        "primary_topic": "adjacent_humor",
+        "secondary_topics": [],
+        "editorial_job": "entertain",
+        "intended_reader": "B2B marketers and community builders",
+        "content_summary": "A short imagined conversation depicts outsiders failing to understand software marketing and the author’s professional community business.",
+        "hook_pattern": "Dialogue escalates from a blank stare to an even blanker response.",
+        "central_claim": "Specialized professional work can be hard to explain to people outside the field.",
+        "reference_value": "adjacent",
+        "qualification_reason": "A concise personal-brand humor pattern that reinforces occupational identity but offers little direct buyer problem-solving.",
+        "media_role": "No acquired media; dialogue timing supplies the joke.",
+        "media_evidence_basis": "absent",
+        "claim_caveat": "The exchange is anecdotal/comedic and does not measure audience understanding or business demand.",
+        "adaptation_pattern": "Use a harmless real-world misunderstanding of your work, make the situation recognizable and add a clear explanation if the joke would otherwise leave buyers confused. Avoid copying the dialogue.",
+        "variant_group_id": null,
+        "pattern_representative": true
+      },
+      "new_editorial_pattern_hypothesis": "dialogue_humor",
+      "proposed_pattern_ids": [
+        "P14"
+      ],
+      "performance_status_as_recorded": "insufficient_comparable_sample",
+      "publication_date_conflict_as_recorded": false,
+      "parser_receipts": [
+        {
+          "snapshot_id": "dffb565d7976ba36f8d3ca2a856a18f33d67b04ce84f0ea7570bbbff96415c2f",
+          "captured_at": "2026-10-20T18:01:57.187224+00:00",
+          "capture_kind": "baseline_import",
+          "parser_version": "0.3.0",
+          "parser_sha256": "8e49f97c8274a8b47d74907e7221f88e4e9f79361683fdbf5b7ca91a8318f330",
+          "raw_sha256": "3bfd887c57d2bbec046f9298c77f45e8b0f18730f52f54b600e9f4f3a81cad3b",
+          "date_status": "verified_source_date",
+          "normalization_provenance": {
+            "kind": "derived_reparse_not_new_observation",
+            "source_run": "20261020-linkedin-100-post-pilot-v2",
+            "source_parser_version": "0.2.1",
+            "original_observed_at": "2026-10-20T18:01:57.187224+00:00",
+            "raw_sha256": "3bfd887c57d2bbec046f9298c77f45e8b0f18730f52f54b600e9f4f3a81cad3b"
+          }
+        },
+        {
+          "snapshot_id": "d05beba1f53340ea4a39e6199c4ec3511cb4c3f7c259ae3ec69cbc26cc6497b3",
+          "captured_at": "2026-10-22T10:06:47.750873+00:00",
+          "capture_kind": "reobservation",
+          "parser_version": "0.3.0",
+          "parser_sha256": "8e49f97c8274a8b47d74907e7221f88e4e9f79361683fdbf5b7ca91a8318f330",
+          "raw_sha256": "d571141cd4800f19c902795d8e0c373443f692f2b782cdb7d61881f2465480e4",
+          "date_status": "verified_source_date",
+          "normalization_provenance": {
+            "kind": "derived_reparse_not_new_observation",
+            "source_run": "20261022-linkedin-pipeline-v4",
+            "source_parser_version": "0.3.0",
+            "original_observed_at": "2026-10-22T10:06:47.750873+00:00",
+            "raw_sha256": "d571141cd4800f19c902795d8e0c373443f692f2b782cdb7d61881f2465480e4"
+          }
+        }
+      ]
+    },
+    {
+      "id": "L2-C08",
+      "title": "Katelyn Bourgoin — preserved public change hypothesis interpretation",
+      "url": "https://www.linkedin.com/posts/katebour_my-personal-brand-messaging-feels-messy-right-activity-7379131891515412481-lnA0",
+      "type": "C",
+      "claim_types": [
+        "C",
+        "E"
+      ],
+      "access": "Preserved derived assessment inspected locally; original LinkedIn resource not reacquired.",
+      "verified_on": "2026-11-10",
+      "finding": "The author explains publicly testing a move from buyer psychology to a personal-branding studio and describes early inquiry signals.",
+      "finding_ids": [
+        "LWR-F12"
+      ],
+      "limitations": [
+        "No copied post body is present in the checkout.",
+        "Semantic fields are previous interpretations, not newly verified source facts.",
+        "No exact paragraph sequence, quotation or comedic timing is certified.",
+        "Not representative or a performance ranking.",
+        "The prior interpretation below is preserved as a historical assessment rather than certified as a fresh source observation."
+      ],
+      "recorded_post_id": "urn:li:activity:7379131891515412481",
+      "author_name_as_recorded": "Katelyn Bourgoin",
+      "preserved_record_path": "datasets/current/dataset.json",
+      "preserved_record_selector": "posts[id=urn:li:activity:7379131891515412481]",
+      "recorded_publication_time": "2025-10-01T12:35:40.553Z",
+      "recorded_capture_time": "2026-10-20T17:59:58.819667+00:00",
+      "source_sha256": "4f3c4e666ab0b981274027e7ea92daa22ce02978b2b62f86974a371c9a8aa1c0",
+      "text_sha256": "300f4395e8d0d6b86d0eea2c552fe2fd268120a0013ef260c855dc04adc42e38",
+      "source_original_status_as_recorded": "full_text_retained_locally",
+      "prior_interpretation": {
+        "text_sha256": "300f4395e8d0d6b86d0eea2c552fe2fd268120a0013ef260c855dc04adc42e38",
+        "content_language": "English",
+        "primary_topic": "founder_building",
+        "secondary_topics": [],
+        "editorial_job": "build_in_public",
+        "intended_reader": "Experts changing a service business or personal brand",
+        "content_summary": "The author explains publicly testing a move from buyer psychology to a personal-branding studio and describes early inquiry signals.",
+        "hook_pattern": "An apparent messaging flaw is revealed as an intentional experiment.",
+        "central_claim": "A strategic pivot can be tested through public content before fully replacing an existing business.",
+        "reference_value": "core",
+        "qualification_reason": "Useful for a founder’s transparent change narrative and for separating exploratory categories from settled positioning.",
+        "media_role": "Prior review describes a split yellow/purple portrait card contrasting established expertise with an unresolved future label.",
+        "media_evidence_basis": "existing_review",
+        "claim_caveat": "Revenue, inquiry volume and demand validation are self-reported. Audience feedback is not a representative focus group or proof of paid demand.",
+        "adaptation_pattern": "Explain the change hypothesis, what remains stable and which responses would support or weaken it. Report real inquiries and paid outcomes separately; preserve a clear core offer while testing.",
+        "variant_group_id": null,
+        "pattern_representative": true
+      },
+      "new_editorial_pattern_hypothesis": "public_change_hypothesis",
+      "proposed_pattern_ids": [
+        "P09",
+        "P11"
+      ],
+      "performance_status_as_recorded": "insufficient_comparable_sample",
+      "publication_date_conflict_as_recorded": false,
+      "parser_receipts": [
+        {
+          "snapshot_id": "f050db7b66b8a584ae243cfc630549f381868d27a785cc8d11f9dc07668a84cc",
+          "captured_at": "2026-10-20T17:59:58.819667+00:00",
+          "capture_kind": "baseline_import",
+          "parser_version": "0.3.0",
+          "parser_sha256": "8e49f97c8274a8b47d74907e7221f88e4e9f79361683fdbf5b7ca91a8318f330",
+          "raw_sha256": "4f3c4e666ab0b981274027e7ea92daa22ce02978b2b62f86974a371c9a8aa1c0",
+          "date_status": "verified_source_date",
+          "normalization_provenance": {
+            "kind": "derived_reparse_not_new_observation",
+            "source_run": "20261020-linkedin-100-post-pilot-v2",
+            "source_parser_version": "0.2.1",
+            "original_observed_at": "2026-10-20T17:59:58.819667+00:00",
+            "raw_sha256": "4f3c4e666ab0b981274027e7ea92daa22ce02978b2b62f86974a371c9a8aa1c0"
+          }
+        },
+        {
+          "snapshot_id": "a5223584bb571e7e9294d5fca7c8433eff18326180358c2844b1e1200329e7e3",
+          "captured_at": "2026-10-22T10:05:53.232764+00:00",
+          "capture_kind": "reobservation",
+          "parser_version": "0.3.0",
+          "parser_sha256": "8e49f97c8274a8b47d74907e7221f88e4e9f79361683fdbf5b7ca91a8318f330",
+          "raw_sha256": "41116d2adbe442c4975e0eee62f50878095a23b888df1ca03a76cefcd7bd30af",
+          "date_status": "verified_source_date",
+          "normalization_provenance": {
+            "kind": "derived_reparse_not_new_observation",
+            "source_run": "20261022-linkedin-pipeline-v4",
+            "source_parser_version": "0.3.0",
+            "original_observed_at": "2026-10-22T10:05:53.232764+00:00",
+            "raw_sha256": "41116d2adbe442c4975e0eee62f50878095a23b888df1ca03a76cefcd7bd30af"
+          }
+        }
+      ]
+    },
+    {
+      "id": "L2-R01",
+      "title": "Preserved reference dataset and counts",
+      "url": "../../datasets/current/dataset.json",
+      "type": "L",
+      "claim_types": [
+        "L"
+      ],
+      "access": "Local schema, counts and the eight selected interpretation records inspected; not all originals read.",
+      "verified_on": "2026-11-10",
+      "finding": "The dataset records 279 posts, 61 accounts and 477 snapshots. These are professional reference records, distinct from the competitor study and prospect list.",
+      "finding_ids": [
+        "LWR-F12"
+      ],
+      "limitations": [
+        "Derived public-safe records do not distribute the full original post bodies.",
+        "Purposive reference coverage is not a representative population or an exhaustive competitor list.",
+        "All 279 report rows preserve captured_dom_completeness_unverified; messenger role, experience and message origin remain uncoded.",
+        "A zero join-error result establishes internal file consistency, not source truth.",
+        "Seven historical source IDs do not resolve against the old sibling reference file."
+      ],
+      "audit_url": "corpus-audit/README.md",
+      "audit_data_url": "corpus-audit/audit.json",
+      "pinned_source_snapshot": "9d54e58e85b5c90a8bc674c73b5e87d68baeb0a5",
+      "time_scope": {
+        "report_generated": "2026-11-05",
+        "underlying_dataset_date": "2026-10-22",
+        "current_metric_observation_min_utc": "2026-10-22T08:39:11Z",
+        "current_metric_observation_max_utc": "2026-10-22T14:42:10Z",
+        "note": "Current metric observations are separate from older publication dates and individual original-capture receipts."
+      }
+    },
+    {
+      "id": "L2-R02",
+      "title": "November 5 evidence-v1 draft captions",
+      "url": "../../publications/20261105-evidence-v1/content.json",
+      "type": "L",
+      "claim_types": [
+        "L",
+        "E"
+      ],
+      "access": "All ten caption strings inspected and counted mechanically.",
+      "verified_on": "2026-11-10",
+      "finding": "Seven of ten captions end in a question mark after trailing whitespace is removed.",
+      "finding_ids": [
+        "LWR-F13"
+      ],
+      "limitations": [
+        "A property of draft text, not a published-performance comparison.",
+        "A question-mark ending is a mechanical diagnostic, not a complete semantic classification."
+      ],
+      "measurement": {
+        "captions": 10,
+        "question_mark_endings": 7,
+        "question_rule": "caption.rstrip().endswith(\"?\")"
+      }
+    },
+    {
+      "id": "L2-R03",
+      "title": "November 5 humanized draft captions",
+      "url": "../../publications/20261105-humanized/content.json",
+      "type": "L",
+      "claim_types": [
+        "L",
+        "E"
+      ],
+      "access": "All ten caption strings inspected and counted mechanically.",
+      "verified_on": "2026-11-10",
+      "finding": "Four of ten captions end in a question mark; eight of ten contain five paragraphs under blank-line splitting.",
+      "finding_ids": [
+        "LWR-F13"
+      ],
+      "limitations": [
+        "A property of draft text, not a published-performance comparison.",
+        "Paragraph counts follow literal blank-line separation and do not measure semantic quality."
+      ],
+      "measurement": {
+        "captions": 10,
+        "question_mark_endings": 4,
+        "five_paragraph_captions": 8,
+        "question_rule": "caption.rstrip().endswith(\"?\")",
+        "paragraph_rule": "Count non-empty segments after splitting caption on two newline characters."
+      }
+    },
+    {
+      "id": "L2-R04",
+      "title": "Collector access hold — November 5, 2026",
+      "url": "../COLLECTOR-ACCESS-HOLD-20261105.md",
+      "type": "L",
+      "claim_types": [
+        "L",
+        "P"
+      ],
+      "access": "Local project hold record inspected.",
+      "verified_on": "2026-11-10",
+      "finding": "The project preserves a LinkedIn security-verification collection hold and separates pending private records from the assessed public corpus.",
+      "finding_ids": [
+        "LWR-F11"
+      ],
+      "limitations": [
+        "This writing-methodology work does not recover access, reclassify queued records or authorize another acquisition route.",
+        "An official documentation lookup does not supersede the project's creator-resource hold."
+      ]
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "L2-X01",
+      "publication_identity": "urn:li:activity:7313167389305569281",
+      "access": "Retrieved before project hold notice; excluded.",
+      "used_in_methodology": false,
+      "reason": "No quotation, finding, pattern example or comparative assessment is based on this resource."
+    },
+    {
+      "id": "L2-X02",
+      "publication_identity": "urn:li:activity:7455617064741924864",
+      "access": "Retrieved before project hold notice; excluded.",
+      "used_in_methodology": false,
+      "reason": "No quotation, finding, pattern example or comparative assessment is based on this resource."
+    }
+  ],
+  "coverage_limits": {
+    "competitor_study_named_total": 15,
+    "identified_provider_pages_in_this_review": 3,
+    "remaining_competitors_unresolved": 12,
+    "reference_accounts_distinct_from_competitors": 61,
+    "preserved_examples_are_purposive": true,
+    "new_close_reading_of_creator_posts_claimed": false,
+    "collector_hold_changed": false
+  },
+  "editorial_synthesis": {
+    "classification": "E",
+    "location": "RESEARCH-AND-REVIEW.md#lwr-f16--architecture-is-a-reviewable-synthesis",
+    "claim": "The architecture and patterns are reviewable editorial proposals rather than empirically validated reach or sales formulas."
+  }
+}

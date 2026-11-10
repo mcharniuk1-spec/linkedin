@@ -1,0 +1,1011 @@
+{
+  "schema": "linkedin-post-architecture/2",
+  "version": "2.0",
+  "date": "2026-11-10",
+  "task": "OUTSP-45",
+  "base_commit": "9d54e58e85b5c90a8bc674c73b5e87d68baeb0a5",
+  "status": "founder_review",
+  "scope": "Ten current publication concepts, covering both November 5 draft variants; structural update only.",
+  "source_bundles": [
+    {
+      "path": "publications/20261105-evidence-v1/content.json",
+      "sha256": "e61603da72d7ac429cc99904a25cc9c3a77c621b0a2a546e37197435229ca60b",
+      "ids": [
+        "01-the-reason",
+        "02-what-we-actually-saw",
+        "03-the-interview",
+        "04-positioning",
+        "05-proof",
+        "06-product-to-buyer",
+        "07-two-voices",
+        "08-visuals",
+        "09-measure",
+        "10-the-delivery"
+      ]
+    },
+    {
+      "path": "publications/20261105-humanized/content.json",
+      "sha256": "a437ffcf390512855c13d6ecda28b17245cb9d5b41f0eff1e01137d20aaa824f",
+      "ids": [
+        "01-the-reason",
+        "02-what-we-actually-saw",
+        "03-the-interview",
+        "04-positioning",
+        "05-proof",
+        "06-product-to-buyer",
+        "07-two-voices",
+        "08-visuals",
+        "09-measure",
+        "10-the-delivery"
+      ]
+    }
+  ],
+  "shared_evidence": [
+    {
+      "path": "docs/APPROVED-POSITIONING.json",
+      "sha256": "80d8063bf5af6eee2ab76275c6e45eaf81c1427d1df8b2931a460b40e67d34b9"
+    },
+    {
+      "path": "docs/SERVICES-AND-WRITING.md",
+      "sha256": "5f151bb11644155bd83bbc0be79fdf3ecd04e9b95e6a9915498d4f8199820d75"
+    },
+    {
+      "path": "reports/20261105/data.json",
+      "sha256": "de853eb07d3971c28151dbe0f954dd7ea8c8faac946c34171b04b5896e691382"
+    }
+  ],
+  "posts": [
+    {
+      "id": "01-the-reason",
+      "title": "Make the founder’s reasoning visible",
+      "pattern_id": "P13",
+      "reader_job": "Understand what the proposed Outspoken service makes easier to explain.",
+      "dominant_question": "What does a product description leave unexplained for a prospective buyer?",
+      "thesis": "A proposed content brief should include the founder’s decisions and their relevance to a buyer question.",
+      "diagnosis": "The current drafts mix an observation, a service introduction and a broad final question. The reasoning behind the service can be made more concrete.",
+      "structural_change": "Use a focused professional observation; make the missing decision visible, then explain the proposed editorial response. Finish on the scope of that response.",
+      "hooks": [
+        "A product description can tell a buyer what exists. The decision behind it can explain why it was built that way.",
+        "What should a buyer understand about the choice behind your product?"
+      ],
+      "hook_payoff": "Name one decision that belongs in a source interview, and show how it connects to a buyer’s evaluation.",
+      "paragraphs": [
+        {
+          "role": "recognisable gap",
+          "writing_instruction": "Name the distinction between a feature description and the reason a team chose it. Present this as an editorial observation, not measured buyer behaviour."
+        },
+        {
+          "role": "concrete material",
+          "writing_instruction": "Use an explicitly illustrative decision: which job to solve first, which alternative was rejected, or where human review stays."
+        },
+        {
+          "role": "reasoning and method",
+          "writing_instruction": "Explain that a decision reveals a priority and trade-off. Describe the proposed interview → source check → original draft process."
+        },
+        {
+          "role": "bounded conclusion",
+          "writing_instruction": "State that the immediate deliverable is a clearer account of the reasoning. Commercial outcomes require separate observation."
+        }
+      ],
+      "claim_plan": [
+        {
+          "id": "C01",
+          "claim": "Outspoken’s approved service positioning starts from founders and the business they are building.",
+          "claim_type": "approved_project_position",
+          "evidence_source": "docs/APPROVED-POSITIONING.json",
+          "boundary": "The positioning is an aim, not delivered customer performance.",
+          "status": "source_confirmed"
+        },
+        {
+          "id": "C02",
+          "claim": "A particular founder made the example decision.",
+          "claim_type": "personal_history",
+          "evidence_source": "Founder interview or decision record required",
+          "boundary": "No actual founder story is supplied; retain the example as illustrative.",
+          "status": "not_available_do_not_assert"
+        }
+      ],
+      "reasoning": "A documented choice exposes the priorities behind a product. Connecting those priorities to the reader’s decision explains relevance without asserting a conversion effect.",
+      "conclusion": "Start the content brief with the decision a buyer needs to understand.",
+      "interaction": {
+        "type": "none",
+        "text": null,
+        "rationale": "The observation has a complete takeaway; a broad question would add little information."
+      },
+      "humor": {
+        "use": "optional",
+        "example": "A feature list rarely tells you what the team argued about.",
+        "status": "original illustrative wording; use only if it fits the founder’s voice"
+      },
+      "format_note": "The existing carousel can assign one function to each panel, combining the bounded conclusion with the service context; do not imply that a fictional person is the founder.",
+      "founder_inputs": [
+        "Confirm the author’s stance on decision-led content.",
+        "Supply one publishable decision if converting this observation into P02."
+      ],
+      "source_variants": [
+        {
+          "path": "publications/20261105-evidence-v1/content.json",
+          "json_pointer": "/0",
+          "id": "01-the-reason",
+          "file_sha256": "e61603da72d7ac429cc99904a25cc9c3a77c621b0a2a546e37197435229ca60b",
+          "row_sha256": "90aa5f6ed30a22ad18b9f134ef921c0c3b1109940a3e5f6e834e0a8ab72ab4f8",
+          "row_hash_encoding": "UTF-8 JSON, sorted keys, no ASCII escaping, separators comma/colon"
+        },
+        {
+          "path": "publications/20261105-humanized/content.json",
+          "json_pointer": "/0",
+          "id": "01-the-reason",
+          "file_sha256": "a437ffcf390512855c13d6ecda28b17245cb9d5b41f0eff1e01137d20aaa824f",
+          "row_sha256": "564c84c0c0352cc5b9510b2ef4063e56a9ecfc9a66f46ef8cfbfa06265d2f7ad",
+          "row_hash_encoding": "UTF-8 JSON, sorted keys, no ASCII escaping, separators comma/colon"
+        }
+      ],
+      "status": "structure_updated_for_founder_review",
+      "first_person_status": "proposed voice; no personal history inferred",
+      "paragraph_rule": "Functional blocks may be combined or split; their count is not a platform rule.",
+      "existing_media_status": "Existing rendered assets and release hashes are unchanged; captions/panels need reconciliation if rebuilt."
+    },
+    {
+      "id": "02-what-we-actually-saw",
+      "title": "A research number needs its denominator",
+      "pattern_id": "P01",
+      "reader_job": "Understand what a selected LinkedIn reference sample can support.",
+      "dominant_question": "How should we use a median from a reference sample when choosing what to write?",
+      "thesis": "The preserved sample can inform questions and structural hypotheses; its reaction median is not an account target or a causal content rule.",
+      "diagnosis": "The evidence-led version already preserves denominators and limits. The migration makes the evidence → interpretation → usable decision sequence explicit.",
+      "structural_change": "Open with the observed number and its question, give the denominator immediately, explain what was not observed, and finish with a concrete research use.",
+      "hooks": [
+        "Our reference sample has a median of 107.5 reactions. What can we actually learn from it?",
+        "There are 279 posts in our reference set. The useful next step is to explain what each observation can support."
+      ],
+      "hook_payoff": "Explain the median’s denominator, why the sample is not a benchmark, and which writing questions the research can help generate.",
+      "paragraphs": [
+        {
+          "role": "hook plus observation",
+          "writing_instruction": "Introduce 107.5 as the median among the 276 posts with a reaction count; do not make it a target."
+        },
+        {
+          "role": "sample and comparison",
+          "writing_instruction": "State the selected corpus of 279 posts and 61 accounts. If including comments, retain 36.5 across 256 posts as a separate denominator."
+        },
+        {
+          "role": "reasoning and limits",
+          "writing_instruction": "Different authors, ages and topics limit comparisons. Reaction counts do not identify reach, clicks, buyer quality or sales."
+        },
+        {
+          "role": "practical application",
+          "writing_instruction": "Use a post to investigate its reader question, evidence and explanation. Identify candidate structures for original work."
+        },
+        {
+          "role": "conclusion and source",
+          "writing_instruction": "End with the research decision, followed by the historical capture window and a source link. No extra discussion question is necessary."
+        }
+      ],
+      "claim_plan": [
+        {
+          "id": "C01",
+          "claim": "The preserved sample contains 279 posts and 61 accounts.",
+          "claim_type": "descriptive_count",
+          "evidence_source": "reports/20261105/data.json",
+          "boundary": "Selected historical corpus; no claim of full LinkedIn coverage.",
+          "status": "recomputed"
+        },
+        {
+          "id": "C02",
+          "claim": "Median reactions are 107.5 among 276 observed counts; median comments are 36.5 among 256.",
+          "claim_type": "descriptive_statistic",
+          "evidence_source": "reports/20261105/data.json",
+          "boundary": "Different observed subsets; metrics in this report are timestamped 22 October 2026; the wider historical collection ran 20–22 October.",
+          "status": "recomputed"
+        },
+        {
+          "id": "C03",
+          "claim": "A format caused higher reach or sales.",
+          "claim_type": "causal_result",
+          "evidence_source": "No identifying design or reach/conversion data",
+          "boundary": "Do not assert this claim or imply it from rankings.",
+          "status": "unsupported_do_not_assert"
+        }
+      ],
+      "reasoning": "A statistic answers a question about the observed rows. It cannot answer a different question about a new account’s distribution or revenue without additional evidence and design.",
+      "conclusion": "Use the sample to choose a question worth testing, with its evidence and limits attached.",
+      "interaction": {
+        "type": "none",
+        "text": null,
+        "rationale": "The post closes the measurement question; the source link supplies the next useful action."
+      },
+      "humor": {
+        "use": "omit",
+        "example": null,
+        "status": "Keep the numerical distinction easy to read literally."
+      },
+      "format_note": "If the existing five-panel layout is later rebuilt, separate sample, result, limitation and application. Keep denominator and capture date legible alongside the number.",
+      "founder_inputs": [
+        "Approve the proposed interpretation in the agency voice.",
+        "Confirm whether to include both metrics or retain only reactions for focus."
+      ],
+      "source_variants": [
+        {
+          "path": "publications/20261105-evidence-v1/content.json",
+          "json_pointer": "/1",
+          "id": "02-what-we-actually-saw",
+          "file_sha256": "e61603da72d7ac429cc99904a25cc9c3a77c621b0a2a546e37197435229ca60b",
+          "row_sha256": "16640fd085e5c29c5ac089ce3cd5576d2cfcf709e2db459517d3393955228358",
+          "row_hash_encoding": "UTF-8 JSON, sorted keys, no ASCII escaping, separators comma/colon"
+        },
+        {
+          "path": "publications/20261105-humanized/content.json",
+          "json_pointer": "/1",
+          "id": "02-what-we-actually-saw",
+          "file_sha256": "a437ffcf390512855c13d6ecda28b17245cb9d5b41f0eff1e01137d20aaa824f",
+          "row_sha256": "aeb2172299e6d9bf7fbe58a5cd26a97cabbcc3a13f4f5261c626ed73b8214455",
+          "row_hash_encoding": "UTF-8 JSON, sorted keys, no ASCII escaping, separators comma/colon"
+        }
+      ],
+      "status": "structure_updated_for_founder_review",
+      "first_person_status": "proposed voice; no personal history inferred",
+      "paragraph_rule": "Functional blocks may be combined or split; their count is not a platform rule.",
+      "existing_media_status": "Existing rendered assets and release hashes are unchanged; captions/panels need reconciliation if rebuilt."
+    },
+    {
+      "id": "03-the-interview",
+      "title": "Find the story inside a decision",
+      "pattern_id": "P04",
+      "reader_job": "See how an interview can supply the material for an authentic professional story.",
+      "dominant_question": "What should an editor ask before drafting a founder’s story?",
+      "thesis": "Ask for the goal, constraint, considered alternatives, decision, observation and present interpretation before choosing a dramatic opening.",
+      "diagnosis": "Both drafts describe interview questions, but neither contains an actual interviewed founder story. A clearer process post avoids pretending that the missing interview already exists.",
+      "structural_change": "Use a method walkthrough now; provide an explicit route to P02 only after source material exists.",
+      "hooks": [
+        "Before writing a founder’s story, ask which decision the story needs to explain.",
+        "A useful interview question: what made the other option reasonable at the time?"
+      ],
+      "hook_payoff": "Show how to turn interview answers into a supported decision sequence, including rejected alternatives and uncertainty.",
+      "paragraphs": [
+        {
+          "role": "task and input",
+          "writing_instruction": "Define the input as a founder’s actual decision, not a polished quotation."
+        },
+        {
+          "role": "decision prompts",
+          "writing_instruction": "Ask what the goal was, what constrained the choice, and which alternatives were considered. Preserve what was known at the time."
+        },
+        {
+          "role": "consequence prompts",
+          "writing_instruction": "Ask what happened afterwards, what evidence exists and what remains uncertain. Keep the author’s interpretation separate."
+        },
+        {
+          "role": "editorial bridge",
+          "writing_instruction": "Map the answers to one buyer question. Explain which material becomes scene, choice, consequence and reflection."
+        },
+        {
+          "role": "review and application",
+          "writing_instruction": "Have the founder confirm facts, voice and disclosure boundaries; invite the reader to try the interview prompt."
+        }
+      ],
+      "claim_plan": [
+        {
+          "id": "C01",
+          "claim": "This is the proposed Outspoken interview workflow.",
+          "claim_type": "proposed_process",
+          "evidence_source": "docs/SERVICES-AND-WRITING.md",
+          "boundary": "Not a report of an interview already delivered to a client.",
+          "status": "proposal_for_review"
+        },
+        {
+          "id": "C02",
+          "claim": "An actual founder chose X because Y and then observed Z.",
+          "claim_type": "personal_history",
+          "evidence_source": "Permissioned interview and supporting record required",
+          "boundary": "No dialogue, motive, date or outcome may be invented.",
+          "status": "not_available_do_not_assert"
+        }
+      ],
+      "reasoning": "Alternatives and constraints make a decision intelligible. Observed consequences and present reflection make a lesson assessable; neither requires a heroic success arc.",
+      "conclusion": "For the next interview, ask what made the rejected option plausible.",
+      "interaction": {
+        "type": "application",
+        "text": "Choose one decision and record the goal, alternatives and information available at the time.",
+        "rationale": "The reader can use the method without being asked to leave a generic comment."
+      },
+      "humor": {
+        "use": "optional",
+        "example": "The interview is allowed to contain unfinished sentences.",
+        "status": "Original process observation, not a claim about a real interview."
+      },
+      "format_note": "A carousel may show interview prompts and their narrative roles. Do not manufacture a quoted exchange to fill a panel.",
+      "founder_inputs": [
+        "Confirm the proposed interview and review process.",
+        "For a story version, supply one decision, alternatives, consequence and permission to use the details."
+      ],
+      "source_variants": [
+        {
+          "path": "publications/20261105-evidence-v1/content.json",
+          "json_pointer": "/2",
+          "id": "03-the-interview",
+          "file_sha256": "e61603da72d7ac429cc99904a25cc9c3a77c621b0a2a546e37197435229ca60b",
+          "row_sha256": "75844597e961fd78680d32d11cbf8c3a98608aff733c5770925f181cbd4ce239",
+          "row_hash_encoding": "UTF-8 JSON, sorted keys, no ASCII escaping, separators comma/colon"
+        },
+        {
+          "path": "publications/20261105-humanized/content.json",
+          "json_pointer": "/2",
+          "id": "03-the-interview",
+          "file_sha256": "a437ffcf390512855c13d6ecda28b17245cb9d5b41f0eff1e01137d20aaa824f",
+          "row_sha256": "0a024f333ff95a72dba667639887199fa8852fa20f472f42b0cc9fc8598eda23",
+          "row_hash_encoding": "UTF-8 JSON, sorted keys, no ASCII escaping, separators comma/colon"
+        }
+      ],
+      "status": "structure_updated_for_founder_review",
+      "first_person_status": "proposed voice; no personal history inferred",
+      "paragraph_rule": "Functional blocks may be combined or split; their count is not a platform rule.",
+      "existing_media_status": "Existing rendered assets and release hashes are unchanged; captions/panels need reconciliation if rebuilt."
+    },
+    {
+      "id": "04-positioning",
+      "title": "Test whether a claim explains a difference",
+      "pattern_id": "P05",
+      "reader_job": "Diagnose a vague product statement before rewriting it.",
+      "dominant_question": "What information is missing when a product statement could apply to many companies?",
+      "thesis": "A useful positioning check asks who the buyer is, what job is involved, what differs and what supports the difference.",
+      "diagnosis": "The current drafts contain a useful generic phrase but move quickly from vagueness to the agency process. The method needs an inspectable diagnostic and bounded example.",
+      "structural_change": "Turn the post into a diagnostic checklist with one explicitly hypothetical rewrite.",
+      "hooks": [
+        "“AI-powered workflows” leaves four buyer questions unanswered.",
+        "Could a buyer name the job your product changes from the first sentence?"
+      ],
+      "hook_payoff": "Identify the missing buyer, task and substantiated difference; do not stop at criticising a generic phrase.",
+      "paragraphs": [
+        {
+          "role": "illustrative starting phrase",
+          "writing_instruction": "Label “AI-powered workflows” as an invented generic example, not a quotation from a customer or competitor."
+        },
+        {
+          "role": "diagnostic criteria",
+          "writing_instruction": "Ask: which buyer, which task, which alternative, and which supported difference? Use these as checks, not validated predictors."
+        },
+        {
+          "role": "worked rewrite",
+          "writing_instruction": "Use a hypothetical request-review tool: it drafts a response from supplied material and routes it for human review. Do not add time savings or autonomy claims."
+        },
+        {
+          "role": "reasoning and conclusion",
+          "writing_instruction": "Explain which uncertainty each detail removes. End with a bounded self-check rather than promising conversion gains."
+        }
+      ],
+      "claim_plan": [
+        {
+          "id": "C01",
+          "claim": "The generic phrase and request-review example are illustrative.",
+          "claim_type": "synthetic_example",
+          "evidence_source": "Original editorial example",
+          "boundary": "No named product, real customer or competitor quotation.",
+          "status": "explicitly_illustrative"
+        },
+        {
+          "id": "C02",
+          "claim": "Clearer positioning causes a specific sales improvement.",
+          "claim_type": "causal_result",
+          "evidence_source": "No study or measured client result in this post",
+          "boundary": "Do not assert an uplift.",
+          "status": "unsupported_do_not_assert"
+        }
+      ],
+      "reasoning": "Naming the actor, task and difference gives the reader terms with which to compare the product. That explanatory benefit is the proposed purpose of the exercise.",
+      "conclusion": "Check whether a reader can name the task and the supported difference without borrowing your internal vocabulary.",
+      "interaction": {
+        "type": "diagnostic_question",
+        "text": "Which question does your current first sentence leave unanswered: buyer, task, alternative, or evidence?",
+        "rationale": "The answer adds specific diagnostic information; avoid a general “thoughts?” prompt."
+      },
+      "humor": {
+        "use": "optional",
+        "example": "The phrase is broad enough to attend several companies’ all-hands meetings.",
+        "status": "Original exaggeration about wording; keep the real product explanation literal."
+      },
+      "format_note": "A comparison graphic can show an invented vague sentence beside the same example with actor, task and review boundary labelled. Label it as illustrative.",
+      "founder_inputs": [
+        "Confirm that the diagnostic fits the agency’s positioning process.",
+        "Replace the hypothetical example only with an approved product account."
+      ],
+      "source_variants": [
+        {
+          "path": "publications/20261105-evidence-v1/content.json",
+          "json_pointer": "/3",
+          "id": "04-positioning",
+          "file_sha256": "e61603da72d7ac429cc99904a25cc9c3a77c621b0a2a546e37197435229ca60b",
+          "row_sha256": "67f45838416d98dc2ed49a729082fb8cd7b6e59139cbc456af5c894e23e134c2",
+          "row_hash_encoding": "UTF-8 JSON, sorted keys, no ASCII escaping, separators comma/colon"
+        },
+        {
+          "path": "publications/20261105-humanized/content.json",
+          "json_pointer": "/3",
+          "id": "04-positioning",
+          "file_sha256": "a437ffcf390512855c13d6ecda28b17245cb9d5b41f0eff1e01137d20aaa824f",
+          "row_sha256": "6f7a5466ae2b6374ec8f7835c8820e686f9fe12e94d5cd17d8cd0062fdf2f9c4",
+          "row_hash_encoding": "UTF-8 JSON, sorted keys, no ASCII escaping, separators comma/colon"
+        }
+      ],
+      "status": "structure_updated_for_founder_review",
+      "first_person_status": "proposed voice; no personal history inferred",
+      "paragraph_rule": "Functional blocks may be combined or split; their count is not a platform rule.",
+      "existing_media_status": "Existing rendered assets and release hashes are unchanged; captions/panels need reconciliation if rebuilt."
+    },
+    {
+      "id": "05-proof",
+      "title": "Build a claim the reader can inspect",
+      "pattern_id": "P04",
+      "reader_job": "Turn a broad AI claim into an evaluable explanation.",
+      "dominant_question": "What must a product claim show before a buyer can evaluate it?",
+      "thesis": "State the input, output, human intervention and operating conditions; attach a suitable source to each factual result.",
+      "diagnosis": "The humanized draft uses a survey statistic from a secondary report; the evidence-v1 draft already offers a cleaner hypothetical workflow. The structure update uses the latter and does not silently carry forward the survey.",
+      "structural_change": "Show a claim being decomposed into testable components. Add an explicit evidence ladder and a boundary at the point of inference.",
+      "hooks": [
+        "Before calling a workflow automated, show where a person still has to decide.",
+        "A product claim becomes easier to evaluate when its inputs and limits are visible."
+      ],
+      "hook_payoff": "Give the reader a practical way to identify what the system does, what a person does and what the evidence actually demonstrates.",
+      "paragraphs": [
+        {
+          "role": "specific claim problem",
+          "writing_instruction": "Introduce “automates request review” as a hypothetical claim requiring a defined scope."
+        },
+        {
+          "role": "visible demonstration",
+          "writing_instruction": "Describe a proposed demonstration: approved input → generated suggestion → human review → final action. Mark it as illustrative."
+        },
+        {
+          "role": "evidence and warrant",
+          "writing_instruction": "Explain that a working demonstration can establish an observed behaviour under stated conditions; reliability and time savings need repeated measurement with a denominator."
+        },
+        {
+          "role": "boundary and decision",
+          "writing_instruction": "State the failure or review condition. Recommend replacing the broad claim with the behaviour the available evidence can support."
+        },
+        {
+          "role": "finished takeaway",
+          "writing_instruction": "End with a precise claim-writing rule. Avoid adding an unrelated authority statistic."
+        }
+      ],
+      "claim_plan": [
+        {
+          "id": "C01",
+          "claim": "The proposed request-review sequence is an example.",
+          "claim_type": "synthetic_example",
+          "evidence_source": "Original editorial example",
+          "boundary": "No product execution, benchmark or customer result was observed.",
+          "status": "explicitly_illustrative"
+        },
+        {
+          "id": "C02",
+          "claim": "Candidate carry-forward of the 73% survey statistic; applicability to this argument is unverified.",
+          "claim_type": "reported_survey",
+          "evidence_source": "Original report and question would require separate verification",
+          "boundary": "Omitted from this structure; the old draft remains a historical variant.",
+          "status": "not_carried_forward"
+        },
+        {
+          "id": "C03",
+          "claim": "A particular system reliably saves a stated amount of time.",
+          "claim_type": "performance_result",
+          "evidence_source": "Defined test, baseline, sample, period and measurement needed",
+          "boundary": "Do not infer reliability or savings from one screenshot.",
+          "status": "not_available_do_not_assert"
+        }
+      ],
+      "reasoning": "The evidence burden rises from showing one behaviour to estimating its reliability, and again when attributing an outcome to the product. The wording should stay at the demonstrated level.",
+      "conclusion": "Write the claim at the level your evidence can support, and put its operating condition beside it.",
+      "interaction": {
+        "type": "none",
+        "text": null,
+        "rationale": "The post gives a complete claim-writing rule; no audience answer is necessary."
+      },
+      "humor": {
+        "use": "omit",
+        "example": null,
+        "status": "The central task is to keep claim scope literal."
+      },
+      "format_note": "A claim/evidence/boundary diagram can explain the logic. A fictional product screen must not appear to be captured customer evidence.",
+      "founder_inputs": [
+        "Confirm the proposed claim-review workflow.",
+        "Provide actual product demonstration material before turning the hypothetical into a case."
+      ],
+      "source_variants": [
+        {
+          "path": "publications/20261105-evidence-v1/content.json",
+          "json_pointer": "/4",
+          "id": "05-proof",
+          "file_sha256": "e61603da72d7ac429cc99904a25cc9c3a77c621b0a2a546e37197435229ca60b",
+          "row_sha256": "ff89336b80164d330b667fe524fd7c6097edfda15c407e009c1ce9a43390af4e",
+          "row_hash_encoding": "UTF-8 JSON, sorted keys, no ASCII escaping, separators comma/colon"
+        },
+        {
+          "path": "publications/20261105-humanized/content.json",
+          "json_pointer": "/4",
+          "id": "05-proof",
+          "file_sha256": "a437ffcf390512855c13d6ecda28b17245cb9d5b41f0eff1e01137d20aaa824f",
+          "row_sha256": "01ba4dd65100430f8b1c6332e61b6b2fcc07366006b15fcb2d52f913cd0e191a",
+          "row_hash_encoding": "UTF-8 JSON, sorted keys, no ASCII escaping, separators comma/colon"
+        }
+      ],
+      "status": "structure_updated_for_founder_review",
+      "first_person_status": "proposed voice; no personal history inferred",
+      "paragraph_rule": "Functional blocks may be combined or split; their count is not a platform rule.",
+      "existing_media_status": "Existing rendered assets and release hashes are unchanged; captions/panels need reconciliation if rebuilt."
+    },
+    {
+      "id": "06-product-to-buyer",
+      "title": "Explain the feature through a workflow",
+      "pattern_id": "P04",
+      "reader_job": "Translate technical product language into an understandable user decision.",
+      "dominant_question": "What happens immediately before and after the feature is used?",
+      "thesis": "A workflow explanation should connect the trigger, input, operation, output, human responsibility and next decision.",
+      "diagnosis": "The current versions already ask useful workflow questions. The update adds the causal bridge between each step and the buyer’s understanding, without claiming that every buyer prefers this form.",
+      "structural_change": "Use an end-to-end worked sequence and an application close; retain technical detail when it explains a relevant choice.",
+      "hooks": [
+        "To explain an AI feature, start with the moment someone needs to act.",
+        "Where does your product enter the workflow, and what happens after its output?"
+      ],
+      "hook_payoff": "Provide a usable workflow map and the questions needed to fill it accurately.",
+      "paragraphs": [
+        {
+          "role": "reader situation",
+          "writing_instruction": "Name the operational moment in which a person needs an answer or action."
+        },
+        {
+          "role": "workflow material",
+          "writing_instruction": "Map trigger, input, operation, output, human review and next decision. Use one clearly hypothetical example unless real material is approved."
+        },
+        {
+          "role": "technical relevance",
+          "writing_instruction": "Explain which model or architectural detail changes quality, latency, review or failure conditions. Keep those relevant details."
+        },
+        {
+          "role": "application and boundary",
+          "writing_instruction": "Invite the reader to sketch one feature and mark unresolved questions. A sketch describes a process; it does not validate the implementation."
+        }
+      ],
+      "claim_plan": [
+        {
+          "id": "C01",
+          "claim": "The workflow sequence is a proposed explanatory method.",
+          "claim_type": "editorial_recommendation",
+          "evidence_source": "docs/SERVICES-AND-WRITING.md",
+          "boundary": "Editorial usefulness is a reasoned hypothesis; no conversion outcome established.",
+          "status": "proposal_for_review"
+        },
+        {
+          "id": "C02",
+          "claim": "The example describes the client’s actual implementation.",
+          "claim_type": "product_fact",
+          "evidence_source": "Technical owner and product documentation required",
+          "boundary": "Until verified, label the example hypothetical.",
+          "status": "not_available_do_not_assert"
+        }
+      ],
+      "reasoning": "Connecting each input to an output and responsible person shows how the feature participates in a decision. Technical terms remain useful when they explain a material constraint.",
+      "conclusion": "Sketch the path from the trigger to the next human decision, then fill the first gap a new reader would encounter.",
+      "interaction": {
+        "type": "application",
+        "text": "Use one feature and mark the input, output, reviewer and next action.",
+        "rationale": "An actionable exercise is more relevant than requiring a comment."
+      },
+      "humor": {
+        "use": "optional",
+        "example": "The model has a name. The person waiting for its output has a task.",
+        "status": "Original contrast for emphasis; optional and not evidence."
+      },
+      "format_note": "A single diagram can carry the workflow while the caption explains a constraint. Keep source labels and human-review boundaries visible.",
+      "founder_inputs": [
+        "Approve any real substituted workflow with its technical owner.",
+        "Choose one detail the intended buyer actually needs to assess."
+      ],
+      "source_variants": [
+        {
+          "path": "publications/20261105-evidence-v1/content.json",
+          "json_pointer": "/5",
+          "id": "06-product-to-buyer",
+          "file_sha256": "e61603da72d7ac429cc99904a25cc9c3a77c621b0a2a546e37197435229ca60b",
+          "row_sha256": "9061986cd062bde90b1d4b8204652ecb84502179bb5897619abb57e9cae55493",
+          "row_hash_encoding": "UTF-8 JSON, sorted keys, no ASCII escaping, separators comma/colon"
+        },
+        {
+          "path": "publications/20261105-humanized/content.json",
+          "json_pointer": "/5",
+          "id": "06-product-to-buyer",
+          "file_sha256": "a437ffcf390512855c13d6ecda28b17245cb9d5b41f0eff1e01137d20aaa824f",
+          "row_sha256": "b450519b1e8967df0d0acc485955f86cbaf1d8dc444a364be57e04aa4eec1932",
+          "row_hash_encoding": "UTF-8 JSON, sorted keys, no ASCII escaping, separators comma/colon"
+        }
+      ],
+      "status": "structure_updated_for_founder_review",
+      "first_person_status": "proposed voice; no personal history inferred",
+      "paragraph_rule": "Functional blocks may be combined or split; their count is not a platform rule.",
+      "existing_media_status": "Existing rendered assets and release hashes are unchanged; captions/panels need reconciliation if rebuilt."
+    },
+    {
+      "id": "07-two-voices",
+      "title": "Give founder and company publications different jobs",
+      "pattern_id": "P10",
+      "reader_job": "Decide which parts of one subject belong in a founder post and a company explanation.",
+      "dominant_question": "How can two accounts address one buyer question without duplicating the same text?",
+      "thesis": "A proposed division is founder judgment and trade-off alongside company-owned product context or supporting material; it depends on the actual sources and voice.",
+      "diagnosis": "Both drafts avoid claiming founder-account superiority. The new structure makes the comparison criteria explicit and shows where the proposed division may not apply.",
+      "structural_change": "Use a comparison with shared criteria and a boundary; finish with an allocation rule.",
+      "hooks": [
+        "One buyer question can need a founder’s judgment and a product team’s explanation.",
+        "Before adapting a founder post for the company page, decide what new information the second post adds."
+      ],
+      "hook_payoff": "Show a division of information around the same buyer question, with a reason for assigning each part.",
+      "paragraphs": [
+        {
+          "role": "shared question",
+          "writing_instruction": "Choose one illustrative buyer question, such as why a workflow retains human review."
+        },
+        {
+          "role": "comparison criteria",
+          "writing_instruction": "Founder version: actual decision and trade-off. Company version: current workflow, supporting evidence and operating boundary. Mark this as a proposed allocation."
+        },
+        {
+          "role": "reasoning",
+          "writing_instruction": "The two pieces add different information about the same subject; that is a coherence decision, not a ranking of account types."
+        },
+        {
+          "role": "exception",
+          "writing_instruction": "A founder can present technical evidence and a company can explain decisions. Source ownership and audience context may call for another split."
+        },
+        {
+          "role": "conclusion",
+          "writing_instruction": "Assign each piece to the voice able to explain and substantiate it; do not duplicate text solely to fill a calendar."
+        }
+      ],
+      "claim_plan": [
+        {
+          "id": "C01",
+          "claim": "This division of content is an editorial proposal.",
+          "claim_type": "editorial_hypothesis",
+          "evidence_source": "docs/SERVICES-AND-WRITING.md",
+          "boundary": "No claim that one account type causes better reach or leads.",
+          "status": "proposal_for_review"
+        },
+        {
+          "id": "C02",
+          "claim": "Founder accounts outperform company accounts causally.",
+          "claim_type": "causal_comparison",
+          "evidence_source": "Historical corpus does not identify this effect",
+          "boundary": "Do not promote descriptive account medians to causal advice.",
+          "status": "unsupported_do_not_assert"
+        }
+      ],
+      "reasoning": "Comparison is useful when its criteria are visible. Here the criteria are information added, source authority and reader need, not aggregate reaction rankings.",
+      "conclusion": "Give the second publication a distinct piece of evidence or explanation to contribute.",
+      "interaction": {
+        "type": "none",
+        "text": null,
+        "rationale": "The allocation rule closes the comparison; discussion can be added only if a concrete unresolved choice remains."
+      },
+      "humor": {
+        "use": "omit",
+        "example": null,
+        "status": "No joke needed to distinguish the two roles."
+      },
+      "format_note": "Use a two-column information map with the shared buyer question above it. Do not title the columns winner and loser.",
+      "founder_inputs": [
+        "Confirm the account roles and source ownership.",
+        "Supply a real shared buyer question if moving beyond an illustrative comparison."
+      ],
+      "source_variants": [
+        {
+          "path": "publications/20261105-evidence-v1/content.json",
+          "json_pointer": "/6",
+          "id": "07-two-voices",
+          "file_sha256": "e61603da72d7ac429cc99904a25cc9c3a77c621b0a2a546e37197435229ca60b",
+          "row_sha256": "fc2f634f470d7f37e8fee57a57846a63df58b12d060d66f47c344fc80ed3e75b",
+          "row_hash_encoding": "UTF-8 JSON, sorted keys, no ASCII escaping, separators comma/colon"
+        },
+        {
+          "path": "publications/20261105-humanized/content.json",
+          "json_pointer": "/6",
+          "id": "07-two-voices",
+          "file_sha256": "a437ffcf390512855c13d6ecda28b17245cb9d5b41f0eff1e01137d20aaa824f",
+          "row_sha256": "3286e3c8976539c8b1d95ce27c988d51421eb69f32c1a8577780b7dccd361606",
+          "row_hash_encoding": "UTF-8 JSON, sorted keys, no ASCII escaping, separators comma/colon"
+        }
+      ],
+      "status": "structure_updated_for_founder_review",
+      "first_person_status": "proposed voice; no personal history inferred",
+      "paragraph_rule": "Functional blocks may be combined or split; their count is not a platform rule.",
+      "existing_media_status": "Existing rendered assets and release hashes are unchanged; captions/panels need reconciliation if rebuilt."
+    },
+    {
+      "id": "08-visuals",
+      "title": "Choose a visual by the question it answers",
+      "pattern_id": "P05",
+      "reader_job": "Evaluate whether a proposed image adds explanatory value.",
+      "dominant_question": "What will the reader understand from the visual that matters to this post?",
+      "thesis": "Choose a visual function such as sequence, comparison or demonstration, then test whether the claim and its limits remain readable.",
+      "diagnosis": "The evidence-v1 question uses five seconds as rhetorical framing. The new structure removes that arbitrary timing cue and makes the visual’s explanatory job inspectable.",
+      "structural_change": "Offer a diagnostic decision tree: question → suitable representation → literal check → evidence boundary.",
+      "hooks": [
+        "Before choosing a LinkedIn image, write the question it must answer.",
+        "A workflow diagram and a portrait do different jobs. Which job does this post need?"
+      ],
+      "hook_payoff": "Help the reader choose a representation and check whether it actually carries the intended relationship.",
+      "paragraphs": [
+        {
+          "role": "diagnostic start",
+          "writing_instruction": "State one question the visual should help answer."
+        },
+        {
+          "role": "representation choice",
+          "writing_instruction": "Sequence → workflow; difference → comparison; observed result → appropriately sourced chart; person or atmosphere → clearly contextual imagery."
+        },
+        {
+          "role": "verification",
+          "writing_instruction": "Check the reading order, labels and source. Ask whether the caption and visual make the same claim. Preserve essential meaning in accessible text."
+        },
+        {
+          "role": "bounded conclusion",
+          "writing_instruction": "The visual explains or illustrates; only appropriately sourced material can serve as evidence for a factual claim."
+        }
+      ],
+      "claim_plan": [
+        {
+          "id": "C01",
+          "claim": "The visual-function mapping is editorial guidance.",
+          "claim_type": "editorial_recommendation",
+          "evidence_source": "docs/SERVICES-AND-WRITING.md",
+          "boundary": "No measured viewing-time, accessibility or engagement advantage is claimed.",
+          "status": "proposal_for_review"
+        },
+        {
+          "id": "C02",
+          "claim": "Illustrative people in the current artwork are real clients.",
+          "claim_type": "identity_claim",
+          "evidence_source": "Existing publication release records identify them as fictional",
+          "boundary": "Keep the illustrative label; do not imply a testimonial.",
+          "status": "false_do_not_assert"
+        }
+      ],
+      "reasoning": "Matching a representation to a question makes its purpose reviewable. A polished appearance alone does not establish the truth of the represented claim.",
+      "conclusion": "Write the visual’s question first, then remove any element that competes with its answer.",
+      "interaction": {
+        "type": "application",
+        "text": "Name the one relationship your next image needs to show.",
+        "rationale": "A practical brief instruction fits the diagnostic purpose."
+      },
+      "humor": {
+        "use": "optional",
+        "example": "A gradient cannot supply a missing denominator.",
+        "status": "Original illustrative line; retain the literal evidence check nearby."
+      },
+      "format_note": "No new image is required for this architecture task. A future visual revision must preserve rights, source labels and the exact caption revision.",
+      "founder_inputs": [
+        "Confirm the intended visual job.",
+        "Provide cleared source material if the image is meant to demonstrate a real product or result."
+      ],
+      "source_variants": [
+        {
+          "path": "publications/20261105-evidence-v1/content.json",
+          "json_pointer": "/7",
+          "id": "08-visuals",
+          "file_sha256": "e61603da72d7ac429cc99904a25cc9c3a77c621b0a2a546e37197435229ca60b",
+          "row_sha256": "b87a456d02b6a1283fef02f92c667d9ed0ca638b95ad056335e62273cb1bbcbc",
+          "row_hash_encoding": "UTF-8 JSON, sorted keys, no ASCII escaping, separators comma/colon"
+        },
+        {
+          "path": "publications/20261105-humanized/content.json",
+          "json_pointer": "/7",
+          "id": "08-visuals",
+          "file_sha256": "a437ffcf390512855c13d6ecda28b17245cb9d5b41f0eff1e01137d20aaa824f",
+          "row_sha256": "83355b2078bc0853bd5d655e0986455069fc9147b704c34768711e062a304e3b",
+          "row_hash_encoding": "UTF-8 JSON, sorted keys, no ASCII escaping, separators comma/colon"
+        }
+      ],
+      "status": "structure_updated_for_founder_review",
+      "first_person_status": "proposed voice; no personal history inferred",
+      "paragraph_rule": "Functional blocks may be combined or split; their count is not a platform rule.",
+      "existing_media_status": "Existing rendered assets and release hashes are unchanged; captions/panels need reconciliation if rebuilt."
+    },
+    {
+      "id": "09-measure",
+      "title": "Choose the measure from the question",
+      "pattern_id": "P05",
+      "reader_job": "Decide what an available content metric can answer and what remains unknown.",
+      "dominant_question": "Which question can the observed measure actually answer?",
+      "thesis": "Start with the decision, match it to an observable measure, and retain missing reach or conversion data as unknown.",
+      "diagnosis": "The humanized version overlaps with post 02 by repeating medians; evidence-v1 already uses missingness counts. This structure gives both variants a clearer shared role: a measurement decision guide.",
+      "structural_change": "Remove the repeated median as the main content. Use a question-to-measure mapping and a small corpus missingness example as support.",
+      "hooks": [
+        "Before choosing a LinkedIn metric, write the question you need it to answer.",
+        "A visible reaction count answers one narrow question: how many reactions were observed?"
+      ],
+      "hook_payoff": "Distinguish observed reactions, substantive questions, exposure and commercial outcomes without claiming that one metric substitutes for another.",
+      "paragraphs": [
+        {
+          "role": "decision",
+          "writing_instruction": "Name the question first: response, exposure, useful discussion, inquiry or commercial outcome."
+        },
+        {
+          "role": "measurement map",
+          "writing_instruction": "Reaction count describes recorded reactions; comments may contain questions; exposure needs actual impression or reach data; a commercial claim needs its own outcome definition and evidence."
+        },
+        {
+          "role": "worked limitation",
+          "writing_instruction": "In the preserved sample, reactions exist for 276 of 279 posts and comments for 256. No reach or conversion evidence is available in that sample."
+        },
+        {
+          "role": "reasoning",
+          "writing_instruction": "Different denominators and unavailable outcomes make some comparisons unanswerable. Do not turn missing data into zero or infer buyer intent from a reaction."
+        },
+        {
+          "role": "conclusion and invitation",
+          "writing_instruction": "Choose the next observable question. Ask about a concrete gap only if the author wants that discussion."
+        }
+      ],
+      "claim_plan": [
+        {
+          "id": "C01",
+          "claim": "Observed reaction and comment counts cover 276 and 256 of the 279 posts.",
+          "claim_type": "descriptive_count",
+          "evidence_source": "reports/20261105/data.json",
+          "boundary": "Different observed subsets; metrics in this report are timestamped 22 October 2026.",
+          "status": "recomputed"
+        },
+        {
+          "id": "C02",
+          "claim": "A reaction establishes buyer intent or a sale.",
+          "claim_type": "commercial_inference",
+          "evidence_source": "No buyer-intent or outcome record",
+          "boundary": "The inference is unsupported.",
+          "status": "unsupported_do_not_assert"
+        },
+        {
+          "id": "C03",
+          "claim": "A comment may contain a useful question.",
+          "claim_type": "possibility",
+          "evidence_source": "Review of the actual comment would be required",
+          "boundary": "Do not claim a substantive question merely from the comment count.",
+          "status": "conditional"
+        }
+      ],
+      "reasoning": "A measure can be useful without answering every question. The next collection or review task should address the specific missing link between the available observation and the decision.",
+      "conclusion": "Choose the question, record the measure you have, and leave the unsupported answer open.",
+      "interaction": {
+        "type": "bounded_question",
+        "text": "Which decision are you trying to make that your current content metrics cannot answer?",
+        "rationale": "The response supplies a specific measurement problem, not a vote for agreement."
+      },
+      "humor": {
+        "use": "omit",
+        "example": null,
+        "status": "Keep the distinction between observation and outcome literal."
+      },
+      "format_note": "A small question/measure/unknown table is sufficient. Do not use a conversion funnel diagram that implies observed conversions.",
+      "founder_inputs": [
+        "Confirm which measurement questions the proposed service can actually support.",
+        "Any client result needs separately authorized analytics and its own measurement definition."
+      ],
+      "source_variants": [
+        {
+          "path": "publications/20261105-evidence-v1/content.json",
+          "json_pointer": "/8",
+          "id": "09-measure",
+          "file_sha256": "e61603da72d7ac429cc99904a25cc9c3a77c621b0a2a546e37197435229ca60b",
+          "row_sha256": "e238c821603221f05b98f69aabe5a66565f140b594191a3c93458ba96c7a0b1c",
+          "row_hash_encoding": "UTF-8 JSON, sorted keys, no ASCII escaping, separators comma/colon"
+        },
+        {
+          "path": "publications/20261105-humanized/content.json",
+          "json_pointer": "/8",
+          "id": "09-measure",
+          "file_sha256": "a437ffcf390512855c13d6ecda28b17245cb9d5b41f0eff1e01137d20aaa824f",
+          "row_sha256": "dbd0d8639b37ad50f5653590a0ce3b417167167056d095c87de81384fba78562",
+          "row_hash_encoding": "UTF-8 JSON, sorted keys, no ASCII escaping, separators comma/colon"
+        }
+      ],
+      "status": "structure_updated_for_founder_review",
+      "first_person_status": "proposed voice; no personal history inferred",
+      "paragraph_rule": "Functional blocks may be combined or split; their count is not a platform rule.",
+      "existing_media_status": "Existing rendered assets and release hashes are unchanged; captions/panels need reconciliation if rebuilt."
+    },
+    {
+      "id": "10-the-delivery",
+      "title": "Explain the service and its review boundary",
+      "pattern_id": "P12",
+      "reader_job": "Assess whether the proposed founder-content service fits the reader’s need.",
+      "dominant_question": "What would the founder contribute, what would the service produce, and what happens next?",
+      "thesis": "The proposed service turns approved founder material into written and visual drafts, with the founder retaining factual and voice approval.",
+      "diagnosis": "The current offer explains the process and preserves the approved CTA. The new structure makes buyer fit and the deliverable clearer without introducing a performance guarantee.",
+      "structural_change": "Use an offer pattern: fit → input → work/output → review boundary → exact next step. Do not force an educational or discussion ending onto it.",
+      "hooks": [
+        "For a founder who has useful expertise to share, the next step can be a clearer way to turn it into content.",
+        "Outspoken starts with the decisions and explanations you can substantiate."
+      ],
+      "hook_payoff": "Describe the proposed input, deliverable and approval process sufficiently for the reader to assess relevance.",
+      "paragraphs": [
+        {
+          "role": "buyer fit",
+          "writing_instruction": "Use the approved agency audience: Europe-based B2B AI SaaS founders, 10–50 people, Seed–Series B. Avoid assuming that every founder in that group needs the service."
+        },
+        {
+          "role": "source and deliverable",
+          "writing_instruction": "Describe the proposed founder conversation, buyer question, positioning work and written/visual drafts. Confirm delivery capability before presenting details as available."
+        },
+        {
+          "role": "review boundary",
+          "writing_instruction": "Explain the founder’s role in checking facts, voice and disclosure. Keep results, client evidence and operational promises at their verified level."
+        },
+        {
+          "role": "next step",
+          "writing_instruction": "End with the exact approved CTA: Book an intro call. Do not add an invented guarantee, price, scarcity statement or booking URL."
+        }
+      ],
+      "claim_plan": [
+        {
+          "id": "C01",
+          "claim": "The agency audience and CTA are approved.",
+          "claim_type": "approved_project_position",
+          "evidence_source": "docs/APPROVED-POSITIONING.json",
+          "boundary": "Approval of positioning does not establish customer demand or results.",
+          "status": "source_confirmed"
+        },
+        {
+          "id": "C02",
+          "claim": "The proposed workflow can be delivered as described.",
+          "claim_type": "service_capability",
+          "evidence_source": "docs/SERVICES-AND-WRITING.md",
+          "boundary": "Operational specifics still require founder/delivery review.",
+          "status": "proposal_for_review"
+        },
+        {
+          "id": "C03",
+          "claim": "The service guarantees reach, leads or sales.",
+          "claim_type": "commercial_guarantee",
+          "evidence_source": "No substantiating result or guarantee terms",
+          "boundary": "Do not add this promise.",
+          "status": "unsupported_do_not_assert"
+        }
+      ],
+      "reasoning": "A useful offer gives a relevant reader enough information about fit, contribution, deliverable and review to decide whether to inquire. Reaction volume is not its only possible outcome.",
+      "conclusion": "Book an intro call",
+      "interaction": {
+        "type": "offer",
+        "text": "Book an intro call",
+        "rationale": "Use the approved commercial next step. No separate engagement question is needed."
+      },
+      "humor": {
+        "use": "omit",
+        "example": null,
+        "status": "Clarity of scope and next step is sufficient."
+      },
+      "format_note": "The caption must carry the offer even when separated from its image. Approved hero, VP and CTA remain unchanged in their canonical source.",
+      "founder_inputs": [
+        "Confirm the proposed delivery scope and capability.",
+        "Approve first-person agency voice before publication."
+      ],
+      "source_variants": [
+        {
+          "path": "publications/20261105-evidence-v1/content.json",
+          "json_pointer": "/9",
+          "id": "10-the-delivery",
+          "file_sha256": "e61603da72d7ac429cc99904a25cc9c3a77c621b0a2a546e37197435229ca60b",
+          "row_sha256": "9a7649e43baa84e77e13655e3c2b87cc355ce819c5b8a5d12de24f59a28bdbb0",
+          "row_hash_encoding": "UTF-8 JSON, sorted keys, no ASCII escaping, separators comma/colon"
+        },
+        {
+          "path": "publications/20261105-humanized/content.json",
+          "json_pointer": "/9",
+          "id": "10-the-delivery",
+          "file_sha256": "a437ffcf390512855c13d6ecda28b17245cb9d5b41f0eff1e01137d20aaa824f",
+          "row_sha256": "729182d8fe2317db7d441bcc5931d6242725dbc2ddeb430e17d739e7480c0aee",
+          "row_hash_encoding": "UTF-8 JSON, sorted keys, no ASCII escaping, separators comma/colon"
+        }
+      ],
+      "status": "structure_updated_for_founder_review",
+      "first_person_status": "proposed voice; no personal history inferred",
+      "paragraph_rule": "Functional blocks may be combined or split; their count is not a platform rule.",
+      "existing_media_status": "Existing rendered assets and release hashes are unchanged; captions/panels need reconciliation if rebuilt."
+    }
+  ]
+}

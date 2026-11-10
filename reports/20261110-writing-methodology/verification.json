@@ -1,0 +1,416 @@
+{
+  "schema": "linkedin-writing-verification/2",
+  "checked_at": "2026-11-10T19:17:28.578631+00:00",
+  "base_commit": "9d54e58e85b5c90a8bc674c73b5e87d68baeb0a5",
+  "status": "PASS",
+  "check_count": 51,
+  "checks": [
+    {
+      "check": "Fourteen unique pattern IDs",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Pattern fields and nonempty sequences",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Exact current concept IDs",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Known pattern assignments",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Twenty unique source references",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source bundle hash: publications/20261105-evidence-v1/content.json",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source bundle IDs: publications/20261105-evidence-v1/content.json",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source bundle hash: publications/20261105-humanized/content.json",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source bundle IDs: publications/20261105-humanized/content.json",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source row identity/hash: 01-the-reason:20261105-evidence-v1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source row identity/hash: 01-the-reason:20261105-humanized",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source row identity/hash: 02-what-we-actually-saw:20261105-evidence-v1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source row identity/hash: 02-what-we-actually-saw:20261105-humanized",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source row identity/hash: 03-the-interview:20261105-evidence-v1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source row identity/hash: 03-the-interview:20261105-humanized",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source row identity/hash: 04-positioning:20261105-evidence-v1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source row identity/hash: 04-positioning:20261105-humanized",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source row identity/hash: 05-proof:20261105-evidence-v1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source row identity/hash: 05-proof:20261105-humanized",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source row identity/hash: 06-product-to-buyer:20261105-evidence-v1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source row identity/hash: 06-product-to-buyer:20261105-humanized",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source row identity/hash: 07-two-voices:20261105-evidence-v1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source row identity/hash: 07-two-voices:20261105-humanized",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source row identity/hash: 08-visuals:20261105-evidence-v1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source row identity/hash: 08-visuals:20261105-humanized",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source row identity/hash: 09-measure:20261105-evidence-v1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source row identity/hash: 09-measure:20261105-humanized",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source row identity/hash: 10-the-delivery:20261105-evidence-v1",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Source row identity/hash: 10-the-delivery:20261105-humanized",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Shared evidence hashes",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Original evidence, drafts and positioning unchanged",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Approved CTA preserved",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Recorded ending mix",
+      "status": "PASS",
+      "detail": {
+        "none": 4,
+        "application": 3,
+        "diagnostic_question": 1,
+        "bounded_question": 1,
+        "offer": 1
+      }
+    },
+    {
+      "check": "Recomputed historical statistics",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Displayed report metric dates",
+      "status": "PASS",
+      "detail": {
+        "min": "2026-10-22T08:39:11.229205+00:00",
+        "max": "2026-10-22T14:42:10.941034+00:00"
+      }
+    },
+    {
+      "check": "YAML parses: brief.yaml",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "YAML parses: review.yaml",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "CSV rectangular: claim-ledger.csv",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Claim ledger demonstration is singular",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "CSV rectangular: accounts.csv",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "CSV rectangular: posts.csv",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Full corpus row coverage",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Coverage CSV excludes performance value columns",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Coverage post identities match report",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Unique source IDs",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Official, theory and identified agency sources resolved",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "External source URLs and local source paths resolve",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Document source IDs resolve",
+      "status": "PASS",
+      "detail": {
+        "missing": []
+      }
+    },
+    {
+      "check": "Local Markdown links resolve in checkout or full Git tree",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "Change scope is writing methodology only",
+      "status": "PASS",
+      "detail": [
+        "AGENTS.md",
+        "CURRENT-STATE.md",
+        "README.md",
+        "docs/CATEGORY-GUIDE.md",
+        "docs/LINKEDIN-WRITING-ARCHITECTURE.md",
+        "docs/SERVICES-AND-WRITING.md",
+        "docs/linkedin-writing/AGENT-ROUTING.md",
+        "docs/linkedin-writing/HOOKS-PROOF-ENDINGS.md",
+        "docs/linkedin-writing/HUMOR-AND-INTEREST.md",
+        "docs/linkedin-writing/PATTERN-LIBRARY.md",
+        "docs/linkedin-writing/RESEARCH-AND-REVIEW.md",
+        "docs/linkedin-writing/corpus-audit/README.md",
+        "docs/linkedin-writing/corpus-audit/accounts.csv",
+        "docs/linkedin-writing/corpus-audit/audit.json",
+        "docs/linkedin-writing/corpus-audit/posts.csv",
+        "docs/linkedin-writing/patterns.json",
+        "docs/linkedin-writing/source-registry.json",
+        "docs/linkedin-writing/templates/README.md",
+        "docs/linkedin-writing/templates/agent-task.md",
+        "docs/linkedin-writing/templates/brief.yaml",
+        "docs/linkedin-writing/templates/claim-ledger.csv",
+        "docs/linkedin-writing/templates/review.yaml",
+        "docs/linkedin-writing/templates/story-skeleton.md",
+        "publications/20261110-writing-architecture/README.md",
+        "publications/20261110-writing-architecture/WORKED-EXAMPLE.md",
+        "publications/20261110-writing-architecture/post-structures.json",
+        "reports/20261110-writing-methodology/README.md",
+        "reports/20261110-writing-methodology/verification.json",
+        "reports/20261110-writing-methodology/verify.py"
+      ]
+    },
+    {
+      "check": "No installed skill or binary added",
+      "status": "PASS",
+      "detail": null
+    }
+  ],
+  "payload_files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "bf2de9bebbdf288fe0abfc8d294ac50897247cc1ddf42420087dd19d436a7741"
+    },
+    {
+      "path": "CURRENT-STATE.md",
+      "sha256": "292cf5536fc3bce256fa80692bd97ec931cf2249c7b7ddb94b7c177ea8c396e8"
+    },
+    {
+      "path": "README.md",
+      "sha256": "b9551714a600a3669e0cae783e334fe2f8175c8490ef1fa811f4c80be946139f"
+    },
+    {
+      "path": "docs/CATEGORY-GUIDE.md",
+      "sha256": "6f240fe14aa7316760c183aa29801efda63d2922b5e7807ab9ef1889f9daa711"
+    },
+    {
+      "path": "docs/LINKEDIN-WRITING-ARCHITECTURE.md",
+      "sha256": "88f3ce5a5c6bd0c8c47976e6635f36b33e26ce1e6fab33b7fbe55c658fc0d474"
+    },
+    {
+      "path": "docs/SERVICES-AND-WRITING.md",
+      "sha256": "5f151bb11644155bd83bbc0be79fdf3ecd04e9b95e6a9915498d4f8199820d75"
+    },
+    {
+      "path": "docs/linkedin-writing/AGENT-ROUTING.md",
+      "sha256": "d2a768ae04ce4e1b2676d61d3f17698a812b8af1836117c43b1d7c1fa95669f4"
+    },
+    {
+      "path": "docs/linkedin-writing/HOOKS-PROOF-ENDINGS.md",
+      "sha256": "ab5a1a4ee75f4fd3b8a60fd98351c9b95cd5abd668968e13dcad0e879d1b4846"
+    },
+    {
+      "path": "docs/linkedin-writing/HUMOR-AND-INTEREST.md",
+      "sha256": "f4b686e9dbed470e4f0b83c32e655affa36fac38bf33ac339a4440cd83231ac3"
+    },
+    {
+      "path": "docs/linkedin-writing/PATTERN-LIBRARY.md",
+      "sha256": "a29f6c40a465c0b0a953b51cd55fe9dab58ab8b35fec2d9d865f2ad87e3ab451"
+    },
+    {
+      "path": "docs/linkedin-writing/RESEARCH-AND-REVIEW.md",
+      "sha256": "68bb33eb923916c0ac9bb7f551c37ab33297eccff9d01cba243730e150c5ca2d"
+    },
+    {
+      "path": "docs/linkedin-writing/corpus-audit/README.md",
+      "sha256": "6435ab2842a3ae1a88037b73cfb4f702f6236423d7599f2318d71ea998b2f1cf"
+    },
+    {
+      "path": "docs/linkedin-writing/corpus-audit/accounts.csv",
+      "sha256": "032eee1a9aedce4c7d414047626fe676bfd404526481a6058dba438fdd6c75a0"
+    },
+    {
+      "path": "docs/linkedin-writing/corpus-audit/audit.json",
+      "sha256": "1dbb0a1bf04b080a04bdda38c983cfd3ee6e93727d072b8c14392821ca77af5a"
+    },
+    {
+      "path": "docs/linkedin-writing/corpus-audit/posts.csv",
+      "sha256": "030b7e09a5b1be7df93877d5a6860cf1e46591276cd6ed6b1aa62dd6a0204842"
+    },
+    {
+      "path": "docs/linkedin-writing/patterns.json",
+      "sha256": "ae10138296d576ecf1c47117a7fd448e47b6305c737c6a84769620fabbfda968"
+    },
+    {
+      "path": "docs/linkedin-writing/source-registry.json",
+      "sha256": "544d2b5a580b9b48d4b448044b003af8cbe418246137bcd0b4fb36dfa450e9c8"
+    },
+    {
+      "path": "docs/linkedin-writing/templates/README.md",
+      "sha256": "ddedfb5b5ca344e91400745410530a5aede58eaa130ffc052a46136a359bc453"
+    },
+    {
+      "path": "docs/linkedin-writing/templates/agent-task.md",
+      "sha256": "433c8b92bc0abf5c95aa89bb8e334db9ffc14b188f583acb1a588230d3ee0751"
+    },
+    {
+      "path": "docs/linkedin-writing/templates/brief.yaml",
+      "sha256": "95e6c8dabc76feed28d4d081b59f88e12c54ad8685ca323ad1b0b2ff572fb561"
+    },
+    {
+      "path": "docs/linkedin-writing/templates/claim-ledger.csv",
+      "sha256": "1fda86a84da886d1fac490a5b51f884824c462d13310338b0b8cf3fc247219e8"
+    },
+    {
+      "path": "docs/linkedin-writing/templates/review.yaml",
+      "sha256": "0095357ba9648785e38f7def185ddb000d01b054e4a98f709b147486cba1ffbb"
+    },
+    {
+      "path": "docs/linkedin-writing/templates/story-skeleton.md",
+      "sha256": "9baf1c356b8147ee7440ff904778c9b518b52c1185288a9b07cd7a2c89bfb39a"
+    },
+    {
+      "path": "publications/20261110-writing-architecture/README.md",
+      "sha256": "a3b6d75ba30f35b094dee9702105dd226103fc56939e5a70bcdfb20f89a7bff7"
+    },
+    {
+      "path": "publications/20261110-writing-architecture/WORKED-EXAMPLE.md",
+      "sha256": "4c882b234d7589b8cd3252de451cc9a8a9d6e08a384296a842c36bdac7d81ae9"
+    },
+    {
+      "path": "publications/20261110-writing-architecture/post-structures.json",
+      "sha256": "6a25988f382b9aef5d5ba0e8c7d78c42a1144ebc442500b8a1286e00daee4b67"
+    }
+  ],
+  "limits": [
+    "Deterministic checks do not establish writing performance or founder approval.",
+    "Public safety scan is run separately on the materialized sparse checkout; unchanged omitted assets are not re-audited.",
+    "Independent editorial review and source access limitations are recorded in README and the research record."
+  ]
+}

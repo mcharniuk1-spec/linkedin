@@ -1,0 +1,312 @@
+{
+  "schema": "linkedin-writing-patterns/2",
+  "version": "2.0",
+  "date": "2026-11-10",
+  "status": "editorial_design_for_review",
+  "evidence_status": "Original editorial synthesis; not experimentally validated LinkedIn performance recipes.",
+  "patterns": [
+    {
+      "id": "P01",
+      "name": "Evidence-led insight",
+      "job": "Explain what one observation changes",
+      "use_when": "There is an inspectable observation and a useful, bounded interpretation.",
+      "hook": "[Observed result] changes how I would think about [specific decision].",
+      "sequence": [
+        "Observation and its context",
+        "What the observation does establish",
+        "Reasoning: why it matters to the reader's decision",
+        "Alternative explanation or boundary",
+        "Practical implication"
+      ],
+      "evidence": "Original source or dataset; population, period, denominator and comparison basis for numbers. An attributed external statement stays attributed.",
+      "reasoning": "Explain the link between the observed difference and the decision. Do not replace an association with a causal mechanism.",
+      "conclusion": "For [context], this supports [bounded action or interpretation]. It does not yet establish [material unresolved claim].",
+      "audience": "Optionally ask what additional evidence would change the decision.",
+      "humor": "A brief recognition joke can sit outside the result sentence; keep the measurement literal.",
+      "stop": "If the observation cannot be located, hold the factual claim or write a question instead.",
+      "variation": "Result-first or question-first; one chart only when the chart answers the central question."
+    },
+    {
+      "id": "P02",
+      "name": "Founder decision story",
+      "job": "Make a professional judgment understandable",
+      "use_when": "The founder can confirm a specific decision and the circumstances around it.",
+      "hook": "At [specific moment], we had to choose between [real alternatives].",
+      "sequence": [
+        "Moment and stakes",
+        "Goal and constraint at the time",
+        "Alternatives and decision",
+        "Reason for choosing with the information then available",
+        "Observed consequence",
+        "Present reflection and transfer limit"
+      ],
+      "evidence": "Founder-confirmed account, date/context, actual alternatives, permission for shared details; a record for numerical outcomes.",
+      "reasoning": "Show how the constraint and available evidence explain the choice. Separate the decision's rationale from what happened afterward.",
+      "conclusion": "In that situation, [decision rule] mattered because [reason]. I would reconsider it when [condition].",
+      "audience": "Ask which constraint changed a comparable decision, if discussion would add value.",
+      "humor": "Self-directed understatement about the process can fit an established founder voice.",
+      "stop": "Missing personal material is an interview gap, not an invitation to invent a scene.",
+      "variation": "Begin at the decision or at its consequence; avoid making hindsight sound inevitable."
+    },
+    {
+      "id": "P03",
+      "name": "Changed mind or mistake",
+      "job": "Explain a revision in professional understanding",
+      "use_when": "There is a verifiable earlier belief, a disconfirming signal and an actual or proposed change.",
+      "hook": "I used to assume [precise belief]. [Specific evidence] made me revisit it.",
+      "sequence": [
+        "Earlier assumption and why it seemed reasonable",
+        "Action or test based on it",
+        "Disconfirming observation",
+        "Competing explanations checked",
+        "Revised understanding",
+        "Changed practice and remaining uncertainty"
+      ],
+      "evidence": "Confirmed former position and incident; evidence for the disconfirming signal; distinguish an implemented change from an intention.",
+      "reasoning": "The revision should follow from the evidence rather than from a moral lesson imposed afterward.",
+      "conclusion": "I now use [narrower rule] in [context], while still checking [unresolved condition].",
+      "audience": "Invite a counterexample or another condition that would change the rule.",
+      "humor": "Optional self-recognition; avoid self-deprecation that undermines a core capability claim.",
+      "stop": "Do not fabricate failure, vulnerability or a successful recovery to complete the arc.",
+      "variation": "A small corrected assumption can carry the post; a dramatic confession is unnecessary."
+    },
+    {
+      "id": "P04",
+      "name": "Workflow walkthrough",
+      "job": "Help the reader understand or attempt a process",
+      "use_when": "A real or clearly labelled illustrative process can be made inspectable.",
+      "hook": "Here is how [specific task] moves from [input] to [usable decision].",
+      "sequence": [
+        "Task and user",
+        "Input and constraints",
+        "Steps with the reason for each",
+        "Output and acceptance check",
+        "Failure or exception",
+        "Adaptation or next attempt"
+      ],
+      "evidence": "Actual process notes or an explicitly synthetic demonstration; current product/version evidence for capabilities.",
+      "reasoning": "Connect every step to the problem it solves. Explain the human check where it exists.",
+      "conclusion": "Use this sequence when [conditions]; change [step] if [constraint differs].",
+      "audience": "Ask where the reader's workflow requires a different handoff.",
+      "humor": "A mild observation about process friction can help recognition, without blaming users.",
+      "stop": "Do not present an unrun example as a working deployment or measured saving.",
+      "variation": "Text, diagram, document or video according to how the process is best explained."
+    },
+    {
+      "id": "P05",
+      "name": "Diagnostic checklist",
+      "job": "Help a reader locate a problem or choose the next check",
+      "use_when": "There are meaningful criteria with observable signs and consequences.",
+      "hook": "Before you decide [X], check [specific risk or condition].",
+      "sequence": [
+        "Decision and scope",
+        "Diagnostic questions or checks",
+        "What each answer implies",
+        "Small worked example",
+        "Priority or next action",
+        "Limit of the checklist"
+      ],
+      "evidence": "Basis for the criteria; actual examples if claimed; label an original checklist as a proposed tool, not a validated diagnostic.",
+      "reasoning": "Each check must change a decision. Items that merely sound sensible add length without diagnostic value.",
+      "conclusion": "Start with [highest-impact check] when [condition]; escalate or investigate if [signal].",
+      "audience": "Invite a missing check from people who have used the process.",
+      "humor": "Optional light label for a recognisable process habit, not for a person.",
+      "stop": "Do not imply completeness, legal assurance or measured accuracy without supporting evidence.",
+      "variation": "Three checks are not mandatory; use the smallest set that covers the stated decision."
+    },
+    {
+      "id": "P06",
+      "name": "Research translation",
+      "job": "Explain what a study means for a practical question",
+      "use_when": "The underlying research and its limitations can be inspected.",
+      "hook": "[Study/source] examined [question]. Here is the part relevant to [reader decision].",
+      "sequence": [
+        "Practical question",
+        "Study population, design and comparison",
+        "Material result",
+        "What the result supports",
+        "Transfer limits and alternative interpretation",
+        "Practical implication or next test"
+      ],
+      "evidence": "Primary paper/report, publication status, methods and result actually accessed; mark abstract-only access and any missing details.",
+      "reasoning": "Separate what the researchers measured from the new professional context. A survey preference is not a demonstrated sales effect.",
+      "conclusion": "This gives us a reason to test [application], within [scope]; it does not settle [broader claim].",
+      "audience": "Ask for a relevant replication or field constraint, rather than asking readers to agree with the study.",
+      "humor": "Keep jokes away from quoted findings, source attribution and statistical claims.",
+      "stop": "If the method is inaccessible, narrow the summary to the accessible evidence and retain the gap.",
+      "variation": "A short source note can lead to an article/newsletter for the full reasoning."
+    },
+    {
+      "id": "P07",
+      "name": "Qualified counterposition",
+      "job": "Improve a common decision rule",
+      "use_when": "A precisely stated conventional view has a material boundary or overlooked alternative.",
+      "hook": "[Common advice] is useful when [condition]. It becomes less useful when [specific condition].",
+      "sequence": [
+        "Fair account of the common view",
+        "Where it works",
+        "Evidence or example exposing a boundary",
+        "Alternative explanation or rule",
+        "Strong counterargument",
+        "Conditional recommendation"
+      ],
+      "evidence": "Traceable formulation of the position or a clearly labelled generalisation; examples and sources supporting the boundary.",
+      "reasoning": "Challenge the rule's scope, mechanism or evidence. Disagreement alone does not establish the opposite.",
+      "conclusion": "Choose [A] when [criterion]; choose [B] when [different criterion].",
+      "audience": "Invite a circumstance that breaks the proposed distinction.",
+      "humor": "Gentle irony about an overbroad slogan may fit; avoid mocking named people.",
+      "stop": "Do not invent a consensus, cherry-pick a weak opponent or force false balance.",
+      "variation": "Use a comparison table or a short case if it clarifies the conditions."
+    },
+    {
+      "id": "P08",
+      "name": "Measured case or customer proof",
+      "job": "Let a buyer assess a documented result",
+      "use_when": "An authorised case has a defined result and inspectable measurement context.",
+      "hook": "For [defined case], [metric] moved from [baseline] to [result] during [period].",
+      "sequence": [
+        "Case and initial condition",
+        "Intervention and concurrent changes",
+        "Measurement method and result",
+        "What can be attributed and what cannot",
+        "Practical explanation",
+        "Who this case may or may not apply to"
+      ],
+      "evidence": "Permission, source, baseline, denominator, timeframe, measurement method and relevant costs; causal design if causal wording is used.",
+      "reasoning": "Distinguish outcome, mechanism hypothesis and attribution. Show relevant concurrent changes.",
+      "conclusion": "This case demonstrates [observed result] under [conditions]; further evidence is needed for [generalisation].",
+      "audience": "Offer the measurement method or invite a comparable case if permitted.",
+      "humor": "Usually low. Keep customer experience and result statements clear and respectful.",
+      "stop": "No approved case or measurement means no outcome claim; reroute to P04 or P05.",
+      "variation": "A customer quote is evidence of that person's reported experience, not independent proof of every performance claim."
+    },
+    {
+      "id": "P09",
+      "name": "Build update or release",
+      "job": "Explain a concrete change and its significance",
+      "use_when": "A release, milestone, experiment or learning update is documented.",
+      "hook": "We changed [specific thing]. Here is the problem it is meant to address.",
+      "sequence": [
+        "What changed and release state",
+        "User problem or decision behind it",
+        "Demonstration or change evidence",
+        "Trade-off or remaining limitation",
+        "Who should use or test it",
+        "Next step without an unsupported roadmap promise"
+      ],
+      "evidence": "Release record, current capability, demonstration conditions and approved availability wording.",
+      "reasoning": "Explain why the change matters to the user. Shipping is not evidence of adoption or value.",
+      "conclusion": "For [user/task], the change enables [verified capability]. We still need to learn [open outcome].",
+      "audience": "Ask for feedback on a specific task or failure condition, when the team can use it.",
+      "humor": "Light process humor may work if the feature and availability remain unambiguous.",
+      "stop": "Do not announce an unshipped feature as available or imply a completed customer outcome.",
+      "variation": "A progress update can contain a failure and a next decision instead of a success milestone."
+    },
+    {
+      "id": "P10",
+      "name": "Comparison or review",
+      "job": "Support a choice between alternatives",
+      "use_when": "The alternatives can be assessed against the same relevant criteria.",
+      "hook": "For [task], the useful difference between [A] and [B] is [criterion].",
+      "sequence": [
+        "Reader task and constraints",
+        "Alternatives and version/date",
+        "Common criteria and test or evidence",
+        "Trade-offs with examples",
+        "Conditions that change the preference",
+        "Recommendation for a defined user"
+      ],
+      "evidence": "Comparable sources or an actual described test; costs and versions where material; relationships or incentives disclosed where relevant.",
+      "reasoning": "Tie the recommendation to criteria. A preferred result on one task does not establish universal superiority.",
+      "conclusion": "Choose [A] for [condition]; [B] is a better fit when [condition], based on [evidence].",
+      "audience": "Ask which constraint or use case the comparison missed.",
+      "humor": "A concise analogy can make a trade-off memorable without replacing the comparison.",
+      "stop": "Do not call a desk review hands-on or compare mismatched baselines.",
+      "variation": "A review of one tool can compare it with the current manual process."
+    },
+    {
+      "id": "P11",
+      "name": "Working question or discussion",
+      "job": "Collect useful perspectives on an unresolved decision",
+      "use_when": "The author can define a real question and explain what is already known.",
+      "hook": "I am deciding [specific question]. The unresolved part is [trade-off].",
+      "sequence": [
+        "Decision and context",
+        "What is known",
+        "Options and trade-off",
+        "Author's provisional view",
+        "Precise request for relevant experience"
+      ],
+      "evidence": "Context and stated known facts; label the author's view as provisional.",
+      "reasoning": "Explain why the requested experience could change the decision. Keep the question answerable without disclosing confidential details.",
+      "conclusion": "I would change [provisional view] if [specific evidence or condition].",
+      "audience": "One focused question; permit nuanced answers and no compulsory reply.",
+      "humor": "Recognition can lower stiffness, but avoid making the question seem insincere.",
+      "stop": "Do not invent a dilemma solely to solicit comments or report replies as a representative survey.",
+      "variation": "A poll is optional and remains self-selected feedback."
+    },
+    {
+      "id": "P12",
+      "name": "Offer or invitation",
+      "job": "Help a relevant reader decide whether to take a next step",
+      "use_when": "The offer, eligibility, scope and next action are current and authorised.",
+      "hook": "For [specific reader] dealing with [specific problem], we offer [bounded service or resource].",
+      "sequence": [
+        "Reader and problem",
+        "What is offered and included",
+        "How it works",
+        "Available evidence or transparent evidence gap",
+        "Fit and meaningful limits",
+        "One clear next action"
+      ],
+      "evidence": "Approved offer and delivery capability; approved price/availability if included; substantiated case claims only.",
+      "reasoning": "Explain the connection between the service and the reader's problem. Do not substitute urgency or popularity for fit.",
+      "conclusion": "If [fit condition], [approved next action].",
+      "audience": "Use a direct, relevant action. A discussion question is not required.",
+      "humor": "Optional, low risk; never obscure price, scope, commitments or eligibility.",
+      "stop": "No invented scarcity, clients, guaranteed outcomes or unapproved offer changes.",
+      "variation": "An event/resource invitation may use the same pattern with a clear purpose and recipient."
+    },
+    {
+      "id": "P13",
+      "name": "Focused professional observation",
+      "job": "Make one useful distinction memorable",
+      "use_when": "A small, bounded insight is sufficient and does not need a full story.",
+      "hook": "[Concrete observation or distinction].",
+      "sequence": [
+        "Observation",
+        "Specific illustration or explanation",
+        "Why the distinction matters",
+        "Compact takeaway"
+      ],
+      "evidence": "Source for factual assertions; a labelled illustration for a conceptual distinction. Personal observations remain bounded.",
+      "reasoning": "Show the practical difference the distinction makes. Avoid upgrading a memorable line into a universal law.",
+      "conclusion": "The next time [situation], check [useful distinction].",
+      "audience": "A complete closing thought is often enough.",
+      "humor": "Dry understatement or a restrained analogy can carry the voice.",
+      "stop": "Do not pad a short insight with fabricated experience, generic lessons or an unrelated CTA.",
+      "variation": "One paragraph or several, according to the development of the thought."
+    },
+    {
+      "id": "P14",
+      "name": "Professional humor or recognisable scene",
+      "job": "Create recognition around a work situation",
+      "use_when": "The author has a suitable voice and the joke can be understood without misleading factual claims.",
+      "hook": "[Recognisable situation] with [a small, intelligible reversal].",
+      "sequence": [
+        "Clear situation",
+        "Expectation",
+        "Benign incongruity or escalation",
+        "Payoff",
+        "Optional professional observation"
+      ],
+      "evidence": "Real anecdotes require confirmation and permission. Fictional dialogue or scenes must not impersonate an actual client or colleague.",
+      "reasoning": "Humor need not prove a thesis. If a practical claim follows, support it separately.",
+      "conclusion": "End on the payoff or add one modest insight; avoid attaching a moral to every joke.",
+      "audience": "Recognition can be the complete response. Do not force a sales CTA after the punchline.",
+      "humor": "The main job; use process or self-directed targets, with cultural and reputational judgment.",
+      "stop": "Avoid humiliating clients, confidential incidents, harmful stereotypes or jokes that blur evidence.",
+      "variation": "A clearly illustrative scene, short dialogue, dry observation or original metaphor; do not imitate a reference creator's distinctive wording."
+    }
+  ]
+}
