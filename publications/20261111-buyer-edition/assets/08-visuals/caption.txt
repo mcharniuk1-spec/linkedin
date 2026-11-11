@@ -1,0 +1,9 @@
+A diagram is not useful just because it has boxes and arrows. It earns its place when it helps someone understand a choice, compare two real options or inspect a step in the work.
+
+For example, an illustrative AI workflow could show where a result goes to human review and what happens next. That visual may help a buyer see who remains responsible. A decorative sequence of “input → AI → impact” would tell them much less, especially if the labels hide the actual decision.
+
+We saw this in our own first ten publication drafts: technical boxes and labels obscured the buyer’s question. We revised around a clearer test: can the reader see what this visual helps them decide?
+
+Sometimes the answer is a small annotated example. Sometimes it is a clear sentence and no diagram at all. A visual should carry a specific part of the explanation, while the caption adds context and the limits.
+
+Before you turn a product idea into a graphic, write the buyer's question at the top of the page. If the image cannot help answer it, simplify the image or choose a different form. Clear communication is the aim; better business outcomes need their own evidence.

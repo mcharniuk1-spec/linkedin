@@ -1,0 +1,11 @@
+If your product sentence could fit almost any AI company, it may be missing the information a buyer uses to decide.
+
+Try four checks. Who is the buyer in this situation? What task are they trying to complete? What would they do without your product? Which supported difference could matter to that choice?
+
+Consider the illustrative line “AI for better operations.” It does not say whose operations, what work changes, or how a buyer should assess the claim. An illustrative alternative might be: “Flag incoming requests that need a human review under a stated rule.” That gives the reader a task and a boundary to examine. It still needs a real buyer, a real alternative and product evidence before it can represent a specific company.
+
+This is not a formula for a perfect positioning statement. It is a way to notice what the first sentence asks the buyer to guess. If the buyer is unclear, adding another adjective will not supply the missing context.
+
+We built our first ten publication drafts around technical labels and boxes. In revision, we saw how those choices made the ideas less useful to a buyer. Now we start with the buyer question and make every line earn its place.
+
+Take one sentence from your site and mark the buyer, task, alternative and evidence. The blank spaces show where you need facts or a sharper choice—not a stronger promise.

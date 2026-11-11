@@ -1,0 +1,11 @@
+A median can describe a sample. It cannot tell you what your next post will achieve.
+
+We reviewed 279 selected posts from 61 accounts. Reaction counts were available for 276 posts, with a median of 107.5. Comment counts were available for 256, with a median of 36.5. The counters were recorded on 22 October 2026.
+
+Those denominators matter. Three posts had no observed reaction count; 23 had no observed comment count. The sample was selected, and the accounts, audiences, subjects and post ages differ. These are historical observations, not a live census of LinkedIn.
+
+Most of all, reactions and comments are interactions. They do not reveal impressions, whether the right buyers saw a post, or whether a conversation became a sale. Treating 107.5 as a target would turn a description into advice the data cannot support.
+
+A more useful next step is to choose a decision you can actually study. For example: among posts with similar audience, subject and age, what kinds of questions appear in the comments? That still would not prove what caused the difference, but it could help you decide what to inspect next.
+
+Keep the count, denominator, date and unknowns beside the takeaway. That is how a number stays useful to a buyer or founder making a real decision.

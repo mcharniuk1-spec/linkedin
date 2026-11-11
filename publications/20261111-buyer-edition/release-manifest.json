@@ -1,0 +1,846 @@
+{
+  "schema": "outspoken-publication-release/2",
+  "date": "2026-11-11",
+  "status": "rendered_source_delivery",
+  "publication_authority": "owner_requested_git_sync",
+  "owner_accepted": false,
+  "social_published": false,
+  "files": [
+    {
+      "path": "assets/01-the-reason/caption.txt",
+      "sha256": "88b7363c05caaf2ca598fd85e4855bc21ba1143f445d081117ab3a6cd303112f",
+      "bytes": 997
+    },
+    {
+      "path": "assets/01-the-reason/carousel.pdf",
+      "sha256": "115a2387014ed7bbd5de1a28ada160a7ccd894cc4e0cc8b92e35d2119286aa4b",
+      "bytes": 508091
+    },
+    {
+      "path": "assets/01-the-reason/editorial-01.png",
+      "sha256": "978941e099c7f4d642be9e0de23a87195c54f59aebc5db0d6b0d3fefe95a3b4e",
+      "bytes": 93452
+    },
+    {
+      "path": "assets/01-the-reason/editorial-02.png",
+      "sha256": "429f84315077730edce8e4c30e957d7fe8cd87471751fb2d0b058018eb0905ba",
+      "bytes": 90147
+    },
+    {
+      "path": "assets/01-the-reason/editorial-03.png",
+      "sha256": "0b1cb55a4231e2cb81a112ebb2c4e2275b20c70e176f44d92af1e9626a684ea2",
+      "bytes": 85467
+    },
+    {
+      "path": "assets/01-the-reason/editorial-04.png",
+      "sha256": "a43e2647107f0e0bd53879cb288e04fade3d67109500fbfcc04dd2e5c36d8d08",
+      "bytes": 111015
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/caption.txt",
+      "sha256": "b3bd4212fa92c71565df21aabc85c3bfba9c51654b46256b280bd1533d214081",
+      "bytes": 1266
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/carousel.pdf",
+      "sha256": "fae7765e3c18e368aad3fdddc3e745584899fc897e02c771e5f2251b9a7f883a",
+      "bytes": 583939
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/editorial-01.png",
+      "sha256": "e2d91aa53f0dd9b1c951656b0045abd13942603255fcb55fe7d89f744a527b09",
+      "bytes": 110105
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/editorial-02.png",
+      "sha256": "5ef03cb3e244c793a59e47c47cf688f501bd6b11fcbd1a68b623a021804edb32",
+      "bytes": 113867
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/editorial-03.png",
+      "sha256": "e5c4b4accf7251f2f2fe9431fb0290b3bc65e4a93dd6ded374befe1134bf4c93",
+      "bytes": 96456
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/editorial-04.png",
+      "sha256": "72e8e81b58bfb308a72fd867a16a1b6010904d8af4628ccff858842badde8fbc",
+      "bytes": 114515
+    },
+    {
+      "path": "assets/03-the-interview/caption.txt",
+      "sha256": "0bc100e5ba2c0923785cec2a604837c43fe5bc78594104f71f546c4e0640baa9",
+      "bytes": 1262
+    },
+    {
+      "path": "assets/03-the-interview/carousel.pdf",
+      "sha256": "f82740ce52ec02c00a09b4c4d8ac4b3997d88b13dd27b6e81ff5af8ce2352586",
+      "bytes": 491116
+    },
+    {
+      "path": "assets/03-the-interview/editorial-01.png",
+      "sha256": "7fcd0b3bb358ef956fcdfd5242fdc31bf0db880f1081c118723f7a8bd2956745",
+      "bytes": 91377
+    },
+    {
+      "path": "assets/03-the-interview/editorial-02.png",
+      "sha256": "8e03c9c42470c6ceb4de23cbb8e46c865139e83abc2e14a8cb0dff0a3c5640a1",
+      "bytes": 92175
+    },
+    {
+      "path": "assets/03-the-interview/editorial-03.png",
+      "sha256": "c5e0fea2748fe1d7af2026362880604f629c8adb6948d66ae0b4a1193441e4f5",
+      "bytes": 85436
+    },
+    {
+      "path": "assets/03-the-interview/editorial-04.png",
+      "sha256": "ddcd78bd723f04cebfb5000429897a5ee99fff820d4e6329a4f0d100835569a1",
+      "bytes": 103412
+    },
+    {
+      "path": "assets/04-positioning/caption.txt",
+      "sha256": "8e73c9a61785bfdbe6b45bc8ca3c951dabc3d1d303478aff3c9bba9f45ee684d",
+      "bytes": 1366
+    },
+    {
+      "path": "assets/04-positioning/carousel.pdf",
+      "sha256": "fff64e91b4742e71e8af6ba6cc52c9fd8d0e8e5db15ecf9834702fff7a3eefe5",
+      "bytes": 544327
+    },
+    {
+      "path": "assets/04-positioning/editorial-01.png",
+      "sha256": "86cb18e807cbc0aa6fc521683079af0b6986b04e88291b0982d244eaafbfb7b4",
+      "bytes": 94963
+    },
+    {
+      "path": "assets/04-positioning/editorial-02.png",
+      "sha256": "c0492e1a3a41d79ed92173f9ba070317046d0bb38408a2d6e75f45020d8be4d2",
+      "bytes": 103302
+    },
+    {
+      "path": "assets/04-positioning/editorial-03.png",
+      "sha256": "ae16363eb8ff4ab4141321ecbae2afc564697be991e4f05f3e85de53526ed8cc",
+      "bytes": 101311
+    },
+    {
+      "path": "assets/04-positioning/editorial-04.png",
+      "sha256": "170a6f9a74d27bb63800e9251023a8c55a0c5f7d6bf42ce6fffeac9e3c84c302",
+      "bytes": 104263
+    },
+    {
+      "path": "assets/05-proof/caption.txt",
+      "sha256": "49b584361291cef7e396c63e63d5cabdd0d3aabfee9ae461c2a16890bf7af3d9",
+      "bytes": 1358
+    },
+    {
+      "path": "assets/05-proof/carousel.pdf",
+      "sha256": "84f044870f4772daf61457645a8b3921ea8efefa17e0f1ce9b71463ee08e516d",
+      "bytes": 534112
+    },
+    {
+      "path": "assets/05-proof/editorial-01.png",
+      "sha256": "7aae17c3fa7d02630ee28de36f3492070feee18f1a6b64eb4adfa694e4740ea9",
+      "bytes": 100967
+    },
+    {
+      "path": "assets/05-proof/editorial-02.png",
+      "sha256": "071d46b1cba2764eff6970d8f19677c4c32797a9ce146f48d61a46afb1df2a6f",
+      "bytes": 93965
+    },
+    {
+      "path": "assets/05-proof/editorial-03.png",
+      "sha256": "81b1b6549b522bcc7945c90531856aab0e691f7201e85222e87deb063daa3835",
+      "bytes": 97311
+    },
+    {
+      "path": "assets/05-proof/editorial-04.png",
+      "sha256": "094fc1ca6089c0b2b8a0dee3a77615c8b885c6764d055c1fbbe3463625bd917f",
+      "bytes": 100001
+    },
+    {
+      "path": "assets/06-product-to-buyer/caption.txt",
+      "sha256": "3139122cd9612eca7edd0cae5b867f60f15e6fb20898a30fe5448fcee6e627e3",
+      "bytes": 1170
+    },
+    {
+      "path": "assets/06-product-to-buyer/editorial-01.png",
+      "sha256": "a85d99c94a173441c903882f75403568ffd27e6fddc15357604d8fa132a9690b",
+      "bytes": 114654
+    },
+    {
+      "path": "assets/07-two-voices/caption.txt",
+      "sha256": "508947b2500d8d076a4bf663e99866b902165d9d31fe1dfc3f02721919559269",
+      "bytes": 1276
+    },
+    {
+      "path": "assets/07-two-voices/editorial-01.png",
+      "sha256": "59e69317f026150da6e2fac7c8daf8ddb2b4991f73aff9eade89ce53d596df04",
+      "bytes": 112094
+    },
+    {
+      "path": "assets/08-visuals/caption.txt",
+      "sha256": "dabf85e33dad202d5ea2a2201df367e8e9a2cf205f2b4b8b90728eedca0af7b8",
+      "bytes": 1163
+    },
+    {
+      "path": "assets/08-visuals/editorial-01.png",
+      "sha256": "960820dc61559ef8f973c1629277a7d2b95c4053f8462e455f338a42c58e1983",
+      "bytes": 114169
+    },
+    {
+      "path": "assets/09-measure/caption.txt",
+      "sha256": "68904d0284711724754f83e41d6da5b9fb19e685e870128cbf91c2bc367ee894",
+      "bytes": 1284
+    },
+    {
+      "path": "assets/09-measure/editorial-01.png",
+      "sha256": "6126f899b281334e34cc6cfdea687d065f2b0b7689f967ef05c44e34110784af",
+      "bytes": 110919
+    },
+    {
+      "path": "assets/10-the-delivery/caption.txt",
+      "sha256": "303eb2a1bcef87884251927dfea1395dd72e6b3d3cb024af455bcd5d80f690ac",
+      "bytes": 948
+    },
+    {
+      "path": "assets/10-the-delivery/editorial-01.png",
+      "sha256": "7de70dc657d3947df1fa51a3b1cda42e893a6975f54abf72181d4716c64b029f",
+      "bytes": 131521
+    },
+    {
+      "path": "assets/index.html",
+      "sha256": "122c8e25a47cb54b8074eb5311f7a490ba124f7af5b122ae19f5df5dec5aa4bb",
+      "bytes": 26755
+    },
+    {
+      "path": "assets/source-svg/01-page-01.svg",
+      "sha256": "a9184160b658693a08a2a7a0e25e7e609e0a50df3f279b7351e450ca9e011b2b",
+      "bytes": 1974
+    },
+    {
+      "path": "assets/source-svg/01-page-02.svg",
+      "sha256": "96b4890eca4247ffa3c509a5a1465beee125b67a4398c3e57e8eba8ed9dc8ac3",
+      "bytes": 1842
+    },
+    {
+      "path": "assets/source-svg/01-page-03.svg",
+      "sha256": "3856298ba3a66e6c5e9265d7a3175792daafc2f3a2f590b11d4988dfe440bf0f",
+      "bytes": 1986
+    },
+    {
+      "path": "assets/source-svg/01-page-04.svg",
+      "sha256": "34eade39a6fb96e0e8e47aa0b4d3bed03563bd9c5bb2139cd76acf2749c77a23",
+      "bytes": 2648
+    },
+    {
+      "path": "assets/source-svg/02-page-01.svg",
+      "sha256": "40e551ca62e22c54a3723f76450731eab7ee2ec096e31a0a8a8a31c8ddce00e9",
+      "bytes": 2366
+    },
+    {
+      "path": "assets/source-svg/02-page-02.svg",
+      "sha256": "87cd489949c72f4610f2034c82adf46284589b3e43c148bd0579ade5398bd4b0",
+      "bytes": 2282
+    },
+    {
+      "path": "assets/source-svg/02-page-03.svg",
+      "sha256": "754b171405b44fa8341cc8cd72a20d3313d40eafed1f59340284fdd0903e634d",
+      "bytes": 2169
+    },
+    {
+      "path": "assets/source-svg/02-page-04.svg",
+      "sha256": "00afb5c60f675e24d06e7a8c84b7e1e300bb0faae2d334ecff6e5cac04c04aec",
+      "bytes": 2651
+    },
+    {
+      "path": "assets/source-svg/03-page-01.svg",
+      "sha256": "ce42d047c06a3dd64310e908b92363c0065ee4a721bdf992f2ddf80fbd53ace8",
+      "bytes": 1948
+    },
+    {
+      "path": "assets/source-svg/03-page-02.svg",
+      "sha256": "0afb3f7c60a8e99ee9835c967f3729cae788af5d4e5e87891064108c2044cbfe",
+      "bytes": 2093
+    },
+    {
+      "path": "assets/source-svg/03-page-03.svg",
+      "sha256": "92cfdbd7164b928553edf16fd817c5d483081c8432b99bac27dd8c6069799387",
+      "bytes": 2133
+    },
+    {
+      "path": "assets/source-svg/03-page-04.svg",
+      "sha256": "4cee9a7fb52649afcc2ec5169af87f948e09fd252188c1c172dd1e319b8b7326",
+      "bytes": 2505
+    },
+    {
+      "path": "assets/source-svg/04-page-01.svg",
+      "sha256": "d0ef50c27c74799be93807160be877980651e5eaf1ad8fb5612b9edad591384e",
+      "bytes": 1962
+    },
+    {
+      "path": "assets/source-svg/04-page-02.svg",
+      "sha256": "4e92bdd644427174dd1d3860f3d9f054957ec2b9893b0a54cb6b76f462598abe",
+      "bytes": 2378
+    },
+    {
+      "path": "assets/source-svg/04-page-03.svg",
+      "sha256": "600288bacad1a3bb35338f615b9da77050fe860448d5edeb45f1fc54c971bcbf",
+      "bytes": 2240
+    },
+    {
+      "path": "assets/source-svg/04-page-04.svg",
+      "sha256": "93d6236c8f0bfe2743834f85222d3af73e7d9ec3519c6b93a01a43f8287dbc62",
+      "bytes": 2789
+    },
+    {
+      "path": "assets/source-svg/05-page-01.svg",
+      "sha256": "dfce031907802e80a78d580e59b529303c9296401f87be1c72d8f4b167f44640",
+      "bytes": 2110
+    },
+    {
+      "path": "assets/source-svg/05-page-02.svg",
+      "sha256": "b66d36e39c1f6d8220bbeea506b5a2385ff00d849ea236259385bc2d72aa6f73",
+      "bytes": 2163
+    },
+    {
+      "path": "assets/source-svg/05-page-03.svg",
+      "sha256": "8868094b037a5421fef162eb5872d0e6589211967fef5c7552f8f60b705d49ed",
+      "bytes": 2291
+    },
+    {
+      "path": "assets/source-svg/05-page-04.svg",
+      "sha256": "bcdab7226f42a9f074dc519a0e34dc046587665abb38a54dbf8fa077710bb0d8",
+      "bytes": 2505
+    },
+    {
+      "path": "assets/source-svg/06-page-01.svg",
+      "sha256": "cfc0b3fb33021d5ac0441d4ead9a539834589a733f1c77f94b8232bac6bb84c4",
+      "bytes": 2533
+    },
+    {
+      "path": "assets/source-svg/07-page-01.svg",
+      "sha256": "f5acdd70a7363701c8d9aad0cd52566e2025608be183314ebf64c3d025342f00",
+      "bytes": 2604
+    },
+    {
+      "path": "assets/source-svg/08-page-01.svg",
+      "sha256": "780a268effec7d9ff5df0bcb0d70d2b2c32b844ce936ec1dce676324127152cd",
+      "bytes": 2662
+    },
+    {
+      "path": "assets/source-svg/09-page-01.svg",
+      "sha256": "9fce12a20f5d294fa910cf4ef80c58323b3d41cf09cac4f6cb2eac458a681ebe",
+      "bytes": 2708
+    },
+    {
+      "path": "assets/source-svg/10-page-01.svg",
+      "sha256": "26ec3b098cfe2a379545378cb377f16e5c08a7741a077856c580bc782a608759",
+      "bytes": 2427
+    },
+    {
+      "path": "build.py",
+      "sha256": "afbfd897e13a06f9d2c5df2339eee87d20a61431ccbc6ecb4485f7dca1578b4f",
+      "bytes": 9472
+    },
+    {
+      "path": "content.json",
+      "sha256": "1a7f7057cb2092a6270db9e341b9fc2996f2f1e43283ccfef801dd08b256b34d",
+      "bytes": 25011
+    },
+    {
+      "path": "fonts/MONA-OFL.txt",
+      "sha256": "41e9911493de5899a20336baf13b6ea6483b5eea34e237f2ffed22c39bdc4a8d",
+      "bytes": 4564
+    },
+    {
+      "path": "fonts/OFL.txt",
+      "sha256": "737d8d343b674c6894f373de71a044b6782c130f2aebf180933d63ddf7a3dc19",
+      "bytes": 4398
+    },
+    {
+      "path": "fonts/YoungSerif-Regular.ttf",
+      "sha256": "42bb2602364b28569fdce5eeb6ab3d81cf8090ba81b211f1229ed69f33155523",
+      "bytes": 106608
+    },
+    {
+      "path": "fonts/mona-sans-latin-wght-normal.woff2",
+      "sha256": "a59061e38c5e7e6a00aaa6b6645a220c7d9c530991167f058cc0f8575f5d5844",
+      "bytes": 39788
+    },
+    {
+      "path": "pdf.swift",
+      "sha256": "2510767f107fb94a5c63ace08af5c9746f02461a1eee0d9624c0afca3dc03c01",
+      "bytes": 2013
+    },
+    {
+      "path": "render.swift",
+      "sha256": "729cddc1cdea79564efaa4774e52f3cd40d63d48be428a93912bdb3a6d982fea",
+      "bytes": 4469
+    }
+  ],
+  "rights_ledger": [
+    {
+      "path": "assets/01-the-reason/caption.txt",
+      "sha256": "88b7363c05caaf2ca598fd85e4855bc21ba1143f445d081117ab3a6cd303112f",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/01-the-reason/carousel.pdf",
+      "sha256": "115a2387014ed7bbd5de1a28ada160a7ccd894cc4e0cc8b92e35d2119286aa4b",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/01-the-reason/editorial-01.png",
+      "sha256": "978941e099c7f4d642be9e0de23a87195c54f59aebc5db0d6b0d3fefe95a3b4e",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/01-the-reason/editorial-02.png",
+      "sha256": "429f84315077730edce8e4c30e957d7fe8cd87471751fb2d0b058018eb0905ba",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/01-the-reason/editorial-03.png",
+      "sha256": "0b1cb55a4231e2cb81a112ebb2c4e2275b20c70e176f44d92af1e9626a684ea2",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/01-the-reason/editorial-04.png",
+      "sha256": "a43e2647107f0e0bd53879cb288e04fade3d67109500fbfcc04dd2e5c36d8d08",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/caption.txt",
+      "sha256": "b3bd4212fa92c71565df21aabc85c3bfba9c51654b46256b280bd1533d214081",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/carousel.pdf",
+      "sha256": "fae7765e3c18e368aad3fdddc3e745584899fc897e02c771e5f2251b9a7f883a",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/editorial-01.png",
+      "sha256": "e2d91aa53f0dd9b1c951656b0045abd13942603255fcb55fe7d89f744a527b09",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/editorial-02.png",
+      "sha256": "5ef03cb3e244c793a59e47c47cf688f501bd6b11fcbd1a68b623a021804edb32",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/editorial-03.png",
+      "sha256": "e5c4b4accf7251f2f2fe9431fb0290b3bc65e4a93dd6ded374befe1134bf4c93",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/02-what-we-actually-saw/editorial-04.png",
+      "sha256": "72e8e81b58bfb308a72fd867a16a1b6010904d8af4628ccff858842badde8fbc",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/03-the-interview/caption.txt",
+      "sha256": "0bc100e5ba2c0923785cec2a604837c43fe5bc78594104f71f546c4e0640baa9",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/03-the-interview/carousel.pdf",
+      "sha256": "f82740ce52ec02c00a09b4c4d8ac4b3997d88b13dd27b6e81ff5af8ce2352586",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/03-the-interview/editorial-01.png",
+      "sha256": "7fcd0b3bb358ef956fcdfd5242fdc31bf0db880f1081c118723f7a8bd2956745",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/03-the-interview/editorial-02.png",
+      "sha256": "8e03c9c42470c6ceb4de23cbb8e46c865139e83abc2e14a8cb0dff0a3c5640a1",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/03-the-interview/editorial-03.png",
+      "sha256": "c5e0fea2748fe1d7af2026362880604f629c8adb6948d66ae0b4a1193441e4f5",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/03-the-interview/editorial-04.png",
+      "sha256": "ddcd78bd723f04cebfb5000429897a5ee99fff820d4e6329a4f0d100835569a1",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/04-positioning/caption.txt",
+      "sha256": "8e73c9a61785bfdbe6b45bc8ca3c951dabc3d1d303478aff3c9bba9f45ee684d",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/04-positioning/carousel.pdf",
+      "sha256": "fff64e91b4742e71e8af6ba6cc52c9fd8d0e8e5db15ecf9834702fff7a3eefe5",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/04-positioning/editorial-01.png",
+      "sha256": "86cb18e807cbc0aa6fc521683079af0b6986b04e88291b0982d244eaafbfb7b4",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/04-positioning/editorial-02.png",
+      "sha256": "c0492e1a3a41d79ed92173f9ba070317046d0bb38408a2d6e75f45020d8be4d2",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/04-positioning/editorial-03.png",
+      "sha256": "ae16363eb8ff4ab4141321ecbae2afc564697be991e4f05f3e85de53526ed8cc",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/04-positioning/editorial-04.png",
+      "sha256": "170a6f9a74d27bb63800e9251023a8c55a0c5f7d6bf42ce6fffeac9e3c84c302",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/05-proof/caption.txt",
+      "sha256": "49b584361291cef7e396c63e63d5cabdd0d3aabfee9ae461c2a16890bf7af3d9",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/05-proof/carousel.pdf",
+      "sha256": "84f044870f4772daf61457645a8b3921ea8efefa17e0f1ce9b71463ee08e516d",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/05-proof/editorial-01.png",
+      "sha256": "7aae17c3fa7d02630ee28de36f3492070feee18f1a6b64eb4adfa694e4740ea9",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/05-proof/editorial-02.png",
+      "sha256": "071d46b1cba2764eff6970d8f19677c4c32797a9ce146f48d61a46afb1df2a6f",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/05-proof/editorial-03.png",
+      "sha256": "81b1b6549b522bcc7945c90531856aab0e691f7201e85222e87deb063daa3835",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/05-proof/editorial-04.png",
+      "sha256": "094fc1ca6089c0b2b8a0dee3a77615c8b885c6764d055c1fbbe3463625bd917f",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/06-product-to-buyer/caption.txt",
+      "sha256": "3139122cd9612eca7edd0cae5b867f60f15e6fb20898a30fe5448fcee6e627e3",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/06-product-to-buyer/editorial-01.png",
+      "sha256": "a85d99c94a173441c903882f75403568ffd27e6fddc15357604d8fa132a9690b",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/07-two-voices/caption.txt",
+      "sha256": "508947b2500d8d076a4bf663e99866b902165d9d31fe1dfc3f02721919559269",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/07-two-voices/editorial-01.png",
+      "sha256": "59e69317f026150da6e2fac7c8daf8ddb2b4991f73aff9eade89ce53d596df04",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/08-visuals/caption.txt",
+      "sha256": "dabf85e33dad202d5ea2a2201df367e8e9a2cf205f2b4b8b90728eedca0af7b8",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/08-visuals/editorial-01.png",
+      "sha256": "960820dc61559ef8f973c1629277a7d2b95c4053f8462e455f338a42c58e1983",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/09-measure/caption.txt",
+      "sha256": "68904d0284711724754f83e41d6da5b9fb19e685e870128cbf91c2bc367ee894",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/09-measure/editorial-01.png",
+      "sha256": "6126f899b281334e34cc6cfdea687d065f2b0b7689f967ef05c44e34110784af",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/10-the-delivery/caption.txt",
+      "sha256": "303eb2a1bcef87884251927dfea1395dd72e6b3d3cb024af455bcd5d80f690ac",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/10-the-delivery/editorial-01.png",
+      "sha256": "7de70dc657d3947df1fa51a3b1cda42e893a6975f54abf72181d4716c64b029f",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/index.html",
+      "sha256": "122c8e25a47cb54b8074eb5311f7a490ba124f7af5b122ae19f5df5dec5aa4bb",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/01-page-01.svg",
+      "sha256": "a9184160b658693a08a2a7a0e25e7e609e0a50df3f279b7351e450ca9e011b2b",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/01-page-02.svg",
+      "sha256": "96b4890eca4247ffa3c509a5a1465beee125b67a4398c3e57e8eba8ed9dc8ac3",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/01-page-03.svg",
+      "sha256": "3856298ba3a66e6c5e9265d7a3175792daafc2f3a2f590b11d4988dfe440bf0f",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/01-page-04.svg",
+      "sha256": "34eade39a6fb96e0e8e47aa0b4d3bed03563bd9c5bb2139cd76acf2749c77a23",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/02-page-01.svg",
+      "sha256": "40e551ca62e22c54a3723f76450731eab7ee2ec096e31a0a8a8a31c8ddce00e9",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/02-page-02.svg",
+      "sha256": "87cd489949c72f4610f2034c82adf46284589b3e43c148bd0579ade5398bd4b0",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/02-page-03.svg",
+      "sha256": "754b171405b44fa8341cc8cd72a20d3313d40eafed1f59340284fdd0903e634d",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/02-page-04.svg",
+      "sha256": "00afb5c60f675e24d06e7a8c84b7e1e300bb0faae2d334ecff6e5cac04c04aec",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/03-page-01.svg",
+      "sha256": "ce42d047c06a3dd64310e908b92363c0065ee4a721bdf992f2ddf80fbd53ace8",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/03-page-02.svg",
+      "sha256": "0afb3f7c60a8e99ee9835c967f3729cae788af5d4e5e87891064108c2044cbfe",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/03-page-03.svg",
+      "sha256": "92cfdbd7164b928553edf16fd817c5d483081c8432b99bac27dd8c6069799387",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/03-page-04.svg",
+      "sha256": "4cee9a7fb52649afcc2ec5169af87f948e09fd252188c1c172dd1e319b8b7326",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/04-page-01.svg",
+      "sha256": "d0ef50c27c74799be93807160be877980651e5eaf1ad8fb5612b9edad591384e",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/04-page-02.svg",
+      "sha256": "4e92bdd644427174dd1d3860f3d9f054957ec2b9893b0a54cb6b76f462598abe",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/04-page-03.svg",
+      "sha256": "600288bacad1a3bb35338f615b9da77050fe860448d5edeb45f1fc54c971bcbf",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/04-page-04.svg",
+      "sha256": "93d6236c8f0bfe2743834f85222d3af73e7d9ec3519c6b93a01a43f8287dbc62",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/05-page-01.svg",
+      "sha256": "dfce031907802e80a78d580e59b529303c9296401f87be1c72d8f4b167f44640",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/05-page-02.svg",
+      "sha256": "b66d36e39c1f6d8220bbeea506b5a2385ff00d849ea236259385bc2d72aa6f73",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/05-page-03.svg",
+      "sha256": "8868094b037a5421fef162eb5872d0e6589211967fef5c7552f8f60b705d49ed",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/05-page-04.svg",
+      "sha256": "bcdab7226f42a9f074dc519a0e34dc046587665abb38a54dbf8fa077710bb0d8",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/06-page-01.svg",
+      "sha256": "cfc0b3fb33021d5ac0441d4ead9a539834589a733f1c77f94b8232bac6bb84c4",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/07-page-01.svg",
+      "sha256": "f5acdd70a7363701c8d9aad0cd52566e2025608be183314ebf64c3d025342f00",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/08-page-01.svg",
+      "sha256": "780a268effec7d9ff5df0bcb0d70d2b2c32b844ce936ec1dce676324127152cd",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/09-page-01.svg",
+      "sha256": "9fce12a20f5d294fa910cf4ef80c58323b3d41cf09cac4f6cb2eac458a681ebe",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "assets/source-svg/10-page-01.svg",
+      "sha256": "26ec3b098cfe2a379545378cb377f16e5c08a7741a077856c580bc782a608759",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "build.py",
+      "sha256": "afbfd897e13a06f9d2c5df2339eee87d20a61431ccbc6ecb4485f7dca1578b4f",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "content.json",
+      "sha256": "1a7f7057cb2092a6270db9e341b9fc2996f2f1e43283ccfef801dd08b256b34d",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "fonts/MONA-OFL.txt",
+      "sha256": "41e9911493de5899a20336baf13b6ea6483b5eea34e237f2ffed22c39bdc4a8d",
+      "rights_state": "licensed",
+      "provenance": "Google Fonts OFL / prior Mona OFL"
+    },
+    {
+      "path": "fonts/OFL.txt",
+      "sha256": "737d8d343b674c6894f373de71a044b6782c130f2aebf180933d63ddf7a3dc19",
+      "rights_state": "licensed",
+      "provenance": "Google Fonts OFL / prior Mona OFL"
+    },
+    {
+      "path": "fonts/YoungSerif-Regular.ttf",
+      "sha256": "42bb2602364b28569fdce5eeb6ab3d81cf8090ba81b211f1229ed69f33155523",
+      "rights_state": "licensed",
+      "provenance": "Google Fonts OFL / prior Mona OFL"
+    },
+    {
+      "path": "fonts/mona-sans-latin-wght-normal.woff2",
+      "sha256": "a59061e38c5e7e6a00aaa6b6645a220c7d9c530991167f058cc0f8575f5d5844",
+      "rights_state": "licensed",
+      "provenance": "Google Fonts OFL / prior Mona OFL"
+    },
+    {
+      "path": "pdf.swift",
+      "sha256": "2510767f107fb94a5c63ace08af5c9746f02461a1eee0d9624c0afca3dc03c01",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    },
+    {
+      "path": "render.swift",
+      "sha256": "729cddc1cdea79564efaa4774e52f3cd40d63d48be428a93912bdb3a6d982fea",
+      "rights_state": "owned",
+      "provenance": "Owned editorial composition; no copied third-party posts or scene media"
+    }
+  ],
+  "content_sha256": "1a7f7057cb2092a6270db9e341b9fc2996f2f1e43283ccfef801dd08b256b34d",
+  "design_reference": {
+    "file": "m7zSeYVpEI88i9qwTrnUQt",
+    "system": "251:13289 / foundations257:2",
+    "landing": "251:13290 / desktop340:940"
+  },
+  "checks": {
+    "concepts": 10,
+    "panels": 25,
+    "four_page_pdfs": 5,
+    "captions": 10,
+    "all_png_dimensions_checked": true,
+    "all_svg_parsed": true,
+    "no_internal_panel_labels": true,
+    "exact_offer_CTA_visible": true
+  },
+  "limits": [
+    "No new audience/performance test or native LinkedIn preview.",
+    "Source research remains historical22October2026; personal company story uses actual revision work only."
+  ]
+}

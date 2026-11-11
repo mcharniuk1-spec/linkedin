@@ -1,0 +1,11 @@
+A product demo can make a capability visible. It cannot, by itself, tell a buyer how reliably that capability works across real cases.
+
+Imagine an illustrative AI tool that classifies an incoming request and flags some cases for review. A short demonstration could show one request, the output and the review step. That is useful: a buyer can see what the interaction looks like and ask whether it fits their workflow.
+
+But one example does not tell us how often the classification is right, what happens on unusual inputs, how much time the workflow takes, or whether people use it as intended. Those questions need a defined set of cases, a suitable comparison and evidence from the conditions that matter. If the product is not measured that way, say so plainly.
+
+That boundary helps the founder, too. A specific demo is easier to discuss than a sweeping claim about accuracy or savings. A buyer can ask which cases to inspect before relying on it.
+
+In our first ten drafts, technical diagrams often took attention away from the buyer’s question. We revised the work around a more practical distinction: what can I see in this example, and what evidence would I need before relying on it?
+
+When you show a feature, name the example, the conditions and what remains untested. Let the demonstration earn interest; let a benchmark carry the broader claim.

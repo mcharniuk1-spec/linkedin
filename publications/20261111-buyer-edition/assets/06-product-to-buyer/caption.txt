@@ -1,0 +1,9 @@
+A feature name is only the beginning of a buyer's question. “Automated triage” sounds useful, but what would the person actually do differently on Monday morning?
+
+Imagine an illustrative support inbox that sorts routine requests and flags unclear ones for a person. The buyer can picture the handoff: who reviews the flagged request, and what happens next? A useful product sentence might be, “When a request is unclear, the support lead can review it before a reply goes out.”
+
+That is more useful than calling the feature “intelligent”: it shows the task and the person responsible for the next step. The example is illustrative, not a claim about a particular product.
+
+Our work at Outspoken follows the same principle: interview the founder, write an original explanation, then review the facts and voice together. The detail matters when a buyer can see what it means for their work.
+
+Try finishing this sentence: “When this feature works as described, the person responsible can…” Then check each word against the product. If the answer is still vague, you have found the next question for the product team—not a reason to embellish the copy.

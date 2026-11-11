@@ -1,0 +1,9 @@
+It is easy to count reactions. It is harder to decide what those reactions mean for your business.
+
+Start with the decision. Are you trying to understand whether a post reached the people you intended, whether the explanation made sense, or whether a prospect wants to discuss the problem? Those are different questions, and each needs different evidence. Reactions alone cannot answer all three.
+
+Think about three practical questions: Did the post reach the intended people? Did they understand the product choice? Did a relevant prospect want to discuss it? Each needs its own evidence: reach data, a way to check comprehension, or a real conversation in context. A reaction count cannot stand in for all three.
+
+That distinction changes what to do next. If the question is reach, you need reach data. If it is comprehension, you need a way to assess whether readers understand the point. If it is commercial interest, you need to observe relevant conversations and their context. Do not treat one visible counter as a substitute for the evidence you lack.
+
+For your next review, write the decision first, then list the evidence that could inform it and the gaps that remain. A metric is useful when it is connected to a question you can answer—not when it merely looks precise.

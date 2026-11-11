@@ -1,0 +1,11 @@
+“Tell me about your product” is a wide-open prompt. It can produce a polished description and still miss the part a buyer needs to understand: how the team made a choice.
+
+A more focused interview starts with a real decision. What was the team trying to make possible? What constraint mattered? Which other option was genuinely on the table? What information did the team have at the time?
+
+Those questions do not require a dramatic launch story. They help a founder explain ordinary, consequential judgment: why a workflow asks for a review, why an integration came first, or why a product leaves a step in the user's hands. Those are illustrative prompts, not claims about a specific company.
+
+Then keep the timeline honest. The choice is one fact; what happened afterward is another; the founder's explanation today may include hindsight. A good draft does not flatten them into “we knew this would work.”
+
+At Outspoken, we use interviews to find the decision and original writing to make its reasoning clear. The founder reviews the details and voice before sharing.
+
+For your next draft, pick one decision and collect the goal, constraint, plausible alternative and confirmed consequence. If a part is unknown, leave it out until you can verify it.
