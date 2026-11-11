@@ -1,6 +1,6 @@
 # OutSpoken publication and tool plan — 11 November 2026
 
-This is a task-plan update, not a new publication, image or software delivery. All active tasks below are assigned solely to Max (`mcharniuk1`) in Plane. Existing Review/Done states are preserved. Original OUTSP-65 returned404 and was absent from active/archived listings. Michael restored its scope as79 during this update;79 is canonical.83 was cancelled as a duplicate.
+This is a task-plan update, not a new publication, image or software delivery. Tasks20,66–68 and79–82 are assigned solely to Max (`mcharniuk1`) in Plane. Existing shared ownership on pricing11 and Michael's website/profile tasks is preserved. Existing Review/Done states are preserved. Original OUTSP-65 returned404 and was absent from active/archived listings. Michael restored its scope as79 during this update;79 is canonical.83 was cancelled as a duplicate.
 
 ## Execution order and outputs
 
@@ -21,11 +21,11 @@ This is a task-plan update, not a new publication, image or software delivery. A
 
 ## Existing publication and launch work
 
--45/46/48 remain in Review; the completed47 skill release and56 buyer edition remain historical delivered work.80–82 are explicit revision follow-ups.
--36/39 own the founder profile packages.63 owns actual reviewed LinkedIn publication. The story/visual package can be prepared without waiting for the future client app.
--41 warm network →42 verified ICP list →43 personalized first messages →44 conversation log remains the outreach sequence; tool68 supports the workflow but is not required for a manual start. Templates50 already exist; no outreach was sent.
--Michael's69–78 website sequence is preserved.74 builds the site,75 pushes code,76 checks preview,77 publishes after its recorded gates,78 covers subsequent improvements.79 is an optional tested-tools extension, not a second website launch project.
--83 is cancelled as a duplicate of79; no implementation work should be opened against83.
+- 45/46/48 remain in Review; the completed47 skill release and56 buyer edition remain historical delivered work.80–82 are explicit revision follow-ups.
+- 36/39 own the founder profile packages.63 owns actual reviewed LinkedIn publication. The story/visual package can be prepared without waiting for the future client app.
+- 41 warm network →42 verified ICP list →43 personalized first messages →44 conversation log remains the outreach sequence; tool68 supports the workflow but is not required for a manual start. Templates50 already exist; no outreach was sent.
+- Michael's69–78 website sequence is preserved.74 builds the site,75 pushes code,76 checks preview,77 publishes after its recorded gates,78 covers subsequent improvements.79 is an optional tested-tools extension, not a second website launch project.
+- 83 is cancelled as a duplicate of79; no implementation work should be opened against83.
 
 ## Evidence and reusable skills
 
