@@ -1,0 +1,275 @@
+{
+  "schema": "outspoken-client-tool-specs/1",
+  "date": "2026-11-11",
+  "status": "original_first_review_specs_not_shipped_app",
+  "current_offer": [
+    "Voice",
+    "Voice + Pipeline"
+  ],
+  "modules": [
+    {
+      "id": "T00",
+      "name": "Evidence kit",
+      "inputs": [
+        "approved-client-input",
+        "source-ledger",
+        "voice-samples"
+      ],
+      "method": "deterministic validation plus human source review",
+      "outputs": [
+        "versioned brief",
+        "claim ledger",
+        "voice brief",
+        "missing evidence"
+      ],
+      "priority": "foundation",
+      "delivery": "private evidence pack plus editable export; client UI/server execution requires separate implementation",
+      "agency_responsibility": "source/claim review, operation, cost/quality checks and export",
+      "client_responsibility": "truthful facts, permitted source material, author/role/voice confirmation and exact publication approval",
+      "metrics": [
+        "factual errors",
+        "review corrections/time",
+        "completion/usefulness",
+        "actual tool/provider cost"
+      ],
+      "publication_automatic": false
+    },
+    {
+      "id": "T01",
+      "name": "Buyer/message brief",
+      "inputs": [
+        "T00",
+        "client buyer and alternatives"
+      ],
+      "method": "structured reasoning; hypotheses remain hypotheses",
+      "outputs": [
+        "ICP hypothesis",
+        "fit/exclusion rules",
+        "qualification questions"
+      ],
+      "priority": "MVP",
+      "delivery": "private evidence pack plus editable export; client UI/server execution requires separate implementation",
+      "agency_responsibility": "source/claim review, operation, cost/quality checks and export",
+      "client_responsibility": "truthful facts, permitted source material, author/role/voice confirmation and exact publication approval",
+      "metrics": [
+        "factual errors",
+        "review corrections/time",
+        "completion/usefulness",
+        "actual tool/provider cost"
+      ],
+      "publication_automatic": false
+    },
+    {
+      "id": "T02",
+      "name": "Profile studio",
+      "inputs": [
+        "T00",
+        "T01",
+        "verified founder role"
+      ],
+      "method": "source-bound LLM/native-agent drafting plus deterministic literal/count checks",
+      "outputs": [
+        "headline variants",
+        "About draft",
+        "rationale",
+        "fact holds"
+      ],
+      "priority": "MVP",
+      "delivery": "private evidence pack plus editable export; client UI/server execution requires separate implementation",
+      "agency_responsibility": "source/claim review, operation, cost/quality checks and export",
+      "client_responsibility": "truthful facts, permitted source material, author/role/voice confirmation and exact publication approval",
+      "metrics": [
+        "factual errors",
+        "review corrections/time",
+        "completion/usefulness",
+        "actual tool/provider cost"
+      ],
+      "publication_automatic": false
+    },
+    {
+      "id": "T03",
+      "name": "Decision-to-post workbench",
+      "inputs": [
+        "T00",
+        "T01",
+        "actual episode or argument",
+        "eligible reviewed pattern summaries"
+      ],
+      "method": "two owned writing skills, humanization, independent fact/meaning review",
+      "outputs": [
+        "brief",
+        "paragraph map",
+        "claim ledger",
+        "caption variants",
+        "change rationale"
+      ],
+      "priority": "MVP",
+      "delivery": "private evidence pack plus editable export; client UI/server execution requires separate implementation",
+      "agency_responsibility": "source/claim review, operation, cost/quality checks and export",
+      "client_responsibility": "truthful facts, permitted source material, author/role/voice confirmation and exact publication approval",
+      "metrics": [
+        "factual errors",
+        "review corrections/time",
+        "completion/usefulness",
+        "actual tool/provider cost"
+      ],
+      "publication_automatic": false
+    },
+    {
+      "id": "T04",
+      "name": "Visual/story planner",
+      "inputs": [
+        "T03",
+        "current Figma tokens",
+        "cleared assets"
+      ],
+      "method": "meaning-first native layout; actual rendering and accessibility/source reconciliation",
+      "outputs": [
+        "panel plan",
+        "SVG/PNG/PDF when rendered",
+        "caption/alt/transcript pack"
+      ],
+      "priority": "after core pilot",
+      "delivery": "private evidence pack plus editable export; client UI/server execution requires separate implementation",
+      "agency_responsibility": "source/claim review, operation, cost/quality checks and export",
+      "client_responsibility": "truthful facts, permitted source material, author/role/voice confirmation and exact publication approval",
+      "metrics": [
+        "factual errors",
+        "review corrections/time",
+        "completion/usefulness",
+        "actual tool/provider cost"
+      ],
+      "publication_automatic": false
+    },
+    {
+      "id": "T05",
+      "name": "Profile/landing review",
+      "inputs": [
+        "T00",
+        "authorized copy or screenshot/page"
+      ],
+      "method": "source-backed rubric; observation/inference/recommendation kept separate",
+      "outputs": [
+        "prioritized findings",
+        "before/after copy",
+        "measurement plan"
+      ],
+      "priority": "after core pilot",
+      "delivery": "private evidence pack plus editable export; client UI/server execution requires separate implementation",
+      "agency_responsibility": "source/claim review, operation, cost/quality checks and export",
+      "client_responsibility": "truthful facts, permitted source material, author/role/voice confirmation and exact publication approval",
+      "metrics": [
+        "factual errors",
+        "review corrections/time",
+        "completion/usefulness",
+        "actual tool/provider cost"
+      ],
+      "publication_automatic": false
+    },
+    {
+      "id": "T06",
+      "name": "Search planner",
+      "inputs": [
+        "approved criteria",
+        "selected search mode"
+      ],
+      "method": "deterministic Boolean and documented URL serialization; manual native validation",
+      "outputs": [
+        "query",
+        "logic explanation",
+        "search-link preview"
+      ],
+      "priority": "later support",
+      "delivery": "private evidence pack plus editable export; client UI/server execution requires separate implementation",
+      "agency_responsibility": "source/claim review, operation, cost/quality checks and export",
+      "client_responsibility": "truthful facts, permitted source material, author/role/voice confirmation and exact publication approval",
+      "metrics": [
+        "factual errors",
+        "review corrections/time",
+        "completion/usefulness",
+        "actual tool/provider cost"
+      ],
+      "publication_automatic": false
+    },
+    {
+      "id": "T07",
+      "name": "Research CSV workbench",
+      "inputs": [
+        "permitted client export",
+        "source dates/rights"
+      ],
+      "method": "schema/identity/dedup checks; unknowns preserved; human candidate matching",
+      "outputs": [
+        "clean CSV",
+        "provenance decisions",
+        "gap report"
+      ],
+      "priority": "later restricted support",
+      "delivery": "private evidence pack plus editable export; client UI/server execution requires separate implementation",
+      "agency_responsibility": "source/claim review, operation, cost/quality checks and export",
+      "client_responsibility": "truthful facts, permitted source material, author/role/voice confirmation and exact publication approval",
+      "metrics": [
+        "factual errors",
+        "review corrections/time",
+        "completion/usefulness",
+        "actual tool/provider cost"
+      ],
+      "publication_automatic": false
+    },
+    {
+      "id": "T08",
+      "name": "Owned-media intake",
+      "inputs": [
+        "client-owned or cleared file",
+        "rights/permission record"
+      ],
+      "method": "preserve original; verified transcript/quote timestamps; existing local route only if checked",
+      "outputs": [
+        "transcript",
+        "timestamped source notes",
+        "rights record"
+      ],
+      "priority": "defer generic downloader",
+      "delivery": "private evidence pack plus editable export; client UI/server execution requires separate implementation",
+      "agency_responsibility": "source/claim review, operation, cost/quality checks and export",
+      "client_responsibility": "truthful facts, permitted source material, author/role/voice confirmation and exact publication approval",
+      "metrics": [
+        "factual errors",
+        "review corrections/time",
+        "completion/usefulness",
+        "actual tool/provider cost"
+      ],
+      "publication_automatic": false
+    }
+  ],
+  "waalaxy_function_map": {
+    "Employee Search Builder": "T06",
+    "Enrich LinkedIn URL": "T07",
+    "LinkedIn Video Downloader": "T08",
+    "LinkedIn URL Finder": "T07",
+    "LinkedIn Headline Generator": "T02",
+    "LinkedIn Summary Generator": "T02",
+    "LinkedIn Boolean Search Generator": "T06",
+    "LinkedIn Search Generator": "T06",
+    "Website Roaster": "T05",
+    "ICP Generator": "T01"
+  },
+  "shared_requirements": [
+    "Versioned source/claim/client-context contracts",
+    "Agency ICP never imposed on client buyers",
+    "No invented autobiography or results",
+    "No copied source-post text or client data in public tree",
+    "Manual source/voice review and actual native preview before publication",
+    "Cost/rate/retention/provider and per-client input boundaries tested before client release",
+    "Existing collector/access holds preserved"
+  ],
+  "source_paths": [
+    "datasets/current/dataset.json",
+    "docs/linkedin-writing/METHOD-INTEGRATION.md",
+    "docs/linkedin-writing/supplied-source-manifest.json",
+    "docs/LINKEDIN-WRITING-ARCHITECTURE.md",
+    "skills/linkedin-publication-architecture/SKILL.md",
+    "skills/linkedin-reference-pattern-review/SKILL.md",
+    "publications/20261111-buyer-edition/README.md"
+  ]
+}

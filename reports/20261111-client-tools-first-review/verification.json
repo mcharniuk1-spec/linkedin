@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "check_count": 14,
+  "checks": [
+    {
+      "check": "All ten expected distinct Waalaxy tools",
+      "status": "PASS"
+    },
+    {
+      "check": "Ten actual review sections and bounded opening",
+      "status": "PASS"
+    },
+    {
+      "check": "No vendor runtime test claimed",
+      "status": "PASS"
+    },
+    {
+      "check": "Nine complete original module contracts",
+      "status": "PASS"
+    },
+    {
+      "check": "Exact complete tool to valid module map",
+      "status": "PASS"
+    },
+    {
+      "check": "All recovered competitor identities and separate cohorts",
+      "status": "PASS"
+    },
+    {
+      "check": "All seventeen company-locator dispositions",
+      "status": "PASS"
+    },
+    {
+      "check": "Ten page/tool URLs have first-party host",
+      "status": "PASS"
+    },
+    {
+      "check": "Historical dataset exact source and counts",
+      "status": "PASS"
+    },
+    {
+      "check": "Independent blocking findings resolved",
+      "status": "PASS"
+    },
+    {
+      "check": "Founder-time assumption preserved",
+      "status": "PASS"
+    },
+    {
+      "check": "Owned pilot explicitly manual and not account/app execution",
+      "status": "PASS"
+    },
+    {
+      "check": "Every repository-relative report/navigation link resolves",
+      "status": "PASS"
+    },
+    {
+      "check": "Public text excludes local/private/temp Figma paths",
+      "status": "PASS"
+    }
+  ],
+  "bad_links": [],
+  "private_path_findings": [],
+  "limits": [
+    "Finite source/coverage checks; no product runtime, persuasive quality, demand or publication proof."
+  ]
+}

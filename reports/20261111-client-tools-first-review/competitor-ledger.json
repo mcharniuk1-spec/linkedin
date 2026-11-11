@@ -1,0 +1,641 @@
+{
+  "schema": "outspoken-client-tools-competitor-ledger.v1",
+  "review_date": "2026-11-11",
+  "purpose": "Bounded public-source review of known OutSpoken service cohort plus adjacent client-facing LinkedIn tools; not exhaustive market coverage or performance ranking.",
+  "scope": {
+    "known_service_set": {
+      "original_workbook_cohort": 15,
+      "plan_additions": 2,
+      "names": [
+        "Notus",
+        "Inkiro",
+        "Hat Tip",
+        "Windmill Growth",
+        "Stop The Scroll",
+        "Kurogo",
+        "storyarb",
+        "Understory",
+        "Rallyup",
+        "Concurate",
+        "Linkedist",
+        "Compound Content Studio",
+        "Shake Content",
+        "Contender Creative",
+        "Hivemind Marketing",
+        "Cleverly",
+        "Belkins"
+      ]
+    },
+    "separate_26_agency_list": "Not recovered: earlier run says the planning artifact mentions a distinct 26-agency service cohort, but the complete source/list is unavailable in this packet. No completeness claim for that cohort.",
+    "new_tool_competitors_added": 3,
+    "new_tool_names": [
+      "Waalaxy",
+      "AuthoredUp",
+      "Taplio"
+    ],
+    "direct_social_reads": {
+      "baseline_2026_11_10": 0,
+      "this_review": "Public LinkedIn pages/posts were opened for selected identities listed in direct_public_linkedin_checks. No authenticated access, scraping, bulk collection, media download, or challenge handling."
+    },
+    "supplemental_prior_reference": {
+      "count": 1,
+      "name": "SalesBread",
+      "status": "prior audit explicitly classifies as separate supplemental source; not reopened"
+    },
+    "direct_linkedin_page_opens": {
+      "count": 17,
+      "matched_company_identities": 16,
+      "identity_mismatches": 1,
+      "pages_with_visible_profile_and_update_text": 16,
+      "auth_walls_or_challenges_or_rate_denials": 0,
+      "coverage_limit": "One public profile plus limited visible text per accessible page; not a representative/full post audit."
+    }
+  },
+  "identity_warning": "Cleverly: the prior audit includes https://www.cleverly.co/ but its saved LinkedIn locator must not be reused without identity validation. Opening https://www.linkedin.com/company/cleverly returned CLEVERly in Krakow, Poland with website cleverly.pl, not evidence for Cleverly.co. This task therefore leaves LinkedIn company URL null for Cleverly.co.",
+  "direct_public_linkedin_checks": [
+    {
+      "name": "Notus",
+      "url": "https://www.linkedin.com/company/notusxyz",
+      "identity_disposition": "identity_match",
+      "visible_text_summary": "Profile described content engines for B2B founders/executives. Visible update preview told a founder origin story about a digital-asset bank, with an attributed quote. Transfer: use a concrete subject and origin detail; no inference that the narrative produced business results."
+    },
+    {
+      "name": "Inkiro",
+      "url": "https://www.linkedin.com/company/inkiro",
+      "identity_disposition": "identity_match",
+      "visible_text_summary": "Profile describes founder content/ghostwriting. Visible updates discussed a founder-built product and a tool feature that adapts a post input to multiple profile voices. Transfer: capture idea source and author-specific adaptation; product claims and testimonials are not independent quality proof."
+    },
+    {
+      "name": "Hat Tip",
+      "url": "https://www.linkedin.com/company/hat-tip-social",
+      "identity_disposition": "identity_match",
+      "visible_text_summary": "Profile says social content engines for B2B executives. Visible founder update described ICP question buckets, TOF/MOF/BOF, posting and commenting routines, and a tool-based scraping analysis workflow. Transfer only the explicit audience-question buckets; do not adopt scraping/automation methods or infer interactions cause sales."
+    },
+    {
+      "name": "Windmill Growth",
+      "url": "https://www.linkedin.com/company/windmill-growth/",
+      "identity_disposition": "identity_match",
+      "visible_text_summary": "Profile describes content, profile management, engagement and ads. Visible update promoted a measurement guide linking activity to business outcomes. Transfer: explain measurement limits and intended decision; promotion is not evidence that the guide or service drives pipeline."
+    },
+    {
+      "name": "Stop The Scroll",
+      "url": "https://www.linkedin.com/company/stopthescroll-io/",
+      "identity_disposition": "identity_match",
+      "visible_text_summary": "Profile describes content, video, outreach and ads; visible post preview argues for people-led distribution rather than relying on the company page. Transfer: connect channel choice to the actual distribution role; company-page reach claims are the provider’s opinion."
+    },
+    {
+      "name": "Kurogo",
+      "url": "https://www.linkedin.com/company/kurogo-personal-branding/",
+      "identity_disposition": "identity_match",
+      "visible_text_summary": "Profile describes personal branding/thought leadership. Visible post explained a claimed 3.8M-view client post via hook, topic, borrowed celebrity attention, complementary video/copy and account history. Transfer: make the components of a case legible; view count and causal explanation are self-reported, not sales evidence."
+    },
+    {
+      "name": "storyarb",
+      "url": "https://www.linkedin.com/company/storyarb",
+      "identity_disposition": "identity_match",
+      "visible_text_summary": "Profile describes B2B content across executive social and editorial. Visible updates used event-led playfulness and an executive social event invitation. Transfer: a recurring event can support a recognizable content series; visible activity does not validate pipeline attribution."
+    },
+    {
+      "name": "Understory",
+      "url": "https://www.linkedin.com/company/understory-agency/",
+      "identity_disposition": "identity_match",
+      "visible_text_summary": "Profile describes integrated outbound, paid media and executive thought leadership. Visible updates showed a single target-account list connecting ads, outbound and engagement signals. Transfer: make integration concrete with one workflow diagram; provider’s “outperforming” language is not independent evidence."
+    },
+    {
+      "name": "Rallyup",
+      "url": "https://www.linkedin.com/company/rallyupinc",
+      "identity_disposition": "identity_match",
+      "visible_text_summary": "Profile is RallyUp, a founder/executive audience service. It states company-reported impressions, fundraising and enterprise deals attributed to its own team content. Transfer: distinguish first-party dogfooding from client evidence; these are self-reported and do not establish causality."
+    },
+    {
+      "name": "Concurate",
+      "url": "https://in.linkedin.com/company/concurate",
+      "identity_disposition": "identity_match",
+      "visible_text_summary": "Profile describes content strategy, research, editing and distribution. Visible update turned a hiring rejection followed by a thank-you note into a lesson about useful feedback. Transfer: a bounded scene can support a practical principle; one anecdote does not establish a general hiring rule."
+    },
+    {
+      "name": "Linkedist",
+      "url": "https://www.linkedin.com/company/linkedist/",
+      "identity_disposition": "identity_match",
+      "visible_text_summary": "Profile lists content, personal branding, paid LinkedIn and AI-search services. Visible posts were in Lithuanian and promoted an AI visibility event/check and brand discussion. Transfer: language and local context can make a brand’s point of view specific; attendee counts and event promotion do not prove buyer results."
+    },
+    {
+      "name": "Compound Content Studio",
+      "url": "https://www.linkedin.com/company/compoundcontent",
+      "identity_disposition": "identity_match",
+      "visible_text_summary": "Profile describes organic social for B2B. Visible updates distinguished growing engagement from an empty sales calendar and discussed case studies plus outbound; another promoted an executive-content webinar. Transfer: separate attention from commercial outcome and show the next evidence step; recommendations are not verified effectiveness."
+    },
+    {
+      "name": "Shake Content",
+      "url": "https://uk.linkedin.com/company/shake-content",
+      "identity_disposition": "identity_match",
+      "visible_text_summary": "Profile describes LinkedIn strategy, ghostwriting, video and company-page support. Visible updates discussed founder expertise and whether low-polish formats perform, with podcast links. Transfer: interview a practitioner for a specific point of view; the preview does not establish comparative performance."
+    },
+    {
+      "name": "Contender Creative",
+      "url": "https://www.linkedin.com/company/contendercreativellc/",
+      "identity_disposition": "identity_match",
+      "visible_text_summary": "Profile identifies a LinkedIn ghostwriting agency for lawyers. Visible post questioned whether impressions matter without relationship-building, and referenced its coaching community. Transfer: name the gap between a reach metric and the reader outcome; individual account impressions/opportunities remain self-reported."
+    },
+    {
+      "name": "Hivemind Marketing",
+      "url": "https://www.linkedin.com/company/hivemind-marketing",
+      "identity_disposition": "identity_match",
+      "visible_text_summary": "Profile describes one-to-one work with gaming founders. Visible update advertised a role writing founder/executive posts and listed niche, salary and desired experience. Transfer: concrete role details make a hiring post useful; hiring copy is not client outcome evidence."
+    },
+    {
+      "name": "Cleverly",
+      "url": "https://www.linkedin.com/company/cleverly",
+      "identity_disposition": "identity_mismatch",
+      "visible_text_summary": "This URL resolves to Polish CLEVERly at cleverly.pl, not Cleverly.co. No LinkedIn content attributed to Cleverly.co; profile/post sample excluded."
+    },
+    {
+      "name": "Belkins",
+      "url": "https://www.linkedin.com/company/belkins",
+      "identity_disposition": "identity_match",
+      "visible_text_summary": "Profile matches Belkins Inc. and lists appointment setting. Visible update celebrated a Clutch award. Transfer: third-party recognition can support a trust section if independently linked and scoped; a company announcement alone is self-reported."
+    }
+  ],
+  "rows": [
+    {
+      "id": "CW-01",
+      "name": "Notus",
+      "cohort": "original_workbook_15",
+      "identity_basis": "English competitor workbook, Comparison and company sheets",
+      "website": "https://www.notus.xyz/",
+      "linkedin_company_url": "https://www.linkedin.com/company/notusxyz",
+      "linkedin_url_status": "identity_match",
+      "primary_evidence_urls": [
+        "https://www.notus.xyz/"
+      ],
+      "evidence_status": "selected_official_page_text_inspected",
+      "offer_or_content_method": "Expertise → personal-brand narrative → offered content/community program.",
+      "proof_or_pricing": "Client testimonials and attributed outcome cards; not independently audited. Pricing: not stated in the reviewed summary; no price inferred.",
+      "unique_transfer_for_outspoken": "Connect each story to a reader and a professional purpose.",
+      "interpretation_limit": "Promotional attention-to-demand language does not prove a writing structure causes sales.",
+      "current_social_post_review": "No newly inspected LinkedIn post in 10 Nov baseline pass; public post review for this task only where separately recorded below.",
+      "historical_evidence_date": "2026-10-17",
+      "historical_linkedin_locator_reviewed": "https://www.linkedin.com/company/notusxyz",
+      "visible_linkedin_profile_and_post_text": "Profile described content engines for B2B founders/executives. Visible update preview told a founder origin story about a digital-asset bank, with an attributed quote. Transfer: use a concrete subject and origin detail; no inference that the narrative produced business results.",
+      "linkedin_limit": "One public profile and limited visible updates only; not a full post archive, representative sample, or proof of sales effect."
+    },
+    {
+      "id": "CW-02",
+      "name": "Inkiro",
+      "cohort": "original_workbook_15",
+      "identity_basis": "English competitor workbook, Comparison and company sheets",
+      "website": "https://www.inkiro.com/",
+      "linkedin_company_url": "https://www.linkedin.com/company/inkiro",
+      "linkedin_url_status": "identity_match",
+      "primary_evidence_urls": [
+        "https://www.inkiro.com/"
+      ],
+      "evidence_status": "selected_official_page_text_inspected",
+      "offer_or_content_method": "Founder source material and team context → audience perspective → content production/review.",
+      "proof_or_pricing": "Testimonials, selected client stories and analytics excerpts. Pricing: not stated in the reviewed summary; no price inferred.",
+      "unique_transfer_for_outspoken": "Separate the founder’s raw thinking from the buyer-facing interpretation; retain source confirmation.",
+      "interpretation_limit": "Selected cases and displayed analytics cannot establish typical, causal or repeatable performance.",
+      "current_social_post_review": "No newly inspected LinkedIn post in 10 Nov baseline pass; public post review for this task only where separately recorded below.",
+      "historical_evidence_date": "2026-10-17",
+      "historical_linkedin_locator_reviewed": "https://www.linkedin.com/company/inkiro",
+      "visible_linkedin_profile_and_post_text": "Profile describes founder content/ghostwriting. Visible updates discussed a founder-built product and a tool feature that adapts a post input to multiple profile voices. Transfer: capture idea source and author-specific adaptation; product claims and testimonials are not independent quality proof.",
+      "linkedin_limit": "One public profile and limited visible updates only; not a full post archive, representative sample, or proof of sales effect."
+    },
+    {
+      "id": "CW-03",
+      "name": "Hat Tip",
+      "cohort": "original_workbook_15",
+      "identity_basis": "English competitor workbook, Comparison and company sheets",
+      "website": "https://tryhattip.com/",
+      "linkedin_company_url": "https://www.linkedin.com/company/hat-tip-social",
+      "linkedin_url_status": "identity_match",
+      "primary_evidence_urls": [
+        "https://tryhattip.com/",
+        "https://tryhattip.com/cases/ammo"
+      ],
+      "evidence_status": "selected_official_page_text_inspected",
+      "offer_or_content_method": "Content buckets → custom prompts/interview transcript → draft → weekly founder review.",
+      "proof_or_pricing": "Provider-authored Ammo case combines outcome figures with publishing and network activity. Pricing: not stated in the reviewed summary; no price inferred.",
+      "unique_transfer_for_outspoken": "Use distinct reader jobs as interview buckets; preserve an explicit author-approval checkpoint.",
+      "interpretation_limit": "Reported case results cannot isolate the writing method from distribution and connection activity.",
+      "current_social_post_review": "No newly inspected LinkedIn post in 10 Nov baseline pass; public post review for this task only where separately recorded below.",
+      "historical_evidence_date": "2026-10-17",
+      "historical_linkedin_locator_reviewed": "https://www.linkedin.com/company/hat-tip-social",
+      "visible_linkedin_profile_and_post_text": "Profile says social content engines for B2B executives. Visible founder update described ICP question buckets, TOF/MOF/BOF, posting and commenting routines, and a tool-based scraping analysis workflow. Transfer only the explicit audience-question buckets; do not adopt scraping/automation methods or infer interactions cause sales.",
+      "linkedin_limit": "One public profile and limited visible updates only; not a full post archive, representative sample, or proof of sales effect."
+    },
+    {
+      "id": "CW-04",
+      "name": "Windmill Growth",
+      "cohort": "original_workbook_15",
+      "identity_basis": "English competitor workbook, Comparison and company sheets",
+      "website": "https://windmillgrowth.com/",
+      "linkedin_company_url": "https://www.linkedin.com/company/windmill-growth/",
+      "linkedin_url_status": "identity_match",
+      "primary_evidence_urls": [
+        "https://windmillgrowth.com/"
+      ],
+      "evidence_status": "selected_official_page_text_inspected",
+      "offer_or_content_method": "Founder input → writer/market context → content and broader channel service.",
+      "proof_or_pricing": "Selected client cases, attributed results and social-proof cards. Pricing: not stated in the reviewed summary; no price inferred.",
+      "unique_transfer_for_outspoken": "Use the founder’s actual decisions and vocabulary to produce original writing; an illustrative parody must stay labelled.",
+      "interpretation_limit": "Claims about AI detection, revenue or filled calendars are marketing, not validated editorial rules.",
+      "current_social_post_review": "No newly inspected LinkedIn post in 10 Nov baseline pass; public post review for this task only where separately recorded below.",
+      "historical_evidence_date": "2026-10-17",
+      "historical_linkedin_locator_reviewed": "https://www.linkedin.com/company/windmill-growth/",
+      "visible_linkedin_profile_and_post_text": "Profile describes content, profile management, engagement and ads. Visible update promoted a measurement guide linking activity to business outcomes. Transfer: explain measurement limits and intended decision; promotion is not evidence that the guide or service drives pipeline.",
+      "linkedin_limit": "One public profile and limited visible updates only; not a full post archive, representative sample, or proof of sales effect."
+    },
+    {
+      "id": "CW-05",
+      "name": "Stop The Scroll",
+      "cohort": "original_workbook_15",
+      "identity_basis": "English competitor workbook, Comparison and company sheets",
+      "website": "https://www.stopthescroll.io/",
+      "linkedin_company_url": "https://www.linkedin.com/company/stopthescroll-io/",
+      "linkedin_url_status": "identity_match",
+      "primary_evidence_urls": [
+        "https://www.stopthescroll.io/"
+      ],
+      "evidence_status": "selected_official_page_text_inspected",
+      "offer_or_content_method": "Onboard/voice calibration → draft → approve → distribute.",
+      "proof_or_pricing": "Anonymised examples and provider-reported results; demonstration posts are not independently authenticated here. Pricing: not stated in the reviewed summary; no price inferred.",
+      "unique_transfer_for_outspoken": "Map each post to a buyer problem and make caption/panel proof and review responsibilities explicit.",
+      "interpretation_limit": "Website examples and paid amplification cannot establish organic writing causality or validated buyer response.",
+      "current_social_post_review": "No newly inspected LinkedIn post in 10 Nov baseline pass; public post review for this task only where separately recorded below.",
+      "historical_evidence_date": "2026-10-17",
+      "historical_linkedin_locator_reviewed": "https://www.linkedin.com/company/stopthescroll-io/",
+      "visible_linkedin_profile_and_post_text": "Profile describes content, video, outreach and ads; visible post preview argues for people-led distribution rather than relying on the company page. Transfer: connect channel choice to the actual distribution role; company-page reach claims are the provider’s opinion.",
+      "linkedin_limit": "One public profile and limited visible updates only; not a full post archive, representative sample, or proof of sales effect."
+    },
+    {
+      "id": "CW-06",
+      "name": "Kurogo",
+      "cohort": "original_workbook_15",
+      "identity_basis": "English competitor workbook, Comparison and company sheets",
+      "website": "https://www.kurogo.co.uk/",
+      "linkedin_company_url": "https://www.linkedin.com/company/kurogo-personal-branding/",
+      "linkedin_url_status": "identity_match",
+      "primary_evidence_urls": [
+        "https://www.kurogo.co.uk/"
+      ],
+      "evidence_status": "selected_official_page_text_inspected",
+      "offer_or_content_method": "Identify audience and positioning → communicate expertise → consider opportunity.",
+      "proof_or_pricing": "Client result cards, testimonials and broad promotional statistics. Pricing: not stated in the reviewed summary; no price inferred.",
+      "unique_transfer_for_outspoken": "Write the intended reader and positioning before selecting a post angle.",
+      "interpretation_limit": "Authority, reach and opportunity are distinct; broad statistics and selected cases are not a causal content formula.",
+      "current_social_post_review": "No newly inspected LinkedIn post in 10 Nov baseline pass; public post review for this task only where separately recorded below.",
+      "historical_evidence_date": "2026-10-17",
+      "historical_linkedin_locator_reviewed": "https://www.linkedin.com/company/kurogo-personal-branding/",
+      "visible_linkedin_profile_and_post_text": "Profile describes personal branding/thought leadership. Visible post explained a claimed 3.8M-view client post via hook, topic, borrowed celebrity attention, complementary video/copy and account history. Transfer: make the components of a case legible; view count and causal explanation are self-reported, not sales evidence.",
+      "linkedin_limit": "One public profile and limited visible updates only; not a full post archive, representative sample, or proof of sales effect."
+    },
+    {
+      "id": "CW-07",
+      "name": "storyarb",
+      "cohort": "original_workbook_15",
+      "identity_basis": "English competitor workbook, Comparison and company sheets",
+      "website": "https://www.storyarb.com/",
+      "linkedin_company_url": "https://www.linkedin.com/company/storyarb",
+      "linkedin_url_status": "identity_match",
+      "primary_evidence_urls": [
+        "https://www.storyarb.com/"
+      ],
+      "evidence_status": "selected_official_page_text_inspected",
+      "offer_or_content_method": "SME knowledge → buyer-focused insight → connected original story/content treatment.",
+      "proof_or_pricing": "Provider-authored cases and client testimonials, including pipeline-oriented claims. Pricing: not stated in the reviewed summary; no price inferred.",
+      "unique_transfer_for_outspoken": "Interview the expert for the actual insight; adapt a source idea to a channel’s reader job without copying source prose.",
+      "interpretation_limit": "Connected channels and pipeline claims do not prove any hook or story structure works on LinkedIn.",
+      "current_social_post_review": "No newly inspected LinkedIn post in 10 Nov baseline pass; public post review for this task only where separately recorded below.",
+      "historical_evidence_date": "2026-10-17",
+      "historical_linkedin_locator_reviewed": "https://www.linkedin.com/company/storyarb",
+      "visible_linkedin_profile_and_post_text": "Profile describes B2B content across executive social and editorial. Visible updates used event-led playfulness and an executive social event invitation. Transfer: a recurring event can support a recognizable content series; visible activity does not validate pipeline attribution.",
+      "linkedin_limit": "One public profile and limited visible updates only; not a full post archive, representative sample, or proof of sales effect."
+    },
+    {
+      "id": "CW-08",
+      "name": "Understory",
+      "cohort": "original_workbook_15",
+      "identity_basis": "English competitor workbook, Comparison and company sheets",
+      "website": "https://www.understoryagency.com/",
+      "linkedin_company_url": "https://www.linkedin.com/company/understory-agency/",
+      "linkedin_url_status": "identity_match",
+      "primary_evidence_urls": [
+        "https://www.understoryagency.com/"
+      ],
+      "evidence_status": "selected_official_page_text_inspected",
+      "offer_or_content_method": "Shared ICP/message across content and other GTM work; homepage points to playbooks and founder-post resources.",
+      "proof_or_pricing": "Multi-channel cases, testimonials and selected operational numbers. Pricing: not stated in the reviewed summary; no price inferred.",
+      "unique_transfer_for_outspoken": "Keep a consistent buyer question and terminology across related content; show the steps behind a claim.",
+      "interpretation_limit": "Allbound case results cannot be attributed solely to organic founder posts; linked post resources were not opened.",
+      "current_social_post_review": "No newly inspected LinkedIn post in 10 Nov baseline pass; public post review for this task only where separately recorded below.",
+      "historical_evidence_date": "2026-10-17",
+      "historical_linkedin_locator_reviewed": "https://www.linkedin.com/company/understory-agency/",
+      "visible_linkedin_profile_and_post_text": "Profile describes integrated outbound, paid media and executive thought leadership. Visible updates showed a single target-account list connecting ads, outbound and engagement signals. Transfer: make integration concrete with one workflow diagram; provider’s “outperforming” language is not independent evidence.",
+      "linkedin_limit": "One public profile and limited visible updates only; not a full post archive, representative sample, or proof of sales effect."
+    },
+    {
+      "id": "CW-09",
+      "name": "Rallyup",
+      "cohort": "original_workbook_15",
+      "identity_basis": "English competitor workbook, Comparison and company sheets",
+      "website": "https://www.rallyup.team/",
+      "linkedin_company_url": "https://www.linkedin.com/company/rallyupinc",
+      "linkedin_url_status": "identity_match",
+      "primary_evidence_urls": [
+        "https://www.rallyup.team/"
+      ],
+      "evidence_status": "selected_official_page_text_inspected",
+      "offer_or_content_method": "Executive/company/market source review → niche study → draft → weekly approval → review results.",
+      "proof_or_pricing": "Attributed first-post stories and promotional performance promises. Pricing: not stated in the reviewed summary; no price inferred.",
+      "unique_transfer_for_outspoken": "Build a bounded source/voice brief and require author control over each draft.",
+      "interpretation_limit": "Pre-validated hooks, algorithm rewards and performance promises are provider assertions, not independently established writing rules.",
+      "current_social_post_review": "No newly inspected LinkedIn post in 10 Nov baseline pass; public post review for this task only where separately recorded below.",
+      "historical_evidence_date": "2026-10-17",
+      "historical_linkedin_locator_reviewed": "https://www.linkedin.com/company/rallyupinc",
+      "visible_linkedin_profile_and_post_text": "Profile is RallyUp, a founder/executive audience service. It states company-reported impressions, fundraising and enterprise deals attributed to its own team content. Transfer: distinguish first-party dogfooding from client evidence; these are self-reported and do not establish causality.",
+      "linkedin_limit": "One public profile and limited visible updates only; not a full post archive, representative sample, or proof of sales effect."
+    },
+    {
+      "id": "CW-10",
+      "name": "Concurate",
+      "cohort": "original_workbook_15",
+      "identity_basis": "English competitor workbook, Comparison and company sheets",
+      "website": "https://concurate.com/",
+      "linkedin_company_url": "https://in.linkedin.com/company/concurate",
+      "linkedin_url_status": "identity_match",
+      "primary_evidence_urls": [
+        "https://concurate.com/"
+      ],
+      "evidence_status": "selected_official_page_text_inspected",
+      "offer_or_content_method": "Business/source understanding and research → contextual expert narrative → channel-specific content.",
+      "proof_or_pricing": "Client testimonials and case cards across several marketing channels. Pricing: not stated in the reviewed summary; no price inferred.",
+      "unique_transfer_for_outspoken": "Use buyer questions and product context to choose what an expert story must explain.",
+      "interpretation_limit": "Search rankings, SaaS outcomes and cross-channel testimonials do not establish LinkedIn post effectiveness.",
+      "current_social_post_review": "No newly inspected LinkedIn post in 10 Nov baseline pass; public post review for this task only where separately recorded below.",
+      "historical_evidence_date": "2026-10-17",
+      "historical_linkedin_locator_reviewed": "https://in.linkedin.com/company/concurate",
+      "visible_linkedin_profile_and_post_text": "Profile describes content strategy, research, editing and distribution. Visible update turned a hiring rejection followed by a thank-you note into a lesson about useful feedback. Transfer: a bounded scene can support a practical principle; one anecdote does not establish a general hiring rule.",
+      "linkedin_limit": "One public profile and limited visible updates only; not a full post archive, representative sample, or proof of sales effect."
+    },
+    {
+      "id": "CW-11",
+      "name": "Linkedist",
+      "cohort": "original_workbook_15",
+      "identity_basis": "English competitor workbook, Comparison and company sheets",
+      "website": "https://www.linkedist.com/",
+      "linkedin_company_url": "https://www.linkedin.com/company/linkedist/",
+      "linkedin_url_status": "identity_match",
+      "primary_evidence_urls": [
+        "https://www.linkedist.com/"
+      ],
+      "evidence_status": "selected_official_page_text_inspected",
+      "offer_or_content_method": "Content creation, personal branding, audit, employee advocacy and paid activity are separate options.",
+      "proof_or_pricing": "Brand logos and selected growth-case navigation. Pricing: not stated in the reviewed summary; no price inferred.",
+      "unique_transfer_for_outspoken": "Align the individual post with the author’s profile positioning while distinguishing content, profile and paid jobs.",
+      "interpretation_limit": "Broad visibility/engagement claims do not verify a caption formula, AI-search outcome or founder-content effect.",
+      "current_social_post_review": "No newly inspected LinkedIn post in 10 Nov baseline pass; public post review for this task only where separately recorded below.",
+      "historical_evidence_date": "2026-10-17",
+      "historical_linkedin_locator_reviewed": "https://www.linkedin.com/company/linkedist/",
+      "visible_linkedin_profile_and_post_text": "Profile lists content, personal branding, paid LinkedIn and AI-search services. Visible posts were in Lithuanian and promoted an AI visibility event/check and brand discussion. Transfer: language and local context can make a brand’s point of view specific; attendee counts and event promotion do not prove buyer results.",
+      "linkedin_limit": "One public profile and limited visible updates only; not a full post archive, representative sample, or proof of sales effect."
+    },
+    {
+      "id": "CW-12",
+      "name": "Compound Content Studio",
+      "cohort": "original_workbook_15",
+      "identity_basis": "English competitor workbook, Comparison and company sheets",
+      "website": "https://www.compoundcontentstudio.com/",
+      "linkedin_company_url": "https://www.linkedin.com/company/compoundcontent",
+      "linkedin_url_status": "identity_match",
+      "primary_evidence_urls": [
+        "https://www.compoundcontentstudio.com/"
+      ],
+      "evidence_status": "selected_official_page_text_inspected",
+      "offer_or_content_method": "Strategy/audit → interview → production across founder/company/employee accounts → reporting.",
+      "proof_or_pricing": "Client testimonials and described service scope. Pricing: not stated in the reviewed summary; no price inferred.",
+      "unique_transfer_for_outspoken": "Assign each account a distinct author/purpose; source founder insights before repurposing.",
+      "interpretation_limit": "Dated 2024/2025 language is visible; neither current capacity nor algorithm claims are independently confirmed.",
+      "current_social_post_review": "No newly inspected LinkedIn post in 10 Nov baseline pass; public post review for this task only where separately recorded below.",
+      "historical_evidence_date": "2026-10-17",
+      "historical_linkedin_locator_reviewed": "https://www.linkedin.com/company/compoundcontent",
+      "visible_linkedin_profile_and_post_text": "Profile describes organic social for B2B. Visible updates distinguished growing engagement from an empty sales calendar and discussed case studies plus outbound; another promoted an executive-content webinar. Transfer: separate attention from commercial outcome and show the next evidence step; recommendations are not verified effectiveness.",
+      "linkedin_limit": "One public profile and limited visible updates only; not a full post archive, representative sample, or proof of sales effect."
+    },
+    {
+      "id": "CW-13",
+      "name": "Shake Content",
+      "cohort": "original_workbook_15",
+      "identity_basis": "English competitor workbook, Comparison and company sheets",
+      "website": "https://www.shakecontent.com/",
+      "linkedin_company_url": "https://uk.linkedin.com/company/shake-content",
+      "linkedin_url_status": "identity_match",
+      "primary_evidence_urls": [
+        "https://www.shakecontent.com/"
+      ],
+      "evidence_status": "selected_official_page_text_inspected",
+      "offer_or_content_method": "Audience insight → purposeful story/copy → creative/channel treatment → test-and-learn proposition.",
+      "proof_or_pricing": "Provider case metrics and client testimonials. Pricing: not stated in the reviewed summary; no price inferred.",
+      "unique_transfer_for_outspoken": "Require context, raw source material, the author’s insight and a useful reader implication; treat the older named CRIT method as historical.",
+      "interpretation_limit": "The CRIT label was not found in the selected current homepage passages; outcome and video-attention claims remain promotional.",
+      "current_social_post_review": "No newly inspected LinkedIn post in 10 Nov baseline pass; public post review for this task only where separately recorded below.",
+      "historical_evidence_date": "2026-10-17",
+      "historical_linkedin_locator_reviewed": "https://uk.linkedin.com/company/shake-content",
+      "visible_linkedin_profile_and_post_text": "Profile describes LinkedIn strategy, ghostwriting, video and company-page support. Visible updates discussed founder expertise and whether low-polish formats perform, with podcast links. Transfer: interview a practitioner for a specific point of view; the preview does not establish comparative performance.",
+      "linkedin_limit": "One public profile and limited visible updates only; not a full post archive, representative sample, or proof of sales effect."
+    },
+    {
+      "id": "CW-14",
+      "name": "Contender Creative",
+      "cohort": "original_workbook_15",
+      "identity_basis": "English competitor workbook, Comparison and company sheets",
+      "website": "https://www.contendercreative.com/",
+      "linkedin_company_url": "https://www.linkedin.com/company/contendercreativellc/",
+      "linkedin_url_status": "identity_match",
+      "primary_evidence_urls": [
+        "https://www.contendercreative.com/"
+      ],
+      "evidence_status": "selected_official_page_text_inspected",
+      "offer_or_content_method": "Personal branding → positioning → posting; an interview and draft-review service is described.",
+      "proof_or_pricing": "A named client testimonial and before/after service comparison. Pricing: not stated in the reviewed summary; no price inferred.",
+      "unique_transfer_for_outspoken": "State who the author serves and turn actual expertise into a relevant, bounded story.",
+      "interpretation_limit": "Legal-industry experience and overnight-traction language do not transfer as validated AI-SaaS buyer effects.",
+      "current_social_post_review": "No newly inspected LinkedIn post in 10 Nov baseline pass; public post review for this task only where separately recorded below.",
+      "historical_evidence_date": "2026-10-17",
+      "historical_linkedin_locator_reviewed": "https://www.linkedin.com/company/contendercreativellc/",
+      "visible_linkedin_profile_and_post_text": "Profile identifies a LinkedIn ghostwriting agency for lawyers. Visible post questioned whether impressions matter without relationship-building, and referenced its coaching community. Transfer: name the gap between a reach metric and the reader outcome; individual account impressions/opportunities remain self-reported.",
+      "linkedin_limit": "One public profile and limited visible updates only; not a full post archive, representative sample, or proof of sales effect."
+    },
+    {
+      "id": "CW-15",
+      "name": "Hivemind Marketing",
+      "cohort": "original_workbook_15",
+      "identity_basis": "English competitor workbook, Comparison and company sheets",
+      "website": "https://hivemind.marketing/",
+      "linkedin_company_url": "https://www.linkedin.com/company/hivemind-marketing",
+      "linkedin_url_status": "identity_match",
+      "primary_evidence_urls": [
+        "https://hivemind.marketing/"
+      ],
+      "evidence_status": "selected_official_page_text_inspected",
+      "offer_or_content_method": "Source input and self-interview proposition → content program → broader conference/outbound ecosystem.",
+      "proof_or_pricing": "Provider-written success story and attributed testimonial/result presentation. Pricing: not stated in the reviewed summary; no price inferred.",
+      "unique_transfer_for_outspoken": "Use source interview questions and explicit fit conditions; distinguish trust-building content from an offer.",
+      "interpretation_limit": "Historical 70/20/10 allocation is not causal evidence or a required mix; animated zero counters are not usable metrics.",
+      "current_social_post_review": "No newly inspected LinkedIn post in 10 Nov baseline pass; public post review for this task only where separately recorded below.",
+      "historical_evidence_date": "2026-10-17",
+      "historical_linkedin_locator_reviewed": "https://www.linkedin.com/company/hivemind-marketing",
+      "visible_linkedin_profile_and_post_text": "Profile describes one-to-one work with gaming founders. Visible update advertised a role writing founder/executive posts and listed niche, salary and desired experience. Transfer: concrete role details make a hiring post useful; hiring copy is not client outcome evidence.",
+      "linkedin_limit": "One public profile and limited visible updates only; not a full post archive, representative sample, or proof of sales effect."
+    },
+    {
+      "id": "CW-16",
+      "name": "Cleverly",
+      "cohort": "plan_only_addition",
+      "identity_basis": "10 November launch artifact and Plane A1/OUTSP-9",
+      "website": "https://www.cleverly.co/",
+      "linkedin_company_url": null,
+      "linkedin_url_status": "identity_mismatch",
+      "primary_evidence_urls": [
+        "https://www.cleverly.co/"
+      ],
+      "evidence_status": "selected_official_page_text_inspected",
+      "offer_or_content_method": "Targeting/research → personalised outreach copy → lead-generation service.",
+      "proof_or_pricing": "Provider-authored case descriptions, testimonial/review material and promotional totals. Pricing: not stated in the reviewed summary; no price inferred.",
+      "unique_transfer_for_outspoken": "Transfer reader-specific research and concrete problem framing only.",
+      "interpretation_limit": "Outreach results do not establish organic founder-content effectiveness; do not import account-operation practices.",
+      "current_social_post_review": "No newly inspected LinkedIn post in 10 Nov baseline pass; public post review for this task only where separately recorded below.",
+      "historical_evidence_date": null,
+      "historical_linkedin_locator_reviewed": "https://www.linkedin.com/company/cleverly",
+      "visible_linkedin_profile_and_post_text": "This URL resolves to Polish CLEVERly at cleverly.pl, not Cleverly.co. No LinkedIn content attributed to Cleverly.co; profile/post sample excluded.",
+      "linkedin_limit": "One public profile and limited visible updates only; not a full post archive, representative sample, or proof of sales effect."
+    },
+    {
+      "id": "CW-17",
+      "name": "Belkins",
+      "cohort": "plan_only_addition",
+      "identity_basis": "10 November launch artifact and Plane A1/OUTSP-9",
+      "website": "https://belkins.io/",
+      "linkedin_company_url": "https://www.linkedin.com/company/belkins",
+      "linkedin_url_status": "identity_match",
+      "primary_evidence_urls": [
+        "https://belkins.io/"
+      ],
+      "evidence_status": "selected_official_page_text_inspected",
+      "offer_or_content_method": "Segment a business problem → describe service mechanism → present case/consultation.",
+      "proof_or_pricing": "Client logos, case navigation and provider-reported commercial claims. Pricing: not stated in the reviewed summary; no price inferred.",
+      "unique_transfer_for_outspoken": "Use a specific buyer problem and keep the evidence for an offer separate from its aspiration.",
+      "interpretation_limit": "Omnichannel appointments and pipeline are not evidence for a LinkedIn writing technique.",
+      "current_social_post_review": "No newly inspected LinkedIn post in 10 Nov baseline pass; public post review for this task only where separately recorded below.",
+      "historical_evidence_date": null,
+      "historical_linkedin_locator_reviewed": "https://www.linkedin.com/company/belkins",
+      "visible_linkedin_profile_and_post_text": "Profile matches Belkins Inc. and lists appointment setting. Visible update celebrated a Clutch award. Transfer: third-party recognition can support a trust section if independently linked and scoped; a company announcement alone is self-reported.",
+      "linkedin_limit": "One public profile and limited visible updates only; not a full post archive, representative sample, or proof of sales effect."
+    },
+    {
+      "name": "SalesBread",
+      "type": "supplemental historical service reference; outside original 15 and not re-opened in this review",
+      "website": "https://salesbread.com/",
+      "linkedin_company_url": null,
+      "official_evidence": [
+        "https://salesbread.com/"
+      ],
+      "observed_offer": "Prior methodology audit described personalized LinkedIn/email outbound and prospect research; official page was not re-opened during this pass.",
+      "proof_or_price": "Current official proof and pricing not verified in this pass. Do not treat lead-generation claims as organic content evidence.",
+      "lesson": "Research a buyer’s public context to make a message relevant, while keeping outreach and founder-publication work separate.",
+      "review_status": "carried forward as a supplemental source from 2026-11-10 baseline; not part of original 15 or plan additions",
+      "linkedin_url_status": "no_locator_in_saved_source; no URL guessed or opened",
+      "visible_linkedin_profile_and_post_text": "Not reviewed; prior baseline names only its official site as a supplemental source."
+    },
+    {
+      "name": "Waalaxy",
+      "type": "outreach automation software; adjacent, not agency-equivalent",
+      "website": "https://www.waalaxy.com/",
+      "linkedin_company_url": null,
+      "official_evidence": [
+        "https://www.waalaxy.com/pricing"
+      ],
+      "observed_offer": "LinkedIn outreach sequences/follow-ups, CRM sync and email/multichannel plans. Static pricing page text displayed Pro €19, Advanced €49, Business €69 per user/month; the page has monthly/quarterly/yearly billing selectors. Toggle state and checkout-level billed amounts were not independently verified.",
+      "proof_or_price": "Vendor page only. Listed selector-dependent prices are not a verified effective cost model; confirm selected billing term, VAT and checkout before comparison.",
+      "lesson": "A client-facing service can clarify the boundary between strategy, authored content and execution tooling. Do not imply automation drives content quality or endorse automated outreach as an OutSpoken service.",
+      "review_status": "official pricing page searched 2026-11-11; LinkedIn company identity not verified"
+    },
+    {
+      "name": "AuthoredUp",
+      "type": "LinkedIn creator software; adjacent tool competitor",
+      "website": "https://authoredup.com/",
+      "linkedin_company_url": null,
+      "official_evidence": [
+        "https://authoredup.com/pricing",
+        "https://authoredup.com/product/editor"
+      ],
+      "observed_offer": "Post editor, formatting, preview, drafts/snippets, scheduling, hooks/endings and analytics; official pricing lists Individual $19.95/month and Business $14.95/profile/month for 3+ profiles.",
+      "proof_or_price": "Vendor-stated feature/pricing; no independent outcome validation reviewed.",
+      "lesson": "Make reviewable outputs tangible: preview, draft history, source and author approval. OutSpoken could make its editorial QA and buyer-facing rationale as inspectable as a software workflow.",
+      "review_status": "official pricing/product pages searched 2026-11-11; LinkedIn company identity not verified"
+    },
+    {
+      "name": "Taplio",
+      "type": "LinkedIn creator software; adjacent tool competitor",
+      "website": "https://taplio.com/",
+      "linkedin_company_url": null,
+      "official_evidence": [
+        "https://app.taplio.com/dashboard?openPricing=true"
+      ],
+      "observed_offer": "LinkedIn creator software for scheduling/analytics, AI writing/collaboration and lead-related features. The previous app pricing URL could not be reopened during this follow-up; current prices and plan terms are quote-required / unverified.",
+      "proof_or_price": "No current price quote in this review; the earlier public app-page snippet is not treated as a validated present-day cost model.",
+      "lesson": "Package work around client workflow stages and desired reader job; retain human authorship, evidence checking and claim review instead of presenting AI output as the deliverable.",
+      "review_status": "official public pricing page searched 2026-11-11; LinkedIn company identity not verified"
+    }
+  ],
+  "coverage_and_method": {
+    "primary_source_rule": "Vendor/company pages establish what the vendor says it offers, its displayed processes, proof and prices. These claims are not independent verification of outcomes.",
+    "linkedin_access": "Public rendered pages only. All 17 company locators from the recovered service set were attempted in batches of four. No authentication, consent-button interaction, challenge bypass or backend switch. Limited preview text is not a representative post sample.",
+    "missing_fields": "Prices are explicitly marked not stated where the prior source packet did not establish a current official price. LinkedIn locators inherited from the baseline are labeled historical/unrevalidated.",
+    "market_claim": "This is an enumerated known cohort plus three tool additions, not “all competitors” or a complete market scan.",
+    "interaction_to_sales": "Do not infer interactions, impressions, or views caused pipeline or sales; provider posts include self-reported outcome claims."
+  },
+  "sources": [
+    {
+      "url": "https://windmillgrowth.com/",
+      "supports": "Windmill current service message and attributed case metrics; vendor claims."
+    },
+    {
+      "url": "https://www.windmillgrowth.com/about",
+      "supports": "Windmill process/service description."
+    },
+    {
+      "url": "https://www.stopthescroll.io/services/linkedin-ghostwriter",
+      "supports": "Stop The Scroll public process, monthly terms and listed starting price."
+    },
+    {
+      "url": "https://www.waalaxy.com/pricing",
+      "supports": "Waalaxy plan pricing and feature descriptions."
+    },
+    {
+      "url": "https://authoredup.com/pricing",
+      "supports": "AuthoredUp current listed prices and features."
+    },
+    {
+      "url": "https://authoredup.com/product/editor",
+      "supports": "AuthoredUp product capability description."
+    },
+    {
+      "url": "https://app.taplio.com/dashboard?openPricing=true",
+      "supports": "Taplio public logged-out pricing summary."
+    },
+    {
+      "url": "https://belkins.io/linkedin-lead-generation-services",
+      "supports": "Belkins LinkedIn services, starting price and provider-stated case outcomes."
+    },
+    {
+      "url": "https://www.cleverly.co/blog/linkedin-lead-generation-cost",
+      "supports": "Cleverly.co self-published price and service claims; not independently verified."
+    },
+    {
+      "url": "https://www.linkedin.com/company/cleverly",
+      "supports": "Cleverly identity mismatch check."
+    }
+  ],
+  "baseline_source": "runs/20261110-linkedin-writing-methodology-v1/public/docs/linkedin-writing/competitor-writing-audit.json; verified in prior run 2026-11-10. Covers all 15 workbook identities and 2 launch-plan additions, but selected official page text only."
+}

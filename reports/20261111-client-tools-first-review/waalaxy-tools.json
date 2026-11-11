@@ -1,0 +1,128 @@
+{
+  "reviewed_on": "2026-11-11",
+  "timezone": "Europe/Sofia",
+  "method": "Official Waalaxy page read only; no forms submitted, no accounts, no personal data, no media downloads. Embedded runtime not tested.",
+  "requested_scope": 10,
+  "tools": [
+    {
+      "name": "Employee Search Builder",
+      "url": "https://www.waalaxy.com/free-tools/employee-search-builder",
+      "source_status": "official page read",
+      "proof_level": "page_read_only",
+      "inputs_claimed": "Company implied by page description; exact embedded form fields not visible in page text.",
+      "outputs_claimed": "LinkedIn employee search URL.",
+      "gating_limits": "Embedded app linked; account and limits not established.",
+      "outspoken_implementation": "Deterministic criteria-to-URL builder; no scraping or completeness claim."
+    },
+    {
+      "name": "Enrich LinkedIn URL",
+      "url": "https://www.waalaxy.com/free-tools/enrich-linkedin-url",
+      "source_status": "official page read",
+      "proof_level": "page_read_only",
+      "inputs_claimed": "CSV of LinkedIn profile URLs; up to 20 profiles/file.",
+      "outputs_claimed": "Updated/enriched CSV; exact fields unspecified in inspected text.",
+      "gating_limits": "Page calls it free; app.waalaxy.com link, account gate unclear.",
+      "outspoken_implementation": "Only authorized data sources; preserve provenance and unknown fields; no scraping."
+    },
+    {
+      "name": "LinkedIn Video Downloader",
+      "url": "https://www.waalaxy.com/free-tools/linkedin-video-downloader",
+      "source_status": "official page read",
+      "proof_level": "page_read_only",
+      "inputs_claimed": "Public LinkedIn post URL.",
+      "outputs_claimed": "MP4 download.",
+      "gating_limits": "No login/account claimed; public posts only; restricted/removed may fail.",
+      "outspoken_implementation": "Exclude third-party downloading; accept client-owned/cleared files directly."
+    },
+    {
+      "name": "LinkedIn URL Finder",
+      "url": "https://www.waalaxy.com/free-tools/linkedin-url-finder",
+      "source_status": "official page read",
+      "proof_level": "page_read_only",
+      "inputs_claimed": "CSV first name, last name, company; company required in detailed instructions. Hero also mentions email (conflict).",
+      "outputs_claimed": "Profile URLs and downloadable enriched CSV.",
+      "gating_limits": "Free/no account claimed; identity ambiguity possible.",
+      "outspoken_implementation": "Consent and lawful basis; show source/confidence and require human identity confirmation."
+    },
+    {
+      "name": "LinkedIn Headline Generator",
+      "url": "https://www.waalaxy.com/blog/free-tools/linkedin-headline-generator",
+      "source_status": "official Waalaxy tool article read",
+      "proof_level": "page_read_only",
+      "inputs_claimed": "Job title/value, audience, optional keywords, selected tone.",
+      "outputs_claimed": "Five headlines, distinct formulas.",
+      "gating_limits": "Free, no signup, 5 generations/day claimed.",
+      "outspoken_implementation": "LLM drafting from substantiated client facts; flag claims; founder review; no auto-post."
+    },
+    {
+      "name": "LinkedIn Summary Generator",
+      "url": "https://www.waalaxy.com/blog/free-tools/linkedin-summary-generator",
+      "source_status": "official Waalaxy tool article read",
+      "proof_level": "page_read_only",
+      "inputs_claimed": "Job title, up to 3 achievements/skills, optional experience years, tone.",
+      "outputs_claimed": "Copy-ready About section.",
+      "gating_limits": "Free, no signup, 5 generations/day claimed.",
+      "outspoken_implementation": "LLM organizes only supplied facts; source-linked claims and fact-check table."
+    },
+    {
+      "name": "LinkedIn Boolean Search Generator",
+      "url": "https://www.waalaxy.com/free-tools/linkedin-boolean-search-generator",
+      "source_status": "official tool page and related blog page read",
+      "proof_level": "page_read_only",
+      "inputs_claimed": "Comma-separated titles (OR), required keywords (AND), excluded keywords (NOT).",
+      "outputs_claimed": "Copyable LinkedIn Boolean string.",
+      "gating_limits": "Free/no signup/unlimited claimed; long strings may be truncated by LinkedIn.",
+      "outspoken_implementation": "Deterministic string builder; expose logic; do not imply result quality/guarantee.",
+      "secondary_url": "https://www.waalaxy.com/blog/free-tools/linkedin-boolean-search-generator"
+    },
+    {
+      "name": "LinkedIn Search Generator",
+      "url": "https://www.waalaxy.com/free-tools/linkedin-search-generator",
+      "source_status": "official page read",
+      "proof_level": "page_read_only",
+      "inputs_claimed": "Job title, location, industry, connection level per tool page. Related guide also shows optional company, keywords, country, degree, and regular LinkedIn/Sales Navigator choice; exact embedded fields not fully verified.",
+      "outputs_claimed": "Shareable LinkedIn search URL with filters applied.",
+      "gating_limits": "Page calls it free; signup requirements not visible in inspected tool-page text. No URL generated.",
+      "outspoken_implementation": "Deterministic URL builder; expose filters and mode; no completeness or fit claims."
+    },
+    {
+      "name": "Website Roaster",
+      "url": "https://www.waalaxy.com/free-tools/website-roaster",
+      "secondary_url": "https://www.waalaxy.com/blog/free-tools/website-roaster",
+      "source_status": "official tool page + related Waalaxy blog page read; claims separated by source",
+      "proof_level": "page_read_only",
+      "inputs_claimed": "URL of a public homepage, landing, product, or pricing page; says it analyzes visible headline, subheadline, buttons and copy.",
+      "outputs_claimed": "Tool page: broad UX/design/copy audit claim, iframe link only. Blog only: 7-pillar /100 score, 5 recommendations, 4-week action plan, 3 competitors, LinkedIn sequence.",
+      "gating_limits": "Blog claims free/no signup/about 1 minute; not stated in indexed tool-page text. No runtime report.",
+      "outspoken_implementation": "Prioritize for landing page task 59 as critique only; verify against current page/requirements. Treat competitor/conversion claims as hypotheses. No fabricated proof or automated LinkedIn activity."
+    },
+    {
+      "name": "ICP Generator",
+      "url": "https://www.waalaxy.com/free-tools/ideal-customer-profile-generator",
+      "secondary_url": "https://www.waalaxy.com/blog/free-tools/ideal-customer-profile-generator",
+      "source_status": "official tool page and Waalaxy blog page read",
+      "proof_level": "page_read_only",
+      "inputs_claimed": "Tool page: company, offer/value proposition, uniqueness. Blog: product/service, problem solved, target industry.",
+      "outputs_claimed": "Tool page: structured ICP. Blog: 3 ranked ICPs with company size, revenue, decision-maker, pain point, buying trigger, fit rationale.",
+      "gating_limits": "Blog claims free, no signup, 5 analyses/day. Not runtime verified.",
+      "outspoken_implementation": "Core benchmark for qualification task 15; source evidence ledger and human approval; output hypotheses, never verified demand/buying intent without evidence."
+    }
+  ],
+  "additional_catalog_discoveries": [],
+  "gaps": [
+    "No interactive tool interface or generated report was tested; runtime-tested count is 0/10.",
+    "Embedded iframe controls were not fully visible in indexed page text; field detail is limited to tool-page instructions/examples and related first-party articles.",
+    "Website Roaster's detailed score/report claims are documented only in its related blog article; official tool page exposes broad copy and iframe only.",
+    "ICP Generator's 3-ranked-profile fields and per-day cap are detailed in its related blog; no runtime verification.",
+    "Signup/privacy/retention practices and current app-subdomain terms were not independently verified.",
+    "URL Finder hero copy mentions email while detailed CSV instructions require first name, last name and company; discrepancy unresolved.",
+    "Closure covers the English /free-tools index and crosslinks on reviewed pages only, not all Waalaxy products, locales, or unrelated blog articles."
+  ],
+  "catalog_scope_note": "Bounded closure: 10 distinct named tools found by reading English /free-tools index and reviewed tool pages, following their internal /free-tools/ crosslinks, deduplicating repeated cards/routes. No other unique internal /free-tools/ target found in that bounded set; not global completeness across products/locales/blogs. Search Generator and Boolean Search Generator are distinct output types.",
+  "tool_review_status": {
+    "page_reviewed": 10,
+    "runtime_tested": 0,
+    "note": "Official pages/articles were read; interactive iframe/app forms and generated results were not exercised. This does not assert all runtimes are unavailable.",
+    "runtime_not_tested": 10
+  }
+}

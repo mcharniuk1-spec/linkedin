@@ -1,3 +1,7 @@
+## Client tools: first review — 11 November2026
+
+[First review and original tool specifications](reports/20261111-client-tools-first-review/README.md) · [Writing/design/skill register](reports/20261111-client-tools-first-review/WRITING-DESIGN-REGISTER.md) · [Owned-profile and writing rehearsal](reports/20261111-client-tools-first-review/OWNED-PILOT.md). Ten Waalaxy tool functions and the recovered competitor set are reviewed as references. Original OutSpoken modules use approved client facts, source-aware writing and current design; the new client app is not yet built. Existing statuses, source/access limits and no-send boundaries remain.
+
 ## Tested writing skills and revised publications — 10 November 2026
 
 [Current ten-publication gallery](publications/20261110-skills-v2/assets/index.html) · [Skills, behavioral tests and evidence review](reports/20261110-skills-publications/README.md). Two owned writing skills are created, scanned and explicitly exercised. The revised R13-style package contains 60 PNGs, ten five-page PDFs, 60 editable SVGs and ten captions for founder review. Reactions remain distinct from reach and sales. Prior releases are preserved; no social publication or collector restart occurred.

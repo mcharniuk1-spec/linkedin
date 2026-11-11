@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "source": "datasets/current/dataset.json",
+  "source_git_blob": "9238d20f91d16f5888625f78b9f08ebe4538be6b",
+  "source_sha256": "f8fff0ab3ee47f6d96ab6c4968c4864b78073bc25f75e8177a4f021b80a460b1",
+  "actual_complete_counts": {
+    "posts": 279,
+    "snapshots": 477,
+    "media": 207,
+    "accounts": 61
+  },
+  "recomputed_metrics": {
+    "reactions": {
+      "observed": 276,
+      "missing": 3,
+      "median": 107.5
+    },
+    "comments": {
+      "observed": 256,
+      "missing": 23,
+      "median": 36.5
+    }
+  },
+  "source_observation_date": "2026-10-22",
+  "use_in_tools": "source-linked construction hypotheses and metadata only; not client voice, copied creator prose, current demand or viral prediction",
+  "fresh_LinkedIn_capture": false
+}
