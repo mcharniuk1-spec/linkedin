@@ -1,0 +1,134 @@
+{
+  "version": "1.0",
+  "reviewed": "2026-11-12",
+  "coverage": "4 stills, 1 static video poster, and Gong sampled-frame sheets directly inspected; no media redistributed",
+  "cards": [
+    {
+      "id": "urn:li:activity:7259580222310645760",
+      "url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+      "author": "Anthony Pierri",
+      "source_post_sha256": "b34bea346b2bcb36d791e41a9b1575fae5d1b01563dae04beecb9b9129d40ea1",
+      "listed_media_sha256": "03133a6753e9a62d3473483be1a62ea575f7f0c7f7048a6879bec63e37dcfd9b",
+      "inspected_source_hashes": [
+        "03133a6753e9a62d3473483be1a62ea575f7f0c7f7048a6879bec63e37dcfd9b"
+      ],
+      "actual_modality": "Static image viewed directly; original public post text joined. Earlier review also records contact-sheet visual inspection; no full-resolution OCR.",
+      "attention": "Four-question title, then grouped prompts.",
+      "structure": "A radial grouping separates related variables; it is not a timeline.",
+      "numbers": "Structural count, not a measured outcome.",
+      "objects": "No photo: the diagram carries the lesson.",
+      "caption_visual_relation": "Caption explains the framework; visual gives orientation.",
+      "outspoken_application": "Build an original buyer-question worksheet, with readable definitions.",
+      "human_review": "Accuracy, caption match, phone-scale legibility, source rights and relevance.",
+      "limit": "No design-effect or continuous-video/audio conclusion.",
+      "media_rights_state": "reference_only_not_cleared_for_redistribution",
+      "published_media_bytes": false
+    },
+    {
+      "id": "urn:li:activity:7459960231138234368",
+      "url": "https://www.linkedin.com/posts/daniel-murray-marketing_the-prompt-is-the-problem-not-the-tool-activity-7459960231138234368-gwuX",
+      "author": "Daniel Murray",
+      "source_post_sha256": "3158b357ce22cfb5bfa45588e22fdf0986aa6bd0291737960656fb27fe807e7b",
+      "listed_media_sha256": "aea95496f4809a89c4f14eb09aef9450bf3156f74f010eecc314e7b539810723",
+      "inspected_source_hashes": [
+        "aea95496f4809a89c4f14eb09aef9450bf3156f74f010eecc314e7b539810723"
+      ],
+      "actual_modality": "Static image viewed directly; original public post text and prior visual-review entry joined. The earlier review’s named contact sheet was not available at its listed relative path.",
+      "attention": "Short conversational setup and a reaction image.",
+      "structure": "A visual punchline creates recognition; the caption supplies actions.",
+      "numbers": "No measured numeric claim.",
+      "objects": "Third-party reaction media; reuse not cleared.",
+      "caption_visual_relation": "The joke names the pain; text gives input-quality steps.",
+      "outspoken_application": "Use an original short example and practical brief; do not copy the character.",
+      "human_review": "Accuracy, caption match, phone-scale legibility, source rights and relevance.",
+      "limit": "No design-effect or continuous-video/audio conclusion.",
+      "media_rights_state": "reference_only_not_cleared_for_redistribution",
+      "published_media_bytes": false
+    },
+    {
+      "id": "urn:li:activity:7491381810644279296",
+      "url": "https://www.linkedin.com/posts/richardvanderblom_how-to-make-3m-on-linkedin-step-by-step-activity-7491381810644279296-7kFT",
+      "author": "Richard van der Blom",
+      "source_post_sha256": "2881a4ffb3acf65f0258f5f5e1b22ef09ce7743ff8a5d1e62338bcdf10853447",
+      "listed_media_sha256": "319ce1b7719622a12ebe6c3bf0031a5e3cd2fd805dee191ceb3a7cb88f1bdc7b",
+      "inspected_source_hashes": [
+        "319ce1b7719622a12ebe6c3bf0031a5e3cd2fd805dee191ceb3a7cb88f1bdc7b"
+      ],
+      "actual_modality": "Static image viewed directly; original public post text and a prior direct-still visual review joined.",
+      "attention": "Large money figure and conspicuous success symbols.",
+      "structure": "Success-proof imagery is deliberately used as parody.",
+      "numbers": "Displayed revenue is satirical, not verified performance.",
+      "objects": "People and props reinforce the exaggerated claim.",
+      "caption_visual_relation": "Caption reveals and interprets the satire.",
+      "outspoken_application": "Never separate an impressive figure from its actual evidence/intent.",
+      "human_review": "Accuracy, caption match, phone-scale legibility, source rights and relevance.",
+      "limit": "No design-effect or continuous-video/audio conclusion.",
+      "media_rights_state": "reference_only_not_cleared_for_redistribution",
+      "published_media_bytes": false
+    },
+    {
+      "id": "urn:li:activity:7515019416645021696",
+      "url": "https://www.linkedin.com/posts/silkyagarwal_b2bsaas-differentiation-positioning-activity-7515019416645021696-XWP7",
+      "author": "Silky Agarwal",
+      "source_post_sha256": "1c1006514aed634bd73fb8e2658803e42b7ede13d04a5060a7cd6f17dc59f4cc",
+      "listed_media_sha256": "34f30d872e10c3c812ee12f82ccf4bfc9903ae06fb49439c746be6027c551261",
+      "inspected_source_hashes": [
+        "b638c71b7e2e0adbd639adecfcf7ad32db50ffdd3c9f5bf508eeea3dbcd3e70e"
+      ],
+      "actual_modality": "Video asset not played. The explicitly listed static poster was viewed directly. Existing review record reports 96 sampled frames and original captions, but its evidence-sheet files were unavailable at listed paths; that prior review is clearly separate from direct poster observation.",
+      "attention": "Static presenter/whiteboard poster.",
+      "structure": "Only poster inspected now; prior sampled-frame interpretation remains separate.",
+      "numbers": "Any equation is conceptual, not an empirical performance measure.",
+      "objects": "Whiteboard supports an explanation; video was not played.",
+      "caption_visual_relation": "Caption supplies the question and proposition.",
+      "outspoken_application": "Use a simple original schema plus an actual client example.",
+      "human_review": "Accuracy, caption match, phone-scale legibility, source rights and relevance.",
+      "limit": "No design-effect or continuous-video/audio conclusion.",
+      "media_rights_state": "reference_only_not_cleared_for_redistribution",
+      "published_media_bytes": false
+    },
+    {
+      "id": "urn:li:activity:7416823425274388480",
+      "url": "https://www.linkedin.com/posts/justinwelsh_i-overthought-my-first-100-posts-edited-activity-7416823425274388480-y_Ux",
+      "author": "Justin Welsh",
+      "source_post_sha256": "ad3738a762d53ad93e5fb2dec12584eb491091631d7db4359a01700177d91ef6",
+      "listed_media_sha256": "8c78701f61cb131069f967e047cdccc6b629c9a542fc33a225101ab1f899c805",
+      "inspected_source_hashes": [
+        "8c78701f61cb131069f967e047cdccc6b629c9a542fc33a225101ab1f899c805"
+      ],
+      "actual_modality": "Static image viewed directly; original public post text and prior labeled contact-sheet review joined. Prior review was not full-resolution OCR.",
+      "attention": "Photographed quotation page with visible annotation.",
+      "structure": "Large serif quote, highlights and handwritten marks create an editorial hierarchy.",
+      "numbers": "Growth claims need their author and conditions.",
+      "objects": "The marked-up page adds a reflective mood, not outcome evidence.",
+      "caption_visual_relation": "The picture supplies atmosphere; text carries the personal claim.",
+      "outspoken_application": "Use an original owned excerpt with one purposeful annotation.",
+      "human_review": "Accuracy, caption match, phone-scale legibility, source rights and relevance.",
+      "limit": "No design-effect or continuous-video/audio conclusion.",
+      "media_rights_state": "reference_only_not_cleared_for_redistribution",
+      "published_media_bytes": false
+    },
+    {
+      "id": "urn:li:activity:7397002727039488002",
+      "url": "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+      "author": "Gong",
+      "source_post_sha256": "3893a5baac9bbc704b5bde42e074aa6dc15abb15c6d00d5f73b51ee1ec1483f6",
+      "listed_media_sha256": "84134a5d3de769914b8194f13fe31955a239b0457cdcf04765e0ffa882423f62",
+      "inspected_source_hashes": [
+        "ccd7e41401e59c7ddae2ca7e547b63913cfc02489bb1fd2f80d324af0ea6444b",
+        "1df52875b37f195d0c57445778e3db74d577b32756b39c3854dd154def623651"
+      ],
+      "actual_modality": "Video represented by explicitly listed sampled contact sheets; sheets viewed directly. Prior review samples at 10-second intervals and reports 18 displayed samples. No continuous watching or audio review was performed.",
+      "attention": "Sampled product-demo frames.",
+      "structure": "Interface sequence shows a task; no continuous playback or audio review.",
+      "numbers": "A visible output is not a reliability benchmark.",
+      "objects": "Real interface frames demonstrate the interaction.",
+      "caption_visual_relation": "Caption names capability and possible uses.",
+      "outspoken_application": "Show a real input, output and check; label static examples honestly.",
+      "human_review": "Accuracy, caption match, phone-scale legibility, source rights and relevance.",
+      "limit": "No design-effect or continuous-video/audio conclusion.",
+      "media_rights_state": "reference_only_not_cleared_for_redistribution",
+      "published_media_bytes": false
+    }
+  ]
+}

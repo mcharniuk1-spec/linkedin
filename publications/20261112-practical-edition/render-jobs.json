@@ -1,0 +1,104 @@
+[
+  {
+    "id": "01-the-flow",
+    "page": 1,
+    "svg": "assets/01-the-flow-01.svg",
+    "png": "assets/01-the-flow-01.png"
+  },
+  {
+    "id": "01-the-flow",
+    "page": 2,
+    "svg": "assets/01-the-flow-02.svg",
+    "png": "assets/01-the-flow-02.png"
+  },
+  {
+    "id": "01-the-flow",
+    "page": 3,
+    "svg": "assets/01-the-flow-03.svg",
+    "png": "assets/01-the-flow-03.png"
+  },
+  {
+    "id": "01-the-flow",
+    "page": 4,
+    "svg": "assets/01-the-flow-04.svg",
+    "png": "assets/01-the-flow-04.png"
+  },
+  {
+    "id": "02-the-strategy",
+    "page": 1,
+    "svg": "assets/02-the-strategy-01.svg",
+    "png": "assets/02-the-strategy-01.png"
+  },
+  {
+    "id": "03-the-interview",
+    "page": 1,
+    "svg": "assets/03-the-interview-01.svg",
+    "png": "assets/03-the-interview-01.png"
+  },
+  {
+    "id": "04-the-profile",
+    "page": 1,
+    "svg": "assets/04-the-profile-01.svg",
+    "png": "assets/04-the-profile-01.png"
+  },
+  {
+    "id": "05-the-tools",
+    "page": 1,
+    "svg": "assets/05-the-tools-01.svg",
+    "png": "assets/05-the-tools-01.png"
+  },
+  {
+    "id": "06-the-first-message",
+    "page": 1,
+    "svg": "assets/06-the-first-message-01.svg",
+    "png": "assets/06-the-first-message-01.png"
+  },
+  {
+    "id": "07-the-reply",
+    "page": 1,
+    "svg": "assets/07-the-reply-01.svg",
+    "png": "assets/07-the-reply-01.png"
+  },
+  {
+    "id": "08-the-case",
+    "page": 1,
+    "svg": "assets/08-the-case-01.svg",
+    "png": "assets/08-the-case-01.png"
+  },
+  {
+    "id": "09-the-buying-group",
+    "page": 1,
+    "svg": "assets/09-the-buying-group-01.svg",
+    "png": "assets/09-the-buying-group-01.png"
+  },
+  {
+    "id": "10-the-review",
+    "page": 1,
+    "svg": "assets/10-the-review-01.svg",
+    "png": "assets/10-the-review-01.png"
+  },
+  {
+    "id": "11-the-designer",
+    "page": 1,
+    "svg": "assets/11-the-designer-01.svg",
+    "png": "assets/11-the-designer-01.png"
+  },
+  {
+    "id": "12-the-developer",
+    "page": 1,
+    "svg": "assets/12-the-developer-01.svg",
+    "png": "assets/12-the-developer-01.png"
+  },
+  {
+    "id": "13-the-manager",
+    "page": 1,
+    "svg": "assets/13-the-manager-01.svg",
+    "png": "assets/13-the-manager-01.png"
+  },
+  {
+    "id": "14-the-offer",
+    "page": 1,
+    "svg": "assets/14-the-offer-01.svg",
+    "png": "assets/14-the-offer-01.png"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "date": "2026-11-12",
+  "writing_cards": 12,
+  "visual_cards": 6,
+  "publication_applications": 14,
+  "source_identity_hash_join": "18/18 independently checked against original V6 corpus",
+  "per_card_media_reuse_state": "reference only;0source media files redistributed",
+  "relative_link_targets_checked": 156,
+  "missing_targets": [],
+  "limits": "Remote baseline plus new overlay targets checked. No claim that external links remain available forever, or that source constructions caused engagement. Existing Graphify graph not updated."
+}

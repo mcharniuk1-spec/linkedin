@@ -1,0 +1,494 @@
+{
+  "status": "source_snapshot_verified",
+  "publication_authority": "owner_requested_current_source_git_sync",
+  "owner_artistic_acceptance": false,
+  "files": [
+    {
+      "path": "assets/01-the-flow-01-alt.txt",
+      "sha256": "58aa54828ce0af983642fcec75fa9d6eba94a4702fb06051cf7c60338f06ac73",
+      "bytes": 447
+    },
+    {
+      "path": "assets/01-the-flow-01-transcript.txt",
+      "sha256": "71451b182343b4c8da8db64ebb75edfc647eda755082e5c2df05f36286269f2e",
+      "bytes": 403
+    },
+    {
+      "path": "assets/01-the-flow-01.png",
+      "sha256": "b6f6288e747948dbb8b1fc107eb9895bb6738b2a049cad21d6537c40120423f7",
+      "bytes": 164561
+    },
+    {
+      "path": "assets/01-the-flow-01.svg",
+      "sha256": "cbe854119576c275caac54219f4a872641c794422b058b669b74718a3ec1a88e",
+      "bytes": 2976
+    },
+    {
+      "path": "assets/01-the-flow-02-alt.txt",
+      "sha256": "637dc0a345991d08b12c692c22cdbfc0fe78905b0bac306b1442a056b8f5d4c5",
+      "bytes": 323
+    },
+    {
+      "path": "assets/01-the-flow-02-transcript.txt",
+      "sha256": "8bec9369364722b1373b7f386f30c04a7b74f718d286919a4f1aee81aed5aadf",
+      "bytes": 289
+    },
+    {
+      "path": "assets/01-the-flow-02.png",
+      "sha256": "db3fb4f99b011a88faa356e60026d1e1d790aa9fb1663b40026646941bde8260",
+      "bytes": 125323
+    },
+    {
+      "path": "assets/01-the-flow-02.svg",
+      "sha256": "fb22f492fdf3bd93ae27c5b9e7597fcb81070b7f887b1874d6f243f84857183c",
+      "bytes": 1971
+    },
+    {
+      "path": "assets/01-the-flow-03-alt.txt",
+      "sha256": "1166b99ae564ecbe7ed2af3ef9189b1dd6d99238777cca3c658c37798b6abda3",
+      "bytes": 364
+    },
+    {
+      "path": "assets/01-the-flow-03-transcript.txt",
+      "sha256": "feb38fd8ae962bfc6e8f8ddbc5e6e1cdd184414544f76ba48af7091fcfa3764c",
+      "bytes": 319
+    },
+    {
+      "path": "assets/01-the-flow-03.png",
+      "sha256": "f1e30390224183300dff2a19f60decec5756caac22fe3c11f2a5289969df0a67",
+      "bytes": 133796
+    },
+    {
+      "path": "assets/01-the-flow-03.svg",
+      "sha256": "6d47dd1f10a6dade5689cefb898b74dee5b0b924c33617b4699a684c23e5f318",
+      "bytes": 1806
+    },
+    {
+      "path": "assets/01-the-flow-04-alt.txt",
+      "sha256": "95abde8c12f65bd3924e8ac4f4a1a323b46955d095874169dab5893d5a6a73d2",
+      "bytes": 356
+    },
+    {
+      "path": "assets/01-the-flow-04-transcript.txt",
+      "sha256": "ae0c52ef33299e1adc5f538b7da3ec22c2225f3d4fc44d2684d1971903207e5a",
+      "bytes": 326
+    },
+    {
+      "path": "assets/01-the-flow-04.png",
+      "sha256": "c9f806fad03799165cb0d850b1992e659f38ace99c09c9f3b4f2c57ae63058d4",
+      "bytes": 139692
+    },
+    {
+      "path": "assets/01-the-flow-04.svg",
+      "sha256": "44197e7bfa8a4222484c43efbe7308387882a43030df282273fd9e8884d227d2",
+      "bytes": 1971
+    },
+    {
+      "path": "assets/01-the-flow.pdf",
+      "sha256": "bf6e7848fe10c018040ccede81d25462baa907f84fda5c884082629ecc818c55",
+      "bytes": 420494
+    },
+    {
+      "path": "assets/02-the-strategy-01-alt.txt",
+      "sha256": "28c2479d8634c9f16fdbb37d4ca138c5d6e2d90213dab97861de010885f7764d",
+      "bytes": 397
+    },
+    {
+      "path": "assets/02-the-strategy-01-transcript.txt",
+      "sha256": "8d334500e5136fa0dea885a062b5bbe0e194088b633bf8c8db3915706180129b",
+      "bytes": 353
+    },
+    {
+      "path": "assets/02-the-strategy-01.png",
+      "sha256": "d38fcc7f46140a11fb4ec918e22510641d08db207d580fbe3ef3f13904ee0623",
+      "bytes": 136647
+    },
+    {
+      "path": "assets/02-the-strategy-01.svg",
+      "sha256": "eb7f2c867c3fcca413b38eef792390ce66741e59b35b381723bd3860d91354af",
+      "bytes": 1838
+    },
+    {
+      "path": "assets/03-the-interview-01-alt.txt",
+      "sha256": "40c5a90c3a523b87a465b9d3df16266d181d96394d49fe9732ec701b672d2126",
+      "bytes": 346
+    },
+    {
+      "path": "assets/03-the-interview-01-transcript.txt",
+      "sha256": "989fd3eb5cf5a572e8fe720b57c6226774fc62bf647709149db4fbbb37299e39",
+      "bytes": 306
+    },
+    {
+      "path": "assets/03-the-interview-01.png",
+      "sha256": "b6ab4189dba8aafa65f234bd0a90f092e6e07fef353e26de7cc020bb704acbe6",
+      "bytes": 125885
+    },
+    {
+      "path": "assets/03-the-interview-01.svg",
+      "sha256": "99fd491d2a7a645777958afe98e48cc9a42f4facd51c2503e62e0eef418ca7ec",
+      "bytes": 1890
+    },
+    {
+      "path": "assets/04-the-profile-01-alt.txt",
+      "sha256": "3a422c6062033c40451a62730919f1fb63ef6b1e25b8659a943acefee7422e66",
+      "bytes": 429
+    },
+    {
+      "path": "assets/04-the-profile-01-transcript.txt",
+      "sha256": "27a222858b7bad94cd83a42ba976685f14720afe68b2d154fe131d969690d820",
+      "bytes": 381
+    },
+    {
+      "path": "assets/04-the-profile-01.png",
+      "sha256": "de721ab3714cb0f1b56672a4ed1318092a948ebe6c75b424f87768392d5e12a8",
+      "bytes": 152504
+    },
+    {
+      "path": "assets/04-the-profile-01.svg",
+      "sha256": "d76a134d2b661b2f0b252a427669f4c3a02833d5e64957d359b42ff65a9e94d7",
+      "bytes": 2261
+    },
+    {
+      "path": "assets/05-the-tools-01-alt.txt",
+      "sha256": "fc5cd5ddd089531356910f607dc37d2b131fabe5255ec6b0af0bc383ae67ff93",
+      "bytes": 349
+    },
+    {
+      "path": "assets/05-the-tools-01-transcript.txt",
+      "sha256": "1e5a99744a98157702fea9656e165a0788c951552a9ca750eb014c37f4fa3ca7",
+      "bytes": 310
+    },
+    {
+      "path": "assets/05-the-tools-01.png",
+      "sha256": "147c651dc019c1a0175291cba65f3ab91f899da743209f014362b63dbbcb7687",
+      "bytes": 141338
+    },
+    {
+      "path": "assets/05-the-tools-01.svg",
+      "sha256": "95345ac3825c53fda49317f99bd75b1f2582d2abe02180cc95449aee7a086e74",
+      "bytes": 2705
+    },
+    {
+      "path": "assets/06-the-first-message-01-alt.txt",
+      "sha256": "1201d872b3ca0579295decd5727bcecfe5d623fd56231e5adab63528de311c4f",
+      "bytes": 374
+    },
+    {
+      "path": "assets/06-the-first-message-01-transcript.txt",
+      "sha256": "e502c450c485162bfbb8b1b7dabfeb614b834fe33aa35b6b3438fd963202aca7",
+      "bytes": 332
+    },
+    {
+      "path": "assets/06-the-first-message-01.png",
+      "sha256": "b6f3f1190ed2ecfb5a237e30dd29e642c0153558e8e724b3fff206a5f04204eb",
+      "bytes": 136519
+    },
+    {
+      "path": "assets/06-the-first-message-01.svg",
+      "sha256": "e527c517a6ac049c443913a5e26ef5b60cd3ce6bb9ae26d12abdc1c67e8481a8",
+      "bytes": 2153
+    },
+    {
+      "path": "assets/07-the-reply-01-alt.txt",
+      "sha256": "3d7fe80684177e90083b7461635d47e0d8b75b052cf47f258c92228160677162",
+      "bytes": 411
+    },
+    {
+      "path": "assets/07-the-reply-01-transcript.txt",
+      "sha256": "4d654c3c5c8de6fe3e078269cb40c0469f8018065cf48c8a1003dc050b50c9b9",
+      "bytes": 369
+    },
+    {
+      "path": "assets/07-the-reply-01.png",
+      "sha256": "473ba3c541822dd93990a6b04f465d4df4a75d7b477bee50247dca306523f74a",
+      "bytes": 146491
+    },
+    {
+      "path": "assets/07-the-reply-01.svg",
+      "sha256": "4ebbc389c50f2d61b707c0be078f4b90dbdcb565bd800ad3aaf3f973b1aab09f",
+      "bytes": 2045
+    },
+    {
+      "path": "assets/08-the-case-01-alt.txt",
+      "sha256": "e359d956581f0c0bf136b561623822f9eca4fd8a09f36b33db7479c99adf9a45",
+      "bytes": 320
+    },
+    {
+      "path": "assets/08-the-case-01-transcript.txt",
+      "sha256": "ce7b39779159aed8f5def6556e90b62ed04c190cac4b7fa910c70eb0f7545658",
+      "bytes": 286
+    },
+    {
+      "path": "assets/08-the-case-01.png",
+      "sha256": "332ce052d601b35aad22634793c81d33ed5f13786814e7e0258a59ed6293cc3d",
+      "bytes": 128675
+    },
+    {
+      "path": "assets/08-the-case-01.svg",
+      "sha256": "77c49a043ea3bf91966798230c13ae92b2a86c2b88326d524cb50269df7bc7c1",
+      "bytes": 2036
+    },
+    {
+      "path": "assets/09-the-buying-group-01-alt.txt",
+      "sha256": "8c485d62f4c03059bf2192e0d43abaa007373975d97ce880b74f767f134296f0",
+      "bytes": 359
+    },
+    {
+      "path": "assets/09-the-buying-group-01-transcript.txt",
+      "sha256": "8d002e498c1b71d365f2439705e5c8d7a211950cad76c0e0a998ba1b53f0b8ed",
+      "bytes": 320
+    },
+    {
+      "path": "assets/09-the-buying-group-01.png",
+      "sha256": "385573a282e9de025a9f2dd14e817a4a55f554d083233dd7250109aca4de1cd0",
+      "bytes": 144189
+    },
+    {
+      "path": "assets/09-the-buying-group-01.svg",
+      "sha256": "69681d915b182bcd7af2b98a6a91d98a0537b95fd935f73156dba38db272b716",
+      "bytes": 2021
+    },
+    {
+      "path": "assets/10-the-review-01-alt.txt",
+      "sha256": "d8c5253de0a74f17ed2e6e5011dd24c1a1aadfb8bcc913ddbc0a5e7a6e605aac",
+      "bytes": 318
+    },
+    {
+      "path": "assets/10-the-review-01-transcript.txt",
+      "sha256": "4b93a3198e321589a903e5321e7f0607e99970bb8e625f256fd5feb513b94efb",
+      "bytes": 285
+    },
+    {
+      "path": "assets/10-the-review-01.png",
+      "sha256": "0945dc30e98fde33e85bef46c282650e5e7d8985c975136cd6db07fe40ba349c",
+      "bytes": 130142
+    },
+    {
+      "path": "assets/10-the-review-01.svg",
+      "sha256": "bf3a5210a03dd320bdf2b9b52c26e9754e48d98cc256d6902a05ea0a6e056e85",
+      "bytes": 1917
+    },
+    {
+      "path": "assets/11-the-designer-01-alt.txt",
+      "sha256": "ea1f2f27e91ce2e43ad04d2a39fd6295380a18dcdc2cfd8ebfff9879fe71c1c5",
+      "bytes": 325
+    },
+    {
+      "path": "assets/11-the-designer-01-transcript.txt",
+      "sha256": "5c253b10e562e9c13d3d93f7b7da53b61e53f25698c7e80425bcd18fdb7b266b",
+      "bytes": 294
+    },
+    {
+      "path": "assets/11-the-designer-01.png",
+      "sha256": "ccbdc8abeec2f6d270e0fdceaa389ff129568e64daf93639e18944aed4ee2afb",
+      "bytes": 127119
+    },
+    {
+      "path": "assets/11-the-designer-01.svg",
+      "sha256": "be4cc225d2bb8fa554ea20e323ba31e79f515a3da47fdcead4643248f34f7182",
+      "bytes": 2008
+    },
+    {
+      "path": "assets/12-the-developer-01-alt.txt",
+      "sha256": "1e696345cd4c3dc543e1f86fab5c8a8fb861a7e5c170cf273122a75527888eaa",
+      "bytes": 307
+    },
+    {
+      "path": "assets/12-the-developer-01-transcript.txt",
+      "sha256": "9f5e262340e9656c26080a9fd077b0a7b731a96a6a19212ea0c7a86097022377",
+      "bytes": 265
+    },
+    {
+      "path": "assets/12-the-developer-01.png",
+      "sha256": "bf7de12fa5a28a2195a04f9a0494ea3db6e47f14cc2031fda501267dae714bc6",
+      "bytes": 121079
+    },
+    {
+      "path": "assets/12-the-developer-01.svg",
+      "sha256": "159659c1153a7a6b96ab884ee36fc95fec6563d9965ecd203cd7068ee00ad5db",
+      "bytes": 1819
+    },
+    {
+      "path": "assets/13-the-manager-01-alt.txt",
+      "sha256": "09e8c702fc0b15308e40e9024f727e7125fd4d3e2d9e3e2740d4e9dc651d085f",
+      "bytes": 360
+    },
+    {
+      "path": "assets/13-the-manager-01-transcript.txt",
+      "sha256": "09ea2b3e49e9ae96b47ff0d07e5b18580501b3b45421feff4ad85b77e5ba4395",
+      "bytes": 323
+    },
+    {
+      "path": "assets/13-the-manager-01.png",
+      "sha256": "f8827013cd8431a90ee0c0cf374b82707bc37f2c88c513bdfa93e1c64933009f",
+      "bytes": 125472
+    },
+    {
+      "path": "assets/13-the-manager-01.svg",
+      "sha256": "d5e771fa16b9216e3a5614874a3908e182e26605359ced59a322f4f956b2b012",
+      "bytes": 2003
+    },
+    {
+      "path": "assets/14-the-offer-01-alt.txt",
+      "sha256": "4f17cab58890961e88993e7617ec2e1d20b780ec31a21b3e0f2f4a587265f8b1",
+      "bytes": 312
+    },
+    {
+      "path": "assets/14-the-offer-01-transcript.txt",
+      "sha256": "1b0b7f2e0cc6d4039309c75fbd4a02f5a43ef10ca74ef2d555f418d0e2f24bdc",
+      "bytes": 286
+    },
+    {
+      "path": "assets/14-the-offer-01.png",
+      "sha256": "ea8ff63a386ccd5eb0b0a1ceadde1694890ad5b4def783fe74ee6df6d1de3b37",
+      "bytes": 129444
+    },
+    {
+      "path": "assets/14-the-offer-01.svg",
+      "sha256": "a2be899f9a84854d6cf74d7c6e1424663684ae320bd102ea440d8804e565e0cc",
+      "bytes": 2007
+    },
+    {
+      "path": "assets/fonts/MONA-OFL.txt",
+      "sha256": "41e9911493de5899a20336baf13b6ea6483b5eea34e237f2ffed22c39bdc4a8d",
+      "bytes": 4564
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "sha256": "737d8d343b674c6894f373de71a044b6782c130f2aebf180933d63ddf7a3dc19",
+      "bytes": 4398
+    },
+    {
+      "path": "assets/fonts/YoungSerif-Regular.ttf",
+      "sha256": "42bb2602364b28569fdce5eeb6ab3d81cf8090ba81b211f1229ed69f33155523",
+      "bytes": 106608
+    },
+    {
+      "path": "assets/fonts/mona-sans-latin-wght-normal.woff2",
+      "sha256": "a59061e38c5e7e6a00aaa6b6645a220c7d9c530991167f058cc0f8575f5d5844",
+      "bytes": 39788
+    }
+  ],
+  "rights_ledger": [
+    {
+      "path": "assets/01-the-flow-01.png",
+      "sha256": "b6f6288e747948dbb8b1fc107eb9895bb6738b2a049cad21d6537c40120423f7",
+      "rights_state": "owned",
+      "basis": "Original OutSpoken native diagram/worksheet rendering; no source creator media"
+    },
+    {
+      "path": "assets/01-the-flow-02.png",
+      "sha256": "db3fb4f99b011a88faa356e60026d1e1d790aa9fb1663b40026646941bde8260",
+      "rights_state": "owned",
+      "basis": "Original OutSpoken native diagram/worksheet rendering; no source creator media"
+    },
+    {
+      "path": "assets/01-the-flow-03.png",
+      "sha256": "f1e30390224183300dff2a19f60decec5756caac22fe3c11f2a5289969df0a67",
+      "rights_state": "owned",
+      "basis": "Original OutSpoken native diagram/worksheet rendering; no source creator media"
+    },
+    {
+      "path": "assets/01-the-flow-04.png",
+      "sha256": "c9f806fad03799165cb0d850b1992e659f38ace99c09c9f3b4f2c57ae63058d4",
+      "rights_state": "owned",
+      "basis": "Original OutSpoken native diagram/worksheet rendering; no source creator media"
+    },
+    {
+      "path": "assets/01-the-flow.pdf",
+      "sha256": "bf6e7848fe10c018040ccede81d25462baa907f84fda5c884082629ecc818c55",
+      "rights_state": "owned",
+      "basis": "Original OutSpoken native diagram/worksheet rendering; no source creator media"
+    },
+    {
+      "path": "assets/02-the-strategy-01.png",
+      "sha256": "d38fcc7f46140a11fb4ec918e22510641d08db207d580fbe3ef3f13904ee0623",
+      "rights_state": "owned",
+      "basis": "Original OutSpoken native diagram/worksheet rendering; no source creator media"
+    },
+    {
+      "path": "assets/03-the-interview-01.png",
+      "sha256": "b6ab4189dba8aafa65f234bd0a90f092e6e07fef353e26de7cc020bb704acbe6",
+      "rights_state": "owned",
+      "basis": "Original OutSpoken native diagram/worksheet rendering; no source creator media"
+    },
+    {
+      "path": "assets/04-the-profile-01.png",
+      "sha256": "de721ab3714cb0f1b56672a4ed1318092a948ebe6c75b424f87768392d5e12a8",
+      "rights_state": "owned",
+      "basis": "Original OutSpoken native diagram/worksheet rendering; no source creator media"
+    },
+    {
+      "path": "assets/05-the-tools-01.png",
+      "sha256": "147c651dc019c1a0175291cba65f3ab91f899da743209f014362b63dbbcb7687",
+      "rights_state": "owned",
+      "basis": "Original OutSpoken native diagram/worksheet rendering; no source creator media"
+    },
+    {
+      "path": "assets/06-the-first-message-01.png",
+      "sha256": "b6f3f1190ed2ecfb5a237e30dd29e642c0153558e8e724b3fff206a5f04204eb",
+      "rights_state": "owned",
+      "basis": "Original OutSpoken native diagram/worksheet rendering; no source creator media"
+    },
+    {
+      "path": "assets/07-the-reply-01.png",
+      "sha256": "473ba3c541822dd93990a6b04f465d4df4a75d7b477bee50247dca306523f74a",
+      "rights_state": "owned",
+      "basis": "Original OutSpoken native diagram/worksheet rendering; no source creator media"
+    },
+    {
+      "path": "assets/08-the-case-01.png",
+      "sha256": "332ce052d601b35aad22634793c81d33ed5f13786814e7e0258a59ed6293cc3d",
+      "rights_state": "owned",
+      "basis": "Original OutSpoken native diagram/worksheet rendering; no source creator media"
+    },
+    {
+      "path": "assets/09-the-buying-group-01.png",
+      "sha256": "385573a282e9de025a9f2dd14e817a4a55f554d083233dd7250109aca4de1cd0",
+      "rights_state": "owned",
+      "basis": "Original OutSpoken native diagram/worksheet rendering; no source creator media"
+    },
+    {
+      "path": "assets/10-the-review-01.png",
+      "sha256": "0945dc30e98fde33e85bef46c282650e5e7d8985c975136cd6db07fe40ba349c",
+      "rights_state": "owned",
+      "basis": "Original OutSpoken native diagram/worksheet rendering; no source creator media"
+    },
+    {
+      "path": "assets/11-the-designer-01.png",
+      "sha256": "ccbdc8abeec2f6d270e0fdceaa389ff129568e64daf93639e18944aed4ee2afb",
+      "rights_state": "owned",
+      "basis": "Original OutSpoken native diagram/worksheet rendering; no source creator media"
+    },
+    {
+      "path": "assets/12-the-developer-01.png",
+      "sha256": "bf7de12fa5a28a2195a04f9a0494ea3db6e47f14cc2031fda501267dae714bc6",
+      "rights_state": "owned",
+      "basis": "Original OutSpoken native diagram/worksheet rendering; no source creator media"
+    },
+    {
+      "path": "assets/13-the-manager-01.png",
+      "sha256": "f8827013cd8431a90ee0c0cf374b82707bc37f2c88c513bdfa93e1c64933009f",
+      "rights_state": "owned",
+      "basis": "Original OutSpoken native diagram/worksheet rendering; no source creator media"
+    },
+    {
+      "path": "assets/14-the-offer-01.png",
+      "sha256": "ea8ff63a386ccd5eb0b0a1ceadde1694890ad5b4def783fe74ee6df6d1de3b37",
+      "rights_state": "owned",
+      "basis": "Original OutSpoken native diagram/worksheet rendering; no source creator media"
+    },
+    {
+      "path": "assets/fonts/YoungSerif-Regular.ttf",
+      "sha256": "42bb2602364b28569fdce5eeb6ab3d81cf8090ba81b211f1229ed69f33155523",
+      "rights_state": "licensed",
+      "basis": "Included OFL license"
+    },
+    {
+      "path": "assets/fonts/mona-sans-latin-wght-normal.woff2",
+      "sha256": "a59061e38c5e7e6a00aaa6b6645a220c7d9c530991167f058cc0f8575f5d5844",
+      "rights_state": "licensed",
+      "basis": "Included OFL license"
+    }
+  ]
+}

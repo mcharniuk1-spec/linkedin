@@ -1,0 +1,89 @@
+{
+  "retrieved": "2026-11-12",
+  "sources": [
+    {
+      "id": "site",
+      "title": "OutSpoken current service page",
+      "url": "https://outspoken.digital/",
+      "support": "Live HTTP200 readback,12November2026. Five-step flow; Voice scope/cadence; Pipeline qualification/brief/report. Owned offer description, not proof of fulfilled client outcomes."
+    },
+    {
+      "id": "saved-patterns",
+      "title": "Original saved LinkedIn reference examples",
+      "url": "../../knowledge/writing/linkedin/writing-examples.json",
+      "support": "12 exact saved text fields closely coded; historical source identity and hashes retained. No causal design/performance inference."
+    },
+    {
+      "id": "stopscroll",
+      "title": "Stop The Scroll: LinkedIn ghostwriting",
+      "url": "https://www.stopthescroll.io/services/linkedin-ghostwriter",
+      "support": "Interview, calendar, writing, approval and review described by the vendor. Service-page framing, not actual social-post analysis."
+    },
+    {
+      "id": "notus",
+      "title": "notus service presentation",
+      "url": "https://www.notus.xyz/",
+      "support": "Audience/pillars/profile preparation and founder calls into content. Vendor description, not independently audited results."
+    },
+    {
+      "id": "windmill",
+      "title": "Windmill service presentation",
+      "url": "https://windmillgrowth.com/",
+      "support": "Material, ICP, interviews, review and engagement. Vendor description only."
+    },
+    {
+      "id": "google-docs",
+      "title": "Google Docs: suggest edits",
+      "url": "https://support.google.com/docs/answer/6033474?hl=en",
+      "support": "Suggesting with appropriate access; owner accepts/rejects. Documentation read, no client integration tested."
+    },
+    {
+      "id": "authoredup",
+      "title": "AuthoredUp text formatter",
+      "url": "https://authoredup.com/tools/linkedin-text-formatter",
+      "support": "Vendor formatter/preview. Not a native LinkedIn feed-bold feature; preview fidelity and account workflow not tested."
+    },
+    {
+      "id": "sales-nav",
+      "title": "LinkedIn: find and save leads",
+      "url": "https://www.linkedin.com/help/sales-navigator/answer/a10710125",
+      "support": "Company, role and location search/refinement. Paid optional product; a saved lead does not establish buying interest."
+    },
+    {
+      "id": "waalaxy-search",
+      "title": "Waalaxy search generator",
+      "url": "https://www.waalaxy.com/free-tools/linkedin-search-generator",
+      "support": "Vendor search-URL preparation. Destination search may need LinkedIn access; no importing, automation or sending executed."
+    },
+    {
+      "id": "hubspot",
+      "title": "HubSpot: create or log activities",
+      "url": "https://knowledge.hubspot.com/records/manually-log-activities-on-records?tab=tab-crm",
+      "support": "Official manual activity logging, updated29October2026. Access/features depend on account; not automatic LinkedIn sync."
+    },
+    {
+      "id": "linkedin-analytics",
+      "title": "LinkedIn member analytics",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a712399",
+      "support": "Native distribution/engagement review. Actual account analytics not supplied or tested; sales outcomes require separate records."
+    },
+    {
+      "id": "buffer-case",
+      "title": "Buffer: Kevin Indig case",
+      "url": "https://buffer.com/resources/case-study-kevin-indig-substack/",
+      "support": "23September2026. Growth Memo repurposing and Substack Notes ideation inform post08. Attributed workflow example; no OutSpoken result or causal performance claim."
+    },
+    {
+      "id": "edelman-2025",
+      "title": "2025 Edelman–LinkedIn B2B Thought Leadership Impact Report",
+      "url": "https://www.edelman.com/sites/g/files/aatuss191/files/2025-07/2025%20Edelman-LinkedIn%20B2B%20Thought%20Leadership%20Impact%20Report_FINAL.pdf",
+      "support": "p8:55% of US hidden decision-makers agreed thought leadership is an important vendor-vetting input; top two agreement categories. Overall US survey N1,934,17March–3April2025,p5. Subgroup n unstated. Self-report, not observed purchasing or European population estimate."
+    },
+    {
+      "id": "stackoverflow-2025",
+      "title": "Stack Overflow Developer Survey2025: AI",
+      "url": "https://survey.stackoverflow.co/2025/ai",
+      "support": "Accuracy question:46% distrust vs33% trust;33,244 responses. Self-selected developer survey, not OutSpoken buyers; percentages are not exhaustive categories."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "posts": 14,
+  "pngs": 17,
+  "svgs": 17,
+  "alt_text_files": 17,
+  "transcript_files": 17,
+  "first_carousel_pages": 4,
+  "all_caption_source_ids_resolve": true,
+  "all_knowledge_application_ids_resolve": true,
+  "image_dimensions": "1080x1350",
+  "rendered_review": "All17 contact-sheet assets inspected; first/header wraps corrected. Gallery desktop and390px mobile inspected;14articles,no horizontal overflow or broken loaded images.",
+  "independent_reviews": {
+    "captions": "14/14 read-only review; repetitive framing revised; site and official source readback completed by integrator",
+    "knowledge": "18/18 exact joins; rights/validation corrections integrated"
+  },
+  "current_website_offer_checked": true,
+  "author_acceptance": false,
+  "social_posts_sent": 0,
+  "activated_skill_bundles_changed": 0,
+  "limits": "Not a performance test or personal-voice approval. No live account integration, continuous video/audio review or current competitor-post census."
+}

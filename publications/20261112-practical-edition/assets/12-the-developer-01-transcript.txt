@@ -1,0 +1,11 @@
+OutSpoken
+Give the buyer a way to
+check the answer
+Distrust AI-tool accuracy
+46%
+Trust AI-tool accuracy
+33%
+Show the question and answer
+Link the evidence
+Name when a person must check
+Stack Overflow 2025 · accuracy question · 33,244 responses · not buyer data.

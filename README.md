@@ -1,3 +1,7 @@
+## Current practical publications and knowledge —12 November2026
+
+[14-post gallery](publications/20261112-practical-edition/index.html) · [Writing and visual knowledge](knowledge/writing/linkedin/index.md) · [Sources and limits](publications/20261112-practical-edition/SOURCES.md). This edition replaces broad audit-style messaging with practical workflows, tools, reply examples and role-specific product explanations. Twelve original saved writing examples and six visual examples supply bounded reference cards. Monthly, weekly and per-post templates separate automatic preparation from founder decisions. Prior editions remain preserved; social publication and author acceptance remain pending.
+
 ## Client tools: first review — 11 November2026
 
 [First review and original tool specifications](reports/20261111-client-tools-first-review/README.md) · [Writing/design/skill register](reports/20261111-client-tools-first-review/WRITING-DESIGN-REGISTER.md) · [Owned-profile and writing rehearsal](reports/20261111-client-tools-first-review/OWNED-PILOT.md). Ten Waalaxy tool functions and the recovered competitor set are reviewed as references. Original OutSpoken modules use approved client facts, source-aware writing and current design; the new client app is not yet built. Existing statuses, source/access limits and no-send boundaries remain.

@@ -74,3 +74,11 @@ The owned [publication architecture](../../skills/linkedin-publication-architect
 ## Proposed client-tool wrapper — first review11November2026
 
 The [first client-tool review](../../reports/20261111-client-tools-first-review/README.md), [module contracts](../../reports/20261111-client-tools-first-review/tool-specifications.json) and [owned-fact rehearsal](../../reports/20261111-client-tools-first-review/OWNED-PILOT.md) map the existing methodology/skills to a future client application. They reuse reader/genre/source/voice preparation, reasoning links, factual invariants and final native design checks. A proposed wrapper is not a deployed app or new activated skill. Only approved client material supplies client facts and voice; the historical reference cohort supplies bounded construction hypotheses. Changed art needs new text alternatives. No account publishing or collection is implied.
+
+## Practical knowledge retrieval — OUTSP-80/81/82,12 November2026
+
+Read the current [LinkedIn knowledge index](../../knowledge/writing/linkedin/index.md) and [practical writing contract](../../knowledge/writing/linkedin/practical-writing-contract.md) before drafting for OutSpoken. Prefill monthly/weekly/per-post templates from the current buyer, offer and author brief. Retrieve two source-bound writing cards and one relevant visual card; inspect modality and limitations. Reference creators and service competitors remain distinct.
+
+The task brief passes these inputs to founder-content-writing, linkedin-reference-pattern-review and linkedin-publication-architecture. Use the full humanization/fact-preservation pass, then brand-system-delivery to bind exact copy and visual meaning. The [14-post application ledger](../../publications/20261112-practical-edition/applications.json) demonstrates that route. Native diagrams explain real reader decisions; illustrative scenarios remain labelled. Keep audit detail in the source packet unless a qualifier is needed to prevent a misleading caption.
+
+Installed generic skill bundles were not modified or newly activated. This task-level retrieval update does not claim a new skill scan, client-app deployment, social integration or audience-performance result. Future bundle changes remain part of OUTSP-80 and require exact-tree scanning and behavioral checks.
