@@ -1,6 +1,6 @@
 {
   "as_of": "2026-11-12",
-  "status": "delivery_snapshot_to_verify_against_plane",
+  "status": "plane_readback_verified",
   "expected_count": 61,
   "tasks": [
     {
@@ -552,5 +552,25 @@
       "plane_priority": "medium",
       "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/93becc40-933f-4c48-ba0b-b115fda3a458"
     }
-  ]
+  ],
+  "verification": {
+    "total": 61,
+    "all_pages": true,
+    "review_tasks": [
+      14,
+      15,
+      80,
+      81,
+      82,
+      84
+    ],
+    "new_backlog_unassigned": [
+      87,
+      88,
+      89,
+      90,
+      91
+    ],
+    "unrelated_state_and_owner_rows_preserved": 50
+  }
 }

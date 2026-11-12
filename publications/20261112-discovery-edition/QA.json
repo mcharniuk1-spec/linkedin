@@ -44,5 +44,36 @@
     "sha256": "a91235e87579ae4fd85656bca35e9e2297a10e9dd2ab70d235b28fc7f06f4d22"
   },
   "owner_acceptance": false,
-  "social_publication": false
+  "social_publication": false,
+  "plane": {
+    "status": "PASS",
+    "all_tasks": 61,
+    "all_pages": true,
+    "review_tasks": [
+      14,
+      15,
+      80,
+      81,
+      82,
+      84
+    ],
+    "new_backlog_unassigned": [
+      87,
+      88,
+      89,
+      90,
+      91
+    ],
+    "unchanged_other_state_owner_rows": 50
+  },
+  "repository_checks": {
+    "initial_delivery_commit": "d4b47389b9dedbb99fbc79da5f7d0b54e0fde58b",
+    "all_exported_files_checked": 115,
+    "hash_or_size_mismatches": 0,
+    "unrelated_files_preserved": 2527,
+    "website_main_unchanged": "2b2ccf845c4cb6708958418619dc8090c82c6c58",
+    "website_rules_files_verified": 2,
+    "website_original_files_preserved": 55,
+    "misplaced_research_branch_deleted": true
+  }
 }
