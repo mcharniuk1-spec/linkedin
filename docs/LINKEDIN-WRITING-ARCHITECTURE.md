@@ -1,6 +1,6 @@
-# LinkedIn writing architecture v2
+# LinkedIn writing architecture v2.1
 
-Version: 2.0 · 10 November 2026 · task OUTSP-45 · status: delivered for founder review.
+Version: 2.1 · 12 November 2026 · tasks OUTSP-45/80 · current practical knowledge and skill route; prior source/evidence limits retained.
 
 ## Purpose and navigation
 
@@ -150,3 +150,15 @@ A draft structure is ready for author review when the reader job and pattern are
 
 The structure can be complete while a publishable post remains blocked by missing founder material. Record that state honestly. The present task delivers methodology and current-post skeleton updates for review. It makes no live publication, client-performance or audience-validation claim.
 
+
+## Practical writing and reusable knowledge — OUTSP-80, 12 November 2026
+
+Retrieve examples through the [current knowledge index](../knowledge/writing/linkedin/index.md). Select by reader question and explanatory function. Keep professional reference creators, service competitors and prospects separate. A saved card supplies an inspectable hypothesis, not proof of virality.
+
+Prefill the [monthly](../knowledge/writing/linkedin/templates/monthly-strategy.md), [weekly](../knowledge/writing/linkedin/templates/weekly-planning.md) and [single-publication](../knowledge/writing/linkedin/templates/publication-intake.md) briefs from current facts and previous owner answers. Ask only what changes the actual claim, stance or example. Use the [automation/human map](../knowledge/writing/linkedin/automation-human-map.md) for handoffs.
+
+Give the intended reader a concrete answer, workflow, decision, tool, comparison or example and explain why it helps. Keep lineage audits in the review packet; keep material attribution and limits beside the public claim. A professional position can carry a post without a fabricated personal event. Never complete an unspecified source measure with wording from a similar study. See the [practical contract](../knowledge/writing/linkedin/practical-writing-contract.md) and [revised composition skill](../skills/linkedin-publication-architecture/SKILL.md).
+
+For visuals, name the reader task, structure, emphasis, exact claim/number/offer text and illustrative labels. Bind captions, panels and alt/transcript to one revision. Use realistic scenes only when they improve context. Preserve the current design system rather than copying an old release.
+
+Both owned skills are version 1.1.1. Read [methodology completion](../reports/20261112-methodology-completion/README.md) for exact static scans, installed readback, final behavioral checks and the rejected first candidate. These are scoped editorial checks, not evidence of reach, conversion or universal writing quality.

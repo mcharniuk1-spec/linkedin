@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "files": 24,
+  "relative_targets": 129,
+  "missing_targets": [],
+  "expected_plane_tasks": 56,
+  "enumerated_task_ids": 56,
+  "skills": 2,
+  "staged_skill_files": 7,
+  "installed_copies": 4,
+  "final_behavior_cases": 6,
+  "passed_final_cases": 6,
+  "failed_first_candidate_preserved": true,
+  "source_method_files_rechecked": 13,
+  "source_method_hash_matches": 13,
+  "collector_actions": 0,
+  "social_posts": 0,
+  "outreach_sends": 0,
+  "website_production_source_changed": false,
+  "static_scan": "PASS;no-LLM semantic/meta limitation recorded separately",
+  "graph_refresh": "Not run;existing graph remains historical",
+  "scope_note": "Complete24-filepublicoverlay,includingthisQA record;unchangedremote baselinetargetsusedforlinkresolution."
+}

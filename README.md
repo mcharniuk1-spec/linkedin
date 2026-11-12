@@ -1,3 +1,7 @@
+## Methodology completion and next tasks — 12 November 2026
+
+[Methodology 2.1 and skill release](reports/20261112-methodology-completion/README.md) · [All 56 tasks](reports/20261112-methodology-completion/TASKS.md) · [Questions by task](reports/20261112-methodology-completion/QUESTIONS.md) · [14-post gallery](publications/20261112-practical-edition/index.html). Detailed agency enquiries remain in a private research branch. No message or social post has been sent.
+
 ## Current practical publications and knowledge —12 November2026
 
 [14-post gallery](publications/20261112-practical-edition/index.html) · [Writing and visual knowledge](knowledge/writing/linkedin/index.md) · [Sources and limits](publications/20261112-practical-edition/SOURCES.md). This edition replaces broad audit-style messaging with practical workflows, tools, reply examples and role-specific product explanations. Twelve original saved writing examples and six visual examples supply bounded reference cards. Monthly, weekly and per-post templates separate automatic preparation from founder decisions. Prior editions remain preserved; social publication and author acceptance remain pending.

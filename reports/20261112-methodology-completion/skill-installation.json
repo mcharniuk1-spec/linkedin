@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "receipts": [
+    {
+      "skill": "linkedin-publication-architecture",
+      "version": "1.1.1",
+      "root": ".agents",
+      "content_sha256": "e8e455ca42dd19f967db59c1ef3f1c3dc6cf1dfb7ca6d2493d3791d4e52de2f2",
+      "scanner_version": "2.9.6",
+      "recommendation": "SAFE",
+      "exact_files": [
+        "SKILL.md",
+        "references/composition-contract.md",
+        "references/interest-and-format.md",
+        "references/practical-drafting.md"
+      ],
+      "coverage_percent": 100.0,
+      "llm_scan": false,
+      "limitations": [
+        "Analyzer was disabled by the requested configuration.",
+        "Analyzer was disabled by the requested configuration.",
+        "Analyzer was disabled by the requested configuration."
+      ]
+    },
+    {
+      "skill": "linkedin-publication-architecture",
+      "version": "1.1.1",
+      "root": ".claude",
+      "content_sha256": "e8e455ca42dd19f967db59c1ef3f1c3dc6cf1dfb7ca6d2493d3791d4e52de2f2",
+      "scanner_version": "2.9.6",
+      "recommendation": "SAFE",
+      "exact_files": [
+        "SKILL.md",
+        "references/composition-contract.md",
+        "references/interest-and-format.md",
+        "references/practical-drafting.md"
+      ],
+      "coverage_percent": 100.0,
+      "llm_scan": false,
+      "limitations": [
+        "Analyzer was disabled by the requested configuration.",
+        "Analyzer was disabled by the requested configuration.",
+        "Analyzer was disabled by the requested configuration."
+      ]
+    },
+    {
+      "skill": "linkedin-reference-pattern-review",
+      "version": "1.1.1",
+      "root": ".agents",
+      "content_sha256": "5b7ef0633dafcf73c136812129545408caf5cc09155d9bba751ba83dcd2fd04f",
+      "scanner_version": "2.9.6",
+      "recommendation": "SAFE",
+      "exact_files": [
+        "SKILL.md",
+        "references/evidence-contract.md",
+        "references/working-example-cards.md"
+      ],
+      "coverage_percent": 100.0,
+      "llm_scan": false,
+      "limitations": [
+        "Analyzer was disabled by the requested configuration.",
+        "Analyzer was disabled by the requested configuration.",
+        "Analyzer was disabled by the requested configuration."
+      ]
+    },
+    {
+      "skill": "linkedin-reference-pattern-review",
+      "version": "1.1.1",
+      "root": ".claude",
+      "content_sha256": "5b7ef0633dafcf73c136812129545408caf5cc09155d9bba751ba83dcd2fd04f",
+      "scanner_version": "2.9.6",
+      "recommendation": "SAFE",
+      "exact_files": [
+        "SKILL.md",
+        "references/evidence-contract.md",
+        "references/working-example-cards.md"
+      ],
+      "coverage_percent": 100.0,
+      "llm_scan": false,
+      "limitations": [
+        "Analyzer was disabled by the requested configuration.",
+        "Analyzer was disabled by the requested configuration.",
+        "Analyzer was disabled by the requested configuration."
+      ]
+    }
+  ]
+}

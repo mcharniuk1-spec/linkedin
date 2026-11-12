@@ -2,7 +2,7 @@
 name: linkedin-reference-pattern-review
 description: Analyze a bounded supplied LinkedIn reference set for observable writing and visual functions, source limits and transferable patterns. Use for saved-post or competitor-content review; distinguish website claims and old assessments from actual post reading.
 metadata:
-  version: 1.0.0
+  version: 1.1.1
 ---
 
 # Source-bound reference pattern review
@@ -22,6 +22,8 @@ For an inspected original, identify the reader situation/job, opening promise, c
 Keep observed counters, relative comparison, content quality, author relevance, buyer fit and expressed need separate. A popular example does not establish why it was popular. Report the eligible cohort and missingness before identifying relative standouts. Do not infer reach, conversions or causality from reactions. Show relevant weak or contrary examples when the authorized packet contains them.
 
 Transfer a function, not a distinctive voice or copied story: state the candidate mechanism, conditions for this reader, source support, alternative explanation and adopt/adapt/reject decision. Provider promises such as proven hooks or pipeline are self-descriptions unless independent evidence establishes the exact claim. Do not import an adjacent outbound service's results as organic-writing proof.
+
+Read [the working-example card contract](references/working-example-cards.md) when building a reusable knowledge base or translating observations into writing/visual briefs. It adds a retrieval and application format without treating a saved card as current source truth.
 
 ## Return
 

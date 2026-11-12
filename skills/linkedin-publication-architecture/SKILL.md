@@ -2,7 +2,7 @@
 name: linkedin-publication-architecture
 description: Build or revise a LinkedIn publication's reader job, argument or truthful story, evidence, hook and ending. Use for post structures and caption or panel copy; keep account operations, collection and publishing separate.
 metadata:
-  version: 1.0.0
+  version: 1.1.1
 ---
 
 # LinkedIn publication architecture
@@ -10,6 +10,8 @@ metadata:
 Turn a source packet into an original, reviewable publication. Start with the user's requested scope: a structure can be complete while missing evidence still blocks a factual caption. Use the supplied author and buyer brief; a client's buyers do not inherit an agency's audience.
 
 Read [the composition contract](references/composition-contract.md) for pattern choice, proof and review. Read [the interest and format contract](references/interest-and-format.md) when revising hooks, humor, captions or visuals. If working in the Outspoken repository, consult its current writing architecture and source/claim ledgers as project evidence. These packaged references are sufficient when that repository is absent.
+
+Read [the practical drafting and knowledge route](references/practical-drafting.md) for evidence-card retrieval, recurring strategy briefs, useful examples, founder voice and caption-to-visual handoff. Use the current project knowledge when supplied; the skill still works from a standalone source packet.
 
 ## Compose
 

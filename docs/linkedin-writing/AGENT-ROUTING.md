@@ -82,3 +82,7 @@ Read the current [LinkedIn knowledge index](../../knowledge/writing/linkedin/ind
 The task brief passes these inputs to founder-content-writing, linkedin-reference-pattern-review and linkedin-publication-architecture. Use the full humanization/fact-preservation pass, then brand-system-delivery to bind exact copy and visual meaning. The [14-post application ledger](../../publications/20261112-practical-edition/applications.json) demonstrates that route. Native diagrams explain real reader decisions; illustrative scenarios remain labelled. Keep audit detail in the source packet unless a qualifier is needed to prevent a misleading caption.
 
 Installed generic skill bundles were not modified or newly activated. This task-level retrieval update does not claim a new skill scan, client-app deployment, social integration or audience-performance result. Future bundle changes remain part of OUTSP-80 and require exact-tree scanning and behavioral checks.
+
+## Current owned skill release — OUTSP-80
+
+Both owned skills are now version 1.1.1. They include practical knowledge retrieval, prefilled briefs, useful examples, literal source measures and necessary-question checks. [Completion evidence](../../reports/20261112-methodology-completion/README.md) supersedes the earlier same-day baseline-retained status for the current release. The 14-post package is unchanged.
