@@ -1,0 +1,281 @@
+{
+  "files": [
+    {
+      "path": "CAPTIONS.md",
+      "sha256": "4f4ae92bf741ab215c2c17274b754200ae597a0767ee4491fba28c256ca8d043",
+      "bytes": 16034
+    },
+    {
+      "path": "CONTENT-REVIEW.md",
+      "sha256": "43906930ad42671f1e9334912e6219fc5f4669de41f5af6dd6bb40a38306d942",
+      "bytes": 5420
+    },
+    {
+      "path": "README.md",
+      "sha256": "734564e670e433be6fb3ca737a92dcaed0e1298fbbe90da4efee5788ea124ac4",
+      "bytes": 2406
+    },
+    {
+      "path": "assets/01-the-reason-alt.txt",
+      "sha256": "8341e850dc23dbe738c9c437646323b582fe63dced11689a5a04d387da5bcaf2",
+      "bytes": 146
+    },
+    {
+      "path": "assets/01-the-reason-transcript.txt",
+      "sha256": "901e2c59993fd1d318c98edf0a869c935cd167b86dd8b7c055ebe49ebae93bda",
+      "bytes": 184
+    },
+    {
+      "path": "assets/01-the-reason.png",
+      "sha256": "69e9e2921bb61140278576718761a7bd4aa88ebf21e097a2545e23db69caf607",
+      "bytes": 102192
+    },
+    {
+      "path": "assets/01-the-reason.svg",
+      "sha256": "7cc3f35917d30c4087493c3fb589a15cb003c5e6070a11f49e67ddd773a2ade5",
+      "bytes": 1376
+    },
+    {
+      "path": "assets/02-what-we-actually-saw-alt.txt",
+      "sha256": "211f208e4f04ef31ed7aef636873ab0081539ee0135f5cbdece9af767202f70d",
+      "bytes": 180
+    },
+    {
+      "path": "assets/02-what-we-actually-saw-transcript.txt",
+      "sha256": "932b559492207fb180db49c7edb0016da972b1bdb52569abf7df997a0faea007",
+      "bytes": 204
+    },
+    {
+      "path": "assets/02-what-we-actually-saw.png",
+      "sha256": "b72ab3657d9bbbccdeb1d62dd40104aad4e15e8279d96988a0e975853efaa56c",
+      "bytes": 120648
+    },
+    {
+      "path": "assets/02-what-we-actually-saw.svg",
+      "sha256": "b46ae3dd1841775c3738834d25de846dade7dc13dbd39e0a7c8e904ef774176e",
+      "bytes": 35119
+    },
+    {
+      "path": "assets/03-the-interview-alt.txt",
+      "sha256": "3b55f271850d3769eb12967e7fec34184542e2624a7ea82c07107f3bd952cb82",
+      "bytes": 297
+    },
+    {
+      "path": "assets/03-the-interview-transcript.txt",
+      "sha256": "3d16bc56ec0b284146378c42ae3aad3681117007bbd6f9c7e7a4d05af93389f6",
+      "bytes": 181
+    },
+    {
+      "path": "assets/03-the-interview.png",
+      "sha256": "8d922df64a7db4deeb403715e62f895def8f78abcb5f1e5136c22d360ad05475",
+      "bytes": 914203
+    },
+    {
+      "path": "assets/03-the-interview.svg",
+      "sha256": "b8ccc8c6ae177e8af9692fe0ccd0f3328425352880d6194b19e6756407e06240",
+      "bytes": 1351
+    },
+    {
+      "path": "assets/04-positioning-alt.txt",
+      "sha256": "5c524a3e4e7154f34a5d4f9834642cf82b4ac216910bed8523130d53eb9765ca",
+      "bytes": 200
+    },
+    {
+      "path": "assets/04-positioning-transcript.txt",
+      "sha256": "259d7f317da108d515acebe1952f8097823f67b7980070e414f2dde009798dcb",
+      "bytes": 226
+    },
+    {
+      "path": "assets/04-positioning.png",
+      "sha256": "c23e0919cb3ef9be677f4e909f9e6b335dd8e59923d2364be298f3cb3cb3187c",
+      "bytes": 115607
+    },
+    {
+      "path": "assets/04-positioning.svg",
+      "sha256": "50dba768c06201e199fedf13c12b97082940450394397dc90b1ae51391b094d7",
+      "bytes": 1679
+    },
+    {
+      "path": "assets/05-proof-alt.txt",
+      "sha256": "9ccaaecfb7b01934b3916f374b8235a32aa1290fc87991d10e5bb03b3f978444",
+      "bytes": 149
+    },
+    {
+      "path": "assets/05-proof-transcript.txt",
+      "sha256": "275d35f4043f1f96c39aeed7231386e07ffc2d0bf5476ef0b6521ed8fe46d929",
+      "bytes": 236
+    },
+    {
+      "path": "assets/05-proof.png",
+      "sha256": "f0cbb37845808df9d131eb07f323facdb3d0485f3d008cd2f8c9be018963d55a",
+      "bytes": 119692
+    },
+    {
+      "path": "assets/05-proof.svg",
+      "sha256": "94c8dbd2809ff6bc5277bddce8ddb38f19e7a062738fd0981a2eae29d843370c",
+      "bytes": 1734
+    },
+    {
+      "path": "assets/06-product-to-buyer-alt.txt",
+      "sha256": "f9eb0f948986973cde2cdcdfb0602466563b264fd5c1044e216a208d58dde2ee",
+      "bytes": 191
+    },
+    {
+      "path": "assets/06-product-to-buyer-transcript.txt",
+      "sha256": "dfa177c5153dafd5187be655295f2c3b1f1e32bcdb7a7a10c7356d7adcacfe72",
+      "bytes": 272
+    },
+    {
+      "path": "assets/06-product-to-buyer.png",
+      "sha256": "3543162bac072cff05661508451bfa5e2ad23ed4c869c6176422b05d445e7d1c",
+      "bytes": 119064
+    },
+    {
+      "path": "assets/06-product-to-buyer.svg",
+      "sha256": "fe978b548d6553ce6955b88740e934318fe23e5d32c4b3d817678568304e890d",
+      "bytes": 1819
+    },
+    {
+      "path": "assets/07-two-voices-alt.txt",
+      "sha256": "b62e36eaa9b06296185ae3a746f5a7e79fce2e0bbd9456ebf5845ca8242614f5",
+      "bytes": 152
+    },
+    {
+      "path": "assets/07-two-voices-transcript.txt",
+      "sha256": "761cf63c0644f2ea9d2e8b54a2fb8e1d93ad907ab7aab7fcc6db84ef5fc90a32",
+      "bytes": 185
+    },
+    {
+      "path": "assets/07-two-voices.png",
+      "sha256": "1324bbb666be79c876abf7ed0cfa2ee82c758864b926e95797d7e83f8bce0336",
+      "bytes": 100585
+    },
+    {
+      "path": "assets/07-two-voices.svg",
+      "sha256": "7ff6425f24a32174fc3a3112d9cfa5d24181d304878dc6535664bd04314c42c2",
+      "bytes": 1485
+    },
+    {
+      "path": "assets/08-visuals-alt.txt",
+      "sha256": "b2ad5747e7579d148c4fc3c64f84f80008e2f6b48abc4a8597226a74656caa53",
+      "bytes": 205
+    },
+    {
+      "path": "assets/08-visuals-transcript.txt",
+      "sha256": "1992635798d8298a98f747b26a82d016eb8fc3f69d36088e491ac32e0df52ef2",
+      "bytes": 239
+    },
+    {
+      "path": "assets/08-visuals.png",
+      "sha256": "85fc6b1c1b2ada32f0c592c348fec6c21e8dc0c4e7d08c3844dc2d9b3b3cdeff",
+      "bytes": 126179
+    },
+    {
+      "path": "assets/08-visuals.svg",
+      "sha256": "5ae98687ac6c00568dcbba5e8a81c511d89fbd00cf026504639c1d9ea0ee5c7c",
+      "bytes": 1735
+    },
+    {
+      "path": "assets/09-measure-alt.txt",
+      "sha256": "a21d2e959f03f81502dc26706d905c28de909ec76de6e3ab87a4fce494cbb6e6",
+      "bytes": 212
+    },
+    {
+      "path": "assets/09-measure-transcript.txt",
+      "sha256": "6b9ba23fc42f87f8606e4603e607f55ccc8b1ff355966571c50c3c4909cceccc",
+      "bytes": 267
+    },
+    {
+      "path": "assets/09-measure.png",
+      "sha256": "e5feb8ef1e7099a9800e6493d17ea6199b56fcd9469692fe907c1cd95d6d74ec",
+      "bytes": 121329
+    },
+    {
+      "path": "assets/09-measure.svg",
+      "sha256": "527d47968068e1faf5dd702be1012ce700b1c0a6dd716f1ff5094ead83ecc18f",
+      "bytes": 1828
+    },
+    {
+      "path": "assets/10-the-delivery-alt.txt",
+      "sha256": "8fe2aaeabbcda3ef75481c7caaa1b51aea1e1fc3021f0b4b7cc592f715e857d0",
+      "bytes": 155
+    },
+    {
+      "path": "assets/10-the-delivery-transcript.txt",
+      "sha256": "b3251c1a688567c1b584181d4060ba11555d712c737285dd8212dfd7f51ef5ba",
+      "bytes": 224
+    },
+    {
+      "path": "assets/10-the-delivery.png",
+      "sha256": "9b47f11fedfe7dc047a403b0edb3a875d3ee845bf3cd660429ee42d4eeeac2fa",
+      "bytes": 113211
+    },
+    {
+      "path": "assets/10-the-delivery.svg",
+      "sha256": "d5401a3684b0362bcb8989dd1c44f70e36af943a2465ba713ce96123f640053f",
+      "bytes": 1610
+    },
+    {
+      "path": "assets/contact.png",
+      "sha256": "5c3f305fe42fec58cafc8f37cddc86fc7b13e011c2c19643c7f67ff7a9dbc509",
+      "bytes": 405524
+    },
+    {
+      "path": "assets/fonts/MONA-OFL.txt",
+      "sha256": "41e9911493de5899a20336baf13b6ea6483b5eea34e237f2ffed22c39bdc4a8d",
+      "bytes": 4564
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "sha256": "737d8d343b674c6894f373de71a044b6782c130f2aebf180933d63ddf7a3dc19",
+      "bytes": 4398
+    },
+    {
+      "path": "assets/fonts/YoungSerif-Regular.ttf",
+      "sha256": "42bb2602364b28569fdce5eeb6ab3d81cf8090ba81b211f1229ed69f33155523",
+      "bytes": 106608
+    },
+    {
+      "path": "assets/fonts/mona-sans-latin-wght-normal.woff2",
+      "sha256": "a59061e38c5e7e6a00aaa6b6645a220c7d9c530991167f058cc0f8575f5d5844",
+      "bytes": 39788
+    },
+    {
+      "path": "assets/interview-context.png",
+      "sha256": "69fe3fef3c9e961bac11134823fbf5ccaa81f05c6475323e8a6aa09606e94a9b",
+      "bytes": 2357273
+    },
+    {
+      "path": "build_visuals.py",
+      "sha256": "9480a4f7c0839d57beb64a33db2d91d51c3358b4cc037a3082876cef33590e79",
+      "bytes": 8019
+    },
+    {
+      "path": "content.json",
+      "sha256": "37e4b51fe14a78591f72292f55d3227bfd1eb80868f7ee662450ac62e2893177",
+      "bytes": 22896
+    },
+    {
+      "path": "index.html",
+      "sha256": "4016198ee07df192a4418d89ab98bd889f67d0d10e41995196b35984478b66fb",
+      "bytes": 20775
+    },
+    {
+      "path": "render-jobs.json",
+      "sha256": "7975134fde9553f321660534bfe74e0c82f15c31eb286dacb056edf6ead8d716",
+      "bytes": 1165
+    },
+    {
+      "path": "render.swift",
+      "sha256": "e5a5ebc368a00c91c5b40df2d0ec3594b69bd465d3d4609a47e9f09ab94460ef",
+      "bytes": 2378
+    }
+  ],
+  "generation": {
+    "tool": "built-in image_gen",
+    "date": "2026-11-12",
+    "new_scene_outputs": 1,
+    "scene_status": "synthetic context, explicitly labelled; not a real meeting"
+  },
+  "fonts": "Young Serif and Mona Sans, bundled OFL licenses; native render registers exact files"
+}

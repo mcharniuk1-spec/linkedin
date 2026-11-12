@@ -1,0 +1,10 @@
+OutSpoken
+What can you rely on after
+the demo?
+What you can inspect
+One input, the result, the review step.
+What to ask next
+Unclear cases, failures and the
+conditions.
+What needs broader evidence
+Reliability, effort and repeatability.

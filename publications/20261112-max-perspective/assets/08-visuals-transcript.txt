@@ -1,0 +1,10 @@
+OutSpoken
+What does this image make
+clearer?
+A vague visual label
+Observation limit
+What could the reader ask instead?
+What did this example show?
+Which case did we inspect?
+What still needs testing?
+Turn the label into a useful question.

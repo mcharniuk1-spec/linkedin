@@ -1,0 +1,76 @@
+{
+  "post_count": 279,
+  "unique_authors": 61,
+  "snapshot_count": 477,
+  "media_count": 207,
+  "metrics": {
+    "reactions": {
+      "observed": 276,
+      "missing": 3,
+      "median": 107.5,
+      "mean": 417.4492753623188
+    },
+    "comments": {
+      "observed": 256,
+      "missing": 23,
+      "median": 36.5,
+      "mean": 155.9765625
+    },
+    "reposts": {
+      "observed": 8,
+      "missing": 271,
+      "median": 2.5,
+      "mean": 3.875
+    }
+  },
+  "format_groups": [
+    {
+      "format": "text_or_external_link",
+      "posts": 135,
+      "reaction_n": 133,
+      "reaction_median": 94,
+      "comment_n": 123,
+      "comment_median": 31
+    },
+    {
+      "format": "image",
+      "posts": 111,
+      "reaction_n": 110,
+      "reaction_median": 186.5,
+      "comment_n": 106,
+      "comment_median": 57.0
+    },
+    {
+      "format": "video",
+      "posts": 24,
+      "reaction_n": 24,
+      "reaction_median": 30.0,
+      "comment_n": 18,
+      "comment_median": 20.0
+    },
+    {
+      "format": "document",
+      "posts": 9,
+      "reaction_n": 9,
+      "reaction_median": 178,
+      "comment_n": 9,
+      "comment_median": 14
+    }
+  ],
+  "editorial_jobs": {
+    "teach_method": 91,
+    "tell_story": 36,
+    "announce_offer": 63,
+    "show_proof": 23,
+    "challenge_belief": 46,
+    "start_discussion": 6,
+    "build_in_public": 8,
+    "entertain": 6
+  },
+  "performance_status": {
+    "insufficient_comparable_sample": 245,
+    "strong_sample_reference": 8,
+    "ordinary_sample_reference": 26
+  },
+  "dataset_sha256": "f8fff0ab3ee47f6d96ab6c4968c4864b78073bc25f75e8177a4f021b80a460b1"
+}

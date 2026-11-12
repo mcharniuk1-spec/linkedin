@@ -1,0 +1,1 @@
+Specific can still be wrong. Illustrative: “A support lead reviews unclear requests before a reply goes out.” Person: support lead; Task: review unclear requests; Check: does the product do this?

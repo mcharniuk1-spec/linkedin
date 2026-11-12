@@ -1,0 +1,1 @@
+A vague label, Observation limit, is replaced with three practical questions: what did this example show, which case did we inspect, and what still needs testing? Amber underlines emphasize the questions.

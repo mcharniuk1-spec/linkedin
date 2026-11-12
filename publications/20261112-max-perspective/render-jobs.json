@@ -1,0 +1,52 @@
+[
+  {
+    "id": "01-the-reason",
+    "svg": "assets/01-the-reason.svg",
+    "png": "assets/01-the-reason.png"
+  },
+  {
+    "id": "02-what-we-actually-saw",
+    "svg": "assets/02-what-we-actually-saw.svg",
+    "png": "assets/02-what-we-actually-saw.png"
+  },
+  {
+    "id": "03-the-interview",
+    "svg": "assets/03-the-interview.svg",
+    "png": "assets/03-the-interview.png"
+  },
+  {
+    "id": "04-positioning",
+    "svg": "assets/04-positioning.svg",
+    "png": "assets/04-positioning.png"
+  },
+  {
+    "id": "05-proof",
+    "svg": "assets/05-proof.svg",
+    "png": "assets/05-proof.png"
+  },
+  {
+    "id": "06-product-to-buyer",
+    "svg": "assets/06-product-to-buyer.svg",
+    "png": "assets/06-product-to-buyer.png"
+  },
+  {
+    "id": "07-two-voices",
+    "svg": "assets/07-two-voices.svg",
+    "png": "assets/07-two-voices.png"
+  },
+  {
+    "id": "08-visuals",
+    "svg": "assets/08-visuals.svg",
+    "png": "assets/08-visuals.png"
+  },
+  {
+    "id": "09-measure",
+    "svg": "assets/09-measure.svg",
+    "png": "assets/09-measure.png"
+  },
+  {
+    "id": "10-the-delivery",
+    "svg": "assets/10-the-delivery.svg",
+    "png": "assets/10-the-delivery.png"
+  }
+]

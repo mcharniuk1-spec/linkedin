@@ -1,0 +1,34 @@
+{
+  "schema": "outspoken-paired-publication-brief-v1",
+  "purpose": "Reusable input/output contract for task briefs and later tool67; not a deployed software capability or activated skill",
+  "required_input": {
+    "author": "Named person; do not infer a client's voice from the agency corpus",
+    "reader_job": "One specific reader question or decision",
+    "source_claims": "Claim, sourceID, evidence type, date, public-use boundary, exact wording or numerical context",
+    "author_stance": "Confirmed opinion, or proposed wording explicitly held for author review",
+    "voice_samples": "Owner-selected same-register samples; record the actual sample count and limits",
+    "story_status": "Confirmed real event, method/opinion without anecdote, or explicitly illustrative example",
+    "public_boundaries": "Omit/anonymize details the author has not cleared",
+    "company_repost_job": "Distinct useful company contribution; do not claim the person's memory as the company's",
+    "visual_job": "What becomes easier to understand; exact caption revision and data fields",
+    "unresolved_questions": "Only inputs that affect truth, stance, scope or publication readiness"
+  },
+  "required_output": [
+    "personal caption and supported hook/payoff",
+    "paragraph contribution outline",
+    "claim/source/reasoning/limit map",
+    "separate company repost introduction",
+    "visual brief and revision-bound text/alt/transcript",
+    "fact, voice, source/rights and format review dispositions",
+    "remaining owner questions and next manual step"
+  ],
+  "hard_failures": [
+    "invented biography, customer result, exact quote, emotion or memory",
+    "missing/changed numerical denominator, capture date or uncertainty",
+    "wrong author or cross-client source leakage",
+    "changed protected CTA",
+    "generated scene represented as a real meeting or customer proof",
+    "draft or tool specification described as published/runtime-tested"
+  ],
+  "runtime_status": "Task-level contract applied manually to ten concepts; client app build remains67"
+}

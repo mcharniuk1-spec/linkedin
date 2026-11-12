@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "date": "2026-11-12",
+  "checks": {
+    "json_unique_keys": "all scoped JSON parsed with duplicate detection",
+    "concept_coverage": 10,
+    "separate_repost_introductions": 10,
+    "personal_drafts_author_review_pending": 10,
+    "png_dimensions_1080x1350": 10,
+    "editable_svg_and_full_transcript_sets": 10,
+    "source_ids_and_author_questions": 10,
+    "exact_CTA": "Book an intro call",
+    "numerical_context": "all seven required sample literals preserved",
+    "historical_Max_scope": "one post; no recurring-habit claim",
+    "synthetic_scene": "explicit visual disclosure",
+    "reader_rows_and_unique_ids": 279,
+    "metric_observed_counts": [
+      276,
+      256,
+      8
+    ],
+    "task_mapping": 56,
+    "unrelated_baseline_states_owners_preserved": 52,
+    "asset_hash_entries_verified": 54
+  },
+  "independent_review": {
+    "data": "all279records/metrics/formats and five source examples match; all55baseline tasks plus86 mapped once; status wording repaired",
+    "method_visual": "all ten checked; requested defects repaired and read back; final minor source-scope/grammar narrowed by root",
+    "requested_worker_model": "gpt-6-luna",
+    "returned_model_identity": "not exposed by native delegation result"
+  },
+  "browser_checks": {
+    "reader_search": "AprilDunford10of279",
+    "story_filter": "36of279",
+    "reset": "279of279",
+    "desktop_gallery": "actual visual inspection",
+    "mobile_gallery": "390px viewport;10images loaded; no page overflow",
+    "a11y_scope": "labelled controls, text alternatives and focus styles; no full conformance claim",
+    "limits": "Native LinkedIn preview and author artistic acceptance not performed"
+  },
+  "skills": {
+    "baseline_retained": true,
+    "changed_installed_bundles": 0,
+    "new_activation": 0,
+    "task_contract": "PAIRED-BRIEF.json",
+    "actual_use": "explicit source reads and application to ten concepts; not a new isolated skill behavior benchmark"
+  },
+  "not_executed": [
+    "live LinkedIn collection",
+    "social or outreach publication",
+    "client app runtime",
+    "live website/booking/security setup",
+    "paid external provider installation"
+  ],
+  "remote_verification": "performed after commit; exact source identities recorded in private run and final report"
+}

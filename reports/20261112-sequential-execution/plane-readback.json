@@ -1,0 +1,238 @@
+{
+  "date": "2026-11-12",
+  "items": 56,
+  "snapshot_scope": "task number and state only; no private account details",
+  "tasks": [
+    {
+      "task": 86,
+      "state": "Backlog"
+    },
+    {
+      "task": 85,
+      "state": "Todo"
+    },
+    {
+      "task": 84,
+      "state": "Backlog"
+    },
+    {
+      "task": 83,
+      "state": "Cancelled"
+    },
+    {
+      "task": 82,
+      "state": "Review"
+    },
+    {
+      "task": 81,
+      "state": "Review"
+    },
+    {
+      "task": 80,
+      "state": "In Progress"
+    },
+    {
+      "task": 79,
+      "state": "Backlog"
+    },
+    {
+      "task": 78,
+      "state": "Backlog"
+    },
+    {
+      "task": 77,
+      "state": "Done"
+    },
+    {
+      "task": 76,
+      "state": "Done"
+    },
+    {
+      "task": 75,
+      "state": "Done"
+    },
+    {
+      "task": 74,
+      "state": "Done"
+    },
+    {
+      "task": 73,
+      "state": "Cancelled"
+    },
+    {
+      "task": 72,
+      "state": "Done"
+    },
+    {
+      "task": 71,
+      "state": "Done"
+    },
+    {
+      "task": 70,
+      "state": "Done"
+    },
+    {
+      "task": 69,
+      "state": "Done"
+    },
+    {
+      "task": 68,
+      "state": "Backlog"
+    },
+    {
+      "task": 67,
+      "state": "Backlog"
+    },
+    {
+      "task": 66,
+      "state": "Backlog"
+    },
+    {
+      "task": 64,
+      "state": "Done"
+    },
+    {
+      "task": 63,
+      "state": "Backlog"
+    },
+    {
+      "task": 62,
+      "state": "Backlog"
+    },
+    {
+      "task": 60,
+      "state": "Backlog"
+    },
+    {
+      "task": 56,
+      "state": "Done"
+    },
+    {
+      "task": 51,
+      "state": "Done"
+    },
+    {
+      "task": 50,
+      "state": "Done"
+    },
+    {
+      "task": 49,
+      "state": "Done"
+    },
+    {
+      "task": 48,
+      "state": "Review"
+    },
+    {
+      "task": 47,
+      "state": "Done"
+    },
+    {
+      "task": 46,
+      "state": "Review"
+    },
+    {
+      "task": 45,
+      "state": "Review"
+    },
+    {
+      "task": 44,
+      "state": "Backlog"
+    },
+    {
+      "task": 43,
+      "state": "Backlog"
+    },
+    {
+      "task": 42,
+      "state": "Backlog"
+    },
+    {
+      "task": 41,
+      "state": "Backlog"
+    },
+    {
+      "task": 39,
+      "state": "Backlog"
+    },
+    {
+      "task": 36,
+      "state": "Backlog"
+    },
+    {
+      "task": 34,
+      "state": "Done"
+    },
+    {
+      "task": 33,
+      "state": "Done"
+    },
+    {
+      "task": 29,
+      "state": "Done"
+    },
+    {
+      "task": 28,
+      "state": "Done"
+    },
+    {
+      "task": 27,
+      "state": "Done"
+    },
+    {
+      "task": 26,
+      "state": "Done"
+    },
+    {
+      "task": 25,
+      "state": "Done"
+    },
+    {
+      "task": 20,
+      "state": "Backlog"
+    },
+    {
+      "task": 18,
+      "state": "Todo"
+    },
+    {
+      "task": 16,
+      "state": "Backlog"
+    },
+    {
+      "task": 15,
+      "state": "Backlog"
+    },
+    {
+      "task": 14,
+      "state": "Backlog"
+    },
+    {
+      "task": 13,
+      "state": "Backlog"
+    },
+    {
+      "task": 11,
+      "state": "Backlog"
+    },
+    {
+      "task": 10,
+      "state": "Done"
+    },
+    {
+      "task": 9,
+      "state": "Todo"
+    },
+    {
+      "task": 8,
+      "state": "Done"
+    }
+  ],
+  "changed_during_run": [
+    80,
+    81,
+    82
+  ],
+  "new_manual_task": 86,
+  "unrelated_baseline_states_and_owners_preserved": 52
+}
