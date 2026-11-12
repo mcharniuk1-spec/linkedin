@@ -1,0 +1,23 @@
+{
+  "schema": "outspoken-tool-inventory/1",
+  "source": "reports/20261111-client-tools-first-review/",
+  "proof_summary": {
+    "spec_status": "original_first_review_specs_not_shipped_app",
+    "manual_rehearsal": "owned facts/profile/post/landing examples; no client app built, no profile edited",
+    "waalaxy": "public pages read; runtime interfaces and outputs untested"
+  },
+  "tools": [
+    {"id":"T00","name":"Evidence kit","problem":"Structure approved facts, sources and voice; expose gaps.","inputs":["approved-client-input","source-ledger","voice-samples"],"outputs":["versioned brief","claim ledger","voice brief","missing evidence"],"applicability":["Voice","Voice + Pipeline"],"evidence":"spec plus manual source/fact review; no app"},
+    {"id":"T01","name":"Buyer/message brief","problem":"Clarify buyer, alternatives and qualification questions.","inputs":["T00","client buyer and alternatives"],"outputs":["ICP hypothesis","fit/exclusion rules","qualification questions"],"applicability":["Voice","Voice + Pipeline"],"evidence":"spec plus manual buyer/message rehearsal; hypotheses unverified"},
+    {"id":"T02","name":"Profile studio","problem":"Draft evidence-bound founder profile copy.","inputs":["T00","T01","verified founder role"],"outputs":["headline variants","About draft","rationale","fact holds"],"applicability":["Voice"],"evidence":"spec plus manual drafts; personal role/voice inputs missing; no edit/app"},
+    {"id":"T03","name":"Decision-to-post workbench","problem":"Turn a real decision or argument into useful original content.","inputs":["T00","T01","actual episode or argument","eligible reviewed pattern summaries"],"outputs":["brief","paragraph map","claim ledger","caption variants","change rationale"],"applicability":["Voice"],"evidence":"spec plus manual actual-company story/caption rehearsal; no app or performance test"},
+    {"id":"T04","name":"Visual/story planner","problem":"Plan accessible, meaning-first visual content.","inputs":["T03","current Figma tokens","cleared assets"],"outputs":["panel plan","SVG/PNG/PDF when rendered","caption/alt/transcript pack"],"applicability":["Voice"],"evidence":"spec and manual handoff only; no new render claimed"},
+    {"id":"T05","name":"Profile/landing review","problem":"Prioritize source-backed profile or landing improvements.","inputs":["T00","authorized copy or screenshot/page"],"outputs":["prioritized findings","before/after copy","measurement plan"],"applicability":["Voice"],"evidence":"spec plus manual findings; no conversion/PageSpeed test or app"},
+    {"id":"T06","name":"Search planner","problem":"Build explainable Boolean queries and search links.","inputs":["approved criteria","selected search mode"],"outputs":["query","logic explanation","search-link preview"],"applicability":["Voice + Pipeline"],"evidence":"spec only; manual native validation required; no live search"},
+    {"id":"T07","name":"Research CSV workbench","problem":"Validate permitted research exports while preserving unknowns/provenance.","inputs":["permitted client export","source dates/rights"],"outputs":["clean CSV","provenance decisions","gap report"],"applicability":["Voice + Pipeline"],"evidence":"spec only; restricted later support; no app"},
+    {"id":"T08","name":"Owned-media intake","problem":"Process only owned/cleared media with rights and source traceability.","inputs":["client-owned or cleared file","rights/permission record"],"outputs":["transcript","timestamped source notes","rights record"],"applicability":["Voice + Pipeline"],"evidence":"spec only; generic downloader deferred; no media processing"}
+  ],
+  "recommended_priority": ["T00","T03","T02","T05","T01","T06"],
+  "recommendation_note":"Core Voice sequence begins T00-T03. T05 and T06 are later utilities; T06 supports search preparation, not outreach sending. IDs are preserved.",
+  "gaps": ["verified founder role/history and individual voice inputs","software pilot versus frozen manual baseline","second packet and held-out cases","actual time, cost, error and comprehension measurements","no runtime-tested Waalaxy apps"]
+}

@@ -1,0 +1,779 @@
+{
+  "as_of": "2026-11-12",
+  "status": "plane_readback_verified",
+  "expected_count": 62,
+  "states": [
+    {
+      "id": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "name": "Backlog",
+      "group": "backlog"
+    },
+    {
+      "id": "a6d92f7b-b85c-4af0-8bec-b52e7460689e",
+      "name": "Todo",
+      "group": "unstarted"
+    },
+    {
+      "id": "fb5666db-27b7-4291-adf6-0fe7d4eaa55f",
+      "name": "In Progress",
+      "group": "started"
+    },
+    {
+      "id": "303f2363-20cb-4ef9-9d56-3d1f3c4d3bb8",
+      "name": "Review",
+      "group": "started"
+    },
+    {
+      "id": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "name": "Done",
+      "group": "completed"
+    },
+    {
+      "id": "e879dcd5-dc14-49ed-843d-7ad6ad16b769",
+      "name": "Cancelled",
+      "group": "cancelled"
+    },
+    {
+      "id": "66920cf6-48ba-476f-9c4a-69fb67cc3e2c",
+      "name": "Scheduled",
+      "group": "started"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "f913c188-8d9f-40d2-9a48-f44b206be7c0",
+      "name": "Specify client writing tools and optional company-discovery/qualification workflow",
+      "priority": "high",
+      "target_date": null,
+      "sequence_id": 92,
+      "parent": "943fd6be-b2b5-4bd7-b38d-3f285f1dd7a5",
+      "state": "303f2363-20cb-4ef9-9d56-3d1f3c4d3bb8",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "93becc40-933f-4c48-ba0b-b115fda3a458",
+      "name": "Website measurement QA: verify indexation, event quality and performance",
+      "priority": "medium",
+      "target_date": null,
+      "sequence_id": 91,
+      "parent": "a93601e2-92c5-45f5-b0c4-74cf21163cb1",
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": []
+    },
+    {
+      "id": "26621989-5cc0-4d29-9486-2d42fae414d3",
+      "name": "Website reporting: connect read-only Analytics MCP and Search Console API",
+      "priority": "medium",
+      "target_date": null,
+      "sequence_id": 90,
+      "parent": "a93601e2-92c5-45f5-b0c4-74cf21163cb1",
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": []
+    },
+    {
+      "id": "3f1c7b66-9f6e-4cef-915c-1fa395db7eea",
+      "name": "Website events: implement and verify CTA, form and booking tracking",
+      "priority": "medium",
+      "target_date": null,
+      "sequence_id": 89,
+      "parent": "a93601e2-92c5-45f5-b0c4-74cf21163cb1",
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": []
+    },
+    {
+      "id": "94ca3e4c-476b-40b3-a009-51d7e0a8faf2",
+      "name": "Website analytics: define GA4/GTM ownership, consent and measurement",
+      "priority": "high",
+      "target_date": null,
+      "sequence_id": 88,
+      "parent": "a93601e2-92c5-45f5-b0c4-74cf21163cb1",
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": []
+    },
+    {
+      "id": "4760d19c-1f17-49d1-9279-bdb1651e74e3",
+      "name": "Website search: verify crawlability and connect Search Console",
+      "priority": "high",
+      "target_date": null,
+      "sequence_id": 87,
+      "parent": "a93601e2-92c5-45f5-b0c4-74cf21163cb1",
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": []
+    },
+    {
+      "id": "9b1744d6-b472-4424-8cd3-96573c7fcd11",
+      "name": "Review and publish Max’s first LinkedIn post and OutSpoken repost",
+      "priority": "high",
+      "target_date": null,
+      "sequence_id": 86,
+      "parent": "7e1bcd86-4c87-45c1-b21f-34e2bc1ec9cb",
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "04d2fcf8-b0c5-4526-8ec3-87bf9933c22a",
+      "name": "Безопасность: двухэтапная проверка на почте и сервисах сайта",
+      "priority": "high",
+      "target_date": "2026-11-12",
+      "sequence_id": 85,
+      "parent": null,
+      "state": "a6d92f7b-b85c-4af0-8bec-b52e7460689e",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "384112a2-ce39-4e79-8314-5722879abb22",
+      "name": "Define what follows the 45-minute intro call",
+      "priority": "high",
+      "target_date": null,
+      "sequence_id": 84,
+      "parent": null,
+      "state": "303f2363-20cb-4ef9-9d56-3d1f3c4d3bb8",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "122f5ee7-43ad-4118-b701-22cdb0b704d6",
+      "name": "Duplicate of OUTSP-79 — tool visual and website integration",
+      "priority": "medium",
+      "target_date": null,
+      "sequence_id": 83,
+      "parent": "6cc391c8-e2d1-45bc-9818-7bcfc8aed266",
+      "state": "e879dcd5-dc14-49ed-843d-7ad6ad16b769",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "8bda478c-0ee7-4942-89e7-cc414201bb35",
+      "name": "Create and review publication images and distinctive story visualizations",
+      "priority": "high",
+      "target_date": null,
+      "sequence_id": 82,
+      "parent": "3df9f0ef-aa50-43b3-8d70-1ad33efc92cd",
+      "state": "303f2363-20cb-4ef9-9d56-3d1f3c4d3bb8",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "3df9f0ef-aa50-43b3-8d70-1ad33efc92cd",
+      "name": "Write and review sixteen practical LinkedIn posts in Max’s voice",
+      "priority": "high",
+      "target_date": null,
+      "sequence_id": 81,
+      "parent": "56e21b20-2cb3-400a-ae38-e40aaedd50d1",
+      "state": "303f2363-20cb-4ef9-9d56-3d1f3c4d3bb8",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "8205a3dc-d84b-4eef-ab5f-0a558583abb5",
+      "name": "Refine LinkedIn methodology and test both writing skills for personal stories",
+      "priority": "high",
+      "target_date": null,
+      "sequence_id": 80,
+      "parent": "72fc735c-5322-4429-aa6c-3f534b79649a",
+      "state": "303f2363-20cb-4ef9-9d56-3d1f3c4d3bb8",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "0bcc06c5-522f-4563-816e-17ad20a1881b",
+      "name": "Integrate tested publication visuals, exports and client-tool page",
+      "priority": "none",
+      "target_date": null,
+      "sequence_id": 79,
+      "parent": null,
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "a93601e2-92c5-45f5-b0c4-74cf21163cb1",
+      "name": "Сайт 10 · Улучшения и скорость после запуска",
+      "priority": "none",
+      "target_date": null,
+      "sequence_id": 78,
+      "parent": null,
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "6edc6e2c-1adf-47cb-adeb-7ecb4eaae0a6",
+      "name": "Сайт 9 · Опубликовать сайт на домене",
+      "priority": "high",
+      "target_date": "2026-11-29",
+      "sequence_id": 77,
+      "parent": null,
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "576513ba-eaa8-4f52-9000-ba7a6c7f330c",
+      "name": "Сайт 8 · Тестовая ссылка на Cloudflare Pages и проверка",
+      "priority": "none",
+      "target_date": "2026-11-29",
+      "sequence_id": 76,
+      "parent": null,
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "1169d655-ea2a-4b6d-9e8a-9bfd12f2166c",
+      "name": "Сайт 7 · Выложить код сайта в GitHub",
+      "priority": "none",
+      "target_date": "2026-11-29",
+      "sequence_id": 75,
+      "parent": null,
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "08d24c82-5b6e-429a-87da-c58917d67dcc",
+      "name": "Сайт 6 · Собрать код сайта по макету",
+      "priority": "high",
+      "target_date": "2026-11-29",
+      "sequence_id": 74,
+      "parent": null,
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "0e77118a-878f-4287-af31-c8b4f14c4ed4",
+      "name": "Сайт 5 · Страницы Imprint и Privacy",
+      "priority": "none",
+      "target_date": "2026-11-29",
+      "sequence_id": 73,
+      "parent": null,
+      "state": "e879dcd5-dc14-49ed-843d-7ad6ad16b769",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "3b8103a3-501a-4f00-9a8e-4b557fc71299",
+      "name": "Сайт 4 · Ссылки на LinkedIn основателей в блоке Why us",
+      "priority": "none",
+      "target_date": "2026-11-29",
+      "sequence_id": 72,
+      "parent": null,
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "0e0e0fa2-7342-4620-9637-23e38f68590f",
+      "name": "Сайт 3 · Cal.com: запись на интро-звонок",
+      "priority": "high",
+      "target_date": "2026-11-29",
+      "sequence_id": 71,
+      "parent": null,
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "9da84953-5633-47fd-aa0c-2e87a2635560",
+      "name": "Сайт 2 · Корпоративная почта (Zoho Mail)",
+      "priority": "high",
+      "target_date": "2026-11-29",
+      "sequence_id": 70,
+      "parent": null,
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "c316baf4-e62f-4b51-b7e8-bb98176466e0",
+      "name": "Сайт 1 · Купить домен",
+      "priority": "high",
+      "target_date": "2026-11-29",
+      "sequence_id": 69,
+      "parent": null,
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "0987919d-6fd4-4d27-a81c-127d6c7b175a",
+      "name": "Later: add verified search planning and permitted CSV tools for outreach",
+      "priority": "low",
+      "target_date": null,
+      "sequence_id": 68,
+      "parent": "a815f644-9aa3-40e1-b256-8388e9d67763",
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "87e7dd14-17cd-49ff-81d1-552d4d4be684",
+      "name": "Build the client workbench from the revised LinkedIn methodology and skills",
+      "priority": "high",
+      "target_date": null,
+      "sequence_id": 67,
+      "parent": "6cc391c8-e2d1-45bc-9818-7bcfc8aed266",
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "477e1e22-0943-455f-8ead-31c2c1ffc401",
+      "name": "Test our profiles, ten rewritten posts and visuals against the client workbench",
+      "priority": "high",
+      "target_date": null,
+      "sequence_id": 66,
+      "parent": "87e7dd14-17cd-49ff-81d1-552d4d4be684",
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "0ef80a89-36fb-4e9d-ab61-ddc953b6b687",
+      "name": "First review: Waalaxy tools and Outspoken client-tool roadmap",
+      "priority": "high",
+      "target_date": null,
+      "sequence_id": 64,
+      "parent": null,
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "084cdb93-cc95-449e-ac55-ef0776ae075e",
+      "name": "Publish selected results and posts on Michael’s LinkedIn profile",
+      "priority": "high",
+      "target_date": null,
+      "sequence_id": 63,
+      "parent": "a7113eb5-24d9-4f45-8fd3-e9185155e8f3",
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "17f290db-7e81-4bc9-8528-f0a5b1d72a2e",
+      "name": "11.1 · Rehearse the service and calculate full delivery cost before pricing",
+      "priority": "high",
+      "target_date": null,
+      "sequence_id": 62,
+      "parent": "36c791f3-587d-412c-ae2d-9c1ca3db011b",
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "fd769f09-2803-4adb-9d84-427340e2c16e",
+      "name": "9.1 · Compare competitor services, execution assets and normalized prices",
+      "priority": "high",
+      "target_date": null,
+      "sequence_id": 60,
+      "parent": "4bfb4fa1-47f4-44c3-84b5-f6fc716b6061",
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "a7113eb5-24d9-4f45-8fd3-e9185155e8f3",
+      "name": "Revise ten publications against current Figma system and buyer storytelling",
+      "priority": "none",
+      "target_date": null,
+      "sequence_id": 56,
+      "parent": "56e21b20-2cb3-400a-ae38-e40aaedd50d1",
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "2f3e6572-d276-4dc1-8c51-e9db5719620e",
+      "name": "Prepare accessible text handoff for all ten publication concepts",
+      "priority": "medium",
+      "target_date": null,
+      "sequence_id": 51,
+      "parent": "56e21b20-2cb3-400a-ae38-e40aaedd50d1",
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "58604e5f-26f5-4129-95a1-3ba1c100a50f",
+      "name": "Deliver reusable outreach preparation and conversation-log templates",
+      "priority": "medium",
+      "target_date": null,
+      "sequence_id": 50,
+      "parent": "9803af11-2e2e-400e-87a9-5d8977337ae7",
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "9803af11-2e2e-400e-87a9-5d8977337ae7",
+      "name": "Review remaining launch tasks and assign Max the next owner and outreach actions",
+      "priority": "high",
+      "target_date": null,
+      "sequence_id": 49,
+      "parent": "8431fafe-e4e6-4a56-9768-c36c550dbb59",
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "56e21b20-2cb3-400a-ae38-e40aaedd50d1",
+      "name": "Review and improve the ten current publication designs and evidence-to-caption handoff",
+      "priority": "high",
+      "target_date": null,
+      "sequence_id": 48,
+      "parent": "8431fafe-e4e6-4a56-9768-c36c550dbb59",
+      "state": "303f2363-20cb-4ef9-9d56-3d1f3c4d3bb8",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "af4dc459-6f6d-419f-91e9-6f8cddfd6098",
+      "name": "Create, safely install and behaviorally test the two LinkedIn writing skills",
+      "priority": "high",
+      "target_date": null,
+      "sequence_id": 47,
+      "parent": "8431fafe-e4e6-4a56-9768-c36c550dbb59",
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "8431fafe-e4e6-4a56-9768-c36c550dbb59",
+      "name": "Verify methodology integration and complete the original competitor cohort",
+      "priority": "medium",
+      "target_date": null,
+      "sequence_id": 46,
+      "parent": "72fc735c-5322-4429-aa6c-3f534b79649a",
+      "state": "303f2363-20cb-4ef9-9d56-3d1f3c4d3bb8",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "72fc735c-5322-4429-aa6c-3f534b79649a",
+      "name": "LinkedIn writing methodology: publication patterns and story architecture",
+      "priority": "medium",
+      "target_date": null,
+      "sequence_id": 45,
+      "parent": null,
+      "state": "303f2363-20cb-4ef9-9d56-3d1f3c4d3bb8",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "89b25c20-caf2-4c11-9e5d-b52d7d897f48",
+      "name": "Лог разговоров",
+      "priority": "none",
+      "target_date": "2026-12-18",
+      "sequence_id": 44,
+      "parent": null,
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "2efe425e-e1bd-42ef-81e0-af424994b9ab",
+      "name": "Первые сообщения",
+      "priority": "none",
+      "target_date": null,
+      "sequence_id": 43,
+      "parent": null,
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "a815f644-9aa3-40e1-b256-8388e9d67763",
+      "name": "Список ICP: 50–80 компаний",
+      "priority": "none",
+      "target_date": null,
+      "sequence_id": 42,
+      "parent": null,
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "289f3c64-b0c4-41e2-8006-e96a5f8afc8a",
+      "name": "Тёплый круг",
+      "priority": "none",
+      "target_date": null,
+      "sequence_id": 41,
+      "parent": null,
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "7e1bcd86-4c87-45c1-b21f-34e2bc1ec9cb",
+      "name": "Профиль Макса",
+      "priority": "medium",
+      "target_date": null,
+      "sequence_id": 39,
+      "parent": null,
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "7e8d9b83-52b6-4d49-a5c9-9c06e432af55",
+      "name": "Упаковка профиля Миши",
+      "priority": "medium",
+      "target_date": null,
+      "sequence_id": 36,
+      "parent": null,
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "6ad33c44-2290-459a-b403-58206f660ac3",
+      "name": "Перенести последние правки лендинга в Figma",
+      "priority": "none",
+      "target_date": "2026-11-29",
+      "sequence_id": 34,
+      "parent": null,
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "f8d68f93-705f-4632-9306-a6c34c31af45",
+      "name": "Меню на телефоне",
+      "priority": "none",
+      "target_date": "2026-11-29",
+      "sequence_id": 33,
+      "parent": null,
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "086a1bb1-12d3-40bd-8310-e47a7d12a87e",
+      "name": "Тексты лендинга",
+      "priority": "none",
+      "target_date": "2026-11-29",
+      "sequence_id": 29,
+      "parent": null,
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "062a87aa-071b-475a-85be-ff5426afb382",
+      "name": "What changes: убрать или оставить блок",
+      "priority": "none",
+      "target_date": "2026-11-29",
+      "sequence_id": 28,
+      "parent": null,
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "ede9bda6-222e-4cb8-8343-3bc0afe62f00",
+      "name": "How we start",
+      "priority": "urgent",
+      "target_date": "2026-11-29",
+      "sequence_id": 27,
+      "parent": null,
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "b0fd4105-222a-49cb-ac10-0088cb6519f2",
+      "name": "How it works: выбрать оформление",
+      "priority": "none",
+      "target_date": "2026-11-29",
+      "sequence_id": 26,
+      "parent": null,
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "8158e429-69e7-4a86-b6c8-c16aa0b426c6",
+      "name": "Где ведём эти задачи",
+      "priority": "none",
+      "target_date": null,
+      "sequence_id": 25,
+      "parent": null,
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "943fd6be-b2b5-4bd7-b38d-3f285f1dd7a5",
+      "name": "Define agency and client tools for each OutSpoken service and delivery step",
+      "priority": "high",
+      "target_date": null,
+      "sequence_id": 20,
+      "parent": null,
+      "state": "fb5666db-27b7-4291-adf6-0fe7d4eaa55f",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "ee6a14ba-22b4-4672-923a-25479e34ddc7",
+      "name": "Открытие ФОП и создание NDA договора",
+      "priority": "urgent",
+      "target_date": "2026-12-07",
+      "sequence_id": 18,
+      "parent": null,
+      "state": "a6d92f7b-b85c-4af0-8bec-b52e7460689e",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "c44f2664-2fb2-461e-9fe4-162df1e15a48",
+      "name": "Service blueprint v1",
+      "priority": "high",
+      "target_date": "2026-11-15",
+      "sequence_id": 16,
+      "parent": null,
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "be1c3b2d-a53a-4c8f-a800-f50d43aed6e7",
+      "name": "Define customer fit, readiness and cadence inputs",
+      "priority": "none",
+      "target_date": "2026-11-15",
+      "sequence_id": 15,
+      "parent": null,
+      "state": "303f2363-20cb-4ef9-9d56-3d1f3c4d3bb8",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "6cc391c8-e2d1-45bc-9818-7bcfc8aed266",
+      "name": "Define useful value without purchase",
+      "priority": "none",
+      "target_date": "2026-11-15",
+      "sequence_id": 14,
+      "parent": null,
+      "state": "303f2363-20cb-4ef9-9d56-3d1f3c4d3bb8",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "ddd80ae8-ce6b-473b-8a2b-06d135dee828",
+      "name": "Решения по пути клиента",
+      "priority": "none",
+      "target_date": "2026-11-15",
+      "sequence_id": 13,
+      "parent": null,
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "36c791f3-587d-412c-ae2d-9c1ca3db011b",
+      "name": "Регулярные цены обоих планов",
+      "priority": "high",
+      "target_date": "2026-11-15",
+      "sequence_id": 11,
+      "parent": null,
+      "state": "b92d5b7c-b073-42e7-aa40-d218b38b80da",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8",
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "49ebf392-8845-425a-be47-7ac31256d4ff",
+      "name": "Состав Plan 1 и Plan 2",
+      "priority": "urgent",
+      "target_date": "2026-11-15",
+      "sequence_id": 10,
+      "parent": null,
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    },
+    {
+      "id": "4bfb4fa1-47f4-44c3-84b5-f6fc716b6061",
+      "name": "Agency enquiries: brief and intro calls with five providers",
+      "priority": "urgent",
+      "target_date": "2026-11-16",
+      "sequence_id": 9,
+      "parent": null,
+      "state": "66920cf6-48ba-476f-9c4a-69fb67cc3e2c",
+      "assignees": [
+        "194c0718-02dc-469e-8c42-548e63edede8"
+      ]
+    },
+    {
+      "id": "22e672ff-ccd7-4a25-a010-ff481047da16",
+      "name": "Пригласить Макса в воркспейс OutSpoken",
+      "priority": "high",
+      "target_date": null,
+      "sequence_id": 8,
+      "parent": null,
+      "state": "c95a1cea-8a11-422c-9bc9-526bcdb02f55",
+      "assignees": [
+        "a951e73b-bfb0-4bc7-88e2-1c63a7fb95cd"
+      ]
+    }
+  ]
+}

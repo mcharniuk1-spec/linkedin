@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-12",
+  "status": "PASS_WITH_LIMITS",
+  "checks": {
+    "exact_existing_tool_ID_name_coverage": 9,
+    "inspected_endpoints": 3,
+    "paid_endpoint_runs": 0,
+    "qualification_fields_separate": true,
+    "price_arithmetic_checked": true,
+    "owner_instructions_tasks": [
+      14,
+      84,
+      15
+    ],
+    "publication_execution_deferred": true
+  },
+  "independent_worker": "Luna inventory; exact ID/name comparison verified by root",
+  "limits": [
+    "Specification and source review only; no client application or endpoint data-output test.",
+    "The proposed output contract is not an executed JSON Schema validator.",
+    "Provider documentation pages were unavailable through the web tool.",
+    "Human acceptance, source rights, fit accuracy, actual costs and usable-match rate remain unverified.",
+    "Publication typography/layout feedback was recorded, not fixed this run."
+  ],
+  "plane": {
+    "total": 62,
+    "all_pages": true,
+    "task20": "In Progress / Max",
+    "task92": "Review / Max; child of20",
+    "other_prior_state_owner_rows_preserved": 59,
+    "task9": "Scheduled; owner-confirmed calls Monday 2026-11-16"
+  },
+  "independent_integration_review": {
+    "scope": "four root-authored decision/tool/workflow/feedback documents",
+    "findings": 0,
+    "limits": "No source-ledger, live endpoint, asset or broader task-table review."
+  }
+}

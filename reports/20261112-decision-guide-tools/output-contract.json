@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "status": "proposed_not_implemented",
+  "purpose": "company candidate review; not a buying-intent score",
+  "fields": {
+    "candidate_id": "stable string",
+    "company_name": "string",
+    "canonical_domain": "verified domain or null",
+    "identity_status": [
+      "verified",
+      "unverified",
+      "conflict"
+    ],
+    "fit_status": [
+      "supported",
+      "unknown",
+      "outside_scope"
+    ],
+    "need_status": [
+      "expressed",
+      "unknown",
+      "declined"
+    ],
+    "readiness_status": [
+      "ready",
+      "unknown",
+      "blocked"
+    ],
+    "buying_interest": [
+      "explicit",
+      "unknown",
+      "declined"
+    ],
+    "source_facts": "list of field/value/source_url/observed_at; unknown values null",
+    "company_linkedin_url": "verified URL or null",
+    "person_linkedin_url": "verified company-role identity URL or null",
+    "unknowns": "list",
+    "rights_state": [
+      "reviewed_for_this_use",
+      "unreviewed",
+      "restricted"
+    ],
+    "review_status": [
+      "not_reviewed",
+      "changes_needed",
+      "approved"
+    ],
+    "reviewer": "named role/person or null",
+    "next_action": "research/clarify/draft/hold/stop",
+    "outreach_executed": "false in this planning workflow"
+  },
+  "rules": [
+    "A fit match alone does not change need/readiness/buying_interest from unknown.",
+    "Identity conflicts, restricted sources or declined interest prevent an outreach-ready decision.",
+    "A draft needs source-backed context; an approved draft still does not authorize sending.",
+    "No personal emails, phone numbers, real contacts or replies belong in the public example.",
+    "A schema or declared source cannot establish factual correctness or lawful reuse."
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "date": "2026-11-12",
+  "verification": "connected MCP discovery and inspection succeeded; provider execution not performed",
+  "endpoints": [
+    {
+      "provider": "context.dev",
+      "endpoint": "/company/search",
+      "method": "POST",
+      "doc_url": "https://docs.context.dev/api-reference/company/search",
+      "inputs": {
+        "body": {
+          "$schema": "https://json-schema.org/draft/2020-12/schema",
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 5000,
+              "description": "Describe the companies to find, e.g. 'payment infrastructure companies in Ireland'. Up to 500 characters (5000 in ultra mode)."
+            },
+            "mode": {
+              "description": "'fast' (the default): 2 credits ($0.004) per page, query up to 500 characters. 'ultra': a deeper search, 10 credits ($0.02) per page, query up to 5000 characters.",
+              "type": "string",
+              "enum": [
+                "fast",
+                "ultra"
+              ]
+            },
+            "filters": {
+              "description": "Constraints every result must match.",
+              "type": "object",
+              "properties": {
+                "countries": {
+                  "description": "Headquarters countries as two-letter codes, e.g. ['US', 'GB'].",
+                  "type": "array",
+                  "items": {
+                    "type": "string",
+                    "pattern": "^[A-Z]{2}$"
+                  }
+                },
+                "employees_min": {
+                  "description": "Minimum headcount (overlapping employee ranges match).",
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 9007199254740991
+                },
+                "employees_max": {
+                  "description": "Maximum headcount (overlapping employee ranges match).",
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 9007199254740991
+                }
+              },
+              "additionalProperties": false
+            },
+            "cursor": {
+              "description": "next_cursor from the previous response; send it with the same query and filters to fetch the next page.",
+              "type": "string",
+              "maxLength": 64
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "additionalProperties": false
+        },
+        "bodyType": "json"
+      },
+      "listed_price": {
+        "type": "PER_UNIT",
+        "amount": {
+          "value": 0.002,
+          "currency": "USD"
+        },
+        "per": 1,
+        "unit": "credit",
+        "notes": [
+          "Billed per Context.dev credit actually consumed ($0.002 per credit, reported by the vendor on every response); failed and blocked requests consume none. On x402 the quoted estimate is the price.",
+          "2 credits per page of results in fast mode ($0.004), the default; 10 in ultra mode ($0.02). A search with no results is free."
+        ]
+      }
+    },
+    {
+      "provider": "akta",
+      "endpoint": "/v1/company/search",
+      "method": "GET",
+      "doc_url": "https://agent-docs.akta.pro/api-reference/supporting-apis/company-search",
+      "inputs": {
+        "queryParams": {
+          "$schema": "https://json-schema.org/draft/2020-12/schema",
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "minLength": 1,
+              "description": "A company name or website. The backend auto-detects the input type. Examples: 'https://canva.com', 'canva'."
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "listed_price": {
+        "type": "PER_CALL",
+        "amount": {
+          "value": 0,
+          "currency": "USD"
+        }
+      }
+    },
+    {
+      "provider": "akta",
+      "endpoint": "/v1/company/enrichment",
+      "method": "GET",
+      "doc_url": "https://agent-docs.akta.pro/api-reference/company-data",
+      "inputs": {
+        "queryParams": {
+          "$schema": "https://json-schema.org/draft/2020-12/schema",
+          "type": "object",
+          "properties": {
+            "company": {
+              "type": "string",
+              "minLength": 1,
+              "description": "Company website (e.g. 'https://canva.com') or the company uuid returned by the akta Company Search endpoint. A bare company name is NOT accepted here — resolve it via company-search first."
+            },
+            "sections": {
+              "minItems": 1,
+              "type": "array",
+              "items": {
+                "type": "string",
+                "enum": [
+                  "firmographic",
+                  "business_model",
+                  "company_assessment",
+                  "trust_signal",
+                  "company_hierarchy",
+                  "digital_presence",
+                  "financial_estimate",
+                  "location",
+                  "management_profile",
+                  "product_offering",
+                  "strategic_signal",
+                  "customer_profile",
+                  "industry",
+                  "technology",
+                  "funding_detail",
+                  "mna_and_investment"
+                ]
+              },
+              "description": "Sections to return (comma-separated query param). Required — to get every section, list all of them. Available: firmographic, business_model, company_assessment, trust_signal, company_hierarchy, digital_presence, financial_estimate, location, management_profile, product_offering, strategic_signal, customer_profile, industry, technology, funding_detail, mna_and_investment."
+            }
+          },
+          "required": [
+            "company",
+            "sections"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "listed_price": {
+        "type": "PER_RESULT",
+        "amount": {
+          "value": 0.025,
+          "currency": "USD"
+        }
+      }
+    }
+  ],
+  "pricing_caveat": "akta /v1/company/enrichment catalog base is USD 0.025; detailed inspection lists per-section rates. Firmographic is USD 0.10 and digital_presence is USD 0.025. Reinspect before a budgeted run.",
+  "provider_docs_web_status": "The three returned doc URLs could not be opened through the web tool.",
+  "paid_runs": 0,
+  "prospect_collection": false
+}

@@ -1,3 +1,9 @@
+## Current owner decisions and tool workflow — 12 November 2026
+
+[Start with 14, 84 and 15: steps, examples and reply template](reports/20261112-decision-guide-tools/DECISIONS-STEP-BY-STEP.md) · [Client tools and offer explanation](reports/20261112-decision-guide-tools/TOOLS-AND-OFFERS.md) · [Optional Monid workflow](reports/20261112-decision-guide-tools/MONID-WORKFLOW.md) · [Publication feedback for the next revision](reports/20261112-decision-guide-tools/PUBLICATION-FEEDBACK.md) · [Current 62-task snapshot](reports/20261112-decision-guide-tools/tasks.json).
+
+OUTSP-9 is Scheduled: all agency calls are booked for Monday, 16 November, per the owner update. [Monday checklist](reports/20261112-decision-guide-tools/AGENCY-CALLS-MONDAY.md). OUTSP-20 is In Progress. Its bounded specification child OUTSP-92 is in Review under Max. Publication changes are deferred; 87–91 stay unchanged. The previous source editions remain preserved.
+
 ## Current offer and publication review — 12 November 2026
 
 [Decision packets: 14, 84 and 15](reports/20261112-offer-qualification/README.md) · [All 61 tasks and priorities](reports/20261112-offer-qualification/TASKS.md) · [16-post gallery](publications/20261112-discovery-edition/index.html) · [Agency enquiry preparation](outreach/20261112-agency-enquiries/AGENCY-GUIDE.md) · [Search and analytics plan](reports/20261112-offer-qualification/SEARCH-AND-MEASUREMENT.md) · [Execution index](docs/LLM-EXECUTION-INDEX.md).
