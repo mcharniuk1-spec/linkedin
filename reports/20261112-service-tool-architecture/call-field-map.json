@@ -1,0 +1,198 @@
+{
+  "schema_version": "1.0",
+  "fields": [
+    {
+      "id": "business_profile",
+      "prompt": "What do you sell, to whom, and how do customers buy?",
+      "source": "intake_or_call",
+      "report": "business_and_priority_customer",
+      "offer": "personalization",
+      "required": true
+    },
+    {
+      "id": "priority_segment",
+      "prompt": "Which customer segment matters most now?",
+      "source": "intake_or_call",
+      "report": "business_and_priority_customer",
+      "offer": "target_scope",
+      "required": true
+    },
+    {
+      "id": "trigger",
+      "prompt": "What changed that makes this a priority?",
+      "source": "call",
+      "report": "summary",
+      "offer": "timing_context",
+      "required": false
+    },
+    {
+      "id": "desired_outcome",
+      "prompt": "What result would make the next 90 days successful, and how will you measure it?",
+      "source": "intake_or_call",
+      "report": "desired_outcome_and_horizon",
+      "offer": "success_measure",
+      "required": true
+    },
+    {
+      "id": "current_process",
+      "prompt": "Walk me through one recent win and one stalled or lost case; what is the process?",
+      "source": "intake_or_call",
+      "report": "current_process",
+      "offer": "diagnosis_basis",
+      "required": true
+    },
+    {
+      "id": "metrics_evidence",
+      "prompt": "Which numbers are observed, for what period and denominator, and what source supports them?",
+      "source": "artifact_or_call",
+      "report": "known_uncertain_and_priorities",
+      "offer": "baseline_and_measure",
+      "required": false
+    },
+    {
+      "id": "constraint",
+      "prompt": "Where does work slow down or fail, and what evidence supports that?",
+      "source": "call",
+      "report": "main_constraint_and_priorities",
+      "offer": "recommended_support",
+      "required": true
+    },
+    {
+      "id": "prior_tests",
+      "prompt": "What have you tested, at what cost, and what happened?",
+      "source": "intake_or_call",
+      "report": "diagnosis_and_priorities",
+      "offer": "avoid_repeating_work",
+      "required": false
+    },
+    {
+      "id": "content_linkedin",
+      "prompt": "If relevant: audience, offer, roles, source supply, approval capacity, current cadence and rationale?",
+      "source": "call_branch",
+      "report": "execution_blocks",
+      "offer": "cadence_or_content_support",
+      "required": false
+    },
+    {
+      "id": "outbound_email",
+      "prompt": "If relevant: target definition, approved data basis, sequence, reply handling, and evidence?",
+      "source": "call_branch",
+      "report": "execution_blocks_and_dependencies",
+      "offer": "outbound_support_boundary",
+      "required": false
+    },
+    {
+      "id": "paid_ads",
+      "prompt": "If relevant: objective, channel, evidenced spend/results, tracking, budget authority, and constraints?",
+      "source": "call_branch",
+      "report": "execution_blocks_and_gaps",
+      "offer": "ads_support_boundary",
+      "required": false
+    },
+    {
+      "id": "ai_integration",
+      "prompt": "If relevant: task, inputs/outputs, systems/access owner, failure cost, human review, privacy limits, success measure?",
+      "source": "call_branch",
+      "report": "execution_blocks_and_dependencies",
+      "offer": "one_bounded_tool_fit",
+      "required": false
+    },
+    {
+      "id": "capacity_dependencies",
+      "prompt": "Who owns the work; what review capacity, approvals, access, or dependencies apply?",
+      "source": "call",
+      "report": "dependencies_or_owner",
+      "offer": "scope_and_client_responsibilities",
+      "required": true
+    },
+    {
+      "id": "buying_process",
+      "prompt": "Who decides, what support level is useful, what timing/investment is realistic, and are there procurement or security reviews?",
+      "source": "call",
+      "report": "follow_up",
+      "offer": "scope_timing_support_price_pending",
+      "required": true
+    },
+    {
+      "id": "constraints_data_rights",
+      "prompt": "What must not change, and what data/materials can be safely shared and used?",
+      "source": "intake_or_call",
+      "report": "gaps_and_caveats",
+      "offer": "inputs_access_and_caveats",
+      "required": true
+    },
+    {
+      "id": "confirmation",
+      "prompt": "What did I miss or get wrong, and may we use the supplied materials for this analysis?",
+      "source": "call_close",
+      "report": "prospect_confirmation",
+      "offer": "follow_up",
+      "required": true
+    },
+    {
+      "id": "markets_languages",
+      "prompt": "Which countries, languages and buyer roles are practical first targets?",
+      "source": "intake",
+      "report": "target_scope",
+      "offer": "target_scope",
+      "required": false
+    },
+    {
+      "id": "alternatives_competitors",
+      "prompt": "Which competitors or alternatives do buyers compare, and which public examples should we inspect?",
+      "source": "intake",
+      "report": "source_research",
+      "offer": "source_research",
+      "required": false
+    },
+    {
+      "id": "current_tool_stack",
+      "prompt": "Which tools/accounts already work; who owns, operates and pays for them?",
+      "source": "intake",
+      "report": "tool_selection",
+      "offer": "tool_selection",
+      "required": false
+    },
+    {
+      "id": "qualified_customer_definition",
+      "prompt": "What would make a company, contact, conversation and meeting suitable for your business?",
+      "source": "call_branch",
+      "report": "qualification",
+      "offer": "qualification",
+      "required": false
+    },
+    {
+      "id": "tool_delivery_acceptance",
+      "prompt": "Which agent/product/interface can you use; what sample input/output, review, failure fallback and support would make one tool useful?",
+      "source": "call_branch",
+      "report": "one_tool_acceptance",
+      "offer": "one_tool_acceptance",
+      "required": false
+    },
+    {
+      "id": "followup_preferences",
+      "prompt": "Would a brief strategy, one adapted tool or both address the main constraint; what material and delivery expectations need agreement?",
+      "source": "call_close",
+      "report": "followup_scope",
+      "offer": "followup_scope",
+      "required": false
+    }
+  ],
+  "capture_rules": {
+    "value_provenance": [
+      "observed",
+      "reported",
+      "estimated",
+      "unknown"
+    ],
+    "metrics_require": [
+      "period",
+      "denominator",
+      "source_or_marked_unknown"
+    ],
+    "branches": "Ask only branches relevant to the prospect's priority; defer lower-priority branches to protect the 45-minute limit.",
+    "offer_boundary": "Exact scope, tools, deadline, support, and price remain pending cost and owner decision; recommend at most one bounded adapted reusable tool.",
+    "privacy": "No credentials. Recording requires separate authorization. Keep original source artifacts separate from summaries; quotes private by default.",
+    "scope": "22 field groups across intake/core/conditional branches; do not ask every branch live; unresolved values stay unknown."
+  }
+}

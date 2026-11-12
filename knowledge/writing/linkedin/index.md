@@ -35,3 +35,8 @@ The task brief explicitly supplies this index, relevant card IDs and the selecte
 ## Discovery and cadence update — 12 November 2026
 
 Use [the discovery-call and cadence note](discovery-call-and-cadence.md) before generating a service or frequency claim. The 45-minute call determines the provisional cadence. Proposed free-output scope and timing require an explicit owner decision in [the current decision packet](../../../reports/20261112-offer-qualification/DECISIONS.md). The [16-post edition](../../../publications/20261112-discovery-edition/README.md) applies this guidance. The tested 1.1.1 skill bundles are unchanged.
+
+
+## Current service and buyer direction — 12 November 2026
+
+Use [the current owner decisions](../../../reports/20261112-service-tool-architecture/DECISIONS.md), [service/tool architecture](../../../reports/20261112-service-tool-architecture/SERVICE-ARCHITECTURE.md) and [qualification v2](../../../reports/20261112-service-tool-architecture/QUALIFICATION.md) before drafting offer-related content. Working B2B services, agencies, growth firms and startups are eligible research directions; AI SaaS is no longer an exclusive internal gate. Protected public website wording remains unchanged pending its own revision. The free follow-up is a brief strategy and/or one selected adapted tool plus a personalized offer; fixed deadlines/caps and final pricing remain pending Monday comparison/costing. Do not import old unaccepted defaults as facts. Writing skills remain 1.1.1; no client app or integration is activated by this knowledge update.

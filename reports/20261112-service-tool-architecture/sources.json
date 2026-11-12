@@ -1,0 +1,56 @@
+{
+  "date": "2026-11-12",
+  "type": "primary_vendor_pages_and_prior_owned_evidence",
+  "sources": [
+    {
+      "id": "hunter",
+      "url": "https://hunter.io/pricing",
+      "supports": "Finder/verifier/connected-mailbox roles and displayed free/annual plan; no account test"
+    },
+    {
+      "id": "workspace",
+      "url": "https://knowledge.workspace.google.com/admin/billing/compare-flexible-and-annual-fixed-term-payment-plans",
+      "supports": "USD standard flexible versus annual commitment price; no client setup"
+    },
+    {
+      "id": "gmail",
+      "url": "https://support.google.com/mail/answer/81126?hl=en",
+      "supports": "Sender authentication/operation guidance; no DNS validation"
+    },
+    {
+      "id": "linkedin-budget",
+      "url": "https://business.linkedin.com/advertise/ads/best-practices/maximize-your-budget",
+      "supports": "Campaign Manager and platform budget minimum, not recommended test budget"
+    },
+    {
+      "id": "linkedin-access",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a1341387/prohibited-software-and-extensions",
+      "supports": "No promised unauthorized LinkedIn account automation or scraper bypass"
+    },
+    {
+      "id": "monid",
+      "url": "../20261112-decision-guide-tools/monid-catalog.json",
+      "supports": "Dated connected schema/price inspection, not executed data query"
+    },
+    {
+      "id": "waalaxy",
+      "url": "../20261111-client-tools-first-review/WAALAXY-TOOLS.md",
+      "supports": "Ten-tool functional benchmark; no runtime-tested embedded tool"
+    },
+    {
+      "id": "competitors",
+      "url": "../20261111-client-tools-first-review/competitor-ledger.json",
+      "supports": "Prior public cohort; no new interviews or private-stack evidence"
+    },
+    {
+      "id": "method",
+      "url": "../../knowledge/writing/linkedin/index.md",
+      "supports": "Owned writing methodology/source cards and current buyer/service direction"
+    }
+  ],
+  "limitations": [
+    "Five agency-call transcripts and private prices do not yet exist in this run.",
+    "New wider customer cohorts are hypotheses, not validated demand.",
+    "The fixed historical LinkedIn corpus cannot prove optimal cadence or conversion for broader cohorts."
+  ]
+}

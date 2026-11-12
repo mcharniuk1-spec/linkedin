@@ -1,3 +1,7 @@
+## Current service and tool architecture — 12 November 2026
+
+[Owner decisions and complete service plan](reports/20261112-service-tool-architecture/README.md) · [45-minute intake](reports/20261112-service-tool-architecture/CALL-TEMPLATE.md) · [Client report template](reports/20261112-service-tool-architecture/CLIENT-REPORT-TEMPLATE.md) · [Tool selection](reports/20261112-service-tool-architecture/TOOL-SELECTION.md) · [Monday comparison and pricing](reports/20261112-service-tool-architecture/MONDAY-AND-PRICING.md). The latest owner direction supersedes the previous unanswered decision choices. Exact scope/timing/price remain open after Monday. Older versions remain preserved.
+
 ## Current owner decisions and tool workflow — 12 November 2026
 
 [Start with 14, 84 and 15: steps, examples and reply template](reports/20261112-decision-guide-tools/DECISIONS-STEP-BY-STEP.md) · [Client tools and offer explanation](reports/20261112-decision-guide-tools/TOOLS-AND-OFFERS.md) · [Optional Monid workflow](reports/20261112-decision-guide-tools/MONID-WORKFLOW.md) · [Publication feedback for the next revision](reports/20261112-decision-guide-tools/PUBLICATION-FEEDBACK.md) · [Current 62-task snapshot](reports/20261112-decision-guide-tools/tasks.json).

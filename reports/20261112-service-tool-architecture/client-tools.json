@@ -1,0 +1,159 @@
+{
+  "version": 2,
+  "status": "provisional_menu_after_owner_direction",
+  "modules": [
+    {
+      "id": "T00",
+      "name": "Evidence kit",
+      "status": "existing_spec_not_shipped_client_app",
+      "outputs": [
+        "versioned brief",
+        "claim ledger",
+        "voice brief",
+        "missing evidence"
+      ],
+      "role": "deterministic validation plus human source review",
+      "evidence": "spec plus manual source/fact review; no app"
+    },
+    {
+      "id": "T01",
+      "name": "Buyer/message brief",
+      "status": "existing_spec_not_shipped_client_app",
+      "outputs": [
+        "ICP hypothesis",
+        "fit/exclusion rules",
+        "qualification questions"
+      ],
+      "role": "structured reasoning; hypotheses remain hypotheses",
+      "evidence": "spec plus manual buyer/message rehearsal; hypotheses unverified"
+    },
+    {
+      "id": "T02",
+      "name": "Profile studio",
+      "status": "existing_spec_not_shipped_client_app",
+      "outputs": [
+        "headline variants",
+        "About draft",
+        "rationale",
+        "fact holds"
+      ],
+      "role": "source-bound LLM/native-agent drafting plus deterministic literal/count checks",
+      "evidence": "spec plus manual drafts; personal role/voice inputs missing; no edit/app"
+    },
+    {
+      "id": "T03",
+      "name": "Decision-to-post workbench",
+      "status": "existing_spec_not_shipped_client_app",
+      "outputs": [
+        "brief",
+        "paragraph map",
+        "claim ledger",
+        "caption variants",
+        "change rationale"
+      ],
+      "role": "two owned writing skills, humanization, independent fact/meaning review",
+      "evidence": "spec plus manual actual-company story/caption rehearsal; no app or performance test"
+    },
+    {
+      "id": "T04",
+      "name": "Visual/story planner",
+      "status": "existing_spec_not_shipped_client_app",
+      "outputs": [
+        "panel plan",
+        "SVG/PNG/PDF when rendered",
+        "caption/alt/transcript pack"
+      ],
+      "role": "meaning-first native layout; actual rendering and accessibility/source reconciliation",
+      "evidence": "spec and manual handoff only; no new render claimed"
+    },
+    {
+      "id": "T05",
+      "name": "Profile/landing review",
+      "status": "existing_spec_not_shipped_client_app",
+      "outputs": [
+        "prioritized findings",
+        "before/after copy",
+        "measurement plan"
+      ],
+      "role": "source-backed rubric; observation/inference/recommendation kept separate",
+      "evidence": "spec plus manual findings; no conversion/PageSpeed test or app"
+    },
+    {
+      "id": "T06",
+      "name": "Search planner",
+      "status": "existing_spec_not_shipped_client_app",
+      "outputs": [
+        "query",
+        "logic explanation",
+        "search-link preview"
+      ],
+      "role": "deterministic Boolean and documented URL serialization; manual native validation",
+      "evidence": "spec only; manual native validation required; no live search"
+    },
+    {
+      "id": "T07",
+      "name": "Research CSV workbench",
+      "status": "existing_spec_not_shipped_client_app",
+      "outputs": [
+        "clean CSV",
+        "provenance decisions",
+        "gap report"
+      ],
+      "role": "schema/identity/dedup checks; unknowns preserved; human candidate matching",
+      "evidence": "spec only; restricted later support; no app"
+    },
+    {
+      "id": "T08",
+      "name": "Owned-media intake",
+      "status": "existing_spec_not_shipped_client_app",
+      "outputs": [
+        "transcript",
+        "timestamped source notes",
+        "rights record"
+      ],
+      "role": "preserve original; verified transcript/quote timestamps; existing local route only if checked",
+      "evidence": "spec only; generic downloader deferred; no media processing"
+    },
+    {
+      "id": "T09",
+      "name": "Business email finder and verification brief",
+      "status": "new_proposed_module_not_implemented",
+      "outputs": [
+        "source-linked business contact candidate",
+        "verification result/date",
+        "ambiguity and permitted-use hold"
+      ],
+      "role": "selective provider research and human identity/source review; verification is not consent"
+    },
+    {
+      "id": "T10",
+      "name": "Outreach campaign and reply planner",
+      "status": "new_proposed_module_not_implemented",
+      "outputs": [
+        "audience/channel brief",
+        "message sequence and stop rules",
+        "reply/qualification map",
+        "handoff to authorized operator"
+      ],
+      "role": "align content, researched context and actual replies; no unauthorized LinkedIn automation"
+    },
+    {
+      "id": "T11",
+      "name": "LinkedIn ads strategy and measurement brief",
+      "status": "new_proposed_module_not_implemented",
+      "outputs": [
+        "objective/audience/creative plan",
+        "budget and test hypothesis",
+        "tracking checklist",
+        "reporting decisions"
+      ],
+      "role": "native Campaign Manager/Ad Library with authorized account and measurement access; separately scoped"
+    }
+  ],
+  "free_route": "at most one selected bounded tool; exact eligibility and delivery rules pending Monday review",
+  "implementation_tasks": [
+    67,
+    66,
+    79
+  ]
+}

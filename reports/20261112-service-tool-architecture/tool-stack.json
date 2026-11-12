@@ -1,0 +1,1100 @@
+{
+  "version": 1,
+  "status": "selection_v1_pending_quotes_access_runtime_and_costing",
+  "expected_stages": 26,
+  "stages": [
+    {
+      "id": "S01",
+      "stage": "Intake",
+      "plan": "Both",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Intake supports its named output; exact scope is client-specific",
+      "agency_tool": "Shared document",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Client approved inputs",
+      "outputs": "Business/buyer/tool constraints",
+      "modules": [
+        "T00",
+        "T01"
+      ],
+      "permissions_setup": "Named owner, approved source/use and least required account roles; never passwords in exports",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Verify sources, exact output, account identity and client usability for this stage",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    },
+    {
+      "id": "S02",
+      "stage": "Call and notes",
+      "plan": "Both",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Call and notes supports its named output; exact scope is client-specific",
+      "agency_tool": "Meeting tool plus notes",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Actual45min call",
+      "outputs": "Source-bound summary",
+      "modules": [
+        "T00",
+        "T08"
+      ],
+      "permissions_setup": "Named owner, approved source/use and least required account roles; never passwords in exports",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Verify sources, exact output, account identity and client usability for this stage",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    },
+    {
+      "id": "S03",
+      "stage": "Permitted transcript",
+      "plan": "Conditional",
+      "required_optional": "optional_when_relevant",
+      "problem_method": "Permitted transcript supports its named output; exact scope is client-specific",
+      "agency_tool": "Meeting recording/export or permitted local transcript",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Recording permission and actual media",
+      "outputs": "Original plus reviewed transcript",
+      "modules": [
+        "T08"
+      ],
+      "permissions_setup": "Permission and actual recording/export; operator maintains original plus corrected transcript",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Check speaker labels, timestamps and unclear text against the actual source; notes are not a verbatim transcript",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    },
+    {
+      "id": "S04",
+      "stage": "Evidence and rights",
+      "plan": "Both",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Evidence and rights supports its named output; exact scope is client-specific",
+      "agency_tool": "Claim/source ledger",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Approved sources and permissions",
+      "outputs": "Reviewed facts/gaps",
+      "modules": [
+        "T00"
+      ],
+      "permissions_setup": "Named owner, approved source/use and least required account roles; never passwords in exports",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Verify sources, exact output, account identity and client usability for this stage",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    },
+    {
+      "id": "S05",
+      "stage": "ICP and positioning",
+      "plan": "Both",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "ICP and positioning supports its named output; exact scope is client-specific",
+      "agency_tool": "Buyer brief and native research",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Actual offer and priority segment",
+      "outputs": "Fit/exclusion/message brief",
+      "modules": [
+        "T01"
+      ],
+      "permissions_setup": "Named owner, approved source/use and least required account roles; never passwords in exports",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Verify sources, exact output, account identity and client usability for this stage",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    },
+    {
+      "id": "S06",
+      "stage": "Competitor review",
+      "plan": "Both",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Competitor review supports its named output; exact scope is client-specific",
+      "agency_tool": "Official pages/native LinkedIn/Ad Library",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Named alternatives and public examples",
+      "outputs": "Observed patterns and limits",
+      "modules": [
+        "T01",
+        "T05"
+      ],
+      "permissions_setup": "Public/reference source rights; native/manual access only",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Record hook/body/proof/visual observations and what transfers; do not infer reach or private tools",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    },
+    {
+      "id": "S07",
+      "stage": "Profile",
+      "plan": "Voice",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Profile supports its named output; exact scope is client-specific",
+      "agency_tool": "Native LinkedIn + document",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Verified role and offer",
+      "outputs": "Reviewed headline/About/Featured",
+      "modules": [
+        "T02"
+      ],
+      "permissions_setup": "Named owner, approved source/use and least required account roles; never passwords in exports",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Verify sources, exact output, account identity and client usability for this stage",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    },
+    {
+      "id": "S08",
+      "stage": "Content planning",
+      "plan": "Voice",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Content planning supports its named output; exact scope is client-specific",
+      "agency_tool": "Sheet/board",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Buyer questions and source supply",
+      "outputs": "Topics/cadence/owners",
+      "modules": [
+        "T01",
+        "T03"
+      ],
+      "permissions_setup": "Named owner, approved source/use and least required account roles; never passwords in exports",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Verify sources, exact output, account identity and client usability for this stage",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    },
+    {
+      "id": "S09",
+      "stage": "Hooks and body",
+      "plan": "Voice",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Hooks and body supports its named output; exact scope is client-specific",
+      "agency_tool": "Writing skills1.1.1 + editor",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Approved material and stance",
+      "outputs": "Hook/topic/story/draft",
+      "modules": [
+        "T03"
+      ],
+      "permissions_setup": "Approved voice/source pack; client factual reviewer",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Hook promise fulfilled by body; source-linked claims; useful conclusion; exact protected wording",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    },
+    {
+      "id": "S10",
+      "stage": "Human editing",
+      "plan": "Voice",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Human editing supports its named output; exact scope is client-specific",
+      "agency_tool": "Source/voice review",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Draft and factual reviewer",
+      "outputs": "Specific edits and holds",
+      "modules": [
+        "T00",
+        "T03"
+      ],
+      "permissions_setup": "Named owner, approved source/use and least required account roles; never passwords in exports",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Verify sources, exact output, account identity and client usability for this stage",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    },
+    {
+      "id": "S11",
+      "stage": "Visual production",
+      "plan": "Voice",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Visual production supports its named output; exact scope is client-specific",
+      "agency_tool": "Owned design system/editable SVG; authorized Figma",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Reviewed text and cleared assets",
+      "outputs": "Graphics/alt/editable source",
+      "modules": [
+        "T04"
+      ],
+      "permissions_setup": "Cleared fonts/assets and approved design rules; Figma mutation only when authorized",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Native/mobile rendered review of type hierarchy, emphasis, cropping and matching caption/alt",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    },
+    {
+      "id": "S12",
+      "stage": "Approval/versioning",
+      "plan": "Both",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Approval/versioning supports its named output; exact scope is client-specific",
+      "agency_tool": "Document suggestions + revision ledger",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Named reviewer and deadline",
+      "outputs": "Accepted exact revision",
+      "modules": [
+        "T00"
+      ],
+      "permissions_setup": "Named owner, approved source/use and least required account roles; never passwords in exports",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Verify sources, exact output, account identity and client usability for this stage",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    },
+    {
+      "id": "S13",
+      "stage": "Publishing",
+      "plan": "Voice",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Publishing supports its named output; exact scope is client-specific",
+      "agency_tool": "Native LinkedIn",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Exact approved revision and account authority",
+      "outputs": "Actual post record",
+      "modules": [
+        "T03",
+        "T04"
+      ],
+      "permissions_setup": "Exact account, revision and named authorized publisher",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Read back actual post URL/date/revision; draft or schedule is not publication",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    },
+    {
+      "id": "S14",
+      "stage": "Engagement",
+      "plan": "Both",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Engagement supports its named output; exact scope is client-specific",
+      "agency_tool": "Native LinkedIn + reply log",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Actual reactions/questions",
+      "outputs": "Useful approved responses",
+      "modules": [
+        "T01"
+      ],
+      "permissions_setup": "Named owner, approved source/use and least required account roles; never passwords in exports",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Verify sources, exact output, account identity and client usability for this stage",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    },
+    {
+      "id": "S15",
+      "stage": "Company discovery",
+      "plan": "Pipeline",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Company discovery supports its named output; exact scope is client-specific",
+      "agency_tool": "Public sites/native search; optional Monid",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Approved ICP and markets",
+      "outputs": "Candidate companies with sources",
+      "modules": [
+        "T06",
+        "T07"
+      ],
+      "permissions_setup": "Named owner, approved source/use and least required account roles; never passwords in exports",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Verify sources, exact output, account identity and client usability for this stage",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": [
+        "monid_catalog"
+      ]
+    },
+    {
+      "id": "S16",
+      "stage": "Identity/role checks",
+      "plan": "Pipeline",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Identity/role checks supports its named output; exact scope is client-specific",
+      "agency_tool": "Official site links/native review",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Canonical company/domain and person",
+      "outputs": "Verified candidate or hold",
+      "modules": [
+        "T01",
+        "T07"
+      ],
+      "permissions_setup": "Source-authorized identity/role checks",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Domain/company/person-role agreement; ambiguous identities held; fit is not buying interest",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    },
+    {
+      "id": "S17",
+      "stage": "Email data",
+      "plan": "Pipeline optional",
+      "required_optional": "optional_when_relevant",
+      "problem_method": "Email data supports its named output; exact scope is client-specific",
+      "agency_tool": "Hunter finder/verifier",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Relevant company/person and approved use",
+      "outputs": "Contact candidate/verification/date",
+      "modules": [
+        "T09"
+      ],
+      "permissions_setup": "Approved contact purpose, provider terms/access and source retention",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Record found/inferred source and verification date; verification does not establish consent or certain delivery",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": [
+        "hunter_free",
+        "hunter_starter_annual"
+      ]
+    },
+    {
+      "id": "S18",
+      "stage": "Mailbox setup",
+      "plan": "Email optional",
+      "required_optional": "optional_when_relevant",
+      "problem_method": "Mailbox setup supports its named output; exact scope is client-specific",
+      "agency_tool": "Existing client mailbox; Workspace alternative",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Domain/DNS/owner/payer",
+      "outputs": "Verified authentication and sender checks",
+      "modules": [
+        "T09",
+        "T10"
+      ],
+      "permissions_setup": "Client-owned DNS/domain/mailbox; explicit operator and payer",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Inspect actual SPF/DKIM/DMARC and controlled send/reply; stop on authentication/failure gaps",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": [
+        "workspace_flexible",
+        "workspace_annual"
+      ]
+    },
+    {
+      "id": "S19",
+      "stage": "Campaign strategy",
+      "plan": "Pipeline",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Campaign strategy supports its named output; exact scope is client-specific",
+      "agency_tool": "Campaign brief/Sheet; optional Hunter sequence",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Segment, resource and approved messages",
+      "outputs": "Channel/sequence/stop/test plan",
+      "modules": [
+        "T10"
+      ],
+      "permissions_setup": "Named owner, approved source/use and least required account roles; never passwords in exports",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Verify sources, exact output, account identity and client usability for this stage",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": [
+        "hunter_free",
+        "hunter_starter_annual"
+      ]
+    },
+    {
+      "id": "S20",
+      "stage": "Authorized outreach",
+      "plan": "Pipeline",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Authorized outreach supports its named output; exact scope is client-specific",
+      "agency_tool": "Native account/mailbox; tested supported sender",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Recipient/content/account permission",
+      "outputs": "Actual execution log",
+      "modules": [
+        "T10"
+      ],
+      "permissions_setup": "Recipient/context/message/channel authorization and supported operator",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Controlled test and actual send/reply/stop/dedupe logs; no LinkedIn scraping or unauthorized bot",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    },
+    {
+      "id": "S21",
+      "stage": "Replies and meetings",
+      "plan": "Pipeline",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Replies and meetings supports its named output; exact scope is client-specific",
+      "agency_tool": "CRM/Sheet + client booking",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Actual reply and qualification rules",
+      "outputs": "Next action/meeting brief",
+      "modules": [
+        "T01",
+        "T10"
+      ],
+      "permissions_setup": "Named owner, approved source/use and least required account roles; never passwords in exports",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Verify sources, exact output, account identity and client usability for this stage",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    },
+    {
+      "id": "S22",
+      "stage": "Ads strategy/operation",
+      "plan": "Ads option",
+      "required_optional": "optional_when_relevant",
+      "problem_method": "Ads strategy/operation supports its named output; exact scope is client-specific",
+      "agency_tool": "Campaign Manager/Ad Library",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Objective/roles/creative/landing/budget",
+      "outputs": "Scoped test and reporting plan",
+      "modules": [
+        "T11"
+      ],
+      "permissions_setup": "Client-owned ad account, roles/budget/billing/landing/privacy decisions",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Objective/audience/creative/landing match; tracking test and actual spend/event readback; no campaign launched in this run",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": [
+        "linkedin_ads_minimum"
+      ]
+    },
+    {
+      "id": "S23",
+      "stage": "Analytics",
+      "plan": "Both",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Analytics supports its named output; exact scope is client-specific",
+      "agency_tool": "Native analytics/CRM; authorized site analytics",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Baseline/source/period/denominator",
+      "outputs": "Decisions and limits",
+      "modules": [
+        "T05",
+        "T11"
+      ],
+      "permissions_setup": "Named owner, approved source/use and least required account roles; never passwords in exports",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Verify sources, exact output, account identity and client usability for this stage",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    },
+    {
+      "id": "S24",
+      "stage": "Free follow-up/tool handoff",
+      "plan": "Free route",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Free follow-up/tool handoff supports its named output; exact scope is client-specific",
+      "agency_tool": "Report template and one selected module",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Reviewed call facts/client environment",
+      "outputs": "Brief strategy and/or one adapted tool",
+      "modules": [
+        "T00",
+        "T01"
+      ],
+      "permissions_setup": "Client-approved output and tool/environment boundary",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Client can use sample input to obtain the agreed output; export/config alone is not a connected agent",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    },
+    {
+      "id": "S25",
+      "stage": "Onboarding and billing",
+      "plan": "Both",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Onboarding and billing supports its named output; exact scope is client-specific",
+      "agency_tool": "Scope checklist/client invoice/booking tools",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Accepted offer/legal/payer details",
+      "outputs": "Responsibilities and invoice/next dates",
+      "modules": [
+        "T00"
+      ],
+      "permissions_setup": "Named owner, approved source/use and least required account roles; never passwords in exports",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Verify sources, exact output, account identity and client usability for this stage",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    },
+    {
+      "id": "S26",
+      "stage": "Export/support/retention",
+      "plan": "Both",
+      "required_optional": "required_for_agreed_scope",
+      "problem_method": "Export/support/retention supports its named output; exact scope is client-specific",
+      "agency_tool": "Editable export/private source store",
+      "client_tool_account": "Existing client document/account where needed; explicit client-owned mailbox/ad account for channel execution",
+      "operator": "Agency prepares/reviews; named client or authorized operator executes account actions",
+      "payer": "Client-owned channel seats/media; agency-shared preparation tools; confirm in offer",
+      "client_inputs": "Ownership/retention/support choices",
+      "outputs": "Usable handoff and support limits",
+      "modules": [
+        "T00",
+        "T07"
+      ],
+      "permissions_setup": "Agreed artifact/data ownership, license and retention/support terms",
+      "manual_automated": "Manual/source review baseline; bounded drafting/validation; automation only when supported and tested",
+      "competitor_evidence": "Existing public reference ledgers; five agency-call methods/quotes pending16Nov; private stacks unknown",
+      "existing_vs_new": "Existing methods/reviewable assets; client app/integration not established",
+      "alternatives_rationale": "Reuse current suitable tool; provider upgrade only if needed; see TOOL-SELECTION.md",
+      "cost": {
+        "price": null,
+        "currency": null,
+        "billing_period": null,
+        "seats_usage": null,
+        "setup_recurring": "record separately",
+        "shared_incremental": "allocate once; do not double count",
+        "evidence": "Per-client selection pending; dated vendor examples in TOOL-SELECTION.md"
+      },
+      "access_test_status": "No new client/account/API or execution test in this run",
+      "data_flow_retention": "Approved inputs \u2192 scoped private workspace \u2192 reviewed export; agree retention/deletion and provider handling",
+      "quality_check": "Usable editable export; access/retention record and support contact; no hidden dependency on our private paths",
+      "fallback": "Manual document/Sheet/native operation or defer blocked integration",
+      "task_links": [
+        20,
+        92,
+        16,
+        62
+      ],
+      "vendor_price_refs": []
+    }
+  ],
+  "cost_observations": "vendor-price-observations.json"
+}

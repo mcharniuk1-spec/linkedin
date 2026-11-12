@@ -1,0 +1,62 @@
+{
+  "observed_date": "2026-11-12",
+  "status": "vendor_public_price_snapshot_not_quote_or_runtime_validation",
+  "observations": [
+    {
+      "id": "hunter_free",
+      "vendor": "Hunter",
+      "amount": 0,
+      "currency": "USD",
+      "billing_period": "month",
+      "limits": "50 credits/month; one connected mailbox; no mailbox infrastructure included",
+      "source": "https://hunter.io/pricing"
+    },
+    {
+      "id": "hunter_starter_annual",
+      "vendor": "Hunter",
+      "amount": 408,
+      "currency": "USD",
+      "billing_period": "year",
+      "monthly_equivalent": 34,
+      "commitment": "annual billing; flexible monthly price unverified",
+      "limits": "24000 credits/year; three connected email accounts; verify selected product/API pool",
+      "source": "https://hunter.io/pricing"
+    },
+    {
+      "id": "workspace_flexible",
+      "vendor": "Google Workspace Business Starter",
+      "amount": 8.4,
+      "currency": "USD",
+      "billing_period": "user/month",
+      "commitment": "flexible; standard price, region/tax may differ",
+      "source": "https://knowledge.workspace.google.com/admin/billing/compare-flexible-and-annual-fixed-term-payment-plans"
+    },
+    {
+      "id": "workspace_annual",
+      "vendor": "Google Workspace Business Starter",
+      "amount": 7,
+      "currency": "USD",
+      "billing_period": "user/month equivalent",
+      "commitment": "one-year commitment; USD84/year per user",
+      "source": "https://knowledge.workspace.google.com/admin/billing/compare-flexible-and-annual-fixed-term-payment-plans"
+    },
+    {
+      "id": "monid_catalog",
+      "vendor": "Monid Context.dev / akta",
+      "amount": null,
+      "currency": "USD",
+      "billing_period": "usage",
+      "limits": "Dated inspected rates: Context.dev fast0.004/page; akta search0/call; enrichment section rates. Reinspect before run.",
+      "source": "../20261112-decision-guide-tools/monid-catalog.json"
+    },
+    {
+      "id": "linkedin_ads_minimum",
+      "vendor": "LinkedIn",
+      "amount": 10,
+      "currency": "USD",
+      "billing_period": "day minimum ad spend",
+      "limits": "Platform minimum, not recommended budget or result forecast; spend separate from agency fee",
+      "source": "https://business.linkedin.com/advertise/ads/best-practices/maximize-your-budget"
+    }
+  ]
+}
