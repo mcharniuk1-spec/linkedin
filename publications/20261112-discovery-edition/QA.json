@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "posts": 16,
+  "graphics": 19,
+  "source_items": 15,
+  "tasks": 61,
+  "base_blobs": 2530,
+  "issues": [],
+  "checks": [
+    "all post and application IDs",
+    "caption lengths and exact handoff",
+    "all source IDs",
+    "protected CTA and cadence hypothesis",
+    "all 19 asset pairs and dimensions",
+    "all asset SHA256 manifests and binary rights",
+    "four PDF pages from native renderer",
+    "all Markdown file links against base plus overlay",
+    "all 61 task IDs",
+    "five enquiry letters"
+  ],
+  "limits": "Factual/source review and visual inspection remain separate. Owner acceptance, delivery performance, Google account setup and social publication are not established by these checks.",
+  "date": "2026-11-12",
+  "browser": {
+    "desktop": "16 articles; all 19 images loaded; no horizontal overflow",
+    "mobile": "390px viewport; all images loaded; no horizontal overflow; temporary viewport reset",
+    "gallery_opened": true
+  },
+  "independent_review": {
+    "workers": 3,
+    "publication_coverage": "16 captions, 19 visual pairs, five enquiry letters and 15 source IDs",
+    "integrated_correction": "Removed wording from post 15 that could imply an unapproved free written plan."
+  },
+  "skills": {
+    "version": "1.1.1",
+    "changed_this_block": false,
+    "previous_static_and_behavior_evidence": "reports/20261112-methodology-completion/",
+    "runtime_model_identity": "Luna requested; separate actual identity not exposed"
+  },
+  "dataset": {
+    "posts": 279,
+    "accounts": 61,
+    "snapshots": 477,
+    "reobservations": 198,
+    "sha256": "a91235e87579ae4fd85656bca35e9e2297a10e9dd2ab70d235b28fc7f06f4d22"
+  },
+  "owner_acceptance": false,
+  "social_publication": false
+}

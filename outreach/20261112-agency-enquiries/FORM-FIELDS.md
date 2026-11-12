@@ -1,0 +1,13 @@
+# Observed intake fields —12 November 2026
+
+Root inspected these rendered pages without entering personal data or submitting. A scheduler's later attendee fields are not established by an empty embed. Required-field validation was not triggered.
+
+| Agency | Verified route and UI | What to enter / alternative |
+|---|---|---|
+|Windmill|[Booking page](https://windmillgrowth.com/book-a-call); Calendly embed at `calendly.com/d/ctg6-7bd-yrm/windmill-discovery-call`. Embed attendee fields did not render.|If it loads, inspect actual labels; use real name/contact. The page provides [benb@windmillgrowth.com](mailto:benb@windmillgrowth.com) when the diary does not work. Send the short prepared enquiry if you choose.|
+|notus|[Book a demo](https://www.notus.xyz/book-a-demo); Calendly embed. [Waitlist](https://lupz15hzcs5.typeform.com/to/k9Mcjpyd) is a separate form. Fields remain unverified.|Use the stated 30-minute call purpose to ask about its playbook. The waitlist is an alternative contact route, not a required account or purchase. Check fields first.|
+|Stop The Scroll|[Contact](https://www.stopthescroll.io/contact) embeds `stopthescroll.youcanbook.me`. Displayed `/intro-call` returned 404; use the contact-page embed. Attendee fields unverified.|Inspect the actual scheduler before entering details. If blocked or a company is mandatory, use public process/pricing and ask through an available public contact route. Do not guess another booking URL.|
+|Cleverly|[Consultation](https://www.cleverly.co/free-consultation), Calendly `calendly.com/cleverly/cleverly-introduction`. Attendee fields unverified. Footer provides [info@cleverly.co](mailto:info@cleverly.co).|Use the information email for a process/pricing enquiry if you prefer not to complete a scheduler.|
+|Belkins|[Homepage](https://belkins.io/)→Get a quote. Visible: first/last name, job title, business email, phone, company name/size, monthly budget, company HQ, industry; then Continue.|Company disclosure is part of this route. Required/optional status is not established by absent HTML required attributes; app validation may apply. Use [sales@belkins.io](mailto:sales@belkins.io) to ask for public information instead. Form text mentions SMS contact consent; read before any submission.|
+
+Field handling: name/contact = your real information; title = accurate role or independent professional; company/website = optional leave blank or “Prefer not to disclose at this stage” only if accepted truthfully; budget = “Not decided” only when offered/true; free text = agency-specific enquiry. If mandatory selectors cannot describe the situation accurately, use email or public material. No fake domain, company, project, budget or employment is needed.

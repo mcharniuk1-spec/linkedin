@@ -1,0 +1,13 @@
+OutSpoken
+“Send me details.” What
+do you send?
+Example incoming reply
+“Send me details.”
+Is the bigger problem finding ideas,
+or turning your knowledge into posts
+that sound like you?
+1. Answer the request
+2. Ask what changes the recommendation
+3. Share the relevant example
+4. Agree the next step
+Record the actual reply and next action in the contact record.

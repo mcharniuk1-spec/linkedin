@@ -1,0 +1,556 @@
+{
+  "as_of": "2026-11-12",
+  "status": "delivery_snapshot_to_verify_against_plane",
+  "expected_count": 61,
+  "tasks": [
+    {
+      "number": 8,
+      "id": "22e672ff-ccd7-4a25-a010-ff481047da16",
+      "title": "Invite Max to workspace",
+      "state": "Done",
+      "owner": "Michael",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/22e672ff-ccd7-4a25-a010-ff481047da16"
+    },
+    {
+      "number": 9,
+      "id": "4bfb4fa1-47f4-44c3-84b5-f6fc716b6061",
+      "title": "Five agency enquiries and intro calls",
+      "state": "In Progress",
+      "owner": "Max",
+      "plane_priority": "urgent",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/4bfb4fa1-47f4-44c3-84b5-f6fc716b6061"
+    },
+    {
+      "number": 10,
+      "id": "49ebf392-8845-425a-be47-7ac31256d4ff",
+      "title": "Package scope",
+      "state": "Done",
+      "owner": "Michael",
+      "plane_priority": "urgent",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/49ebf392-8845-425a-be47-7ac31256d4ff"
+    },
+    {
+      "number": 11,
+      "id": "36c791f3-587d-412c-ae2d-9c1ca3db011b",
+      "title": "Final package pricing",
+      "state": "Backlog",
+      "owner": "Max, Michael",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/36c791f3-587d-412c-ae2d-9c1ca3db011b"
+    },
+    {
+      "number": 13,
+      "id": "ddd80ae8-ce6b-473b-8a2b-06d135dee828",
+      "title": "Customer journey decisions",
+      "state": "Backlog",
+      "owner": "Max",
+      "plane_priority": "none",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/ddd80ae8-ce6b-473b-8a2b-06d135dee828"
+    },
+    {
+      "number": 14,
+      "id": "6cc391c8-e2d1-45bc-9818-7bcfc8aed266",
+      "title": "Useful value without purchase",
+      "state": "Review",
+      "owner": "Max",
+      "plane_priority": "none",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/6cc391c8-e2d1-45bc-9818-7bcfc8aed266"
+    },
+    {
+      "number": 15,
+      "id": "be1c3b2d-a53a-4c8f-a800-f50d43aed6e7",
+      "title": "Customer qualification",
+      "state": "Review",
+      "owner": "Max",
+      "plane_priority": "none",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/be1c3b2d-a53a-4c8f-a800-f50d43aed6e7"
+    },
+    {
+      "number": 16,
+      "id": "c44f2664-2fb2-461e-9fe4-162df1e15a48",
+      "title": "Service blueprint",
+      "state": "Backlog",
+      "owner": "Max",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/c44f2664-2fb2-461e-9fe4-162df1e15a48"
+    },
+    {
+      "number": 18,
+      "id": "ee6a14ba-22b4-4672-923a-25479e34ddc7",
+      "title": "Business setup, NDA and privacy decisions",
+      "state": "Todo",
+      "owner": "Max",
+      "plane_priority": "urgent",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/ee6a14ba-22b4-4672-923a-25479e34ddc7"
+    },
+    {
+      "number": 20,
+      "id": "943fd6be-b2b5-4bd7-b38d-3f285f1dd7a5",
+      "title": "Agency/client tools by service step",
+      "state": "Backlog",
+      "owner": "Max",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/943fd6be-b2b5-4bd7-b38d-3f285f1dd7a5"
+    },
+    {
+      "number": 25,
+      "id": "8158e429-69e7-4a86-b6c8-c16aa0b426c6",
+      "title": "Task workspace",
+      "state": "Done",
+      "owner": "Michael",
+      "plane_priority": "none",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/8158e429-69e7-4a86-b6c8-c16aa0b426c6"
+    },
+    {
+      "number": 26,
+      "id": "b0fd4105-222a-49cb-ac10-0088cb6519f2",
+      "title": "How it works presentation",
+      "state": "Done",
+      "owner": "Michael",
+      "plane_priority": "none",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/b0fd4105-222a-49cb-ac10-0088cb6519f2"
+    },
+    {
+      "number": 27,
+      "id": "ede9bda6-222e-4cb8-8343-3bc0afe62f00",
+      "title": "How we start",
+      "state": "Done",
+      "owner": "Michael",
+      "plane_priority": "urgent",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/ede9bda6-222e-4cb8-8343-3bc0afe62f00"
+    },
+    {
+      "number": 28,
+      "id": "062a87aa-071b-475a-85be-ff5426afb382",
+      "title": "What changes section",
+      "state": "Done",
+      "owner": "Michael",
+      "plane_priority": "none",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/062a87aa-071b-475a-85be-ff5426afb382"
+    },
+    {
+      "number": 29,
+      "id": "086a1bb1-12d3-40bd-8310-e47a7d12a87e",
+      "title": "Landing copy",
+      "state": "Done",
+      "owner": "Michael",
+      "plane_priority": "none",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/086a1bb1-12d3-40bd-8310-e47a7d12a87e"
+    },
+    {
+      "number": 33,
+      "id": "f8d68f93-705f-4632-9306-a6c34c31af45",
+      "title": "Mobile menu",
+      "state": "Done",
+      "owner": "Michael",
+      "plane_priority": "none",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/f8d68f93-705f-4632-9306-a6c34c31af45"
+    },
+    {
+      "number": 34,
+      "id": "6ad33c44-2290-459a-b403-58206f660ac3",
+      "title": "Sync landing changes to Figma",
+      "state": "Done",
+      "owner": "Michael",
+      "plane_priority": "none",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/6ad33c44-2290-459a-b403-58206f660ac3"
+    },
+    {
+      "number": 36,
+      "id": "7e8d9b83-52b6-4d49-a5c9-9c06e432af55",
+      "title": "Michael profile",
+      "state": "Backlog",
+      "owner": "Michael",
+      "plane_priority": "medium",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/7e8d9b83-52b6-4d49-a5c9-9c06e432af55"
+    },
+    {
+      "number": 39,
+      "id": "7e1bcd86-4c87-45c1-b21f-34e2bc1ec9cb",
+      "title": "Max profile",
+      "state": "Backlog",
+      "owner": "Max",
+      "plane_priority": "medium",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/7e1bcd86-4c87-45c1-b21f-34e2bc1ec9cb"
+    },
+    {
+      "number": 41,
+      "id": "289f3c64-b0c4-41e2-8006-e96a5f8afc8a",
+      "title": "Warm network",
+      "state": "Backlog",
+      "owner": "Max",
+      "plane_priority": "none",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/289f3c64-b0c4-41e2-8006-e96a5f8afc8a"
+    },
+    {
+      "number": 42,
+      "id": "a815f644-9aa3-40e1-b256-8388e9d67763",
+      "title": "Verified ICP list: 50\u201380 companies",
+      "state": "Backlog",
+      "owner": "Max",
+      "plane_priority": "none",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/a815f644-9aa3-40e1-b256-8388e9d67763"
+    },
+    {
+      "number": 43,
+      "id": "2efe425e-e1bd-42ef-81e0-af424994b9ab",
+      "title": "First prospect messages",
+      "state": "Backlog",
+      "owner": "Max",
+      "plane_priority": "none",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/2efe425e-e1bd-42ef-81e0-af424994b9ab"
+    },
+    {
+      "number": 44,
+      "id": "89b25c20-caf2-4c11-9e5d-b52d7d897f48",
+      "title": "Conversation log",
+      "state": "Backlog",
+      "owner": "Max",
+      "plane_priority": "none",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/89b25c20-caf2-4c11-9e5d-b52d7d897f48"
+    },
+    {
+      "number": 45,
+      "id": "72fc735c-5322-4429-aa6c-3f534b79649a",
+      "title": "LinkedIn story architecture",
+      "state": "Review",
+      "owner": "Max",
+      "plane_priority": "medium",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/72fc735c-5322-4429-aa6c-3f534b79649a"
+    },
+    {
+      "number": 46,
+      "id": "8431fafe-e4e6-4a56-9768-c36c550dbb59",
+      "title": "Method integration and competitor cohort",
+      "state": "Review",
+      "owner": "Max",
+      "plane_priority": "medium",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/8431fafe-e4e6-4a56-9768-c36c550dbb59"
+    },
+    {
+      "number": 47,
+      "id": "af4dc459-6f6d-419f-91e9-6f8cddfd6098",
+      "title": "Create and test both writing skills",
+      "state": "Done",
+      "owner": "Max",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/af4dc459-6f6d-419f-91e9-6f8cddfd6098"
+    },
+    {
+      "number": 48,
+      "id": "56e21b20-2cb3-400a-ae38-e40aaedd50d1",
+      "title": "Publication design and evidence review",
+      "state": "Review",
+      "owner": "Max",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/56e21b20-2cb3-400a-ae38-e40aaedd50d1"
+    },
+    {
+      "number": 49,
+      "id": "9803af11-2e2e-400e-87a9-5d8977337ae7",
+      "title": "Launch priorities and owners",
+      "state": "Done",
+      "owner": "Max",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/9803af11-2e2e-400e-87a9-5d8977337ae7"
+    },
+    {
+      "number": 50,
+      "id": "58604e5f-26f5-4129-95a1-3ba1c100a50f",
+      "title": "Outreach preparation templates",
+      "state": "Done",
+      "owner": "Max",
+      "plane_priority": "medium",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/58604e5f-26f5-4129-95a1-3ba1c100a50f"
+    },
+    {
+      "number": 51,
+      "id": "2f3e6572-d276-4dc1-8c51-e9db5719620e",
+      "title": "Accessible publication text",
+      "state": "Done",
+      "owner": "Max",
+      "plane_priority": "medium",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/2f3e6572-d276-4dc1-8c51-e9db5719620e"
+    },
+    {
+      "number": 56,
+      "id": "a7113eb5-24d9-4f45-8fd3-e9185155e8f3",
+      "title": "Figma and buyer-story revision",
+      "state": "Done",
+      "owner": "Max",
+      "plane_priority": "none",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/a7113eb5-24d9-4f45-8fd3-e9185155e8f3"
+    },
+    {
+      "number": 60,
+      "id": "fd769f09-2803-4adb-9d84-427340e2c16e",
+      "title": "Compare competitor service, assets and prices",
+      "state": "Backlog",
+      "owner": "Max",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/fd769f09-2803-4adb-9d84-427340e2c16e"
+    },
+    {
+      "number": 62,
+      "id": "17f290db-7e81-4bc9-8528-f0a5b1d72a2e",
+      "title": "Timed rehearsal and delivery costing",
+      "state": "Backlog",
+      "owner": "Max",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/17f290db-7e81-4bc9-8528-f0a5b1d72a2e"
+    },
+    {
+      "number": 63,
+      "id": "084cdb93-cc95-449e-ac55-ef0776ae075e",
+      "title": "Michael LinkedIn publication",
+      "state": "Backlog",
+      "owner": "Michael",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/084cdb93-cc95-449e-ac55-ef0776ae075e"
+    },
+    {
+      "number": 64,
+      "id": "0ef80a89-36fb-4e9d-ab61-ddc953b6b687",
+      "title": "Waalaxy tool review",
+      "state": "Done",
+      "owner": "Max",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/0ef80a89-36fb-4e9d-ab61-ddc953b6b687"
+    },
+    {
+      "number": 66,
+      "id": "477e1e22-0943-455f-8ead-31c2c1ffc401",
+      "title": "Test profiles, posts and visuals in the workbench",
+      "state": "Backlog",
+      "owner": "Max",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/477e1e22-0943-455f-8ead-31c2c1ffc401"
+    },
+    {
+      "number": 67,
+      "id": "87e7dd14-17cd-49ff-81d1-552d4d4be684",
+      "title": "Build client workbench",
+      "state": "Backlog",
+      "owner": "Max",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/87e7dd14-17cd-49ff-81d1-552d4d4be684"
+    },
+    {
+      "number": 68,
+      "id": "0987919d-6fd4-4d27-a81c-127d6c7b175a",
+      "title": "Later permitted search and CSV tools",
+      "state": "Backlog",
+      "owner": "Max",
+      "plane_priority": "low",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/0987919d-6fd4-4d27-a81c-127d6c7b175a"
+    },
+    {
+      "number": 69,
+      "id": "c316baf4-e62f-4b51-b7e8-bb98176466e0",
+      "title": "Buy domain",
+      "state": "Done",
+      "owner": "Michael",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/c316baf4-e62f-4b51-b7e8-bb98176466e0"
+    },
+    {
+      "number": 70,
+      "id": "9da84953-5633-47fd-aa0c-2e87a2635560",
+      "title": "Company email",
+      "state": "Done",
+      "owner": "Michael",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/9da84953-5633-47fd-aa0c-2e87a2635560"
+    },
+    {
+      "number": 71,
+      "id": "0e0e0fa2-7342-4620-9637-23e38f68590f",
+      "title": "Booking integration",
+      "state": "Done",
+      "owner": "Michael",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/0e0e0fa2-7342-4620-9637-23e38f68590f"
+    },
+    {
+      "number": 72,
+      "id": "3b8103a3-501a-4f00-9a8e-4b557fc71299",
+      "title": "Founder LinkedIn links",
+      "state": "Done",
+      "owner": "Michael",
+      "plane_priority": "none",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/3b8103a3-501a-4f00-9a8e-4b557fc71299"
+    },
+    {
+      "number": 73,
+      "id": "0e77118a-878f-4287-af31-c8b4f14c4ed4",
+      "title": "Duplicate legal pages",
+      "state": "Cancelled",
+      "owner": "Michael",
+      "plane_priority": "none",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/0e77118a-878f-4287-af31-c8b4f14c4ed4"
+    },
+    {
+      "number": 74,
+      "id": "08d24c82-5b6e-429a-87da-c58917d67dcc",
+      "title": "Build landing code",
+      "state": "Done",
+      "owner": "Michael",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/08d24c82-5b6e-429a-87da-c58917d67dcc"
+    },
+    {
+      "number": 75,
+      "id": "1169d655-ea2a-4b6d-9e8a-9bfd12f2166c",
+      "title": "Publish website source to GitHub",
+      "state": "Done",
+      "owner": "Michael",
+      "plane_priority": "none",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/1169d655-ea2a-4b6d-9e8a-9bfd12f2166c"
+    },
+    {
+      "number": 76,
+      "id": "576513ba-eaa8-4f52-9000-ba7a6c7f330c",
+      "title": "Cloudflare preview and QA",
+      "state": "Done",
+      "owner": "Michael",
+      "plane_priority": "none",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/576513ba-eaa8-4f52-9000-ba7a6c7f330c"
+    },
+    {
+      "number": 77,
+      "id": "6edc6e2c-1adf-47cb-adeb-7ecb4eaae0a6",
+      "title": "Publish production domain",
+      "state": "Done",
+      "owner": "Michael",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/6edc6e2c-1adf-47cb-adeb-7ecb4eaae0a6"
+    },
+    {
+      "number": 78,
+      "id": "a93601e2-92c5-45f5-b0c4-74cf21163cb1",
+      "title": "Website improvements and performance",
+      "state": "Backlog",
+      "owner": "Michael",
+      "plane_priority": "none",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/a93601e2-92c5-45f5-b0c4-74cf21163cb1"
+    },
+    {
+      "number": 79,
+      "id": "0bcc06c5-522f-4563-816e-17ad20a1881b",
+      "title": "Integrate tested visuals and tool page",
+      "state": "Backlog",
+      "owner": "Max",
+      "plane_priority": "none",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/0bcc06c5-522f-4563-816e-17ad20a1881b"
+    },
+    {
+      "number": 80,
+      "id": "8205a3dc-d84b-4eef-ab5f-0a558583abb5",
+      "title": "Writing method and skill refinement",
+      "state": "Review",
+      "owner": "Max",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/8205a3dc-d84b-4eef-ab5f-0a558583abb5"
+    },
+    {
+      "number": 81,
+      "id": "3df9f0ef-aa50-43b3-8d70-1ad33efc92cd",
+      "title": "Write and review 16 practical founder posts",
+      "state": "Review",
+      "owner": "Max",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/3df9f0ef-aa50-43b3-8d70-1ad33efc92cd"
+    },
+    {
+      "number": 82,
+      "id": "8bda478c-0ee7-4942-89e7-cc414201bb35",
+      "title": "Publication visuals and exports",
+      "state": "Review",
+      "owner": "Max",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/8bda478c-0ee7-4942-89e7-cc414201bb35"
+    },
+    {
+      "number": 83,
+      "id": "122f5ee7-43ad-4118-b701-22cdb0b704d6",
+      "title": "Duplicate of 79",
+      "state": "Cancelled",
+      "owner": "Max",
+      "plane_priority": "medium",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/122f5ee7-43ad-4118-b701-22cdb0b704d6"
+    },
+    {
+      "number": 84,
+      "id": "384112a2-ce39-4e79-8314-5722879abb22",
+      "title": "Output after the intro call",
+      "state": "Review",
+      "owner": "Max",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/384112a2-ce39-4e79-8314-5722879abb22"
+    },
+    {
+      "number": 85,
+      "id": "04d2fcf8-b0c5-4526-8ec3-87bf9933c22a",
+      "title": "Two-step verification for email/site services",
+      "state": "Todo",
+      "owner": "Michael",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/04d2fcf8-b0c5-4526-8ec3-87bf9933c22a"
+    },
+    {
+      "number": 86,
+      "id": "9b1744d6-b472-4424-8cd3-96573c7fcd11",
+      "title": "Max first post and OutSpoken repost",
+      "state": "Backlog",
+      "owner": "Max",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/9b1744d6-b472-4424-8cd3-96573c7fcd11"
+    },
+    {
+      "number": 87,
+      "id": "4760d19c-1f17-49d1-9279-bdb1651e74e3",
+      "title": "Search crawlability and Search Console",
+      "state": "Backlog",
+      "owner": "Unassigned",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/4760d19c-1f17-49d1-9279-bdb1651e74e3"
+    },
+    {
+      "number": 88,
+      "id": "94ca3e4c-476b-40b3-a009-51d7e0a8faf2",
+      "title": "GA4/GTM ownership, consent and measurement",
+      "state": "Backlog",
+      "owner": "Unassigned",
+      "plane_priority": "high",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/94ca3e4c-476b-40b3-a009-51d7e0a8faf2"
+    },
+    {
+      "number": 89,
+      "id": "3f1c7b66-9f6e-4cef-915c-1fa395db7eea",
+      "title": "CTA, form and booking events",
+      "state": "Backlog",
+      "owner": "Unassigned",
+      "plane_priority": "medium",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/3f1c7b66-9f6e-4cef-915c-1fa395db7eea"
+    },
+    {
+      "number": 90,
+      "id": "26621989-5cc0-4d29-9486-2d42fae414d3",
+      "title": "Read-only analytics MCP and Search Console API",
+      "state": "Backlog",
+      "owner": "Unassigned",
+      "plane_priority": "medium",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/26621989-5cc0-4d29-9486-2d42fae414d3"
+    },
+    {
+      "number": 91,
+      "id": "93becc40-933f-4c48-ba0b-b115fda3a458",
+      "title": "Index, events and performance QA",
+      "state": "Backlog",
+      "owner": "Unassigned",
+      "plane_priority": "medium",
+      "url": "https://app.plane.so/outspoken/projects/d5a524f1-0a26-4b97-98f7-d9592f631da4/issues/93becc40-933f-4c48-ba0b-b115fda3a458"
+    }
+  ]
+}

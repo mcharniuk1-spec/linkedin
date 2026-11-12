@@ -1,0 +1,121 @@
+{
+  "first_carousel_pages" : 4,
+  "pngs" : [
+    {
+      "height" : 1350,
+      "id" : "01-the-flow",
+      "page" : 1,
+      "width" : 1080
+    },
+    {
+      "height" : 1350,
+      "id" : "01-the-flow",
+      "page" : 2,
+      "width" : 1080
+    },
+    {
+      "height" : 1350,
+      "id" : "01-the-flow",
+      "page" : 3,
+      "width" : 1080
+    },
+    {
+      "height" : 1350,
+      "id" : "01-the-flow",
+      "page" : 4,
+      "width" : 1080
+    },
+    {
+      "height" : 1350,
+      "id" : "02-the-strategy",
+      "page" : 1,
+      "width" : 1080
+    },
+    {
+      "height" : 1350,
+      "id" : "03-the-interview",
+      "page" : 1,
+      "width" : 1080
+    },
+    {
+      "height" : 1350,
+      "id" : "04-the-profile",
+      "page" : 1,
+      "width" : 1080
+    },
+    {
+      "height" : 1350,
+      "id" : "05-the-tools",
+      "page" : 1,
+      "width" : 1080
+    },
+    {
+      "height" : 1350,
+      "id" : "06-the-first-message",
+      "page" : 1,
+      "width" : 1080
+    },
+    {
+      "height" : 1350,
+      "id" : "07-the-reply",
+      "page" : 1,
+      "width" : 1080
+    },
+    {
+      "height" : 1350,
+      "id" : "08-the-case",
+      "page" : 1,
+      "width" : 1080
+    },
+    {
+      "height" : 1350,
+      "id" : "09-the-buying-group",
+      "page" : 1,
+      "width" : 1080
+    },
+    {
+      "height" : 1350,
+      "id" : "10-the-review",
+      "page" : 1,
+      "width" : 1080
+    },
+    {
+      "height" : 1350,
+      "id" : "11-the-designer",
+      "page" : 1,
+      "width" : 1080
+    },
+    {
+      "height" : 1350,
+      "id" : "12-the-developer",
+      "page" : 1,
+      "width" : 1080
+    },
+    {
+      "height" : 1350,
+      "id" : "13-the-manager",
+      "page" : 1,
+      "width" : 1080
+    },
+    {
+      "height" : 1350,
+      "id" : "14-the-offer",
+      "page" : 1,
+      "width" : 1080
+    },
+    {
+      "height" : 1350,
+      "id" : "15-the-call",
+      "page" : 1,
+      "width" : 1080
+    },
+    {
+      "height" : 1350,
+      "id" : "16-the-cadence",
+      "page" : 1,
+      "width" : 1080
+    }
+  ],
+  "renderer" : "macOS AppKit\/CoreText",
+  "status" : "PASS"
+}

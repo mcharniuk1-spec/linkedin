@@ -1,3 +1,9 @@
+## Current offer and publication review — 12 November 2026
+
+[Decision packets: 14, 84 and 15](reports/20261112-offer-qualification/README.md) · [All 61 tasks and priorities](reports/20261112-offer-qualification/TASKS.md) · [16-post gallery](publications/20261112-discovery-edition/index.html) · [Agency enquiry preparation](outreach/20261112-agency-enquiries/AGENCY-GUIDE.md) · [Search and analytics plan](reports/20261112-offer-qualification/SEARCH-AND-MEASUREMENT.md) · [Execution index](docs/LLM-EXECUTION-INDEX.md).
+
+The current edition supersedes earlier draft routes for this review. The older editions remain preserved. No social posts or agency enquiries were sent.
+
 ## Methodology completion and next tasks — 12 November 2026
 
 [Methodology 2.1 and skill release](reports/20261112-methodology-completion/README.md) · [All 56 tasks](reports/20261112-methodology-completion/TASKS.md) · [Questions by task](reports/20261112-methodology-completion/QUESTIONS.md) · [14-post gallery](publications/20261112-practical-edition/index.html). Detailed agency enquiries remain in a private research branch. No message or social post has been sent.

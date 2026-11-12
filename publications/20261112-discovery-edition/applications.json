@@ -1,0 +1,378 @@
+[
+  {
+    "post_id": "01-the-flow",
+    "reader_job": "Identify one broken handoff in your current path.",
+    "writing_cards": [
+      "urn:li:activity:7422666982032056322",
+      "urn:li:activity:7372286629400465408"
+    ],
+    "visual_cards": [
+      "urn:li:activity:7259580222310645760"
+    ],
+    "sources": [
+      "site",
+      "stopscroll",
+      "windmill"
+    ],
+    "hook": "Someone read your post. What happens next?",
+    "alternate_hook": "Your post earned attention. Can the buyer find a useful next step?",
+    "payoff": "A five-step service map; buyer/voice brief; profile; approved content; conversation brief",
+    "reasoning": "A specific buyer/workflow problem leads to a usable example or checklist, then a next decision. Recommendations remain proposals rather than measured outcomes.",
+    "voice": "Max’s current professional position; no fabricated recollection.",
+    "human_required": "Confirm position and actual product facts; replace any illustrative scenario only with verified material.",
+    "visual_rule": "Original native diagram/worksheet; transfer attention and hierarchy functions, not third-party artwork.",
+    "review": "Current discovery revision;fixed posting frequency removed. Agent review does not supply human voice acceptance."
+  },
+  {
+    "post_id": "02-the-strategy",
+    "reader_job": "Map your next three posts to three actual buyer decisions.",
+    "writing_cards": [
+      "urn:li:activity:7422666982032056322",
+      "urn:li:activity:7259580222310645760"
+    ],
+    "visual_cards": [
+      "urn:li:activity:7259580222310645760"
+    ],
+    "sources": [
+      "site",
+      "notus",
+      "saved-patterns"
+    ],
+    "hook": "“AI”, “leadership” and “our journey” are topics. What is a buyer supposed to do with them?",
+    "alternate_hook": "Before filling a calendar, name the decision your buyer needs to make.",
+    "payoff": "Three-column content board: buyer decision / material / next step",
+    "reasoning": "A specific buyer/workflow problem leads to a usable example or checklist, then a next decision. Recommendations remain proposals rather than measured outcomes.",
+    "voice": "Max’s current professional position; no fabricated recollection.",
+    "human_required": "Confirm position and actual product facts; replace any illustrative scenario only with verified material.",
+    "visual_rule": "Original native diagram/worksheet; transfer attention and hierarchy functions, not third-party artwork.",
+    "review": "Current discovery revision;fixed posting frequency removed. Agent review does not supply human voice acceptance."
+  },
+  {
+    "post_id": "03-the-interview",
+    "reader_job": "Use the four headings in your next founder interview.",
+    "writing_cards": [
+      "urn:li:activity:7459960231138234368",
+      "urn:li:activity:7495153236165869568"
+    ],
+    "visual_cards": [
+      "urn:li:activity:7259580222310645760"
+    ],
+    "sources": [
+      "site",
+      "stopscroll",
+      "google-docs",
+      "owner-call-brief"
+    ],
+    "hook": "A founder interview should leave you with material you can use.",
+    "alternate_hook": "What should a founder interview give the writer?",
+    "payoff": "A four-heading interview worksheet; Google Docs suggestions are one review option",
+    "reasoning": "A specific buyer/workflow problem leads to a usable example or checklist, then a next decision. Recommendations remain proposals rather than measured outcomes.",
+    "voice": "Max’s current professional position; no fabricated recollection.",
+    "human_required": "Confirm position and actual product facts; replace any illustrative scenario only with verified material.",
+    "visual_rule": "Original native diagram/worksheet; transfer attention and hierarchy functions, not third-party artwork.",
+    "review": "Current discovery revision;fixed posting frequency removed. Agent review does not supply human voice acceptance."
+  },
+  {
+    "post_id": "04-the-profile",
+    "reader_job": "Check the first screen of your profile from the buyer’s perspective.",
+    "writing_cards": [
+      "urn:li:activity:7486056038190854148",
+      "urn:li:activity:7259580222310645760"
+    ],
+    "visual_cards": [
+      "urn:li:activity:7259580222310645760"
+    ],
+    "sources": [
+      "site",
+      "notus",
+      "authoredup"
+    ],
+    "hook": "A good post sends someone to your profile. What do they find there?",
+    "alternate_hook": "Could a buyer explain what you do after one screen?",
+    "payoff": "A four-part profile check; proposed headline and Featured asset",
+    "reasoning": "A specific buyer/workflow problem leads to a usable example or checklist, then a next decision. Recommendations remain proposals rather than measured outcomes.",
+    "voice": "Max’s current professional position; no fabricated recollection.",
+    "human_required": "Confirm position and actual product facts; replace any illustrative scenario only with verified material.",
+    "visual_rule": "Original native diagram/worksheet; transfer attention and hierarchy functions, not third-party artwork.",
+    "review": "Current discovery revision;fixed posting frequency removed. Agent review does not supply human voice acceptance."
+  },
+  {
+    "post_id": "05-the-tools",
+    "reader_job": "Choose one unresolved workflow job before evaluating a tool.",
+    "writing_cards": [
+      "urn:li:activity:7422666982032056322",
+      "urn:li:activity:7459960231138234368"
+    ],
+    "visual_cards": [
+      "urn:li:activity:7259580222310645760"
+    ],
+    "sources": [
+      "google-docs",
+      "authoredup",
+      "sales-nav",
+      "hubspot"
+    ],
+    "hook": "Before adding another LinkedIn tool, name the job it will do.",
+    "alternate_hook": "Which job would the next LinkedIn subscription actually do?",
+    "payoff": "Function-by-function agency/client tool matrix",
+    "reasoning": "A specific buyer/workflow problem leads to a usable example or checklist, then a next decision. Recommendations remain proposals rather than measured outcomes.",
+    "voice": "Max’s current professional position; no fabricated recollection.",
+    "human_required": "Confirm position and actual product facts; replace any illustrative scenario only with verified material.",
+    "visual_rule": "Original native diagram/worksheet; transfer attention and hierarchy functions, not third-party artwork.",
+    "review": "Current discovery revision;fixed posting frequency removed. Agent review does not supply human voice acceptance."
+  },
+  {
+    "post_id": "06-the-first-message",
+    "reader_job": "Rewrite one generic opener around a verified work signal.",
+    "writing_cards": [
+      "urn:li:activity:7489062336897654784",
+      "urn:li:activity:7486056038190854148"
+    ],
+    "visual_cards": [
+      "urn:li:activity:7459960231138234368"
+    ],
+    "sources": [
+      "sales-nav",
+      "waalaxy-search",
+      "site"
+    ],
+    "hook": "Would you reply to “Thanks for connecting. We help companies grow”?",
+    "alternate_hook": "Why would this person want your first message?",
+    "payoff": "Context / relevant problem / useful next step message template",
+    "reasoning": "A specific buyer/workflow problem leads to a usable example or checklist, then a next decision. Recommendations remain proposals rather than measured outcomes.",
+    "voice": "Max’s current professional position; no fabricated recollection.",
+    "human_required": "Confirm position and actual product facts; replace any illustrative scenario only with verified material.",
+    "visual_rule": "Original native diagram/worksheet; transfer attention and hierarchy functions, not third-party artwork.",
+    "review": "Current discovery revision;fixed posting frequency removed. Agent review does not supply human voice acceptance."
+  },
+  {
+    "post_id": "07-the-reply",
+    "reader_job": "Choose the question that changes your recommendation.",
+    "writing_cards": [
+      "urn:li:activity:7489062336897654784",
+      "urn:li:activity:7372286629400465408"
+    ],
+    "visual_cards": [
+      "urn:li:activity:7259580222310645760"
+    ],
+    "sources": [
+      "hubspot",
+      "site",
+      "saved-patterns"
+    ],
+    "hook": "“Send me details” is a chance to make the next reply useful.",
+    "alternate_hook": "A prospect asked for details. Which detail changes their decision?",
+    "payoff": "A four-step reply card and one diagnostic question",
+    "reasoning": "A specific buyer/workflow problem leads to a usable example or checklist, then a next decision. Recommendations remain proposals rather than measured outcomes.",
+    "voice": "Max’s current professional position; no fabricated recollection.",
+    "human_required": "Confirm position and actual product facts; replace any illustrative scenario only with verified material.",
+    "visual_rule": "Original native diagram/worksheet; transfer attention and hierarchy functions, not third-party artwork.",
+    "review": "Current discovery revision;fixed posting frequency removed. Agent review does not supply human voice acceptance."
+  },
+  {
+    "post_id": "08-the-case",
+    "reader_job": "Choose one substantial source and three genuinely different reader questions.",
+    "writing_cards": [
+      "urn:li:activity:7459960231138234368",
+      "urn:li:activity:7495153236165869568"
+    ],
+    "visual_cards": [
+      "urn:li:activity:7416823425274388480"
+    ],
+    "sources": [
+      "buffer-case",
+      "site"
+    ],
+    "hook": "A good piece of work can answer more than one audience question.",
+    "alternate_hook": "Three uses for one product decision: explain, show, help someone choose.",
+    "payoff": "One-source / three-reader-questions repurposing sheet",
+    "reasoning": "A specific buyer/workflow problem leads to a usable example or checklist, then a next decision. Recommendations remain proposals rather than measured outcomes.",
+    "voice": "Max’s current professional position; no fabricated recollection.",
+    "human_required": "Confirm position and actual product facts; replace any illustrative scenario only with verified material.",
+    "visual_rule": "Original native diagram/worksheet; transfer attention and hierarchy functions, not third-party artwork.",
+    "review": "Current discovery revision;fixed posting frequency removed. Agent review does not supply human voice acceptance."
+  },
+  {
+    "post_id": "09-the-buying-group",
+    "reader_job": "Add one overlooked buying-group question to your content plan.",
+    "writing_cards": [
+      "urn:li:activity:7422666982032056322",
+      "urn:li:activity:7372286629400465408"
+    ],
+    "visual_cards": [
+      "urn:li:activity:7259580222310645760"
+    ],
+    "sources": [
+      "edelman-2025",
+      "site"
+    ],
+    "hook": "Your product champion may understand the feature. The person approving the purchase may have a different question.",
+    "alternate_hook": "Who else has to understand the purchase before it can happen?",
+    "payoff": "A four-role buying-group question map",
+    "reasoning": "A specific buyer/workflow problem leads to a usable example or checklist, then a next decision. Recommendations remain proposals rather than measured outcomes.",
+    "voice": "Max’s current professional position; no fabricated recollection.",
+    "human_required": "Confirm position and actual product facts; replace any illustrative scenario only with verified material.",
+    "visual_rule": "Original native diagram/worksheet; transfer attention and hierarchy functions, not third-party artwork.",
+    "review": "Current discovery revision;fixed posting frequency removed. Agent review does not supply human voice acceptance."
+  },
+  {
+    "post_id": "10-the-review",
+    "reader_job": "End the review with one content decision and one conversation decision.",
+    "writing_cards": [
+      "urn:li:activity:7422666982032056322",
+      "urn:li:activity:7489062336897654784"
+    ],
+    "visual_cards": [
+      "urn:li:activity:7259580222310645760"
+    ],
+    "sources": [
+      "linkedin-analytics",
+      "hubspot",
+      "site"
+    ],
+    "hook": "What would make you change next week’s content or outreach?",
+    "alternate_hook": "Which reply should change next week’s plan?",
+    "payoff": "Four-question review sheet; native analytics plus conversation notes",
+    "reasoning": "A specific buyer/workflow problem leads to a usable example or checklist, then a next decision. Recommendations remain proposals rather than measured outcomes.",
+    "voice": "Max’s current professional position; no fabricated recollection.",
+    "human_required": "Confirm position and actual product facts; replace any illustrative scenario only with verified material.",
+    "visual_rule": "Original native diagram/worksheet; transfer attention and hierarchy functions, not third-party artwork.",
+    "review": "Current discovery revision;fixed posting frequency removed. Agent review does not supply human voice acceptance."
+  },
+  {
+    "post_id": "11-the-designer",
+    "reader_job": "Explain one interface choice through the buyer’s task.",
+    "writing_cards": [
+      "urn:li:activity:7397002727039488002",
+      "urn:li:activity:7259580222310645760"
+    ],
+    "visual_cards": [
+      "urn:li:activity:7397002727039488002"
+    ],
+    "sources": [
+      "site",
+      "saved-patterns"
+    ],
+    "hook": "If a buyer has to ask what to click, the mockup still has a communication problem to solve.",
+    "alternate_hook": "What can a buyer try before connecting company data?",
+    "payoff": "A first-screen question and an illustrative sample-data CTA comparison",
+    "reasoning": "A specific buyer/workflow problem leads to a usable example or checklist, then a next decision. Recommendations remain proposals rather than measured outcomes.",
+    "voice": "Max’s current professional position; no fabricated recollection.",
+    "human_required": "Confirm position and actual product facts; replace any illustrative scenario only with verified material.",
+    "visual_rule": "Original native diagram/worksheet; transfer attention and hierarchy functions, not third-party artwork.",
+    "review": "Current discovery revision;fixed posting frequency removed. Agent review does not supply human voice acceptance."
+  },
+  {
+    "post_id": "12-the-developer",
+    "reader_job": "Choose one actual output-checking mechanism to explain.",
+    "writing_cards": [
+      "urn:li:activity:7397002727039488002",
+      "urn:li:activity:7422666982032056322"
+    ],
+    "visual_cards": [
+      "urn:li:activity:7397002727039488002"
+    ],
+    "sources": [
+      "stackoverflow-2025",
+      "saved-patterns"
+    ],
+    "hook": "“Built with AI” leaves an important buying question unanswered: why should someone trust the output?",
+    "alternate_hook": "Can the buyer check where this answer came from?",
+    "payoff": "Input / answer / check / review-condition demo brief",
+    "reasoning": "A specific buyer/workflow problem leads to a usable example or checklist, then a next decision. Recommendations remain proposals rather than measured outcomes.",
+    "voice": "Max’s current professional position; no fabricated recollection.",
+    "human_required": "Confirm position and actual product facts; replace any illustrative scenario only with verified material.",
+    "visual_rule": "Original native diagram/worksheet; transfer attention and hierarchy functions, not third-party artwork.",
+    "review": "Current discovery revision;fixed posting frequency removed. Agent review does not supply human voice acceptance."
+  },
+  {
+    "post_id": "13-the-manager",
+    "reader_job": "Replace “Any feedback?” with three explicit review questions.",
+    "writing_cards": [
+      "urn:li:activity:7459960231138234368",
+      "urn:li:activity:7422666982032056322"
+    ],
+    "visual_cards": [
+      "urn:li:activity:7259580222310645760"
+    ],
+    "sources": [
+      "google-docs",
+      "site",
+      "stopscroll"
+    ],
+    "hook": "“Any feedback?” is a surprisingly expensive review brief.",
+    "alternate_hook": "Which decision does the reviewer need to make?",
+    "payoff": "A three-question review card with one actionable edit example",
+    "reasoning": "A specific buyer/workflow problem leads to a usable example or checklist, then a next decision. Recommendations remain proposals rather than measured outcomes.",
+    "voice": "Max’s current professional position; no fabricated recollection.",
+    "human_required": "Confirm position and actual product facts; replace any illustrative scenario only with verified material.",
+    "visual_rule": "Original native diagram/worksheet; transfer attention and hierarchy functions, not third-party artwork.",
+    "review": "Current discovery revision;fixed posting frequency removed. Agent review does not supply human voice acceptance."
+  },
+  {
+    "post_id": "14-the-offer",
+    "reader_job": "Book an intro call",
+    "writing_cards": [
+      "urn:li:activity:7486056038190854148",
+      "urn:li:activity:7372286629400465408"
+    ],
+    "visual_cards": [
+      "urn:li:activity:7259580222310645760"
+    ],
+    "sources": [
+      "site",
+      "notus",
+      "windmill",
+      "owner-call-brief"
+    ],
+    "hook": "What should a buyer understand before the first call?",
+    "alternate_hook": "Your knowledge is useful when the buyer can use it.",
+    "payoff": "A buyer-value artifact checklist and current Voice / Pipeline distinction",
+    "reasoning": "A specific buyer/workflow problem leads to a usable example or checklist, then a next decision. Recommendations remain proposals rather than measured outcomes.",
+    "voice": "Max’s current professional position; no fabricated recollection.",
+    "human_required": "Confirm position and actual product facts; replace any illustrative scenario only with verified material.",
+    "visual_rule": "Original native diagram/worksheet; transfer attention and hierarchy functions, not third-party artwork.",
+    "review": "Current discovery revision;fixed posting frequency removed. Agent review does not supply human voice acceptance."
+  },
+  {
+    "post_id": "15-the-call",
+    "reader_job": "Bring one product decision you can explain.",
+    "writing_cards": [
+      "urn:li:activity:7422666982032056322",
+      "urn:li:activity:7259580222310645760"
+    ],
+    "visual_cards": [
+      "urn:li:activity:7259580222310645760"
+    ],
+    "sources": [
+      "owner-call-brief",
+      "site",
+      "saved-patterns"
+    ],
+    "hook": "A 45-minute LinkedIn call should leave us with a plan we can explain.",
+    "payoff": "A45-minute agenda and one sourceable decision",
+    "reasoning": "A specific call or scheduling decision becomes a usable checklist; rates and review windows remain proposals.",
+    "human_required": "Confirm the account goal,actual source material,review capacity and accepted offer.",
+    "review": "Proposed professional method;no client result or free-output SLA claimed."
+  },
+  {
+    "post_id": "16-the-cadence",
+    "reader_job": "Choose a sustainable starting rhythm on the call.",
+    "writing_cards": [
+      "urn:li:activity:7422666982032056322",
+      "urn:li:activity:7259580222310645760"
+    ],
+    "visual_cards": [
+      "urn:li:activity:7259580222310645760"
+    ],
+    "sources": [
+      "owner-call-brief",
+      "saved-patterns"
+    ],
+    "hook": "How often should a founder post?",
+    "payoff": "Five-input cadence decision worksheet",
+    "reasoning": "A specific call or scheduling decision becomes a usable checklist; rates and review windows remain proposals.",
+    "human_required": "Confirm the account goal,actual source material,review capacity and accepted offer.",
+    "review": "Proposed professional method;no client result or free-output SLA claimed."
+  }
+]

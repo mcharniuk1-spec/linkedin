@@ -1,0 +1,190 @@
+{
+  "title": "Official public agency enquiry route observations",
+  "observed_date": "2026-11-12",
+  "method": "Read official public website pages through web retrieval and limited static HTTP inspection. No form was submitted, no appointment was booked, no person contacted, and no live LinkedIn page was used.",
+  "scope": {
+    "requested_agencies": [
+      "Windmill",
+      "notus",
+      "Stop The Scroll",
+      "Cleverly",
+      "Belkins"
+    ],
+    "observed_agencies": [
+      "Windmill",
+      "notus",
+      "Stop The Scroll",
+      "Cleverly",
+      "Belkins"
+    ],
+    "count_expected": 5,
+    "count_observed": 5
+  },
+  "records": [
+    {
+      "agency": "Windmill",
+      "official_domain": "windmillgrowth.com",
+      "pages": [
+        {
+          "url": "https://windmillgrowth.com/",
+          "observed": "Homepage CTA Book a Strategy Call; founder LinkedIn services, case-study links, and published plan prices in the page text."
+        },
+        {
+          "url": "https://windmillgrowth.com/book-a-call",
+          "observed": "Thirty-minute call description, pre-call profile review, discussion topics, and external Calendly booking link. Scheduler field labels were not verifiable."
+        }
+      ],
+      "cta": "Book a Strategy Call",
+      "destination": "https://windmillgrowth.com/book-a-call; the page then links to Calendly",
+      "fields": {
+        "required": "unknown",
+        "optional": "unknown",
+        "basis": "No enquiry form fields visible in reviewed page text; external Calendly fields not inspected."
+      },
+      "claims_status": "Vendor-published prices, services, and outcomes; not independently verified."
+    },
+    {
+      "agency": "notus",
+      "official_domain": "notus.xyz",
+      "pages": [
+        {
+          "url": "https://www.notus.xyz/",
+          "observed": "Homepage CTA Work with us."
+        },
+        {
+          "url": "https://www.notus.xyz/book-a-demo",
+          "observed": "Thirty-minute intro call via Calendly embed; alternate Typeform waitlist link. CTA says the call introduces the company and its content-engine playbook. Billing FAQ contains placeholder text for several answers; a 30-day free trial is claimed."
+        },
+        {
+          "url": "https://www.notus.xyz/service",
+          "observed": "Five-part public playbook: brand foundation; strategic playbook; content engine; community management; ad amplification."
+        },
+        {
+          "url": "https://www.notus.xyz/case-studies",
+          "observed": "Public case-study index and vendor-presented outcome claims."
+        },
+        {
+          "url": "https://lupz15hzcs5.typeform.com/to/k9Mcjpyd",
+          "observed": "External waitlist destination. Public page extraction did not expose form fields. Observed href carried tracking placeholders source=xxxxx and offer=xxxxx."
+        }
+      ],
+      "cta": "Work with us",
+      "destination": "https://www.notus.xyz/book-a-demo; Calendly embed or external Typeform waitlist",
+      "fields": {
+        "required": "unknown",
+        "optional": "unknown",
+        "basis": "Embedded Calendly and Typeform fields not exposed in the reviewed public page text."
+      },
+      "claims_status": "Process, case studies, and free-trial statement are vendor claims. No public price verified in the reviewed service/booking page text; footer Pricing link destination was not verifiable."
+    },
+    {
+      "agency": "Stop The Scroll",
+      "official_domain": "stopthescroll.io",
+      "pages": [
+        {
+          "url": "https://www.stopthescroll.io/",
+          "observed": "Homepage CTA Book Intro Call / Book a 27-min intro."
+        },
+        {
+          "url": "https://www.stopthescroll.io/contact",
+          "observed": "Twenty-seven-minute booking page; scheduling embed appears as stopthescroll.io/intro-call. Describes call agenda and possible follow-up deep dive. Fields not verifiable."
+        },
+        {
+          "url": "https://www.stopthescroll.io/pricing",
+          "observed": "Published prices for Individual, Duo, Teams, LinkedIn Ads, and LinkedIn Video tiers; calls to action link to intro booking."
+        },
+        {
+          "url": "https://www.stopthescroll.io/process",
+          "observed": "Public organic-content and paid-ads process, approval queue, onboarding, publishing, and reporting descriptions."
+        },
+        {
+          "url": "https://www.stopthescroll.io/success-stories",
+          "observed": "Public results page. Figures are vendor-presented results."
+        }
+      ],
+      "cta": "Book Intro Call / Book a 27-min intro",
+      "destination": "https://www.stopthescroll.io/contact; scheduling embed labelled stopthescroll.io/intro-call",
+      "fields": {
+        "required": "unknown",
+        "optional": "unknown",
+        "basis": "No scheduler field labels in reviewed public page text."
+      },
+      "claims_status": "Pricing, workflow, and outcomes are vendor-published."
+    },
+    {
+      "agency": "Cleverly",
+      "official_domain": "cleverly.co",
+      "pages": [
+        {
+          "url": "https://www.cleverly.co/",
+          "observed": "Homepage Free Consultation CTA links to https://gtly.ink/mE5kT37JVc. Mobile/footer CTA points to /free-consultation."
+        },
+        {
+          "url": "https://www.cleverly.co/free-consultation",
+          "observed": "Fifteen-minute consultation page with an embedded frame; form/scheduler labels not visible in extracted page text."
+        },
+        {
+          "url": "https://www.cleverly.co/linkedin-lead-generation",
+          "observed": "LinkedIn-specific service description and case studies; free consultation CTA."
+        },
+        {
+          "url": "https://www.cleverly.co/case-studies",
+          "observed": "Case-study index, filters, and vendor-presented outcome summaries."
+        }
+      ],
+      "cta": "Free Consultation / Book a Free Consultation",
+      "destination": "https://gtly.ink/mE5kT37JVc and https://www.cleverly.co/free-consultation",
+      "fields": {
+        "required": "unknown",
+        "optional": "unknown",
+        "basis": "Consultation page embed content and field labels not available in public extraction."
+      },
+      "claims_status": "Services, case studies, and performance claims are vendor-published; no LinkedIn-only package price verified in the reviewed pages."
+    },
+    {
+      "agency": "Belkins",
+      "official_domain": "belkins.io",
+      "pages": [
+        {
+          "url": "https://belkins.io/",
+          "observed": "Homepage Get a quote and Book a call CTAs render as lead_form modal buttons in official page markup."
+        },
+        {
+          "url": "https://belkins.io/pricing",
+          "observed": "Monthly retainer packages and advertised yearly appointment ranges; exact monetary figures not visible in retrieved page text."
+        },
+        {
+          "url": "https://belkins.io/linkedin-lead-generation-services",
+          "observed": "LinkedIn lead-generation service page discovered from the official homepage link."
+        },
+        {
+          "url": "https://belkins.io/belkins-approach",
+          "observed": "Official approach page discovered from the homepage link."
+        }
+      ],
+      "cta": "Get a quote / Book a call",
+      "destination": "Lead-form modal triggered on https://belkins.io/; no separate public destination URL exposed in the retrieved static markup.",
+      "fields": {
+        "required": "unknown",
+        "optional": "unknown",
+        "basis": "The homepage buttons identify the modal action but its rendered fields were not available in the public extraction."
+      },
+      "claims_status": "Pricing tiers, appointment ranges, and service outcomes are vendor-published. Exact monetary prices not verified."
+    }
+  ],
+  "limits": [
+    "This is a dated public-page observation, not a persistent statement about later site state.",
+    "No form field, live appointment slot, or downstream scheduler content is claimed unless noted above.",
+    "Agency performance, case-study outcomes, service delivery, privacy practices, and contract terms were not independently audited.",
+    "The guide recommends transparent research contact only when the researcher chooses to proceed; no outreach occurred during this work."
+  ],
+  "root_rendered_check": {
+    "date": "2026-11-12",
+    "five_routes_inspected": true,
+    "belkins_initial_fields_visible": true,
+    "requiredness_not_validated": true,
+    "stopscroll_intro_call_404": true,
+    "contact_embed": "https://stopthescroll.youcanbook.me/",
+    "submissions": 0
+  }
+}

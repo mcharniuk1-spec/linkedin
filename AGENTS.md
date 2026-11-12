@@ -52,3 +52,9 @@ Current cadence is every 30 minutes. Read `reports/20261031/ACTIVATION.md` for a
 
 ## Project skills
 Owned, script-free skills for this repository live in `.claude/skills/` (film build, design rules, site deploy, logo and icon direction, LinkedIn run update); `skills/README.md` indexes them and lists third-party material that is reading-only. Skills installed on an owner's own machine are not available here.
+
+## Repository separation and current website — 12 November 2026
+
+LinkedIn publications, writing methodology, research, competitor enquiry preparation, service decisions and task priorities belong in this repository. Use [docs/LLM-EXECUTION-INDEX.md](docs/LLM-EXECUTION-INDEX.md) and the current offer/qualification report. `MickaelAmpl/outspoken-site` is reserved for current website work. Every website task starts on a fresh `codex/` branch from verified main; do not reuse another task's branch. Source push, merge and deployment remain separate actions.
+
+The production site is `https://outspoken.digital/` on Cloudflare. The former `outspoken-voice-7c4e2.vercel.app` site is legacy. Preserve its versioned source and ArchFlow memory; do not reactivate it or use its copy as current production. Permanent Vercel deletion requires verified completion; pausing is not deletion. The 45-minute intro call determines provisional posting frequency from the account purpose, actual material and review/delivery capacity. Historical post counts do not establish optimal frequency.

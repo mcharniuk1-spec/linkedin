@@ -30,3 +30,8 @@ No original creator text, full transcripts or third-party media bytes are redist
 The task brief explicitly supplies this index, relevant card IDs and the selected intake template to those skills. This route is recorded in [AGENT-ROUTING](../../../docs/linkedin-writing/AGENT-ROUTING.md). The initial knowledge update retained the baseline. The subsequent [OUTSP-80 completion](../../../reports/20261112-methodology-completion/README.md) safely installed both owned 1.1.1 bundles with exact static coverage and behavioral readback. Tool 67 must receive the same versioned brief; a knowledge file is not a deployed client app.
 
 [Knowledge validation](validation.json) checks expected IDs, source joins, modality/rights fields, internal links and publication references. It does not validate an author’s memories or establish audience lift. The existing writing Graphify graph predates these cards; no automatic graph/vector rebuild or semantic-performance claim is made.
+
+
+## Discovery and cadence update — 12 November 2026
+
+Use [the discovery-call and cadence note](discovery-call-and-cadence.md) before generating a service or frequency claim. The 45-minute call determines the provisional cadence. Proposed free-output scope and timing require an explicit owner decision in [the current decision packet](../../../reports/20261112-offer-qualification/DECISIONS.md). The [16-post edition](../../../publications/20261112-discovery-edition/README.md) applies this guidance. The tested 1.1.1 skill bundles are unchanged.
