@@ -1,0 +1,1088 @@
+[
+  {
+    "id": "01-the-flow",
+    "title": "Someone read your post. What happens next?",
+    "author": "Max Charniuk",
+    "reader": "Founder / business owner",
+    "status": "draft_ready_for_author_review",
+    "caption": "A post gets someone interested. Then what?\n\nThey visit the profile. They look for an example. They ask a question. Each step needs to give them a useful reason to continue.\n\nThat is the path I want OutSpoken to build:\n\n• Understand the business, its buyers and the founder’s point of view.\n• Make the profile explain who the work is for and what it changes.\n• Turn real questions and decisions into useful posts and visual examples.\n• Review the facts, publish the agreed material and respond with context.\n• When outreach is in scope, research suitable companies and carry the actual conversation into the next step.\n\nA shared document holds the source material. A content board connects each post to a buyer question. A CRM or simple Sheet keeps the reply and agreed follow-up visible.\n\nFor example, a team selling a reporting tool could show how someone checks an answer against its source. The profile points to that example. A reply can then start with the reader’s own reporting problem.\n\nVoice builds the profile and content foundation. Voice + Pipeline adds the research, outreach and qualification around it.\n\nStart by checking one handoff in your own path. After someone reads your post, can they find the next useful thing?",
+    "company_repost": "What happens after someone reads a post? We build the profile, useful examples and replies around that next step. Voice creates the content foundation. Voice + Pipeline extends it into relevant buyer conversations.",
+    "reader_action": "Identify one broken handoff in your current path.",
+    "practical_tool": "A five-step service map, buyer/voice brief, profile, approved content, conversation brief",
+    "source_ids": [
+      "site",
+      "stopscroll",
+      "windmill"
+    ],
+    "pattern": "P04 workflow walkthrough",
+    "hook_payoff": "Open with the reader decision, then provide an actionable method and bounded conclusion.",
+    "outline": [
+      "reader problem",
+      "specific steps or comparison",
+      "input and output",
+      "reason and limitation",
+      "useful close"
+    ],
+    "reference_cards": [
+      "urn:li:activity:7259580222310645760",
+      "urn:li:activity:7397002727039488002"
+    ],
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7259580222310645760",
+          "author": "Anthony Pierri",
+          "observed_function": "A complex subject becomes answerable questions.",
+          "adaptation": "Turn an abstract LinkedIn service into five inspectable handoffs, each answering what the buyer can do next.",
+          "source_url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+          "source_capture": "2026-10-20T17:59:54.131063+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7397002727039488002",
+          "author": "Gong",
+          "observed_function": "Announce a feature by showing a specific job.",
+          "adaptation": "Show the source-to-example-to-reply job rather than announce a broad content service.",
+          "source_url": "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+          "source_capture": "2026-10-20T18:02:57.400816+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7259580222310645760",
+      "visual_function": "Build an original buyer-question worksheet, with readable definitions.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "visual_brief": {
+      "layout": "flow map",
+      "headline": "What happens after someone reads your post?",
+      "emphasis": "Highlight the decision point and separate inputs, action and output.",
+      "items": [
+        "Learn the product",
+        "Build useful content",
+        "Review and engage",
+        "Open relevant conversations",
+        "Hand over the context"
+      ],
+      "footer_if_reader_relevant": ""
+    },
+    "claim_support": "Service scope is supported by the 12 Nov 2026 owner service architecture. Proposed tools and examples are labeled as such. No client outcomes or author anecdotes are claimed. Exact offer timing, support and price remain unknown.",
+    "editorial_revision": "v7-root-human-edit-after-semantic-repair"
+  },
+  {
+    "id": "02-the-strategy",
+    "title": "A content pillar is not a topic label",
+    "author": "Max Charniuk",
+    "reader": "Founder / marketer",
+    "status": "draft_ready_for_author_review",
+    "caption": "“AI”, “leadership” and “our journey” can fill a content calendar. They still leave the writer with a basic question: what should the reader understand?\n\nI would build a pillar around a buyer decision.\n\nFor an illustrative invoice-approval product, that gives us three different jobs:\n\n• Is the problem worth solving? Show where an invoice gets delayed.\n• Is this approach suitable? Compare manual review with rule-based routing.\n• Can our team use it? Walk through one invoice, including an exception.\n\nNow the topic has a purpose. The founder can explain the choice. The designer has something specific to show. The buyer gets a way to assess the approach.\n\nPut four fields in the content board: buyer question, source material, useful example and next action. If an idea cannot fill those fields, develop it before asking someone to write it.\n\nThat is how a content pillar becomes a working brief.",
+    "company_repost": "A useful content plan answers buying questions. Here is an invoice-approval example that turns one broad topic into three decisions a reader can make.",
+    "reader_action": "Map your next three posts to three actual buyer decisions.",
+    "practical_tool": "Three-column content board: buyer decision / material / next step",
+    "source_ids": [
+      "site",
+      "notus",
+      "saved-patterns"
+    ],
+    "pattern": "P04 workflow walkthrough",
+    "hook_payoff": "Open on the title’s specific reader task and pay it off with the named workflow, example or decision.",
+    "outline": [
+      "reader task named in title",
+      "specific tool or workflow",
+      "input and inspectable output",
+      "reason and boundary",
+      "clear takeaway"
+    ],
+    "reference_cards": [
+      "urn:li:activity:7422666982032056322",
+      "urn:li:activity:7372286629400465408"
+    ],
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7422666982032056322",
+          "author": "April Dunford",
+          "observed_function": "Delay the work until key choices are settled.",
+          "adaptation": "Require a buyer decision before filling the calendar. The invoice example supplies the concrete decision at each stage.",
+          "source_url": "https://www.linkedin.com/posts/aprildunford_you-dont-want-to-start-any-positioning-work-activity-7422666982032056322-QbQr",
+          "source_capture": "2026-10-20T18:00:06.892429+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7372286629400465408",
+          "author": "Amanda Natividad",
+          "observed_function": "Change the planning question to the buyer’s concern.",
+          "adaptation": "Replace a broad content topic with the buyer’s questions about value, suitability and use.",
+          "source_url": "https://www.linkedin.com/posts/amandanat_we-marketers-need-to-ask-better-questions-activity-7372286629400465408-Tpvh",
+          "source_capture": "2026-10-20T18:00:50.202299+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7259580222310645760",
+      "visual_function": "Build an original buyer-question worksheet, with readable definitions.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "visual_brief": {
+      "layout": "four-question worksheet",
+      "headline": "Three buyer decisions under one pillar",
+      "emphasis": "Make the post-specific choice or sequence easy to scan.",
+      "items": [
+        "Is the risk relevant?",
+        "Which control should we compare?",
+        "How do we review the result?"
+      ],
+      "footer_if_reader_relevant": ""
+    },
+    "claim_support": "Service scope is supported by the 12 Nov 2026 owner service architecture. Proposed tools and examples are labeled as such. No client outcomes or author anecdotes are claimed. Exact offer timing, support and price remain unknown.",
+    "editorial_revision": "v7-root-human-edit-after-semantic-repair"
+  },
+  {
+    "id": "03-the-interview",
+    "title": "One founder conversation can do more than produce quotes",
+    "author": "Max Charniuk",
+    "reader": "Founder / non-technical team",
+    "status": "draft_ready_for_author_review",
+    "caption": "The useful part of a founder interview is often the detail that sounds ordinary to the founder.\n\nWhy did you ask for a sample before connecting live data? Why did you keep a manual check? What did the alternative make harder?\n\nThose details contain the reasoning a buyer needs.\n\nIn a shared document, capture four things:\n\n• The decision and the alternative.\n• The buyer’s question.\n• An example we can show or explain.\n• The position the founder can stand behind.\n\nThen use comments to resolve missing facts. Keep the founder’s actual wording where it carries meaning. If nobody knows the consequence yet, leave that question open.\n\nOne conversation may support several posts when each answers a different buyer question. The cadence follows the material and the time available to review it.\n\nBring one product or service decision to the next interview. Ask for the reason behind it.",
+    "company_repost": "An interview becomes useful when it reaches a choice, an alternative and something the reader can inspect. These are the prompts we would start with.",
+    "reader_action": "Use the four headings in your next founder interview.",
+    "practical_tool": "A four-heading interview worksheet, Google Docs suggestions are one review option",
+    "source_ids": [
+      "site",
+      "stopscroll",
+      "google-docs",
+      "owner-call-brief"
+    ],
+    "pattern": "P05 diagnostic checklist",
+    "hook_payoff": "Open on the title’s specific reader task and pay it off with the named workflow, example or decision.",
+    "outline": [
+      "reader task named in title",
+      "specific tool or workflow",
+      "input and inspectable output",
+      "reason and boundary",
+      "clear takeaway"
+    ],
+    "reference_cards": [
+      "urn:li:activity:7459960231138234368",
+      "urn:li:activity:7495153236165869568"
+    ],
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7459960231138234368",
+          "author": "Daniel Murray",
+          "observed_function": "Generic writing starts with weak source inputs.",
+          "adaptation": "Replace a broad life-story prompt with questions that recover a specific choice, alternative and inspectable example.",
+          "source_url": "https://www.linkedin.com/posts/daniel-murray-marketing_the-prompt-is-the-problem-not-the-tool-activity-7459960231138234368-gwuX",
+          "source_capture": "2026-10-20T18:06:07.921701+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7495153236165869568",
+          "author": "Josh Braun",
+          "observed_function": "Recognisable voice comes from the person.",
+          "adaptation": "Keep the interviewee’s position and phrasing as source material. Do not manufacture personality or experience.",
+          "source_url": "https://www.linkedin.com/posts/josh-braun_you-know-its-fleetwood-mac-the-second-the-activity-7495153236165869568-zuKp",
+          "source_capture": "2026-10-22T10:08:53.836213+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7459960231138234368",
+      "visual_function": "Use an original short example and practical brief; do not copy the character.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/daniel-murray-marketing_the-prompt-is-the-problem-not-the-tool-activity-7459960231138234368-gwuX",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "visual_brief": {
+      "layout": "question swap",
+      "headline": "Bring four things out of the interview",
+      "emphasis": "Make the post-specific choice or sequence easy to scan.",
+      "items": [
+        "Decision and alternatives",
+        "Buyer question",
+        "Source or example",
+        "Founder-approved position"
+      ],
+      "footer_if_reader_relevant": ""
+    },
+    "claim_support": "Service scope is supported by the 12 Nov 2026 owner service architecture. Proposed tools and examples are labeled as such. No client outcomes or author anecdotes are claimed. Exact offer timing, support and price remain unknown.",
+    "editorial_revision": "v7-root-human-edit-after-semantic-repair"
+  },
+  {
+    "id": "04-the-profile",
+    "title": "Your profile has to finish the job your post started",
+    "author": "Max Charniuk",
+    "reader": "Founder / consultant",
+    "status": "draft_ready_for_author_review",
+    "caption": "Your post makes a useful point. A buyer opens your profile and finds “Founder | AI | Innovation”.\n\nThey still have to work out what you do for someone like them.\n\nCheck the profile as the continuation of the post:\n\n• Headline: who do you help, and with what work?\n• About: what problem do you understand, and how do you approach it?\n• Featured: which example helps the visitor assess that explanation?\n• Recent posts: what can they learn about your judgment?\n\nFor OutSpoken, a headline to test could be: “Building OutSpoken | LinkedIn content and buyer conversations for B2B teams.” The rest of the profile would need to support it with the actual service and useful work to inspect.\n\nUse a document with the current wording, proposed wording and reason for each change. A stronger adjective is less useful than removing one thing the buyer has to guess.\n\nOpen your Featured section. Does it help a visitor take the next step your posts invite?",
+    "company_repost": "A clear post deserves a clear profile. The headline, About section and Featured example should help the same buyer understand the next step.",
+    "reader_action": "Check the first screen of your profile from the buyer’s perspective.",
+    "practical_tool": "A four-part profile check, proposed headline and Featured asset",
+    "source_ids": [
+      "site",
+      "notus",
+      "authoredup"
+    ],
+    "pattern": "P04 workflow walkthrough",
+    "hook_payoff": "Open on the title’s specific reader task and pay it off with the named workflow, example or decision.",
+    "outline": [
+      "reader task named in title",
+      "specific tool or workflow",
+      "input and inspectable output",
+      "reason and boundary",
+      "clear takeaway"
+    ],
+    "reference_cards": [
+      "urn:li:activity:6986042662453694464",
+      "urn:li:activity:7515019416645021696"
+    ],
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7515019416645021696",
+          "author": "Silky Agarwal",
+          "observed_function": "A framework still needs customer insight.",
+          "adaptation": "Make the headline and Featured section respond to the customer’s actual decision, not just fit a profile formula.",
+          "source_url": "https://www.linkedin.com/posts/silkyagarwal_b2bsaas-differentiation-positioning-activity-7515019416645021696-XWP7",
+          "source_capture": "2026-10-22T09:41:48.069826+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7372286629400465408",
+          "author": "Amanda Natividad",
+          "observed_function": "Change the planning question to the buyer’s concern.",
+          "adaptation": "Rewrite the profile from the buyer’s problem and next useful example, rather than the founder’s list of labels.",
+          "source_url": "https://www.linkedin.com/posts/amandanat_we-marketers-need-to-ask-better-questions-activity-7372286629400465408-Tpvh",
+          "source_capture": "2026-10-20T18:00:50.202299+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7515019416645021696",
+      "visual_function": "Use a simple original schema plus an actual client example.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/silkyagarwal_b2bsaas-differentiation-positioning-activity-7515019416645021696-XWP7",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "visual_brief": {
+      "layout": "five-row diagnostic",
+      "headline": "Can a buyer tell why this profile is relevant?",
+      "emphasis": "Make the post-specific choice or sequence easy to scan.",
+      "items": [
+        "Headline: who and what",
+        "About: problem and approach",
+        "Featured: inspectable example",
+        "Recent posts: useful judgment"
+      ],
+      "footer_if_reader_relevant": ""
+    },
+    "claim_support": "Service scope is supported by the 12 Nov 2026 owner service architecture. Proposed tools and examples are labeled as such. No client outcomes or author anecdotes are claimed. Exact offer timing, support and price remain unknown.",
+    "editorial_revision": "v7-root-human-edit-after-semantic-repair"
+  },
+  {
+    "id": "05-the-tools",
+    "title": "Choose the jobs before choosing the tool stack",
+    "author": "Max Charniuk",
+    "reader": "Founder / small team",
+    "status": "draft_ready_for_author_review",
+    "caption": "Before adding another tool, name the handoff it should improve.\n\nA founder-led LinkedIn programme needs a few clear jobs:\n\n• Capture product facts and useful examples in a shared document.\n• Plan topics in a board with the buyer question, owner and review date.\n• Review claims and voice with visible edits.\n• Preview and publish through the agreed account workflow.\n• Research suitable companies when outreach is part of the scope.\n• Keep actual replies and next actions in a CRM or Sheet.\n\nGoogle Docs, native LinkedIn, a simple board and a Sheet can cover much of the starting workflow. A specialist tool becomes useful when it solves a specific constraint.\n\nThe client’s side matters too. Who supplies the material? Who checks facts? Who owns the account or subscription?\n\nAt OutSpoken, I want each tool to have a job, an owner and a cost we can explain. Start with the slowest handoff, then choose what helps it.",
+    "company_repost": "A tool earns its place by doing a specific job. This is a starter map for capturing material, planning content, reviewing claims and keeping follow-up visible.",
+    "reader_action": "Choose one unresolved workflow job before evaluating a tool.",
+    "practical_tool": "Function-by-function agency/client tool matrix",
+    "source_ids": [
+      "google-docs",
+      "authoredup",
+      "sales-nav",
+      "hubspot"
+    ],
+    "pattern": "P04 workflow walkthrough",
+    "hook_payoff": "Open on the title’s specific reader task and pay it off with the named workflow, example or decision.",
+    "outline": [
+      "reader task named in title",
+      "specific tool or workflow",
+      "input and inspectable output",
+      "reason and boundary",
+      "clear takeaway"
+    ],
+    "reference_cards": [
+      "urn:li:activity:7459960231138234368",
+      "urn:li:activity:7259580222310645760"
+    ],
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7459960231138234368",
+          "author": "Daniel Murray",
+          "observed_function": "Generic writing starts with weak source inputs.",
+          "adaptation": "Explain why a tool cannot fix missing source material or unclear review ownership.",
+          "source_url": "https://www.linkedin.com/posts/daniel-murray-marketing_the-prompt-is-the-problem-not-the-tool-activity-7459960231138234368-gwuX",
+          "source_capture": "2026-10-20T18:06:07.921701+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7259580222310645760",
+          "author": "Anthony Pierri",
+          "observed_function": "A complex subject becomes answerable questions.",
+          "adaptation": "Break the stack into capture, plan, review, publish, research and follow-through jobs with concrete outputs.",
+          "source_url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+          "source_capture": "2026-10-20T17:59:54.131063+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7459960231138234368",
+      "visual_function": "Use an original short example and practical brief; do not copy the character.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/daniel-murray-marketing_the-prompt-is-the-problem-not-the-tool-activity-7459960231138234368-gwuX",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "visual_brief": {
+      "layout": "input checklist",
+      "headline": "Six jobs for a lean LinkedIn workflow",
+      "emphasis": "Make the post-specific choice or sequence easy to scan.",
+      "items": [
+        "Capture: shared document",
+        "Plan: content board",
+        "Review: visible edits",
+        "Publish: approved native workflow",
+        "Research: approved search",
+        "Follow through: CRM or Sheet"
+      ],
+      "footer_if_reader_relevant": ""
+    },
+    "claim_support": "Service scope is supported by the 12 Nov 2026 owner service architecture. Proposed tools and examples are labeled as such. No client outcomes or author anecdotes are claimed. Exact offer timing, support and price remain unknown.",
+    "editorial_revision": "v7-root-human-edit-after-semantic-repair"
+  },
+  {
+    "id": "06-the-first-message",
+    "title": "Give someone a reason to reply",
+    "author": "Max Charniuk",
+    "reader": "Founder / sales",
+    "status": "draft_ready_for_author_review",
+    "caption": "A first message needs a reason to exist.\n\n“Thanks for connecting. We help businesses grow” asks the recipient to supply that reason themselves.\n\nStart with something you checked and a useful next step. For example, if a company has publicly announced a partner programme, a message could be:\n\n“I saw you’re building the partner programme. Would a short checklist for turning recurring onboarding questions into founder posts be useful?”\n\nThe observation needs to be real. The resource needs to exist. A possible problem should stay a possibility until the person confirms it.\n\nKeep three fields beside the draft: checked context, relevance to the person’s work and the small next step. Use a CRM or Sheet to record the actual answer.\n\nVoice + Pipeline connects this research with the same buyer understanding used in the content. A large contact list cannot replace a clear reason for writing to one person.",
+    "company_repost": "Before writing the first message, check why this company is relevant. One observed problem and one useful resource give the conversation a clearer starting point.",
+    "reader_action": "Rewrite one generic opener around a verified work signal.",
+    "practical_tool": "Context / relevant problem / useful next step message template",
+    "source_ids": [
+      "sales-nav",
+      "waalaxy-search",
+      "site"
+    ],
+    "pattern": "P04 workflow walkthrough",
+    "hook_payoff": "Open on the title’s specific reader task and pay it off with the named workflow, example or decision.",
+    "outline": [
+      "reader task named in title",
+      "specific tool or workflow",
+      "input and inspectable output",
+      "reason and boundary",
+      "clear takeaway"
+    ],
+    "reference_cards": [
+      "urn:li:activity:7489062336897654784",
+      "urn:li:activity:7515019416645021696"
+    ],
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7489062336897654784",
+          "author": "Chris Orlob",
+          "observed_function": "Avoiding an awkward sales question hides useful information.",
+          "adaptation": "Use a specific clarifying question to expose relevant context instead of hiding behind a generic pitch.",
+          "source_url": "https://www.linkedin.com/posts/chrisorlob_the-deals-that-die-quietly-are-the-ones-where-activity-7489062336897654784-wbC-",
+          "source_capture": "2026-10-22T10:09:13.042431+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7515019416645021696",
+          "author": "Silky Agarwal",
+          "observed_function": "A framework still needs customer insight.",
+          "adaptation": "Check an actual company problem before applying an outreach structure to it.",
+          "source_url": "https://www.linkedin.com/posts/silkyagarwal_b2bsaas-differentiation-positioning-activity-7515019416645021696-XWP7",
+          "source_capture": "2026-10-22T09:41:48.069826+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7515019416645021696",
+      "visual_function": "Use a simple original schema plus an actual client example.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/silkyagarwal_b2bsaas-differentiation-positioning-activity-7515019416645021696-XWP7",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "visual_brief": {
+      "layout": "decision comparison",
+      "headline": "What makes this message worth answering?",
+      "emphasis": "Make the post-specific choice or sequence easy to scan.",
+      "items": [
+        "Verified public context",
+        "Relevant buyer problem",
+        "One useful next step",
+        "Easy decline"
+      ],
+      "footer_if_reader_relevant": ""
+    },
+    "claim_support": "Service scope is supported by the 12 Nov 2026 owner service architecture. Proposed tools and examples are labeled as such. No client outcomes or author anecdotes are claimed. Exact offer timing, support and price remain unknown.",
+    "editorial_revision": "v7-root-human-edit-after-semantic-repair"
+  },
+  {
+    "id": "07-the-reply",
+    "title": "What do you send when a prospect says “send me details”?",
+    "author": "Max Charniuk",
+    "reader": "Founder / sales",
+    "status": "draft_ready_for_author_review",
+    "caption": "“Send me details” gives you something concrete to answer.\n\nI would send the relevant detail first, then ask the question that helps the person use it.\n\nA reply could be:\n\n“Of course. Here’s a short example of how we turn founder material into a post. It shows the source, draft and review steps. Which part is taking the most time for you: finding the material, writing, or getting it approved?”\n\nThat answer gives them something to inspect. Their response changes the recommendation.\n\nAn ideas problem may need a better content brief. A voice problem needs better source material and editing. Slow review needs a clearer decision and owner.\n\nRecord the requested resource, actual reply and agreed next action in the contact record. Keep follow-up within the conversation and contact rules you have agreed.\n\nThe next reply should make the situation clearer for both people.",
+    "company_repost": "When someone asks for details, start with the relevant detail. A useful example and one clarifying question can make the next reply easier.",
+    "reader_action": "Choose the question that changes your recommendation.",
+    "practical_tool": "A four-step reply card and one diagnostic question The sample reply assumes a relevant resource exists and is cleared to share. Verify that before use.",
+    "source_ids": [
+      "hubspot",
+      "site",
+      "saved-patterns"
+    ],
+    "pattern": "P12 offer/invitation",
+    "hook_payoff": "Open on the title’s specific reader task and pay it off with the named workflow, example or decision.",
+    "outline": [
+      "reader task named in title",
+      "specific tool or workflow",
+      "input and inspectable output",
+      "reason and boundary",
+      "clear takeaway"
+    ],
+    "reference_cards": [
+      "urn:li:activity:7489062336897654784",
+      "urn:li:activity:7491381810644279296"
+    ],
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7489062336897654784",
+          "author": "Chris Orlob",
+          "observed_function": "Avoiding an awkward sales question hides useful information.",
+          "adaptation": "Ask which part of the work is difficult only after answering the request for information.",
+          "source_url": "https://www.linkedin.com/posts/chrisorlob_the-deals-that-die-quietly-are-the-ones-where-activity-7489062336897654784-wbC-",
+          "source_capture": "2026-10-22T10:09:13.042431+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7397002727039488002",
+          "author": "Gong",
+          "observed_function": "Announce a feature by showing a specific job.",
+          "adaptation": "Make the service tangible with a real approved example when used. The displayed reply is illustrative.",
+          "source_url": "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+          "source_capture": "2026-10-20T18:02:57.400816+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7397002727039488002",
+      "visual_function": "An original worked reply makes the claimed service tangible. It is an illustrative message, not a copied product screenshot.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "visual_brief": {
+      "layout": "offer scope panel",
+      "headline": "“Send me details.” What do you send?",
+      "emphasis": "Make the post-specific choice or sequence easy to scan.",
+      "items": [
+        "Answer the request",
+        "Share one relevant item",
+        "Ask one useful question",
+        "Record next step or stop"
+      ],
+      "footer_if_reader_relevant": ""
+    },
+    "claim_support": "Service scope is supported by the 12 Nov 2026 owner service architecture. Proposed tools and examples are labeled as such. No client outcomes or author anecdotes are claimed. Exact offer timing, support and price remain unknown.",
+    "editorial_revision": "v7-root-human-edit-after-semantic-repair"
+  },
+  {
+    "id": "08-the-case",
+    "title": "One strong piece of work can open several conversations",
+    "author": "Max Charniuk",
+    "reader": "Founder / marketer",
+    "status": "draft_ready_for_author_review",
+    "caption": "One useful source can support several posts. The buyer question is what makes them different.\n\nTake a reviewed product workflow.\n\nThe founder can explain why the team chose that approach. A practical post can show how one task works, including an exception. A checklist can help a buyer compare it with their current process.\n\nThose are three different uses of the same knowledge.\n\nPut the source in a shared document. In the content board, give each proposed post its own reader, question, example and takeaway. Keep the factual limits attached to every version.\n\nSimply cutting one paragraph into three smaller posts adds little. Changing the decision you help the reader make gives the material a new use.\n\nChoose one substantial piece of work you already have. Look for an explanation, a demonstration and a way to help someone choose.",
+    "company_repost": "One reviewed source can support different posts when each helps a different buyer decision. Here are three ways to use a product or service workflow.",
+    "reader_action": "Choose one substantial source and three genuinely different reader questions.",
+    "practical_tool": "One-source / three-reader-questions repurposing sheet",
+    "source_ids": [
+      "buffer-case",
+      "site"
+    ],
+    "pattern": "P04 workflow walkthrough",
+    "hook_payoff": "Open on the title’s specific reader task and pay it off with the named workflow, example or decision.",
+    "outline": [
+      "reader task named in title",
+      "specific tool or workflow",
+      "input and inspectable output",
+      "reason and boundary",
+      "clear takeaway"
+    ],
+    "reference_cards": [
+      "urn:li:activity:7397002727039488002",
+      "urn:li:activity:7372286629400465408"
+    ],
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7397002727039488002",
+          "author": "Gong",
+          "observed_function": "Announce a feature by showing a specific job.",
+          "adaptation": "Turn a workflow into an explanation, a worked demonstration and a buyer test, each showing a job.",
+          "source_url": "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+          "source_capture": "2026-10-20T18:02:57.400816+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7372286629400465408",
+          "author": "Amanda Natividad",
+          "observed_function": "Change the planning question to the buyer’s concern.",
+          "adaptation": "Give each reuse a distinct buyer question rather than repeat the same topic in three formats.",
+          "source_url": "https://www.linkedin.com/posts/amandanat_we-marketers-need-to-ask-better-questions-activity-7372286629400465408-Tpvh",
+          "source_capture": "2026-10-20T18:00:50.202299+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7397002727039488002",
+      "visual_function": "Show a real input, output and check; label static examples honestly.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "visual_brief": {
+      "layout": "three-check review card",
+      "headline": "One source. Three useful angles.",
+      "emphasis": "Make the post-specific choice or sequence easy to scan.",
+      "items": [
+        "Explain the decision",
+        "Show the workflow",
+        "Give the buyer a checklist"
+      ],
+      "footer_if_reader_relevant": ""
+    },
+    "claim_support": "Service scope is supported by the 12 Nov 2026 owner service architecture. Proposed tools and examples are labeled as such. No client outcomes or author anecdotes are claimed. Exact offer timing, support and price remain unknown.",
+    "editorial_revision": "v7-root-human-edit-after-semantic-repair"
+  },
+  {
+    "id": "09-the-buying-group",
+    "title": "Your champion is not the whole buying group",
+    "author": "Max Charniuk",
+    "reader": "Founder / business owner",
+    "status": "draft_ready_for_author_review",
+    "caption": "Your product champion may understand the feature. Other people in the buying group still have their own questions.\n\nThe user wants to know how the task changes. The manager needs to understand adoption. Finance wants a credible account of cost and value. Security or legal may ask who controls the data and checks the result.\n\nThese questions belong in the content plan.\n\nFor an illustrative reporting tool, one post could show a worked answer, another could explain setup, and another could show when a person checks the output.\n\nMake a small buyer-question grid in the strategy document. Add the role, decision, useful evidence and next question. Use the client’s actual buying process to fill it.\n\nA post will not complete a purchasing process. It can give the champion a clearer explanation to share with the rest of the team.\n\nWhich role does your current explanation leave doing the most guessing?",
+    "company_repost": "The person who likes the idea may still need to explain it to finance, a manager or a reviewer. Content can give each of them something useful to assess.",
+    "reader_action": "Add one overlooked buying-group question to your content plan.",
+    "practical_tool": "A four-role buying-group question map",
+    "source_ids": [
+      "edelman-2025",
+      "site"
+    ],
+    "pattern": "P05 diagnostic checklist",
+    "hook_payoff": "Open with the reader decision, then provide an actionable method and bounded conclusion.",
+    "outline": [
+      "reader problem",
+      "specific steps or comparison",
+      "input and output",
+      "reason and limitation",
+      "useful close"
+    ],
+    "reference_cards": [
+      "urn:li:activity:7259580222310645760",
+      "urn:li:activity:7515019416645021696"
+    ],
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7259580222310645760",
+          "author": "Anthony Pierri",
+          "observed_function": "A complex subject becomes answerable questions.",
+          "adaptation": "Convert the buying group into four answerable questions for user, manager, finance and risk.",
+          "source_url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+          "source_capture": "2026-10-20T17:59:54.131063+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7515019416645021696",
+          "author": "Silky Agarwal",
+          "observed_function": "A framework still needs customer insight.",
+          "adaptation": "Use those role questions to identify missing buyer evidence, not claim every purchase has the same group.",
+          "source_url": "https://www.linkedin.com/posts/silkyagarwal_b2bsaas-differentiation-positioning-activity-7515019416645021696-XWP7",
+          "source_capture": "2026-10-22T09:41:48.069826+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7259580222310645760",
+      "visual_function": "Build an original buyer-question worksheet, with readable definitions.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "visual_brief": {
+      "layout": "buying-group grid",
+      "headline": "Who else has to understand the value?",
+      "emphasis": "Highlight the decision point and separate inputs, action and output.",
+      "items": [
+        "User — what changes?",
+        "Manager — what must we adopt?",
+        "Finance — why this cost?",
+        "Risk — who checks the output?"
+      ],
+      "footer_if_reader_relevant": ""
+    },
+    "claim_support": "Service scope is supported by the 12 Nov 2026 owner service architecture. Proposed tools and examples are labeled as such. No client outcomes or author anecdotes are claimed. Exact offer timing, support and price remain unknown.",
+    "editorial_revision": "v7-root-human-edit-after-semantic-repair"
+  },
+  {
+    "id": "10-the-review",
+    "title": "What should a weekly LinkedIn review change?",
+    "author": "Max Charniuk",
+    "reader": "Founder / manager",
+    "status": "draft_ready_for_author_review",
+    "caption": "A weekly LinkedIn review should give the team a decision for the next week.\n\nSuppose an operations lead asks how your onboarding handles an exception. That is useful material for a worked example. Record the question, the next post and the person who will check the explanation.\n\nUse native LinkedIn analytics for the distribution you can observe. Use actual replies and CRM notes for the conversation. Keep the agreed next step separate from a reaction or a profile visit.\n\nA review row can be simple:\n\nObservation → what it suggests → next action → owner → review date.\n\nFor example: “Setup questions keep appearing. Prepare a sample-data walkthrough. Product owner checks the steps before publication.” This is an illustrative note, not a result we are claiming.\n\nVoice’s content review and Pipeline’s conversation review should feed the same next decision. The report becomes useful when someone knows what to change because of it.",
+    "company_repost": "A weekly review should lead to a decision. Combine native analytics with actual buyer questions, then choose the next example to show.",
+    "reader_action": "End the review with one content decision and one conversation decision.",
+    "practical_tool": "Four-question review sheet, native analytics plus conversation notes",
+    "source_ids": [
+      "linkedin-analytics",
+      "hubspot",
+      "site"
+    ],
+    "pattern": "P04 workflow walkthrough",
+    "hook_payoff": "Open with the reader decision, then provide an actionable method and bounded conclusion.",
+    "outline": [
+      "reader problem",
+      "specific steps or comparison",
+      "input and output",
+      "reason and limitation",
+      "useful close"
+    ],
+    "reference_cards": [
+      "urn:li:activity:6986042662453694464",
+      "urn:li:activity:7416823425274388480"
+    ],
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:6986042662453694464",
+          "author": "Katelyn Bourgoin",
+          "observed_function": "A large effort still produced a wrong decision.",
+          "adaptation": "Ask what decision the observed evidence supports before changing the content plan. No founder-failure anecdote is borrowed.",
+          "source_url": "https://www.linkedin.com/posts/katebour_marketing-growth-buyerresearch-activity-6986042662453694464-wMxk",
+          "source_capture": "2026-10-20T17:59:58.728114+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7416823425274388480",
+          "author": "Justin Welsh",
+          "observed_function": "Excessive editing made publishing difficult.",
+          "adaptation": "Give the review one publishable next action and a named reviewer instead of an unlimited editing loop.",
+          "source_url": "https://www.linkedin.com/posts/justinwelsh_i-overthought-my-first-100-posts-edited-activity-7416823425274388480-y_Ux",
+          "source_capture": "2026-10-20T18:01:59.186386+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7416823425274388480",
+      "visual_function": "Use an original owned excerpt with one purposeful annotation.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/justinwelsh_i-overthought-my-first-100-posts-edited-activity-7416823425274388480-y_Ux",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "visual_brief": {
+      "layout": "four-row review sheet",
+      "headline": "What will you change next week?",
+      "emphasis": "Highlight the decision point and separate inputs, action and output.",
+      "items": [
+        "What did we publish?",
+        "Who asked a relevant question?",
+        "What next step was agreed?",
+        "What should change?"
+      ],
+      "footer_if_reader_relevant": ""
+    },
+    "claim_support": "Service scope is supported by the 12 Nov 2026 owner service architecture. Proposed tools and examples are labeled as such. No client outcomes or author anecdotes are claimed. Exact offer timing, support and price remain unknown.",
+    "editorial_revision": "v7-root-human-edit-after-semantic-repair"
+  },
+  {
+    "id": "11-the-designer",
+    "title": "A beautiful product still needs a clear first step",
+    "author": "Max Charniuk",
+    "reader": "Designer / founder",
+    "status": "draft_ready_for_author_review",
+    "caption": "A beautiful first screen still needs a clear first action.\n\nWhen AI makes it easier to generate interface options, the valuable choice is deciding what the person should understand and do.\n\nTake an illustrative reporting trial. Compare “Start your AI journey” with “Try a report with sample data”. The second button explains the action and what the visitor can expect.\n\nNow show the next screen. Can they inspect the answer? Can they find the evidence? Do they know when to check it themselves?\n\nThis is a useful founder story because it connects a design decision to a buyer’s task. The graphic can show the two options and explain the reason for the choice.\n\nAt OutSpoken, that is what I want the visual to contribute: make the idea easier to assess.\n\nLook at one screen in your own product. Write the action and expected result beside the button. Then check whether the interface says the same thing.",
+    "company_repost": "Good design helps a visitor act. A concrete first task makes an AI product easier to try and gives its content a clearer demonstration.",
+    "reader_action": "Explain one interface choice through the buyer’s task.",
+    "practical_tool": "A first-screen question and an illustrative sample-data CTA comparison",
+    "source_ids": [
+      "site",
+      "saved-patterns"
+    ],
+    "pattern": "P04 workflow walkthrough",
+    "hook_payoff": "Open with the reader decision, then provide an actionable method and bounded conclusion.",
+    "outline": [
+      "reader problem",
+      "specific steps or comparison",
+      "input and output",
+      "reason and limitation",
+      "useful close"
+    ],
+    "reference_cards": [
+      "urn:li:activity:7397002727039488002",
+      "urn:li:activity:7515019416645021696"
+    ],
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7397002727039488002",
+          "author": "Gong",
+          "observed_function": "Announce a feature by showing a specific job.",
+          "adaptation": "Replace the abstract first-action button with one product task and an inspectable sample-data result.",
+          "source_url": "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+          "source_capture": "2026-10-20T18:02:57.400816+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7515019416645021696",
+          "author": "Silky Agarwal",
+          "observed_function": "A framework still needs customer insight.",
+          "adaptation": "Explain the proposed design through the visitor’s task and remaining uncertainty.",
+          "source_url": "https://www.linkedin.com/posts/silkyagarwal_b2bsaas-differentiation-positioning-activity-7515019416645021696-XWP7",
+          "source_capture": "2026-10-22T09:41:48.069826+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7397002727039488002",
+      "visual_function": "Show a real input, output and check; label static examples honestly.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "visual_brief": {
+      "layout": "annotated first-screen comparison",
+      "headline": "Make the first action obvious",
+      "emphasis": "Highlight the decision point and separate inputs, action and output.",
+      "items": [
+        "Vague: start your AI journey",
+        "Concrete: try a report with sample data",
+        "Then show: answer and evidence"
+      ],
+      "footer_if_reader_relevant": ""
+    },
+    "claim_support": "Service scope is supported by the 12 Nov 2026 owner service architecture. Proposed tools and examples are labeled as such. No client outcomes or author anecdotes are claimed. Exact offer timing, support and price remain unknown.",
+    "editorial_revision": "v7-root-human-edit-after-semantic-repair"
+  },
+  {
+    "id": "12-the-developer",
+    "title": "Explain what makes your AI output worth trusting",
+    "author": "Max Charniuk",
+    "reader": "Developer / technical founder",
+    "status": "draft_ready_for_author_review",
+    "caption": "“Built with AI” leaves the buyer with a practical question: how do I check the result?\n\nFor one feature, show four things:\n\n• The question or input.\n• The answer or output.\n• The evidence a person can inspect.\n• The situation that needs a human check.\n\nA technical explanation becomes more useful when the reader can follow that chain. The developer explains the implementation choice. The designer makes the check visible. The founder connects it to the work the buyer is trying to do.\n\nUse a small worked example or annotated screen. Keep the limits specific. If the tool cannot support a source, say what the user can verify instead.\n\nA buyer needs enough detail to assess the claim. Give them one check they can carry out themselves.",
+    "company_repost": "An AI answer needs a way to check it. Show the input, output, source and point where a person should review the result.",
+    "reader_action": "Choose one actual output-checking mechanism to explain.",
+    "practical_tool": "Input / answer / check / review-condition demo brief",
+    "source_ids": [
+      "stackoverflow-2025",
+      "saved-patterns"
+    ],
+    "pattern": "P04 workflow walkthrough",
+    "hook_payoff": "Open with the reader decision, then provide an actionable method and bounded conclusion.",
+    "outline": [
+      "reader problem",
+      "specific steps or comparison",
+      "input and output",
+      "reason and limitation",
+      "useful close"
+    ],
+    "reference_cards": [
+      "urn:li:activity:7397002727039488002",
+      "urn:li:activity:7491381810644279296"
+    ],
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7397002727039488002",
+          "author": "Gong",
+          "observed_function": "Announce a feature by showing a specific job.",
+          "adaptation": "Demonstrate one AI feature through its input, result, source and human check. No product performance claim is borrowed.",
+          "source_url": "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+          "source_capture": "2026-10-20T18:02:57.400816+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7259580222310645760",
+          "author": "Anthony Pierri",
+          "observed_function": "A complex subject becomes answerable questions.",
+          "adaptation": "Break the trust question into four explicit questions that a buyer can inspect.",
+          "source_url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+          "source_capture": "2026-10-20T17:59:54.131063+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7397002727039488002",
+      "visual_function": "Show a real input, output and check; label static examples honestly.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "visual_brief": {
+      "layout": "input-to-check sequence",
+      "headline": "Give the buyer a way to check the answer",
+      "emphasis": "Highlight the decision point and separate inputs, action and output.",
+      "items": [
+        "46% distrust / 33% trust",
+        "Show the input and output",
+        "Link the evidence",
+        "Name the review condition"
+      ],
+      "footer_if_reader_relevant": ""
+    },
+    "claim_support": "Service scope is supported by the 12 Nov 2026 owner service architecture. Proposed tools and examples are labeled as such. No client outcomes or author anecdotes are claimed. Exact offer timing, support and price remain unknown.",
+    "editorial_revision": "v7-root-human-edit-after-semantic-repair"
+  },
+  {
+    "id": "13-the-manager",
+    "title": "Give the reviewer a decision to make",
+    "author": "Max Charniuk",
+    "reader": "Manager / non-technical team",
+    "status": "draft_ready_for_author_review",
+    "caption": "“Any feedback?” leaves several different decisions inside one vague request.\n\nOne person changes the tone. Another questions a fact. Someone rewrites the call to action. The draft keeps moving, but the reason it is waiting stays unclear.\n\nPut three checks beside it:\n\n• Product truth: does this match what we deliver?\n• Founder position: is this the view and wording the author can stand behind?\n• Reader action: does the ending give a useful next step?\n\nName the reviewer for each decision. Use document suggestions for wording changes and comments for the reason.\n\nA useful review note is specific: “This sentence promises a delivery time we have not agreed. Confirm the commitment or remove the time claim.”\n\nThat gives the writer a decision they can act on. It also lets non-technical colleagues help without guessing at the product facts.",
+    "company_repost": "Give each reviewer a clear decision. Product accuracy, the author’s position and the reader’s next step need different kinds of attention.",
+    "reader_action": "Replace “Any feedback?” with three explicit review questions.",
+    "practical_tool": "A three-question review card with one actionable edit example",
+    "source_ids": [
+      "google-docs",
+      "site",
+      "stopscroll"
+    ],
+    "pattern": "P04 workflow walkthrough",
+    "hook_payoff": "Open with the reader decision, then provide an actionable method and bounded conclusion.",
+    "outline": [
+      "reader problem",
+      "specific steps or comparison",
+      "input and output",
+      "reason and limitation",
+      "useful close"
+    ],
+    "reference_cards": [
+      "urn:li:activity:7416823425274388480",
+      "urn:li:activity:7422666982032056322"
+    ],
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7416823425274388480",
+          "author": "Justin Welsh",
+          "observed_function": "Excessive editing made publishing difficult.",
+          "adaptation": "Bound the review to accuracy, author position and next reader step so editing has a clear purpose.",
+          "source_url": "https://www.linkedin.com/posts/justinwelsh_i-overthought-my-first-100-posts-edited-activity-7416823425274388480-y_Ux",
+          "source_capture": "2026-10-20T18:01:59.186386+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7422666982032056322",
+          "author": "April Dunford",
+          "observed_function": "Delay the work until key choices are settled.",
+          "adaptation": "Resolve material choices before publication, including whether the promised timing is supportable.",
+          "source_url": "https://www.linkedin.com/posts/aprildunford_you-dont-want-to-start-any-positioning-work-activity-7422666982032056322-QbQr",
+          "source_capture": "2026-10-20T18:00:06.892429+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7416823425274388480",
+      "visual_function": "Use an original owned excerpt with one purposeful annotation.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/justinwelsh_i-overthought-my-first-100-posts-edited-activity-7416823425274388480-y_Ux",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "visual_brief": {
+      "layout": "three-review-gates panel",
+      "headline": "What decision does this draft need?",
+      "emphasis": "Highlight the decision point and separate inputs, action and output.",
+      "items": [
+        "Product truth",
+        "Founder voice",
+        "Reader action"
+      ],
+      "footer_if_reader_relevant": ""
+    },
+    "claim_support": "Service scope is supported by the 12 Nov 2026 owner service architecture. Proposed tools and examples are labeled as such. No client outcomes or author anecdotes are claimed. Exact offer timing, support and price remain unknown.",
+    "editorial_revision": "v7-root-human-edit-after-semantic-repair"
+  },
+  {
+    "id": "14-the-offer",
+    "title": "What does the buyer get from your expertise?",
+    "author": "Max Charniuk",
+    "reader": "Business owner / founder",
+    "status": "draft_ready_for_author_review",
+    "caption": "Some founders already have plenty to say. The work is turning it into a clear explanation a buyer can use.\n\nThat is why Voice starts with your business, buyers and point of view. We use the source material to clarify the profile, plan the topics, write the posts and create visuals that explain the idea. You review the facts and the position. The aim is a profile and body of content that give people a useful way to understand your work.\n\nVoice + Pipeline adds the work around relevant buyer conversations: finding suitable companies and people, checking why they fit, preparing messages, qualifying actual replies and carrying the context into a meeting brief.\n\nThe content and outreach use the same buyer understanding. A useful post can support a conversation, and real buyer questions can improve the next post.\n\nIf email or ads would help, we scope the tools, account responsibilities, measurement and spend separately. The package should fit the work you need and can review.\n\nBook an intro call",
+    "company_repost": "Voice helps a B2B team explain its expertise through a clear profile and useful content. Voice + Pipeline adds company research, relevant outreach and the work around real replies. The scope follows the business need.",
+    "reader_action": "Book an intro call",
+    "practical_tool": "A buyer-value artifact checklist and current Voice / Pipeline distinction",
+    "source_ids": [
+      "site",
+      "notus",
+      "windmill",
+      "owner-call-brief"
+    ],
+    "pattern": "P04 workflow walkthrough",
+    "hook_payoff": "Open on the title’s specific reader task and pay it off with the named workflow, example or decision.",
+    "outline": [
+      "reader task named in title",
+      "specific tool or workflow",
+      "input and inspectable output",
+      "reason and boundary",
+      "clear takeaway"
+    ],
+    "reference_cards": [
+      "urn:li:activity:7486056038190854148",
+      "urn:li:activity:7515019416645021696"
+    ],
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7486056038190854148",
+          "author": "Rob Gough",
+          "observed_function": "A founder invites a defined group to try the product.",
+          "adaptation": "Address a defined B2B buyer and offer a clear intro-call next step without inventing a launch result.",
+          "source_url": "https://www.linkedin.com/posts/robertjohngough_im-taking-on-founding-customers-for-stayupfront-activity-7486056038190854148-oIOZ",
+          "source_capture": "2026-10-22T09:41:43.502656+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7515019416645021696",
+          "author": "Silky Agarwal",
+          "observed_function": "A framework still needs customer insight.",
+          "adaptation": "Explain the two packages through customer problems and inspectable outputs rather than a framework name alone.",
+          "source_url": "https://www.linkedin.com/posts/silkyagarwal_b2bsaas-differentiation-positioning-activity-7515019416645021696-XWP7",
+          "source_capture": "2026-10-22T09:41:48.069826+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7515019416645021696",
+      "visual_function": "Use a simple original schema plus an actual client example.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/silkyagarwal_b2bsaas-differentiation-positioning-activity-7515019416645021696-XWP7",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "visual_brief": {
+      "layout": "offer comparison card",
+      "headline": "What does the buyer get?",
+      "emphasis": "Make the post-specific choice or sequence easy to scan.",
+      "items": [
+        "Voice: strategy, profile and content",
+        "Pipeline: research and qualified conversations",
+        "Optional ads: separate scope and media fees",
+        "Proposal: deliverables matched to need"
+      ],
+      "footer_if_reader_relevant": ""
+    },
+    "claim_support": "Service scope is supported by the 12 Nov 2026 owner service architecture. Proposed tools and examples are labeled as such. No client outcomes or author anecdotes are claimed. Exact offer timing, support and price remain unknown.",
+    "editorial_revision": "v7-root-human-edit-after-semantic-repair"
+  },
+  {
+    "id": "15-the-call",
+    "title": "What should a 45-minute LinkedIn call decide?",
+    "author": "Max Charniuk",
+    "reader": "Founder / business owner",
+    "status": "draft_ready_for_author_review",
+    "caption": "Bring what you already have to the first call: a product or service page, a draft, a deck, or a question buyers keep asking.\n\nWe use 45 minutes to understand the business, the people you want to reach and what the LinkedIn work needs to change.\n\nOne real example helps. What choice did the team make? What alternative did you consider? What can we show? Who can check the facts and review the writing?\n\nFrom that conversation, we can put together a concise summary, useful work blocks, suitable tools and a personalized offer. A brief strategy and one adapted tool may be useful together, or one may address the main constraint better.\n\nThe tool could be a structured brief, a writing or review template, a search planner, or a compatible agent workflow. We agree its purpose and boundary before promising an integration.\n\nThe useful result of the call is a clearer next decision and enough context to make the proposal specific.",
+    "company_repost": "A first call should leave the client with a clearer direction. We use the conversation to identify priorities, relevant tools and a useful next decision.",
+    "reader_action": "Bring one product decision you can explain.",
+    "practical_tool": "A45-minute agenda and one sourceable decision",
+    "source_ids": [
+      "owner-call-brief",
+      "site",
+      "saved-patterns"
+    ],
+    "pattern": "P04 workflow walkthrough",
+    "hook_payoff": "Open with the reader decision, then provide an actionable method and bounded conclusion.",
+    "outline": [
+      "reader problem",
+      "specific steps or comparison",
+      "input and output",
+      "reason and limitation",
+      "useful close"
+    ],
+    "reference_cards": [
+      "urn:li:activity:7259580222310645760",
+      "urn:li:activity:7486056038190854148"
+    ],
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7259580222310645760",
+          "author": "Anthony Pierri",
+          "observed_function": "A complex subject becomes answerable questions.",
+          "adaptation": "Make the 45-minute call answer questions about business, buyers, sources, scope and next decision.",
+          "source_url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+          "source_capture": "2026-10-20T17:59:54.131063+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7486056038190854148",
+          "author": "Rob Gough",
+          "observed_function": "A founder invites a defined group to try the product.",
+          "adaptation": "State what the prospective client can get from a conversation without promising an unapproved free deliverable.",
+          "source_url": "https://www.linkedin.com/posts/robertjohngough_im-taking-on-founding-customers-for-stayupfront-activity-7486056038190854148-oIOZ",
+          "source_capture": "2026-10-22T09:41:43.502656+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7259580222310645760",
+      "visual_function": "Build an original buyer-question worksheet, with readable definitions.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "visual_brief": {
+      "layout": "45-minute agenda",
+      "headline": "What should 45 minutes decide?",
+      "emphasis": "Highlight the decision point and separate inputs, action and output.",
+      "items": [
+        "Business and buyer",
+        "One real example",
+        "Source and review",
+        "A starting rhythm"
+      ],
+      "footer_if_reader_relevant": ""
+    },
+    "claim_support": "Service scope is supported by the 12 Nov 2026 owner service architecture. Proposed tools and examples are labeled as such. No client outcomes or author anecdotes are claimed. Exact offer timing, support and price remain unknown.",
+    "editorial_revision": "v7-root-human-edit-after-semantic-repair"
+  },
+  {
+    "id": "16-the-cadence",
+    "title": "How often should a founder post?",
+    "author": "Max Charniuk",
+    "reader": "Founder / content lead",
+    "status": "draft_ready_for_author_review",
+    "caption": "How often should a founder post?\n\nStart with the material and review time available, then choose a rhythm the team can support.\n\nA founder may have one substantial decision to explain. A practitioner may have several teachable examples. A company Page may need to clarify product changes for different buying roles.\n\nPut five things in the plan: reader purpose, usable source material, reviewer capacity, useful format and a review point.\n\nA busy founder could test one well-supported post a week. A team with enough distinct examples could test two or three. These are planning options, not a formula for performance.\n\nAt OutSpoken, we agree the starting cadence during the 45-minute call. Then we review the workload, the questions buyers ask and whether the material stays useful.\n\nChoose a starting rhythm. Give it a review date. Change it because of what you learn.",
+    "company_repost": "Posting frequency is a capacity and learning decision. The starting rhythm should fit the material, the reviewer and the conversations the business can handle.",
+    "reader_action": "Choose a sustainable starting rhythm on the call.",
+    "practical_tool": "Five-input cadence decision worksheet",
+    "source_ids": [
+      "owner-call-brief",
+      "saved-patterns"
+    ],
+    "pattern": "P05 diagnostic checklist",
+    "hook_payoff": "Open with the reader decision, then provide an actionable method and bounded conclusion.",
+    "outline": [
+      "reader problem",
+      "specific steps or comparison",
+      "input and output",
+      "reason and limitation",
+      "useful close"
+    ],
+    "reference_cards": [
+      "urn:li:activity:7422666982032056322",
+      "urn:li:activity:7416823425274388480"
+    ],
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7422666982032056322",
+          "author": "April Dunford",
+          "observed_function": "Delay the work until key choices are settled.",
+          "adaptation": "Choose a provisional cadence only after source supply, buyer job and review capacity are known.",
+          "source_url": "https://www.linkedin.com/posts/aprildunford_you-dont-want-to-start-any-positioning-work-activity-7422666982032056322-QbQr",
+          "source_capture": "2026-10-20T18:00:06.892429+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7416823425274388480",
+          "author": "Justin Welsh",
+          "observed_function": "Excessive editing made publishing difficult.",
+          "adaptation": "Fit the starting rhythm to work the author and reviewer can actually sustain, then review evidence.",
+          "source_url": "https://www.linkedin.com/posts/justinwelsh_i-overthought-my-first-100-posts-edited-activity-7416823425274388480-y_Ux",
+          "source_capture": "2026-10-20T18:01:59.186386+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7416823425274388480",
+      "visual_function": "Use an original owned excerpt with one purposeful annotation.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/justinwelsh_i-overthought-my-first-100-posts-edited-activity-7416823425274388480-y_Ux",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "visual_brief": {
+      "layout": "cadence decision worksheet",
+      "headline": "Choose a rhythm you can support",
+      "emphasis": "Highlight the decision point and separate inputs, action and output.",
+      "items": [
+        "Reader job",
+        "Source material",
+        "Review capacity",
+        "Useful format",
+        "Review point"
+      ],
+      "footer_if_reader_relevant": ""
+    },
+    "claim_support": "Service scope is supported by the 12 Nov 2026 owner service architecture. Proposed tools and examples are labeled as such. No client outcomes or author anecdotes are claimed. Exact offer timing, support and price remain unknown.",
+    "editorial_revision": "v7-root-human-edit-after-semantic-repair"
+  }
+]

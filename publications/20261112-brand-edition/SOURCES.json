@@ -1,0 +1,38 @@
+{
+  "brand_source": "Canonical OutSpoken V10 design system and current approved website styling",
+  "generation": {
+    "tool": "built-in image_gen.imagegen",
+    "asset": "assets/selection-context.png",
+    "scene": "Candid smartphone-style generic agency office. A hand compares company information on a laptop and annotated printouts. Uneven daylight and everyday working details. No real prospect identity, customer result or likeness.",
+    "accepted_style": "Natural phone snapshot with everyday office context. Supersedes the rejected staged stationery scene after owner feedback on13November.",
+    "model": "not exposed by tool",
+    "cost": "not exposed by tool",
+    "rights_use": "Owner-requested original synthetic context, not third-party source media"
+  },
+  "fonts": [
+    {
+      "family": "Fraunces",
+      "license": "SIL Open Font License 1.1",
+      "notice": "assets/fonts/fraunces-OFL.txt"
+    },
+    {
+      "family": "Mona Sans",
+      "license": "SIL Open Font License 1.1",
+      "notice": "assets/fonts/mona-sans-OFL.txt"
+    },
+    {
+      "family": "Geist Mono",
+      "license": "SIL Open Font License 1.1",
+      "notice": "assets/fonts/geist-mono-OFL.txt"
+    }
+  ],
+  "references": "Saved reviewed pattern cards, no third-party source media or full source-post copies included. See applications.json and the report archive.",
+  "font_files": [
+    "mona-sans-latin-wght-normal.woff2",
+    "fraunces-latin-full-normal.woff2",
+    "geist-mono-OFL.txt",
+    "mona-sans-OFL.txt",
+    "geist-mono-latin-wght-normal.woff2",
+    "fraunces-OFL.txt"
+  ]
+}

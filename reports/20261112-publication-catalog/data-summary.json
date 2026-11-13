@@ -1,0 +1,24 @@
+{
+  "source": "frozenV6dataset",
+  "source_sha256": "a91235e87579ae4fd85656bca35e9e2297a10e9dd2ab70d235b28fc7f06f4d22",
+  "source_capture_period": "2026-10-20to2026-10-22",
+  "posts": 279,
+  "accounts": 61,
+  "snapshots": 477,
+  "reobservations": 198,
+  "author_types_publication_rows": {
+    "Person": 238,
+    "Organization": 36,
+    "unknown": 5
+  },
+  "formats_publication_rows": {
+    "text_or_external_link": 135,
+    "image": 111,
+    "video": 24,
+    "document": 9
+  },
+  "writing_cards": 12,
+  "visual_cards": 6,
+  "new_collection": false,
+  "source_rights": "Original third-party text/media/transcripts remain private, only owned/cleared synthesis is exported."
+}

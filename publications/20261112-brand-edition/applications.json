@@ -1,0 +1,676 @@
+[
+  {
+    "id": "01-the-flow",
+    "title": "Someone read your post. What happens next?",
+    "caption_characters": 1234,
+    "reader_action": "Identify one broken handoff in your current path.",
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7259580222310645760",
+          "author": "Anthony Pierri",
+          "observed_function": "A complex subject becomes answerable questions.",
+          "adaptation": "Turn an abstract LinkedIn service into five inspectable handoffs, each answering what the buyer can do next.",
+          "source_url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+          "source_capture": "2026-10-20T17:59:54.131063+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7397002727039488002",
+          "author": "Gong",
+          "observed_function": "Announce a feature by showing a specific job.",
+          "adaptation": "Show the source-to-example-to-reply job rather than announce a broad content service.",
+          "source_url": "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+          "source_capture": "2026-10-20T18:02:57.400816+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7259580222310645760",
+      "visual_function": "Build an original buyer-question worksheet, with readable definitions.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "assets": [
+      {
+        "id": "01-the-flow",
+        "page": 1,
+        "svg": "assets/01-the-flow-01.svg",
+        "png": "assets/01-the-flow-01.png"
+      },
+      {
+        "id": "01-the-flow",
+        "page": 2,
+        "svg": "assets/01-the-flow-02.svg",
+        "png": "assets/01-the-flow-02.png"
+      },
+      {
+        "id": "01-the-flow",
+        "page": 3,
+        "svg": "assets/01-the-flow-03.svg",
+        "png": "assets/01-the-flow-03.png"
+      },
+      {
+        "id": "01-the-flow",
+        "page": 4,
+        "svg": "assets/01-the-flow-04.svg",
+        "png": "assets/01-the-flow-04.png"
+      }
+    ],
+    "social_status": "not_published_by_this_run",
+    "author_acceptance": "pending"
+  },
+  {
+    "id": "02-the-strategy",
+    "title": "A content pillar is not a topic label",
+    "caption_characters": 899,
+    "reader_action": "Map your next three posts to three actual buyer decisions.",
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7422666982032056322",
+          "author": "April Dunford",
+          "observed_function": "Delay the work until key choices are settled.",
+          "adaptation": "Require a buyer decision before filling the calendar. The invoice example supplies the concrete decision at each stage.",
+          "source_url": "https://www.linkedin.com/posts/aprildunford_you-dont-want-to-start-any-positioning-work-activity-7422666982032056322-QbQr",
+          "source_capture": "2026-10-20T18:00:06.892429+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7372286629400465408",
+          "author": "Amanda Natividad",
+          "observed_function": "Change the planning question to the buyer’s concern.",
+          "adaptation": "Replace a broad content topic with the buyer’s questions about value, suitability and use.",
+          "source_url": "https://www.linkedin.com/posts/amandanat_we-marketers-need-to-ask-better-questions-activity-7372286629400465408-Tpvh",
+          "source_capture": "2026-10-20T18:00:50.202299+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7259580222310645760",
+      "visual_function": "Build an original buyer-question worksheet, with readable definitions.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "assets": [
+      {
+        "id": "02-the-strategy",
+        "page": 1,
+        "svg": "assets/02-the-strategy-01.svg",
+        "png": "assets/02-the-strategy-01.png"
+      }
+    ],
+    "social_status": "not_published_by_this_run",
+    "author_acceptance": "pending"
+  },
+  {
+    "id": "03-the-interview",
+    "title": "One founder conversation can do more than produce quotes",
+    "caption_characters": 884,
+    "reader_action": "Use the four headings in your next founder interview.",
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7459960231138234368",
+          "author": "Daniel Murray",
+          "observed_function": "Generic writing starts with weak source inputs.",
+          "adaptation": "Replace a broad life-story prompt with questions that recover a specific choice, alternative and inspectable example.",
+          "source_url": "https://www.linkedin.com/posts/daniel-murray-marketing_the-prompt-is-the-problem-not-the-tool-activity-7459960231138234368-gwuX",
+          "source_capture": "2026-10-20T18:06:07.921701+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7495153236165869568",
+          "author": "Josh Braun",
+          "observed_function": "Recognisable voice comes from the person.",
+          "adaptation": "Keep the interviewee’s position and phrasing as source material. Do not manufacture personality or experience.",
+          "source_url": "https://www.linkedin.com/posts/josh-braun_you-know-its-fleetwood-mac-the-second-the-activity-7495153236165869568-zuKp",
+          "source_capture": "2026-10-22T10:08:53.836213+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7459960231138234368",
+      "visual_function": "Use an original short example and practical brief; do not copy the character.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/daniel-murray-marketing_the-prompt-is-the-problem-not-the-tool-activity-7459960231138234368-gwuX",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "assets": [
+      {
+        "id": "03-the-interview",
+        "page": 1,
+        "svg": "assets/03-the-interview-01.svg",
+        "png": "assets/03-the-interview-01.png"
+      }
+    ],
+    "social_status": "not_published_by_this_run",
+    "author_acceptance": "pending"
+  },
+  {
+    "id": "04-the-profile",
+    "title": "Your profile has to finish the job your post started",
+    "caption_characters": 944,
+    "reader_action": "Check the first screen of your profile from the buyer’s perspective.",
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7515019416645021696",
+          "author": "Silky Agarwal",
+          "observed_function": "A framework still needs customer insight.",
+          "adaptation": "Make the headline and Featured section respond to the customer’s actual decision, not just fit a profile formula.",
+          "source_url": "https://www.linkedin.com/posts/silkyagarwal_b2bsaas-differentiation-positioning-activity-7515019416645021696-XWP7",
+          "source_capture": "2026-10-22T09:41:48.069826+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7372286629400465408",
+          "author": "Amanda Natividad",
+          "observed_function": "Change the planning question to the buyer’s concern.",
+          "adaptation": "Rewrite the profile from the buyer’s problem and next useful example, rather than the founder’s list of labels.",
+          "source_url": "https://www.linkedin.com/posts/amandanat_we-marketers-need-to-ask-better-questions-activity-7372286629400465408-Tpvh",
+          "source_capture": "2026-10-20T18:00:50.202299+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7515019416645021696",
+      "visual_function": "Use a simple original schema plus an actual client example.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/silkyagarwal_b2bsaas-differentiation-positioning-activity-7515019416645021696-XWP7",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "assets": [
+      {
+        "id": "04-the-profile",
+        "page": 1,
+        "svg": "assets/04-the-profile-01.svg",
+        "png": "assets/04-the-profile-01.png"
+      }
+    ],
+    "social_status": "not_published_by_this_run",
+    "author_acceptance": "pending"
+  },
+  {
+    "id": "05-the-tools",
+    "title": "Choose the jobs before choosing the tool stack",
+    "caption_characters": 917,
+    "reader_action": "Choose one unresolved workflow job before evaluating a tool.",
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7459960231138234368",
+          "author": "Daniel Murray",
+          "observed_function": "Generic writing starts with weak source inputs.",
+          "adaptation": "Explain why a tool cannot fix missing source material or unclear review ownership.",
+          "source_url": "https://www.linkedin.com/posts/daniel-murray-marketing_the-prompt-is-the-problem-not-the-tool-activity-7459960231138234368-gwuX",
+          "source_capture": "2026-10-20T18:06:07.921701+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7259580222310645760",
+          "author": "Anthony Pierri",
+          "observed_function": "A complex subject becomes answerable questions.",
+          "adaptation": "Break the stack into capture, plan, review, publish, research and follow-through jobs with concrete outputs.",
+          "source_url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+          "source_capture": "2026-10-20T17:59:54.131063+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7459960231138234368",
+      "visual_function": "Use an original short example and practical brief; do not copy the character.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/daniel-murray-marketing_the-prompt-is-the-problem-not-the-tool-activity-7459960231138234368-gwuX",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "assets": [
+      {
+        "id": "05-the-tools",
+        "page": 1,
+        "svg": "assets/05-the-tools-01.svg",
+        "png": "assets/05-the-tools-01.png"
+      }
+    ],
+    "social_status": "not_published_by_this_run",
+    "author_acceptance": "pending"
+  },
+  {
+    "id": "06-the-first-message",
+    "title": "Give someone a reason to reply",
+    "caption_characters": 907,
+    "reader_action": "Rewrite one generic opener around a verified work signal.",
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7489062336897654784",
+          "author": "Chris Orlob",
+          "observed_function": "Avoiding an awkward sales question hides useful information.",
+          "adaptation": "Use a specific clarifying question to expose relevant context instead of hiding behind a generic pitch.",
+          "source_url": "https://www.linkedin.com/posts/chrisorlob_the-deals-that-die-quietly-are-the-ones-where-activity-7489062336897654784-wbC-",
+          "source_capture": "2026-10-22T10:09:13.042431+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7515019416645021696",
+          "author": "Silky Agarwal",
+          "observed_function": "A framework still needs customer insight.",
+          "adaptation": "Check an actual company problem before applying an outreach structure to it.",
+          "source_url": "https://www.linkedin.com/posts/silkyagarwal_b2bsaas-differentiation-positioning-activity-7515019416645021696-XWP7",
+          "source_capture": "2026-10-22T09:41:48.069826+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7515019416645021696",
+      "visual_function": "Use a simple original schema plus an actual client example.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/silkyagarwal_b2bsaas-differentiation-positioning-activity-7515019416645021696-XWP7",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "assets": [
+      {
+        "id": "06-the-first-message",
+        "page": 1,
+        "svg": "assets/06-the-first-message-01.svg",
+        "png": "assets/06-the-first-message-01.png"
+      }
+    ],
+    "social_status": "not_published_by_this_run",
+    "author_acceptance": "pending"
+  },
+  {
+    "id": "07-the-reply",
+    "title": "What do you send when a prospect says “send me details”?",
+    "caption_characters": 873,
+    "reader_action": "Choose the question that changes your recommendation.",
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7489062336897654784",
+          "author": "Chris Orlob",
+          "observed_function": "Avoiding an awkward sales question hides useful information.",
+          "adaptation": "Ask which part of the work is difficult only after answering the request for information.",
+          "source_url": "https://www.linkedin.com/posts/chrisorlob_the-deals-that-die-quietly-are-the-ones-where-activity-7489062336897654784-wbC-",
+          "source_capture": "2026-10-22T10:09:13.042431+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7397002727039488002",
+          "author": "Gong",
+          "observed_function": "Announce a feature by showing a specific job.",
+          "adaptation": "Make the service tangible with a real approved example when used. The displayed reply is illustrative.",
+          "source_url": "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+          "source_capture": "2026-10-20T18:02:57.400816+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7397002727039488002",
+      "visual_function": "An original worked reply makes the claimed service tangible. It is an illustrative message, not a copied product screenshot.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "assets": [
+      {
+        "id": "07-the-reply",
+        "page": 1,
+        "svg": "assets/07-the-reply-01.svg",
+        "png": "assets/07-the-reply-01.png"
+      }
+    ],
+    "social_status": "not_published_by_this_run",
+    "author_acceptance": "pending"
+  },
+  {
+    "id": "08-the-case",
+    "title": "One strong piece of work can open several conversations",
+    "caption_characters": 839,
+    "reader_action": "Choose one substantial source and three genuinely different reader questions.",
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7397002727039488002",
+          "author": "Gong",
+          "observed_function": "Announce a feature by showing a specific job.",
+          "adaptation": "Turn a workflow into an explanation, a worked demonstration and a buyer test, each showing a job.",
+          "source_url": "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+          "source_capture": "2026-10-20T18:02:57.400816+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7372286629400465408",
+          "author": "Amanda Natividad",
+          "observed_function": "Change the planning question to the buyer’s concern.",
+          "adaptation": "Give each reuse a distinct buyer question rather than repeat the same topic in three formats.",
+          "source_url": "https://www.linkedin.com/posts/amandanat_we-marketers-need-to-ask-better-questions-activity-7372286629400465408-Tpvh",
+          "source_capture": "2026-10-20T18:00:50.202299+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7397002727039488002",
+      "visual_function": "Show a real input, output and check; label static examples honestly.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "assets": [
+      {
+        "id": "08-the-case",
+        "page": 1,
+        "svg": "assets/08-the-case-01.svg",
+        "png": "assets/08-the-case-01.png"
+      }
+    ],
+    "social_status": "not_published_by_this_run",
+    "author_acceptance": "pending"
+  },
+  {
+    "id": "09-the-buying-group",
+    "title": "Your champion is not the whole buying group",
+    "caption_characters": 903,
+    "reader_action": "Add one overlooked buying-group question to your content plan.",
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7259580222310645760",
+          "author": "Anthony Pierri",
+          "observed_function": "A complex subject becomes answerable questions.",
+          "adaptation": "Convert the buying group into four answerable questions for user, manager, finance and risk.",
+          "source_url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+          "source_capture": "2026-10-20T17:59:54.131063+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7515019416645021696",
+          "author": "Silky Agarwal",
+          "observed_function": "A framework still needs customer insight.",
+          "adaptation": "Use those role questions to identify missing buyer evidence, not claim every purchase has the same group.",
+          "source_url": "https://www.linkedin.com/posts/silkyagarwal_b2bsaas-differentiation-positioning-activity-7515019416645021696-XWP7",
+          "source_capture": "2026-10-22T09:41:48.069826+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7259580222310645760",
+      "visual_function": "Build an original buyer-question worksheet, with readable definitions.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "assets": [
+      {
+        "id": "09-the-buying-group",
+        "page": 1,
+        "svg": "assets/09-the-buying-group-01.svg",
+        "png": "assets/09-the-buying-group-01.png"
+      }
+    ],
+    "social_status": "not_published_by_this_run",
+    "author_acceptance": "pending"
+  },
+  {
+    "id": "10-the-review",
+    "title": "What should a weekly LinkedIn review change?",
+    "caption_characters": 935,
+    "reader_action": "End the review with one content decision and one conversation decision.",
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:6986042662453694464",
+          "author": "Katelyn Bourgoin",
+          "observed_function": "A large effort still produced a wrong decision.",
+          "adaptation": "Ask what decision the observed evidence supports before changing the content plan. No founder-failure anecdote is borrowed.",
+          "source_url": "https://www.linkedin.com/posts/katebour_marketing-growth-buyerresearch-activity-6986042662453694464-wMxk",
+          "source_capture": "2026-10-20T17:59:58.728114+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7416823425274388480",
+          "author": "Justin Welsh",
+          "observed_function": "Excessive editing made publishing difficult.",
+          "adaptation": "Give the review one publishable next action and a named reviewer instead of an unlimited editing loop.",
+          "source_url": "https://www.linkedin.com/posts/justinwelsh_i-overthought-my-first-100-posts-edited-activity-7416823425274388480-y_Ux",
+          "source_capture": "2026-10-20T18:01:59.186386+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7416823425274388480",
+      "visual_function": "Use an original owned excerpt with one purposeful annotation.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/justinwelsh_i-overthought-my-first-100-posts-edited-activity-7416823425274388480-y_Ux",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "assets": [
+      {
+        "id": "10-the-review",
+        "page": 1,
+        "svg": "assets/10-the-review-01.svg",
+        "png": "assets/10-the-review-01.png"
+      }
+    ],
+    "social_status": "not_published_by_this_run",
+    "author_acceptance": "pending"
+  },
+  {
+    "id": "11-the-designer",
+    "title": "A beautiful product still needs a clear first step",
+    "caption_characters": 903,
+    "reader_action": "Explain one interface choice through the buyer’s task.",
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7397002727039488002",
+          "author": "Gong",
+          "observed_function": "Announce a feature by showing a specific job.",
+          "adaptation": "Replace the abstract first-action button with one product task and an inspectable sample-data result.",
+          "source_url": "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+          "source_capture": "2026-10-20T18:02:57.400816+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7515019416645021696",
+          "author": "Silky Agarwal",
+          "observed_function": "A framework still needs customer insight.",
+          "adaptation": "Explain the proposed design through the visitor’s task and remaining uncertainty.",
+          "source_url": "https://www.linkedin.com/posts/silkyagarwal_b2bsaas-differentiation-positioning-activity-7515019416645021696-XWP7",
+          "source_capture": "2026-10-22T09:41:48.069826+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7397002727039488002",
+      "visual_function": "Show a real input, output and check; label static examples honestly.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "assets": [
+      {
+        "id": "11-the-designer",
+        "page": 1,
+        "svg": "assets/11-the-designer-01.svg",
+        "png": "assets/11-the-designer-01.png"
+      }
+    ],
+    "social_status": "not_published_by_this_run",
+    "author_acceptance": "pending"
+  },
+  {
+    "id": "12-the-developer",
+    "title": "Explain what makes your AI output worth trusting",
+    "caption_characters": 737,
+    "reader_action": "Choose one actual output-checking mechanism to explain.",
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7397002727039488002",
+          "author": "Gong",
+          "observed_function": "Announce a feature by showing a specific job.",
+          "adaptation": "Demonstrate one AI feature through its input, result, source and human check. No product performance claim is borrowed.",
+          "source_url": "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+          "source_capture": "2026-10-20T18:02:57.400816+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7259580222310645760",
+          "author": "Anthony Pierri",
+          "observed_function": "A complex subject becomes answerable questions.",
+          "adaptation": "Break the trust question into four explicit questions that a buyer can inspect.",
+          "source_url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+          "source_capture": "2026-10-20T17:59:54.131063+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7397002727039488002",
+      "visual_function": "Show a real input, output and check; label static examples honestly.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/gong-io_see-ai-builder-in-action-meet-the-newest-activity-7397002727039488002-2hoX",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "assets": [
+      {
+        "id": "12-the-developer",
+        "page": 1,
+        "svg": "assets/12-the-developer-01.svg",
+        "png": "assets/12-the-developer-01.png"
+      }
+    ],
+    "social_status": "not_published_by_this_run",
+    "author_acceptance": "pending"
+  },
+  {
+    "id": "13-the-manager",
+    "title": "Give the reviewer a decision to make",
+    "caption_characters": 843,
+    "reader_action": "Replace “Any feedback?” with three explicit review questions.",
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7416823425274388480",
+          "author": "Justin Welsh",
+          "observed_function": "Excessive editing made publishing difficult.",
+          "adaptation": "Bound the review to accuracy, author position and next reader step so editing has a clear purpose.",
+          "source_url": "https://www.linkedin.com/posts/justinwelsh_i-overthought-my-first-100-posts-edited-activity-7416823425274388480-y_Ux",
+          "source_capture": "2026-10-20T18:01:59.186386+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7422666982032056322",
+          "author": "April Dunford",
+          "observed_function": "Delay the work until key choices are settled.",
+          "adaptation": "Resolve material choices before publication, including whether the promised timing is supportable.",
+          "source_url": "https://www.linkedin.com/posts/aprildunford_you-dont-want-to-start-any-positioning-work-activity-7422666982032056322-QbQr",
+          "source_capture": "2026-10-20T18:00:06.892429+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7416823425274388480",
+      "visual_function": "Use an original owned excerpt with one purposeful annotation.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/justinwelsh_i-overthought-my-first-100-posts-edited-activity-7416823425274388480-y_Ux",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "assets": [
+      {
+        "id": "13-the-manager",
+        "page": 1,
+        "svg": "assets/13-the-manager-01.svg",
+        "png": "assets/13-the-manager-01.png"
+      }
+    ],
+    "social_status": "not_published_by_this_run",
+    "author_acceptance": "pending"
+  },
+  {
+    "id": "14-the-offer",
+    "title": "What does the buyer get from your expertise?",
+    "caption_characters": 1003,
+    "reader_action": "Book an intro call",
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7486056038190854148",
+          "author": "Rob Gough",
+          "observed_function": "A founder invites a defined group to try the product.",
+          "adaptation": "Address a defined B2B buyer and offer a clear intro-call next step without inventing a launch result.",
+          "source_url": "https://www.linkedin.com/posts/robertjohngough_im-taking-on-founding-customers-for-stayupfront-activity-7486056038190854148-oIOZ",
+          "source_capture": "2026-10-22T09:41:43.502656+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7515019416645021696",
+          "author": "Silky Agarwal",
+          "observed_function": "A framework still needs customer insight.",
+          "adaptation": "Explain the two packages through customer problems and inspectable outputs rather than a framework name alone.",
+          "source_url": "https://www.linkedin.com/posts/silkyagarwal_b2bsaas-differentiation-positioning-activity-7515019416645021696-XWP7",
+          "source_capture": "2026-10-22T09:41:48.069826+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7515019416645021696",
+      "visual_function": "Use a simple original schema plus an actual client example.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/silkyagarwal_b2bsaas-differentiation-positioning-activity-7515019416645021696-XWP7",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "assets": [
+      {
+        "id": "14-the-offer",
+        "page": 1,
+        "svg": "assets/14-the-offer-01.svg",
+        "png": "assets/14-the-offer-01.png"
+      }
+    ],
+    "social_status": "not_published_by_this_run",
+    "author_acceptance": "pending"
+  },
+  {
+    "id": "15-the-call",
+    "title": "What should a 45-minute LinkedIn call decide?",
+    "caption_characters": 929,
+    "reader_action": "Bring one product decision you can explain.",
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7259580222310645760",
+          "author": "Anthony Pierri",
+          "observed_function": "A complex subject becomes answerable questions.",
+          "adaptation": "Make the 45-minute call answer questions about business, buyers, sources, scope and next decision.",
+          "source_url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+          "source_capture": "2026-10-20T17:59:54.131063+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7486056038190854148",
+          "author": "Rob Gough",
+          "observed_function": "A founder invites a defined group to try the product.",
+          "adaptation": "State what the prospective client can get from a conversation without promising an unapproved free deliverable.",
+          "source_url": "https://www.linkedin.com/posts/robertjohngough_im-taking-on-founding-customers-for-stayupfront-activity-7486056038190854148-oIOZ",
+          "source_capture": "2026-10-22T09:41:43.502656+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7259580222310645760",
+      "visual_function": "Build an original buyer-question worksheet, with readable definitions.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/anthonypierri_productmarketing-saas-startups-activity-7259580222310645760-4QC9",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "assets": [
+      {
+        "id": "15-the-call",
+        "page": 1,
+        "svg": "assets/15-the-call-01.svg",
+        "png": "assets/15-the-call-01.png"
+      }
+    ],
+    "social_status": "not_published_by_this_run",
+    "author_acceptance": "pending"
+  },
+  {
+    "id": "16-the-cadence",
+    "title": "How often should a founder post?",
+    "caption_characters": 870,
+    "reader_action": "Choose a sustainable starting rhythm on the call.",
+    "reference_transfer": {
+      "writing": [
+        {
+          "card_id": "urn:li:activity:7422666982032056322",
+          "author": "April Dunford",
+          "observed_function": "Delay the work until key choices are settled.",
+          "adaptation": "Choose a provisional cadence only after source supply, buyer job and review capacity are known.",
+          "source_url": "https://www.linkedin.com/posts/aprildunford_you-dont-want-to-start-any-positioning-work-activity-7422666982032056322-QbQr",
+          "source_capture": "2026-10-20T18:00:06.892429+00:00"
+        },
+        {
+          "card_id": "urn:li:activity:7416823425274388480",
+          "author": "Justin Welsh",
+          "observed_function": "Excessive editing made publishing difficult.",
+          "adaptation": "Fit the starting rhythm to work the author and reviewer can actually sustain, then review evidence.",
+          "source_url": "https://www.linkedin.com/posts/justinwelsh_i-overthought-my-first-100-posts-edited-activity-7416823425274388480-y_Ux",
+          "source_capture": "2026-10-20T18:01:59.186386+00:00"
+        }
+      ],
+      "visual_card": "urn:li:activity:7416823425274388480",
+      "visual_function": "Use an original owned excerpt with one purposeful annotation.",
+      "proof_limit": "Saved reviewed source card, not a fresh live LinkedIn read or evidence of performance causality.",
+      "visual_source_url": "https://www.linkedin.com/posts/justinwelsh_i-overthought-my-first-100-posts-edited-activity-7416823425274388480-y_Ux",
+      "visual_limit": "Composition adapts an observed function, not the source layout. No copied third-party media."
+    },
+    "assets": [
+      {
+        "id": "16-the-cadence",
+        "page": 1,
+        "svg": "assets/16-the-cadence-01.svg",
+        "png": "assets/16-the-cadence-01.png"
+      }
+    ],
+    "social_status": "not_published_by_this_run",
+    "author_acceptance": "pending"
+  }
+]

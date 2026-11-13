@@ -1,0 +1,1 @@
+Give the buyer a way to check.. Give the buyer a way to check. ONE FEATURE Show how a person can check the answer. 1 Input What question or material did the tool use? 2 Output What exactly did it return? 3 Evidence Which source can the user inspect? 4 Review When should a person check or stop?

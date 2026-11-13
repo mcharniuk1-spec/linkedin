@@ -1,0 +1,692 @@
+{
+  "schema": "outspoken-competitor-review-current.v1",
+  "research_date": "2026-11-12",
+  "cohort_reconciliation": {
+    "original_workbook_companies": 15,
+    "plan_additions": 2,
+    "expected_ids": [
+      "CW-01",
+      "CW-02",
+      "CW-03",
+      "CW-04",
+      "CW-05",
+      "CW-06",
+      "CW-07",
+      "CW-08",
+      "CW-09",
+      "CW-10",
+      "CW-11",
+      "CW-12",
+      "CW-13",
+      "CW-14",
+      "CW-15",
+      "CW-16",
+      "CW-17"
+    ],
+    "expected_names": [
+      "Notus",
+      "Inkiro",
+      "Hat Tip",
+      "Windmill Growth",
+      "Stop The Scroll",
+      "Kurogo",
+      "storyarb",
+      "Understory",
+      "Rallyup",
+      "Concurate",
+      "Linkedist",
+      "Compound Content Studio",
+      "Shake Content",
+      "Contender Creative",
+      "Hivemind Marketing",
+      "Cleverly",
+      "Belkins"
+    ],
+    "service_firms_count": 17,
+    "adjacent_tools": [
+      "Waalaxy",
+      "AuthoredUp",
+      "Taplio"
+    ],
+    "supplemental_reference": "SalesBread (separate, prior ledger only)",
+    "separate_26_agency_cohort": "Not recovered in source packet, excluded from completeness claim"
+  },
+  "method": "Bounded search of current primary company pages. Search batches surfaced authoritative pages for the focal firms and some broad cohort. Existing 10 Nov first-party page summaries were retained with their dates when current pages were not retrieved. No LinkedIn access, scraping, access-hold workaround, spend, post/media copy, or external contact. No saved post was available for post-level hook/proof/visual coding.",
+  "rows": [
+    {
+      "id": "CW-01",
+      "name": "Notus",
+      "cohort": "original_workbook_15",
+      "official_site": "https://www.notus.xyz/",
+      "source_date": "2026-11-12",
+      "source_urls": [
+        "https://www.notus.xyz/",
+        "https://www.notus.xyz/"
+      ],
+      "service_claims": "Founder/executive LinkedIn content engine; high-touch writer/team collaboration; weekly catchups, Slack, wider thought leadership programs.",
+      "content_claims": "Founder story, expertise and audience-first content.",
+      "profile_claims": "Profile optimization advertised in prior review, not directly reopened.",
+      "outreach_claims": "No current direct outreach offer verified.",
+      "email_claims": "No email campaign offer verified.",
+      "ads_claims": "No LinkedIn Ads offer verified.",
+      "tools_claims": "No tools verified.",
+      "observed_vs_unavailable": "Official service page and testimonials; self-reported. Unavailable fields are stated as not verified, not assumed absent. No social page was opened in this pass.",
+      "proof_type": "Official service page and testimonials; self-reported.",
+      "differentiation_for_voice_voice_plus_pipeline": "Separate founder raw thinking from buyer-facing interpretation and show source review in Voice. No independent results proof.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Official vendor materials establish what the company says it offers. Cases, testimonials, metrics, rankings, guarantees and causal explanations remain provider claims. No private stack, performance or causal effect inferred."
+    },
+    {
+      "id": "CW-02",
+      "name": "Inkiro",
+      "cohort": "original_workbook_15",
+      "official_site": "https://www.inkiro.com/",
+      "source_date": "2026-11-12",
+      "source_urls": [
+        "https://www.inkiro.com/",
+        "https://www.inkiro.com/"
+      ],
+      "service_claims": "Dedicated ghostwriting studio, founder/executive content partner, works with in-house teams.",
+      "content_claims": "Founder journey and audience-first content beyond LinkedIn.",
+      "profile_claims": "LinkedIn ghostwriting; profile work not newly verified.",
+      "outreach_claims": "Not verified.",
+      "email_claims": "Not verified.",
+      "ads_claims": "Not verified.",
+      "tools_claims": "Prior ledger describes voice-adaptation tool feature, not independently verified today.",
+      "observed_vs_unavailable": "Official service page and testimonials; self-reported. Unavailable fields are stated as not verified, not assumed absent. No social page was opened in this pass.",
+      "proof_type": "Official service page and testimonials; self-reported.",
+      "differentiation_for_voice_voice_plus_pipeline": "Founder voice plus an embedded content partner is a crowded promise. Differentiate with claim/source provenance and reviewable reasoning.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Official vendor materials establish what the company says it offers. Cases, testimonials, metrics, rankings, guarantees and causal explanations remain provider claims. No private stack, performance or causal effect inferred."
+    },
+    {
+      "id": "CW-03",
+      "name": "Hat Tip",
+      "cohort": "original_workbook_15",
+      "official_site": "https://tryhattip.com/",
+      "source_date": "2026-11-12",
+      "source_urls": [
+        "https://tryhattip.com/",
+        "https://tryhattip.com/cases/ammo",
+        "https://tryhattip.com/"
+      ],
+      "service_claims": "Turnkey founder brand and content system. Prior evidence describes prompts/interviews, drafts and founder review.",
+      "content_claims": "Founder-led content and posts. Case pages give self-reported outcomes.",
+      "profile_claims": "Founder brand positioning; profile specifics not rechecked.",
+      "outreach_claims": "No direct outbound offer verified.",
+      "email_claims": "No email service verified.",
+      "ads_claims": "No ads service verified.",
+      "tools_claims": "Prior ledger mentions scraping/automation workflow in a post, not company tool verified.",
+      "observed_vs_unavailable": "Official case study; client attribution remains provider reported. Unavailable fields are stated as not verified, not assumed absent. No social page was opened in this pass.",
+      "proof_type": "Official case study; client attribution remains provider reported.",
+      "differentiation_for_voice_voice_plus_pipeline": "Show a specific research trail and approved source-to-draft path. Distinguish Voice from Pipeline work.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Official vendor materials establish what the company says it offers. Cases, testimonials, metrics, rankings, guarantees and causal explanations remain provider claims. No private stack, performance or causal effect inferred."
+    },
+    {
+      "id": "CW-04",
+      "name": "Windmill Growth",
+      "cohort": "original_workbook_15",
+      "official_site": "https://windmillgrowth.com/",
+      "source_date": "2026-11-12",
+      "source_urls": [
+        "https://windmillgrowth.com/",
+        "https://windmillgrowth.com/"
+      ],
+      "service_claims": "Current homepage says founder talks, Windmill writes/posts, works ICP and manages engagement. Site advertises tiers and embedded managed service.",
+      "content_claims": "Founder ghostwriting and founder-led content.",
+      "profile_claims": "Professional branding / profile growth claimed.",
+      "outreach_claims": "ICP engagement and outreach included in higher service scope.",
+      "email_claims": "Not verified.",
+      "ads_claims": "Not clearly specified in the reviewed pages.",
+      "tools_claims": "Site references engagement growth tools; no software inventory verified.",
+      "observed_vs_unavailable": "Vendor homepage and case studies; metrics and attribution are provider claims. Unavailable fields are stated as not verified, not assumed absent. No social page was opened in this pass.",
+      "proof_type": "Vendor homepage and case studies; metrics and attribution are provider claims.",
+      "differentiation_for_voice_voice_plus_pipeline": "Strong visible buyer proposition ties content and follow-up. Differentiate with evidence boundaries, source-linked claims and an explicit choice between Voice and Voice + Pipeline.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Official vendor materials establish what the company says it offers. Cases, testimonials, metrics, rankings, guarantees and causal explanations remain provider claims. No private stack, performance or causal effect inferred."
+    },
+    {
+      "id": "CW-05",
+      "name": "Stop The Scroll",
+      "cohort": "original_workbook_15",
+      "official_site": "https://www.stopthescroll.io/",
+      "source_date": "2026-11-12",
+      "source_urls": [
+        "https://www.stopthescroll.io/",
+        "https://www.stopthescroll.io/"
+      ],
+      "service_claims": "Five-step voice discovery, writing, publishing and reporting flow; page says every post receives author sign-off.",
+      "content_claims": "LinkedIn ghostwriting, strategy, publishing; video also offered.",
+      "profile_claims": "Voice calibration/profile management stated.",
+      "outreach_claims": "Pipeline-focused ad campaigns mentioned.",
+      "email_claims": "No email offer verified.",
+      "ads_claims": "Ads are an adjacent paid campaign offer.",
+      "tools_claims": "No product tools verified.",
+      "observed_vs_unavailable": "Official sales page; process and testimonials are provider claims. Unavailable fields are stated as not verified, not assumed absent. No social page was opened in this pass.",
+      "proof_type": "Official sales page; process and testimonials are provider claims.",
+      "differentiation_for_voice_voice_plus_pipeline": "Buyer uncertainty reduced by inspectable steps and sign-off. Outspoken can show exactly which artifacts a Voice engagement includes and which conversation work belongs in Pipeline.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Official vendor materials establish what the company says it offers. Cases, testimonials, metrics, rankings, guarantees and causal explanations remain provider claims. No private stack, performance or causal effect inferred."
+    },
+    {
+      "id": "CW-06",
+      "name": "Kurogo",
+      "cohort": "original_workbook_15",
+      "official_site": "https://www.kurogo.co.uk/",
+      "source_date": "2026-11-12",
+      "source_urls": [
+        "https://www.kurogo.co.uk/",
+        "https://www.kurogo.co.uk/"
+      ],
+      "service_claims": "Managed personal-brand service with positioning, content, PR and conversion funnels per official company information.",
+      "content_claims": "Content library transformed into posts, carousels and graphics.",
+      "profile_claims": "Personal-brand strategy, positioning and profile implied by offer.",
+      "outreach_claims": "Conversion funnel included in broader work; direct outreach not verified.",
+      "email_claims": "Not verified.",
+      "ads_claims": "Not verified.",
+      "tools_claims": "No tools verified.",
+      "observed_vs_unavailable": "Official service page and company info page. Unavailable fields are stated as not verified, not assumed absent. No social page was opened in this pass.",
+      "proof_type": "Official service page and company info page.",
+      "differentiation_for_voice_voice_plus_pipeline": "Visible formats and work scope support a tangible package. Differentiate by clear editorial evidence and a founder-approved narrative before design.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Official vendor materials establish what the company says it offers. Cases, testimonials, metrics, rankings, guarantees and causal explanations remain provider claims. No private stack, performance or causal effect inferred."
+    },
+    {
+      "id": "CW-07",
+      "name": "storyarb",
+      "cohort": "original_workbook_15",
+      "official_site": "https://www.storyarb.com/",
+      "source_date": "2026-11-12",
+      "source_urls": [
+        "https://www.storyarb.com/",
+        "https://www.storyarb.com/"
+      ],
+      "service_claims": "Connected B2B content programs informed by subject-matter experts.",
+      "content_claims": "Executive social, long-form, newsletters and repurposing are described.",
+      "profile_claims": "Not newly verified.",
+      "outreach_claims": "Warm outreach influence is mentioned, private operation not observed.",
+      "email_claims": "Newsletter/editorial email work is described, not a verified cold-email sending stack.",
+      "ads_claims": "Not newly verified.",
+      "tools_claims": "Templates and tools are listed, runtime not tested.",
+      "observed_vs_unavailable": "Root completed current-page read after the worker search gap. Vendor claims remain unverified outcomes and private tooling remains unknown.",
+      "proof_type": "Current official page text read by root on2026-11-12",
+      "differentiation_for_voice_voice_plus_pipeline": "Potentially relevant: connect source interviews to buyer insight. Current offer details need verification before comparison.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Official vendor materials establish what the company says it offers. Cases, testimonials, metrics, rankings, guarantees and causal explanations remain provider claims. No private stack, performance or causal effect inferred."
+    },
+    {
+      "id": "CW-08",
+      "name": "Understory",
+      "cohort": "original_workbook_15",
+      "official_site": "https://www.understoryagency.com/",
+      "source_date": "2026-11-12",
+      "source_urls": [
+        "https://www.understoryagency.com/",
+        "https://www.understoryagency.com/"
+      ],
+      "service_claims": "Official about page lists LinkedIn content, paid media, GTM engineering and RevOps separately or as Allbound.",
+      "content_claims": "Founder/executive content written in voice and posted; interview-led.",
+      "profile_claims": "Founder content and executive positioning.",
+      "outreach_claims": "Signal-based outbound / GTM engineering.",
+      "email_claims": "Not verified.",
+      "ads_claims": "LinkedIn/Google/Meta/Reddit/X/Substack paid media.",
+      "tools_claims": "GTM engineering stack unspecified by observed pages.",
+      "observed_vs_unavailable": "Vendor service descriptions and case study; metrics are provider claims. Unavailable fields are stated as not verified, not assumed absent. No social page was opened in this pass.",
+      "proof_type": "Vendor service descriptions and case study; metrics are provider claims.",
+      "differentiation_for_voice_voice_plus_pipeline": "Their integrated offer makes cross-channel delivery visible. Outspoken can offer Voice alone with a clean boundary, then add Pipeline only where scope and evidence support it.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Official vendor materials establish what the company says it offers. Cases, testimonials, metrics, rankings, guarantees and causal explanations remain provider claims. No private stack, performance or causal effect inferred."
+    },
+    {
+      "id": "CW-09",
+      "name": "Rallyup",
+      "cohort": "original_workbook_15",
+      "official_site": "https://www.rallyup.team/",
+      "source_date": "2026-11-12",
+      "source_urls": [
+        "https://www.rallyup.team/",
+        "https://www.rallyup.team/"
+      ],
+      "service_claims": "Prior audit describes source review, niche study, drafting, weekly approval and results review.",
+      "content_claims": "Founder content engine. Current case claims calls and impressions.",
+      "profile_claims": "Founder voice is an explicit basis of content.",
+      "outreach_claims": "No direct outreach claim confirmed in current query.",
+      "email_claims": "Not verified.",
+      "ads_claims": "Not verified.",
+      "tools_claims": "No tools verified.",
+      "observed_vs_unavailable": "Official case study, provider reported. Unavailable fields are stated as not verified, not assumed absent. No social page was opened in this pass.",
+      "proof_type": "Official case study, provider reported.",
+      "differentiation_for_voice_voice_plus_pipeline": "Case-study page connects baseline, work and stated outcome. Outspoken should show source, period and attribution limits separately from copy.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Official vendor materials establish what the company says it offers. Cases, testimonials, metrics, rankings, guarantees and causal explanations remain provider claims. No private stack, performance or causal effect inferred."
+    },
+    {
+      "id": "CW-10",
+      "name": "Concurate",
+      "cohort": "original_workbook_15",
+      "official_site": "https://concurate.com/",
+      "source_date": "2026-11-12",
+      "source_urls": [
+        "https://concurate.com/",
+        "https://concurate.com/"
+      ],
+      "service_claims": "Official founder service offers planning, biweekly meetings and review.",
+      "content_claims": "Founder LinkedIn writing; 20 posts/month stated on page. Broader B2B content/search work.",
+      "profile_claims": "Founder-specific service separated from brand service in prior official content.",
+      "outreach_claims": "No current direct outreach verified.",
+      "email_claims": "Not verified.",
+      "ads_claims": "Not verified.",
+      "tools_claims": "Not verified.",
+      "observed_vs_unavailable": "Official service page and attributed testimonials; quote is promotional. Unavailable fields are stated as not verified, not assumed absent. No social page was opened in this pass.",
+      "proof_type": "Official service page and attributed testimonials; quote is promotional.",
+      "differentiation_for_voice_voice_plus_pipeline": "Clear separation of founder and brand jobs is useful for Voice package design. Show capacity-based frequency, not a universal posting quota.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Official vendor materials establish what the company says it offers. Cases, testimonials, metrics, rankings, guarantees and causal explanations remain provider claims. No private stack, performance or causal effect inferred."
+    },
+    {
+      "id": "CW-11",
+      "name": "Linkedist",
+      "cohort": "original_workbook_15",
+      "official_site": "https://www.linkedist.com/",
+      "source_date": "2026-11-12",
+      "source_urls": [
+        "https://www.linkedist.com/",
+        "https://www.linkedist.com/"
+      ],
+      "service_claims": "Official site lists content, workshops, personal branding, audits, Sales Integration, LinkedIn Ads, GEO and ChatGPT Ads.",
+      "content_claims": "LinkedIn content creation and client approval/posting workflow.",
+      "profile_claims": "Profile audit and executive personal branding.",
+      "outreach_claims": "LinkedIn Sales Integration listed; detailed outreach mechanics not reviewed.",
+      "email_claims": "Lead generation email campaigns listed on service page.",
+      "ads_claims": "LinkedIn ads strategy, build, optimization, budget and monitoring.",
+      "tools_claims": "No proprietary tool verified.",
+      "observed_vs_unavailable": "Official pages and cases; performance statements are vendor claims. Unavailable fields are stated as not verified, not assumed absent. No social page was opened in this pass.",
+      "proof_type": "Official pages and cases; performance statements are vendor claims.",
+      "differentiation_for_voice_voice_plus_pipeline": "Broad integrated menu is visible. Outspoken can keep Voice focused and sell Pipeline as a separately scoped conversation workflow.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Official vendor materials establish what the company says it offers. Cases, testimonials, metrics, rankings, guarantees and causal explanations remain provider claims. No private stack, performance or causal effect inferred."
+    },
+    {
+      "id": "CW-12",
+      "name": "Compound Content Studio",
+      "cohort": "original_workbook_15",
+      "official_site": "https://www.compoundcontentstudio.com/",
+      "source_date": "2026-11-12",
+      "source_urls": [
+        "https://www.compoundcontentstudio.com/",
+        "https://www.compoundcontentstudio.com/"
+      ],
+      "service_claims": "Founder-led social strategy, production and distribution.",
+      "content_claims": "LinkedIn/X strategy, interviews, graphics and reporting.",
+      "profile_claims": "Personal, company and employee-account strategy is described.",
+      "outreach_claims": "Prior audit mentions outbound alongside content; current details unavailable.",
+      "email_claims": "Not verified.",
+      "ads_claims": "Not verified.",
+      "tools_claims": "Easy approval process described, private vendor stack unknown.",
+      "observed_vs_unavailable": "Root completed current-page read after the worker search gap. Vendor claims remain unverified outcomes and private tooling remains unknown.",
+      "proof_type": "Current official page text read by root on2026-11-12",
+      "differentiation_for_voice_voice_plus_pipeline": "Possible lesson: make the role of founder, company and employee accounts explicit. Verify current offer before using as a current competitor claim.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Official vendor materials establish what the company says it offers. Cases, testimonials, metrics, rankings, guarantees and causal explanations remain provider claims. No private stack, performance or causal effect inferred."
+    },
+    {
+      "id": "CW-13",
+      "name": "Shake Content",
+      "cohort": "original_workbook_15",
+      "official_site": "https://www.shakecontent.com/",
+      "source_date": "2026-11-12",
+      "source_urls": [
+        "https://www.shakecontent.com/",
+        "https://www.shakecontent.com/"
+      ],
+      "service_claims": "Official homepage says B2B GTM LinkedIn agency with five core services, quality creative and test-and-learn.",
+      "content_claims": "LinkedIn content strategy and done-for-you posts; other formats mentioned.",
+      "profile_claims": "LinkedIn account positioning implied; details not newly opened.",
+      "outreach_claims": "Not verified.",
+      "email_claims": "Not verified.",
+      "ads_claims": "Not verified on current homepage result.",
+      "tools_claims": "Not verified.",
+      "observed_vs_unavailable": "Official service page and case metrics; all outcome claims vendor-reported. Unavailable fields are stated as not verified, not assumed absent. No social page was opened in this pass.",
+      "proof_type": "Official service page and case metrics; all outcome claims vendor-reported.",
+      "differentiation_for_voice_voice_plus_pipeline": "Its creative and testing frame could inform visual handoff. Outspoken can make design serve the claim and reader job, with proof checked before presentation.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Official vendor materials establish what the company says it offers. Cases, testimonials, metrics, rankings, guarantees and causal explanations remain provider claims. No private stack, performance or causal effect inferred."
+    },
+    {
+      "id": "CW-14",
+      "name": "Contender Creative",
+      "cohort": "original_workbook_15",
+      "official_site": "https://www.contendercreative.com/",
+      "source_date": "2026-11-12",
+      "source_urls": [
+        "https://www.contendercreative.com/",
+        "https://www.contendercreative.com/"
+      ],
+      "service_claims": "LinkedIn services for legal firms.",
+      "content_claims": "Ghostwriting and monthly-call-based post review.",
+      "profile_claims": "Personal branding and positioning.",
+      "outreach_claims": "Not verified.",
+      "email_claims": "Not verified.",
+      "ads_claims": "Paid ads appear as an alternative channel, not verified as a service offered.",
+      "tools_claims": "Training/membership offerings, no inspected software product.",
+      "observed_vs_unavailable": "Root completed current-page read after the worker search gap. Vendor claims remain unverified outcomes and private tooling remains unknown.",
+      "proof_type": "Current official page text read by root on2026-11-12",
+      "differentiation_for_voice_voice_plus_pipeline": "Audience-specific positioning can inform Voice segmentation. Legal niche is not direct proof of fit for AI SaaS.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Official vendor materials establish what the company says it offers. Cases, testimonials, metrics, rankings, guarantees and causal explanations remain provider claims. No private stack, performance or causal effect inferred."
+    },
+    {
+      "id": "CW-15",
+      "name": "Hivemind Marketing",
+      "cohort": "original_workbook_15",
+      "official_site": "https://hivemind.marketing/",
+      "source_date": "2026-11-12",
+      "source_urls": [
+        "https://hivemind.marketing/",
+        "https://hivemind.marketing/"
+      ],
+      "service_claims": "LinkedIn content and outbound for founder-led B2B games firms.",
+      "content_claims": "Interviews, profile/brand work and weekly reviews are described.",
+      "profile_claims": "Profile copy and brand revamp are listed.",
+      "outreach_claims": "Account list, setter, follow-up and meeting handoff are described.",
+      "email_claims": "Not verified.",
+      "ads_claims": "Not verified.",
+      "tools_claims": "Self-interview system/free growth audit described, runtime not tested.",
+      "observed_vs_unavailable": "Root completed current-page read after the worker search gap. Vendor claims remain unverified outcomes and private tooling remains unknown.",
+      "proof_type": "Current official page text read by root on2026-11-12",
+      "differentiation_for_voice_voice_plus_pipeline": "Niche fit and explicit source questions may inform Voice discovery. Current service and proof require a fresh official-page read.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Official vendor materials establish what the company says it offers. Cases, testimonials, metrics, rankings, guarantees and causal explanations remain provider claims. No private stack, performance or causal effect inferred."
+    },
+    {
+      "id": "CW-16",
+      "name": "Cleverly",
+      "cohort": "plan_only_addition",
+      "official_site": "https://www.cleverly.co/",
+      "source_date": "2026-11-12",
+      "source_urls": [
+        "https://www.cleverly.co/",
+        "https://www.cleverly.co/"
+      ],
+      "service_claims": "Official pages position a managed B2B lead-generation service.",
+      "content_claims": "Outreach message writing; not an organic founder-content service in reviewed pages.",
+      "profile_claims": "Profile optimization included in outbound service.",
+      "outreach_claims": "Target lists, sequences, testing, reporting and reply/appointment handling in self-published claims.",
+      "email_claims": "Multi-channel email options are mentioned.",
+      "ads_claims": "Cold calling/email/LinkedIn bundles mentioned.",
+      "tools_claims": "Site claims proprietary automation; not inspected.",
+      "observed_vs_unavailable": "Vendor-authored service and comparison pages. Treat performance, safety and review claims as self-reported. Unavailable fields are stated as not verified, not assumed absent. No social page was opened in this pass.",
+      "proof_type": "Vendor-authored service and comparison pages. Treat performance, safety and review claims as self-reported.",
+      "differentiation_for_voice_voice_plus_pipeline": "Adjacent, not writing-agency equivalent. Voice should not promise outbound outcomes; Voice + Pipeline must define any conversation task and handoff.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Official vendor materials establish what the company says it offers. Cases, testimonials, metrics, rankings, guarantees and causal explanations remain provider claims. No private stack, performance or causal effect inferred."
+    },
+    {
+      "id": "CW-17",
+      "name": "Belkins",
+      "cohort": "plan_only_addition",
+      "official_site": "https://belkins.io/",
+      "source_date": "2026-11-12",
+      "source_urls": [
+        "https://belkins.io/",
+        "https://belkins.io/"
+      ],
+      "service_claims": "Official service combines LinkedIn outreach, content and engagement for conversion/nurture. Pay-per-appointment page also found.",
+      "content_claims": "Weekly thought-leadership posts by key team members, repurposed webinars/cases.",
+      "profile_claims": "Company/team LinkedIn presence, not verified founder ghostwriting focus.",
+      "outreach_claims": "Targeting, manual lead vetting, personalized messages, follow-ups and booking.",
+      "email_claims": "Email and LinkedIn outreach used together.",
+      "ads_claims": "LinkedIn ads not verified in pages viewed.",
+      "tools_claims": "AI-supported lead tiering stated; no specific internal tools established.",
+      "observed_vs_unavailable": "Vendor service page, methodology and performance claims are self-reported. Unavailable fields are stated as not verified, not assumed absent. No social page was opened in this pass.",
+      "proof_type": "Vendor service page, methodology and performance claims are self-reported.",
+      "differentiation_for_voice_voice_plus_pipeline": "Separate content work and outreach flow on the service page is a useful architecture. Outspoken should preserve that boundary and show what Voice + Pipeline adds.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Official vendor materials establish what the company says it offers. Cases, testimonials, metrics, rankings, guarantees and causal explanations remain provider claims. No private stack, performance or causal effect inferred."
+    }
+  ],
+  "new_adjacent_candidates": [],
+  "new_candidate_limit": "No new adjacent candidate added. Search was bounded, not exhaustive.",
+  "separate_rows": [
+    {
+      "id": null,
+      "name": "SalesBread",
+      "category": "supplemental_service_reference",
+      "cohort": "prior ledger supplemental, outside 17 service-firm set",
+      "official_site": "https://salesbread.com/",
+      "source_date": "2026-11-12",
+      "evidence_status": "current_official_page_observed",
+      "source_urls": [
+        "https://salesbread.com/"
+      ],
+      "service_claims": "Site promises 20+ sales-qualified leads/month through personalized LinkedIn and email outreach or money back.",
+      "content_claims": "Site says content creation and LinkedIn ads can support credibility alongside outreach, but they are not described as part of its lead-generation service.",
+      "profile_claims": "Not stated in inspected page.",
+      "outreach_claims": "Manual personalized prospect research, LinkedIn outreach, lead qualification and inbox monitoring are described.",
+      "email_claims": "LinkedIn plus email outreach offered.",
+      "ads_claims": "Not included in reviewed lead-generation service; site says ads can be complementary.",
+      "tools_claims": "Vendor says it does not use AI personalization bots. Private/internal stack unavailable.",
+      "proof_type": "Official vendor homepage and vendor case-study summaries. Lead/reply claims and guarantee are self-reported.",
+      "observed_vs_unavailable": "Current homepage text observed 2026-11-12. Pricing, independent outcome validation, and internal tools unavailable.",
+      "differentiation_for_voice_voice_plus_pipeline": "Keep this separate from Voice. Manual prospect research is relevant to a carefully scoped Pipeline conversation workflow, but outreach outcomes do not prove content effectiveness.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Supplemental, not one of the 17 service firms. Vendor claims only. No LinkedIn access or contact."
+    },
+    {
+      "id": null,
+      "name": "Waalaxy",
+      "category": "adjacent_software_tool",
+      "cohort": "prior ledger adjacent tool",
+      "official_site": "https://www.waalaxy.com/",
+      "source_date": "2026-11-12",
+      "evidence_status": "current_official_page_observed",
+      "source_urls": [
+        "https://www.waalaxy.com/pricing"
+      ],
+      "service_claims": "Software, not managed writing service.",
+      "content_claims": "No founder ghostwriting offer verified.",
+      "profile_claims": "Not applicable/not verified.",
+      "outreach_claims": "LinkedIn outreach campaigns, sequences and automated follow-ups.",
+      "email_claims": "Business plan includes cold email sequences and LinkedIn plus email campaigns.",
+      "ads_claims": "Not verified.",
+      "tools_claims": "CRM sync, team collaboration, API and integration features are listed. Pricing page displays Pro €19, Advanced €49, Business €69 per user/month with billing selectors; effective billing amount not independently confirmed.",
+      "proof_type": "Official product/pricing page, vendor feature and price statements.",
+      "observed_vs_unavailable": "Official pricing page search result observed 2026-11-12. Selected billing term, tax and checkout amount unavailable.",
+      "differentiation_for_voice_voice_plus_pipeline": "Adjacent tooling only. Clarify that Outspoken sells strategy, writing and accountable review, not outreach automation. Do not endorse or imply automation drives content quality.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Software alternative, not service competitor. Price selectors not resolved at checkout."
+    },
+    {
+      "id": null,
+      "name": "AuthoredUp",
+      "category": "adjacent_software_tool",
+      "cohort": "prior ledger adjacent tool",
+      "official_site": "https://authoredup.com/",
+      "source_date": "2026-11-12",
+      "evidence_status": "current_official_page_observed",
+      "source_urls": [
+        "https://authoredup.com/pricing",
+        "https://authoredup.com/product/editor"
+      ],
+      "service_claims": "Software, not managed writing service.",
+      "content_claims": "Editor, drafts, formatting, preview, hook and ending libraries, scheduling and analytics are listed. AI writing assistance is described as closed beta.",
+      "profile_claims": "Author/profile switching for managed pages is mentioned, not a personal-branding service.",
+      "outreach_claims": "Not verified.",
+      "email_claims": "Not verified.",
+      "ads_claims": "Not verified.",
+      "tools_claims": "Web and Chrome extension editor, drafts, calendar, analytics and saved-post management. Pricing detail current page search result not exposed in this batch, so no current price quoted.",
+      "proof_type": "Official product and pricing pages, vendor feature claims.",
+      "observed_vs_unavailable": "Official product/pricing page results observed 2026-11-12. Current price not captured in returned page text.",
+      "differentiation_for_voice_voice_plus_pipeline": "Make drafts, author approval and rationale reviewable. Outspoken differentiates through source grounding, buyer context and human editorial judgment, not editor features.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Software alternative, not service competitor. Feature claims not independently tested."
+    },
+    {
+      "id": null,
+      "name": "Taplio",
+      "category": "adjacent_software_tool",
+      "cohort": "prior ledger adjacent tool",
+      "official_site": "https://taplio.com/",
+      "source_date": "2026-11-12",
+      "evidence_status": "current_official_page_observed",
+      "source_urls": [
+        "https://app.taplio.com/dashboard?openPricing=true",
+        "https://taplio.com/taplio-linkedin-mcp",
+        "https://taplio.com/linkedin-post-scheduler"
+      ],
+      "service_claims": "Software for LinkedIn creators, not managed writing service.",
+      "content_claims": "AI writing, inspiration search, drafts, scheduling, carousels, analytics and comment/reply drafting are described.",
+      "profile_claims": "Creator/profile-connected product; no profile consulting service verified.",
+      "outreach_claims": "Lead-related features and engagement/network tools are described.",
+      "email_claims": "Not verified.",
+      "ads_claims": "Not verified.",
+      "tools_claims": "Official logged-out pricing result listed Starter $39/mo, Growth $69/mo and Pro $199/mo. Official MCP page describes analytics, drafts, scheduling and engagement tools, with confirmation gates described for some actions.",
+      "proof_type": "Official product, connector and pricing pages. Vendor feature, price and performance statements.",
+      "observed_vs_unavailable": "Current official page results observed 2026-11-12. Pricing selector/checkout was not independently verified. No account connected or product tested.",
+      "differentiation_for_voice_voice_plus_pipeline": "Position paid work around interview, evidence checking, decision quality, author approval and delivery accountability. Do not present AI draft access as the service value.",
+      "post_review": {
+        "actual_saved_post_available": false,
+        "source_date": null,
+        "hook": "not_observable",
+        "proof_function": "not_observable",
+        "visual_function": "not_observable"
+      },
+      "limitations": "Software alternative, not service competitor. No account access, product test, or independent outcome validation."
+    }
+  ],
+  "coverage_reconciliation": {
+    "expected": 21,
+    "service": 17,
+    "supplemental": 1,
+    "adjacent_tools": 3,
+    "current_official_source_observations": 21,
+    "root_full_page_gap_closures": [
+      "storyarb",
+      "Compound Content Studio",
+      "Contender Creative",
+      "Hivemind Marketing"
+    ],
+    "observation_limit": "Worker primary-search/page observations plus root page reads, not21full social/post or runtime audits. Separate26agency list remains unavailable."
+  }
+}

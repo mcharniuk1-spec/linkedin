@@ -1,0 +1,1005 @@
+{
+  "status": "source_snapshot_verified",
+  "publication_authority": "owner_requested_current_source_git_sync",
+  "owner_artistic_acceptance": false,
+  "files": [
+    {
+      "path": "CAPTIONS.md",
+      "sha256": "baa6b51bd40c438939eed0fb997dbe226ed6020f1e9fb1f6791b2ca1da1ced09",
+      "bytes": 20879
+    },
+    {
+      "path": "README.md",
+      "sha256": "056ddcd29e794306103c59a201b7ff8e9dc5e5dc2e61adc5be18418220cd8352",
+      "bytes": 1863
+    },
+    {
+      "path": "SOURCES.json",
+      "sha256": "85f3d035df11f64bd6d325c370c02d940610a3f1d75b9e8ce132ebc84379b338",
+      "bytes": 1581
+    },
+    {
+      "path": "applications.json",
+      "sha256": "7fdb59d9c1143a0c2b3a6a0c6f292406cf23aa62df199918f7aae1e828ca478f",
+      "bytes": 34894
+    },
+    {
+      "path": "assets/01-the-flow-01-alt.txt",
+      "sha256": "a593c7afcc11ea3a78729d936d7c367e4a4fdc1361070da0d482265ecb27060b",
+      "bytes": 416
+    },
+    {
+      "path": "assets/01-the-flow-01-transcript.txt",
+      "sha256": "190da61c80853c3ca5d5f3734fd4f7f50dadadf22b954fd09335462025d12cba",
+      "bytes": 386
+    },
+    {
+      "path": "assets/01-the-flow-01.png",
+      "sha256": "092f84cedfb7ad62181b35d691139effd32b4370e69e5adcaa2fea7044b48be2",
+      "bytes": 147054
+    },
+    {
+      "path": "assets/01-the-flow-01.svg",
+      "sha256": "7e1a9a86407935703d24de64c27f043e20dbb6734f9948acbc095d2f7832413c",
+      "bytes": 274217
+    },
+    {
+      "path": "assets/01-the-flow-02-alt.txt",
+      "sha256": "2dc1d3e8e8790740ca010d71935b9d45f77872c8f4ed75f24da6e178c24314a1",
+      "bytes": 269
+    },
+    {
+      "path": "assets/01-the-flow-02-transcript.txt",
+      "sha256": "9cf5ad68dc02782ddf74f90b4d66149479ed7f71656933096a72e82d717ad5fe",
+      "bytes": 240
+    },
+    {
+      "path": "assets/01-the-flow-02.png",
+      "sha256": "0850c44a6455dfae776167fe90b4b6a160ddd407607817a8f4c8e7f8400de040",
+      "bytes": 125754
+    },
+    {
+      "path": "assets/01-the-flow-02.svg",
+      "sha256": "3b6a1d795c4e5a9d37d1800095a62eef4a9ade48acfd6669e403fca732447d2b",
+      "bytes": 273518
+    },
+    {
+      "path": "assets/01-the-flow-03-alt.txt",
+      "sha256": "b5818cf33c6cf2e773af2f63b93704231bfc83af5301e5a41adb2cbb1a31a78e",
+      "bytes": 285
+    },
+    {
+      "path": "assets/01-the-flow-03-transcript.txt",
+      "sha256": "92c8d5ee7e3847b5d0836434a43b6420d313024fb2d6025d0d6f05f26c04a979",
+      "bytes": 251
+    },
+    {
+      "path": "assets/01-the-flow-03.png",
+      "sha256": "ffa71b31494a9e193766f447084f1acd678fdca1e4c3339aa84b71f313313458",
+      "bytes": 137932
+    },
+    {
+      "path": "assets/01-the-flow-03.svg",
+      "sha256": "242e27395965f318cdec9b5a9eb36e6ce2c5b79530aab1303feb105cfc8ff4b7",
+      "bytes": 273400
+    },
+    {
+      "path": "assets/01-the-flow-04-alt.txt",
+      "sha256": "489fb5415c3874d61c3262f0e686ebdf76c520645ef162584b89d299f6409ca2",
+      "bytes": 285
+    },
+    {
+      "path": "assets/01-the-flow-04-transcript.txt",
+      "sha256": "4718f2c6957c5147f2dd2dd6d6ecbf1ea467eb4d2de780be0bb12cc46d20b341",
+      "bytes": 249
+    },
+    {
+      "path": "assets/01-the-flow-04.png",
+      "sha256": "3c85392261f4a3801a556b310486d0e14bf30dcc47e3d9ac24822fe9c135268d",
+      "bytes": 119948
+    },
+    {
+      "path": "assets/01-the-flow-04.svg",
+      "sha256": "9f4752ec11bbcdea72bc831ffd132000cccc1047735897dc6f45fca6de4e3f40",
+      "bytes": 273174
+    },
+    {
+      "path": "assets/01-the-flow.pdf",
+      "sha256": "0ec62dfcab31599bc6eca165d6224e71ebf065adfd947f1cfde5498f944ef242",
+      "bytes": 396893
+    },
+    {
+      "path": "assets/02-the-strategy-01-alt.txt",
+      "sha256": "910a9dc6e93097ea2d4d4421cc471eacc69fd0c8685bf34054cc575bec70b92a",
+      "bytes": 299
+    },
+    {
+      "path": "assets/02-the-strategy-01-transcript.txt",
+      "sha256": "6d8caca98bc011a6ed52b5ed7f9760d019d42a8b353989b80770e625164cb2f3",
+      "bytes": 265
+    },
+    {
+      "path": "assets/02-the-strategy-01.png",
+      "sha256": "01319dc01ab57b068333b56d279041c6f488f05242cdcb3c36a89eab7d95b39c",
+      "bytes": 128134
+    },
+    {
+      "path": "assets/02-the-strategy-01.svg",
+      "sha256": "9619e4f4d8a76502c17ae67f2bc326dfd233cde8ccd62cf22ace50dd333cf0bf",
+      "bytes": 272615
+    },
+    {
+      "path": "assets/03-the-interview-01-alt.txt",
+      "sha256": "ad1f07b595f829a1499ac02a19ed17d53418d86b670002ee5c43c2c8a5b8ad1d",
+      "bytes": 318
+    },
+    {
+      "path": "assets/03-the-interview-01-transcript.txt",
+      "sha256": "47c67696bc28e5a35511b074a9d40f90f0b907c299fba9a69fe932c24aa19f51",
+      "bytes": 283
+    },
+    {
+      "path": "assets/03-the-interview-01.png",
+      "sha256": "a281bf761a3b0c4bd4b5d8e492f8c3fce369ed142a98461a3a9013fcc26e46be",
+      "bytes": 130335
+    },
+    {
+      "path": "assets/03-the-interview-01.svg",
+      "sha256": "fe73c9b0ad55bd7f00dabcd2b69ba1e29a4c4db49f39eb12b54e5963344802cc",
+      "bytes": 273505
+    },
+    {
+      "path": "assets/04-the-profile-01-alt.txt",
+      "sha256": "7d0294ebff051e5e2257e0ef86edb100641c860227ba45810a8ad8f3c42495e0",
+      "bytes": 352
+    },
+    {
+      "path": "assets/04-the-profile-01-transcript.txt",
+      "sha256": "6129cc8f8ac8d788abba962cfc3c8130dcab0ef45db8fc372659e40528d36430",
+      "bytes": 312
+    },
+    {
+      "path": "assets/04-the-profile-01.png",
+      "sha256": "9984ab8099ec60ec912c124874790c4aae784992626755249b038ffa934560e4",
+      "bytes": 132356
+    },
+    {
+      "path": "assets/04-the-profile-01.svg",
+      "sha256": "a95d0bf21a679cdddd9ab66b9c988125786b5e43d669b2ab71b03d8319e628f9",
+      "bytes": 273472
+    },
+    {
+      "path": "assets/05-the-tools-01-alt.txt",
+      "sha256": "f02d7b14426d6a6922fad499a0a056f129a463c547c8b6df3bc975b19cebd694",
+      "bytes": 368
+    },
+    {
+      "path": "assets/05-the-tools-01-transcript.txt",
+      "sha256": "d3fab5d142d9f164d9d82eb5f080907024a4a9a2181c054deb75149ba7524de7",
+      "bytes": 338
+    },
+    {
+      "path": "assets/05-the-tools-01.png",
+      "sha256": "2f0b68f140fd71cff55b80a0a85c9896bdf4e6a30f3b175c5501bfc2afe32e5f",
+      "bytes": 136615
+    },
+    {
+      "path": "assets/05-the-tools-01.svg",
+      "sha256": "53ccd8a654e208b40dd076a67f9e9a2dd0d8e8e8f1cde5871036f6d8d9a93868",
+      "bytes": 275193
+    },
+    {
+      "path": "assets/06-the-first-message-01-alt.txt",
+      "sha256": "9dedee10a92aecb3365f1259a53b9ed4ec6abee34292a2afd3e97bb4bbae6977",
+      "bytes": 291
+    },
+    {
+      "path": "assets/06-the-first-message-01-transcript.txt",
+      "sha256": "0d58bbfbca59873bcea29f30a29c9e2807915fc5c9cb1ec53ad81a8efa23d03a",
+      "bytes": 196
+    },
+    {
+      "path": "assets/06-the-first-message-01.png",
+      "sha256": "ecafa8769fa08732cf715f38a452107b036c893108dd6da756f825a913f16ed1",
+      "bytes": 918416
+    },
+    {
+      "path": "assets/06-the-first-message-01.svg",
+      "sha256": "c91990b72f60bb5c705c81b15e2457a9bd7fe0f07f6447b29fd156e332018bbb",
+      "bytes": 272423
+    },
+    {
+      "path": "assets/07-the-reply-01-alt.txt",
+      "sha256": "4bffc9084bcf5376edfa0f00dc9273436f17f57516b96e179c5a1d33749c9b7c",
+      "bytes": 340
+    },
+    {
+      "path": "assets/07-the-reply-01-transcript.txt",
+      "sha256": "f12a2a65b7b8b9f86ffb1c8748bf87b5974d92f6e2c92e8b90d7c71b663d673d",
+      "bytes": 309
+    },
+    {
+      "path": "assets/07-the-reply-01.png",
+      "sha256": "8b2046734fdb9db9921665c3ee699b6d16fe830850688242868cb4f5c6a20957",
+      "bytes": 124557
+    },
+    {
+      "path": "assets/07-the-reply-01.svg",
+      "sha256": "99b7249a8dd31f6ba89773d896c076bb8ca758be94ac11cc1df46342405cd602",
+      "bytes": 273476
+    },
+    {
+      "path": "assets/08-the-case-01-alt.txt",
+      "sha256": "4372edf8c222c166f61b6b1c789a07f0a70341e4b6b49eaf65a58fc471e297bb",
+      "bytes": 286
+    },
+    {
+      "path": "assets/08-the-case-01-transcript.txt",
+      "sha256": "c12908a439f890982880432b59a085d465c6620ebc502b04789110e9ada57965",
+      "bytes": 251
+    },
+    {
+      "path": "assets/08-the-case-01.png",
+      "sha256": "d5448e14c94179d8c36d70cc87715ad606c33ddfa171aed7e433771e1d8f5587",
+      "bytes": 124707
+    },
+    {
+      "path": "assets/08-the-case-01.svg",
+      "sha256": "a40b108fcb90abc9c89e42c8d9c87e3bc1cac36dbc5ca0d49d362b9b3eaf811d",
+      "bytes": 273662
+    },
+    {
+      "path": "assets/09-the-buying-group-01-alt.txt",
+      "sha256": "e8968e041360ffc7c825c844ffc44a5429f1b5f0188013286830081a7c689286",
+      "bytes": 217
+    },
+    {
+      "path": "assets/09-the-buying-group-01-transcript.txt",
+      "sha256": "2f9d15a8e72513ed37c0f5a8cfcdf372e17c61bee3f865426d0a17768f023c0e",
+      "bytes": 182
+    },
+    {
+      "path": "assets/09-the-buying-group-01.png",
+      "sha256": "a08633d9a136104a35f12f2ca78c9f4680db6f80b98c7ba2f213da581a0188ff",
+      "bytes": 122206
+    },
+    {
+      "path": "assets/09-the-buying-group-01.svg",
+      "sha256": "65e367e02e3a3df4ad54c7af03fcb2a77abe0b6e833bacd712b2f1a0d3a10d3a",
+      "bytes": 273129
+    },
+    {
+      "path": "assets/10-the-review-01-alt.txt",
+      "sha256": "c19c2df4bb8722ac3cf202a277069b32e36aef870b7154e72f50b1592714d4ab",
+      "bytes": 359
+    },
+    {
+      "path": "assets/10-the-review-01-transcript.txt",
+      "sha256": "899c73d89113b0ae0d3c3d31afa4f8b74e1a47aabd84f4749071c74df96177eb",
+      "bytes": 325
+    },
+    {
+      "path": "assets/10-the-review-01.png",
+      "sha256": "6715e44baada9443a8855aabab1197ad98fd88cde1fc8bc9b71043299c5fa08e",
+      "bytes": 126905
+    },
+    {
+      "path": "assets/10-the-review-01.svg",
+      "sha256": "c73d27baa73a1abd8ea3f2cfac292a22d8a554a670583083dd075ddc54d36681",
+      "bytes": 273093
+    },
+    {
+      "path": "assets/11-the-designer-01-alt.txt",
+      "sha256": "329250dd8a99d2ee30c467d260cc1bfdcf424ca82574fcce16a723c7ca99d79e",
+      "bytes": 237
+    },
+    {
+      "path": "assets/11-the-designer-01-transcript.txt",
+      "sha256": "ff9c7943db3f67e58674decdf58db706a3903c5352dedaf0e14a0eeff5c198fb",
+      "bytes": 207
+    },
+    {
+      "path": "assets/11-the-designer-01.png",
+      "sha256": "102bc45f7cc3f884a608f3c6eb8cd68e7fd9724ac3ffe6a74e97cd60f9119dc1",
+      "bytes": 97896
+    },
+    {
+      "path": "assets/11-the-designer-01.svg",
+      "sha256": "81d0da9e98e408500fa227cb1d2dc9a79affc4de1f83996bc7602962209e6999",
+      "bytes": 272289
+    },
+    {
+      "path": "assets/12-the-developer-01-alt.txt",
+      "sha256": "6050ee6ed2af5736d133c409a9294e576fe4c914c6f5efa0a6d4cd8ed0a148c1",
+      "bytes": 295
+    },
+    {
+      "path": "assets/12-the-developer-01-transcript.txt",
+      "sha256": "2bc4bfdd5d0abed3e92eb43585b77d5d5b339b1135f554a62aff2c1f43dd0ccc",
+      "bytes": 263
+    },
+    {
+      "path": "assets/12-the-developer-01.png",
+      "sha256": "791de6a91fd30e9aa83b5124b19cfe3fbd082027134ec075ded0ea695e3a4018",
+      "bytes": 129661
+    },
+    {
+      "path": "assets/12-the-developer-01.svg",
+      "sha256": "14ea58f594f8f64a453a9dffda3f4fd60652515e0a6b090fbbfa226e7e3b4fc0",
+      "bytes": 273987
+    },
+    {
+      "path": "assets/13-the-manager-01-alt.txt",
+      "sha256": "8371b690cc4bbeb51c0a0f9025952fa37f3940ee6823b4d65b1c5b811549ccb7",
+      "bytes": 270
+    },
+    {
+      "path": "assets/13-the-manager-01-transcript.txt",
+      "sha256": "b451bc3ab14e78bb229aaf12c6fe4eedb45d2c5a15a711ee5139c753a3a5bc34",
+      "bytes": 239
+    },
+    {
+      "path": "assets/13-the-manager-01.png",
+      "sha256": "b724eb89e9370e73e587dd39ffe30a5bd0d38e978f3744df541a22154bf7b0c2",
+      "bytes": 122159
+    },
+    {
+      "path": "assets/13-the-manager-01.svg",
+      "sha256": "a1675926daaa07f952e154b53c0a93fade19ce1664db2d251c238eceb9bdda9c",
+      "bytes": 272936
+    },
+    {
+      "path": "assets/14-the-offer-01-alt.txt",
+      "sha256": "39da16014feace9d8061d75c4cb3d54cef9b18cb505cb2a55ecd7d5d2c88871c",
+      "bytes": 296
+    },
+    {
+      "path": "assets/14-the-offer-01-transcript.txt",
+      "sha256": "cd3ed73131c29d1cebc53ce038d68bce19197bf28a03637863e6fda96a2b2f48",
+      "bytes": 258
+    },
+    {
+      "path": "assets/14-the-offer-01.png",
+      "sha256": "4fe2851380b09d0db7b79fef589efb33c4d1bbd4cfc8804e4e7e0bf46ab6c4df",
+      "bytes": 119340
+    },
+    {
+      "path": "assets/14-the-offer-01.svg",
+      "sha256": "b2853e460e8a637c1933166e13dfae76106e140cf71bc59cf836e8349981a57f",
+      "bytes": 272468
+    },
+    {
+      "path": "assets/15-the-call-01-alt.txt",
+      "sha256": "24faa7495a335aa8feec99a22ac3eae4a29040918a899eadbb94ab4da4e9cd1b",
+      "bytes": 312
+    },
+    {
+      "path": "assets/15-the-call-01-transcript.txt",
+      "sha256": "090726b8cbabe8074e1b78f5faa1545a0e3056504adb5abb64d0269bdebb3fe2",
+      "bytes": 273
+    },
+    {
+      "path": "assets/15-the-call-01.png",
+      "sha256": "6a9a2b43e457feefadc4ac468c76eadf3c389552c0f494bc9ea96982712ead63",
+      "bytes": 126325
+    },
+    {
+      "path": "assets/15-the-call-01.svg",
+      "sha256": "2c6cc21371a50a63eebcfcc5eb59a97cbcba55c56da3633764363aa21099f833",
+      "bytes": 273708
+    },
+    {
+      "path": "assets/16-the-cadence-01-alt.txt",
+      "sha256": "f41cf5cced48d00d6491c8c4531935edd7435e59c08abb706fa2e2460140c739",
+      "bytes": 363
+    },
+    {
+      "path": "assets/16-the-cadence-01-transcript.txt",
+      "sha256": "e238f1158a93b3cb0712f00c13be2f8b4cf25106c3c8ebd3da498a1837bcf8da",
+      "bytes": 329
+    },
+    {
+      "path": "assets/16-the-cadence-01.png",
+      "sha256": "534fd64586cf1ff847dcb8ac3632d55fd2ba9d1244e7fea73da15c120e29d7b2",
+      "bytes": 141663
+    },
+    {
+      "path": "assets/16-the-cadence-01.svg",
+      "sha256": "1857b0ed358085b488a5b8f009d547472f3c48b0a39d303e89a84019338ef70a",
+      "bytes": 273288
+    },
+    {
+      "path": "assets/fonts/fraunces-OFL.txt",
+      "sha256": "cd3384cafac6f2bddc3955273958a2e029f97027c8037ac539ef5744a77b579e",
+      "bytes": 4504
+    },
+    {
+      "path": "assets/fonts/fraunces-latin-full-normal.woff2",
+      "sha256": "7e744849028e2219e2aa1bc467dc4032980dc4487c9c3da3010081cd72d3b103",
+      "bytes": 121016
+    },
+    {
+      "path": "assets/fonts/geist-mono-OFL.txt",
+      "sha256": "cc815ed4fc045f0e991abb10395b7932bd028c6a067deb13316d6002105074e6",
+      "bytes": 4498
+    },
+    {
+      "path": "assets/fonts/geist-mono-latin-wght-normal.woff2",
+      "sha256": "684ad5b531f81d43c1e8c7038262d5db7cdc1f68006e04d6c7769efa8d33c8cc",
+      "bytes": 23128
+    },
+    {
+      "path": "assets/fonts/mona-sans-OFL.txt",
+      "sha256": "41e9911493de5899a20336baf13b6ea6483b5eea34e237f2ffed22c39bdc4a8d",
+      "bytes": 4564
+    },
+    {
+      "path": "assets/fonts/mona-sans-latin-wght-normal.woff2",
+      "sha256": "a59061e38c5e7e6a00aaa6b6645a220c7d9c530991167f058cc0f8575f5d5844",
+      "bytes": 39788
+    },
+    {
+      "path": "assets/selection-context.png",
+      "sha256": "27a9694c22764867ede58a8a92a87518b910e10d56279f91ebb3d6b71506a262",
+      "bytes": 2201133
+    },
+    {
+      "path": "assets/wordmark-inverse.svg",
+      "sha256": "fd05d9c78f4a1a6d461fdd2c4c9361f8310e2adb3efd0e1487d82d03b4f276f6",
+      "bytes": 24536
+    },
+    {
+      "path": "assets/wordmark.svg",
+      "sha256": "719990a5bfd448a497aa8ef90794de33f9578c82ad9c761dbbbb60b3a996e960",
+      "bytes": 24533
+    },
+    {
+      "path": "build_visuals.py",
+      "sha256": "0dc9d7128e40ae293f97907e8f6fdb0fb7b38f212a12d12efdc67370adec7a21",
+      "bytes": 15052
+    },
+    {
+      "path": "content.json",
+      "sha256": "98646568f1a0fe78e40a2cd24fca63afcea29d6deaa9e4d8c2dae7973bb0ac5d",
+      "bytes": 71534
+    },
+    {
+      "path": "index.html",
+      "sha256": "8fcdee9e5b0308c422d3efcd052117a9532b0ff3b561f46c3cc875671f2f75f5",
+      "bytes": 99172
+    },
+    {
+      "path": "render-checks.json",
+      "sha256": "a8ee710abe409c7b516274355f3bcfc86132e4765f57daa7e404ce91905bce7a",
+      "bytes": 2407
+    },
+    {
+      "path": "render-jobs.json",
+      "sha256": "667048fd2212f61a0d284a3d86b2830569c161d6d3aae5cd1a9e3fa72fea985c",
+      "bytes": 2582
+    },
+    {
+      "path": "render.swift",
+      "sha256": "0a8ca68afd1659458a1dd28973b6ed9a2e9df768f9709ce27335d254ceef1b49",
+      "bytes": 6061
+    }
+  ],
+  "rights_ledger": [
+    {
+      "path": "assets/01-the-flow-01-alt.txt",
+      "sha256": "a593c7afcc11ea3a78729d936d7c367e4a4fdc1361070da0d482265ecb27060b",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/01-the-flow-01-transcript.txt",
+      "sha256": "190da61c80853c3ca5d5f3734fd4f7f50dadadf22b954fd09335462025d12cba",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/01-the-flow-01.png",
+      "sha256": "092f84cedfb7ad62181b35d691139effd32b4370e69e5adcaa2fea7044b48be2",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/01-the-flow-01.svg",
+      "sha256": "7e1a9a86407935703d24de64c27f043e20dbb6734f9948acbc095d2f7832413c",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/01-the-flow-02-alt.txt",
+      "sha256": "2dc1d3e8e8790740ca010d71935b9d45f77872c8f4ed75f24da6e178c24314a1",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/01-the-flow-02-transcript.txt",
+      "sha256": "9cf5ad68dc02782ddf74f90b4d66149479ed7f71656933096a72e82d717ad5fe",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/01-the-flow-02.png",
+      "sha256": "0850c44a6455dfae776167fe90b4b6a160ddd407607817a8f4c8e7f8400de040",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/01-the-flow-02.svg",
+      "sha256": "3b6a1d795c4e5a9d37d1800095a62eef4a9ade48acfd6669e403fca732447d2b",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/01-the-flow-03-alt.txt",
+      "sha256": "b5818cf33c6cf2e773af2f63b93704231bfc83af5301e5a41adb2cbb1a31a78e",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/01-the-flow-03-transcript.txt",
+      "sha256": "92c8d5ee7e3847b5d0836434a43b6420d313024fb2d6025d0d6f05f26c04a979",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/01-the-flow-03.png",
+      "sha256": "ffa71b31494a9e193766f447084f1acd678fdca1e4c3339aa84b71f313313458",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/01-the-flow-03.svg",
+      "sha256": "242e27395965f318cdec9b5a9eb36e6ce2c5b79530aab1303feb105cfc8ff4b7",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/01-the-flow-04-alt.txt",
+      "sha256": "489fb5415c3874d61c3262f0e686ebdf76c520645ef162584b89d299f6409ca2",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/01-the-flow-04-transcript.txt",
+      "sha256": "4718f2c6957c5147f2dd2dd6d6ecbf1ea467eb4d2de780be0bb12cc46d20b341",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/01-the-flow-04.png",
+      "sha256": "3c85392261f4a3801a556b310486d0e14bf30dcc47e3d9ac24822fe9c135268d",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/01-the-flow-04.svg",
+      "sha256": "9f4752ec11bbcdea72bc831ffd132000cccc1047735897dc6f45fca6de4e3f40",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/01-the-flow.pdf",
+      "sha256": "0ec62dfcab31599bc6eca165d6224e71ebf065adfd947f1cfde5498f944ef242",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/02-the-strategy-01-alt.txt",
+      "sha256": "910a9dc6e93097ea2d4d4421cc471eacc69fd0c8685bf34054cc575bec70b92a",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/02-the-strategy-01-transcript.txt",
+      "sha256": "6d8caca98bc011a6ed52b5ed7f9760d019d42a8b353989b80770e625164cb2f3",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/02-the-strategy-01.png",
+      "sha256": "01319dc01ab57b068333b56d279041c6f488f05242cdcb3c36a89eab7d95b39c",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/02-the-strategy-01.svg",
+      "sha256": "9619e4f4d8a76502c17ae67f2bc326dfd233cde8ccd62cf22ace50dd333cf0bf",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/03-the-interview-01-alt.txt",
+      "sha256": "ad1f07b595f829a1499ac02a19ed17d53418d86b670002ee5c43c2c8a5b8ad1d",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/03-the-interview-01-transcript.txt",
+      "sha256": "47c67696bc28e5a35511b074a9d40f90f0b907c299fba9a69fe932c24aa19f51",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/03-the-interview-01.png",
+      "sha256": "a281bf761a3b0c4bd4b5d8e492f8c3fce369ed142a98461a3a9013fcc26e46be",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/03-the-interview-01.svg",
+      "sha256": "fe73c9b0ad55bd7f00dabcd2b69ba1e29a4c4db49f39eb12b54e5963344802cc",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/04-the-profile-01-alt.txt",
+      "sha256": "7d0294ebff051e5e2257e0ef86edb100641c860227ba45810a8ad8f3c42495e0",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/04-the-profile-01-transcript.txt",
+      "sha256": "6129cc8f8ac8d788abba962cfc3c8130dcab0ef45db8fc372659e40528d36430",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/04-the-profile-01.png",
+      "sha256": "9984ab8099ec60ec912c124874790c4aae784992626755249b038ffa934560e4",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/04-the-profile-01.svg",
+      "sha256": "a95d0bf21a679cdddd9ab66b9c988125786b5e43d669b2ab71b03d8319e628f9",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/05-the-tools-01-alt.txt",
+      "sha256": "f02d7b14426d6a6922fad499a0a056f129a463c547c8b6df3bc975b19cebd694",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/05-the-tools-01-transcript.txt",
+      "sha256": "d3fab5d142d9f164d9d82eb5f080907024a4a9a2181c054deb75149ba7524de7",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/05-the-tools-01.png",
+      "sha256": "2f0b68f140fd71cff55b80a0a85c9896bdf4e6a30f3b175c5501bfc2afe32e5f",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/05-the-tools-01.svg",
+      "sha256": "53ccd8a654e208b40dd076a67f9e9a2dd0d8e8e8f1cde5871036f6d8d9a93868",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/06-the-first-message-01-alt.txt",
+      "sha256": "9dedee10a92aecb3365f1259a53b9ed4ec6abee34292a2afd3e97bb4bbae6977",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/06-the-first-message-01-transcript.txt",
+      "sha256": "0d58bbfbca59873bcea29f30a29c9e2807915fc5c9cb1ec53ad81a8efa23d03a",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/06-the-first-message-01.png",
+      "sha256": "ecafa8769fa08732cf715f38a452107b036c893108dd6da756f825a913f16ed1",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/06-the-first-message-01.svg",
+      "sha256": "c91990b72f60bb5c705c81b15e2457a9bd7fe0f07f6447b29fd156e332018bbb",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/07-the-reply-01-alt.txt",
+      "sha256": "4bffc9084bcf5376edfa0f00dc9273436f17f57516b96e179c5a1d33749c9b7c",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/07-the-reply-01-transcript.txt",
+      "sha256": "f12a2a65b7b8b9f86ffb1c8748bf87b5974d92f6e2c92e8b90d7c71b663d673d",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/07-the-reply-01.png",
+      "sha256": "8b2046734fdb9db9921665c3ee699b6d16fe830850688242868cb4f5c6a20957",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/07-the-reply-01.svg",
+      "sha256": "99b7249a8dd31f6ba89773d896c076bb8ca758be94ac11cc1df46342405cd602",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/08-the-case-01-alt.txt",
+      "sha256": "4372edf8c222c166f61b6b1c789a07f0a70341e4b6b49eaf65a58fc471e297bb",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/08-the-case-01-transcript.txt",
+      "sha256": "c12908a439f890982880432b59a085d465c6620ebc502b04789110e9ada57965",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/08-the-case-01.png",
+      "sha256": "d5448e14c94179d8c36d70cc87715ad606c33ddfa171aed7e433771e1d8f5587",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/08-the-case-01.svg",
+      "sha256": "a40b108fcb90abc9c89e42c8d9c87e3bc1cac36dbc5ca0d49d362b9b3eaf811d",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/09-the-buying-group-01-alt.txt",
+      "sha256": "e8968e041360ffc7c825c844ffc44a5429f1b5f0188013286830081a7c689286",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/09-the-buying-group-01-transcript.txt",
+      "sha256": "2f9d15a8e72513ed37c0f5a8cfcdf372e17c61bee3f865426d0a17768f023c0e",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/09-the-buying-group-01.png",
+      "sha256": "a08633d9a136104a35f12f2ca78c9f4680db6f80b98c7ba2f213da581a0188ff",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/09-the-buying-group-01.svg",
+      "sha256": "65e367e02e3a3df4ad54c7af03fcb2a77abe0b6e833bacd712b2f1a0d3a10d3a",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/10-the-review-01-alt.txt",
+      "sha256": "c19c2df4bb8722ac3cf202a277069b32e36aef870b7154e72f50b1592714d4ab",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/10-the-review-01-transcript.txt",
+      "sha256": "899c73d89113b0ae0d3c3d31afa4f8b74e1a47aabd84f4749071c74df96177eb",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/10-the-review-01.png",
+      "sha256": "6715e44baada9443a8855aabab1197ad98fd88cde1fc8bc9b71043299c5fa08e",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/10-the-review-01.svg",
+      "sha256": "c73d27baa73a1abd8ea3f2cfac292a22d8a554a670583083dd075ddc54d36681",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/11-the-designer-01-alt.txt",
+      "sha256": "329250dd8a99d2ee30c467d260cc1bfdcf424ca82574fcce16a723c7ca99d79e",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/11-the-designer-01-transcript.txt",
+      "sha256": "ff9c7943db3f67e58674decdf58db706a3903c5352dedaf0e14a0eeff5c198fb",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/11-the-designer-01.png",
+      "sha256": "102bc45f7cc3f884a608f3c6eb8cd68e7fd9724ac3ffe6a74e97cd60f9119dc1",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/11-the-designer-01.svg",
+      "sha256": "81d0da9e98e408500fa227cb1d2dc9a79affc4de1f83996bc7602962209e6999",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/12-the-developer-01-alt.txt",
+      "sha256": "6050ee6ed2af5736d133c409a9294e576fe4c914c6f5efa0a6d4cd8ed0a148c1",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/12-the-developer-01-transcript.txt",
+      "sha256": "2bc4bfdd5d0abed3e92eb43585b77d5d5b339b1135f554a62aff2c1f43dd0ccc",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/12-the-developer-01.png",
+      "sha256": "791de6a91fd30e9aa83b5124b19cfe3fbd082027134ec075ded0ea695e3a4018",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/12-the-developer-01.svg",
+      "sha256": "14ea58f594f8f64a453a9dffda3f4fd60652515e0a6b090fbbfa226e7e3b4fc0",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/13-the-manager-01-alt.txt",
+      "sha256": "8371b690cc4bbeb51c0a0f9025952fa37f3940ee6823b4d65b1c5b811549ccb7",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/13-the-manager-01-transcript.txt",
+      "sha256": "b451bc3ab14e78bb229aaf12c6fe4eedb45d2c5a15a711ee5139c753a3a5bc34",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/13-the-manager-01.png",
+      "sha256": "b724eb89e9370e73e587dd39ffe30a5bd0d38e978f3744df541a22154bf7b0c2",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/13-the-manager-01.svg",
+      "sha256": "a1675926daaa07f952e154b53c0a93fade19ce1664db2d251c238eceb9bdda9c",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/14-the-offer-01-alt.txt",
+      "sha256": "39da16014feace9d8061d75c4cb3d54cef9b18cb505cb2a55ecd7d5d2c88871c",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/14-the-offer-01-transcript.txt",
+      "sha256": "cd3ed73131c29d1cebc53ce038d68bce19197bf28a03637863e6fda96a2b2f48",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/14-the-offer-01.png",
+      "sha256": "4fe2851380b09d0db7b79fef589efb33c4d1bbd4cfc8804e4e7e0bf46ab6c4df",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/14-the-offer-01.svg",
+      "sha256": "b2853e460e8a637c1933166e13dfae76106e140cf71bc59cf836e8349981a57f",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/15-the-call-01-alt.txt",
+      "sha256": "24faa7495a335aa8feec99a22ac3eae4a29040918a899eadbb94ab4da4e9cd1b",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/15-the-call-01-transcript.txt",
+      "sha256": "090726b8cbabe8074e1b78f5faa1545a0e3056504adb5abb64d0269bdebb3fe2",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/15-the-call-01.png",
+      "sha256": "6a9a2b43e457feefadc4ac468c76eadf3c389552c0f494bc9ea96982712ead63",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/15-the-call-01.svg",
+      "sha256": "2c6cc21371a50a63eebcfcc5eb59a97cbcba55c56da3633764363aa21099f833",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/16-the-cadence-01-alt.txt",
+      "sha256": "f41cf5cced48d00d6491c8c4531935edd7435e59c08abb706fa2e2460140c739",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/16-the-cadence-01-transcript.txt",
+      "sha256": "e238f1158a93b3cb0712f00c13be2f8b4cf25106c3c8ebd3da498a1837bcf8da",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/16-the-cadence-01.png",
+      "sha256": "534fd64586cf1ff847dcb8ac3632d55fd2ba9d1244e7fea73da15c120e29d7b2",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/16-the-cadence-01.svg",
+      "sha256": "1857b0ed358085b488a5b8f009d547472f3c48b0a39d303e89a84019338ef70a",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/fonts/fraunces-OFL.txt",
+      "sha256": "cd3384cafac6f2bddc3955273958a2e029f97027c8037ac539ef5744a77b579e",
+      "rights_state": "licensed",
+      "basis": "SIL OFL font and included license notice"
+    },
+    {
+      "path": "assets/fonts/fraunces-latin-full-normal.woff2",
+      "sha256": "7e744849028e2219e2aa1bc467dc4032980dc4487c9c3da3010081cd72d3b103",
+      "rights_state": "licensed",
+      "basis": "SIL OFL font and included license notice"
+    },
+    {
+      "path": "assets/fonts/geist-mono-OFL.txt",
+      "sha256": "cc815ed4fc045f0e991abb10395b7932bd028c6a067deb13316d6002105074e6",
+      "rights_state": "licensed",
+      "basis": "SIL OFL font and included license notice"
+    },
+    {
+      "path": "assets/fonts/geist-mono-latin-wght-normal.woff2",
+      "sha256": "684ad5b531f81d43c1e8c7038262d5db7cdc1f68006e04d6c7769efa8d33c8cc",
+      "rights_state": "licensed",
+      "basis": "SIL OFL font and included license notice"
+    },
+    {
+      "path": "assets/fonts/mona-sans-OFL.txt",
+      "sha256": "41e9911493de5899a20336baf13b6ea6483b5eea34e237f2ffed22c39bdc4a8d",
+      "rights_state": "licensed",
+      "basis": "SIL OFL font and included license notice"
+    },
+    {
+      "path": "assets/fonts/mona-sans-latin-wght-normal.woff2",
+      "sha256": "a59061e38c5e7e6a00aaa6b6645a220c7d9c530991167f058cc0f8575f5d5844",
+      "rights_state": "licensed",
+      "basis": "SIL OFL font and included license notice"
+    },
+    {
+      "path": "assets/selection-context.png",
+      "sha256": "27a9694c22764867ede58a8a92a87518b910e10d56279f91ebb3d6b71506a262",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/wordmark-inverse.svg",
+      "sha256": "fd05d9c78f4a1a6d461fdd2c4c9361f8310e2adb3efd0e1487d82d03b4f276f6",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    },
+    {
+      "path": "assets/wordmark.svg",
+      "sha256": "719990a5bfd448a497aa8ef90794de33f9578c82ad9c761dbbbb60b3a996e960",
+      "rights_state": "owned",
+      "basis": "Owner-requested original brand/publication assets, including identified synthetic context"
+    }
+  ]
+}

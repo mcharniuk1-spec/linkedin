@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "posts_checked": 16,
+  "company_repost_introductions": 16,
+  "graphics_checked": 19,
+  "first_carousel_pdf_pages": 4,
+  "native_text_runs_checked": 277,
+  "font_or_width_failures": 0,
+  "distinct_reference_transfer_rationales": 32,
+  "relative_links_checked": 155,
+  "broken_relative_links": [],
+  "browser": {
+    "desktop": [
+      1512,
+      949
+    ],
+    "mobile": [
+      390,
+      844
+    ],
+    "horizontal_page_overflow": false,
+    "all19_creative_images_loaded": true,
+    "carousel_controls": "passed",
+    "copy_caption": "passed",
+    "company_disclosure": "passed",
+    "viewport_reset": true,
+    "final_photo_delta": "Rebuilt and inspected at desktop, no overflow, image loaded"
+  },
+  "reviews": {
+    "writing": "Independent16-caption/title/action/reference/boundary review, then root repaired32reference rationales and removed mismatched satire links. Outreach examples require an existing approved resource.",
+    "visual": "Independent all19contact tiles and4full-size pages. Root moved the03rule below the baseline and re-rendered. Actual browser revieweddesktop/mobile.",
+    "limits": "Not all19pages independently inspected at full resolution. No owner artistic acceptance, client integration test or social publication."
+  },
+  "source_boundary": "Owned methods/captions/visuals and licensed fonts. Raw third-party posts, transcripts, media, contact data and private paths excluded.",
+  "social_posts_sent": 0,
+  "skill_activation_changes": 0,
+  "website_changes": 0,
+  "generation": {
+    "calls": 2,
+    "selected_scenes": 1,
+    "rejected_scene": "Staged stationery, superseded following owner feedback",
+    "selected_scene": "Candid smartphone-style generic office context",
+    "actual_photo_claim": false
+  }
+}
