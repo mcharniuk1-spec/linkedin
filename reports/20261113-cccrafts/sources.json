@@ -1,0 +1,80 @@
+{
+  "checked_date": "2026-11-13",
+  "timezone": "Europe/Sofia",
+  "method": "Read-only official web pages and documentation. Vendor statements are not independent result or runtime verification.",
+  "rights_state": "Research-only source text. Public output contains bounded paraphrases and source links, no copied media or full posts.",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "CCCrafts main",
+      "url": "https://cccrafts.ai/",
+      "scope": "Managed service, product family, workflow and claims"
+    },
+    {
+      "id": "S02",
+      "title": "For founders",
+      "url": "https://cccrafts.ai/for-founders",
+      "scope": "Founder deliverables, approvals and customer workload claims"
+    },
+    {
+      "id": "S03",
+      "title": "For agencies",
+      "url": "https://cccrafts.ai/for-agencies",
+      "scope": "Client separation, voice history, agency delivery and custom-tool offer"
+    },
+    {
+      "id": "S04",
+      "title": "Service pricing",
+      "url": "https://cccrafts.ai/pricing",
+      "scope": "Current advertised retainer, pilot ambiguity and license quote boundaries"
+    },
+    {
+      "id": "S05",
+      "title": "Co.Actor",
+      "url": "https://co.actor/",
+      "scope": "Voice calibration, topic ideas, drafts and unverified outcome/compliance claims"
+    },
+    {
+      "id": "S06",
+      "title": "Case studies",
+      "url": "https://cccrafts.ai/case-studies",
+      "scope": "Proof structure, modelled value and fee arithmetic discrepancy"
+    },
+    {
+      "id": "S07",
+      "title": "Knowledge Panels",
+      "url": "https://cccrafts.ai/google-knowledge-panels",
+      "scope": "Adjacent entity/visibility offer, outside present core scope"
+    },
+    {
+      "id": "S08",
+      "title": "Publora getting started",
+      "url": "https://docs.publora.com/getting-started",
+      "scope": "Connection/authentication flow, plan and billing-unit documentation"
+    },
+    {
+      "id": "S09",
+      "title": "Publora pricing",
+      "url": "https://publora.com/pricing",
+      "scope": "Starter queue limits, progressive Pro rates and Agency features"
+    },
+    {
+      "id": "S10",
+      "title": "Publora MCP",
+      "url": "https://docs.publora.com/guides/mcp-server",
+      "scope": "MCP/REST distinction and disabled feed-read tools"
+    },
+    {
+      "id": "S11",
+      "title": "Publora LinkedIn guide",
+      "url": "https://docs.publora.com/platforms/linkedin",
+      "scope": "Documented post/media limits and account actions"
+    },
+    {
+      "id": "S12",
+      "title": "Publora agency",
+      "url": "https://agencies.publora.com/",
+      "scope": "Agency workspace/approval/portfolio presentation"
+    }
+  ]
+}

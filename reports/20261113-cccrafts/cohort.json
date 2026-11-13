@@ -1,0 +1,54 @@
+{
+  "schema": "outspoken.known-competitor-cohort.v2",
+  "checked_date": "2026-11-13",
+  "previous_ledger": "../20261112-publication-catalog/competitors.json",
+  "previous_count": 21,
+  "new_company": {
+    "id": "CW-18",
+    "name": "Creative Content Crafts",
+    "aliases": [
+      "CCCrafts",
+      "cccrafts.ai"
+    ],
+    "site": "https://cccrafts.ai/",
+    "products": [
+      "Co.Actor Trends",
+      "Co.Actor",
+      "Publora"
+    ],
+    "source_ids": [
+      "S01",
+      "S03",
+      "S04",
+      "S05",
+      "S08"
+    ]
+  },
+  "known_total": 22,
+  "names": [
+    "Notus",
+    "Inkiro",
+    "Hat Tip",
+    "Windmill Growth",
+    "Stop The Scroll",
+    "Kurogo",
+    "storyarb",
+    "Understory",
+    "Rallyup",
+    "Concurate",
+    "Linkedist",
+    "Compound Content Studio",
+    "Shake Content",
+    "Contender Creative",
+    "Hivemind Marketing",
+    "Cleverly",
+    "Belkins",
+    "SalesBread",
+    "Waalaxy",
+    "AuthoredUp",
+    "Taplio",
+    "Creative Content Crafts"
+  ],
+  "independent_additional_agency_rows_for_products": 0,
+  "coverage_limit": "Complete known recovered list, not an exhaustive market census. Separate26agency list unrecovered."
+}

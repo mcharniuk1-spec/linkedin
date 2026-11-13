@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "modules_checked": 12,
+  "module_ids_and_names_match_original": true,
+  "required_module_fields": [
+    "acceptance",
+    "adaptation",
+    "decision",
+    "id",
+    "name",
+    "package",
+    "source_id"
+  ],
+  "source_records_checked": 12,
+  "known_cohort_names_checked": 22,
+  "relative_links_checked": 45,
+  "broken_relative_links": [],
+  "pricing_arithmetic_check": {
+    "seats": 2,
+    "quoted_rate": 2000,
+    "months": 3,
+    "computed": 12000,
+    "page_total": 6000,
+    "verdict": "clarification_required_not_verified_ROI"
+  },
+  "independent_review": "One Luna documentation reviewer and read-only final check. Missing QA link resolved by creating this checked record.",
+  "review_limits": "Source/semantic/static checks, no authenticated product test. Worker read9URLs against6-page ceiling, recorded as a bounded-scope deviation.",
+  "integration_tests_run": false,
+  "paid_calls": 0,
+  "external_messages_or_posts": 0,
+  "account_connections_created": 0,
+  "website_changes": 0,
+  "installed_skill_changes": 0,
+  "publication_assets_changed_in_this_run": 0,
+  "vendor_adoption": "candidate_only",
+  "retrieval_update": "Two existing navigation indexes plus one owned pattern note, no graph/vector rebuild or activated skill change."
+}

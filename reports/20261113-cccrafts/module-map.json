@@ -1,0 +1,136 @@
+{
+  "schema": "outspoken.cccrafts.module-map.v1",
+  "status": "review_spec_not_client_software",
+  "date": "2026-11-13",
+  "expected_ids": [
+    "T00",
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06",
+    "T07",
+    "T08",
+    "T09",
+    "T10",
+    "T11"
+  ],
+  "rows": [
+    {
+      "id": "T00",
+      "name": "Evidence kit",
+      "decision": "extend_owned",
+      "package": "Voice + Pipeline",
+      "adaptation": "Versioned evidence and voice card, author edit decisions and gaps.",
+      "acceptance": "Client corrects a material fact and approved wording. The prior revision remains visible.",
+      "source_id": "S05"
+    },
+    {
+      "id": "T01",
+      "name": "Buyer/message brief",
+      "decision": "extend_owned",
+      "package": "Both",
+      "adaptation": "Buyer question/role grid and distinct fit, observed interaction, need and expressed-interest fields.",
+      "acceptance": "A like alone never changes need or buying-interest status.",
+      "source_id": "S01"
+    },
+    {
+      "id": "T02",
+      "name": "Profile studio",
+      "decision": "reuse_owned",
+      "package": "Voice foundation",
+      "adaptation": "Profile draft supported by approved offer and proof.",
+      "acceptance": "Client can explain whom the headline helps and inspect the Featured example.",
+      "source_id": "S02"
+    },
+    {
+      "id": "T03",
+      "name": "Decision-to-post workbench",
+      "decision": "extend_owned",
+      "package": "Voice foundation",
+      "adaptation": "Source-linked idea queue, voice-aware caption and approval history.",
+      "acceptance": "Every proposed topic has a buyer question, source, author position and takeaway.",
+      "source_id": "S05"
+    },
+    {
+      "id": "T04",
+      "name": "Visual/story planner",
+      "decision": "reuse_owned",
+      "package": "Voice foundation",
+      "adaptation": "Native branded visual, purposeful natural photographic context and accessible export.",
+      "acceptance": "Font/legibility/render checks and actual human visual review pass.",
+      "source_id": "S03"
+    },
+    {
+      "id": "T05",
+      "name": "Profile/landing review",
+      "decision": "reuse_owned",
+      "package": "Both",
+      "adaptation": "Bounded initial audit, priorities and optional one-tool recommendation.",
+      "acceptance": "Findings link to observed examples. No guarantee of conversion lift.",
+      "source_id": "S01"
+    },
+    {
+      "id": "T06",
+      "name": "Search planner",
+      "decision": "reuse_owned",
+      "package": "Pipeline",
+      "adaptation": "Permitted native-search brief and optional verified enrichment route.",
+      "acceptance": "Domain, role and reason to contact are checked with sources.",
+      "source_id": "S01"
+    },
+    {
+      "id": "T07",
+      "name": "Research CSV workbench",
+      "decision": "extend_owned",
+      "package": "Pipeline",
+      "adaptation": "Contact evidence ledger, deduplication and source/date fields.",
+      "acceptance": "Duplicate observations remain one person/contact with multiple dated events.",
+      "source_id": "S03"
+    },
+    {
+      "id": "T08",
+      "name": "Owned-media intake",
+      "decision": "reuse_owned",
+      "package": "Voice foundation",
+      "adaptation": "Permitted author recordings/material, preserved original and reviewed notes.",
+      "acceptance": "Author approves the actual facts/voice, no invented personal story.",
+      "source_id": "S02"
+    },
+    {
+      "id": "T09",
+      "name": "Business email finder and verification brief",
+      "decision": "defer_until_scope",
+      "package": "Optional Pipeline",
+      "adaptation": "Existing proposed module, vendor/source/cost verification first.",
+      "acceptance": "Identity and permitted business-contact route verified before any sending.",
+      "source_id": "S01"
+    },
+    {
+      "id": "T10",
+      "name": "Outreach campaign and reply planner",
+      "decision": "extend_spec_then_test",
+      "package": "Pipeline",
+      "adaptation": "Relevant reply/comment drafts, actual conversation stage and sales handoff brief.",
+      "acceptance": "A human sees context and approves an actual external action. Reply and next step are logged separately from reactions.",
+      "source_id": "S03"
+    },
+    {
+      "id": "T11",
+      "name": "LinkedIn ads strategy and measurement brief",
+      "decision": "retain_optional",
+      "package": "Optional paid branch",
+      "adaptation": "Separate paid-distribution test and measurement brief.",
+      "acceptance": "Budget, payer, account permissions and measurement agreed. No new ads capability inferred from CCCrafts.",
+      "source_id": "S01"
+    }
+  ],
+  "cross_cutting_candidate": {
+    "name": "Publora",
+    "role": "Approved publishing adapter and possibly owned-account reporting after tests",
+    "new_module_id": null,
+    "runtime": "not_connected_not_tested",
+    "scope_limit": "Not a replacement for arbitrary LinkedIn feed research or the held collector"
+  }
+}

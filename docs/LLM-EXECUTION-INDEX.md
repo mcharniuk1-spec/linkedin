@@ -24,3 +24,7 @@ Start with [the delivery catalog](../reports/20261112-publication-catalog/README
 Photographic context should feel natural, like a candid phone photo from an ordinary office, with useful working detail and imperfect light. Avoid polished staged stationery and stock-like filler. Use owner-provided personal photographs where authorized. Synthetic scenes must be identified as illustrative and must not impersonate the founder, a client or a real event. Native brand typography and purposeful emphasis remain separate editable elements.
 
 No verified social post URL exists for this edition. Current Metricool has no LinkedIn connection. Keep exact caption/creative revisions in Review until author review and an actual authorized publication route are recorded. Account actions, recurring collection and installed skill changes are not activated by this index.
+
+## CCCrafts service/tool reference — 13 November 2026
+
+[Reviewed positioning and package decisions](../reports/20261113-cccrafts/README.md) · [T00–T11 mapping](../reports/20261113-cccrafts/module-map.json) · [Publora candidate and tests](../reports/20261113-cccrafts/PUBLORA.md) · [Execution/task order](../reports/20261113-cccrafts/EXECUTION.md). Treat this as a source-linked planning extension. Preserve current offer names, source/voice ownership, per-client cadence, actual approval history and separate contact fit/interaction/need/interest. No vendor connection, website copy, collector access, paid execution or installed skill change is implied. Task 93 records the bounded research delivery under Max.
